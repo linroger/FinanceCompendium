@@ -1,9 +1,9 @@
 ---
 title: "A Primer on Currency Derivatives"
 parent_directory: Options Futures & Forwards
-formatted: 2025-12-21 11:03:25 PM
-formatter_model: claude-3-5-sonnet-20241022
-cli-tool: claude-code
+formatted: 2025-12-21 02:25:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
    - currency derivatives
    - forward contracts
@@ -46,27 +46,15 @@ Exchange rate uncertainty is a common problem in international trade. Exchange r
 
 derivatives, which would have reduced the currency risk faced by the corporation.
 
-In this article, we'll look at the three major currency derivatives: options, forwards, and futures. Although these derivatives are used to reduce the risk in international trade, they can also be used to speculate in foreign exchange, a risky proposition that has received much media attention. A common misconception
-
-tion is that derivatives are inherently mysterious, highly risky, and complex. On the contrary, the basic ideas underlying derivatives are not difficult to understand; indeed, futures and options can be understood as combinations of the simplest derivative, the forward contract. Moreover, derivatives are not neces
-
-sarily very risky and can be used to reduce the risk inherent in other investments.
+In this article, we'll look at the three major currency derivatives: options, forwards, and futures. Although these derivatives are used to reduce the risk in international trade, they can also be used to speculate in foreign exchange, a risky proposition that has received much media attention. A common misconception is that derivatives are inherently mysterious, highly risky, and complex. On the contrary, the basic ideas underlying derivatives are not difficult to understand; indeed, futures and options can be understood as combinations of the simplest derivative, the forward contract. Moreover, derivatives are not necessarily very risky and can be used to reduce the risk inherent in other investments.
 
 ## FORWARD CONTRACTS
 
-One way for the company to lock in the exchange rate in one year is to enter into a forward contract. A forward contract is an agreement to buy or sell a specific quantity of currency at a predetermined dollar price on a specific date in the future. The predetermined price is called the forward exchange rate. The
+One way for the company to lock in the exchange rate in one year is to enter into a forward contract. A forward contract is an agreement to buy or sell a specific quantity of currency at a predetermined dollar price on a specific date in the future. The predetermined price is called the forward exchange rate. The forward exchange rate is set to a value such that no money is required up front to enter the contract.
 
 Another method the company might use is to immediately buy the yen it needs at an exchange rate of 100 yen per dollar. However, a relationship known as covered interest parity guarantees that buying the yen immediately and investing them in one-year interest-paying Japanese notes is equivalent to immediately entering a one-year forward contract and investing the dollars that would have been converted to yen in one-year interest-paying U.S. notes. Covered interest parity is generally agreed to hold in the foreign exchange market. For more on covered interest parity, see Grabbe (1991).
 
-forward exchange rate is set to a value such that no money is required up front to enter the contract.
-
-For example, the forward exchange rate for delivery in one year might be 97 yen per dollar. Thus, the company could enter a one-year forward contract on 12.5 million yen (1250 screens at 10,000 yen per screen). No money is transferred until delivery. At delivery the com
-
-A forward contract is an agreement to buy or sell a specific quantity of currency at a predetermined dollar price on a specific date in the future.
-
-pany would be certain to receive an exchange rate of 97 yen per dollar, so that each screen would cost \$103.09, thereby guaranteeing a profit of \$1.91 per screen.
-
-There are always two sides to every forward contract: the buyer of the foreign currency is "long" the forward contract, while the seller of the foreign currency is
+For example, the forward exchange rate for delivery in one year might be 97 yen per dollar. Thus, the company could enter a one-year forward contract on 12.5 million yen (1250 screens at 10,000 yen per screen). No money is transferred until delivery. At delivery the company would be certain to receive an exchange rate of 97 yen per dollar, so that each screen would cost \$103.09, thereby guaranteeing a profit of \$1.91 per screen. There are always two sides to every forward contract: the buyer of the foreign currency is "long" the forward contract, while the seller of the foreign currency is
 
 "short." Forward contracts are usually traded over standardized intervals: 30, 60, 90, or 180 days, or one year. For example, if an investor goes long a 30-day forward contract for 1 million yen at a forward price of 100 yen per dollar, 30 days later the investor is obligated to purchase 1 million yen for \$10,000.
 
@@ -74,13 +62,13 @@ Forward contracts are made over the counter. Unlike an instrument traded on an e
 
 The payoff to the forward contract can be positive or negative. Let's return to the ex
 
-ample of a long one-year forward contract in yen with a forward price of 97 yen per dollar. Assume that the exchange rate when the contract comes due is 100 yen per dollar. In this case, the company suffers a loss, since the forward contract requires it to buy 97 yen for \$1 when it could have obtained 100 yen per dollar at the prevailing exchange rate. On the other hand, if the exchange rate in one year turns out to be 95 yen per dollar, the company would make a profit, since the forward contract would allow it to exchange currency at 97 yen per dollar instead of the prevailing exchange rate of 95 yen per dollar.
+example of a long one-year forward contract in yen with a forward price of 97 yen per dollar. Assume that the exchange rate when the contract comes due is 100 yen per dollar. In this case, the company suffers a loss, since the forward contract requires it to buy 97 yen for \$1 when it could have obtained 100 yen per dollar at the prevailing exchange rate. On the other hand, if the exchange rate in one year turns out to be 95 yen per dollar, the company would make a profit, since the forward contract would allow it to exchange currency at 97 yen per dollar instead of the prevailing exchange rate of 95 yen per dollar.
 
 This suggests a drawback to using forward contracts. Forwards reduce the risk of loss by locking in the future exchange rate. But if the exchange rate moves in a favorable way, the company can't receive the extra profit. For example, suppose we had the same contract described in the previous paragraph, but the exchange rate in one year turned out to be 105 yen per dollar. At 105 yen per dollar, the computer screens would cost  \$95.24, which involves an even larger profit for the company with respect to what it had anticipated. But the forward contract obligates the company to pay 97 yen per dollar, a cost of\$ 103.09 per computer screen.
 
 Another problem with forward contracts is that they involve potentially large credit risk, particularly to banks, which typically take the other side of the contract. Suppose that the company is long the yen at a forward price of 97 yen per dollar on a one-year contract, but in one year the exchange rate is 100 yen per dollar. Then the company takes a loss. If the company refuses to carry out its obligations to purchase the yen at a forward price of 97 yen per dollar—that is, it defaults on the forward contract—the bank will not receive its profit. To guard against this problem, banks will take the other side of a forward contract only if the bank is allowed to reduce the company's line of credit by the amount of the forward con
 
-tract. If the company has no line of credit with the bank, the bank may require the company to deposit 5 percent of the amount of the forward contract as collateral.
+contract. If the company has no line of credit with the bank, the bank may require the company to deposit 5 percent of the amount of the forward contract as collateral.
 
 ## FUTURES CONTRACTS
 
@@ -104,15 +92,11 @@ element, but in practice the magnitude of the co-movement between futures prices
 
 Since the futures contract is settled on a daily basis rather than when the contract matures, default risk is reduced. If the losing party defaults, the winning party's losses are limited to that day's profits. Default risk is also reduced because each side in the futures contract is required to post a performance bond
 
-called "margin." When the futures contract is settled at the end of the day, the losing party must transfer the profit from his margin account to the margin account of the winning party. If the losing party's margin consequently falls below
-
-a threshold level, the losing party must restore the margin account or have the contract terminated.2
+called "margin." When the futures contract is settled at the end of the day, the losing party must transfer the profit from his margin account to the margin account of the winning party. If the losing party's margin consequently falls below a threshold level, the losing party must restore the margin account or have the contract terminated.2
 
 Futures contracts, unlike forward contracts, are traded on organized exchanges. The exchange specifies the features of the contract, such as the quantity of foreign exchange and the time and manner of delivery of the foreign exchange, and makes rules governing the market participants. In the United States, foreign currency futures contracts are traded at the International Money Market of the Chicago Mercantile Exchange. (See Two Exchanges.)
 
-How would the company in our example
-
-2The discussion has been simplified for expository purposes. The winning and losing parties do not directly transfer funds to each other, but rather use a clearing corporation as an intermediary. The clearing corporation also guarantees both sides of the contract against default. For more institutional detail regarding currency futures markets, see Grabbe (1991).
+How would the company in our example2 use a futures contract? The discussion has been simplified for expository purposes. The winning and losing parties do not directly transfer funds to each other, but rather use a clearing corporation as an intermediary. The clearing corporation also guarantees both sides of the contract against default. For more institutional detail regarding currency futures markets, see Grabbe (1991).
 
 ## Two Exchanges
 
@@ -140,7 +124,7 @@ The disadvantage of the futures contract is that risk can't be perfectly hedged,
 
 amount that can be hedged by a futures contract. For example, a company may need to hedge 20 million yen, but since it can hedge only 12.5 million yen per contract (the size of a standard contract on the IMM exchange), it will have to hedge 25 million yen with two contracts. A final dis
 
-advantage the futures contract shares with the forward contract is that it does not allow the company to benefit if the dollar price of the yen falls.
+disadvantage the futures contract shares with the forward contract is that it does not allow the company to benefit if the dollar price of the yen falls.
 
 ## CURRENCY OPTIONS
 
@@ -238,7 +222,7 @@ difficult to understand. To alleviate this problem, a company could develop the 
 
 derivative users should also consider correlation risk. In general, derivatives add value to the marketplace, provided they are well understood and used properly.
 
-# References
+## References
 
 Abken, P. "Over-the-Counter Financial Derivatives: Risky Business?" Federal Reserve Bank of Atlanta Economic Review (March/April 1994), pp. 1-22.  
 Abken, P. "Globalization of Stock, Futures, and Options Markets," Federal Reserve Bank of Atlanta Economic Review (July/August 1991), pp. 1-22.  

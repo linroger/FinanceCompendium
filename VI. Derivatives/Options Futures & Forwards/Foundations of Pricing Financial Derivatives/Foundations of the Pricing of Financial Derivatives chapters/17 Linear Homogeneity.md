@@ -1,15 +1,21 @@
 ---
-aliases:
-  - Linear Homogeneity in Option Pricing
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 17: Applying Linear Homogeneity to Option Pricing"
-linter-yaml-title-alias: "Chapter 17: Applying Linear Homogeneity to Option Pricing"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:22:25 PM
+formatter_model: obsidian-formatting-agent
+cli-tool: claude-code
+primary_tags:
+   - linear homogeneity
+   - exchange options
+   - euler's rule
+secondary_tags:
+   - homogeneous functions
+   - option pricing theory
+   - black-scholes-merton model
+   - spread options
+   - forward start options
+cssclasses: academia
 ---
-
-# Extensions and Generalizations of Derivative Pricing
 
 # Applying Linear Homogeneity to Option Pricing
 
@@ -64,9 +70,8 @@ g (x, y, z) = 2 x ^ {2} + 3 y z - z ^ {2}.
 $$
 
 Here we see that it is homogeneous of degree two.
-
 $$
-\begin{array}{l} g (\lambda x, \lambda y, \lambda z) = 2 \lambda^ {2} x ^ {2} + 3 \lambda^ {2} \gamma z - \lambda^ {2} z ^ {2} \\ = \lambda^ {2} (2 x ^ {2} + 3 y z - z ^ {2}). \\ \end{array}
+\begin{array}{l} g (\lambda x, \lambda y, \lambda z) = 2 \lambda^ {2} x ^ {2} + 3 \lambda^ {2} y z - \lambda^ {2} z ^ {2} \\ = \lambda^ {2} (2 x ^ {2} + 3 y z - z ^ {2}). \\ \end{array}
 $$
 
 What we did is multiply each variable by  $\lambda$ , and the result is the original function multiplied by  $\lambda^2$ . In that case, the function is homogeneous of degree two with respect to  $x, y$ , and  $z$ .
@@ -174,7 +179,7 @@ $$
 From Chapter 14, we know
 
 $$
-\Delta_ {c} = \frac {\partial c}{\partial S} = N \left(d _ {1}\right) \text {a n d} \tag {17.10}
+\Delta_ {c} = \frac {\partial c}{\partial S} = N \left(d _ {1}\right) \text {and} \tag {17.10}
 $$
 
 $$
@@ -210,7 +215,7 @@ $$
 The differential  $dS_{t}$  can be left in this form. We can, however, obtain the exact differential for the risk-free bond,  $dB_{t}$ . We simply take the derivative with respect to  $t$ ,
 
 $$
-\frac {d B _ {t}}{d t} = r _ {c} X e ^ {- r _ {c} \tau} = r _ {c} B _ {t}. (1 7. 1 6)
+\frac {d B _ {t}}{d t} = r _ {c} X e ^ {- r _ {c} \tau} = r _ {c} B _ {t}. \tag {17.16}
 $$
 
 We then obtain the desired differential as
@@ -404,7 +409,7 @@ $$
 $$
 
 $$
-p _ {t} = c _ {t} - \alpha_ {1} S _ {1 t} e ^ {- \delta_ {1} \tau} + \alpha_ {2} S _ {2 t} e ^ {- \delta_ {2} \tau} + X e ^ {- r _ {c} \tau}, (1 7. 3 7)
+p _ {t} = c _ {t} - \alpha_ {1} S _ {1 t} e ^ {- \delta_ {1} \tau} + \alpha_ {2} S _ {2 t} e ^ {- \delta_ {2} \tau} + X e ^ {- r _ {c} \tau}, \tag {17.37}
 $$
 
 where
@@ -510,9 +515,9 @@ In this chapter, we examined the concept of linear homogeneity and showed how it
 
 In Chapter 18, we introduce the concept of a compound option, which is an option on an option. It will go a long way toward helping us to price American options.
 
-# APPENDIX 17A
+## APPENDIX 17A
 
-# Linear Homogeneity and the Arithmetic Brownian Motion Model
+### Linear Homogeneity and the Arithmetic Brownian Motion Model
 
 Following the approach given in this chapter and applying Euler's rule to the ABM model call price,  $c_{t}$ , focused on  $S_{t}$ ,  $X$ , and  $\sigma$  we have
 
@@ -543,11 +548,11 @@ $$
 Recall
 
 $$
-c _ {t} = \left(S _ {t} - X e ^ {- r _ {c} \tau}\right) N \left(d _ {n}\right) + e ^ {- r _ {c} \tau} \sigma_ {n} n \left(d _ {n}\right), \text {w h e r e} \tag {17.60}
+c _ {t} = \left(S _ {t} - X e ^ {- r _ {c} \tau}\right) N \left(d _ {n}\right) + e ^ {- r _ {c} \tau} \sigma_ {n} n \left(d _ {n}\right), \text {where} \tag {17.60}
 $$
 
 $$
-d _ {n} = \frac {S _ {t} - X e ^ {- r _ {c} \tau}}{\sigma_ {n}} \text {a n d} \tag {17.61}
+d _ {n} = \frac {S _ {t} - X e ^ {- r _ {c} \tau}}{\sigma_ {n}} \text {and} \tag {17.61}
 $$
 
 $$
@@ -632,9 +637,9 @@ $$
 c _ {T} = \max  \left(0, S _ {T} - X\right). \tag {17.75}
 $$
 
-# APPENDIX 17B
+## APPENDIX 17B
 
-# Multivariate Itô's Lemma
+### Multivariate Itô's Lemma
 
 Consider  $n$  Itô processes at time  $t$ , expressed as
 
@@ -678,9 +683,9 @@ $$
 \begin{array}{l} d y _ {t} = \left\{\frac {\partial f (X , t)}{\partial t} + \sum_ {k = 1} ^ {n} \frac {\partial f (X , t)}{\partial x _ {k}} \mu_ {k} (X, t) \right. \\ \left. + \frac {1}{2} \sum_ {i = 1} ^ {n} \sum_ {k = 1} ^ {n} \frac {\partial^ {2} f (X , t)}{\partial x _ {i} \partial x _ {k}} \sum_ {j = 1} ^ {m} \sum_ {l = 1} ^ {m} \sigma_ {i j} (X, t) \sigma_ {k l} (X, t) \rho_ {j l} (X, t) \right\} d t \\ + \sum_ {k = 1} ^ {n} \frac {\partial f (X , t)}{\partial x _ {k}} \sum_ {j = 1} ^ {m} \sigma_ {k, j} (X, t) d W _ {j, t}. \tag {17.83} \\ \end{array}
 $$
 
-# APPENDIX 17C
+## APPENDIX 17C
 
-# Greeks of the Exchange Option Model
+### Greeks of the Exchange Option Model
 
 We obtain the first and second derivatives in symbolic form. The deltas with respect to the two asset prices were obtained previously but not carried out in detail. They are
 
@@ -740,46 +745,4 @@ $$
 
 Note that the risk-free rate does not appear in the price equation. Hence, there is no rho.
 
-# QUESTIONS AND PROBLEMS
-
-1 Given the following standard ABM model, demonstrate that it does not have the property of linear homogeneity in  $S_{t}$  and  $X$ , alone.
-
-$$
-c _ {t} = \left(S _ {t} - X e ^ {- r _ {c} \tau}\right) N \left(d _ {n}\right) + e ^ {- r _ {c} \tau} \sigma_ {n} n \left(d _ {n}\right), \text {w h e r e}
-$$
-
-$$
-d _ {n} = \frac {S _ {t} - X e ^ {- r _ {c} \tau}}{\sigma_ {n}} \mathrm {a n d}
-$$
-
-$$
-\sigma_ {n} = \sigma \sqrt {\frac {e ^ {- 2 r _ {c} \tau} - 1}{2 r}}.
-$$
-
-You are given the following partial derivatives:
-
-$$
-\frac {\partial c}{\partial S} = N \left(d _ {n}\right) \text {a n d}
-$$
-
-$$
-\frac {\partial c}{\partial X} = - e ^ {- r _ {c} \tau} N (d _ {n}).
-$$
-
-2 Assume a stock has a \$1 price and a corresponding one year call option is at-the-money. Further, assume no dividends and the risk-free rate is zero. For this case, compare the results of the Black-Scholes-Merton model and ABM model.  
-3 Demonstrate that American exchange options on non-dividend-paying assets will not be exercised early. Thus, American exchange options will be worth the same as European exchange options.  
-4 A hedge fund recently hired a new and highly talented manager. In negotiations, they will receive  $20\%$  of any superior performance above the SPY (an exchange-traded fund that seeks to mimic an investment in the S&P 500 index) over the next year. If they underperform the SPY, then their compensation is zero. Based on this information, identify the valuation model that would provide the fair market value of this compensation scheme. Further, explain the manager's incentive based on this compensation scheme.  
-5 For two constants,  $\alpha_{1} > 0$  and  $\alpha_{2} > 0$ , prove the following put-call parity representation:
-
-$$
-c \left(\alpha_ {1} S _ {1}, \alpha_ {2} S _ {2}\right) - p \left(\alpha_ {1} S _ {1}, \alpha_ {2} S _ {2}\right) = \alpha_ {1} S _ {1} - \alpha_ {2} S _ {2}.
-$$
-
-6 Prove the lower bound of a call spread option is  $c_{t} \geq \max \left(0, \alpha_{1} S_{1t} - \alpha_{2} S_{2t} - X e^{-r_{c}\tau}\right)$ .
-
-# NOTES
-
-1. Alternatively, we could assume each asset follows arithmetic Brownian motion with geometric drift. In this case, the subtraction of two normally distributed variables is also normally distributed, hence, arriving at the pricing model is straightforward.  
-2. See Appendix 17B for a formal statement of the multivariate Itô's lemma.  
-3. For extensive discussion of spread options, see Brooks and Cline (2015).
 

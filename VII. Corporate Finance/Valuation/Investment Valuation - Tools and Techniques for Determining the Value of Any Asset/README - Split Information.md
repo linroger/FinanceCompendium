@@ -1,11 +1,19 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Investment Valuation Document Split - Summary Report"
+parent_directory: "Investment Valuation - Tools and Techniques for Determining the Value of Any Asset"
+formatted: "2025-12-21 02:25:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - document organization
+  - valuation methodology
+  - content management
+secondary_tags:
+  - file splitting
+  - chapter structure
+  - content verification
+  - missing content
 cssclasses: academia
-title: Investment Valuation Document Split - Summary Report
-linter-yaml-title-alias: Investment Valuation Document Split - Summary Report
 ---
 
 # Investment Valuation Document Split - Summary Report

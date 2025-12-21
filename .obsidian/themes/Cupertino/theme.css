@@ -691,7 +691,8 @@ body {
   --nav-item-padding: 4px 10px 4px 14px;
   --nav-indentation-guide-width: 0px;
   --nav-header-align: center;
-  --nav-item-children-padding-left: 16px;
+  --nav-item-children-padding-start: 16px;
+  --nav-item-children-margin-start: 0px;
   --nav-item-radius: 6px;
   --nav-item-transition: all var(--anim-duration-fast) var(--anim-motion-cupertino);
   --ribbon-background: var(--surface-sidebar);
@@ -716,6 +717,7 @@ body {
 
 body.is-mobile {
   --nav-item-padding: 12px 20px;
+  --nav-item-children-padding-start: 12px;
   --nav-item-children-margin-start: 12px;
 }
 

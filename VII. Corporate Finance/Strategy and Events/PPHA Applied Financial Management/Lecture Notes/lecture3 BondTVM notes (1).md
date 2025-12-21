@@ -1,12 +1,33 @@
 ---
-parent_directory:
+parent_directory: PPHA Applied Financial Management/Lecture Notes
 title: Time Value of Money
-tags:
 aliases:
-parent_folder: Lecture Notes
-subfolder:
+  - TVM
+  - Time Value of Money
+  - Financial Calculations
+tags:
 key_concepts:
 cssclasses: academia
+formatted: 2025-12-21 06:45:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - time value of money
+   - financial calculations
+   - python implementation
+   - present value
+   - future value
+   - internal rate of return
+secondary_tags:
+   - annuity calculations
+   - loan payments
+   - investment analysis
+   - compound interest
+   - financial modeling
+   - bond valuation
+   - mortgage calculations
+   - retirement planning
+   - cash flow analysis
 linter-yaml-title-alias: Time Value of Money
 ---
 

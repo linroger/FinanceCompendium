@@ -1,16 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Appendix A Compounding Frequencies for Interest Rates"
+parent_directory: Risk Management and Financial Institutions/Part 8 Appendices
+formatted: 2025-12-21 02:50:00 AM
+formatter_agent: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - interest rate compounding
+  - continuous compounding
+  - equivalent rates
+secondary_tags:
+  - annual compounding
+  - semiannual compounding
+  - quarterly compounding
+  - monthly compounding
+  - weekly compounding
+  - daily compounding
+  - exponential growth
+  - discount factors
 cssclasses: academia
-title: Appendix A
-linter-yaml-title-alias: Appendix A
 ---
 
 # Appendix A
 
-# Compounding Frequencies for Interest Rates statement by a bank that the interest rate on one-year deposits is  $10\%$  per annum sounds straightforward and unambiguous. In fact, its precise meaning depends on the way the interest rate is measured.
+## Compounding Frequencies for Interest Rates statement by a bank that the interest rate on one-year deposits is  $10\%$  per annum sounds straightforward and unambiguous. In fact, its precise meaning depends on the way the interest rate is measured.
 
 If the interest rate is measured with annual compounding, the bank's statement that the interest rate is  $10\%$  means that  $\$ 100$  grows to
 
@@ -55,7 +67,7 @@ $$
 
 When  $m = 1$  the rate is sometimes referred to as the equivalent annual interest rate.
 
-# A.1 Continuous Compounding
+## A.1 Continuous Compounding
 
 The limit as the compounding frequency,  $m$ , tends to infinity is known as continuous compounding. With continuous compounding, it can be shown that an amount  $A$  invested for  $n$  years at rate  $R$  grows to
 
@@ -96,7 +108,7 @@ $$
 
 These equations can be used to convert a rate with a compounding frequency of  $m$  times per annum to a continuously compounded rate and vice versa. The function  $\ln x$  is the natural logarithm function and is built into most calculators. It is defined so that if  $\gamma = \ln x$ , then  $x = e^y$ .
 
-# Example A.1
+## Example A.1
 
 Consider an interest rate that is quoted as  $10\%$  per annum with semiannual compounding. From equation (A.3), with  $m = 2$  and  $R_{m} = 0.1$ , the equivalent rate with continuous compounding is
 
@@ -106,7 +118,7 @@ $$
 
 $$ or  $9.758\%$  per annum.
 
-# Example A.2
+## Example A.2
 
 Suppose that a lender quotes the interest rate on loans as  $8\%$  per annum with continuous compounding, and that interest is actually paid quarterly. From equation (A.4), with  $m = 4$  and  $R_{c} = 0.08$ , the equivalent rate with quarterly compounding is
 

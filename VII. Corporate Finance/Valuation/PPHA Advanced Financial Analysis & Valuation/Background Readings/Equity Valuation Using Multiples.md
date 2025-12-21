@@ -10,9 +10,26 @@ cssclasses: academia
 linter-yaml-title-alias: Equity Valuation Using Multiples
 ---
 
+---
+title: "Equity Valuation Using Multiples"
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Background Readings
+formatted: 2025-12-21 03:00:00 AM
+formatter_agent: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - equity valuation
+  - price earnings multiples
+  - discounted cash flow
+secondary_tags:
+  - valuation methodologies
+  - financial analysis techniques
+  - investment evaluation
+cssclasses: academia
+---
+
 # Equity Valuation Using Multiples
 
-# ABSTRACT
+## ABSTRACT
 
 We examine the valuation performance of a comprehensive list of value drivers and find that multiples derived from forward earnings explain stock prices remarkably well: pricing errors are within 15 percent of stock prices for about half our sample. In terms of relative performance, the following general rankings are observed consistently each year: forward earnings measures are followed by historical earnings measures, cash flow measures and book value of equity are tied for third, and sales performs the worst. Curiously, performance declines when we consider more complex measures of intrinsic value based on short-cut residual income models. Contrary to the popular view that different industries have different "best" multiples, these overall rankings are observed consistently for almost all industries examined. Since we require analysts' earnings and growth forecasts and positive values for all measures, our results may not be representative of the many firm-years excluded from our sample.
 

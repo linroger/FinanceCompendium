@@ -1,8 +1,18 @@
 ---
 aliases: [Volatility Modeling with SABR]
-tags:
-key_concepts:
 parent_directory: FINM Fixed Income Derivatives/Lecture Notes
+formatted: 2025-12-21 10:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - SABR model
+  - volatility modeling
+  - stochastic volatility
+secondary_tags:
+  - implied volatility
+  - volatility surface
+  - black scholes model
+  - delta hedging
 cssclasses: academia
 title: "W.4. Volatility Modeling with SABR"
 ---

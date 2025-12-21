@@ -150,7 +150,6 @@ Figure 2.3 is a listing of Treasury issues. The coupon rate of the highlighted b
 The yield to maturity reported in the last column is calculated by doubling the semiannual yield, rather than compounding it for two half-year periods. This use of a simple interest technique to annualize means that the yield is quoted as an annual percentage rate (APR) rather than as an effective annual yield. The APR in this context is also called the bond equivalent yield. We discuss the yield to maturity in more detail in Part Four.
 
 Figure 2.3 Listing of Treasury bonds and notes
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/705eb1ec48c57f39815d1ca5fe69af1892abaf55559531ef11302cc41004d07b.jpg)
 Source: The Wall Street Journal Online, July 14, 2021.
 
 # Concept Check 2.1
@@ -687,8 +686,6 @@ www.bloomberg.com—Go to the Stocks tab, and get a quote using the company's ti
 a. Compute the monthly return on a price-weighted index of the five stocks.
 b. Compute the monthly return on a value-weighted index of the five stocks.
 c. Compare the two returns and explain their differences. Explain how you would interpret each measure.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ecd6f63416a16bb8534adc28c3d46dc5d00e6aaa91c9e404e043272aab549666.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

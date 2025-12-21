@@ -1,8 +1,8 @@
 ---
-title: "Chapter 23 - Monte Carlo Valuation"
+title: Chapter 23 - Monte Carlo Valuation
 parent_directory: Derivatives Market Complete Full/chapters manual
-formatted: 2025-12-21 11:20:00 AM
-formatter_model: claude-sonnet-4-5-20250929
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
 cli-tool: claude-code
 primary_tags:
   - monte carlo valuation
@@ -35,20 +35,7 @@ Option valuation can be performed as if all assets earned the risk-free rate of 
 From Chapter 19 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
 $$
-V[S(0), 0] = e^{-rT} \mathrm{E}_{0}^{*} [V(S(T), T)] \tag{1}
-$$ where $\mathrm{E}_0^*$ is the expectation computed at time 0 using the risk-neutral distribution. Monte Carlo valuation exploits this procedure. We assume that assets earn the risk-free rate of return and simulate their returns. For example, for any given stock price 3 months from now, we can compute the payoff on a call. We perform the simulation many times and average the outcomes. This provides an estimate of $\mathrm{E}_0^*[V(S_T), S_T]$. Since we use risk-neutral valuation, we then discount the average payoff at the risk-free rate in order to arrive at the price.
-
-
-As a practical matter, Monte Carlo valuation depends critically on risk-neutral valuation. In order to see why this is so, we will compute an option price as an expected value with both risk-neutral and true probabilities.
-
-# Valuation with Risk-Neutral Probabilities
-
-We can interpret the one-period binomial option pricing calculation as an expected value, in which the expectation is computed using the risk-neutral probability $p^*$ and discounting is at the risk-free rate.
-
-In a multiperiod tree, we repeat this process at each node. For a European option, the result obtained by working backward through the tree is equivalent to computing the expected option price in the final period, and discounting at the risk-free rate.
-
-If there are $n$ binomial periods, the equation
-
+V[S(0),0] = e^{-rT} \mathrm{E}_{0}^{*} [V(S(T),T)]
 $$
 \text{Probability ith node} = p^{*n-i}(1-p^*)^i \frac{n!}{(n-i)!i!}
 $$
@@ -73,7 +60,7 @@ Binomial tree showing stock price paths, along with risk-neutral probabilities o
 
 It is easy to compute the actual expected payoff for the option in Figure 1 without using a gambling wheel. However, the example illustrates how random trials can be used to perform valuation.
 
-# Valuation with True Probabilities
+## Valuation with True Probabilities
 
 The simple procedure we used to discount payoffs for the risk-neutral tree in Figure 1 does not work when we use actual probabilities. In fact, if we are to compute an option price as an expected value using true probabilities, we need to compute the discount rate for each
 
@@ -83,7 +70,7 @@ TABLEI
 
 <table><tr><td>Path</td><td colspan="3">Discount Rates Along Path</td><td>Discount Rate for Path</td><td>Prob. of Path</td><td>Payoff ($)</td><td>Discounted ($) (Prob. × Payoff)</td></tr><tr><td>uuu</td><td>35.7\%</td><td>32.3\%</td><td>26.9\%</td><td>31.64\%</td><td>0.1444</td><td>34.678</td><td>3.649</td></tr><tr><td>uud</td><td>35.7\%</td><td>32.3\%</td><td>26.9\%</td><td>31.64\%</td><td>0.1308</td><td>12.814</td><td>1.222</td></tr><tr><td>udu</td><td>35.7\%</td><td>32.3\%</td><td>49.5\%</td><td>39.18\%</td><td>0.1308</td><td>12.814</td><td>1.133</td></tr><tr><td>duu</td><td>35.7\%</td><td>49.5\%</td><td>49.5\%</td><td>44.91\%</td><td>0.1308</td><td>12.814</td><td>1.070</td></tr><tr><td>udd</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0</td><td>0</td></tr><tr><td>dud</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0</td><td>0</td></tr><tr><td>ddu</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0</td><td>0</td></tr><tr><td>ddd</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0</td><td>0</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>Sum</td><td></td><td>7.074</td></tr></table> path. There are eight possible paths for the stock price, four of which result in a positive option payoff. All of these paths have a first-period annualized continuously compounded discount rate of  $35.7\%$ . The subsequent discount rates depend on the path the stock takes. Table 1 verifies that discounting payoffs at path-dependent discount rates gives the correct option price. To take just the first row, the discounted expected option payoff for that row is computed as follows:
 
-$$ e ^ {- (0. 3 5 7 \times \frac {1}{3} + 0. 3 2 3 \times \frac {1}{3} + 0. 2 6 9 \times \frac {1}{3})} \times (0. 5 2 4 6) ^ {3} \times (\$ 7 4. 6 7 8 - \$ 4 0) = \$ 3. 6 4 9
+$$ e^{-(0.357 \times 1/3 + 0.323 \times 1/3 + 0.269 \times 1/3)} \times (0.5246)^3 \times (\$74.678 - \$40) = \$3.649
 
 $$
 
@@ -93,11 +80,11 @@ As Table 1 illustrates, it is necessary to have a different cumulative discount 
 
 Risk-neutral valuation neatly sidesteps the hardest problem about using discounted cash flow valuation techniques with an option. While it is easy to compute the expected payoff of an option if the stock is lognormally distributed, it is hard to compute the discount rate. If we value options as if the world were risk-neutral, this complication is avoided.
 
-# 2. COMPUTING RANDOM NUMBERS
+## 2. COMPUTING RANDOM NUMBERS
 
 In this section we discuss how to compute the normally distributed random numbers required for Monte Carlo valuation. The uniform distribution is defined on a specified range, over which the probability is 1, and assigns equal probabilities to every interval of equal length on that range. A random variable,  $u$ , that is uniformly distributed on the interval  $(a,b)$ , has the distribution  $\mathcal{U}(a,b)$ . The uniform probability density,  $f(x;a,b)$ , is defined as
 
-$$ f (x; a, b) = \frac {1}{b - a}; a \leq x \leq b \tag {3}
+$$ f(x;a,b) = \frac{1}{b-a}; a \leq x \leq b \tag{3}
 $$ and is 0 otherwise. When  $a = 0$  and  $b = 1$ , the uniform distribution is a flat line at a height of 1 over the range 0 to 1.
 
 
@@ -123,24 +110,24 @@ This procedure simulates draws from a normal distribution. To simulate a log-nor
 
 This procedure of using the inverse cumulative probability distribution is valuable because it works for any distribution for which you can compute the inverse cumulative distribution.4
 
-# 3. SIMULATING LOGNORMAL STOCK PRICES
+## 3. SIMULATING LOGNORMAL STOCK PRICES
 
 If  $Z\sim \mathcal{N}(0,1)$  , a lognormal stock price can be written
 
 $$
-S _ {T} = S _ {0} e ^ {(\alpha - \delta - \frac {1}{2} \sigma^ {2}) T + \sigma \sqrt {T} Z} \tag {4}
+S_{nh} = S_{(n-1)h} e^{(\alpha - \delta - \frac{1}{2}\sigma^2)h + \sigma\sqrt{h} Z(n)}
 $$
 
 Suppose we wish to draw random stock prices for 2 years from today. From equation (4), the stock price is driven by the normally distributed random variable  $Z$ . Set  $T = 2$ ,  $\alpha = 0.10$ ,  $\delta = 0$ , and  $\sigma = 0.30$ . If we then randomly draw a set of standard normal  $Z$ 's and substitute the results into equation (4), the result is a random set of lognormally distributed  $S_{2}$ 's. The continuously compounded mean return will be  $20\%$  (10\% per year) and the continuously compounded standard deviation of  $\ln(S_{2})$  will be  $0.3 \times \sqrt{2} = 42.43\%$ .
 
-# Simulating a Sequence of Stock Prices
+## Simulating a Sequence of Stock Prices
 
 There is another way to create a random set of prices 2 years from now. We can also generate annual random prices and compound these to get a 2-year price. This will give us exactly the same distribution for 2-year prices. Here is how to do it:
 
 - Compute the 1-year price,  $S_{1}$ , as
 
 $$
-S _ {1} = S _ {0} e ^ {(0. 1 - \frac {1}{2} 0. 3 ^ {2}) \times 1 + \sigma \sqrt {1} Z (1)}
+n - 1 + n - 2 + \dots + 1 = \frac{1}{2} n(n - 1)
 $$
 
 - Using this  $S_{1}$  as the starting price, compute  $S_{2}$ :
@@ -205,7 +192,7 @@ $$
 
 Since  $\frac{1}{\sqrt{n}}\sum_{i=1}^{n}Z(i)\sim\mathcal{N}(0,1)$ , we get the same distribution at time  $T$  with equation (6) as if we had drawn a single  $\mathcal{N}(0,1)$  random variable, as in equation (4). By splitting up the problem into  $n$  draws, however, we simulate the path taken by  $S$ . The simulation of a path is useful in computing the value of path-dependent derivatives, such as Asian and barrier options.
 
-# 4. MONTE CARLO VALUATION
+## 4. MONTE CARLO VALUATION
 
 In Monte Carlo valuation, we perform a calculation similar to that in equation (2). The option payoff at time  $T$  is a function of the stock price,  $S_{T}$ . Represent this payoff as  $V(S_{T}, T)$ . The time-0 Monte Carlo price,  $V(S_{0}, 0)$ , is then
 
@@ -219,33 +206,33 @@ Both equations (2) and (7) use approximations to the time- $T$  stock price dist
 
 As an illustration of Monte Carlo techniques, we will first work with a problem for which we already know the answer. Suppose we have a European option that expires in  $T$  periods. The underlying asset has volatility  $\sigma$  and the risk-free rate is  $r$ . We can use the Black-Scholes option pricing formula to price the option, but we will price the option using both Black-Scholes and Monte Carlo so that we can assess the performance of Monte Carlo valuation.
 
-# Monte Carlo Valuation of a European Call
+## Monte Carlo Valuation of a European Call
 
 We assume that the stock price follows the risk-neutral version of equation (4), obtained by setting  $\alpha = r$ . We generate random standard normal variables,  $Z$ , substitute them into equation (4), and generate many random future stock prices. Each  $Z$  creates one trial. Suppose we compute  $N$  trials. For each trial,  $i$ , we compute the value of a call as
 
 $$
-\max  (0, S _ {T} ^ {i} - K) = \max  \left(0, S _ {0} e ^ {(r - \delta - 0. 5 \sigma^ {2}) T + \sigma \sqrt {T} Z _ {i}} - K\right); \quad i = 1, \dots , N
+\max(0, S_{T}^{i} - K) = \max\left(0, S_{0} e^{(r - \delta - 0.5\sigma^2)T + \sigma\sqrt{T} Z_{i}} - K\right); \quad i=1,\dots,N
 $$
 
 Average the resulting values:
 
 $$
-\frac {1}{N} \sum_ {i = 1} ^ {N} \max  (0, S _ {T} ^ {i} - K)
+\frac{1}{N} \sum_{i=1}^{N} \max(0, S_{T}^{i} - K)
 $$
 
 This expression gives us an estimate of the expected option payoff at time  $T$ . We discount the average payoff back at the risk-free rate in order to get an estimate of the option value:
 
 $$
-\overline {{C}} = e ^ {- r T} \frac {1}{N} \sum_ {i = 1} ^ {N} \max (0, S _ {T} ^ {i} - K)
+\overline{C}_{n} = \frac{1}{n} \sum_{i=1}^{n} C(\tilde{S}_{i})
 $$
 
 Example 1. Suppose we wish to value a 3-month European call option where the stock price is  \$40, the strike price is\$ 40, the risk-free rate is 8\%, the dividend yield is zero, and the volatility is 30\%. We draw random 3-month stock prices by using the expression
 
 $$
-S _ {3 \mathrm {m o n t h s}} = S _ {0} e ^ {(0. 0 8 - 0. 3 ^ {2} / 2) \times 0. 2 5 + 0. 3 \sqrt {0 . 2 5} Z}
+S_{3\text{months}} = S_{0} e^{(0.08 - 0.3^2/2) \times 0.25 + 0.3\sqrt{0.25} Z}
 $$
 
-TABLE 2
+**TABLE 2**
 
 Results of Monte Carlo valuation of European call with  S = \ 40 ,  K = \ 40 ,  \sigma = 30\% ,  r = 8\% ,  t = 91  days, and  \delta = 0 . The Black-Scholes price is  \ 2.78 . Each trial uses 500 random draws.
 
@@ -261,7 +248,7 @@ We repeat this procedure many times, average the resulting option payoffs, and d
 
 In this example we priced a European-style option. We will discuss in Section 6 the use of Monte Carlo simulation to value American-style options.
 
-# Accuracy of Monte Carlo
+## Accuracy of Monte Carlo
 
 There is no need to value a European call using Monte Carlo methods, but doing so allows us to assess the accuracy of Monte Carlo valuation for a given number of simulated stock price paths. The key question is how many simulated stock prices suffice to value an option to a desired degree of accuracy. Monte Carlo valuation is simple but relatively inefficient. There are methods that improve the efficiency of Monte Carlo; we discuss several of these in Section 5.
 
@@ -272,7 +259,7 @@ Table 2 shows the results from running five Monte Carlo valuations, each contain
 To assess accuracy, we need to know the standard deviation of the estimate. Let  $C(\tilde{S}_i)$  be the call price generated from the randomly drawn  $\tilde{S}_i$ . If there are  $n$  trials, the Monte Carlo estimate is
 
 $$
-\overline {{C}} _ {n} = \frac {1}{n} \sum_ {i = 1} ^ {n} C (\tilde {S} _ {i})
+V(S_{0},0) = \frac{1}{n} e^{-rT} \sum_{i=1}^{n} V(S_{T}^{i},T) \tag{7}
 $$
 
 Let  $\sigma_{C}$  denote the standard deviation of one draw and  $\sigma_{n}$  the standard deviation of  $n$  draws. The variance of a mean, given independent and identically distributed  $\tilde{S}_i$ 's, is
@@ -300,7 +287,7 @@ $$
 
 Given that the correct price is  $2.78, a$ 0.18 standard deviation is a substantial percentage of the option price (6.5\%). With 2500 observations, the standard deviation is cut to \$0.08, suggesting that the \$2.80 estimate from averaging the five answers was only accidentally close to the correct answer. In order to have a 1\% (0.028) standard deviation, we would need to have 21,000 trials.
 
-# Arithmetic Asian Option
+## Arithmetic Asian Option
 
 In the previous example of Monte Carlo valuation, we valued an option that we already could value with the Black-Scholes formula. In practice, Monte Carlo valuation is useful under these conditions:
 
@@ -312,7 +299,7 @@ For the case of a path-dependent option, the use of Monte Carlo estimation is st
 
 How will the value of an option on the average compare with an option that settles based on the actual expiration-day stock price? Intuitively, averaging should reduce the likelihood of large gains and losses. Any time the stock ends up high (in which case the call will have a high value at expiration), it will have traversed intermediate stock prices in
 
-# FIGURE 2
+**FIGURE 2**
 
 Histograms for risk-neutral stock price distribution after 3 months (top panel) and risk-neutral distribution for the average stock price created by averaging the three month-end stock prices during the same period (bottom panel). Assumes  S_0 = \40, r = 8\% ,  \sigma = 30\% , and  \delta = 0 . These histograms were generated using 100,000 trials.
 
@@ -347,7 +334,7 @@ Example 2. Let  r = 8\% ,  \sigma = 0.3 , and suppose that the initial stock pri
 
 Table 3 lists prices of Asian options computed using 10,000 Monte Carlo trials each. The first row (where a single terminal price is averaged) represents the price of an ordinary call option with 3 months to expiration. The others represent more frequent averaging. The
 
-# TABLE 3
+**TABLE 3**
 
 Prices of arithmetic average-price Asian options estimated using Monte Carlo and exact prices of geometric average price options. Assumes option has 3 months to expiration and average is computed using equal intervals over the period. Each price is computed using 10,000 trials, assuming  $S = \40$ ,  $K = \$ 40 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 0.25\$ , and  $\delta = 0$ . In each row, the same random numbers were used to compute both the geometric and arithmetic average price options.  $\sigma_{n}$  is the standard deviation of the estimated arithmetic option prices, divided by  $\sqrt{10,000}$ .
 
@@ -357,11 +344,11 @@ Asian price declines as the averaging frequency increases, with the largest pric
 
 Note also in Table 3 that, in any row, the arithmetic average price is always above the geometric average price. This is Jensen's inequality at work: Geometric averaging produces a lower average stock price than arithmetic averaging, and hence a lower option price.
 
-# 5. EFFICIENT MONTE CARLO VALUATION
+## 5. EFFICIENT MONTE CARLO VALUATION
 
 We have been describing what might be called "naive" or simple Monte Carlo, making no attempt to reduce the variance of the simulated answer for a given number of trials. There are a number of methods to achieve faster Monte Carlo valuations.
 
-# Control Variate Method
+### Control Variate Method
 
 We have seen that naive Monte Carlo estimation of an arithmetic Asian option requires many simulations. In Table 3, even with 10,000 simulations, there is still a standard deviation of several percent in the option price.
 
@@ -392,7 +379,7 @@ $$ where  $\rho$  is the correlation between  $\overline{A}$  and  $\overline{G}
 
 If the simulated claim and the control are highly correlated, the variance reduction from the control variate method can be dramatic. Figure 3 compares the results from a
 
-# FIGURE 3
+**FIGURE 3**
 
 Histograms comparing simple and efficient Monte Carlo estimates. All panels depict the distribution of 100 valuations using 200 estimates per valuation. The top two panels show the distribution of estimates for a 1-year arithmetic Asian option with monthly averaging. The top left panel shows the distribution obtained with simple Monte Carlo ( \sigma_n = \0.399 ), and the top right for the control variate estimate ( \sigma_n = \$0.042 ). The estimated value using all control variate trials is  \3.42 . The bottom panel shows 100 valuations using 200 estimates per valuation for a European call. The left panel is simple Monte Carlo ( \sigma_n = \0.606 ) and the right panel uses stratified sampling ( \sigma_n = \0.042 . The Black-Scholes price is  \6.28 , which is also the average of the stratified sampling estimates. In all cases  S = \40 ,  K = \$40 ,  \sigma = 0.3 ,  r = 0.08 ,  T = 1.00 , and  \delta = 0 .
 
@@ -410,7 +397,7 @@ Simple Monte Carlo Valuation European Call
 Monte Carlo Valuation with Stratified Sampling European Call simple Monte Carlo calculation with those from a control variate calculation. The standard deviation of the control variate estimate is  $10\%$  that of the simple Monte Carlo calculation.
 
 
-# Other Monte Carlo Methods
+### Other Monte Carlo Methods
 
 The control variate example is but one method for improving the efficiency of Monte Carlo valuation. There are a variety of other methods discussed in more depth in Boyle et al. (1997) and Glasserman (2004). The antithetic variate method uses the idea that for every simulated realization, there is an opposite and equally likely realization. For example, if we draw a random normal number of 0.5, we could just as well have drawn  $-0.5$ . By using the opposite of each normal draw we can get two simulated outcomes for each random path we draw. There can be an efficiency gain because the two estimates are negatively correlated; adding them reduces the variance of the estimate. Notably, if you draw an extreme estimate from one tail of the distribution, you will also draw an extreme estimate from the other tail, balancing the effect of the first draw. Boyle et al. (1997) find modest benefits from using the antithetic variate method.
 
@@ -428,7 +415,7 @@ Data from Longstaff and Schwartz (2001).
 
 large efficiency gains by analyzing the problem and using one or more variance reduction techniques to increase efficiency.
 
-# 6. VALUATION OF AMERICAN OPTIONS
+## 6. VALUATION OF AMERICAN OPTIONS
 
 It is generally more difficult to value American-style options than to value European-style options, and this remains true when using Monte Carlo valuation. Standard Monte Carlo entails simulating stock price paths forward, then averaging and discounting the maturity payoffs. In American option valuation, the difficulty is knowing when to exercise the option; this requires working backward to determine the times at which the option should be exercised. Recently, Broadie and Glasserman (1997) and Longstaff and Schwartz (2001) have demonstrated feasible methods for using Monte Carlo to value American options.
 
@@ -472,7 +459,7 @@ By using separate sets of nodes to make the exercise decision and to estimate co
 
 The Broadie and Glasserman approach is computationally involved, but it provides a general method for accommodating early exercise in a simulation model.
 
-# 7. THE POISSON DISTRIBUTION
+## 7. THE POISSON DISTRIBUTION
 
 We have seen that the lognormal distribution assigns a low probability to large stock price moves. One approach to generating a more realistic stock price distribution is to permit large stock price moves to occur randomly. Occasional large price moves can generate the fat tails.
 
@@ -493,7 +480,7 @@ Given an expected number of events, the Poisson distribution tells us the probab
 
 The Poisson distribution can be derived from these four assumptions. See Casella and Berger (2002).
 
-# FIGURE 6
+**FIGURE 6**
 
 Graph of Poisson distribution for  $\lambda t$  of 0.010, 0.025, and 0.050. This graph may be interpreted as the distribution of the number of events observed over a 10-year period, given annual event probabilities of  $1\%$ ,  $2.5\%$ , and  $5\%$ . In any of the cases, there is a tiny probability of seeing more than five events over the 10-year period.
 
@@ -515,7 +502,7 @@ Values of Poisson distribution and cumulative Poisson distribution with mean $(\
 
 <table><tr><td>Number of Events</td><td>Probability</td><td>Cumulative Probability</td></tr><tr><td>0</td><td>0.4493</td><td>0.4493</td></tr><tr><td>1</td><td>0.3595</td><td>0.8088</td></tr><tr><td>2</td><td>0.1438</td><td>0.9526</td></tr><tr><td>3</td><td>0.0383</td><td>0.9909</td></tr></table>
 
-# 8. SIMULATING JUMPS WITH THE POISSON DISTRIBUTION
+## 8. SIMULATING JUMPS WITH THE POISSON DISTRIBUTION
 
 As we discussed, stock prices sometimes move more than would be expected from a lognormal distribution. If market volatility is $20\%$ and the expected return is $15\%$, a 1-day $5\%$ drop in the market occurs about once every 2.5 million days. (See Problem 8.) A $20\%$ 1-day drop (as in October 1987) is virtually impossible if prices are lognormally distributed with a reasonable volatility.
 
@@ -524,14 +511,14 @@ Merton (1976) introduced the use of the Poisson distribution in an option pricin
 Let the lognormally distributed jump magnitude $Y$ be given by
 
 $$
-Y = e^{\alpha_{J} - 0.5 \sigma_{J}^{2} + \sigma_{J} W}
+Y = e^{\alpha_J - 0.5 \sigma_J^2 + \sigma_J W}
 $$ where $W$ is a standard normal variable. If $S$ is the pre-jump price, $YS$ is the post-jump price. $e^{\alpha_J}$ is the expected jump and $\sigma_J$ is the standard deviation of the log of the jump. The expected percentage jump is
 
 $$
-E\left(\frac{YS - S}{S}\right) = e^{\alpha_{J}} - 1 = k \tag{13}
+E\left(\frac{YS - S}{S}\right) = e^{\alpha_J} - 1 = k \tag{13}
 $$
 
-# Simulating the Stock Price with Jumps
+### Simulating the Stock Price with Jumps
 
 To simulate the stock price over a period of time $h$, we first pick two uniform random variables to determine the number of jumps and the ordinary (nonjump) lognormal return.
 
@@ -540,29 +527,29 @@ If there are $m$ jumps, we must then pick $m$ additional random variables to det
 Specifically, suppose the stock price is $S_{t}$. If a stock cannot jump, its price at time $t + h$ is
 
 $$
-S_{t + h} = S_{t} e^{(\alpha - \delta - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z}
+S_{t+h} = S_{t} e^{(\alpha - \delta - 0.5 \sigma^2)h + \sigma \sqrt{h} Z}
 $$ where $\alpha$ is the expected return.
 
 Now consider an otherwise identical stock that can jump, with price $\hat{S}_t$. The stock price will have two components, one with and one without jumps. The no-jump lognormal component is
 
 $$
-S_{t} e^{(\hat{\alpha} - \delta - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z}
+S_{t} e^{(\hat{\alpha} - \delta - 0.5 \sigma^2)h + \sigma \sqrt{h} Z}
 $$ where the expected stock return, conditional on no jump, is $\hat{\alpha}$. We will see in a moment why we use a different notation for the expected return in this expression. If the stock jumps $m$ times between $t$ and $t + h$, each jump changes the price by a factor of
 
 $$
-Y_{i} = e^{\alpha_{J} - 0.5 \sigma_{J}^{2} + \sigma_{J} W(i)}
+Y_i = e^{\alpha_J - 0.5 \sigma_J^2 + \sigma_J W(i)}
 $$
 
 Where $Z$ and $W(i), i = 1, \dots, m$ are standard normal random variables. The cumulative jump is the product of the $Y_{i}$'s, or
 
 $$
-\prod_{i=1}^{m} Y_{i} = e^{m (\alpha_{J} - 0.5 \sigma_{J}^{2}) + \sigma_{J} \sum_{i=1}^{m} W(i)}
+\prod_{i=1}^{m} Y_i = e^{m(\alpha_J - 0.5 \sigma_J^2) + \sigma_J \sum_{i=1}^{m} W(i)}
 $$
 
 Notice that the cumulative jump is lognormal, since it is the product of lognormal random variables. The stock price at time $t + h$, taking account of both the normal lognormal return and jumps, is then
 
 $$
-\hat{S}_{t + h} = \hat{S}_{t} e^{(\hat{\alpha} - \delta - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z} \times e^{m (\alpha_{J} - 0.5 \sigma_{J}^{2}) + \sigma_{J} \sum_{i=1}^{m} W(i)} \tag{14}
+\hat{S}_{t+h} = \hat{S}_{t} e^{(\hat{\alpha} - \delta - 0.5 \sigma^2)h + \sigma \sqrt{h} Z} \times e^{m(\alpha_J - 0.5 \sigma_J^2) + \sigma_J \sum_{i=1}^{m} W(i)} \tag{14}
 $$
 
 It is possible to simulate $\hat{S}_{t + h}$ using this expression. There are three steps:
@@ -590,45 +577,13 @@ With this correction, if the expected jump is positive, we lower the expected re
 The final expression for the stock price is thus
 
 $$
-\begin{array}{l} \hat{S}_{t + h} = \hat{S}_{t} e^{(\alpha - \delta - \lambda k - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z} \prod_{i=0}^{m} e^{\alpha_{J} - 0.5 \sigma_{J}^{2} + \sigma_{J} W_{i}} \tag{16} \\ = \hat{S}_{t} e^{(\alpha - \delta - \lambda k - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z} e^{m (\alpha_{J} - 0.5 \sigma_{J}^{2}) + \sigma_{J} \sum_{i=0}^{m} W_{i}} \end{array}
-$$ where $\alpha_{J}$ and $\sigma_{J}$ are the mean and standard deviation of the jump magnitude, $Z$ and $W_{i}$ are random standard normal variables, and $m$ is a Poisson-distributed random variable. A similar expression appears in Merton (1976).
-
-Figure 7 displays two simulated stock price series, one for which jumps do not occur, and one generated using equation (16). In the absence of jumps, the stock price is assumed to follow a lognormal process with  $\alpha = 8\%$  and  $\sigma = 30\%$ . For the jump component, we assume  $\lambda = 3$  (an average of three jumps per year),  $\alpha_{J} = -2\%$ , and  $\sigma_{J} = 5\%$ . In the figure, we can detect jumps because the no-jump series is drawn using the same random  $Z$ 's. Some
-
-# FIGURE 7
-
-Simulated stock price paths over 10 years (3650 days). One stock cannot jump; the other is the same except that jumps can occur. The simulation assumes that  $\alpha = 9\%$ ,  $\delta = 0$ ,  $\sigma = 30\%$ ,  $\lambda = 3$ ,  $\alpha_{j} = -2\%$ , and  $\sigma_{j} = 5\%$ .
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/86449fd4dfa896062090070a3f9ea4ff5dfbda3ec01f7176992d2e58da05b6ba.jpg)
-
-# FIGURE 8
-
-Histograms and normal probability plots for the daily returns generated from the two series in Figure 7. Graphs on the left are for the no-jump series.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/42cde78bc6ab1188a8a302740b818cc910aa7f4a24c83e8a369c1038147bc9c4.jpg) of the disparity, for example between days 1000 and 1500, is due to the approximate extra  $6\%$  return  $(\lambda k)$  that is added to the stock when it does not jump.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/631f688077ddfbec442ba396a7c0f5b0d7e8c21c491448875f641bc1fcd481f6.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/6abac2bbfeebdb06ff6d68ff5c4a90a3361b48861ce5673fdd6a5811cbb4f8d8.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/4425b407b977e5b0fe19e6bbdc6c128fb118a8e81445f2399296f278da64175e.jpg)
-
-What happens if we apply the normality tests to the stock price series in Figure 7? Figure 8 displays histograms and normal probability plots for the two series. Without jumps, continuously compounded returns look normal. With jumps, the data look nonnormal. When jumps can occur, the data do not look normal. The kurtosis of the continuously compounded returns without jumps is 2.93, very close to the value of 3 expected for a normal distribution. With jumps, kurtosis is 7.40.
-
-# Multiple Jumps
-
-When we assume lognormal moves of the stock conditional on a single jump event, we can only get large up and down moves by assuming a large standard deviation of the jump move. The reason is that we are drawing from a single lognormal distribution, conditional on the Poisson event. An alternative is to assume there are two (or more) Poisson variables, one controlling up jumps and one controlling down jumps. The lognormal moves associated with each can have different means and standard deviations. This obviously provides for a richer and potentially more realistic set of outcomes.
-
-# 9. SIMULATING CORRELATED STOCK PRICES
-
-Suppose that $S$ and $Q$ are both lognormally distributed stock prices such that
-
+\begin{array}{l} S_T = S_0 e^{(\alpha - \delta - \frac{1}{2}\sigma^2)T + \sigma\sqrt{h} [\sum_{i=1}^n Z(i)]} \\ = S_0 e^{(\alpha - \delta - \frac{1}{2}\sigma^2)T + \sigma\sqrt{T} [\frac{1}{\sqrt{n}} \sum_{i=1}^n Z(i)]} \tag{6} \\ \end{array}
 $$
-\ln(S_{t}) = \ln(S_{0}) + (\alpha_{S} - 0.5 \sigma_{S}^{2}) t + \sigma_{S} \sqrt{t} W
+\ln(S_t) = \ln(S_0) + (\alpha_S - 0.5 \sigma_S^2)t + \sigma_S \sqrt{t} W
 $$
 
 $$
-\ln(Q_{t}) = \ln(Q_{0}) + (\alpha_{Q} - 0.5 \sigma_{Q}^{2}) t + \sigma_{Q} \sqrt{t} Z
+\ln(Q_t) = \ln(Q_0) + (\alpha_Q - 0.5 \sigma_Q^2)t + \sigma_Q \sqrt{t} Z
 $$
 
 If $S$ and $Q$ are uncorrelated, then we can simulate both prices by drawing independent $W$ and $Z$. However, suppose that the correlation between $S$ and $Q$ is $\rho$. Here is how to simulate these two random variables taking account of their correlation.
@@ -636,11 +591,11 @@ If $S$ and $Q$ are uncorrelated, then we can simulate both prices by drawing ind
 Let $\epsilon_{1}$ and $\epsilon_{2}$ be independent and distributed as $\mathcal{N}(0,1)$. Let
 
 $$
-W = \epsilon_{1} \tag{17}
+W = \epsilon_1 \tag{17}
 $$
 
 $$
-Z = \rho \epsilon_{1} + \epsilon_{2} \sqrt{1 - \rho^{2}}
+Z = \rho \epsilon_1 + \epsilon_2 \sqrt{1 - \rho^2}
 $$
 
 Then $\operatorname{Corr}(Z, W) = \rho$, and $Z$ is distributed $\mathcal{N}(0, 1)$.
@@ -648,11 +603,11 @@ Then $\operatorname{Corr}(Z, W) = \rho$, and $Z$ is distributed $\mathcal{N}(0, 
 To see this, note first that $Z$ and $W$ both have zero mean. Compute the covariance between $Z$ and $W$ and the variance of $Z$:
 
 $$
-\mathrm{E}(W Z) = \mathrm{E} [\epsilon_{1} (\rho \epsilon_{1} + \epsilon_{2} \sqrt{1 - \rho^{2}})] = \rho \mathrm{E}(\epsilon_{1}^{2}) = \rho
+\mathrm{E}(WZ) = \mathrm{E}[\epsilon_1 (\rho \epsilon_1 + \epsilon_2 \sqrt{1 - \rho^2})] = \rho \mathrm{E}(\epsilon_1^2) = \rho
 $$
 
 $$
-\mathrm{E}(Z^{2}) = \mathrm{E} [(\rho \epsilon_{1} + \epsilon_{2} \sqrt{1 - \rho^{2}})^{2}] = \rho^{2} + 1 - \rho^{2} = 1
+\mathrm{E}(Z^2) = \mathrm{E}[(\rho \epsilon_1 + \epsilon_2 \sqrt{1 - \rho^2})^2] = \rho^2 + 1 - \rho^2 = 1
 $$
 
 Thus, $W$ and $Z$ are both $\mathcal{N}(0,1)$ and have a correlation coefficient of $\rho$.
@@ -660,19 +615,19 @@ Thus, $W$ and $Z$ are both $\mathcal{N}(0,1)$ and have a correlation coefficient
 Now we will check that the continuously compounded returns of $S$ and $Q$ have correlation $\rho$. The covariance between $\ln(S_t)$ and $\ln(Q_t)$ is
 
 $$
-\begin{array}{l} \mathrm{E} \left[ (\ln(S_{t}) - \mathrm{E}[\ln(S_{t})]) (\ln(Q_{t}) - \mathrm{E}[\ln(Q_{t})]) \right] = \mathrm{E}(\sigma_{S} W \sqrt{t} \sigma_{Q} Z \sqrt{t}) \\ = \sigma_{S} \sigma_{Q} \rho t \end{array}
+\begin{array}{l} \mathrm{E}[(\ln(S_t) - \mathrm{E}[\ln(S_t)])(\ln(Q_t) - \mathrm{E}[\ln(Q_t)])] = \mathrm{E}(\sigma_S W \sqrt{t} \sigma_Q Z \sqrt{t}) \\ = \sigma_S \sigma_Q \rho t \end{array}
 $$
 
 The correlation coefficient is
 
 $$
-\mathrm{Correlation} = \frac{\sigma_{S} \sigma_{Q} \rho t}{\sigma_{S} \sqrt{t} \sigma_{Q} \sqrt{t}} = \rho
+\mathrm{Correlation} = \frac{\sigma_S \sigma_Q \rho t}{\sigma_S \sqrt{t} \sigma_Q \sqrt{t}} = \rho
 $$
-\mathrm {E} (W Z) = \mathrm {E} [ \epsilon_ {1} (\rho \epsilon_ {1} + \epsilon_ {2} \sqrt {1 - \rho^ {2}}) ] = \rho E (\epsilon_ {1} ^ {2}) = \rho
+\mathrm{E}(WZ) = \mathrm{E}[\epsilon_1 (\rho \epsilon_1 + \epsilon_2 \sqrt{1 - \rho^2})] = \rho \mathrm{E}(\epsilon_1^2) = \rho
 $$
 
 $$
-\operatorname {E} (Z ^ {2}) = \operatorname {E} [ (\rho \epsilon_ {1} + \epsilon_ {2} \sqrt {1 - \rho^ {2}}) ^ {2} ] = \rho^ {2} + 1 - \rho^ {2} = 1
+\mathrm{E}(Z^2) = \mathrm{E}[(\rho \epsilon_1 + \epsilon_2 \sqrt{1 - \rho^2})^2] = \rho^2 + 1 - \rho^2 = 1
 $$
 
 Thus,  $W$  and  $Z$  are both  $\mathcal{N}(0,1)$  and have a correlation coefficient of  $\rho$ .
@@ -680,18 +635,18 @@ Thus,  $W$  and  $Z$  are both  $\mathcal{N}(0,1)$  and have a correlation coeff
 Now we will check that the continuously compounded returns of  $S$  and  $Q$  have correlation  $\rho$ . The covariance between  $\ln(S_t)$  and  $\ln(Q_t)$  is
 
 $$
-\begin{array}{l} \operatorname {E} \left[ (\ln (S _ {t}) - \operatorname {E} [ \ln (S _ {t}) ]) (\ln (Q _ {t}) - \operatorname {E} [ \ln (Q _ {t}) ]) \right] = \operatorname {E} \left(\sigma_ {S} W \sqrt {t} \sigma_ {Q} Z \sqrt {t}\right) \\ = \sigma_ {S} \sigma_ {Q} \rho t \\ \end{array}
+\begin{array}{l} \mathrm{E}[(\ln(S_t) - \mathrm{E}[\ln(S_t)])(\ln(Q_t) - \mathrm{E}[\ln(Q_t)])] = \mathrm{E}(\sigma_S W \sqrt{t} \sigma_Q Z \sqrt{t}) \\ = \sigma_S \sigma_Q \rho t \\ \end{array}
 $$
 
 The correlation coefficient is
 
 $$
-\mathrm {C o r r e l a t i o n} = \frac {\sigma_ {S} \sigma_ {Q} \rho t}{\sigma_ {S} \sqrt {t} \sigma_ {Q} \sqrt {t}} = \rho
+\mathrm{Correlation} = \frac{\sigma_S \sigma_Q \rho t}{\sigma_S \sqrt{t} \sigma_Q \sqrt{t}} = \rho
 $$
 
 Thus, if $W$ and $Z$ have correlation $\rho$, so will the continuously compounded returns of $S$ and $Q$.
 
-# Generating $n$ Correlated Lognormal Random Variables
+## Generating $n$ Correlated Lognormal Random Variables
 
 Suppose we have $n$ correlated lognormal variables. The question we address here is how to generalize the previous analysis. The first of the $n$ random variables will have $n - 1$ pairwise correlations with the others. The second will have $n - 2$ (not counting its correlation with the first, which we have already counted). Continuing in this way, we will have
 
@@ -701,36 +656,36 @@ $$ pairwise correlations we have to take into account. We denote the correlation
 We denote the original uncorrelated random $\mathcal{N}(0,1)$ variables as $\epsilon_1,\epsilon_2,\ldots ,\epsilon_n$. The correlated random variables are $Z(1),Z(2),\ldots ,Z(n)$, with
 
 $$
-\mathrm{E}[Z(i) Z(j)] = \rho_{i, j}
+\mathrm{E}[Z(i)Z(j)] = \rho_{i,j}
 $$
 
 We can generate the $Z(i)$ as
 
 $$
-Z(i) = \sum_{j=1}^{i} a_{i, j} \epsilon_{j}
+Z(i) = \sum_{j=1}^i a_{i,j} \epsilon_j
 $$ where the $a_{i,j}$ are coefficients selected to make sure the pairwise correlations are correct.
 
-Creating the coefficients  $a_{i,j}$  has a recursive solution. That is, we construct  $Z(1)$ , then  $Z(2)$  using the solution to  $Z(1)$ , and so on. The formula for the  $a_{i,j}$  is
+Creating the coefficients $a_{i,j}$ has a recursive solution. That is, we construct $Z(1)$, then $Z(2)$ using the solution to $Z(1)$, and so on. The formula for the $a_{i,j}$ is
 
-$$ a _ {i, j} = \frac {1}{a _ {j , j}} \left[ \rho_ {i, j} - \sum_ {k = 1} ^ {j - 1} a _ {j, k} a _ {i, k} \right] \quad i > j \tag {18}
+$$ a_{i,j} = \frac{1}{a_{j,j}} \left[ \rho_{i,j} - \sum_{k=1}^{j-1} a_{j,k} a_{i,k} \right] \quad i > j \tag{18}
 $$
 
-$$ a _ {i, i} = \sqrt {1 - \sum_ {k = 1} ^ {i - 1} a _ {i , k} ^ {2}}
+$$ a_{i,i} = \sqrt{1 - \sum_{k=1}^{i-1} a_{i,k}^2}
 $$
 
 For the case of two random variables, this reduces to equation (17).
 
-The matrix of  $a_{i,j}$ 's is called the Cholesky decomposition of the original correlation matrix. $^{15}$  In order for equation (18) to give correct coefficients, the set of correlations must be positive-definite, which means that the correlations must be such that there is no way to sum random variables and compute a negative variance. This is not an arbitrary condition: If this condition is not satisfied, the set of correlations is not valid. $^{16}$
+The matrix of $a_{i,j}$'s is called the Cholesky decomposition of the original correlation matrix.$^{15}$ In order for equation (18) to give correct coefficients, the set of correlations must be positive-definite, which means that the correlations must be such that there is no way to sum random variables and compute a negative variance. This is not an arbitrary condition: If this condition is not satisfied, the set of correlations is not valid.$^{16}$
 
 The point—and the reason for mentioning this—is that correlations and covariances cannot be arbitrary. In practice, depending upon how a covariance matrix is estimated, this can be an important concern. The true covariances among hundreds of bonds, stocks, currencies, and commodities must create a positive-definite covariance matrix. However, estimated covariances might not be positive-definite. If there are  $m$  assets and  $n > m$  observations, the covariance matrix estimated from these data will be positive-definite. However, if different covariances are estimated from different data sets, positive-definiteness is not assured. The results of a simulation based on such covariances may produce nonsensical results.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 Monte Carlo methods entail simulating asset returns in order to obtain a future distribution for prices. This distribution can then be used to price claims on the asset (for example, Asian options) or to assess the risk of the asset. Performing simulations requires that we draw random numbers from an appropriate distribution (for example, the normal) in order to generate future asset prices. There are adjustments, such as the control variate method, which can dramatically increase the speed with which Monte Carlo estimates converge to the correct price.
 
 It is possible to incorporate jumps in the price by mixing Poisson and log-normal random variables. Simulated correlated random variables can be created using the Cholesky decomposition.
 
-# FURTHER READING
+## FURTHER READING
 
 The first use of Monte Carlo methods to price options was Boyle (1977), and the technique is now quite widespread. Two excellent discussions of the use of Monte Carlo to value derivatives are Boyle et al. (1997) and Glasserman (2004). Bodie and Crane (1999) use Monte Carlo to analyze retirement investment products. Schwartz and Moon (2000) use Monte Carlo to value a firm by simulating future cash flows.
 

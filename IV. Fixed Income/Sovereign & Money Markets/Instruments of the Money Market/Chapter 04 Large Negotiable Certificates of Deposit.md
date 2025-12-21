@@ -1,18 +1,42 @@
 ---
 aliases:
+  - Large Negotiable Certificates of Deposit
+  - CD Market
+  - Money Market Instruments
 tags:
 key_concepts:
-parent_directory:
+parent_directory: IV. Fixed Income/Sovereign & Money Markets/Instruments of the Money Market
 cssclasses: academia
-title: Chapter 4
+title: "Chapter 4: Large Negotiable Certificates of Deposit"
+formatted: 2025-12-21 06:15:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - certificates of deposit
+   - money market instruments
+   - negotiable cds
+   - domestic cds
+   - eurodollar cds
+   - yankee cds
+   - thrift cds
+   - cd ratings
+secondary_tags:
+   - variable rate cds
+   - deposit notes
+   - bank notes
+   - cd market history
+   - cd risk premium
+   - primary cd market
+   - secondary cd market
+   - federal reserve regulation
+   - interest rate ceilings
+   - money market funds
 linter-yaml-title-alias: Chapter 4
 ---
 
 # Chapter 4
 
-# LARGE NEGOTIABLE
-
-# CERTIFICATES OF DEPOSIT
+# Large Negotiable Certificates of Deposit
 
 Marc D. Morris and John R. Walter
 
@@ -127,7 +151,7 @@ Only the largest savings and loans are able to issue large negotiable CDs for sa
 
 Because negotiable CDs are issued in denominations well above the \$100,000 limit for deposit insurance coverage, investors face the risk that they may not
 
-receive full payment at maturity. The rate investors demand on a bank's negotiable CDs increases as the perceived riskiness of the bank increases. $^{7}$  This is often referred to as a credit risk premium.
+receive full payment at maturity. The rate investors demand on a bank's negotiable CDs increases as the perceived riskiness of the bank increases. <sup>7</sup> This is often referred to as a credit risk premium.
 
 Large CDs yield a premium over Treasury bills of comparable maturity. This is commonly attributed to three factors. First, as already mentioned, unlike investors in Treasury bills, investors in large CDs are subject to credit risk. Second, although the secondary market in large CDs is well developed, it does not possess the depth of the market in Treasury securities. Investors may demand a slightly higher yield to compensate for this smaller liquidity of CDs. Third, interest on Treasury bills is exempt from state and local income taxes. Consequently, many investors have to earn a higher before-tax yield on CDs than on Treasury securities to get the same after-tax yield. As interest rates rise, the tax exemption advantage of Treasury bills increases so that the premium of CDs over Treasury bills also tends to increase.
 
@@ -137,7 +161,7 @@ As shown by Figure 2, there have been several periods when the spread between th
 
 Investors can use rating services to help determine the risk involved in buying a particular bank's CD. There are several rating services, including Standard & Poor's Corporation; Duff & Phelps, Inc.; Moody's Investor Service, Inc.; Thomson Bankwatch, Inc.; IBCA, Ltd.; and Fitch Investor's Service, Inc.
 
-# FIGURE 2
+### FIGURE 2
 
 # Yield Spread Between Three-Month CDs and Treasury Bills
 
@@ -145,7 +169,7 @@ Investors can use rating services to help determine the risk involved in buying 
 
 A CD rating is based on the rating agency's assessment of the ability of the issuer to redeem the CDs at maturity relative to other issuers. The agencies consider a number of factors, including the bank's liquidity, its interest rate risk, its competitive position in its operating environment, its profitability, its asset quality, the strength of its management, and the general economy.
 
-# PRIMARYMARKET
+## Primary Market
 
 Each day, banks actively issuing large CDs post a set of rates for the most popular maturities—1, 2, 3, 6, and 12 months—at which they are willing to issue CDs. A bank's posted rates are dependent on the rates it can earn investing the funds in loans or investments. When a bank is not interested in raising funds, it will post below-market rates.
 

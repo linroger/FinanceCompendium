@@ -1,8 +1,8 @@
 ---
-title: "Advanced Pricing Theory and Applications"
-parent_directory: "Derivatives Market Complete Full"
-formatted: 2025-12-21 02:20:00 AM
-formatter_model: claude-sonnet-4-5-thinking
+title: Advanced Pricing Theory and Applications
+parent_directory: Derivatives Market Complete Full
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
 cli_tool: claude-code
 primary_tags:
   - black-scholes model

@@ -135,9 +135,7 @@ A reference rate is some benchmark interest rate, such as 3-month LIBOR. The quo
 
 Sovereign governments, as well corporations, offer securities whose interest rate is tied to the rate of inflation. These debt instruments, referred to as inflation-linked bonds, or simply "linkers," have been issued by sovereign governments since 1945. The earlier issuers of linkers were the governments of Argentina, Brazil, and Israel. The modern linker is attributed to the U.K. government's index-linked gilt issued in 1981, followed by Australia, Canada, and Sweden.
 
-The United States introduced an inflation-linked security in January 1997, calling those securities Treasury Inflation Protected Securities (TIPS). These securities carry the full faith and credit of the U.S.
-
-government. Shortly after the introduction of TIPS in 1997, U.S. government-related entities began issuing linkers.
+The United States introduced an inflation-linked security in January 1997, calling those securities Treasury Inflation Protected Securities (TIPS). These securities carry the full faith and credit of the U.S. government. Shortly after the introduction of TIPS in 1997, U.S. government-related entities began issuing linkers.
 
 Different designs can be used for linkers. The reference rate that is a proxy for the inflation rate is changed according to some CPI. In the United Kingdom, for example, the index used is the Retail Prices Index (All Items), or RPI. In France, there are two linkers with two different indexes: the French CPI (excluding tobacco) and the Eurozone's Harmonised Index of Consumer Prices (HICP) (excluding tobacco). In the United States, the index used is CPI—Urban, Nonseasonally Adjusted (denoted by CPI-U), as calculated by the U.S. Bureau of Labor Statistics.[2]
 
@@ -286,63 +284,5 @@ Moody's, another major rating agency, focuses on the following four factors as t
 - Two sovereign debt ratings are assigned by credit rating agencies: a local currency debt rating and a foreign currency debt rating.
 - The two general categories of risk analyzed by credit rating agencies when assigning ratings are economic risk and political risk.
 
-# Questions
 
-1. What are the perceived benefits to a country from developing a viable government securities market?
-2. What types of securities do sovereign governments routinely issue?
-3. Suppose an investor buys at issuance a 10-year security issued by the Italian government. The par value of the position is €1 million, and the coupon rate is  $1.5\%$  paid semiannually. If it is held to maturity, what cash flows can the investor expect to receive?
-4. Explain how inflation-indexed securities work.
-5. Explain how floating-rate securities work.
-6. a. How is the primary market for sovereign debt structured?
-
-b. Ideally, what objectives is this structure trying to accomplish?
-
-7. a. What are the primary distribution methods for government securities?
-
-b. How would the choice of a distribution method be affected by the stage of market development?
-
-8. a. What is/are the salient difference(s) between a single-price and a multiple-price auction?
-
-b. Make a case for and against each method.
-
-9. a. Aside from auctions, what are the alternative methods for distributing government securities?
-
-b. What are the benefits and costs of each method?
-
-10. The excerpt below is from the November 6, 2013, letter to the U.S. Secretary of the Treasury from the Treasury Borrowing Advisory Committee. Explain what this excerpt means.
-
-As the electronic trading volume of on-the-run Treasury securities increases, it could enhance their liquidity and reduce future Treasury borrowing costs, especially if volumes of electronically traded off-the-run securities increase over time as well.
-
-11. What economic mechanism forces the actual market price of a Treasury security toward its theoretical value based on theoretical spot rates?
-12. a. What functions does a primary dealer perform in the primary market?
-
-b. What functions does a primary dealer perform in the secondary market?
-
-13. What are the characteristics of a well-developed secondary government bond market?
-14. How do stripping and reconstitution work?
-15. What is a repurchase agreement?
-16. How does the existence of a viable repo market contribute to the functioning of a sovereign debt market?
-17. China is the largest foreign investor in U.S. Treasury securities. Does having a single country that holds a significant portion of another country's debt have any consequences for the functioning of the primary or secondary markets of the debtor country?
-18. Congratulations! You have just been appointed minister of finance of Country X. Currently X currently does not have a primary dealer system in place. Your first official task is to make recommendations on whether Country X should adopt a primary dealer system for its sovereign debt market. Make a case for and against.
-19. State whether you agree or disagree with the following statements: a. Sovereign debt issues have the lowest credit risk in a country.
-
-b. Credit rating agencies make a distinction between debt issued in a sovereign's local currency and that issued in a foreign currency.
-
-c. Political risk is an assessment of the willingness of a government to satisfy its obligations.
-
-20. Suppose that £100 million par values of 5-year U.K. gilts with a  $4\%$  coupon rate are purchased to create zero-coupon strips. Further suppose that the coupon payment dates are June 30 and December 31. What are the coupon strips and principal strips that can be created from these securities?
-21. Mario Draghi, president of the European Central Bank, said in a speech on November 5, 2015, "History teaches us that deflation, although relatively less common, can have consequences just as destabilizing as excessive inflation." What impact does deflation have on the coupon payments and principal of inflation-adjusted securities?
-
-This chapter is coauthored with Steven V. Mann.
-
-1. World Bank, Developing a Government Bond Market (Washington, DC: 2001).
-2. The CPI-U is the most widely followed and perhaps the best understood inflation index among alternative choices, such as the GDP deflator and the personal consumption expenditure deflator. Changes in the CPI-U represent the average change in prices facing urban consumers for a fixed basket of goods and services. This group of urban consumers represents about  $87\%$  of the total U.S. population. The Treasury reserves the right to substitute an alternative price index under the following circumstances: (1) the CPI-U is discontinued; (2) the CPI-U is altered materially to the detriment of the investor or the security; (3) the CPI-U is altered by legislation or executive order in a manner harmful to the investor or the security.
-3. World Bank, Developing a Government Bond Market.
-4. Until the move to single-price auctions in the United States, Treasury securities had been sold using multiple-price auctions since 1929.
-5. Paul F. Malvey and Christine M. Archibald, "Uniform-Price Auctions: Update of the Treasury Experience" (Washington, DC: U.S. Treasury, October 1998).
-6. A winner's curse is a phenomenon in auctions with incomplete information where the winner of the auction tends to overpay.
-7. Sovereigns occasionally buy back unmatured marketable securities to manage their public debt outstanding. Buybacks are done on an irregular basis.
-8. Repurchase agreements can be structured such that the transaction is terminable on demand.
-9. By "liquid currency," we mean a currency that can be bought or sold quickly and cheaply at close to its true value.
-10. Moody's, "Sovereign Bond Ratings" (New York: Moody's Investors Service, September 2008).
 

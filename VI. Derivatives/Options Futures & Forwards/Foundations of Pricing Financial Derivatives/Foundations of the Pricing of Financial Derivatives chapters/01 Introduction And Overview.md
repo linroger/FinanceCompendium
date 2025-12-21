@@ -1,11 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "01 Introduction and Overview"
+parent_directory: Foundations of Pricing Financial Derivatives/Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 05:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - financial derivatives
+  - derivative pricing
+  - options
+  - forwards futures swaps
+  - binomial models
+  - black-scholes-merton
+secondary_tags:
+  - risk management
+  - arbitrage
+  - valuation
+  - stochastic processes
+  - interest rate derivatives
+  - option boundaries
+  - mathematical foundations
 cssclasses: academia
-title: Introduction and Overview
-linter-yaml-title-alias: Introduction and Overview
 ---
 
 # Introduction and Overview
@@ -20,7 +34,7 @@ Likewise, securities that trade in markets have prices that are observable, but 
 
 We now explain our motivation for writing Foundations of the Pricing of Financial Derivatives.
 
-# 1.1 MOTIVATION FOR THIS BOOK
+## 1.1 MOTIVATION FOR THIS BOOK
 
 Many finance courses focus on valuing stocks and bonds. Yet, there is also another family of financial instruments known as derivatives, and valuing derivatives is one of the most technical subjects in finance. It requires not only setting up a model of the prices of assets that trade in the market but also establishing a means by which one can connect the derivative to the asset on which the derivative is based. There is a great deal of technical knowledge that must transfer from instructor to student. Much of that knowledge can seem cryptic and inaccessible, though that could be a bit of an overreaction from the fear of learning something new. However, those who know this subject reasonably well can easily fall into the trap of assuming that those who do not know this subject well should find the subject easy. That is the pitfall of being a scholar. A scholar thinks that material in which they have expertise in is not that difficult, when in fact, it really is quite challenging. What a scholar should do in conveying knowledge, however, is to recall how it was when they were learning it. In other words, putting oneself in the student's shoes and empathizing with the student will result in the most successful learning environment. That is indeed one of the overriding objectives of this book: to teach some seemingly complex material in a very user-friendly way.
 
@@ -48,7 +62,7 @@ Table 1.1 Panel B shows option prices of the SPY, which is the exchange-traded f
 
 Table 1.1 Panel C shows interest rate swap rates. For example, a five-year swap was quoted at  $2.022\%$ . The mid fixed rate is the average of the bid and ask rate for the fixed leg of a fixed-for-floating interest rate swap. Notice that this fixed rate initially declines and then subsequently rises for longer maturities.<sup>4</sup>
 
-Table 1.1 Panel D shows 1-month secured overnight financing rate (SOFR) futures data. The data provided here are rate-based and hence show the implied interest rates rather than quoted prices. The interest rate is simply 100 minus the quoted price. For example, the November Y1 rate of 5.400 implies a quoted price of 94.600. Each SOFR futures contract is for \( \\( {5,000},{000} \) notional amount on 1-month interest rates. At this point, just notice the aggregate open interest is 704,883. Open interest is the number of long contracts outstanding. Thus, the total number of contracts outstanding, representing both long and short positions as this is an exchange-traded contract, is 1,409766 [= 2(704,883)].
+Table 1.1 Panel D shows 1-month secured overnight financing rate (SOFR) futures data. The data provided here are rate-based and hence show the implied interest rates rather than quoted prices. The interest rate is simply 100 minus the quoted price. For example, the November Y1 rate of 5.400 implies a quoted price of 94.600. Each SOFR futures contract is for \( \\( {5,000,000 \) notional amount on 1-month interest rates. At this point, just notice the aggregate open interest is 704,883. Open interest is the number of long contracts outstanding. Thus, the total number of contracts outstanding, representing both long and short positions as this is an exchange-traded contract, is 1,409766 [= 2(704,883)].
 
 TABLE 1.1 Panel A. Selected Derivatives Markets Prices: Selected Natural Gas Futures Prices  
 
@@ -78,7 +92,7 @@ The purpose of this book is to provide detailed training in the pricing of finan
 
 But enough about the book. Let us now begin to lay that foundation. A good place to start is to define a derivative.
 
-# 1.2 WHAT IS A DERIVATIVE?
+## 1.2 WHAT IS A DERIVATIVE?
 
 This book is about derivatives, so to get started we need to know just exactly what a derivative is. There is a very basic definition of a derivative that goes like this:
 
@@ -118,7 +132,7 @@ The other type of derivative is the over-the-counter, sometimes called OTC, or c
 
 Derivatives markets, whether exchanges or over-the-counter, rely on a set of firms or individuals called dealers. Dealers stand ready to take either side of a derivative. They do this by quoting a bid price, the price they are willing to pay, and an ask price, the price they are demanding to sell. The ask is higher than the bid, so the dealer has a profit built into the quote. Thus, the investor has a built-in loss as the investor must buy high at the ask price and sell low at the bid. When a dealer takes on a transaction, it has acquired exposure; however, it does not generally carry that exposure, which would be risking its own survival on market direction. Instead, it lays off the risk by finding an offsetting transaction elsewhere in the market. Dealers are, thus, wholesalers of risk. They can easily do virtually any transaction in any market, quickly, and with low cost.
 
-# 1.3 OPTIONS VERSUS FORWARDS, FUTURES, AND SWAPS
+## 1.3 OPTIONS VERSUS FORWARDS, FUTURES, AND SWAPS
 
 There are two general classes of derivatives that are distinguished by the fact that one class has payoffs that are linear in the underlying, while the other has payoffs that are nonlinear in the underlying. The former are forwards, futures, and swaps. Their payoffs are linearly related to the underlying in that the relationship between what the derivative pays when it
 
@@ -132,7 +146,7 @@ Derivative instruments with payoffs that are nonlinear—options and other optio
 
 This book will start with options. In fact, most of the book is really about options, because as it turns out, options are far more difficult to model than are forwards, futures, and swaps. Everything we know about options will apply to forwards, futures, and swaps, but we shall not need to go to such mathematical lengths to derive our models for those instruments. For the most part, their models are obtained by simple present value calculations.
 
-# 1.4 SIZE AND SCOPE OF THE FINANCIAL DERIVATIVES MARKETS
+## 1.4 SIZE AND SCOPE OF THE FINANCIAL DERIVATIVES MARKETS
 
 The derivatives market is massive in size and global in scope. Measuring the overall size of the derivatives markets, however, is a bit difficult. Generally, derivatives markets are broken down into the over-the-counter (OTC) markets and exchange-traded markets. The OTC markets are typically measured by either notional amount or gross market value. Recall the notional amount, or notional for short, reflects the characteristic that a derivative is based on a certain amount of the underlying. This amount might be shares of stock, face value of bonds, units of currency, barrels of oil, and so forth. Gross market value is the current absolute value of one side of the derivatives position. The overall gross market value of derivatives is zero because for every long position there has to be a short position. The exchange-traded derivatives markets is generally measured with either open interest or trading volume.
 
@@ -167,7 +181,7 @@ Note: Total volume  $= 83,847,697,472$
 
 Thus, the derivatives industry is truly global and massive in size. Techniques to value and manage derivatives have now affected every facet of finance. Within the three broad categories of finance—investments, corporate finance, and financial services—mastery of financial derivatives valuation and management methodologies enhances one's capacities to solve financial challenges. Derivatives are so pervasive that it is common to find financial analysis problems that are more accurately understood from a derivatives perspective. For example, in project finance, you often find embedded options, such as the option to terminate a project or extend it. In investments, you often encounter embedded options in callable and convertible instruments. In fact, a common stock can be analyzed as a call option on the firm. Finally, banks often deal with implicit options, such as from loans that can be prepaid to deposits containing early withdrawal possibilities. Thus, if you hang out in the derivatives world for a while, you will also find it hard to name a finance issue that does not benefit from derivatives knowledge.
 
-# 1.5 OUTLINE AND FEATURES OF THE BOOK
+## 1.5 OUTLINE AND FEATURES OF THE BOOK
 
 This book is divided into seven parts, each of which contains between two and seven chapters. Beyond this first chapter, the structure is as follows:
 
@@ -181,13 +195,13 @@ Chapter 4: Elementary Review of Probability for Finance
 Chapter 5: Financial Applications of Probability Distributions  
 Chapter 6: Basic Concepts in Valuing Risky Assets and Derivatives
 
-# Part II: Discrete Time Derivatives Pricing Theory
+## Part II: Discrete Time Derivatives Pricing Theory
 
 Chapter 7: The Binomial Model  
 Chapter 8: Calculating the Greeks in the Binomial Model  
 Chapter 9: Convergence of the Binomial Model to the Black-Scholes-Merton Model
 
-# Part III: Continuous Time Derivatives Pricing Theory
+## Part III: Continuous Time Derivatives Pricing Theory
 
 Chapter 10: The Basics of Brownian Motion and Wiener Processes  
 Chapter 11: Stochastic Calculus and Itô's Lemma  
@@ -197,7 +211,7 @@ Chapter 14: The Greeks in the Black-Scholes-Merton Model
 Chapter 15: Girsanov's Theorem in Option Pricing  
 Chapter 16: Connecting Discrete and Continuous Brownian Motions
 
-# Part IV: Extensions and Generalizations of Derivative Pricing
+## Part IV: Extensions and Generalizations of Derivative Pricing
 
 Chapter 17: Applying Linear Homogeneity Rule to Option Pricing  
 Chapter 18: Compound Option Pricing  
@@ -206,19 +220,19 @@ Chapter 20: American Put Option Pricing
 Chapter 21: Min-Max Option Pricing  
 Chapter 22: Pricing Forwards, Futures, and Options on Forwards and Futures
 
-# Part V: Numerical Methods
+## Part V: Numerical Methods
 
 Chapter 23: Monte Carlo Simulation  
 Chapter 24: Finite Difference Methods
 
-# Part VI: Interest Rate Derivatives
+## Part VI: Interest Rate Derivatives
 
 Chapter 25: The Term Structure of Interest Rates  
 Chapter 26: Interest Rate Contracts: Forward Rate Agreements, Swaps, and Options  
 Chapter 27: Fitting an Arbitrage-Free Term Structure Model  
 Chapter 28: Pricing Fixed-Income Securities and Derivatives Using an Arbitrage-Free Binomial Tree
 
-# Part VII: Miscellaneous Topics
+## Part VII: Miscellaneous Topics
 
 Chapter 29: Option Prices and the Prices of State-Contingent Claims  
 Chapter 30: Option Prices and Expected Returns  
@@ -229,7 +243,7 @@ As previously suggested, the book does contain many equations. Some are numbered
 
 A technical book such as this one employs a large number of symbols. Every effort has been made to use symbols in a unique manner, but some replication is inevitable. For example,  $p$  is an excellent symbol for probability but also an excellent symbol for the price of a put. The lower case  $d$  is an excellent symbol for the down factor in the binomial model, but it is widely used as a factor in the Black-Scholes-Merton model, in the form  $d_{1}$  and  $d_{2}$ . The Greek letter rho with the symbol  $\rho$  is commonly used for correlation but rho is also a partial derivative of the Black-Scholes-Merton model. The letter  $X$  is often a variable in mathematics, but it is commonly used as the exercise price of an option. Tolerance for symbol duplication is a necessary evil in material of this sort. Symbols must, therefore, be context specific. There should never be a situation in which a symbol takes on two meanings in the same context.
 
-# 1.6 FINAL THOUGHTS AND PREVIEW
+## 1.6 FINAL THOUGHTS AND PREVIEW
 
 Although your relatives might disagree, the study of finance and in particular financial derivatives is fascinating. If you do not believe this, take a look at Bernstein (1992, 1996, 2007), Mehrling (2005), Derman (2004), and Taleb (2001, 2007), all of which are highly readable books directed to the general public that give interesting insights into the body of human knowledge about the subject we call finance. You will find that the study of finance reveals profound insights into the behavior of people as they endeavor to grow their wealth. Studying finance does not provide a road to riches, but it does provide useful guidelines that can tilt the odds in favor of the investor, even the small investor who may feel out of their league.
 
@@ -239,7 +253,7 @@ As noted, most of this book will deal with options. In Chapter 2, we shall more 
 
 So, let us get started.
 
-# QUESTIONS AND PROBLEMS
+## QUESTIONS AND PROBLEMS
 
 1 What is money?  
 2 What is at the core activity of finance?  
@@ -248,7 +262,60 @@ So, let us get started.
 5 Contrast exchange-listed derivatives with over-the-counter derivatives.  
 6 "Finance is mathematics." Evaluate and explain whether this statement is true or false.
 
-# NOTES
+#```d2
+direction: right
+
+Derivatives: Financial Derivatives {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+Linear: Linear Derivatives {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+NonLinear: Nonlinear Derivatives {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+Forwards: Forwards {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Futures: Futures {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+Swaps: Swaps {
+  shape: rectangle
+  style.fill: "#f1f8e9"
+  style.stroke: "#689f38"
+}
+
+Options: Options {
+  shape: rectangle
+  style.fill: "#e0f7fa"
+  style.stroke: "#00bcd4"
+}
+
+Derivatives -> Linear: Symmetric Payoffs
+Derivatives -> NonLinear: Asymmetric Payoffs
+Linear -> Forwards
+Linear -> Futures
+Linear -> Swaps
+NonLinear -> Options
+```
+
+## NOTES
 
 1. There is yet another type of graduate finance program, which is the masters' or doctorate in financial mathematics, quantitative finance, or financial engineering. These programs are usually conducted in engineering or math departments and schools, and they are designed to train students to become specialists in the subject. This book deals with the same topics as do those programs, but its audience is different.  
 2. The data are based on information provided by Bloomberg® on May 29, 2019.  

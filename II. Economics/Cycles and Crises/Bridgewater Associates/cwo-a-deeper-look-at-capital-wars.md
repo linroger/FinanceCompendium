@@ -1,23 +1,20 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Capital Wars from 1600 to the Present
-linter-yaml-title-alias: Capital Wars from 1600 to the Present
+parent_directory: "Bridgewater Associates"
+formatted: 2025-12-21 02:40:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
-- financial sanctions russia past
-- war pre 1900 capital
-- assets liquidated fund war
+- capital wars history
+- economic warfare
+- financial sanctions
 secondary_tags:
-- capital conflicts
-- capital warfare blocking trade
-- decades historical capital wars
-- geopolitical capital wars instance
-- capital wars important lever
-- prior war escalating
-tags_extracted: '2025-12-18T00:12:05.992751'
+- asset freezes
+- trade blockades
+- capital market access
+- historical conflicts
+- geopolitical leverage
+cssclasses: academia
 ---
 
 # Capital Wars from 1600 to the Present
@@ -49,7 +46,7 @@ Historical Capital Wars Summary Table
 
 Below, we briefly summarize the major cases.
 
-# Major 20th and 21st Century Cases: Portuguese
+## Major 20th and 21st Century Cases: Portuguese
 
 - World War I (1914-18): WWI was preceded by a contest for resource-rich colonies, but given how sudden the war was, there were only a couple examples of capital war—with the notable one being Germany blocking financial access to Russia in the 1880s. During the war, combatants used an escalating series of trade blockades and asset seizures to advance their agendas. All countries banned trading with enemies, and naval powers like the UK and the US blockaded Germany, who retaliated by using submarines to target merchant ships to the UK. As the war progressed, combatants who initially froze enemy assets liquidated them to fund their own war efforts.  
 - World War II (Late 1930s-45): Prior to the war, there was an escalating spiral of capital war and hot war conflicts, as Allied powers like the US and the UK placed punitive resource embargoes on Axis countries in response to their territorial expansion, which spurred further invasions by Axis powers to support the needs of their militaries (such as Japan's need for oil). As the war began, Allied forces expanded embargoes into full blockades, and assets from combatants and neutrals were frozen and then seized. Countries relied less on blocking market access or selling assets because target countries were often more reliant on access to resources than financial flows at the time.  
@@ -59,7 +56,7 @@ Below, we briefly summarize the major cases.
 - US-Iraq Conflicts (1980-2003): The conflict between the US and Iraq lasted for decades and was centered around Iraq's invasion of Kuwait and possible support of terrorism and weapons programs. The US heavily enforced severe economic sanctions and the freezing of financial assets over this period to hold leverage over Iraq. Through the UN and the US's allies, the US was also able to exert global pressure, with most of the world signing onto the economic sanctions.  
 - Today: The United States currently imposes considerable sanctions on Iran, North Korea, and Russia, along with a few other countries. These include asset freezes, bans on US entities trading with or financing blacklisted entities, blocking access to dollar-financing pipelines (notably, the SWIFT system), and secondary sanctions on neutral entities that trade with blacklisted entities.
 
-# Major Cases of Capital War Pre-1900:
+## Major Cases of Capital War Pre-1900:
 
 - Capital War Tactics During the Dutch Empire (1600-1800): The main form of capital war in the wars fought by the Dutch during their heyday were trade blockades, cutting off key income sources for their enemies from trade and colonial revenues. Several wars broke out over trade barriers and commercial rivalries that preceded the war—the most notable examples of this are the First and Second Anglo-Dutch Wars. The Fourth Anglo-Dutch war is a key example of the devastating power of capital warfare: by blocking trade routes and controlling trading posts, the British managed to bankrupt the Dutch East India Company.  
 - Napoleonic Wars (1803-15): Capital wars were an important lever used by both France and the UK throughout the conflict. Three years after the two powers went to war, Britain stepped up a severe blockade of naval ports in France. The capital warfare escalated from there in a tit-for-tat manner with cascading blockades and trade restrictions (the UK relied on its superior fleet, while France relied on its control of many European ports the UK used to trade).  

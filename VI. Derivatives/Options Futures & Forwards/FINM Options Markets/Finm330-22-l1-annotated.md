@@ -1,21 +1,22 @@
 ---
 title: Financial Mathematics 33000
 parent_directory: VI. Derivatives/Options Futures & Forwards/FINM Options Markets
-formatted: 2025-12-21 02:50:00 AM
+formatted: 2025-12-21 05:15:00 PM
 formatter_model: grok-code-fast-1
-cli-tool: opencode
+cli_tool: claude-code
 primary_tags:
-  - financial mathematics
-  - options pricing
-  - arbitrage free pricing
+   - options pricing
+   - arbitrage free pricing
+   - forward contracts
+   - put call parity
 secondary_tags:
-  - forward contracts
-  - call options
-  - put options
-  - put call parity
-  - static portfolios
-  - discount bonds
-  - frictionless markets
+   - call options
+   - put options
+   - static portfolios
+   - discount bonds
+   - frictionless markets
+   - option bounds
+   - general payoffs
 cssclasses: academia
 ---
 
@@ -33,7 +34,7 @@ General properties of arbitrage-free prices
 
 General properties of forwards and options
 
-# FINM 33000 and FINM 32000
+## FINM 33000 and FINM 32000
 
 I teach this course and its sequel.
 
@@ -45,7 +46,7 @@ A derivative security or derivative contract is a financial instrument whose pay
 
 call option on GOOG
 
-# The main idea
+## The main idea
 
 I quote from Björk's book:
 
@@ -54,7 +55,7 @@ A derivative cannot therefore be priced arbitrarily in relation to the underlyin
 We thus want to price the derivative in a way that is consistent with the underlying prices given by the market.  
 We are not trying to compute the price of the derivative in some "absolute" sense. The idea instead is to determine the price of the derivative in terms of the market prices of the underlying assets.
 
-# We assume frictionless markets
+## We assume frictionless markets
 
 We will specify a set of basic tradeable assets and a set of times.
 
@@ -70,32 +71,32 @@ Can hold fractional quantities of assets
 
 - Can sell what you do not own (sell short or go short or short), and hold a negative quantity (a short position).
 
-# Introduction
+## Introduction
 
 General properties of arbitrage-free prices
 
 General properties of forwards and options
 
-# Assets
+## Assets
 
 The market has risks described by a probability measure  $\mathsf{P}$  
 It includes  $N$  tradeable assets with nonrandom time-0 prices
 
 $$
-\mathbf {X} _ {0} := \left(X _ {0} ^ {1}, \ldots , X _ {0} ^ {N}\right)
+\mathbf{X}_{0} := \left(X_{0}^{1}, \ldots , X_{0}^{N}\right)
 $$
 
 and random time-  $T$  prices ("payoffs")
 
 $$
-\mathbf {X} _ {T} := \left(X _ {T} ^ {1}, \dots , X _ {T} ^ {N}\right)
+\mathbf{X}_{T} := \left(X_{T}^{1}, \dots , X_{T}^{N}\right)
 $$
 
 No distinction between final payment  $X_{T}$  vs. final asset price  $X_{T}$ .
 
 In this section, no assumptions about which times  $t \in (0,T)$  exist in our market. Our general analysis applies to a one-period model (which includes only 0 and  $T$ ), continuous-time model (which includes all of  $t \in [0,T]$ ), and any intermediate model.
 
-# Examples of tradeable assets
+## Examples of tradeable assets
 
 A zero-coupon bond or discount bond with maturity  $T$ :
 
@@ -108,7 +109,7 @@ Can think of stock as a claim on a time- $T$  random payoff  $S_T \geq 0$ .
 A bank account or money market acct: Each unit has time-  $t$  price
 
 $$
-B _ {t} := \exp \left(\int_ {0} ^ {t} r _ {u} \mathrm {d} u\right). \mathrm {I f} r \mathrm {i s c o n s t a n t ,} B _ {t} = e ^ {r t}
+B_{t} := \exp\left(\int_{0}^{t} r_{u} \, \mathrm{d}u\right). \quad \text{If } r \text{ is constant,} \quad B_{t} = e^{r t}
 $$
 
 for some (possibly random)  $r_u$ , called the time- $u$  instantaneous
@@ -116,17 +117,17 @@ for some (possibly random)  $r_u$ , called the time- $u$  instantaneous
 spot rate of interest or short rate. Note:  $B$  solves the diff eq
 
 $$
-\frac {\mathrm {d} B _ {t}}{\mathrm {d} t} = r _ {t} B _ {t} \qquad \text {w i t h} B _ {0} = 1.
+\frac{\mathrm{d} B_{t}}{\mathrm{d} t} = r_{t} B_{t} \quad \text{with} \quad B_{0} = 1.
 $$
 
 Can think of bank account as having time- $T$  payoff  $\exp (\int_0^T r_t\mathrm{d}t)$ .
 
-# Static portfolios
+## Static portfolios
 
 A static portfolio is a vector of quantities
 
 $$
-\boldsymbol {\Theta} := (\theta^ {1}, \dots , \theta^ {N})
+\boldsymbol{\Theta} := (\theta^{1}, \dots , \theta^{N})
 $$
 
 where each  $\theta$  is nonrandom and constant in time.
@@ -140,12 +141,12 @@ If  $\theta^n < 0$  we say the portfolio is short asset  $n$ .
 The time- $t$  value of portfolio  $\Theta$  is
 
 $$
-V _ {t} := \boldsymbol {\Theta} \cdot \mathbf {X} _ {t} = \theta^ {1} X _ {t} ^ {1} + \dots + \theta^ {N} X _ {t} ^ {N}
+V_{t} := \boldsymbol{\Theta} \cdot \mathbf{X}_{t} = \theta^{1} X_{t}^{1} + \dots + \theta^{N} X_{t}^{N}
 $$
 
 If we are dealing with multiple portfolios, we may give  $V$  a superscript to indicate which portfolio.
 
-# Arbitrage: common-language definition
+## Arbitrage: common-language definition
 
 Arbitrage is a combination of transactions that tries to profit from price inconsistencies. Examples:
 
@@ -157,12 +158,12 @@ Buy or sell that combination.
 
 In common language, "arbitrage" may involve risk of loss.
 
-# Arbitrage: mathematical definition
+## Arbitrage: mathematical definition
 
 A static portfolio  $\Theta$  is a "type 1" arbitrage if its value  $V$  satisfies
 
 $$
-\begin{array}{l} V _ {0} = 0 \quad \text {a n d b o t h :} \quad \mathsf {P} (V _ {T} \geq 0) = 1 \\ \mathrm {P} \left(V _ {T} > 0\right) > 0 \\ \end{array}
+\begin{array}{l} V_{0} = 0 \quad \text{and both:} \quad \mathsf{P}(V_{T} \geq 0) = 1 \\ \mathrm{P}(V_{T} > 0) > 0 \\ \end{array}
 $$
 
 Zero initial investment, and no risk of loss, some chance of gain.
@@ -177,7 +178,7 @@ $$
 
 A static portfolio  $\Theta$  is an arbitrage if it's either a type 1 or type 2 arbitrage.
 
-# Arbitrage
+## Arbitrage
 
 ▶ Prices which admit arbitrage are, in some sense, incorrect.
 
@@ -193,7 +194,7 @@ The distinction between our definition (type 1 or type 2) and their definition (
 
 If there exists an asset whose price is always nonnegative and not always zero, then type 1 arb exists whenever type 2 arb exists.
 
-# Examples
+## Examples
 
 A portfolio is not an arbitrage if its value satisfies:
 
@@ -211,12 +212,12 @@ $V_{0} = -2$  , and  $V_{T} = -1$  with probability 1.
 
 This is not an arb because  $V_{T} = -1$ . Receiving 2 initially, then later paying only 1, does not necessarily lock in a gain. Because, without assumptions about interest rates, we don't know whether the initial 2 can be parked in an asset worth at least 1 at time  $T$ .
 
-# Example
+## Example
 
 Suppose that assets  $F,G,H$  satisfy
 
 $F_{T}\geq G_{T} + H_{T}$  with probability 1.  
-$F_{0} <   G_{0} + H_{0}$
+$F_{0} < G_{0} + H_{0}$
 
 Then 50 80
 
@@ -228,7 +229,7 @@ Example:  $F_{T} = G_{T} + H_{T}$  where  $F =$  bicycle,  $G =$  wheels,  $H =$
 
 Type I: (1 unit of  $F, - 1$  unit  $+ G, - 1$  unit  $+ H$  , 10 units of  $B$  )
 
-# Absent arbitrage, prices satisfy consistency conditions
+## Absent arbitrage, prices satisfy consistency conditions
 
 Suppose portfolio  $\Theta^a$  superreplicates portfolio  $\Theta^b$ , which means that  $\mathsf{P}(V_T^a \geq V_T^b) = 1$ . Then  $V_0^a \geq V_0^b$ , otherwise arbitrage exists.
 
@@ -248,7 +249,7 @@ In this proof, we used a general technique for constructing arbitrage:
 
 - Go long what is cheap (undervalued), and short what is rich (overvalued). In other words: buy low, sell high.
 
-# The law of one price
+## The law of one price
 
 Likewise, if  $\Theta^a$  subreplicates  $\Theta^b$ , meaning  $\mathsf{P}(V_T^a \leq V_T^b) = 1$ ,
 
@@ -265,7 +266,7 @@ This is the law of one price. Any two static portfolios with identical future pa
 
 "If you want to know the value of a security, use the price of another security [or portfolio of securities] that's as similar to it as possible."
 
-# Price vs Value vs Payoff
+## Price vs Value vs Payoff
 
 - Time- $t$  price = how much it costs to buy/sell something at time  $t$ . (Exceptions: "forward price", "futures price")
 - Time- $t$  value = how much it should cost to buy/sell something. Meaning of "should" depends on the context. In this course, the only notion of "should" is that arbitrage should not exist. So for us, "value" is what it costs to buy/sell something, in the absence of arbitrage. But since we have a standing assumption of no-arbitrage, we really have no distinction between price and value, unless we are in a situation where arbitrage exists (e.g. HW: "find an arbitrage").
@@ -273,23 +274,23 @@ This is the law of one price. Any two static portfolios with identical future pa
 Payoff  $=$  Payout  $=$  how much a contract pays
 
 $$
-= \text {V a l u e o f t h e c o n t r a c t a t e x p i r a t i o n (a s s u m i n g s i n g l e p a y m e n t)}
+= \text{Value of the contract at expiration (assuming single payment)}
 $$
 
-# Introduction
+## Introduction
 
 General properties of arbitrage-free prices
 
 General properties of forwards and options
 
-# Discount bond: valuation
+## Discount bond: valuation
 
 Consider a discount bond  $Z$  maturing at  $T$ , and a bank account  $B$ .
 
 If interest rate  $r_t$  is non-random, then
 
 $$
-B _ {1} = 1. 1 0
+B_{1} = 1.10
 $$
 
 $$
@@ -314,7 +315,7 @@ In particular, if  $r$  is constant, then 1 unit of bank is identical to  $e^{rT
 
 So the portfolios must have equal time-0 values:  $Z_{0} = (1 / B_{T}) \times 1$ .
 
-# Forward contract: definition
+## Forward contract: definition
 
 Consider a random variable  $S_{T}$  whose value is revealed at time  $T$ .
 
@@ -325,13 +326,13 @@ So the forward contract has payoff  $S_{T} - K$ . Payoff diagram:
 
 Forward contract is an example of a derivative - a security whose payout is contractually related to some underlying variable.
 
-# Forward contract: valuation
+## Forward contract: valuation
 
 Consider a forward contract on a non-dividend-paying stock  $S$  with delivery date  $T$  and any delivery price  $K$ .
 
 Then the time-0 value of the forward contract is  $S_0 - KZ_0$ .
 
-# Proof.
+## Proof.
 
 The portfolio
 
@@ -345,7 +346,7 @@ The forward contract also has time- $T$  value  $S_T - K$ .
 
 So the time-0 value of the forward contract must equal the time-0 value of the replicating portfolio, which is
 
-# Forward price
+## Forward price
 
 The forward price  $F_{0}$  which sets at time 0 for delivery at time  $T$  is the delivery price such that the forward contract has zero value at time 0.
 
@@ -353,7 +354,7 @@ A forward price is not the same thing as the value of a forward contract.
 A forward contract on a no-dividend stock  $S$  has time-0 value
 
 $$
-S _ {0} - K Z _ {0}.
+S_{0} - K Z_{0}.
 $$
 
 Choice of  $K$  that makes value zero is  $S_0 / Z_0$ .
@@ -362,7 +363,7 @@ Thus  $F_0 = S_0 / Z_0$ . If  $r$  is constant, then  $F_0 = S_0 e^{rT}$ .
 
 This does not depend on the dynamics of  $S$ .
 
-# Forward price example
+## Forward price example
 
 If  $r = 0.02$  and the share price today is  $S_0 = 600$ , and you and I want to enter costlessly today into a contract for time-1 delivery of  $S$  in exchange for a delivery price to be paid at time-1, the only arbitrage-free way to set that delivery price is  $600 \times e^{0.02} \approx 612$ . Even if bullish, it'd be wrong for me to agree to pay, say, 650.
 
@@ -371,12 +372,12 @@ Another arb:  $(-600\mathrm{bank},1$  share,  $-1$  forward contract) because  $
 
 In other words, you sell me the contract, borrow 600 to buy the share today. At time 1, deliver the share, collect 650, repay 612.
 
-# Affine payoff
+## Affine payoff
 
 More generally, consider the following "affine" (or "linear") contract on a non-dividend-paying stock  $S$ . The contract pays, by definition,
 
 $$
-a + b S _ {T}
+a + b S_{T}
 $$
 
 where  $a$  and  $b$  are constants. Then its time-0 value is
@@ -388,10 +389,10 @@ $$
 because it is replicated by
 
 $$
-(a u n i t s o f b o n d, b u n i t s o f s t o c k)
+(a units of bond, b units of stock)
 $$
 
-# Call option: definition
+## Call option: definition
 
 A (European-style) call option with strike  $K$  and expiry  $T$  on an underlying process  $S$ , gives the holder the right, but not obligation, at time  $T$ , to pay  $K$  and receive  $S_T$  (dollars, or asset worth  $S_T$  dollars). So call has payoff  $(S_T - K)^+$ , where  $x^+ := \max(x, 0)$ . Payoff diagram:
 
@@ -399,7 +400,7 @@ A (European-style) call option with strike  $K$  and expiry  $T$  on an underlyi
 
 At time  $t \leq T$ , the call option is said to be in the money if  $S_{t} > K$  at the money if  $S_{t} = K$ , out of the money if  $S_{t} < K$ .
 
-# Uses of call options
+## Uses of call options
 
 Why would you use a call option? Examples:
 
@@ -412,15 +413,15 @@ So, compared to buying stock, buying a call can limit your downside, and/or incr
 Suppose you own the underlying. Selling a call ("call writing") trades away some upside, in exchange for current income.  
 Suppose you think the options market is overpricing the call. Profit by selling the call for more than what it costs to replicate. Or profit by selling the call outright, if you have directional views.
 
-# Call option: bounds wrt underlying
+## Call option: bounds wrt underlying
 
 The time-0 price  $C_0$  of a call on a no-dividend stock  $S$  satisfies
 
 $$
-\left| \left(S _ {0} - K Z _ {0}\right) ^ {+} \leq C _ {0} \leq S _ {0} \right.
+\left( (S_{0} - K Z_{0})^{+} \leq C_{0} \leq S_{0} \right.
 $$
 
-# Proof.
+## Proof.
 
 See payoff diagram:
 
@@ -432,12 +433,12 @@ Hence  $C_0 \geq S_0 - KZ_0$  and  $C_0 \geq 0$  and  $C_0 \leq S_0$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/038b4660-68f6-4963-b7d3-8bf4990c9ea7/4acc7bbded03ebc8e38f1d82380b540b58ac21ed002b70bcb72f4a7993817019.jpg)
 
-# Call option: bounds wrt other calls
+## Call option: bounds wrt other calls
 
 The time-0 call prices  $C_0(K_1)$  and  $C_0(K_2)$ , for strikes  $K_1 < K_2$  (with same expiry, on same underlying) satisfy
 
 $$
-\left| 0 \leq C _ {0} \left(K _ {1}\right) - C _ {0} \left(K _ {2}\right) \leq \left(K _ {2} - K _ {1}\right) Z _ {0} \right.
+0 \leq C_{0}(K_{1}) - C_{0}(K_{2}) \leq (K_{2} - K_{1}) Z_{0}
 $$
 
 # Proof.
@@ -450,7 +451,7 @@ The call spread payoff dominates the zero payoff, but is dominated by the payoff
 
 So  $C_0(K_1) - C_0(K_2)$  is bounded below by the time-0 value of zero, above by the time-0 value of  $K_2 - K_1$  bonds.
 
-# Put option: definition
+## Put option: definition
 
 A (European-style) put option with strike  $K$  and expiry  $T$  on an underlying process  $S$ , gives the holder the right, but not obligation, at time  $T$  to pay  $S_T$  (dollars, or asset worth  $S_T$  dollars) and receive  $K$ . So put has payoff  $(K - S_T)^+$ . Payoff diagram:
 
@@ -458,7 +459,7 @@ A (European-style) put option with strike  $K$  and expiry  $T$  on an underlyin
 
 At time  $t \leq T$ , the put option is said to be in the money if  $S_{t} < K$  at the money if  $S_{t} = K$ , out of the money if  $S_{t} > K$ .
 
-# Uses of put options
+## Uses of put options
 
 Why would you use a put option? Examples:
 
@@ -471,12 +472,12 @@ Buying a put limits your potential loss to the cost of the option.
 Suppose you own the underlying. Buying a put protects you against the underlying going below  $K$ . It's insurance.  
 Suppose you think the options market is overpricing the put. Profit by selling the put for more than what it costs to replicate. Or sell the put outright, if you have a directional view.
 
-# Put-call parity
+## Put-call parity
 
 Let  $P_0(K, T)$  and  $C_0(K, T)$  be time-0 prices of a European put and call, with identical  $(K, T)$ , on a no-dividend stock  $S$ . Let  $Z_0(T)$  be the time-0 price of a  $T$ -maturity discount bond. Then
 
 $$
-C _ {0} (K, T) = P _ {0} (K, T) + S _ {0} - K Z _ {0} (T)
+C_{0}(K, T) = P_{0}(K, T) + S_{0} - K Z_{0}(T)
 $$
 
 Proof.
@@ -487,7 +488,22 @@ Payoff diagram:
 
 Payoffs are equal, hence prices at earlier date are equal.
 
-# When was put-call parity discovered?
+```d2
+Put Call Parity: {
+  shape: rectangle
+  label: C - P = S - K Z_0
+
+  Call: C
+  Put: P
+  Stock: S
+  Bond: K Z_0
+
+  Call -- Put: Difference
+  Stock -- Bond: Difference
+}
+```
+
+## When was put-call parity discovered?
 
 It's in Confusion de Confusiones (1688) by José de la Vega
 
@@ -496,20 +512,20 @@ JOSDELA VIGA 145-492
 
 Put-call parity is far older, and more fundamental, than any particular model e.g. Black-Scholes (1973)
 
-# Put option: bounds wrt underlying, and wrt other puts
+## Put option: bounds wrt underlying, and wrt other puts
 
 The time-0 price of a put on a non-dividend-paying stock  $S$  satisfies
 
 $$
-\left| \left(K Z _ {0} - S _ {0}\right) ^ {+} \leq P _ {0} \leq K Z _ {0}. \right.
+\left( (K Z_{0} - S_{0})^{+} \leq P_{0} \leq K Z_{0} \right.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/038b4660-68f6-4963-b7d3-8bf4990c9ea7/6346a140491ba63854416c956f745e8a2814985963c7968afd1452c3c5a1d336.jpg)
 
-The time-0 put prices  $P_0(K_1)$  and  $P_0(K_1)$ , for strikes  $K_1 < K_2$  (with same expiry, on same underlying) satisfy
+The time-0 put prices  $P_0(K_1)$  and  $P_0(K_2)$ , for strikes  $K_1 < K_2$  (with same expiry, on same underlying) satisfy
 
 $$
-0 \leq P _ {0} (K _ {2}) - P _ {0} (K _ {1}) \leq \left(K _ {2} - K _ {1}\right) Z _ {0}.
+0 \leq P_{0}(K_{2}) - P_{0}(K_{1}) \leq (K_{2} - K_{1}) Z_{0}.
 $$
 
 Proof.
@@ -518,7 +534,7 @@ Compare payoffs. Or use put-call parity.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/038b4660-68f6-4963-b7d3-8bf4990c9ea7/490580043c788e04dc82e96421ef7374d68004ec6e3be1105267b5c58382dd09.jpg)
 
-# Put option: bounds wrt other puts, revisited
+## Put option: bounds wrt other puts, revisited
 
 If  $K_{1} < K_{2}$  then  $P_{0}(K_{1}) \leq P_{0}(K_{2})$ . Proof by comparing payoffs:
 
@@ -527,10 +543,10 @@ If  $K_{1} < K_{2}$  then  $P_{0}(K_{1}) \leq P_{0}(K_{2})$ . Proof by comparing
 Better yet,
 
 $$
-P _ {0} (K _ {1}) \leq \frac {K _ {1}}{K _ {2}} P _ {0} (K _ {2})
+P_{0}(K_{1}) \leq \frac{K_{1}}{K_{2}} P_{0}(K_{2})
 $$
 
-# General payoffs
+## General payoffs
 
 Using static positions in  $T$ -expiry bonds, forwards, calls, and puts on  $S$ , we can replicate or bound (superreplicate, subreplicate) general functions of  $S_T$ .
 
@@ -551,7 +567,7 @@ $\triangleright$  Use calls (or puts) to adjust convexity and concavity.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/038b4660-68f6-4963-b7d3-8bf4990c9ea7/41a189fed009c7b1d1e14bee35237469a8d3065ef4c050bb2d52d6337ad89134.jpg)
 
-# GOOG option quotes
+## GOOG option quotes
 
 2.7 units of bond  
 -2.5 units of K4-strike put  

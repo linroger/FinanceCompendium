@@ -1,12 +1,32 @@
 ---
-aliases:
-  - Girsanov's Theorem in Option Pricing
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 15: Girsanov's Theorem in Option Pricing"
-linter-yaml-title-alias: "Chapter 15: Girsanov's Theorem in Option Pricing"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:30:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - girsanovs theorem
+  - martingale representation
+  - radon nikodym derivative
+  - change of measure
+  - risk neutral pricing
+secondary_tags:
+  - stochastic processes
+  - probability measures
+  - ito calculus
+  - derivative pricing
+  - stochastic differential equations
+  - martingale property
+  - novikov condition
+  - probability transformation
+  - drift change
+  - risk premium
+  - market price of risk
+  - empirical asset pricing
+  - hedging strategy
+  - partial differential equation
+  - wiener process
+cssclasses: academia
 ---
 
 # Girsanov's Theorem in Option Pricing
@@ -48,7 +68,7 @@ This is the result we need and the one that clearly indicates that the uncertain
 So the martingale representation theorem tells us that we must find a stochastic process  $\lambda_{t}$  such that we are holding just the right number of units of  $x$ . In addition, we must invest a certain amount in risk-free bonds such that we replicate  $y$ . Formally,
 
 $$
-y _ {t} = \lambda_ {t} x _ {t} + \theta_ {t} B _ {t}, (1 5. 3)
+y _ {t} = \lambda_ {t} x _ {t} + \theta_ {t} B _ {t}, \tag{15.3}
 $$
 
 where  $B_{t}$  is the value of the bonds, and which accrues value by the factor  $e^{r_c dt}$ . Note that  $\lambda$  and  $\theta$  are variables. They are indexed by  $t$  and are determined as the asset evolves along its stochastic paths. We need to know their values at  $t$ .<sup>3</sup> They change as we move through time, but they are completely determined once we know the new price of the asset. Financial economists know this as the dynamic nature of the option delta. Indeed delta is what we are currently designating as  $\lambda_t$ .
@@ -77,7 +97,7 @@ Note that the numerator of the exponent takes  $x$  and subtracts our shifted ex
 
 We have changed the expected value but not the variance, meaning that we have changed the location but not the shape of the distribution. We need not specify if  $\gamma$  is positive or negative, because we could shift the expected value upward or downward. Let us call this new density  $f^{\mathcal{Q}}(x)$  and the new distribution function  $\operatorname{Pr}^{\mathcal{Q}}(\mathrm{x})$ , so  $f^{\mathcal{Q}}(x) = d\operatorname{Pr}^{\mathcal{Q}}(x) / dx$ . Let us see how we can make this distribution change so that  $\operatorname{Pr}(x)$  is replaced by  $\operatorname{Pr}^{\mathcal{Q}}(x)$ .
 
-Look at the expression in the previous exponent,  $-[(x - \mu -\gamma) / \sigma ]^2 /2$  , and note that it equals  $-(1 / 2\sigma^{2})(x^{2} - 2x\mu -2\gamma x + 2\mu \gamma +\mu^{2} - \gamma^{2})$  . If we compare this expression to what we started with,  $-[(x - \mu) / \sigma ]^2 /2 = -(1 / 2\sigma^2)(x^2 -2x\mu +\mu^2)$  , we see that we can get the new expression by multiplying the original expression by a certain factor. That is,
+Look at the expression in the previous exponent,  $-[(x - \mu -\gamma) / \sigma ]^2 /2$  , and note that it equals  $-(1 / 2\sigma^{2})(x^{2} - 2x\mu - 2\gamma x + 2\mu \gamma +\mu^{2} - \gamma^{2})$  . If we compare this expression to what we started with,  $-[(x - \mu) / \sigma ]^2 /2 = -(1 / 2\sigma^2)(x^2 - 2x\mu +\mu^2)$  , we see that we can get the new expression by multiplying the original expression by a certain factor. That is,
 
 $$
 \frac {1}{\sigma \sqrt {2 \pi}} e ^ {- \left(\frac {x - \mu - \gamma}{\sigma}\right) ^ {2}} = \left(\frac {1}{\sigma \sqrt {2 \pi}} e ^ {- \left(\frac {x - \mu}{\sigma}\right) ^ {2}}\right) \left(e ^ {- \frac {\left(2 \gamma x - 2 \gamma \mu - \gamma^ {2}\right)}{2 \sigma^ {2}}}\right). \tag {15.6}
@@ -167,7 +187,7 @@ For our purposes here, recall the properties of the standard Wiener processes ba
 
 We are now ready for a formal statement of Girsanov's theorem. We will then proceed to explain various aspects of it.
 
-Girsanov's theorem: Let  $W_{t}$  be a standard Wiener process with respect to probability measure  $P$  on  $I_{t}$ . Let  $(\gamma_{\mathrm{t}})$  be an adapted process such that  $\int_0^t\gamma_jdW_j$  is defined. Define a martingale,  $M_t$ , as  $M_{t}\equiv e^{0}\int_{0}^{t}\gamma_{j}d\mathbb{W}_{j} - \frac{1}{2}\int_{0}^{t}\gamma_{j}^{2}dj$ . Define a new probability measure  $Q$  on  $I_{t}$  as  $Q(A)\equiv E(1_A M_t);A\in I_t$ . Then  $\int_0^t d\widehat{W}_j\equiv \int_0^t dW_j - \int_0^t\gamma_jdj$  is a standard Wiener process with respect to  $Q$ .
+Girsanov's theorem: Let  $W_{t}$  be a standard Wiener process with respect to probability measure  $P$  on  $I_{t}$ . Let  $(\gamma_{t})$  be an adapted process such that  $\int_{0}^{t} \gamma_{j} dW_{j}$  is defined. Define a martingale,  $M_{t}$ , as  $M_{t} \equiv e^{\int_{0}^{t} \gamma_{j} dW_{j} - \frac{1}{2} \int_{0}^{t} \gamma_{j}^{2} dj}$ . Define a new probability measure  $Q$  on  $I_{t}$  as  $Q(A) \equiv E(1_{A} M_{t}); A \in I_{t}$ . Then  $\int_{0}^{t} d\widehat{W}_{j} \equiv \int_{0}^{t} dW_{j} - \int_{0}^{t} \gamma_{j} dj$  is a standard Wiener process with respect to  $Q$ .
 
 # 15.5 CHANGING THE DRIFT IN A CONTINUOUS TIME STOCHASTIC PROCESS
 
@@ -194,7 +214,7 @@ $$
 For this transformation to be possible, we must impose a constraint on the behavior of  $\gamma_{u}$ . Specifically, we require that
 
 $$
-E \left(\int_ {e ^ {0}} ^ {t} \gamma_ {u} ^ {2} d u\right) <   \infty . \tag {15.15}
+E\left(\int_{0}^{t} \gamma_{u}^{2} du\right) < \infty. \tag{15.15}
 $$
 
 This statement is called the Novikov condition. In simple terms it means that the variation in  $\gamma_{\mu}$  must be finite. For all our applications, the Novikov condition will be met.<sup>6</sup>
@@ -208,7 +228,7 @@ $$
 First, we find the partials
 
 $$
-\begin{array}{l} \frac {\partial \phi_ {t}}{\partial W _ {t}} = \frac {\partial \left(e ^ {\int_ {0} ^ {t} \gamma_ {u} d W _ {v} - \frac {1}{2} \int_ {0} ^ {t} \gamma_ {u} ^ {2} d u}\right)}{\partial W _ {t}} \\ = \phi_ {t} \frac {\partial \left(\intop_ {0} ^ {t} \gamma_ {u} d W _ {\nu} - \frac {1}{2} \intop_ {0} ^ {t} \gamma_ {u} ^ {2} d u\right)}{\partial W _ {t}} \\ = \phi_ {t} \gamma_ {t}. \tag {15.17} \\ \end{array}
+\frac{\partial \phi_{t}}{\partial W_{t}} = \frac{\partial \left(e^{\int_{0}^{t} \gamma_{u} d W_{u} - \frac{1}{2} \int_{0}^{t} \gamma_{u}^{2} du}\right)}{\partial W_{t}} = \phi_{t} \frac{\partial \left(\int_{0}^{t} \gamma_{u} d W_{u} - \frac{1}{2} \int_{0}^{t} \gamma_{u}^{2} du\right)}{\partial W_{t}} = \phi_{t} \gamma_{t}. \tag{15.17}
 $$
 
 And, because  $\gamma_{t}$  is not determined by  $\mathbb{W}_t$ , the second derivative is
@@ -236,7 +256,7 @@ $$
 $$
 
 $$
-\phi_ {t} - 1 = \int_ {0} ^ {t} \phi_ {\mu} \gamma_ {u} d W _ {u},
+\phi_{t} - 1 = \int_{0}^{t} \phi_{u} \gamma_{u} d W_{u},
 $$
 
 $$
@@ -254,7 +274,7 @@ $$
 where  $W_{t}^{Q}$  is a Wiener process under the new probability measure  $\mathrm{Pr}^Q$  such that
 
 $$
-\frac {d \Pr Q}{d \Pr} = \phi_ {Q}. \tag {15.24}
+\frac{d \Pr^{Q}}{d \Pr} = \phi_{t}. \tag{15.24}
 $$
 
 Remember that  $\phi$  is the Radon-Nikodym derivative.
@@ -367,7 +387,7 @@ which is typically not zero. With positive interest rates, we have now specified
 
 First, we should be comforted in knowing that by removing the risk premium, we have taken out the most difficult part of the problem: the estimation of the risk premium for applied use or empirical research. There is an entire subdiscipline of financial economics called empirical asset pricing that is devoted to estimating risk premiums. We should be able to avoid this concern and solve the option pricing problem from what we now know, and indeed that is the case. Financial economists have long known that if we change the asset's expected return to the risk-free rate, we can then evaluate the expected option payoff under the assumption that the asset price is randomly generated by the standard stochastic differential equation with a drift set at the risk-free rate. Economists then go on to explain that everything we need to know about how investors feel about risk is impounded into the asset price. It is not necessary to reflect any effect of investors' risk preferences on the option price. Consequently, we can proceed to evaluate the option as if the expected return on the asset is the risk-free rate. This approach is often called risk-neutral pricing, and we have covered it previously. What we have done is equivalent to the well-known procedure of taking a short position in an option, hedging it with a long position in units of the underlying asset, thereby eliminating the risk, followed by setting the return on this hedged portfolio to the risk-free rate. From there we obtain a partial differential equation whose solution is the option pricing model. But how do we salvage our approach, which now leaves us with  $S_{t}$  no longer a martingale?
 
-The trick lies in recognizing that we can work with the discounted value of  $S_{t}$ . In other words, say we start off at time 0 with a value of  $S_{0}$ . Then at time  $t$ , we have a new value,  $S_{t}$ . But suppose we transform our asset price into its discounted value,  $S_{t}e^{-\tau_{c}t}$ . Now let us look at some of our previous results. Recall that the solution to the stochastic differential equation that gives us  $S_{t}$  in terms of  $S_{0}$  was
+The trick lies in recognizing that we can work with the discounted value of  $S_{t}$ . In other words, say we start off at time 0 with a value of  $S_{0}$ . Then at time  $t$ , we have a new value,  $S_{t}$ . But suppose we transform our asset price into its discounted value,  $S_{t}e^{-r_{c}t}$ . Now let us look at some of our previous results. Recall that the solution to the stochastic differential equation that gives us  $S_{t}$  in terms of  $S_{0}$  was
 
 $$
 S _ {t} = S _ {0} e ^ {\mu t + \sigma W _ {t}}. \tag {15.40}
@@ -457,36 +477,7 @@ and we applied it to the return on an asset on which we would be interested in v
 
 In Chapter 16, we illustrate how the discrete and continuous stochastic processes we have been working with are related. In doing so, we will show how the discrete change of measure relates to the continuous change of measure.
 
-# QUESTIONS AND PROBLEMS
 
-1 Assume a given stock price follows geometric Brownian motion with geometric drift along with known constant mean and known constant standard deviation. Find the equivalent measure with a known risk-free rate and known constant standard deviation.  
-2 Assume an underlying instrument follows arithmetic Brownian motion with arithmetic drift with a known constant mean and known constant standard deviation. Find the equivalent measure with a known risk-free rate having geometric drift and known constant standard deviation.  
-Suppose  $x$  is distributed independent, multivariate normal with each variable's standard deviation of 1,  $N(\mu_i, 1)$ . Then the PDF is
-
-$$
-f _ {\mathbf {x}} ^ {\mathbf {u}, 1} (x _ {1}, \ldots , x _ {n}: \mathbf {\mu}, \Sigma = \mathbf {I}) = \frac {1}{\sqrt {(2 \pi) ^ {n}}} e ^ {- \frac {1}{2} \sum_ {i = 1} ^ {n} (x _ {i} - \mu_ {i}) ^ {2}}.
-$$
-
-Suppose we want  $x$  to be distributed independent, multivariate normal with each variable having mean 0 and standard deviation 1,  $N(0,1)$ . Then the PDF is
-
-$$
-f _ {\mathbf {x}} ^ {0, 1} (x _ {1}, \ldots , x _ {n}: \mathbf {\mu} = \mathbf {0}, \Sigma = \mathbf {I}) = \frac {1}{\sqrt {(2 \pi) ^ {n}}} e ^ {- \frac {1}{2} \sum_ {i = 1} ^ {n} x _ {i} ^ {2}}.
-$$
-
-Find the appropriate Radon-Nikodym derivative to make this transformation.
-
-4 Based on Girsanov's theorem, is it possible to convert arithmetic Brownian motion with geometric drift to geometric Brownian motion with geometric drift?  
-5 Evaluate whether the following statement related to the martingale representation theorem is true:
-
-Given any two martingales,  $x_{t}$  and  $y_{t}$ , the relationship between them can simply be stated as
-
-$$
-y _ {t} = y _ {0} + \int_ {0} ^ {t} \lambda_ {j} d x _ {j}.
-$$
-
-# NOTES
-
-1. In addition, a martingale must be finite, and each realization must be independent of the previous one.  
 2. Of course, the exercise price also determines the option payoff, but it is not random, so it causes us no problems.  
 3. Mathematicians call this property previsibility.  
 4. Recall that specifically,  $d\mathrm{W}_t = \varepsilon_t\sqrt{dt}$  where  $\varepsilon_{t}$  is a standard normal random variable.  

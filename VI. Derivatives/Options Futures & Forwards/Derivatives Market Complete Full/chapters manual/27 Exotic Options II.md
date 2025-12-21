@@ -538,7 +538,7 @@ $$
 $$ and on the Nikkei tree as
 
 
-# FIGURE 3
+**FIGURE 3**
 
 Binomial trees for the dollar and the Nikkei index from the perspective of a yen-based investor. Both are forward trees constructed using the parameters in Table 4. The risk-neutral probabilities of up moves are 0.4750 in the dollar tree and 0.4626 in the Nikkei tree.
 
@@ -587,7 +587,7 @@ F _ {0, 1} (Q) = \yen 0. 4 6 2 6 \times \yen 2 3, 7 0 6. 1 0 + (1 - 0. 4 6 2 6) 
 
 $$
 
-### The Dollar Perspective
+## The Dollar Perspective
 
 Now we consider yen and Nikkei investments from the perspective of a dollar-based investor. The yen forward price is given by
 
@@ -675,7 +675,7 @@ $$
 
 This is lower than the yen-denominated Nikkei forward price of ¥20,404 in Example 7.
 
-# A Binomial Model for the Dollar-Denominated Investor
+## A Binomial Model for the Dollar-Denominated Investor
 
 As another way to understand quanto pricing, we can construct a binomial tree that simultaneously models the currency-translated index and the exchange rate. In addition to this particular application of two-variable binomial trees, some options have prices that depend on two state variables.
 
@@ -755,7 +755,7 @@ This expression is a generalization of the one-variable formula for a risk-neutr
 
 Figure 4 depicts the binomial tree constructed using equations (34a) and (35a), and probabilities of each node constructed using equations (36) and (38). The quanto forward price can be constructed as the expectation  $E(Y_{1} / x_{1})$ .
 
-# FIGURE 4
+**FIGURE 4**
 
 The binomial process for the dollar/yen exchange rate  $(x)$  and the Nikkei  $(Q)$ . The last two columns contain the value of the currency-translated Nikkei and the risk-neutral probability of each node, computed using equations (36) and (38).
 
@@ -789,13 +789,13 @@ All of the prices computed from the tree match those in Example 8.
 
 The tree in Figure 4 can be extended to multiple periods. Rubinstein (1994) shows that in general, with  $n$  steps, there are  $(n + 1)^2$  nodes; for example, with two steps there are nine nodes. To see why, if we add another binomial period to the tree, there are  $4^2 = 16$  combinations of the up-down moves  $(AA, AB, \ldots, DD)$ . The order of the moves is irrelevant, so, for example,  $AB = BA$ . This equivalence eliminates  $n \times (n - 1) = 6$  nodes, leaving 10. Further, from equation (35a),  $AB = CD$ . Because  $n = 2$ , this leaves  $(n + 1)^2 = 9$  unique nodes.
 
-# 5. CURRENCY-LINKED OPTIONS
+## 5. CURRENCY-LINKED OPTIONS
 
 There are several common ways to construct options on foreign assets, for which the return has an exchange rate component. The different variants permit investors to assume different amounts of currency and equity risk. In this section we examine four variants and their pricing formulas. We will continue to use the notation and numbers from Table 4.
 
 An option can be priced using only the prepaid forward prices for the underlying asset and strike asset, and the relative volatility of the two. The intuition for this result is that a market-maker could hedge an option position using the two prepaid forwards, neither of
 
-# Box 2: Nikkei Put Warrants
+### Box 2: Nikkei Put Warrants
 
 An example of quanto options is the Nikkei 225 put warrants that traded on the American Stock Exchange beginning in 1990. Ryan and Granovsky (2000) provide an interesting account of the history of these options, in which Nikkei risk was repackaged and transformed several times by various global financial players.
 
@@ -806,7 +806,7 @@ The net result of this chain of transactions was that Japanese institutional inv
 
 which, by definition, makes any payouts. In the discussions to follow, we will use this result to simplify the valuation of seemingly complex options.
 
-# Foreign Equity Call Struck in Foreign Currency
+##### Foreign Equity Call Struck in Foreign Currency
 
 If we want to speculate on a foreign index, one possibility is to buy an option completely denominated in a foreign currency. The value of this option at expiration is
 
@@ -834,7 +834,7 @@ Example 10. Using the parameters in Table 4 and assuming a strike price of ¥19,
 
 We can also price the option by using the Black-Scholes formula in the conventional way: BSCall(¥20,000, ¥19,500; 0.15; 0.04; 1; 0.02) = ¥1632.16. The dollar price is 16.32.
 
-# Foreign Equity Call Struck in Domestic Currency
+## Foreign Equity Call Struck in Domestic Currency
 
 Suppose we have a call option to buy the Nikkei but we denominate the strike,  $K$ , in dollars. If we exercise the option, we pay  $K$  dollars to acquire the Nikkei, which is worth  $x_{T}Q_{T}$ . Thus, at expiration, the option is worth
 
@@ -875,7 +875,7 @@ $$
 
 $$
 
-# Fixed Exchange Rate Foreign Equity Call
+## Fixed Exchange Rate Foreign Equity Call
 
 Suppose we have a foreign equity call denominated in the foreign currency, but with the option proceeds to be repatriated at a predetermined exchange rate. This is a quanto option, analogous to the quanto forward, with the value of the option translated into dollars at a fixed exchange rate. Let  $\bar{x}$  represent this rate. The payoff to this option with strike price  $K_{f}$  (denominated in the foreign currency) is
 
@@ -913,7 +913,7 @@ $$
 
 Problem 6 asks you to verify that you obtain the same answer with  $x_0 Q_0$  as the underlying asset and an appropriate choice of the dividend yield.
 
-# Equity-Linked Foreign Exchange Call
+## Equity-Linked Foreign Exchange Call
 
 If we invest in a foreign asset, we might like to insure against low exchange rates when we convert back to the domestic currency, while still having the ability to profit from favorable exchange rates. Buying an exchange rate put is insufficient because the quantity of currency to be exchanged is uncertain. What we want is an option that guarantees a minimum exchange rate when we convert the asset value back to the domestic currency.
 
@@ -961,11 +961,11 @@ $$
 0. 0 1 \mathrm {s} / \mathrm {y} \times \mathrm {y} 1 9, 5 0 0 e ^ {- 0. 0 8}, 0. 1 5, 0, 1, 0) = \mathrm {s} 1 5. 3 1 8 7
 $$
 
-# 6. OTHER MULTIVARIATE OPTIONS
+## 6. OTHER MULTIVARIATE OPTIONS
 
 There are many options that have a payoff depending on the prices of two or more assets. In this section we examine two kinds of options that can be priced either by modifying the Black-Scholes formula or by using the bivariate normal distribution. Throughout this section, we assume that the assets  $S$  and  $Q$  follow the processes given by equations (1) and (2).
 
-# Options on the Best of Two Assets
+## Options on the Best of Two Assets
 
 Suppose an investor allocates a portfolio to both the S&P index and the currency-translated Nikkei. Allocating the portfolio to the index that the investor believes will obtain the highest return is called market-timing. A perfect market-timer would invest in the S&P when it outperformed the Nikkei and the Nikkei when it outperformed the S&P. What is the value of being able to infallibly select the portfolio with the superior performance?
 
@@ -1034,7 +1034,7 @@ $$
 
 While there are approximations for valuing such an option (see Haug, 1998, pp. 59-61), more exact solutions require Monte Carlo or two-state binomial trees.
 
-# Basket Options
+## Basket Options
 
 Basket options have payoffs that depend upon the average of two or more asset prices. Basket options are frequently used in currency hedging. A multinational firm dealing in multiple currencies, for example, might care only about hedging the average exchange rate, rather than each exchange rate individually. As another example, an option on the S&P index might pay off only if the S&P outperforms an average of the currency-translated Nikkei and Dax (German stock) indices. With equal weights on the Nikkei and Dax, the payoff to such an option would be
 
@@ -1046,7 +1046,7 @@ You may be able to guess the problem with deriving a simple formula to value suc
 
 Because the payoff can depend on many random variables and there is no easy formula, Monte Carlo is a natural technique for valuing basket options. Moreover, basket options provide a natural application for the control variate method to speed up Monte Carlo. A basket option based on the geometric average can be valued using Black-Scholes with appropriate adjustments to the volatility and dividend yield. This price can then serve as a control variate for the more conventional basket option based on an arithmetic average.
 
-# CHAPTER SUMMARY
+## Chapter Summary
 
 It is possible to build new derivative claims by using simpler claims as building blocks. Important building blocks include all-or-nothing options, which pay either cash or an asset under certain conditions. Assuming that prices are lognormal with constant volatility, it is straightforward to value cash-or-nothing and asset-or-nothing options both with and without barriers. Cash-or-nothing claims can be priced as discounted risk-neutral probabilities, and a change of numeraire can then be used to price asset-or-nothing options. These claims can be used to create, among other things, ordinary options, gap options, and barrier options. While these options are straightforward to price, they may be quite difficult to hedge because of discontinuities in the payoff created by the all-or-nothing characteristic.
 
@@ -1054,7 +1054,7 @@ Quantos are claims for which the payoff depends on the product or quotient of tw
 
 Other options, such as rainbow and basket options, have payoffs depending on two or more asset prices. Some of these options have simple pricing formulas; others must be valued binomially, using Monte Carlo, or in some other way.
 
-# FURTHER READING
+## Further Reading
 
 Mark Rubinstein and Eric Reiner published a series of papers on exotic options in Risk magazine in the early 1990s. These provide a comprehensive discussion of pricing formulas on a wide variety of options. Some of the material in this chapter is based directly on those papers, which can be hard to obtain. Ingersoll (2000) also provides examples of the use of all-or-nothing options as building blocks. An alternative approach to two-state binomial pricing is detailed in Boyle et al. (1989).
 

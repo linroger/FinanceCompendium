@@ -1,9 +1,18 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: "Process Cap Quotes"
+parent_directory: finm-fiderivs-2024-main
+formatted: 2025-12-21 02:32:25 PM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+  - cap quotes processing
+  - black volatility
+  - sofr swap curve
+secondary_tags:
+  - bloomberg data conversion
+  - vol curve interpolation
+  - discount curve calculation
 cssclasses: academia
-title: Process Cap Quotes
 ---
 
 # Process Cap Quotes
@@ -70,7 +79,7 @@ SAVEDATA = True
 FILEOUT = f'../data/cap_curves_{DATE}.xlsx'
 ```
 
-# SOFR Quotes
+## SOFR Quotes
 
 ```python
 SHEET = 'sofr'
@@ -675,7 +684,7 @@ sofrcurves
 </table>
 </div>
 
-# Cap Quotes
+## Cap Quotes
 
 ```python
 SHEET = 'cap'
@@ -727,7 +736,7 @@ capquotes.columns = ['normal']
 capquotes[DATE] = capquotes['normal'] / sofrcurves['forwards'] / 100**2
 ```
 
-# Interpolate or Extrapolate
+## Interpolate or Extrapolate
 
 Interpolate/extrapolate just to get to quarterly frequency needed for forward vol extraction.
 
@@ -775,7 +784,7 @@ plt.title('Cap Flat Curve');
 capcurves = flat_to_forward_vol_rev(capcurves['flat vols'],sofrcurves['swap rates'],sofrcurves['forwards'],sofrcurves['discounts'],freq=4)
 ```
 
-# Save Data
+## Save Data
 
 ```python
 outdata = pd.concat([sofrcurves.drop(columns=['quotes']), capcurves.drop(columns=['cap prices'])],axis=1)

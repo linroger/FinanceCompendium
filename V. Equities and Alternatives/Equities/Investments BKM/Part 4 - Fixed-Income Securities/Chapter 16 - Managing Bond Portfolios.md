@@ -113,8 +113,6 @@ The duration of the zero-coupon bond is exactly equal to its time to maturity, t
 
 Spreadsheet 16.2 shows the spreadsheet formulas used to produce the entries in Spreadsheet 16.1. The inputs in the spreadsheet—specifying the cash flows the bond will pay—are given in columns B–D. In column E we calculate the present value of each cash flow by discounting at the assumed yield to maturity, in column F we calculate the weights for Equation 16.1, and in column G we compute the product of time to payment and payment weight. Each of these terms corresponds to one of the values that is summed in Equation 16.1. The sums computed in cells G8 and G14 are therefore the durations of each bond. Using the spreadsheet, you can easily answer several “what if” questions such as the one in Concept Check 16.1.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/9635334fd667d3525ab198d802a3c3c75be755cba780098f82510b50d00068cb.jpg)
-
 # Concept Check 16.1
 
 Suppose the interest rate decreases to  $9\%$  as an annual percentage rate. What will happen to the prices and durations of the two bonds in Spreadsheet 16.1?
@@ -1027,8 +1025,6 @@ c. Describe the shortcoming of analyzing bond  $A$  strictly to call or to matur
 # E-INVESTMENTS EXERCISES
 
 Go to buyupside.com/calculators. The site includes links to calculators for yield to maturity, duration, and convexity. Experiment by trying different inputs. What happens to duration and convexity as coupon increases? As maturity increases? As price increases (holding coupon fixed)?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/eadde9f3aedcdd65e3912b8c2fd4d0a7abc4a252dc6043e91849a64e0584bc6a.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

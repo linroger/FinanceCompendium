@@ -4,9 +4,9 @@ aliases:
    - Market-Making and Delta-Hedging
    - Delta Hedging
 parent_directory: Derivatives Market Complete Full/chapters manual
-formatted: 2025-12-21 12:00:00 PM
-formatter_model: grok-code-fast-1
-cli-tool: opencode
+formatted: 2025-12-21 02:20:30 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
    - market-making
    - delta-hedging
@@ -145,7 +145,7 @@ Net cash flow = Change in borrowing capacity - cash used to purchase additional 
 Let  $\Delta_{i}$  denote the option delta on day  $i$ ,  $S_{i}$  the stock price,  $C_{i}$  the option price, and  $\mathrm{MV}_i$  the market value of the portfolio. Borrowing capacity on day  $i$  is  $\mathrm{MV}_i = \Delta_i S_i - C_i$ ; hence, the change in borrowing capacity is
 
 $$
-\mathrm {M V} _ {i} - \mathrm {M V} _ {i - 1} = \Delta_ {i} S _ {i} - C _ {i} - \left(\Delta_ {i - 1} S _ {i - 1} - C _ {i - 1}\right)
+\text{Market-maker} = - \left(\frac{1}{2} \sigma^{2} S_{t}^{2} \Gamma_{t} + \theta_{t} + r \left[ \Delta_{t} S_{t} - C(S_{t}) \right]\right) h \tag{9}
 $$
 
 The cost of purchasing additional shares is  $S_{i}(\Delta_{i} - \Delta_{i-1})$ , and interest owed on day  $i$  depends on the previous day's borrowing,  $r\mathrm{MV}_{i-1}$ . Thus, on day  $i$  we have
@@ -356,11 +356,13 @@ Option Price ($)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/923da0393e8c0d1f56357ef09c261a445ccd6bbe6040758fbf062de353386c6a.jpg)
 
-Predicted option price over a period of 1 day, assuming stock price move of  $0.75, using equation (6). Assumes that \sigma = 0.3, r = 0.08, T - t = 91 days, and \delta = 0, and the initial stock price is$ 40.
+Predicted option price over a period of 1 day, assuming stock price move of $0.75, using equation (6). Assumes that $\sigma = 0.3$, $r = 0.08$, $T - t = 91$ days, and $\delta = 0$, and the initial stock price is \$40.
 
 TABLE 4
 
-<table><tr><td rowspan="2"></td><td rowspan="2">Starting Price</td><td rowspan="2">€Δ</td><td rowspan="2">1/2€2Γ</td><td rowspan="2">θh</td><td colspan="2">Option Price 1 Day Later (h = 1 day)</td></tr><tr><td>Predicted</td><td>Actual</td></tr><tr><td>St+h = $40.75</td><td>$2.7804</td><td>0.4368</td><td>0.0183</td><td>-0.0173</td><td>$3.2182</td><td>$3.2176</td></tr><tr><td>St+h = $39.25</td><td>$2.7804</td><td>-0.4368</td><td>0.0183</td><td>-0.0173</td><td>$2.3446</td><td>$2.3452</td></tr></table> expiration. This formula is quite accurate for relatively small changes in time and in the stock price.
+<table><tr><td rowspan="2"></td><td rowspan="2">Starting Price</td><td rowspan="2">€Δ</td><td rowspan="2">1/2€2Γ</td><td rowspan="2">θh</td><td colspan="2">Option Price 1 Day Later (h = 1 day)</td></tr><tr><td>Predicted</td><td>Actual</td></tr><tr><td>St+h = $40.75</td><td>$2.7804</td><td>0.4368</td><td>0.0183</td><td>-0.0173</td><td>$3.2182</td><td>$3.2176</td></tr><tr><td>St+h = $39.25</td><td>$2.7804</td><td>-0.4368</td><td>0.0183</td><td>-0.0173</td><td>$2.3446</td><td>$2.3452</td></tr></table>
+
+expiration. This formula is quite accurate for relatively small changes in time and in the stock price.
 
 
 Example 2. Table 4 shows the results from using equation (6) to predict the option price change when prices move by  $0.75 (\epsilon = \pm 0.75)$ . In this example,  $\Delta = 0.5824$ ,  $\Gamma = 0.0652$ , and  $h\theta = -0.0173$ . Note that in each case the formula slightly overstates the change, but the predicted price is close to the actual price.
@@ -403,7 +405,7 @@ On the right-hand side of equation (7) we see the effects of gamma, theta, and i
 
 Since  $\theta$  is negative, time decay benefits the market-maker, whereas interest and gamma work against the market-maker.
 
-Let's examine how  $\epsilon$ , the change in the stock price, enters equation (7). Note first that because we have delta-hedged,  $\epsilon$  itself does not affect market-maker profit. However, profit does depend on the squared change in the stock price,  $\epsilon^2$ . Consequently, as we saw in Table 2, it is the magnitude—not the direction of the stock price move—that determines profit.
+Let's examine how $\epsilon$, the change in the stock price, enters equation (7). Note first that because we have delta-hedged, $\epsilon$ itself does not affect market-maker profit. However, profit does depend on the squared change in the stock price,  $\epsilon^2$ . Consequently, as we saw in Table 2, it is the magnitude—not the direction of the stock price move—that determines profit.
 
 Table 5 calculates equation (7) for various moves in the stock price. Because equation (7) depends only on the squared stock price move, the calculation is the same for moves up and down.
 
@@ -433,7 +435,7 @@ $$
 
 $$
 
-This expression gives us market-maker profit when the stock moves one standard deviation. As an example, let  h = 1 / 365  and  \sigma = 0.3 . Then  \sigma S\sqrt{h} = \0.6281 . From Table 5, with this stock price move equation (9) is exactly zero! (Problem 13 asks you to verify this.) It is not an accident that equation (9) is zero for this price move. We explain this result in Section 5.
+This expression gives us market-maker profit when the stock moves one standard deviation. As an example, let $h = 1/365$ and $\sigma = 0.3$. Then $\sigma S\sqrt{h} = \$0.6281$. From Table 5, with this stock price move equation (9) is exactly zero! (Problem 13 asks you to verify this.) It is not an accident that equation (9) is zero for this price move. We explain this result in Section 5.
 
 In Table 5, the loss from a 1 move is substantially larger in absolute value than the gain from no move. However, small moves are more probable than big moves. If we think of returns as being approximately normally distributed, then stock price moves greater than one standard deviation occur about one-third of the time. The market-maker thus expects to make small profits about two-thirds of the time and larger losses about one-third of the time. On average, the market-maker will break even.
 
@@ -502,7 +504,7 @@ R _ {h, i} = \frac {1}{2} S ^ {2} \sigma^ {2} \Gamma \left(x _ {i} ^ {2} - 1\rig
 $$ where  $\Gamma$  is the option's gamma and  $h$  is the time interval between hedge readjustments. For a delta-hedging call writer, the return has the opposite sign. From Boyle and Emanuel, the variance of  $x_{i}^{2} - 1$  is 2; hence,
 
 $$
-\operatorname {V a r} \left(R _ {h, i}\right) = \frac {1}{2} \left(S ^ {2} \sigma^ {2} \Gamma h\right) ^ {2} \tag {12}
+R_{h,i} = \frac{1}{2} S^{2} \sigma^{2} \Gamma (x_{i}^{2} - 1) h \tag{11}
 $$
 
 We assume—as in the binomial model—that the stock return is uncorrelated across time, so that  $x_{i}$  is uncorrelated across time.
@@ -510,20 +512,20 @@ We assume—as in the binomial model—that the stock return is uncorrelated acr
 Now let's compare hedging once a day against hedging hourly (suppose trading occurs around the clock). The daily variance of the return earned by the market-maker who hedges once a day is given by
 
 $$
-\operatorname {V a r} \left(R _ {1 / 3 6 5, 1}\right) = \frac {1}{2} \left(S ^ {2} \sigma^ {2} \Gamma / 3 6 5\right) ^ {2}
+\operatorname{Var}(R_{h,i}) = \frac{1}{2} (S^{2} \sigma^{2} \Gamma h)^{2} \tag{12}
 $$
 
 The daily return of the market-maker who hedges hourly is the sum of the hourly returns. Assuming for the sake of simplicity that  $S$  and  $\Gamma$  do not change much, that variance is
 
 $$
-\begin{array}{l} \operatorname {V a r} \left(\sum_ {i = 1} ^ {2 4} R _ {h, i}\right) = \sum_ {i = 1} ^ {2 4} \frac {1}{2} \left[ S ^ {2} \sigma^ {2} \Gamma / (2 4 \times 3 6 5) \right] ^ {2} \\ = \frac {1}{2 4} \times \operatorname {V a r} \left(R _ {1 / 3 6 5, 1}\right) \\ \end{array}
+\begin{array}{l} \operatorname{Var} \left(\sum_{i=1}^{24} R_{h,i}\right) = \sum_{i=1}^{24} \frac{1}{2} \left[ S^{2} \sigma^{2} \Gamma / (24 \times 365) \right]^{2} \\ = \frac{1}{24} \times \operatorname{Var} (R_{1/365,1}) \\ \end{array}
 $$
 
 Thus, by hedging hourly instead of daily the market-maker's total return variance is reduced by a factor of 24.
 
 Here is the intuition for this result. Whatever the hedging interval, about two-thirds of the price moves will be less than a single standard deviation, whereas one-third will be greater. Frequent re-hedging does not avoid these large or small moves, since they can occur over any interval. However, frequent hedging does permit better averaging of the effects of these moves. Whether you hedge once a day or once an hour, the typical stock price move you encounter will likely not be close to one standard deviation. However, if you hedge every hour, over the course of a day you will have 24 moves and 24 opportunities to re-hedge. The average move over this period is likelier to be close to one standard deviation. The gains from small moves and losses from large moves will tend to average over the course of a day. In effect, the more frequent hedger benefits from diversification over time.[6]
 
-Example 3. Using Boyle and Emanuel's formulas to study the market-maker problem in Section 3, the standard deviation of profit is about  \$0.075 for a market-maker who hedges hourly. Since hedging errors are independent from hour to hour, the daily standard deviation for an hourly hedger would be$ 0.075 × \sqrt{24} = $0.37. If the market-maker were to hedge only daily as in our example, the daily standard deviation would be about \$1.82.
+Example 3. Using Boyle and Emanuel's formulas to study the market-maker problem in Section 3, the standard deviation of profit is about \$0.075 for a market-maker who hedges hourly. Since hedging errors are independent from hour to hour, the daily standard deviation for an hourly hedger would be $0.075 \times \sqrt{24} = \$0.37$. If the market-maker were to hedge only daily as in our example, the daily standard deviation would be about \$1.82.
 
 As you would expect, the mean return on a delta-hedged position is the risk-free rate, even if the hedge is not frequently readjusted.
 
@@ -537,7 +539,7 @@ There are at least four ways a market-maker can try to reduce the risk of extrem
 
 First, just as market-makers can adopt a delta-neutral position, they can also adopt a gamma-neutral position. This position cannot be achieved with the stock alone, since the gamma of the stock is zero. Thus, to be gamma-neutral the market-maker must buy or sell options so as to offset the gamma of the existing position. We provide an example of gamma-neutrality below.
 
-Second, in a related strategy, market-makers can use static option replication, a strategy in which options are used to hedge options. In our delta-hedging example, the market-maker might not be able to buy an exactly offsetting call option to hedge the written call, but by selectively setting the bid and ask prices for related options, might be able to acquire an option position requiring only infrequent rebalancing. To take a simple example, if the market-maker were able to buy a put with the same strike price and maturity as the written call (e.g., by setting the bid price to attract any seller of that option), then by buying 100 shares to offset the risk of the position, the market-maker would have used put-call parity to create a hedge that is both gammaand delta-neutral for the life of the options.
+Second, in a related strategy, market-makers can use static option replication, a strategy in which options are used to hedge options. In our delta-hedging example, the market-maker might not be able to buy an exactly offsetting call option to hedge the written call, but by selectively setting the bid and ask prices for related options, might be able to acquire an option position requiring only infrequent rebalancing. To take a simple example, if the market-maker were able to buy a put with the same strike price and maturity as the written call (e.g., by setting the bid price to attract any seller of that option), then by buying 100 shares to offset the risk of the position, the market-maker would have used put-call parity to create a hedge that is both gamma- and delta-neutral for the life of the options.
 
 Third, a market-maker can buy out-of-the-money options as insurance. In our example of delta-neutral hedging of a written option, the market-maker could buy a deep out-of-the-money put and a deep out-of-the-money call. The two options would be relatively inexpensive and would protect against large moves in the stock. One problem with this solution is that, since option positions in the aggregate sum to zero, the market-making community as a whole can buy protective options only if investors in the aggregate are willing to sell them. Investors, however, are usually thought to be insurance buyers rather than insurance sellers.
 
@@ -565,11 +567,11 @@ $$
 
 Thus, we need to buy 1.2408 of the 45-strike 4-month options for every 40-strike 3-month option we have sold. The Greeks resulting from the position are in the last column of Table 6. Since delta is  $-0.1749$ , we need to buy 17.49 shares of stock to be both deltaand gamma-hedged.
 
-Figure 4 compares this deltaand gamma-hedged position to the delta-hedged position, discussed earlier, in which the same call was written. The delta-hedged position has the problem that large moves always cause losses. The gamma-hedged position loses less if there is a large move down, and can make money if the stock price increases. Moreover, as Table 6 shows, the gamma-hedged position has a positive vega. Why would anyone not gamma-hedge?
+Figure 4 compares this delta- and gamma-hedged position to the delta-hedged position, discussed earlier, in which the same call was written. The delta-hedged position has the problem that large moves always cause losses. The gamma-hedged position loses less if there is a large move down, and can make money if the stock price increases. Moreover, as Table 6 shows, the gamma-hedged position has a positive vega. Why would anyone not gamma-hedge?
 
 There are two reasons. First, as noted already, gamma-hedging requires the use of additional options. The market-maker will have to obtain the required option position from another market-maker, paying the bid-ask spread. In this example, all profits earned from writing the 40-strike call will go to pay the market-maker who sells the 45-strike call used in gamma-hedging. In a large portfolio, however, with many options bought and sold, naturally
 
-Prices and Greeks for 40-strike call, 45-strike call, and the (gamma-neutral) portfolio resulting from selling the 40-strike call for which  T - t = 0.25  and buying 1.2408 45-strike calls for which  T - t = 0.33 . By buying 17.49 shares, the market-maker can be both deltaand gamma-neutral. Assumes  S = \40 ,  \sigma = 0.3 ,  r = 0.08 , and  \delta = 0 .
+Prices and Greeks for 40-strike call, 45-strike call, and the (gamma-neutral) portfolio resulting from selling the 40-strike call for which $T - t = 0.25$ and buying 1.2408 45-strike calls for which $T - t = 0.33$. By buying 17.49 shares, the market-maker can be both delta- and gamma-neutral. Assumes $S = \$40$, $\sigma = 0.3$, $r = 0.08$, and $\delta = 0$.
 
 TABLE 6
 
@@ -577,7 +579,7 @@ TABLE 6
 
 # FIGURE 4
 
-Comparison of 1-day holding period profit for delta-hedged position described in Table 2 and deltaand gamma-hedged position described in Table 6.
+Comparison of 1-day holding period profit for delta-hedged position described in Table 2 and delta- and gamma-hedged position described in Table 6.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/0d881e024be79a2fef0d059efe4a56c4adbff1d5edf3327528db86fdca397529.jpg) offsetting one another, gamma-hedging the net exposure would not require many option transactions.
 

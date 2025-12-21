@@ -1,12 +1,26 @@
 ---
 aliases:
   - The Greeks in the Black-Scholes-Merton Model
-tags:
-key_concepts:
 parent_directory: Foundations of the Pricing of Financial Derivatives chapters
 cssclasses: academia
 title: "Chapter 14: The Greeks in the Black-Scholes-Merton Model"
-linter-yaml-title-alias: "Chapter 14: The Greeks in the Black-Scholes-Merton Model"
+formatted: 2025-12-21 03:00:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - black-scholes-merton model
+  - option greeks
+  - derivative pricing
+secondary_tags:
+  - delta hedging
+  - gamma risk
+  - theta decay
+  - vega exposure
+  - rho sensitivity
+  - option sensitivities
+  - risk management
+  - volatility derivatives
+  - interest rate derivatives
 ---
 
 # The Greeks in the Black-Scholes-Merton Model
@@ -31,7 +45,7 @@ $$
 N \left(d _ {i}\right) = \int_ {- \infty} ^ {d _ {i}} \frac {1}{\sqrt {2 \pi}} e ^ {- x ^ {2} / 2} d x, i = 1, 2. \tag {14.1}
 $$
 
-We noted that this formula is the solution to the following partial differential equation,
+We noted that this formula is the solution to the following partial differential equation:
 
 $$
 r _ {c} S \frac {\partial c}{\partial S} + \frac {\partial c}{\partial t} + \frac {1}{2} \frac {\partial^ {2} c}{\partial S ^ {2}} \sigma^ {2} S ^ {2} = r _ {c} c. \tag {14.2}
@@ -39,12 +53,14 @@ $$
 
 The only way to be absolutely certain that the solution of a differential equation is correct is to take the derivatives of the solution and insert them into the differential equation. If the solution is correct, the differential equation will turn into the solution equation. So, let us do that here. As is indicated in Equation (14.2), we shall need to take the first and second derivatives with respect to the asset price, which are called the delta and gamma, respectively, and the first derivative with respect to time, which is called the theta. We approximated these sensitivity measures in the binomial model. Now, we shall more formally derive them in the continuous time world.
 
-Before starting, however, there are some interim results that will prove useful in this process. Recall that  $N(d)$  is the value of the cumulative density function, also called the distribution function, of a standard normal random variable,  $d$ . Thus, the integrand is
-
-simply the probability density function denoted  $n(d)$ . We first take the partial derivatives of  $N(d_{1})$  and  $N(d_{2})$  with respect to  $d_{1}$  and  $d_{2}$ , respectively,
+Before starting, however, there are some interim results that will prove useful in this process. Recall that  $N(d)$  is the value of the cumulative density function, also called the distribution function, of a standard normal random variable,  $d$ . Thus, the integrand is simply the probability density function denoted  $n(d)$ . We first take the partial derivatives of  $N(d_{1})$  and  $N(d_{2})$  with respect to  $d_{1}$  and  $d_{2}$ , respectively,
 
 $$
 \frac {\partial N \left(d _ {1}\right)}{\partial d _ {1}} = \frac {1}{\sqrt {2 \pi}} e ^ {- d _ {1} ^ {2} / 2} = n \left(d _ {1}\right) \tag {14.3}
+$$
+
+$$
+\frac {\partial N \left(d _ {2}\right)}{\partial d _ {2}} = \frac {1}{\sqrt {2 \pi}} e ^ {- d _ {2} ^ {2} / 2} = n \left(d _ {2}\right). \tag {14.4}
 $$
 
 and
@@ -53,7 +69,7 @@ $$
 \frac {\partial N \left(d _ {2}\right)}{\partial d _ {2}} = \frac {1}{\sqrt {2 \pi}} e ^ {- d _ {2} ^ {2} / 2} = \frac {1}{\sqrt {2 \pi}} e ^ {- \left(d _ {1} - \sigma \sqrt {\tau}\right) ^ {2} / 2} = n \left(d _ {2}\right). \tag {14.4}
 $$
 
-Further, we can establish the relationship between  $n(d_1)$  and  $n(d_2)$ . Focusing first on  $\left(d_1 - \sigma \sqrt{\tau}\right)^2$ , we note
+Further, we can establish the relationship between  $n(d_1)$  and  $n(d_2)$ . Focusing first on  $\left(d_1 - \sigma \sqrt{\tau}\right)^2$ , we note:
 
 $$
 \begin{array}{l} \left(d _ {1} - \sigma \sqrt {\tau}\right) ^ {2} = d _ {1} ^ {2} - 2 \sigma \sqrt {\tau} d _ {1} + \sigma^ {2} \tau \\ = d _ {1} ^ {2} - 2 \sigma \sqrt {\tau} \left[ \frac {\ln (S / X) + \left(r _ {c} + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}} \right] + \sigma^ {2} \tau \\ = d _ {1} ^ {2} - 2 \ln \left(S / X e ^ {- r _ {c} \tau}\right). \\ \end{array}
@@ -179,7 +195,7 @@ $$
 \frac {\partial c}{\partial \tau} = \frac {\sigma S}{2 \sqrt {\tau}} n \left(d _ {1}\right) + r _ {c} X e ^ {- r _ {c} \tau} N \left(d _ {2}\right). \tag {14.22}
 $$
 
-Thus, the derivative with respect to time to expiration is clearly positive, which is intuitively consistent. A call option with a longer time to expiration is worth more. Generally speaking, however, we define theta as the derivative with respect to the point in time, that is,  $\partial c / \partial t$ . Recall that we defined the time to expiration as  $\tau = T - t$ . What we shall need in order to check the solution to the partial differential equation is  $\partial c / \partial t$ , but it is easy to see that  $\partial c / \partial t = -\partial c / \partial \tau$ . Hence,
+Thus, the derivative with respect to time to expiration is clearly positive, which is intuitively consistent. A call option with a longer time to expiration is worth more. Generally speaking, however, we define theta as the derivative with respect to the point in time, that is, $\partial c / \partial t$. Recall that we defined the time to expiration as $\tau = T - t$. What we shall need in order to check the solution to the partial differential equation is $\partial c / \partial t$, but it is easy to see that $\partial c / \partial t = -\partial c / \partial \tau$. Hence,
 
 $$
 \Theta_ {c} = \frac {\partial c}{\partial t} = - \frac {\sigma S}{2 \sqrt {\tau}} n \left(d _ {1}\right) - r _ {c} X e ^ {- r _ {c} \tau} N \left(d _ {2}\right). \tag {14.23}
@@ -269,7 +285,7 @@ $$
 \nu_ {c} = \frac {\partial c}{\partial \sigma} = S \sqrt {\tau} n \left(d _ {1}\right). \tag {14.34}
 $$
 
-This value is clearly positive and is known as the vega. $^{1}$  Interestingly, the traditional interpretation of vega in the BSM model is that it helps one on the upside and does not hurt on the downside, but Chance (1994) shows that the effect is technically from the downside only and is strongly affected by the static and somewhat questionable assumption that the underlying is unaffected by the volatility change.
+This value is clearly positive and is known as the vega. $^{1}$ Interestingly, the traditional interpretation of vega in the BSM model is that it helps one on the upside and does not hurt on the downside, but Chance (1994) shows that the effect is technically from the downside only and is strongly affected by the static and somewhat questionable assumption that the underlying is unaffected by the volatility change.
 
 # 14.5.2 Rho: The Partial Derivative with Respect to the Risk-Free Rate
 
@@ -285,7 +301,7 @@ $$
 \rho_ {c} = \frac {\partial c}{\partial r} = X e ^ {- r _ {c} \tau} \tau N \left(d _ {2}\right). \tag {14.36}
 $$
 
-This expression, called rho, is clearly positive.2
+This expression, called rho, is clearly positive.$^{2}$
 
 # 14.6 PARTIAL DERIVATIVES OF THE BLACK-SCHOLES-MERTON EUROPEAN PUT OPTION PRICING MODEL
 
@@ -388,11 +404,11 @@ TABLE 14.1 Dividend-Adjusted Greeks
 For example, the dividend-adjusted deltas are simply
 
 $$
-\Delta_ {c} = \frac {\partial c}{\partial S} = \frac {\partial c}{\partial S ^ {\prime}} \frac {\partial S ^ {\prime}}{\partial S} = N (d _ {1}) e ^ {- \delta \tau} a n d \tag {14.46}
+\Delta_ {c} = \frac {\partial c}{\partial S} = \frac {\partial c}{\partial S ^ {\prime}} \frac {\partial S ^ {\prime}}{\partial S} = N (d _ {1}) e ^ {- \delta \tau} \tag {14.46}
 $$
 
 $$
-\Delta_ {p} = \frac {\partial p}{\partial S} = \frac {\partial p}{\partial S ^ {\prime}} \frac {\partial S ^ {\prime}}{\partial S} = - N (- d _ {1}) e ^ {- \delta \tau}. (1 4. 4 7)
+\Delta_ {p} = \frac {\partial p}{\partial S} = \frac {\partial p}{\partial S ^ {\prime}} \frac {\partial S ^ {\prime}}{\partial S} = - N (- d _ {1}) e ^ {- \delta \tau}. \tag {14.47}
 $$
 
 Table 14.1 presents the five dividend-adjusted Greeks for calls and puts.
@@ -508,7 +524,7 @@ $$
 4 One of the most important cross-partial derivatives is vanna, the partial derivative of delta with respect to the volatility, because delta is key to risk management and volatility is not constant in practice. Derive the vanna for both calls and puts on a dividend paying stock with yield,  $\delta$ .
 
 $$
-V a n n a _ {c} = \frac {\partial \Delta_ {c}}{\partial \sigma} = \frac {\partial}{\partial \sigma} e ^ {- \delta \tau} N (d _ {1})
+Vanna _ {c} = \frac {\partial \Delta_ {c}}{\partial \sigma} = \frac {\partial}{\partial \sigma} e ^ {- \delta \tau} N (d _ {1})
 $$
 
 5 Derive  $\partial c / \partial X$  for a stock paying a dividend yield,  $\delta$ .

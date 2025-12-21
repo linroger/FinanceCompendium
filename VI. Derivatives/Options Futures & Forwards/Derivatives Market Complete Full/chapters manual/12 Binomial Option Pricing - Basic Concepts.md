@@ -1,20 +1,26 @@
 ---
 title: Chapter 12 - Binomial Option Pricing: Basic Concepts
 aliases:
-  - Binomial Option Pricing
-  - Binomial Model
+   - Binomial Option Pricing
+   - Binomial Model
 parent_directory: Derivatives Market Complete Full/chapters manual
-formatted: 2025-12-21 02:20:00 AM
-formatter_model: grok-code-fast-1
-cli_tool: opencode
+formatted: 2025-12-21 02:30:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
-  - binomial option pricing
-  - replicating portfolio
-  - risk-neutral valuation
+   - binomial option pricing
+   - replicating portfolio
+   - risk-neutral valuation
+   - multi-period binomial model
+   - american option pricing
 secondary_tags:
-  - delta hedging
-  - binomial trees
-  - option valuation models
+   - delta hedging
+   - binomial trees
+   - option valuation models
+   - currency option valuation
+   - futures option pricing
+   - commodity option models
+   - bond option pricing
 cssclasses: academia
 ---
 
@@ -105,7 +111,7 @@ Note that Portfolios A and B have the same payoff: Zero if the stock price goes 
 
 The idea that positions that have the same payoff should have the same cost is called the law of one price. This example uses the law of one price to determine the option price. We will see shortly that there is an arbitrage opportunity if the law of one price is violated.
 
-The call option in the example is replicated by holding $2/3$ shares, which implies that one option has the risk of $2/3$ shares. The value $2/3$ is the delta $(\Delta)$ of the option: the number of shares that replicates the option payoff. Delta is a key concept, and we will say much more about it later.
+The call option in the example is replicated by holding $\frac{2}{3}$ shares, which implies that one option has the risk of $\frac{2}{3}$ shares. The value $\frac{2}{3}$ is the delta $(\Delta)$ of the option: the number of shares that replicates the option payoff. Delta is a key concept, and we will say much more about it later.
 
 Finally, we can say something about the expected return on the option. Suppose XYZ has a positive risk premium (i.e., the expected return on XYZ is greater than the risk-free rate). Since we create the synthetic call by borrowing to buy the stock, the call is equivalent to a leveraged position in the stock, and therefore the call will have an expected return greater than that on the stock. The option elasticity measures the amount of leverage implicit in the option.
 
@@ -170,7 +176,7 @@ To see why this condition must hold, suppose  $\delta = 0$ . If the condition we
 
 Note that because  $\Delta$  is the number of shares in the replicating portfolio, it can also be interpreted as the sensitivity of the option to a change in the stock price. If the stock price changes by \$1, then the option price,  $\Delta S + B$ , changes by  $\Delta$ . This interpretation will be quite important later.
 
-Example 1. Here is the solution for  \Delta ,  B , and the option price using the stock price tree depicted in Figure 1. There we have  u = \60 / \41 = 1.4634 ,  d = \30 / \41 = 0.7317 , and  \delta = 0 . In addition, the call option had a strike price of  \40  and 1 year to expiration—hence,  h = 1 . Thus  C_u = \60 - \40 = \20 , and  C_d = 0 . Using equations (1) and (2), we have
+Example 1. Here is the solution for $\Delta$, $B$, and the option price using the stock price tree depicted in Figure 1. There we have $u = 1.4634$, $d = 0.7317$, and $\delta = 0$. In addition, the call option had a strike price of $40$ and 1 year to expiration—hence, $h = 1$. Thus $C_u = 20$, and $C_d = 0$. Using equations (1) and (2), we have
 
 $$
 \Delta = \frac{\$20 - 0}{\$41 \times (1.4634 - 0.7317)} = 2/3
@@ -228,17 +234,17 @@ We have earned the amount by which the option was mispriced and hedged the risk 
 
 The binomial solution for  $\Delta$  and  $B$ , equations (1) and (2), is obtained by solving two equations in two unknowns. Letting  $C_h$  and  $S_h$  be the option and stock value after one binomial period, and supposing  $\delta = 0$ , the equations for the portfolio describe a line with
 
-## FIGURE 2
+**FIGURE 2**
 
-The payoff to an expiring call option is the dark heavy line. The payoff to the option at the points  $dS$  and  $uS$  are  $C_d$  and  $C_u$  (at point  $D$ ). The portfolio consisting of  $\Delta$  shares and  $B$  bonds has intercept  $e^{rh}B$  and slope  $\Delta$ , and by construction goes through both points  $E$  and  $D$ . The slope of the line is calculated as  $\frac{\mathrm{Rise}}{\mathrm{Run}}$  between points  $E$  and  $D$ , which gives the formula for  $\Delta$ .
+The payoff to an expiring call option is the dark heavy line. The payoff to the option at the points $dS$ and $uS$ are $C_d$ and $C_u$ (at point $D$). The portfolio consisting of $\Delta$ shares and $B$ bonds has intercept $e^{rh}B$ and slope $\Delta$, and by construction goes through both points $E$ and $D$. The slope of the line is calculated as $\frac{\mathrm{Rise}}{\mathrm{Run}}$ between points $E$ and $D$, which gives the formula for $\Delta$.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/22acee3554307759a0d0bd9a066039da1f6bc357b1a0d74e3b274ac45bbe4281.jpg) the formula
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/22acee3554307759a0d0bd9a066039da1f6bc357b1a0d74e3b274ac45bbe4281.jpg)
 
 $$
 C_h = \Delta \times S_h + e^{r h} B
 $$
 
-This is graphed as line  $AED$  in Figure 2, which shows the option payoff as a function of the stock price at expiration.
+This is graphed as line $AED$ in Figure 2, which shows the option payoff as a function of the stock price at expiration.
 
 We choose  $\Delta$  and  $B$  to yield a portfolio that pays  $C_d$  when  $S_h = dS$  and  $C_u$  when  $S_h = uS$ . Hence, by construction this line runs through points  $E$  and  $D$ . We can control the slope of a payoff diagram by varying the number of shares,  $\Delta$ , and its height by varying the number of bonds,  $B$ . It is apparent that a line that runs through both  $E$  and  $D$  must have slope  $\Delta = (C_u - C_d) / (uS - dS)$ . Also, the point  $A$  is the value of the portfolio when  $S_h = 0$ , which is the time- $h$  value of the bond position,  $e^{rh}B$ . Hence,  $e^{rh}B$  is the  $y$ -axis intercept of the line.
 
@@ -254,15 +260,15 @@ $$
 p^* = \frac{1 - d}{u - d} \tag{21}
 $$
 
-We call  $p^*$  the risk-neutral probability of an increase in the stock price. You can verify that  $0 < p^* < 1$  (this follows from inequality 4), so that  $p^*$  looks like a probability. Using equation (5), and the fact that  $C = \Delta S + B$ , we can rewrite equation (3) as
+We call $p^*$ the risk-neutral probability of an increase in the stock price. You can verify that $0 < p^* < 1$ (this follows from inequality 4), so that $p^*$ looks like a probability. Using equation (3), and the fact that $C = \Delta S + B$, we can rewrite equation (3) as
 
 $$
 C = e^{-rh}(p^* C_u + (1 - p^*) C_d) \tag{24}
 $$
 
-Because  $p^*$  and  $1 - p^*$  are both positive and sum to one, the term  $p^* C_u + (1 - p^*) C_d$  looks like an expected cash flow computed using the risk-neutral probability. This expected cash flow is then discounted using the risk-free rate. The pricing procedure illustrated in equation (6), in which a risk-neutral expected value is discounted at the risk-free rate, is called risk-neutral valuation.
+Because $p^*$ and $1 - p^*$ are both positive and sum to one, the term $p^* C_u + (1 - p^*) C_d$ looks like an expected cash flow computed using the risk-neutral probability. This expected cash flow is then discounted using the risk-free rate. The pricing procedure illustrated in equation (24), in which a risk-neutral expected value is discounted at the risk-free rate, is called risk-neutral valuation.
 
-We can also use equation (6) to compute forward and prepaid forward prices. If we substitute next period's possible stock prices in place of the option prices in equation (6), after some algebra we obtain
+We can also use equation (24) to compute forward and prepaid forward prices. If we substitute next period's possible stock prices in place of the option prices in equation (24), after some algebra we obtain
 
 $$ e^{-r h} \left[ p^* u S + (1 - p^*) d S \right] = S e^{-\delta h} \tag{7}
 $$
@@ -500,8 +506,16 @@ We also could have used equation (9) directly to compute the year-2 stock prices
 
 $$
 
+$$
 S_{uu} = u^{2} \times \$41 = e^{2 \times (0.08 + 0.3)} \times \$41 = \$87.669
+$$
 
+$$
+S_{ud} = S_{du} = u \times d \times \$41 = e^{(0.08 + 0.3)} \times e^{(0.08 - 0.3)} \times \$41 = \$48.114
+$$
+
+$$
+S_{dd} = d^{2} \times \$41 = e^{2 \times (0.08 - 0.3)} \times \$41 = \$26.405
 $$
 
 $$
@@ -545,11 +559,11 @@ Notice the following:
 
 - The option price is greater for the 2-year than for the 1-year option, as we would expect.
 - We priced the option by working backward through the tree, starting at the end and working back to the first period.
-- The option's  $\Delta$  and  $B$  are different at different nodes. In particular, at a given point in time,  $\Delta$  increases to 1 as we go further into the money.
+- The option's $\Delta$ and $B$ are different at different nodes. In particular, at a given point in time, $\Delta$ increases to 1 as we go further into the money.
 - We priced a European option, so early exercise was not permitted. However, permitting early exercise would have made no difference. At every node prior to expiration, the option price is greater than  $S - K$ ; hence we would not have exercised even if the option had been American.
 - Once we understand the two-period option, it is straightforward to value an option using more than two binomial periods. The important principle is to work backward through the tree.
 
-### Many Binomial Periods
+## Many Binomial Periods
 
 An obvious objection to the binomial calculations thus far is that the stock can only have two or three different values at expiration. It seems plausible that to increase accuracy we would want to divide the time to expiration into more periods, generating a more realistic tree. Fortunately, the generalization to many binomial periods is straightforward.
 
@@ -567,9 +581,9 @@ The remaining nodes are computed similarly.
 
 The option price is computed by working backward. The risk-neutral probability of the stock price going up in a period is
 
-### FIGURE 5
+**FIGURE 5**
 
-Binomial tree for pricing a European call option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing a European call option; assumes $S = \$41.00$, $K = \$40.00$, $\sigma = 0.30$, $r = 0.08$, $T = 1.00$ years, $\delta = 0.00$, and $h = 0.333$. At each node the stock price, option price, $\Delta$, and $B$ are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/fb8573f786102babe14a2adb5cb3e9eee15b9515a8cd4ac736d109af512259db.jpg)
 
@@ -585,15 +599,15 @@ $$
 
 Option prices at the remaining nodes are priced similarly.
 
-## 4. PUT OPTIONS
+### 4. PUT OPTIONS
 
 Thus far we have priced only call options. The binomial method easily accommodates put options also, as well as other derivatives. We compute put option prices using the same stock price tree and in almost the same way as call option prices; the only difference with a European put option occurs at expiration: Instead of computing the price as  $\max(0, S - K)$ , we use  $\max(0, K - S)$ .
 
 Figure 6 shows the binomial tree for a European put option with 1 year to expiration and a strike of  \$40 when the stock price is\$ 41. This is the same stock price tree as in Figure 5.
 
-### FIGURE 6
+**FIGURE 6**
 
-Binomial tree for pricing a European put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing a European put option; assumes $S = \$41.00$, $K = \$40.00$, $\sigma = 0.30$, $r = 0.08$, $T = 1.00$ years, $\delta = 0.00$, and $h = 0.333$. At each node the stock price, option price, $\Delta$, and $B$ are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/1aaf92b7d904a2b365ff7b013278f9c0ef2ffd559f0208828f60f12f92b9fe4b.jpg)
 
@@ -604,13 +618,13 @@ $$
 
 Figure 6 does raise one issue that we have not previously had to consider. Notice that at the node where the stock price is  \$30.585, the option price is\$ 8.363. If this option were American, it would make sense to exercise at that node. The option is worth \$8.363 when held until expiration, but it would be worth  $40 -$ 30.585 = \$9.415 if exercised at that node. Thus, in this case the American option should be more valuable than the otherwise equivalent European option. We will now see how to use the binomial approach to value American options.
 
-## 5. AMERICAN OPTIONS
+### 5. AMERICAN OPTIONS
 
 Since it is easy to check at each node whether early exercise is optimal, the binomial method is well-suited to valuing American options. The value of the option if it is left "alive" (i.e., unexercised) is given by the value of holding it for another period, equation (3). The value of the option if it is exercised is given by  $\max(0, S - K)$  if it is a call and  $\max(0, K - S)$  if it is a put.
 
-### FIGURE 7
+**FIGURE 7**
 
-Binomial tree for pricing an American put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing an American put option; assumes $S = \$41.00$, $K = \$40.00$, $\sigma = 0.30$, $r = 0.08$, $T = 1.00$ years, $\delta = 0.00$, and $h = 0.333$. At each node the stock price, option price, $\Delta$, and $B$ are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/3fcb2a8e6f571269d8f68422d0e4ec30c72f47dfec0e8ea8859b41758ae9135d.jpg)
 
@@ -638,7 +652,7 @@ The binomial model can be modified easily to price options on underlying assets 
 
 The valuation of an option on a stock that pays discrete dividends is more complex.
 
-### Option on a Stock Index
+## Option on a Stock Index
 
 Suppose a stock index pays continuous dividends at the rate  $\delta$ . This type of option has in fact already been covered by our derivation in Section 1. The up and down index moves are given by equation (9), the replicating portfolio by equations (1) and (2), and the option price by equation (3). The risk-neutral probability is given by equation (5). $^{10}$
 
@@ -650,7 +664,7 @@ $$
 
 Since  $57.101 > 56.942$ , we exercise the option at that node.
 
-### Options on Currencies
+## Options on Currencies
 
 With a currency with spot price  $x_0$ , the forward price is  $F_{0,h} = x_0e^{(r - r_f)h}$ , where  $r_f$  is the foreign interest rate. Thus, we construct the binomial tree using
 
@@ -662,9 +676,9 @@ $$
 
 There is one subtlety in creating the replicating portfolio: Investing in a "currency" means investing in a money-market fund or fixed-income obligation denominated in that currency.
 
-### FIGURE 8
+**FIGURE 8**
 
-Binomial tree for pricing an American call option on a stock index; assumes  S = \110.00, K = \$100.00, \sigma = 0.30, r = 0.05, T = 1.00 \text{ years, } \delta = 0.035, \text{ and } h = 0.333. \text{ At each node the stock price, option price, } \Delta, \text{ and } B \text{ are given. Option prices in bold italic signify that exercise is optimal at that node.}
+Binomial tree for pricing an American call option on a stock index; assumes $S = \$110.00$, $K = \$100.00$, $\sigma = 0.30$, $r = 0.05$, $T = 1.00$ years, $\delta = 0.035$, and $h = 0.333$. At each node the stock price, option price, $\Delta$, and $B$ are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7ffa89afa68d479d1ee4a8eab9b8d01c48b6a1afaa7701346e36f435f73b6e00.jpg)
 
@@ -689,21 +703,19 @@ Figure 9 prices a dollar-denominated American put option on the euro. The curren
 
 Because volatility is low and the option is in-the-money, early exercise is optimal at three nodes prior to expiration.
 
-# FIGURE 9
+**FIGURE 9**
 
-Binomial tree for pricing an American put option on a currency; assumes  $S = \$ 1.05 / \in$,  $K = \$1.10$ ,  $\sigma = 0.10$ ,  $r = 0.055$ ,  $T = 0.50$  years,  $\delta = 0.031$ , and  $h = 0.167$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing an American put option on a currency; assumes $S = \$1.05/€$, $K = \$1.10$, $\sigma = 0.10$, $r = 0.055$, $T = 0.50$ years, $\delta = 0.031$, and $h = 0.167$. At each node the stock price, option price, $\Delta$, and $B$ are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/b99004b0995666f94031d27749975cb72c6d2a5dd218c9bbc442018745641c41.jpg)
 
-### Options on Futures Contracts
+## Options on Futures Contracts
 
 We now consider options on futures contracts. We assume the forward price is the same as the futures price. Since we build the tree based on the forward price, we simply add up and down movements around the current price. Thus, the nodes are constructed as
 
-$$ u = e ^ {\sigma \sqrt {h}}
-$$
+$$ u = e^{\sigma \sqrt{h}} $$
 
-$$ d = e ^ {- \sigma \sqrt {h}}
-$$
+$$ d = e^{-\sigma \sqrt{h}} $$
 
 Note that this solution for  $u$  and  $d$  is exactly what we would get for an option on a stock index if  $\delta$ , the dividend yield, were equal to the risk-free rate.
 
@@ -742,9 +754,9 @@ Many options exist on commodity futures contracts. However, it is also possible 
 
 The lease rate for a commodity is conceptually similar to a dividend yield. If you borrow the commodity, you pay the lease rate. If you buy the commodity and lend it, you receive the lease rate. Thus, from the perspective of someone synthetically creating the option, the commodity is like a stock index, with the lease rate equal to the dividend yield.
 
-### FIGURE 10
+**FIGURE 10**
 
-Binomial tree for pricing an American call option on a futures contract; assumes  S = \300.00, K = \$300.00, \sigma = 0.10, r = 0.05, T = 1.00 \text{ years}, \delta = 0.05, \text{ and } h = 0.333. \text{ At each node the stock price, option price, } \Delta, \text{ and } B \text{ are given. Option prices in bold italic signify that exercise is optimal at that node.}
+Binomial tree for pricing an American call option on a futures contract; assumes $S = \$300.00$, $K = \$300.00$, $\sigma = 0.10$, $r = 0.05$, $T = 1.00$ years, $\delta = 0.05$, and $h = 0.333$. At each node the stock price, option price, $\Delta$, and $B$ are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9c3b89a1175377ffb202ed22a35a329ceb18e37d5030265a44f7286e390492b2.jpg)
 

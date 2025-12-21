@@ -1,8 +1,19 @@
 ---
 aliases:
-tags:
-key_concepts:
-parent_directory:
+parent_directory: finm-fiderivs-2024-main
+formatted: 2025-12-21 10:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - multi period trees
+  - caps floors
+  - flat forward volatility
+secondary_tags:
+  - ho lee model
+  - bdt model
+  - caplets floorlets
+  - risk neutral dynamics
+  - natural dynamics
 cssclasses: academia
 title: TA Review 2
 linter-yaml-title-alias: TA Review 2

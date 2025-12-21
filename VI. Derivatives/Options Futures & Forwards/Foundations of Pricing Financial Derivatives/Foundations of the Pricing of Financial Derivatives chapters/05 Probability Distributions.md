@@ -1,20 +1,30 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "05 Probability Distributions"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:25:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - probability distributions
+  - normal distribution
+  - lognormal distribution
+secondary_tags:
+  - univariate normal
+  - bivariate normal
+  - statistical moments
+  - risk measurement
+  - return distributions
+  - asset pricing
 cssclasses: academia
-title: Financial Applications of Probability Distributions
-linter-yaml-title-alias: Financial Applications of Probability Distributions
 ---
 
-# Financial Applications of Probability Distributions
+# 05 Probability Distributions
 
 In Chapter 4, we took a look at the fundamentals of probability theory and introduced some distributions. Option theory and indeed much of finance theory is based on the normal distribution as well as the related lognormal distribution; hence, we devote a full chapter to these distributions. In the limit, discrete distributions such as the binomial can be structured to converge to either the normal or lognormal distributions. The reasons for this extensive use of the normal and lognormal distributions are twofold. First, these distributions have only two parameters, because they are completely characterized by the expected value and variance. Second, financial utility is often based on two characteristics: non-satiation and risk aversion. Non-satiation is the notion that people always prefer more money to less. As such, they prefer a higher expected return, so they have a preference for the first moment of the distribution. Risk aversion is the notion that people do not like risk. Hence, they dislike the second moment of the distribution. If people care about only the first two moments, then the normal distribution is appropriate.
 
 Of course, people may indeed care about higher-order moments. For example, positive skewness is generally a desirable feature of investments. Some financial models are based on skewness preference and skewed distributions. In the first part of the chapter, we will introduce the normal and lognormal distributions. The second part of the chapter refers to a related distribution called the bivariate normal and lognormal. As such, it might be more appropriate to call the single variable versions the univariate normal and lognormal distribution, but this is typically not done. Usually when one uses the phrase normal distribution, one means the univariate normal. This case is the one involving only a single variable. In the second case, the bivariate normal or lognormal, there are two normally distributed variables and they may be correlated.
 
-# 5.1 THE UNIVARIATE NORMAL PROBABILITY DISTRIBUTION
+## 5.1 The Univariate Normal Probability Distribution
 
 The normal probability distribution, known commonly to the layperson as the bell-shaped curve or bell curve, was first identified in the 18th century by Abraham de Moivre (1667-1754). Its mathematical structure was developed by Carl Frederick Gauss (1777-1855) and the curve is often referred to as the Gaussian distribution. Recall the
 
@@ -105,7 +115,7 @@ FIGURE 5.2 S&P 500 Log Returns
 
 Some researchers believe that log returns are closer to being normally distributed. This point is partially true but only by a small amount. Log returns are slightly smaller than regular returns, thereby pulling in the largest positive returns but by reducing returns, they lower the largest negative returns. For example, the largest positive return of  $11.58\%$  (October 13, 2008) has a log equivalent of  $10.96\%$ . The largest negative return,  $-20.47\%$  (October 19, 1987), has a log equivalent of  $-22.90\%$ . Both returns are lower and not enough to eliminate the simple fact that there are far too many extreme returns for a normal distribution. Figure 5.2 illustrates the same data using log returns. As you can see, there is not much difference.
 
-# 5.2 CONTRASTING THE NORMAL WITH THE LOGNORMAL PROBABILITY DISTRIBUTION
+## 5.2 Contrasting the Normal with the Lognormal Probability Distribution
 
 Based on properties of the lognormal distribution, if  $S_{t} = S_{t - 1}e^{R_{t}^{c}}$  and  $R_{t}^{c}$  is normally distributed, then we know  $S_{t}$  is lognormally distributed. Recall if  $x$  has a lognormal distribution, then the PDF is
 
@@ -179,7 +189,7 @@ FIGURE 5.4 Histogram of Daily Returns and First Differences
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/c5703976308c1728e516f30cc9589510e8bbb9840e528ead57c3dba1dba31705.jpg)  
 Stock:AAPL(Apple,Inc.) Daily First Differences
 
-# 5.3 BIVARIATE NORMAL PROBABILITY DISTRIBUTION
+## 5.3 Bivariate Normal Probability Distribution
 
 Suppose now that we have two normally distributed random variables,  $x$  and  $y$ . The expected values are  $\mu_x$  and  $\mu_y$  and the standard deviations are  $\sigma_x$  and  $\sigma_y$ . For bivariate normally distributed random variables, the conditional expected values of  $y$  and  $x$  are linearly related, as indicated by the following:
 
@@ -248,7 +258,7 @@ Some special cases are worth noting. If either of the values  $x$  or  $y$  is i
 
 The bivariate normal probability generalizes into a multivariate normal probability. In finance, one occasionally sees the trivariate normal probability and there are techniques for estimating it, which involve simplification of the relationships among univariate, bivariate, and trivariate densities. For the most part, however, computation of these high-order integrals is extremely time-consuming. Monte Carlo simulation is a good way of getting these results.
 
-# 5.4 THE BIVARIATE LOGNORMAL PROBABILITY DISTRIBUTION
+## 5.4 The Bivariate Lognormal Probability Distribution
 
 Again if  $S_{t} = S_{t - 1}e^{R_{t}^{c}}$  and  $R_{t}^{c}$  is normally distributed, then we know  $S_{t}$  is lognormally distributed. In finance, we are often interested in a portfolio of instruments such as stock holdings. Unfortunately, the sum of lognormally distributed random variables does not follow any known distribution. One important property of the normal distribution is that the sum of normally distributed random variables is itself normally distributed. Thus, in practice, it is dramatically easier to assume the underlying instrument prices are normally distributed, an issue we address in Chapter 12.
 
@@ -257,15 +267,15 @@ Figure 5.6 illustrates a simulation of 1,000 draws from a bivariate lognormal di
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/d39e097df8cecabdf69e13942cfdf27ceddfb2aaacbdb71277334ce1326467a9.jpg)  
 FIGURE 5.6 Bivariate Lognormal Simulation
 
-# 5.5 RECAP AND PREVIEW
+## 5.5 Recap and Preview
 
 In this chapter, we reviewed the univariate normal probability distribution and took a look at the historical returns on the S&P 500 to see how well the distribution fits the data. We also examined the bivariate normal probability distribution, which can apply when there are two random variables.
 
 In Chapter 6, we take a brief review of the basic concepts in valuing risky assets and derivatives.
 
-# APPENDIX 5A
+## Appendix 5A
 
-# An Excel Routine for the Bivariate Normal Probability
+### An Excel Routine for the Bivariate Normal Probability
 
 The two variables are identified as  $a$  and  $b$  and the correlation is rho. Enter them into three cells, which for the sake of illustration will be A1, B1, and C1. Then in a separate cell, type the function = bivar(A1, B1, C1). The code, which is presented next, should be entered using the Visual Basic for Applications feature of Excel. Choose the Developer tab. Then choose Visual Basic. Then Insert, then Module. You will then have a blank space on which to enter the following code.
 
@@ -336,7 +346,7 @@ phiz  $=$  phizz
 End Function
 ```
 
-# QUESTIONS AND PROBLEMS
+## Questions and Problems
 
 1 Based on Table 5.1, identify the following standard normal cumulative distribution values: 0.0, 0.58, -0.58, 1.65, and -1.65. Explain your results.  
 2 Based on Figure 5.2 and subsequent analysis, identify the key insight that is revealed.  
@@ -344,7 +354,7 @@ Suppose a stock trading at 75 is estimated to have an annualized, continuously c
 4 Based solely on visual inspection of Figure 5.3, what conclusion can be drawn from comparing the time series of daily rates of return with daily first differences for the broad index ETF (SPY), the technology sector ETF (XLK), and Apple (AAPL)?  
 5 Based solely on visual inspection of Figure 5.4, what conclusion can be drawn from comparing the frequency distribution of daily rates of return with daily first differences for the broad index ETF (SPY), the technology sector ETF (XLK), and Apple (AAPL)?
 
-# NOTES
+## Notes
 
 1. Prior to the introduction of the euro in 1999, the German currency was called the *deutschemark*. A 10-deutschemark note contained a picture of Gauss and his famous curve as well as the formula. It is likely the only piece of currency in history to contain an equation.  
 2. This value was calculated on a spreadsheet and is more precise than if you did it by hand.  

@@ -1,12 +1,20 @@
 ---
-aliases:
-  - Convergence of the Binomial Model to the Black-Scholes-Merton Model
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 09: Convergence of the Binomial Model to the Black-Scholes-Merton Model"
-linter-yaml-title-alias: "Chapter 09: Convergence of the Binomial Model to the Black-Scholes-Merton Model"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 03:00:00 AM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+   - binomial option pricing
+   - black-scholes convergence
+   - risk-neutral valuation
+secondary_tags:
+   - option pricing models
+   - stochastic processes
+   - continuous time finance
+   - mathematical finance
+   - derivative pricing theory
+cssclasses: academia
 ---
 
 # Convergence of the Binomial Model to the Black-Scholes-Merton Model
@@ -15,24 +23,80 @@ It is well known that the binomial model converges to the Black-Scholes-Merton m
 
 The Cox-Ross-Rubinstein proof is elegant but far too specific. A more general proof of the convergence of the binomial to the Black-Scholes-Merton model is provided by Hsia (1983). His paper, published in The Journal of Financial Research, received virtually no attention, but it is clearly the most general overall proof. It imposes no restrictions on the choice of up and down parameters. Moreover, the proof is much shorter, easier to follow, and requires fewer cases of taking limits.[2]
 
+```d2
+direction: right
+
+classes: {
+  model: {
+    style.fill: "#e3f2fd"
+    style.stroke: "#1976d2"
+  }
+  convergence: {
+    style.fill: "#fff3e0"
+    style.stroke: "#f57c00"
+  }
+  limit: {
+    style.fill: "#e8f5e9"
+    style.stroke: "#388e3c"
+  }
+}
+
+binomial_finite: Binomial Model (n periods) {
+  class: model
+  label: "Discrete time steps"
+  formula: "n time periods, u/d factors"
+}
+
+binomial_infinite: Binomial Model (n → ∞) {
+  class: convergence
+  label: "Continuous time limit"
+  formula: "Δt → 0, u/d → e^(±σ√Δt)"
+}
+
+black_scholes: Black-Scholes Model {
+  class: limit
+  label: "Continuous time PDE"
+  formula: "∂c/∂t + ... + σ²S²∂²c/∂S² = rc"
+}
+
+cox_ross: Cox-Ross-Rubinstein (1979) {
+  class: convergence
+  label: "Specific u/d parameters"
+  formula: "u = e^(σ√Δt), d = e^(-σ√Δt)"
+}
+
+hsia: Hsia (1983) {
+  class: convergence
+  label: "General proof"
+  formula: "Any u/d parameters → BSM"
+}
+
+binomial_finite -> binomial_infinite: "n → ∞, Δt → 0"
+binomial_infinite -> black_scholes
+cox_ross -> binomial_infinite: "Specific case"
+hsia -> binomial_infinite: "General case"
+```
+
+**Figure: Convergence of Binomial Model to Black-Scholes-Merton** - As the number of time periods increases and each period becomes infinitesimally short, the binomial model converges to the continuous-time Black-Scholes-Merton model, regardless of the specific choice of up/down parameters.
+
 # 9.1 SETTING UP THE PROBLEM
 
 We start with our ultimate objective, the Black-Scholes-Merton model for calls and puts,
 
 $$
-c _ {t} = S _ {t} N \left(d _ {1}\right) - X e ^ {- r _ {c} \tau} N \left(d _ {2}\right), \tag {9.1}
+c_t = S_t N(d_1) - X e^{-r_c \tau} N(d_2), \tag{9.1}
 $$
 
 $$
-p = c - S + X e ^ {- r _ {c} \tau} = X e ^ {- r _ {c} \tau} N (- d _ {2}) - S N (- d _ {1}), \tag {9.2}
+p = c - S + X e^{-r_c \tau} = X e^{-r_c \tau} N(-d_2) - S N(-d_1), \tag{9.2}
 $$
 
 $$
-d _ {1} = \frac {\ln \left(S _ {t} / X\right) + \left(r _ {c} + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}}, \text {a n d} \tag {9.3}
+d_1 = \frac{\ln(S_t / X) + (r_c + \sigma^2 / 2) \tau}{\sigma \sqrt{\tau}}, \text{and} \tag{9.3}
 $$
 
 $$
-d _ {2} = \frac {\ln \left(S _ {t} / X\right) + \left(r _ {c} - \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}}, \tag {9.4}
+d_2 = \frac{\ln(S_t / X) + (r_c - \sigma^2 / 2) \tau}{\sigma \sqrt{\tau}}, \tag{9.4}
 $$
 
 where  $S_{t}$  is the current asset price at time  $t$ ,  $X$  is the exercise price,  $r_{c}$  is the continuously compounded risk-free rate,  $\tau$  is the time to expiration, and  $\sigma^2$  is the variance of the
@@ -42,7 +106,7 @@ continuously compounded return on the asset.  $N(d_{i})$  is the cumulative norm
 For now, we focus solely on calls as we can use put-call parity to arrive at the result for puts. The binomial model for the call where the option's life is divided into  $n$  time periods is
 
 $$
-c = \frac {\sum_ {j = 0} ^ {n} \binom {n} {j} \phi^ {n} (1 - \phi) ^ {n - j} \max  \left(0 , u ^ {j} d ^ {n - j} S - X\right)}{(1 + r) ^ {n}}, \tag {9.5}
+c = \frac{\sum_{j=0}^n \binom{n}{j} \phi^n (1 - \phi)^{n - j} \max(0, u^j d^{n - j} S - X)}{(1 + r)^n}, \tag{9.5}
 $$
 
 where  $\binom{n}{j}$  is  $n! / [j!(n-j)!]$  is known as the binomial coefficient. The binomial coefficient represents the number of paths the asset can take to reach a certain point in a binomial tree where  $j$  denotes the number of up moves,  $\phi$  is the risk-neutral probability of an up move and equals  $(1+r-d)/(u-d)$ ,  $u$  and  $d$  are one plus the per-period return on the asset if it goes up and down, respectively, and  $r$  is the discrete risk-free interest rate per period. The numerator is the expected payout of the option at expiration under the risk-neutral binomial probability, and the denominator discounts the risk-neutral expected payoff to the present.
@@ -50,23 +114,23 @@ where  $\binom{n}{j}$  is  $n! / [j!(n-j)!]$  is known as the binomial coefficie
 This expression can be simplified. For some outcomes,  $\max(0, u^j d^{n-j} S - X)$  is zero. Let  $a$  represent the minimum number of upward moves required for the call to finish in the money. That is,  $a$  is the smallest integer  $(a \in n)$  such that  $u^a d^{n-a} S > X$ . Then for all  $j < a$ ,  $\max(0, u^j d^{n-j} S - X) = 0$ , and for  $j > a$ ,  $\max(0, u^j d^{n-j} S - X) = u^j d^{n-j} S - X$ . Now we need count only the binomial paths from  $j = a$  to  $n$  so we can write the model as
 
 $$
-c = \frac {\sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {j} (1 - \phi) ^ {n - j} \left(u ^ {j} d ^ {n - j} S - X\right)}{(1 + r) ^ {n}}. \tag {9.6}
+c = \frac{\sum_{j=a}^n \binom{n}{j} \phi^j (1 - \phi)^{n - j} (u^j d^{n - j} S - X)}{(1 + r)^n}. \tag{9.6}
 $$
 
 Now let us break this up into two terms based on  $S$  and  $X$ :
 
 $$
-c = S \left[ \frac {\sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {j} (1 - \phi) ^ {n - j} u ^ {j} d ^ {n - j}}{(1 + r) ^ {n}} \right] - X (1 + r) ^ {- n} \left[ \sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {j} (1 - \phi) ^ {n - j} \right]. \qquad (9. 7)
+c = S \left[ \frac{\sum_{j=a}^n \binom{n}{j} \phi^j (1 - \phi)^{n - j} u^j d^{n - j}}{(1 + r)^n} \right] - X (1 + r)^{-n} \left[ \sum_{j=a}^n \binom{n}{j} \phi^j (1 - \phi)^{n - j} \right]. \quad (9.7)
 $$
 
 Let us call the two terms in the large brackets  $B_{1}$  and  $B_{2}$ . Specifically,
 
 $$
-B _ {1} = \frac {\sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {j} (1 - \phi) ^ {n - j} u ^ {j} d ^ {n - j}}{(1 + r) ^ {n}} \text {a n d} \tag {9.8}
+B_1 = \frac{\sum_{j=a}^n \binom{n}{j} \phi^j (1 - \phi)^{n - j} u^j d^{n - j}}{(1 + r)^n} \text{and} \tag{9.8}
 $$
 
 $$
-B _ {2} = \sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {j} (1 - \phi) ^ {n - j}. \tag {9.9}
+B_2 = \sum_{j=a}^n \binom{n}{j} \phi^j (1 - \phi)^{n - j}, \tag{9.50}
 $$
 
 Equation (9.9) is the formula for the probability of  $a$  or more successes in  $n$  trials if the probability of success on any one trial is  $\phi$ .  $B_{1}$  is similar but cannot be expressed quite
@@ -74,29 +138,29 @@ Equation (9.9) is the formula for the probability of  $a$  or more successes in 
 as easily without redefining the probability. Note the following:
 
 $$
-\frac {\phi^ {j} (1 - \phi) ^ {n - j} u ^ {j} d ^ {n - j}}{(1 + r) ^ {n}} = \left[ \left(\frac {u}{1 + r}\right) \phi \right] ^ {j} \left[ \left(\frac {d}{1 + r}\right) (1 - \phi) \right] ^ {n - j}. \tag {9.10}
+\frac{\phi^j (1 - \phi)^{n - j} u^j d^{n - j}}{(1 + r)^n} = \left[ \left(\frac{u}{1 + r}\right) \phi \right]^j \left[ \left(\frac{d}{1 + r}\right) (1 - \phi) \right]^{n - j}. \tag{9.10}
 $$
 
 Now, it will be useful to define a modified version of the binomial probability, call it  $\phi^{*} = [u / (1 + r)]\phi$  and  $1 - \phi^{*} = [d / (1 + r)](1 - \phi)$ . Thus, we can write Equation (9.10) as  $\phi^{*j}(1 - \phi^{*})^{n - j}$ . Thus,  $B_{1}$  is a binomial probability as stated but with the probability of each trial being  $\phi^{*}$ . Now, we can write the binomial model in compact form as
 
 $$
-c = S B _ {1} - X (1 + r) ^ {- n} B _ {2}, \tag {9.11}
+c = S B_1 - X e^{-r_c \tau} B_2. \tag{9.17}
 $$
 
 where
 
 $$
-B _ {1} = \sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {* j} \left(1 - \phi^ {*}\right) ^ {n - j} \text {a n d a s b e f o r e} \tag {9.12}
+B_1 = \sum_{j=a}^n \binom{n}{j} \phi^{*j} (1 - \phi^*)^{n - j} \text{ and as before } \tag{9.12}
 $$
 
 $$
-B _ {2} = \sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {j} (1 - \phi) ^ {n - j}. \tag {9.13}
+B_2 = \sum_{j=a}^n \binom{n}{j} \phi^j (1 - \phi)^{n - j}. \tag{9.13}
 $$
 
 Based on put-call parity, we note that the put price is
 
 $$
-\begin{array}{l} p = c - S + X (1 + r) ^ {- n} = S B _ {1} - X (1 + r) ^ {- n} B _ {2} - S + X (1 + r) ^ {- n} \\ = X (1 + r) ^ {- n} \left(1 - B _ {2}\right) - S \left(1 - B _ {1}\right). \tag {9.14} \\ \end{array}
+\begin{array}{l} p = c - S + X (1 + r)^{-n} = S B_1 - X (1 + r)^{-n} B_2 - S + X (1 + r)^{-n} \\ = X (1 + r)^{-n} (1 - B_2) - S (1 - B_1). \tag{9.54} \\ \end{array}
 $$
 
 Thus, we can easily move from the results for calls to arrive at the results for puts. Our objective is to get this formula to converge to the Black-Scholes-Merton formula. Obviously, we shall have to get  $B_{1}$  and  $B_{2}$  to converge to  $N(d_{1})$  and  $N(d_{2})$ , respectively.
@@ -104,27 +168,27 @@ Thus, we can easily move from the results for calls to arrive at the results for
 Let us do the simple part first, the risk-free rate. Recall that  $(1 + r)^{-n}$  is the present value factor for  $n$  periods where the per-period rate is  $r$ . The per-period rate can be related to an annual rate applied for  $\tau$  years by the relationship  $(1 + r) = (1 + r_{a})^{1 / n_{y}}$  where  $n_y$  is the number of periods per year. Then,
 
 $$
-(1 + r) = (1 + r _ {a}) ^ {1 / n _ {y}}
+(1 + r) = (1 + r_a)^{1/n_y}
 $$
 
 $$
-(1 + r) ^ {n} = (1 + r _ {a}) ^ {(1 / n _ {y}) n}
+(1 + r)^n = (1 + r_a)^{(1/n_y) n}
 $$
 
 $$
-(1 + r) ^ {n} = (1 + r _ {a}) ^ {\tau} \text {b e c a u s e} \tau = n / n _ {y}. \tag {9.15}
+(1 + r)^n = (1 + r_a)^\tau \text{ because } \tau = n/n_y. \tag{9.15}
 $$
 
 Thus, the present value factor for  $\tau$  years is  $(1 + r_a)^{-\tau}$ . Now we can convert discrete discounting to continuous discounting as follows:
 
 $$
-\begin{array}{l} \ln \left(1 + r _ {a}\right) ^ {- \tau} = - \tau \ln \left(1 + r _ {a}\right) \\ e ^ {\ln P V} = e ^ {- \tau \ln (1 + r _ {a})} \\ P V = e ^ {- r _ {c} \tau} \text {w h e r e} r _ {c} = \ln \left(1 + r _ {a}\right). \tag {9.16} \\ \end{array}
+\begin{array}{l} \ln(1 + r_a)^{-\tau} = -\tau \ln(1 + r_a) \\ e^{\ln PV} = e^{-\tau \ln(1 + r_a)} \\ PV = e^{-r_c \tau} \text{ where } r_c = \ln(1 + r_a). \tag{9.16} \\ \end{array}
 $$
 
 Thus, our present value factor is equivalent to  $\exp (-r_c\tau)$  with the interest rate continuously compounded. So the binomial formula is equivalent to
 
 $$
-c = S B _ {1} - X e ^ {- r _ {c} \tau} B _ {2}. \tag {9.17}
+c = S B_1 - X e^{-r_c \tau} B_2. \tag{9.17}
 $$
 
 Now let us proceed to turn this binomial formula into the Black-Scholes-Merton formula.
@@ -150,7 +214,7 @@ $$
 By the nature of its definition as the minimum number of steps for the option to expire in-the-money,  $a$  has to be an integer, but Equation (9.18) will not likely produce an integer. For example, with  $S = 100$ ,  $X = 100$ ,  $u = 1.10$ ,  $d = 0.95$ , and  $n = 10$ , we have  $a > 3.4988$ . This means that it would take at least four upward moves for the option to finish in-the-money. We shall handle this complication by introducing a filler variable,  $\iota$ , which is a Greek lowercase iota, such that
 
 $$
-a = \frac {\ln (X / S) - n \ln d}{\ln (u / d)} + \iota , \tag {9.19}
+a = \frac{\ln(X / S) - n \ln d}{\ln(u / d)} + \iota, \tag{9.19}
 $$
 
 where  $\iota$  is a number added to the result from Equation (9.18) to make  $a$  an integer. In the limit, this variable will not matter as it will converge to zero with an infinite number of time steps.
@@ -194,31 +258,31 @@ $$
 Now we proceed to work through Hsia's elegant and straightforward proof. We appeal to the famous DeMoivre-LaPlace limit theorem, which says that a binomial distribution converges to the normal distribution if  $np \to \infty$  as  $n \to \infty$ . For  $B_{1}$  we need
 
 $$
-B _ {1} \rightarrow \int_ {a} ^ {\infty} f (j) d j, \tag {9.20}
+B_1 \rightarrow \int_a^{\infty} f(j) dj, \tag{9.20}
 $$
 
 where  $f(j)$  is the density for a normal distribution. Because  $j$  is not a standard normal distribution, however, let us convert  $j$  to a standard normal variable by defining  $z = (j - E(j)) / \sigma_j$ . Then we would have
 
 $$
-\int_ {a} ^ {\infty} f (j) d j = \int_ {d} ^ {\infty} f (z) d z, \text {w h e r e} z = \frac {j - E (j)}{\sigma_ {j}}. \tag {9.21}
+\int_a^{\infty} f(j) dj = \int_d^{\infty} f(z) dz, \text{where } z = \frac{j - E(j)}{\sigma_j}. \tag{9.21}
 $$
 
 Following Hsia, however, we define
 
 $$
-d = - \frac {a - E (j)}{\sigma_ {j}}, \tag {9.22}
+d = -\frac{a - E(j)}{\sigma_j}, \tag{9.22}
 $$
 
 which allows us to write the above, due to the symmetry of the normal distribution, as
 
 $$
-\int_ {- \infty} ^ {d} f (z) d z. \tag {9.23}
+\int_{-\infty}^d f(z) dz. \tag{9.23}
 $$
 
 Thus,
 
 $$
-B _ {1} \rightarrow \int_ {a} ^ {\infty} f (j) d _ {j} = \int_ {- \infty} ^ {d} f (z) d z = N (d), \tag {9.24}
+B_1 \rightarrow \int_a^{\infty} f(j) dj = \int_{-\infty}^d f(z) dz = N(d), \tag{9.24}
 $$
 
 where  $j$  has been converted to  $z$ , a standard normal. What is happening here is that the  $N(d_{1})$  term in the Black-Scholes-Merton model is a cumulative normal probability. Therefore, it reflects the probability of the variable ranging from  $-\infty$  to  $d_{1}$ , yet it must capture a probability related to the option being exercised, which is a probability of the asset price being greater, not less, than the exercise price. This transformation solves the problem. Furthermore, an identical procedure would be applied to  $B_{2}$ .
@@ -226,31 +290,31 @@ where  $j$  has been converted to  $z$ , a standard normal. What is happening he
 Now let  $S_T$  be the asset price at expiration. Of course, this value is not known but we can describe its stochastic properties. After  $n$  periods and  $j$  up moves,  $S_T / S = u^j d^{n - j}$ . Thus, the log (continuously compounded) return on the asset over the life of the option is
 
 $$
-\ln \left(\frac {S _ {T}}{S}\right) = j \ln u + (n - j) \ln d = j \ln \left(\frac {u}{d}\right) + n \ln d. \tag {9.25}
+\ln\left(\frac{S_T}{S}\right) = j \ln u + (n - j) \ln d = j \ln\left(\frac{u}{d}\right) + n \ln d. \tag{9.25}
 $$
 
 Now take the expectation of (9.25),
 
 $$
-E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] = E (j) \ln \left(\frac {u}{d}\right) + n \ln d. \tag {9.26}
+E\left[ \ln\left(\frac{S_T}{S}\right) \right] = E(j) \ln\left(\frac{u}{d}\right) + n \ln d. \tag{9.26}
 $$
 
 Rearranging to isolate  $j$ , we have
 
 $$
-E (j) = \frac {E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] - n \ln d}{\ln \left(\frac {u}{d}\right)}. \tag {9.27}
+E(j) = \frac{E\left[ \ln\left(\frac{S_T}{S}\right) \right] - n \ln d}{\ln\left(\frac{u}{d}\right)}. \tag{9.27}
 $$
 
 The variance of the log return on the asset over the life of the option is
 
 $$
-\operatorname {v a r} \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] = \operatorname {v a r} (j) \left[ \ln \left(\frac {u}{d}\right) \right] ^ {2}. \tag {9.28}
+\operatorname{var}\left[ \ln\left(\frac{S_T}{S}\right) \right] = \operatorname{var}(j) \left[ \ln\left(\frac{u}{d}\right) \right]^2. \tag{9.28}
 $$
 
 Thus,
 
 $$
-\operatorname {v a r} (j) = \frac {\operatorname {v a r} \left[ \ln \left(\frac {S _ {T}}{S}\right) \right]}{\left[ \ln \left(\frac {u}{d}\right) \right] ^ {2}}. \tag {9.29}
+\operatorname{var}(j) = \frac{\operatorname{var}\left[ \ln\left(\frac{S_T}{S}\right) \right]}{\left[ \ln\left(\frac{u}{d}\right) \right]^2}. \tag{9.29}
 $$
 
 Recall from Equation (9.19) that  $a$  is defined as the lowest integer  $j$  such that the call option is in-the-money where  $\iota$  is an adjustment factor forcing  $a$  to be the next integer or  $a = \frac{\ln(X / S) - n\ln d}{\ln(u / d)} + \iota$ . Therefore, based on the mean and variance results above, the upper bound defined in Equation (9.22) can be expressed as
@@ -262,47 +326,47 @@ $$
 From the properties of the binomial distribution, it is known that  $\operatorname{var}(j) = n\phi(1 - \phi)$  where  $\phi$  is the probability per outcome. So, after some rearranging and substituting this variance result only in the second term below, we have
 
 $$
-d = \frac {\ln \left(\frac {S}{X}\right) + E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right]}{\sqrt {\operatorname {v a r} \left[ \ln \left(\frac {S _ {T}}{S}\right) \right]}} - \frac {\ln \left(\frac {u}{d}\right)}{\sqrt {\phi (1 - \phi)}} \frac {I}{\sqrt {n}}. \tag {9.31}
+d = \frac{\ln\left(\frac{S}{X}\right) + E\left[ \ln\left(\frac{S_T}{S}\right) \right]}{\sqrt{\operatorname{var}\left[ \ln\left(\frac{S_T}{S}\right) \right]}} - \frac{\ln\left(\frac{u}{d}\right)}{\sqrt{\phi (1 - \phi)}} \frac{\iota}{\sqrt{n}}. \tag{9.31}
 $$
 
 As  $n$  goes to infinity, the second term disappears. Our discrete binomial process is then starting to converge to a continuous lognormal process, for which it is known that  $\mathrm{var}[\ln (S_T / S)] = \sigma^2\tau$ . Thus, we have
 
 $$
-d = \frac {\ln \left(\frac {S}{X}\right) + E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right]}{\sigma \sqrt {\tau}}. \tag {9.32}
+d = \frac{\ln\left(\frac{S}{X}\right) + E\left[ \ln\left(\frac{S_T}{S}\right) \right]}{\sigma \sqrt{\tau}}. \tag{9.32}
 $$
 
 We need this expression to equal  $d_{1}$  and  $d_{2}$  as defined in the Black-Scholes-Merton formula when the probabilities are  $\phi^{*}$  and  $\phi$ , respectively, as defined previously. This means that we need
 
 $$
-E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] = \left(r _ {c} + \frac {\sigma^ {2}}{2}\right) \tau \text {i f t h e p r o b a b i l i t y i s} \phi^ {*}
+E\left[ \ln\left(\frac{S_T}{S}\right) \right] = \left(r_c + \frac{\sigma^2}{2}\right) \tau \text{ if the probability is } \phi^*
 $$
 
 $$
-E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] = \left(r _ {c} - \frac {\sigma^ {2}}{2}\right) \tau \text {i f t h e p r o b a b i l i t y i s} \phi . \tag {9.33}
+E\left[ \ln\left(\frac{S_T}{S}\right) \right] = \left(r_c - \frac{\sigma^2}{2}\right) \tau \text{ if the probability is } \phi. \tag{9.33}
 $$
 
 Now let us work on the first case. First recall that  $\phi^{*} = [u / (1 + r)][(1 + r - d) / (u - d)]$ . After some careful rearranging, we solve for  $1 + r$ ,
 
 $$
-1 + r = \frac {1}{\phi^ {*} \left(\frac {1}{u}\right) + \left(1 - \phi^ {*}\right) \left(\frac {1}{d}\right)}. \tag {9.34}
+1 + r = \frac{1}{\phi^* \left(\frac{1}{u}\right) + \left(1 - \phi^*\right) \left(\frac{1}{d}\right)}. \tag{9.34}
 $$
 
 Recall that  $(1 + r)^n = (1 + r_a)^\tau$  so
 
 $$
-(1 + r) ^ {n} = (1 + r _ {a}) ^ {\tau} = \frac {1}{\left[ \phi^ {*} \left(\frac {1}{u}\right) + (1 - \phi^ {*}) \left(\frac {1}{d}\right) \right] ^ {n}}. \tag {9.35}
+(1 + r)^n = (1 + r_a)^\tau = \frac{1}{\left[ \phi^* \left(\frac{1}{u}\right) + (1 - \phi^*) \left(\frac{1}{d}\right) \right]^n}. \tag{9.35}
 $$
 
 Now note that  $S / S_{T}$  can be expressed as follows:
 
 $$
-\frac {S}{S _ {T}} = \left(\frac {S _ {0}}{S _ {1}}\right) \left(\frac {S _ {1}}{S _ {2}}\right) \dots \left(\frac {S _ {n - 1}}{S _ {n}}\right) = \prod_ {i = 1} ^ {n} \left(\frac {S _ {i - 1}}{S _ {i}}\right). \tag {9.36}
+\frac{S}{S_T} = \left(\frac{S_0}{S_1}\right) \left(\frac{S_1}{S_2}\right) \dots \left(\frac{S_{n-1}}{S_n}\right) = \prod_{i=1}^n \left(\frac{S_{i-1}}{S_i}\right). \tag{9.36}
 $$
 
 where  $S = S_{0}$  and  $S_{T} = S_{n}$ . The expectation of this expression would be
 
 $$
-E \left(\frac {S}{S _ {T}}\right) = E \left[ \prod_ {i = 1} ^ {n} \left(\frac {S _ {i - 1}}{S _ {i}}\right) \right] = \prod_ {i = 1} ^ {n} E \left(\frac {S _ {i - 1}}{S _ {i}}\right). \tag {9.37}
+E\left(\frac{S}{S_T}\right) = E\left[ \prod_{i=1}^n \left(\frac{S_{i-1}}{S_i}\right) \right] = \prod_{i=1}^n E\left(\frac{S_{i-1}}{S_i}\right). \tag{9.37}
 $$
 
 Note that our ability to express the expected value of a product as the product of the expected values comes from the independence of the asset prices. That is, we know that  $\text{cov}(xy) = E(xy) - E(x)E(y)$ . If  $x$  and  $y$  are independent, however, then  $\text{cov}(xy) = 0$  and  $E(xy) = E(x)E(y)$ .
@@ -310,25 +374,25 @@ Note that our ability to express the expected value of a product as the product 
 Now recall that our probability for  $B_{1}$  is  $\phi^{*}$ . Because  $S_{i} = S_{i - 1}u$  with probability  $\phi^{*}$  and  $S_{i} = S_{i - 1}d$  with probability  $1 - \phi^{*}$ , then
 
 $$
-E \left(\frac {S _ {i - 1}}{S _ {i}}\right) = \phi^ {*} \left(\frac {1}{u}\right) + (1 - \phi^ {*}) \left(\frac {1}{d}\right). \tag {9.38}
+E\left(\frac{S_{i-1}}{S_i}\right) = \phi^* \left(\frac{1}{u}\right) + (1 - \phi^*) \left(\frac{1}{d}\right). \tag{9.38}
 $$
 
 Thus,
 
 $$
-E \left(\frac {S}{S _ {T}}\right) = \prod_ {i = 1} ^ {n} \left[ \phi^ {*} \left(\frac {1}{u}\right) + (1 - \phi^ {*}) \left(\frac {1}{d}\right) \right] = \left[ \phi^ {*} \left(\frac {1}{u}\right) + (1 - \phi^ {*}) \left(\frac {1}{d}\right) \right] ^ {n}. \tag {9.39}
+E\left(\frac{S}{S_T}\right) = \prod_{i=1}^n \left[ \phi^* \left(\frac{1}{u}\right) + (1 - \phi^*) \left(\frac{1}{d}\right) \right] = \left[ \phi^* \left(\frac{1}{u}\right) + (1 - \phi^*) \left(\frac{1}{d}\right) \right]^n. \tag{9.39}
 $$
 
 Inverting Equation (9.39) gives
 
 $$
-\left[ E \left(\frac {S}{S _ {T}}\right) \right] ^ {- 1} = \left[ \phi^ {*} \left(\frac {1}{u}\right) + (1 - \phi^ {*}) \left(\frac {1}{d}\right) \right] ^ {- n}. \tag {9.40}
+\left[ E\left(\frac{S}{S_T}\right) \right]^{-1} = \left[ \phi^* \left(\frac{1}{u}\right) + (1 - \phi^*) \left(\frac{1}{d}\right) \right]^{-n}. \tag{9.40}
 $$
 
 Because  $(1 + r)^{\tau} = [\phi^{*}(1 / u) + (1 - \phi^{*})(1 / d)]^{-n}$ , then  $(1 + r)^{\tau} = E(S / S_{T})^{-1}$  or  $(1 + r)^{-\tau} = E(S / S_{T})$ . Therefore,
 
 $$
-- \tau \ln (1 + r _ {a}) = \ln \left[ E \left(\frac {S}{S _ {T}}\right) \right]. \tag {9.41}
+- \tau \ln(1 + r_a) = \ln\left[ E\left(\frac{S}{S_T}\right) \right]. \tag{9.41}
 $$
 
 So now we are working with  $\ln [E(S / S_T)]$ . Because  $S_{T} / S$  is lognormally distributed, it will also be true that the inverse of a lognormal distribution is lognormally distributed.7 Thus,  $S / S_{T}$  is lognormally distributed. For any random variable  $x$  that is lognormally distributed, it will be the case that  $\ln [E(x)] = E[\ln (x)] + \mathrm{var}[\ln (x)] / 2$ . This result may not look correct, but follows from a widely used result in options: The log return is defined as  $S_{T} / S = e^{x}$  so  $\ln (S_T / S) = x$ . It is known that  $E(x) = \exp (\mu +\sigma^2 /2)$ .8 Thus,  $\ln E(x) = \mu +\sigma^2 /2$ , where  $\mu$  is  $E[\ln (x)]$  and  $\sigma$  is its standard deviation.
@@ -336,7 +400,7 @@ So now we are working with  $\ln [E(S / S_T)]$ . Because  $S_{T} / S$  is lognor
 Because  $-\tau \ln (1 + r_a) = \ln [E(S / S_T)]$  (see Equation (9.41)), then
 
 $$
-\begin{array}{l} - \tau \ln (1 + r _ {a}) = E \left[ \ln \left(\frac {S}{S _ {T}}\right) \right] + \frac {\mathrm {v a r} \left[ \ln \left(\frac {S}{S _ {T}}\right) \right]}{2} \\ = E \left[ - \ln \left(\frac {S _ {T}}{S}\right) \right] + \frac {\operatorname {v a r} \left[ - \ln \left(\frac {S _ {T}}{S}\right) \right]}{2} = - E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] + \frac {\operatorname {v a r} \left[ \ln \left(\frac {S _ {T}}{S}\right) \right]}{2}. \tag {9.42} \\ \end{array}
+E\left[ \ln\left(\frac{S}{S_T}\right) \right] = E\left[ -\ln\left(\frac{S_T}{S}\right) \right] + \frac{\operatorname{var}\left[ -\ln\left(\frac{S_T}{S}\right) \right]}{2} = -E\left[ \ln\left(\frac{S_T}{S}\right) \right] + \frac{\operatorname{var}\left[ \ln\left(\frac{S_T}{S}\right) \right]}{2}. \tag{9.42}
 $$
 
 Note the origin of these results,  $E[\ln(S / S_T)] = E[-\ln(S_T / S)] = -E[\ln(S_T / S)]$ , because you can always pull a minus sign out from inside an expectations operator. Also,  $\operatorname{var}[\ln(S / S_T)] = \operatorname{var}[-\ln(S_T / S)] = \operatorname{var}[\ln(S_T / S)]$ , because you can pull the constant  $(-1)$  out in front of the variance operator by squaring it, thereby obtaining one times the variance.
@@ -344,13 +408,13 @@ Note the origin of these results,  $E[\ln(S / S_T)] = E[-\ln(S_T / S)] = -E[\ln(
 Now what we have is
 
 $$
-E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] = \tau \ln \left(1 + r _ {a}\right) + \frac {\operatorname {v a r} \left[ \ln \left(\frac {S _ {T}}{S}\right) \right]}{2}. \tag {9.43}
+E\left[ \ln\left(\frac{S_T}{S}\right) \right] = \tau \ln(1 + r_a) + \frac{\operatorname{var}\left[ \ln\left(\frac{S_T}{S}\right) \right]}{2}. \tag{9.43}
 $$
 
 Recall that we know that  $\mathrm{var}[\ln (S_T / S)]$  is  $\sigma^2\tau$ . Thus, we have
 
 $$
-E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] = \left[ \ln \left(1 + r _ {a}\right) + \frac {\sigma^ {2}}{2} \right] \tau . \tag {9.44}
+E\left[ \ln\left(\frac{S_T}{S}\right) \right] = \left[ \ln(1 + r_a) + \frac{\sigma^2}{2} \right] \tau. \tag{9.44}
 $$
 
 Because  $\ln (1 + r) = r_c$ , this is the result we want for  $B_{1}$  to converge to  $N(d_{1})$ .
@@ -376,29 +440,29 @@ $$
 Substituting our previous result, and note the switch to solving for  $E[\ln (S_T / S)]$  and recall  $\mathrm{var}[\ln (S_T / S)] = \sigma^2\tau$ , we have
 
 $$
-E \left[ \ln \left(\frac {S _ {T}}{S}\right) \right] = \left[ \ln \left(1 + r _ {a}\right) - \frac {\sigma^ {2}}{2} \right] \tau . \tag {9.47}
+E\left[ \ln\left(\frac{S_T}{S}\right) \right] = \left[ \ln(1 + r_a) + \frac{\sigma^2}{2} \right] \tau. \tag{9.44}
 $$
 
 Because  $\ln (1 + r_a) = r_c$ , this is the result we needed to obtain convergence of  $B_{2}$  to  $N(d_2)$ . Thus, we have shown that the binomial model for a call can be expressed as
 
 $$
-c = S B _ {1} - X e ^ {- r _ {c} \tau} B _ {2}, \tag {9.48}
+c = S B_1 - X e^{-r_c \tau} B_2, \tag{9.11}
 $$
 
 where
 
 $$
-B _ {1} = e ^ {- r _ {c} \tau} \sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {j} (1 - \phi) ^ {n - j} u ^ {j} d ^ {n - j} \text {a n d} \tag {9.49}
+B_1 = e^{-r_c \tau} \sum_{j=a}^n \binom{n}{j} \phi^j (1 - \phi)^{n - j} u^j d^{n - j} \text{ and } \tag{9.49}
 $$
 
 $$
-B _ {2} = \sum_ {j = a} ^ {n} \binom {n} {j} \phi^ {j} (1 - \phi) ^ {n - j}, \tag {9.50}
+B_2 = \sum_{j=a}^n \binom{n}{j} \phi^j (1 - \phi)^{n - j}. \tag{9.13}
 $$
 
 which will converge to the Black-Scholes-Merton model in the limit as  $n\to \infty$  , expressed as
 
 $$
-c _ {t} = S _ {t} N \left(d _ {1}\right) - X e ^ {- r _ {c} \tau} N \left(d _ {2}\right), \tag {9.51}
+c_t = S_t N(d_1) - X e^{-r_c \tau} N(d_2), \tag{9.51}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/cfd07cc8017c764f43ec4c31527d125a80b21ad0d7ae30457b4f45275ca2d29d.jpg)  
@@ -407,16 +471,16 @@ FIGURE 9.1 Convergence of the Binomial Model for Calls to the Black-Scholes-Mert
 where
 
 $$
-d _ {1} = \frac {\ln \left(S _ {t} / X\right) + \left(r _ {c} + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}}, \text {a n d} \tag {9.52}
+d_1 = \frac{\ln(S_t / X) + (r_c + \sigma^2 / 2) \tau}{\sigma \sqrt{\tau}}, \text{ and } \tag{9.52}
 $$
 
 $$
-d _ {2} = \frac {\ln \left(S _ {t} / X\right) + \left(r _ {c} - \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}}. \tag {9.53}
+d_2 = \frac{\ln(S_t / X) + (r_c - \sigma^2 / 2) \tau}{\sigma \sqrt{\tau}}. \tag{9.53}
 $$
 
 For example, suppose  $S = 100$ ,  $X = 100$ ,  $r = 5.0\%$ ,  $\sigma = 30\%$ , and  $\tau = 1$  year. Figure 9.1 illustrates the call prices as the number of time steps increases. The binomial call price quickly converges to the Black-Scholes-Merton price of 14.23. The zig-zag pattern is well known. An odd number of steps produces values on the high side, and an even number of steps produces values on the low side.
 
-# 9.3 PUT OPTIONS
+## 9.3 PUT OPTIONS
 
 Based on put-call parity, we have
 
@@ -427,7 +491,7 @@ $$
 This binomial result will converge to the Black-Scholes-Merton put model in the limit as  $n \to \infty$  or
 
 $$
-p _ {t} = c _ {t} - S _ {t} + X e ^ {- r _ {c} \tau} = X e ^ {- r _ {c} \tau} N (- d _ {2}) - S _ {t} N (- d _ {1}). \tag {9.55}
+p_t = c_t - S_t + X e^{-r_c \tau} = X e^{-r_c \tau} N(-d_2) - S_t N(-d_1). \tag{9.55}
 $$
 
 The convergence properties are the same as the call results as illustrated in Figure 9.2. This identical pattern is driven by put-call parity. Put-call parity can be expressed as  $\mathrm{asc}_t =$

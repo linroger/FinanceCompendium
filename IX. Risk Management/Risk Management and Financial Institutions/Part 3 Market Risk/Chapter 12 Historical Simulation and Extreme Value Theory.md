@@ -1,11 +1,22 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 12 - Historical Simulation and Extreme Value Theory
+parent_directory: Part 3 Market Risk
+formatted: 2025-12-21 02:30:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - historical simulation
+   - extreme value theory
+   - value at risk
+   - expected shortfall
+   - market risk measurement
+secondary_tags:
+   - volatility scaling
+   - bootstrap method
+   - stressed var
+   - pareto distribution
+   - tail risk estimation
 cssclasses: academia
-title: Chapter 12
-linter-yaml-title-alias: Chapter 12
 ---
 
 # Chapter 12

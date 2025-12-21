@@ -1,7 +1,7 @@
 ---
 title: Financial Engineering and Applications
 parent_directory: chapters manual
-formatted: 2025-12-21 02:20:00 AM
+formatted: 2025-12-21 12:00:00 PM
 formatter_model: grok-code-fast-1
 cli-tool: opencode
 primary_tags:

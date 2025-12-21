@@ -1,22 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 10: Bankers Acceptances"
+parent_directory: Instruments of the Money Market
+formatted: 2025-12-21 02:32:25 PM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+  - bankers acceptances
+  - trade finance
+  - money market instruments
+secondary_tags:
+  - international trade financing
+  - federal reserve discount
+  - acceptance market structure
 cssclasses: academia
-title: Chapter 10
-linter-yaml-title-alias: Chapter 10
 ---
 
-# Chapter 10
+# Chapter 10: Bankers Acceptances
 
-# BANKERS ACCEPTANCES
-
-# Robert K. LaRoche
+**Author: Robert K. LaRoche**
 
 A bankers acceptance, or BA, is a time draft drawn on and accepted by a bank. Before acceptance, the draft is not an obligation of the bank; it is merely an order by the drawer to the bank to pay a specified sum of money on a specified date to a named person or to the bearer of the draft. Upon acceptance, which occurs when an authorized bank employee stamps the draft "accepted" and signs it, the draft becomes a primary and unconditional liability of the bank. If the bank is well known and enjoys a good reputation, the accepted draft may be readily sold in an active market.
 
-# THE CREATION OF A BANKERS ACCEPTANCE
+## The Creation of a Bankers Acceptance
 
 Acceptances arise most often in connection with international trade: U.S. imports and exports and trade between foreign countries.<sup>1</sup> An American importer may request acceptance financing from its bank when, as is frequently the case in international trade, it does not have a close relationship with and cannot obtain financing from the exporter it is dealing with. Once the importer and bank have completed an acceptance agreement, in which the bank agrees to accept drafts for the importer and the importer agrees to repay any drafts the bank accepts, the importer draws a time draft on the bank. The bank accepts the draft and discounts it; that is, it gives the importer cash for the draft but gives it an amount less than the face value of the draft. The importer uses the proceeds to pay the exporter.
 
@@ -32,22 +37,16 @@ An American exporter may seek acceptance financing in a case where it knows the 
 
 Foreign importers and exporters trading with American firms may obtain acceptance financing in ways similar to those just described. Many acceptances used to finance trade between foreign countries, however, are of a type known as "refinancing" or "accommodation" acceptances. A refinancing acceptance arises from a time draft drawn by a foreign bank on an American bank to finance a customer's transaction. Foreign banks that are not well known in the United States may seek this type of financing because they are unable to sell their own acceptances, or are unable to sell them at reasonable prices, in the U.S. market.
 
-Acceptances are also created to finance the shipment of goods within the United States and to finance the storage of goods in the United States and abroad. Acceptances arising from the shipment and storage of goods in the United
+Acceptances are also created to finance the shipment of goods within the United States and to finance the storage of goods in the United States and abroad. Acceptances arising from the shipment and storage of goods in the United States, which are termed "domestic" shipment and storage acceptances, are included in Figure 1 under "other," which includes dollar exchange acceptances—acceptances created to provide banks in certain foreign countries with dollar exchange—until 1984 when they disappeared from the market. As Figure 1 shows, domestic shipment and storage acceptances have been a small part of the market in recent years. On average during 1991, they accounted for 10 percent of acceptances outstanding. Acceptances arising from imports into the United States accounted for 28 percent, those arising from exports from the United States accounted for 24 percent, and those arising from the storage of goods in or shipment of goods between foreign countries accounted for 38 percent.
 
-# FIGURE 1
-
-# Bankers Acceptances Outstanding by Transaction Type
+## Figure 1: Bankers Acceptances Outstanding by Transaction Type
 
 Quarterly Averages of Month-End Figures
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/b9ba0a3276218d672f627defb2fe1a02caa6211ebaca28f4e906536f2e6811f0.jpg)  
 Note: Figures are from the Board of Governors' Annual Statistical Digest and Federal Reserve Bulletin.
 
-States, which are termed "domestic" shipment and storage acceptances, are included in Figure 1 under "other," which includes dollar exchange acceptances—acceptances created to provide banks in certain foreign countries with dollar exchange—until 1984 when they disappeared from the market. As Figure 1 shows, domestic shipment and storage acceptances have been a small part of the market in recent years. On average during 1991, they accounted for 10 percent of acceptances outstanding. Acceptances arising from imports into the United States accounted for 28 percent, those arising from exports from the United States accounted for 24 percent, and those arising from the storage of goods in or shipment of goods between foreign countries accounted for 38 percent.
-
-# BANKERS ACCEPTANCES AND THE
-
-# FEDERAL RESERVE SYSTEM
+## Bankers Acceptances and the Federal Reserve System
 
 Acceptances created to finance the activities listed above—U.S. imports and exports, foreign shipment and storage of goods, the shipment and storage of goods
 
@@ -85,11 +84,7 @@ The market began growing again following World War II, and the Reserve Banks' fo
 
 During the 1970s, the Federal Reserve decided that the acceptance market had matured to the point that it could stand on its own, and the System gradually withdrew its support. In November 1974, it stopped endorsing acceptances for its foreign correspondents. In March 1977, it decided to stop outright purchases
 
-# FIGURE 2
-
-# Shares of U.S. and Non-U.S. International Trade
-
-# Financed by Bankers Acceptances
+## Figure 2: Shares of U.S. and Non-U.S. International Trade Financed by Bankers Acceptances
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/88e85eb7cbfb9b1547763378beb133538d001e5c02ccf37deefb74b09c7c9473.jpg)  
 Notes: Acceptance figures are from the Board of Governor's Banking and Monetary Statistics, Annual Statistical Digest, and  
@@ -109,13 +104,13 @@ The value of the exemption is evident in the experience of "working capital" or 
 
 At the end of 1990, the Board of Governors removed reserve requirements from "nonpersonal time deposits," which include ineligible acceptances and large CDs, and from Eurocurrency liabilities, which are net transfers from banks' overseas offices to their U.S. offices. This action bodes ill for eligible acceptances, since it puts CDs and Eurodollar liabilities on a more even footing with them. Even with favorable reserverequirement status, eligible acceptances had been declining in importance for close to a decade. Judging by this experience, it seems unlikely that the Board's action will lead to a revival in ineligible working capital acceptances.
 
-# THE MARKET FOR BANKERS ACCEPTANCES
+## The Market for Bankers Acceptances
 
 Borrowers Borrowers in the acceptance market are for the most part firms engaged in U.S. imports and exports and foreign banks seeking to finance international trade not involving the United States. Over the last decade, as Figures 1 and 2 show, both types of borrowers have come to rely less and less on acceptances as a source of financing.
 
 As a source of financing for importers and exporters, acceptances compete with commercial paper, Euro commercial paper, and bank loans. For borrowers with prime ratings, commercial paper is probably the cheapest alternative. Borrowers with less than prime ratings can take out bank loans, issue Euro commercial paper, issue commercial paper with credit enhancements, or issue asset-backed commercial paper. Borrowers of the latter type may find acceptance financing an attractive alternative.
 
-Apparently, however, they increasingly do not. From 1983, when asset-backed commercial paper and Euro commercial paper were introduced, until 1991, outstandings rose to between  \$50 billion and\$ 70 billion for asset-backed commercial paper and to  \$75 billion for Euro commercial paper (see Chapter 9 on commercial paper). Over the same period, commercial and industrial loans made to U.S. businesses by onshore and offshore banks rose from\$ 467 billion to \$777 billion (McCauley and Seth 1992, p. 54). The volume outstanding of acceptances based on U.S. imports and exports fell over this period, however, from  \$31 billion to\$ 24 billion, and the percentage of U.S. foreign trade financed by acceptances fell from 25 percent to 10 percent.
+Apparently, however, they increasingly do not. From 1983, when asset-backed commercial paper and Euro commercial paper were introduced, until 1991, outstandings rose to between $50 billion and $70 billion for asset-backed commercial paper and to $75 billion for Euro commercial paper (see Chapter 9 on commercial paper). Over the same period, commercial and industrial loans made to U.S. businesses by onshore and offshore banks rose from $467 billion to $777 billion (McCauley and Seth 1992, p. 54). The volume outstanding of acceptances based on U.S. imports and exports fell over this period, however, from $31 billion to $24 billion, and the percentage of U.S. foreign trade financed by acceptances fell from 25 percent to 10 percent.
 
 Foreign banks that have no presence in the United States may finance their own acceptances by drawing refinancing acceptances on American banks or by issuing Eurodollar liabilities. Jensen and Parkinson (1986, pp. 9-10) cite the narrowing of the spread between the rates on Eurodollar deposits and bankers acceptances, from nearly 100 basis points in the early 1980s to about 25 basis points in 1985, as a factor in the decline of refinancing acceptances in the first half of the 1980s. Since then, the spread has narrowed even more to under 10 basis points, and the decline in refinancing acceptances has continued, both in terms of volumes outstanding and in terms of the percentage of world trade financed.
 
@@ -131,11 +126,11 @@ Investors Bankers acceptances are generally created in amounts over \$100,000, s
 
 Investors consider acceptances to be safe investments because acceptances are "two-name" paper; that is, two parties, the accepting bank and the drawer, are obligated to pay the holder on maturity. Investors are willing to accept a slightly lower return on acceptances than they are on "one-name" paper such as commercial paper and certificates of deposit.
 
-# THE OUTLOOK FOR BANKERS ACCEPTANCES
+## The Outlook for Bankers Acceptances
 
 Over the last decade or so a number of developments have diminished the attractiveness of bankers acceptances to both banks and borrowers. Asset-backed commercial paper and Euro commercial paper have been introduced, spreads between rates on Eurodollar deposits and rates on acceptances have fallen, and acceptances have lost their favorable reserve requirement status. As these developments appear to be permanent, the acceptance market is unlikely to rebound and may even continue to decline in importance.
 
-# REFERENCES
+## References
 
 Board of Governors of the Federal Reserve System. 79th Annual Report, 1992. Washington: Board of Governors, 1993.  
 Annual Statistical Digest, various issues. Washington: Board of Governors.  

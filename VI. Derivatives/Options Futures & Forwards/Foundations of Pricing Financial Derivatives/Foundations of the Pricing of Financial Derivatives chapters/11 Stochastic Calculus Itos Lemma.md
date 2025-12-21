@@ -1,19 +1,26 @@
 ---
-aliases:
-  - Stochastic Calculus and Ito's Lemma
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 11: Stochastic Calculus and Ito's Lemma"
-linter-yaml-title-alias: "Chapter 11: Stochastic Calculus and Ito's Lemma"
+parent_directory: "Foundations of Pricing Financial Derivatives"
+formatted: "2025-12-21 02:35:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - ito's lemma
+  - stochastic calculus
+  - brownian motion
+secondary_tags:
+  - geometric brownian motion
+  - stochastic differential equations
+  - stochastic integration
+  - wiener process
+cssclasses: academia
 ---
 
 # Stochastic Calculus and Ito's Lemma
 
 Stochastic calculus is an important field of mathematics that works with stochastic processes. Much like ordinary calculus, stochastic calculus is based on several fundamental results. One of the most important stochastic calculus results used in options is Itô's lemma. Though this result was discovered about 1950, it did not get firmly established in the finance literature until 1973 when Black, Scholes, and Merton discovered that it could be used to model the price of a stock and ultimately to facilitate pricing an option. Some excellent references with applications in finance are Baxter and Rennie (1996), Neftci (2000), and Malliaris and Brock (1982). Good sources for more advanced treatments are Karatzas and Shreve (1991) and Karlin and Taylor (1981).
 
-# 11.1 A RESULT FROM BASIC CALCULUS
+## 11.1 A Result from Basic Calculus
 
 Although there is a great deal of formal mathematical rigor to Ito's lemma, the essential elements are relatively simple. Let us begin, however, with a reminder of a few basic results from ordinary calculus. Recall that any differential in ordinary calculus,  $dt < 1$ , has a limit of zero if raised to a power greater than 1.0. In other words,  $dt^k \rightarrow 0$  if  $k > 1$ . Consider a generic mathematical function such as  $F(x,t)$  in which the first and second derivatives exist with respect to  $x$  and  $t$ . Using a Taylor series expansion, the change in value of the function can be expressed as
 
@@ -29,11 +36,11 @@ $$
 
 This statement means that the change in  $F$  is a function of the first-order changes in  $x$  and  $t$ . The change in  $x$  is multiplied by the partial derivative of  $F$  with respect to  $x$  and the change in  $t$  is multiplied by the partial derivative of  $F$  with respect to  $t$ . All of this is a formal way of stating that as  $x$  and  $t$  change, they induce a change in  $F$ . The changes in  $x$  and  $t$  are so small, however, that squared changes in  $x$  and  $t$  are zero in the limit, and their product is also zero in the limit.
 
-# 11.2 INTRODUCING STOCHASTIC CALCULUS AND ITO'S LEMMA
+## 11.2 Introducing Stochastic Calculus and Ito's Lemma
 
 In ordinary calculus, the variables are non-stochastic, which simply means that when we talk about a particular value of  $x$ , that value is known for certain. When  $x$  is stochastic, we leave the world of ordinary calculus and enter the world of stochastic calculus. There we cannot talk about a particular value of  $x$ . Instead, we must talk about a set of possible values of  $x$  that are generated according to a probability distribution. In stochastic calculus, results are proven by demonstrating what happens when squared values of a variable are multiplied by probabilities. A result is said to hold in "mean square limit." A more formal statement of this concept is presented later in this chapter.
 
-# 11.2.1 Generalized Itô Process
+### 11.2.1 Generalized Itô Process
 
 Let us now propose that  $x$  is stochastic and follows an Itô process, such as  $dW_{t}$ , or a more generalized process such as
 
@@ -77,7 +84,7 @@ $$
 
 Note that we do not have to consider higher-order terms, as  $dx^3$  would go to zero, because  $dx^2$  is  $dt$ . With this setup, we are now ready to express Itô's lemma.
 
-# 11.2.2 Itô Lemma
+### 11.2.2 Itô Lemma
 
 Assuming  $x$  follows a generalized Itô process expressed as
 
@@ -149,7 +156,7 @@ $$
 
 Note that the volatility term here is an absolute measure, such as currency units, rather than a relative measure such as percentage. In this case, the instrument price is also arithmetic Brownian motion with an adjusted drift term. The absolute volatility is growing when  $k > 0$ . We will return to explore arithmetic Brownian motion in more detail in Chapters 12 and 13.
 
-# 11.3 ITO'S INTEGRAL
+## 11.3 Ito's Integral
 
 In addition, Ito's lemma can be expressed in integral form. Let us restate the problem. We are given a random variable  $x_{t}$  that follows the stochastic process:
 
@@ -197,7 +204,7 @@ $$
 \int_ {0} ^ {t} \sigma d x _ {j} = \sigma \left(x _ {t} - x _ {0}\right). \tag {11.19}
 $$
 
-# 11.4 THE INTEGRAL FORM OF ITô'S LEMMA
+## 11.4 The Integral Form of Ito's Lemma
 
 Now let us develop Ito's lemma in integral form. Using stochastic integration applied to Equation (11.14), we have
 
@@ -215,7 +222,7 @@ which is Ito's lemma in integral formula and is sometimes called Ito's stochasti
 
 In Appendix 11A, we review several generalized stochastic integration results. Many of these results are useful when solving various financial problems with stochastic calculus. We turn now to additional applications of Ito's lemma.
 
-# 11.5 SOME ADDITIONAL CASES OF ITU'S LEMMA
+## 11.5 Some Additional Cases of Ito's Lemma
 
 Let us look at two more cases of Ito's lemma. First, we look at the case where our random process is a function of not one but two random processes,  $x$  and  $y$ . An example of this situation might be a currency option, whereby the performance is determined by the exchange rate and an interest rate. Alternatively, there are options that pay off based on the greater or poorer performing of two assets that are stochastic.
 
@@ -343,7 +350,7 @@ $$
 
 Of course, if these are independent Brownian motions, the correlation term disappears.
 
-# 11.6 RECAP AND PREVIEW
+## 11.6 Recap and Preview
 
 In this chapter, we presented the concept of Itô's lemma, which is a specification roughly analogous to a Taylor series, but which applies to stochastic processes. Itô's lemma enables us to explain how the change in one variable is related to the changes in other variables. We also showed how Itô's lemma can be expressed in terms of a stochastic integral, and we showed how a stochastic integral differs from the standard integrals with which we are familiar from standard math. The information from this chapter will be needed to derive the Black-Scholes-Merton model.
 
@@ -351,11 +358,11 @@ In Chapter 12, we shall look at some other properties of the normal and lognorma
 
 Black-Scholes-Merton model. After that point, we shall finally be able to dive into the derivation of the model.
 
-# APPENDIX 11A
+## Appendix 11A
 
-# Technical Stochastic Integral Results
+### Technical Stochastic Integral Results
 
-# 11A.1 Selected Stochastic Integral Results
+#### 11A.1 Selected Stochastic Integral Results
 
 Before proceeding, it is important to recall from the definition of a Wiener process, we know
 
@@ -421,7 +428,7 @@ where  $\tilde{\varepsilon}$  denotes a standard normal random variable and  $\s
 
 We will apply this observation several times in the next few subsections. Throughout this material, we assume any required derivative of generic functions exists and is finite. Often, a financial application will require time-varying parameters. For example, an investor may believe that volatility will generally increase for a particular stock over the next year. The results presented next allow for time-varying parameters but not state-varying parameters. That is, the parameters are independent of the asset price.
 
-# 11A.1.1 Time Functions of a Normally Distributed Process Lemma
+##### 11A.1.1 Time Functions of a Normally Distributed Process Lemma
 
 If  $g(t)$  is a function solely of calendar time and we have a function defined as
 
@@ -511,7 +518,7 @@ $$
 \begin{array}{l} E\big(f_{T}\big) = E(\tilde{\varepsilon})\sigma \sqrt{\intop_{\substack{0\\ T}}^{T}e^{2k(T - j)}d j} = 0\text{and} \\ \operatorname {v a r} \left(f _ {T}\right) = E (\bar {\varepsilon} ^ {2}) \sigma^ {2} \int_ {0} e ^ {2 k (T - j)} d j = \sigma^ {2} \left(\frac {e ^ {2 k (T)} - 1}{2 k}\right). \\ \end{array}
 $$
 
-# 11A.1.2 Time Functions of a Lognormally Distributed Process Lemma
+##### 11A.1.2 Time Functions of a Lognormally Distributed Process Lemma
 
 Again, if  $g(t)$  is a function solely of calendar time and we have a function defined as
 
@@ -537,11 +544,11 @@ $$
 \operatorname {v a r} \left(h _ {t}\right) = E \left(h _ {t} ^ {2}\right) - E \left(h _ {t}\right) ^ {2} = \mathrm {e} ^ {\int_ {0} ^ {t} g ^ {2} (j) d j} - e ^ {\int_ {0} ^ {t} g ^ {2} (j) d j} = e ^ {\int_ {0} ^ {t} g ^ {2} (j) d j} \left(e ^ {\int_ {0} ^ {t} g ^ {2} (j) d j} - 1\right).
 $$
 
-# 11A.2 A General Linear Theorem
+#### 11A.2 A General Linear Theorem
 
 Mikosch (1998) provides an elegant introduction to stochastic calculus with a finance focus. On page 150 and following, he provides an extremely useful as well as powerful result. We review this result expressed here as a theorem. We follow the theorem with several useful finance applications that also rely on the stochastic integration results of the previous section.
 
-# 11A.2.1 Mikosch's General Linear Theorem
+##### 11A.2.1 Mikosch's General Linear Theorem
 
 Consider a generic linear stochastic integral of the form
 
@@ -573,7 +580,7 @@ In most finance cases, either  $\sigma_{1}(j) = 0$  or  $\sigma_{2}(j) = 0$ , bu
 
 Although we would be interested in the  $E(x_{t})$  and  $\mathrm{var}(x_t)$ , the solution for these parameters is a bit tedious for Mikosch's general linear theorem. Thus, we introduce two lemmas that are more straightforward. With the combination of the previous stochastic integration results as well as this theorem, we illustrate several important finance applications.
 
-# 11A.2.2 Linear Additive Noise Lemma
+##### 11A.2.2 Linear Additive Noise Lemma
 
 Consider an underlying instrument that is linear with an additive noise term implying a terminal normal distribution. That is, the generic stochastic integral representation is
 
@@ -738,54 +745,4 @@ and
 $$
 \operatorname {v a r} \left(S _ {t}\right) = E \left(S _ {t} ^ {2}\right) - E \left(S _ {t}\right) ^ {2} = S _ {0} ^ {2} e ^ {\left(2 \mu_ {1} + \sigma_ {1} ^ {2}\right) t} - \left(S _ {0} e ^ {\mu_ {1} t}\right) ^ {2} = S _ {0} ^ {2} e ^ {2 \mu_ {1} t} \left(e ^ {\sigma_ {1} ^ {2} t} - 1\right). \tag {11.86}
 $$
-
-# QUESTIONS AND PROBLEMS
-
-1 One model for the S&P 500 index futures price is represented as
-
-$$
-F _ {t} = S _ {t} e ^ {(r - \delta) \tau},
-$$
-
-where  $S_{t}$  denotes the S&P 500 index value,  $r$  denotes the risk free rate,  $\delta$  denotes the dividend yield, and  $\tau$  denotes the time to maturity, expressed in years. If  $S_{t}$  is assumed to follow geometric Brownian motion,  $dS_{t} = \alpha S_{t}dt + \sigma S_{t}dW_{t}$ , where  $\alpha$  denotes the expected return on the index and  $\sigma$  denotes the standard deviation (both annualized, continuously compounded). What is the expected return and standard deviation of the continuously compounded percentage change in the future price?
-
-2 One model for the S&P 500 index futures price is represented as
-
-$$
-F _ {t} = S _ {t} e ^ {(r - \delta) \tau},
-$$
-
-where  $S_{t}$  denotes the S&P 500 index value,  $r$  denotes the risk-free rate,  $\delta$  denotes the dividend yield, and  $\tau$  denotes the time to expiration, expressed in years. Now if  $S_{t}$  is assumed to follow arithmetic Brownian motion with geometric drift,  $dS_{t} = \alpha S_{t}dt + \sigma dW_{t}$ , where  $\alpha$  denotes the expected return on the index (annualized, continuously compounded) and  $\sigma$  denotes the absolute standard deviation (annualized unit changes). What is the expected change and standard deviation of the change in the future price?
-
-3 Prove the time functions of a normally distributed process lemma stated as: If  $g(t)$  is a function solely of calendar time and we have a function defined as
-
-$$
-f _ {t} \equiv \int_ {0} ^ {t} g (j) d W _ {j},
-$$
-
-then
-
-$$
-f _ {t} = \sqrt {\frac {\int_ {0} ^ {t} g ^ {2} (j) d j}{t}} \int_ {0} ^ {t} d \mathrm {W} _ {j} = \tilde {\varepsilon} \sqrt {\int_ {0} ^ {t} g ^ {2} (j) d j}.
-$$
-
-4 Suppose a stochastic integral can be expressed as
-
-$$
-f _ {t} \equiv \int_ {0} ^ {t} e ^ {c (j) j} d W _ {j}.
-$$
-
-Derive the mean and variance of  $f_{t}$ .
-
-Suppose the US dollar (USD) to Narnian lokum (NNL) is  $S_{t} = 1.25$  USD for each NNL. Based on an analysis of the two countries, the exchange rate is assumed to follow geometric Brownian motion. Specifically,  $dS_{t} = \alpha S_{t}dt + \sigma S_{t}dW_{t}$ , where  $\alpha = 5.0\%$  and  $\sigma = 35\%$ . Compare the expected change in the exchange rate and standard deviation of the expected change from the US perspective as well as the Narnian perspective assuming a five-year horizon. (Note: If the spot exchange rate is  $S_{t} = \\(1.25 / N$ , then the reciprocal exchange rate is  $R_{t} = N0.8 / \$  [= N(1 / 1.25) / \$]\).
-
-# NOTES
-
-1. The term mean square limit can be thought of somewhat like the concept of variance, which is the mean squared deviation around the expected value. It is approximately correct to say that a result in stochastic calculus holds when the variance converges to a finite value.  
-2. The variable  $F$  can depend on other parameters, but they must be constant across  $x$  and  $t$ .  
-3. Remember that the expected value of  $dW_{t}$  is zero. Hence, the expected value of  $dF$  comes from the first term on the right-hand side; the term in parentheses is the expected value, which is a constant. Multiplying by  $dt$  scales it by the length of the time interval. The variance in the stochastic process comes from the second term on the right-hand side. The variance is the square of whatever term is multiplied by  $dW_{t}$  times the variance of  $dW_{t}$ , which is  $dt$ .  
-4. This instrument closely resembles a forward contract under the carry arbitrage model covered in Chapter 22, but the details of that instrument are not relevant for this application of Ito's lemma. Also, note that  $\tau$  is in years and  $T - t$  is typically just an index, that is, a type of counter that can be used to identify points in time; there is no harm done in letting  $T - t$  represent days/365 to make it completely consistent with the definition of  $\tau$ .  
-5. In arithmetic Brownian motion with arithmetic drift, the asset follows the stochastic process,  $dS_{t} = \alpha dt + \sigma dW_{t}$ , meaning that the price change and not the return is modeled as a function of its drift and volatility. In such a case, the asset value can go below zero.  
-6. There is no term related to  $dt$  because  $z$  is not directly determined by  $t$ .  
-7. Generic refers to  $\mu_1, \mu_2, \sigma_1$ , and  $\sigma_2$  being a function of, at most, calendar time. Many different functional forms are possible.
 

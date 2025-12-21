@@ -1,16 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 14 - Interest Rate Risk"
+parent_directory: Risk Management and Financial Institutions/Part 3 Market Risk
+formatted: 2025-12-21 02:40:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - interest rate risk
+  - yield curve management
+  - duration and convexity
+secondary_tags:
+  - treasury rates
+  - reference rates
+  - repo rates
+  - var calculation
+  - bond duration calculation
+  - modified duration
+  - bond convexity
 cssclasses: academia
-title: Chapter 14
-linter-yaml-title-alias: Chapter 14
 ---
 
-# Chapter 14
-
-# Interest Rate Risk
+# Chapter 14 - Interest Rate Risk
 
 Interest rate risk is more difficult to manage than the risk arising from market variables such as equity prices, exchange rates, and commodity prices. One complication is that there are many different interest rates in any given currency (Treasury rates, interbank borrowing and lending rates, swap rates, and so on). Although these tend to move together, they are not perfectly correlated. Another complication is that we need more than a single number to describe the interest rate environment. We need a function describing the variation of the interest rate with maturity. This is known as the term structure of interest rates or the yield curve. The interest rate considered is usually a zero-coupon interest rate, sometimes just referred to as a "zero." It is the rate of interest that would apply for the maturity being considered if all interest and principal are paid at the end (i.e., there are no periodic payments such as those that are usually made on bonds).
 
@@ -22,7 +31,7 @@ This chapter does not cover issues such as the compounding frequency with which 
 
 # 14.1 Types of Rates
 
-An interest rate in a particular situation defines the amount of money a borrower promises to pay the lender. For any given currency, many different types of interest rates are regularly quoted. These include mortgage rates, deposit rates, prime borrowing rates, and so on. One important factor influencing interest rates is credit risk. This is the risk that there will be a default by the borrower of funds, so that the interest and principal are not paid to the lender as promised. The higher the credit risk, the higher the interest rate that is promised by the borrower. The extra amount added to a risk-free interest rate to allow for credit risk is known as a credit spread. Interest rates are often expressed in basis points. One basis point is  $0.01\%$  per annum.
+An interest rate in a particular situation defines the amount of money a borrower promises to pay the lender. For any given currency, many different types of interest rates are regularly quoted. These include mortgage rates, deposit rates, prime borrowing rates, and so on. One important factor influencing interest rates is credit risk. This is the risk that there will be a default by the borrower of funds, so that the interest and principal are not paid to the lender as promised. The higher the credit risk, the higher the interest rate that is promised by the borrower. The extra amount added to a risk-free interest rate to allow for credit risk is known as a credit spread. Interest rates are often expressed in basis points. One basis point is $0.01\%$ per annum.
 
 # 14.1.1 Treasury Rates
 
@@ -39,11 +48,13 @@ Reference interest rates are important in financial markets. The parties to tran
 Longer rates such as three-month rates, six-month rates, or one-year rates can be determined from overnight rates by compounding them daily. Suppose that the annualized SOFR rate for the  $i$ th business day in a period is  $r_i$  and the rate applies to  $d_i$  days. The annualized SOFR rate is a rate per 360 days. The annualized interest rate for the period is therefore
 
 $$
-[ (1 + r _ {1} \hat {d} _ {1}) (1 + r _ {2} \hat {d} _ {2}) \dots (1 + r _ {n} \hat {d} _ {n}) - 1 ] \times \frac {3 6 0}{D}
-$$ where  $\hat{d}_i = d_i / 360$  and  $D = \sum_{i}d_{i}$  is the number of days in the period. On most days  $d_{i} = 1$ , but weekends and holidays lead to overnight rates being applied to more than one day. (For example, on a Friday  $d_{i}$  will usually be 3.)
+[(1 + r_1 \hat{d}_1)(1 + r_2 \hat{d}_2) \dots (1 + r_n \hat{d}_n) - 1] \times \frac{360}{D}
+$$
+
+where $\hat{d}_i = d_i / 360$ and $D = \sum_i d_i$ is the number of days in the period. On most days  $d_{i} = 1$ , but weekends and holidays lead to overnight rates being applied to more than one day. (For example, on a Friday  $d_{i}$  will usually be 3.)
 
 
-As mentioned in Section 5.3.3, there are important differences between the new reference rates proposed by regulators and the old ones. LIBOR rates are forward looking. They are determined at the beginning of the period to which they will apply. The new reference rates are backward looking in the sense that the rate for a period is not known until the end of the period when all the relevant overnight rates have been observed. Another difference is that the new rates are regarded as risk-free because they are derived from one-day loans to creditworthy financial institutions. LIBOR, by contrast, incorporates a credit spread. The spread between three-month LIBOR and a three-month rate based on overnight rates is usually about 10 basis points  $(0.1\%)$ , but it can be much higher in stressed market conditions. For example, it spiked to an all-time high of 364 basis points  $(3.64\%)$  in the United States in October 2008 during the Global Financial Crisis.
+As mentioned in Section 5.3.3, there are important differences between the new reference rates proposed by regulators and the old ones. LIBOR rates are forward looking. They are determined at the beginning of the period to which they will apply. The new reference rates are backward looking in the sense that the rate for a period is not known until the end of the period when all the relevant overnight rates have been observed. Another difference is that the new rates are regarded as risk-free because they are derived from one-day loans to creditworthy financial institutions. LIBOR, by contrast, incorporates a credit spread. The spread between three-month LIBOR and a three-month rate based on overnight rates is usually about 10 basis points $(0.1\%)$, but it can be much higher in stressed market conditions. For example, it spiked to an all-time high of 364 basis points $(3.64\%)$ in the United States in October 2008 during the Global Financial Crisis.
 
 If a bank offers a loan at a reference rate plus  $x\%$ , where  $x$  is a constant, it would usually like the rate to reflect ups and downs in average credit spreads. LIBOR, when used as a reference rate, did this, but the overnight rates (because they are essentially risk-free) do not. As mentioned in Section 5.3.3, this has led to the development of some alternatives to the rates proposed by regulators. One is the Bloomberg Short-Term Yield Index (BSBY), which estimates the average yield at which large banks in the United States access unsecured funds. Another is AMERIBOR, which reflects the actual borrowing costs of thousands of community and regional banks in the United States. It will be interesting to see which of the reference rates that have been proposed as replacements for LIBOR become most actively used.
 
@@ -59,7 +70,7 @@ Term structures create complications for the application of the approaches for c
 
 It is clearly not possible to consider separately every single maturity to which a financial institution is exposed. Typically, the financial institution will calculate, from the yields on available instruments, zero-coupon interest rates for certain standard maturities such as three months, six months, one year, etc. The way this is done is outlined in Appendix B. It will monitor the movements in these interest rates and calculate other rates as needed using linear interpolation. It will do this for all the different term structures of interest rates to which it is exposed.
 
-When the historical simulation approach is used, the rate for each standard maturity for each term structure is considered as a separate risk factor. The change in each of these rates in the  $i$ th scenario is the observed change between Day  $i-1$  and Day  $i$  of the historical data. As discussed in Section 13.1 calculations are based on actual changes rather than percentage changes in risk factors. Required rates for nonstandard maturities can be calculated using linear interpolation between the rates for standard maturities as indicated in Appendix B.
+When the historical simulation approach is used, the rate for each standard maturity for each term structure is considered as a separate risk factor. The change in each of these rates in the $i$th scenario is the observed change between Day $i-1$ and Day $i$ of the historical data. As discussed in Section 13.1 calculations are based on actual changes rather than percentage changes in risk factors. Required rates for nonstandard maturities can be calculated using linear interpolation between the rates for standard maturities as indicated in Appendix B.
 
 When the model-building approach is used, the rate for each standard maturity on each term structure can also be defined as a separate risk factor. A delta for the rate at the  $i$ th point is calculated as  $\Delta P / \Delta r$  where  $\Delta r$  is a small change in the rate and  $\Delta P$  the change in the portfolio value when that rate is changed and others are kept fixed. Figure 14.1 considers a term structure defined by points corresponding to maturities 3 months, 6 months, 1 year, 2 years, 3 years, 5 years, 10 years, 15 years, 20 years, and 30 years, and shows the effect on the term structure making a small change to the five-year rate. The deltas for other points on the term structure are calculated similarly. All rates less than the shortest rate (three months in our example) are changed by the same amount  $\Delta r$  and rates between that rate and the next rate are changed in the same way as the rates between five years and ten years in Figure 14.1. Similarly, for the longest maturity rate, all rates greater than the longest rate are changed by  $\Delta r$  and the rates between the second-longest and the longest maturity are changed in the same way as rates between three years and five years in Figure 14.1. (This is consistent with the usual convention for constructing zero-coupon term structures described in Appendix B.) The result of all of this is that the sum on the deltas for the points on the term structure is the delta for a parallel shift in the whole term structure. The DV01 of a portfolio is defined as the effect on it of a one-basis-point parallel shift. The deltas we have described are in effect a way of dividing this into components, one for each point on the term structure.
 
@@ -70,10 +81,10 @@ Figure 14.1 Five-Year Rate Is Changed with Other Rates Kept Constant
 Consider a portfolio whose value depends on only one term structure. Define  $\delta_{i}$  as the delta for the  $i$ th point on the term structure. If  $\sigma_{i}$  is the standard deviation of a one-day change in the rate corresponding to this point and  $\rho_{ij}$  is the correlation between movements in rates at the  $i$ th and  $j$ th points, the standard deviation of the change in the value of the portfolio in one day is
 
 $$
+\sigma_P = \sqrt{\sum_{i=1}^n \sum_{j=1}^n \rho_{ij} \delta_i \delta_j \sigma_i \sigma_j} \tag{14.1}
+$$
 
-\sigma_ {P} = \sqrt {\sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \rho_ {i j} \delta_ {i} \delta_ {j} \sigma_ {i} \sigma_ {j}} \tag {14.1}
-
-$$ where  $n$  is the number of points on the term structure.
+where $n$ is the number of points on the term structure.
 
 Any given future cash flow has a delta with respect to the two adjacent maturities. For example, a cash flow in 3.5 years has a delta with respect to the three-year rate and the five-year rate, but none with respect to the other rates. When the exposure to the 3.5-year rate is  $X$ , the nature of the changes indicated in Figure 14.1 shows that this translates to an exposure of  $0.75X$  to the three-year rate and  $0.25X$  to the five-year rate.
 
@@ -82,12 +93,14 @@ Note that equation (14.1) is the same as equation (13.2). The only difference is
 Suppose now that portfolio  $P$  depends on  $K$  term structures. Define  $\delta_{ik}, \sigma_{ik}$ , and  $\rho_{ijk}$  as the values of  $\delta_i, \sigma_i$ , and  $\rho_{ij}$  for term structure  $k$  ( $1 \leq k \leq K$ ). Also define
 
 $$
-V _ {k} ^ {2} = \sum_ {i = 1} ^ {N _ {k}} \sum_ {j = 1} ^ {N _ {k}} \rho_ {i j k} \delta_ {i k} \delta_ {j k} \sigma_ {i k} \sigma_ {j k}
+V_k^2 = \sum_{i=1}^{N_k} \sum_{j=1}^{N_k} \rho_{ijk} \delta_{ik} \delta_{jk} \sigma_{ik} \sigma_{jk}
 $$
 
 $$
-U _ {k} = \sum_ {i = 1} ^ {N _ {k}} \delta_ {i k} \sigma_ {i k}
-$$ where  $N_{k}$  is the number of vertices used for term structure  $k$ .
+U_k = \sum_{i=1}^{N_k} \delta_{ik} \sigma_{ik}
+$$
+
+where $N_k$ is the number of vertices used for term structure $k$.
 
 
 It is usual to describe the correlation between the two term structures with a single parameter. Suppose that  $\rho(k_1, k_2)$  is the correlation between term structures  $k_1$  and  $k_2$ . Two ways of defining it are as follows:
@@ -98,16 +111,13 @@ It is usual to describe the correlation between the two term structures with a s
 The first definition leads to
 
 $$
-
-\sigma_ {P} = \sqrt {\sum_ {k} V _ {k} ^ {2} + \sum_ {k _ {1} \neq k _ {2}} \rho \left(k _ {1} , k _ {2}\right) U _ {k _ {1}} U _ {k _ {2}}} \tag {14.2}
-
-$$ whereas the second gives
-
-
+\sigma_P = \sqrt{\sum_k V_k^2 + \sum_{k_1 \neq k_2} \rho(k_1, k_2) U_{k_1} U_{k_2}} \tag{14.2}
 $$
 
-\sigma_ {P} = \sqrt {\sum_ {k} V _ {k} ^ {2} + \sum_ {k _ {1} \neq k _ {2}} \rho \left(k _ {1} , k _ {2}\right) V _ {k _ {1}} V _ {k _ {2}}} \tag {14.3}
+whereas the second gives
 
+$$
+\sigma_P = \sqrt{\sum_k V_k^2 + \sum_{k_1 \neq k_2} \rho(k_1, k_2) V_{k_1} V_{k_2}} \tag{14.3}
 $$
 
 # Example 14.1
@@ -125,18 +135,14 @@ Table 14.2 Correlations between Rates of Different Maturities
 Finally, we assume that the correlation parameter between the two term structures is 0.4. In millions of dollars, the results are:
 
 $$
-
-U _ {1} = 3, 5 2 9 U _ {2} = 5, 5 0 1
-
+U_1 = 3,529 \quad U_2 = 5,501
 $$
 
 $$
-
-V _ {1} = 3, 0 0 4. 9 V _ {2} = 4, 6 0 4. 3
-
+V_1 = 3,004.9 \quad V_2 = 4,604.3
 $$
 
-The portfolio standard deviation per day given by equation (14.2) is 6,163.9, and the portfolio standard deviation given by equation (14.3) is 5,980.2. These must be multiplied by  $\sqrt{10}$  and 2.326 to get the 10-day  $99\%$  VaR. The expected shortfall can be calculated using equation (11.2).
+The portfolio standard deviation per day given by equation (14.2) is 6,163.9, and the portfolio standard deviation given by equation (14.3) is 5,980.2. These must be multiplied by $\sqrt{10}$ and 2.326 to get the 10-day $99\%$ VaR. The expected shortfall can be calculated using equation (11.2).
 
 The calculations are shown on the author's website: www-2.rotman.utoronto.ca/\~hull/riskman.
 
@@ -297,7 +303,7 @@ If the bond's yield,  $\gamma$ , in equation (14.4) is measured with continuous 
 
 Consider a three-year 10\% coupon bond with a face value of \$100. Suppose that the yield on the bond is 12\% per annum with continuous compounding. This means that γ = 0.12. Coupon payments of \$5 are made every six months. Table 14.8 shows the calculations necessary to determine the bond's duration. The present values of the bond's cash flows, using the yield as the discount rate, are shown in column 3. (For example, the present value of the first cash flow is 5e-0.12×0.5 = 4.709.) The sum of the numbers in column 3 is the bond's market price, 94.213. The weights are calculated by dividing the numbers in column 3 by 94.213. The sum of the numbers in column 5 gives the duration as 2.653 years.
 
-Small changes in interest rates are often measured in basis points. A basis point is  $0.01\%$  per annum. The following example shows that equation (14.5) is correct when duration is defined as in equation (14.7) and yields are measured with continuous compounding.
+Small changes in interest rates are often measured in basis points. A basis point is $0.01\%$ per annum. The following example shows that equation (14.5) is correct when duration is defined as in equation (14.7) and yields are measured with continuous compounding.
 
 Table 14.8 Calculation of Duration
 
@@ -305,26 +311,25 @@ Table 14.8 Calculation of Duration
 
 # Example 14.2
 
-For the bond in Table 14.8, the bond price,  $B$ , is 94.213 and the duration,  $D$ , is 2.653, so that equation (14.5) gives
+For the bond in Table 14.8, the bond price, $B$, is 94.213 and the duration, $D$, is 2.653, so that equation (14.5) gives
 
 $$
-\Delta B = - 9 4. 2 1 3 \times 2. 6 5 3 \Delta \gamma
-$$ or
-
-
+\Delta B = -94.213 \times 2.653 \Delta \gamma
 $$
 
-\Delta B = - 2 4 9. 9 5 \Delta y
+or
 
 $$
-
-When the yield on the bond increases by 10 basis points  $(= 0.1\%)$ ,  $\Delta \gamma = +0.001$ . The duration relationship predicts that  $\Delta B = -249.95 \times 0.001 = -0.250$  so that the bond price goes down to  $94.213 - 0.250 = 93.963$ . How accurate is this? When the bond yield increases by 10 basis points to  $12.1\%$ , the bond price is
-
+\Delta B = -249.95 \Delta y
 $$
 
-\begin{array}{l} 5 e ^ {- 0. 1 2 1 \times 0. 5} + 5 e ^ {- 0. 1 2 1 \times 1. 0} + 5 e ^ {- 0. 1 2 1 \times 1. 5} + 5 e ^ {- 0. 1 2 1 \times 2. 0} \\ + 5 e ^ {- 0. 1 2 1 \times 2. 5} + 1 0 5 e ^ {- 0. 1 2 1 \times 3. 0} = 9 3. 9 6 3 \\ \end{array}
+When the yield on the bond increases by 10 basis points $(= 0.1\%)$, $\Delta \gamma = +0.001$. The duration relationship predicts that $\Delta B = -249.95 \times 0.001 = -0.250$ so that the bond price goes down to $94.213 - 0.250 = 93.963$. How accurate is this? When the bond yield increases by 10 basis points to $12.1\%$, the bond price is
 
-$$ which is (to three decimal places) the same as that predicted by the duration relationship.
+$$
+5e^{-0.121 \times 0.5} + 5e^{-0.121 \times 1.0} + 5e^{-0.121 \times 1.5} + 5e^{-0.121 \times 2.0} + 5e^{-0.121 \times 2.5} + 105e^{-0.121 \times 3.0} = 93.963
+$$
+
+which is (to three decimal places) the same as that predicted by the duration relationship.
 
 
 # 14.5.1 Modified Duration
@@ -333,8 +338,22 @@ The definition of duration in equation (14.7) was suggested by Frederick Macaula
 
 # Example 14.3
 
-The bond in Table 14.8 has a price of 94.213 and a duration of 2.653. The yield, expressed with semiannual compounding, is  $12.3673\%$ . (See Appendix A.) The (modified) duration appropriate for calculating sensitivity to the yield when it is expressed with semiannual compounding is
+The bond in Table 14.8 has a price of 94.213 and a duration of 2.653. The yield, expressed with semiannual compounding, is $12.3673\%$. (See Appendix A.) The (modified) duration appropriate for calculating sensitivity to the yield when it is expressed with semiannual compounding is
 
+$$
+\frac{2.653}{1 + 0.123673 / 2} = 2.4985
+$$
+
+From equation (14.5),
+
+$$
+\Delta B = -94.213 \times 2.4985 \Delta \gamma
+$$
+
+or
+
+$$
+\Delta B = -235.39 \Delta y
 $$
 
 \frac {2 . 6 5 3}{1 + 0 . 1 2 3 6 7 3 / 2} = 2. 4 9 8 5
@@ -360,8 +379,16 @@ When the yield (semiannually compounded) increases by 10 basis points  $(= 0.1\%
 
 # 14.5.2 Dollar Duration
 
-The dollar duration of a bond is defined as the product of its duration and its price. If  $D_{\mathbb{S}}$  is dollar duration, it follows from equation (14.5) that
+The dollar duration of a bond is defined as the product of its duration and its price. If $D_{\S}$ is dollar duration, it follows from equation (14.5) that
 
+$$
+\Delta B = -D_{\S} \Delta \gamma
+$$
+
+or using calculus notation
+
+$$
+D_{\S} = -\frac{dB}{d\gamma}
 $$
 
 \Delta B = - D _ {\S} \Delta \gamma
@@ -371,7 +398,7 @@ $$ or using calculus notation
 
 $$
 
-D _ {\S} = - \frac {d B}{d \gamma}
+ D_{\S} = - \frac{d B}{d \gamma}
 
 $$
 
@@ -383,6 +410,20 @@ The duration relationship measures exposure to small changes in yields. This is 
 
 The convexity for a bond is
 
+$$
+C = \frac{1}{B} \frac{d^2 B}{d\gamma^2} = \frac{\sum_{i=1}^n c_i t_i^2 e^{-\gamma t_i}}{B}
+$$
+
+where $\gamma$ is the bond's yield measured with continuous compounding. This is the weighted average of the square of the time to the receipt of cash flows. From Appendix G, a second order approximation to the change in the bond price is
+
+$$
+\Delta B = \frac{dB}{d\gamma} \Delta \gamma + \frac{1}{2} \frac{d^2 B}{d\gamma^2} \Delta \gamma^2
+$$
+
+This leads to
+
+$$
+\frac{\Delta B}{B} = -D \Delta \gamma + \frac{1}{2} C (\Delta \gamma)^2 \tag{14.8}
 $$
 
 C = \frac {1}{B} \frac {d ^ {2} B}{d \gamma^ {2}} = \frac {\sum_ {i = 1} ^ {n} c _ {i} t _ {i} ^ {2} e ^ {- \gamma t _ {i}}}{B}
@@ -405,8 +446,16 @@ Figure 14.3 Two Bonds with the Same Duration and Different Convexities
 
 # Example 14.4
 
-Consider again the bond in Table 14.8. The bond price,  $B$ , is 94.213, and the duration,  $D$ , is 2.653. The convexity is
+Consider again the bond in Table 14.8. The bond price, $B$, is 94.213, and the duration, $D$, is 2.653. The convexity is
 
+$$
+0.05 \times 0.5^2 + 0.047 \times 1.0^2 + 0.044 \times 1.5^2 + 0.042 \times 2.0^2 + 0.039 \times 2.5^2 + 0.779 \times 3.0^2 = 7.570
+$$
+
+The convexity relationship in equation (14.8) is therefore
+
+$$
+\frac{\Delta B}{B} = -2.653 \Delta y + \frac{1}{2} \times 7.570 \times (\Delta y)^2
 $$
 \begin{array}{l} 0. 0 5 \times 0. 5 ^ {2} + 0. 0 4 7 \times 1. 0 ^ {2} + 0. 0 4 4 \times 1. 5 ^ {2} + 0. 0 4 2 \times 2. 0 ^ {2} + 0. 0 3 9 \times 2. 5 ^ {2} \\ + 0. 7 7 9 \times 3. 0 ^ {2} = 7. 5 7 0 \\ \end{array}
 $$
@@ -417,34 +466,36 @@ $$
 \frac {\Delta B}{B} = - 2. 6 5 3 \Delta y + \frac {1}{2} \times 7. 5 7 0 \times (\Delta y) ^ {2}
 $$
 
-Consider a  $2\%$  change in the bond yield from  $12\%$  to  $14\%$ . The duration relationship predicts that the dollar change in the value of the bond will be  $-94.213 \times 2.653 \times 0.02 = -4.999$ . The convexity relationship predicts that it will be
+Consider a $2\%$ change in the bond yield from $12\%$ to $14\%$. The duration relationship predicts that the dollar change in the value of the bond will be $-94.213 \times 2.653 \times 0.02 = -4.999$. The convexity relationship predicts that it will be
 
 $$
-- 9 4. 2 1 3 \times 2. 6 5 3 \times 0. 0 2 + 0. 5 \times 9 4. 2 1 3 \times 7. 5 7 0 \times 0. 0 2 ^ {2} = - 4. 8 5 6
+-94.213 \times 2.653 \times 0.02 + 0.5 \times 94.213 \times 7.570 \times 0.02^2 = -4.856
 $$
 
-The actual change in the value of the bond is  $-4.859$ . This shows that the convexity relationship gives much more accurate results than duration for a large change in the bond yield.
+The actual change in the value of the bond is $-4.859$. This shows that the convexity relationship gives much more accurate results than duration for a large change in the bond yield.
 
 # 14.6.1 Dollar Convexity
 
-The dollar convexity of a bond,  $C_{\mathbb{S}}$ , can be defined analogously to dollar duration as the product of convexity and the value of the bond. This means that
+The dollar convexity of a bond, $C_{\S}$, can be defined analogously to dollar duration as the product of convexity and the value of the bond. This means that
 
 $$
-C _ {\S} = \frac {d ^ {2} B}{d \gamma^ {2}}
-$$ and shows that dollar convexity is analogous to the gamma measure, which will be introduced in Chapter 15.
+C_{\S} = \frac{d^2 B}{d\gamma^2}
+$$
+
+and shows that dollar convexity is analogous to the gamma measure, which will be introduced in Chapter 15.
 
 
 # 14.7 Generalization
 
 So far we have used duration and convexity to measure the sensitivity of the price of a single bond to interest rates. The definitions of duration and convexity can be generalized so that they apply to a portfolio of bonds—or to any portfolio of interest-rate-dependent instruments. We define a parallel shift in the zero-coupon yield curve as a shift where all zero-coupon interest rates change by the same amount, as indicated in Figure 14.4.
 
-Suppose that  $P$  is the value of the portfolio of interest-rate-dependent securities. We can make a small parallel shift in the zero-coupon yield curve and observe the change  $\Delta P$  in  $P$ . Duration is defined as
+Suppose that $P$ is the value of the portfolio of interest-rate-dependent securities. We can make a small parallel shift in the zero-coupon yield curve and observe the change $\Delta P$ in $P$. Duration is defined as
 
 $$
+D = -\frac{1}{P} \frac{\Delta P}{\Delta \gamma} \tag{14.9}
+$$
 
-D = - \frac {1}{P} \frac {\Delta P}{\Delta \gamma} \tag {14.9}
-
-$$ where  $\Delta y$  is the size of the small parallel shift. Equation (14.9) is equivalent to
+where $\Delta \gamma$ is the size of the small parallel shift. Equation (14.9) is equivalent to
 
 $$
 \frac {\Delta P}{P} = - D \Delta \gamma \tag {14.10}
@@ -457,35 +508,35 @@ Suppose a portfolio consists of a number of interest-rate-dependent assets. The 
 Figure 14.4 A Parallel Shift in Zero Rates
 
 $$
-D = - \frac {1}{P} \sum_ {i = 1} ^ {n} \frac {\Delta X _ {i}}{\Delta \gamma}
+D = -\frac{1}{P} \sum_{i=1}^n \frac{\Delta X_i}{\Delta \gamma}
 $$
 
-The duration of the  $i$ th asset is
+The duration of the $i$th asset is
 
 $$
-D _ {i} = - \frac {1}{X _ {i}} \frac {\Delta X _ {i}}{\Delta \gamma}
+D_i = -\frac{1}{X_i} \frac{\Delta X_i}{\Delta \gamma}
 $$
 
 Hence
 
 $$
-D = \sum_ {i = 1} ^ {n} \frac {X _ {i}}{P} D _ {i}
+D = \sum_{i=1}^n \frac{X_i}{P} D_i
 $$
 
 This shows that the duration  $D$  of a portfolio is the weighted average of the durations of the individual assets comprising the portfolio with the weight assigned to an asset being proportional to the value of the asset.
 
-The dollar duration  $D_{\S}$  of a portfolio can be defined as duration of the portfolio times the value of the portfolio:
+The dollar duration $D_{\S}$ of a portfolio can be defined as duration of the portfolio times the value of the portfolio:
 
 $$
-D _ {\S} = - \frac {\Delta P}{\Delta \gamma}
+D_{\S} = -\frac{\Delta P}{\Delta \gamma}
 $$
 
 This is a measure of the delta of the portfolio with respect to interest rates. The dollar duration of a portfolio consisting of a number of interest-rate-dependent assets is the sum of the dollar durations of the individual assets.
 
-The convexity measure can be generalized in the same way as duration. For any interest-rate-dependent portfolio whose value is  $P$  we define the convexity  $C$  as  $1 / P$  times the second partial derivative of the value of the portfolio with respect to a parallel shift in the zero-coupon yield curve. Equation (14.8) is correct with  $B$  replaced by  $P$ :
+The convexity measure can be generalized in the same way as duration. For any interest-rate-dependent portfolio whose value is $P$ we define the convexity $C$ as $1/P$ times the second partial derivative of the value of the portfolio with respect to a parallel shift in the zero-coupon yield curve. Equation (14.8) is correct with $B$ replaced by $P$:
 
 $$
-\frac {\Delta P}{P} = - D \Delta \gamma + \frac {1}{2} C (\Delta \gamma) ^ {2} \tag {14.11}
+\frac{\Delta P}{P} = -D \Delta \gamma + \frac{1}{2} C (\Delta \gamma)^2 \tag{14.11}
 $$
 
 The relationship between the convexity of a portfolio and the convexity of the assets comprising the portfolio is similar to that for duration: the convexity of the portfolio is the weighted average of the convexities of the assets with the weights being proportional to the value of the assets. For a portfolio with a particular duration, the convexity tends to be greatest when the portfolio provides payments evenly over a long period of time. It is least when the payments are concentrated around one particular point in time.
@@ -505,7 +556,7 @@ Unfortunately the basic duration relationship in equation (14.10) only quantifie
 Some researchers have extended duration measures so that nonparallel shifts can be considered. Reitano (1992) suggests a partial duration measure where just one point on the zero-coupon yield curve is shifted and all other points remain the same. Suppose that the zero curve is as shown in Table 14.9 and Figure 14.5. Shifting the five-year point involves changing the zero curve as indicated in Figure 14.6. In general, the partial duration of the portfolio for the  $i$ th point on the zero curve is
 
 $$
-D _ {i} = - \frac {1}{P} \frac {\Delta P _ {i}}{\Delta \gamma_ {i}}
+D_i = -\frac{1}{P} \frac{\Delta P_i}{\Delta \gamma_i}
 $$
 
 Table 14.9 Zero-Coupon Yield Curve (rates continuously compounded)
@@ -525,7 +576,7 @@ Suppose that the partial durations for a particular portfolio are as shown in Ta
 We are now in a position to go one step further and calculate the sensitivity of a portfolio value to any nonparallel shifts. Suppose that, in the case of the yield curve shown in Figure 14.5, we define a rotation where the changes to the 1-year, 2-year, 3-year, 4-year, 5-year, 7-year, and 10-year are  $-3e$ ,  $-2e$ ,  $-e$ , 0,  $e$ ,  $3e$ , and  $6e$  for some small  $e$ . This is illustrated in Figure 14.7. From the partial durations in Table 14.10, the percentage change in the value of the portfolio arising from the rotation is
 
 $$
-\begin{array}{l} - [ 0. 2 \times (- 3 e) + 0. 6 \times (- 2 e) + 0. 9 \times (- e) + 1. 6 \times 0 + 2. 0 \times e \\ - 2. 1 \times 3 e - 3. 0 \times 6 e ] = 2 5. 0 e \\ \end{array}
+ \begin{aligned} - [0.2 \times (-3e) + 0.6 \times (-2e) + 0.9 \times (-e) + 1.6 \times 0 + 2.0 \times e \\ -2.1 \times 3e - 3.0 \times 6e] = 25.0e \\ \end{aligned}
 $$
 
 For a parallel shift of  $e$  in the yield curve, the percentage change in the value of the portfolio is  $-0.2e$ . This shows that a portfolio that gives rise to the partial durations in Table 14.10 is much more heavily exposed to a rotation of the yield curve than to a parallel shift.
@@ -561,15 +612,16 @@ A financial institution has exposures to many different yield curves. To calcula
 An important concept in interest rate markets is duration. Duration measures the sensitivity of the value of a portfolio to a small parallel shift in the zero-coupon yield curve. The relationship is
 
 $$
-\Delta P = - P D \Delta y
-$$ where  $P$  is the value of the portfolio,  $D$  is the duration of the portfolio,  $\Delta y$  is the size of a small parallel shift in the zero curve, and  $\Delta P$  is the resultant effect on the value of the portfolio. A more precise relationship is
-
-
+\Delta P = -P D \Delta \gamma
 $$
 
-\Delta P = - P D \Delta \gamma + \frac {1}{2} P C (\Delta \gamma) ^ {2}
+where $P$ is the value of the portfolio, $D$ is the duration of the portfolio, $\Delta \gamma$ is the size of a small parallel shift in the zero curve, and $\Delta P$ is the resultant effect on the value of the portfolio. A more precise relationship is
 
-$$ where  $C$  is the convexity of the portfolio. This relationship is accurate for relatively large parallel shifts in the yield curve but does not quantify the exposure to nonparallel shifts.
+$$
+\Delta P = -P D \Delta \gamma + \frac{1}{2} P C (\Delta \gamma)^2
+$$
+
+where $C$ is the convexity of the portfolio. This relationship is accurate for relatively large parallel shifts in the yield curve but does not quantify the exposure to nonparallel shifts.
 
 To quantify exposure to all the different ways the yield curve can change through time, several duration or delta measures are necessary. There are a number of ways these can be defined. A principal components analysis can be a useful alternative to calculating multiple deltas. It shows that the yield curve shifts that occur in practice are, to a large extent, a linear sum of two or three standard shifts. If a portfolio manager is hedged against these standard shifts, he or she is therefore also well hedged against the shifts that occur in practice.
 
@@ -582,8 +634,6 @@ Fabozzi, F. J. Bond Markets, Analysis and Strategies. 8th ed. Upper Saddle River
 Jorion, P. Big Bets Gone Bad: Derivatives and Bankruptcy in Orange County. New York: Academic Press, 1995.
 
 Reitano, R. "Nonparallel Yield Curve Shifts and Immunization." Journal of Portfolio Management (Spring 1992): 36-43.
-
-# Practice Questions and Problems (Answers at End of Book)
 
 14.1 Suppose that a bank has \$5 billion of one-year loans and \$20 billion of five-year loans. These are financed by \$15 billion of one-year deposits and \$10 billion of five-year deposits. Explain the impact on the bank's net interest income of interest rates increasing by 1\% every year for the next three years.
 14.2 Explain why long-term rates are higher than short-term rates most of the time. Under what circumstances would you expect long-term rates to be lower than short-term rates?

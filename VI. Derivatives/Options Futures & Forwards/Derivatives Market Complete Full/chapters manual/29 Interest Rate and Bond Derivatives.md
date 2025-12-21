@@ -1,13 +1,9 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory: Derivatives Market Complete Full/chapters manual
-cssclasses: academia
 title: Interest Rate and Bond Derivatives
-formatted: 2025-12-21 12:00:00 PM
-formatter_model: grok-code-fast-1
-cli_tool: opencode
+parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:40:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
   - interest rate derivatives
   - bond pricing models
@@ -24,6 +20,7 @@ secondary_tags:
   - yield curve dynamics
   - risk-neutral valuation
   - interest rate options
+cssclasses: academia
 ---
 
 # Interest Rate and Bond Derivatives
@@ -434,7 +431,7 @@ $$ with  $\bar{r}$  being the yield to maturity on an infinitely lived bond. $^{
 The Cox-Ingersoll-Ross (CIR) model (Cox et al., 1985b) assumes a short-term interest rate model of the form
 
 $$
-\boxed {d r = a (b - r) d t + \sigma \sqrt {r} d Z} \tag {32}
+d_2 = d_1 - \sigma\sqrt{T}
 $$
 
 The standard deviation of the interest rate is proportional to the square root of the interest rate, instead of being constant as in the Vasicek model. Because of this subtle difference, the CIR model satisfies the objections to the earlier models:
@@ -1020,16 +1017,16 @@ The value of the cap is the summed value of the individual caplets.
 Example 10. One-year and 2-year zero-coupon bonds with a \$1 maturity value have prices of \$0.9091 and \$0.8116. The 1-year implied forward 1-year bond price is therefore $0.8116/$0.9091 = \$0.8928, with an implied forward rate of 12.01\%. Suppose the volatility of the forward bond price is 2\%. The price of a 1-year put option to sell the 1-year bond for a price of 0.88 is
 
 $$
-\operatorname {B S P u t} (0. 8 1 1 6, 0. 9 0 9 1 \times 0. 8 8, 0. 0 2, 0, 1, 0) = 0. 0 0 2 2 2 8
+\text{BSPut}(0.8116, 0.9091 \times 0.88, 0.02, 0, 1, 0) = 0.002228
 $$
 
 We can also price the option using the Black formula:
 
 $$
-0. 9 0 9 1 \times \operatorname {B S P u t} (0. 8 1 1 6 / 0. 9 0 9 1, 0. 8 8, 0. 0 2, 0, 1, 0) = 0. 0 0 2 2 2 8
+0.9091 \times \text{BSPut}(0.8116 / 0.9091, 0.88, 0.02, 0, 1, 0) = 0.002228
 $$
 
-# LIBOR Market Model
+## LIBOR Market Model
 
 The Black model values a cash flow based on a single interest rate or bond price. In some circumstances a valuation may depend on several interest rates or bond prices (e.g., coupon bonds and swaps). The LIBOR market model, due to Brace et al. (1997), extends the framework of the Black model to value such claims.[19]
 
@@ -1200,7 +1197,7 @@ MarketModels -> Black: Uses
 MarketModels -> LIBOR: Uses
 ```
 
-## FURTHER READING
+### FURTHER READING
 
 Fixed income texts at roughly the level of this chapter include Sundaresan (2009), Tuckman and Serrat (2012), and Veronesi (2010). Classic treatments of bond pricing with interest rate uncertainty are Vasicek (1977) and Cox et al. (1985b). These are examples of affine term structure models, discussed more generally in Duffie and Kan (1996) and Dai and Singleton (2000).
 

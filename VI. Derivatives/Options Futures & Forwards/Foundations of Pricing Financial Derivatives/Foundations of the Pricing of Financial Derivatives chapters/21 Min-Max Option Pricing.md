@@ -1,27 +1,42 @@
 ---
-aliases:
-  - Min-Max Option Pricing
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 21: Min-Max Option Pricing"
-linter-yaml-title-alias: "Chapter 21: Min-Max Option Pricing"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:23:25 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli_tool: claude-code
+primary_tags:
+  - min max options
+  - stulz option pricing
+  - multivariate option pricing
+secondary_tags:
+  - call on maximum
+  - call on minimum
+  - put on maximum
+  - put on minimum
+  - bivariate normal distribution
+  - feynman-kac theorem
+  - correlation effects
+  - volatility sensitivity
+  - two asset options
+  - rainbow options
+  - outperformance options
+  - exchange options
+cssclasses: academia
 ---
 
 # Min-Max Option Pricing
 
 There are a number of variations of options in which there is more than one underlying asset. These options have a variety of interesting names. Nearly all of them are based on the maximum or minimum performer of two or more underlying assets or rates. The first paper to examine this type of option was Stulz (1982), who derived formulas for calls and puts that pay off based on which of two assets has the maximum or minimum value. We focus on the Stulz model initially and then show how it establishes a framework for variations of this type of option.
 
-# 21.1 CHARACTERISTICS OF STULZ'S MIN-MAX OPTION
+## 21.1 Characteristics of Stulz's Min-Max Option
 
-Suppose there are two assets whose current values at an arbitrary time are  $S_{1}$  and  $S_{2}$  and whose values at expiration  $T$  are  $S_{1T}$  and  $S_{2T}$ . Each asset may pay a cash flow yield or require a payment, such as storage costs. We generically denote these continuous cash flows as  $\delta_{1}$  and  $\delta_{2}$ , consistent with dividend yields in the case where the underlying instruments are stocks. Consider a call option with exercise price of  $X$  expiring at time  $T$  that pays off based on which of the two assets has the lesser value. So what happens at expiration is two-step. We first determine which is the lesser valued of the two assets. Then we insert the value of that asset into the standard payoff formula for a call. Thus, the call payoff is
+Suppose there are two assets whose current values at an arbitrary time are $S_{1}$ and $S_{2}$ and whose values at expiration $T$ are $S_{1T}$ and $S_{2T}$. Each asset may pay a cash flow yield or require a payment, such as storage costs. We generically denote these continuous cash flows as $\delta_{1}$ and $\delta_{2}$, consistent with dividend yields in the case where the underlying instruments are stocks. Consider a call option with exercise price of $X$ expiring at time $T$ that pays off based on which of the two assets has the lesser value. So what happens at expiration is two-step. We first determine which is the lesser valued of the two assets. Then we insert the value of that asset into the standard payoff formula for a call. Thus, the call payoff is
 
 $$
 c _ {\min , T} = \max  \left[ 0, \min  \left(S _ {1 T}, S _ {2 T}\right) - X \right]. \tag {21.1}
 $$
 
-Let us denote the current price of this option as  $c_{\min}$ , where it will be understood that the call is on the minimum value of asset 1 and asset 2 and is being evaluated at time  $t$ .
+Let us denote the current price of this option as $c_{\min}$, where it will be understood that the call is on the minimum value of asset 1 and asset 2 and is being evaluated at time $t$.
 
 Likewise, a call on the maximum has a current price of  $c_{\text{max}}$ . At expiration, we first determine the greater valued of the two assets and insert the value of that asset into the formula for the payoff of a call. The call payoff in this case is
 
@@ -29,7 +44,7 @@ $$
 c _ {\max , T} = \max  \left[ 0, \max  \left(S _ {1 T}, S _ {2 T}\right) - X \right]. \tag {21.2}
 $$
 
-To establish some bounds on the prices of these options, much in the same way that we developed bounds on the prices of standard European options, let us compare the payoffs of a portfolio of long the call on the max priced at  $c_{\mathrm{max}}$  and long the call on the min priced at  $c_{\mathrm{min}}$  with a portfolio consisting of long the standard call on asset 1 priced at  $c_1$  and long the standard call on asset 2 priced at  $c_2$ . We must consider two general cases,  $S_{1T} < S_{2T}$  and  $S_{1T} \geq S_{2T}$  and three outcomes in each case, as displayed in Table 21.1 Panels A and B.
+To establish some bounds on the prices of these options, much in the same way that we developed bounds on the prices of standard European options, let us compare the payoffs of a portfolio of long the call on the max priced at $c_{\mathrm{max}}$ and long the call on the min priced at $c_{\mathrm{min}}$ with a portfolio consisting of long the standard call on asset 1 priced at $c_1$ and long the standard call on asset 2 priced at $c_2$. We must consider two general cases, $S_{1T} < S_{2T}$ and $S_{1T} \geq S_{2T}$ and three outcomes in each case, as displayed in Table 21.1 Panels A and B.
 
 TABLE 21.1 Min and Max Calls in Comparison to Standard Calls  
 
@@ -47,13 +62,13 @@ $$
 
 Note that the cash flow yields related to the underlying assets do not directly influence this parity. This type of max-min parity will continue to be useful because all we need to do is to derive a pricing model for one of the two min-max options, and the price of the other can be obtained using the previous equation.
 
-Now let us consider a put on the minimum. Its current price evaluated at time  $t$  is expressed as  $p_{\min}$ . Its payoff at expiration is
+Now let us consider a put on the minimum. Its current price evaluated at time $t$ is expressed as $p_{\min}$. Its payoff at expiration is
 
 $$
 p _ {\min , T} = \max  \left[ 0, X - \min  \left(S _ {1 T}, S _ {2 T}\right) \right]. \tag {21.4}
 $$
 
-A put on the maximum has a current price of  $p_{\mathrm{max}}$  and a payoff of
+A put on the maximum has a current price of $p_{\mathrm{max}}$ and a payoff of
 
 $$
 p _ {\max , T} = \max  \left[ 0, X - \max  \left(S _ {1 T}, S _ {2 T}\right) \right]. \tag {21.5}
@@ -65,27 +80,17 @@ $$
 p _ {\max } + p _ {\min } = p _ {1} + p _ {2}. \tag {21.6}
 $$
 
-Intuitively, the call on the max will be worth at least the call on the min as  $\max(S_{1T}, S_{2T}) \geq \min(S_{1T}, S_{2T})$ . Specifically,  $c_{\mathrm{max}} \geq c_{\mathrm{min}}$ . We demonstrate this intuition in Table 21.2. Thus, if  $c_{\mathrm{max}} \geq c_{\mathrm{min}}$ , then a portfolio can be created such that there is a positive probability of receiving money and no chance of losing. Clearly, this would require a nonnegative investment; otherwise, we have arbitrage resulting in disequilibrium.
+Intuitively, the call on the max will be worth at least the call on the min as $\max(S_{1T}, S_{2T}) \geq \min(S_{1T}, S_{2T})$. Specifically, $c_{\mathrm{max}} \geq c_{\mathrm{min}}$. We demonstrate this intuition in Table 21.2. Thus, if $c_{\mathrm{max}} \geq c_{\mathrm{min}}$, then a portfolio can be created such that there is a positive probability of receiving money and no chance of losing. Clearly, this would require a nonnegative investment; otherwise, we have arbitrage resulting in disequilibrium.
 
-Following a similar argument, the put on the min will be worth at least the put on the max. Specifically,  $p_{\min} \geq p_{\max}$ . We demonstrate this intuition in Table 21.3. Thus, if  $p_{\min} < p_{\max}$ , then again there is a portfolio that can be created such that there is a positive probability
+Following a similar argument, the put on the min will be worth at least the put on the max. Specifically, $p_{\min} \geq p_{\max}$. We demonstrate this intuition in Table 21.3. Thus, if $p_{\min} < p_{\max}$, then again there is a portfolio that can be created such that there is a positive probability of receiving money and no chance of losing. Clearly, this would require a nonnegative investment; otherwise, we have arbitrage resulting in disequilibrium.
 
 TABLE 21.2 Max Call in Comparison to Min Call  
 
-<table><tr><td colspan="4">Panel A. S1T &lt; S2T</td></tr><tr><td></td><td colspan="3">Payoff</td></tr><tr><td>Current value of instrument</td><td>S1T &lt; S2T &lt; X</td><td>S1T ≤ X ≤ S2T</td><td>X &lt; S1T &lt; S2T</td></tr><tr><td>+cmax</td><td>0</td><td>S2T - X</td><td>S2T - X</td></tr><tr><td>-cmin</td><td>0</td><td>0</td><td>-(S1T - X)</td></tr><tr><td>Total</td><td>0</td><td>S2T - X</td><td>S2T - S1T</td></tr><tr><td></td><td></td><td>≥ 0</td><td>&gt; 0</td></tr></table>
+<table><tr><td colspan="4">Panel A. S1T &lt; S2T</td></tr><tr><td></td><td colspan="3">Payoff</td></tr><tr><td>Current value of instrument</td><td>S1T &lt; S2T &lt; X</td><td>S1T ≤ X ≤ S2T</td><td>X &lt; S1T &lt; S2T</td></tr><tr><td>+cmax</td><td>0</td><td>S2T - X</td><td>S2T - X</td></tr><tr><td>-cmin</td><td>0</td><td>0</td><td>-(S1T - X)</td></tr><tr><td rowspan="2">Total</td><td rowspan="2">0</td><td>S2T - X</td><td>S2T - S1T</td></tr><tr><td>≥ 0</td><td>&gt; 0</td></tr></table>
 
 Panel B.  $S_{1T} \geq S_{2T}$  
 
-<table><tr><td></td><td colspan="3">Payoff</td></tr><tr><td>Current value of instrument</td><td>S2T ≤ S1T &lt; X</td><td>S2T ≤ X ≤ S1T</td><td>X &lt; S2T &lt; S1T</td></tr><tr><td>+cmax</td><td>0</td><td>S1T - X</td><td>S1T - X</td></tr><tr><td>-cmin</td><td>0</td><td>0</td><td>-(S2T - X)</td></tr><tr><td>Total</td><td>0</td><td>S1T - X</td><td>S1T - S2T</td></tr><tr><td></td><td></td><td>≥ 0</td><td>&gt; 0</td></tr></table>
-
-TABLE 21.3 Min Put in Comparison to Max Put  
-
-<table><tr><td colspan="4">Panel A. S1T &lt; S2T</td></tr><tr><td></td><td colspan="3">Payoff</td></tr><tr><td>Current value of instrument</td><td>S1T &lt; S2T &lt; X</td><td>S1T ≤ X ≤ S2T</td><td>X &lt; S1T &lt; S2T</td></tr><tr><td>+pmin</td><td>X - S1T</td><td>X - S1T</td><td>0</td></tr><tr><td>-pmax</td><td>-(X - S2T)</td><td>0</td><td>0</td></tr><tr><td rowspan="2">Total</td><td>S2T - S1T</td><td>X - S1T</td><td rowspan="2">0</td></tr><tr><td>&gt;0</td><td>≥0</td></tr></table>
-
-Panel B.  $S_{1T} \geq S_{2T}$  
-
-<table><tr><td></td><td colspan="3">Payoff</td></tr><tr><td>Current value of instrument</td><td>S2T ≤ S1T &lt; X</td><td>S2T ≤ X ≤ S1T</td><td>X &lt; S2T &lt; S1T</td></tr><tr><td>+pmin</td><td>X - S2T</td><td>X - S2T</td><td>0</td></tr><tr><td>-pmax</td><td>-(X - S1T)</td><td>0</td><td>0</td></tr><tr><td rowspan="2">Total</td><td>S1T - S2T</td><td>X - S2T</td><td rowspan="2">0</td></tr><tr><td>≥0</td><td>≥0</td></tr></table>
-
-of receiving money and no chance of losing. Clearly, this would require a nonnegative investment; otherwise, we have arbitrage resulting in disequilibrium.
+<table><tr><td></td><td colspan="3">Payoff</td></tr><tr><td>Current value of instrument</td><td>S2T ≤ S2T &lt; X</td><td>S2T ≤ X ≤ S1T</td><td>X &lt; S2T ≤ S1T</td></tr><tr><td>+cmax</td><td>0</td><td>S1T - X</td><td>S1T - X</td></tr><tr><td>-cmin</td><td>0</td><td>0</td><td>-(S2T - X)</td></tr><tr><td rowspan="2">Total</td><td rowspan="2">0</td><td>S1T - X</td><td>S1T - S2T</td></tr><tr><td>≥ 0</td><td>&gt; 0</td></tr></table>
 
 Further, the call on the max will be worth at least the maximum of the call on each asset  $c_{\max} \geq \min(c_1, c_2)$ . Without loss of generality, we let  $c_1 > c_2$ . We demonstrate this intuition in Table 21.4. Thus, if  $c_{\max} \geq c_1$ , then again there is a portfolio that can be created such that there is a positive probability of receiving money and no chance of losing. Clearly, this would require a nonnegative investment; otherwise, we have arbitrage resulting in disequilibrium.
 
@@ -123,7 +128,7 @@ $$
 
 Thus, once we obtain the price of a call on the minimum, we can then obtain the price of a call on the maximum using Equation (21.3), a put on the minimum using Equation (21.7), and a put on the maximum using Equation (21.8).
 
-# 21.2 PRICING THE CALL ON THE MIN
+## 21.2 Pricing the Call on the Min
 
 Suppose the terminal payout on the call on the min is as given in Equation (21.1). Now suppose our two assets follow the standard lognormal diffusions,
 
@@ -261,7 +266,7 @@ FIGURE 21.4 Min-Max Option Value Sensitivity to Asset 2 Volatility
 
 Figure 21.4 illustrates the sensitivity of min-max options with respect to changes in asset 2 volatility. As asset 2 volatility tends toward zero, the put on the min converges to the Black-Scholes-Merton put value for asset 1 and the put on the max converges to zero. Min-max call options are less transparent. When volatility converges to zero, the Black-Scholes-Merton call value converges to the lower bound, which in this case is positive (asset price 2 less the present value of the exercise price). Based on Equation (21.3), we know the sum of min-max call options should equal the sum of the underlying calls. Thus, we observe a nonzero call on min and a call on max in excess of the Black-Scholes-Merton call value (14.23).
 
-# 21.3 OTHER RELATED OPTIONS
+## 21.3 Other Related Options
 
 There have been numerous extensions of the basic formula. Johnson (1987) and Rich and Chance (1993) develop the formula under the condition of more than two assets. Also, several other useful results have been obtained by Rubinstein (1991b). He first establishes a formula for an option that pays off the better of two risky assets or a fixed amount of cash. Letting  $X$  be the fixed amount of cash, we write this payoff as  $\max(S_{1T}, S_{2T}, X)$ . Rubinstein then derives the pricing formula for this option. Let us denote this price as  $c_{12X}$ , where the subscripts denote asset price 1, asset price 2, and some fixed amount  $X$ . Then note the following relationship,  $\max(S_{1T}, S_{2T}, X) - X = \max[0, \max(S_{1T}, S_{2T}) - X]$ . This equivalence implies that a long position in Rubinstein's option paying the best of two assets or  $X$  and a short position worth the present value of  $X$  is equivalent to a call on the max struck at  $X$ . Thus,
 
@@ -303,13 +308,13 @@ $$
 
 which has no known closed-form solution.
 
-# 21.4 RECAP AND PREVIEW
+## 21.4 Recap and Preview
 
 In this chapter, we looked at options in which there is more than one underlying asset. Specifically, we examined options on the greater or lesser valued or greater or lesser performing of two assets. These assets have a second feature not found in standard options in that they enable the user to bet or hedge on which asset will be worth more or less or generate a greater or lesser rate of return.
 
 In Chapter 22, we look at two different types of derivatives: forwards and futures. We do this because they complete our knowledge base in the pricing of derivatives. Yet, they do it in a different manner. As we shall see, they do not require the dynamic hedging we are required to use with options.
 
-# APPENDIX 21A
+## Appendix 21A
 
 # Multivariate Feynman-Kac Theorem
 
@@ -339,7 +344,7 @@ $$
 
 With  $W^{\mathcal{Q}}(t)$  a Wiener process under  $\mathcal{Q}$  and the initial condition for  $X(t)$  is  $X(t) = x$ .
 
-# APPENDIX 21B
+## Appendix 21B
 
 # An Alternative Derivation of the Min-Max Option Model
 
@@ -380,20 +385,6 @@ c _ {\min , T} = \max  \left[ 0, \min  \left(S _ {1 T} S _ {2 T}\right) - X \rig
 $$
 
 Stulz obtains the solution reported in the chapter by discounting the expected payoff under risk neutrality.
-
-# QUESTIONS AND PROBLEMS
-
-1 One of the challenging aspects of creating min-max options is the need to have similarly priced underlying instruments. Explain how you can transform any two underlying instrument prices to resolve the similarly priced feature.  
-2 A portfolio of two call options on different stocks with the same maturity and exercise price can be replicated with options on the maximum and/or minimum. Identify the replicating min and/or max option combination and prove that this portfolio is the proper replicating portfolio.  
-3 Explain how a dividend yield will influence the boundary condition given in the previous problem.  
-4 Based on arbitrage arguments, show that  $p_{\mathrm{max}} + p_{\mathrm{min}} = p_1 + p_2$ .  
-5 Based on the previous problems as well as standard put-call parity, we have the following relationships:
-
-$$
-\begin{array}{l} p _ {\max } + p _ {\min } = p _ {1} + p _ {2}, \\ p _ {\max } = X e ^ {- r _ {c} \tau} - c _ {\max , X = 0} + c _ {\max }, \\ p _ {\min } = X e ^ {- r _ {c} \tau} - c _ {\min , X = 0} + c _ {\min}, \\ p _ {1} = c _ {1} - S _ {1} + X e ^ {- r _ {c} \tau}, a n d \\ p _ {2} = c _ {2} - S _ {2} + X e ^ {- r _ {c} \tau}. \\ \end{array}
-$$
-
-Demonstrate, by substitution, that  $c_{\max, X = 0} + c_{\min, X = 0} = S_1 + S_2$ . Prove with an arbitrage table that this equality holds.
 
 # NOTES
 

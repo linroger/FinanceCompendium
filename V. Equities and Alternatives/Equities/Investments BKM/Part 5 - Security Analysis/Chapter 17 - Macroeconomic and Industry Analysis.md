@@ -1,26 +1,37 @@
 ---
 title: Macroeconomic and Industry Analysis
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 5 - Security Analysis
-formatted: 2025-12-21 12:00:00 PM
+formatted: 2025-12-21 03:30:00 PM
 formatter_model: claude-sonnet-4-5-20250929
 cli_tool: claude-code
 primary_tags:
-  - macroeconomic analysis
-  - industry analysis
-  - business cycles
-  - economic indicators
-  - sector rotation
+   - macroeconomic analysis
+   - industry analysis
+   - business cycles
+   - economic indicators
+   - sector rotation
+   - industry life cycles
+   - fiscal policy
+   - monetary policy
 secondary_tags:
-  - global economy
-  - domestic macroeconomy
-  - fiscal policy
-  - monetary policy
-  - supply demand shocks
-  - industry life cycles
-  - operating leverage
-  - financial leverage
-  - cyclical industries
-  - defensive industries
+   - global economy
+   - domestic macroeconomy
+   - supply demand shocks
+   - operating leverage
+   - financial leverage
+   - cyclical industries
+   - defensive industries
+   - leading economic indicators
+   - exchange rate fluctuations
+   - inflation expectations
+   - budget deficit analysis
+   - consumer confidence
+   - naics industry codes
+   - porter five forces
+   - start up stage
+   - consolidation stage
+   - maturity stage
+   - relative decline
 cssclasses: academia
 ---
 
@@ -82,7 +93,7 @@ The ability to forecast the macroeconomy can translate into spectacular investme
 
 # Key Economic Indicators
 
-Gross Domestic Product Gross domestic product, or GDP, is the measure of the economy's total production of goods and services. Rapidly growing GDP indicates an expanding economy with ample opportunity for a firm to increase sales. Another popular measure of the economy's output is industrial production. This statistic provides a measure of economic activity more narrowly focused on the manufacturing side of the economy.
+Gross domestic product, or GDP, is the measure of the economy's total production of goods and services. Rapidly growing GDP indicates an expanding economy with ample opportunity for a firm to increase sales. Another popular measure of the economy's output is industrial production. This statistic provides a measure of economic activity more narrowly focused on the manufacturing side of the economy.
 
 **Employment** The unemployment rate is the percentage of the total labor force (i.e., those who are either working or actively seeking employment) yet to find work. The unemployment rate measures the extent to which the economy is operating at full capacity. The unemployment rate is a factor related to workers only, but further insight into the strength of the economy can be gleaned by examining the use of other factors of production. For example, analysts look at the factory capacity utilization rate, which is the ratio of actual output from factories to potential output.
 
@@ -96,7 +107,7 @@ Sentiment Consumers' and producers' optimism or pessimism concerning the economy
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/b422990c7b536b7c2fbcc9c7ed2f95988d568c20804faed1e0fc824176a5c620.jpg)
 
-# Concept Check 17.1
+## Concept Check 17.1
 
 Consider an economy where the dominant industry is automobile production for both domestic consumption as well as export. Now suppose auto sales fall in response to an increase in the length of time people use their cars before replacing them. Describe the probable effects of this change on (a) GDP, (b) unemployment, (c) the government budget deficit, and (d) interest rates.
 
@@ -160,7 +171,7 @@ Monetary policy affects the economy in a more roundabout way than fiscal policy.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c4168cf7fc0bd0b75f183fb943c7af1c82ccd43be1dd9dcfeedf7603694926cb.jpg)
 
-# Concept Check 17.2
+## Concept Check 17.2
 
 Suppose the government wants to stimulate the economy without increasing interest rates. What combination of fiscal and monetary policy might accomplish this goal?
 
@@ -172,7 +183,7 @@ Supply-side economists also pay considerable attention to tax policy. Whereas de
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/a963404b104fcc97c4677a729a8aaacdec280cfe60ce02f61eb473186745d8cb.jpg)
 
-# Concept Check 17.3
+## Concept Check 17.3
 
 Large tax cuts in 2018 were followed by relatively rapid growth in GDP. How would demand-side and supply-side economists differ in their interpretations of this phenomenon?
 
@@ -364,7 +375,7 @@ Investors should not always prefer industries with lower sensitivity to the busi
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c320b4751d2f054926ff46a8a7ce0b09aca84d77a3b3da8af8cd97b3f859f132.jpg)
 
-# Concept Check 17.4
+## Concept Check 17.4
 
 Determine the profits of Firm C in the three scenarios, assuming fixed costs of  \$2 million and variable costs of\$ 1.50 per unit. What are your conclusions regarding operating leverage and business risk?
 
@@ -395,7 +406,7 @@ Don't forget that sector rotation, like any other form of market timing, will be
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/2c44d4f3f2a0e16ffc3e0d4d8c1b2bfe297f7b49435d1dac8c4d31ddd500b357.jpg)
 
-# Concept Check 17.5
+## Concept Check 17.5
 
 In which phase of the business cycle would you expect the following industries to enjoy their best performance?
 
@@ -480,22 +491,19 @@ The key factor determining the bargaining power of suppliers is the availability
 4. Industries differ in their sensitivity to the business cycle. More sensitive industries tend to be those producing high-priced durable goods for which the consumer has considerable discretion as to the timing of purchase. Examples are jewelry, automobiles, or consumer durables. Other sensitive industries are those that produce capital equipment for other firms. Operating leverage and financial leverage increase sensitivity to the business cycle.
 5. Industries generally pass through a predictable life cycle. In the start-up stage, growth is rapid as a new product begins to permeate the economy, but it is difficult at this point to predict which firms will emerge as industry leaders. As the product becomes established, the industry enters a consolidation stage and industry leaders begin to emerge. In the maturity stage, the product has largely saturated the market, and further growth merely tracks that of the general economy. Finally, the industry enters a stage of relative decline as it faces competition from new products.
 
-# KEY TERMS fundamental analysis
+# KEY TERMS
 
-
-exchange rate gross domestic product (GDP)
-
-
-unemployment rate inflation
-
-
-budget deficit demand shock
-
-
-supply shock fiscal policy
-
-
-monetary policy business cycle
+- fundamental analysis
+- exchange rate
+- gross domestic product (GDP)
+- unemployment rate
+- inflation
+- budget deficit
+- demand shock
+- supply shock
+- fiscal policy
+- monetary policy
+- business cycle
 
 
 peak trough
@@ -662,8 +670,6 @@ c. Which firm would you expect to have the higher stock market beta?
 a. What will be the percentage decline in sales if the economy enters a recession?
 $b$ . What will be the percentage decline in profits if the economy enters a recession?
 c. Comparing your answers to (a) and (b), how would you measure the operating leverage of this firm?
-
-[cel]
 
 Please visit us at www.mhhe.com/Bodie13e
 

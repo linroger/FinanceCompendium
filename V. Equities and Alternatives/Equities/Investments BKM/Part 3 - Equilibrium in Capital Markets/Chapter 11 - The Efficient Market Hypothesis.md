@@ -886,8 +886,6 @@ WARNING: This scheme is illegal! The point, however, is that with hundreds of ma
 
 <table><tr><td colspan="9">Newsletter Predictions</td></tr><tr><td>Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr><tr><td>1</td><td>U</td><td>U</td><td>U</td><td>U</td><td>D</td><td>D</td><td>D</td><td>D</td></tr><tr><td>2</td><td>U</td><td>U</td><td>D</td><td>D</td><td>U</td><td>U</td><td>D</td><td>D</td></tr><tr><td>3</td><td>U</td><td>D</td><td>U</td><td>D</td><td>U</td><td>D</td><td>U</td><td>D</td></tr></table>
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/d69f8aa44f99796389c0f13fb34bd265ed9ddbeb6cf997e81ce4fe60f85a383e.jpg)
-
 # Concept Check 11.5
 
 Legg Mason's Value Trust, managed by Bill Miller, outperformed the S&P 500 in each of the 15 years ending in 2005. Is Miller's performance sufficient to dissuade you from a belief in efficient markets? If not, would any performance record be sufficient to dissuade you? Now consider that in the next three years, the fund dramatically underperformed the S&P 500; by the end of 2008, its cumulative 18-year performance was barely different from the index. Does this affect your opinion?
@@ -1418,8 +1416,6 @@ You can find this information by choosing a company and then clicking on Statist
 Do you confirm or reject any of the anomalies cited in this chapter? Can you uncover a new anomaly? Note: For your test to be valid, you must form your portfolios based on criteria observed at the beginning of the period. Why?
 
 b. Now form stock groups that use two criteria simultaneously. For example, form a portfolio of stocks that are both in the lowest quintile of price—earnings ratio and in the highest quintile of book-to-market ratio. Does selecting stocks based on more than one characteristic improve your ability to devise portfolios with abnormal returns? Repeat the analysis by forming groups that meet three criteria simultaneously. Does this yield any further improvement in abnormal returns?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/de85385fb904beae39c01ceb17cabccbcfbefce66857d6dd7f9aa35532c2f075.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

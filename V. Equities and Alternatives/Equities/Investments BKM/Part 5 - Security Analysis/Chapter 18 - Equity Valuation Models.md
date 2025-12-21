@@ -1,13 +1,22 @@
 ---
 title: Equity Valuation Models
+parent_directory: Chapter 18 - Equity Valuation Models
+formatted: 2025-12-21 02:25:00 PM
+formatter_model: obsidian-formatting-agent
+cli-tool: claude-code
 primary_tags:
-  - equity valuation models
-  - dividend discount models
+   - equity valuation models
+   - dividend discount models
+   - price earnings ratios
 secondary_tags:
-  - price earnings ratios
-  - free cash flow valuation
-  - valuation by comparables
-  - book value limitations
+   - free cash flow valuation
+   - valuation by comparables
+   - book value limitations
+   - intrinsic value models
+   - growth opportunities
+   - market capitalization rates
+   - sustainable growth rate
+   - present value of growth opportunities
 cssclasses: academia
 ---
 
@@ -15,7 +24,7 @@ cssclasses: academia
 
 ## 18
 
-AS OUR DISCUSSION of market efficiency indicated, finding undervalued securities will never be easy. Still, there are enough chinks in the armor of the efficient market hypothesis that the search for such securities should not be dismissed out of hand. Moreover, it is the ongoing search for mispriced securities that maintains a nearly efficient market. Even minor mispricing would allow stock market analysts to earn their salary.
+As our discussion of market efficiency indicated, finding undervalued securities will never be easy. Still, there are enough chinks in the armor of the efficient market hypothesis that the search for such securities should not be dismissed out of hand. Moreover, it is the ongoing search for mispriced securities that maintains a nearly efficient market. Even minor mispricing would allow stock market analysts to earn their salary.
 
 This chapter describes the valuation models that stock market analysts use to uncover mispriced securities. The models presented are the go-to tools used by fundamental analysts, those who use information concerning the current and prospective profitability of a company to assess its fair market value. We start with a discussion of alternative measures of the value of a company. From there, we progress to quantitative tools called dividend discount models, used to estimate the value of a firm as an ongoing concern. Next we turn to price-earnings, or P/E, ratios, explaining why they are of such interest to analysts but also highlighting some of their shortcomings. We explain how P/E ratios are tied to dividend valuation models and, more generally, to the growth prospects of the firm. We close the chapter with a discussion and extended example of free cash flow models used by analysts to value firms based on forecasts of the cash flows that will be generated from the firms' business endeavors. Finally, we apply the several valuation tools covered in the chapter to a real firm and find some disparity in their conclusions—a conundrum that will confront any security analyst—and consider reasons for these discrepancies.
 
@@ -53,7 +62,7 @@ Although focusing on the balance sheet can give some useful information about a 
 
 ## 18.2 Intrinsic Value versus Market Price
 
-The most popular model for assessing the value of a firm as a going concern starts from the observation that an investor in stock expects a return consisting of cash dividends and capital gains or losses. We begin by assuming a 1-year holding period and supposing that ABC stock has an expected dividend per share,  $E(D_1)$ , of \$4; the current price of a share,  $P_0$ , is \$48; and the expected price at the end of a year,  $E(P_1)$ , is 52. For now, don't worry about how you derive your forecast of next year's price. At this point we ask only whether the stock seems attractively priced today given your forecast of next year's price.
+The most popular model for assessing the value of a firm as a going concern starts from the observation that an investor in stock expects a return consisting of cash dividends and capital gains or losses. We begin by assuming a 1-year holding period and supposing that ABC stock has an expected dividend per share, $E(D_1)$, of \$4; the current price of a share, $P_0$, is \$48; and the expected price at the end of a year,  $E(P_1)$ , is 52. For now, don't worry about how you derive your forecast of next year's price. At this point we ask only whether the stock seems attractively priced today given your forecast of next year's price.
 
 The expected holding-period return is  $E(D_{1})$  plus the expected price appreciation,  $E(P_{1}) - P_{0}$ , all divided by the current price,  $P_{0}$ :
 
@@ -61,7 +70,7 @@ $$
 \begin{array}{l} \text{Expected HPR} = E(r) = \frac{E\left(D_{1}\right) + \left[E\left(P_{1}\right) - P_{0}\right]}{P_{0}} \\ = \frac{4 + (52 - 48)}{48} = .167, \text{or } 16.7\% \\ \end{array}
 $$
 
-Thus, the stock's expected holding-period return is the sum of the expected dividend yield,  $E(D_1) / P_0$ , and the expected rate of price appreciation, the capital gains yield,  $[E(P_1) - P_0] / P_0$ .
+Thus, the stock's expected holding-period return is the sum of the expected dividend yield, $E(D_1) / P_0$, and the expected rate of price appreciation, the capital gains yield,  $[E(P_1) - P_0] / P_0$ .
 
 But what rate of return do investors require of ABC stock? The CAPM states that when stock market prices are at equilibrium levels, the expected rate of return is  $r_f + \beta [E(r_M) - r_f]$ . Thus, the CAPM may be viewed as providing an estimate of the rate of return an investor can reasonably expect to earn on a security given its risk as measured by beta. This is the return that investors will require of any other investment with equivalent risk. We will denote this required rate of return as  $k$ . If a stock is priced "correctly," it will offer investors a "fair" return, that is, its expected return will equal its required return. Of course, the goal of a security analyst is to find stocks that are mispriced. An underpriced stock will provide an expected return greater than the required return.
 
@@ -89,8 +98,6 @@ Symmetrically, if the intrinsic value turns out to be less than the current mark
 
 In equilibrium, the market price will reflect the intrinsic value estimates of all market participants. This means the individual investor whose  $V_{0}$  estimate differs from the market price,  $P_{0}$ , in effect must disagree with some or all of the consensus estimates of  $E(D_{1})$ ,  $E(P_{1})$ , or  $k$ . A common term for the consensus value of the required rate of return,  $k$ , is the market capitalization rate.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/85cc69d56cdb45927ab579259dd9a24aca5faa1a7db8cf073476640306e78623.jpg)
-
 ## Concept Check 18.1
 
 You expect the price of IBX stock to be \$59.77 per share a year from now. Its current market price is \$50, and you expect it to pay a dividend one year from now of 2.15 per share.
@@ -106,6 +113,50 @@ Consider an investor who buys a share of Steady State Electronics stock, plannin
 $$
 V_{0} = \frac{D_{1} + P_{1}}{1 + k} \tag{18.1}
 $$
+
+```d2
+direction: right
+
+Stock Valuation: Stock Valuation Process {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+Cash Flows: Expected Future Cash Flows {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+Discount Rate: Required Rate of Return (k) {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+Intrinsic Value: V₀ = Intrinsic Value {
+  shape: circle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Stock Valuation -> Cash Flows: Uses
+Cash Flows -> Intrinsic Value: Discounted at
+Discount Rate -> Intrinsic Value: Using
+
+note: |md
+  **Dividend Discount Model Flow:**
+  1. Estimate future dividends (D₁, D₂, ...)
+  2. Estimate terminal value (Pₕ)
+  3. Apply discount rate (k)
+  4. Calculate present value = Intrinsic Value
+|
+```
+
+## Dividend Discount Model Visualization
+
+The dividend discount model values a stock as the present value of all expected future dividends. The diagram above shows the basic flow: estimate future cash flows (dividends) and discount them back at the required rate of return to find intrinsic value.
 
 Although this year's dividends are fairly predictable given a company's history, you might ask how we can estimate  $P_{1}$ , the year-end price. According to Equation 18.1,  $V_{1}$  (the year-end intrinsic value) will be
 
@@ -302,7 +353,7 @@ An investor who identifies this undervalued stock can get an expected dividend t
 An alternative assumption is that the gap between market price and intrinsic value will disappear by the end of the year. In that case, we would have  $P_{1} = V_{1} = \$ 52$ , and
 
 $$
-E (r) = \frac {D _ {1}}{P _ {0}} + \frac {P _ {1} - P _ {0}}{P _ {0}} = \frac {4}{4 8} + \frac {5 2 - 4 8}{4 8} = . 0 8 3 3 +. 0 8 3 3 =. 1 6 6 7
+ E(r) = \frac{D_{1}}{P_{0}} + \frac{P_{1} - P_{0}}{P_{0}} = \frac{4}{48} + \frac{52 - 48}{48} = .0833 + .0833 = .1667 
 $$
 
 The assumption of complete catch-up to intrinsic value produces a much larger 1-year HPR. In future years, however, the stock is expected to generate only fair rates of return.
@@ -351,12 +402,67 @@ When Growth Prospects decided to reduce current dividends and reinvest some of i
 Therefore, we can think of the value of the firm as the sum of the value of assets already in place, or the no-growth value of the firm, plus the net present value of the future investments the firm will make, which is the PVGO. For Growth Prospects, PVGO = 17.14 per share:
 
 $$
-\begin{array}{l} \text {P r i c e} = \text {N o - g r o w t h v a l u e p e r s h a r e} + \text {P V G O} \\ P _ {0} = \frac {E _ {1}}{k} + \text {P V G O} \tag {18.6} \\ \end{array}
+ \begin{aligned} \text{Price} = \text{No-growth value per share} + \text{PVGO} \\ P_{0} = \frac{E_{1}}{k} + \text{PVGO} \tag{18.6} \\ \end{aligned}
 $$
 
 $$
-5 7. 1 4 = 4 0 + 1 7. 1 4
+57.14 = 40 + 17.14
 $$
+
+```d2
+direction: down
+
+Firm Value: Total Firm Value {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+  width: 200
+}
+
+Assets in Place: Value of Assets in Place {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+Growth Opportunities: Present Value of Growth Opportunities (PVGO) {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Earnings: Expected Earnings (E₁) {
+  shape: circle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+Discount Rate: Required Return (k) {
+  shape: circle
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+Firm Value -> Assets in Place: +
+Firm Value -> Growth Opportunities: +
+
+Assets in Place -> Earnings: E₁ ÷
+Assets in Place -> Discount Rate: k
+
+note: |md
+  **Stock Valuation Components:**
+  - **Assets in Place**: Current operations, no growth
+  - **PVGO**: Value from future growth opportunities
+  - **Total Value = E₁/k + PVGO**
+
+  High-growth firms have large PVGO component
+  Mature firms have PVGO ≈ 0
+|
+```
+
+## Growth Opportunities and Firm Value
+
+The value of a firm can be decomposed into two components: the value of assets already in place (current operations) and the present value of growth opportunities (PVGO). Firms with attractive investment opportunities will have higher PVGO, leading to higher valuations relative to current earnings.
 
 We know that, in reality, dividend cuts almost always are accompanied by drops in stock prices. Does this contradict our analysis? Not necessarily: Dividend cuts are usually taken as bad news about the future prospects of the firm, and it is the new information about the firm—not the reduced dividend per se—that is responsible for the stock price decline.
 
@@ -364,13 +470,13 @@ For example, when J.P. Morgan cut its quarterly dividend from 38 cents to 5 cent
 
 It is important to recognize that growth per se is not what investors desire. Growth enhances value only if it is achieved by investment in projects with attractive profit opportunities (i.e., with ROE > k). To see why, let's now consider Growth Prospects's unfortunate sister company, Cash Cow, Inc. Cash Cow's ROE is only 12.5\%, just equal to the required rate of return, k. Therefore, the net present value of its investment opportunities is zero. We've seen that following a zero-growth strategy with b = 0 and g = 0, the value of Cash Cow will be E₁/k = $5/.125 = $40 per share. Now suppose Cash Cow chooses a plowback ratio of b = .60, the same as Growth Prospects's plowback. Then g would increase to
 
-$$ g = \mathrm {R O E} \times b = . 1 2 5 \times . 6 0 = . 0 7 5
+$$g = \mathrm{ROE} \times b = .125 \times .60 = .075
 $$
 
 But the stock price is still 40:
 
 $$
-P _ {0} = \frac {D _ {1}}{k - g} = \frac {\mathbb {S} 2}{. 1 2 5 -. 0 7 5} = \mathbb {S} 4 0
+P_{0} = \frac{D_{1}}{k - g} = \frac{\$2}{.125 - .075} = \$40
 $$ which is no different from the no-growth strategy.
 
 
@@ -395,7 +501,7 @@ $$
 The present value of growth opportunities is
 
 $$
-\begin{array}{l} \mathrm{PVGO} = \text{Price per share} - \text{No-growth value per share} \\ = \$22.22 - E_{1}/k = \$22.22 - \$33.33 = -\$11.11 \\ \end{array}
+ \begin{aligned} \mathrm{PVGO} = \text{Price per share} - \text{No-growth value per share} \\ = \$22.22 - E_{1}/k = \$22.22 - \$33.33 = -\$11.11 \\ \end{aligned}
 $$
 
 PVGO is negative. This is because the net present value of the firm's projects is negative: The rate of return on those assets is less than the opportunity cost of capital.
@@ -598,7 +704,7 @@ $r_{M} - r_{f} = 8\%$  (about the historical average market risk premium)
 
 $b = .4$  (a typical value for the plowback ratio in the United States)
 
-Therefore,  $r_{M} = r_{f} +$  market risk premium  $= 8\% + 8\% = 16\%$ , and  $k = 16\%$  for an average  $(\beta = 1)$  company. If we approximate ROE by  $16\%$  (the same value as the expected return on the stock), we conclude that
+Therefore,  $r_{M} = r_{f} + market risk premium = 8\% + 8\% = 16\% , and k = 16\% for an average (\beta = 1) company. If we approximate ROE by 16\% (the same value as the expected return on the stock), we conclude that
 
 $$
 g = \mathrm{ROE} \times b = 16\% \times .4 = 6.4\%
@@ -932,22 +1038,6 @@ $\mathrm{FCFF} = \mathrm{EBIT}(1 - t_c) + \mathrm{Depreciation} - \mathrm{Capita
 
 Free cash flow to equity: FCFE = FCFF - Interest expense  $\times (1 - t_{c}) +$  Increases in net debt
 
-## PROBLEM SETS
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/004cea65f06f6785fe10101b1f6984a78378f2866d7d512003e9f319510a891d.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/f7e14e2f5a091781dcd92cf1c7226b4dbcf89dadbd72ba1fe1854fb2c6ffec08.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/5f805bf8c24955fbdc39090abbfd648feccd379a2e289a498c1f2641a1c1ee93.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/ea65b2ff87b3a56b751fa4261bc545987071798bb87e359c7a6bf46ce8b89245.jpg)
-
-1. In what circumstances would you choose to use a dividend discount model rather than a free cash flow model to value a firm?
-
-2. In what circumstances is it most important to use multistage dividend discount models rather than constant-growth models?
-
-3. If a security is underpriced (i.e., intrinsic value  $>$  price), then what is the relationship between its market capitalization rate and its expected rate of return?
-
 4. Deployment Specialists pays a current (annual) dividend of 1.00 and is expected to grow at 20\% for two years and then at 4\% thereafter. If the required return for Deployment Specialists is 8.5\%, what is the intrinsic value of its stock?
 
 5. Jand, Inc., currently pays a dividend of \$1.22, which is expected to grow indefinitely at 5\%. If the current value of Jand's shares based on the constant-growth discount model is \$32.03, what is the required rate of return?
@@ -1241,11 +1331,7 @@ c. Use these inputs to calculate the range of Target's HPRs for the next year.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/9ea9b9657c67ba9cd6c10a0f773baabf6954ab3c97f48f5a98975bb2f8475c87.jpg)
 
-# SOLUTIONS TO CONCEPT CHECKS
 
-1. a. Dividend yield  $= \ 2.15 / \$  50 = 4.3\%
-
-$$
 \text{Capital gains yield} = (59.77 - 50) / 50 = 19.54 \%
 $$
 

@@ -1,12 +1,26 @@
 ---
-aliases:
-  - Diffusion Processes for Modeling Assets
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 12: Properties of the Lognormal and Normal Diffusion Processes for Modeling Assets"
-linter-yaml-title-alias: "Chapter 12: Properties of the Lognormal and Normal Diffusion Processes for Modeling Assets"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:30:00 PM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+  - geometric brownian motion
+  - arithmetic brownian motion
+  - asset price modeling
+  - stochastic differential equations
+secondary_tags:
+  - lognormal distribution
+  - normal distribution
+  - ito's lemma
+  - wiener process
+  - expected asset price
+  - volatility modeling
+  - gbm vs abm
+  - diffusion processes
+  - return distributions
+  - price change processes
+cssclasses: academia
 ---
 
 # Properties of the Lognormal and Normal Diffusion Processes for Modeling Assets
@@ -23,7 +37,7 @@ Recall that in Chapter 10, we obtained the stochastic process for the asset pric
 Based on these properties, we proposed geometric Brownian motion (GBM) with geometric drift. The GBM process has all four properties and can be expressed in two ways,
 
 $$
-d S _ {t} = \alpha S _ {t} d t + \sigma S _ {t} d W _ {t} \mathrm {a n d}
+dS_{t} = \alpha S_{t} dt + \sigma S_{t} dW_{t} \text{and}
 $$
 
 $$
@@ -37,11 +51,11 @@ spreads, or product-related spreads. $^{1}$  Thus, we also explore properties of
 Recall the random variable  $dW_{t}$  is the transformed Brownian motion, which we called a Wiener process. Recall that  $dW_{t}$  is normally distributed with  $E(dW_{t}) = 0$ ,  $\mathrm{var}(dW_{t}) = dt$ . Also, we noted that  $dW_{t}^{2}$  is non-stochastic and equal to  $dt$ . Using these results, the expectation and variance of Equation (12.1) are
 
 $$
-E \left(\frac {d S _ {t}}{S _ {t}}\right) = \alpha d t \text {a n d}
+E\left(\frac{dS_{t}}{S_{t}}\right) = \alpha dt \text{and}
 $$
 
 $$
-\operatorname {v a r} \left(\frac {d S _ {t}}{S _ {t}}\right) = \sigma^ {2} d t. \tag {12.2}
+\operatorname{var}\left(\frac{dS_{t}}{S_{t}}\right) = \sigma^{2} dt. \tag{12.2}
 $$
 
 Given the fact that  $dS_{t} / S_{t}$  is just a linear transformation of a normally distributed random variable  $dW_{t}$ , then it is also normally distributed. In this chapter, we formally derive this stochastic process and some important results related to it.
@@ -49,13 +63,13 @@ Given the fact that  $dS_{t} / S_{t}$  is just a linear transformation of a norm
 Alternatively, we can model some underlying exposure with arithmetic Brownian motion (ABM). There are two forms of ABM, either with geometric drift or arithmetic drift. Recall from Chapter 10, we introduced the $ symbol to emphasize the unit of measure is the same as the asset price and not percentage. Thus, arithmetic Brownian motion with geometric drift (ABMGD) can be expressed as
 
 $$
-d S _ {t} = \alpha S _ {t} d t + \sigma_ {\S} d W _ {t}, \tag {12.3}
+dS_{t} = \alpha S_{t} dt + \sigma_{\S} dW_{t}, \tag{12.3}
 $$
 
 or, depending on context, arithmetic Brownian motion with arithmetic drift (ABMAD) can be expressed as
 
 $$
-d S _ {t} = \alpha_ {\S} d t + \sigma_ {\S} d W _ {t}. \tag {12.4}
+dS_{t} = \alpha_{\S} dt + \sigma_{\S} dW_{t}. \tag{12.4}
 $$
 
 These ABM processes resolve the undesirable property evident in Equation (12.1) because the underlying exposure can be positive, zero, or negative. Also, at times we may wish to have the underlying instrument growing geometrically (e.g., stocks) and at other times arithmetically (e.g., spreads such as refined petroleum and crude oil). Note that in this case relative return may be undefined if  $S_{t} = 0$  or lacking financial interpretation if  $S_{t} < 0$ . For the ABM stochastic process, we are interested in  $dS_{t}$  and not  $dS_{t} / S_{t}$ . Again, volatility, and perhaps mean, is measured in currency units and not percentage.
@@ -123,7 +137,7 @@ E (d \ln S _ {t}) = \mu d t
 $$
 
 $$
-\operatorname {v a r} \left(d \ln S _ {t}\right) = \sigma^ {2} d t. \tag {12.14}
+\operatorname{var}\left(d\ln S_{t}\right) = \sigma^{2} dt. \tag{12.14}
 $$
 
 Now, however, we want the return  $dS_{t} / S_{t}$ . Let us use the following transformation:
@@ -195,7 +209,7 @@ E \left(\frac {d S _ {t}}{S _ {t}}\right) = \alpha d t
 $$
 
 $$
-\operatorname {v a r} \left(\frac {d S _ {t}}{S _ {t}}\right) = \sigma^ {2} d t. \tag {12.24}
+\operatorname{var}\left(\frac{dS_{t}}{S_{t}}\right) = \sigma^{2} dt. \tag{12.24}
 $$
 
 Thus, we now have the stochastic differential equations for the return (Equation (12.23)) and the log return (Equation (12.13)). The return over the longer horizon is  $dS_{T} / S_{0}$ , and the log return over the long horizon is normally distributed, which means that  $dS_{T} / S_{0}$  is lognormally distributed. Both the infinitesimal return,  $dS_{t} / S_{t}$ , and the infinitesimal log return,  $d\ln S_{t}$ , are normally distributed.
@@ -239,11 +253,11 @@ Note that due to the potential for nonpositive values, log transformations are n
 For ABM with arithmetic drift, we have the expected price change and price change variance are<sup>6</sup>
 
 $$
-E \left(d S _ {t}\right) = \alpha_ {\S} d t \text {a n d} \tag {12.30}
+E\left(dS_{t}\right) = \alpha_{\S} dt \text{and} \tag{12.30}
 $$
 
 $$
-\operatorname {v a r} \left(d S _ {t}\right) = \sigma_ {\S} ^ {2} d t. \tag {12.31}
+\operatorname{var}\left(dS_{t}\right) = \sigma_{\S}^{2} dt. \tag{12.31}
 $$
 
 With ABM with geometric drift, we have the expected price change and price change variance as follows:7
@@ -255,7 +269,7 @@ $$
 and
 
 $$
-\operatorname {v a r} \left(d S _ {t}\right) = \left[ \begin{array}{l l} \sigma_ {\S} ^ {2} \left(\frac {e ^ {2 a d t} - 1}{2 \alpha}\right) & \text {i f} \alpha \neq 0 \\ \sigma_ {\S} ^ {2} d t & \text {i f} \alpha = 0. \end{array} \right. \tag {12.33}
+\operatorname{var}\left(dS_{t}\right) = \left[ \begin{array}{ll} \sigma_{\S}^{2} \left(\frac{e^{2adt} - 1}{2\alpha}\right) & \text{if } \alpha \neq 0 \\ \sigma_{\S}^{2} dt & \text{if } \alpha = 0. \end{array} \right. \tag{12.33}
 $$
 
 # 12.3 SOLVING THE STOCHASTIC DIFFERENTIAL EQUATION
@@ -452,7 +466,7 @@ Time-series independence. With GBM, changes in the asset returns are assumed to 
 - Factor models,  $S_{t} = f(x_{1},x_{2},\ldots ,x_{n})$ . An asset can have multiple risk factors. ABM can easily handle multiple factors, whereas with GBM it is a difficult challenge. Mathematically, the two approaches can be expressed as
 
 $$
-\begin{array}{l} d S _ {t} = \mu (S, t) d t + \sum_ {i = 1} ^ {n} \sigma_ {\S , i} (t) d W _ {i} (\mathrm {A B M}) \text {a n d} \\ d S _ {t} = \mu (S, t) d t + \sum_ {i = 1} ^ {n} \sigma_ {i} (t) x _ {i} d W _ {i}. (\mathrm {G B M}) \\ \end{array}
+\begin{array}{l} dS_{t} = \mu(S, t) dt + \sum_{i=1}^{n} \sigma_{\S,i}(t) dW_{i} (\mathrm{ABM}) \text{and} \\ dS_{t} = \mu(S, t) dt + \sum_{i=1}^{n} \sigma_{i}(t) x_{i} dW_{i}. (\mathrm{GBM}) \\ \end{array}
 $$
 
 Clearly, the ABM version results in the terminal distributions being normally distributed, whereas the GBM version follows no known tractable distribution.

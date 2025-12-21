@@ -33,8 +33,6 @@ $$ where  $E(R_{i})$  is the expected excess return on stock  $i$ . Notice that 
 To illustrate the factor model, suppose that the macro factor,  $F$ , represents news about the state of the business cycle, which we will measure by the unexpected percentage change in gross domestic product (GDP). The consensus is that GDP will increase by  $4\%$  this year. Suppose also that a stock's  $\beta$  value is 1.2. If GDP increases by only  $3\%$ , then the value of  $F$  would be  $-1\%$ , representing a  $1\%$  disappointment in actual versus expected growth. Given the stock's beta, this disappointment would translate into a stock return  $1.2\%$  lower than previously expected. This macro surprise, together with the firm-specific disturbance,  $e_{i}$ , determines the total departure of the stock's return from its originally expected value.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/080b779286cd4694a8913f3d9c5300c87dcb77875044d7b2f500f6d196600a89.jpg)
-
 # Concept Check 10.1
 
 Suppose you currently expect the stock in Example 10.1 to earn a  $10\%$  rate of return. Then some macroeconomic news suggests that GDP growth will come in at  $5\%$  instead of  $4\%$ . How will you revise your estimate of the stock's expected rate of return?
@@ -621,8 +619,6 @@ a. What was the market return in those months? (You can find market index return
 c. What about inflation surprises?
 d. Would a stock with a positive loading on economic activity surprises be expected to have a higher or lower equilibrium return?
 e. What about a stock with a positive loading on inflation surprises?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/2396ef66646a9b9dbbab8b748054a1d4d2ece97855db58844e60868ad9df2a08.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

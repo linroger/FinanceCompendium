@@ -5,6 +5,26 @@ key_concepts:
 parent_directory: FINM Fixed Income Derivatives/Lecture Notes
 cssclasses: academia
 title: "TA Review #4: Swaptions, Volatility Modeling, and SABR"
+formatted: 2025-12-21 06:00:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - swaptions
+   - volatility modeling
+   - SABR model
+   - interest rate derivatives
+   - options pricing
+secondary_tags:
+   - receiver swaption
+   - payer swaption
+   - binomial model
+   - stochastic volatility
+   - forward measure
+   - midcurve swaption
+   - arrears payments
+   - BDT tree
+   - european swaption
+   - american swaption
 ---
 
 # TA Review 4
@@ -21,8 +41,7 @@ title: "TA Review #4: Swaptions, Volatility Modeling, and SABR"
 
 - Swaptions
 - Volatility Modeling
-- SABR
- <br>
+ - SABR
 
 ```python
 import numpy as np
@@ -96,7 +115,7 @@ Note that we have three dates to consider:
 
 A plain swaption sets the swap to start at the time the option expires.
 
-Thus, a 2\% 1Y$\rightarrow$10Y denotes
+Thus, a 2\% $1Y \rightarrow 10Y$ denotes
 
 * 2\% strike
 * swaption with expiration of 1 year
@@ -106,7 +125,7 @@ Suppose that the date of (underlying) swap beginning is **after** the swaption e
 
 This is a **midcurve** swaption.
 
-Could have a 6m$\rightarrow$1Y$\rightarrow$5Y midcurve swaption:
+Could have a $6m \rightarrow 1Y \rightarrow 5Y$ midcurve swaption:
 
 * expires in 6 months
 * underlying swap starts one year after that expiration (in 1.5 years from today)
@@ -114,7 +133,7 @@ Could have a 6m$\rightarrow$1Y$\rightarrow$5Y midcurve swaption:
 
 Now an example on the same swap we valued above:
 
-Consider a European 2Y$\rightarrow$ 3Y **payer** swaption with strike of $K=.05$\%.
+Consider a European $2Y \rightarrow 3Y$ **payer** swaption with strike of $K = 0.05\%$.
 
  - This means that the swaption will expire in 2 years and the swap will begin at option expiration running for a year. 
 
@@ -211,7 +230,7 @@ This function is a mess, but it is a closed-form solution!
 
 - These are the two minimization functions Mark use for homework 4. 
 - For each strike, we refit the SABR and minimize the error with the real volatilies. 
-- The difference here is that slim is used directly with the at the money volatilites, hence no need to estrimate alpha.
+ - The difference here is that slim is used directly with the at the money volatilites, hence no need to estimate alpha.
 
 ![Screenshot 2024-03-03 at 9.37.57 PM.png](6ea7aabd-f53c-4e72-923f-6954344c286f.png)
 
@@ -219,8 +238,4 @@ This function is a mess, but it is a closed-form solution!
 
 ![Screenshot 2024-03-03 at 9.40.20 PM.png](4144b3b0-3a95-4cca-ba2b-7fa6a4de1556.png)
 
-- We recreate the volatility grid with different strikes using those estimates. 
-
-```python
-
-```
+- We recreate the volatility grid with different strikes using those estimates.

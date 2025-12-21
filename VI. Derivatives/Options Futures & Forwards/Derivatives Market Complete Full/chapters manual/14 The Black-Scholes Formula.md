@@ -1,8 +1,8 @@
 ---
 title: "Chapter 14 - The Black-Scholes Formula"
 parent_directory: Derivatives Market Complete Full/chapters manual
-formatted: 2025-12-21 03:30:00 AM
-formatter_model: grok-code-fast-1
+formatted: 2025-12-21 02:35:00 AM
+formatter_model: claude-sonnet-4-5-20250929
 cli_tool: opencode
 primary_tags:
   - black-scholes formula
@@ -10,7 +10,6 @@ primary_tags:
   - european options
   - option pricing
   - implied volatility
-  - option greeks
 secondary_tags:
   - risk-neutral valuation
   - volatility modeling
@@ -19,16 +18,17 @@ secondary_tags:
   - theta decay
   - rho sensitivity
   - volatility smile
+  - volatility skew
+  - profit diagrams
+  - calendar spreads
   - perpetual options
-  - barrier pricing
-  - currency options
-  - futures options
+  - american options
 cssclasses: academia
 ---
 
 # The Black-Scholes Formula
 
-## I. INTRODUCTION TO T$H$E BLACK-SC$H$OLES FORMULA
+## I. INTRODUCTION TO THE BLACK-SCHOLES FORMULA
 
 To introduce the Black-Scholes formula, we first use the binomial model. When computing a binomial option price, we can vary the number of binomial steps, holding fixed the time to expiration. Table 1 computes binomial call option prices, and increases the number of steps,  $n$ . Changing the number of steps changes the option price, but once the number of steps becomes great enough we appear to approach a limiting value for the price. The last row reports the call option price if we were to use an infinite number of steps. We can't literally have an infinity of steps in a binomial tree, but it is possible to show that as the number of steps approaches infinity, the option price is given by the Black-Scholes formula. Thus, the Black-Scholes formula is a limiting case of the binomial formula for the price of a European option.
 
@@ -40,15 +40,43 @@ $$
 C (S, K, \sigma , r, T, \delta) = S e ^ {- \delta T} N \left(d _ {1}\right) - K e ^ {- r T} N \left(d _ {2}\right) \tag {1}
 $$
 
-From Chapter 12 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice $H$all. All rights reserved.
+```d2
+direction: right
+title: European Call Option Payoff at Expiration
+
+x_axis: {
+  label: Stock Price (S)
+  min: 0
+  max: 200
+}
+
+payoff_line: {
+  label: Payoff = max(S - K, 0)
+  points: [
+    {x: 0, y: 0},
+    {x: 100, y: 0},
+    {x: 100, y: 100}
+  ]
+  style.stroke: "#2196f3"
+  style.stroke-width: 3
+}
+
+break_even: {
+  label: Break-even Point (K = 100)
+  x: 100
+  style.fill: "#ff9800"
+}
+```
+
+From Chapter 12 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
 ## Box I: The $H$istory of the Black-Scholes Formula
 
 The Black-Scholes formula was first published in the May/June 1973 issue of the Journal of Political Economy (JPE) (see Black and Scholes, 1973). By coincidence, the Chicago Board Options Exchange (CBOE) opened at almost the same time, on April 26, 1973. Initially, the exchange traded call options on just 16 stocks. Puts did not trade until 1977. In 2000, by contrast, the CBOE traded both calls and puts on over 1200 stocks.
 
-Fischer Black told the story of the formula in Black (1989). $H$e and Myron Scholes started working on the option-pricing problem in 1969, when Black was an independent consultant in Boston and Scholes an assistant professor at MIT. While working on the problem, they had extensive discussions with Robert Merton of MIT, who was also working on option pricing.
+Fischer Black told the story of the formula in Black (1989). He and Myron Scholes started working on the option-pricing problem in 1969, when Black was an independent consultant in Boston and Scholes an assistant professor at MIT. While working on the problem, they had extensive discussions with Robert Merton of MIT, who was also working on option pricing.
 
-The first version of their paper was dated October 1970 and was rejected for publication by the  $JPE$  and subsequently by another prominent journal. $H$owever, in 1971, Eugene Fama and Merton Miller of the University of Chicago, recognizing the importance of their work, interceded on their behalf with the editors of the  $JPE$ . Later in 1973 Robert Merton published an important and wide-ranging follow-up paper (Merton, 1973b), which, among other contributions, established the standard no-arbitrage restrictions on various option prices significantly generalized the Black-Scholes formula and their derivation of the model, and provided formulas for pricing perpetual American puts and down-and-out calls.
+The first version of their paper was dated October 1970 and was rejected for publication by the  $JPE$  and subsequently by another prominent journal. However, in 1971, Eugene Fama and Merton Miller of the University of Chicago, recognizing the importance of their work, interceded on their behalf with the editors of the  $JPE$ . Later in 1973 Robert Merton published an important and wide-ranging follow-up paper (Merton, 1973b), which, among other contributions, established the standard no-arbitrage restrictions on various option prices significantly generalized the Black-Scholes formula and their derivation of the model, and provided formulas for pricing perpetual American puts and down-and-out calls.
 
 In 1997, Robert Merton and Myron Scholes won the Nobel Prize in Economics for their work on option pricing. Fischer Black was ineligible for the prize, having died in 1995 at the age of 57.
 
@@ -58,8 +86,7 @@ Binomial option prices for different numbers of binomial steps. All calculations
 
 <table><tr><td>Number of Steps (n)</td><td>Binomial Call Price ($)</td></tr><tr><td>1</td><td>7.839</td></tr><tr><td>4</td><td>7.160</td></tr><tr><td>10</td><td>7.065</td></tr><tr><td>50</td><td>6.969</td></tr><tr><td>100</td><td>6.966</td></tr><tr><td>500</td><td>6.960</td></tr><tr><td>∞</td><td>6.961</td></tr></table> where
 
-$$ $$ d_{1} = \frac {\ln (S / K) + \left(r - \delta + \frac {1}{2} \sigma^{2}\right) T}{\sigma \sqrt {T}} \tag {2a}
-$$ \tag {2a}
+$$ d_{1} = \frac {\ln (S / K) + \left(r - \delta + \frac {1}{2} \sigma^{2}\right) T}{\sigma \sqrt {T}} \tag {2a}
 $$
 
 $$ d _ {2} = d _ {1} - \sigma \sqrt {T} \tag {2b}
@@ -73,9 +100,7 @@ Two of the inputs ( $K$  and  $T$ ) describe characteristics of the option contr
 
 It is important to be clear about units in which inputs are expressed. Several of the inputs in equation (1) are expressed per unit time: The interest rate, volatility, and dividend yield are typically expressed on an annual basis. In equation (1), these inputs are all multiplied by time: The interest rate, dividend, and volatility appear as  $r \times T$ ,  $\delta \times T$ , and  $\sigma^2 \times T$  (or equivalently,  $\sigma \times \sqrt{T}$ ). Thus, when we enter inputs into the formula, the specific time unit we use is arbitrary as long as we are consistent. If time is measured in years, then  $r$ ,  $\delta$ , and  $\sigma$  should be annual. If time is measured in days, then we need to use the daily equivalent of  $r$ ,  $\sigma$ , and  $\delta$ , and so forth. We will always assume inputs are per year unless we state otherwise.
 
-Example 1. Let  $S = \41$ ,  $K = \$40 ,  $\sigma = 0.3$ ,  $r = 8\%$ ,  $T = 0.25\$  (3 months), and  $\delta = 0$ . Computing the Black-Scholes call price, we obtain
-
-$$
+Example 1. Let  $S = $41$ ,  $K = \$40 ,  $\sigma = 0.3$ ,  $r = 8\%$ ,  $T = 0.25$  (3 months), and  $\delta = 0$ . Computing the Black-Scholes call price, we obtain
 \begin{array}{l} \$ 41 \times e ^ {- 0 \times 0.25} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0.0 8 - 0 + \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) \\ - \$40 \times e ^ {- 0. 0 8 \times 0. 2 5} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0.0 8 - 0 - \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) = \$3.399 \\ \end{array}
 $$
 
@@ -132,7 +157,7 @@ Many of these assumptions can easily be relaxed. For example, with a small chang
 
 As a practical matter, the first set of assumptions—those about the stock price distribution—are the most crucial. Most academic and practitioner research on option pricing concentrates on relaxing these assumptions. They will also be our focus when we discuss empirical evidence. You should keep in mind that almost any valuation procedure, including ordinary discounted cash flow, is based on assumptions that appear strong; the interesting question is how well the procedure works in practice.
 
-# 2. APPLYING T$H$E FORMULA TO OT$H$ER ASSETS
+# 2. APPLYING THE FORMULA TO OTHER ASSETS
 
 The Black-Scholes formula is often thought of as a formula for pricing European options on stocks. Specifically, equations (1) and (4) provide the price of a call and put option, respectively, on a stock paying continuous dividends. In practice, we also want to be able to price European options on stocks paying discrete dividends, options on futures, and options on currencies. The binomial model can be adapted to different underlying assets by adjusting the dividend yield. The same adjustments work in the Black-Scholes formula.
 
@@ -162,7 +187,7 @@ F _ {0, T} ^ {P} (S) = S _ {0} - \mathrm {P V} _ {0, T} (\mathrm {D i v})
 $$ where  $\mathrm{PV}_{0,T}(\mathrm{Div})$  is the present value of dividends payable over the life of the option. Thus, using equation (5), we can price a European option with discrete dividends by subtracting the present value of dividends from the stock price and entering the result into the formula in place of the stock price.
 
 
-Example 3. Suppose S = $41, K = $40, σ = 0.3, r = 8\%, and T = 0.25 (3 months). The stock will pay a 3 dividend in 1 month, but makes no other payouts over the life of the option (hence, δ = 0). The present value of the dividend is
+Example 3. Suppose S = $41, K = $40, σ = 0.3, r = 8\%, and T = 0.25 (3 months). The stock will pay a $3 dividend in 1 month, but makes no other payouts over the life of the option (hence, δ = 0). The present value of the dividend is
 
 $$
 
@@ -250,6 +275,53 @@ The units in which changes are measured are a matter of convention. Thus, when w
 - Psi  $(\Psi)$  measures the change in the option price when there is an increase in the continuous dividend yield of 1 percentage point (100 basis points).
 
 A useful mnemonic device for remembering some of these is that "vega" and "volatility" share the same first letter, as do "theta" and "time." Also "r" is often used to denote the interest rate and is the first letter in "rho."
+
+```d2
+direction: down
+title: Option Greeks Relationship Map
+
+delta: Delta (Δ) {
+  shape: circle
+  style.fill: "#4caf50"
+}
+
+gamma: Gamma (Γ) {
+  shape: circle
+  style.fill: "#2196f3"
+}
+
+vega: Vega {
+  shape: circle
+  style.fill: "#ff9800"
+}
+
+theta: Theta (θ) {
+  shape: circle
+  style.fill: "#9c27b0"
+}
+
+rho: Rho (ρ) {
+  shape: circle
+  style.fill: "#f44336"
+}
+
+psi: Psi (Ψ) {
+  shape: circle
+  style.fill: "#607d8b"
+}
+
+delta -> gamma: "Rate of change of delta"
+vega -> option_price: "Sensitivity to volatility"
+theta -> option_price: "Time decay"
+rho -> option_price: "Interest rate sensitivity"
+psi -> option_price: "Dividend yield sensitivity"
+
+stock_price: Stock Price -> delta
+volatility: Volatility -> vega
+time: Time to Expiration -> theta
+interest_rate: Interest Rate -> rho
+dividend_yield: Dividend Yield -> psi
+```
 
 We will discuss each Greek measure in turn, assuming for simplicity that we are talking about the Greek for a purchased option. The Greek for a written option is opposite in sign to that for the same purchased option.
 
@@ -511,9 +583,9 @@ Now we will see how to draw payoff and profit diagrams for options prior to expi
 
 If we buy a call option and sell it prior to expiration, profit will depend upon the changes in the stock price and time to expiration. Table 3 shows the Black-Scholes value of a call option for five different stock prices at four different times to expiration. By varying the stock price for a given time to expiration, keeping everything else the same, we are able to graph the value of the call.
 
-Figure 7 plots Black-Scholes call prices for stock prices ranging from  $20 to$ 60, including the values in Table 3. Notice that the value of the option prior to expiration is a smoothed version of the value of the option at expiration.
+Figure 7 plots Black-Scholes call prices for stock prices ranging from  $20 to $60, including the values in Table 3. Notice that the value of the option prior to expiration is a smoothed version of the value of the option at expiration.
 
-The payoff diagram depicted in Figure 7 does not take into account the original cost of the option. We compute profit by subtracting from the value of the option at each stock price the original cost of the position, plus interest.[11] For example, if we buy a 1-year option and hold it for 9 months, the resulting profit diagram is the payoff for a 3-month option less the original cost plus interest of the 1-year option. The "held 9 months" line in the bottom panel of Figure 7 is thus the "3 months" line from the top panel less  $6.674 =$ 6.285e $^{0.08 \times 0.75}$ .
+The payoff diagram depicted in Figure 7 does not take into account the original cost of the option. We compute profit by subtracting from the value of the option at each stock price the original cost of the position, plus interest.[11] For example, if we buy a 1-year option and hold it for 9 months, the resulting profit diagram is the payoff for a 3-month option less the original cost plus interest of the 1-year option. The "held 9 months" line in the bottom panel of Figure 7 is thus the "3 months" line from the top panel less  $6.674 = $6.285e $^{0.08 \times 0.75}$ .
 
 Example 9. The 1-year option in Table 3 costs \$6.285 at a stock price of \$40. If after 1 day the stock price is still \$40, the value of the option will have fallen to \$6.274, and the 1-day holding period profit is $6.274 - $6.285 × e^0.08/365 = -\$0.012. This loss reflects the theta of the option. If the stock price were to increase to \$42, the option premium would increase to \$7.655, and the 1-day holding period profit would be $7.655 - $6.285 × e^0.08/365 = \$1.369.
 
@@ -543,9 +615,9 @@ Profit diagram for a calendar spread. Assumes we sell a 91-day 40-strike call wi
 
 Profit ($) sell a call or put, in the hope that the stock price will remain unchanged and you will earn the premium. The potential cost is that if the option does move into the money, you can have a large loss.
 
-To protect against a stock price increase when selling a call, you can simultaneously buy a call option with the same strike and greater time to expiration. For example, suppose you sell a 40-strike call with 91 days to expiration and buy a 40-strike call with 1 year to expiration. At a stock price of  \$40, the premiums are\$ 2.78 for the 91-day call and 6.28 for the 1-year call. The profit diagram for this position for holding periods of 1 day, 45 days, and 91 days is displayed in Figure 8. You can see that you earn maximum profit over 91 days if the stock price does not change.
+To protect against a stock price increase when selling a call, you can simultaneously buy a call option with the same strike and greater time to expiration. For example, suppose you sell a 40-strike call with 91 days to expiration and buy a 40-strike call with 1 year to expiration. At a stock price of  $40, the premiums are $2.78 for the 91-day call and 6.28 for the 1-year call. The profit diagram for this position for holding periods of 1 day, 45 days, and 91 days is displayed in Figure 8. You can see that you earn maximum profit over 91 days if the stock price does not change.
 
-We can understand the behavior of profit for this position by considering the theta of the two options. The top panel of Figure 4 shows that theta is more negative for the 91-day call  $(-0.0173)$  than for the 1-year call  $(-0.0104)$ . Thus, if the stock price does not change over the course of 1 day, the position will make money because the written option loses more value than the purchased option. Over 91 days, the written 91-day option will lose its full value (its price declines from  \$2.78 to 0), while the 1-year option will lose only about\$ 1 (its price declines from $6.28 to $5.28) if the stock price does not change. The difference in the rates of time decay generates profit of approximately 1.78.
+We can understand the behavior of profit for this position by considering the theta of the two options. The top panel of Figure 4 shows that theta is more negative for the 91-day call  $(-0.0173)$  than for the 1-year call  $(-0.0104)$ . Thus, if the stock price does not change over the course of 1 day, the position will make money because the written option loses more value than the purchased option. Over 91 days, the written 91-day option will lose its full value (its price declines from  $2.78 to 0), while the 1-year option will lose only about $1 (its price declines from $6.28 to $5.28) if the stock price does not change. The difference in the rates of time decay generates profit of approximately 1.78.
 
 Figure 8 shows that at the initial stock price of 40, delta is positive: The delta of the written 91-day call is 0.5825 and that of the purchased 1-year call is 0.6615, for a net positive delta of 0.0790. Thus, over 1 day, the maximum profit occurs if the stock price rises by a small amount.
 
@@ -562,7 +634,7 @@ We obtain a different perspective by thinking of an option market as the venue w
 To compute a Black-Scholes implied volatility, assume that we observe the stock price  $S$ , strike price  $K$ , interest rate  $r$ , dividend yield  $\delta$ , and time to expiration  $T$ . The implied call volatility is the  $\hat{\sigma}$  that solves
 
 $$
-\text {M a r k e t} = C (S, K, \hat {\sigma}, r, T, \delta) \tag {17}
+\text{Market} = C (S, K, \hat {\sigma}, r, T, \delta) \tag {17}
 $$
 
 By definition, if we use implied volatility to price an option, we obtain the market price of the option. Thus, we cannot use implied volatility to assess whether an option price is correct, but implied volatility does tell us the market's assessment of volatility.
@@ -580,6 +652,45 @@ By trial and error (or by using a tool such as Excel's Goalseek), we find that s
 Implied volatility computed using a pricing model is a characteristic of an individual option, so it is interesting to compare implied volatilities for options across strike prices and times to expiration. The top panel of Figure 9 displays implied volatilities for Apple, and the bottom panel displays implied volatilities for the S&P 500 index.
 
 Figure 9 exhibits patterns commonly found for equity and index options. Frequently, implied volatility is greatest for out-of-the-money puts (in-the-money calls) and lowest for near-the-money options. As the expiration date changes, implied volatility for a given strike can go either up or down. Implied volatility differences across strikes can be substantial.
+
+```d2
+direction: right
+title: Implied Volatility Patterns
+
+atm: At-The-Money {
+  shape: circle
+  style.fill: "#4caf50"
+  label: "Lowest Volatility\n(Symmetric point)"
+}
+
+otm_call: OTM Call {
+  shape: circle
+  style.fill: "#2196f3"
+  label: "Higher Volatility\n(Right side)"
+}
+
+otm_put: OTM Put {
+  shape: circle
+  style.fill: "#f44336"
+  label: "Highest Volatility\n(Left side - Skew)"
+}
+
+volatility_curve: {
+  label: "Volatility Smile/Skew"
+  style.stroke: "#ff9800"
+  style.stroke-width: 3
+}
+
+atm -> otm_call: "Symmetric Smile"
+atm -> otm_put: "Volatility Skew/Smirk"
+otm_put -> otm_call: "Asymmetric Pattern"
+
+note: "Volatility skew reflects market fear of downward moves" {
+  near: bottom-center
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+```
 
 The volatility plots in Figure 9 exhibit different patterns. A volatility smile is symmetric, with volatility lowest for at-the-money options, and high for in-the-money and out-of-the-money options. A lopsided smile is a "smirk" and an upside-down smile would be a "frown." A difference in volatilities between in-the-money and out-of-the-money options, evident in Figure 9, is referred to as volatility skew. Explaining such patterns and modifying pricing models to account for them is a challenge for option pricing theory.
 
@@ -637,19 +748,20 @@ In this section we present the formulas for perpetual calls and puts. The formul
 
 First, define  $h_1$  and  $h_2$ :
 
-$$ $$ h_{1} = \frac{1}{2} - \frac{r - \delta}{\sigma^{2}} + \sqrt{\left( \frac{r - \delta}{\sigma^{2}} - \frac{1}{2} \right)^{2} + \frac{2r}{\sigma^{2}}} $$
-$$
+$$ h_{1} = \frac{1}{2} - \frac{r - \delta}{\sigma^{2}} + \sqrt{\left( \frac{r - \delta}{\sigma^{2}} - \frac{1}{2} \right)^{2} + \frac{2r}{\sigma^{2}}} $$
 
-$$ $$ h_{2} = \frac{1}{2} - \frac{r - \delta}{\sigma^{2}} - \sqrt{\left( \frac{r - \delta}{\sigma^{2}} - \frac{1}{2} \right)^{2} + \frac{2r}{\sigma^{2}}} $$
-$$
+$$ h_{2} = \frac{1}{2} - \frac{r - \delta}{\sigma^{2}} - \sqrt{\left( \frac{r - \delta}{\sigma^{2}} - \frac{1}{2} \right)^{2} + \frac{2r}{\sigma^{2}}} $$
 
 The value of a perpetual American call with strike price  $K$  that is exercised when  $S \geq $H$_{c}$  is
 
 $$
-\boxed{($H$_{c} - K) \left( \frac{S}{$H$_{c}} \right)^{h_{1}}} \tag {18}
-$$ where  $$H$_{c}$  is given by
+\boxed{(K - $H$_{p}) \left( \frac{S}{$H$_{p}} \right)^{h_{2}}} \tag {20}
+$$ where  $H$_{p}$  is given by
 
-
+$$
+$H$_{p} = K \frac{h_{2}}{h_{2} - 1} \tag {21}
+$$
+$H$_{c} = K \frac{h_{1}}{h_{1} - 1} \tag {19}
 $$
 
 $$ $H$_{c} = K \frac{h_{1}}{h_{1} - 1} $$ \tag {19}
@@ -674,25 +786,25 @@ $$
 
 You can verify that if  $r = 0$ , then  $$H$_{p} = 0$ : It is never optimal to exercise a put option when the interest rate is non-positive. As with the call,  $$H$_{p}$  in equation (21) maximizes the value of the put.
 
-Example 11. Let  $S = \$ 45 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.05\$ , and  $\delta = 0.02$ . Using equation (18), a perpetual American call has a premium of  $\$25.41$  and will be exercised when  $S = \$ 211.05 . A perpetual American put has a premium of  $\$9.66$  and will be exercised when  $S = \$ 18.95 .
+Example 11. Let  $S = $45 ,  $K = $40$ ,  $\sigma = 0.30$ ,  $r = 0.05$ , and  $\delta = 0.02$ . Using equation (18), a perpetual American call has a premium of  $25.41$  and will be exercised when  $S = $211.05 . A perpetual American put has a premium of  $9.66$  and will be exercised when  $S = $18.95 .
 
 ### Barrier Present Values
 
 If you look at equation (18), you will see that the formula for the value of a perpetual call is the number of dollars received at exercise  $\left( {{$H$}_{c} - K}\right)$  times the factor  ${\left( S/{$H$}_{c}\right) }^{h_{1}}$  . The value at time 0,of \$1 received when the stock price reaches  $$H$$  ,assuming  $$H$ > {S}_{0}$  ,is
 
 $$
-\text {V a l u e o f} S 1 \text {r e c e i v e d w h e n} S \text {f i r s t r e a c h e s} $H$ \text {f r o m b e l o w} = \left(\frac {S _ {0}}{$H$}\right) ^ {$h_{1}$} \tag {22}
+\text{Value of \$1 received when S first reaches \$H from below} = \left(\frac {S _ {0}}{$H$}\right) ^ {$h_{1}$} \tag {22}
 $$
 
 Similarly, the value at time 0 of 1 received when the stock price reaches $H$, assuming $H$ < S0, is
 
 $$
-\text {V a l u e o f $ 1 r e c e i v e d w h e n S f i r s t r e a c h e s $H$ f r o m a b o v e} = \left(\frac {S _ {0}}{$H$}\right) ^ {$h_{2}$} \tag {23}
+\text{Value of \$1 received when S first reaches \$H from above} = \left(\frac {S _ {0}}{$H$}\right) ^ {$h_{2}$} \tag {23}
 $$
 
 We will refer to the expressions in equations (22) and (23) as "barrier present values."
 
-## C$H$APTER SUMMARY
+## CHAPTER SUMMARY
 
 Under certain assumptions, the Black-Scholes formula provides an exact formula—approximated by the binomial formula—for pricing European options. The inputs to the Black-Scholes formula are the same as for the binomial formula: the stock price, strike price, volatility, interest rate, time to expiration, and dividend yield. As with the binomial formula, the Black-Scholes formula accommodates different underlying assets by changing the dividend yield.
 
@@ -702,6 +814,6 @@ Of the inputs to the Black-Scholes formula, volatility is hardest to estimate. I
 
 Although there is no simple formula for valuing a finitely lived American option, there are simple formulas in the special case of perpetual puts and calls.
 
-## FURT$H$ER READING
+## FURTHER READING
 
 The classic early papers on option pricing are Black and Scholes (1973) and Merton (1973b). The details of how the binomial model converges to the Black-Scholes model are in Cox et al. (1979). The perpetual put formula is derived in Merton (1973b). The link between the perpetual call and put formulas is discussed by McDonald and Siegel (1986).

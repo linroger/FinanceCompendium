@@ -5,7 +5,7 @@ aliases:
    - Default Concepts
    - Credit Default Swaps
 parent_directory: Derivatives Market Complete Full/chapters manual
-formatted: 2025-12-21 02:17:00 AM
+formatted: 2025-12-21 04:45:00 PM
 formatter_model: kimi-k2-turbo
 cli_tool: claude-code
 primary_tags:
@@ -34,6 +34,44 @@ The risk that a counterparty will fail to meet a contractual payment obligation 
 In this chapter we discuss theory and practice relating to credit risk. We first present a framework for analyzing credit risk and discuss the Merton model, which essentially uses the Black-Scholes model to study credit risk. We then discuss credit ratings, which are widely used by market participants to judge the credit-worthiness of instruments and firms. Finally, we consider the instruments used to modify, hedge, and trade credit risk, including credit default swaps and collateralized debt obligations.
 
 Defaults and fear of defaults played a central role in the financial crisis of 2008, so you may recognize many of the terms and concepts in this chapter. Credit risk is important because routine financial dealings presume the credit-worthiness of a counterparty. Also, many investors seek assets that have a low risk of default. Thus, assessing and managing credit risk are of critical importance in modern financial markets.
+
+```d2
+direction: right
+
+Credit Risk Framework: {
+  shape: rectangle
+  style.fill: "#e8f4f8"
+  style.stroke: "#2e86ab"
+
+  Default Probability: {
+    label: "Probability of Default\nPr*(Default)"
+    shape: hexagon
+    style.fill: "#ff6b6b"
+  }
+
+  Recovery Rate: {
+    label: "Recovery Rate\nE*[Recovery|Default]"
+    shape: hexagon
+    style.fill: "#4ecdc4"
+  }
+
+  Credit Spread: {
+    label: "Credit Spread\nρ - r"
+    shape: diamond
+    style.fill: "#ffd93d"
+  }
+
+  Bond Value: {
+    label: "Bond Value\nB₀"
+    shape: circle
+    style.fill: "#a8e6cf"
+  }
+
+  Default Probability -> Credit Spread: "Higher default risk →\nHigher credit spread"
+  Recovery Rate -> Credit Spread: "Lower recovery →\nHigher credit spread"
+  Credit Spread -> Bond Value: "Higher spread →\nLower bond value"
+}
+```
 
 ## I. DEFAULT CONCEPTS AND TERMINOLOGY
 
@@ -108,13 +146,51 @@ $$
 
 Thus, the credit spread approximately equals the annualized product of the risk-neutral default probability and the expected loss given default.
 
-## 2. THE MERTON DEFAULT MODEL
+### 2. THE MERTON DEFAULT MODEL
+
+```d2
+direction: down
+
+Merton Model: {
+  shape: rectangle
+  style.fill: "#f7f3e9"
+  style.stroke: "#8b4513"
+
+  Firm Assets: {
+    label: "Firm Assets (A)\nLognormal Process\ndA = (α-δ)A dt + σA dZ"
+    shape: rectangle
+    style.fill: "#90EE90"
+  }
+
+  Debt Value: {
+    label: "Zero-Coupon Debt\nFace Value: B̄"
+    shape: rectangle
+    style.fill: "#FFE4B5"
+  }
+
+  Equity Value: {
+    label: "Equity Value\nE = max(A - B̄, 0)"
+    shape: circle
+    style.fill: "#98FB98"
+  }
+
+  Default Rule: {
+    label: "Default at T if:\nA_T < B̄"
+    shape: diamond
+    style.fill: "#FFA07A"
+  }
+
+  Firm Assets -> Default Rule: "Asset evolution"
+  Default Rule -> Debt Value: "If A_T ≥ B̄: Debt = B̄\nIf A_T < B̄: Debt = A_T"
+  Default Rule -> Equity Value: "If A_T ≥ B̄: Equity = A_T - B̄\nIf A_T < B̄: Equity = 0"
+}
+```
 
 Owning zero-coupon debt subject to default is the same thing as owning a default-free bond and writing a put option on the assets of the firm. This is an example of a structural approach to modeling bankruptcy: We create an explicit model for the evolution of the firm's assets, coupled with a rule governing default.
 
 If we assume that the assets of the firm are lognormally distributed, then we can use lognormal probability calculations to compute either the risk-neutral or actual probability that the firm will go bankrupt. This approach to bankruptcy modeling has come to be called the Merton model since Merton (1974) used continuous-time methods to provide a model of the credit spread. The Merton default model has in recent years been the basis for credit risk analyses provided by Moody's KMV.
 
-# Default at Maturity
+### Default at Maturity
 
 Assume that the assets of the firm,  $A$ , follow the process
 
@@ -133,13 +209,13 @@ In this equation,  $\hat{d}_2$  is the Black-Scholes  $d_2$  term with  $r$  rep
 The expression  $\hat{d}_2$  is called the distance to default and measures the size (in standard deviations) of the random shock required to induce bankruptcy. To understand this interpretation, recall that when assets are lognormally distributed, the expected log asset value at time  $T$  is
 
 $$
-\operatorname {E} \left[ \ln \left(A _ {T}\right) \right] = \ln \left(A _ {t}\right) + (\alpha - \delta - 0. 5 \sigma^ {2}) (T - t)
+ \operatorname{E} \left[ \ln \left(A _ {T}\right) \right] = \ln \left(A _ {t}\right) + (\alpha - \delta - 0.5 \sigma^ {2}) (T - t)
 $$
 
 Thus, the distance to default is the difference between  $\operatorname{E}[\ln (A_T)]$  and the bankruptcy level  $\bar{B}$ , normalized by the standard deviation:2
 
 $$
-\begin{array}{l} \text {D i s t a n c e} = \frac {\operatorname {E} [ \ln \left(A _ {T}\right) ] - \bar {B}}{\sigma \sqrt {T - t}} \\ = \frac {\ln (A _ {t}) + (\alpha - \delta - 0 . 5 \sigma^ {2}) (T - t) - \ln (\bar {B})}{\sigma \sqrt {T - t}} \\ \end{array}
+\begin{array}{l} \text {D i s t a n c e} = \frac {\operatorname {E} [ \ln \left(A _ {T}\right) ] - \bar {B}}{\sigma \sqrt {T - t}} \\ = \frac {\ln (A _ {t}) + (\alpha - \delta - 0.5 \sigma^ {2}) (T - t) - \ln (\bar {B})}{\sigma \sqrt {T - t}} \\ \end{array}
 $$
 
 This is  $\hat{d}_2$ . The default probability is  $N(-\text{distance to default})$ .
@@ -195,7 +271,7 @@ Using the risk-neutral default probability and loss given default, we can comput
 
 $$
 
-\frac {1}{5} \ln \left[ \frac {1}{1 - 0 . 4 7 2 6 \times 0 . 3 1 8 6 6} \right] = 0. 0 3 2 6 3 5
+ \frac {1}{5} \ln \left[ \frac {1}{1 - 0.4726 \times 0.31866} \right] = 0.032635
 
 $$
 
@@ -203,7 +279,7 @@ This implies a debt yield to maturity of  $0.060 + 0.032635 = 0.092635$ , which 
 
 As the preceding example shows, historical data on defaults provides different information than historical data on prices. Historical default frequencies and recovery rates, which are observed under the true measure, correspond to equations (7) and (8). If we examine credit spreads, by contrast, we can infer the risk-neutral expected default frequency and recovery rate, which correspond to equations (9) and (10). Notice, however, that we would infer the same asset volatility from both sets of calculations.
 
-# Related Models
+### Related Models
 
 Suppose that the value of assets can jump to zero according to a Poisson process. Specifically, suppose that over an interval  $dt$ , the probability of a jump to zero is  $\lambda dt$ , and that the occurrence of this jump is independent of the market and of other defaults. When a stock can independently jump to zero, the value of a European call is obtained by replacing the risk-free rate,  $r$ , with  $r + \lambda$ . As before, equity is a call option on the assets. If the firm makes no payouts, the value,  $B_{t}$ , of a single issue of zero-coupon debt maturing at time  $T$  is
 
@@ -244,7 +320,7 @@ The models we have discussed are relatively simple: There are no coupon payments
 
 With barrier option pricing formulas, binomial valuation, Monte Carlo, or other numerical methods, it is possible to create bankruptcy models that permit bankruptcy prior to a maturity date. The Black and Cox (1976) model is a variant of the Merton model in which bankruptcy occurs if assets fall to a predetermined level,  $\underline{A}$ , prior to maturity. This assumption mimics a debt covenant that triggers default if the firm's financial condition worsens sufficiently. Equity in this model is a call option that knocks out if  $A_{t} \leq \underline{A}$ .
 
-# 3. BOND RATINGS AND DEFAULT EXPERIENCE
+## 3. BOND RATINGS AND DEFAULT EXPERIENCE
 
 Bond ratings provide a measure of the credit risk for specific bonds. Such ratings, which are provided by third parties, attempt to measure the likelihood that a company will default on a bond. In the United States, the Securities and Exchange Commission (SEC) identifies specific credit-rating firms as Nationally Recognized Statistical Rating Organizations (NRSROs). The history and significance of this designation was explained by the chairman of the SEC in congressional testimony.[4]
 
@@ -263,7 +339,7 @@ Standard and Poor's 1-year global corporate average credit rating transition rat
 
 Source: Vazza et al. (2011, Table 21).
 
-# Rating Transitions
+### Rating Transitions
 
 A company that goes bankrupt will typically have had ratings downgrades prior to bankruptcy. By looking at the frequency with which bonds experience a ratings change, it is possible to estimate the ultimate bankruptcy probability. A change in ratings is called a ratings transition.
 
@@ -320,11 +396,11 @@ Thus, a transition probability matrix can be used to tell us the probability tha
 
 The long-term experience of bonds with a given rating is reported in Table 4. Note that if a bond has a AAA rating, after 7 years there is a  $0.1\%$  chance it will have gone bankrupt. However, bonds issued by firms initially rated B accounted for  $54.1\%$  of defaults over the 30-year period in Table 4.
 
-# Recovery Rates
+### Recovery Rates
 
 Table 5 displays historical average recovery rates for bonds with different levels of seniority. When we model debt with different priorities, we assume that in a default, junior debtholders received no payment if senior debt was not completely repaid. This rule for paying bondholders is called absolute priority. If the bankruptcy process respects absolute priority, more senior bonds will have higher recovery rates. Table 5 shows that bonds designated as more senior generally have higher average recovery rates. It is important to understand that the numbers in Table 5 are averages, and there is considerable variation in recovery rates across firms.
 
-# Reduced Form Bankruptcy Models
+### Reduced Form Bankruptcy Models
 
 The existence of data on corporate bond ratings changes, and defaults suggests that we could construct statistical pricing models designed to match the behavior of bond prices.
 
@@ -366,7 +442,52 @@ If defaults are correlated, however, then even a portfolio containing numerous b
 
 A more general approach than that in equation (13) uses ratings transitions. Equation (13) does not take into account that default becomes more likely as ratings decline. With risk-neutral ratings transitions, it is possible to price bonds taking into account the various paths by which default can occur. Jarrow et al. (1997) show how to use observed bond prices and historical ratings transitions to infer risk-neutral ratings transition probabilities.
 
-# 4. CREDIT DEFAULT SWAPS
+## 4. CREDIT DEFAULT SWAPS
+
+```d2
+direction: right
+
+CDS Structure: {
+  shape: rectangle
+  style.fill: "#f0f8ff"
+  style.stroke: "#4682b4"
+
+  Protection Buyer: {
+    label: "Protection Buyer\n(Pays premium)\nHedges credit risk"
+    shape: rectangle
+    style.fill: "#FFE4E1"
+  }
+
+  Protection Seller: {
+    label: "Protection Seller\n(Receives premium)\nTakes credit risk"
+    shape: rectangle
+    style.fill: "#E0FFFF"
+  }
+
+  Reference Entity: {
+    label: "Reference Entity\n(XYZ Corp)\nBond issuer"
+    shape: circle
+    style.fill: "#F0E68C"
+  }
+
+  Premium Payments: {
+    label: "Premium Payments\n(Annual spread)\nFixed amount"
+    shape: hexagon
+    style.fill: "#DDA0DD"
+  }
+
+  Contingent Payment: {
+    label: "Contingent Payment\n(If credit event)\nBond value difference"
+    shape: hexagon
+    style.fill: "#FFA07A"
+  }
+
+  Protection Buyer -> Premium Payments: "Pays fixed premium"
+  Premium Payments -> Protection Seller
+  Reference Entity -> Contingent Payment: "Credit event triggers"
+  Contingent Payment -> Protection Buyer: "Receives payoff"
+}
+```
 
 The buyer of a bond acquires both interest rate risk and the credit risk of the issuer. An investor may wish to hold a different combination of these risks. Credit derivatives, which have existed since the early 1990s, are contracts that permit the trading and hedging of credit risk. In theory, credit derivatives permit institutions to hedge credit risk just as they might hedge the cost of oil. The outstanding notional principal covered by credit default swaps, which we discuss in this section, grew significantly between 2004 and 2010.
 
@@ -388,7 +509,7 @@ You might wonder who decides whether a credit event has occurred and how the bon
 
 CDS contracts are quoted for different expirations. The set of prices with different maturities generates a credit spread curve, where, for example, you may observe that credit spreads are small at short horizons and larger over 5 years. With an array of different maturities it is possible to make sophisticated bets. For example, you could buy protection
 
-# FIGURE I
+### FIGURE I
 
 Depiction of the cash flows in a credit default swap. The CDS buyer may or may not own the reference asset, which was issued by XYZ. The CDS buyer pays 40 basis points per year in exchange for the CDS seller's payment in the event of a default by XYZ.
 
@@ -423,7 +544,7 @@ Each period prior to termination, the net cash flow on the position is  $c - (r 
 
 - If the CDS matures and XYZ has not defaulted, sell the XYZ floating rate bond and use the 100 proceeds to buy the default-free floating rate note in order to close the
 
-# FIGURE 2
+### FIGURE 2
 
 5-year credit default swap premia for Morgan Stanley, Lehman Brothers, and Bank of America, 2004-2012. Y-axis scales are different for each panel.
 
@@ -449,7 +570,7 @@ In other words, the default swap premium equals the credit spread.
 
 Notice that we made very strong assumptions to reach this conclusion, so we should not expect equation (15) to hold exactly. In practice, we would need to take into account a variety of complications, including time variation in the credit spread, bonds having fixed
 
-# FIGURE 3
+### FIGURE 3
 
 5-year credit default swap premia for Germany, Greece, and Spain, 2004-2012. Bloomberg does not provide data for Greek CDS after November 2011. Y-axis scales are different for each panel.
 
@@ -465,7 +586,7 @@ A different set of issues is created by the possibility that a party to a CDS co
 
 An important question implicitly raised by this discussion is the definition of an "otherwise equivalent default-free bond." It seems natural to use government bonds as a benchmark, but government bonds are unique in certain respects. Prices of government bonds include a liquidity premium and sometimes reflect special tax attributes (for example, in the United States, federal government bonds are exempt from state taxes). At the same time, yields on non-governmental bonds will reflect default risk.[12] Thus, the yield on an "equivalent default-free bond" is unlikely to be the government yield curve, and in fact may not be directly observable.
 
-# Box 2: Amherst Holdings
+### Box 2: Amherst Holdings
 
 In 2009, a Texas-based brokerage, Amherst Holdings, sold credit default swaps on a mortgage-backed security based on subprime mortgages. According to the Wall Street Journal (Zuckerman et al., 2009), the underlying mortgages, which were widely expected to default, had a face value of  \$29 million and a market value of substantially less. Banks including J.P. Morgan Chase, Royal Bank of Scotland, and Bank of America bought\$ 130 million in CDS on the mortgage-backed securities, paying as much as $0.90 per $1 of bond face value.
 
@@ -479,7 +600,7 @@ A CDS index is an average of the premiums on a set of individual CDSs. Thus, a C
 
 Different contracts trade with different standard maturities. Most contracts are issued every 6 months. The CDX.NA.IG has standard maturities of 1, 2, 3, 5, 7, and 10 years.[14] The most recent 5 and 10-year contracts are the most heavily traded. The constituent firms can vary over time. Over the life of a contract, firms will drop out of an index due to bankruptcy or illiquidity, but otherwise the make-up of a given offering is set for the life of the offering. When a credit event occurs, the contract is reset with one fewer firm and a proportionally reduced notional principal.
 
-# FIGURE 4
+### FIGURE 4
 
 The structure of tranched CDX.NA.IG.
 
@@ -513,9 +634,54 @@ Credit Guarantees. If party A guarantees party B against default on a debt oblig
 
 ## 5. TRANCHED STRUCTURES
 
+```d2
+direction: down
+
+CDO Tranching: {
+  shape: rectangle
+  style.fill: "#fff8dc"
+  style.stroke: "#daa520"
+
+  Asset Pool: {
+    label: "Asset Pool\n(Risky bonds/loans)\nTotal value = V"
+    shape: rectangle
+    style.fill: "#FFE4B5"
+  }
+
+  Senior Tranche: {
+    label: "Senior Tranche\n(AAA rated)\nFirst claim on cash flows\nLow risk, low yield"
+    shape: rectangle
+    style.fill: "#90EE90"
+  }
+
+  Mezzanine Tranche: {
+    label: "Mezzanine Tranche\n(A-B rated)\nSecond claim\nMedium risk, medium yield"
+    shape: rectangle
+    style.fill: "#FFD700"
+  }
+
+  Equity Tranche: {
+    label: "Equity Tranche\n(Unrated)\nResidual claim\nHigh risk, high yield"
+    shape: rectangle
+    style.fill: "#FF6347"
+  }
+
+  Asset Pool -> Senior Tranche: "Cash flows distributed\nby priority"
+  Asset Pool -> Mezzanine Tranche: "After senior claims"
+  Asset Pool -> Equity Tranche: "After mezzanine claims"
+
+  Risk Distribution: {
+    label: "Risk Distribution:\n• Senior: Low risk\n• Mezzanine: Medium risk\n• Equity: High risk"
+    shape: hexagon
+    style.fill: "#F0E68C"
+    near: bottom-right
+  }
+}
+```
+
 Financial institutions acquire assets that are difficult to resell individually, examples of which are auto loans, credit card receivables, home equity loans, and mortgages. A process called securitization provides a mechanism for reselling such assets by pooling together many of them and creating securities based on the pool. An asset-backed security (ABS)
 
-# Box 3: Government Credit Guarantees
+### Box 3: Government Credit Guarantees
 
 The U.S. government is a major supplier of credit guarantees in a variety of financial activities. Some of the guarantees are front-page news: Federal debt guarantees for Chrysler in the 1980s and US Airways in 2002 are well-known examples. However, there are also a host of governmental and quasi-governmental insurance programs that many take for granted. Here is a partial list:
 
@@ -534,7 +700,7 @@ is a specific kind of structure used in securitizations. The regulatory definiti
 
 When an asset pool is securitized, the cash flows can be passed directly through to investors, in which case the structure is a pass-through. An alternative is to reapportion the returns on the asset pool in such a way that different claims to the asset pool have differing priorities with respect to the cash flows. Such a structure is said to be tranched. Many
 
-# Box 4: Structured Finance and the Financial Crisis
+### Box 4: Structured Finance and the Financial Crisis
 
 At the end of 1995, there was  \$257 billion of ABSs and\$ 2.35 trillion of mortgage-related securities outstanding. ABSs and mortgage-related debt constituted about 23\% of total outstanding debt in the United States (see sifma.org for data). By the end of 2007, there was \$2.95 trillion of ABS and \$8.16 trillion of mortgage-related debt, with the two categories constituting 34.6\% of outstanding debt. This relative growth of structured products was fueled by the real estate boom and facilitated by credit rating agencies giving high ratings to new structured products.
 
@@ -544,7 +710,7 @@ These writedowns and losses were reflected in credit downgrades of these product
 
 securitized structures have some degree of tranching. Our focus in this section will be on the effect of tranching.
 
-# Collateralized Debt Obligations
+### Collateralized Debt Obligations
 
 A collateralized debt obligation (CDO) is a financial structure that repackages the cash flows from a set of assets. You create a CDO by acquiring an asset pool and issuing tranched financial claims to finance the pool. The tranching makes it possible to take a pool of low-rated assets and create some tranches that are highly rated. Of course, the total risk of the pool is preserved, so other tranches will have low ratings. It is common for ABSs to be tranched, but for consistency we will refer to any tranched claim as a CDO.[19]
 
@@ -602,7 +768,7 @@ It is also possible to create a derivative that has the same payoff as an unfund
 
 The advantage of a synthetic CDO is that it is not necessary to create a physical position in assets. A disadvantage is that a synthetic position may have additional credit risk.
 
-# CDO-Squareds
+### CDO-Squareds
 
 A CDO-squared is a CDO comprised of CDOs.[21] Such a structure pools claims from the risky tranches of multiple CDOs and thereby creates a new CDO, the senior tranche of which can again (under certain assumptions) be highly rated.
 
@@ -618,7 +784,7 @@ Table 8 presents the payoffs and associated probabilities for the CDO-squared. T
 
 Table 9 presents the analysis for the case when the default correlation for the original bonds is 1 instead of 0. In this case, either no bonds default or all bonds default. With the original CDO, we saw in Table 7 that an increase in correlation harms the senior and mezzanine tranches, and increases the value of the equity tranche. The values of the underlying bonds do not change and the market value of the entire CDO does not change.
 
-# BOX 5: Abacus and Magnetar
+### BOX 5: Abacus and Magnetar
 
 Publicly available data is scarce for the CDO and ABS markets. The transactions are complicated and difficult to document, but anecdotes have come to light as a result of regulatory action and investigative reporting. Two notable cases both hinge on the question of whether the party selecting assets for a CDO was simultaneously betting against it.
 
@@ -630,13 +796,13 @@ With the CDO-squared, when correlation increases the value of the underlying mez
 
 Many CDOs are constructed from ABS and MBS bonds that are tranched, so in practice these CDOs resemble the CDO-squared in this example. Given this, it is no surprise that investors holding senior CDO tranches during the financial crisis suffered significant losses as housing prices fell nationwide.
 
-# FIGURE 6
+### FIGURE 6
 
 Structure of a CDO-squared, created by pooling and tranching mezzanine bonds from CDOs A, B, and C.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/27589d02cb88836a5c61eda7c496557b9d8954137365be47b721a1806a25336e.jpg)
 
-# Nth to default baskets
+### Nth to default baskets
 
 CDOs provide a means of pooling risky bonds to create claims with more and less risk than the pool. A particular variant of this strategy is the Nth to default basket.
 
@@ -666,11 +832,11 @@ Pricing of  $N$ th to default bonds. Assumes the bonds owned as assets have unco
 
 <table><tr><td rowspan="2">Default</td><td rowspan="2">Probability</td><td rowspan="2">Probability N or More</td><td colspan="2">Payoffs</td><td colspan="3">Expected</td></tr><tr><td>Default</td><td>No Default</td><td>Payoff</td><td>Price</td><td>Yield</td></tr><tr><td>First</td><td>0.243</td><td>0.271</td><td>40</td><td>100</td><td>83.74</td><td>78.863</td><td>0.237</td></tr><tr><td>Second</td><td>0.027</td><td>0.028</td><td>40</td><td>100</td><td>98.32</td><td>92.594</td><td>0.077</td></tr><tr><td>Third</td><td>0.001</td><td>0.001</td><td>40</td><td>100</td><td>99.94</td><td>94.120</td><td>0.061</td></tr></table> significant differences for yields for low numbers of defaults. The first-to-default tranche, for example, has a yield of  $16.02\%$  when defaults are uncorrelated and  $13.51\%$  when the default correlation is 0.25. This again illustrates that  $N$ th to default baskets are a way to speculate on default correlations.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 A party to a contract may fail to make a required future payment. The possibility of this event, which is called default, gives rise to credit risk. Credit risk is an important consideration in valuing corporate bonds, where two key inputs are the probability of default and the expected payoff to the bond if the firm does default. The Merton model uses option pricing to value debt subject to default. Some credit rating firms are designated by the SEC as Nationally Recognized Statistical Ratings Organizations (NRSROs). Credit agencies assign
 
-# FIGURE 7
+### FIGURE 7
 
 Pricing of an  $N$ th to default basket containing equal quantities of 10 bonds, each with a  $10\%$  probability of default.
 
@@ -696,7 +862,7 @@ There are various financial vehicles that permit the trading of credit risk. A s
 
 Collateralized debt obligations (CDOs) are claims to an asset pool. The claims are often structured (tranched) so as to create new claims, some of which are more and some of which are less sensitive to credit risk than the pool as a whole. The value of these claims depends importantly on the default correlation of the assets in the pool. It is possible to create a CDO in which the underlying assets are CDO tranches. Such a doubly tranched structure could be called a CDO-squared (although in practice, claims called CDO-squared are triply tranched).
 
-# FURTHER READING
+## FURTHER READING
 
 Both the actual traded credit contracts and pricing theory continue to evolve. Books with a practitioner perspective include Goodman and Fabozzi (2002) and Tavakoli (2001). Duffie (1999) discusses the pricing of credit default swaps. Frameworks for analyzing credit risk are discussed in Credit Suisse Financial Products (1997), J.P. Morgan (1997), Kealhofer (2003a), Kealhofer (2003b), and white papers on the Moody's KMV website, www.moodyskmv.com. A debate between advocates and critics of the KMV approach is in the February 2002 issue of Risk (Kealhofer and Kurbat, 2002; Sobehart and Keenan, 2002).
 

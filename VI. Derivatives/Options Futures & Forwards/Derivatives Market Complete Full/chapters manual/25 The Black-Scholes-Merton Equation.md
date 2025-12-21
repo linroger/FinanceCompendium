@@ -405,33 +405,25 @@ The lease rate on an asset paying  $S^a$  is  $\delta^{*} = r - a(r - \delta) - 
 The expected return on the stock,  $\alpha$ , does not appear in the Black-Scholes equation, equation (11). Thus, when pricing derivatives on investment assets, only the risk-free rate matters; the actual expected return on a stock is irrelevant for pricing an option on the stock. The binomial pricing formula also depends only on the risk-free rate.
 
 This observation led Cox and Ross (1976) to the following important observation: Because only the risk-free rate appears in the Black-Scholes PDE, it must be consistent with any possible world in which there is no arbitrage. If we are trying to value an option, we can assume that we are in the world in which it is easiest to value the option. Valuation will be easiest in a risk-neutral world, in which (if it actually existed) all assets would earn the risk-free rate of return and we would discount expected future cash flows at the risk-free rate. Thus, we can value options and other derivative claims by assuming that the stock earns the risk-free rate of return and calculate values based on that premise. We assume that the stock in this world follows the process
-
 $$
-\frac {d S}{S} = (r - \delta) d t + \sigma d \tilde {Z} \tag {28}
+\frac{dS}{S} = (r - \delta) dt + \sigma d\tilde{Z} \tag{28}
 $$
-
 As we keep emphasizing, the risk-neutral distribution is not an assumption about investor risk preferences. It is a device that can be used when pricing by arbitrage is possible (see Appendix B for a discussion).
 
 ## Interpreting the Black-Scholes Equation
 
 The actual expected change in the option price is given by
-
 $$
-\frac {1}{d t} \mathrm {E} _ {t} (d V) = V _ {t} + \frac {1}{2} \sigma^ {2} S ^ {2} V _ {S S} + (\alpha - \delta) S V _ {S} \tag {29}
+\frac{1}{dt} \mathrm{E}_{t}(dV) = V_{t} + \frac{1}{2} \sigma^{2} S^{2} V_{SS} + (\alpha - \delta) S V_{S} \tag{29}
 $$
-
 Let  $\mathrm{E}^*$  represent the expectation with respect to the risk-neutral distribution. Under the risk-neutral distribution, the expected change in the stock price is  $\mathrm{E}^*(dS) = (r - \delta)dt$ . The drift in the option price can thus be written
-
 $$
-\frac {1}{d t} \mathrm {E} _ {t} ^ {*} (d V) = V _ {t} + \frac {1}{2} \sigma^ {2} S ^ {2} V _ {S S} + (r - \delta) S V _ {S} \tag {30}
+\frac{1}{dt} \mathrm{E}_{t}^{*}(dV) = V_{t} + \frac{1}{2} \sigma^{2} S^{2} V_{SS} + (r - \delta) S V_{S} \tag{30}
 $$
-
 The Black-Scholes equation, (11), can therefore be rewritten as
-
 $$
-\frac {1}{d t} \mathrm {E} _ {t} ^ {*} (d V) = r V \tag {31}
+\frac{1}{dt} \mathrm{E}_{t}^{*}(dV) = r V \tag{31}
 $$
-
 Under the risk-neutral process, the option appreciates on average at the risk-free rate.
 
 ## The Backward Equation
@@ -447,11 +439,9 @@ $$
 $$
 
 For the risk-neutral process, equation (33) is
-
 $$
-V _ {t} + \frac {1}{2} \sigma^ {2} S ^ {2} V _ {S S} + (r - \delta) S V _ {S} = 0 \tag {34}
+V_{t} + \frac{1}{2} \sigma^{2} S^{2} V_{SS} + (r - \delta) S V_{S} = 0 \tag{34}
 $$
-
 Equation (34) is called the Kolmogorov backward equation for the geometric Brownian motion process given by equation (28). Whereas the Black-Scholes PDE characterizes prices, the backward equation characterizes probabilities. The backward equation is just like the Black-Scholes PDE except that there is no  $rV$  term. $^{12}$
 
 The Black-Scholes equation can be interpreted as saying that the expected return on the option must equal the risk-free rate. The backward equation pertains to probabilities of events, such as the probability that an option will expire in-the-money. To understand how such probabilities should behave, suppose we decide that the probability is 0.65 that the stock price 1 year from today will be greater than 100. We know today that if the stock price goes up tomorrow, we will then assign a greater probability to this event. If the stock price goes down tomorrow, our estimate of the probability will go down. However, we should not expect our estimate of the probability to change on average: Our expectation today, of tomorrow's probability, must also be 0.65. If today's estimate of tomorrow's probability were not 0.65, then 0.65 could not have been the correct probability today.
@@ -499,17 +489,17 @@ This is the Black-Scholes PDE, equation (11).
 
 This result means that discounted risk-neutral probabilities and partial expectations are prices of derivatives. Thus, any risk-neutral probability or partial expectation also has a corresponding derivative price. As an example of this, the Black-Scholes term  $N(d_{2})$  is the risk-neutral probability that an option is in-the-money at expiration. The discounted probability,  $e^{-r(T - t)}N(d_2)$ , is therefore the price of a derivative that pays 1 if the option is in-the-money at expiration.
 
-# 4. CHANGING THE NUMERAIRE
+## 4. Changing the Numeraire
 
 Now we consider what happens when the number of options (or other derivative contracts) that we receive at expiration is random, determined by some asset price. This odd-sounding payoff is common. Consider the following example.
 
 Example 2. The price today of a nondividend-paying stock is \$100, and the forward price is \$106.184. Joe bets Sarah that in 1 year the stock price will be greater than \$106.184. Joe wants the loser to pay one share to the winner. Sarah wants the loser to pay \$106.184 to the winner.
 
-The share received by Joe would be worth more than  \$106.184 if he wins. Similarly, Sarah's desired payoff of\$ 106.184 is worth more than one share if she wins. Are either of these fair bets? If not, who has the more valuable side of the bet if it is denominated in shares? Who has the more valuable side of the bet if it is denominated in cash?
+The share received by Joe would be worth more than \$106.184 if he wins. Similarly, Sarah's desired payoff of \$106.184 is worth more than one share if she wins. Are either of these fair bets? If not, who has the more valuable side of the bet if it is denominated in shares? Who has the more valuable side of the bet if it is denominated in cash?
 
 If Sarah wins (i.e., the share price is below \$106.184), a payment of \$106.184 will exceed the value of one share. If Joe wins (i.e., the share price is greater than \$106.184), a payment of one share will be worth more than \$106.184. However, it is not obvious which bet has a greater fair value given a current stock price of 100. Assuming no inside information about the stock, would an investor pay a greater price for Joe's desired bet or Sarah's desired bet?
 
-We can describe the two forms of the bet as each having a different numeraire, or unit of denomination. Joe's desired bet is denominated in shares, whereas Sarah's desired bet is denominated in dollars. You can interpret the share-denominated bet as paying either a fixed number of shares (one) or a variable number of dollars (the dollar price of one share). The dollar-denominated bet pays a fixed number of dollars ( \$106.184) or a variable number of shares (the number of shares with the value\$ 106.184). The general question we want to answer is how a change in the numeraire (unit of denomination) for a derivative changes the price of the derivative.
+We can describe the two forms of the bet as each having a different numeraire, or unit of denomination. Joe's desired bet is denominated in shares, whereas Sarah's desired bet is denominated in dollars. You can interpret the share-denominated bet as paying either a fixed number of shares (one) or a variable number of dollars (the dollar price of one share). The dollar-denominated bet pays a fixed number of dollars (\$106.184) or a variable number of shares (the number of shares with the value \$106.184). The general question we want to answer is how a change in the numeraire (unit of denomination) for a derivative changes the price of the derivative.
 
 Here are some other examples where a change of denomination is relevant:
 
@@ -520,17 +510,13 @@ Here are some other examples where a change of denomination is relevant:
 To see what happens when we change the denomination of an option, suppose  $Q$  is the price of an asset that follows
 
 $$
-
-\frac {d Q}{Q} = \left(\alpha_ {Q} - \delta_ {Q}\right) d t + \sigma_ {Q} d Z _ {Q} \tag {35}
-
+\frac{dQ}{Q} = (\alpha_{Q} - \delta_{Q}) dt + \sigma_{Q} dZ_{Q} \tag{35}
 $$
 
 Let  $V(S, t)$  represent the price of an option denominated in cash, where  $S$  follows the process in equation (5). The correlation between  $dZ_{Q}$  and  $dZ$  is  $\rho$ . Suppose we receive the time-  $T$  payoff
 
 $$
-
-Y [ Q (T), S (T), T ] = Q (T) ^ {b} V [ S (T), K, \sigma , r, T, \delta ] \tag {36}
-
+Y[Q(T), S(T), T] = Q(T)^{b} V[S(T), K, \sigma, r, T, \delta] \tag{36}
 $$
 
 Equation (36) represents a random number,  $Q^b$ , of claims,  $V$ . The value of this payoff is given in the following proposition.
@@ -589,7 +575,7 @@ The opposite side of Sarah's bet pays  $e^{-0.08} \times \106.184 - \$ 55.962 = 
 
 Problem 8 asks you to find the strike prices such that the cash and share-denominated bets have equal value.
 
-# 5. OPTION PRICING WHEN THE STOCK PRICE CAN JUMP
+## 5. Option Pricing When the Stock Price Can Jump
 
 Jumps pose a problem for the Black-Scholes option pricing methodology. When the stock price can jump discretely as well as move continuously, a position that hedges against small moves will not also hedge against big moves.
 
@@ -599,7 +585,7 @@ Merton (1976) derived an option pricing formula when the stock price can jump by
 
 Ultimately, the importance of jumps and their systematic component is an empirical issue. Nevertheless, Merton's formulas provide useful insights into the effects of jumps.
 
-# Merton's Solution for Diversifiable Jumps
+## Merton's Solution for Diversifiable Jumps
 
 Suppose that the stock follows the process
 
@@ -651,13 +637,13 @@ $$
 \begin{array}{l} \operatorname {B S P u t} _ {\lambda} (S, K, \sigma , r, T - t, \delta) \\ = \operatorname {B S C a l l} (S, K, \sigma , r + \lambda , T - t, \delta , \lambda) - S e ^ {- \delta (T - t)} + K e ^ {- r (T - t)} \\ \end{array}
 $$
 
-# CHAPTER SUMMARY
+## Chapter Summary
 
 The Black-Scholes equation, equation (11), characterizes the behavior of a derivative as a function of the price of one or more underlying assets. We can interpret the Black-Scholes equation as requiring that a derivative earn an appropriate rate of return, which occurs when the delta, gamma, and theta of an asset satisfy a particular relationship. The Black-Scholes equation is thus a generalization of the idea, familiar from introductory finance, that zero-coupon bonds appreciate at the risk-free rate. Probabilities and partial expectations satisfy a related condition known as the backward equation. Along with the Black-Scholes equation, a derivative must satisfy an appropriate boundary condition.
 
 A change of the units of an option payoff is called a change of numeraire. Proposition 1 shows that the price effect of a change of numeraire is accounted for with a simple transformation of the pricing formula.
 
-# FURTHER READING
+## Further Reading
 
 Two classic papers on option pricing are Black and Scholes (1973) and Merton (1973b). Merton (1976) extends the Black-Scholes model to allow diversifiable jumps in the stock price, and Naik and Lee (1990) develop a model to price options when jumps are systematic. The Heston model is described in Heston (1993). In addition to Bakshi et al. (1997) and Bates (2000), recent empirical studies of volatility skew include Benzoni (2001), Andersen et al. (2002), Eraker (2001), and Pan (2002).
 

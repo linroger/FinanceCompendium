@@ -1,29 +1,29 @@
 ---
+title: "Topics in International Macroeconomics"
+parent_directory: "Part 8 - Applications and Policy Issues"
+formatted: 2025-12-21 02:35:22 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
 primary_tags:
-- profits currencies period
 - international macroeconomics
-- carry trade sharpe ratios
-- yen carry trade australian
-- defaulting dollarizing government imf
-- exchange rates short run
+- exchange rates theory
+- carry trade strategies
+- debt default modeling
+- global macroeconomy crisis
 secondary_tags:
-- positive strategy yen depreciated
-- debt default global macroeconomy
-- hypothesis carry trade profits
-- currencies equally weighted portfolio
-- imf bailout argentina
-- trade returns volatility sharpe
-- risk premium compensates lenders
-- exchange rate sum carry
-- lending rate equals risk
-- returns strategies positive currencies
-- example periods sharp yen
-- portfolio trades strategy supposes
-- returns forex market risk
-- foundation exchange rate theory
-- borrowed low rate currency
-- 1998 australian dollar lost
-tags_extracted: '2025-12-18T00:45:15.805627'
+- purchasing power parity
+- balassa samuelson effect
+- uncovered interest parity
+- peso problems
+- limits to arbitrage
+- sharpe ratio analysis
+- yen carry trade
+- emerging markets crises
+- real exchange rates
+- productivity growth effects
+- currency risk premiums
+- efficient markets hypothesis
+cssclasses: academia
 ---
 
 # Topics in International Macroeconomics
@@ -32,23 +32,23 @@ Economics is a science of thinking in terms of models joined to the art of choos
 
 John Maynard Keynes, 1938
 
-ike other fields of economics, international macroeconomics is evolving continually. New empirical analyses are constantly appearing, deepening our understanding, and bringing attention to new phenomena. New theoretical models are always being developed, to better explain long-standing puzzles or to confront new ones. The fast-changing global economic environment of recent years has pushed forward research faster than ever.
+Like other fields of economics, international macroeconomics is evolving continually. New empirical analyses are constantly appearing, deepening our understanding, and bringing attention to new phenomena. New theoretical models are always being developed, to better explain long-standing puzzles or to confront new ones. The fast-changing global economic environment of recent years has pushed forward research faster than ever.
 
 In the four stand-alone sections of this final chapter, we examine several important topics that have occupied researchers for many years and that remain at the cutting edge. In these "mini-chapters" we explore new issues as well as important extensions to the core models presented earlier in the book:
 
 - We ask whether purchasing power parity really works as a long-run theory of exchange rates. Evidence shows that a better theory has to explain why price levels are higher in richer countries. We develop such a theory and show how it can be applied to improve exchange rate forecasts.
 - We ask whether uncovered interest parity really works as a short-run theory of exchange rates. We show that forex traders often make massive profits (and also losses) and that such profits may be somewhat predictable. If arbitrage operates to support uncovered interest parity in an efficient market, such profits ought to be eliminated. One explanation might be that there are limits to arbitrage, such as an aversion to the extreme riskiness of profits in the forex market.
 
-1 Exchange Rates in the Long Run: Deviations from Purchasing Power Parity
-2 Exchange Rates in the Short Run: Deviations from Uncovered Interest Parity
-3 Debt and Default
-4 The Global Macroeconomy and the 2007-2013 Crisis
+1. Exchange Rates in the Long Run: Deviations from Purchasing Power Parity
+2. Exchange Rates in the Short Run: Deviations from Uncovered Interest Parity
+3. Debt and Default
+4. The Global Macroeconomy and the 2007-2013 Crisis
 
 We study the problem of defaults by governments on their debt. Some of the facts to be explained are why any lenders lend given the risk of default, why borrowers choose to default when they do, and what price they pay for defaulting. We develop a model in which adverse economic shocks (low output) make countries more likely to default. The bigger such shocks are, the more the countries default, and the less willing lenders are to lend, unless they receive a higher interest rate. The model fits various facts: poorer countries have more volatile output, are charged higher interest rates, default more often even at lower levels of debt, and lenders don't make much profit.
 
 We look at the performance of the global macroeconomy before, during, and after the 2007-2009 Global Financial Crisis and subsequent Great Recession. We look to understand some of the causes and consequences of this event using the tools we have developed throughout the book, even as the repercussions of this event continue to unfold.
 
-# 1 Exchange Rates in the Long Run: Deviations from Purchasing Power Parity
+## 1 Exchange Rates in the Long Run: Deviations from Purchasing Power Parity
 
 According to the most recent data from the World Bank, in 2012 gross national income per capita in the United States was  \$ 50,120, but by converting incomes using the exchange rate, it was found that gross national income per capita in China was only \$ 5,740, about 11.5% of the U.S. level. Were the Chinese really that poor in terms of material living standards? No.
 
@@ -56,7 +56,7 @@ When the calculations were repeated by comparing dollar incomes with the dollar 
 
 These adjustments have many implications: for example, they affect calculations of living standards, poverty, allocations of aid, and projections of growth, consumption, demographics, pollution, and so on. So we need to understand these deviations from PPP for many reasons, including the need to refine our theory of exchange rates. When we learned about long-run exchange rates, we showed that we could predict the expected future exchange rate using the monetary approach to exchange rates, if purchasing power parity holds, that is, if baskets of goods sell for the same price in all locations. This theory provided a workable model of real exchange rates, but it was far from perfect. In this section, we address a major deficiency in PPP theory: its assumption that all goods are costlessly tradable.
 
-# Limits to Arbitrage
+## Limits to Arbitrage
 
 One way to set up a more realistic economic model would be to introduce costs of trading, which is now an important area of research in international economics.
 
@@ -70,11 +70,12 @@ Formally, the ratio of the prices in the two locations can be written in proport
 
 As we have just seen, arbitrage from Home to Foreign is profitable only if the Foreign price is higher than the Home price adjusted for the trade cost, which requires  $ q = EP^{*} / P > 1 + c $. Conversely, arbitrage the other way is profitable only if the Home price is sufficiently higher than the Foreign price, with $ 1 / q = P / (EP^{*}) > 1 + c $ .
 
-Thus, if  $ q $ is below $ 1 + c $, there will be no arbitrage from Home to Foreign. And if $ q $ is above $ 1 / (1 + c) $, there will be no arbitrage from Foreign to Home. So we have shown that, taking trade costs into account, the no arbitrage condition for market equilibrium is $ $
+Thus, if  $ q $ is below $ 1 + c $, there will be no arbitrage from Home to Foreign. And if $ q $ is above $ 1 / (1 + c) $, there will be no arbitrage from Foreign to Home. So we have shown that, taking trade costs into account, the no arbitrage condition for market equilibrium is
 
-\frac{1}{1 + c} \leq \underbrace {\frac{E P^{*}}{P}}_{\leq 1 + c}
+$$
+\text{Sharpe} = \frac{\text{Mean (annual excess return)}}{\text{Standard deviation (annual excess return)}}
+$$
 
-$ $
 Real exchange rate  $ q $
 
 Let's look at what this condition implies for various levels of trading costs.
@@ -113,13 +114,13 @@ The illustration that follows shows the magnitudes of international trade costs 
 
 These data show that trade costs are large—and typically, they are even larger outside the advanced countries and create a very wide no-arbitrage band. This observation has led economists to incorporate trade costs into our economic models, so we can develop a more realistic theory of what goes on in the real world.
 
-# Application
+## Application
 
-# It's Not Just the Burgers That Are Cheap
+### It's Not Just the Burgers That Are Cheap
 
 If real exchange rates can deviate from the PPP-implied value of 1, the next question to ask is, how do they vary, and why? One place to find a clue is in the pattern of deviations from PPP. For example, look at the Economist newspaper's Big Mac index by searching the Internet for "economist big mac index." If deviations from PPP were random, they might easily be dismissed as an approximation error. However, deviations from PPP in the Big Mac index are not entirely random: burgers tend to be cheaper in poorer countries. In July 2012, for example, the Economist found that, expressed in U.S. dollars, a Big Mac cost  $ 38\% $ less in Mexico and $ 46\% $  less in Malaysia than it did in the United States.
 
-# Figure 22-2
+## Figure 22-2
 
 (a) Wages and Big Mac Prices
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/1e8466f3c38628e1e9094f5b73fdc06fcc0db340fe4ec5ccdca1463b1837220d.jpg)
@@ -142,7 +143,7 @@ The argument applies to most goods that are included in calculations of national
 
 rate  $ q = EP^{*} / P $  does not equal 1 for all countries, and PPP does not hold, even in the long run. The remainder of this section explores this pattern using economic theory and considers what effect the lack of PPP has on the exchange rate models and predictions we developed earlier in the book.
 
-# Nontraded Goods and the Balassa-samuelson Model
+## Nontraded Goods and the Balassa-Samuelson Model
 
 Trade costs have major implications for international macroeconomics. In fact, by expanding our analysis from one good that is traded to two goods—one traded and one not traded—we can explain price level differences and deviations from PPP.
 
@@ -203,14 +204,12 @@ This equation describes a relationship between productivity and the real exchang
 
 When compared with other countries, a country experiencing an increase in productivity will see wages and incomes rise and will see its real exchange rate appreciate, meaning that its price level will rise.<sup>4</sup>
 
-# Overvaluations, Undervaluations, and Productivity Growth: Forecasting Implications for Real and Nominal Exchange Rates
+## Overvaluations, Undervaluations, and Productivity Growth: Forecasting Implications for Real and Nominal Exchange Rates
 
 The Balassa-Samuelson model makes a firm prediction that is supported strongly by evidence: price levels are higher in rich countries. The scatterplot in Figure 22-2, panel (b), showed this fact, and we zoom in to examine a part of it in Figure 22-3.
 
-In such a figure, a point on the line of best fit is the predicted equilibrium real exchange rate  $ \tilde{q} $ of the Balassa-Samuelson model. Figure 22-3 plots the U.S. real exchange rate against each foreign country—it shows foreign dollar prices $ EP^{*} $ relative to U.S. prices $ P $. So an increase on the vertical axis is a rise in the relative price of foreign goods: it is a U.S. real depreciation, or a foreign real appreciation. The actual data do not sit precisely on the line of best fit. That is, the observed real exchange rate $ q $ may differ from its equilibrium value $ \tilde{q} $ .
-
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/0dc96024c7bbad9a55b876dd132dbf3fc87bd8649edcaa3c9ca6705d989498e5.jpg)
-FIGURE 22-3
+## Figure 22-3
 
 Predicted Real Exchange Rate Adjustments in Emerging Markets The scatterplot shows national price levels and GDP per person relative to the United States for the year 2000, as in Figure 22-2(b). The Balassa-Samuelson model would predict convergence to equilibrium in all cases (arrows 1, 3, 4). In relatively fast-growing countries, this would be augmented by trend real appreciation (arrows 2 and 5). Thus, real appreciations were expected for the Chinese yuan and the Slovak koruna, and a real depreciation for the Argentine peso.
 
@@ -250,9 +249,9 @@ Thus:
 If the model says there is currently a real undervaluation, either home goods prices have to rise or the value of the home currency has to rise—there is no other way to make home goods more expensive.
 If the model says there is currently a real overvaluation, either home goods prices have to fall or the value of the home currency has to fall—there is no other way to make home goods less expensive.
 
-# Application
+## Application
 
-# Real Exchange Rates in Emerging Markets
+### Real Exchange Rates in Emerging Markets
 
 To see how we can use these ideas to make forecasts of real and nominal exchange rates, we examine three cases in Figure 22-3 that were in the news a few years ago. The data we use are for the year 2000, which allows us to look at subsequent events and see how well the predictions of the model turned out in the following years.
 
@@ -271,22 +270,21 @@ What actually happened: Argentina was pegging the peso to the dollar at 1:1, so 
 Slovakia: Obeying the Rules? The Balassa-Samuelson model predictions: Figure 22-3 also shows Slovakia. Like China, Slovakia was a fast-growing country, part of a group of countries in Eastern Europe lined up to join the European Union (EU) and ultimately the Eurozone. Slovakia's real exchange rate was  $ q = 0.282 $ in 2000 and undervalued relative to the predicted equilibrium $ \tilde{q} = 0.534 $. Here, $ q $ needed to rise by $ 89\% $ to reach equilibrium. Using our rule of thumb, half of this gap, or $ 45\% $, would be closed in five years, implying a real appreciation of about $ 7.5\% $ per year. In addition, fast GDP per capita growth relative to the EU probably added another $ 1\% $ to $ 2\% $ on top of that, as in the China case, as a result of the moving target. Thus, the expected real appreciation would have been $ 8\% $ to $ 10\% $  per year.
 
 What actually happened: Slovakia notched up high rates of real appreciation of between  $ 5\% $ and $ 10\% $  per annum from 1992 to 2004, as did many other countries in Eastern Europe. The situation was like that in China: it required some
-
 combination of nominal appreciation and inflation. But Slovakia (and many of its neighbors) also wanted to join the euro. As we saw in the chapter on the euro, the Maastricht criteria would require Slovakia to peg to the euro (no appreciation) and keep its inflation within limits (within  $ 2\% $  of the "best" in the EU). Our model suggests this would be impossible: the koruna would have to appreciate or Slovakia's inflation would have to accelerate! As an exercise, you may wish to explore in more detail what actually happened. (See the second Net Work problem at the end of this chapter.)
 
-# Conclusion
+## Conclusion
 
 In general, PPP does not hold. Goods prices are not the same in all countries. Arbitrage fails, most likely because of trade costs. The Balassa-Samuelson theory can explain how prices vary when goods are not traded and why rich countries have higher price levels. As countries get richer, their wages rise, driving up the prices of their nontraded goods (which use local labor as an input). This will drive up the overall price index and will cause the real exchange rate to fall—that is, a real appreciation. The theory finds strong empirical support and can be used to make better models of real and (hence) nominal exchange rates, with improved predictions, in situations in which an assumption of PPP is inappropriate.
 
-# 2 Exchange Rates in the Short Run: Deviations from Uncovered Interest Parity
+## 2 Exchange Rates in the Short Run: Deviations from Uncovered Interest Parity
 
 When we studied exchange rates in the short run, we examined interest arbitrage in the forex market and introduced uncovered interest parity (UIP), the fundamental condition for forex market equilibrium. Recall that UIP states the expected return on foreign deposits should equal the return on domestic deposits when both are expressed in domestic currency.
 
 For such an important foundation of exchange rate theory, however, UIP remains subject to considerable debate among international macroeconomists. The topic is important because any failure of UIP would affect our theories about exchange rates and the wider economy. For that reason, in this section we further explore the UIP debate to better understand the mechanism of arbitrage in the forex market.
 
-# Application
+## Application
 
-# The Carry Trade
+### The Carry Trade
 
 Uncovered interest parity (UIP) implies that the home interest rate should equal the foreign interest rate plus the rate of depreciation of the home currency. If UIP holds, it would seem to rule out the naive strategy of borrowing in a low interest rate currency and investing in a high interest rate currency, an investment referred to as a carry trade. In other words, UIP implies that the expected profit from such a trade is zero:
 $ $
@@ -306,9 +304,8 @@ To sum up, the carry trade strategy was subject to a good deal of volatility, an
 
 What happened after that date? Subsequent trends again caused the value of Australian investment to pull ahead, as can be seen in panel (a) by the mostly positive returns registered month after month from 2002 to 2006. By June 2007
 
-# Figure 22-4
+## Figure 22-4
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/17a584b10d840f87622da5f518b44d79bec5024086b64a0ba317803678669728.jpg)
 (a) The Yen Carry Trade with the Australian Dollar
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/c9c16e06aec79a85f6870fa80bad6f841de96ed89ca9a8c56e656fa9b001cf90.jpg)
@@ -330,15 +327,15 @@ Still, given the persistence of profits, anyone predicting such reversals may ap
 
 **Carry Trade Summary** Our study of the carry trade focuses our attention on several facts. First, even if expected returns from arbitrage are zero, actual realized returns are often not zero. Second, such returns appear to be persistent. Third, the returns are also very volatile, or risky. All of these issues need to be addressed as we judge the success or failure of UIP.
 
-# Application
+## Application
 
-# Peso Problems
+### Peso Problems
 
 The example of carry trades between the Japanese yen and the Australian dollar shows how actual returns from interest arbitrage may be nonzero (but risky) for a pair of currencies that are floating. But the same can be true for two currencies that are fixed.
 
-# Headlines
+### Headlines
 
-# Mrs. Watanabe's Hedge Fund
+#### Mrs. Watanabe's Hedge Fund
 
 The OECD estimated the total yen carry trade at \$ 4 trillion in 2006. This trade involves not just large financial institutions but increasing numbers of Japanese individual investors, who place money in high-yielding foreign currency deposits or uridashi bonds.
 
@@ -392,9 +389,8 @@ As we saw in the chapter on fixed and floating regimes, in the case of a credibl
 
 Figure 22-5, panel (a), shows data for Hong Kong from 1990 to 2001, including the crucial period in 1997 when many Asian countries were in crisis and their exchange rate pegs were breaking. Most of the time, the interest differential between the Hong Kong dollar and the U.S. dollar was zero, as one would expect for what was perceived to be a credible peg. Hong Kong was operating a quasi-currency board with reserves
 
-# Figure 22-5
+## Figure 22-5
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/b9c55f1e1c4742650cbad49aa0698a0133214ae3facc97e9ab49fdb4fe746d4d.jpg)
 (a) Hong Kong Dollar Interest Rate Minus U.S. Dollar Interest Rate
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/53989fd2dcc6b3ce5864686efe2bb53bed2c2b2522c6877d28a70f2eaa59fc58.jpg)
@@ -997,7 +993,7 @@ Summary History shows that economies based on financial capitalism have experien
 
 # Panic and the Great Recession
 
-In 2007 the Global Financial Crisis started to unfold quickly from a set of potential risks into a massive catastrophe that would wreak havoc on the global economy for the next several years (see the timeline in Table 22-2).
+In 2007 the Global Financial Crisis started to unfold quickly from a set of potential risks into a massive catastrophe that would wreak havoc on the global economy for the next several years (see the timeline in Table 22-2
 
 # Figure 22-17
 

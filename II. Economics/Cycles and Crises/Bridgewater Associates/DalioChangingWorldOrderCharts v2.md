@@ -1,26 +1,26 @@
 ---
-aliases:
-- The Changing World Order Charts
+
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
-title: Principles for Dealing with The Changing World Order - Charts v2
+title: Principles for Dealing with the Changing World Order - Charts V2
 primary_tags:
-- china conflict
-- log) global real gdp
-- ▲ resource-allocation efficiency
-- big cycle
-secondary_tags:
+- changing world order
+- global economic cycles
 - reserve currency status
-- conflict deaths
-- ↗ wealth/oppportunity/values gap narrow
-- other countries
-- empires china
-- internal conflict average
+- empire rise decline
+secondary_tags:
+- conflict deaths analysis
 - resource allocation efficiency
-- xinhai revolution chn
-- rank trajectory position
-formatted: 2025-12-20 11:03:25 PM
-formatter_model: claude-sonnet-4
+- wealth opportunity gaps
+- internal order disorder
+- external order disorder
+- economic cycle determinants
+- big cycle theory
+- historical empire patterns
+- currency value changes
+- money credit debt cycle
+formatted: 2025-12-21 02:40:00 AM
+formatter_model: claude-3-5-sonnet-20241022
 cli-tool: claude-code
 ---
 
@@ -30,7 +30,7 @@ This PDF contains the charts and tables from the book for printing and easy refe
 
 ## CHAPTER 1
 
-# THE BIG CYCLE IN A TINY NUTSHELL
+### THE BIG CYCLE IN A TINY NUTSHELL
 
 GLOBAL REAL GDP PER CAPITA (LOG)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/eded02e1fcdd89026948e893067940fb457909bf362a76fe305c268aeee6a280.jpg)  
@@ -94,7 +94,7 @@ Dark red = gauge is weak/bad
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/6d5c0ae1ef550ee397b429cc401531030173e2c2a09dc8f865cd27385d0797c0.jpg)  
 CHANGES TO THE WORLD ORDER (CONCEPTUAL EXAMPLE)
 
-# End of the Old, Beginning of the New (e.g., Dutch to British)
+## End of the Old, Beginning of the New (e.g., Dutch to British)
 
 - Debt restructuring and debt crisis  
 Internal revolution (peaceful or violent) that leads to large transfers of wealth from the "haves" to the "have-nots"  
@@ -102,7 +102,7 @@ External war
 Big currency breakdown  
 New domestic and world order
 
-# End of the Old, Beginning of the New (e.g., British to US)
+## End of the Old, Beginning of the New (e.g., British to US)
 
 - Debt restructuring and debt crisis  
 Internal revolution (peaceful or violent) that leads to large transfers of wealth from the "haves" to the "have-nots"
@@ -111,9 +111,9 @@ External war
 Big currency breakdown  
 New domestic and world order
 
-# CHAPTER 2
+## CHAPTER 2
 
-# THE DETERMINANTS
+## THE DETERMINANTS
 
 How the Machine Works = (f)…  
 
@@ -133,15 +133,15 @@ ADDITIONAL DETERMINANTS
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/1197f0becfad4ddcbd0bf0a0a1e3b03ff37d36e9f09dccd92fcfb16273b92bd1.jpg)  
 DYNAMICS TO PAY ATTENTION TO
 
-# CHAPTER 2
+## CHAPTER 2
 
-# DETERMINANTS ADDENDUM
+## DETERMINANTS ADDENDUM
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/9701b7d7db36fc257cf61c5f8206cb5d6378cced0bf9290f25ffd121ab662d0e.jpg)
 
-# CHAPTER 3
+## CHAPTER 3
 
-# THE BIG CYCLE OF MONEY, CREDIT, DEBT, AND ECONOMIC ACTIVITY
+## THE BIG CYCLE OF MONEY, CREDIT, DEBT, AND ECONOMIC ACTIVITY
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/472b8ab51d4d4d1b9fc9736b8e97845107637ecdd71e1c87aaa8dbbb6060270d.jpg)  
 Type 2: Claims on Hard Money  
@@ -154,11 +154,11 @@ Type 3: Fiat Money
 Maximizes Credit,  
 Minimizes Credibility
 
-# CHAPTER 4
+## CHAPTER 4
 
-# THE CHANGING
+## THE CHANGING
 
-# VALUE OF MONEY
+## VALUE OF MONEY
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/7baa9bbf453085903f6b85359bcaed685638e6958be2fa1be016c57ef2f6ebe9.jpg)  
 RESERVE CURRENCIES VS GOLD (SPOT FX)
@@ -198,11 +198,11 @@ REAL RETURN OF GOLD (VS CPI, LOG)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/8fdbd8a9c195b35ea57dc512e25ebd32c3d84d0ff155250bd101063c651cab1d.jpg)  
 REAL RETURN OF BILLS (VS CPI)
 
-# CHAPTER 5
+## CHAPTER 5
 
-# THE BIG CYCLE OF INTERNAL
+## THE BIG CYCLE OF INTERNAL
 
-# ORDER AND DISORDER
+## ORDER AND DISORDER
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/2705823d42c286d4209f3042cdc74a05f6e96076398d2ab56b5dc400930b65e9.jpg)
 
@@ -230,39 +230,15 @@ CONFLICT
 
 <table><tr><td>Dutch Revolt</td><td>NLD</td><td>1566</td></tr><tr><td>English Civil War</td><td>GBR</td><td>1642</td></tr><tr><td>Glorious Revolution</td><td>GBR</td><td>1688</td></tr><tr><td>American Revolution</td><td>USA</td><td>1775</td></tr><tr><td>French Revolution</td><td>FRA</td><td>1789</td></tr><tr><td>Trienio Liberal</td><td>ESP</td><td>1820</td></tr><tr><td>French Revolution of 1848</td><td>FRA</td><td>1848</td></tr><tr><td>Meiji Restoration</td><td>JPN</td><td>1868</td></tr><tr><td>Xinhai Revolution</td><td>CHN</td><td>1911</td></tr><tr><td>Russian Revolution and Civil War</td><td>RUS</td><td>1917</td></tr><tr><td>German Revolution/End of Monarchy</td><td>DEU</td><td>1918</td></tr><tr><td>Rise of Hitler/Political Violence</td><td>DEU</td><td>1929</td></tr><tr><td>Rise of Japanese Militarists</td><td>JPN</td><td>1932</td></tr><tr><td>Spanish Civil War</td><td>ESP</td><td>1936</td></tr><tr><td>Chinese Civil War</td><td>CHN</td><td>1945</td></tr><tr><td>Jacobite Risings</td><td>GBR</td><td>1745</td></tr><tr><td>Pugachev&#x27;s Rebellion</td><td>RUS</td><td>1773</td></tr><tr><td>Dutch Patriot Revolt</td><td>NLD</td><td>1781</td></tr><tr><td>White Lotus Rebellion</td><td>CHN</td><td>1794</td></tr><tr><td>German Revolutions of 1848</td><td>DEU</td><td>1848</td></tr><tr><td>Taiping Rebellion</td><td>CHN</td><td>1851</td></tr><tr><td>Panthay Rebellion</td><td>CHN</td><td>1856</td></tr><tr><td>US Civil War</td><td>USA</td><td>1861</td></tr><tr><td>Muslim Rebellion</td><td>CHN</td><td>1862</td></tr><tr><td>Paris Commune</td><td>FRA</td><td>1871</td></tr><tr><td>Boxer Rebellion</td><td>CHN</td><td>1899</td></tr><tr><td>1905 Russian Revolution</td><td>RUS</td><td>1905</td></tr><tr><td>National Protection War</td><td>CHN</td><td>1915</td></tr><tr><td>6 February 1934 Crisis</td><td>FRA</td><td>1934</td></tr></table>
 
-Cas-
+Cases that created changes to the system or regime
 
-es that
-
-created
-
-changes
-
-to the
-
-system or
-
-regime
-
-Cases
-
-that didn't
-
-create
-
-changes
-
-to the
-
-system or
-
-regime
+Cases that didn't create changes to the system or regime
 
 CHAPTER 6
 
-# THE BIG CYCLE OF EXTERNAL
+## THE BIG CYCLE OF EXTERNAL
 
-# ORDER AND DISORDER
+## ORDER AND DISORDER
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/83d0eaa2d5e83d2e0bc2ad53209362416c84f52b4efb903f093bc91adacca7aa.jpg)  
 EST EUROPEAN DEATHS FROM CONFLICT  
@@ -285,9 +261,9 @@ REGULATIONS IMPACTING ASSETS
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/2eb4895422fcc1fb6442e4099d409cc2f025b31bbe4fe00fd6780e68785d188a.jpg)  
 EQUITY RETURN INDEX (USD)
 
-# INVESTING IN LIGHT OF THE BIG CYCLE
+## INVESTING IN LIGHT OF THE BIG CYCLE
 
-# THE BUILDING BLOCKS OF A WELL-DIVERSIFIED PORTFOLIO
+## THE BUILDING BLOCKS OF A WELL-DIVERSIFIED PORTFOLIO
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/303264de2d51cc130873a8ea2151c87ab09917cae84a2a722954d614daf11faf.jpg)
 
@@ -359,11 +335,11 @@ NOMINAL PAYBACK PERIOD (YEARS)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/9637af8b0953a04b872bed9a06d4adae08db725058cf19991e5a7afc62594a1c.jpg)  
 REAL PAYBACK PERIOD (YEARS)
 
-# CHAPTER 8
+## CHAPTER 8
 
-# THE LAST 500 YEARS
+## THE LAST 500 YEARS
 
-# IN A TINY NUTSHELL
+## IN A TINY NUTSHELL
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/83229adf06c1805196f807b1f0acdb5079429f020fe135d707a83e565ab5f006.jpg)
 
@@ -383,11 +359,11 @@ ROUGH COUNT OF TRIBUTARY AREAS (BASED ON TRIBUTARY VOYAGES OVER 30YR WINDOW)
 
 CHAPTER 9
 
-# THE BIG CYCLE RISE AND
+## THE BIG CYCLE RISE AND
 
-# DECLINE OF THE DUTCH
+## DECLINE OF THE DUTCH
 
-# EMPIRE AND THE GUILDER
+## EMPIRE AND THE GUILDER
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/37a3ce9a2297b2032290169db17f3882d4cbb4c13d878c21f8d3e5744120172c.jpg)  
 THE NETHERLANDS: INDEX OF KEY DETERMINANTS
@@ -486,13 +462,7 @@ GOVERNMENT BOND YIELDS
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/7ea4bae0c550fde90f35505f8d33804583b1167a2b572774ce684c742c6e36c8.jpg)  
 DUTCH BOND PRICES (TERM ANNUITIES)
 
-# CHAPTER 10
-
-# THE BIG CYCLE RISE AND
-
-# DECLINE OF THE BRITISH
-
-# EMPIRE AND THE POUND
+## CHAPTER 10: THE BIG CYCLE RISE AND DECLINE OF THE BRITISH EMPIRE AND THE POUND
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/e015c74d937bb6f9ea7dfe4c541471066cd4e7fb1eeeaa5c5eee9cb8f32250dc.jpg)  
 CHANGES TO THE WORLD ORDER (CONCEPTUAL EXAMPLE)
@@ -647,13 +617,13 @@ GDP PER CAPITA (2010 USD)
 GDP PER CAPITA  
 ITA ESP GRC
 
-# CHAPTER 11
+## CHAPTER 11
 
-# THE BIG CYCLE RISE AND
+## THE BIG CYCLE RISE AND
 
-# DECLINE OF THE UNITED
+## DECLINE OF THE UNITED
 
-# STATES AND THE DOLLAR
+## STATES AND THE DOLLAR
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/4ccee00a817b35635ce8196ea5daa5fc63f9b8fcbba7b06e2b58e965cc889fd1.jpg)  
 UNITED STATES: INDEX OF KEY DETERMINANTS
@@ -718,11 +688,11 @@ POLITICAL SPECTRUM 50 YEARS AGO
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/3a10688232de4c52b8149001e0e4eea43cc644703d60054699eff82e8282aec0.jpg)  
 POLITICAL SPECTRUM 2021
 
-# CHAPTER 12
+## CHAPTER 12
 
-# THE BIG CYCLE RISE OF
+## THE BIG CYCLE RISE OF
 
-# CHINA AND THE RENMINBI
+## CHINA AND THE RENMINBI
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/4cf0de8a9a6b3dd1b4aaec42654d6dc7b0a1d53023408d967823fedc3aee3767.jpg)  
 RELATIVE STANDING OF GREAT EMPIRES
@@ -765,11 +735,11 @@ CHINA
 
 <table><tr><td></td><td>1980</td><td>Today</td><td>Change</td><td>Change (%)</td><td>1980</td><td>Today</td><td>Change</td><td>Change (%)</td></tr><tr><td>Average Years of Schooling</td><td>11.9</td><td>13.6</td><td>+1.7</td><td>+14%</td><td>4.6</td><td>7.9</td><td>+3.3</td><td>+72%</td></tr><tr><td>Govt Spending on Education (% of GDP)</td><td>5.30%</td><td>5.50%</td><td>0.20%</td><td>+4%</td><td>1.90%</td><td>5.20%</td><td>3.30%</td><td>+174%</td></tr><tr><td>Est Population w/ Tertiary Education (Mln)</td><td>25</td><td>60</td><td>+35</td><td>+140%</td><td>3</td><td>120</td><td>+117</td><td>+3,900%</td></tr><tr><td>Population w/ Tertiary Education (% Working-Age Pop)</td><td>17%</td><td>28%</td><td>11%</td><td>+68%</td><td>1%</td><td>12%</td><td>11%</td><td>+2,272%</td></tr><tr><td>Population w/ Tertiary Education (% World)</td><td>35%</td><td>15%</td><td>-20%</td><td>-57%</td><td>4%</td><td>31%</td><td>+27%</td><td>+590%</td></tr><tr><td>STEM Majors (Mln)</td><td>3</td><td>8</td><td>+5</td><td>+141%</td><td>1</td><td>21</td><td>+21</td><td>+4,120%</td></tr><tr><td>STEM Majors (% World)</td><td>29%</td><td>11%</td><td>-18%</td><td>-62%</td><td>5%</td><td>31%</td><td>+26%</td><td>+535%</td></tr></table>
 
-# CHAPTER 13
+## CHAPTER 13
 
-# US-CHINA RELATIONS
+## US-CHINA RELATIONS
 
-# AND WARS
+## AND WARS
 
 SHARE OF CENTRAL BANK RESERVES BY CURRENCY  
 
@@ -777,9 +747,9 @@ SHARE OF CENTRAL BANK RESERVES BY CURRENCY
 
 Based on data through 2019
 
-# CHAPTER 14
+## CHAPTER 14
 
-# THE FUTURE
+## THE FUTURE
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/a1a973399ca4f915bc18d12f369ad5a20799e48e9130a4984c4c235ecb7d7a1c.jpg)  
 GLOBAL POPULATION (MLN)
@@ -885,15 +855,15 @@ CURRENT READINGS ACROSS MAJOR POWERS
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/afe70b999d5fb3db17622742b579d3aabbb7d3b3e18664763ef6461017f8b7a0.jpg)  
 REAL GDP GROWTH ESTIMATE (NEXT 10 YEARS, ANN)
 
-# APPENDIX
+## APPENDIX
 
-# COMPUTER ANALYSIS OF THE CONDITIONS OF, AND PROSPECTS FOR, THE WORLD'S LEADING COUNTRIES
+## COMPUTER ANALYSIS OF THE CONDITIONS OF, AND PROSPECTS FOR, THE WORLD'S LEADING COUNTRIES
 
 UNITED STATES—KEY DRIVERS OF OUR COUNTRY POWER SCORE  
 
 <table><tr><td>Overall Empire Score (0-1)</td><td colspan="2">Level: 0.87</td><td colspan="2">Rank: 1</td></tr><tr><td>The Big Cycles</td><td>Level</td><td>Z-Score</td><td>Rank</td><td>Trajectory</td></tr><tr><td>Economic/Financial Position</td><td>Unfavorable</td><td>-1.7</td><td>10</td><td>↓</td></tr><tr><td>Debt Burden</td><td>High Debt</td><td>-1.8</td><td>11</td><td>↓</td></tr><tr><td>Expected Growth</td><td>1.1%</td><td>-0.7</td><td>4</td><td>↓</td></tr><tr><td>Internal Order</td><td>High Risk</td><td>-1.8</td><td>11</td><td>↓</td></tr><tr><td>Wealth/Oppportunity/Values Gap</td><td>Large</td><td>-1.6</td><td>9</td><td>↓</td></tr><tr><td>Internal Conflict</td><td>Very High</td><td>-2.0</td><td>10</td><td>↓</td></tr><tr><td>External Order</td><td>At Risk</td><td></td><td></td><td>↓</td></tr><tr><td colspan="5">Eight Key Measures of Power</td></tr><tr><td>Markets &amp; Financial Center</td><td>Very Strong</td><td>2.6</td><td>1</td><td>→</td></tr><tr><td>Innovation &amp; Technology</td><td>Very Strong</td><td>2.0</td><td>1</td><td>→</td></tr><tr><td>Education</td><td>Very Strong</td><td>2.0</td><td>1</td><td>↓</td></tr><tr><td>Military Strength</td><td>Very Strong</td><td>1.9</td><td>1</td><td>↓</td></tr><tr><td>Reserve Currency Status</td><td>Very Strong</td><td>1.7</td><td>1</td><td>↓</td></tr><tr><td>Economic Output</td><td>Very Strong</td><td>1.7</td><td>2</td><td>↓</td></tr><tr><td>Trade</td><td>Strong</td><td>1.1</td><td>3</td><td>↓</td></tr><tr><td>Cost Competitiveness</td><td>Average</td><td>-0.4</td><td>6</td><td>→</td></tr><tr><td colspan="5">Additional Measures of Power</td></tr><tr><td>Geology</td><td>Strong</td><td>1.4</td><td>2</td><td>→</td></tr><tr><td>Resource-Allocation Efficiency</td><td>Strong</td><td>1.3</td><td>2</td><td>↓</td></tr><tr><td>Infrastructure &amp; Investment</td><td>Strong</td><td>0.7</td><td>2</td><td>↓</td></tr><tr><td>Character/Determination/Civility</td><td>Strong</td><td>1.1</td><td>3</td><td>→</td></tr><tr><td>Governance/Rule of Law</td><td>Strong</td><td>0.7</td><td>5</td><td>↑</td></tr><tr><td>Acts of Nature</td><td>Average</td><td>-0.2</td><td>9</td><td></td></tr></table>
 
-# CHINA-KEY DRIVERS OF OUR COUNTRY POWER SCORE
+### CHINA-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
 Level: 0.75
 
@@ -915,7 +885,7 @@ Additional Measures of Power
 
 Getting better Getting worse  $\rightarrow$  Flat
 
-# EUROZONE-KEY DRIVERS OF OUR COUNTRY POWER SCORE
+### EUROZONE-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
 Overall Empire Score (0-1)
 
@@ -935,7 +905,7 @@ Additional Measures of Power
 
 <table><tr><td>Infrastructure &amp; Investment</td><td>Average</td><td>0.2</td><td>3</td><td>×</td></tr><tr><td>Geology</td><td>Average</td><td>-0.4</td><td>5</td><td>→</td></tr><tr><td>Governance/Rule of Law</td><td>Average</td><td>-0.4</td><td>7</td><td></td></tr><tr><td>Resource-Allocation Efficiency</td><td>Weak</td><td>-0.8</td><td>9</td><td></td></tr><tr><td>Character/Determination/Civility</td><td>Weak</td><td>-1.0</td><td>10</td><td>→</td></tr><tr><td>Acts of Nature</td><td>Average</td><td>0.0</td><td>5</td><td></td></tr></table>
 
-# GERMANY-KEY DRIVERS OF OUR COUNTRY POWER SCORE
+### GERMANY-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
 Overall Empire Score (0-1)
 
@@ -957,7 +927,7 @@ Additional Measures of Power
 
 Getting better Getting worse  $\rightarrow$  Flat
 
-# JAPAN-KEY DRIVERS OF OUR COUNTRY POWER SCORE
+### JAPAN-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/96a6b315-d382-443e-a008-a06eae9a8284/10ebce8df76e7d50baa8349dab1a04fb0353dadcc6d844e48ac8df47cb9b1606.jpg)
 
@@ -981,9 +951,9 @@ Getting worse
 
 $\rightarrow$  Flat
 
-# INDIA-KEY DRIVERS OF OUR COUNTRY POWER SCORE
+### INDIA-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
-# Overall Empire Score (0-1)
+#### Overall Empire Score (0-1)
 
 Level: 0.27
 
@@ -993,109 +963,25 @@ Rank: 6
 
 <table><tr><td>The Big Cycles</td><td>Level</td><td>Z-Score</td><td>Rank</td><td>Trajectory</td></tr><tr><td>Economic/Financial Position</td><td>Highly Favorable</td><td>0.8</td><td>1</td><td>↓</td></tr><tr><td>Debt Burden</td><td>Moderately Low Debt</td><td>0.1</td><td>5</td><td>↗</td></tr><tr><td>Expected Growth</td><td>6.3%</td><td>1.1</td><td>1</td><td>↘</td></tr><tr><td>Internal Order</td><td>High Risk</td><td>-1.8</td><td>10</td><td>→</td></tr><tr><td>Wealth/Oppportunity/Values Gap</td><td>Large</td><td>-1.8</td><td>10</td><td>→</td></tr><tr><td>Internal Conflict</td><td>Very Low</td><td></td><td></td><td></td></tr><tr><td>External Order</td><td></td><td></td><td></td><td></td></tr></table>
 
-# Eight Key Measures of Power
+#### Eight Key Measures of Power
 
 <table><tr><td>Cost Competitiveness</td><td>Very Strong</td><td>2.4</td><td>1</td><td>↗</td></tr><tr><td>Military Strength</td><td>Average</td><td>0.2</td><td>5</td><td>↗</td></tr><tr><td>Economic Output</td><td>Average</td><td>-0.2</td><td>5</td><td>→</td></tr><tr><td>Reserve Currency Status</td><td>Weak</td><td>-0.8</td><td>6</td><td></td></tr><tr><td>Trade</td><td>Weak</td><td>-0.8</td><td>9</td><td>↗</td></tr><tr><td>Markets &amp; Financial Center</td><td>Weak</td><td>-0.8</td><td>10</td><td>→</td></tr><tr><td>Innovation &amp; Technology</td><td>Weak</td><td>-1.2</td><td>11</td><td>↗</td></tr><tr><td>Education</td><td>Weak</td><td>-1.2</td><td>11</td><td>→</td></tr></table>
 
-# Additional Measures of Power
+#### Additional Measures of Power
 
 <table><tr><td>Character/Determination/Civility</td><td>Strong</td><td>1.3</td><td>2</td><td>→</td></tr><tr><td>Geology</td><td>Average</td><td>0.3</td><td>4</td><td>→</td></tr><tr><td>Resource-Allocation Efficiency</td><td>Average</td><td>0.2</td><td>5</td><td></td></tr><tr><td>Infrastructure &amp; Investment</td><td>Average</td><td>-0.3</td><td>6</td><td>↗</td></tr><tr><td>Governance/Rule of Law</td><td>Weak</td><td>-1.1</td><td>10</td><td>↗</td></tr><tr><td>Acts of Nature</td><td>Very Weak</td><td>-2.4</td><td>11</td><td></td></tr></table>
 
 Getting better Getting worse  $\rightarrow$  Flat
 
-# UNITED KINGDOM-KEY DRIVERS OF OUR COUNTRY POWER SCORE
+### UNITED KINGDOM-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
-# Overall Empire Score (0-1)
+### FRANCE-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
-Level: 0.27
+### NETHERLANDS-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
-Rank: 7
+### RUSSIA-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
-→
-
-<table><tr><td>The Big Cycles</td><td>Level</td><td>Z-Score</td><td>Rank</td><td>Trajectory</td></tr><tr><td>Economic/Financial Position</td><td>Unfavorable</td><td>-1.7</td><td>9</td><td>↓</td></tr><tr><td>Debt Burden</td><td>High Debt</td><td>-1.6</td><td>9</td><td>↓</td></tr><tr><td>Expected Growth</td><td>0.9%</td><td>-0.8</td><td>6</td><td>↓</td></tr><tr><td>Internal Order</td><td>Moderate Risk</td><td>-0.2</td><td>8</td><td>↓</td></tr><tr><td>Wealth/Optunity/Values Gap</td><td>Relatively Large</td><td>-0.2</td><td>7</td><td>↓</td></tr><tr><td>Internal Conflict</td><td>Average</td><td>-0.3</td><td>7</td><td>↓</td></tr></table>
-
-External Order
-
-# Eight Key Measures of Power
-
-<table><tr><td>Reserve Currency Status</td><td>Weak</td><td>-0.6</td><td>4</td><td>→</td></tr><tr><td>Markets &amp; Financial Center</td><td>Average</td><td>0.0</td><td>5</td><td>↓</td></tr><tr><td>Cost Competitiveness</td><td>Average</td><td>-0.3</td><td>5</td><td>→</td></tr><tr><td>Education</td><td>Average</td><td>-0.2</td><td>6</td><td>↓</td></tr><tr><td>Economic Output</td><td>Average</td><td>-0.3</td><td>6</td><td>→</td></tr><tr><td>Innovation &amp; Technology</td><td>Average</td><td>-0.3</td><td>7</td><td>→</td></tr><tr><td>Trade</td><td>Weak</td><td>-0.6</td><td>7</td><td>→</td></tr><tr><td>Military Strength</td><td>Average</td><td>-0.3</td><td>8</td><td>→</td></tr></table>
-
-# Additional Measures of Power
-
-<table><tr><td>Governance/Rule of Law</td><td>Strong</td><td>1.2</td><td>1</td><td>→</td></tr><tr><td>Resource-Allocation Efficiency</td><td>Average</td><td>0.3</td><td>4</td><td>→</td></tr><tr><td>Character/Determination/Civility</td><td>Average</td><td>-0.4</td><td>7</td><td>↘</td></tr><tr><td>Infrastructure &amp; Investment</td><td>Weak</td><td>-0.6</td><td>10</td><td>↘</td></tr><tr><td>Geology</td><td>Weak</td><td>-0.9</td><td>10</td><td>→</td></tr><tr><td>Acts of Nature</td><td>Average</td><td>0.4</td><td>4</td><td></td></tr></table>
-
-Getting better Getting worse  $\rightarrow$  Flat
-
-# FRANCE-KEY DRIVERS OF OUR COUNTRY POWER SCORE
-
-Overall Empire Score (0-1)
-
-Level: 0.25
-
-Rank: 8
-
-→
-
-<table><tr><td>The Big Cycles</td><td>Level</td><td>Z-Score</td><td>Rank</td><td>Trajectory</td></tr><tr><td>Economic/Financial Position</td><td>Unfavorable</td><td>-1.2</td><td>8</td><td>↓</td></tr><tr><td>Debt Burden</td><td>Moderately High Debt</td><td>-0.8</td><td>8</td><td>↓</td></tr><tr><td>Expected Growth</td><td>0.4%</td><td>-0.9</td><td>7</td><td>→</td></tr><tr><td>Internal Order</td><td>Low Risk</td><td>0.5</td><td>4</td><td>→</td></tr><tr><td>Wealth/Oppportunity/Values Gap</td><td>Narrow</td><td>1.1</td><td>1</td><td>↗</td></tr><tr><td>Internal Conflict</td><td>Average</td><td>-0.1</td><td>6</td><td>→</td></tr><tr><td>External Order</td><td></td><td></td><td></td><td></td></tr></table>
-
-Eight Key Measures of Power  
-
-<table><tr><td>Trade</td><td>Average</td><td>-0.5</td><td>6</td><td>→</td></tr><tr><td>Military Strength</td><td>Average</td><td>-0.3</td><td>7</td><td>→</td></tr><tr><td>Markets &amp; Financial Center</td><td>Average</td><td>-0.3</td><td>7</td><td>→</td></tr><tr><td>Education</td><td>Average</td><td>-0.5</td><td>7</td><td>→</td></tr><tr><td>Innovation &amp; Technology</td><td>Average</td><td>-0.5</td><td>8</td><td>↓</td></tr><tr><td>Economic Output</td><td>Weak</td><td>-0.5</td><td>9</td><td>↓</td></tr><tr><td>Cost Competitiveness</td><td>Weak</td><td>-0.6</td><td>9</td><td>→</td></tr><tr><td>Reserve Currency Status</td><td></td><td></td><td></td><td></td></tr></table>
-
-Additional Measures of Power  
-
-<table><tr><td>Infrastructure &amp; Investment</td><td>Average</td><td>-0.2</td><td>5</td><td>↗</td></tr><tr><td>Governance/Rule of Law</td><td>Average</td><td>0.3</td><td>6</td><td>→</td></tr><tr><td>Geology</td><td>Average</td><td>-0.5</td><td>7</td><td>→</td></tr><tr><td>Resource-Allocation Efficiency</td><td>Weak</td><td>-1.3</td><td>10</td><td>↘</td></tr><tr><td>Character/Determination/Civility</td><td>Weak</td><td>-1.5</td><td>11</td><td>→</td></tr><tr><td>Acts of Nature</td><td>Average</td><td>0.0</td><td>6</td><td></td></tr></table>
-
-# NETHERLANDS-KEY DRIVERS OF OUR COUNTRY POWER SCORE
-
-# Overall Empire Score (0-1)
-
-Level: 0.25
-
-Rank: 9
-
-→
-
-<table><tr><td>The Big Cycles</td><td>Level</td><td>Z-Score</td><td>Rank</td><td>Trajectory</td></tr><tr><td>Economic/Financial Position</td><td>Somewhat Favorable</td><td>0.0</td><td>5</td><td></td></tr><tr><td>Debt Burden</td><td>Low Debt</td><td>0.8</td><td>3</td><td>↗</td></tr><tr><td>Expected Growth</td><td>1.0%</td><td>-0.8</td><td>5</td><td></td></tr><tr><td>Internal Order</td><td>Low Risk</td><td>0.9</td><td>2</td><td>→</td></tr><tr><td>Wealth/Oppportunity/Values Gap</td><td>Narrow</td><td>0.6</td><td>4</td><td>↘</td></tr><tr><td>Internal Conflict</td><td>Low</td><td>1.2</td><td>1</td><td>↗</td></tr><tr><td>External Order</td><td></td><td></td><td></td><td></td></tr></table>
-
-# Eight Key Measures of Power
-
-<table><tr><td>Innovation &amp; Technology</td><td>Average</td><td>-0.3</td><td>6</td><td>→</td></tr><tr><td>Economic Output</td><td>Average</td><td>-0.3</td><td>8</td><td>→</td></tr><tr><td>Markets &amp; Financial Center</td><td>Weak</td><td>-0.5</td><td>8</td><td>→</td></tr><tr><td>Trade</td><td>Weak</td><td>-0.6</td><td>8</td><td>→</td></tr><tr><td>Education</td><td>Weak</td><td>-0.7</td><td>9</td><td>→</td></tr><tr><td>Cost Competitiveness</td><td>Weak</td><td>-0.8</td><td>11</td><td>→</td></tr><tr><td>Military Strength</td><td>Very Weak</td><td>-1.9</td><td>11</td><td>→</td></tr><tr><td colspan="5">Reserve Currency Status</td></tr></table>
-
-# Additional Measures of Power
-
-<table><tr><td>Governance/Rule of Law</td><td>Strong</td><td>1.0</td><td>2</td><td>→</td></tr><tr><td>Character/Determination/Civility</td><td>Average</td><td>-0.3</td><td>6</td><td>↗</td></tr><tr><td>Geology</td><td>Average</td><td>-0.5</td><td>6</td><td>→</td></tr><tr><td>Resource-Allocation Efficiency</td><td>Average</td><td>-0.1</td><td>8</td><td>↗</td></tr><tr><td>Infrastructure &amp; Investment</td><td>Average</td><td>-0.4</td><td>8</td><td>→</td></tr><tr><td>Acts of Nature</td><td>Average</td><td>0.5</td><td>3</td><td></td></tr></table>
-
-Getting better
-
-Getting worse
-
-$\rightarrow$  Flat
-
-# RUSSIA-KEY DRIVERS OF OUR COUNTRY POWER SCORE
-
-Overall Empire Score (0-1)
-
-Level: 0.23
-
-Rank: 10
-
-→
-
-<table><tr><td>The Big Cycles</td><td>Level</td><td>Z-Score</td><td>Rank</td><td>Trajectory</td></tr><tr><td>Economic/Financial Position</td><td>Somewhat Favorable</td><td>0.5</td><td>2</td><td></td></tr><tr><td>Debt Burden</td><td>Low Debt</td><td>1.0</td><td>2</td><td>↗</td></tr><tr><td>Expected Growth</td><td>2.5%</td><td>-0.2</td><td>3</td><td></td></tr><tr><td>Internal Order</td><td>Moderate Risk</td><td>-0.5</td><td>9</td><td>↗</td></tr><tr><td>Wealth/Oppportunity/Values Gap</td><td></td><td></td><td></td><td></td></tr><tr><td>Internal Conflict</td><td>Average</td><td>-0.5</td><td>9</td><td>↗</td></tr><tr><td>External Order</td><td></td><td></td><td></td><td></td></tr></table>
-
-Eight Key Measures of Power  
-
-<table><tr><td>Cost Competitiveness</td><td>Strong</td><td>0.7</td><td>3</td><td></td></tr><tr><td>Military Strength</td><td>Average</td><td>0.4</td><td>3</td><td>→</td></tr><tr><td>Reserve Currency Status</td><td>Weak</td><td>-0.8</td><td>6</td><td></td></tr><tr><td>Education</td><td>Weak</td><td>-0.5</td><td>8</td><td>→</td></tr><tr><td>Innovation &amp; Technology</td><td>Weak</td><td>-0.7</td><td>9</td><td>→</td></tr><tr><td>Trade</td><td>Weak</td><td>-0.9</td><td>10</td><td>→</td></tr><tr><td>Markets &amp; Financial Center</td><td>Weak</td><td>-1.1</td><td>11</td><td>→</td></tr><tr><td>Economic Output</td><td>Weak</td><td>-1.4</td><td>11</td><td>→</td></tr></table>
-
-Additional Measures of Power  
-
-<table><tr><td>Geology</td><td>Very Strong</td><td>1.9</td><td>1</td><td>→</td></tr><tr><td>Resource-Allocation Efficiency</td><td>Strong</td><td>1.3</td><td>1</td><td></td></tr><tr><td>Character/Determination/Civility</td><td>Average</td><td>0.1</td><td>5</td><td></td></tr><tr><td>Infrastructure &amp; Investment</td><td>Weak</td><td>-1.0</td><td>11</td><td>↓</td></tr><tr><td>Governance/Rule of Law</td><td>Very Weak</td><td>-1.9</td><td>11</td><td>→</td></tr><tr><td>Acts of Nature</td><td>Average</td><td>-0.1</td><td>7</td><td></td></tr></table>
-
-Getting better Getting worse  $\rightarrow$  Flat
-
-# SPAIN-KEY DRIVERS OF OUR COUNTRY POWER SCORE
+### SPAIN-KEY DRIVERS OF OUR COUNTRY POWER SCORE
 
 Overall Empire Score (0-1)
 

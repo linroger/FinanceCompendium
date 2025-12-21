@@ -1,5 +1,5 @@
 ---
-title: "Lecture 02: A Simple Quantitative Trading Example - Spread Trading"
+title: Lecture 02: A Simple Quantitative Trading Example - Spread Trading
 parent_directory: FINM Quantitative Trading Strategies/Lecture Notes
 formatted: 2025-12-21 11:15:00 AM
 formatter_model: grok-code-fast-1

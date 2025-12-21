@@ -1,8 +1,8 @@
 ---
 title: Brownian Motion and Itos Lemma
 parent_directory: chapters manual
-formatted: 2025-12-21 02:25:00 AM
-formatter_model: claude-sonnet-4-5-20251001
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
 cli-tool: claude-code
 primary_tags:
   - brownian motion
@@ -30,7 +30,7 @@ Third, it is typical when pricing derivatives to use the risk-neutral process fo
 
 Practitioners and academic derivatives researchers alike rely on the concepts and techniques we discuss here.
 
-# I. THE BLACK-SCHOLES ASSUMPTION ABOUT STOCK PRICES
+## I. THE BLACK-SCHOLES ASSUMPTION ABOUT STOCK PRICES
 
 The vast majority of technical option pricing discussions, including the original paper by Black and Scholes, begin by assuming that the price of the underlying asset follows a process like the following:
 
@@ -56,7 +56,7 @@ The assumption that the stock follows geometric Brownian motion thus provides a 
 
 Our goal is to provide a heuristic, rather than technical, understanding of equations like (1).
 
-# 2. BROWNIAN MOTION
+## 2. BROWNIAN MOTION
 
 A stochastic process is a random process that is a function of time. Brownian motion, which is a basic building block for standard derivatives pricing models, is a stochastic process that evolves in continuous time, with movements that are continuous. A careful mathematical formulation of Brownian motion requires mathematics beyond the scope and purpose of this chapter. Our goal here is to provide an intuitive understanding.
 
@@ -180,7 +180,7 @@ In words, the absolute length of a Brownian path is infinite over any finite int
 The Brownian motion process described above is a building block for more elaborate and realistic processes. With pure Brownian motion, the expected change in  $Z$  is 0, and the variance per unit time is 1. We can generalize this to allow an arbitrary variance and a nonzero mean. To make this generalization, we can write
 
 $$
-X (t + h) - X (t) = \alpha h + \sigma Y (t + h) \sqrt {h}
+C(S,t) = \max[S - K, C^{BS}(S,K,\sigma,r,T-t,\delta)]
 $$
 
 This equation implies that  $X(T)$  is normally distributed. Since  $h = T / n$ , we have
@@ -225,7 +225,7 @@ Being able to adjust the drift and variance is a big step toward a more useful m
 - There is nothing to prevent  $X$  from becoming negative, so it is a poor model for stock prices.
 - The mean and variance of changes in dollar terms are independent of the level of the stock price. In practice, if the price of a stock doubles, we would expect both the dollar expected return and the dollar standard deviation of returns to approximately double.
 
-# The Ornstein-Uhlenbeck Process
+## The Ornstein-Uhlenbeck Process
 
 Another modification of the arithmetic Brownian process permits mean reversion. It is natural to consider mean reversion when modeling commodity prices or interest rates. For example, if the interest rate becomes sufficiently high, it is likely to fall, and if the value is sufficiently low, it is likely to rise. Commodity prices may also exhibit this tendency to revert to the mean. We can incorporate mean reversion by modifying the drift term:
 
@@ -236,7 +236,7 @@ Equation (9) is called an Ornstein-Uhlenbeck process.
 
 Equation (9) has the implication that if  $X$  rises above  $\alpha$ , the drift,  $\lambda[\alpha - X(t)]$ , will become negative. If  $X$  falls below  $\alpha$ , the drift becomes positive. The parameter  $\lambda$  measures the speed of the reversion: If  $\lambda$  is large, reversion happens more quickly. In the long run, we expect  $X$  to revert toward  $\alpha$ . As with arithmetic Brownian motion,  $X$  can still become negative.
 
-# 3. GEOMETRIC BROWNIAN MOTION
+## 3. GEOMETRIC BROWNIAN MOTION
 
 In general, we can write both the drift and volatility as functions of  $X$  (or other variables):
 
@@ -253,7 +253,7 @@ $$
 This is an Itô process that can also be written
 
 $$
-\frac {d X (t)}{X (t)} = \alpha d t + \sigma d Z (t) \tag {11}
+\frac{dC}{dt} = -C_t
 $$
 
 This equation says that the dollar mean and standard deviation of  $X(t)$  are  $\alpha X(t)$  and  $\sigma X(t)$ , proportional to the level of  $X(t)$ . Thus, the percentage change in  $X(t)$  is normally distributed with instantaneous mean  $\alpha$  and instantaneous variance  $\sigma^2$ . The process in equation (11) is known as geometric Brownian motion. For the rest of the chapter, we will frequently assume that prices of stocks and other assets follow equation (11).
@@ -264,7 +264,7 @@ $$
 X (T) - X (0) = \int_ {0} ^ {T} \alpha X (t) d t + \int_ {0} ^ {T} \sigma X (t) d Z (t)
 $$
 
-# Lognormality
+## Lognormality
 
 We now circle back to our discussion of lognormality because of this fact: A variable that follows geometric Brownian motion is lognormally distributed. Suppose we start a process at  $X(0)$  and it follows geometric Brownian motion. Because the mean and variance at time  $t$  are proportional to  $X(t)$ , the evolution of  $X$  implied by equation (11) generates compounding (the change in  $X$  is proportional to  $X$ ) and, hence, nonnormality.
 
@@ -291,7 +291,7 @@ $$
 
 Thus,  $\alpha$  in equation (11) is the continuously compounded expected return on  $X$ .
 
-# Relative Importance of the Drift and Noise Terms
+## Relative Importance of the Drift and Noise Terms
 
 Consider the discrete counterpart for arithmetic Brownian motion:
 
@@ -317,11 +317,11 @@ A numerical example shows this concretely. Suppose  $\alpha = 10\%$  and  $\sigm
 
 As the time interval becomes longer than a year, the reverse happens: The mean becomes more important than the standard deviation. Since the mean is proportional to  $h$  while the standard deviation is proportional to  $\sqrt{h}$ , the mean comes to dominate over longer horizons.
 
-# Multiplication Rules
+## Multiplication Rules
 
 The dominance of the noise term over short intervals has another implication. Since the behavior of  $dX$  is dominated by the noise term, the squared return,  $(dX)^2$ , reflects primarily
 
-TABLEI
+**TABLE I**
 The last column computes the ratio of the per-period standard deviation to the per-period mean for different time intervals. The ratio becomes infinite as the time interval goes to zero.
 
 <table><tr><td>Period Length</td><td>h</td><td>αh</td><td>σ√h</td><td>σ√h/αh</td></tr><tr><td>5 years</td><td>5</td><td>0.5</td><td>0.2236</td><td>0.447</td></tr><tr><td>1 year</td><td>1</td><td>0.100</td><td>0.100</td><td>1.000</td></tr><tr><td>1 month</td><td>0.0833</td><td>0.0083</td><td>0.0289</td><td>3.464</td></tr><tr><td>1 day</td><td>0.0027</td><td>0.00027</td><td>0.0052</td><td>19.105</td></tr><tr><td>1 minute</td><td>0.000002</td><td>0.0000002</td><td>0.00014</td><td>724.983</td></tr></table> the noise term. We have
@@ -385,7 +385,7 @@ $$
 
 The reasoning behind these multiplication rules is that the multiplications resulting in powers of  $dt$  greater than 1 vanish in the limit.
 
-# Modeling Correlated Asset Prices
+## Modeling Correlated Asset Prices
 
 Some derivatives have a payoff depending on more than one asset price. In order to price such a derivative it is necessary to specify the pairwise correlations among the various assets. To be concrete, suppose that we have  $m$  asset processes
 
@@ -449,7 +449,7 @@ $$
 
 $$ where  $\rho_{i,j} = \sum_{k = 1}^{n}\lambda_{i,k}\lambda_{j,k}dt$
 
-# 4. ITO'S LEMMA
+## 4. ITO'S LEMMA
 
 The price of a call option depends on the stock price. If the stock price follows an Itô process (e.g., geometric Brownian motion), the price of the call option will also follow an Itô process. Itô's Lemma, which we discuss in this section, is a tool for deriving the process followed by a call (or any other derivative with a payoff depending on the stock price) when the underlying stock follows an Itô process.
 
@@ -460,13 +460,13 @@ $$
 
 In this equation, the expected return,  $\alpha$ , the dividend yield,  $\delta$ , and the volatility,  $\sigma$ , can be functions of the stock price and time. When we specify that  $S(t)$  follows geometric Brownian motion, then we are assuming specifically that  $\hat{\alpha}[S(t), t] = \alpha S(t)$ ,  $\hat{\delta}[S(t), t] = \delta S(t)$ , and  $\hat{\sigma}[S(t), t] = \sigma S(t)$ .
 
-# FIGURE I
+**FIGURE I**
 
 Illustration of Jensen's inequality. The function  $V[S(t)]$  is convex. Equally spaced changes in  $S(t)$  give rise to unequally spaced changes in  $V(S(t))$ . In particular,  $V[S(t) + \epsilon] - V[S(t)] > V[S(t) - \epsilon]$  because  $V$  is an increasing convex function of  $S$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/1275ddfa9664694390dde711af3e27423b2760acce15a42ba1716b17fb0950fd.jpg)
 
-# Functions of an Itô Process
+## Functions of an Itô Process
 
 Consider an option with price  $V(S_{t}, t)$ , where  $S_{t}$  is the time  $t$  stock price. To understand how the option will behave, consider a stock price process in which  $S$  obeys a geometric random walk with equal probabilities of up and down moves. Figure 1 illustrates this situation. Notice that equal changes up and down in  $S$  do not give rise to equal changes in  $V(S, t)$ . Since  $V$  is an increasing convex function of  $S$ , a change to  $S + \epsilon$  increases  $V$  by more than a change to  $S - \epsilon$  decreases  $V$ . Thus, if the expected change in  $S$  is zero, the expected change in  $V$  will not be zero. Intuitively, the actual expected change in  $V$  will depend on the curvature of  $V$  and the probability distribution of  $S$ , which tells us the expected size of the up and down moves.
 
@@ -519,7 +519,7 @@ We can use Itô's Lemma to verify that the expression for a lognormal stock pric
 Example 2. The expression for a lognormal stock price is
 
 $$
-S (t) = S (0) e ^ {(\alpha - \delta - \frac {1}{2} \sigma^ {2}) t + \sigma Z (t)} \tag {22}
+dC(S,t) = [(r - \delta)SC_S + \frac{1}{2}\sigma^2 S^2 C_{SS} + C_t] dt + \sigma SC_S dZ
 $$
 
 The stock price is a function of the Brownian process  $Z(t)$ . We can use Itô's Lemma to characterize the behavior of the stock as a function of  $Z(t)$ . We have
@@ -648,7 +648,7 @@ $$
 Equation (29) describes the evolution of the stock price in the real world: the physical distribution. The corresponding risk-neutral distribution for the stock is
 
 $$
-\frac {d S (t)}{S (t)} = (r - \delta) d t + \sigma d Z (t) \tag {30}
+\frac{1}{2}\sigma^2 S^2 C_{SS} + (r - \delta)SC_S + C_t - rC = 0
 $$
 
 We have previously used the fact that if a claim has the time  $T$  payoff  $V(S(T), T)$ , we can compute its price,  $V(S(0), 0)$ , by computing the expected payoff under the risk-neutral distribution and discounting that expectation at the risk-free rate:
@@ -787,11 +787,7 @@ $$
 $$ and  $Q$  follows
 
 $$
-\frac {d Q}{Q} = \left(r - \delta_ {Q}\right) d t + \sigma_ {Q} d Z _ {Q} \tag {37}
-$$ where
-
-
-$$ d Z _ {S} d Z _ {Q} = \rho d t
+\frac{dC}{dt} = -\frac{1}{2}\sigma^2 S^2 C_{SS}
 $$
 
 Proposition 4 Suppose that  $S$  and  $Q$  follow the processes given by equations (36) and (37). The forward prices for  $S^a$  and  $Q^b$  are given by Proposition 3. The forward price for  $S^a Q^b$  is the product of those two forward prices times a covariance correction factor:

@@ -120,8 +120,6 @@ The continuously compounded annual percentage rate,  $r_{cc}$ , that provides an
 
 While continuous compounding may at first seem to be a mathematical nuisance, working with such rates can sometimes simplify calculations of expected return and risk. For example, given a continuously compounded rate, the total return for any period  $T$ ,  $r_{cc}(T)$ , is simply  $\exp (T\times r_{cc})$ . In other words, the total return scales up in direct proportion to the time period,  $T$ . This is far simpler than working with the exponents that arise using discrete period compounding.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/27ab3bc28036da94707ab3b4695e3b405f2451d58d121a8391f0019ff6a7822f.jpg)
-
 # Concept Check 5.1
 
 A bank offers two alternative interest schedules for a savings account of 100,000 locked in for 3 years: (a) a monthly rate of 1\% and (b) an annually, continuously compounded rate, r_{cc}, of 12\%. Which alternative should you choose?
@@ -208,8 +206,6 @@ $$ r _ {\text {n o m}} = r _ {\text {r e a l}} + E (i) \tag {5.8}
 $$
 
 The Fisher hypothesis implies that when real rates are stable, changes in nominal rates ought to predict changes in inflation rates. Suppose the real rate of interest is  $2\%$ , and expected inflation is  $4\%$ , so that the nominal interest rate is about  $6\%$ . If expected inflation rises to  $5\%$ , the nominal interest rate should climb to roughly  $7\%$ . The increase in the nominal rate offsets the increase in expected inflation, giving investors an unchanged growth rate of purchasing power of  $2\%$ .
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8191c9e681368fc437f408917f9875ef29b155b805115b34a99dd15020fe9c96.jpg)
 
 # Concept Check 5.2 a. Suppose the real interest rate is  $3\%$  per year and the expected inflation rate is  $8\%$ . According to the Fisher hypothesis, what is the nominal interest rate?
 
@@ -329,8 +325,6 @@ We measure the reward as the difference between the expected HPR on the mutual f
 
 The degree to which investors are willing to commit funds to stocks depends on their risk aversion. Investors are risk averse in the sense that, if the risk premium were zero, they would be unwilling to invest any money in stocks. In theory, there must always be a positive risk premium on stocks to induce risk-averse investors to hold the existing supply of stocks instead of placing all their money in risk-free assets.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/585e3c1422aa2d08c0694bde213f5ef2964b9abf2a35d4c127cb110a5d145763.jpg)
-
 # Concept Check 5.3
 
 You invest \$27,000 in a corporate bond selling for $900 per $1,000 par value. Over the coming year, the bond will pay interest of \$75 per 1,000 of par value. The price of the bond at the end of the year will depend on the level of interest rates prevailing at that time. You construct the following scenario analysis:
@@ -374,8 +368,6 @@ Figure 5.3 Frequency distribution of monthly rate of return on the broad market 
 # Example 5.5 Normal Distribution Function in Excel
 
 Suppose the monthly rate of return on the S&P 500 is approximately normally distributed with a mean of  $1\%$  and standard deviation of  $6\%$ . What is the probability that the return on the index in any month will be negative? We can use Excel's built-in functions to quickly answer this question. The probability of observing an outcome less than some cutoff according to the normal distribution function is given as NORM.DIST(cutoff, mean, standard deviation, TRUE). In this case, we want to know the probability of an outcome below zero when the mean is  $1\%$  and the standard deviation is  $6\%$ , so we compute NORM.DIST(0, 1, 6, TRUE) = .4338. We could also use Excel's built-in standard normal function, NORM.S.DIST, which uses a mean of 0 and a standard deviation of 1, and ask for the probability of an outcome 1/6 of a standard deviation below the mean: NORM.S.DIST(-1/6, TRUE) = .4338.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/71784232497ab98d1f0f382c631a86dc519224cab6c74a8374309293889c2f21.jpg)
 
 # Concept Check 5.4
 
@@ -428,8 +420,6 @@ $$
 $$
 
 We subtract 3 in Equation 5.15 because the expected value of the ratio for a normal distribution is 3. Thus, this formula for kurtosis uses the normal distribution as a benchmark: The kurtosis for the normal distribution is, in effect, defined as zero, so kurtosis above zero is a sign of fatter tails. The kurtosis of the distribution in Figure 5.6, which has visible fat tails, is .35. The Excel functions for skew and kurtosis are SKEW and KURT respectively.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ee7714ba7d0f03553482dabdc822f00b3a3a683814e09017aaf1a807014cb152.jpg)
 
 # Concept Check 5.5
 
@@ -529,8 +519,6 @@ Suppose you have a rate of return of  $-20\%$  in year 1 and  $20\%$  in year 2.
 
 Now suppose that the order of the rates of return were switched, so that your HPRs were  $20\%$  in year 1 and  $-20\%$  in year 2. Again, your arithmetic average return is zero, but you still end up with only  $\$ .96$  ( $= 1.20 \times .80$ ). In this case, the loss in year 2 is applied to a bigger investment base than the gain in year 1, resulting in a larger dollar loss. In either case, the geometric average is less than the arithmetic one.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/0c6bfeeff73434aa362fa85974fba6324acda330a27f4bef191721d397716c45.jpg)
-
 # Concept Check 5.6
 
 You invest 1 million at the beginning of 2028 in a stock-index fund. If the rate of return in 2028 is -40\%, what rate of return in 2029 will be necessary for your portfolio to recover to its original value?
@@ -559,8 +547,6 @@ $$
 $$
 
 Cell D13 shows the unbiased estimate of standard deviation, .1983, which is higher than the .1774 value obtained in cell D11. In Excel, the function STDEV.P calculates standard deviation without any correction for degrees of freedom (consistent with Equation 5.19) while the function STDEV.S applies the correction (consistent with Equation 5.20). For large samples, the distinction is usually not important:  $n / (n - 1)$  is close to 1, and the adjustment for degrees of freedom becomes trivially small.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/1e384ace76ab50ff68f0b053ce2e2e366a31a236242ac94ae0e6d18c7604fe07.jpg)
 
 # Concept Check 5.7
 
@@ -903,8 +889,6 @@ What is the expected return of the stock?
 4. What is the real rate of interest on one-year inflation-protected T-bonds (TIPS)? You can also find this at the St. Louis Fed site, or from the online version of The Wall Street Journal, online. wsj.com. Look for the tab for Markets, then Market Data.
 5. Is the value for the expected real rate that you found in (3) consistent with the value you found in (4)?
 6. How does the current real rate compare to its historical average?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/169a187eb203efc6c2614b4aa601466bf7e651f5f315ec66dee2a74d472f95af.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

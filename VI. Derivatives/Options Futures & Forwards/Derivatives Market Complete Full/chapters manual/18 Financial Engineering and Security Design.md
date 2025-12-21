@@ -1,17 +1,17 @@
 ---
-title: "Chapter 18 - Financial Engineering and Security Design"
+title: Financial Engineering and Security Design
 aliases:
   - Financial Engineering and Security Design
   - Security Design
 parent_directory: Derivatives Market Complete Full/chapters manual
-formatted: 2025-12-21 02:15:00 PM
-formatter_model: grok-code-fast-1
-cli_tool: opencode
+formatted: 2025-12-21 02:30:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
   - financial engineering
-  - security design
   - structured notes
   - convertible bonds
+  - security design
 secondary_tags:
   - modigliani miller theorem
   - islamic finance
@@ -19,6 +19,8 @@ secondary_tags:
   - equity linked bonds
   - commodity linked bonds
   - currency linked bonds
+  - reverse convertible bonds
+  - variable prepaid forwards
 cssclasses: academia
 ---
 
@@ -26,9 +28,9 @@ cssclasses: academia
 
 Forwards, calls, puts, and common exotic options can be added to bonds or otherwise combined to create new securities. For example, many traded securities are effectively bonds with embedded options. Individual derivatives thus become building blocks—ingredients used to construct new kinds of financial products. In this chapter we will see how to assemble the ingredients to create new products. The process of constructing new instruments from these building blocks is called financial engineering.
 
-## I. THE MODIGLIANI-MILLER THEOREM
+## The Modigliani-Miller Theorem
 
-The starting point for any discussion of modern financial engineering is the analysis of Franco Modigliani and Merton Miller (Modigliani and Miller, 1958). Before their work, financial analysts would puzzle over how to compare the values of firms with similar operating characteristics but different financial characteristics. Modigliani and Miller realized that different financing decisions (for example, the choice of the firm's debt-to-equity ratio) may carve up the firm's cash flows in different ways, but if the total cash flows paid to all claimants is unchanged, the total value of all claims would remain the same. They showed that if firms differing only in financial policy differed in market value, profitable arbitrage would exist. Using their famous analogy, the price of whole milk should equal the total prices of the skim milk and butterfat that can be derived from that milk.
+The starting point for any discussion of modern financial engineering is the analysis of Franco Modigliani and Merton Miller (1958). Before their work, financial analysts would puzzle over how to compare the values of firms with similar operating characteristics but different financial characteristics. Modigliani and Miller realized that different financing decisions (for example, the choice of the firm's debt-to-equity ratio) may carve up the firm's cash flows in different ways, but if the total cash flows paid to all claimants is unchanged, the total value of all claims would remain the same. They showed that if firms differing only in financial policy differed in market value, profitable arbitrage would exist. Using their famous analogy, the price of whole milk should equal the total prices of the skim milk and butterfat that can be derived from that milk.
 
 The Modigliani-Miller analysis requires numerous assumptions: For example, there are no taxes, no transaction costs, no bankruptcy costs, and no private information. Nevertheless, the basic Modigliani-Miller result provided clarity for a confusing issue, and it created a starting point for thinking about the effects of taxes, transaction costs, and the like, revolutionizing finance.
 
@@ -45,15 +47,15 @@ As a starting point, you can ask the following questions when you confront new f
 
 We begin by discussing structured notes without and with options. We then turn to examples of engineered products.
 
-## Structured Notes Without Options
+### Structured Notes Without Options
 
-An ordinary note or bond has interest and maturity payments that are fixed at the time of issue.² A structured note has interest or maturity payments that are not fixed in dollars but are contingent in some way. Structured notes can make payments based on stock prices, interest rates, commodities, or currencies, and the payoffs may or may not contain options.
+An ordinary note or bond has interest and maturity payments that are fixed at the time of issue. A structured note has interest or maturity payments that are not fixed in dollars but are contingent in some way. Structured notes can make payments based on stock prices, interest rates, commodities, or currencies, and the payoffs may or may not contain options.
 
 We first discuss bonds that make a single payment and then bonds that make multiple payments (such as coupon bonds), all without options. In the next section we will introduce structures with options.
 
 ### Single Payment Bonds
 
-A single payment bond is a financial instrument for which you pay today and that makes a single payment at time  $T$ . The payment could be 1, a share of stock, an ounce of gold, or a bushel of corn. A single payment bond is equivalent to a prepaid forward contract on the asset or commodity.
+A single payment bond is a financial instrument for which you pay today and that makes a single payment at time $T$. The payment could be 1, a share of stock, an ounce of gold, or a bushel of corn. A single payment bond is equivalent to a prepaid forward contract on the asset or commodity.
 
 Because the price of a single payment bond is the value today of a future payment, it also is equivalent to a discount factor—a value that translates future payments into a value today. This interpretation will play an important role in our discussion.
 
@@ -83,88 +85,88 @@ Islamic Finance also maintains a general objection to speculative uses of deriva
 
 *I am grateful to Karen Hunt-Ahmed for her assistance with this box.
 
-The most basic financial instrument is a zero-coupon bond that pays \$1 at maturity. Let $r_s(t, T)$ represent the annual continuously compounded interest rate prevailing at time  $s \leq t$ , for a loan from time  $t$  to time  $T$ . Similarly, the price of a zero-coupon bond purchased at time  $t$ , maturing at time  $T$ , and quoted at time  $s$  is  $P_s(t, T)$ . Thus, we have
+The most basic financial instrument is a zero-coupon bond that pays \$1 at maturity. Let $r_s(t,T)$ represent the annual continuously compounded interest rate prevailing at time$s \leq t$, for a loan from time $t$ to time$T$. Similarly, the price of a zero-coupon bond purchased at time $t$, maturing at time $T$, and quoted at time $s$ is$P_s(t,T)$. Thus, we have
 
 $$
-P _ {s} (t, T) = e ^ {- r _ {s} (t, T) (T - t)}
+P_s(t,T) = e^{-r_s(t,T)(T-t)}
 $$
 
-When there is no risk of misunderstanding, we will assume that the interest rate is quoted at time  $t_0 = 0$ , and the bond is also purchased then. We will denote the rate  $r_0(0,T) = r(T)$ , or just  $r$ , and the corresponding bond price  $P_T$ . So we will write
+When there is no risk of misunderstanding, we will assume that the interest rate is quoted at time $t_0 = 0$, and the bond is also purchased then. We will denote the rate $r_0(0,T) = r(T)$, or just $r$, and the corresponding bond price $P_T$. So we will write
 
 $$
-P _ {T} = e ^ {- r (T) T}
+P_T = e^{-r(T)T}
 $$
 
-$P_{T}$  is the time 0 price of a  $T$ -period zero-coupon bond.
+$P_T$ is the time 0 price of a$T$-period zero-coupon bond.
 
 We can describe P_T as a bond price, as a discount factor and as the prepaid forward price for 1 delivered at time T:
 
 Zero-coupon bond price = Discount factor for \$1 = Prepaid forward price for \$1
 
-A single payment bond that pays a unit of an asset or commodity is equivalent to a prepaid forward contract for that asset or commodity. Thus, the time 0 price of the bond is  $F_{0,T}^{P}$ . It is helpful to keep in mind the link between the prepaid forward price, the forward price, and the spot price of the asset or commodity.
+A single payment bond that pays a unit of an asset or commodity is equivalent to a prepaid forward contract for that asset or commodity. Thus, the time 0 price of the bond is $F_{0,T}^P$. It is helpful to keep in mind the link between the prepaid forward price, the forward price, and the spot price of the asset or commodity.
 
 Because the only difference between a forward contract and a prepaid forward is the timing of the payment for the underlying asset, the prepaid forward price is the present value of the forward price, discounted at the risk-free rate:
 
 $$
-F _ {0, T} ^ {P} = e ^ {- r T} F _ {0, T} \tag {1}
+F_{0,T}^P = e^{-rT} F_{0,T} \tag{1}
 $$
 
-The difference between the current spot price,  $S_0$ , and the prepaid forward price can be expressed as a yield:
+The difference between the current spot price, $S_0$, and the prepaid forward price can be expressed as a yield:
 
 $$
-F _ {0, T} ^ {P} = S _ {0} e ^ {- \delta T} \tag {2}
+F_{0,T}^P = S_0 e^{-\delta T} \tag{2}
 $$
 
-If  $S_0$  is the price of a financial asset, then  $\delta$  represents a payment such as dividends or interest. If  $S_0$  is the price of a commodity,  $\delta$  is the commodity lease rate.
+If  $S_0$  is the price of a financial asset, then $\delta$  represents a payment such as dividends or interest. If $S_0$  is the price of a commodity, $\delta$  is the commodity lease rate.
 
-Zero-coupon equity-linked bond. From equation (2), the value of a single-payment bond that pays a share of stock at time  $T$  is  $F_{0,T}^{P} = S_{0}e^{-\delta T}$ .
+Zero-coupon equity-linked bond. From equation (2), the value of a single-payment bond that pays a share of stock at time $T$ is$F_{0,T}^P = S_0 e^{-\delta T}$.
 
-Example 1. Suppose that XYZ stock has a price of  \$100 and pays no dividends, and that the annual continuously compounded interest rate is 6\%$ . In the absence of dividends, the prepaid forward price equals the stock price. Thus, we would pay 100 to receive the stock in 5 years.
+Example 1. Suppose that XYZ stock has a price of \$100 and pays no dividends, and that the annual continuously compounded interest rate is 6\%. In the absence of dividends, the prepaid forward price equals the stock price. Thus, we would pay 100 to receive the stock in 5 years.
 
 We define an equity-linked bond as selling for par value if the bond price equals the maturity payment of the bond. The bond in Example 1 is at par because the bond pays one share of stock at maturity and the price of the bond equals the price of one share of stock today.
 
 If the stock pays dividends and the bond makes no coupon payments, the bond will sell at less than par because you are not entitled to receive dividends.
 
-Example 2. Suppose the price of XYZ stock is  \$100, the quarterly dividend is\$ 1.20, and the annual continuously compounded interest rate is 6\% (the quarterly interest rate is therefore 1.5\%). Using the equation  $F_{0,T}^{P} = S_{0} - \sum_{i=1}^{n} \mathrm{PV}_{0,t_{i}}(D_{t_{i}})$ , the price of an equity-linked bond that pays one share in 5 years is
+Example 2. Suppose the price of XYZ stock is \$100, the quarterly dividend is \$1.20, and the annual continuously compounded interest rate is 6\% (the quarterly interest rate is therefore 1.5\%). Using the equation $F_{0,T}^P = S_0 - \sum_{i=1}^n \mathrm{PV}_{0,t_i}(D_{t_i})$, the price of an equity-linked bond that pays one share in 5 years is
 
 $$
-\$ 100 - \sum_ {i = 1} ^ {2 0} \$ 1. 2 0 e ^ {- 0. 0 1 5 \times i} = \$ 7 9. 4 2
+\$100 - \sum_{i=1}^{20} \$1.20 e^{-0.015 \times i} = \$79.42
 $$
 
 Zero-coupon commodity-linked bond. If a bond pays a unit of a commodity for which there are traded futures contracts, it is possible to value the bond by using the futures price.
 
-Example 3. Suppose the spot price of gold is  $S_0 = \400/oz$ , the 3-year forward price is  $F_{0,3} = \$ 455/oz , and the 3-year continuously compounded interest rate is  $6.25\%$ . Then using equation (1), a zero-coupon note paying 1 ounce of gold in 3 years would sell for
+Example 3. Suppose the spot price of gold is $S_0 = \$400/oz$, the 3-year forward price is $F_{0,3} = \$455/oz$, and the 3-year continuously compounded interest rate is 6.25\%. Then using equation (1), a zero-coupon note paying 1 ounce of gold in 3 years would sell for
 
 $$
-F _ {0, T} ^ {P} = \ 4 5 5 e ^ {- 0. 0 6 2 5 \times 3} = \ 3 7 7. 2 0 8
+F_{0,T}^P = \$455 e^{-0.0625 \times 3} = \$377.208
 $$
 
 The lease rate in this case is
 
 $$
-\delta_ {l} = r - \frac {1}{T} \ln \left(F _ {0, T} / S _ {0}\right) = 0. 0 6 2 5 - \frac {1}{3} \ln (4 5 5 / 4 0 0) = 0. 0 1 9 5 5 6
+\delta_l = r - \frac{1}{T} \ln\left(\frac{F_{0,T}}{S_0}\right) = 0.0625 - \frac{1}{3} \ln(455/400) = 0.019556
 $$
 
 An alternative way to compute the present value uses equation (2):
 
 $$
-F _ {0, 3} ^ {P} = S _ {0} e ^ {- \delta_ {l} 3} = 4 0 0 e ^ {-. 0 1 9 5 5 6 \times 3} = 3 7 7. 2 0 8
+F_{0,3}^P = S_0 e^{-\delta_l 3} = 400 e^{-0.019556 \times 3} = 377.208
 $$
 
 This amount is less than the spot price of 400 because the lease rate is positive.
 
-Zero-Coupon Currency-Linked Bond. From the equation  $F_{0,T}^{P} = x_{0}e^{-r_{y}T}$ , a bond that pays one unit of foreign currency at time  $T$  has a time zero value of
+Zero-Coupon Currency-Linked Bond. From the equation  $F_{0,T}^{P} = x_{0}e^{-r_{y}T}$ , a bond that pays one unit of foreign currency at time $T$  has a time zero value of
 
 $$
 F _ {0, T} ^ {P} = x _ {0} e ^ {- r _ {f} T}
-$$ where  $x_0$  is the time 0 exchange rate denominated in units of the home currency per unit of the foreign currency, and  $r_f$  is the foreign interest rate. With a currency-linked bond, the foreign interest rate plays the same role as the dividend yield for stocks and the lease rate for commodities.
+$$ where $x_0$  is the time 0 exchange rate denominated in units of the home currency per unit of the foreign currency, and $r_f$  is the foreign interest rate. With a currency-linked bond, the foreign interest rate plays the same role as the dividend yield for stocks and the lease rate for commodities.
 
 
-# Multiple Payment Bonds
+## Multiple Payment Bonds
 
 You can easily construct and value multiple payment bonds as a portfolio of single payment bonds. A common design question with multiple payment bonds (and structured products in general) is how to construct them so that they sell at par.
 
-First we examine bonds that pay in cash. Consider a bond that pays the coupon,  $c$ ,  $n$  times over the life of the bond, makes the maturity payment  $M$ , and matures at time  $T$ . We will denote the price of this bond as  $B(0, T, c, n, M)$ . The time between coupon payments is  $T / n$ , and the  $i$ th coupon payment occurs at time  $t_i = i \times T / n$ .
+First we examine bonds that pay in cash. Consider a bond that pays the coupon,  $c$ , $n$  times over the life of the bond, makes the maturity payment $M$ , and matures at time $T$ . We will denote the price of this bond as $B(0, T, c, n, M)$ . The time between coupon payments is $T / n$ , and the $i$ th coupon payment occurs at time $t_i = i \times T / n$ .
 
 We can value this bond by discounting its payments at the interest rate appropriate for each payment. This bond has the price
 
@@ -174,9 +176,9 @@ $$
 
 $$
 
-This valuation equation shows us how to price the bond and also how to replicate the bond using zero-coupon bonds. Suppose we buy  $c$  zero-coupon bonds maturing in 1 year,  $c$  maturing in 2 years, and so on, and  $c + M$  zero-coupon bonds maturing in  $T$  years. This set of zero-coupon bonds will pay  $c$  in 1 year,  $c$  in 2 years, and  $c + M$  in  $T$  years. We can say that the coupon bond is engineered from a set of zero-coupon bonds with the same maturities as the cash flows from the bond.
+This valuation equation shows us how to price the bond and also how to replicate the bond using zero-coupon bonds. Suppose we buy  $c$  zero-coupon bonds maturing in 1 year, $c$  maturing in 2 years, and so on, and $c + M$  zero-coupon bonds maturing in $T$  years. This set of zero-coupon bonds will pay $c$  in 1 year, $c$  in 2 years, and $c + M$  in $T$  years. We can say that the coupon bond is engineered from a set of zero-coupon bonds with the same maturities as the cash flows from the bond.
 
-In practice, bonds are usually issued at par, meaning that the bond sells today for its maturity value,  $M$ . The bond will sell at par if we set the coupon so that the price of the bond is  $M$ . Using equation (3),  $B(0, T, c, n, M) = M$  if the coupon is set so that
+In practice, bonds are usually issued at par, meaning that the bond sells today for its maturity value,  $M$ . The bond will sell at par if we set the coupon so that the price of the bond is $M$ . Using equation (3), $B(0, T, c, n, M) = M$  if the coupon is set so that
 
 $$ c = M \frac {\left(1 - P _ {T}\right)}{\sum_ {i = 1} ^ {n} P _ {t _ {i}}} \tag {4}
 $$
@@ -186,9 +188,9 @@ In the special case of a constant interest rate, equation (4) becomes
 $$ c = M \frac {1 - e ^ {- r T}}{\sum_ {i = 1} ^ {n} e ^ {- r t _ {i}}} \tag {5}
 $$
 
-If a bond has payments denominated in stock, commodities, or a foreign currency instead of cash, simply replace the discount factor for cash,  $P_{t_i}$ , with the prepaid forward price,  $F_{0,t_i}^P$ , which is the discount factor for a noncash payment. If a bond makes some payments in cash and some in stock (for example), simply discount each payment using the appropriate discount factor.
+If a bond has payments denominated in stock, commodities, or a foreign currency instead of cash, simply replace the discount factor for cash,  $P_{t_i}$ , with the prepaid forward price, $F_{0,t_i}^P$ , which is the discount factor for a noncash payment. If a bond makes some payments in cash and some in stock (for example), simply discount each payment using the appropriate discount factor.
 
-For example, suppose a bond pays one share of stock at maturity, and that coupon payments are fractions of a share rather than a fixed number of dollars. To price such a bond, we represent the number of fractional shares received at each coupon payment as  $c^*$ . The value at time 0 of a share received at time  $t$  is  $F_{0,t}^P$ . Thus, the formula for  $V_0$  the value of the note at time  $t_0$ , is
+For example, suppose a bond pays one share of stock at maturity, and that coupon payments are fractions of a share rather than a fixed number of dollars. To price such a bond, we represent the number of fractional shares received at each coupon payment as  $c^*$ . The value at time 0 of a share received at time $t$  is $F_{0,t}^P$ . Thus, the formula for $V_0$  the value of the note at time $t_0$ , is
 
 $$
 V _ {0} = c ^ {*} \sum_ {i = 1} ^ {n} F _ {0, t _ {i}} ^ {P} + F _ {0, T} ^ {P}
@@ -216,7 +218,7 @@ $$
 \begin{array}{l} B (0, T, c, n, S _ {T}) = c \sum_ {i = 1} ^ {n} P _ {t _ {i}} + F _ {0, t _ {i}} ^ {P} \\ = c \sum_ {i = 1} ^ {n} P _ {t _ {i}} + S _ {0} - \sum_ {i = 1} ^ {n} P _ {t _ {i}} D _ {t _ {i}} \\ \end{array}
 $$
 
-We can see that the price of the bond,  $B$ , will equal the stock price,  $S_0$ , as long as the present value of the bond's coupons (the first term on the right-hand side) equals the present value of the stock dividends (the third term on the right-hand side).
+We can see that the price of the bond,  $B$ , will equal the stock price, $S_0$ , as long as the present value of the bond's coupons (the first term on the right-hand side) equals the present value of the stock dividends (the third term on the right-hand side).
 
 Example 4. Consider XYZ stock as in Example 2. If the note promised to pay \$1.20 quarterly—a coupon equal to the stock dividend—the note would sell for \$100.
 
@@ -226,24 +228,24 @@ Commodity-linked bonds. Suppose a note pays one unit of a commodity at maturity.
 
 Example 5. Suppose the spot price of gold is  \$400/oz, the 3-year forward price is\$ 455/oz, the 1-year continuously compounded interest rate is 5.5\%, the 2-year rate is 6\%, and the 3-year rate is 6.25\%. The annual coupon denominated in cash is
 
-$$ c = \frac {\mathbb {S} 4 0 0 - \mathbb {S} 4 5 5 e ^ {- 0 . 0 6 2 5 \times 3}}{e ^ {- 0 . 0 5 5} + e ^ {- 0 . 0 6 \times 2} + e ^ {- 0 . 0 6 2 5 \times 3}} = \mathbb {S} 8. 5 6 1
+$$ c = \frac {\mathbb {S} 4 0 0 - \mathbb {S} 4 5 5 e ^ {- 0.0 6 2 5 \times 3}}{e ^ {- 0.0 5 5} + e ^ {- 0.0 6 \times 2} + e ^ {- 0.0 6 2 5 \times 3}} = \mathbb {S} 8. 5 6 1
 $$
 
 The annual coupon on a 3-year gold-linked note is therefore about  $2\%$  of the spot price.
 
-A  $2\%$  yield in this example might seem inexpensive compared to the  $5.5\%$  risk-free rate, but this is only because the lease rate on gold is less than the lease rate on cash (the interest rate).
+A  $2\%$  yield in this example might seem inexpensive compared to the $5.5\%$  risk-free rate, but this is only because the lease rate on gold is less than the lease rate on cash (the interest rate).
 
-Perpetuities. A perpetuity is an infinitely lived coupon bond. To illustrate, we can use equations (7) and (5) to consider two types: one that makes annual payments in dollars and another that makes payments in units of a commodity. Suppose we want the dollar perpetuity to have a price of  $M$  and the commodity perpetuity to have a price of  $S_0$ . Using standard perpetuity calculations, if we let  $T \to \infty$  in equation (5) (this also means that  $n \to \infty$ ), the coupon rate on the dollar bond is
+Perpetuities. A perpetuity is an infinitely lived coupon bond. To illustrate, we can use equations (7) and (5) to consider two types: one that makes annual payments in dollars and another that makes payments in units of a commodity. Suppose we want the dollar perpetuity to have a price of  $M$  and the commodity perpetuity to have a price of $S_0$ . Using standard perpetuity calculations, if we let $T \to \infty$  in equation (5) (this also means that $n \to \infty$ ), the coupon rate on the dollar bond is
 
 $$ c = M \frac {1}{\frac {e ^ {- r}}{1 - e ^ {- r}}} = M (e ^ {r} - 1) = \hat {r} M
-$$ where  $\hat{r}$  is the effective annual interest rate,  $e^r - 1$ . Similarly, for a perpetuity paying a unit of a commodity, equation (7) becomes
+$$ where $\hat{r}$  is the effective annual interest rate, $e^r - 1$ . Similarly, for a perpetuity paying a unit of a commodity, equation (7) becomes
 
 
-$$ c ^ {*} = S _ {0} \frac {1}{\frac {e ^ {- \delta}}{1 - e ^ {- \delta}}} = S _ {0} (e ^ {\delta} - 1) = \hat {\delta} S _ {0}
-$$ where  $\hat{\delta}$  is the effective annual lease rate,  $e^{\delta} - 1$ . Thus, in order for a commodity perpetuity to be worth one unit of the commodity, it must pay the lease rate in units of the commodity. For example, if the effective annual lease rate is  $2\%$ , the bond pays 0.02 units of the commodity per year.
+$$ c^* = S_0 \frac{1}{\frac{e^{-\delta}}{1 - e^{-\delta}}} = S_0 (e^{\delta} - 1) = \hat{\delta} S_0
+$$ where $\hat{\delta}$  is the effective annual lease rate, $e^{\delta} - 1$ . Thus, in order for a commodity perpetuity to be worth one unit of the commodity, it must pay the lease rate in units of the commodity. For example, if the effective annual lease rate is $2\%$ , the bond pays 0.02 units of the commodity per year.
 
 
-What if a bond pays one unit of the commodity per year, forever? We know that if it pays  $\hat{\delta} S_{t}$  in perpetuity it is worth  $S_0$ . Thus, if it pays  $S_{t}$  it is worth
+What if a bond pays one unit of the commodity per year, forever? We know that if it pays  $\hat{\delta} S_{t}$  in perpetuity it is worth $S_0$ . Thus, if it pays $S_{t}$  it is worth
 
 $$
 
@@ -260,13 +262,13 @@ $$
 
 The superscript  $F$  indicates that the price is denominated in the foreign currency.
 
-If the bond has principal denominated in the home currency and coupons denominated in the foreign currency, we can discount the foreign currency coupon payments using the foreign interest rate, and then translate their value into dollars using the current exchange rate,  $x_0$  (denominated as $/unit of foreign currency). The value of the  $i$ th coupon is  $x_0 P_i^F c$ , and the value of the bond is
+If the bond has principal denominated in the home currency and coupons denominated in the foreign currency, we can discount the foreign currency coupon payments using the foreign interest rate, and then translate their value into dollars using the current exchange rate,  $x_0$  (denominated as$/unit of foreign currency). The value of the  $i$ th coupon is $x_0 P_i^F c$ , and the value of the bond is
 
 $$
 B (0, T, c ^ {F}, n, M) = x _ {0} c ^ {F} \sum_ {i = 1} ^ {n} P _ {t _ {i}} ^ {F} + M P _ {T}
 $$
 
-You could also translate the future coupon payment into dollars using the forward currency rate,  $F_{0,t}$ , and then discount back at the dollar-denominated interest rate,  $P_t$ . The value of the bond in this case is
+You could also translate the future coupon payment into dollars using the forward currency rate,  $F_{0,t}$ , and then discount back at the dollar-denominated interest rate, $P_t$ . The value of the bond in this case is
 
 $$
 B (0, T, c ^ {F}, n, M) = c ^ {F} \sum_ {i = 1} ^ {n} F _ {0, t _ {i}} P _ {t _ {i}} + M P _ {T}
@@ -297,7 +299,7 @@ In this section, we use examples to illustrate structures that contain options, 
 
 We consider default-free structures where the underlying asset is that of a third party (for example, a bank might issue an insured deposit linked to the S&P 500 index).
 
-# FIGURE I
+## FIGURE I
 
 Four basic payoffs: Panel (a) is a convertible bond, where the bond converts to the asset if its price is above \$100. Panel (b) is a reverse convertible, where the bond pays \$100 if the asset price is above \$100, and converts into the asset below. Panel (c) is a tranche, in which the instrument pays 0 if the asset price is below $60, $40 if the asset price is above \$100, and the asset price less \$60 otherwise. Panel (d) is a variable prepaid forward, where the bond pays the asset value for prices below $100, $100 between \$100 and \$125, and $100 + 0.80(S - $125) for asset prices above \$125.
 
@@ -317,11 +319,11 @@ Four basic payoffs: Panel (a) is a convertible bond, where the bond converts to 
 
 (d) Variable Prepaid Forward
 
-# Convertible Bonds
+## Convertible Bonds
 
 Standard convertible bonds, also sometimes called equity-linked notes, have a minimum payoff and convert into units of the underlying asset when the underlying asset performs well. This payoff is depicted in panel (a) of Figure 1. We obtain this structure by embedding call options in the bond. We will use the terms "bond" and "note" interchangeably, though in common usage a note has a medium time to maturity (2-10 years) and a bond has a longer maturity.
 
-Consider a note convertible into stock. Let  $\gamma$  denote the extent to which the note participates in the appreciation of the underlying stock; we will call  $\gamma$  the price participation of the note. In general, the value  $V_{0}$  of a note with fixed maturity payment  $M$ , coupon  $c$ , maturity  $T$ , strike price  $K$ , and price participation  $\gamma$  can be written
+Consider a note convertible into stock. Let  $\gamma$  denote the extent to which the note participates in the appreciation of the underlying stock; we will call $\gamma$  the price participation of the note. In general, the value $V_{0}$  of a note with fixed maturity payment $M$ , coupon $c$ , maturity $T$ , strike price $K$ , and price participation $\gamma$  can be written
 
 $$
 V _ {0} = M P _ {T} + c \sum_ {i = 1} ^ {n} P _ {t _ {i}} + \gamma \operatorname {B S C a l l} \left(S _ {0}, K, \sigma , r, T, \delta\right) \tag {9}
@@ -329,7 +331,7 @@ $$
 
 Equation (9) assumes that the principal payment is cash. It could just as well be shares. Equation (9) also assumes that the note has a single embedded call option.
 
-Given equation (9), we could arbitrarily select  $M, T, c, K$ , and  $\gamma$  and then value the note, but it is common to structure notes in particular ways. To take one example, suppose that the initial design goals are as follows:
+Given equation (9), we could arbitrarily select  $M, T, c, K$ , and $\gamma$  and then value the note, but it is common to structure notes in particular ways. To take one example, suppose that the initial design goals are as follows:
 
 1. The note's initial price should equal the price of a share, i.e.,  $V_{0} = S_{0}$ .
 2. The note should guarantee a return of at least zero, i.e.,  $M = V_{0}$ .
@@ -341,11 +343,11 @@ $$
 S _ {0} = c \sum_ {i = 1} ^ {n} P _ {t _ {i}} + S _ {0} P _ {T} + \gamma \operatorname {B S C a l l} \left(S _ {0}, S _ {0}, \sigma , r, T, \delta\right) \tag {10}
 $$
 
-Given these constraints, equation (10) implies a relationship between the coupon,  $c$ , and price participation,  $\gamma$ . Given a coupon,  $c$ , we can solve for  $\gamma$ , and vice versa.
+Given these constraints, equation (10) implies a relationship between the coupon,  $c$ , and price participation, $\gamma$ . Given a coupon, $c$ , we can solve for $\gamma$ , and vice versa.
 
 # Valuing and Structuring an Equity-Linked CD
 
-Valuing the CD. Suppose the S&P index at issue is  $S_0$  and is  $S_{5.5}$  at maturity. The CD pays no coupons  $(c = 0)$ , and it gives the investor 0.7 at-the-money calls ( $\gamma = 0.7$  and  $K = S_0$ ). After 5.5 years the CD pays
+Valuing the CD. Suppose the S&P index at issue is  $S_0$  and is $S_{5.5}$  at maturity. The CD pays no coupons $(c = 0)$ , and it gives the investor 0.7 at-the-money calls ($\gamma = 0.7$  and $K = S_0$ ). After 5.5 years the CD pays
 
 $$
 S _ {0} + 0. 7 \times \max  \left(S _ {5. 5} - S _ {0}, 0\right) \tag {11}
@@ -355,10 +357,10 @@ Using equation (9), the value of this payoff at time 0 is
 
 $$
 S _ {0} \times P _ {5. 5} + 0. 7 \times \operatorname {B S C a l l} \left(S _ {0}, S _ {0}, \sigma , r, 5. 5, \delta\right) \tag {12}
-$$ where  $P_{5.5} = e^{-r\times 5.5}$
+$$ where $P_{5.5} = e^{-r\times 5.5}$
 
 
-To compute equation (12), we need to make assumptions about the interest rate, the volatility, and the dividend yield on the S&P 500 index. Suppose the 5.5-year interest rate is  $6\%$ , the 5-year index volatility is  $30\%$ , the S&P index is 1300, and the dividend yield is  $1.5\%$ . We have two pieces to value. The zero-coupon bond paying 1300 is worth
+To compute equation (12), we need to make assumptions about the interest rate, the volatility, and the dividend yield on the S&P 500 index. Suppose the 5.5-year interest rate is  $6\%$ , the 5-year index volatility is $30\%$ , the S&P index is 1300, and the dividend yield is $1.5\%$ . We have two pieces to value. The zero-coupon bond paying 1300 is worth
 
 $$
 
@@ -370,7 +372,7 @@ One call option has a value of
 
 $$
 
-\operatorname {B S C a l l} (\mathbb {1 3 0 0}, \mathbb {1 3 0 0}, 0. 3, 0. 0 6, 5. 5, 0. 0 1 5) = \mathbb {4 4 1 . 4 4}
+\operatorname {B S C a l l} (\mathbb {1300}, \mathbb {1300}, 0. 3, 0. 0 6, 5. 5, 0. 0 1 5) = \mathbb {4 4 1 . 4 4}
 
 $$
 
@@ -430,7 +432,7 @@ The arithmetic Asian option has a higher price than one based on the geometric a
 
 Increasing the number of prices averaged would lower the price of either option, raising the participation rate.
 
-Capped participation. Another way to raise the participation rate is to cap the level of participation. For example, suppose we set a cap of  $k$  times the initial price. Then the investor writes to the issuer a call with a strike of  $kS_{0}$ , and the valuation equation for the CD becomes
+Capped participation. Another way to raise the participation rate is to cap the level of participation. For example, suppose we set a cap of  $k$  times the initial price. Then the investor writes to the issuer a call with a strike of $kS_{0}$ , and the valuation equation for the CD becomes
 
 $$
 
@@ -442,13 +444,13 @@ Example 6. Suppose we set a cap of a  $100\%$  return. Then the investor writes 
 
 $$
 
-\begin{array}{l} 1 3 0 0 (1 - 0. 0 4 3) = 1 3 0 0 e ^ {- 0. 0 6 \times 5. 5} + \gamma \times [ \text {B S C a l l} (1 3 0 0, 1 3 0 0, 0. 3, 0. 0 6, 5. 5, 0. 0 1 5) \\ - \operatorname {B S C a l l} (1 3 0 0, 2 6 0 0, 0. 3, 0. 0 6, 5. 5, 0. 0 1 5) ] \\ \end{array}
+\begin{array}{l} 1300 (1 - 0. 0 4 3) = 1300 e ^ {- 0. 0 6 \times 5. 5} + \gamma \times [ \text {B S C a l l} (1300, 1300, 0. 3, 0. 0 6, 5. 5, 0. 0 1 5) \\ - \operatorname {B S C a l l} (1300, 2 6 0 0, 0. 3, 0. 0 6, 5. 5, 0. 0 1 5) ] \\ \end{array}
 
 $$
 
 The value of the written 2600-strike call is 162.48. The participation rate implied by this equation is 1.11.
 
-# Reverse Convertible Bonds
+## Reverse Convertible Bonds
 
 Standard reverse convertible bonds have a maximum payoff and convert into the asset when it performs poorly, as in Panel B of Figure 1. The reverse convertible structure is implicit in corporate bonds, which pay investors in full when the firm performs well and not when the firm declares bankruptcy. Financial institutions have also issued hundreds of explicit reverse convertibles in recent years.
 
@@ -462,15 +464,15 @@ The maturity payoff of the reverse convertible therefore looks like a flat line 
 
 You may recognize that this structure embeds a written down-and-in put, which is a barrier option. The value of the bond is
 
-$$ e ^ {- r T} (M + C) - \operatorname {P u t D o w n I n} \left(S _ {0}, M, \sigma , r, T, \delta , P\right)
-$$ where  $M$  is the maturity payment,  $C$  is the coupon,  $\sigma$  is the volatility,  $r$  the interest rate,  $P$  the protection price,  $T$  the time to expiration,  $\delta$  the dividend yield, and PutDownIn is the down-and-in put pricing function.
+$$ e^{-r T} (M + C) - \operatorname{PutDownIn}(S_0,M,\sigma,r,T,\delta,P)
+$$ where $M$  is the maturity payment, $C$  is the coupon, $\sigma$  is the volatility, $r$  the interest rate, $P$  the protection price, $T$  the time to expiration, $\delta$  the dividend yield, and PutDownIn is the down-and-in put pricing function.
 
 
-If we assume that  $\sigma = 60\%$  and  $r = 3\%$ , we have
+If we assume that  $\sigma = 60\%$  and $r = 3\%$ , we have
 
 $$
 
-\begin{array}{l} e ^ {- r T} 1 0 5. 5 - \operatorname {P u t D o w n I n} (1 0 0, 1 0 0, \sigma , r, 0. 5, 0, 5 0) = \\ \ 1 0 3. 9 2 9 - \ 6. 6 2 9 \\ = \$ 97.300 \\ \end{array}
+\begin{array}{l} e ^ {- r T} 105.5 - \operatorname {P u t D o w n I n} (100, 100, \sigma , r, 0. 5, 0, 5 0) = \\ \ 1 0 3. 9 2 9 - \ 6. 6 2 9 \\ = \$ 97.300 \\ \end{array}
 
 $$
 
@@ -480,7 +482,7 @@ If there had been no barrier, the option would be an ordinary put and the price 
 
 $$
 
-\begin{array}{l} e ^ {- r T} 1 0 5. 5 - \mathrm {B S P u t} (1 0 0, 1 0 0, \sigma , r, 0. 5, 0) = \\ \ 1 0 3. 9 2 9 - \ 1 5. 9 4 0 \\ = \mathbb {8 7 . 9 8 9} \\ \end{array}
+\begin{array}{l} e ^ {- r T} 105.5 - \mathrm {B S P u t} (100, 100, \sigma , r, 0. 5, 0) = \\ \ 1 0 3. 9 2 9 - \ 1 5. 9 4 0 \\ = \mathbb {8 7 . 9 8 9} \\ \end{array}
 
 $$
 
@@ -488,7 +490,7 @@ In order for a bond with a nonbarrier option to sell at par, the coupon would ne
 
 It is probably obvious to you that many similar structures could be created and that it is not easy for a typical investor to analyze such structures. Box 2 illustrates that regulators
 
-# Box 2: Do Investors Understand Structured Notes?
+## Box 2: Do Investors Understand Structured Notes?
 
 The U.S. Securities and Exchange Commission (SEC) and the Financial Industry Regulatory Authority (FINRA) issued a press release in June 2011 to warn investors about risks of investing in structured notes. Here are excerpts from the release:
 
@@ -504,13 +506,13 @@ FINRA and the SEC's Office of Investor Education and Advocacy are advising inves
 Source: SEC/FINRA in the U.S. share this concern, particularly with respect to products advertising "principal protection." The U.S. Oil reverse convertible described above has no principal protection (if the U.S. Oil price were to fall to zero, the note would pay only the coupon), but it would be possible to add protection by including a purchased barrier put in the structure.
 
 
-# Tranched Payoffs
+## Tranched Payoffs
 
 Tranching refers to splitting up cash flows to create new derivative instruments that make payments dependent on the return on an underlying asset being in a specific range. Tranched securities were prominent in discussions of the financial crisis. A mortgage originator (such as a bank) would lend to a homebuyer. The bank would combine (or pool) thousands of
 
 TABLEI
 
-Payment at maturity on a variable prepaid forward contract, showing the dependence of the maturity payment on the future price of the underlying stock. In Panel D of Figure 1,  $K_{1} = \100$ ,  $K_{2} = \$ 125 , and  $\lambda = 0.80$ .
+Payment at maturity on a variable prepaid forward contract, showing the dependence of the maturity payment on the future price of the underlying stock. In Panel D of Figure 1,  $K_{1} = \100$ , $K_{2} = \$ 125 , and $\lambda = 0.80$ .
 
 Time  $T$  Share Price Payment to VPF Holder
 
@@ -521,11 +523,11 @@ Consider a bull spread constructed using options. Suppose that an investor buys 
 
 Mortgage tranches were effectively bull spreads on the underlying mortgage pool. The tranches likely to pay in full were priced like low-risk bonds and carried low yields. The tranches unlikely to pay in full were priced like high-risk bonds and carried high yields. To make things more complicated, dealers would sometimes pool intermediate tranches and sell new tranched securities created out of old tranched securities. This process resulted in products with risk that was extremely difficult to analyze.
 
-# Variable Prepaid Forwards
+## Variable Prepaid Forwards
 
-The payment at maturity on a typical VPF is in Table 1. A VPF has two special prices,  $K_{1}$  and  $K_{2}$ , also called the "floor" and the "cap." The VPF holder receives the value of the stock at prices below  $K_{1}$ ,  $K_{1}$  for intermediate stock prices, and  $K_{1} + \lambda (S_{T} - K_{2})$  for prices above  $K_{2}$ . Typically,  $\lambda = k_{1} / k_{2}$ . Versions of this structure have other names, such as PEPS and Upper DECs, but the general idea is the same. You should verify that if you set  $K_{1} = \$ 100$ ,  $K_{2} = \$ 125$ , and  $\lambda = 0.80$ , you obtain the payoff in Panel D of Figure 1.
+The payment at maturity on a typical VPF is in Table 1. A VPF has two special prices,  $K_{1}$  and $K_{2}$ , also called the "floor" and the "cap." The VPF holder receives the value of the stock at prices below $K_{1}$ , $K_{1}$  for intermediate stock prices, and $K_{1} + \lambda (S_{T} - K_{2})$  for prices above $K_{2}$ . Typically, $\lambda = k_{1} / k_{2}$ . Versions of this structure have other names, such as PEPS and Upper DECs, but the general idea is the same. You should verify that if you set $K_{1} = \$ 100$ , $K_{2} = \$ 125$ , and $\lambda = 0.80$ , you obtain the payoff in Panel D of Figure 1.
 
-A common use of a VPF would be for a large shareholder to hedge a stock position.[10] VPFs are generally over-the-counter instruments, so the shareholder would sell a VPF to a dealer, receiving the VPF price at time  $0$ ,  $V_0$ . At time  $T$ , the VPF settles, and the shareholder is obligated to make the payments in Table 1. The profit for a shareholder selling a VPF would then be
+A common use of a VPF would be for a large shareholder to hedge a stock position.[10] VPFs are generally over-the-counter instruments, so the shareholder would sell a VPF to a dealer, receiving the VPF price at time  $0$ , $V_0$ . At time $T$ , the VPF settles, and the shareholder is obligated to make the payments in Table 1. The profit for a shareholder selling a VPF would then be
 
 $$
 
@@ -541,7 +543,7 @@ Example 7. Consider a VPF with K1 = $100, K2 = $125. Suppose that S0 = 100, r = 
 
 $$
 
-\begin{array}{l} C \left(K _ {1}\right) = \operatorname {B S C a l l} (1 0 0, 1 0 0, 0. 3 0, 0. 0 6, 5, 0) = \$ 3 7. 9 6 9 \\ C \left(K _ {2}\right) = \operatorname {B S C a l l} (1 0 0, 1 2 5, 0. 3 0, 0. 0 6, 5, 0) = \$ 2 9. 1 5 5 \\ \end{array}
+\begin{array}{l} C \left(K _ {1}\right) = \operatorname {B S C a l l} (100, 100, 0. 3 0, 0. 0 6, 5, 0) = \$ 3 7. 9 6 9 \\ C \left(K _ {2}\right) = \operatorname {B S C a l l} (100, 1 2 5, 0. 3 0, 0. 0 6, 5, 0) = \$ 2 9. 1 5 5 \\ \end{array}
 
 $$
 
@@ -549,7 +551,7 @@ With  $\lambda = k_{1} / k_{2} = 0.8$  the value at time 0 of the VPF is
 
 $$
 
-V _ {0} = \ 1 0 0 - \ 3 7 . 9 6 9 + 0 . 8 \times \$ 2 9 . 1 5 5 = \$ 8 5 . 3 5 5
+V _ {0} = \ 100 - \ 3 7 . 9 6 9 + 0 . 8 \times \$ 2 9 . 1 5 5 = \$ 8 5 . 3 5 5
 
 $$
 
@@ -557,17 +559,17 @@ The profit from owning a share and hedging with the VPF is in Figure 2. The prof
 
 The net profit line in Figure 2 has a positive slope above \$125. This is because λ = 0.80; for every dollar by which the stock price increases, the VPF pays \$0.80 and the VPF seller keeps \$0.20. The slope will vary with λ; in particular, if λ = 1, the line would be flat above \$125.
 
-# Strategies Motivated by Tax and Regulatory Considerations
+## Strategies Motivated by Tax and Regulatory Considerations
 
 A common use of financial engineering is to create financial structures with particular tax and regulatory characteristics. Many such structures resemble the variable prepaid forward structure (panel (d) in Figure 1). This section focuses on two functional examples using instruments with a payoff like the variable prepaid forward: the deferral of capital gains taxes and an instrument that provides tax-deductible equity capital for a bank holding company.
 
-# FIGURE 2
+**FIGURE 2**
 
 Profit from owning one share and selling a variable prepaid forward contract.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9012e5105deebb59e168eec77141c005f69c30f61913e8a179409b0e85ae5b10.jpg)
 
-# Capital Gains Deferral
+### Capital Gains Deferral
 
 If you sell a financial asset at a price greater than your cost, the difference is a capital gain, which is taxed as income in many countries.[11] The United States and many other countries tax capital gains only when an asset is sold. This brings up a practical question: How do you determine when an asset is sold?
 
@@ -577,7 +579,7 @@ Since 1997, holding an asset and selling it forward has constituted a constructi
 
 Hedging a stock position without selling it is a way to defer capital gains on the hedged portion. This deferral can be valuable. Suppose you have stock worth \$10 million with capital gains of \$7 million. If taxed at the 15\% long-term capital gains tax rate, the tax on a sale of this position would be 15\% × \$7 million = \$1.05 million. If the after-tax
 
-# Box 3: Constructive Sales
+**Box 3: Constructive Sales**
 
 In late 1995, Estee Lauder and Ronald Lauder sold 13.8 million shares of Revlon (see Henriques, 1997). The capital gains tax owed on a direct sale of these shares was estimated at 95 million. The Lauders did not directly sell the shares they owned, however. Instead they borrowed 13.8 million shares from family members, and sold those borrowed shares. Technically they still owned their original shares and owed shares to relatives, but they had received money from selling the borrowed shares. This maneuver is known as "shorting-against-the-box." Clearly shorting-against-the-box has the earmarks of a sale, in that the shareholder has no remaining risk of ownership and has received cash for the stock.
 
@@ -599,7 +601,7 @@ Deferring the tax payment is like receiving an interest-free loan from the gover
 
 Hedging by Corporate Insiders. Corporate insiders can enter into collars and variable prepaid forward contracts as a way to hedge their shareholdings. In one widely reported example, Paul Allen, a cofounder of Microsoft, entered into collars on 76 million Microsoft shares during October and November of 2000 (McMurray, 2001). Once a stock position has been collared or hedged, and the risk of the stock position reduced, the hedged stock can serve as collateral for a loan. For example, suppose an executive enters into a zero-cost collar with a put strike of  \$90. The executive is guaranteed to receive at least\$ 90 at maturity, so a bank can lend the present value of 90 using the stock plus put as collateral.
 
-Bettis et al. (2010) examined SEC filings between 1996 and 2006 and found over 2000 instances of insiders entering into hedging contracts, including zero-cost collars, exchange funds, and VPFs. $^{12}$  In the early part of this period, insiders predominantly used zero-cost collars and exchange funds, which are trusts funded by the contributions of insider shareholdings from different companies. $^{13}$  Later in the period, after 2001, insiders most commonly sold VPFs, which combine hedging and lending. $^{14}$
+Bettis et al. (2010) examined SEC filings between 1996 and 2006 and found over 2000 instances of insiders entering into hedging contracts, including zero-cost collars, exchange funds, and VPFs. $^{12}$  In the early part of this period, insiders predominantly used zero-cost collars and exchange funds, which are trusts funded by the contributions of insider shareholdings from different companies.$^{13}$  Later in the period, after 2001, insiders most commonly sold VPFs, which combine hedging and lending.$^{14}$
 
 
 Both Bettis et al. (2010) and Jagolinzer et al. (2007) (who also examined prepaid forwards) find that the sale of a VPF tends to precede poor performance by the company, suggesting that shareholders might have been hedging their shares in anticipation of adverse information about the company.
@@ -608,13 +610,13 @@ To consider one prominent example of a VPF transaction, in August 2003 Walt Disn
 
 The VPF Agreement provides that on August 18, 2008 ("Settlement Date"), [Roy Disney] will deliver a number of shares of Common Stock to CSFB LLC (or . . . the cash equivalent of such shares) as follows: (a) if the average VWAP ["Value Weighted Average Price"] of the Common Stock for the 20 trading days preceding and including the Settlement Date ("Settlement Price") is less than  \$21.751, a delivery of 7,500,000 shares; (b) if the Settlement Price is equal to or greater than\$ 21.751 per share ("Downside Threshold") but less than or equal to \$32.6265 per share ("Upside Threshold"), a delivery of shares equal to the Downside Threshold/Settlement Price × 7,500,000; and (c) if the Settlement Price is greater than the Upside Threshold, a delivery of shares equal to  $(1 - (10.8755 / \text{Settlement Price})) \times 7,500,000$ .
 
-The profit picture for Disney resembled Figure 2 with  $K_{1} = 21.751$ ,  $K_{2} = 32.6265$  and  $\lambda = 1$ . This transaction permitted Disney to retain the voting rights in the shares, receive substantial cash, and presumably defer any capital gains he had on the position. The data in Jagolinzer et al. (2007) and Bettis et al. (2010) shows that shareholders had undertaken over a hundred similar transactions prior to the Disney deal, and hundreds more afterwards.
+The profit picture for Disney resembled Figure 2 with  $K_{1} = 21.751$ , $K_{2} = 32.6265$  and $\lambda = 1$ . This transaction permitted Disney to retain the voting rights in the shares, receive substantial cash, and presumably defer any capital gains he had on the position. The data in Jagolinzer et al. (2007) and Bettis et al. (2010) shows that shareholders had undertaken over a hundred similar transactions prior to the Disney deal, and hundreds more afterwards.
 
 Tax Deferral for Corporations. Corporations may also wish to sell an asset without creating a constructive sale. A corporation has an alternative not open to most investors—namely, the issuance of a note with a payoff linked to the price of the appreciated stock. A well-known example of this is the 1996 issuance by Times-Mirror Co of an equity-linked note, where the note was linked to the stock price of Netscape.
 
 In April 1995, Times Mirror had purchased 1.8 million shares of Netscape in a private placement. The price (adjusted for subsequent share splits) was 2/share. The stock was restricted and could not be resold publicly for 2 years even if Netscape were to go public. In order to sell the stock, Times Mirror would have had to find a qualified buyer (a wealthy or
 
-# BOX 4: Constructive Sales, Part II
+**BOX 4: Constructive Sales, Part II**
 
 A dealer is typically the buyer of a VPF. In order to hedge this exposure to the stock, the dealer will short shares, and therefore must borrow them. In some cases, dealers have borrowed shares from the VPF seller. The IRS announced in 2006 that if a shareholder both sells a VPF and lends shares to the dealer, the two transactions together constitute a sale for tax purposes—the transaction is a constructive sale.
 
@@ -627,12 +629,12 @@ The fundamental issue is that the tax law draws sharp distinctions between posit
 
 professional investor) and sell the shares in a private placement.[15] In August 1995, Netscape issued shares publicly. In March 1996, Times Mirror had approximately 85 million in capital gains on the stock. If the shares had been sold on the open market, the tax liability would have been approximately 0.35 \times 85 m = 29.75 million. Although tax law did not at that time define a constructive sale, a sufficiently wide collar seemed likely to avoid challenge by the tax authorities. Times Mirror's Netscape stake was too large to collar with exchange-traded options. An over-the-counter deal would have left an investment bank with a difficult hedging problem.
 
-Times Mirror elected to hedge its position in Netscape by issuing a five-year equity-linked note that was essentially a VPF. The structure was called a PEPS (Premium Equity Participating Shares) security with  $K_{1} = \39.25$ ,  $K_{2} = \$ 45.14 , and  $\lambda = 0.8696$ . The security was issued for  $\39.25$  and differed from a typical VPF in paying  $4.25\%$  interest (paid quarterly based on the issue price of  $\$ 39.25 ). The shares were ultimately redeemable in cash or stock, at the discretion of Times Mirror.
+Times Mirror elected to hedge its position in Netscape by issuing a five-year equity-linked note that was essentially a VPF. The structure was called a PEPS (Premium Equity Participating Shares) security with  $K_{1} = \39.25$ , $K_{2} = \$ 45.14 , and $\lambda = 0.8696$ . The security was issued for $\39.25$  and differed from a typical VPF in paying $4.25\%$  interest (paid quarterly based on the issue price of $\$ 39.25 ). The shares were ultimately redeemable in cash or stock, at the discretion of Times Mirror.
 
 The effect of issuing the PEPS was like that of Roy Disney selling the variable prepaid forward. Times Mirror received cash at issuance and could deliver shares at maturity. In order to avoid challenge as a constructive sale, the issuance left Times Mirror imperfectly hedged. If at maturity the Netscape stock price was less than 39.25, Times Mirror would lose the interest payments. Above \$45.14, Times Mirror had the risk of holding approximately  $13\%$  of the shares.[16]
 
 
-# Marshall & Ilsley SPACES
+### Marshall & Ilsley SPACES
 
 Banks are required to have capital to cover potential losses on loans and investments. The specific rules are in flux, but generally speaking, "tier 1" capital is equity, retained earnings, and preferred stock, while "tier 2" capital is subordinated debt. Prior to the 2010 Dodd-Frank financial regulation bill, banks were permitted to count limited amounts of so-called trust preferred securities as tier 1 capital.[17] Trust preferred securities are complicated, but their basic design resembles a variable prepaid forward.
 
@@ -655,13 +657,13 @@ The M&I Issue. In July 2004, M&I raised 400 million issuing convertible securiti
 
 The bonds held in trust serve as collateral to ensure that the investor can pay the 25 to buy shares in 3 years, eliminating credit risk for M&I.
 
-The total coupon paid by the trust security was  $6.5\%$  :  $3.9\%$  for the bond and  $2.6\%$  for the stock purchase contract. At maturity the investor would exercise the stock purchase contract, paying for the stock with the bonds. Because the instrument effectively settled in shares of Marshall & Ilsley's own stock, it was a mandatorily convertible bond.
+The total coupon paid by the trust security was  $6.5\%$  : $3.9\%$  for the bond and $2.6\%$  for the stock purchase contract. At maturity the investor would exercise the stock purchase contract, paying for the stock with the bonds. Because the instrument effectively settled in shares of Marshall & Ilsley's own stock, it was a mandatorily convertible bond.
 
-You can verify that the payoff for holding  $1 / 0.6699 = 1.4928$  of the securities resembled panel (d) in Figure 1, with  $K_{1} = 37.32$ ,  $K_{2} = 46.28$ , and  $\lambda = 0.80639$ . Buying 1.4928 bonds is therefore equivalent to owning 1 prepaid forward on the stock, selling 1 call with a strike price of \$37.32, and buying 0.80639 calls with a strike price of \$46.28. Holders of the bond forgo both approximately  $20\%$  of the appreciation on the stock above \$46.28 as well as the  $2\%$  dividend on the stock.
+You can verify that the payoff for holding  $1 / 0.6699 = 1.4928$  of the securities resembled panel (d) in Figure 1, with $K_{1} = 37.32$ , $K_{2} = 46.28$ , and $\lambda = 0.80639$ . Buying 1.4928 bonds is therefore equivalent to owning 1 prepaid forward on the stock, selling 1 call with a strike price of \$37.32, and buying 0.80639 calls with a strike price of \$46.28. Holders of the bond forgo both approximately  $20\%$  of the appreciation on the stock above \$46.28 as well as the  $2\%$  dividend on the stock.
 
 Although the bond payoff resembles a stock coupled with written and purchased calls, the payments on the bond attributable to the subordinated bonds are nevertheless partially tax-deductible for the issuer. For this reason, trust preferred securities are sometimes called "tax-deductible equity."
 
-Design Considerations. How can we understand the pricing of the convertible? Think of the investor as having paid  \$25 for the 3.9\%$  bonds and nothing for the stock purchase contract. If you compare the stock purchase contract with 0.6699 shares of M&I, there are both costs and benefits of the stock purchase contract relative to the stock: The investor is obligated in 3 years to pay the offering day price for 0.6699 shares (25) but could in 3 years receive as few as 0.5402 shares. The investor also does not receive the  $2\%$  dividend on the underlying M&I shares. However, the investor can acquire future shares for the offering day price. Taking all three considerations into account, the investor receives a  $2.6\%$  dividend in return for entering into the stock purchase contract at a zero initial cost.[19]
+Design Considerations. How can we understand the pricing of the convertible? Think of the investor as having paid  \$25 for the 3.9\%$  bonds and nothing for the stock purchase contract. If you compare the stock purchase contract with 0.6699 shares of M&I, there are both costs and benefits of the stock purchase contract relative to the stock: The investor is obligated in 3 years to pay the offering day price for 0.6699 shares (25) but could in 3 years receive as few as 0.5402 shares. The investor also does not receive the $2\%$  dividend on the underlying M&I shares. However, the investor can acquire future shares for the offering day price. Taking all three considerations into account, the investor receives a $2.6\%$  dividend in return for entering into the stock purchase contract at a zero initial cost.[19]
 
 At this point, it may be helpful to answer some questions that may occur to you:
 
@@ -672,7 +674,7 @@ At this point, it may be helpful to answer some questions that may occur to you:
 
 Many financial institutions have used a trust structure like that in the M&I transaction. For example, in November 2007 Citigroup issued a 7.5 billion trust preferred security to Abu Dhabi's state investment fund.[21] Related structures under different names (for example, "Upper DECS") are used by companies wishing to obtain partially tax-deductible equity-like financing.
 
-# Engineered Solutions for Golddiggers Gold-Linked Notes
+### Engineered Solutions for Golddiggers Gold-Linked Notes
 
 Any hedger using a forward (or futures) contract to hedge faces the risk that the forward contract will suffer a loss prior to expiration of the hedge. That loss generally must be funded when it occurs.[22] This need to fund interim losses arises from the structure of the hedging instrument, in particular the fact that it is a zero-investment contract linked to the price of gold, meant to serve as a hedging instrument and not as a financing instrument.
 
@@ -706,7 +708,7 @@ Flow ($)</td></tr><tr><td>350</td><td>-30</td><td>425.25</td><td>-355.25</td><td
 
 The chief difference between the gold-linked note and the forward contract is that the former provides financing, the latter doesn't. If Golddiggers seeks financing (in order to construct the mine, for example), the issuance of a gold-linked note might be preferable to borrowing and hedging separately.
 
-# Notes with Embedded Options
+### Notes with Embedded Options
 
 A gold-linked bond leaves bondholders with the risk of a loss should the gold price drop. Golddiggers could instead offer a bond that promises bondholders that they will receive interest plus appreciation of gold above 420.
 
@@ -791,7 +793,7 @@ $$
 
 With this bond, Golddiggers in effect buys a 420-strike put. Table 4 depicts the net cash flow to Golddiggers from issuing this bond.
 
-# CHAPTER SUMMARY
+## Chapter Summary
 
 Zero-coupon bonds, forwards, calls, and puts serve as building blocks that can be used to engineer new financial products. Fair pricing of a product will depend upon volatility, the dividend or lease rate, and the currency of denomination. Ordinary bonds that are simply denominated in something other than cash follow a simple pricing principle: The lease rate of the underlying asset becomes the coupon rate on the bond.
 

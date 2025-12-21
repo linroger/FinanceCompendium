@@ -1,13 +1,15 @@
 ---
-parent_directory:
 title: What Does a Price-Earnings Multiple Mean?
-tags:
-aliases:
-parent_folder: Background Readings
-subfolder:
-key_concepts:
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Background Readings
+primary_tags:
+- price earnings multiples
+- equity valuation models
+- discounted cash flow
+secondary_tags:
+- valuation methodologies
+- financial analysis techniques
+- investment evaluation
 cssclasses: academia
-linter-yaml-title-alias: What Does a Price-Earnings Multiple Mean?
 ---
 
 # What Does a Price-Earnings Multiple Mean?
@@ -22,7 +24,7 @@ This report aims to provide an analytical bridge between price-earnings multiple
 The value of a financial asset is the present value of future cash flows. A good discounted cash flow model avoids accounting vagaries, whereas managements can manage or manipulate earnings.
 In assessing capital allocation, consider incremental returns on capital first and growth second. Growth only creates value if the investments generate a return in excess of the cost of capital.
 
-# Introduction2
+## Introduction
 
 The price-earnings multiple remains the primary method analysts use to value stocks. $^3$  Researchers who surveyed equity research reports found that more than 99 percent of the analysts used some sort of multiple and less than 13 percent used any variation of a discounted cash flow model. $^4$  Price-earnings multiples may be a common way to assess the attractiveness of a stock, but most investors fail to have a clear sense of what a particular multiple implies about a company's future financial performance and don't understand how multiples change over time.
 
@@ -38,7 +40,7 @@ Here's the challenge. With discounted cash flow models, the value is sensitive t
 
 The goal of this piece is to provide an analytical bridge between price-earnings multiples—really, multiples of any kind—and sound economic reasoning. We'll start by looking at price-earnings multiples through a classic valuation lens, and will examine the two main components of that model. We'll finish by discussing the role of multiples in considering price-implied expectations.
 
-# Back to First Principles
+## Back to First Principles
 
 A logical and useful place to start untangling price-earnings multiples is the foundational paper on valuation that professors Merton Miller and Franco Modigliani (M&M) wrote in 1961. In it, they addressed a fundamental question: "What does the market 'really' capitalize?" They did not crown a winner among approaches that rely on earnings, dividends, or cash flows. Rather, they showed that all of these methods yield the same result if you address the problem correctly.
 
@@ -84,7 +86,7 @@ Excess cash includes cash, marketable securities, and other nonoperating assets 
 
 In theory, valuing the firm and subtracting debt to arrive at an equity value (unlevered valuation) is equivalent to valuing the equity directly (levered valuation). Appendix A demonstrates this equivalence. In practice it can be challenging to perfectly reconcile the two approaches.
 
-# Component I: The Steady-State Value
+## Component I: The Steady-State Value
 
 The steady-state value of a firm is the worth of the business assuming that it maintains its normalized level of NOPAT into perpetuity. A company arrives at its steady-state value when its incremental investments earn the cost of capital. With the second term of the equation collapsed to zero, all of the firm's value falls on the steady state.
 
@@ -149,12 +151,12 @@ Cost of capital - growth
 Take as an example a company that has 100 in NOPAT and a 10 percent cost of capital. The steady-state value is 1,000 (100/.10). Let's now assume that the company's profit will decline 10 percent per year in perpetuity. Note that we are adding a negative value for growth in the numerator, which has the effect of reducing the NOPAT. We are also subtracting a negative in the denominator, which has the effect of increasing the discount rate. We calculate the value as follows:
 
 $$
-\text {M o d i f i e d s t e a d y - s t a t e v a l u e} = \frac {\mathbb {S} 1 0 0 (1 + -. 1 0)}{. 1 0 - -. 1 0} = \frac {\mathbb {S} 1 0 0 (. 9 0)}{0 . 2 0} = \frac {\mathbb {S} 9 0}{0 . 2 0} = \mathbb {S} 4 5 0
+\text{Modified steady-state value} = \frac{\$100(1 + -0.10)}{0.10 - -0.10} = \frac{\$100(0.90)}{0.20} = \frac{\$90}{0.20} = \$450
 $$
 
-Were this decline accurate and the market to price it properly, the steady-state price-earnings multiple would be 4.5 times ( $450/$ 100). So businesses with very bright outlooks for value creation can still have justifiably low multiples if the current level and sources of earnings are unsustainable.
+Were this decline accurate and the market to price it properly, the steady-state price-earnings multiple would be 4.5 times ($450/$100). So businesses with very bright outlooks for value creation can still have justifiably low multiples if the current level and sources of earnings are unsustainable.
 
-# Component II: Value Growth Opportunities
+## Component II: Value Growth Opportunities
 
 Assuming the current level of earnings is sustainable, we can attribute about one-fifth of the value of today's stock market to future value creation. The M&M formula tells us that there are three key drivers of value creation:
 
@@ -167,7 +169,7 @@ How long a company can find investments at a positive spread.
 The combination of the first two drivers dictates the rate of growth. To show this relationship, we first need to define return on incremental invested capital, or ROIIC.
 
 $$
-\mathrm {R O I C} = \frac {\mathrm {N O P A T} _ {1} - \mathrm {N O P A T} _ {0}}{\text {I n v e s t m e n t} _ {0}}
+\mathrm{ROIC} = \frac{\mathrm{NOPAT}_{1} - \mathrm{NOPAT}_{0}}{\text{Investment}_{0}}
 $$
 
 In plain words, this says that ROIC equals the increase in NOPAT this year divided by the investment the company made last year. NOPAT equals the cash earnings of the business assuming no financial leverage, and investments include changes in net working capital, capital expenditures, net of depreciation, and acquisitions.[13] There's a very important simplifying assumption that says that all of the increase in NOPAT is attributable to last year's investment.[14]
@@ -184,7 +186,7 @@ Exhibit 5: P/Es Given Different Scenarios for ROIC and Growth
 
 <table><tr><td></td><td></td><td colspan="4">Return on Invested Capital</td></tr><tr><td></td><td></td><td>4\%</td><td>8\%</td><td>16\%</td><td>24\%</td></tr><tr><td rowspan="4">Earnings Growth</td><td>4\%</td><td>7.1x</td><td>12.5x</td><td>15.2x</td><td>16.1x</td></tr><tr><td>6\%</td><td>3.3</td><td>12.5</td><td>17.1</td><td>18.6</td></tr><tr><td>8\%</td><td>NM</td><td>12.5</td><td>19.4</td><td>21.8</td></tr><tr><td>10\%</td><td>NM</td><td>12.5</td><td>22.4</td><td>25.7</td></tr></table>
 
-Source: Credit Suisse. Note: Assumes all equity financed;  $8\%$  cost of capital; 15-year forecast period.
+Source: Credit Suisse. Note: Assumes all equity financed; $8\%$ cost of capital; 15-year forecast period.
 
 There are three fundamental concepts that you can take away from the exhibit. First, a company earning its cost of capital will trade at the commodity price-earnings multiple, 12.5 times in this case, irrespective of growth. You can imagine these companies as being on an economic treadmill: You can speed up or slow down the treadmill of growth and it makes no difference, the companies are not going anywhere. Value neutral companies must first figure out how to increase ROIIC before they worry about growth.
 
@@ -206,7 +208,7 @@ Recognizing the persistence of high returns and attractive investment opportunit
 
 A thoughtful assessment of future value creation must balance a sense of ROIC, growth, and the longevity of investment opportunities. All of these essential drivers are implicit in a price-earnings multiple but must be explicit in a model based on discounted cash flow. Analysts frequently appeal to past multiples or comparable multiples to make a case for valuation even as the outlook for one or more of these drivers has changed.
 
-# Use of Relative and Comparable Multiple Valuation
+## Use of Relative and Comparable Multiple Valuation
 
 A great deal of valuation in the financial community is based on relative or comparable multiples. Specifically, it is also common to compare the valuation of one company to a perceived group of peers to judge whether the stock is underor overvalued. Analysts also frequently compare the current valuation of a company or an industry to its past valuation to argue that it's cheap or dear.
 
@@ -220,7 +222,7 @@ All of this suggests that you should use relative and comparable multiples with 
 
 One approach based on a multiple that has received considerable interest in recent years is the cyclically adjusted price-earnings (CAPE) model developed by two professors of economics, John Campbell and Robert Shiller.[25] The basic argument is that the long-term expected return for the stock market slumps below average when the ratio of stock prices to long-term trailing earnings is high. Conversely, long-term expected returns are above-average when the ratio is low. We discuss the CAPE model in Appendix C. In recent years, its explanatory power has been limited.
 
-# Multiples and Expectations
+## Multiples and Expectations
 
 The key to making money in markets is to distinguish between expectations and fundamentals. The expectations in a stock reflect a company's anticipated financial results. This is the stock price. Fundamentals are the future financial performance of the business, including future return on incremental invested capital, growth, and sustainable competitive advantage. That is value. When price and value get out of line, there is opportunity.
 
@@ -240,9 +242,9 @@ Exhibit 6: Three Paths to a 15.0 Times Price-Earnings Ratio
 
 <table><tr><td></td><td>NOPAT growth</td><td>ROIIC</td></tr><tr><td>High growth, low spread</td><td>12.0\%</td><td>8.8\%</td></tr><tr><td>Moderate growth, moderate spread</td><td>6.0\%</td><td>11.0\%</td></tr><tr><td>Low growth, high spread</td><td>3.0\%</td><td>23.0\%</td></tr></table>
 
-Source: Credit Suisse. Note: Assumes all equity financed;  $8\%$  cost of capital; 15-year forecast period.
+Source: Credit Suisse. Note: Assumes all equity financed; $8\%$ cost of capital; 15-year forecast period.
 
-# Summary
+## Summary
 
 Here are some conclusions from this discussion:
 
@@ -253,7 +255,7 @@ Compare companies based on their business models, not their line of business. Fo
 This discussion applies to all multiples. While we limited our comments to price-earnings multiples, the basic concepts apply to any multiple. The most commonly used multiples after price-earnings are enterprise value-EBITDA (EBITDA stands for earnings before interest, taxes, depreciation, and amortization) and price-to-book value.
 ■ Be mindful of the quality of earnings. We delved into our discussion using techniques and definitions (e.g., net operating profit after tax, investments, and cost of capital) that come from a discounted cash flow (DCF) model. The goal of a good DCF model is to avoid accounting vagaries and to zero in on the cash flow. Earnings fail to do this, and managements have a great deal of discretion in determining the earnings they report. As Alfred Rappaport's quotation at the beginning of this report reminds us, "cash is a fact, profit is an opinion."
 
-# Endnotes
+## Endnotes
 
  Alfred Rappaport, Creating Shareholder Value: A Guide for Managers and Investors, Revised and Updated (New York: Free Press, 1997), 15.
 
@@ -323,7 +325,7 @@ $^{29}$  Jeremy J. Siegel, Stocks for the Long Run: The Definitive Guide to Fina
 
 34 Kenneth L. Fisher and Meir Statman, "Cognitive Biases in Market Forecasts: The Frailty of Forecasting," Journal of Portfolio Management, Vol. 27, No. 1, Fall 2000, 72-81.
 
-# Appendix A: Equivalence of Unlevered and Levered Free Cash Flow Valuation Models
+## Appendix A: Equivalence of Unlevered and Levered Free Cash Flow Valuation Models
 
 The value of equity should be the same whether you use an unlevered or a levered free cash flow model. In reality, it can be difficult to get the two to match. But here's a simple example of the equivalence that works under certain assumptions. This discussion is based on an analysis by Aswath Damodaran, a professor of finance at New York University's Stern School of Business.[28]
 
@@ -359,7 +361,7 @@ Naturally, this is a very simple example based on a perpetuity assumption. But y
 
 At the outset, we said this equivalence only works under certain assumptions. The first is that the sums for debt and equity that we used to calculate the capitalization are the same as the product of the valuation. The second is an absence of nonoperating items that would affect net income but not EBIT. The third is that financing costs equal the pretax cost of debt times debt outstanding.
 
-# Appendix B: Estimating the Cost of Equity
+## Appendix B: Estimating the Cost of Equity
 
 According to standard finance theory, you can estimate the cost of equity using the capital asset pricing model. This model starts with a risk-free rate and adds an equity risk premium (ERP), a boost to returns in order to compensate for higher risk.
 
@@ -381,7 +383,7 @@ The exhibit shows something even more remarkable: The ratio between the equity r
 
 As a consequence, the ratio of ERP to risk-free rate jumped from below 1.0 in the early 2000s to more than 3.0 in 2011 before settling down to about 1.7 today. While the expected return from the market hasn't changed much, the composition relies much more on the equity risk premium and much less on the risk-free rate than in the past. Whether we will see a ratio in the future that is closer to the historical average remains a subject of debate.
 
-# Appendix C: Cyclically Adjusted Price-Earnings (CAPE) Ratio
+## Appendix C: Cyclically Adjusted Price-Earnings (CAPE) Ratio
 
 One valuation approach that has garnered interest is the cyclically adjusted price-earnings (CAPE) ratio, also known as the Shiller P/E, the Campbell-Shiller PE (10) Ratio, or the Shiller (10) Ratio. Some market forecasters point to the CAPE ratio as evidence of an overvalued market, while others dismiss the metric as fundamentally flawed and too pessimistic.
 
@@ -411,7 +413,7 @@ To mitigate this bias, Siegel recommends using operating earnings instead of rep
 
 As a practical matter, the CAPE ratio can be a means to approximate expectations and hence gain a sense of future market returns. Siegel's recommendation to use NIPA data also appears sensible as it irons out some of the vagaries associated with the accounting changes. In reality, few investors think as far back, and as far forward, as the CAPE ratio demands. Price-earnings multiples based on next year's earnings remain the most popular shorthand for valuation, and the correlation between this year's price-earnings multiple and the returns for the market in the subsequent 12-24 months is effectively zero.[34]
 
-# Important information
+## Important information
 
 This document was produced by and the opinions expressed are those of Credit Suisse as of the date of writing and are subject to change. It has been prepared solely for information purposes and for the use of the recipient. It does not constitute an offer or an invitation by or on behalf of Credit Suisse to any person to buy or sell any security. Nothing in this material constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to your individual circumstances, or otherwise constitutes a personal recommendation to you. The price and value of investments mentioned and any income that might accrue may fluctuate and may fall or rise. Any reference to past performance is not a guide to the future.
 

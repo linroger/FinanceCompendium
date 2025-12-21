@@ -1,14 +1,35 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Value at Risk and Expected Shortfall
+parent_directory: Part 3 Market Risk
+formatted: 2025-12-21 02:45:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - value at risk
+   - expected shortfall
+   - risk measures
+   - portfolio risk
+   - market risk
+   - coherent risk measures
+secondary_tags:
+   - var calculation
+   - es calculation
+   - back testing
+   - confidence levels
+   - time horizons
+   - risk aggregation
+   - marginal risk
+   - component risk
+   - extreme value theory
+   - tail risk
+   - risk allocation
+   - euler theorem
+   - risk budgeting
+   - autocorrelation impact
+   - spectral risk measures
 cssclasses: academia
-title: Chapter 11
-linter-yaml-title-alias: Chapter 11
 ---
 
-# Chapter 11
 
 # Value at Risk and Expected Shortfall
 
@@ -186,7 +207,7 @@ $$ where  $Y$  is the Xth percentile point of the standard normal distribution (
 Consider again the situation in Example 11.9 where the loss from a portfolio over a 10-day time horizon is normally distributed with a mean of zero and a standard deviation of 20 million. Because 2.326 is the point on a standard normal distribution that has a 1\% chance of being exceeded, the 10-day 99\% ES is
 
 $$
-2 0 \frac {e ^ {- 2 . 3 2 6 ^ {2} / 2}}{\sqrt {2 \pi} \times 0 . 0 1} = 5 3. 3
+2 0 \frac {e ^ {- 2.326 ^ {2} / 2}}{\sqrt {2 \pi} \times 0.01} = 5 3. 3
 $$ or 53.3 million.
 
 
@@ -245,14 +266,14 @@ Suppose that daily changes in a portfolio value are normally distributed with me
 
 $$
 
-3 \sqrt {5 + 2 \times 4 \times 0 . 1 + 2 \times 3 \times 0 . 1 ^ {2} + 2 \times 2 \times 0 . 1 ^ {3} + 2 \times 1 \times 0 . 1 ^ {4}} = 7. 2 6 5
+3 \sqrt {5 + 2 \times 4 \times 0.1 + 2 \times 3 \times 0.1 ^ {2} + 2 \times 2 \times 0.1 ^ {3} + 2 \times 1 \times 0.1 ^ {4}} = 7. 2 6 5
 
 $$
 
 The five-day  $95\%$  VaR is therefore  $7.265 \times N^{-1}(0.95) = 11.95$  or 11.95 million. The five-day ES is
 
 $$
-7. 2 6 5 \times \frac {e ^ {- 1 . 6 4 5 ^ {2} / 2}}{\sqrt {2 \pi} \times 0 . 0 5} = 1 4. 9 8
+7. 2 6 5 \times \frac {e ^ {- 1.645 ^ {2} / 2}}{\sqrt {2 \pi} \times 0.05} = 1 4. 9 8
 $$
 
 Note that the ratio of the five-day standard deviation of portfolio changes to the one-day standard deviation is  $7.265 / 3 = 2.42$ . This is the number in Table 11.1 for  $\rho = 0.1$  and  $T = 5$ .
@@ -287,13 +308,13 @@ Equations (11.6) and (11.7) assume that the two VaR/ES measures have the same ti
 Suppose that the one-day VaR with a confidence level of  $95\%$  is  $\$1.5$  million and the one- day expected shortfall is  $\$2$  million. Using the assumption that the distribution of changes in the portfolio value is normal with mean zero, equation (11.6) gives the one- day  $99\%$  VaR as
 
 $$
-1. 5 \times \frac {2 . 3 2 6}{1 . 6 4 5} = 2. 1 2
+1. 5 \times \frac {2.326}{1.645} = 2. 1 2
 $$ or 2.12 million. Equation (11.7) gives the one-day 99\% ES as
 
 
 $$
 
-2 \times \frac {0 . 0 5}{0 . 0 1} e ^ {- (2. 3 2 6 - 1. 6 4 5) \times (2. 3 2 6 + 1. 6 4 5) / 2} = 2. 5 8
+2 \times \frac {0.05}{0.01} e ^ {- (2. 3 2 6 - 1. 6 4 5) \times (2. 3 2 6 + 1. 6 4 5) / 2} = 2. 5 8
 
 $$ or 2.58 million.
 
@@ -381,7 +402,7 @@ Suppose the ESs calculated for two segments of a business are \$60 million and \
 
 $$
 
-\sqrt {6 0 ^ {2} + 1 0 0 ^ {2} + 2 \times 6 0 \times 1 0 0 \times 0 . 4} = 1 3 5. 6
+\sqrt {6 0 ^ {2} + 1 0 0 ^ {2} + 2 \times 6 0 \times 1 0 0 \times 0.4} = 1 3 5. 6
 
 $$
 
@@ -463,6 +484,54 @@ $$
 
 A value at risk (VaR) calculation is aimed at making a statement of the form: "We are  $X$  percent certain that we will not lose more than  $V$  dollars in time  $T$ ." The variable  $V$  is the VaR,  $X$  percent is the confidence level, and  $T$  is the time horizon. It has become a very popular risk measure. An alternative measure that provides better incentives for traders and has rather better theoretical properties is expected shortfall (ES). This is the expected loss conditional on the loss being greater than the VaR level. As Chapter 27 explains, regulators have switched from VaR to ES for some market risk capital calculations.
 
+## D2 Diagrams for Risk Measures
+
+### VaR vs Expected Shortfall Comparison
+```d2
+# Visualizing VaR and ES on a Loss Distribution
+loss_distribution: "Loss Distribution"
+confidence_level: "X% Confidence Level"
+var_point: "VaR (V)\nMaximum loss with\nX% certainty"
+es_area: "Expected Shortfall (ES)\nAverage loss beyond VaR"
+tail_region: "Tail Region\n(100-X)% of distribution"
+
+loss_distribution -> confidence_level: "Defines threshold"
+confidence_level -> var_point: "VaR cutoff point"
+var_point -> es_area: "ES is expected value\nin this region"
+es_area -> tail_region: "ES > VaR always"
+```
+
+### Coherent Risk Measures Properties
+```d2
+# Properties of Coherent Risk Measures
+coherent_measures: "Coherent Risk Measures"
+monotonicity: "Monotonicity\nWorse outcomes → Higher risk"
+translation_invariance: "Translation Invariance\nAdding cash reduces risk by cash amount"
+homogeneity: "Homogeneity\nScaling portfolio scales risk"
+subadditivity: "Subadditivity\nDiversification reduces total risk"
+
+coherent_measures -> monotonicity: "Basic requirement"
+coherent_measures -> translation_invariance: "Cash buffer property"
+coherent_measures -> homogeneity: "Scale invariance"
+coherent_measures -> subadditivity: "Diversification benefit"
+```
+
+### Back-Testing Concept
+```d2
+# Back-Testing Risk Models
+back_testing: "Back-Testing Process"
+historical_data: "Historical Portfolio Data"
+model_predictions: "Model Predictions\n(VaR/ES estimates)"
+actual_losses: "Actual Losses"
+exceptions: "Exceptions\n(Actual > Predicted)"
+model_validation: "Model Validation"
+
+historical_data -> model_predictions: "Generate predictions"
+model_predictions -> actual_losses: "Compare against reality"
+actual_losses -> exceptions: "Identify failures"
+exceptions -> model_validation: "Statistical tests"
+```
+
 When changes in a portfolio value are normally distributed, it is easy to calculate VaR and ES from the mean and standard deviation of the change in the portfolio value during time  $T$ . If one-day changes in the value have zero-mean independent normal distributions, a  $T$ -day VaR (ES) equals the one-day VaR (ES) multiplied by  $\sqrt{T}$ . When the independence assumption is relaxed, other somewhat more complicated formulas can be used to go from the one-day VaR to the  $N$ -day VaR. In practice, losses often have heavier tails than the normal distribution. The power law is a way of modeling the tail of a distribution from empirical data. The theoretical basis for this approach is extreme value theory, which will be discussed in the next chapter.
 
 Consider the situation where a portfolio has a number of subportfolios. The marginal value of a risk measure (VaR or ES) with respect to the  $i$ th subportfolio is the partial derivative of the risk measure with respect to the size of the subportfolio. The incremental VaR (ES) with respect to a particular subportfolio is the incremental effect of that subportfolio on VaR (ES). There is a formula that can be used for dividing VaR (ES) into components that correspond to the positions taken in the subportfolios. The component VaRs (ESs) sum to VaR (ES), and each component is, for a large portfolio of relatively small positions, approximately equal to the corresponding incremental VaR (ES).
@@ -495,47 +564,4 @@ Longin, F. M. "Beyond the VaR." Journal of Derivatives 8, no. 4 (Summer 2001): 3
 
 Marshall, C., and M. Siegel. "Value at Risk: Implementing a Risk Measurement Standard." Journal of Derivatives 4, no. 3 (Spring 1997): 91-111.
 
-# Practice Questions and Problems (Answers at End of Book)
 
-11.1 What is the difference between expected shortfall and VaR? What is the theoretical advantage of expected shortfall over VaR?
-11.2 What conditions must be satisfied by the weights assigned to percentiles in a risk measure for the subadditivity condition in Section 11.5 to be satisfied?
- 11.3 A fund manager announces that the fund's one-month 95\% VaR is 6\% of the size of the portfolio being managed. You have an investment of 100,000 in the fund. How do you interpret the portfolio manager's announcement?
-11.4 A fund manager announces that the fund's one-month 95\% expected shortfall is 6\% of the size of the portfolio being managed. You have an investment of \100,000 in the fund. How do you interpret the portfolio manager's announcement?
- 11.5 Suppose that each of two investments has a 0.9\% chance of a loss of \$10 million and a 99.1\% chance of a loss of \$1 million. The investments are independent of each other.
-(a) What is the VaR for one of the investments when the confidence level is  $99\%$
-(b) What is the expected shortfall for one of the investments when the confidence level is  $99\%$ ?
-(c) What is the VaR for a portfolio consisting of the two investments when the confidence level is  $99\%$ ?
-(d) What is the expected shortfall for a portfolio consisting of the two investments when the confidence level is  $99\%$ ?
-(e) Show that in this example VaR does not satisfy the subadditivity condition, whereas expected shortfall does.
-
-11.6 Suppose that the change in the value of a portfolio over a one-day time period is normal with a mean of zero and a standard deviation of 2 million; what is (a) the one-day 97.5\% VaR, (b) the five-day 97.5\% VaR, and (c) the five-day 99\% VaR?
-
-11.7 What difference does it make to your answer to Problem 11.6 if there is first-order daily autocorrelation with a correlation parameter equal to 0.16?
-11.8 Explain carefully the differences between marginal VaR, incremental VaR, and component VaR for a portfolio consisting of a number of assets.
-11.9 Suppose that we back-test a VaR model using 1,000 days of data. The VaR confidence level is  $99\%$  and we observe 17 exceptions. Should we reject the model at the  $5\%$  confidence level? Use a one-tailed test.
-11.10 Explain what is meant by bunching.
-11.11 Prove equation 11.5.
-11.12 The change in the value of a portfolio in one month is normally distributed with a mean of zero and a standard deviation of 2 million. Calculate the VaR and ES for a confidence level of 98\% and a time horizon of three months.
-
-# Further Questions
-
-11.13 Suppose that each of two investments has a 4\% chance of a loss of \$10 million, a 2\% chance of a loss of \$1 million, and a 94\% chance of a profit of 1 million. They are independent of each other.
-
-(a) What is the VaR for one of the investments when the confidence level is  $95\%$
-
-(b) What is the expected shortfall when the confidence level is  $95\%$
-
-(c) What is the VaR for a portfolio consisting of the two investments when the confidence level is  $95\%$ ?
-
-(d) What is the expected shortfall for a portfolio consisting of the two investments when the confidence level is  $95\%$ ?
-
-(e) Show that, in this example, VaR does not satisfy the subadditivity condition, whereas expected shortfall does.
-
-11.14 Suppose the first-order autocorrelation for daily changes in the value of a portfolio is 0.12. The 10-day VaR, calculated by multiplying the one-day VaR by √10, is 2 million. What is a better estimate of the VaR that takes account of autocorrelation?
-11.15 Suppose that we back-test a VaR model using 1,000 days of data. The VaR confidence level is  $99\%$  and we observe 15 exceptions. Should we reject the model at the  $5\%$  confidence level? Use Kupiec's two-tailed test.
-11.16 The change in the value of a portfolio in three months is normally distributed with a mean of  \$500,000 and a standard deviation of\$ 3 million. Calculate the VaR and ES for a confidence level of 99.5\% and a time horizon of three months.
-11.17 The probability that the loss from a portfolio will be greater than  $\$ 10$  million in one month is estimated to be  $5\%$ .
-
-(a) What is the one-month  $99\%$  VaR, assuming the change in value of the portfolio is normally distributed with zero mean?
-
-(b) What is the one-month  $99\%$  VaR, assuming that the power law applies with  $\alpha = 3?$

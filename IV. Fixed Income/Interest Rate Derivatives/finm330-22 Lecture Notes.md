@@ -1,18 +1,36 @@
+---
+title: "FINM 33000 Lecture Notes"
+parent_directory: Interest Rate Derivatives
+formatted: 2025-12-21 02:50:00 AM
+formatter_agent: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - lecture notes
+  - financial mathematics
+  - derivatives
+secondary_tags:
+  - option pricing
+  - arbitrage
+  - forwards
+  - options
+cssclasses: academia
+---
+
 # Financial Mathematics 33000
 
-# Lecture 1
+## Lecture 1
 
 Roger Lee
 
 2022 September 28
 
-# Introduction
+## Introduction
 
 General properties of arbitrage-free prices
 
 General properties of forwards and options
 
-# FINM 33000 and FINM 32000
+## FINM 33000 and FINM 32000
 
 I teach this course and its sequel.
 
@@ -53,26 +71,26 @@ General properties of arbitrage-free prices
 
 General properties of forwards and options
 
-# Assets
+## Assets
 
 The market has risks described by a probability measure  $\mathsf{P}$  
 It includes  $N$  tradeable assets with nonrandom time-0 prices
 
 $$
-\mathbf {X} _ {0} := \left(X _ {0} ^ {1}, \ldots , X _ {0} ^ {N}\right)
+\mathbf{X}_{0} := \left(X_{0}^{1}, \ldots , X_{0}^{N}\right)
 $$
 
 and random time-  $T$  prices ("payoffs")
 
 $$
-\mathbf {X} _ {T} := \left(X _ {T} ^ {1}, \dots , X _ {T} ^ {N}\right)
+\mathbf{X}_{T} := \left(X_{T}^{1}, \dots , X_{T}^{N}\right)
 $$
 
 No distinction between final payment  $X_{T}$  vs. final asset price  $X_{T}$ .
 
 In this section, no assumptions about which times  $t \in (0,T)$  exist in our market. Our general analysis applies to a one-period model (which includes only 0 and  $T$ ), continuous-time model (which includes all of  $t \in [0,T]$ ), and any intermediate model.
 
-# Examples of tradeable assets
+## Examples of tradeable assets
 
 A zero-coupon bond or discount bond with maturity  $T$ :
 
@@ -85,7 +103,7 @@ Can think of stock as a claim on a time- $T$  random payoff  $S_T \geq 0$ .
 A bank account or money market acct: Each unit has time-  $t$  price
 
 $$
-B _ {t} := \exp \left(\int_ {0} ^ {t} r _ {u} \mathrm {d} u\right). \mathrm {I f} r \mathrm {i s c o n s t a n t ,} B _ {t} = e ^ {r t}
+B_{t} := \exp \left(\int_{0}^{t} r_{u} \mathrm{d} u\right). \mathrm{If} r \mathrm{is constant,} B_{t} = e^{r t}
 $$
 
 for some (possibly random)  $r_u$ , called the time- $u$  instantaneous
@@ -93,17 +111,17 @@ for some (possibly random)  $r_u$ , called the time- $u$  instantaneous
 spot rate of interest or short rate. Note:  $B$  solves the diff eq
 
 $$
-\frac {\mathrm {d} B _ {t}}{\mathrm {d} t} = r _ {t} B _ {t} \qquad \text {w i t h} B _ {0} = 1.
+\frac{\mathrm{d} B_{t}}{\mathrm{d} t} = r_{t} B_{t} \qquad \text{with} B_{0} = 1.
 $$
 
 Can think of bank account as having time- $T$  payoff  $\exp (\int_0^T r_t\mathrm{d}t)$ .
 
-# Static portfolios
+## Static portfolios
 
 A static portfolio is a vector of quantities
 
 $$
-\boldsymbol {\Theta} := (\theta^ {1}, \dots , \theta^ {N})
+\boldsymbol{\Theta} := (\theta^{1}, \dots , \theta^{N})
 $$
 
 where each  $\theta$  is nonrandom and constant in time.
@@ -117,7 +135,7 @@ If  $\theta^n < 0$  we say the portfolio is short asset  $n$ .
 The time- $t$  value of portfolio  $\Theta$  is
 
 $$
-V _ {t} := \boldsymbol {\Theta} \cdot \mathbf {X} _ {t} = \theta^ {1} X _ {t} ^ {1} + \dots + \theta^ {N} X _ {t} ^ {N}
+V_{t} := \boldsymbol{\Theta} \cdot \mathbf{X}_{t} = \theta^{1} X_{t}^{1} + \dots + \theta^{N} X_{t}^{N}
 $$
 
 If we are dealing with multiple portfolios, we may give  $V$  a superscript to indicate which portfolio.
@@ -139,7 +157,7 @@ In common language, "arbitrage" may involve risk of loss.
 A static portfolio  $\Theta$  is a "type 1" arbitrage if its value  $V$  satisfies
 
 $$
-\begin{array}{l} V _ {0} = 0 \quad \text {a n d b o t h :} \quad \mathsf {P} (V _ {T} \geq 0) = 1 \\ \mathsf {P} (V _ {T} > 0) > 0 \\ \end{array}
+\begin{aligned} V_{0} = 0 \quad \text{and both:} \quad \mathsf{P} (V_{T} \geq 0) = 1 \\ \mathsf{P} (V_{T} > 0) > 0 \\ \end{aligned}
 $$
 
 (Zero initial investment, and no risk of loss, some chance of gain.) A static portfolio  $\Theta$  is a "type 2" arbitrage if its value  $V$  satisfies
@@ -226,7 +244,7 @@ In this proof, we used a general technique for constructing arbitrage:
 Likewise, if  $\Theta^a$  subreplicates  $\Theta^b$ , meaning  $\mathsf{P}(V_T^a \leq V_T^b) = 1$ , then  $V_0^a \leq V_0^b$ . By combining the two inequalities, therefore,
 
 $$
-\left| \text {I f} \mathsf {P} \left(V _ {T} ^ {a} = V _ {T} ^ {b}\right) = 1, \text {t h e n} V _ {0} ^ {a} = V _ {0} ^ {b}. \right.
+\left| \text{If} \mathsf{P} \left(V_{T}^{a} = V_{T}^{b}\right) = 1, \text{then} V_{0}^{a} = V_{0}^{b}. \right.
 $$
 
 In other words, if  $\Theta^a$  replicates  $\Theta^b$ , then  $V_0^a = V_0^b$ .
@@ -245,7 +263,7 @@ This is the law of one price. Any two static portfolios with identical future pa
 Payoff  $=$  Payout  $=$  how much a contract pays
 
 $$
-= \text {V a l u e o f t h e c o n t r a c t a t e x p i r a t i o n (a s s u m i n g s i n g l e p a y m e n t)}
+= \text{Value of the contract at expiration (assuming single payment)}
 $$
 
 # Introduction
@@ -261,15 +279,15 @@ Consider a discount bond  $Z$  maturing at  $T$ , and a bank account  $B$ .
 If interest rate  $r_t$  is non-random, then
 
 $$
-B _ {1} = 1. 1 0
+B_{1} = 1.10
 $$
 
 $$
-Z _ {0} = 1 / B _ {T}
+Z_{0} = 1 / B_{T}
 $$
 
 $$
-z _ {0} = \frac {1}{1 . 1} \approx 0. 9 1
+z_{0} = \frac{1}{1.1} \approx 0.91
 $$
 
 Therefore  $Z_{0} = e^{-\int_{0}^{T}r_{t}\mathrm{d}t} = e^{-rT}$  if  $r$  is constant.
@@ -277,7 +295,7 @@ Therefore  $Z_{0} = e^{-\int_{0}^{T}r_{t}\mathrm{d}t} = e^{-rT}$  if  $r$  is co
 Proof.
 
 $$
-B _ {1} = e ^ {- T} \Rightarrow z _ {0} = \frac {1}{Q _ {1}} = e ^ {- T}
+B_{1} = e^{- T} \Rightarrow z_{0} = \frac{1}{Q_{1}} = e^{- T}
 $$
 
 A portfolio consisting of  $1 / B_{T}$  units of the bank account has time- $T$  value  $(1 / B_{T})\times B_{T} = 1$ , which is identical to  $Z_{T} = 1$ .
@@ -308,7 +326,7 @@ Then the time-0 value of the forward contract is  $S_0 - KZ_0$ .
 The portfolio
 
 $$
-\Theta = (1 \text {s h a r e}, - K \text {b o n d s})
+\Theta = (1 \text{share}, - K \text{bonds})
 $$
 
 has time- $T$  value  $V_{T} = \Theta_{T}\cdot \mathbf{X}_{T} = 1\times S_{T} - K\times 1 = S_{T} - K.$
@@ -325,7 +343,7 @@ A forward price is not the same thing as the value of a forward contract.
 A forward contract on a no-dividend stock  $S$  has time-0 value
 
 $$
-S _ {0} - K Z _ {0}.
+S_{0} - K Z_{0}.
 $$
 
 Choice of  $K$  that makes value zero is  $S_0 / Z_0$ .
@@ -360,7 +378,7 @@ $$
 because it is replicated by
 
 $$
-(a u n i t s o f b o n d, b u n i t s o f s t o c k)
+(a units of bond, b units of stock)
 $$
 
 # Call option: definition
@@ -389,7 +407,7 @@ Suppose you think the options market is overpricing the call. Profit by selling 
 The time-0 price  $C_0$  of a call on a no-dividend stock  $S$  satisfies
 
 $$
-\left| \left(S _ {0} - K Z _ {0}\right) ^ {+} \leq C _ {0} \leq S _ {0} \right.
+\left| \left(S_{0} - K Z_{0}\right)^+ \leq C_{0} \leq S_{0} \right.
 $$
 
 # Proof.
@@ -409,7 +427,7 @@ Hence  $C_0 \geq S_0 - KZ_0$  and  $C_0 \geq 0$  and  $C_0 \leq S_0$
 The time-0 call prices  $C_0(K_1)$  and  $C_0(K_2)$ , for strikes  $K_1 < K_2$  (with same expiry, on same underlying) satisfy
 
 $$
-\left| 0 \leq C _ {0} \left(K _ {1}\right) - C _ {0} \left(K _ {2}\right) \leq \left(K _ {2} - K _ {1}\right) Z _ {0} \right.
+\left| 0 \leq C_{0} (K_{1}) - C_{0} (K_{2}) \leq (K_{2} - K_{1}) Z_{0} \right.
 $$
 
 # Proof.
@@ -448,7 +466,7 @@ Suppose you think the options market is overpricing the put. Profit by selling t
 Let  $P_0(K, T)$  and  $C_0(K, T)$  be time-0 prices of a European put and call, with identical  $(K, T)$ , on a no-dividend stock  $S$ . Let  $Z_0(T)$  be the time-0 price of a  $T$ -maturity discount bond. Then
 
 $$
-C _ {0} (K, T) = P _ {0} (K, T) + S _ {0} - K Z _ {0} (T)
+C_{0} (K, T) = P_{0} (K, T) + S_{0} - K Z_{0} (T)
 $$
 
 Proof.
@@ -473,7 +491,7 @@ Put-call parity is far older, and more fundamental, than any particular model e.
 The time-0 price of a put on a non-dividend-paying stock  $S$  satisfies
 
 $$
-\left| \left(K Z _ {0} - S _ {0}\right) ^ {+} \leq P _ {0} \leq K Z _ {0}. \right.
+\left| \left(K Z_{0} - S_{0}\right)^+ \leq P_{0} \leq K Z_{0}. \right.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/127a34a2-2f02-44be-b1c3-431aca2f1d7a/7468fac7f91e4a547fdbefe786c43b6763728543664009c0cba0b2c6aff4258b.jpg)
@@ -481,7 +499,7 @@ $$
 The time-0 put prices  $P_{0}(K_{1})$  and  $P_{0}(K_{1})$ , for strikes  $K_{1} < K_{2}$  (with same expiry, on same underlying) satisfy
 
 $$
-0 \leq P _ {0} (K _ {2}) - P _ {0} (K _ {1}) \leq \left(K _ {2} - K _ {1}\right) Z _ {0}.
+0 \leq P_{0} (K_{2}) - P_{0} (K_{1}) \leq (K_{2} - K_{1}) Z_{0}.
 $$
 
 Proof.
@@ -490,7 +508,7 @@ Compare payoffs. Or use put-call parity.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/127a34a2-2f02-44be-b1c3-431aca2f1d7a/a19759546dbd3f1d125f304e89e5659f400015bfaaa20602b663a463efe96164.jpg)
 
-# Put option: bounds wrt other puts, revisited
+## Put option: bounds wrt other puts, revisited
 
 If  $K_{1} < K_{2}$  then  $P_{0}(K_{1}) \leq P_{0}(K_{2})$ . Proof by comparing payoffs:
 
@@ -502,7 +520,7 @@ $$
 P _ {0} (K _ {1}) \leq \frac {K _ {1}}{K _ {2}} P _ {0} (K _ {2})
 $$
 
-# General payoffs
+## General payoffs
 
 Using static positions in  $T$ -expiry bonds, forwards, calls, and puts on  $S$ , we can replicate or bound (superreplicate, subreplicate) general
 
@@ -525,19 +543,11 @@ $\triangleright$  Use calls (or puts) to adjust convexity and concavity.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/127a34a2-2f02-44be-b1c3-431aca2f1d7a/7e390a42293a71f541be339539c6fd39de3ee527884213107d73816117a7cca3.jpg)
 
-# GOOG option quotes
+## GOOG option quotes
 
-2.7 units of bond  
--2.5 units of K4-strike put  
-+3.5 units of K3-strike put  
-+3 units of K2-strike put  
--4.5 units of K1-strike put
+## Financial Mathematics 33000
 
-<table><tr><td colspan="8">Calls</td><td>Strike</td><td colspan="7">Puts</td><td></td></tr><tr><td>Ticker</td><td>Bid</td><td>Ask</td><td>Last</td><td>IVM</td><td>DM</td><td>Volm</td><td>OInt</td><td rowspan="2">19</td><td>Ticker</td><td>Bid</td><td>Ask</td><td>Last</td><td>IVM</td><td>DM</td><td>Volm</td><td>OInt</td></tr><tr><td>19 Apr 14 (10D): CSize 10D:</td><td>IDiv. 7/7; R:12;</td><td colspan="6">555.20 /555.370</td><td>19</td><td>Apr 14 (10D): CSize 10D:</td><td>IDiv. 7/7; R:12;</td><td colspan="5">555.20 /555.370</td></tr><tr><td>1) GOOGG 4 C510</td><td>48.20</td><td>50.80</td><td>50.00</td><td>58.97</td><td>.84</td><td>2</td><td>34</td><td>510.00</td><td>9) GOOGG 4 P510</td><td>3.20</td><td>3.60</td><td>3.08</td><td>55.30</td><td>-14</td><td>69</td><td>203</td></tr><tr><td>2) GOOGG 4 C515</td><td>43.70</td><td>46.80</td><td>43.00y</td><td>57.94</td><td>.82</td><td>37</td><td>515.00</td><td>9) GOOGG 4 P515</td><td>4.10</td><td>4.40</td><td>4.24</td><td>55.20</td><td>-17</td><td>28</td><td>304</td><td></td></tr><tr><td>3) GOOGG 4 C520</td><td>39.90</td><td>40.60</td><td>44.40</td><td>53.44</td><td>.81</td><td>11</td><td>35</td><td>520.00</td><td>9) GOOGG 4 P520</td><td>4.90</td><td>5.30</td><td>4.90</td><td>54.18</td><td>-20</td><td>13</td><td>485</td></tr><tr><td>4) GOOGG 4 C525</td><td>36.20</td><td>37.70</td><td>40.00</td><td>55.38</td><td>.76</td><td>1</td><td>58</td><td>525.00</td><td>9) GOOGG 4 P525</td><td>6.00</td><td>6.40</td><td>6.14</td><td>53.70</td><td>-23</td><td>27</td><td>163</td></tr><tr><td>5) GOOGG 4 C530</td><td>32.40</td><td>33.50</td><td>34.00</td><td>54.21</td><td>.73</td><td>1</td><td>76</td><td>530.00</td><td>9) GOOGG 4 P530</td><td>7.10</td><td>7.70</td><td>7.05</td><td>52.96</td><td>-27</td><td>14</td><td>183</td></tr><tr><td>6) GOOGG 4 C535</td><td>28.90</td><td>29.80</td><td>30.56</td><td>53.31</td><td>.69</td><td>45</td><td>73</td><td>535.00</td><td>9) GOOGG 4 P535</td><td>8.70</td><td>9.10</td><td>7.80</td><td>52.84</td><td>-30</td><td>45</td><td>348</td></tr><tr><td>7) GOOGG 4 C540</td><td>25.60</td><td>26.50</td><td>27.52</td><td>53.30</td><td>.65</td><td>12</td><td>214</td><td>540.00</td><td>9) GOOGG 4 P540</td><td>10.40</td><td>10.80</td><td>9.91</td><td>52.60</td><td>-35</td><td>26</td><td>249</td></tr><tr><td>8) GOOGG 4 C545</td><td>22.50</td><td>23.30</td><td>23.70</td><td>52.81</td><td>.61</td><td>18</td><td>168</td><td>545.00</td><td>9) GOOGG 4 P545</td><td>12.10</td><td>12.70</td><td>12.30</td><td>51.82</td><td>-39</td><td>17</td><td>148</td></tr><tr><td>9) GOOGG 4 C550</td><td>19.60</td><td>20.20</td><td>20.00</td><td>52.13</td><td>.56</td><td>168</td><td>358</td><td>550.00</td><td>9) GOOGG 4 P550</td><td>14.30</td><td>14.80</td><td>13.80</td><td>51.63</td><td>-44</td><td>84</td><td>155</td></tr><tr><td>10) GOOGG 4 C555</td><td>17.00</td><td>17.50</td><td>17.95</td><td>51.84</td><td>.52</td><td>192</td><td>256</td><td>555.00</td><td>9) GOOGG 4 P555</td><td>16.60</td><td>17.10</td><td>16.50</td><td>51.18</td><td>-48</td><td>41</td><td>159</td></tr><tr><td>11) GOOGG 4 C560</td><td>14.60</td><td>15.00</td><td>15.41</td><td>51.29</td><td>.47</td><td>472</td><td>694</td><td>560.00</td><td>9) GOOGG 4 P560</td><td>19.20</td><td>19.70</td><td>18.61</td><td>51.09</td><td>-53</td><td>101</td><td>113</td></tr><tr><td>12) GOOGG 4 C565</td><td>12.40</td><td>13.00</td><td>13.14</td><td>51.28</td><td>.43</td><td>115</td><td>321</td><td>565.00</td><td>9) GOOGG 4 P565</td><td>21.80</td><td>22.50</td><td>20.50</td><td>50.64</td><td>-58</td><td>1</td><td>29</td></tr><tr><td>13) GOOGG 4 C570</td><td>10.50</td><td>10.70</td><td>10.51</td><td>50.74</td><td>.38</td><td>154</td><td>652</td><td>570.00</td><td>9) GOOGG 4 P570</td><td>24.90</td><td>25.70</td><td>23.82</td><td>50.26</td><td>-62</td><td>1</td><td>51</td></tr><tr><td>14) GOOGG 4 C575</td><td>8.80</td><td>9.20</td><td>9.20</td><td>50.26</td><td>.34</td><td>244</td><td>317</td><td>575.00</td><td>9) GOOGG 4 P575</td><td>28.00</td><td>28.80</td><td>31.60</td><td>49.87</td><td>-67</td><td>8</td><td>8</td></tr><tr><td>15) GOOGG 4 C580</td><td>7.30</td><td>7.80</td><td>7.50</td><td>50.28</td><td>.30</td><td>124</td><td>431</td><td>580.00</td><td>9) GOOGG 4 P580</td><td>31.40</td><td>32.30</td><td>29.10</td><td>49.19</td><td>-71</td><td>11</td><td>47</td></tr><tr><td>16) GOOGG 4 C585</td><td>5.90</td><td>6.30</td><td>6.43</td><td>50.02</td><td>.25</td><td>28</td><td>211</td><td>585.00</td><td>9) GOOGG 4 P585</td><td>34.80</td><td>36.00</td><td>38.00</td><td>48.78</td><td>-75</td><td>11</td><td>11</td></tr><tr><td>17) GOOGG 4 C590</td><td>4.80</td><td>5.30</td><td>5.07</td><td>50.20</td><td>.22</td><td>71</td><td>333</td><td>590.00</td><td>9) GOOGG 4 P590</td><td>37.70</td><td>40.20</td><td>36.23</td><td>46.97</td><td>-80</td><td>8</td><td>21</td></tr><tr><td>18) GOOGG 4 C595</td><td>3.90</td><td>4.40</td><td>4.15</td><td>50.05</td><td>.19</td><td>91</td><td>136</td><td>595.00</td><td>9) GOOGG 4 P595</td><td>41.60</td><td>44.10</td><td>40.20</td><td>44.85</td><td>-84</td><td>8</td><td>13</td></tr><tr><td>19) GOOGG 4 C600</td><td>3.20</td><td>3.60</td><td>3.39</td><td>49.94</td><td>.16</td><td>80</td><td>837</td><td>600.00</td><td>9) GOOGG 4 P600</td><td>45.90</td><td>48.30</td><td>63.95y</td><td>44.80</td><td>-87</td><td>1</td><td>35</td></tr><tr><td colspan="8">17 May 14 (38d): CSize 10D: IDiv. 23; R:16; IfWd 556.62</td><td>19</td><td colspan="8">17 May 14 (38d): CSize 10D: IDiv. 23; R:16; IfWd 556.62</td></tr><tr><td>20) GOOGG 5 C520</td><td>52.10</td><td>54.80</td><td>51.30v</td><td>36.10</td><td>.79</td><td>15</td><td>510.00</td><td>7) GOOGG 5 P510</td><td>6.70</td><td>7.20</td><td>5.80</td><td>33.61</td><td>-20</td><td>6</td><td>323</td><td></td></tr></table>
-
-# Financial Mathematics 33000
-
-# Lecture 2
+## Lecture 2
 
 Roger Lee
 
@@ -555,7 +565,7 @@ Fundamental Theorem, again
 
 - Times 0 and  $T$ . No intermediate trading; all portfolios are static.  
 $\triangleright$  Up and down state  $\{\omega_u,\omega_d\}$  at time  $T$  , each with probability  $>0$  
-Bank account: Each unit has time- $t$  value  $B_{t} = e^{rt}$  for  $t = 0, T$ .  
+Bank account: Each unit has time-$t$ value $B_t = e^{rt}$ for  $t = 0, T$ .  
 Stock  $S$ : Let  $S_{T}$  take values  $S_{T}(\omega_{u}) = s_{u}$  and  $S_{T}(\omega_{d}) = s_{d}$  in the up and down state respectively, where  $s_u > s_d$  
 "Option" contract  $C$ , paying  $C_T(\omega_u) = c_u$  and  $C_T(\omega_d) = c_d$ .
 
@@ -623,7 +633,7 @@ Therefore  $C_0 = e^{-rT}(p_u c_u + p_d c_d)$
 where
 
 $$
-p _ {u} := \frac {S _ {0} e ^ {r T} - s _ {d}}{s _ {u} - s _ {d}}, \qquad p _ {d} := \frac {s _ {u} - S _ {0} e ^ {r T}}{s _ {u} - s _ {d}} = 1 - p _ {u}
+p_u := \frac{S_0 e^{r T} - s_d}{s_u - s_d}, \qquad p_d := \frac{s_u - S_0 e^{r T}}{s_u - s_d} = 1 - p_u
 $$
 
 Two special cases of  $(c_u, c_d)$  are  $(1,0)$  and  $(0,1)$ :
@@ -976,7 +986,7 @@ Answer: Replicate it by holding, for  $j = 1,\dots ,J$
 $Y(\omega_{j})$  units of a basic asset which pays: 1 if  $\omega_{j}$  occurs, 0 otherwise. Replicating portfolio's time-0 value, in units of the bank account, is
 
 $$
-\sum_ {j = 1} ^ {J} \text {Q u a n t i t y} \times \text {P r i c e} = \sum_ {j = 1} ^ {J} Y (\omega_ {j}) p _ {\omega_ {j}}
+\sum_{j=1}^{J} \text{Quantity} \times \text{Price} = \sum_{j=1}^{J} Y(\omega_j) p_{\omega_j}
 $$
 
 This is the expectation of  $Y$  with respect to risk-neutral probabilities!

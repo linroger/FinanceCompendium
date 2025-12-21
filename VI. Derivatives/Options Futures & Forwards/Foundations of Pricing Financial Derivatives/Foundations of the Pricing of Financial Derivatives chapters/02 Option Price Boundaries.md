@@ -1,16 +1,36 @@
 ---
+title: Chapter 2 - Option Price Boundaries
 aliases:
-tags:
-key_concepts:
-parent_directory:
+   - Option Price Boundaries
+   - Put-Call Parity
+   - Arbitrage Bounds
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 12:20:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+   - option price boundaries
+   - put-call parity
+   - arbitrage
+   - option pricing theory
+   - financial derivatives
+secondary_tags:
+   - risk-neutral valuation
+   - arbitrage opportunities
+   - option pricing models
+   - derivative securities
+   - financial risk management
+   - asset pricing
+   - call options
+   - put options
+   - exercise boundaries
+   - pricing inequalities
 cssclasses: academia
-title: Basic Foundations for Derivative Pricing
-linter-yaml-title-alias: Basic Foundations for Derivative Pricing
 ---
 
 # Basic Foundations for Derivative Pricing
 
-# Boundaries, Limits, and Conditions on Option Prices
+## Boundaries, Limits, and Conditions on Option Prices
 
 Before one can begin to examine models for option pricing, it is necessary to understand certain fundamental principles that govern the prices of options. These option principles do not give specific option prices except in a very limited sense; rather, they define the bounds within which option prices must lie. In addition, they define relationships among different options, such as those differing by exercise price and those differing by time to expiration. Some of these principles also define relationships between the prices of puts and calls that have the same exercise prices and expiration dates. Finally, some option principles define relationships between options that can be exercised before expiration versus those that can be exercised only at expiration.
 
@@ -22,7 +42,7 @@ The option has an expiration date, beyond which the right to buy or sell the und
 
 So, let us now begin our examination of the basic boundaries, limits, and conditions on option prices. These boundaries are like the ground rules, akin to the edges of a sports playing field and the regulations that govern the game. They also enable us to build toward understanding how options are priced.
 
-# 2.1 SETUP, DEFINITIONS, AND ARBITRAGE
+## 2.1 SETUP, DEFINITIONS, AND ARBITRAGE
 
 We position ourselves at time  $t$ , and let  $S_{t}$  be the asset price today,  $T$  be the expiration of the derivative,  $S_{T}$  be the asset price at expiration,  $X$  be the exercise price,  $r_{c}$  be the annualized, continuously compounded risk-free rate,  $\sigma$  be the annualized volatility, and  $\tau = T - t$  be the time to expiration. Let  $c_{t}$  be the price of a European call at time  $t$  and  $p_{t}$  be the price of a European put at time  $t$ . Let  $C_{t}$  be the price of an American call at time  $t$  and  $P_{t}$  be the price of an American put at time  $t$ . Other notation will be introduced as needed. The asset is assumed to make no payments such as dividends that might be paid if the asset were a stock, but we shall relax that assumption at appropriate points. The results demonstrated herein are largely intuitive, but formal proofs and discussions are covered in Stoll (1969), Merton (1973a, 1973b), Smith (1976), Cox and Rubinstein (1985), and Chance and Brooks (2016).
 
@@ -44,7 +64,7 @@ So, throughout this book, we shall assume that market prices equal the prices th
 
 Before exploring boundaries, limits, and other conditions, we introduce selected terminology. More detailed explanations will be given later. We now present moneyness terminology that is independent of whether you buy or sell the option. Let  $S_{t}$  be the price of the underlying at time  $t$  and  $X$  be the exercise price of the call option, then, when  $S_{t} > X$ , we say that the call is in-the-money and when  $S_{t} < X$ , we say that the call is out-of-the-money. When  $S_{t} = X$ , the call is said to be at-the-money. Now suppose  $X$  is the exercise price of the put option, then, when  $S_{t} < X$ , we say that the put is in-the-money and when  $S_{t} > X$ , we say that the put is out-of-the-money. When  $S_{t} = X$ , the put is said to be at-the-money.
 
-# 2.2 ABSOLUTE MINIMUM AND MAXIMUM VALUES
+## 2.2 ABSOLUTE MINIMUM AND MAXIMUM VALUES
 
 By absolute minimum and maximum values, we wish to define bounds within which the option prices must lie. We do not rule out the possibility that the actual option prices might have a higher minimum or lower maximum value that we can establish later.
 
@@ -76,7 +96,7 @@ Suppose you call your broker for a quote on a one-year, at-the-money ( $S_{t} = 
 
 <table><tr><td>Instrument</td><td>Now Time (t)</td><td>Expiration (time T, out-of-the-money S_T &lt; X)</td><td>Expiration (time T, in-the-money X &lt; S_T)</td></tr><tr><td>Short the call</td><td>101</td><td>0</td><td>-S_T + X</td></tr><tr><td>Long the stock</td><td>-100</td><td>S_T</td><td>S_T</td></tr><tr><td>Net proceeds</td><td>1</td><td>S_T</td><td>X</td></tr></table>
 
-# 2.3 THE VALUE OF AN AMERICAN OPTION RELATIVE TO THE VALUE OF A EUROPEAN OPTION
+## 2.3 THE VALUE OF AN AMERICAN OPTION RELATIVE TO THE VALUE OF A EUROPEAN OPTION
 
 Because an American option permits the holder to exercise the option at expiration as well as any time prior to expiration, its value must be at least as great as that of the corresponding European option:
 
@@ -84,7 +104,7 @@ $$
 C _ {t} \geq c _ {t} \quad \text {a n d} \quad P _ {t} \geq p _ {t}. \tag {2.3}
 $$
 
-# 2.4 THE VALUE OF AN OPTION AT EXPIRATION
+## 2.4 THE VALUE OF AN OPTION AT EXPIRATION
 
 The value of an option when it is exercised is called the exercise value. At expiration, both a European and an American call are worth their exercise values, which is the same for both, because the American call has no time remaining and, therefore, no benefit to exercising it early,
 
@@ -106,11 +126,11 @@ To exercise the put, the holder will need to acquire the underlying, which can b
 
 Alternatively, suppose the stock is trading at 90 and a 100-strike put is trading for 11 on the expiration date. In this case, the market put price is too high relative to the exercise value (10). The arbitrageur should sell the put receiving 11. The put buyer will exercise this option. As the seller, the arbitrageur will have to buy the stock at the strike price of 100 and subsequently sell it in the market at 90 for a loss of 10. The proceeds from selling the put more than offset this loss, netting 1.
 
-# 2.5 THE LOWER BOUNDS OF EUROPEAN AND AMERICAN OPTIONS AND THE OPTIMALITY OF EARLY EXERCISE
+## 2.5 THE LOWER BOUNDS OF EUROPEAN AND AMERICAN OPTIONS AND THE OPTIMALITY OF EARLY EXERCISE
 
 We previously identified zero as the minimum values of European and American options. It is possible, however, to establish higher minima. By establishing a minimum price that is higher than zero, we are able to place more restrictive limits on the prices of options, which enables us to narrow the range over which the option price can exist.
 
-# 2.5.1 The Lower Bound of a Call
+## 2.5.1 The Lower Bound of a Call
 
 For an American call, the lower bound can be initially stated as the option's exercise value. At any time  $t < T$ ,
 
@@ -157,7 +177,7 @@ Figure 2.1 illustrates what we have asserted thus far. As is common in industry 
 
 The market risk-free interest rate is  $1.6\%$ , the time to maturity is 49 days, and there are no anticipated dividends. Please note that these graphs look the opposite of what you may have seen before: Here we normalize by the underlying price. The opposite image would appear if normalizing by the strike.
 
-# 2.5.2 Early Exercise of an American Call
+## 2.5.2 Early Exercise of an American Call
 
 From this result, we can discern that the American call will never be exercised early because the minimum value of an in-the-money call is  $S_{t} - Xe^{-r_{c}\tau}$ , which is more than its value if exercised,  $S_{t} - X$ . In other words, an American call is worth more by simply selling this call in the market. This point may seem somewhat counterintuitive when one considers that a deep-in-the-money call might seem worth exercising. A holder of such a call might be unlikely to expect further gains, but one must consider that exercise of such a call would simply result in the holder possessing the asset. If the asset is indeed going no higher, it would satisfy the holder no more to hold it instead of the call and would be out the exercise price and the interest it could continue to earn if they waited until expiration to exercise. It should also be apparent that exercise of a call early is equivalent to simply paying someone for an asset before it is necessary and then forgoing the right to change one's mind about its purchase at a later date. We shall soon see, however, that if the asset makes cash payments, then it may be worth exercising early.
 
@@ -225,7 +245,7 @@ TABLE 2.3 Establishing a Lower Bound for a European Put
 
 a market risk-free interest rate of  $1.79\%$ . Thus, the present value factor is 0.990094 or  $e^{-r_c\tau} = e^{-0.0179(203 / 365)} = 0.990094$ . Based on Equation (2.11),  $X(1 - e^{-r_c\tau}) = D_t$  at  $88\%$  of the underlying value or  $[2.326 / (1 - 0.990094)] / 266.86$ . As shown in Figure 2.2b, the exercise value is higher than the lower bound for strike prices below  $88\%$  of the underlying price. The observed call prices appear to be converging to the call exercise value for lower strike prices, which are deep in-the-money calls.
 
-# 2.5.3 The Lower Bound of a Put
+## 2.5.3 The Lower Bound of a Put
 
 Now we look at the lower bound of a European put. First, we consider the case of no dividends. We construct Portfolio E, consisting of a European put and a unit of the asset, and Portfolio F, consisting of a zero-coupon bond with face value  $X$  and current value of  $Xe^{-r_c\tau}$ .<sup>7</sup> Table 2.3 shows the outcomes.
 
@@ -266,7 +286,7 @@ Thus, the quoted put price of 0.95 is below the lower boundary. The arbitrageur 
 
 Note in Table 2.4 that the net cash flow today is 0.05. The positive cash flow on the dividend date from the stock is captured today through short selling a bond or borrowing. Finally, the net cash flow when  $S_{T} > X$  is positive because we know  $S_{T} > 100$  by assumption. Further note that buying pressure will drive the stock and put price up. Again, in well-functioning markets, we expect the net cash flow today to quickly move so as to be nonpositive.
 
-# 2.5.4 Early Exercise of an American Put
+## 2.5.4 Early Exercise of an American Put
 
 The lower bound dominance in the case of an American call, where  $S_{t} - Xe^{-r_{c}\tau} > S_{t} - X$ , provided a simple condition under which we demonstrated that an American call will not be exercised early except in the event of a dividend. For an American put, it is sufficient to
 
@@ -290,7 +310,7 @@ Prior to expiration, both American put and call option prices will exceed the ex
 
 Figure 2.4 illustrates the influence of dividends on the put lower bound. Recall in Figure 2.3 that the exercise value is higher than the lower bound for a 49-day put option. Recall from Figure 2.2 that this longer dated option has two future quarterly dividends with present value 2.326. Clearly the exercise value and lower bound are much closer together due to the influence of dividends.
 
-# 2.6 DIFFERENCES IN OPTION VALUES BY EXERCISE PRICE
+## 2.6 DIFFERENCES IN OPTION VALUES BY EXERCISE PRICE
 
 The results in this section will enable us to understand the effect of exercise price on the pricing of options. That is, of two otherwise identical calls or puts, differing only by exercise price, which option will be priced higher? Our intuition should tell us that the call with the lower exercise price and the put with the higher exercise price should have higher prices. For the call, the exercise price is the hurdle over which the underlying must get to justify exercise. Thus, the lower the hurdle the easier it is to get over it. Moreover, for a given level of the underlying above the exercise price, the more valuable is the call when exercised. Hence, the lower-exercise price call should be worth more before expiration. For a put, the argument is reversed. To exercise the put, the underlying must get under the
 
@@ -299,7 +319,7 @@ FIGURE 2.4 Illustration of Dividend Impact on Put Lower Bound (Expressed as Perc
 
 exercise price. Hence, the higher is the exercise price, the easier it is to get under it, and for a given level of the underlying below the exercise price, the higher is the exercise price, the higher the payoff of the put. Hence, puts with higher exercise prices should be worth more before expiration. Let us first take a formal look at calls.
 
-# 2.6.1 Calls Differing by Exercise Price
+## 2.6.1 Calls Differing by Exercise Price
 
 Consider two European calls differing only by exercise price. The first call has an exercise price of  $X_{L}$  and a price of  $c_{tL}$  and the second call has an exercise price of  $X_{H}$  and a price of  $c_{tH}$ . The subscripts  $L$  and  $H$  stand for "low" and "high," respectively, but you should not get in mind that  $c_{tL}$  is lower than  $c_{tH}$ . In fact, it will not be, as we show here.
 
@@ -347,7 +367,7 @@ solely on this data, how would an arbitrageur exploit this data? Again, the firs
 
 As interest will be earned on buying bonds, we indicate this future value as  $FV$ . Note in Table 2.6 that the net cash flow today is 0.1. Buying pressure will drive up the high strike call and selling pressure will drive down the low strike call. For every future possible outcome, the net cash flow is positive assuming interest rates are positive. Further note that trading pressure will drive the option prices in such a way that the positive net cash flow will no longer exist. Again, in well-functioning markets, we expect the net cash flow today to quickly move so as to be nonpositive.
 
-# 2.6.2 Puts Differing by Exercise Price
+## 2.6.2 Puts Differing by Exercise Price
 
 Now consider two European puts differing only by exercise price. The first put has an exercise price of  $X_{L}$  and a price of  $p_{tL}$  and the second put has an exercise price of  $X_{H}$  and a price of  $p_{tH}$ . Construct Portfolio I, consisting of a short position in the put with exercise
 
@@ -415,7 +435,7 @@ TABLE 2.3 Numerical Illustration Establishing an Upper Bound for the Difference 
 
 drive down the high strike put. For every future possible outcome, the net cash flow is nonnegative assuming interest rates are positive. Further note that trading pressure will drive the option prices in such a way that the positive net cash flow will no longer exist. Again, in well-functioning markets, we expect the net cash flow today to quickly move so as to be nonpositive.
 
-# 2.7 THE EFFECT OF DIFFERENCES IN TIME TO EXPIRATION
+## 2.7 THE EFFECT OF DIFFERENCES IN TIME TO EXPIRATION
 
 Consider two European calls differing only by time to expiration. One option expires at time  $T_{1}$  and has a time to expiration of  $T_{1} - t = \tau_{1}$  and the other expires at  $T_{2}$  and has a time to expiration of  $T_{2} - t = \tau_{2}$ , and where  $\tau_{2} > \tau_{1}$ . Their respective prices will be  $c_{t1}$  and  $c_{t2}$  with similar notation for American calls as well as for European and American puts.
 
@@ -451,7 +471,7 @@ $$
 
 If there are dividends on the asset and the puts are European, the expiring option is worth  $\max(0, S_{T_1} - X)$ . The other option is still alive and worth at least max  $[0, Xe^{-r_c(\tau_2 - \tau_1)} - D_1 - S_{T_1}]$ . Again, it may be the case that the longer-term put is worth less, which would, of course, all depend on the various factors that affect the option price. Consequently, our previous statement for European puts for the no-dividend case holds as well if there are dividends. If the puts are American, the remaining option will always sell for at least its exercise value, which makes it worth at least as much as the expiring option. Consequently, our statement for American puts without dividends holds when dividends are introduced.
 
-# 2.8 THE CONVEXITY RULE
+## 2.8 THE CONVEXITY RULE
 
 A mathematical function,  $y = f(x)$ , is said to be convex if for any two values of  $x$ ,  $x_2 > x_1$ , we have that the line between these two  $x$  values lies above or on the  $y = f(x)$  graph. It is possible to derive a relationship between the prices of three options differing by exercise price. Let their exercise prices be  $X_L$ ,  $X_M$ , and  $X_H$  (for low, medium, and high) and the corresponding call prices be  $c_{tL}$ ,  $c_{tM}$ , and  $c_{tH}$ . For convenience, we shall call these the first, second, and third calls, respectively. Let us construct Portfolio K consisting of  $\omega$  units of the first call and  $1 - \omega$  units of the third call. In other words, we go long  $\omega$  units of the first call and long  $1 - \omega$  units of the third. Portfolio L consists of one unit of the second call. The value of  $\omega$  is defined as  $(X_H - X_M) / (X_H - X_L)$  so that  $1 - \omega$  is  $(X_M - X_L) / (X_H - X_L)$ . Table 2.9 shows the outcomes.
 
@@ -498,11 +518,11 @@ Figure 2.5 illustrates the convex relationship between call and put option mid p
 
 We now turn to addressing put-call parity.
 
-# 2.9 PUT-CALL PARITY
+## 2.9 PUT-CALL PARITY
 
 The connection between the prices of puts and calls with the same exercise price and expiration is referred to as put-call parity, and it is one of the most important relationships in all of option pricing. We first begin with European options.
 
-# 2.9.1 Put-Call Parity for European Options
+## 2.9.1 Put-Call Parity for European Options
 
 We construct two portfolios called O and P. Portfolio O consists of one unit of the asset and one European put and Portfolio P consists of one European call and a zero-coupon
 
@@ -566,7 +586,7 @@ TABLE 2.12 Numerical Illustration Put-Call Parity for European Options on Assets
 
 Note that buying pressure will drive the stock and put prices up and selling pressure will drive the call price down. Again, in well-functioning markets, we expect the net cash flow today to quickly move to nearly zero.
 
-# 2.9.2 Put-Call Parity for American Options
+## 2.9.2 Put-Call Parity for American Options
 
 If the options are American, put-call parity is a bit more complex, and the statements we shall be able to make a bit less precise. We first consider the case of no dividends. Portfolio P, consisting of a long call and a zero-coupon bond, is not subject to early exercise because the long call would not be exercised due to the absence of dividends on the asset. Given the potential for early exercise, it is necessary to adjust the initial value of the bonds to  $X$  instead of  $Xe^{-r_c\tau}$ . That is, we make the current value of the bonds equal to the exercise price, not the present value of the exercise price, which means we borrow a little more money. At expiration, the bonds will mature and pay off  $Xe^{-r_c\tau}$ . So, at expiration, the payoff of Portfolio P will either be  $Xe^{r_c\tau}$  if  $S_T \leq X$  or  $S_T - X(1 - e^{r_c\tau})$  if  $S_T > X$ . Portfolio O, however, is subject to early exercise of the put. Let us choose an arbitrary time before expiration,  $j$ , in which the remaining time to expiration is  $\tau_j$ . Suppose at that point, the asset price,  $S_j$ , is sufficiently below the exercise price to justify early exercise. In that case, the holder of the put will tender the asset and receive the exercise price. We assume that this person will reinvest the exercise price at the risk-free rate, such that it will grow to a value of  $Xe^{r_c\tau_j}$  at time  $T$ . The final value at  $T$  will be
 
@@ -622,7 +642,7 @@ FIGURE 2.6b Illustration of Put-Call Parity Bounds for Long-Dated American Optio
 
 We are just beginning to partially unravel financial mysteries. Once you finish this book, there will be plenty of remaining mysteries worthy of a lifetime of research and learning.
 
-# 2.9.3 Put-Call Parity and the Box Spread
+## 2.9.3 Put-Call Parity and the Box Spread
 
 There is a special relationship between the prices of European puts and calls that differ by exercise price. Suppose one buys the call with exercise price  $X_{L}$ , sells the call with exercise price  $X_{H}$ , buys the put with exercise price  $X_{H}$ , and sells the put with exercise price  $X_{L}$ . These portfolios constitute a strategy known in the world of options trading as a box spread. Because the call purchased will cost more than the call that is sold, there is a net cash outflow for the calls. Likewise, the put purchased will cost more than the put sold, so there is a net cash outflow for the puts. Thus, these transactions will net out to a long position, meaning that the investor who does this strategy will pay out money at the start. Let us look at the outcomes because they produce a somewhat surprising result.
 
@@ -668,7 +688,7 @@ $$
 C _ {t L} - C _ {t H} + P _ {t H} - P _ {t L} \geq X _ {H} - X _ {L}. (2. 3 7)
 $$
 
-# 2.10 THE EFFECT OF INTEREST RATES ON OPTION PRICES
+## 2.10 THE EFFECT OF INTEREST RATES ON OPTION PRICES
 
 Interest rates impart a small but positive effect on call option prices and a small but negative effect on put option prices. Consider that the holder of a European call faces a payoff at expiration of either zero or  $S_T - X$ . If interest rates increase, the value of the possible zero payoff is unaffected, but the present value of the  $X$  dollars paid out if the option ends up in-the-money is less. Hence, a higher risk-free rate makes a European call option more valuable as the  $S_T - PV(X)$  increases.
 
@@ -682,7 +702,7 @@ Note that for both American calls and puts, the effect of exercising immediately
 
 There are several other explanations for the effect of interest rates on option prices. Most rely on the idea that the call is a leveraged transaction that substitutes for a stock margin trade and that the put is like an insurance policy. They lead to the same conclusion.
 
-# 2.11 THE EFFECT OF VOLATILITY ON OPTION PRICES
+## 2.11 THE EFFECT OF VOLATILITY ON OPTION PRICES
 
 If it is not already intuitively obvious, it is simple to demonstrate that a call option on an asset with higher volatility will be worth more, all else equal. For example, consider an option with any expiration except immediate. The options can be European or American.
 
@@ -692,7 +712,7 @@ It is easy to treat the value of  $\Delta S$  as a good measure of the volatilit
 
 Hence, it should be quite clear that higher volatility leads to a higher option value. This result will hold regardless of whether there are dividends. In addition, because an American call need not be exercised early, it can be made to produce the same payoffs as a European call. Hence, the right to exercise early does not impair the positive effect of volatility.
 
-# 2.12 THE BUILDING BLOCKS OF EUROPEAN OPTIONS
+## 2.12 THE BUILDING BLOCKS OF EUROPEAN OPTIONS
 
 There are two types of options that can be seen as the building blocks of standard European options, and it is useful to introduce them in this chapter. One type is called a binary option or digital option, owing to the fact that there are only two possible payoffs, 0 or 1.
 
@@ -746,13 +766,13 @@ Total of  $X - S_{T}$
 
 Asset-or-nothing and cash-or-nothing options can be thought of as the building blocks of a standard option. As such, these instruments are like atoms that make up many things with which we are most familiar. By analogy, as hydrogen and oxygen can be combined to make water, so various binary options can be combined to make other financial instruments. As you can probably imagine by now, if these fundamental options trade separately, their combined prices must equal that of a European call in the manner shown in this chapter.
 
-# 2.13 RECAP AND PREVIEW
+## 2.13 RECAP AND PREVIEW
 
 In this chapter we identified certain conditions that restrict option prices. For example, we covered upper and lower limits, the relationships between options differing by exercise price or time to expiration, and we derived the relationship between put and call option prices. We also covered the effect of interest rates and volatility on option prices. These results do not identify specific option prices, but they do give us restrictions on option prices and, thereby, enable us to narrow down prices so that we can say more than simply that prices are nonnegative.
 
 In Chapter 3, we shall take a step away from derivatives and provide a review of some of the general mathematical results that we need to recall from previous courses. This review will be foundational material from what is hopefully previously taken math courses. You may actually just need to skim over it.
 
-# QUESTIONS AND PROBLEMS
+## QUESTIONS AND PROBLEMS
 
 1 In your own words, define arbitrage.  
 2 Based on the following illustration of two instruments (1 and 2) and two points in time (0 and 1), design an arbitrage strategy. Defend your answer by computing cash flows at both points in time.
@@ -764,7 +784,7 @@ In Chapter 3, we shall take a step away from derivatives and provide a review of
 5 This problem as well as the next one explores American put-call parity violations. Consider the following inputs: Suppose the stock price is  $S_{t} = 100$ , strike price is  $X = 100$ , risk-free interest rate is  $r_{c} = 5.0\%$  (continuously compounded, annualized, applies to both maturities—option and dividend), time to maturity is six months, a dividend of 1 will be paid in three months, and the quoted American put price is 6.02. If the quoted American call price is 4.98, identify the arbitrage opportunity and illustrate how it would be captured.  
 6 Again, consider the same inputs as the previous problem except now the American call price is 8.54. Identify the arbitrage opportunity and illustrate how it would be captured.
 
-# NOTES
+## NOTES
 
 1. There is some debate on whether to use trading days rather than calendar days. In the US, there are approximately 252 trading days in a year.  
 2. We are also making a subtle assumption that the asset incurs no costs to hold. At one time, many securities had costs to hold and store, owing to the fact that physical certificates were issued, but that is no longer true as securities are now almost exclusively issued in electronic form. Most commodities such as oil and gold would incur storage costs, and these costs would factor into the pricing models, but we shall ignore these until we get to pricing forwards and futures much later in the book.  

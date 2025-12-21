@@ -1,26 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: "Lecture Note 3 Discounted Cash Flow Valuation: Value Drivers and Implementing the Free Cash Flow Model"
-linter-yaml-title-alias: "Lecture Note 3 Discounted Cash Flow Valuation: Value Drivers and Implementing the Free Cash Flow Model"
+parent_directory: "Lectures on Valuation and Security Analysis"
+formatted: 2025-12-21 02:40:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - discounted cash flow valuation
+   - value drivers
+   - free cash flow model
+   - enterprise valuation
+secondary_tags:
+   - nopat forecasting
+   - reinvestment rate
+   - return on investment
+   - terminal value calculation
+   - three-stage valuation model
+cssclasses: academia
 ---
 
 # Lecture Note 3 Discounted Cash Flow Valuation: Value Drivers and Implementing the Free Cash Flow Model
 
-# Objective
+## Objective
 
 Introduce students to a practically implementable three-stage free cash flow valuation model based on analyst earnings forecasts and plowback rates.
 
-# Outline
+## Outline
 - Firm valuation based on value drivers: growth, ROI, and plowback rate
 - Terminal value based on value drivers
 - Assets in place and PVGO
 - Value drivers and equity valuation
 
-# Economic Value Drivers and Free Cash Flows
+## Economic Value Drivers and Free Cash Flows
 - The objective of valuation is to relate firm value to underlying economic value drivers.
 - We will discuss how to forecast free cash flows in terms of some key value drivers and show how these value drivers affect firm value.
 - We will develop a simple three-stage free cash flow valuation model that can be used to compute total enterprise value (V) and the value of equity (E).
@@ -28,9 +38,9 @@ Introduce students to a practically implementable three-stage free cash flow val
 
 Note that the reference to firm value here is to Total Enterprise Value. You have to add the value of non-operating assets (excess cash, etc.) to get total firm value.
 
-# Some simple formulas of firm (total enterprise) value
+## Some simple formulas of firm (total enterprise) value
 
-# No growth case:
+## No growth case:
 
 The total enterprise value of a firm whose profits are expected to be constant in perpetuity is equal to:
 
@@ -39,7 +49,7 @@ V _ {0} = \frac {\text {N O P A T} _ {1}}{\text {W A C C}} \tag {1}
 $$ where  $\mathrm{NOPAT}_1$  is the constant expected profits (equal to the free cash flows) in perpetuity and WACC is the weighted average cost of capital. This is also referred to as the Earnings Power Value (EPV).
 
 
-# Constant growth case:
+## Constant growth case:
 
 When the free cash flows to the firm are expected to grow at a constant rate  $g$  forever ( $g < WACC$ ), then:
 
@@ -53,7 +63,7 @@ This is simply the Gordon growth model.
 
 To understand valuation in contexts other than these simple ones we need to understand the role of value drivers.
 
-# Value Drivers of free cash flows and firm value
+## Value Drivers of free cash flows and firm value
 
 There are three key value drivers of free cash flows:
 - The rate of growth of a company's revenues, profits, and operating assets (g).
@@ -182,7 +192,7 @@ $$ where  $g$  is referred to as the sustainable growth rate. Thus, a firm can i
 - Improving its return on investments (ROI) (both new and existing assets). E.g.: efficiency improvements.
 - Investing more capital (b) in projects with high return on investment. E.g.: expanding markets.
 
-# Practical implementation of the FCFF valuation model
+## Practical implementation of the FCFF valuation model
 
 The free cash flow model is implemented as follows in practice to compute total enterprise value:
 
@@ -192,7 +202,7 @@ V _ {0} = \sum_ {t = 1} ^ {T} \frac {E \left(F C F F _ {t}\right)}{\left(1 + W A
 
 $$ where  $\mathrm{TV}_{\mathrm{T}}$  is the continuing value in period T for the FCFF valuation model (see Chapter 10 of KGW).
 
-# Three stage valuation
+## Three stage valuation
 
 1. High Growth: High return on investment (ROI), High reinvestment rate (b), High growth (g) in sales and profits.
 2. Transition: Competition drives down ROI on existing and new assets. Firm faces declining investment opportunities (fewer positive NPV projects) leading to lower reinvestment rates. Declining reinvestment rates and ROI are accompanied by declining growth.
@@ -200,7 +210,7 @@ $$ where  $\mathrm{TV}_{\mathrm{T}}$  is the continuing value in period T for th
 
 We will use this intuition in our implementation of the valuation model.
 
-# Continuing value based on the Gordon Growth Model
+## Continuing value based on the Gordon Growth Model
 
 Free cash flows (FCFF) grow at a constant rate  $g$  after  $T + 1$ . The PV of cash flows after  $T$  as of time  $T$ :
 
@@ -223,7 +233,7 @@ $$ where  $g$  is the steady-state growth in profits and  $ROI$  is the steady-s
 - What would be a good choice for steady-state growth?
 - What would be a good choice for steady-state ROI?
 
-# Terminal value based on value drivers
+## Terminal value based on value drivers
 
 From equation (13),  $\mathbf{b} = \mathbf{g} / \mathbf{ROI}$ . Substitute this into equation (12):
 
@@ -235,7 +245,7 @@ $$
 
 Equation (14) is the value-driver based terminal value formula.
 
-# No Growth Perpetuity Continuing Value Formula
+## No Growth Perpetuity Continuing Value Formula
 
 Suppose the return on new investments equals cost of capital, i.e.,  $\mathrm{ROI} = \mathrm{WACC}$ . Substitute  $\mathrm{ROI} = \mathrm{WACC}$  in equation (14):
 
@@ -251,7 +261,7 @@ This doesn't mean that there is no nominal growth in earnings simply that any su
 
 We will use the more general formula in equation (14), which gives us the option to set  $ROI \geq WACC$ .
 
-# Three-Stage FCFF Valuation Model
+## Three-Stage FCFF Valuation Model
 
 This model is used to compute the total enterprise value (value of operating assets) of the firm. The model contains three stages. They are:
 
@@ -259,7 +269,7 @@ This model is used to compute the total enterprise value (value of operating ass
 2) Transition Stage: (15 years from Year 2 to Year 17) marked by mean-reversion where growth rates, reinvestment rates, and return on investment all decline to a long run steady state.
 3) Steady State: (forever from Year 17) marked by steady-state equilibrium where growth, reinvestment rate, and return on investment settle into long run steady state.
 
-# Inputs to the Model
+## Inputs to the Model
 
 1) Year 0 NOPAT and Year 0 Invested Capital.
 2) Growth forecasts (g) and reinvestment rate (b) for the high growth stage.
@@ -269,7 +279,7 @@ This model is used to compute the total enterprise value (value of operating ass
 
 See Worksheet (9) for the FCFF model to value the firm in the EXCEL workbook Smucker-July 2015 version 7.0.xls.
 
-# 15-Year Valuation Model
+## 15-Year Valuation Model
 
 We combine all these elements together and provide the following implementation:
 
@@ -311,19 +321,19 @@ $$
 $$ b _ {t} = b _ {t - 1} - \frac {b _ {1} - b}{T} \tag {20}
 $$
 
-# Reinvestment Rates for the High Growth Stage
+## Reinvestment Rates for the High Growth Stage
 
 Reinvestment rates are computed as follows:
 
 Reinvestment rate  $(\mathbf{b}) = (1 - \mathrm{FCFF} / \mathrm{NOPAT})$ . FCFF/NOPAT is capacity payout all investors (for  $\mathrm{NOPAT} > 0$ ).
 
-# Sequential Valuation of Equity
+## Sequential Valuation of Equity
 
 Given total firm value, equity is valued sequentially as follows:
 
 $\mathrm{E} =$  Value of the Firm - Value of Pref. Stock & Min. Int. - Value of Debt
 
-# Assets-in-place and PVGO
+## Assets-in-place and PVGO
 
 Total Enterprise Value (V) = Value of assets-in-place + Present Value of Growth Opportunities (PVGO)
 
@@ -333,7 +343,7 @@ Whether growth is value adding, value neutral or value destroying depends on whe
 
 PVGO = V - Value of assets in place.
 
-# Value Drivers and Direct Valuation of Equity
+## Value Drivers and Direct Valuation of Equity
 
 We can value equity directly using the same analytical approach that we used to compute the total enterprise value by making the following substitutions.
 
@@ -355,7 +365,7 @@ $$
 
 We could use actual payout (dividends + net stock repurchase).
 
-# Free Cash Flow to Equity (FCFE) Valuation Model
+## Free Cash Flow to Equity (FCFE) Valuation Model
 
 $$
 V _ {E} = \sum_ {t = 1} ^ {T} \frac {F E _ {t} \times \left(1 - k _ {t}\right)}{\left(1 + r _ {e}\right) ^ {t}} + \frac {F E _ {T + 1} \times \left(1 - g / R O E ^ {*}\right)}{\left(1 + r _ {e}\right) ^ {T} \times \left(r _ {e} - g\right)} \tag {21}
@@ -365,7 +375,7 @@ FE stands for forecast earnings per share and ROE* is the return on new equity i
 
 The three-stage model to value equity directly is provided in worksheet (10) in the EXCEL workbook Smucker-July 2015 version 7.0.xls.
 
-# Data needed for implementing the equity valuation model
+## Data needed for implementing the equity valuation model
 
 $\succ$  Analyst consensus earnings forecasts for the first two years (FY1 and FY2)
 
@@ -377,7 +387,7 @@ Number of shares outstanding
 > Book (market) value of interest-bearing debt, preferred stock
 Cash and short-term investments
 
-# Smucker (SJM) EPS forecasts (as of August 19, 2022)
+## Smucker (SJM) EPS forecasts (as of August 19, 2022)
 
 FY2
 
@@ -387,7 +397,7 @@ Oct 15</td><td>Current Year
 Apr 16</td><td>Next Year
 Apr 17</td></tr><tr><td>Avg. Estimate</td><td>1.23</td><td>1.54</td><td>5.72</td><td>6.31</td></tr><tr><td>No. of Analysts</td><td>15.00</td><td>15.00</td><td>16.00</td><td>17.00</td></tr><tr><td>Low Estimate</td><td>1.02</td><td>1.43</td><td>5.65</td><td>5.92</td></tr><tr><td>High Estimate</td><td>1.33</td><td>1.60</td><td>5.80</td><td>6.60</td></tr><tr><td>Year Ago EPS</td><td>1.34</td><td>1.53</td><td>5.38</td><td>5.72</td></tr></table> http://finance.yahoo.com/q/ae?s=SJM+Analyst+Estimates
 
-# Estimating 12 month and 24 month ahead forecasts
+## Estimating 12 month and 24 month ahead forecasts
 
 EPS0
 
@@ -419,7 +429,7 @@ $$
 \mathrm {F E} _ {2} = \mathrm {F E} _ {1} * (1 + \mathrm {g} _ {2}) = 5. 9 2 * 1. 0 7 8 = \$ 6. 3 8
 $$
 
-# Smucker beta and market cap
+## Smucker beta and market cap
 
 The J. M. Smucker Company (SJM) - NYSE ★ Watchlist
 
@@ -463,9 +473,9 @@ http://finance.yahoo.com/q/ks?s=SJM+Key+Statistics
 
 This is a screen capture from August 19, 2022. The current beta and market cap can be obtained from the same link. All of the data in the worksheets are as of July 2015.
 
-# Other data
+## Other data
 
-# Balance sheet data
+## Balance sheet data
 
 Cash = Cash & cash equivalents & Short-term Inv.
 
@@ -485,7 +495,7 @@ Plowback rate in Stage 1
 
 From worksheet 4: Average payout ratio over the last 10 years is about 1. The current payout ratio is 0.81. This gives a plowback rate range of 0 to 0.19. I use the higher number. You can take the most recent number, average it over 5 years, etc. It is your choice.
 
-# Steady-state information
+## Steady-state information
 
 Steady-state growth  $= 3\%$  (assume nominal GDP growth)
 
@@ -503,13 +513,13 @@ P/V ratio = 108.46/83.59 = 1.30 (overvalued by 30\%).
 
 Worksheet (10) in the EXCEL workbook Smucker-July 2015 version 7.0.xls
 
-# Sensitivity Analysis
+## Sensitivity Analysis
 
 Examine how your valuations change when you adjust your key assumptions, for example you can test how Low Estimate and High Estimate of earnings forecasts affect your valuations.
 
 You can examine the sensitivity of your analysis to your cost of capital estimates and the payout ratios.
 
-# Distressed Firms
+## Distressed Firms
 
 Even if trailing earnings are negative, as long as the firm has positive earnings forecasts, you can still use the model.
 

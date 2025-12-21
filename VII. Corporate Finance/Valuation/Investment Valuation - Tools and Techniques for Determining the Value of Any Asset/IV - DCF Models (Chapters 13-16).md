@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Investment Valuation
-linter-yaml-title-alias: Investment Valuation
+aliases:
+parent_directory: VII. Corporate Finance/Valuation/Investment Valuation - Tools and Techniques for Determining the Value of Any Asset
+formatted: 2025-12-21 02:55:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - dcf models
+  - dividend discount model
+  - gordon growth model
+  - two-stage ddm
+  - value of growth
+secondary_tags:
+  - discounted cash flow
+  - stable growth
+  - high growth valuation
+  - payout ratio
+  - cost of equity
+cssclasses: academia
 ---
 
 # Investment Valuation
@@ -14,36 +26,35 @@ linter-yaml-title-alias: Investment Valuation
 
 ---
 
-# Dividend Discount Models
+## Dividend Discount Models
 
 In the strictest sense, the only cash flow you receive when you buy shares in a publicly traded firm is a dividend. The simplest model for valuing equity is the dividend discount model (DDM)—the value of a stock is the present value of expected dividends on it. While many analysts have turned away from the dividend discount model and view it as outmoded, much of the intuition that drives discounted cash flow valuation stems from the dividend discount model. In fact, there are companies where the dividend discount model remains a useful tool for estimating value.
 
 This chapter explores the general model as well as specific versions of it tailored for different assumptions about future growth. It also examines issues in using the dividend discount model and the results of studies that have looked at its efficacy.
 
-# THE GENERAL MODEL
+## THE GENERAL MODEL
 
 When an investor buys stock, he or she generally expects to get two types of cash flows—dividends during the period the stock is held and an expected price at the end of the holding period. Since this expected price is itself determined by future dividends, the value of a stock is the present value of dividends through infinity:
 
 $$
-\text {V a l u e p e r s h a r e o f s t o c k} = \sum_ {\mathrm {t} = 1} ^ {\mathrm {t} = \infty} \frac {\mathrm {E} (\mathrm {D P S} _ {\mathrm {t}})}{\left(1 + \mathrm {k} _ {\mathrm {e}}\right) ^ {\mathrm {t}}}
-$$ where  $\mathrm{DPS}_{\mathrm{r}} =$  Expected dividends per share
-
-
+\text{Value per share of stock} = \sum_{t=1}^{\infty} \frac{E(\text{DPS}_t)}{(1 + k_e)^t}
 $$
 
-\mathrm {k} _ {\mathrm {e}} = \text {C o s t}
+where $\text{DPS}_t = \text{Expected dividends per share}$
 
+$$
+k_e = \text{Cost of equity}
 $$
 
 The rationale for the model lies in the present value rule—the value of any asset is the present value of expected future cash flows, discounted at a rate appropriate to the riskiness of the cash flows being discounted.
 
 There are two basic inputs to the model—expected dividends and the cost on equity. To obtain the expected dividends, we make assumptions about expected future growth rates in earnings and payout ratios. The required rate of return on a stock is determined by its riskiness, measured differently in different models—the market beta in the capital asset pricing model (CAPM) and the factor betas in the arbitrage and multifactor models. The model is flexible enough to allow for time-varying discount rates, where the time variation is because of expected changes in interest rates or risk across time.
 
-# VERSIONS OF THE MODEL
+## VERSIONS OF THE MODEL
 
 Since projections of dollar dividends cannot be made through infinity, several versions of the dividend discount model have been developed based on different assumptions about future growth. We will begin with the simplest—a model designed to value stock in a stable growth firm that pays out what it can afford to in dividends—and then look at how the model can be adapted to value companies in high growth that may be paying little or no dividends.
 
-# The Gordon Growth Model
+## The Gordon Growth Model
 
 The Gordon growth model can be used to value a firm that is in "steady state" with dividends growing at a rate that can be sustained forever.
 
@@ -58,9 +69,7 @@ The second issue relates to what growth rate is reasonable as a stable growth ra
 The return on equity (ROE) that we assume in perpetuity should reflect not what the company may have made last year nor what it is expected to make next year, but, rather, a longer-term estimate. The estimate of ROE matters because the payout ratio in stable growth has to be consistent:
 
 $$
-
-\text {P a y o u t r a t i o} = \mathrm {g} / \mathrm {R O E}
-
+\text{Payout ratio} = \frac{g}{\text{ROE}}
 $$
 
 The cost of equity has to be consistent with the firm being mature; if a beta is being used, it should be close to 1.
@@ -68,9 +77,7 @@ The cost of equity has to be consistent with the firm being mature; if a beta is
 Limitations of the Model As most analysts discover quickly, the Gordon growth model is extremely sensitive to assumptions about the growth rate, as long as other inputs to the model (payout ratio, cost of equity) are kept constant. Consider a stock with an expected dividend per share next period of 2.50, a cost of equity of 15 percent, and an expected growth rate of 5 percent forever. The value of this stock is:
 
 $$
-
-\text {V a l u e} = 2. 5 0 / (1. 1 5 - . 0 5) = \$ 2 5
-
+\text{Value} = \frac{2.50}{(1.15 - 0.05)} = \$25
 $$
 
 Note, however, the sensitivity of this value to estimates of the growth rate in Figure 13.1. As the growth rate approaches the cost of equity, the value per
@@ -78,7 +85,7 @@ Note, however, the sensitivity of this value to estimates of the growth rate in 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/bdf99f5904d807c5a542ff23cf443a5c6d2ebc7b5b9364ee456189651f8d5c71.jpg)
 FIGURE 13.1 Value per Share and Expected Growth Rate
 
-# DOES A STABLE GROWTH RATE HAVE TO BE CONSTANT OVER TIME?
+## DOES A STABLE GROWTH RATE HAVE TO BE CONSTANT OVER TIME?
 
 The assumption that the growth rate in dividends has to be constant over time may seem a difficult assumption to meet, especially given the volatility of earnings. If a firm has an average growth rate that is close to a stable growth rate, the model can be used with little real effect on value. Thus a cyclical firm that can be expected to have year-to-year swings in growth rates, but has an average growth rate that is 2 percent, can be valued using the Gordon growth model, without a significant loss of generality. There are two reasons for this result. First, since dividends are smoothed even when earnings are volatile, they are less likely to be affected by year-to-year changes in earnings growth. Second, the mathematical effects on present value of using year-specific growth rates rather than a constant growth rate are small.
 
@@ -86,9 +93,11 @@ share approaches infinity. If the growth rate exceeds the cost of equity, the va
 
 There are, of course, two common sense fixes to this problem. The first is to work with the constraint that a stable growth rate cannot exceed the risk-free rate; in the preceding example, this would limit the growth rate to a number well below 15 percent. The second is to recognize that growth is not free; when the growth rate is increased, the payout ratio should be decreased. This creates a trade-off on growth, with the net effect of increasing growth being positive, neutral, or even negative.
 
-Firms Model Works Best For In summary, the Gordon growth model is best suited for firms growing at a rate equal to or lower than the nominal growth in the economy with well-established dividend payout policies that they intend to continue into the future. The dividend payout and cost of equity of the firm have to be consistent with the assumption of stability, since stable firms generally pay substantial dividends and have betas close to 1. In particular, this model will underestimate the value of the stock in firms that consistently pay out less than they can afford to and accumulate cash in the process.
+## Firms Model Works Best For
 
-# ILLUSTRATION 13.1: Valuing a Regulated Monopoly: Consolidated Edison in May 2011
+In summary, the Gordon growth model is best suited for firms growing at a rate equal to or lower than the nominal growth in the economy with well-established dividend payout policies that they intend to continue into the future. The dividend payout and cost of equity of the firm have to be consistent with the assumption of stability, since stable firms generally pay substantial dividends and have betas close to 1. In particular, this model will underestimate the value of the stock in firms that consistently pay out less than they can afford to and accumulate cash in the process.
+
+## ILLUSTRATION 13.1: Valuing a Regulated Monopoly: Consolidated Edison in May 2011
 
 Consolidated Edison (Con Ed) is the electric utility that supplies power to residences and businesses in New York City. It is a quasi-monopoly whose prices and profits are regulated by the state of New York.
 
@@ -102,17 +111,16 @@ The firm has had a stable mix of debt and equity funding its operations for deca
 To value the company using the stable growth dividend discount model, we start with the earnings per share of  \$3.47 that the firm reported for 2010 and the dividends per share of\$ 2.22 it paid out for the year. Using the average beta of 0.80 for power utilities and an equity risk premium of  $5\%$  for mature markets allows us to estimate a cost of equity of  $7.5\%$  (the risk-free rate was  $3.5\%$ )
 
 $$
-
-\text{Cost of equity} = 3.5 \% + 0.8 (5 \%) = 7.5 \%
-
+\text{Cost of equity} = 3.5\% + 0.8 \times (5\%) = 7.5\%
 $$
 
 Capping the growth rate at the risk-free rate of  $3.5\%$ , we generated a value per share of 57.46.
 
 $$
-
-\begin{array}{l} \text {V a l u e p e r s h a r e} = \frac {\text {E x p e c t e d D i v i d e n d s p e r s h a r e n e x t y \text {y e a r}}}{\text {C o s t o f E q u i t y - E x p e c t e d g r o w t h r a t e}} \\ = \frac {\mathbb {S} 2 . 2 2 (1 . 0 3 5)}{(0 . 7 5 - 0 . 3 5)} = \mathbb {S} 5 7. 4 6 \\ \end{array}
-
+\begin{align}
+\text{Value per share} &= \frac{\text{Expected Dividends per share next year}}{\text{Cost of Equity - Expected growth rate}} \\
+&= \frac{\$2.22 \times (1.035)}{(0.075 - 0.035)} = \$57.46
+\end{align}
 $$
 
 We check to see whether the expected growth rate was consistent with fundamentals for Con Ed.
@@ -121,13 +129,13 @@ Retention ratio  $= 1 - ($ 2.22/ $3.47) = 36\%$
 
 Return on equity  $= 9.79\%$
 
-Expected growth rate  $= .36 \times .0979 = .0352$
+Expected growth rate $= 0.36 \times 0.0979 = 0.0352$
 
 The fundamental growth rate is very close to our estimate of growth of  $3.5\%$ .
 
 The stock was trading at 53.47 a share in May 2011, making it slightly under valued.
 
-# IMPLIED GROWTH RATE
+## IMPLIED GROWTH RATE
 
 The value for Con Ed is different from the market price, and this is likely to be the case with almost any company that you value. There are three possible explanations for this deviation. One is that you are right and the market is wrong. While this may be the correct explanation, you should probably make sure that the other two explanations do not hold—that the market is right and you are wrong or that the difference is too small to draw any conclusions.
 

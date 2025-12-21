@@ -74,8 +74,6 @@ In reality, different investment managers do create risky portfolios that differ
 
 The nearby box summarizes some of the arguments for indexing. If the passive strategy is efficient, then attempts to beat it simply generate trading and research costs with no offsetting benefit and, ultimately, inferior results.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ebcb1732f6b5accc9feaa9d8bf6e73aba28a4f17c659dccb74a73cc7222bfaec.jpg)
-
 # Concept Check 9.1
 
 If there are only a few investors who perform security analysis, and all others hold the market portfolio,  $M$ , would the CML still be the efficient CAL for investors who do not engage in security analysis? Why or why not?
@@ -120,8 +118,6 @@ E \left(R _ {M}\right) = \bar {A} \sigma_ {M} ^ {2} \tag {9.2}
 $$
 
 When investors purchase stocks, their demand drives up prices, thereby reducing expected rates of return and risk premiums. But when risk premiums fall, investors will shift some of their funds from the risky market portfolio into the risk-free asset. In equilibrium, the risk premium on the market portfolio must be just high enough to induce investors to hold the available supply of stocks. If the risk premium is too high, there will be excess demand for securities, and prices will rise; if it is too low, investors will not hold enough stock to absorb the supply, and prices will fall. Equation 9.2 tells us that the equilibrium risk premium of the market portfolio is therefore proportional both to the risk of the market, as measured by the variance of its returns, and to the degree of risk aversion of the average investor, denoted by  $\overline{A}$ .
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/e426a342e5ae4a4917a8888083f4605ba44416d73c0863bc80c0b42ee4223643.jpg)
 
 # Concept Check 9.2
 
@@ -238,8 +234,6 @@ Let's say that everyone knows a firm is well run. Its stock price will therefore
 
 Of course, investors do not directly observe expected returns on securities. Rather, they observe security prices and bid those prices up or down. Expected rates of return can at most be inferred from the prices investors pay compared to the cash flows those investments are expected to generate.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/61a8fb88580c9b30f6ea6eec4519a91d3eabb56430b42160df5be14e27f8a3b3.jpg)
-
 # Concept Check 9.3
 
 Suppose that the risk premium on the market portfolio is estimated at  $8\%$  with a standard deviation of  $22\%$ . What is the risk premium on a portfolio invested  $25\%$  in Toyota and  $75\%$  in Ford if they have betas of 1.10 and 1.25, respectively?
@@ -264,8 +258,6 @@ We see here how the CAPM may be of use in the money-management industry. Suppose
 
 
 The difference between the equilibrium and actually expected rate of return on a stock is called the stock's alpha, denoted by  $\alpha$ . For example, if the market return is expected to be  $14\%$ , a stock has a beta of 1.2, and the T-bill rate is  $6\%$ , the SML would predict an expected return on the stock of  $6 + 1.2(14 - 6) = 15.6\%$ . If one believed the stock would provide an expected return of  $17\%$ , the implied alpha would be  $1.4\%$  (see Figure 9.3).
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/80c1a0d952c328703dd43aba813c9b5e35bbc9f0a24d46dbf92b91c22e76e5b3.jpg)
 
 # Concept Check 9.4
 
@@ -294,8 +286,6 @@ Yet another use of the CAPM is in utility rate cases. The question in those case
 # Example 9.2 Using the CAPM for Regulated Utilities
 
 Suppose that the equityholders of a regulated utility have invested 100 million in the firm and that the beta of the equity is .6. If the T-bill rate is 6 \% and the market risk premium is 8 \%, then the fair expected profits to the firm would be assessed as 6 + .6 \times 8 = 10.8 \% of the \$ 100 million investment, or \$ 10.8 million. The firm would be allowed to set prices at a level expected to generate these profits.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/704675701bd3dfc3dd575040862e09b96bed0ecf1220afaebd8d88ecfb5ccdae.jpg)
 
 # Concept Check 9.5
 
@@ -764,8 +754,6 @@ ii. Hold this stock as a single-stock portfolio.
 # E-INVESTMENTS EXERCISES
 
 Fidelity provides data on the risk and return of its funds at www.fidelity.com. Click on the News and Research link, then choose Mutual Funds from the submenu. In the Search and Compare Funds section, search over All Asset Classes. On the next screen, click on Volatility and set the beta slider to 0.75. Select five funds from the resulting list and click Compare. Rank the five funds according to their betas and then according to their standard deviations. (You will have to click on Risk to get more detailed information on each fund.) Do both lists rank the funds in the same order? How would you explain any difference in the rankings? Repeat the exercise to compare five funds that have betas greater than or equal to 1.50. Why might the degree of agreement when ranking funds by beta versus standard deviation differ when using high versus low beta funds?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/dcd318b6aa2547dc92234e4f6e643ff7c5ccdfa266bf208c66684953415dda94.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

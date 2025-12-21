@@ -148,7 +148,7 @@ TABLEI
 Table 1 also shows that, in contrast to average price calls, the price of an average strike call increases with the number of averaging periods. The average of stock prices between times 0 and  $T$  is positively correlated with the stock price at time  $T$ ,  $S_{T}$ . If  $G(T)$  is high,  $S_{T}$  is likely to be high as well. More frequent averaging makes the average strike option more valuable because it reduces the correlation between  $S_{T}$  and  $G(T)$ . To see this pattern, consider what happens if the average is computed only using the final stock price. The value of the call is
 
 $$
-\max  [ 0, S _ {T} - G (T) ]
+\max(0, S_{T} - K_{T})
 $$
 
 If only one stock price observation is used,  $G(T) = S_T$ , and the value of the option is zero for sure. With more frequent averaging the correlation is reduced and the value of the average strike option increases.
@@ -160,7 +160,7 @@ When would an average strike option make sense? Such an option pays off when the
 If XYZ receives euros and its costs are fixed in dollars, profits are reduced if the euro depreciates—that is, if the number of dollars received for a euro is lower. We could construct an Asian put option that puts a floor,  $K$ , on the average exchange rate received. The per euro payoff of this option would be
 
 $$
-\max  \left(0, K - \frac {1}{1 2} \sum_ {i = 1} ^ {1 2} x _ {i}\right) \tag {9}
+\sigma = \sqrt{\sigma_S^{2} + \sigma_K^{2} - 2\rho\sigma_S\sigma_K} \tag{17}
 $$
 
 Comparison of costs for alternative hedging strategies for XYZ. The price in the second row is the sum of premiums for puts expiring after 1 month, 2 months, and so forth, out to 12 months. The first, third, and fourth row premiums are calculated assuming 1 year to maturity, and then multiplied by 12. Assumes the current exchange rate is  $0.9 / \epsilon$ , option strikes are  $0.9$ ,  $r_{\mathrm{S}} = 6\%$ ,  $r_{\mathrm{E}} = 3\%$ , and dollar/euro volatility is  $10\%$ .
@@ -293,7 +293,7 @@ Thus, in order for the compound call to ultimately be valuable, there are two ev
 
 Formulas for the four compound options—an option to buy a call (CallOnCall), an option to sell a call (PutOnCall), an option to buy a put (CallOnPut), and an option to sell a put (PutOnPut)—are in the chapter appendix. Valuing a compound option is different from valuing an ordinary option in part for mathematical rather than for conceptual reasons. The Black-Scholes formula assumes that the stock price is lognormally distributed. However, the price of an option—because there is a significant probability that it will be worthless—cannot be lognormally distributed. Thus, while an option on an option is conceptually similar to an option on a stock, it is mathematically different. The trick in deriving a formula for the price of a compound option is to value the option based on the value of the stock, which is lognormally distributed, rather than the price of the underlying option, which is not lognormally distributed.
 
-# Compound Option Parity
+## Compound Option Parity
 
 As you might guess, there are parity relationships among the compound option prices. Suppose we buy a call on a call, and sell a put on a call, where both have the same strike, underlying option, and time to maturity. When the compound options expire, we will acquire the underlying option by paying the strike price  $x$ . If the stock price is high, we will exercise the compound call, and if the stock price is low, the compound put will be exercised and we will be forced to buy the call. Thus, the difference between the call on call and put on call premiums, plus the present value of  $x$ , must equal the premium to acquire the underlying option outright. That is,
 
@@ -303,7 +303,7 @@ $$
 
 An analogous relationship holds for puts.
 
-# Options on Dividend-Paying Stocks
+## Options on Dividend-Paying Stocks
 
 It is possible to price American options on dividend-paying stocks using the binomial model. It turns out that the compound option model also permits us to price an option on a stock that will pay a single discrete dividend prior to expiration.
 
@@ -350,13 +350,13 @@ This valuation exercise provides a way to understand early exercise. We can view
 Example 2. Suppose a stock with a price of  \$100 will pay a\$ 5 dividend in 91 days (t₁ = 0.2493). The prepaid forward price for the stock, assuming receipt of the share after the dividend (at the time denoted  $0.2493^{+}$ ) is
 
 $$
-F _ {0, 0. 2 4 9 3 ^ {+}} ^ {P} (S _ {0}) = \\ \100 - \5 \times e ^ {- 0. 0 8 \times 0. 2 4 9 3} = \\ \95.0987
+F_{0, 0.2493^{+}}^{P}(S_{0}) = \$100 - \$5 \times e^{- 0.08 \times 0.2493} = \$95.0987
 $$
 
 An option with a strike price of 90 will expire in 152 days (T = 0.4164). Assume σ = 0.3 and r = 0.08. The value of a European call on the stock is
 
 $$
-\operatorname {B S C a l l} (9 5. 0 9 8 7, \$ 9 0, 0. 3, 0. 0 8, 0. 4 1 6 4, 0) = \$ 1 1. 7 6 4
+\operatorname{BSCall}(95.0987, \$90, 0.3, 0.08, 0.4164, 0) = \$11.764
 $$
 
 The value of an American call is computed as the present value of 14, with the exercise price for the compound option equal to  $5 - 90(1 - e^{-0.08 \times (0.4164 - 0.2493)}) =$
@@ -364,18 +364,18 @@ The value of an American call is computed as the present value of 14, with the e
 3.8047, and time to maturity 0.2493 for the compound option and 0.4164 for the underlying option. The price of the compound option is
 
 $$
-\begin{array}{l} \text {C a l l O n P u t} (S, K, x, \sigma , r, t _ {1}, T, \delta) \\ = \text {C a l l O n P u t} (9 5. 0 9 8 7, 9 0, 3. 8 0 4 7, 0. 3 0, 0. 0 8, 0. 2 4 9 3, 0. 4 1 6 4, 0) = \$ 1. 7 5 5 2 \\ \end{array}
+\begin{array}{l} \text{CallOnPut}(S, K, x, \sigma, r, t_{1}, T, \delta) \\ = \text{CallOnPut}(95.0987, 90, 3.8047, 0.30, 0.08, 0.2493, 0.4164, 0) = \$1.7552 \\ \end{array}
 $$
 
 Thus, the value of the American option is, $^6$  from equation (14), the cum-dividend stock price, less the present value of the strike, plus the value of the option to buy a put by paying the dividend less interest on the strike:
 
 $$
-\$ 100 - \$ 90 e ^ {- 0.2493 \times 0.08} + \$ 1.7552 = \$ 13.5325
+\$100 - \$90 e^{- 0.2493 \times 0.08} + \$1.7552 = \$13.5325
 $$
 
 The compound option should be exercised if the ex-dividend stock price is below  $89.988.$  Since exercise of the compound option is equivalent to leaving the original call unexercised, the original call should be exercised at time  $t_1 = 0.2493$  if the stock price exceeds  $\$89.988$ .
 
-# Currency Hedging with Compound Options
+## Currency Hedging with Compound Options
 
 Compound options provide yet another variation on possible currency-hedging strategies. Instead of buying a 6-month put option on the euro, we could buy a call option on a put option. In effect, this compound option is giving us the opportunity to wait and see what happens.
 
@@ -383,11 +383,11 @@ Suppose that after 3 months we will decide whether to buy the put option. Here i
 
 Now we can use the compound pricing formula to price a call on a put, setting the strike to equal  \$0.0146. The price of this compound call is\$ 0.0093. So by paying less than two-thirds the premium of the 6-month at-the-money option, we can buy an option that permits us to pay 0.0146 for a 3-month option. By selecting this strike, we have constructed the option so that we will exercise it if the exchange rate is below 0.9. If the exchange rate goes up, we will not exercise the option and save the premium. If the exchange rate goes down, we will acquire an in-the-money option for the price of an at-the-money option. Many other structures are possible.
 
-# 5. GAP OPTIONS
+## 5. GAP OPTIONS
 
 A call option pays  $S - K$  when  $S > K$ . The strike price,  $K$ , here serves to determine both the range of stock prices where the option makes a payoff (when  $S > K$ ) and also the size of the payoff ( $S - K$ ). However, we could imagine separating these two functions of the strike
 
-# FIGURE 3
+## FIGURE 3
 
 A gap call, paying S - \$90 when S > \$100.
 
@@ -404,18 +404,18 @@ Figure 4 depicts a gap put that pays  $90 - S$  when  $S < 100$ . This option de
 The pricing formula for a gap call, which pays  $S - K_{1}$  when  $S > K_{2}$ , is obtained by a simple modification of the Black-Scholes formula. Let  $K_{1}$  be the strike price (the price the option holder pays at expiration to acquire the stock) and  $K_{2}$  the payment trigger (the price at which payment on the option is triggered). The formula is then
 
 $$
-C \left(S, K _ {1}, K _ {2}, \sigma , r, T, \delta\right) = S e ^ {- \delta T} N \left(d _ {1}\right) - K _ {1} e ^ {- r T} N \left(d _ {2}\right) \tag {15}
+C(S, K_{1}, K_{2}, \sigma, r, T, \delta) = S e^{-\delta T} N(d_{1}) - K_{1} e^{- r T} N(d_{2}) \tag{15}
 $$
 
-$$ d _ {1} = \frac {\ln (S e ^ {- \delta T} / K _ {2} e ^ {- r T}) + \frac {1}{2} \sigma^ {2} T}{\sigma \sqrt {T}}
+$$ d_{1} = \frac{\ln(S e^{-\delta T} / K_{2} e^{- r T}) + \frac{1}{2} \sigma^{2} T}{\sigma \sqrt{T}}
 $$
 
-$$ d _ {2} = d _ {1} - \sigma \sqrt {T}
+$$ d_{2} = d_{1} - \sigma \sqrt{T}
 $$
 
 The modification to the put formula is similar.10
 
-# FIGURE 4
+## FIGURE 4
 
 A gap put, paying \$90 - S when S < \$100.
 
@@ -437,19 +437,12 @@ Table 4 lists gap put premiums for different strikes and payment triggers. When 
 
 Note that for a given trigger,  $K_{2}$ , you can always find a strike,  $K_{1}$ , that will make the option premium zero. Thus, gap options permit us to accomplish something similar to the paylater strategy.
 
-# 6. EXCHANGE OPTIONS
+## 6. EXCHANGE OPTIONS
 
 An exchange option—also called an outperformance option—is an option with the payoff
 
 $$
-\max  (0, S _ {T} - K _ {T})
-$$ where  $K_{T}$  is the price of a risky asset. The option thus pays off only if the underlying asset with price  $S_{t}$  outperforms some benchmark asset with price  $K_{t}$ . (You can view an ordinary call as an outperformance option in which the stock has to outperform cash in order for the option to pay off.) The pricing formula for this kind of option is a simple variant of the Black-Scholes formula.
-
-
-# European Exchange Options
-
-Suppose an exchange call maturing  $T$  periods from today provides the right to obtain 1 unit of risky asset 1 in exchange for 1 unit of risky asset 2. (We could think of this as, for example, the right to obtain the Nikkei index by giving up the S&P 500.) Let  $S_{t}$  be the price of risky asset 1 and  $K_{t}$  the price of risky asset 2 at time  $t$ , with dividend yields  $\delta_{S}$  and  $\delta_{K}$ , and volatilities  $\sigma_{S}$  and  $\sigma_{K}$ . Let  $\rho$  denote the correlation between the continuously compounded returns on the two assets. The payoff to this option is
-
+d_2 = d_1 - \sigma\sqrt{T}
 $$
 
 \max  (0, S _ {T} - K _ {T})
@@ -460,20 +453,18 @@ The formula for the price of an exchange option (see Margrabe, 1978) is
 
 $$
 
-\boxed {C (S, K, \sigma , \delta_ {K}, T, \delta_ {S}) = S e ^ {- \delta_ {S} T} N \left(d _ {1}\right) - K e ^ {- \delta_ {K} T} N \left(d _ {2}\right)} \tag {16}
+\boxed{C(S, K, \sigma, \delta_{K}, T, \delta_{S}) = S e^{-\delta_{S} T} N(d_{1}) - K e^{-\delta_{K} T} N(d_{2})} \tag{16}
 
 $$ where
 
 
-$$ d _ {1} = \frac {\ln (S e ^ {- \delta_ {S} T} / K e ^ {- \delta_ {K} T}) + \frac {1}{2} \sigma^ {2} T}{\sigma \sqrt {T}}
+$$ d_{1} = \frac{\ln(S e^{-\delta_{S} T} / K e^{-\delta_{K} T}) + \frac{1}{2} \sigma^{2} T}{\sigma \sqrt{T}}
 $$
 
-$$ d _ {2} = d _ {1} - \sigma \sqrt {T}
+$$ d_{2} = d_{1} - \sigma \sqrt{T}
 $$
 
-$$
-\sigma = \sqrt {\sigma_ {S} ^ {2} + \sigma_ {K} ^ {2} - 2 \rho \sigma_ {S} \sigma_ {K}} \tag {17}
-$$
+
 
 The volatility,  $\sigma$ , is the volatility of the difference in the continuously compounded returns of  $S$  and  $K$  over the life of the option. This is sometimes called the "blended volatility." The pricing formula for the exchange option therefore turns out to be a simple variant of the Black-Scholes formula: The strike price is replaced by the price of the benchmark asset, the risk-free rate is replaced by the dividend yield on the benchmark asset, and the appropriate volatility is the volatility of the difference in continuously compounded returns on the two assets.
 
@@ -487,26 +478,26 @@ By setting the dividend yields and volatility appropriately, equation (16) yield
 Example 3. Consider an option for which the owner receives a share of Microsoft only if Microsoft outperforms the S&P 500 index. This is a Microsoft call with the appropriately scaled S&P index as the strike asset. On January 5, 2011, the price of Microsoft was  \$28 and the S&P Index was at 1276.56. Thus, one share of Microsoft had the same value as 28/1276.56 = 1/45.591 units of the S&P index. Microsoft's previous quarterly dividend had been\$ 0.16/share, for an annual dividend yield of about 2.286\%. The dividend yield on the S&P index was about 1.85\%. Their historical volatilities during 2010 had been 26.51\% (Microsoft) and 17.52\% (the S&P index) with a return correlation of 0.8361. The volatility of the relative prices,  $\sigma$ , is therefore
 
 $$
-\begin{array}{l} \sigma = \sqrt {0 . 2 6 5 1 ^ {2} + 0 . 1 7 5 2 ^ {2} - 2 \times . 8 3 6 1 \times 0 . 2 6 5 1 \times 0 . 1 7 5 2} \\ = 0. 1 5 2 6 \\ \end{array}
+\begin{array}{l} \sigma = \sqrt{0.2651^{2} + 0.1752^{2} - 2 \times 0.8361 \times 0.2651 \times 0.1752} \\ = 0.1526 \\ \end{array}
 $$
 
 Suppose the option is issued at-the-money, so it permits exchanging one share of Microsoft for 1/45.591 units of the S&P index. The price of a 1-year at-the-money outperformance call would be
 
 $$
-\operatorname {B S C a l l} (\mathbb {S} 2 8. 0 0, 1 2 7 5. 5 6 / 4 5. 5 9 1, 0. 1 5 2 6, 0. 0 1 8 5, 1, 0. 0 2 2 8 6) = \mathbb {S} 1. 6 0 9 5
+\operatorname{BSCall}(\$28.00, 1275.56/45.591, 0.1526, 0.0185, 1, 0.02286) = \$1.6095
 $$
 
 Because the S&P index is the strike asset, we replace the risk-free rate with the dividend yield on the index. By contrast, assuming a risk-free rate of  $0.5\%$ , a plain 1-year at-the-money call on Microsoft would be worth
 
 $$
-\operatorname {B S C a l l} (\mathbb {S} 2 8. 0 0, \mathbb {S} 2 8. 0 0, 0. 2 6 5 1, 0. 0 0 5, 1, 0. 0 2 2 8 6) = \mathbb {S} 2. 6 1 9 4
+\operatorname{BSCall}(\$28.00, \$28.00, 0.2651, 0.005, 1, 0.02286) = \$2.6194
 $$
 
 The outperformance option is less expensive because the blended volatility is substantially less than Microsoft's volatility.
 
 Problem 19 asks you to think about the circumstances under which XYZ might hedge currency risk using exchange options.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 An exotic option is created by altering the contractual terms of a standard option. Exotic options permit hedging solutions tailored to specific problems and speculation tailored to particular views. Examples of exotic options include the following:
 
@@ -518,6 +509,6 @@ An exotic option is created by altering the contractual terms of a standard opti
 
 It is helpful in analyzing exotic options to compare them to standard options: In what ways does an exotic option resemble a standard option? How will its price compare to that of an ordinary option? When might someone use the exotic option instead of a standard option?
 
-# FURTHER READING
+## FURTHER READING
 
 General books covering exotic options include Briys and Bellala (1998), Haug (1998), Wilmott (1998), and Zhang (1998). Rubinstein (1991b) discusses exchange options, Rubinstein (1991a) discusses compound options, and Rubinstein and Reiner (1991a) discuss barrier options.

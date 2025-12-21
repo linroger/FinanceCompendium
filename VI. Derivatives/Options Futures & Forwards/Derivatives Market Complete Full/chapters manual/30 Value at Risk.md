@@ -401,7 +401,13 @@ Value of written straddle,  $V$ , for different stock prices,  $S$ . Values in t
 
 TABLE 2
 
-<table><tr><td>z</td><td>S($)</td><td>V ($)</td><td>N(z)</td><td>z</td><td>S ($)</td><td>V ($)</td><td>N(z)</td></tr><tr><td>-2.50</td><td>90.30</td><td>-985,970</td><td>0.006</td><td>1.70</td><td>107.55</td><td>-926,472</td><td>0.955</td></tr><tr><td>-2.45</td><td>90.49</td><td>-971,234</td><td>0.007</td><td>1.75</td><td>107.77</td><td>-942,639</td><td>0.960</td></tr><tr><td>-2.40</td><td>90.68</td><td>-956,663</td><td>0.008</td><td>1.80</td><td>107.99</td><td>-959,111</td><td>0.964</td></tr><tr><td>-2.35</td><td>90.87</td><td>-942,266</td><td>0.009</td><td>1.85</td><td>108.22</td><td>-975,880</td><td>0.968</td></tr><tr><td>-2.30</td><td>91.06</td><td>-928,050</td><td>0.011</td><td>1.90</td><td>108.44</td><td>-992,939</td><td>0.971</td></tr></table>
+| z | S($) | V ($) | N(z) | z | S ($) | V ($) | N(z) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| -2.50 | 90.30 | -985,970 | 0.006 | 1.70 | 107.55 | -926,472 | 0.955 |
+| -2.45 | 90.49 | -971,234 | 0.007 | 1.75 | 107.77 | -942,639 | 0.960 |
+| -2.40 | 90.68 | -956,663 | 0.008 | 1.80 | 107.99 | -959,111 | 0.964 |
+| -2.35 | 90.87 | -942,266 | 0.009 | 1.85 | 108.22 | -975,880 | 0.968 |
+| -2.30 | 91.06 | -928,050 | 0.011 | 1.90 | 108.44 | -992,939 | 0.971 |
 
 Example 7. Suppose that there are two stocks. Stock 1 is the same as the stock in Example 6. Stock 2 has the same parameters and a correlation of 0.40 with stock 1. Because the stocks have the same volatility and dividend yield, the initial option values are the same and the written straddle has an initial value of  $-\$ 685,776$ . Based on 100,000 simulated prices for both stocks, the portfolio has a  $95\%$  chance of having a value greater than  $1,135,421$ . Hence, the  $95\%$  value at risk is  $-\$ 1,135,421 - (-\$ 685,776) = -\$ 449,645$ . The histogram for this calculation is in Figure 5.
 

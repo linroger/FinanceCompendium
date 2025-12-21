@@ -524,8 +524,6 @@ $$
 $$ thereby providing a capital gain over the year of  \$7.94. If an investor had purchased the bond at\$ 974.23, the total return over the year would equal the coupon payment plus capital gain, or  $70 +$ 7.94 = \$77.94. This represents a rate of return of  \$77.94/974.23, or 8\%, exactly the rate of return currently available elsewhere in the market.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/be6c6e1e0ada59fadecf7e1dcd30b9df74595b2a650531c409cb594b083f9a85.jpg)
-
 # Concept Check 14.5
 
 At what price will the bond in Example 14.10 sell in yet another year, when only one year remains until maturity? Assume the yield to maturity remains at  $8\%$ . What is the rate of return to an investor who purchases the bond when its price is 982.17 and sells it one year hence?
@@ -1105,8 +1103,6 @@ iv. Par
 # E-INVESTMENTS EXERCISE
 
 Go to www.finra-markets.morningstar.com/bondcenter, click on the Bonds tab on the left side of the Web page, click on the Search tab, and enter a company ticker symbol (e.g., AAPL for Apple). When you submit your request, you will be given a list of all bonds issued by Apple. Using this procedure, find the ratings on bonds of at least 10 companies. Try to choose a sample with a wide range of ratings. Then go to a Web site such as money.msn.com or finance.yahoo.com and obtain for each firm as many of the financial ratios tabulated in Table 14.3 as you can find. Which ratios seem to best explain credit ratings?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/f7f27d6028586988ed684b0650c990f28e06801caf757dd2aeffe0b2991a92d5.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

@@ -1,26 +1,31 @@
 ---
 title: "Corporate Applications"
 parent_directory: Derivatives Market Complete Full/chapters manual
-formatted: 2025-12-21 02:25:00 AM
+formatted: 2025-12-21 02:31:30 AM
 formatter_model: claude-sonnet-4
 cli_tool: claude-code
 primary_tags:
-  - debt equity options
-  - corporate finance options
-  - convertible bonds
-  - warrants valuation
-  - callable bonds
+   - corporate applications
+   - compensation options
+   - callable convertible bonds
+   - debt equity options
+   - binomial valuation
 secondary_tags:
-  - option pricing theory
-  - credit risk modeling
-  - capital structure
-  - bankruptcy valuation
-  - dividend policy
-  - asset substitution
-  - risk neutral pricing
-  - binomial valuation
-  - conversion premium
-  - put call parity
+   - option pricing theory
+   - capital structure
+   - bankruptcy valuation
+   - convertible bonds
+   - warrants valuation
+   - callable bonds
+   - stock based compensation
+   - employee stock options
+   - option repricing
+   - reload options
+   - outperformance options
+   - merger collars
+   - risk neutral pricing
+   - put warrants
+   - SFAS 123R
 cssclasses: academia
 ---
 
@@ -38,14 +43,14 @@ Firms issue explicit derivatives, such as warrants. However, firms also issue im
 
 ### Debt and Equity as Options
 
-Consider a firm with the following very simple capital structure. The firm has non-dividend-paying equity outstanding, along with a single zero-coupon debt issue. Represent the time  $t$  values of the assets of the firm, the debt, and the equity as  $A_{t}$ ,  $B_{t}$ , and  $E_{t}$ . The debt matures at time  $T$  and has maturity value  $\overline{B}$ .
+Consider a firm with the following very simple capital structure. The firm has non-dividend-paying equity outstanding, along with a single zero-coupon debt issue. Represent the time $t$ values of the assets of the firm, the debt, and the equity as $A_{t}$, $B_{t}$, and $E_{t}$. The debt matures at time $T$ and has maturity value $\overline{B}$.
 
 We assume throughout this section that there are no taxes, bankruptcy costs, transaction costs, or other market imperfections.
 
 The value of the debt and equity at time $T$ will depend upon the value of the firm's assets. Equity-holders are the legal owners of the firm; in order for them to have unambiguous possession of the firm's assets, they must pay the debt-holders $\overline{B}$ at time $T$. If $A_{T} > \overline{B}$, equity-holders will pay $\overline{B}$ to the bondholders since equity will then be worth the value of the assets less the payment to bondholders, or $A_{T} - \overline{B} > 0$. However, if $A_{T} < \overline{B}$, equity-holders would have to inject additional funds in order to pay off the debt. In this case equity-holders would declare bankruptcy, permitting the bondholders to take possession of the assets. Therefore, the value of the equity at time $T$, $E_{T}$, is
 
 $$
-E _ {T} = \max  (0, A _ {T} - \bar {B}) \tag {1}
+E_{T} = \max(0, A_{T} - \bar{B}) \tag{1}
 $$
 
 This expression is the payoff to a call option with the assets of the firm as the underlying asset and  $\overline{B}$  as the strike price.
@@ -53,13 +58,13 @@ This expression is the payoff to a call option with the assets of the firm as th
 Because equity-holders control the firm, bondholders receive the smallest payment to which they are legally entitled. If the firm is bankrupt—i.e., if  $A_{T} < \overline{B}$ —the bondholders receive  $A_{T}$ . If the firm is solvent—i.e., if  $A_{T} \geq \overline{B}$ —the bondholders receive  $\overline{B}$ . Thus the value of the debt is
 
 $$
-B _ {T} = \min  \left(A _ {T}, \bar {B}\right) \tag {2}
+B_{t} = \min(B_{t}, K_{t}^{\mathrm{call}})
 $$
 
 This expression can be written
 
 $$
-\begin{array}{l} B _ {T} = A _ {T} + \min  (0, \bar {B} - A _ {T}) \tag {3} \\ = A _ {T} - \max  (0, A _ {T} - \bar {B}) \\ \end{array}
+\begin{array}{l} B_{T} = A_{T} + \min(0, \bar{B} - A_{T}) \tag{3} \\ = A_{T} - \max(0, A_{T} - \bar{B}) \\ \end{array}
 $$
 
 Equation (3) says that the bondholders own the firm but have written a call option to the equity-holders. This way of expressing the debt value explains where the call option in equation (1) comes from. Summing equations (1) and (2) gives the total value of the firm—equity plus debt—as  $A_{T}$ .
@@ -67,21 +72,21 @@ Equation (3) says that the bondholders own the firm but have written a call opti
 A different way to write equation (2) is the following:
 
 $$
-\begin{array}{l} B _ {T} = \bar {B} + \min  (0, A _ {T} - \bar {B}) \tag {4} \\ = \bar {B} - \max  (0, \bar {B} - A _ {T}) \\ \end{array}
+\begin{array}{l} B_{T} = \bar{B} + \min(0, A_{T} - \bar{B}) \tag{4} \\ = \bar{B} - \max(0, \bar{B} - A_{T}) \\ \end{array}
 $$
 
 The interpretation of equation (4) is that the bondholders own risk-free debt with a payoff equal to  $\overline{B}$  but have written a put option on the assets with strike price  $\overline{B}$ .
 
-Example 1. Suppose a firm has issued zero-coupon debt with a face value of \overline{B} = \6000. The maturity value of the equity is given by equation (1) and the maturity value of the debt is given by equation (4). The two payoffs are graphed in Figure 1 as a function of corporate assets at maturity.
+Example 1. Suppose a firm has issued zero-coupon debt with a face value of $\overline{B} = \$6000$. The maturity value of the equity is given by equation (1) and the maturity value of the debt is given by equation (4). The two payoffs are graphed in Figure 1 as a function of corporate assets at maturity.
 
 If we assume that the assets of the firm are lognormally distributed, then we can use the Black-Scholes model to value the payoffs to the firm's equity and debt, equations (1) and (4). For purposes of option pricing, the firm's assets are the underlying asset, the strike price is the promised payment on debt, $\overline{B}$, the volatility of the firm's assets, $\sigma$, is volatility, and the payout rate from the firm becomes the dividend yield. If the risk-free rate is $r$ and the debt matures at time $T$, we have
 
 $$
-E _ {t} = \operatorname {B S C a l l} \left(A _ {t}, \bar {B}, \sigma , r, T - t, \delta\right) \tag {5}
+C_{t} = \min(C_{t}, K_{t}^{\mathrm{call}}, \frac{n}{n + mq} A_{t})
 $$
 
 $$
-B _ {t} = A _ {t} - E _ {t} \tag {6}
+C_{t} = e^{-rh}[p^* C_{t+h}^{+} + (1 - p^*) C_{t+h}^{-} ]
 $$
 
 Assuming that the debt is zero-coupon, we can compute the yield to maturity on debt,  $\rho$ . By definition of the yield to maturity, we have  $B_{t} = \overline{B} e^{-\rho (T - t)}$ ; hence, we can solve for  $\rho$  to obtain
@@ -129,13 +134,13 @@ $$
 The value of the debt is
 
 $$
-\begin{array}{l} B _ {0} = \ 90 - \ 27.07 \\ = \$ 62.93 \\ \end{array}
+\begin{array}{l} B_{0} = 90 - 27.07 \\ = \$62.93 \\ \end{array}
 $$
 
-The debt-to-value ratio of this firm is therefore  $\62.93 / \$ 90 = 0.699 . The yield to maturity on debt is
+The debt-to-value ratio of this firm is therefore $62.93/\$90 = 0.699$. The yield to maturity on debt is
 
 $$
-\begin{array}{l} \rho = \frac {1}{5} \ln (1 0 0 / 6 2. 9 3) \\ = 0. 0 9 2 6 \\ \end{array}
+\begin{array}{l} \rho = \frac{1}{5} \ln(100/62.93) \\ = 0.0926 \\ \end{array}
 $$
 
 The debt yield of  $9.26\%$  is 326 basis points greater than the risk-free rate.
@@ -143,7 +148,7 @@ The debt yield of  $9.26\%$  is 326 basis points greater than the risk-free rate
 By put-call parity, the value of the debt can be written as the value of a \$100 risk-free bond less a put with a \$100 strike price:
 
 $$
-\begin{array}{l} B_{0} = 100e^{-0.06 \times 5} - \text{BSPut}(90, 100, 0.25, 0.06, 5, 0) \\ = 74.08 - 11.15 = \$62.93 \\ \end{array}
+\begin{array}{l} B_{0} = 100e^{-0.06 \times 5} - \operatorname{BSPut}(90, 100, 0.25, 0.06, 5, 0) \\ = 74.08 - 11.15 = \$62.93 \\ \end{array}
 $$
 
 The cost of an insurance contract on the bond is the cost of the put, 11.15. Stated differently, buying a bond for 62.93 plus an insurance contract on the bond for 11.15 creates a risk-free position costing 74.08.
@@ -154,10 +159,11 @@ Example 2 shows that, because of the possibility of bankruptcy, the yield to mat
 
 We can compute the expected return on both debt and equity using the concept of option elasticity. The elasticity of an option tells us the relationship between the expected return on the underlying asset and that on the option. Using the equation $\gamma - r = (\alpha - r) \times \Omega$, we can compute the expected return on equity as
 
-$$ r _ {E} = r + \left(r _ {A} - r\right) \times \Omega_ {E} \tag {8}
-$$ where  $r_A$  is the expected return on assets,  $r$  is the risk-free rate, and  $\Omega_E$  is the elasticity of the equity. Using equation (5), elasticity is
+$$ r_{E} = r + (r_{A} - r) \times \Omega_{E} \tag{8}
+$$ where $r_A$ is the expected return on assets, $r$ is the risk-free rate, and $\Omega_E$ is the elasticity of the equity. Using equation (5), elasticity is
 
-
+$$
+\Omega_{E} = \frac{A_{t} \Delta_{E}}{E_{t}} \tag{9}
 $$
 
 \Omega_ {E} = \frac {A _ {t} \Delta_ {E}}{E _ {t}} \tag {9}
@@ -166,13 +172,13 @@ $$ where  $\Delta_E$  is the option delta.
 
 We can compute the expected return on debt using the debt elasticity,  $\Omega_B$ :
 
-$$ r _ {B} = r + \left(r _ {A} - r\right) \times \Omega_ {B} \tag {10}
+$$ r_{B} = r + (r_{A} - r) \times \Omega_{B} \tag{10}
 $$
 
-The elasticity calculation is slightly more involved for debt than for equity. Since we compute debt value as  $B_{t} = A_{t} - E_{t}$ , the elasticity of debt is a weighted average of the asset and equity elasticities:
+The elasticity calculation is slightly more involved for debt than for equity. Since we compute debt value as $B_{t} = A_{t} - E_{t}$, the elasticity of debt is a weighted average of the asset and equity elasticities:
 
 $$
-\Omega_ {B} = \frac {A _ {t}}{A _ {t} - E _ {t}} \Omega_ {A} - \frac {E _ {t}}{A _ {t} - E _ {t}} \Omega_ {E} \tag {11}
+\Omega_{B} = \frac{A_{t}}{A_{t} - E_{t}} \Omega_{A} - \frac{E_{t}}{A_{t} - E_{t}} \Omega_{E} \tag{11}
 $$
 
 The elasticity of any asset with respect to itself is 1, so we have  $\Omega_A = 1$ .
@@ -196,7 +202,7 @@ This is the familiar Modigliani-Miller expression for the expected return on lev
 Example 3. Use the same assumptions as in Example 2, and suppose that the expected return on assets, $r_A$, is $10\%$. The equity delta is
 
 $$
-\operatorname{BSCallDelta}(90, 100, 0.25, 0.06, 5, 0) = 0.735
+\operatorname{BSCall}(\$100, \$100, 0.2368, 0.018, 4, 0) = \$21.75
 $$
 
 The debt delta is $1 - 0.735 = 0.265$. Thus, if the asset value increases by \$1, the value of the equity increases by \$0.735 and the value of the debt increases by 0.265.
@@ -224,7 +230,7 @@ The expected return on debt is therefore
 $$
 \begin{array}{l} r_{B} = 0.06 + (0.1 - 0.06) \times 0.3793 \\ = 0.0752 \\ \end{array}
 $$
-\operatorname {B S C a l l D e l t a} (9 0, 1 0 0, 0. 2 5, 0. 0 6, 5, 0) = 0. 7 3 5
+\operatorname{BSCall}(\$100, \$100, 0.4, 0.06, 10, 0.01) = \$54.43
 $$
 
 The debt delta is  $1 - 0.735 = 0.265$ . Thus, if the asset value increases by \$1, the value of the equity increases by \$0.735 and the value of the debt increases by 0.265.
@@ -238,13 +244,13 @@ $$
 The expected return on equity is therefore
 
 $$
-\begin{array}{l} r _ {E} = 0. 0 6 + (0. 1 - 0. 0 6) \times 2. 4 4 3 \\ = 0. 1 5 7 7 \\ \end{array}
+\hat{\sigma} = \sqrt{0.25^{2} + 0.16^{2} - 2 \times 0.4 \times 0.25 \times 0.16} = 0.2368
 $$
 
 Using equation (11), the debt elasticity is
 
 $$
-\frac {9 0}{9 0 - 2 7 . 0 7} \times 1 - \frac {2 7 . 0 7}{9 0 - 2 7 . 0 7} \times 2. 4 4 3 = 0. 3 7 9 3
+(1 - 0.05)^{3} [0.5 \times 3\text{ year option} + (1 - 0.05) \times 0.5 \times 4\text{ year option}] \tag{25}
 $$
 
 The expected return on debt is therefore
@@ -342,7 +348,7 @@ Table 1 summarizes the value, yield to maturity, and expected return of each tra
 The expected returns in Table 1 are computed using option elasticities. To illustrate the calculation, consider the junior bond, which is created by buying a 60-strike call on the assets of the firm and selling a 100-strike call. The two option elasticities are 1.7875 (60-strike) and 2.4432 (100-strike). Using the fact that the elasticity of a portfolio is a weighted average of the elasticities of the portfolio components, the elasticity of the junior bond is
 
 $$
-\frac {4 7 . 2 5}{4 7 . 2 5 - 2 7 . 0 7} \times 1. 7 8 7 5 - \frac {2 7 . 0 7}{4 7 . 2 5 - 2 7 . 0 7} \times 2. 4 4 3 2 = 0. 9 0 7 7
+\$79.37 + \frac{100}{179.37} e^{-0.08 \times 2} (0.395 \times \$142.36 + 0.605 \times \$0) = \$106.09 \tag{27}
 $$
 
 The expected return on the junior debt is therefore
@@ -350,7 +356,7 @@ The expected return on the junior debt is therefore
 $$ r _ {\text {j u n i o r}} = 0. 0 6 + (0. 1 0 - 0. 0 6) \times 0. 9 0 7 7 = 0. 0 9 6 3
 $$
 
-TABLEI
+**TABLE I**
 
 Market values, yields, and expected returns on three debt tranches.
 
@@ -358,7 +364,7 @@ Market values, yields, and expected returns on three debt tranches.
 
 Table 1 makes it clear why debt cannot be treated as a single homogeneous class when firms with complex capital structures enter bankruptcy. The interests of the most junior debt-holders may well resemble the interests of equity-holders more than those of senior debt-holders.
 
-# Warrants
+## Warrants
 
 Firms sometimes issue options explicitly. If a firm issues a call option on its own stock, it is known as a warrant. (The term "warrant" is used here to denote options on a firm issued by the firm itself, though in practice the term includes traded options issued in fixed supply.) When a warrant is exercised, the warrant-holder pays the firm the strike price,  $K$ , and receives a share worth more than  $K$  (or else the holder would not have exercised the warrant). Thus, the act of exercise is dilutive to other shareholders in the sense that the firm has sold a share for less than it is worth. Of course, existing shareholders are aware of warrants outstanding and anticipate this potential exercise. The problem is how to value the warrant, and how to value the equity given the existence of warrants. This valuation problem does not arise with ordinary options, because they are traded by third parties and their exercise has no effect on the firm.
 
@@ -367,7 +373,7 @@ To see how to value a warrant, suppose the firm has  $n$  shares outstanding, an
 At expiration, if warrant-holders exercise the warrants, they pay  $K$  per share and receive  $m$  shares. After the warrants are exercised, the firm has assets worth  $A + mK$ ; hence, exercised warrants are worth
 
 $$
-\frac {A + m K}{n + m} - K = \frac {n}{n + m} \left(\frac {A}{n} - K\right) \tag {17}
+\max\left[ \min(m M, A_{5}), \frac{m q}{n + m q} A_{5} \right]
 $$
 
 The expression  $A / n$  is the value of a share of equity in the absence of warrants. Thus, equation (17) suggests that we can value a warrant in two steps. First, we compute an option price with  $A / n$  as the underlying asset and  $K$  as the strike price, ignoring dilution. Second, we multiply the result by a dilution correction factor,  $n / (n + m)$ . This second step accounts for the fact that warrant exercise changes the number of shares outstanding, with the new shares issued at a "below-market" price of  $K$ . The warrant can be valued by using the Black-Scholes formula:
@@ -376,7 +382,7 @@ $$
 \frac {n}{n + m} \operatorname {B S C a l l} \left(\frac {A}{n}, K, \sigma , r, t, \delta\right) \tag {18}
 $$
 
-# Convertible Bonds
+## Convertible Bonds
 
 In addition to issuing warrants directly, firms can issue warrants embedded in bonds, i.e., convertible bonds. A simple convertible bond resembles the equity-linked notes, except that the bond is convertible into the company's own shares rather than the shares of a third party. The call option in the bond gives the bondholder the right to surrender the bond's maturity payment,  $M$ , in exchange for  $q$  shares. The valuation of a convertible bond entails valuing both debt subject to default and a warrant.
 
@@ -415,7 +421,7 @@ $$
 
 This version of the convertible payoff can be interpreted as follows: Shareholders give bondholders the least they can  $(\min [M, A_T / m])$ ; if it is optimal to do so, convertible holders can then exchange this amount for the conversion value, which is their proportionate share of the assets  $(mq / [n + mq] \times A_T)$ .
 
-# FIGURE 3
+**FIGURE 3**
 
 Maturity payoffs for the aggregate value of an ordinary bond and a convertible bond, using the parameters in Example 4.
 
@@ -459,7 +465,7 @@ In practice, valuation of convertible bonds is more complicated than in this exa
 
 It is possible to value convertible bonds incorporating early exercise, dividends, and callability. It is also possible to incorporate interest rate risk using various techniques.
 
-# Callable Bonds
+## Callable Bonds
 
 Many bonds are callable, meaning that, prior to maturity, the company has the right to give bondholders a predetermined payment in exchange for the bonds. The idea underlying a callable bond is that the bond issuer can buy the bond back at a relatively cheap price if it becomes expensive. A bond can become expensive because interest rates have fallen, in which case the issuer would like to exchange the existing bonds for new bonds carrying a lower coupon rate. A bond can also become expensive if the market perceives that the company is less likely to default. Again, in this case the company would like to exchange the existing bond for a newly issued bond with a lower default premium. A firm can always buy bonds back at a market price, but there is generally no advantage to doing so. Callability permits the company to buy bonds back at a relatively low price. Of course the company pays for this right by receiving a lower price when it issues the bond.
 
@@ -498,7 +504,7 @@ Shareholders wish to minimize the value of the bonds; hence, their value is
 
 $$
 
-\begin{array}{l} B _ {t} = \min  \left[ \text {L e a v e t h e b o n d o u t s t a n d i n g , c a l l} \right] \\ = \min  \left[ e ^ {- r h} \left(p B _ {t + h} ^ {+} + (1 - p) B _ {t + h} ^ {-}\right), K _ {t} ^ {\text {c a l l}} \right] \tag {22} \\ \end{array}
+\begin{array}{l} B_{t} = \min\left[ \text{Leave the bond outstanding, call} \right] \\ = \min\left[ e^{-rh}(p B_{t+h}^{+} + (1-p) B_{t+h}^{-}), K_{t}^{\text{call}} \right] \tag{22} \\ \end{array}
 
 $$
 
@@ -528,7 +534,7 @@ $B_{t}$  is the total value of the bonds.
 
 When the bond is both convertible and callable, there is a tug-of-war between the firm and the bond investors. We can imagine the bond value being determined as follows: The bondholders decide whether to hold or convert (maximizing the bond value). Given this decision, the firm decides whether to call (minimizing the bond value). If the firm calls, bondholders revisit their decision about whether or not to convert (again maximizing the bond value, conditional upon the behavior of the firm). This chain of reasoning implies the
 
-# FIGURE 4
+**FIGURE 4**
 
 Binomial valuation of a callable nonconvertible and a callable convertible bond. The assumptions are the same as those in Example 5. The binomial tree for assets in panel (a) is generated using a forward tree with  $u = 1.6279$ ,  $d = 0.7503$ ,  $p^* = 0.40444$ ,  $T = 5$ , and three binomial time steps (hence the time between binomial periods is  $h = 5/3 = 1.67$ ). In each case there are six bonds outstanding with a total maturity value of \$6000. Convertible bonds convert into 50 shares. The yield for each bond is computed as  $\ln(6000 / B_0) / 5$ , where  $B_0$  is the time 0 value of the six bonds. The price is  $B_0 / 6$ . The call schedule in panel (c) is the price of a zero-coupon bond maturing in year 5 and yielding 6.75\%. Callable bonds are call-protected until year 1.67. Prices in italics denote calls of the bond; prices in bold denote conversions, and prices in bold italics denote conversions in response to a call.
 
@@ -543,7 +549,7 @@ $$
 
 As you would expect, the ability to call a convertible bond lowers its price, raising its yield from  $2.39\%$  to  $4.01\%$ . By comparing panels (e) and (f) in Figure 4, you can see why this happens. In year 1.67 at the top node, it is optimal to wait to convert if the bond is noncallable. This gives a bond value in panel (e) of  $7578.78$ . However, if the bond is callable using the call schedule in panel (c), the firm will call at the top node in year 1.67. In response, the bondholders convert, giving them 50 shares worth  $\$6976.66$ . The bond is worth less because shareholders cannot delay the conversion. The firm does not call at the lower node in year 1.67 because the credit quality of the bond deteriorates at that node.
 
-# Bond Valuation Based on the Stock Price
+## Bond Valuation Based on the Stock Price
 
 The binomial examples in Figure 4 assume that the assets of the firm follow a binomial process and use the resulting tree to value a convertible bond. This approach becomes complicated when the firm's capital structure contains multiple bonds and convertible securities.
 
@@ -551,7 +557,7 @@ An alternative approach, often used in practice, is to base valuation of a conve
 
 Tsiveriotis and Fernandes (1998) suggest valuing separately the bond income and the stock income from an optimally managed convertible bond. Their procedure accounts for default by discounting bond income at a rate greater than the risk-free rate, while the component of the bond income related to conversion into stock is discounted at the risk-free rate.
 
-# Other Bond Features
+## Other Bond Features
 
 It is possible to issue bonds that are considerably more complex than those we have considered. Conversion and call schedules can vary with time in complicated ways. Bonds can be puttable, meaning that the investor can sell them back to the firm at a predetermined price. Bonds can pay contingent interest, meaning that if a particular event occurs, the interest rate on the bond changes.
 
@@ -563,22 +569,22 @@ In recent years firms have issued contingent convertible bonds, which are securi
 
 General Motors in 2004 would have had to reduce earnings by  $15\%$  if it altered its accounting for the 8 billion in contingent convertibles that it had issued. In the end, GM altered the bonds to permit settlement in cash rather than stock, and avoided the earnings reduction.[7]
 
-# Put Warrants
+## Put Warrants
 
 Many companies that had share repurchase programs during the 1990s also sold put options on their own stock. A commonly stated rationale for issuing such put warrants (see, for example, Thatcher et al., 1994) is that the put sales are a hedge against the cost of repurchasing shares. Intel, Microsoft, and Dell, for example, all sold significant numbers of puts, with Microsoft alone earning well over 1 billion in put premiums during the 1990s. Here is a quote from Microsoft's 1999 10-K describing the put program:
 
-Microsoft enhances its repurchase program by selling put warrants. . . . On June 30, 1999, 163 million warrants were outstanding with strike prices ranging from  $59 to$ 65 per share. The put warrants expire between September 1999 and March 2002. The outstanding put warrants permit a net-share settlement at the Company's option and do not result in a put warrant liability on the balance sheet.
+Microsoft enhances its repurchase program by selling put warrants. . . . On June 30, 1999, 163 million warrants were outstanding with strike prices ranging from $59 to $65 per share. The put warrants expire between September 1999 and March 2002. The outstanding put warrants permit a net-share settlement at the Company's option and do not result in a put warrant liability on the balance sheet.
 
 The sale of a put allows the firms to implicitly buy and sell their own shares in response to price changes. Dealers purchased the puts written by firms such as Microsoft, Intel, and Dell. The dealers reportedly held the puts and delta-hedged the position, thus reducing their risk. Moreover, the transactions, including the dealer's hedging trades, occurred without any public announcement. In effect, put-selling firms transacted with shareholders using the dealer as a conduit. When the share price rose, the delta of the dealer's purchased put, which was negative, increased toward zero and the dealer would sell the shares it had purchased to hedge the put. When the share price fell, delta would have decreased to negative one and the dealer would then have bought additional shares to hedge its position. Thus, the dealer, acting on behalf of the firm, bought as the share price fell and sold as the share price rose.
 
 
 Problem 19 asks you to examine a binomial example of this transaction, showing first that the firm could accomplish the same end as put writing by transacting directly in its shares. Second, the problem asks you to show how the counterparty dealer delta-hedges the transaction.
 
-# 2. COMPENSATION OPTIONS
+## 2. COMPENSATION OPTIONS
 
 Many firms pay executives and other employees with call options on the company's own stock. The use of such compensation options is common and significant in many companies, but has declined since the early 2000s.
 
-# The Use of Compensation Options
+### The Use of Compensation Options
 
 Microsoft provides an illustration of the evolution in the use of option grants. The firm estimated in its 1999 annual report (10-K) that its 78 million option grants that year were worth about \$1.6 billion. This was approximately \$52,000 per employee (Microsoft had 31,000 employees). Microsoft also reported that the June 30, 1999, market value of total outstanding options (on 766 million shares, with 5 billion shares outstanding) was \$69 billion, or \$2 million per employee. In 2004, Microsoft largely switched from the use of stock options to share grants; see Box 2.
 
@@ -590,7 +596,7 @@ What caused the decline in the use of compensation options? One likely factor is
 
 A second important factor is that both the Financial Accounting Standards Board (FASB) in the United States and the International Accounting Standards Board (IASB) announced that they would require companies to recognize employee option grants as a compensation expense. Throughout the 1990s most companies had treated grants of
 
-# Box 2: Compensation Options at Microsoft
+### Box 2: Compensation Options at Microsoft
 
 In July 2003, the Wall Street Journal proclaimed: "The golden age of stock options is over." (See "Microsoft Ushers Out the Era of Options," by Robert A. Guth and Joann S. Lublin, Wall Street Journal, July 14, 2003.) Microsoft stock had fallen and many employees had out-of-the-money options. CEO Steve Ballmer said employees had "angst" about the low stock price, and Microsoft's CFO said that employees could no longer expect to become wealthy from stock options:
 
@@ -617,7 +623,7 @@ A company might grant options that vest after 3 years and expire after 7 years. 
 
 Compensation options are generally granted at-the-money, so both the reported value and the value to the recipient depend on the share price at the grant date. An academic researcher discovered in the early 2000s that numerous companies had retrospectively chosen grant dates to make valuable options appear less valuable at grant. Box 3 discusses the resulting uproar.
 
-# Valuation of Compensation Options
+## Valuation of Compensation Options
 
 The valuation of compensation options is complicated by the fact that there are many special considerations in valuing them:
 
@@ -631,7 +637,7 @@ Such considerations make it harder to value compensation options than short-live
 
 Whose Valuation. Compensation options cannot be traded. An employee who cannot sell options will typically discount their value. As a result, you can expect that firms and
 
-# BOX 3: Option Backdating
+### BOX 3: Option Backdating
 
 Executives receive stock option awards on a specific date. The options are typically granted at-the-money, so the stock price on this date determines the strike price of the options. Lie (2005) (following an earlier study by Yermack, 1997) documented a remarkable fact: Between 1992 and 2002, abnormal company stock returns were on average negative before the date of option grants and positive thereafter. This finding catalyzed both news coverage and regulatory investigations. Ultimately, investigators found convincing evidence that over 100 companies had systematically selected the low stock price of the quarter when granting options at the end of the quarter. This practice was called option backdating.
 
@@ -674,7 +680,7 @@ In this expression, each option price is weighted by the fraction of employees w
 
 An alternative approach to expensing options was suggested by Bulow and Shoven (2005). A discussion of their approach is in Appendix A.
 
-# Repricing of Compensation Options
+## Repricing of Compensation Options
 
 If a company is heavily dependent on compensation options, a decline in the stock price can cause morale problems for employees who are hoping their options will be valuable. The delta of a deep out-of-the-money option is low, so that subsequent stock price changes will not have much effect on the value of employee options. As a result, companies will sometimes substitute at-the-money options for already-granted options that have become out-of-the-money. Reducing the exercise price of compensation options in response to a decline in the stock price is called option repricing. Many companies have repriced, including Oracle, Netscape Communications, Apple Computer, Bay Networks, Best Buy, and Oxford Health Plans during the 1990s, and Google, Intel, and Starbucks in 2009.[17] If the repricing increases the value of the options, the company is required to record an expense for the increase in value. To avoid recording an expense, Starbucks granted employees fewer at-the-money options than the number of retired out-of-the-money options. Google, on the other hand, exchanged options one-for-one and recognized an expense. See Box 4 for a discussion of Google's approach to compensation options.
 
@@ -699,14 +705,12 @@ $$
 The value of an otherwise equivalent option that will be repriced at 60 is
 
 $$
-
-\begin{array}{l} \text {C a l l D o w n O u t} (\mathbb {S} 1 0 0, \mathbb {S} 1 0 0, 0. 4, 0. 0 6, 1 0, 0. 0 1, 6 0) \\ + \text {C a l l D o w n I n} (\mathbb {S} 1 0 0, \mathbb {S} 6 0, 0. 4, 0. 0 6, 1 0, 0. 0 1, 6 0) = \mathbb {S} 4 1. 1 1 + \mathbb {S} 2 0. 3 0 = \mathbb {S} 6 1. 4 1 \\ \end{array}
-
+\begin{array}{l} 0.5357 \times [S e^{-\delta(T-t)} - \operatorname{BSCall}(S, 112, \sigma, r, T-t, \delta)] \tag{28} \\ + 0.4348 \times \operatorname{BSCall}(S, 138, \sigma, r, T-t, \delta) + \operatorname{PV}_{t,T}(\text{TRW Dividends}) \\ \end{array}
 $$
 
 Thus, the possibility of repricing increases the value of the option by  $13\%$ .
 
-# BOX 4: Google and Compensation Options
+### BOX 4: Google and Compensation Options
 
 Microsoft renounced compensation options in 2003, but Google and other companies continue to use them. In late 2008, Google employees lost considerable value on their compensation options when Google's stock tumbled almost  $50\%$ . Google responded in early 2009 by repricing those options, permitting employees to exchange existing high-strike price options for new at-the-money options with additional vesting time. Google anticipated a 460 million expense as a result of employees exchanging less valuable for more valuable options.
 
@@ -715,7 +719,7 @@ Another issue with options is that when they vest, employees typically have to c
 
 Google's TSO program is similar to the one-time option purchase program Microsoft offered when it eliminated options (see Box 2). One ramification of the TSO program for Google is that tradable options will have a longer life than nontradable options—employees who would have exercised options upon vesting will sell them instead, extending the life by 2 years. This increase in the expected life of the options increases their theoretical value when they are granted. Google's reported option compensation expense will therefore be greater as a result of the TSO program.
 
-# Reload Options
+## Reload Options
 
 A reload option gives the option-holder new call options when existing call options are exercised. The idea is that the option-holder uses shares to pay for exercise, and new at-the-money options are granted for each share given up in this fashion. This type of option is best explained with an example. Assume that a 10-year option grant for 1000 shares with a strike price of \$100 permits a single reload. Suppose the employee exercises the option when the stock price is \$250, with 4 years of option life remaining. The exercise price requires a payment of $100 × 1000 = $100,000. This amount can be paid in cash or by surrendering $100,000/$250 = 400 shares. An executive paying the strike price by surrendering shares receives 400 new at-the-money options with 4 years to expiration.
 
@@ -723,7 +727,7 @@ Arnason and Jagannathan (1994) pointed out that there are two important characte
 
 Reload options might seem esoteric, but Sally et al. (1999) show that 1135 reload options were granted, in 1997, out of a total of 9673 grants reported in the S&P Execucomp
 
-# FIGURE 5
+**FIGURE 5**
 
 Binomial valuation of ordinary option (binomial tree on the left) and reload option (binomial tree on the right). The calculations assume that  $S = \100$ ,  $K = \$ 100 ,  $\sigma = 0.3$ ,  $r = 0.08$ ,  $\delta = 0$ ,  $T = 4$ ,  $h = 2\$ , and that there is a single reload. Stock prices and option prices are shown at each node, with the reload value in italics. A reload occurs at the boxed stock price. In this example, we have  $u = 1.794$ ,  $d = 0.768$ , and  $p = 0.395$ .
 
@@ -749,7 +753,7 @@ From Figure 5, the value of the reload option is  $42.25, 10.5\%$  greater than 
 
 In general, we can compute the value of the reload at every node by solving another binomial pricing problem valuing the appropriate number of newly issued options. The option-holder reloads if doing so is more valuable than not doing so, just like the exercise decision for an American option.[19]
 
-# Level 3 Communications
+## Level 3 Communications
 
 Level 3 Communications was one of the first companies to deduct the cost of compensation options in computing earnings. However, Level 3 also granted unusually complex and valuable options and did not take this complexity and extra value into account when expensing. In a June 1998 proxy statement, Level 3 described its outperform stock options (OSO), granted to employees. This is how they are described in the proxy:
 
@@ -773,16 +777,24 @@ $$
 
 $$
 
-The (nonannualized) returns on Level 3 and the S&P 500 index are  $85\%$  and  $50\%$ . The outperform percentage is
+The (nonannualized) returns on Level 3 and the S&P 500 index are $85\%$ and $50\%$. The outperform percentage is
 
 $$
-1.85 ^ {0.25} - 1.50 ^ {0.25} = 5.957 \%
+1.85^{0.25} - 1.50^{0.25} = 5.957\%
 $$
 
 The multiplier is therefore
 
 $$
-0. 0 5 9 5 7 \times \frac {8}{1 1} \times 1 0 0 = 4. 3 3 2
+0.05957 \times \frac{8}{11} \times 100 = 4.332
+$$
+
+The payment on the option is
+
+$$
+(\$185 - \$100 \times \frac{1950}{1300}) \times 4.332 = \$151.64
+$$
+\$185 - \$100 \times \frac{1950}{1300} = \$35
 $$
 
 The payment on the option is
@@ -818,10 +830,7 @@ $$ where  $\rho$  is the correlation between Level 3 and S&P 500 returns and  $r
 substitutions. The "blended" volatility,  $\hat{\sigma}$ , can be greater or less than  $\sigma_{\mathrm{Level}3}$ . In recent years,  $\delta_{S\& P}$  has been less than  $r$ . The calculation Level 3 makes for the blended volatility is
 
 $$
-\begin{array}{l} \hat {\sigma} = \sqrt {0 . 2 5 ^ {2} + 0 . 1 6 ^ {2} - 2 \times 0 . 4 \times 0 . 2 5 \times 0 . 1 6} \\ = 0. 2 3 6 8 \\ \end{array}
-$$ which is rounded to  $24\%$ . The price of the outperformance option is therefore
-
-
+\begin{array}{l} B_{t} = \max\{\min[\max(\text{Continue to Hold}, \text{Convert}), \text{Call}], \text{Convert}\} \\ = \max\left\{\min\left[ \max\left(\underbrace{e^{-rh}[p B_{t+h}^{+} + (1-p) B_{t+h}^{-}]}_{\text{Hold}}, \underbrace{\frac{m q}{n + m q} A_{t}}_{\text{Convert}}\right), \underbrace{K_{t}^{\text{call}}}_{\text{Call}} \right], \right. \\ \left. \underbrace{\frac{m q}{n + m q} A_{t}}_{\text{Convert}} \right\} \tag{24} \\ \end{array}
 $$
 
 \operatorname {B S C a l l} (\mathbb {S} 1 0 0, \mathbb {S} 1 0 0, 0. 2 3 6 8, 0. 0 1 8, 4, 0) = \mathbb {S} 2 1. 7 5
@@ -840,7 +849,7 @@ Table 2 shows that, using the gap option approximation, the value of the compens
 
 Finally, it is interesting to note that it may be rational to exercise the Level 3 option early even in the absence of dividends. Suppose the option is close to expiration and the outperformance percentage is slightly above  $11\%$ . If the holder exercises, the multiplier is 8. If the share price rises further, the multiplier remains 8. However, if the share price falls, the multiplier may fall to 7; by waiting to exercise, the option-holder can lose options. This extra loss from a share price decline can provide an incentive to exercise early. For very high prices, there is no incentive to exercise early since the multiplier remains constant. For low prices, the potential increase in the multiplier offsets the potential reduction in the multiplier. Thus, early exercise is potentially optimal only for intermediate prices and close to expiration.
 
-# FIGURE 6
+**FIGURE 6**
 
 Payoff to Level 3 compensation option with multiplier, as a function of relative return on Level 3 stock and the S&P 500 index. "Approximate payoff" is the result of buying a strip of eight gap options, designed to approximate the exact payoff.
 
@@ -848,11 +857,11 @@ Payoff to Level 3 compensation option with multiplier, as a function of relative
 
 Valuation of Level 3 option approximated as sum of gap options. For each row, the option value is computed as a gap call option (C(S,K_1,K_2,\sigma ,r,T,\delta) = Se^{-\delta T}N(d_1) - K_1e^{-rT}N(d_2)) where S = \100 K_{1} = \100 K_{2} = \100\alpha r = 0.018 \sigma = 0.2368 T = 4 and \delta = 0
 
-TABLE 2
+**TABLE 2**
 
 <table><tr><td>Multiplier</td><td>Outperformance (α)</td><td>Gap Option Value ($)</td></tr><tr><td>1</td><td>1.056</td><td>21.63</td></tr><tr><td>2</td><td>1.115</td><td>21.28</td></tr><tr><td>3</td><td>1.175</td><td>20.72</td></tr><tr><td>4</td><td>1.239</td><td>19.96</td></tr><tr><td>5</td><td>1.305</td><td>19.04</td></tr><tr><td>6</td><td>1.373</td><td>17.98</td></tr><tr><td>7</td><td>1.444</td><td>16.81</td></tr><tr><td>8</td><td>1.518</td><td>15.58</td></tr><tr><td>Total</td><td></td><td>153.00</td></tr></table>
 
-# 3. THE USE OF COLLARS IN ACQUISITIONS
+## 3. THE USE OF COLLARS IN ACQUISITIONS
 
 A common financial transaction is for one firm (the acquirer) to buy another (the target) by buying its common stock. The acquirer can pay for these shares with cash or by exchanging its own shares for target firm shares. Collarlike structures are frequently used in these transactions.
 
@@ -865,11 +874,11 @@ Suppose that under the purchase agreement, each target share will be exchanged f
 
 Figure 7 illustrates these four types of acquisition offers. As this list shows, it is possible to modify the extent to which the target bears the risk of a change in the stock price of the acquirer. More complicated structures are also possible.
 
-# The Northrop Grumman—TRW merger
+### The Northrop Grumman—TRW merger
 
 Northrop Grumman's 2002 bid for TRW is an example of a merger offer with a collar. In July 2002, Northrop Grumman and TRW agreed that Northrop would pay 7.8 billion for TRW. News headlines stated that Northrop offered " 60 per share," but the offer actually resembled a collar. The number of Northrop Grumman shares to be exchanged for each TRW share would be determined by dividing 60 by the average Northrop Grumman price over the 5 days preceding the close of the merger, with the exchange ratio to be no less than 0.4348 (60/138) and no more than 0.5357 (60/112). Thus, if the price of Northrop Grumman at the merger closing was below 112, TRW shareholders would receive 0.5357 shares. If the price was above 138, TRW shareholders would receive 0.4348 shares. If the price, S, was in between \$112 and \$138, TRW shareholders would receive 60/S, which
 
-# FIGURE 7
+**FIGURE 7**
 
 Four acquisition offer types: (a) a fixed stock offer of one share for one share; (b) a floating stock offer for  \$50 worth of acquirer shares; (c) and (d) fixed and floating collar offers with strike prices of\$ 40 and 60.
 
@@ -887,12 +896,12 @@ Four acquisition offer types: (a) a fixed stock offer of one share for one share
 
 
 $$
-0. 5 3 5 7 \times \$ 9 6. 5 0 = \$ 5 1. 6 9
+0.5357 \times \$96.50 = \$51.69
 $$
 
 How would TRW shareholders value the Northrop offer? Suppose that TRW shareholders were certain the merger would occur at time  $T$ , but uncertain about the future Northrop Grumman stock price,  $S$ . TRW shareholders could then value the offer by noting that the offer is equivalent to buying 0.5357 shares of Northrop Grumman, selling 0.5357 112-strike calls, and buying 0.4348 138-strike calls. In addition, the TRW shareholders would not receive Northrop dividends paid prior to closing and would continue to receive
 
-# FIGURE 8
+**FIGURE 8**
 
 Value of Northrop Grumman offer for TRW at closing of the merger and with  $4\frac{1}{2}$  months until closing.
 
@@ -912,7 +921,7 @@ Figure 8 graphs the value of the Northrop Grumman offer for one TRW share, as a 
 
 Figure 9 depicts equation (28) using the historical Northrop Grumman stock price from July to December 2002, assuming that the offer would close on December 11.[24] The theoretical value of a TRW share under the terms of the offer is consistently greater than the market price of a TRW share. This is what we would expect to see, since in order to induce the target company to accept an offer, the acquirer generally has to offer a price greater than the perceived value of the target as a stand-alone company. Since there is some chance the merger might not occur, the target share price is below the value of the offer. The difference between the value of a TRW share and the theoretical value of the offer declined toward zero as December approached. Had the merger been cancelled for some reason, the value of a TRW share would have diverged from the value under the terms of the offer.
 
-# FIGURE 9
+**FIGURE 9**
 
 Panel (a) graphs equation (27) and the TRW stock price from July to December. Panel (b) graphs the absolute difference between the two lines in panel (a).
 
@@ -924,7 +933,7 @@ Panel (a) graphs equation (27) and the TRW stock price from July to December. Pa
 
 Risk arbitrageurs take positions in the two stocks in order to speculate on the success or failure of the merger.[25] Equation (27) tells us that the offer is equivalent to a portfolio of Northrop shares and options. Thus, using the option replication technique, we can hold Northrop shares and borrowing or lending to synthetically create a position equivalent to the offer. Because the price of TRW is less than the offer value, an arbitrageur speculating that the merger would succeed could then take a long position in TRW shares and a short position in the offer, short-selling delta shares of Northrop. If the offer succeeds, the position earns the difference in price depicted in Figure 9; if the offer fails, the difference should diverge and the arbitrageur would lose money.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 Three corporate contexts in which options appear, either explicitly or implicitly, are capital structure (debt, equity, and warrants), compensation, and acquisitions.
 
@@ -934,7 +943,7 @@ Compensation options are an explicit use of options by corporations. They exhibi
 
 Offers by one firm to purchase another sometimes have embedded collars. The Grumman offer to buy TRW was an example of this.
 
-# FURTHER READING
+## FURTHER READING
 
 The idea that debt and equity are options was first pointed out by Black and Scholes (1973). Merton (1974, 1977) analyzed the pricing of perpetual debt and demonstrated that the Modigliani-Miller theorem holds even with (costless) bankruptcy. Two principal applications of this idea are the determination of the fair yield on risky debt and the assessment of bankruptcy probabilities. Galai and Masulis (1976) derived the link between the return on assets and the return on the firm's stock.
 

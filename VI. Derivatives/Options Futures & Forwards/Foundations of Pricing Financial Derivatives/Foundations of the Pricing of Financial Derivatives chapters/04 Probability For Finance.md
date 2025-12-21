@@ -1,11 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Elementary Review of Probability for Finance"
+parent_directory: Foundations of Pricing Financial Derivatives/Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:21:00 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - probability theory
+  - statistical distributions
+  - expectation variance
+  - risk measures
+secondary_tags:
+  - discrete random variables
+  - continuous distributions
+  - conditional probability
+  - joint probability
+  - marginal probability
+  - binomial distribution
+  - normal distribution
+  - moment generating functions
+  - characteristic functions
 cssclasses: academia
-title: Elementary Review of Probability for Finance
-linter-yaml-title-alias: Elementary Review of Probability for Finance
 ---
 
 # Elementary Review of Probability for Finance
@@ -14,9 +28,38 @@ People with an interest in finance are frequently required to apply concepts fro
 
 This chapter provides a brief introductory review of the key foundational concepts in probability that have proven useful in financial analysis. More depth is found in almost any good book on probability.<sup>1</sup>
 
-# 4.1 MARGINAL, CONDITIONAL, AND JOINT PROBABILITIES
+## 4.1 Marginal, Conditional, and Joint Probabilities
 
-Probability is a measure, meaning a numerical description or quantification, of the relative frequency of an event. The probability of observing heads in one toss of a fair coin is obviously  $1/2$ . There are two possibilities and one fits the definition of the desired event. Technically this concept is called the marginal probability, which distinguishes it from the conditional probability, which is the probability that something will happen, given that something else has already happened. Finally, we have the concept of joint probability, which is the probability that two or more events will happen.
+Probability is a measure, meaning a numerical description or quantification, of the relative frequency of an event. The probability of observing heads in one toss of a fair coin is obviously $1/2$. There are two possibilities and one fits the definition of the desired event. Technically this concept is called the marginal probability, which distinguishes it from the conditional probability, which is the probability that something will happen, given that something else has already happened. Finally, we have the concept of joint probability, which is the probability that two or more events will happen.
+
+```d2
+direction: right
+
+probabilities: Probability Types {
+  shape: hexagon
+}
+
+marginal: Marginal Probability {
+  shape: rectangle
+}
+
+conditional: Conditional Probability {
+  shape: rectangle
+}
+
+joint: Joint Probability {
+  shape: rectangle
+}
+
+probabilities -> marginal: P(A)
+probabilities -> conditional: P(A|B)
+probabilities -> joint: P(A ∩ B)
+
+marginal -> joint: P(A) × P(B|A) = P(A ∩ B)
+conditional -> joint: P(A|B) × P(B) = P(A ∩ B)
+
+note: Joint probability can be expressed using either marginal or conditional probabilities
+```
 
 To illustrate these concepts, consider the following information. A sample of 100 people, 55 female and 45 male, is collected and examined for the frequency of brown hair. Of the 55 females, 31 have brown hair and 24 have some other color. Of the 45 males, 28 have brown hair and 17 have some other color. If this is a reliable sample, what is the probability that a person selected at random will have brown hair? This is the unconditional probability, sometimes called the marginal probability, and it is 0.59, given that 59 out of 100 have brown hair. Note that we did not condition on whether the person is male or female.
 
@@ -86,18 +129,18 @@ Not all probability distributions have a moment-generating function, but all hav
 
 These paragraphs provide only a brief treatment but should be sufficient to refresh our memory of previous encounters with this material. In some cases, certain concepts are being encountered for the first time. The reader will in all likelihood be required to refer to more specific material to fill in gaps and extend knowledge. We now turn to the primary operations used with random variables in finance concepts, which are the determination of expectations, variances, and covariances.
 
-# 4.2 EXPECTATIONS, VARIANCES, AND COVARIANCES OF DISCRETE RANDOM VARIABLES
+## 4.2 Expectations, Variances, and Covariances of Discrete Random Variables
 
 A random variable is a variable that can take on many possible values representing uncertain outcomes whose frequencies of occurrence are governed by a probability distribution. A discrete random variable can take on only a finite number of values. For example, the number of people who respond yes to a survey or the number of laboratory mice who died following an experiment are examples of a discrete random variable. By contrast, a continuous random variable can take on an infinite number of values. For example, the height of a person selected randomly or the amount of time following an event can always be expressed with decimal places. For however many decimal places chosen, one can always add one more. Let us look at the expectations, variances, and covariances of both of these types of variables. We address discrete random variables first.
 
 For a discrete random variable there are a finite number of outcomes that we often call states or states of the world. For example, if the event is the selection of a person and we are interested in whether that person is male or female, we would have two states. Let  $x = x_{m}$  if that person is male and  $x = x_{f}$  if that person is female. In general, we specify  $n$  states and  $n$  possible values of  $x: x_{1}, x_{2}, \ldots, x_{n}$ . We often need to characterize the properties of this random variable  $x$ . We let  $p_{i}$  be the probability that state or outcome  $i$  occurs. Note that by definition  $\sum_{i=1}^{n} p_{i} = 1$ . It may well be the case that  $p_{i}$  is given by some mathematical function that might more appropriately be written as  $f(x)$ , but here we shall just leave the probability specification in the form  $p_{i}$ .
 
-# 4.2.1 The Expectation of a Discrete Random Variable
+### 4.2.1 The Expectation of a Discrete Random Variable
 
 The expected value, sometimes called the mean, is the probability-weighted average value of  $x$ . The expected value for a discrete distribution is the following specification:
 
 $$
-E (x) = \sum_ {i = 1} ^ {n} x _ {i} p _ {i}. \tag {4.1}
+E(x) = \sum_{i=1}^{n} x_{i} p_{i}. \tag{4.1}
 $$
 
 Occasionally we shall have to work with a constant such as  $a$  in the following operations:

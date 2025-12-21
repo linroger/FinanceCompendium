@@ -1,17 +1,34 @@
 ---
 aliases:
   - Brownian Motion and Wiener Processes
-tags:
-key_concepts:
 parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:22:00 PM
+formatter_model: claude-sonnet-4-5
+cli_tool: claude-code
+primary_tags:
+  - brownian motion
+  - wiener process
+  - geometric brownian motion
+  - stochastic processes
+  - asset price modeling
+secondary_tags:
+  - ito calculus
+  - option pricing
+  - volatility modeling
+  - diffusion processes
+  - random walk
+  - normal distribution
+  - lognormal distribution
+  - arithmetic brownian motion
+  - monte carlo simulation
+  - time series properties
+  - covariance structures
+  - correlation analysis
 cssclasses: academia
 title: "Chapter 10: Brownian Motion and Wiener Processes"
-linter-yaml-title-alias: "Chapter 10: Brownian Motion and Wiener Processes"
 ---
 
-# Continuous Time Derivatives Pricing Theory
-
-# The Basics of Brownian Motion and Wiener Processes
+# Chapter 10: Brownian Motion and Wiener Processes
 
 The prices of assets evolve in a random manner, meaning that stock prices, interest rates, exchange rates, and commodity prices are largely unpredictable. Thus, the financial landscape will be everchanging. Unpredictable, however, does not mean bizarre or meaningless. Indeed, it is important that we understand the probability process driving prices, because this helps us to develop good valuation models. Estimates of expected returns and volatilities and their effects on asset and derivative prices are essential elements in the financial decision-making process. Although there are many excellent references on the subject of this chapter, three we highly recommend are Baxter and Rennie (1996), Neftci (2000), and Malliaris and Brock (1982).
 
@@ -21,23 +38,21 @@ A stochastic process is a sequence of observations from a probability distributi
 
 In 1827, the Scottish botanist Robert Brown (1773-1858) observed the random behavior of pollen particles suspended in water. This phenomenon came to be known as Brownian motion. About 80 years passed before Albert Einstein developed the mathematical properties of Brownian motion. This gap in time, however, is not to suggest that no work was being done in the interim, but scientists did not always know what additional research was going on. For example, Louis Bachelier in his doctoral work on option pricing in 1900 made numerous advances of these mathematical properties several years before Einstein. It is not surprising that it was Einstein who received most of the credit, because he was certainly the most famous scientist of that era and possibly of all time. In this chapter and ensuing chapters, we shall borrow from the scientific theory of Brownian motion.
 
-Let us start by assuming that a series of random numbers emanates from a standard normal or bell-shaped probability distribution. Let these variables be denoted as  $\varepsilon_{t + \Delta t}$  where  $t + \Delta t$  denotes the point in time when the variable is observed. Because the numbers are of the standard normal type, this means they on average equal zero and have a standard deviation of 1 (at the moment, we assume  $\Delta t = 1$ ). Numbers like this have very limited properties, however, and in this form are not very useful for modeling asset prices, but we can take them further. Let us transform these numbers into another process identified with a  $W$  because it will eventually be called a Wiener process. Suppose we are currently at time  $t$ . This is our starting point. Now move ahead to time  $t + \Delta t$  by drawing a number from the standard normal probability distribution. Call the drawn number  $\varepsilon_{t + \Delta t}$ , which has an expected value of zero and its variance is 1. A very simple transformation of the standard normal variable into the  $W$  variable would be to add  $\varepsilon_{t + \Delta t}$  to  $W_t$  to get  $W_{t + \Delta t}$ . Another simple transformation would be to multiply  $\varepsilon_{t + \Delta t}$  by a term we call  $dt$ , which is the length of time that elapses between  $t$  and  $t + \Delta t$ . Given that we typically measure financial variables in years, if that time interval happens to be one minute,  $dt$  would be  $1 / (60^{*}24^{*}265)$ , or in other words, the fraction of a year that elapses between  $t$  and  $t + \Delta t$ .
+ Let us start by assuming that a series of random numbers emanates from a standard normal or bell-shaped probability distribution. Let these variables be denoted as $\varepsilon_{t + \Delta t}$ where $t + \Delta t$ denotes the point in time when the variable is observed. Because the numbers are of the standard normal type, this means they on average equal zero and have a standard deviation of 1 (at the moment, we assume $\Delta t = 1$). Numbers like this have very limited properties, however, and in this form are not very useful for modeling asset prices, but we can take them further. Let us transform these numbers into another process identified with a $W$ because it will eventually be called a Wiener process. Suppose we are currently at time $t$. This is our starting point. Now move ahead to time $t + \Delta t$ by drawing a number from the standard normal probability distribution. Call the drawn number $\varepsilon_{t + \Delta t}$, which has an expected value of zero and its variance is 1. A very simple transformation of the standard normal variable into the $W$ variable would be to add $\varepsilon_{t + \Delta t}$ to $W_t$ to get $W_{t + \Delta t}$. Another simple transformation would be to multiply $\varepsilon_{t + \Delta t}$ by a term we call $dt$, which is the length of time that elapses between $t$ and $t + \Delta t$. Given that we typically measure financial variables in years, if that time interval happens to be one minute, $dt$ would be $1/(60*24*365)$, or in other words, the fraction of a year that elapses between $t$ and $t + \Delta t$.
 
 One reason we like to multiply  $\varepsilon_{t + \Delta t}$  by a time factor is that we would like our model to accommodate time intervals between  $t$  and  $t + \Delta t$  of different lengths. These statistical shocks that are the source of randomness might be larger if they were spread out over a longer time period; hence, we need to scale them by a function of time. In fact, to model asset prices evolving continuously, we need the interval between  $t$  and  $t + \Delta t$  to be as short as possible. Mathematicians use the terminology in the limit, roughly meaning that we are almost but not quite to a specific point. They also use  $dt$  instead of  $\Delta t$ . Here  $dt$  will approach zero in the limit but not actually get there. Unfortunately, the model  $W_{t + \Delta t} = W_t + \varepsilon_{t + \Delta t} dt$  will become problematic when  $dt$  is nearly zero, because the variance of  $W_{t + \Delta t}$  will be nearly zero. That is because  $dt$  is very small and to obtain the variance, we have to square it, which drives it even closer to zero. Thus, the variable  $W_t$  will have no variance, which takes away its randomness. Because it would not vary, we cannot even call it a variable anymore.
 
 The problem is best solved by multiplying  $\varepsilon_{t + \Delta t}$  by the square root of  $dt$ :
 
 $$
-\mathrm {W} _ {t + 1} = \mathrm {W} _ {t} + \varepsilon_ {t + \Delta t} \sqrt {d t}. \tag {10.1}
+W_{t+1} = W_t + \varepsilon_{t+\Delta t}\sqrt{dt}. \tag{10.1}
 $$
 
 Then when we square the term representing time to take the variance, we obtain  $dt$ , which is not zero.
 
 This model has many convenient properties. Suppose we are interested in predicting a future value of  $W$ , say at time  $t + \Delta t$ . Then the expected value of  $W_{t + \Delta t}$  is  $W_t$  because the expected random change in the process is zero. If you start off at  $W_t$  and keep incrementing it by values that average to zero, you can expect to get nowhere. The variance of  $W_{t + \Delta t}$  is  $t + \Delta t = \Delta t$ , or, in other words, the variance equals how much time elapses between now, time  $t$ , and the future point, time  $t + \Delta t$ . This result is found intuitively by noting that the variance of each increment is  $dt$ . Integrating over all the increments, we obtain  $\Delta t$ . We shall do this in a more formal manner for the case in which the increment has a variance other than 1 later in this chapter.
 
-Going forward, we seek to model a continuous process by allowing the time step,  $\Delta t$ , to get smaller, essentially trending to nearly zero. Thus, the point of observation of  $t$  or  $t + \Delta t$  will be negligibly different. Going forward, we adopt the traditional notation where, for example,  $\varepsilon_{t + \Delta t}$  is denoted simply as  $\varepsilon_t$ . The random variable,  $\varepsilon_t$ , is observed at
-
-time  $t + \Delta t$ , but generated between points in time  $t$  and  $t + \Delta t$ . Remember, the goal is to eventually migrate  $\Delta t$  to  $dt$ .
+Going forward, we seek to model a continuous process by allowing the time step, $\Delta t$, to get smaller, essentially trending to nearly zero. Thus, the point of observation of $t$ or $t + \Delta t$ will be negligibly different. Going forward, we adopt the traditional notation where, for example, $\varepsilon_{t + \Delta t}$ is denoted simply as $\varepsilon_t$. The random variable, $\varepsilon_t$, is observed at time $t + \Delta t$, but generated between points in time $t$ and $t + \Delta t$. Remember, the goal is to eventually migrate $\Delta t$ to $dt$.
 
 # 10.2 THE WIENER PROCESS
 
@@ -71,10 +86,10 @@ Suppose we draw a standard normal random variable,  $\varepsilon_{t}$ . Then we 
 
 If, however, we define the variable of interest as  $dW_{t}^{2}$ , we get an important result. To determine  $dW_{t}^{2}$  we simply draw the value of  $\varepsilon_{t}$ , multiply it by the square root of  $dt$ , and square the entire expression to obtain  $\varepsilon_{t}^{2}dt$ . The variance of this expression is found by squaring  $dt$  and multiplying by the variance of  $\varepsilon_{t}^{2}$ . By definition, however, all values of  $dt^{k}$
 
-where  $k > 1$  are zero. In other words, the length of the time interval is so short that raising it to a power more than one makes it shorter and effectively zero. The expected value of  $dW_{t}^{2}$  is the expected value of  $\varepsilon_{t}^{2} dt$ , which will be  $dt$  times the expected value of  $\varepsilon_{t}^{2}$ . So now we must evaluate  $E(\varepsilon_{t}^{2})$ . We did that to get Equation (10.4). Thus,  $E\left(dW_{t}^{2}\right) = 1^{*}dt = dt$ . Because  $dt^{2} = 0$ , then  $\text{var}\left(dW_{t}^{2}\right) = 0$  and  $E\left(dW_{t}^{2}\right) = dW_{t}^{2} = dt$ . In other words, any variable that has zero variance can be expressed as its expected value. We see that our intuitively unusual result is that although  $dW_{t}$  is random, its square is not. So, remember this important result:
+where $k > 1$ are zero. In other words, the length of the time interval is so short that raising it to a power more than one makes it shorter and effectively zero. The expected value of $dW_t^2$ is the expected value of $\varepsilon_t^2 dt$, which will be $dt$ times the expected value of $\varepsilon_t^2$. So now we must evaluate $E(\varepsilon_t^2)$. We did that to get Equation (10.4). Thus, $E(dW_t^2) = 1*dt = dt$. Because $dt^2 = 0$, then $\text{var}(dW_t^2) = 0$ and $E(dW_t^2) = dW_t^2 = dt$. In other words, any variable that has zero variance can be expressed as its expected value. We see that our intuitively unusual result is that although $dW_t$ is random, its square is not. So, remember this important result:
 
 $$
-d \mathrm {W} _ {t} ^ {2} = d t. \tag {10.5}
+dW_t^2 = dt. \tag{10.5}
 $$
 
 We shall see it again.
@@ -91,7 +106,7 @@ Third, it should be more difficult to forecast asset prices further into the fut
 
 The final property is that an asset price should never be allowed to become negative. Corporate shareholders have limited liability, so the minimum value of their shares is zero.
 
-We briefly illustrate these properties with an exchange-traded fund that seeks to track the S&P 500 index with dividends included with ticker symbol SPY. Figure 10.1 illustrates the value of \(100 invested in SPY both with and without dividends. We see clearly the important role of dividends. Further, over this period, SPY moved up significantly, on average, whether including dividends or not. Although there is an upward drift, stocks often experience long periods of time without any substantial appreciation exhibiting the second property of randomness. Clearly, even with an ETF tracking the S&P 500 index, dividends are a significant consideration and cannot be ignored.
+We briefly illustrate these properties with an exchange-traded fund that seeks to track the S&P 500 index with dividends included with ticker symbol SPY. Figure 10.1 illustrates the value of $100 invested in SPY both with and without dividends. We see clearly the important role of dividends. Further, over this period, SPY moved up significantly, on average, whether including dividends or not. Although there is an upward drift, stocks often experience long periods of time without any substantial appreciation exhibiting the second property of randomness. Clearly, even with an ETF tracking the S&P 500 index, dividends are a significant consideration and cannot be ignored.
 
 Figure 10.2 illustrates the notion that longer time periods have more uncertainty based on analyzing dividend adjusted prices. Panel A presents daily returns, Panel B presents
 
@@ -148,13 +163,13 @@ So, clearly the further out we look, that is, the larger  $T$  is, the higher th
 Finally, the model must not permit the asset price to ever go to or below zero. Let us write the model in the following form:
 
 $$
-\frac {d S _ {t}}{S _ {t}} = E (R) d t + \sigma \varepsilon_ {t} \sqrt {d t}. \tag {10.9}
+\frac{dS_t}{S_t} = E(R) dt + \sigma \varepsilon_t \sqrt{dt}. \tag{10.9}
 $$
 
 Multiplying through by  $S_{t}$  makes everything on the right-hand side (RHS) be multiplied by  $S_{t}$ . That is, the model can be written as
 
 $$
-d S _ {t} = E (R) S _ {t} d t + \sigma S _ {t} \varepsilon_ {t} \sqrt {d t}. \tag {10.10}
+dS_t = E(R) S_t dt + \sigma S_t \varepsilon_t \sqrt{dt}. \tag{10.10}
 $$
 
 The first term on the RHS is the drift term and the second is the noise term, both expressed in currency units. Note that as the asset price declines, both the drift term and the noise term are diminished. Thus, the smaller  $S_{t}$  is, the more the price changes are diminished. It is technically possible for a sufficiently negative shock to drive the price to zero, though this requires an incredibly large negative shock, which is an improbable event. But, from Equation (10.10), it is easily seen that if the price hits zero, any further price changes are all zero. Zero is said to be an absorbing barrier. Hence, our requirement that the price cannot be negative is met. That said, we cannot completely rule out a zero price. In Chapter 12, we shall see that the process we have described here is actually an approximation of a lognormal process. Given that it is not possible to take the log of zero, a zero price is ruled out. But for now, avoiding negative prices is our goal and that goal is achieved with this model.
@@ -162,7 +177,7 @@ The first term on the RHS is the drift term and the second is the noise term, bo
 One final adjustment is necessary. Most of the time the annualized expected return is written as either  $\alpha$  or  $\mu$ . We shall choose the former and will reserve  $\mu$  for another term. Thus, the model is written as
 
 $$
-\frac {d S _ {t}}{S _ {t}} = \alpha d t + \sigma d W _ {t}, \tag {10.11}
+\frac{dS_t}{S_t} = \alpha dt + \sigma dW_t, \tag{10.11}
 $$
 
 where it is understood that  $dW_{t} = \varepsilon_{t}\sqrt{dt}$ . We see clearly here that  $S_{t}$  cannot obtain zero, otherwise the left-hand side (LHS) of this equation is undefined. A stochastic process of this type is called an Ito process. It is more generally stated in the form,  $dS_{t} = \alpha (S,t)dt + \sigma (S,t)dW_{t}$ , where the expected value and variance are allowed to change with  $S$  and  $t$ .
@@ -172,13 +187,13 @@ Equation (10.11) appears to imply that the LHS is normally distributed because  
 To recap, the model allows us to replicate the behavior of the asset over a short holding period. We have taken the basic Brownian motion process and converted it into a form that models asset price movements. This model has many convenient and reasonable properties. We refer to the process as geometric Brownian motion. It is "geometric" in the sense that proportional changes, meaning percentage changes, in the asset price follow this stochastic process. Geometric Brownian motion can be formally stated as
 
 $$
-d S _ {t} = \alpha (S, t) S _ {t} d t + \sigma S _ {t} d W _ {t}. \tag {10.12}
+dS_t = \alpha(S, t) S_t dt + \sigma S_t dW_t. \tag{10.12}
 $$
 
 It is important to emphasize that the driver of the geometric aspect is the presence of the underlying asset price in the noise term. Thus, as the asset price falls, the impact of the noise term also falls. Given the continuous nature of this process, the asset price never reaches zero. We can divide both sides by  $S_{t}$  and express in the traditional finance form or
 
 $$
-\frac {d S _ {t}}{S _ {t}} = \alpha (S, t) d t + \sigma d W _ {t}. \tag {10.13}
+\frac{dS_t}{S_t} = \alpha(S, t) dt + \sigma dW_t. \tag{10.13}
 $$
 
 We thus implicitly assume that the asset prices follow a lognormal distribution. This is not the normal or bell-shaped curve. A lognormal distribution is skewed toward positive returns in contrast to the normal distribution, which is symmetric. A lognormal distribution does imply, however, that the logarithm of the returns comes from the normal or bell-shaped distribution.<sup>5</sup> These properties are often desirable and fairly reasonable from an empirical standpoint.
@@ -186,7 +201,7 @@ We thus implicitly assume that the asset prices follow a lognormal distribution.
 An alternative process is known as arithmetic Brownian motion, where the asset prices follow a normal distribution. It is "arithmetic" in the sense that absolute changes, meaning dollar changes, in the asset price follow this stochastic process and thus can easily be added together. Arithmetic Brownian motion can be formally stated as
 
 $$
-d S _ {t} = \alpha (S, t) d t + \sigma_ {\S} d W _ {t}. \tag {10.14}
+dS_t = \alpha(S, t) dt + \sigma_{\$} dW_t. \tag{10.14}
 $$
 
 It is important to emphasize that the driver of the arithmetic aspect is the absence of the underlying asset price in the noise term. Also, we introduce the subscript,  $\\($  (dollars), to highlight the unit of measure is whatever the unit of measure of the asset price (assumed  $\$  \) here) and no longer expressed as a percentage. As discussed in later chapters, the drift term can be expressed in dollars or percentage depending on context. Thus, as the asset price falls, the noise term is not affected. Given the continuous nature of this process, the asset price can easily reach zero as well as go negative. One benefit of arithmetic Brownian motion is zero asset values are now possible—an unfortunate reality for many financial instruments.
@@ -197,7 +212,7 @@ This model will be developed much further in Chapter 13.
 
 # 10.5 SIMULATING BROWNIAN MOTION AND WIENER PROCESSES
 
-To get a better understanding of the Brownian motion and Wiener processes, let us run some simulations in Excel. Recall that the Brownian motion process is Equation (10.11), and the Wiener process is Equation (10.2). Of course, in the model, time is continuous, so the time increments are close to zero. They are not, however, precisely equal to zero. Let us start by making them very short, say one hour. In a year, there are 365 days and 24 hours per day. Thus, each time increment is set at  $\frac{1}{(24^{*}365)} = 0.000114$ . Let us assume a stock with an expected return of 0.12, a volatility of 0.50, and a starting stock price of 50.
+To get a better understanding of the Brownian motion and Wiener processes, let us run some simulations in Excel. Recall that the Brownian motion process is Equation (10.11), and the Wiener process is Equation (10.2). Of course, in the model, time is continuous, so the time increments are close to zero. They are not, however, precisely equal to zero. Let us start by making them very short, say one hour. In a year, there are 365 days and 24 hours per day. Thus, each time increment is set at $\frac{1}{(24*365)} = 0.000114$. Let us assume a stock with an expected return of 0.12, a volatility of 0.50, and a starting stock price of 50.
 
 The random component of the process is the Wiener process. The  $\varepsilon_{t}$ , which is a standard normal, is converted into the Wiener process. First, we need to simulate a standard normal. One reasonable way to do so is to use Excel's =rand() function. This function produces a uniformly distributed random number between zero and one. A uniform distribution is a distribution of continuous random variables between two endpoints  $a$  and  $b$  in which each outcome is equally likely. If  $a = 0$  and  $b = 1$ , the distribution is called unit uniform, because the range of outcomes will be between 0 and 1. It is known that the expected value of the uniform distribution is  $(1/2)(a + b)$ , which is  $1/2 = (0 + 1) = 0.5$  for the unit uniform. The variance is  $(1/12)(b - a)^{2}$ . For the unit uniform, the variance is  $(1/12)(1 - 0)^{2} = 1/12$ . So, if we generate 12 unit uniform random variables and add them up, we obtain  $u_{1} + u_{2} + \ldots + u_{12}$ . Taking the expectation, we obtain  $E(u_{1}) + E(u_{2}) + \ldots + E(u_{12}) = 0.5 + 0.5 + \ldots + 0.5 = 6$ . We can then subtract 6, leaving an expected value of zero with no effect on the variance, which is easily obtained. These random drawings are independent so there is no covariance between them, and we can, therefore, simply add their variances to obtain the variance of the sum of the 12 unit uniform random variables. Thus, we have  $\operatorname{var}(u_1) + \operatorname{var}(u_2) + \ldots + \operatorname{var}(u_{12}) = 1/12 + 1/12 + \ldots + 1/12 = 1$ . Thus, the sum of the 12 unit uniform random numbers minus 6 has expected value of zero and variance of 1, just like a standard normal. Recall that the central limit theorem tells us that the sum of a series of independent random variables from any distribution is normally distributed in the limit. We have used only 12 so the limiting condition is not likely to occur just yet, but we should be reasonably close to a normal distribution. $^7$
 
@@ -216,13 +231,13 @@ TABLE 10.1 Simulation of Geometric Brownian Motion
 at increment 1 where the Brownian motion value is  $-0.314189$ . The remainder of the information for time increment 1 is found as follows. First find the Wiener process value,
 
 $$
-d \mathrm {W} _ {t} = \varepsilon_ {t} \sqrt {d t} = - 0. 3 1 4 1 8 9 \sqrt {1 / 8 , 7 6 0} = - 0. 0 0 3 3 5 7.
+dW_t = \varepsilon_t \sqrt{dt} = -0.314189 \sqrt{1/8760} = -0.003357.
 $$
 
 Then convert this value to the stock return:
 
 $$
-\frac {d S _ {t}}{S _ {t}} = \alpha d t + \sigma d W _ {t} = 0. 1 2 (1 / 8, 7 6 0) + 0. 5 (0. 0 0 3 3 5 7) = - 0. 0 0 1 6 6 5.
+\frac{dS_t}{S_t} = \alpha dt + \sigma dW_t = 0.12(1/8760) + 0.5(0.003357) = -0.001665.
 $$
 
 Then the next stock price is
@@ -234,14 +249,14 @@ $$
 We should also compute  $dW_{t}^{2}$ , because we shall show later that this value is essentially constant:
 
 $$
-d W _ {t} ^ {2} = (- 0. 0 0 3 3 5 7) ^ {2} = 0. 0 0 0 0 1 1.
+dW_t^2 = (-0.003357)^2 = 0.000011.
 $$
 
 Figure 10.3 shows the simulation of the normal random variable,  $\varepsilon_{t}$ , with each dot representing one of the randomly drawn values. Recall that we created this variable by adding 12 unit uniform random variables and subtracting 6.0. The average value is 0.010416 and the standard deviation is 0.968623. These are close to but not exactly equal to their desired values, but that result would only hold with a lot more values.
 
-Figure 10.4 shows the simulated values of  $dW_{t}$  and  $dW_{t}^{2}$ . The volatile and dots is  $dW_{t}$ , and the nearly straight line is  $dW_{t}^{2}$ . We noted that  $dW_{t}^{2}$  should be constant, but that result occurs only in the limit, meaning with an extremely short time interval. Our time interval of one hour seems short, but as you probably know, there are many stock prices that generate within an hour under normal trading. If we increasingly shorten the time interval, then the process would become more stable. See Appendix 10A for details.
+Figure 10.4 shows the simulated values of $dW_t$ and $dW_t^2$. The volatile dots are $dW_t$, and the nearly straight line is $dW_t^2$. We noted that $dW_t^2$ should be constant, but that result occurs only in the limit, meaning with an extremely short time interval. Our time interval of one hour seems short, but as you probably know, there are many stock prices that generate within an hour under normal trading. If we increasingly shorten the time interval, then the process would become more stable. See Appendix 10A for details.
 
-Figure 10.5 is the stock price simulated from the given results. It should be noted that the average return does not need to be anywhere near the expected return. Indeed, it is not, as the average return is 0.000069 per hour, which annualizes to almost  $60\%$ . The volatility, however, is likely to be close to the annual specified volatility of 0.50. Here it is 0.484312.
+Figure 10.5 is the stock price simulated from the given results. It should be noted that the average return does not need to be anywhere near the expected return. Indeed, it is not, as the average return is 0.000069 per hour, which annualizes to almost $60\%$. The volatility, however, is likely to be close to the annual specified volatility of 0.50. Here it is 0.484312.
 
 We turn now to summarize key characteristics and important properties of the Wiener process. These properties will prove useful in later chapters.
 
@@ -249,7 +264,7 @@ We turn now to summarize key characteristics and important properties of the Wie
 FIGURE 10.3 Simulation of Normal Distribution from Unit Uniform Distribution
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/9654c848546021b0ef46787c65cfa95ac8796da4490ab07bf59d831d58128ec1.jpg)  
-FIGURE 10.4 Simulation of  $dW_{t}$  and  $dW_{t}^{2}$
+FIGURE 10.4 Simulation of $dW_t$ and $dW_t^2$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/5cb4775d189bdfc980373e64f96f4e155cbac21aa9a8387312a5728911212446.jpg)  
 FIGURE 10.5 Simulation of Stock Price
@@ -271,13 +286,13 @@ We now briefly review selected properties of the Wiener process as well as intro
 As previously discussed, the standard Wiener process follows a normal distribution where the probability density function can be expressed as (recall we assume the initial time is 0):
 
 $$
-n _ {\mathrm {W} _ {t}} (x) = \frac {e ^ {- \frac {x ^ {2}}{2 t}}}{\sqrt {2 \pi t}}. \tag {10.15}
+n_{W_t}(x) = \frac{e^{-\frac{x^2}{2t}}}{\sqrt{2\pi t}}. \tag{10.15}
 $$
 
 Note that
 
 $$
-E \left(W _ {t}\right) = 0 \text {a n d} \operatorname {v a r} \left(W _ {t}\right) = t. \tag {10.16}
+E(W_t) = 0 \quad \text{and} \quad \operatorname{var}(W_t) = t. \tag{10.16}
 $$
 
 Recall from the definition of variance and assuming  $t > 0$ , we have  $\operatorname{var}\left(W_t\right) = E\left(W_t^2\right) - E\left(W_t\right)^2 = t - 0 = t$ .
@@ -287,7 +302,7 @@ Recall from the definition of variance and assuming  $t > 0$ , we have  $\operat
 Again, assume constants  $t > 0$  (e.g., calendar time expressed as a fraction of a year) and  $0 < b < t$  (e.g., historical point in time compared to  $t$ ). The covariance of  $W_{t}$  and  $W_{b}$  is
 
 $$
-\operatorname {c o v} \left(W _ {t}, W _ {b}\right) = b. \tag {10.17}
+\operatorname{cov}(W_t, W_b) = b. \tag{10.17}
 $$
 
 Note that between 0 and  $b$ ,  $W_{t}$  and  $W_{b}$  are perfectly positively correlated so the covariance is one. Further, between  $b$  and  $t$ ,  $W_{t}$  and  $W_{b}$  are uncorrelated, so the covariance is zero. Recall we assumed  $t > b$ . Given independent increments as mentioned previously, we have  $\operatorname{cov}\left(W_{t} - W_{b} + W_{b}, W_{b}\right) = \operatorname{cov}\left(W_{t} - W_{b}, W_{b}\right) + \operatorname{cov}\left(W_{b}, W_{b}\right) = 0 + b = b$ .
@@ -295,51 +310,55 @@ Note that between 0 and  $b$ ,  $W_{t}$  and  $W_{b}$  are perfectly positively 
 For constants  $c_{1}$  and  $c_{2}$ , based on standard properties of covariance covered in Chapter 4, recall that
 
 $$
-\operatorname {c o v} \left(c _ {1} W _ {t}, c _ {2} W _ {b}\right) = c _ {1} c _ {2} \operatorname {c o v} \left(W _ {t}, W _ {b}\right) = c _ {1} c _ {2} b. \tag {10.18}
+\operatorname{cov}(c_1 W_t, c_2 W_b) = c_1 c_2 \operatorname{cov}(W_t, W_b) = c_1 c_2 b. \tag{10.18}
 $$
 
 Thus, the correlation between  $c_{1}W_{t}$  and  $c_{2}W_{b}$  is
 
 $$
-\rho \left(c _ {1} W _ {t}, c _ {2} W _ {b}\right) \equiv \frac {\operatorname {c o v} \left(c _ {1} W _ {t} , c _ {2} W _ {b}\right)}{\sqrt {c _ {1} ^ {2} \operatorname {v a r} \left(W _ {t}\right)} \sqrt {c _ {2} ^ {2} \operatorname {v a r} \left(W _ {b}\right)}} = \frac {\operatorname {c o v} \left(W _ {t} , W _ {b}\right)}{\sqrt {\operatorname {v a r} \left(W _ {t}\right)} \sqrt {\operatorname {v a r} \left(W _ {b}\right)}} = \frac {b}{\sqrt {t h}} = \sqrt {\frac {b}{t}}. \tag {10.19}
+\rho(c_1 W_t, c_2 W_b) \equiv \frac{\operatorname{cov}(c_1 W_t, c_2 W_b)}{\sqrt{c_1^2 \operatorname{var}(W_t)} \sqrt{c_2^2 \operatorname{var}(W_b)}} = \frac{\operatorname{cov}(W_t, W_b)}{\sqrt{\operatorname{var}(W_t)} \sqrt{\operatorname{var}(W_b)}} = \frac{b}{\sqrt{t b}} = \sqrt{\frac{b}{t}}. \tag{10.19}
 $$
 
 Now consider two generic points in time  $j > 0$  and  $k > 0$  and the same Wiener process; however, we do not know whether  $j > k$ ,  $j < k$ , or  $j = k$ . In this case,
 
 $$
-\operatorname {c o v} \left(\mathrm {W} _ {j}, \mathrm {W} _ {k}\right) = \min  (j, k). \tag {10.20}
+\operatorname{cov}(W_j, W_k) = \min(j, k). \tag{10.20}
 $$
 
 If we assume  $j > k$ , then based on Equation (10.17), we know  $\operatorname{cov}\left(W_j, W_k\right) = k$ . Similarly, if  $j < k$ , we know  $\operatorname{cov}\left(W_j, W_k\right) = j$ . Thus, Equation (10.20) holds for all  $j$  and  $k$ .
 
 $$
-\rho \left(W _ {j}, W _ {k}\right) = \frac {\operatorname {c o v} \left(W _ {j} , W _ {k}\right)}{\sqrt {\operatorname {v a r} \left(W _ {j}\right)} \sqrt {\operatorname {v a r} \left(W _ {k}\right)}} = \frac {\min  (j , k)}{\sqrt {j k}} = \sqrt {\frac {\operatorname* {m i n} (j , k)}{\operatorname* {m a x} (j , k)}}. \tag {10.21}
+\rho(W_j, W_k) = \frac{\operatorname{cov}(W_j, W_k)}{\sqrt{\operatorname{var}(W_j)} \sqrt{\operatorname{var}(W_k)}} = \frac{\min(j, k)}{\sqrt{j k}} = \sqrt{\frac{\min(j, k)}{\max(j, k)}}. \tag{10.21}
 $$
 
 Now consider the same point in time  $t > 0$  and two correlated Wiener processes  $(W_{1,t}$  and  $W_{2,t}$ ). That is, while  $\varepsilon_{1,t}$  and  $\varepsilon_{2,t}$  are independent, the Wiener processes are correlated. In this case, one of the Wiener processes (say  $W_{2,t}$ ) can be expressed as a linear function of the other Wiener process  $(W_{1,t})$  and an independent Wiener process, denoted  $z_{t}$ . That is,
 
 $$
-W _ {2, t} = \rho W _ {1, t} + (1 - \rho) z _ {t}. \tag {10.22}
+W_{2,t} = \rho W_{1,t} + (1 - \rho) z_t. \tag{10.22}
 $$
 
 In this case, we note
 
 $$
-E \left(\mathrm {W} _ {2, t}\right) = \rho E \left(\mathrm {W} _ {1, t}\right) + (1 - \rho) E \left(z _ {t}\right) = \rho 0 + (1 - \rho) 0 = 0, \tag {10.23}
+E(W_{2,t}) = \rho E(W_{1,t}) + (1 - \rho) E(z_t) = \rho \cdot 0 + (1 - \rho) \cdot 0 = 0, \tag{10.23}
 $$
 
 $$
-\begin{array}{l} \operatorname {v a r} \left(W _ {2, t}\right) = \rho^ {2} \operatorname {v a r} \left(W _ {1, t}\right) + (1 - \rho) ^ {2} \operatorname {v a r} \left(z _ {t}\right) + 2 \operatorname {c o v} \left[ \rho W _ {1, t}, (1 - \rho) z _ {t} \right] \\ = \rho^ {2} t + (1 - \rho) ^ {2} t + 2 \rho (1 - \rho) \operatorname {c o v} \left(W _ {1, t}, z _ {t}\right) \\ = \rho^ {2} t + (1 - \rho) ^ {2} t + 2 \rho (1 - \rho) t = t, \text {a n d} \tag {10.24} \\ \end{array}
+\begin{align}
+\operatorname{var}(W_{2,t}) &= \rho^2 \operatorname{var}(W_{1,t}) + (1 - \rho)^2 \operatorname{var}(z_t) + 2 \operatorname{cov}[\rho W_{1,t}, (1 - \rho) z_t] \\
+&= \rho^2 t + (1 - \rho)^2 t + 2\rho(1 - \rho) \operatorname{cov}(W_{1,t}, z_t) \\
+&= \rho^2 t + (1 - \rho)^2 t + 2\rho(1 - \rho) \cdot 0 = t, \quad \text{and} \tag{10.24}
+\end{align}
 $$
 
 $$
-\operatorname {c o v} \left(W _ {1, t}, W _ {2, t}\right) = \operatorname {c o v} \left(W _ {1, t}, \rho W _ {1, t} + (1 - \rho) z _ {t}\right) = \rho t + (1 - \rho) \operatorname {c o v} \left(W _ {1, t}, z _ {t}\right) = \rho t. \tag {10.25}
+\operatorname{cov}(W_{1,t}, W_{2,t}) = \operatorname{cov}(W_{1,t}, \rho W_{1,t} + (1 - \rho) z_t) = \rho t + (1 - \rho) \operatorname{cov}(W_{1,t}, z_t) = \rho t. \tag{10.25}
 $$
 
 As a reminder, the last result occurs because  $z_{t}$  and  $W_{1,t}$  are independent. Now, we have
 
 $$
-\rho \left(\mathrm {W} _ {1, t}, \mathrm {W} _ {2, t}\right) = \frac {\operatorname {c o v} \left(\mathrm {W} _ {1 , t} , \mathrm {W} _ {2 , t}\right)}{\sqrt {\operatorname {v a r} \left(\mathrm {W} _ {1 , t}\right)} \sqrt {\operatorname {v a r} \left(\mathrm {W} _ {2 , t}\right)}} = \frac {\rho t}{\sqrt {t} \sqrt {t}} = \rho . \tag {10.26}
+\rho(W_{1,t}, W_{2,t}) = \frac{\operatorname{cov}(W_{1,t}, W_{2,t})}{\sqrt{\operatorname{var}(W_{1,t})} \sqrt{\operatorname{var}(W_{2,t})}} = \frac{\rho t}{\sqrt{t} \sqrt{t}} = \rho. \tag{10.26}
 $$
 
 These Wiener process properties will be useful in future chapters.
@@ -354,7 +373,7 @@ In Chapter 11, we introduce the two important concepts of Ito's lemma and stocha
 
 # Simulation of the Wiener Process and the Square of the Wiener Process for Successively Smaller Time Intervals
 
-Suppose we run a second set of simulated values of the Wiener process for smaller and smaller time intervals. First, let us use a daily time interval  $(dt = 1 / 365)$ , then an hourly time interval  $(dt = 1 / (24^{*}365))$ , then a minute time interval  $(dt = 1 / (60^{*}24^{*}365))$ , and then a second time interval  $(dt = 1 / (60^{*}60^{*}24^{*}365))$ . We obtain the results in Table 10A.1 for  $dW_{t}$  and  $d_{t}W^{2}$  with values quoted to six decimal places.
+Suppose we run a second set of simulated values of the Wiener process for smaller and smaller time intervals. First, let us use a daily time interval $(dt = 1/365)$, then an hourly time interval $(dt = 1/(24*365))$, then a minute time interval $(dt = 1/(60*24*365))$, and then a second time interval $(dt = 1/(60*60*24*365))$. We obtain the results in Table 10A.1 for $dW_t$ and $dt W^2$ with values quoted to six decimal places.
 
 Note that the average and volatility shrink for both measures when the interval is shortened. Note in particular, that the volatility of  $dW_{t}^{2}$  is virtually zero. Of course, in the limit, it is zero.
 
@@ -362,21 +381,7 @@ TABLE 10A.1 Values of  $dW_{t}$  and  $dW_{t}^{2}$  for Various dt
 
 <table><tr><td rowspan="2"></td><td colspan="4">dWt</td><td colspan="4">dWt2</td></tr><tr><td>Daily</td><td>Hourly</td><td>Minute</td><td>Second</td><td>Daily</td><td>Hourly</td><td>Minute</td><td>Second</td></tr><tr><td>Average</td><td>-0.004201</td><td>-0.000858</td><td>-0.000111</td><td>-0.000014</td><td>0.002862</td><td>0.000119</td><td>0.000002</td><td>0.000000</td></tr><tr><td>Standard Deviation</td><td>0.053366</td><td>0.010893</td><td>0.001406</td><td>0.000182</td><td>0.004154</td><td>0.000173</td><td>0.000003</td><td>0.000000</td></tr></table>
 
-# QUESTIONS AND PROBLEMS
 
-1 The Wiener process is defined as  $dW_{t} = \varepsilon_{t}\sqrt{dt}$ . Find the expected value and standard deviation of the Wiener process.  
-2 Geometric Brownian motion can be expressed as  $dS_{t} = \alpha S_{t}dt + \sigma S_{t}dW_{t}$ . Explain the behavior of changes in  $S_{t}$  for different values of  $S_{t}$ . In particular, explain why  $S_{t}$  never obtains the value of zero.  
-3 As discussed in this chapter, an alternative framework for modeling certain financial instruments is arithmetic Brownian motion with geometric drift or  $dS_{t} = \alpha S_{t}dt + \sigma_{\mathbb{S}}dW_{t}$ . Explain the behavior of changes in  $S_{t}$  for different values of  $S_{t}$ . In particular, explain why  $S_{t}$  may obtain the value of zero or become negative.  
-4 The following two graphs were generated based on discretized versions of geometric Brownian motion ( $dS_{t} = \alpha S_{t}dt + \sigma S_{t}dW_{t}$ ) and arithmetic Brownian motion ( $dS_{t} = \alpha S_{t}dt + \sigma_{\S}dW_{t}$ ). Identify the graphs and defend your answer.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/564df2854f07ec12c0733302d9e6c8b01f66f69bff164c54f08fef9b75dfc2a4.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/1c888827f61e4891740f95f694bde7c8ef846124f26e92b5a6d90f502d8d5b79.jpg)
-
-5 Identify four important characteristics that a model of asset prices should encompass.  
-[Contributed by Brecklyn Groce] The following table gives five simulated values of a standard normal random variable. Convert these values to the increments of a Wiener process and find the simulated value after five days of a stock initially priced at 80 with an annual expected return of  $10\%$  and a volatility of  $48\%$  under the assumption that the time increment is one day,  $1 / 365 = 0.00274$ . You may wish to create a spreadsheet to work the problem.
-
-<table><tr><td>Day</td><td>εt</td><td>ΔWt</td><td>St</td></tr><tr><td>0</td><td></td><td></td><td>\$80.00</td></tr><tr><td>1</td><td>0.808889</td><td></td><td></td></tr><tr><td>2</td><td>0.480432</td><td></td><td></td></tr><tr><td>3</td><td>0.695581</td><td></td><td></td></tr><tr><td>4</td><td>-0.870413</td><td></td><td></td></tr><tr><td>5</td><td>0.407389</td><td></td><td></td></tr></table>
 
 # NOTES
 

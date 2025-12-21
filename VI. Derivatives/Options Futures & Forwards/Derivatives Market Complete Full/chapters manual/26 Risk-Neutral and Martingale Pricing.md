@@ -1,13 +1,9 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory: Derivatives Market Complete Full/chapters manual
-cssclasses: academia
 title: "Risk-Neutral and Martingale Pricing"
-formatted: "2025-12-21 02:35:00 AM"
-formatter_model: "kimi-k2-turbo"
-cli_tool: "claude-code"
+parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:35:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
   - risk neutral pricing
   - martingale pricing
@@ -19,6 +15,7 @@ secondary_tags:
   - girsanov theorem
   - forward measure
   - black scholes formula
+cssclasses: academia
 ---
 
 # Risk-Neutral and Martingale Pricing
@@ -124,7 +121,7 @@ Consumption of  $C(t)$  at time  $t$  produces utility of  $U[C(t), t]$ . Since 
 
 We assume that investors have a utility function resembling that in Figure 1. The two important features of this utility function are that first, it is increasing (the investor prefers consuming more to less), and second, it is concave (utility increases at a decreasing rate). An investor with a utility function like that in Figure 1 is risk-averse. Such an investor will not accept a fair bet.
 
-### Figure I: Utility Function with Decreasing Marginal Utility
+**FIGURE I**
 
 A utility function that exhibits decreasing marginal utility. Marginal utility is high when consumption and utility are low; marginal utility is low when consumption and utility are high.
 
@@ -143,7 +140,7 @@ Where it does not cause confusion, we will abbreviate  $U^{\prime}[C(t,j),t]$  a
 
 The important idea in Figure 1 is that marginal utility is a measure of whether consumption is high or low, and thus whether investors are in a good state or a bad state. You can see in Figure 1 that the slope of the utility function decreases as the level of consumption is greater: Marginal utility is decreasing with the level of consumption. Risk-averse investors with high consumption (those at point B in Figure 1) assign less value to an additional dollar than when consumption is low (those at point A in Figure 1). Thus, investors at point A have low consumption and high marginal utility (this is the bad state), while investors at point B have high consumption and low marginal utility (this is the good state). The more you are able to consume, the less you value 1 of additional consumption.
 
-### 2. The First-Order Condition for Portfolio Selection
+## 2. The First-Order Condition for Portfolio Selection
 
 Suppose that the investor allocates savings across $n$ assets: $n-1$ non-dividend-paying risky assets with prices $S_{i}(t)$ ($i = 1, \dots, n-1$) and a default-free money-market account, which always earns the currently prevailing short-term risk-free rate, $r(t)$. An investment of $B(t)$ in the money-market account at time $t$ will accumulate to $B(t)\exp\left[\int_t^T r(s)ds\right]$ at time $T$. If the interest rate is stochastic, $B(T)$ will be a random variable.
 
@@ -182,14 +179,14 @@ $$ where  $\mu_{i}$  is the specific discount factor for stock  $i$ . From exami
 By contrast, if we let  $1 / (1 + \tilde{\mu}_j) = U'(C(T,j),T) / U'(t)$ , equation (5) can be written
 
 $$
-\mathrm {E} _ {t} \left[ \frac {S _ {i} (T , j)}{1 + \tilde {\mu} _ {j}} \right] = S _ {i} (t) \tag {7}
+= \Pr \left[ z \leq \frac{\ln(S_t / K P_t(t,T)) - 0.5\sigma^2(T-t)}{\sigma\sqrt{T-t}} \right] = N(d_2) \tag{32}
 $$
 
 Here,  $\tilde{\mu}_j$  is a random variable, which is a rewritten version of the stochastic discount factor. The discount factor  $1 + \tilde{\mu}_j$  differs across states, changing with the level of consumption, but for a given state it is the same for every asset.
 
 Thus, we can have either a set of asset-specific state-independent discount rates (traditional DCF, equation (6)), or we can have an asset-independent, state-dependent discount rate that correctly discounts all cash flows (the stochastic discount factor, equation (7)). In practice it is common to use DCF. However, understanding the stochastic discount factor approach is helpful in understanding both derivative pricing and DCF. When implemented correctly, the two approaches give the same present value.
 
-### 3. Change of Measure and Change of Numeraire
+## 3. Change of Measure and Change of Numeraire
 
 In the preceding section we showed that there is a direct link between discounting and the solution to the portfolio selection problem, summarized by equation (4). Another way to write equation (4) is
 
@@ -215,7 +212,7 @@ $$
 Now suppose that  $\tilde{x}$  is a nonnegative random variable defined over the  $m$  events, such that
 
 $$
-\sum_ {i = 1} ^ {m} p _ {i} x _ {i} = 1 \tag {9}
+d_2 = d_1 - \sigma\sqrt{T}
 $$
 
 Thus,  $x$  has a mean of 1. The key step is to define the new probability  $p_i^x$ :
@@ -230,7 +227,7 @@ $$
 
 To summarize this discussion, a nonnegative random variable with a mean of 1 can be used to perform a change of measure. If you look back at equation (8), you can see why we are discussing this. The expectation operator in equation (8),  $\mathrm{E}_t$ , is taken with respect to the actual or physical probabilities of different returns on the stock. However, marginal utilities and asset prices are nonnegative, and the ratio in equation (8) has an expectation of 1. Thus, we can use the ratio  $U'(T)S_i(T) / U'(t)S_i(t)$  to construct a new probability distribution, i.e., a change of measure.
 
-# The Martingale Property
+## The Martingale Property
 
 From equation (5), the valuation equation for asset  $k$  is
 
@@ -258,7 +255,7 @@ $$
 We can then write equation (13) as
 
 $$
-\frac {S _ {k} (t)}{S _ {1} (t)} = \sum_ {j = 1} ^ {m} p _ {j} ^ {S _ {1}} \frac {S _ {k} (T , j)}{S _ {1} (T , j)} \tag {15}
+V(F_0,0) = F_0 N(d_1) - K N(d_2)
 $$
 
 Equation (15) is equivalent to the original valuation problem but embodies two changes. First, we measure the value and payoff in terms of units of asset 1; this is the change in numeraire. Second, the probabilities  $p_j^{S_1}$  define a new probability distribution; this is a change of measure.
@@ -268,7 +265,7 @@ How do probabilities change with a change of measure? From equation (11), the ne
 We have been writing  $\mathrm{E}_t[\cdot ]$  to denote an expectation with respect to the original, physical measure. We can similarly write  $\mathrm{E}_t^{S_1}[\cdot ]$  to denote an expectation computed using the  $p_j^{S_1}$  defined in equation (14). We can then write the valuation equation for  $S_{k}(t)$  as
 
 $$
-\boxed {\frac {S _ {k} (t)}{S _ {1} (t)} = \mathrm {E} _ {t} ^ {S _ {1}} \left[ \frac {\tilde {S} _ {k} (T)}{S _ {1} (T)} \right]} \tag {16}
+V(S_0,0) = P_0(0,T) \frac{S_0}{P_0(0,T)} \exp\left( -\frac{1}{2}\sigma^2 T \right) \exp\left( \frac{1}{2}\sigma^2 T \right) N(d_1) = S_0 N(d_1) \tag{36}
 $$
 
 Equation (16) shows that, when using the probability measure induced by the numeraire— $S_{1}$  in this case—the asset price ratio  $S_{k}(t) / S_{1}(t)$  is a martingale. We could have selected any asset as numeraire. The fact that price ratios are martingales is an important observation, and we will see that it places strong restrictions on acceptable pricing models.
@@ -281,12 +278,12 @@ $$
 With a change of numeraire and a change of measure, we can rewrite this valuation as
 
 $$
-\frac {x (t)}{S _ {1} (t)} = \mathrm {E} _ {t} ^ {S _ {1}} \left[ \frac {\tilde {x} (T)}{S _ {1} (T)} \right]
+V(F_0,0) = \mathrm{E}_0^{P(T)} \left[ \max(0, F_T - K) \right]
 $$
 
 We will see examples where such a transformation is extremely helpful.
 
-# Girsanov's Theorem
+## Girsanov's Theorem
 
 Thus far, nothing we have discussed in this section presumes that the asset follows any particular stochastic process. However, in many applications it is natural to assume that the price of an asset follows an Itô process. In that case, Girsanov's theorem provides a way to construct a change of measure. Girsanov's theorem is often summarized as showing the equivalence of a change of drift and a change of measure.
 
@@ -302,7 +299,7 @@ Girsanov's theorem tells us that if we add a drift to a Brownian motion, we can 
 
 The importance of Girsanov's theorem is that it assures us that it is possible to create the risk-neutral and other distributions that arise when we change numeraire and wish to use the associated measure. Girsanov's theorem also tells us how to construct this transformation should that be necessary. We will not make active use of Girsanov's theorem, but we will refer to it. Appendix B discusses Girsanov's theorem in greater detail.
 
-# 4. EXAMPLES OF NUMERAIRE AND MEASURE CHANGE
+## 4. EXAMPLES OF NUMERAIRE AND MEASURE CHANGE
 
 We now have most of the background to understand how changes of numeraire and measure are used in pricing derivatives. We select a convenient asset price ratio to be a martingale. We then adhere to this martingale restriction in modeling asset prices. $^{10}$
 
@@ -314,13 +311,13 @@ The requirements for a pricing model that is consistent with investor utility ma
 Throughout this section we will assume that assets do not pay dividends. You can think of this as an assumption that investors own prepaid forward contracts instead of the underlying asset. Suppose the stock follows the process
 
 $$
-\frac {d S}{S} = (\alpha - \delta) d t + \sigma d \tilde {Z}
+\frac{dQ}{Q} = (r - \delta_Q) dt + \sigma_Q dZ_Q
 $$
 
 The prepaid forward contract price is  $F_{t,T}^{P}(S) = S_{t}e^{-\delta (T - t)}$ . By Ito's Lemma, the prepaid forward price follows the process
 
 $$
-\frac {d F ^ {P}}{F ^ {P}} = \alpha d t + \sigma d \tilde {Z}
+dZ_Q = \rho dZ_S + \sqrt{1 - \rho^2} d\tilde{Z}
 $$
 
 By assuming that we invest in prepaid forward contracts it is often possible to ignore dividends. Once we obtain a solution, we can express the answer in terms of the stock price by replacing  $F_{t,T}^{P}$  with  $S_{t}e^{-\delta (T - t)}$ . Thus, in this section, we assume that all risky assets follow the process
@@ -331,7 +328,7 @@ $$
 
 We now present three commonly used numeraires and measures.
 
-# The Money-Market Account as Numeraire (Risk-Neutral Measure)
+## The Money-Market Account as Numeraire (Risk-Neutral Measure)
 
 The risk-neutral measure arises when we select the money-market account as numeraire. With this numeraire choice, we measure prices of other assets in terms of money-market units. We act as if asset returns follow equation (2).
 
@@ -344,7 +341,7 @@ $$
 If we start with an initial investment of  $B(0)$  in the account, then after  $t$  periods, the value of the account is
 
 $$
-B (t) = B (0) e ^ {\int_ {0} ^ {t} r (s) d s} \tag {19}
+\sigma = \sqrt{\sigma_S^2 + \sigma_Q^2 - 2\rho\sigma_S\sigma_Q}
 $$
 
 The value  $B(t)$  is the realized value of the account. If  $r(s)$  in equation (19) is a random variable, then  $B(t)$  is also a random variable, with a value depending on the realizations of  $r(s)$ . At this point you can view  $r(t)$  as a general stochastic process.
@@ -352,7 +349,7 @@ The value  $B(t)$  is the realized value of the account. If  $r(s)$  in equation
 The Money-Market Account as Numeraire. With the money-market account as numeraire, equation (15) implies that for each of the  $n$  assets,
 
 $$
-\frac {S _ {i} (t)}{B (t)} = \mathrm {E} _ {t} ^ {B} \left[ \frac {S _ {i} (T)}{B (T)} \right] \tag {20}
+V(S_0,Q_0,0) = \mathrm{E}_0^{P(T)} \left[ \max\left(0, \frac{S_T}{Q_T} - 1\right) \right] = \frac{S_0}{Q_0} N(d_1) - N(d_2)
 $$
 
 This states that under the measure generated by the money-market account, the ratio of the asset price to the money-market account is a martingale. Multiplying both sides by  $B(t)$  and using equation (19), this can be rewritten as
@@ -405,7 +402,7 @@ In equation (24), we add the Sharpe ratio to  $d\tilde{Z}_i$  to obtain  $dZ_i^B
 
 Although we invoked Girsanov's theorem in obtaining equation (25), in practice it is sufficient to replace  $\alpha$  with  $r(t)$  in equation (1) and discount expected payoffs at the risk-free rate. No special work is required to use the risk-neutral process; we simply proceed as if the stock had an expected return equal to the risk-free rate. The discussion in this section explains the logic behind the risk-neutral measure, but it is not necessary to duplicate these steps in practical applications.
 
-# Risky Asset as Numeraire
+## Risky Asset as Numeraire
 
 An arbitrary risky asset can also be numeraire. If we select asset 1, then under the associated measure,  $S_{i}(t) / S_{1}(t)$  must be a martingale for each asset. To see how this works, start by assuming that all assets follow equation (2), with  $\delta_{i} = 0$ , under the risk-neutral measure. Using Ito's Lemma, we have
 
@@ -426,12 +423,12 @@ $$
 Given this process for  $dZ_{1}^{S_{1}}$ ,  $S_{i}(t) / S_{1}(t)$  is a martingale provided that  $dZ_{i}^{S_{1}} = dZ_{i}^{B} - \rho_{1,i}\sigma_{1}\sigma_{i}dt$ . Thus, we can write
 
 $$
-\begin{array}{l} \frac {d S _ {i}}{S _ {i}} = r d t + \sigma_ {i} d Z _ {i} ^ {B} \\ = \left(r + \sigma_ {1} \sigma_ {i} \rho_ {1, i}\right) d t + \sigma_ {i} d Z _ {i} ^ {S _ {1}} \tag {28} \\ \end{array}
+\frac{S_T}{Q_T} = \frac{S_0}{Q_0} \exp\left[ \left( \delta_Q - \delta_S - \frac{1}{2} (\sigma_S^2 - 2\rho\sigma_S\sigma_Q + \sigma_Q^2) \right) T + \sigma_S z_1 \sqrt{T} - \sigma_Q z_2 \sqrt{T} \right]
 $$
 
 The drift for asset  $i$  under the  $S_{1}$  measure is greater by the covariance of asset  $i$  and asset 1  $(\rho_{1,i}\sigma_1\sigma_i)$ , divided by the standard deviation of asset  $i$  ( $\sigma_{i}$ ).
 
-# Zero Coupon Bond as Numeraire (Forward Measure)
+## Zero Coupon Bond as Numeraire (Forward Measure)
 
 An important special case of a risky asset as numeraire occurs when we select a zero-coupon bond maturing at time  $T$  as numeraire. The resulting measure is called the forward measure. Mathematically this case is identical to the preceding, but the interpretation is important enough to discuss it separately.
 
@@ -444,23 +441,18 @@ The forward measure and the risk-neutral measure are different, although both us
 
 The forward measure plays an important role in interest rate models.
 
-# 5. EXAMPLES OF MARTINGALE PRICING
+## 5. EXAMPLES OF MARTINGALE PRICING
 
 In this section we illustrate how one can use the martingale property of asset price ratios to derive various option pricing formulas in a relatively simple fashion. We will price both an ordinary and an outperformance call option. In the first example, we will go slowly through the derivation to be clear about the logic.
 
 We first derive the prices of two binary options: a cash-or-nothing call, which pays \$1 when  $S_T > K$ , and an asset-or-nothing call, which pays one share (worth  $S_T$ ) when  $S_T > K$ . As a by-product, we will obtain the Black-Scholes formula. However, we will also obtain the pricing formula for an outperformance option and for an option where a zero-coupon bond is the underlying asset (the Black formula).
 
-# Cash-or-Nothing Call
+## Cash-or-Nothing Call
 
 A cash-or-nothing call pays \$1 if S_T > K and 0 otherwise. We can rewrite the condition for a payoff as S_T > K P_T(T, T), where P_t(s, T) is the time t value of a default-free \$1 zero-coupon bond bought at s and expiring at T. By definition, we have P_T(T, T) = 1. Writing the strike price in this way emphasizes that the strike asset can be viewed as K zero-coupon bonds. We can also view the claim, if it is in-the-money, as paying a zero-coupon bond. The payoff can therefore be written
 
 $$
-V \left(S _ {T}, T\right) = P _ {T} (T, T) \mathbf {1} \left[ S _ {T} > K P _ {T} (T, T) \right] \tag {29}
-$$ where  $\mathbf{1}(x)$  is an indicator function that takes the value one if the event  $x$  occurs and zero otherwise.
-
-
-Using the stochastic discount factor to compute the value of the payoff at time 0, we have
-
+V(S_T,T) = S_T \mathbf{1}[S_T > K]
 $$
 
 \begin{array}{l} V (S _ {0}, 0) = \mathrm {E} _ {0} \left[ \begin{array}{c c} \frac {U ^ {\prime} (T)}{U ^ {\prime} (0)} P _ {T} (T, T) & \mathbf {1} [ S (T) \geq K P _ {T} (T, T) ] \end{array} \right] \\ = P _ {0} (0, T) \mathrm {E} _ {0} \left[ \frac {U ^ {\prime} (T) P _ {T} (T , T)}{U ^ {\prime} (0) P _ {0} (0 , T)} \quad \mathbf {1} \left(\frac {S (T)}{P _ {T} (T , T)} \geq K\right) \right] \\ = P _ {0} (0, T) \mathrm {E} _ {0} ^ {P (T)} \left[ \mathbf {1} \left(\frac {S (T)}{P _ {T} (T , T)} \geq K\right) \right] \tag {30} \\ \end{array}
@@ -490,10 +482,7 @@ $$
 This implies that
 
 $$
-\ln \left[ \frac {S (T)}{P _ {T} (T , T)} \right] = \ln \left[ \frac {S (t)}{P _ {t} (t , T)} \right] - 0. 5 \sigma^ {2} (T - t) + z \sigma \sqrt {T - t}
-$$ where  $z$  is a standard normal random variable. The probability the option expires in-the-money is therefore
-
-
+d_1 = \frac{\ln(F_0/K) + \frac{1}{2}\sigma^2 T}{\sigma\sqrt{T}}
 $$
 
 \begin{array}{l} \Pr^ {P (T)} \left[ \ln \left(S (T) / P _ {T} (T, T)\right) \geq \ln (K) \right] \\ = \Pr \left[ \ln (S (t) / P _ {t} (t, T)) - 0. 5 \sigma^ {2} (T - t) + z \sigma \sqrt {T - t} \geq \ln (K) \right] \\ = \Pr \left[ - z \leq \frac {\ln \left[ S (t) / K P _ {t} (t , T) \right] - 0 . 5 \sigma^ {2} (T - t)}{\sigma \sqrt {T - t}} \right] \\ \end{array}
@@ -528,7 +517,7 @@ An additional issue is that the volatility of the bond will change over time, ge
 
 Dividends. The foregoing derivation assumed that the underlying asset did not pay a dividend. When the asset does pay a dividend, we can view the price as a prepaid forward price. It is then simple to express the derivative price in terms of the stock price, rather than the prepaid forward, by replacing the price  $S_{t}$  with  $S_{t}e^{-\delta (T - t)}$ . Doing so, we obtain the formula when the stock pays a continuous dividend.
 
-# Asset-or-Nothing Call
+## Asset-or-Nothing Call
 
 An asset-or-nothing call pays one share worth  $S_{T}$  if  $S_{T} > K$  and 0 otherwise. As with the cash-or-nothing call, we compute the time 0 value of the payoff:
 
@@ -539,7 +528,7 @@ $$
 This resembles the derivation of the cash-or-nothing call. Because the payoff is a share, however, it is natural to use the stock measure rather than the forward measure. Equation (33) can be rewritten
 
 $$
-\mathrm {E} _ {0} ^ {S} \left[ \mathbf {1} \left(\frac {1}{K} \geq \frac {P _ {T} (T , T)}{S (T)}\right) \right] = \Pr^ {S} \left[ \frac {1}{K} \geq \frac {P _ {T} (T , T)}{S (T)} \right] \tag {34}
+V(S_0,0) = P_0(0,T) \mathrm{E}_0^{P(T)} \left[ \frac{S_T}{P_T(T,T)} \mathbf{1} \left[ \frac{S_T}{P_T(T,T)} > K \right] \right]
 $$
 
 We evaluate this probability by using the fact that, under the  $S(t)$  measure, the ratio  $P_{t}(t,T) / S(t)$  is a martingale.
@@ -700,7 +689,7 @@ An investor who, by contrast, is constrained—who for some reason is not able t
 
 A more general version of Buffett's argument is that stocks are a good investment for the "long run" because stocks on average are expected to outperform bonds. Such discussions typically do not take into account the difference in marginal utilities associated with gains and losses. One example of a decision based on the positive risk premium is presented in Box 2, which discusses the Pension Benefit Guaranty Corporation's trust fund, in what assets it should be invested, how it should be hedged, and the role that the risk premium plays in its risk-management decisions.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 Investors at all times must decide how to invest their savings. This portfolio decision by investors determines the equilibrium demand for different assets and thus the pricing of assets. Investors selecting optimal portfolios give up utility today for expected utility in the future. The portfolio selection first-order condition (the mathematical condition that holds when an investor holds an optimal portfolio) states that the utility investors give up
 
@@ -729,6 +718,6 @@ The idea that asset price ratios are martingales can be used to simplify derivat
 
 The fact that derivative pricing formulas are intimately connected with portfolio decisions by investors provides insight into the economics underlying derivative pricing models. For example, Warren Buffett's argument that the Black-Scholes put price gives unreasonable prices for very long-term puts must ultimately be interpretable in terms of the pricing of stocks and bonds.
 
-# FURTHER READING
+## FURTHER READING
 
 Risk-neutral pricing is implicit in the original option pricing derivation in Black and Scholes (1973). However, Cox and Ross (1976) were the first to systematically exploit the idea that one could price options as if investors were risk-neutral. The link between risk-neutral pricing and the consumption and portfolio choice problems was first articulated in Harrison and Kreps (1979). Finally, the systematic development of the martingale approach to pricing is presented in Geman et al. (1995). Warren Buffett's discussion of his option writing strategy is in Buffett (2009; see especially pp. 19-21).

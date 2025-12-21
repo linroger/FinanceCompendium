@@ -1,8 +1,33 @@
 ---
 title: "Chapter 8 - Interest Rate Forwards and Futures"
 aliases:
-  - Interest Rate Forwards and Futures
+   - Interest Rate Forwards and Futures
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:30:00 AM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+   - interest rate forwards
+   - bond pricing theory
+   - futures contracts
+   - duration convexity
+   - repurchase agreements
+secondary_tags:
+   - zero coupon bonds
+   - implied forward rates
+   - forward rate agreements
+   - eurodollar futures
+   - treasury futures
+   - convexity bias
+   - cheapest to deliver
+   - synthetic fras
+   - duration matching
+   - pvbp dv01
+   - macaulay duration
+   - modified duration
+   - yield curve
+   - hedging strategies
+   - repo market
 cssclasses: academia
 ---
 
@@ -30,7 +55,7 @@ In addition to government bonds there are also STRIPS. A STRIPS—Separate Tradi
 
 We need a way to represent bond prices and interest rates. Interest rate notation is, unfortunately and inevitably, cumbersome, because for any rate we must keep track of three dates: the date on which the rate is quoted, and the period of time (this has beginning and ending dates) over which the rate prevails. We will let  $r_t(t_1, t_2)$  represent the interest rate from time  $t_1$  to time  $t_2$ , prevailing on date  $t$ . If the interest rate is current—i.e., if  $t = t_1$ —and if there is no risk of confusion, we will drop the subscript.
 
-# Zero-Coupon Bonds
+## Zero-Coupon Bonds
 
 We begin by showing that the zero-coupon bond yield and zero-coupon bond price, columns (1) and (2) in Table 1, provide the same information. A zero-coupon bond is a bond that makes only a single payment at its maturity date. Our notation for zero-coupon bond prices will mimic that for interest rates. The price of a bond quoted at time  $t_0$ , with the bond to be purchased at  $t_1$  and maturing at  $t_2$ , is  $P_{t_0}(t_1, t_2)$ . As with interest rates, we will drop the subscript when  $t_0 = t_1$ .
 
@@ -38,16 +63,16 @@ The 1-year zero-coupon bond price of P(0, 1) = 0.943396 means that you would pay
 
 The yield to maturity (or internal rate of return) on a zero-coupon bond is simply the percentage increase in dollars earned from the bond. For the 1-year bond, we end up with  $1 / 0.943396 - 1 = 0.06$  more dollars per \$1 invested. If we are quoting interest rates as effective annual rates, this is a  $6 \%$  yield.
 
-For the zero-coupon 2-year bond, we end up with  $1 / 0.881659 - 1 = 0.134225$  more dollars per  $\$ 1$  invested. We could call this a 2year effective interest rate of  $13.4225\%$ , but it is conventional to quote rates on an annual basis. If we want this yield to be comparable to the  $6 \%$  yield on the 1year bond, we could assume annual compounding and get  $(1 + r(0,2))^{2} = 1.134225$ , which implies that  $r(0,2) = 0.065$ . In general,
+For the zero-coupon 2-year bond, we end up with  $1 / 0.881659 - 1 = 0.134225$  more dollars per  $\$ 1$  invested. We could call this a 2-year effective interest rate of  $13.4225\%$ , but it is conventional to quote rates on an annual basis. If we want this yield to be comparable to the  $6 \%$  yield on the 1-year bond, we could assume annual compounding and get  $(1 + r(0,2))^{2} = 1.134225$ , which implies that  $r(0,2) = 0.065$ . In general,
 
 $$
-P (0, n) = \frac {1}{[ 1 + r (0 , n) ] ^ {n}} \tag {1}
+P(0, n) = \frac{1}{[1 + r(0,n)]^{n}} \tag{1}
 $$
 
 Note from equation (1) that a zero-coupon bond price is a discount factor: A zero-coupon bond price is what you would pay today to receive \$1 in the future. If you have a future cash flow at time  $t$ ,  $C_t$ , you can multiply it by the price of a zero-coupon bond,  $P(0, t)$ , to obtain the present value of the cash flow. Because of equation (1), multiplying by  $P(0, t)$  is the same as discounting at the rate  $r(0, t)$ , i.e.,
 
 $$
-C _ {t} \times P (0, t) = \frac {C _ {t}}{[ 1 + r (0 , t) ] ^ {t}}
+C_{t} \times P(0, t) = \frac{C_{t}}{[1 + r(0,t)]^{t}}
 $$
 
 The inverse of the zero-coupon bond price,  $1 / P(0,t)$ , provides a future value factor.
@@ -56,11 +81,11 @@ In contrast to zero-coupon bond prices, interest rates are subject to quoting co
 
 A graph of annualized zero-coupon yields to maturity against time to maturity is called the zero-coupon yield curve. A yield curve shows us how yields to maturity vary with time to maturity. In practice, it is common to present the yield curve based on coupon bonds, not zero-coupon bonds.
 
-# Implied Forward Rates
+## Implied Forward Rates
 
 We now see how column (3) in Table 1 can be computed from either column (1) or (2). The 1-year and 2-year zero-coupon yields are the rates you can earn from year 0 to year 1 and from year 0 to year 2. There is also an implicit rate that can be earned from year 1 to year 2 that must be consistent with the other two rates. This rate is called the implied forward rate.
 
-Suppose we could today guarantee a rate we could earn from year 1 to year 2. We know that  $1 invested for 1 year earns \left[1 + r_0(0, 1)\right] and$ 1 invested for 2 years earns  $[1 + r_0(0, 2)]^2$ . Thus, the time 0 forward rate from year 1 to year 2,  $r_0(1, 2)$ , should satisfy
+Suppose we could today guarantee a rate we could earn from year 1 to year 2. We know that  $1 invested for 1 year earns \left[1 + r_0(0, 1)\right]$ and $1 invested for 2 years earns  $[1 + r_0(0, 2)]^2$ . Thus, the time 0 forward rate from year 1 to year 2,  $r_0(1, 2)$ , should satisfy
 
 $$
 [ 1 + r _ {0} (0, 1) ] [ 1 + r _ {0} (1, 2) ] = [ 1 + r _ {0} (0, 2) ] ^ {2}
@@ -124,7 +149,7 @@ $$
 
 $$
 
-# Coupon Bonds
+## Coupon Bonds
 
 Given the prices of zero-coupon bonds—column (1) in Table 1—we can price coupon bonds. We can also compute the par coupon—column (4) in Table 1—the coupon rate at which a bond will be priced at par. To describe a coupon bond, we need to know the date at which the bond is being priced, the start and end date of the bond payments, the number and amount of the payments, and the amount of principal. Some practical complexities associated with coupon bonds, not essential for our purposes, are discussed in Appendix A.
 
@@ -165,7 +190,7 @@ It is common to compute the quoted annualized yield to maturity,  $y$ , as  $y =
 
 The difference between equation (5) and equation (7) is that in equation (5), each coupon payment is discounted at the appropriate rate for a cash flow occurring at that time. In equation (7), one rate is used to discount all cash flows. By definition, the two expressions give the same price. However, equation (7) can be misleading, since the yield to maturity,  $y_{m}$ , is not the return an investor earns by buying and holding a bond. Moreover, equation (7) provides no insight into how the cash flows from a bond can be replicated with zero-coupon bonds.
 
-# Zeros from Coupons
+## Zeros from Coupons
 
 We have started with zero-coupon bond prices and deduced the prices of coupon bonds. In practice, the situation is often the reverse: We observe prices of coupon bonds and must infer prices of zero-coupon bonds. This procedure in which zero coupon bond prices are deduced from a set of coupon bond prices is called bootstrapping.
 
@@ -203,7 +228,7 @@ $$
 There is nothing about the procedure that requires the bonds to trade at par. In fact, we do not even need the bonds to all have different maturities. For example, if we had a 1-year bond and two different 3-year bonds, we could still solve for the three zero-coupon bond prices by solving simultaneous equations.
 
 
-# Interpreting the Coupon Rate
+## Interpreting the Coupon Rate
 
 A coupon rate—for example the  $6.95485\%$  coupon on the 3-year bond—determines the cash flows the bondholder receives. However, except in special cases, it does not correspond to the rate of return that an investor actually earns by holding the bond.
 
@@ -249,7 +274,7 @@ The belief that the implied forward interest rate equals the expected future spo
 
 In practice, you can guarantee the  $7\%$  return by using forward rate agreements to lock in the interest rate for each of the reinvested coupons. We discuss forward rate agreements in Section 2.
 
-# Continuously Compounded Yields
+## Continuously Compounded Yields
 
 Any interest rate can be quoted as either an effective annual rate or a continuously compounded rate. (Or in a variety of other ways, such as a semiannually compounded rate, which is common with bonds. See Appendix A.) Column (5) in Table 1 presents the continuously compounded equivalents of the rates in the "zero yield" column.
 
@@ -294,7 +319,7 @@ $$
 
 Depending upon the interest rate, there is a variation of  \0.5\mathrm{m}  in the borrowing cost. How can we hedge this uncertainty?
 
-# Forward Rate Agreements
+### Forward Rate Agreements
 
 A forward rate agreement (FRA) is an over-the-counter contract that guarantees a borrowing or lending rate on a given notional principal amount. FRAs can be settled either at the initiation or maturity of the borrowing or lending transaction. If settled at maturity, we will say the FRA is settled in arrears. In the example above, the FRA could be settled on day 120, the point at which the borrowing rate becomes known and the borrowing takes place, or settled in arrears on day 211, when the loan is repaid.
 
@@ -346,7 +371,7 @@ The borrower can invest this amount, which gives 200,000 in September, an amount
 
 If the forward rate agreement covers a borrowing period other than 91 days, we simply use the appropriate rate instead of the 91-day rate in the above calculations.
 
-# Synthetic FRAs
+### Synthetic FRAs
 
 Suppose that today is day 0. By using a forward rate agreement, we will be able to invest \$1 on day 120 and be guaranteed a 91-day return of 1.8\%. We can synthetically create the same effect as with an FRA by trading zero-coupon bonds. In order to accomplish this we need to guarantee cash flows of $0 on day 0, -$1 on day 120, and +\$1.018 on day 211.4
 
@@ -403,7 +428,7 @@ In general, we have the following conclusions concerning a rate forward covering
 1. Buying  $1 + r_{t_0}(t_1, t_2)$  of the zero-coupon bond maturing on day  $t_2$ , and
 2. Shorting 1 zero-coupon bond maturing on day  $t_1$ .
 
-# Eurodollar Futures
+### Eurodollar Futures
 
 Eurodollar futures contracts are similar to FRAs in that they can be used to guarantee a borrowing rate. There are subtle differences between FRAs and Eurodollar contracts, however, that are important to understand.
 
@@ -454,7 +479,7 @@ Notice that the amounts are different than with the FRA: The reason is that the 
 We can now invest these proceeds at the prevailing interest rate. Here are the results on day 211, when borrowing must be repaid. If LIBOR = 6\% (r quarterly = 1.5\%), we save 300,000 in borrowing cost, and the proceeds from the Eurodollar contract are
 
 $$
-- \$ 2 9 4, 6 9 5 \times (1. 0 1 5) = - \$ 2 9 9, 1 1 5
+- \$ 294,695 \times (1.015) = - \$ 299,115
 $$
 
 If LIBOR = 8\% (r_quarterly = 2.0\%), we owe an extra 200,000 in interest and the invested proceeds from the Eurodollar contract are
@@ -526,11 +551,11 @@ Figure 2 shows historical 3-month LIBOR along with the difference between LIBOR 
 
 The Eurodollar futures contract is far more popular than the T-bill futures contract. Trading volume and open interest on the two contracts were about equal in the early 1980s. However, in recent years, open interest on the Eurodollar contract has been millions of contracts, while the T-bill contract has had zero open interest. This is consistent with LIBOR being a better measure of private sector interest rates than the T-bill yield.
 
-# 3. DURATION AND CONVEXITY
+## Duration and Convexity
 
 An important characteristic of a bond is the sensitivity of its price to interest rate changes, which we measure using duration. Duration tells us approximately how much the bond's price will change for a given change in the bond's yield. Duration is thus a summary measure of the risk of a bond, permitting a comparison of bonds with different coupons, times to maturity, and discounts or premiums relative to principal. In this section we also discuss convexity, which is another measure related to bond price risk.
 
-# Price Value of a Basis Point and DV0I
+### Price Value of a Basis Point and DV01
 
 We first compute the change in the bond price due to a change in the yield. Suppose a bond makes  $m$  coupon payments per year for  $T$  years in the amount  $C / m$  and pays  $M$  at maturity. Let  $y / m$  be the per-period yield to maturity (by convention,  $y$  is the annualized yield to maturity) and  $n = m \times T$  the number of periods until maturity. The price of the bond,  $B(y)$ , is given by
 
@@ -580,7 +605,7 @@ $$
 
 In order for this to reflect a change of 1 basis point, we divide by 10,000 to obtain  $-\228.87 / 10,000 = -\$ 0.02289, almost equal to the actual bond price change. This illustrates the importance of scaling equation (9) appropriately.
 
-# Duration
+### Duration
 
 When comparing bonds with different prices and par values, it is helpful to have a measure of price sensitivity expressed per dollar of bond price. We obtain this by dividing equation (9) by the bond price,  $B(y)$ , and multiplying by  $-1$ . This gives us a measure known as modified duration, which is the percentage change in the bond price for a unit change in the yield:
 
@@ -666,7 +691,7 @@ The actual new bond price is 100 / (1.0725)^3 = \ 81.060. The prediction error i
 
 Although duration is an important concept and is frequently used in practice, it has a conceptual problem. We emphasized in the previous section that a coupon bond is a collection of zero-coupon bonds, and therefore each cash flow has its own discount rate. Yet both duration formulas are computed assuming that all cash flows are discounted by a single artificial number, the yield to maturity.
 
-# Duration Matching
+### Duration Matching
 
 Suppose we own a bond with time to maturity  $t_1$ , price  $B_1$ , and Macaulay duration  $D_1$ . We are considering a short position in a bond with maturity  $t_2$ , price  $B_2$ , and Macaulay duration
 
@@ -703,7 +728,7 @@ $$
 - 1.289 + (- 0.7408) \times - 1.735 = - 0.004
 $$
 
-# Convexity
+### Convexity
 
 The hedge in Example 8 is not perfect, because duration changes as the interest rate changes. Convexity measures the extent to which duration changes as the bond's yield changes. The formula for convexity is
 
@@ -746,7 +771,7 @@ Comparison of the value of three bond positions as a function of the yield to ma
 
 The idea that using both duration and convexity provides a more accurate model of bond price changes is not particular to bonds, but it pertains to options as well.
 
-# 4. TREASURY-BOND AND TREASURY-NOTE FUTURES
+## Treasury-Bond and Treasury-Note Futures
 
 The Treasury-note and Treasury-bond futures contracts are important instruments for hedging interest rate risk. $^{17}$  The specifications for the T-note contract are listed in Figure 4. The bond contract is similar except that the deliverable bond has a maturity of at least 15 years, or if the bond is callable, has 15 years to first call. The two contracts are similar; we will focus here on the T-note contract. In this discussion we will use the terms "bond" and "note" interchangeably.
 
@@ -808,7 +833,7 @@ In the end, settlement procedures for the T-bond and T-note contracts permitted 
 
 The idea that there is a cheapest to deliver is not exclusive to Treasury bonds. The same issue arises with commodities, where a futures contract may permit delivery of commodities at different locations or of different qualities.
 
-# 5. REPURCHASE AGREEMENTS
+## Repurchase Agreements
 
 A repurchase agreement, or repo, is the sale of a security, with the seller agreeing to buy the security back at a prespecified price at a later date. The counterparty to a repo enters into a reverse repurchase agreement, or reverse repo, which is the purchase of a security, with the buyer agreeing to sell it at the prespecified price at the later date. The repo is a reverse cash-and-carry—a sale coupled with a long forward position. The reverse repo is a cash-and-carry—a purchase coupled with a short forward position.
 
@@ -880,7 +905,7 @@ deliverable, and there is a cheapest to deliver. The futures price will reflect 
 
 Repurchase agreements and reverse repurchase agreements are synthetic short-term borrowing and lending, the equivalent of reverse cash-and-carry and cash-and-carry transactions.
 
-# FURTHER READING
+## Further Reading
 
 Basic interest rate concepts are fundamental in finance. While the bond price calculations in this chapter are useful in practice, concepts such as duration have conceptual problems.
 

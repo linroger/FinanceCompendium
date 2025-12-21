@@ -1,11 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Option Pricing Theory and Models
-linter-yaml-title-alias: Option Pricing Theory and Models
+parent_directory: Investment Valuation/chapters
+formatted: 2025-12-21 03:20:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - option pricing theory
+  - black-scholes model
+  - binomial model
+secondary_tags:
+  - call options
+  - put options
+  - option valuation
+  - risk-neutral pricing
+  - arbitrage
+  - replicating portfolio
+  - implied volatility
+  - dividends adjustment
+  - early exercise
+cssclasses: academia
 ---
 
 # Option Pricing Theory and Models

@@ -1,13 +1,20 @@
 ---
-parent_directory:
-title: "PANDORA MEDIA INC. (P, FAIR VALUE, PT: $16.00, CLOSE: $15.41)"
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+title: "Pandora Media Inc. (P, Fair Value, PT: \$16.00, Close: \$15.41)"
+parent_directory: X. Quantitative Trading/FINM Quantitative Trading Strategies/Lecture Notes
+primary_tags:
+  - pandora media analysis
+  - music streaming business
+  - analyst report example
+secondary_tags:
+  - local advertising salesforce
+  - programmatic advertising strategy
+  - user growth metrics
+  - revenue per minute analysis
+  - fair value rating
 cssclasses: academia
-linter-yaml-title-alias: "PANDORA MEDIA INC. (P, FAIR VALUE, PT: $16.00, CLOSE: $15.41)"
+formatted: 2025-12-21 02:40:00 AM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
 ---
 
 # PANDORA MEDIA INC. (P, FAIR VALUE, PT: \$16.00, CLOSE: \$15.41)
@@ -26,7 +33,7 @@ Marketing and Product Innovations Fuel Push to 100M Users and  $3B+$  Monthly Li
 
 Maintain Fair Value Rating and  $\$ 16$ Price Target. Our  $\$ 16$ price target is based on 2.5x our 2016E sales forecast of  $\$ 1.45$ B and 20x our 2016E EBITDA forecast of  $\$ 144$ M. Risks to our price target include decelerating user and usage growth, increasing operating expenses, risks related to content costs and the CRB rate court process, and competition.
 
-# Key Takeaways from Pandora Analyst Day
+## Key Takeaways from Pandora Analyst Day
 
 Local Salesforce Productivity Trend Should Increase Confidence in Continued Salesforce Investments. Pandora management highlighted strong local salesforce productivity growth over time, across both large and smaller media markets, as illustrated in the exhibit below.
 
@@ -36,7 +43,7 @@ Source: Company reports
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c1f42c16-0e22-4cf1-9960-8a8773e73b6b/36090629c4d37e5b54f6ff7bc6b38fd53c663e7ca74f4fa5a20bf0bea7369966.jpg)
 
-We believe these new data points should provide investors with additional comfort as Pandora continues to scale the local salesforce in 1H15. Management also noted the continued time spent vs. local monetization gap. Given the  \$15B local radio advertising opportunity, Pandora estimates its “fair share” of the market at\$ 1.5B based on its 10% share of radio listening, versus P's actual \$200M in local ad sales in 2014.
+We believe these new data points should provide investors with additional comfort as Pandora continues to scale the local salesforce in 1H15. Management also noted the continued time spent vs. local monetization gap. Given the  \$15B local radio advertising opportunity, Pandora estimates its “fair share” of the market at \$1.5B based on its 10% share of radio listening, versus P's actual \$200M in local ad sales in 2014.
 
 Exhibit 2. Pandora "Share of Ear" vs. Share of Local Radio Budgets  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c1f42c16-0e22-4cf1-9960-8a8773e73b6b/2dd654a67e5cba4fccf3b6e3dfdb9dda6752abe97ec5026be197f1a006b888ce.jpg)  
@@ -60,9 +67,9 @@ We are also constructive on Pandora's efforts to drive audience growth and liste
 
 Cautiously Optimistic on Pandora's International Ambitions. Management made the case for a global Pandora, articulating the Company's ambition to serve hundreds of millions of active listeners worldwide over the 2020+ timeframe. We remain cautiously optimistic on Pandora's longer-term international opportunity, and believe that the Company's increasingly conciliatory tone toward the music industry (outside, of course, of the CRB proceedings) could facilitate Pandora's eventual expansion into regions without compulsory licensing frameworks.
 
-# Pandora Media Inc. (P, Fair Value, PT:\$16.00)
+## Pandora Media Inc. (P, Fair Value, PT:\$16.00)
 
-# REQUIRED DISCLOSURES
+## REQUIRED DISCLOSURES
 
 The recommendations and guidance expressed in this research report accurately reflect the personal recommendations and guidance of the research analyst principally responsible for the preparation of this report
 
@@ -80,7 +87,7 @@ As of March 6, 2015</td></tr><tr><td>Buy 70.16%</td><td>4.60%</td></tr><tr><td>F
 
 Valuations are based on estimates using traditional industry methods including, inter alia, analysis of earnings multiples, discounted cash flow calculations and net asset value assessments. Price targets should be considered in the context of all prior CRT research published in connection with the subject issuer, which may or may not have included price targets, as well as developments relating to the company, its industry and financial markets. Risks that may impede achievement of the stated price target, if any, include, but are not limited to, broad market and macroeconomic fluctuations and unforeseen changes in the subject company's fundamentals or business trends.
 
-# OTHER DISCLOSURES
+## OTHER DISCLOSURES
 
 This report has no regard to the specific investment objectives, financial situation or particular needs of any specific recipient. This report is published solely for informational purposes and is not to be construed as a solicitation or an offer to buy or sell any securities or related financial instruments. The securities described herein may not be eligible for sale in all jurisdictions or to certain categories of investors. This report is based on information obtained from sources believed to be reliable but is neither guaranteed to be accurate nor intended to be a complete statement or summary of the securities, markets or developments referred to in the report. Recipients should not use this report as a substitute for the prudent exercise of their own judgment. Any opinions expressed in this report are subject to change without notice and CRT is under no obligation to update or keep current the information contained herein. CRT and/or its directors, officers and employees may have or may have had interests or long or short positions in, and may at any time make purchases and/or sales as principal or agent, or may have acted or may act in the future as market maker in the relevant securities or related financial instruments discussed in this report. CRT may rely on informational barriers such as "Chinese Walls" to control the flow of information situated in one or more areas within CRT into other units, divisions or groups within CRT.
 

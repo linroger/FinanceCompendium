@@ -1,9 +1,27 @@
 ---
+title: "Solution 2: Stripping Caps and BDT Model Calibration"
+aliases:
+   - Cap Stripping Solution
+   - BDT Model Solution
 tags:
 key_concepts:
-parent_directory:
+parent_directory: finm-fiderivs-2024-main
+formatted: 2025-12-21 02:32:03 PM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: claude-code
+primary_tags:
+   - cap stripping
+   - black scholes formula
+   - forward volatilities
+   - bdt model calibration
+   - interest rate derivatives
+secondary_tags:
+   - caplet pricing
+   - binomial trees
+   - volatility calibration
+   - sofar swaps
+   - rate curves
 cssclasses: academia
-title: Solution 2
 ---
 
 # Solution 2
@@ -33,55 +51,54 @@ The file `data/cap_curves_2024-02-16.xlsx` has market data on the following curv
 A few details
 
 * the swap and forward rates are quarterly compounded.
-* the flat volatilites are (Black) quotes on caps containing caplets ranging from expiration of $\tau=.5$ to $\tau=T$.
+* the flat volatilites are (Black) quotes on caps containing caplets ranging from expiration of $\tau = .5$ to $\tau = T$.
 * the details of the data prep can be found in `build_data/Process Cap Quotes`.
 
 ## Context
 
-Recall that 
+Recall that
 
-* a cap is made of caplets with $.5\le \tau \le T$
+* a cap is made of caplets with $.5 \leq \tau \leq T$
 * the flat volatility at $T$ is input for every caplet corresponding to the cap of $T$.
 * use Black's formula for this calculation.
-* in Black's formula, use $T-0.25$ as the rate for the caplet is determined one period before it is paid.
+* in Black's formula, use $T - 0.25$ as the rate for the caplet is determined one period before it is paid.
 
 As for the cap parameters,
 
-* the cap's strike is the swap rate with the same tenor. So the $T=2$ cap is struck at the swap rate of $\tau=2$.
+* the cap's strike is the swap rate with the same tenor. So the $T = 2$ cap is struck at the swap rate of $\tau = 2$.
 * the notional of the cap is \$100.
 * the payoff of each caplet is
 
-$$\frac{100}{n}\max(r-K,0)$$
+$$\frac{100}{n}\max(r - K, 0)$$
 
-where $n$ is the frequency; here $n=4$.
+where $n$ is the frequency; here $n = 4$.
 
 Thus, the corresponding value in Black's formula for a caplet is
 
-$$P^{\text{cap}}_{T} = \frac{100}{n} \sum_{\tau=.5}^T B_{\text{call}}(\overline{\sigma}_T, \tau-.25, K=s_T, f_{\tau}, Z_{\tau})$$
+$$P^{\text{cap}}_{T} = \frac{100}{n} \sum_{\tau = .5}^{T} B_{\text{call}}(\overline{\sigma}_{T}, \tau - .25, K = s_{T}, f_{\tau}, Z_{\tau})$$
 
-Note here that for every caplet in cap $T$, we plug in the same 
+Note here that for every caplet in cap $T$, we plug in the same
 
 * flat vol with tenor $T$.
 * strike which is the swap rate of maturity $T$.
 
-The notation above is using subscripts for tenor / maturity rather than time period. That is, $Z_{\tau}$ denotes $Z(t, t+\tau)$ which is today's discount factor for maturity $\tau$. Similarly for the swap rate of tenor $T$, denoted above $s_T$ and forward rate $f(t,t+\tau-.25, t+\tau)$ denoted simply $f_{\tau}$.
+The notation above is using subscripts for tenor / maturity rather than time period. That is, $Z_{\tau}$ denotes $Z(t, t + \tau)$ which is today's discount factor for maturity $\tau$. Similarly for the swap rate of tenor $T$, denoted above $s_{T}$ and forward rate $f(t, t + \tau - .25, t + \tau)$ denoted simply $f_{\tau}$.
 
 ### Black's Formula
 
 Recall Black's formula:
 
 $$\begin{align}
-B_{\text{call}}(\sigma, T, K, f, Z) = &\; Z\left[f\mathcal{N}\left(d_1\right) - K\mathcal{N}(d_2)\right] \\
-d_1 =& \frac{\ln\left(\frac{f}{K}\right) + \frac{\sigma^2}{2}T}{\sigma\sqrt{T}} \\
-d_2 =& d_1 -\sigma\sqrt{T}
-\end{align}
-$$
+B_{\text{call}}(\sigma, T, K, f, Z) &= Z[f\mathcal{N}(d_1) - K\mathcal{N}(d_2)] \\
+d_1 &= \frac{\ln(f/K) + \frac{\sigma^2}{2}T}{\sigma\sqrt{T}} \\
+d_2 &= d_1 - \sigma\sqrt{T}
+\end{align}$$
 
 ## 1.1 Cap Prices
 
-For each cap maturity, $.5\le T \le 10$, use the flat volatility to get the price of the cap.
+For each cap maturity, $.5 \leq T \leq 10$, use the flat volatility to get the price of the cap.
 
-Report the cap prices across expirations, $.5\le T \le 10$.
+Report the cap prices across expirations, $.5 \leq T \leq 10$.
 
 Plot the cap prices across expirations.
 
@@ -94,18 +111,18 @@ Using the cap prices, strip out the
 
 List and plot the forward volatility versus the flat volatiltiy.
 
-## 1.3 Calibrate a BDT model 
+## 1.3 Calibrate a BDT model
 
 Use data from the file `data/cap_curves_2024-02-16.xlsx` to calibrate the BDT model.
 
-* Use the forward volatilities calculated in 1.2 to calibrate $\sigma$ at each step. 
-* You do not have a forward volatility at $\tau=.25$ given there is no caplet there. For purposes of the BDT model, assume $\sigma_{.25}$ is equal to the forward volatility at the first estimated period, $t=0.50$. That is, use the first estimated forward vol (corresponding to $\tau=.50$ for both $t=.25$ and $t=.50$ in the BDT tree.    
+* Use the forward volatilities calculated in 1.2 to calibrate $\sigma$ at each step.
+* You do not have a forward volatility at $\tau = .25$ given there is no caplet there. For purposes of the BDT model, assume $\sigma_{.25}$ is equal to the forward volatility at the first estimated period, $t = 0.50$. That is, use the first estimated forward vol (corresponding to $\tau = .50$ for both $t = .25$ and $t = .50$ in the BDT tree.
 
 Given these volatility parameters, calibrate the series of $\theta$ to fit the zero-coupon bond prices given by `discounts` (multiplied by 100).
 
 **Display**
 * the series of $\theta$ parameters.
-* the tree of rates from $0\le t \le 10$.
+* the tree of rates from $0 \leq t \leq 10$.
 
 ***
 

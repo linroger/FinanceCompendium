@@ -1,16 +1,30 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "III - Valuation Inputs (Chapters 7-12)"
+parent_directory: "Investment Valuation - Tools and Techniques for Determining the Value of Any Asset"
+formatted: "2025-12-21 02:25:00 PM"
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+  - risk free rates
+  - equity risk premium
+  - default spreads
+  - country risk premium
+  - historical risk premiums
+secondary_tags:
+  - treasury bond rates
+  - bond ratings
+  - implied equity premium
+  - credit default swaps
+  - sovereign risk
+  - beta estimation
+  - valuation inputs
+  - expected returns
+  - market risk premium
+  - emerging markets
 cssclasses: academia
-title: Investment Valuation
-linter-yaml-title-alias: Investment Valuation
 ---
 
-# Investment Valuation
-
-## III - Valuation Inputs (Chapters 7-12)
+# III - Valuation Inputs (Chapters 7-12)
 
 ---
 
@@ -499,32 +513,9 @@ The risk-free rate is the starting point for all expected return models. For an 
 
 The risk premium is a fundamental and critical component in portfolio management, corporate finance, and valuation. Given its importance, it is surprising that more attention has not been paid in practical terms to estimation issues. This chapter considered the conventional approach to estimating risk premiums, which is to use historical returns on equity and government securities, and evaluated some of its weaknesses. It also examined how to extend this approach to emerging markets, where historical data tends to be both limited and volatile. The alternative to historical premiums is to estimate the equity premium implied by equity prices. This approach does require that we start with a valuation model for equities, and estimate the expected growth and cash flows, collectively, on equity investments. It has the advantages of not requiring historical data and of reflecting current market perceptions.
 
-# QUESTIONS AND SHORT PROBLEMS
 
-In the problems following, use an equity risk premium of 5.5 percent if none is specified.
 
-1. Assume that you are valuing an Indonesian firm in U.S. dollars. What would you use as the riskless rate?
-2. Explain why a six-month Treasury bill rate is not an appropriate riskless rate in discounting a five-year cash flow.
-3. You have been asked to estimate a riskless rate in Indonesian rupiah. The Indonesian government has rupiah-denominated bonds outstanding, with an interest rate of  $17\%$ . S&P has a rating of BB on these bonds, and the typical spread for a BB-rated country is  $5\%$  over a riskless rate. Estimate the rupiah riskless rate.
-
-4. You are valuing an Indian company in rupees. The current exchange rate is Rs 45 per dollar and you have been able to obtain a 10-year forward rate of Rs 70 per dollar. If the U.S. Treasury bond rate is  $5\%$ , estimate the riskless rate in Indian rupees.
-5. You are attempting to do a valuation of a Chilean company in real terms. While you have been unable to get a real riskless rate in Latin America, you know that inflation-indexed Treasury bonds in the United States are yielding  $3\%$ . Could you use this as a real riskless rate? Why or why not? What are the alternatives?
-6. Assume you have estimated the historical risk premium, based on 50 years of data, to be  $6\%$ . If the annual standard deviation in stock prices is  $30\%$ , estimate the standard error in the risk premium estimate.
-7. When you use a historical risk premium as your expected future risk premium, what are the assumptions that you are making about investors and markets? Under what conditions would a historical risk premium give you too high a number (to use as an expected premium)?
-8. You are trying to estimate a country equity risk premium for Poland. You find that S&P has assigned an A rating to Poland and that Poland has issued euro-denominated bonds that yield  $7.6\%$  in the market currently. (Germany, a AAA-rated country, has euro-denominated bonds outstanding that yield  $5.1\%$ .) a. Estimate the country risk premium, using the default spread on the country bond as the proxy.
-
-b. If you were told that the standard deviation in the Polish equity market was  $25\%$  and that the standard deviation in the Polish euro bond was  $15\%$ , estimate the country risk premium.
-
-9. The standard deviation in the Mexican Equity Index is  $48\%$ , and the standard deviation in the S&P 500 is  $20\%$ . You use an equity risk premium of  $5.5\%$  for the United States.
-
-a. Estimate the country equity risk premium for Mexico using relative equity standard deviations.
-b. Now assume that you are told that Mexico is rated BBB by Standard & Poor's and that it has dollar-denominated bonds outstanding that trade at a spread of about  $3\%$  above the Treasury bond rate. If the standard deviation in these bonds is  $24\%$ , estimate the country risk premium for Mexico.
-
-10. The S&P 500 is at 1,400. The expected dividends and cash flows next year on the stocks in the index are expected to be  $5\%$  of the index. If the expected growth rate in dividends and cash flows over the long term is expected to be  $6\%$  and the riskless rate is  $5.5\%$ , estimate the implied equity risk premium.
-11. The Bovespa (Brazilian equity index) is at 15,000. The dividends on the index last year were  $5\%$  of the index value, and analysts expect them to grow  $15\%$  a year in real terms for the next five years. After the fifth year, the growth is expected to drop to  $5\%$  in real terms in perpetuity. If the real riskless rate is  $6\%$ , estimate the implied equity risk premium in this market.
-12. As stock prices go up, implied equity risk premiums will go down. Is this statement always true? If not, when is it not true?
-
-# Estimating Risk Parameters and Costs of Financing
+## Estimating Risk Parameters and Costs of Financing
 
 The preceding chapter laid the groundwork for estimating the costs of equity and capital for firms by looking at how best to estimate a riskless rate that operates as a base for all costs, an equity risk premium for estimating the cost of equity, and default spreads for estimating the cost of debt. It did not, however, consider how to estimate the risk parameters for individual firms. This chapter examines the process of estimating risk parameters for individual firms, for estimating both the cost of equity and the cost of debt.
 
@@ -553,6 +544,33 @@ This expected return to equity investors includes compensation for the market ri
 # Betas
 
 In the CAPM, the beta of an investment is the risk that the investment adds to a market portfolio. In the APM and multifactor model, the betas of the investment relative to each factor have to be measured. There are three approaches available for estimating these parameters: One is to use historical data on market prices for individual investments; the second is to estimate the betas from the fundamental characteristics of the investment; and the third is to use accounting data. All three approaches are described in this section.
+
+```d2
+Beta Estimation Methods {
+  direction: right
+
+  historical: Historical Market Betas {
+    shape: rectangle
+    style.fill: "#e3f2fd"
+    style.stroke: "#1976d2"
+  }
+
+  bottom_up: Bottom-Up Betas {
+    shape: rectangle
+    style.fill: "#f3e5f5"
+    style.stroke: "#7b1fa2"
+  }
+
+  accounting: Accounting Betas {
+    shape: rectangle
+    style.fill: "#e8f5e9"
+    style.stroke: "#388e3c"
+  }
+
+  historical -> bottom_up: Alternative when historical data noisy
+  bottom_up -> accounting: Last resort for private firms
+}
+```
 
 Historical Market Betas The conventional approach for estimating the beta of an investment is a regression of returns on the investment against returns on a market index. For firms that have been publicly traded for a length of time, it is relatively straightforward to estimate returns that an investor would have made on investing in the firms' equity in intervals (such as a week or a month) over that period. In theory, these stock returns on the assets should be related to returns on a market portfolio (i.e., a portfolio that includes all traded assets) to estimate the betas of the assets. In practice, we tend to use a stock index such as the S&P 500 as a proxy for the market portfolio, and we estimate betas for stocks against the index.
 
@@ -707,7 +725,7 @@ While the time period used is identical to the one used in our earlier regressio
 Second, Bloomberg also computes what it calls an adjusted beta, which is estimated as follows:
 
 $$
-\text {A d j u s t e d} = \text {R a w} (0. 6 7) + 1. 0 0 (0. 3 3)
+\text{Adjusted} = \text{Raw} (0.67) + 1.00 (0.33)
 $$
 
 These weights (0.67 and 0.33) do not vary across stocks, and this process pushes all estimated betas toward 1. Most services employ similar procedures to adjust betas toward 1. In doing so, they are drawing on empirical evidence that suggests that the betas for most companies, over time, tend to move toward the average beta, which is 1. This may be explained by the fact that firms get more diversified in their product mix and client base as they get larger. While we agree with the notion that betas move toward 1 over time, the weighting process used by most services strikes us as arbitrary and not particularly useful.
@@ -1010,7 +1028,7 @@ Degree of operating leverage  $= \%$  change in operating profit/\% change in sa
 
 For firms with high operating leverage, operating income should change more than proportionately when sales change.
 
-# SIZE, GROWTH, AND BETAS
+## Size, Growth, and Betas
 
 Generally, smaller firms with higher growth potential are viewed as riskier than larger, more stable firms. While the rationale for this argument is clear when talking about total risk, it becomes more difficult to see when looking at market risk or betas. Should a smaller software firm have a higher beta than a larger software firm? One reason to believe that it should is operating leverage. If there is a setup cost associated with investing in infrastructure or economies of scale, smaller firms will have higher fixed costs than larger firms, leading in turn to higher betas for these firms.
 
@@ -1019,13 +1037,14 @@ With growth firms, the argument for higher betas rests on the notion of discreti
 Degree of Financial Leverage Other things remaining equal, an increase in financial leverage will increase the beta of the equity in a firm. Intuitively, we would expect that the fixed interest payments on debt result in increasing income in good times and decreasing income in bad times. Higher leverage increases the variance in net income and makes equity investment in the firm riskier. If all the firm's risk is borne by the stockholders (i.e., the beta of debt is zero), and debt has a tax benefit to the firm, then,
 
 $$
-\beta_ {\mathrm {L}} = \beta_ {\mathrm {u}} [ 1 + (1 - t) (\mathrm {D} / \mathrm {E}) ]
-$$ where  $\beta_{\mathrm{L}} =$  Levered beta for equity in the firm
+\beta_{\mathrm{L}} = \beta_{\mathrm{u}} [1 + (1 - t)(\mathrm{D}/\mathrm{E})]
+$$ where $\beta_{\mathrm{L}} =$ levered beta for equity in the firm
 
+$\beta_{\mathrm{u}} =$ unlevered beta of the firm (i.e., the beta of the firm without any debt)
 
-$\beta_{\mathrm{u}} =$  Unlevered beta of the firm (i.e., the beta of the firm without any debt)  $\mathbf{t} =$  Marginal tax rate
+$t =$ marginal tax rate
 
-$\mathrm{D / E} =$  Debt-to-equity ratio (market value)
+$\mathrm{D/E} =$ debt-to-equity ratio (market value)
 
 Intuitively, we expect that as leverage increases (as measured by the debt-to-equity ratio), equity investors bear increasing amounts of market risk in the firm, leading to higher betas. The tax factor in the equation captures the tax benefits that accrue from interest payments.
 
@@ -1047,7 +1066,7 @@ The beta over the 1996-2000 period reflects this average leverage. To estimate t
 
 $$
 
-\begin{array}{l} \text {U n l e v e r e d} \beta a = \text {C u r r e n t} \beta a / [ 1 + (1 - \text {T a x} \text {r a t e}) (\text {A v e r a g e} \text {d e b t} / \text {E q u i t y}) ] \\ = 0. 5 6 / [ 1 + (1 - 0. 3 5) (0. 1 5 5 6) ] = 0. 5 1 \\ \end{array}
+\begin{array}{l} \text {U n l e v e r e d} \beta a = \text {C u r r e n t} \beta a / [ 1 + (1 - \text {T a x} \text {r a t e}) (\text {A v e r a g e} \text {d e b t} / \text {E q u i t y}) ] \\ = 0.56 / [1 + (1 - 0.35)(0.1556)] = 0.51 \\ \end{array}
 
 $$
 
@@ -1071,7 +1090,7 @@ If the debt equity ratio were raised to  $25\%$ , the equity beta would be:
 
 $$
 
-\text {L e v e r e d b e t a} (@ 25 \% \mathrm {D} / \mathrm {E}) = 0. 5 1 \times [ 1 + (1 - 0. 3 5) (0. 2 5) ] = 0. 5 9
+\text {L e v e r e d b e t a} (@ 25 \% \mathrm {D} / \mathrm {E}) = 0.51 \times [1 + (1 - 0.35)(0.25)] = 0.59
 
 $$
 
@@ -1139,7 +1158,7 @@ Business beta = Unlevered beta /[1 + (Fixed costs/Variable costs)]
 
 Note the similarity to the adjustment for financial leverage; the only difference is that both fixed and variable costs are eligible for the tax deduction, and the tax rate is therefore no longer a factor. The business beta can then be levered to reflect the differences in operating leverage across firms.
 
-# CASH AND BETAS
+## Cash and Betas
 
 In the process for estimating bottom up betas, we suggested a two step process: getting a weighted average of the betas of the businesses that a firm is in, using the sector-average betas of other publicly traded firms in each business and then adjusting for the debt to equity ratio of the firm in question.
 
@@ -1250,7 +1269,7 @@ $$
 
 We used Titan's marginal tax rate of  $24.14\%$  in this calculation.
 
-# HOW WELL DO BETAS TRAVEL?
+## How Well Do Betas Travel?
 
 Often, when analyzing firms in small or emerging markets, we have to estimate betas by looking at firms in the same business but traded on other markets. This is what we did when estimating the beta for Titan Cement. Is this appropriate? Should the beta for a steel company in the United States be comparable to that of a steel company in Indonesia? We see no reason why it should not be. But the company in Indonesia has much more risk, you might argue. We do not disagree, but the fact that we use similar betas does not mean that we believe that the costs of equity are identical across all steel companies. In fact, using the approach described in the preceding chapter, the risk premium used to estimate the cost of equity for the Indonesian company will incorporate a country risk premium, whereas the cost of equity for the U.S. company will not. Thus, even if the betas used for the two companies are identical, the cost of equity for the Indonesian company will be much higher.
 
@@ -1463,7 +1482,7 @@ $$
 
 We would introduce four notes of caution with this approach. First, this opens the door to a series of adjustments that you could make to the cost of equity, reflecting the numerous inefficiencies cited in Chapter 6. For instance, you could estimate a low PE premium, a low price-to-book premium, and a high dividend yield premium and add them all to the cost of equity. If our objective in valuation is to uncover market mistakes, it would be a mistake to start off with the presumption that markets are right in their assessments in the first place. Second, a better way of incorporating the small firm premium would be to identify the reasons for the premium and then develop more direct measures of risk. For instance, assume that the higher risk of small cap stocks comes from the higher operating leverage that these firms have, relative to their larger competitors. You could adjust the betas for operating leverage (as we did a few pages ago for Vans Shoes) and use the higher betas for small firms. Third, the small cap premium of 4 percent that we estimated from historical data comes with a significant standard error (of approximately 2 percent). Thus, the true small cap premium can be 8 percent or 0 percent. Fourth, even if your company is a small company today and deserves a small cap premium, assuming a high growth rate for your firm will make it a large cap firm eventually. It follows that you would expect the small cap premium to fade over time.
 
-# FROM COST OF EQUITY TO COST OF CAPITAL
+## From Cost of Equity to Cost of Capital
 
 Although equity is undoubtedly an important and indispensable ingredient of the financing mix for every business, it is but one ingredient. Most businesses finance some or much of their operations using debt or some security that is a combination of equity and debt. The costs of these sources of financing are generally very different from the cost of equity, and the cost of financing for a firm should reflect their costs as well, in proportion to their use in the financing mix. Intuitively, the cost of capital is the weighted average of the costs of the different components of financing—including debt, equity, and hybrid securities—used by a firm to fund its financial requirements. This section examines the process of estimating the cost of financing other than equity, and the weights for computing the cost of capital.
 
@@ -1509,7 +1528,7 @@ TABLE 8.2 Interest Coverage Ratios and Ratings: High Market Cap Firms
 
 Source: Capital IQ, BondsOnline.com.
 
-# EXTENDING THE SYNTHETIC RATINGS APPROACH
+## Extending the Synthetic Ratings Approach
 
 By basing the rating on the interest coverage ratio alone, we run the risk of missing the information that is available in the other financial ratios used by ratings agencies. The approach can be extended to incorporate other ratios. The first step would be to develop a score based on multiple ratios. For instance, the Altman Z score, which is used as a proxy for default risk, is a function of five financial ratios that are weighted to generate a Z score. The ratios used and their relative weights are usually estimated by looking at past defaults. The second step is to relate the level of the score to a bond rating, much as is done in Tables 8.1 and 8.2 with interest coverage ratios.
 
@@ -1683,7 +1702,7 @@ $7,847 / (7,847 + 55,197) = 12.45\%$
 
 The market debt ratio is significantly lower than the book debt ratio.
 
-# GROSS DEBT VERSUS NET DEBT
+## Gross Debt versus Net Debt
 
 Gross debt refers to all debt outstanding in a firm. Net debt is the difference between gross debt and the cash balance of the firm. For instance, a firm with  \$1.25 billion in interest-bearing debt outstanding and a cash balance of\$ 1 billion has a net debt balance of 250 million. The practice of netting cash against debt is common in both Latin America and Europe, and debt ratios are usually estimated using net debt.
 
@@ -1761,7 +1780,7 @@ $$
 
 Note that the weight on equity is greater than  $100\%$ $(112.57\%)$  and the weight on debt is negative  $(-12.57\%)$  because net debt is negative. Notwithstanding these disconcerting inputs, the cost of capital is close to the cost of capital using the standard debt ratio approach, and the difference can be attributed to the fact that the net debt approach nets out the tax benefit of debt against the tax costs of earning interest income on cash.
 
-# BEST PRACTICES AT FIRMS
+## Best Practices at Firms
 
 We have spent this chapter discussing what firms should do when it comes to estimating the cost of capital. What do they actually do? Bruner, Eades, Harris, and Higgins (1998) surveyed 27 well-regarded corporations, and their findings are summarized in Table 8.3.
 

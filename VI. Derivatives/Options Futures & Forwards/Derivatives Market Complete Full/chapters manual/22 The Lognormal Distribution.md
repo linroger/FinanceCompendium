@@ -210,6 +210,22 @@ $$
 
 This last equation is the link between normally distributed continuously compounded returns and lognormality of the stock price.
 
+```d2
+direction: right
+
+Normal Distribution: {
+  shape: oval
+  label: "Normally Distributed\nContinuously Compounded Returns\nR(0,t) ~ N(μ, σ²)"
+}
+
+Lognormal Distribution: {
+  shape: oval
+  label: "Lognormally Distributed\nStock Prices\nS(t) = S(0) × e^(R(0,t))"
+}
+
+Normal Distribution -> Lognormal Distribution: "Exponentiation\nS(t) = S(0) × e^(R(0,t))"
+```
+
 By definition, the continuously compounded return from 0 to  $t$  is
 
 $$
@@ -523,7 +539,7 @@ Since  $Z\sim \mathcal{N}(0,1)$ $\operatorname *{Pr}(S_t < K)$  is
 
 $$
 
-\operatorname * {P r} (S _ {t} <   K) = N \left[ \frac {\ln (K) - \ln (S _ {0}) - (\alpha - \delta - 0 . 5 \sigma^ {2}) t}{\sigma \sqrt {t}} \right]
+\operatorname * {P r} (S _ {t} <   K) = N \left[ \frac {\ln (K) - \ln (S _ {0}) - (\alpha - \delta - 0.5 \sigma^ {2}) t}{\sigma \sqrt {t}} \right]
 
 $$
 
@@ -543,7 +559,7 @@ $$
 
 The expression  $N(\hat{d}_2)$  contains the true expected return on the stock,  $\alpha$ . If we replace  $\alpha$  with  $r$ , the risk-free rate in equations (23) and (24), we obtain the risk-neutral probabilities that  $S_t$  is above or below  $K$ . It is exactly these risk-neutral versions of equations (23) and (24) that appear in the Black-Scholes call and put option pricing formulas.
 
-# Lognormal Prediction Intervals
+### Lognormal Prediction Intervals
 
 We can now answer questions about future prices, such as "What is the range of prices such that there is a  $95\%$  probability that the stock price will be in that range 1 year from today?" To answer this question, we compute the  $95\%$  prediction intervals for a number of different time horizons.
 
@@ -556,7 +572,7 @@ $$ where
 
 $$
 
-\hat {d} _ {2} = [ \ln (S _ {0} / S _ {t} ^ {L}) + (\alpha - \delta - 0. 5 \sigma^ {2}) t ] / \sigma \sqrt {t}
+\hat {d} _ {2} = [ \ln (S _ {0} / S _ {t} ^ {L}) + (\alpha - \delta - 0.5 \sigma^ {2}) t ] / \sigma \sqrt {t}
 
 $$
 
@@ -580,7 +596,7 @@ $$
 Similarly, we can solve for the upper bound  $S_t^U$  such that
 
 $$
-N ^ {- 1} (1 - p / 2) = - [ \ln (S _ {0} / S _ {t} ^ {U}) + (\alpha - \delta - 0. 5 \sigma^ {2}) t ] / \sigma \sqrt {t}
+N ^ {- 1} (1 - p / 2) = - [ \ln (S _ {0} / S _ {t} ^ {U}) + (\alpha - \delta - 0.5 \sigma^ {2}) t ] / \sigma \sqrt {t}
 $$
 
 This gives us
@@ -594,19 +610,19 @@ Thus, to generate a prediction interval for a lognormal price, we need only find
 Example 6. If  $p = 5\%$ ,  $N^{-1}(0.025) = -1.96$  and  $N^{-1}(0.975) = 1.96$ . That is, there is a  $5\%$  probability that a standard normal random variable will be outside the range (-1.96, 1.96). Thus, if  $S_0 = \$100$ ,  $t = 2$ ,  $\alpha = 0.10$ ,  $\delta = 0$ , and  $\sigma = 0.30$ , we have
 
 $$
-\begin{array}{l} S _ {t} ^ {L} = S _ {0} e ^ {(\alpha - \delta - \frac {1}{2} \sigma^ {2}) t - \sigma \sqrt {t} 1. 9 6} \\ = S _ {0} e ^ {(0. 1 0 - \frac {1}{2} 0. 3 ^ {2}) \times 2 - 0. 3 \times \sqrt {2} \times 1. 9 6} \\ = \$ 48.599 \\ \end{array}
+\begin{array}{l} S _ {t} ^ {L} = S _ {0} e ^ {(\alpha - \delta - \frac {1}{2} \sigma^ {2}) t - \sigma \sqrt {t} 1.96} \\ = S _ {0} e ^ {(0.10 - \frac {1}{2} 0.3 ^ {2}) \times 2 - 0.3 \times \sqrt {2} \times 1.96} \\ = \$ 48.599 \\ \end{array}
 $$
 
 Similarly, for  $S_{t}^{U}$  we have
 
 $$
-\begin{array}{l} S _ {t} ^ {U} = S _ {0} e ^ {(\alpha - \delta - \frac {1}{2} \sigma^ {2}) t + \sigma \sqrt {t} 1. 9 6} \\ = \$ 2 5 6. 4 0 \\ \end{array}
+\begin{array}{l} \sigma \sqrt {t} = 0.3 \sqrt {\frac {1}{12}} \\ = 0.0866 \\ \end{array}
 $$
 
 Example 7. Suppose we have a lognormally distributed 50 stock with a 15\% continuously compounded expected rate of return, a zero dividend yield, and a 30\% volatility. Consider a horizon of 1 month (t = \frac{1}{12}). The monthly continuously compounded mean return is
 
 $$
-\begin{array}{l} (\alpha - \delta - \frac {1}{2} \sigma^ {2}) t = \left(0. 1 5 - 0 - \frac {1}{2} 0. 3 ^ {2}\right) \frac {1}{1 2} \\ = 0. 0 0 8 7 5 \\ \end{array}
+\begin{array}{l} (\alpha - \delta - \frac {1}{2} \sigma^ {2}) t = \left(0.15 - 0 - \frac {1}{2} 0.3 ^ {2}\right) \frac {1}{12} \\ = 0.00875 \\ \end{array}
 $$ and the monthly standard deviation is
 
 
@@ -640,7 +656,7 @@ $$
 
 Using this same logic, we can compute one standard deviation and two standard deviation intervals over different horizons. This will give us  $68.27\%$  and  $95.45\%$  prediction intervals
 
-TABLEI
+### Table 1
 Stock prices (\$) corresponding to  $-2, -1, 1,$  and 2 standard deviations from the initial stock price of 50.
 
 <table><tr><td>Horizon</td><td>Fraction of a Year</td><td>-2σ</td><td>-1σ</td><td>+1σ</td><td>+2σ</td></tr><tr><td>1 Day</td><td>0.0027</td><td>48.47</td><td>49.24</td><td>50.81</td><td>51.61</td></tr><tr><td>1 Month</td><td>0.0849</td><td>42.35</td><td>46.22</td><td>55.06</td><td>60.09</td></tr><tr><td>1 Year</td><td>1</td><td>30.48</td><td>41.14</td><td>74.97</td><td>101.19</td></tr><tr><td>2 Years</td><td>2</td><td>26.40</td><td>40.36</td><td>94.28</td><td>144.11</td></tr><tr><td>5 Years</td><td>5</td><td>22.10</td><td>43.22</td><td>165.31</td><td>323.33</td></tr></table> over those horizons, which are displayed in Table 1. For example, there is a 95.45\% chance over a 1-day horizon that a \$50 stock will be between \$48.47 and \$51.61. Over a 5-year horizon, there is a 95.45\% chance that the stock price will be between \$22.10 and 323.33.
@@ -650,7 +666,7 @@ The calculation in Example 7 is often used to compute loss probabilities and ris
 
 Box 1 illustrates how the probability calculations in this section can be used to analyze the cost of portfolio insurance over time.
 
-# The Conditional Expected Price
+### The Conditional Expected Price
 
 Given that an option expires in-the-money, what is the expected stock price? The answer to this question is the expected stock price conditional upon the option expiring in-the-money. For a put with strike price  $K$ , we want to calculate  $\mathrm{E}(S_t|S_t < K)$ , the expected stock price conditional on  $S_t < K$ . To compute this expectation, we need to take into account only the portion of the probability density representing stock prices below  $K$ .
 
@@ -662,7 +678,7 @@ $$
 
 $$
 
-# BOX I: Portfolio Insurance for the Long Run
+### Box 1: Portfolio Insurance for the Long Run
 
 The cost of insuring a stock portfolio so that it performs at least as well as a zero-coupon bond is increasing with the time to maturity of the insurance. The demonstration of this relies on the absence of arbitrage, which is incontrovertible but does not always provide intuition about the result. Using the results in this section, we can reconcile the historical low probability of stocks underperforming bonds with the increasing cost of insurance as we insure over a longer horizon.
 
@@ -700,7 +716,7 @@ The partial expectation of  $S_{t}$ , conditional on  $S_{t} < K$ , is
 
 $$
 
-\begin{array}{l} \int_ {0} ^ {K} S _ {t} g \left(S _ {t}; S _ {0}\right) d S _ {t} = S _ {0} e ^ {(\alpha - \delta) t} N \left(\frac {\ln (K) - \left[ \ln \left(S _ {0}\right) + (\alpha - \delta + 0 . 5 \sigma^ {2}) t \right]}{\sigma \sqrt {t}}\right) \tag {27} \\ = S _ {0} e ^ {(\alpha - \delta) t} N (- \hat {d} _ {1}) \\ \end{array}
+\begin{array}{l} \int_ {0} ^ {K} S _ {t} g \left(S _ {t}; S _ {0}\right) d S _ {t} = S _ {0} e ^ {(\alpha - \delta) t} N \left(\frac {\ln (K) - \left[ \ln \left(S _ {0}\right) + (\alpha - \delta + 0.5 \sigma^ {2}) t \right]}{\sigma \sqrt {t}}\right) \tag {27} \\ = S _ {0} e ^ {(\alpha - \delta) t} N (- \hat {d} _ {1}) \\ \end{array}
 
 $$ where  $g(S_{t};S_{0})$  is the probability density of  $S_{t}$  conditional on  $S_{0}$ , and  $\hat{d}_1$  is the Black-Scholes  $d_{1}$  with  $\alpha$  replacing  $r$ .
 
@@ -713,7 +729,7 @@ $$
 For a call, we are interested in the expected price conditional on  $S_{t} > K$ . The partial expectation of  $S_{t}$  conditional on  $S_{t} > K$  is
 
 $$
-\begin{array}{l} \int_ {K} ^ {\infty} S _ {t} g \left(S _ {t}; S _ {0}\right) d S _ {t} = S _ {0} e ^ {(\alpha - \delta) t} N \left(\frac {\ln \left(S _ {0}\right) - \ln (K) + (\alpha - \delta + 0 . 5 \sigma^ {2}) t}{\sigma \sqrt {t}}\right) \tag {29} \\ = S _ {0} e ^ {(\alpha - \delta) t} N (\hat {d} _ {1}) \\ \end{array}
+\begin{array}{l} \int_ {K} ^ {\infty} S _ {t} g \left(S _ {t}; S _ {0}\right) d S _ {t} = S _ {0} e ^ {(\alpha - \delta) t} N \left(\frac {\ln \left(S _ {0}\right) - \ln (K) + (\alpha - \delta + 0.5 \sigma^ {2}) t}{\sigma \sqrt {t}}\right) \tag {29} \\ = S _ {0} e ^ {(\alpha - \delta) t} N (\hat {d} _ {1}) \\ \end{array}
 $$
 
 As before, except for the fact that it contains the expected rate of return on the stock,  $\alpha$ , instead of the risk-free rate, the second term is just the Black-Scholes expression,  $N(d_{1})$ . The conditional expectation is
@@ -722,7 +738,7 @@ $$
 \boxed {E (S _ {t} | S _ {t} > K) = S _ {0} e ^ {(\alpha - \delta) t} \frac {N (\hat {d} _ {1})}{N (\hat {d} _ {2})}} \tag {30}
 $$
 
-# The Black-Scholes Formula
+### The Black-Scholes Formula
 
 Using equations (23), (24), (28), and (30), we can now heuristically derive the Black-Scholes formula. The Black-Scholes formula can be derived by assuming risk-neutrality. In this case, the expected return on stocks,  $\alpha$ , will equal  $r$ , the risk-free rate. If we let  $g^{*}$  denote the risk-neutral lognormal probability density,  $\mathrm{E}^{*}$  denote the expectation taken with respect to risk-neutral probabilities, and  $\operatorname{Pr}^{*}$  denote those probabilities, the price of a European call option on a stock will be
 
@@ -763,7 +779,7 @@ $$
 P (S, K, \sigma , r, t, \delta) = K e ^ {- r t} N (- d _ {2}) - e ^ {- \delta t} S N (- d _ {1})
 $$
 
-# 5. ESTIMATING THE PARAMETERS OF A LOGNORMAL DISTRIBUTION
+## 5. ESTIMATING THE PARAMETERS OF A LOGNORMAL DISTRIBUTION
 
 In this section we will see how to estimate the mean and variance of lognormally distributed price data.
 
@@ -796,12 +812,12 @@ Example 8. Table 2 contains seven weekly stock price observations along with con
 The mean of the second column in Table 2 is 0.006745 and the standard deviation is 0.038208. The annualized standard deviation is
 
 $$
-\text {A n n u a l i z e d s t a n d a r d} = 0. 0 3 8 2 0 8 \times \sqrt {5 2} = 0. 2 7 5 5
+\text {A n n u a l i z e d s t a n d a r d} = 0.038208 \times \sqrt {52} = 0.2755
 $$
 
 Two adjustments are needed to interpret the mean. First, we have to annualize it. Second, since we computed the mean of the log returns, we have to add back one-half the variance.
 
-TABLE 2
+### Table 2
 
 Hypothetical weekly stock price observations and corresponding weekly continuously compounded returns,  $\ln (S_t / S_{t - 1})$
 
@@ -810,7 +826,7 @@ Hypothetical weekly stock price observations and corresponding weekly continuous
 Thus, we obtain
 
 $$
-\text {A n n u a l i z e d} = 0. 0 0 6 7 4 5 \times 5 2 + 0. 5 \times 0. 2 7 5 5 ^ {2} = 0. 3 8 8 7
+\text {A n n u a l i z e d} = 0.006745 \times 52 + 0.5 \times 0.2755 ^ {2} = 0.3887
 $$
 
 The prices were generated randomly assuming using a standard deviation of  $30\%$  and a mean of  $10\%$ . Despite having only six observations, the standard deviation estimate is quite close to the true value of  $30\%$ . The estimated mean, however, is quite far off.
@@ -825,11 +841,11 @@ In this discussion we have assumed that the variance is not changing over time. 
 
 You should also be aware that, in practice, using data from very tiny intervals (e.g., hourly prices) may not increase precision. Over short time periods, factors such as bid-ask bounce—the movement of the price between the bid and ask spreads due to some orders being sells and others being buys—can introduce into prices noise that is not related to the values we are trying to measure.
 
-# 6. HOW ARE ASSET PRICES DISTRIBUTED?
+## 6. HOW ARE ASSET PRICES DISTRIBUTED?
 
 The lognormal model assumes that stock returns are independent over time (today's return does not affect future returns), that mean and volatility are constant over time, and that the distribution of continuously compounded returns is normal. However, implied volatilities differ for options with different strikes. One possible explanation is that stock prices are not lognormally distributed. How can we tell whether lognormality (or some other particular distribution) is a reasonable approximation for actual stock prices?
 
-# Histograms
+### Histograms
 
 One way to assess lognormality is simply to plot the continuously compounded returns as a histogram and see whether the resulting distribution appears normal. The top row of Figure 4 presents histograms for daily returns over a 10-year period for the S&P 500 index and for IBM. The bottom row is histograms for weekly returns. Also plotted on each graph is a normal distribution, computed using the historical mean and standard deviation for each return series. $^{6}$  Several observations are pertinent.
 
@@ -857,7 +873,7 @@ IBM Weekly Return meaning "small, thin, delicate"). For a normally distributed r
 
 There are several possible explanations for returns appearing nonnormal. One is that stock prices can jump discretely from time to time. Another explanation is that returns are normally distributed, but with a variance that changes over time. If actual daily returns are drawn from a distribution that has a  $1\%$  volatility half the time and a  $2\%$  volatility half the time, the stock price histogram will appear fat-tailed. This blend of two distributions is commonly referred to as a mixture of normals model. Long-horizon returns, which result from summing short-horizon returns, will still appear normal.
 
-# Normal Probability Plots
+### Normal Probability Plots
 
 Figure 5 presents normal probability plots for the same data as Figure 4. These plots are an alternative to histograms for assessing normality. We will examine normal probability plots as a tool for assessing normality and also to introduce a technique that we will encounter again in discussing Monte Carlo simulation.
 
@@ -895,7 +911,7 @@ The data do not appear normal, though with only five points there is a large pos
 
 The bottom row of Figure 6 presents normal probability plots with two different  $y$ -axes for 1000 randomly generated points from a  $\mathcal{N}(0,1)$  distribution. In this case the data lie along the line and, hence, appear normal. In all of the normal probability plots, the straight
 
-# FIGURE 6
+### Figure 6
 
 Normal probability plots for the five data points in Example 9: 3, 4, 5, 7, and 11 (top) and 1000 points randomly generated from a  $\mathcal{N}(0,1)$  distribution (bottom).
 
@@ -919,7 +935,7 @@ Normal Probability Plot
 
 Data line is drawn connecting the  $25\%$  and  $75\%$  quantiles of the data. In essence, the normal probability plot changes the scale on the y-axis so the cumulative normal distribution is a straight line rather than an S-shaped curve.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 The normal distribution has these characteristics:
 
@@ -939,7 +955,7 @@ The Black-Scholes formula arises from a straightforward lognormal probability ca
 
 From examining histograms and normal probability plots for daily and weekly continuously compounded returns, we can see that there are too many large returns relative to normally distributed returns. Although continuously compounded returns do not appear to be exactly normal, the Black-Scholes model and the accompanying assumption of lognormality is used frequently. We will explore extensions that are consistent with departures from normality we have seen in this chapter.
 
-# FURTHER READING
+## FURTHER READING
 
 Both the histogram and normal probability plot verify that continuously compounded returns in practice are not normally distributed. The question is whether this matters for pricing, and if so, how to modify the assumed price distributions and pricing formulas to obtain more accurate derivative prices. Two modifications allow the stock to jump discretely and to permit volatility to be stochastic.
 

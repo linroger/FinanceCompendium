@@ -1,12 +1,24 @@
 ---
-aliases:
-  - Connecting Discrete and Continuous Brownian Motions
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 16: Connecting Discrete and Continuous Brownian Motions"
-linter-yaml-title-alias: "Chapter 16: Connecting Discrete and Continuous Brownian Motions"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:22:25 PM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+   - brownian motion
+   - wiener process
+   - stochastic processes
+   - radon-nikodym derivative
+secondary_tags:
+   - discrete continuous connection
+   - binomial models
+   - stochastic integrals
+   - kolmogorov equations
+   - probability measures
+   - martingales
+   - volatility modeling
+   - time series analysis
+cssclasses: academia
 ---
 
 # Connecting Discrete and Continuous Brownian Motions
@@ -24,7 +36,7 @@ Although some versions of this type of model permit unequal probabilities, many 
 Now let us examine some of the properties of the model. First consider the increment,  $\Delta W_0$ . The expected value and variance of the increment are
 
 $$
-\begin{array}{l} E \left(\Delta W _ {0}\right) = \left(\frac {1}{2}\right) (+ 1) + \left(\frac {1}{2}\right) (- 1) = 0 \\ \operatorname {v a r} \left(\Delta W _ {0}\right) = \left(\frac {1}{2}\right) (+ 1 - 0) ^ {2} + \left(\frac {1}{2}\right) (- 1 - 0) ^ {2} = 1. \tag {16.1} \\ \end{array}
+\begin{array}{l} E \left(\Delta W_0\right) = \left(\frac{1}{2}\right) (+ 1) + \left(\frac{1}{2}\right) (- 1) = 0 \\ \operatorname {v a r} \left(\Delta W _ {0}\right) = \left(\frac {1}{2}\right) (+ 1 - 0) ^ {2} + \left(\frac {1}{2}\right) (- 1 - 0) ^ {2} = 1. \tag {16.1} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/0e1691bb4dee9679bee3139db99bebf91f60f22c6e0746f81e2deedaa1f162e0.jpg)  
@@ -39,19 +51,19 @@ $$
 The variance of  $W_{1}$  is, by definition,
 
 $$
-\operatorname {v a r} \left(W _ {1}\right) = E \left(W _ {1} ^ {2}\right) - \left[ E \left(W _ {1}\right) \right] ^ {2}. \tag {16.3}
+ \operatorname{var} \left(W_1\right) = E \left(W_1^{2}\right) - \left[ E \left(W_1\right) \right]^{2}. \tag{16.3}
 $$
 
 Focusing first on the expected value of the square of  $W_{1}$ ,
 
 $$
-E \left(W _ {1} ^ {2}\right) = \left(\frac {1}{2}\right) (+ 1) ^ {2} + \left(\frac {1}{2}\right) (- 1) ^ {2} = 1. \tag {16.4}
+ E \left(W_1^{2}\right) = \left(\frac{1}{2}\right) (+ 1)^{2} + \left(\frac{1}{2}\right) (- 1)^{2} = 1. \tag{16.4}
 $$
 
 Because  $E\big(W_1\big) = 0$ , we have
 
 $$
-\operatorname {v a r} \left(W _ {1}\right) = 1 - 0 ^ {2} = 1. \tag {16.5}
+ \operatorname{var} \left(W_1\right) = 1 - 0^{2} = 1. \tag{16.5}
 $$
 
 Another way to obtain this result is to recall that we want  $\operatorname{var}\left(W_1\right)$ , which is  $\operatorname{var}\left(W_0 + \Delta W_0\right)$ . The variance of a sum is the sum of the variances and twice all pairwise covariances, but  $W_0$  is a constant so its variance is zero and, therefore, there is no covariance with  $\Delta W_0$ . Thus,  $\operatorname{var}\left(W_1\right) = \operatorname{var}\left(\Delta W_0\right)$ , which we already found as 1.
@@ -72,13 +84,13 @@ FIGURE 16.2 Two-Period Binomial Wiener Process
 Now let us find the expectation and variance of  $\Delta W_0$  and  $\Delta W_1$ . For the first increment,
 
 $$
-\begin{array}{l} E \left(\Delta W _ {0}\right) = \left(\frac {1}{2}\right) \left(+ 1 \sqrt {1 / 2}\right) + \left(\frac {1}{2}\right) (- 1 \sqrt {1 / 2}) = 0 \\ \operatorname {v a r} \left(\Delta W _ {0}\right) = \left(\frac {1}{2}\right) \left(+ 1 \sqrt {1 / 2} - 0\right) ^ {2} + \left(\frac {1}{2}\right) \left(- 1 \sqrt {1 / 2} - 0\right) ^ {2} = 1 / 2. \tag {16.7} \\ \end{array}
+\begin{array}{l} E \left(\Delta W _ {0}\right) = \left(\frac {1}{2}\right) \left(+ 1 \sqrt {1 / 2}\right) + \left(\frac {1}{2}\right) (- 1 \sqrt {1 / 2}) = 0 \\ \operatorname {var} \left(\Delta W _ {0}\right) = \left(\frac {1}{2}\right) \left(+ 1 \sqrt {1 / 2} - 0\right) ^ {2} + \left(\frac {1}{2}\right) \left(- 1 \sqrt {1 / 2} - 0\right) ^ {2} = 1 / 2. \tag {16.7} \\ \end{array}
 $$
 
 For  $W_{1}$ , note again that the variance is the sum of the variance of  $W_{0}$  and  $\Delta W_{1}$ .  $W_{0}$  is known so it has no variance nor a covariance with  $\Delta W_{1}$ , and we can ignore any covariance between  $W_{0}$  and  $\Delta W_{1}$ . Therefore,
 
 $$
-\begin{array}{l} E \left(W _ {1}\right) = E \left(W _ {0}\right) + E \left(\Delta W _ {0}\right) = 0 + 0 = 0 \\ \operatorname {v a r} \left(W _ {1}\right) = \operatorname {v a r} \left(W _ {0}\right) + \operatorname {v a r} \left(\Delta W _ {0}\right) = 0 + 1 / 2 = 1 / 2. \tag {16.8} \\ \end{array}
+\begin{array}{l} E \left(W_1\right) = E \left(W_0\right) + E \left(\Delta W_0\right) = 0 + 0 = 0 \\ \operatorname{var} \left(W_1\right) = \operatorname{var} \left(W_0\right) + \operatorname{var} \left(\Delta W_0\right) = 0 + 1 / 2 = 1 / 2. \tag{16.8} \\ \end{array}
 $$
 
 Now we need the expectation and variance of  $W_{2}$ :
@@ -248,7 +260,7 @@ $$
 The properties of this process are
 
 $$
-E \left(d x _ {t}\right) = \mu d t \text {a n d} \operatorname {v a r} \left(d x _ {t}\right) = \sigma^ {2} d t. \tag {16.29}
+E \left(d x _ {t}\right) = \mu d t \text {and} \operatorname {var} \left(d x _ {t}\right) = \sigma^ {2} d t. \tag {16.29}
 $$
 
 The latter result arises because the variance of  $\sigma dW_{t}$  is the constant  $\sigma^2$  times the variance of  $dW_{t}$ , which is  $dt$ . The process,  $x_{t}$ , defined by the stochastic integral
@@ -264,7 +276,7 @@ E \left(x _ {t}\right) = x _ {0} + E \left(\int_ {0} ^ {t} d x _ {j}\right) = x 
 $$
 
 $$
-\operatorname {v a r} \left(x _ {t}\right) = \operatorname {v a r} \left(\int_ {0} ^ {t} d x _ {j}\right) = \int_ {0} ^ {t} \operatorname {v a r} \left(d x _ {t}\right) = \operatorname {v a r} \left(\int_ {0} ^ {t} \sigma^ {2} d j\right) = \sigma^ {2} t. \tag {16.31}
+\operatorname{var} \left(x _ {t}\right) = \operatorname{var} \left(\int_ {0} ^ {t} d x _ {j}\right) = \int_ {0} ^ {t} \operatorname{var} \left(d x _ {t}\right) = \operatorname{var} \left(\int_ {0} ^ {t} \sigma^ {2} d j\right) = \sigma^ {2} t. \tag {16.31}
 $$
 
 Note that there are no covariance terms for  $dx_{t}$  in the variance expression in the last line because the  $dx_{t}$  values are independent.
@@ -422,13 +434,13 @@ $$
 Reinserting the omitted notation, the result is the forward equation,
 
 $$
-\frac {\partial \phi_ {x ; t ; x _ {0}}}{\partial t} = - \frac {\partial \phi_ {x ; t ; x _ {0}}}{\partial x} \mu + \left(\frac {1}{2}\right) \frac {\partial^ {2} \phi (x ; t ; x _ {0})}{\partial x ^ {2}} \sigma^ {2}. \tag {16.46}
+ \frac{\partial \phi_{x;t;x_0}}{\partial t} = - \frac{\partial \phi_{x;t;x_0}}{\partial x} \mu + \frac{1}{2} \frac{\partial^{2} \phi(x;t;x_0)}{\partial x^{2}} \sigma^{2}. \tag{16.46}
 $$
 
 Equation (16.46) is a continuous time representation of a partial differential equation for the probability density of being in a future state at a particular time and is called the forward equation, also known as the Fokker-Planck equation. It relates the probability at a forward time to the prior paths that take it to that point. The forward equation is a partial differential equation with a solution of the probability density,
 
 $$
-\phi_ {x; t; x _ {0}} = \frac {1}{\sigma \sqrt {2 \pi t}} e ^ {- \frac {1}{2} \frac {\left(x - x _ {0} - \mu t\right) ^ {2}}{\sigma^ {2} t}}. \tag {16.47}
+ \phi_{x;t;x_0} = \frac{1}{\sigma \sqrt{2\pi t}} e^{- \frac{1}{2} \frac{(x - x_0 - \mu t)^{2}}{\sigma^{2} t}}. \tag{16.47}
 $$
 
 Equation (16.47) is also recognized as the density for a variable  $x$  with mean  $x_0 + \Delta t$  and variance  $\Delta^2 t$ . The special case of  $\phi = 0$  is the one-dimensional equation for heat transfer in which  $\phi_{x;t;x_0}$  is the temperature.
@@ -471,7 +483,7 @@ $$
 For illustration of the backward probability, let state  $k$  be state 4,4; state  $j$  be state 1,2; then  $n = 3$ ,  $m = 2$ , and  $n - m = 1$ . In this example, to go from state 4,4 to state 1,2, the upstate one state before reaching state 1,2 from state 4,4 is state 2,3 and the down state one state before state 1,2 is state 2,2; thus, state  $j + 1$  is equivalent to state 2,3 and state  $j - 1$  is equivalent to state 2,2. We can write the backward looking probability as
 
 $$
-\begin{array}{l} \phi_ {j; k; m + 1} = \phi \phi_ {j + 1; k; m} + (1 - \phi) \phi_ {j - 1; k; m} \\ \Pr (j = 1, 2 \mid k = 4, 4) = \phi_ {(1, 2); (4, 4); 3} = \phi \phi_ {(2, 3); (4, 4); 2} + (1 - \phi) \phi_ {(2, 2); (4, 4); 2}. \\ \end{array}
+\begin{array}{l} \phi_ {j; k; m + 1} = \phi \phi_ {j + 1; k; m} + (1 - \phi) \phi_ {j - 1; k; m} \\ \Pr (j = 1, 2 \mid k = 4, 4) = \phi_{(1,2);(4,4);3} = \phi \phi_{(2,3);(4,4);2} + (1 - \phi) \phi_{(2,2);(4,4);2}. \\ \end{array}
 $$
 
 Because we are asking what the probability is that we came from state 1,2, then we should note that it is impossible to have ever moved through some states. In Figure 16.8, the nodes where it would be impossible to have traveled from to get to the current state 4,4 are denoted in bold.
@@ -497,7 +509,7 @@ $$
 Following a similar procedure as we did for the forward equation, we obtain the continuous time backward equation
 
 $$
-\frac {\partial \phi (x , t ; x _ {0})}{\partial t} = \mu \frac {\partial \phi (x , t ; x _ {0})}{\partial x _ {0}} + \frac {1}{2} \frac {\partial^ {2} \phi (x , t ; x _ {0})}{\partial x _ {0} ^ {2}} \sigma^ {2}, \tag {16.49}
+ \frac{\partial \phi(x,t;x_0)}{\partial t} = \mu \frac{\partial \phi(x,t;x_0)}{\partial x_0} + \frac{1}{2} \frac{\partial^{2} \phi(x,t;x_0)}{\partial x_0^{2}} \sigma^{2}, \tag{16.49}
 $$
 
 where we note that the difference from the forward equation is that here we are viewing the problem from the current position  $x_0$ . In the forward equation, we are viewing the problem from the future position,  $x$ . The solution to the backward equation, (16.49), is the same as the solution to the forward equation, (16.46), namely, the density (16.47).
@@ -528,7 +540,7 @@ TABLE 16.2 Backward Probabilities in a Binomial World
 Referring back to our first forward probability example, we can see that this table matches what we had previously said with
 
 $$
-\Pr (k = 4, 4 \mid j = 1, 2) = \phi_ {(1, 2); (4, 4); 3} = 3 \phi^ {2} (1 - \phi) = 3 (0. 5 4 ^ {2}) (1 - 0. 5 4) = 0. 4 0 2 4.
+\Pr (k = 4, 4 \mid j = 1, 2) = \phi_{(1,2);(4,4);3} = 3 \phi^{2} (1 - \phi) = 3 (0.54^{2}) (1 - 0.54) = 0.4024.
 $$
 
 The backward probabilities are slightly more difficult to understand. A backward probability asks the question of, given you are in a particular state, what is the probability you got here from a specific past state. Table 16.2 shows the backward probabilities for all possible current states. The values of NA indicate states from which you could not have come, such as the same state or a contemporaneous state. Inasmuch as there is no time travel, you also could not have come from a future state. You can, however, have come from a prior state. For example, in state 2,2, there is a 0.46 chance you came from state 1,2, having gone down, and a 0.54 chance you came from state 1,1, having gone up. Notice that the probability is 1.0000 that you were in state 0,0.
@@ -537,9 +549,7 @@ Understanding these types of measures is important for path-dependent options. T
 
 # 16.5 RECAP AND PREVIEW
 
-In this chapter, we showed how the change of probability measure in the discrete time stochastic process that we use is related to the change of probability measure in the continuous time stochastic process we use. We also show the Kolmogorov equations, which
-
-define how movements at one point in time are related to movement at a future or prior point in time.
+In this chapter, we showed how the change of probability measure in the discrete time stochastic process that we use is related to the change of probability measure in the continuous time stochastic process we use. We also show the Kolmogorov equations, which define how movements at one point in time are related to movement at a future or prior point in time.
 
 This chapter completes Part III. In Part IV, we return to a more direct application of the Black-Scholes-Merton model. Specifically, we examine types of options other than the standard European option, and we derive the relevant pricing models under the Black-Scholes-Merton assumptions.
 

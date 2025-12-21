@@ -1,12 +1,24 @@
 ---
-aliases:
-  - Pricing Forwards, Futures, and Options on Forwards and Futures
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 22: Pricing Forwards, Futures, and Options on Forwards and Futures"
-linter-yaml-title-alias: "Chapter 22: Pricing Forwards, Futures, and Options on Forwards and Futures"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:25:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - forward contracts
+  - futures pricing
+  - derivatives valuation
+secondary_tags:
+  - forward pricing models
+  - futures contracts
+  - options on futures
+  - black model
+  - put-call parity
+  - interest rate parity
+  - contango and backwardation
+  - convenience yield
+  - mark-to-market settlement
+cssclasses: academia
 ---
 
 # Pricing Forwards, Futures, and Options on Forwards and Futures
@@ -103,16 +115,16 @@ $$
 t = T: V _ {T} \left[ F _ {0} (T) \right] = S _ {T} - F _ {0} (T) / (1 + r) ^ {0} = S _ {T} - F _ {0} (T). \tag {22.8}
 $$
 
-For example, assume at time 0 a one-year forward contract was entered at \(25 \left[ F_{0}(T) \right]\). You have been tasked with determining the fair value of this contract after nine months (time \(t\)). At time \(t\), we know the underlying instrument priced is \)26 and the interest rate is 3.902% (annual compounding). In this case we know the price of a new forward contract is
+For example, assume at time 0 a one-year forward contract was entered at $25 [F_{0}(T)]$. You have been tasked with determining the fair value of this contract after nine months (time $t$). At time $t$, we know the underlying instrument priced is $26 and the interest rate is 3.902% (annual compounding). In this case we know the price of a new forward contract is
 
 $$
-F _ {t} (T) = S _ {t} (1 + r) ^ {\tau_ {t}} = 2 6 (1 + 0. 0 3 9 0 2) ^ {0. 2 5} = 2 6. 2 5.
+F _ {t} (T) = S _ {t} (1 + r) ^ {\tau_ {t}} = 26 (1 + 0.03902) ^ {0.25} = 26.25.
 $$
 
 Further, the value of the initial long forward contract at time  $t$  is
 
 $$
-V _ {t} \left[ F _ {0} (T) \right] = \frac {F _ {t} (T) - F _ {0} (T)}{(1 + r) ^ {\tau_ {t}}} = \frac {2 6 . 2 5 - 2 5}{(1 + 0 . 0 3 9 0 2) ^ {0 . 2 5}} = \$ 1. 2 3 8.
+V _ {t} \left[ F _ {0} (T) \right] = \frac {F _ {t} (T) - F _ {0} (T)}{(1 + r) ^ {\tau_ {t}}} = \frac {26.25 - 25}{(1 + 0.03902) ^ {0.25}} = \$1.238.
 $$
 
 Note that the contract, which had a zero value nine months earlier, is now worth a positive value. Intuitively, its value has increased because it is the obligation to buy an asset that has since increased in value.
@@ -294,7 +306,7 @@ $$
 Rearranging, we have
 
 $$
-- \left(\frac {\partial f _ {t}}{\partial c _ {t}}\right) c _ {t} r _ {c} d t = - \left(\frac {\partial f _ {t}}{\partial c _ {t}}\right) \left(\frac {\partial c _ {t}}{\partial t} d t + \frac {1}{2} \frac {\partial^ {2} c _ {t}}{\partial f _ {t} ^ {2}} d f _ {t} ^ {2}\right). \tag {22.22}
+- \left(\frac {\partial f _ {t}}{\partial c _ {t}}\right) c _ {t} r _ {c} d t = - \left(\frac {\partial f _ {t}}{\partial c _ {t}}\right) \left(\frac {\partial c _ {t}}{\partial t} d t + \frac {1}{2} \frac {\partial^ {2} c _ {t}}{\partial f _ {t} ^ {2}} d f _ {t} ^ {2}\right). \tag{22.21}
 $$
 
 Because  $df_{t}$  is removed, the Equation (22.22) is non-stochastic, which means the risk is hedged away. Now, we need to simplify Equation (22.22). Recall the standard stochastic process for the asset, which we learned when studying options,
@@ -367,24 +379,24 @@ $$
 \begin{array}{l} p _ {t} = c _ {t} - e ^ {- r _ {c} \tau^ {*}} \left(f _ {t} - X\right) \\ = e ^ {- r _ {c} \tau^ {*}} \left\{X \left[ 1 - N (d _ {2}) \right] - f _ {t} \left[ 1 - N (d _ {1}) \right] \right\} \\ = e ^ {- r _ {c} \tau^ {*}} \left[ X N (- d _ {2}) - f _ {t} N (- d _ {1}) \right]. \tag {22.32} \\ \end{array}
 $$
 
-We now illustrate this model with a numerical example. Suppose the futures price is  \$52, the exercise price is\$ 52.8, the time to expiration of the option contract is 0.25, the interest rate is 2.0%, and the volatility is 35%. First, solving for the value of  $d_{1}$  and  $d_{2}$ , we have
+We now illustrate this model with a numerical example. Suppose the futures price is $52, the exercise price is $52.8, the time to expiration of the option contract is 0.25, the interest rate is 2.0%, and the volatility is 35%. First, solving for the value of $d_{1}$ and $d_{2}$, we have
 
 $$
-d _ {1} = \frac {\ln \left(\frac {f _ {t}}{X}\right) + \left(\frac {\sigma^ {2}}{2}\right) \tau^ {*}}{\sigma \sqrt {\tau^ {*}}} = \frac {\ln \left(\frac {5 2}{5 2 . 8}\right) + \left(\frac {0 . 3 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 3 5 \sqrt {0 . 2 5}} = 0. 0 0 0
+d _ {1} = \frac {\ln \left(\frac {f _ {t}}{X}\right) + \left(\frac {\sigma^ {2}}{2}\right) \tau^ {*}}{\sigma \sqrt {\tau^ {*}}} = \frac {\ln \left(\frac {52}{52.8}\right) + \left(\frac {0.35^{2}}{2}\right) 0.25}{0.35 \sqrt {0.25}} = 0.000
 $$
 
 $$
-d _ {2} = d _ {1} - \sigma \sqrt {\tau^ {*}} = 0. 0 0 0 - 0. 3 5 \sqrt {0 . 2 5} = - 0. 1 7 5.
+d _ {2} = d _ {1} - \sigma \sqrt {\tau^ {*}} = 0.000 - 0.35 \sqrt {0.25} = -0.175.
 $$
 
 Based on Table 5.1: Standard Normal Cumulative Distribution Function Table, we have
 
 $$
-\begin{array}{l} c _ {t} = e ^ {- r _ {c} \tau^ {*}} \left[ f _ {t} N (d _ {1}) - X N (d _ {2}) \right] \\ = e ^ {- (0. 0 2) 0. 2 5} \left[ 5 2 (0. 5) - 5 2. 8 (0. 4 3 0 5 4 0) \right] \\ = 3. 2 5 1 2 \text {a n d} \\ \end{array}
+\begin{array}{l} c _ {t} = e ^ {- r _ {c} \tau^ {*}} \left[ f _ {t} N (d _ {1}) - X N (d _ {2}) \right] \\ = e ^ {- (0.02) 0.25} \left[ 52 (0.5) - 52.8 (0.430540) \right] \\ = 3.2512 \text {and} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} p _ {t} = c _ {t} - e ^ {- r _ {c} \tau^ {*}} \left(f _ {t} - X\right) \\ = 3. 2 5 1 2 - e ^ {- (0. 0 2) 0. 2 5} (5 2 - 5 2. 8) \\ = 4. 0 4 7 2. \\ \end{array}
+\begin{array}{l} p _ {t} = c _ {t} - e ^ {- r _ {c} \tau^ {*}} \left(f _ {t} - X\right) \\ = 3.2512 - e ^ {- (0.02) 0.25} (52 - 52.8) \\ = 4.0472. \\ \end{array}
 $$
 
 As the case with options on the spot, American options on futures are considerably more complex than European options on futures. What further complicates options on futures, however, is that call options could be optimally exercised early, which is not the case with options on the spot, as we have already discussed. This result occurs because of how the futures price converges to the spot price. Notice in Equation (22.3), the futures is higher than the spot. As expiration approaches, the futures must be pulled toward the spot. This pulling effect operates somewhat like a dividend, which pulls a stock price down. As we studied with options on stocks, a dividend can trigger early exercise that avoids the loss due to the downward pressure on the underlying. This downward pressure on the futures has the same effect. As such, it might be optimal to exercise a call option on a futures early. Put options can also be exercised early, just as with put options on assets, but the downward pressure that can trigger the early exercise of call options on futures will discourage the early exercise of put options on futures. If there are carrying costs or other benefits related to the futures price, the probability of early exercise will be altered, depending on the magnitude of these costs.<sup>8</sup> Pricing an American call on a futures will typically use a numerical method, such as the binomial model. There is also an approximation formula that is a variation of the Barone-Adesi-Whaley formula we discussed in Chapter 19.

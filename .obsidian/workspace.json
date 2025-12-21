@@ -243,8 +243,10 @@
       "ai-tagger:Generate tags!": false
     }
   },
-  "active": "f415a2f46a27c8d6",
+  "active": "360abbbc2746a8b9",
   "lastOpenFiles": [
+    "IX. Risk Management/Risk Management and Financial Institutions/Part 3 Market Risk/Chapter 11 Value at Risk and Expected Shortfall.md.bak",
+    "VI. Derivatives/Options Futures & Forwards/Derivatives Market Complete Full/chapters manual/18 Financial Engineering and Security Design.md.bak",
     "V. Equities and Alternatives/Equities/Investments BKM/Part 7 - Applied Portfolio Management/Chapter 25 - International Diversification.md",
     "V. Equities and Alternatives/Equities/Investments BKM/Part 6 - Options Futures and Other Derivatives/Chapter 20 - Options Markets Introduction.md",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 01 What Is Mathematics.md",
@@ -269,7 +271,6 @@
     "Untitled.md",
     "Untitled 1.md",
     "VI. Derivatives/Reference/BUSN Financial Instruments/Financial Instruments Lecture Notes/all_open_issues.json",
-    "scripts/update_bead_descriptions.py",
     "II. Economics/International/International Finance/International Finance Full chapters/01 Foreign Exchange Market.md",
     "II. Economics/International/International Finance/International Finance Full chapters/07 Modern Exchange Rate Models.md",
     "II. Economics/International/International Finance/International Finance Full chapters/02 Balance of Payments.md",
@@ -280,7 +281,6 @@
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 02 Mathematical Induction And so on.md",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Appendix A Definitions and Theorems.md",
     "styleguide/subagent-formatting-instructions.md",
-    "I. Foundations/Machine Learning/Foundations of Language Models.md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]

@@ -1,28 +1,20 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Elementary Review of Mathematics for Finance
-linter-yaml-title-alias: Elementary Review of Mathematics for Finance
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:20:25 PM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
 primary_tags:
-- constituent securities
-- two derivatives
-- financial analysis
-- following expression
+   - mathematical foundations
+   - summation notation
+   - differential calculus
 secondary_tags:
-- math classes
-- domestic stocks
-- international bonds
-- such symbols
-- third derivative
-- common algebraic functions
-- various finance applications
-- major formulas
-- product notation
-tags_extracted: '2025-12-18T04:08:56.402780'
-tags_method: max_quality_v1
+   - financial mathematics
+   - algebraic functions
+   - stochastic processes
+   - matrix algebra
+   - optimization methods
+cssclasses: academia
 ---
 
 # Elementary Review of Mathematics for Finance
@@ -40,7 +32,7 @@ $$
 The subscript is sometimes called the index. Any variable that appears on the RHS without the index can be brought to the LHS, as in the following examples:<sup>1</sup>
 
 $$
-\sum_ {i = 1} ^ {n} x _ {i} y = y \sum_ {i = 1} ^ {n} x _ {i}, \text {a n d ,} \tag {3.2}
+\sum_ {i = 1} ^ {n} x _ {i} y = y \sum_ {i = 1} ^ {n} x _ {i}, \text{and} \tag {3.2}
 $$
 
 $$
@@ -68,7 +60,7 @@ $$
 Also note that the following operations are appropriate and often used in finance:
 
 $$
-\begin{array}{l} \sum_ {i = 1} ^ {n} \left(x _ {i} + y _ {i}\right) = \sum_ {i = 1} ^ {n} x _ {i} + \sum_ {i = 1} ^ {n} y _ {i} \text {a n d} (3.6) \\ \sum_ {i = 1} ^ {n} a _ {j} = n a _ {j}. (3.7) \\ \end{array}
+\begin{array}{l} \sum_ {i = 1} ^ {n} \left(x _ {i} + y _ {i}\right) = \sum_ {i = 1} ^ {n} x _ {i} + \sum_ {i = 1} ^ {n} y _ {i} \text{and} (3.6) \\ \sum_ {i = 1} ^ {n} a _ {j} = n a _ {j}. (3.7) \\ \end{array}
 $$
 
 For example, most portfolio managers will frequently need to know the values of their portfolios. The manager may own financial instruments in numerous categories, such as domestic bonds, domestic stocks, international bonds, international stocks, financial derivatives, private equity, and so forth. Within each category, the manager may own varying amounts of numerous individual instruments. Based on the principle of value additivity, the portfolio value of each category is found by summing the number of units held for each instrument  $(N_{t,j,i})$  times the estimated price of the instrument  $(P_{t,j,i})$ , where  $t$  denotes the point in time,  $j$  denotes the category, and  $i$  denotes the specific instrument. Thus, each category's value  $(C_{t,j})$  can be represented as
@@ -174,7 +166,7 @@ $$
 $$
 
 $$
-\ln e ^ {x} = x, \text {a n d} \tag {3.17}
+\ln e ^ {x} = x, \text{and} \tag {3.17}
 $$
 
 $$
@@ -208,7 +200,7 @@ e ^ {x} e ^ {y} = e ^ {x + y}, \tag {3.22}
 $$
 
 $$
-e ^ {x} e ^ {- y} = e ^ {x - y}, \text {a n d} \tag {3.23}
+e ^ {x} e ^ {- y} = e ^ {x - y}, \text{and} \tag {3.23}
 $$
 
 $$
@@ -241,12 +233,61 @@ $$
 
 Using the previous product and summation properties, one could again easily manipulate total returns based on calendar months (January, February, and so forth) or further decompose monthly total returns into daily returns.
 
+```d2
+direction: right
+
+classes: {
+  function: {
+    style.fill: "#e3f2fd"
+    style.stroke: "#1976d2"
+  }
+  property: {
+    style.fill: "#f3e5f5"
+    style.stroke: "#7b1fa2"
+  }
+  finance: {
+    style.fill: "#e8f5e9"
+    style.stroke: "#388e3c"
+  }
+}
+
+exponential: Exponential Function {
+  class: function
+  label: "e^x - Growth/Compounding"
+  formula: "e^(rt) = Future Value"
+}
+
+logarithm: Natural Logarithm {
+  class: function
+  label: "ln(x) - Continuous Returns"
+  formula: "ln(FV/PV) = r × t"
+}
+
+discrete: Discrete Compounding {
+  class: finance
+  label: "(1 + r/n)^(nt)"
+  formula: "Approaches e^(rt) as n → ∞"
+}
+
+continuous: Continuous Compounding {
+  class: finance
+  label: "e^(rt)"
+  formula: "Simplifies calculations"
+}
+
+exponential -> logarithm: "Inverse functions"
+exponential -> continuous
+discrete -> continuous: "Limit as n → ∞"
+```
+
+**Figure: Exponential and Logarithmic Functions in Finance** - The exponential function models growth and compounding, while its inverse (natural logarithm) measures continuously compounded returns. This relationship simplifies many financial calculations.
+
 # 3.4 SERIES FORMULAS
 
 The following formulas for the sums of various finite and infinite series can be useful. These expressions are not easy to memorize and do not show up often in finance, but they can be used on occasion to simplify results, and you should have an accessible list such as the following:
 
 $$
-(\text {a s s u m e s} | x | <   1)
+(\text{assumes } |x| < 1)
 $$
 
 $$
@@ -278,7 +319,7 @@ $$
 $$
 
 $$
-\sum_ {i = 1} ^ {\infty} i x ^ {i} = \frac {x}{(1 - x) ^ {2}} \quad \text {f o r} 0 <   x <   1, \tag {3.32}
+\sum_ {i = 1} ^ {\infty} i x ^ {i} = \frac {x}{(1 - x) ^ {2}} \quad \text{for } 0 < x < 1, \tag {3.32}
 $$
 
 $$
@@ -733,12 +774,12 @@ $$
 {\frac {d y}{d z}} = {\frac {\partial y}{\partial x}} {\frac {d x}{d z}} + {\frac {\partial y}{\partial z}}.
 $$
 
-# 3.6 INTEGRATION
+## Integration
 
 Integration is closely related to differentiation, but people usually find it to be a much more difficult concept to grasp. There are two general ways to classify an integral. One, called the indefinite integral, is the opposite of differentiation and is sometimes called the antiderivative. Given a derivative, indefinite integration attempts to find the function that when differentiated obtains the given derivative. For example, suppose we were given the expression  $12x$ . The indefinite integral is  $6x^{2} + a$  where  $a$  is an unknown constant. This specification is written as
 
 $$
-\int 1 2 x = 6 x ^ {2} + a,
+\int 12 x = 6 x ^ {2} + a,
 $$
 
 which is true because if  $y = 6x^2$ , then  $dy / dx = 12x$ . But what if  $y = 6x^2$  plus some constant  $c$ ? Then again,  $dy / dx = 12x$ , so in finding the integral, we must allow for an indefinite constant, which is why it is called the indefinite integral. It is not precise.
@@ -752,7 +793,7 @@ $$
 where the  $F$  function is obtained upon integration, which we shall demonstrate next. The definite integral is defined specifically as the limit of the sum of an infinite series of rectangles drawn under the curve as follows,
 
 $$
-\lim _ {n \to \infty} \sum_ {i = 1} ^ {n} f (x _ {i}) \Delta x _ {i} = \int_ {j} ^ {k} f (x) d x,
+\lim _{n \to \infty} \sum_{i = 1} ^{n} f (x _{i}) \Delta x _{i} = \int_{j} ^{k} f (x) d x,
 $$
 
 where the curve between  $x = j$  and  $x = k$  has been partitioned into  $n$  rectangles. Note that the expression  $f(x_{i})\Delta x_{i}$  is the area of a rectangle with a base of length  $\Delta x_{i}$  such that
@@ -820,18 +861,18 @@ $$
 Now let us illustrate an example of finding the area under the curve. Suppose we have the following problem:
 
 $$
-\int_ {i} ^ {j} 1 2 x d x.
+\int_{i}^{j} 12 x d x.
 $$
 
 The value is computed by determining the function that represents the integral of  $12x$ . This would be  $F(x) = 6x^{2}$ . Then we determine  $F(b) - F(a)$ . The process is written in the following manner:
 
 $$
-\int_ {i} ^ {j} 1 2 x d x = \left. 6 x ^ {2} \right| _ {a} ^ {b} = 6 b ^ {2} - 6 a ^ {2}.
+\int_{i}^{j} 12 x d x = \left. 6 x ^{2} \right| _{a} ^{b} = 6 b ^{2} - 6 a ^{2}.
 $$
 
 Hence, given whatever choices we make of  $j$  and i (here  $j = b$  and  $i = a$ ), the area under the curve is easily computed in this manner.
 
-# 3.7 DIFFERENTIAL EQUATIONS
+## Differential Equations
 
 A differential equation is an equation that contains a derivative. The objective of solving a differential equation is to determine the original function whose derivative is given by the differential equation. Differential equations that contain only ordinary derivatives are called ordinary differential equations. Differential equations that contain partial derivatives are called partial differential equations.
 
@@ -850,20 +891,20 @@ $$
 The objective is to "solve" the differential equation, meaning to find the original function whose derivative is the differential equation. Solving differential equations can be very difficult. The one just shown is quite simple: We can use indefinite integration to obtain the following:
 
 $$
-\begin{array}{l} \int d y = \int 3 q x ^ {4} d x = 3 q \int x ^ {4} d x \\ y = \left(\frac {3 q}{5}\right) x ^ {5} + a. \\ \end{array}
+\begin{array}{l} \int d y = \int 3 q x ^ {4} d x = 3 q \int x ^ {4} d x \\ y = \left(\frac {3 q}{5}\right) x ^{5} + a. \\ \end{array}
 $$
 
 Note, however, that without knowing the value of  $a$  we cannot be very specific about the solution, which can vary widely depending on the value of  $a$ . To determine a more precise solution, we often impose one or more conditions on the value of  $q$ , which are called initial conditions or boundary conditions and represent values we know. For example, if we know that at  $x = 0$ , the function value is 50, then we can substitute zero for  $x$  and obtain  $50 = (3q / 5)0^{2} + a$  so  $a = 50$ . Or if we know that at  $x = 100$ ,  $y = 5,200$ , then we know that  $5,200 = (3q / 5)100^{2} + a$ , giving us a value for  $a$  in terms of  $q$ .
 
 Differential equations that contain partial derivatives are naturally called partial differential equations or PDEs. They are usually much harder to solve than are ordinary differential equations. Much of the process of solving differential equations involves classifying the equation into a given category of differential equations and then following known rules, hints, and suggestions for solutions of equations in that category. We will also sometimes exploit the fact that we have an idea of what the solution might look like. One approach to pricing options relies on solving a PDE.
 
-# 3.8 RECAP AND PREVIEW
+## Recap and Preview
 
 In this chapter we reviewed the rules of summations, products, logarithms, exponentials, and series formulas. In addition, we covered calculus derivatives and integrations, as well as differential equations. This material is strictly for the purposes of refreshing our knowledge from math courses that would have been previously taken.
 
 In Chapter 4, we move on to another review, which covers concepts in probability.
 
-# QUESTIONS AND PROBLEMS
+## Questions and Problems
 
 1 The following table provides a summary of a particular portfolio at year end. Demonstrate that the value of the overall portfolio can be found two ways: (1) finding the sector's value and then aggregating to the overall portfolio and (2) aggregating each position in the overall portfolio.
 
@@ -913,7 +954,7 @@ Based on the properties of the bond valuation equation in the previous problem, 
 
 One approach to establishing the theoretical price of a futures contract is based on the carry model. The carry model asserts the futures price that expires at time  $T$  ( $F_T$ ) is simply the spot price at time  $t$  ( $S_t$ ) grossed up by the risk-free interest rate ( $r_c$ ) and other carry costs ( $cc$ ) over the time to expiration  $\tau = T - t$  or  $F_T = S_t e^{(r_c + cc)\tau}$ . For many risk management applications, we are interested in the first derivative, known as delta, and second derivative, known as gamma, with respect to the spot price. Solve for these values as well as interpret them.
 
-# NOTES
+## Notes
 
 1. Recall LHS and RHS denotes the left-hand side and right-hand side of equations.  
 2. These derivatives are referred to as calculus derivatives, which is not typical terminology in math classes. In finance, however, options, forwards, futures, and swaps are referred to as derivative instruments inasmuch as they derive their values from an underlying asset or rate. Hence, we are compelled to make a distinction.  

@@ -1,13 +1,22 @@
 ---
-parent_directory:
 title: Financial Mathematics 33000
-tags:
-aliases:
-parent_folder: Options
-subfolder:
-key_concepts:
+parent_directory: FINM Options Markets
+formatted: "2025-12-21 02:20:00 PM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+   - black scholes model
+   - martingale measure
+   - girsanovs theorem
+   - option pricing
+secondary_tags:
+   - fundamental theorem
+   - continuous time
+   - risk neutral valuation
+   - ito processes
+   - stochastic calculus
+   - lognormal distribution
 cssclasses: academia
-linter-yaml-title-alias: Financial Mathematics 33000
 ---
 
 # Financial Mathematics 33000
@@ -22,16 +31,16 @@ Fundamental theorem in continuous time
 
 Black-Scholes
 
-# Fundamental theorem for continuous time Itô processes
+#### Fundamental theorem for continuous time Itô processes
 
 $\exists$  equivalent martingale measure  $\mathbb{P} \Rightarrow \mathrm{No}$  arb
 
-# Proof:
+### Proof:
 
 Given: under  $\mathbb{P}$ , each member of the discounted asset prices
 
 $$
-\frac {1}{B _ {t}} \mathbf {X} _ {t} := \left(\frac {X _ {t} ^ {1}}{B _ {t}}, \frac {X _ {t} ^ {2}}{B _ {t}}, \dots , \frac {X _ {t} ^ {N}}{B _ {t}}\right)
+\frac{1}{B_{t}} \mathbf{X}_{t} := \left(\frac{X_{t}^{1}}{B_{t}}, \frac{X_{t}^{2}}{B_{t}}, \dots , \frac{X_{t}^{N}}{B_{t}}\right)
 $$
 
 is a martingale Itô process. Need to prove: No arbitrage
@@ -46,7 +55,7 @@ If also  $V_{T} \geq 0$ , then  $V_{T} / B_{T} \geq 0$ , so  $V_{T} / B_{T} = 0$
 
 Conclusion:  $\Theta$  is not an arbitrage.
 
-# Fundamental theorem
+### Fundamental theorem
 
 To see that  $V / B$  is a martingale, let  $A_{t} \coloneqq 1 / B_{t}$ . Then
 
@@ -58,7 +67,7 @@ Since each  $A_{t}X_{t}^{n}$  is a martingale,  $V / B$  is a martingale also.
 
 $\triangleright$  Idea: A martingale is the cumulative PnL from betting on zero- $\mathbb{E}$  games. Varying your bet size across games and across time still produces, collectively, a zero expectation game. Can't risklessly make something from nothing by playing zero expectation games.
 
-# Fundamental theorem
+### Fundamental theorem
 
 $$
 p (A) =
@@ -94,7 +103,7 @@ $$
 \frac {X _ {0}}{B _ {0}} = \sum_ {j = 1} ^ {J} \frac {X _ {T} (\omega_ {j})}{B _ {T} (\omega_ {j})} \cdot \mathbb {P} (\omega_ {j}) = \mathbb {E} \bigg (\frac {X _ {T}}{B _ {T}} \bigg)
 $$
 
-# Fundamental theorem: Comments
+### Fundamental theorem: Comments
 
 $\triangleright$  Idea: The  $\mathbb{P}$  probability of an event is simply the price (in units of  $B$ ) of a asset that pays 1 unit of  $B$  iff that event occurs.  
 Note: In this entire proof, we never assumed that  $B$  is the bank account, and never assumed that it is riskless. It is enough to assume that  $B$  is some asset with positive price process.
@@ -103,7 +112,7 @@ In some applications, it may be easier to normalize using some such asset (some 
 
 By default, if we say risk-neutral or martingale measure without specifying the numeraire, it is understood to be the bank account.
 
-# Option pricing
+## Option pricing
 
 In L5, we did this by replication.
 
@@ -119,7 +128,7 @@ But what if the model is specified under physical measure?
 
 We know how  $S$  behaves with respect to physical measure  $\mathsf{P}$ . How does  $S$  behave wrt  $\mathbb{P}$ ? All risk driven by  $W$ . So let's see what changing measure does to  $W$ , then find what it does to  $S$ .
 
-# Girsanov's theorem
+## Girsanov's theorem
 
 Theorem: If  $W$  is a Brownian motion under  $\mathsf{P}$
 
@@ -134,7 +143,7 @@ is Brownian motion under  $\mathbb{P}$ . Therefore:
 $\triangleright \mathrm{d}\tilde{W}_t = \mathrm{d}W_t + \lambda_t\mathrm{d}t$  , and  $\tilde{W}$  is BM under  $\mathbb{P}$  but not under  $\mathsf{P}$  
 $\triangleright \mathrm{d}W_{t} = \mathrm{d}\tilde{W}_{t} - \lambda_{t}\mathrm{d}t$  , and  $W$  is BM under  $\mathsf{P}$  but not under  $\mathbb{P}$
 
-# Girsanov: an analogy
+### Girsanov: an analogy
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ae7bf53d-dab7-4e97-b78c-bcaf85f129df/efde5452a487791e9daf00ccb08223cc8f8d55c5be572bc1cc7fb514c89b4c56.jpg)
 
@@ -157,7 +166,7 @@ $X$  under  $\mathbb{P}$  does not have the same distribution as  $X$  under  $\
 
 But  $X$  plus drift under  $\mathbb{P}$  has the same distribution as  $X$  under  $\mathsf{P}$ .
 
-# Girsanov: some intuition
+### Girsanov: some intuition
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ae7bf53d-dab7-4e97-b78c-bcaf85f129df/2abadc4acddd7c383b904ce4a4da415ea6e3e13ffe57753173b59f254701db99.jpg)
 
@@ -187,7 +196,7 @@ Fundamental theorem in continuous time
 
 Black-Scholes
 
-# Black-Scholes via martingale approach
+## Black-Scholes via martingale approach
 
 Black-Scholes dynamics
 
@@ -213,7 +222,7 @@ $$
 
 But can we say anything about  $\mu -\lambda_t\sigma$
 
-# Under  $\mathbb{P}$ , every tradeable asset  $X$  has drift  $rX$
+### Under $\mathbb{P}$ , every tradeable asset $X$ has drift $rX$
 
 This page does not assume that  $X$  is a GBM.
 
@@ -230,7 +239,7 @@ so  $\mathrm{d}X_{t} - rX_{t}\mathrm{d}t$  has no drift term.
 
 $\triangleright$  Therefore the drift term of  $\mathrm{d}X_{t}$  must be  $rX_{t}\mathrm{d}t$
 
-# Under  $\mathbb{P}$ , the GBM  $S$  is still GBM, but with drift  $r$
+### Under $\mathbb{P}$ , the GBM $S$ is still GBM, but with drift $r$
 
 Applying this to  $S$ , we have  $(\mu - \lambda_t \sigma) S_t = r S_t$ , and
 
@@ -254,7 +263,7 @@ $$
 \log S _ {T} \sim \text {N o r m a l} (\log S _ {t} + (\mu - \sigma^ {2} / 2) (T - t), \sigma^ {2} (T - t))
 $$
 
-# Lognormal distribution
+## Lognormal distribution
 
 Here's a more general calculation, allowing different rates for growth and discounting, on an underlying  $X$ , not necessarily a stock price.
 
@@ -275,7 +284,7 @@ $$
 
 where  $W$  is  $\mathbb{P}$  -BM.
 
-# Conclusion: the Black-Scholes call price formula
+## Conclusion: the Black-Scholes call price formula
 
 Then, letting  $\mathbb{E}$  denote expectation wrt  $\mathbb{P}$ ,
 
@@ -301,7 +310,7 @@ $$
 d _ {1, 2} := d _ {+, -} := \frac {\log (F / K)}{\sigma \sqrt {T - t}} \pm \frac {\sigma \sqrt {T - t}}{2}.
 $$
 
-# Proof of formula: decompose  $(X_T - K)^+$
+### Proof of formula: decompose $(X_T - K)^+$
 
 $$
 \| _ {A} = \left\{ \begin{array}{l l} 1 & \mathrm {i f} A \\ 0 & \mathrm {i f n o t} A \end{array} \right.
@@ -327,7 +336,7 @@ $$
 \log (X _ {T} / F _ {t}) \sim \operatorname {N o r m a l} (- (\sigma^ {2} / 2) (T - t), \sigma^ {2} (T - t)).
 $$
 
-# Proof of formula: Second term of decomposition
+### Proof of formula: Second term of decomposition
 
 Now consider separately each term in the decomposition.
 
@@ -339,7 +348,7 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ae7bf53d-dab7-4e97-b78c-bcaf85f129df/808bbf9e7ca3ce2422cceba2f16dd1c1728459aee474d720d2232f9ce6bdd393.jpg)
 
-# Proof of formula: First term of decomposition
+### Proof of formula: First term of decomposition
 
 In the first term, we have  $\mathbb{E}_t((X_T / F_t)\mathbf{1}_{X_T > K})$
 
@@ -349,7 +358,7 @@ $$
 
 as claimed. The substitution was  $z = \frac{y - (\sigma^2 / 2)(T - t)}{\sigma\sqrt{T - t}}$  so  $\mathrm{d}z = \frac{1}{\sigma\sqrt{T - t}}\mathrm{d}y$
 
-# Probabilistic interpretation of  $N(d_{1})$  and  $N(d_{2})$
+## Probabilistic interpretation of $N(d_{1})$ and $N(d_{2})$
 
 In summary,
 
@@ -369,7 +378,7 @@ $e^{-r(T - t)}F_{t}N(d_{1})$ . If  $X = S$  is a no-dividend stock, this is  $S_
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ae7bf53d-dab7-4e97-b78c-bcaf85f129df/de10000bb7dc1ce696372e73e5643267ac0635c90b3c07a747e790ae52be89d4.jpg)
 
-# Probabilistic analysis of effect of  $r$
+## Probabilistic analysis of effect of $r$
 
 Increasing  $r$ , while keeping everything else fixed, has what effect on time-0 call prices?
 
@@ -381,7 +390,7 @@ $$
 
 If  $r \uparrow$  then  $c_{0}r$
 
-# Probabilistic intuition about impact of  $\sigma$
+## Probabilistic intuition about impact of $\sigma$
 
 The vega, at time-  $t$ , of an asset or portfolio with value  $C_t = C(S_t, t; \sigma)$  is  $\frac{\partial C}{\partial \sigma}(S_t, t; \sigma)$ . For a call or put in the B-S model,
 
@@ -396,7 +405,7 @@ For a complex payout  $f(S_T)$ , such as a call, the payout dominates the linear
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ae7bf53d-dab7-4e97-b78c-bcaf85f129df/c4228d27cbd5f7cac0f2020d1aaebcd42a26edcd3c62f57ad2d51f1657a3b24e.jpg)
 
-# Vega of a call
+## Vega of a call
 
 Vega of a call, plotted against  $S_{t}$ , for  $T - t = 1$ , and  $T - t = 0.25$ .
 
@@ -406,7 +415,7 @@ Vega of a call, plotted against  $S_{t}$ , for  $T - t = 1$ , and  $T - t = 0.25
 
 Under B-S dynamics, vega of a call is positive.
 
-# Probabilistic analysis of joint effect of  $\sigma$  and  $T$
+## Probabilistic analysis of joint effect of $\sigma$ and $T$
 
 Halving  $\sigma$  and quadrupling  $T$ , while keeping everything else fixed, has what effect on time-0 call prices?
 
@@ -438,7 +447,7 @@ $$
 \mathrm {E q u a n t e n t} \Rightarrow r \rightarrow 4 r. \quad\begin{array}{l}{\mathrm {C o T}}\\{\mathrm {i f r > 0}}\end{array}
 $$
 
-# Appendix
+## Appendix
 
 On an interval  $I$  a function  $f: I \to \mathbb{R}$  is said to be convex if its graph lies on or below all of its chords: for all  $x, y \in I$ , all  $\alpha \in [0,1]$ ,
 

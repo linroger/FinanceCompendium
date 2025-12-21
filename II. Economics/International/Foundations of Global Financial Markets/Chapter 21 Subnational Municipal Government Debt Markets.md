@@ -77,7 +77,7 @@ Subnational governments include states, regions, provinces, counties, and munici
 
 Subnational governments need to obtain proceeds to fulfill their delegated responsibilities. They traditionally derive their revenue from one or more of the following sources: (1) tax revenue (income taxes, property taxes, and sales taxes); (2) share of revenue from the central government; (3) fees and charges on local services provided; (4) asset sales; (5) investment income; and (6) grants from nongovernmental organizations.
 
-To obtain the necessary funding to operate a subnational government, the revenue sources of funding are combined with some debt arrangement (bank borrowing or the issuance of bonds). With the rapid industrialization and urbanization in developing countries has come the need for funding large-scale investments in infrastructure. For developed countries, the aging of its infrastructure will require a substantial commitment of capital. Although in both developed and developing economies, some financing will come from central governments and multilateral financial institutions, the rest must come from the subnationals themselves and any debt funding that they can obtain. Estimates for what the global need will be for infrastructure financing is provided by McKinsey, a consulting firm. McKinsey estimates that between 2012 and 2030, 57 trillion will be needed globally for infrastructure. For this reason, central governments in many countries are seeking ways to improve their municipal debt market.
+To obtain the necessary funding to operate a subnational government, the revenue sources of funding are combined with some debt arrangement (bank borrowing or the issuance of bonds). With the rapid industrialization and urbanization in developing countries has come the need for funding large-scale investments in infrastructure. For developed countries, the aging of its infrastructure will require a substantial commitment of capital. Although in both developed and developing economies, some financing will come from central governments and multilateral financial institutions, the rest must come from the subnationals themselves and any debt funding that they can obtain. Estimates for what the global need will be for infrastructure financing is provided by McKinsey, a consulting firm. McKinsey estimates that between 2012 and 2030, $57$ trillion will be needed globally for infrastructure. For this reason, central governments in many countries are seeking ways to improve their municipal debt market.
 
 In this chapter, we describe the issues concerning the development of subnational or municipal debt markets, including the two types of models for obtaining debt. These structures include the bank lending model and the bond issuance model. The first model mentioned has severe limitations, and therefore the major push in many countries is to develop the municipal bond market. Because the U.S. municipal bond market is an example of a well-developed bond issuance market, we describe this market in considerable detail in this chapter.
 
@@ -139,7 +139,7 @@ Multilateral financial institutions, which are also referred to as supranational
 
 Environmental Fund. It has been argued that the greatest need for infrastructure financing in developing markets is Asia because of its rate of urbanization. The Asian Development Bank estimated that \$8 trillion worth of infrastructure projects would be needed in Asia simply to maintain the region's economic growth rates. Recognizing this growing need for infrastructure financing, in 2015 China led the creation of the Asian Infrastructure Investment Bank. This bank has 57 founding member countries that committed \$100 billion in capital to fund infrastructure projects in the region. China contributed \$30 million. Japan has committed to inject a significant amount.
 
-The experience of multilateral institutions in fostering the development of a sustainable bond municipal debt market is sort of a puzzle. Take the case of Brazil, which has used loans from multilateral institutions for more than 30 years to develop a municipal debt market. Despite the many successes of this type of financing in terms of low rates of nonperforming municipal loans and investment projects that have been successful, market observers believe that Brazil "is as far away as ever from having a functioning local credit market."4 Brazil's subnationalals are not allowed to issue bonds, and because private banks view lending to subnationalals as too risky, they do not make intermediateand long-term loans. To obtain any other type of borrowing, central government approval is required on a case-by-case basis.
+The experience of multilateral institutions in fostering the development of a sustainable bond municipal debt market is sort of a puzzle. Take the case of Brazil, which has used loans from multilateral institutions for more than 30 years to develop a municipal debt market. Despite the many successes of this type of financing in terms of low rates of nonperforming municipal loans and investment projects that have been successful, market observers believe that Brazil "is as far away as ever from having a functioning local credit market."4 Brazil's subnationalals are not allowed to issue bonds, and because private banks view lending to subnationalals as too risky, they do not make intermediate- and long-term loans. To obtain any other type of borrowing, central government approval is required on a case-by-case basis.
 
 To foster infrastructure financing in developing economies, multilateral institutions use public-private partnerships and project finance initiatives, which we discuss next.
 
@@ -161,7 +161,7 @@ Vantage Airport Group, Skanska, Meridiam, and JLC Infrastructure, which are resp
 
 Green bonds are issued by supranationals, development banks, governments, and corporations. The largest issuers are the European Investment Bank, the International Bank for Reconstruction and Development, the African Development Bank, and the International Finance Corporation.
 
-A "green project" refers to a project or activity that promotes climate or other environmental sustainability goals. Green bonds are financial instruments whose proceeds are used solely to finance new and existing green projects. The catalysts for the introduction and growth of the green bond market are the World Bank Group and the European Development Bank. The World Bank has issued green bonds since 2008; through mid-2013, it had 67 transactions in 17 currencies totaling more than \$6.4 billion. In 2014, a local government agency in Norway. Kommunalbanken AS, issued a \$550 million green bond.
+A "green project" refers to a project or activity that promotes climate or other environmental sustainability goals. Green bonds are financial instruments whose proceeds are used solely to finance new and existing green projects. The catalysts for the introduction and growth of the green bond market are the World Bank Group and the European Development Bank. The World Bank has issued green bonds since 2008; through mid-2013, it had 67 transactions in 17 currencies totaling more than \$6.4 billion. In 2014, a local government agency in Norway, Kommunalbanken AS, issued a \$550 million green bond.
 
 The bonds are issued in response to specific investor demand for a triple-A-rated product that supports projects to mitigate climate change or to help those people affected by climate change adapt to it. The first green bond investors were a group of Scandinavian pension funds seeking "investment opportunities for the fixed income portion of their portfolios that would help them support climate mitigation and adaptation projects."10
 
@@ -183,7 +183,7 @@ Retail investors either directly or indirectly through their ownership of collec
 
 The two basic types of municipal security structures are tax-backed debt and revenue bonds. Other securities share characteristics of tax-backed debt and revenue bonds.[14]
 
-Tax-backed debt Debt issued by states, counties, special districts, cities, towns, and school districts and secured by some form of tax revenue is called tax-backed debt. This type of debt includes general obligation debt, appropriation-backed obligations, and debt obligations supported by public credit enhancement programs.
+Tax-backed debt: Debt issued by states, counties, special districts, cities, towns, and school districts and secured by some form of tax revenue is called tax-backed debt. This type of debt includes general obligation debt, appropriation-backed obligations, and debt obligations supported by public credit enhancement programs.
 
 The broadest type of tax-backed debt is general obligation debt. The two types of general obligation pledges are unlimited and limited. An unlimited tax general obligation debt is the stronger form of general obligation pledge, because it is secured by the issuer's unlimited taxing power. Tax revenue sources include corporate and individual income taxes, sales taxes, and property taxes. Unlimited tax general obligation debt is said to be secured by the full faith and credit of the issuer. A limited tax general obligation debt is a limited tax pledge because of a statutory limit on the tax rates the issuer may levy to service the debt.
 
@@ -193,11 +193,11 @@ Agencies or authorities of several states issue bonds that carry a potential sta
 
 Even though a moral obligation is a form of credit enhancement provided by a state, it is not a legally enforceable or legally binding obligation of the state. Some entities issue debt that carries some form of public credit enhancement that is legally enforceable. This type of credit enhancement occurs when the state or a federal agency guarantees or takes on an obligation to automatically withhold and deploy state aid to pay any defaulted debt service by the issuing entity. Typically, the latter form of public credit enhancement is used for debt obligations of a state's school systems.
 
-Revenue bonds The second basic type of security structure is found in a revenue bond. Such bonds are issued for either project or enterprise financing where the bond issuers pledge to the bondholders the revenues generated by the operating projects financed. A feasibility study is performed before the endeavor is undertaken to determine whether it will be self-supporting.
+Revenue bonds: The second basic type of security structure is found in a revenue bond. Such bonds are issued for either project or enterprise financing where the bond issuers pledge to the bondholders the revenues generated by the operating projects financed. A feasibility study is performed before the endeavor is undertaken to determine whether it will be self-supporting.
 
 Examples of revenue bonds include airport revenue bonds, college and university revenue bonds, hospital revenue bonds, single-family mortgage revenue bonds, multifamily revenue bonds, public power revenue bonds, resource recovery revenue bonds, seaport revenue bonds, sports complex and convention center revenue bonds, student loan revenue bonds, toll road and gas tax revenue bonds, and water revenue bonds.
 
-Hybrid and special bond structures Some municipal securities create special security structures that share characteristics of tax-backed debt and revenue bonds. They include insured bonds, prerefunded bonds, and structured/asset-based bonds.
+Hybrid and special bond structures: Some municipal securities create special security structures that share characteristics of tax-backed debt and revenue bonds. They include insured bonds, prerefunded bonds, and structured/asset-based bonds.
 
 Insured bonds, in addition to being secured by the issuer's revenue, are also backed by insurance policies written by commercial insurance companies. Insurance on a municipal bond is an agreement by an insurance company, referred to as a "monoline insurer," to pay the bondholder any bond principal or coupon interest due on a stated maturity date that is not paid by the bond issuer. Once issued, this municipal bond insurance usually extends for the term of the bond issue, and it cannot be canceled by the insurance company. Municipal bond insurance is just one form of credit enhancement used by municipal bond issuers, although the most commonly used form.
 
@@ -215,7 +215,7 @@ The escrow fund for a prerefunded municipal bond can be structured so that the b
 
 Some state and local governments issue bonds where the debt service is paid from so-called dedicated revenues, such as sales taxes, tobacco settlement payments, fees, and penalty payments. These structures, referred to as asset-backed securities, will be discussed in chapter 27. Asset-backed securities are also referred to as dedicated revenue bonds and structured bonds.
 
-Municipal Notes
+## Municipal Notes
 
 Municipal securities issued for periods of up to three years are considered to be short term in nature. They include tax anticipation notes, revenue anticipation notes, grant anticipation notes, bond anticipation notes, tax-exempt commercial paper, variable-rate demand obligations, and commercial paper/variable-rate demand obligations.
 
@@ -227,7 +227,7 @@ Variable-rate demand obligations (VRDOs) are floating-rate obligations that have
 
 The commercial paper/VRDO hybrid is customized to meet the cash flow needs of an institutional investor. As with tax-exempt commercial paper, the maturity is flexibly structured, because the remarketing agent establishes interest rates for a range of maturities. Although the instrument may have a long nominal maturity, there is a put provision, as with a VRDO. Put periods can range from one day to more than 360 days. On the put date, the investor can put back the bonds, receiving principal and interest, or the investor can elect to extend the maturity at the new interest rate and put date posted by the remarketing agent at that time. Thus, the investor has two choices when initially purchasing this instrument: the interest rate and the put date.
 
-# Default Risk
+## Default Risk
 
 Investors in municipal securities are exposed to default risk—the risk that the issuer fails to meet its contractual obligations. Default rates are less than for corporate bonds of the same maturity and with the same initial credit rating. For example, a study by Moody's of default rates through 2012 found that the cumulative default rate after 10 years for municipal and corporate bonds was as follows:[17]
 
@@ -260,7 +260,9 @@ To evaluate general obligation bonds, the CRAs assess information in four basic 
 
 Although numerous security structures can be used for revenue bonds, the underlying principle for rating is whether the project being financed will generate sufficient cash flow to satisfy the obligation due bondholders.
 
-Municipal bankruptcy We have referred to municipal bankruptcy. The provision in the U.S. bankruptcy code dealing with bankruptcy protection for municipalities is Chapter 9. This provision is much like a Chapter 11 bankruptcy in that it provides for a reorganization plan. There is no equivalent for municipalities of what is provided for in a Chapter 7 bankruptcy filing, which pertains to the liquidation of a corporation. This is because a municipality cannot be liquidated, because that would violate the Tenth Amendment of the U.S. Constitution granting states sovereignty over their internal affairs.[19] Effectively, Chapter 9 grants a municipality more power over its creditors than a corporation has over its creditors. A municipality's creditors cannot compel a municipality to liquidate its assets.
+## Municipal bankruptcy
+
+We have referred to municipal bankruptcy. The provision in the U.S. bankruptcy code dealing with bankruptcy protection for municipalities is Chapter 9. This provision is much like a Chapter 11 bankruptcy in that it provides for a reorganization plan. There is no equivalent for municipalities of what is provided for in a Chapter 7 bankruptcy filing, which pertains to the liquidation of a corporation. This is because a municipality cannot be liquidated, because that would violate the Tenth Amendment of the U.S. Constitution granting states sovereignty over their internal affairs.[19] Effectively, Chapter 9 grants a municipality more power over its creditors than a corporation has over its creditors. A municipality's creditors cannot compel a municipality to liquidate its assets.
 
 States are not permitted to file for Chapter 9 bankruptcy. Hence only nonstate municipal entities (cities, counties, townships, school districts, public improvement districts, and authorities of revenue-producing entities) can file. This action is not a simple process, explaining why historically the number of municipal entities filing for Chapter 9 bankruptcy protection is low. For example, according to data from the American Bankruptcy Institute,[20] for the period 1980 through the second quarter of 2011, there were only 159 filings. Chapter 11 bankruptcies for any single year are far greater than that.
 
@@ -275,7 +277,7 @@ As of 2017, the four largest municipal Chapter 9 bankruptcies are:
 - Orange County, California, filed in 1994 due to losses of more than \$1 billion on leveraged investments in exotic mortgage-backed security products: \$2 billion.
 - Stockton, California, filed in 2012 due to difficulties satisfying pension obligations: \$1 billion.
 
-# Secondary Market for Municipal Bonds
+## Secondary Market for Municipal Bonds
 
 Municipal securities are traded in the OTC market supported by more than 1,500 municipal bond dealers. Markets for the debts of smaller issuers (referred to as local credits) are maintained by regional brokerage firms, local banks, and some of the larger Wall Street firms. Markets for the bonds of larger issuers (referred to as generic names) are supported by the larger brokerage firms and banks, many of whom have investment banking relationships with these issuers.
 
@@ -289,7 +291,7 @@ Roughly $43\%$ of the trading in the municipal securities in 2012 and 2013 was e
 
 The SEC study of the municipal securities market made several recommendations for improving the secondary market and providing greater investor protection. The two major areas where improvements have been suggested are ongoing disclosure and improving market structure.
 
-Yields on Tax-Exempt Municipal Bonds
+## Yields on Tax-Exempt Municipal Bonds
 
 Because of the tax-exempt feature of municipal securities, their yield is less than that on Treasuries with the same maturity. The difference in yield between tax-exempt securities and Treasury securities is typically measured not in basis points but in percentage terms. More specifically, it is measured as the percentage of the yield on a municipal security relative to a comparable Treasury security and is called the yield ratio. Historically, the yield ratio has varied not just by credit rating and maturity but over time. The range for the yield ratio has been from 0.80 to more than 1.0.
 
@@ -297,7 +299,7 @@ In the municipal bond market, several benchmark curves exist. In general, a benc
 
 Participants in the municipal securities market calculate a yield to approximate what yield would have to be earned on a taxable bond to net the same yield after taxes as buying a taxable bond. That yield is referred to as a taxable-equivalent yield. We described this yield measure and its calculation in chapter 16.
 
-# Chinese Municipal Bond Market
+## Chinese Municipal Bond Market
 
 The People's Republic of China is making a major push to create a sustainable municipal debt market that has relied on banks to provide infrastructure finance to bond issuance. For example, in 2011, three cities (Beijing, Shanghai, Shenzhen) and the province of Zhejiang were allowed to issue bonds directly to the capital markets. These bonds are issued without a sovereign guarantee. On September 1, 2014, the Chinese parliament passed changes in the budget law that allows local governments to issue bonds directly. Local governments may issue bonds to fund projects that promote the public good (investments in infrastructure) but may not use borrowed money for day-to-day operations. In recent years, the Chinese government has made a major push to develop the country's municipal debt market. Prior to 2010, subnational government entities borrowed through the Urban Development and Investment Corporation, which is the investment and financing platform for subnationals in China. This corporation borrows directly from financial markets, and the subnational is responsible for servicing the debt.
 

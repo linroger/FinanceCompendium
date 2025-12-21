@@ -42,7 +42,7 @@ Suppose we can invest in a machine, costing \$10, that will produce one widget a
 
 Before reading further, you should try to answer this question: What is the most you would pay to acquire the rights to this project?
 
-# Static NPV
+## Static NPV
 
 A natural first step is to compute the NPV if we invested in the project today. We obtain
 
@@ -59,7 +59,7 @@ Why is NPV positive if we will be producing at a loss? Although the initial cash
 Suppose we wait 5 years to invest instead of investing immediately. NPV is then
 
 $$
-\begin{array}{l} \mathrm{NPV}_{\text{Wait 5 years}} = \frac{1}{1.05^{5}} \left[ (1.04)^{5} \frac{\$0.55}{0.01} - \$28 \right] \\ = \$30.49 \\ \end{array}
+\frac{1}{1.05^{5}} \left[ (1.04)^{5} \frac{\$0.55}{0.01} - \$28 \right] = \$30.49
 $$
 
 Thus, it is better to wait 5 years than to invest today. What is the maximum NPV we can attain?
@@ -87,7 +87,7 @@ We are left with (at least) two questions:
 - How do we approach this kind of problem in general?
 - Why didn't the NPV rule work? Or did it?
 
-# The Correct Use of NPV
+## The Correct Use of NPV
 
 The NPV rule worked correctly in the above example. The NPV rule for making investment decisions entails two steps:
 
@@ -100,14 +100,14 @@ In this example it would be correct to invest in the project today if not activa
 
 To decide whether and when to invest in an arbitrary project, we need to be able to compute the value of delaying that investment. As suggested at the start of the chapter, option pricing theory can help us to value delay.
 
-# The Project as an Option
+## The Project as an Option
 
 The decision to invest in the project involves a comparison of net present values. In what sense is this an option?
 
 We can interpret equation (1) so as to make the option analogy more apparent. When we take the project, we pay \$10 and we commit to paying \$0.90/year forever. The present value of this stream of costs is
 
 $$
-\text{Present value of costs} = \$10 + \frac{\$0.90}{0.05} = \$28
+\frac{S_{+1}}{0.01} = \frac{\$0.55}{0.01} = \$55
 $$
 
 As we discussed earlier, we can view this present value as analogous to the exercise price in an option valuation. In return for paying 28, we receive a cash flow with a present value of
@@ -131,7 +131,7 @@ With  $S = \$ 55  (the present value of revenue),  $K = \28$  (the present value
 
 The example in this section illustrates the importance of thinking dynamically about a project and shows how this specific problem can be modeled as an option.
 
-# 2. INVESTMENT UNDER UNCERTAINTY
+### 2. INVESTMENT UNDER UNCERTAINTY
 
 We first examine a particularly simple valuation problem in order to better understand the link between discounted cash flow (DCF), real options, and financial options.
 
@@ -159,7 +159,7 @@ We can use this description to compute the value of the project,  $V$ . The stan
 
 $$
 
-V = \frac {p X _ {u} + (1 - p) X _ {d}}{(1 + \alpha) ^ {T}} \tag {2}
+V = \frac{p X_{u} + (1 - p) X_{d}}{(1 + \alpha)^{T}} \tag{2}
 
 $$
 
@@ -169,7 +169,7 @@ Example 1. Suppose that the risk-free rate is  $r = 6\%$ , the expected return o
 
 $$
 
-\alpha = 0. 0 6 + 1. 2 5 \times (0. 1 0 - 0. 0 6) = 0. 1 1
+\alpha = 0.06 + 1.25 \times (0.10 - 0.06) = 0.11
 
 $$
 
@@ -177,7 +177,7 @@ The expected cash flow is
 
 $$
 
-\operatorname {E} (X) = 0. 6 0 \times \$ 1 2 0 + 0. 4 0 \times \$ 8 0 = \$ 1 0 4
+\operatorname{E}(X) = 0.60 \times \$120 + 0.40 \times \$80 = \$104
 
 $$
 
@@ -197,7 +197,7 @@ $$
 
 $$
 
-# Valuing Derivatives on the Cash Flow
+## Valuing Derivatives on the Cash Flow
 
 The calculation in Example 1 is standard but it is nevertheless based on strong assumptions: We have specified the future cash flows in different states, the probabilities of those states, and the comparability of the project to a traded asset.4 It turns out that in valuing the project we have already made all the assumptions we need to make in order to value derivatives related to the project.
 
@@ -213,12 +213,12 @@ $$
 
 The risk-neutral probability must therefore satisfy
 
-$$ p ^ {*} X _ {u} + (1 - p ^ {*}) X _ {d} = F _ {0, T}
+$$ p^* X_{u} + (1 - p^*) X_{d} = F_{0,T}
 $$
 
 Thus, we have
 
-$$ p ^ {*} = \frac {F _ {0 , T} - X _ {d}}{X _ {u} - X _ {d}}
+$$ p^* = \frac{F_{0,T} - X_{d}}{X_{u} - X_{d}}
 $$
 
 This gives us the binomial tree  $(X_{u}$  and  $X_{d}$ ) and the risk-neutral probability of a high outcome  $(p^{*})$ . Notice that if we value the project using the risk-neutral distribution, then by construction we will obtain the original project value,  $V$ .
@@ -226,24 +226,24 @@ This gives us the binomial tree  $(X_{u}$  and  $X_{d}$ ) and the risk-neutral p
 Example 2. Consider the same parameters as in Example 1. The forward price for the project is
 
 $$
-F _ {0, 1} = \ 93.694 \times (1.06) = \ 99.315
+F_{0,T} = S_0 \left(\frac{1 + r}{1 + \delta}\right)^{T}
 $$
 
 The risk-neutral probability of the good outcome is
 
-$$ p ^ {*} = \frac {9 9 . 3 1 5 - 8 0}{1 2 0 - 8 0} = 0. 4 8 2 9
+$$ p^* = \frac{99.315 - 80}{120 - 80} = 0.4829
 $$
 
 If we value the project using the risk-neutral probability, we obtain
 
 $$
-\frac {0 . 4 8 2 9 \times \$ 1 2 0 + (1 - 0 . 4 8 2 9) \times \$ 8 0}{1 . 0 6} = \$ 9 3. 6 9 4
+= 0.07 + 1.33 (0.06)
 $$
 
 Now make the same assumptions as in Example 1, except that we decide at time 1 whether to incur the  \$95 cost. We will choose to produce output in time 1 only when the cash flow is\$ 120, since we would lose \$15 by paying \$95 to produce when the output sells for 80. The value of the project is
 
 $$
-\begin{array}{l} \frac {p ^ {*} \max [ 0 , X _ {u} - I _ {1} ] + (1 - p ^ {*}) \max [ 0 , X _ {L} - I _ {1} ]}{1 + r} - I _ {0} \\ = \frac {0 . 4 8 2 9 \times \$ 2 5 + (1 - 0 . 4 8 2 9) \times 0}{1 . 0 6} - \$ 1 0 = \$ 1. 3 8 9 \\ \end{array}
+\frac{0.4829 \times \$120 + (1 - 0.4829) \times \$80}{1.06} = \$93.694
 $$
 
 Given the risk-neutral probability and the cash flow distribution, we can value projects with options or other nonlinear cash flows.
@@ -254,7 +254,7 @@ When we value an option on a stock, we rely on the market to have already perfor
 
 This discussion illustrates the point that risk-neutral pricing and discounted cash flow are alternative means of valuing a future cash flow. If done using the same assumptions, the two methods give the same answer. In practice, of course, it is common to make simplifying assumptions for tractability. Answers may differ because the simplifying assumptions for different valuation methods are inconsistent.
 
-# Evaluating a Project with a 2-Year Investment Horizon
+## Evaluating a Project with a 2-Year Investment Horizon
 
 We now consider the problem of when to invest in a risky project. As before, the decision to invest in such a project is like exercising an American option: We pay the investment cost
 
@@ -263,13 +263,13 @@ We now consider the problem of when to invest in a risky project. As before, the
 Suppose a project costs  \$100 and begins producing an infinite stream of cash flows 1 year after investment. Expected annual cash flows for the first year are\$ 18, and are expected to grow annually at a rate of  $3\%$ . Suppose further that the risk-free rate is  $7\%$ , the risk premium on the market is  $6\%$ , and the beta of the project is 1.33. Using the Capital Asset Pricing Model (CAPM), we compute the discount rate for the project in the usual way:
 
 $$
-\begin{array}{l} r _ {\text {p r o j e c t}} = r _ {\text {r i s k - f r e e}} + \beta \left(r _ {\text {m a r k e t}} - r _ {\text {r i s k - f r e e}}\right) \\ = 0. 0 7 + 1. 3 3 (0. 0 6) \\ = 0. 1 5 \\ \end{array}
+r_{\text{project}} = r_{\text{risk-free}} + \beta (r_{\text{market}} - r_{\text{risk-free}})
 $$
 
 To value the project, we perform a standard discounted cash flow calculation. Since the project lives forever, we treat it as a perpetual growing annuity. The present value is
 
 $$
-\begin{array}{l} \mathrm {P V} = \frac {\mathrm {E} \left(\mathrm {C F} _ {1}\right)}{r _ {\text {p r o j e c t}} - \text {g r o w t h r a t e}} \\ = \frac {\S 1 8}{0 . 1 5 - 0 . 0 3} \\ = \$ 150 \\ \end{array}
+\mathrm{PV} = \frac{\mathrm{E}(\mathrm{CF}_{1})}{r_{\text{project}} - \text{growth rate}}
 $$
 
 Static NPV is therefore  $150 -$ 100 = 50.
@@ -284,13 +284,13 @@ In 1 year, project value will be either  $29.677 / (0.15 - 0.03) =$ 247.31 or $1
 
 Figure 2 describes the evolution of the project's present value. The project does not exist prior to investment, but the tree provides the information we need in order to decide whether to invest. The tree in Figure 2 is exactly the same tree we would construct for the stock price of a company that had the project as its only asset and that paid dividends equal to the cash flow of the project. Such a stock would have an initial price of 150 and a 50\% volatility.
 
-# FIGURE I
+**FIGURE I**
 
 Binomial tree for project cash flows, assuming binomial distribution with  $50\%$  volatility.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/f48a3c7bb255cb4dd2894149620414044e3e5e3bcf2fa0138aab04b9a0432a55.jpg)
 
-# FIGURE 2
+**FIGURE 2**
 
 Binomial tree for project value, assuming  $50\%$  volatility. The value at each node is the project value if investment occurs at that node.
 
@@ -300,7 +300,7 @@ It may trouble you that in valuing this project, option pricing formulas are bei
 
 Solving for the Optimal Investment Decision. We can use Figure 2 to solve the investment problem exactly as we would use it in a binomial option pricing problem. The inputs are initial project value,  S = \150 ; investment cost,  K = \100 ; continuously compounded risk-free rate,  r = \ln (1.07) = 6.766\% ; volatility,  \sigma = 0.50 ; and time to expiration,  t = 2  years. Since the market value of the project today is  \150  and the cash flow in a year would be  \$18
 
-# FIGURE 3
+**FIGURE 3**
 
 Value of the investment option for the project in Figure 2.
 
@@ -314,24 +314,24 @@ YEAR 2 if the project were developed, the dividend yield is 12\% (18/150). Since
 
 The up and down moves can be modeled using any of the binomial trees. We can then solve for the value of the investment option just as we solve for the price of an American call option. The risk-neutral probability of the project value increasing in any period,  $p^*$ , is given by
 
-$$ p ^ {*} = \frac {e ^ {0 . 0 6 7 6 - 0 . 1 1 3 3} - e ^ {- 0 . 5}}{e ^ {0 . 5} - e ^ {- 0 . 5}} = 0. 3 3 5
+$$ p^* = \frac{e^{0.0676 - 0.1133} - e^{-0.5}}{e^{0.5} - e^{-0.5}} = 0.335
 $$
 
 Using  $p^*$ , we work backward through the tree. The results are in Figure 3. Notice that the initial value of the project option is  \$55.80, which is greater than the static NPV of\$ 50. Problem 11 asks you to verify these calculations.
 
 In practice, decision trees are often used to analyze this kind of problem. Figure 2—like any binomial option problem—is a decision tree, albeit with probabilities and nodes constructed in a very particular way. If the discount rate applicable to the underlying asset is constant, then when valuing an option using true probabilities, the correct discount rate varies across the nodes of the tree. Analysts using a decision tree often use true (not risk-neutral) probabilities and a constant discount rate along the tree. Binomial pricing per se does not imply that any particular true expected return is constant; instead, it tells us how to perform valuation so that the assumptions about the project and the assumptions about the tree are consistent with each other.
 
-# Evaluating the Project with an Infinite Investment Horizon
+### Evaluating the Project with an Infinite Investment Horizon
 
 The above example assumes that we must start the project by year 2 and that we evaluate it annually. Suppose instead that the project can be started at any time and then will live forever. The project is then a perpetual call option that we can evaluate using the perpetual option pricing formula. Using continuously compounded inputs, we compute
 
 $$
-\text {C a l l P e r t e u a l} (\mathbb {S} 1 5 0, \mathbb {S} 1 0 0, 0. 5 0, 0. 0 6 7 6, 0. 1 1 3 3) = \{\mathbb {S} 6 3. 3 9 6, \mathbb {S} 2 4 5. 7 1 \}
+\text{Call Perpetual} (\$150, \$100, 0.50, 0.0676, 0.1133) = \{\$63.396, \$245.71\}
 $$
 
 When the project value is \$150, the option value is \$63.396 and the optimal investment trigger is \$245.71. In other words, we invest when the project is worth \$245.71, more than twice the investment cost. If we invest immediately, the project is worth \$50. The ability to wait increases that value by \$13.396.
 
-# 3. REAL OPTIONS IN PRACTICE
+### 3. REAL OPTIONS IN PRACTICE
 
 Real investment decisions often have optionlike features. Consider the following:
 
@@ -344,11 +344,11 @@ We have already discussed the first—an investment project is a call option. We
 
 Despite the many similarities between real options and financial options, there is usually no simple and straightforward way to make real-life investment problems fit an option pricing formula. As with any valuation problem, it is necessary to analyze the specific problem. In this section, we look at two examples that use option analysis to value assets: peak-load electricity generation and pharmaceutical research and development. Box 1 describes an investment problem at Intel that was similar to a peak-load problem.
 
-# Peak-Load Electricity Generation
+### Peak-Load Electricity Generation
 
 Electricity forward prices can vary over the course of a day. They also vary seasonally: In the United States, electricity forward prices are high in the summer and low in the winter. In addition to this predictable variation, electricity prices can be volatile. On extremely hot days, for example, prices can spike to 100 times their average price.
 
-# BOX I: Peak-Load Manufacturing at Intel
+### BOX I: Peak-Load Manufacturing at Intel
 
 Manufacturers investing in production capacity and facing uncertain demand experience the same peak-load production problem as electricity producers. Consider a manufacturer investing in production capacity and facing uncertain demand. How should the manufacturer choose plant capacity? Consider choosing the plant's capacity to meet expected demand. If demand turns out to be less than forecast, the firm will either produce at a loss or have an idle plant. If demand is greater, the firm will forgo revenue. If it is necessary to produce whether demand is high or low, then extra capacity has no option value. However, if it is possible to idle an unused plant when demand is low, then extra production capacity is like a peak-load facility. The extra capacity gives the firm a call option.
 
@@ -364,7 +364,7 @@ A peak-load plant, as the name suggests, produces only when it is profitable to 
 
 For the moment, let's consider only electricity and gas prices, and assume that we can ignore distribution costs and marginal operating, maintenance, and other costs. Then
 
-# FIGURE 4
+**FIGURE 4**
 
 Forward price (top panel) and volatility (middle panel) curves for electricity and natural gas. The bottom panel depicts the spark spread implied by the forward price curves, assuming a heat rate of 9000.
 
@@ -375,7 +375,7 @@ Forward price (top panel) and volatility (middle panel) curves for electricity a
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/cd5fab9b00f001a4ec989121e1c8c0eba449abfda20f77b314d76f51bf7a9c6b.jpg)
 
 $$
-\operatorname {P r o f i t} = \max  \left(S _ {\text {e l e c}} - H \times S _ {\text {g a s}}, 0\right)
+\operatorname{Profit} = \max(S_{\mathrm{elec}} - H \times S_{\mathrm{gas}}, 0)
 $$
 
 This is the payoff to a European exchange option. The difference between the price of electricity and the cost of generation,  $S_{\mathrm{elec}} - H \times S_{\mathrm{gas}}$ , is called the spark spread. There are operating costs besides gas, but the spark spread is the variable component of marginal profit.
@@ -417,7 +417,7 @@ $\sigma \sqrt{T - t}$ ; this expression measures the volatility of the stock pri
 
 To consider a specific example, suppose it is January. From this perspective, the July price this year and the July price next year have similar distributions; we won't learn much about the July price this year or next until we approach July. (This is not strictly true because economic activity and even weather can follow long-term cycles, but suppose that it is a good approximation.) To compute an option price, we require annualized volatility,  $\sigma$ , which the option pricing formula transforms into volatility over the life of the option,  $\sigma \sqrt{T - t}$ . If you believe the uncertainty this July and next July is the same, the annualized volatility will be lower for next July since a given amount of uncertainty, when annualized, is spread across a greater period of time. If  $\sigma \sqrt{T_i - t}$  is the same for two different  $T_{i}$ s, the  $\sigma$ s will be different and the volatility curve will decline with horizon.
 
-# Research and Development
+### Research and Development
 
 Research and development is a capital expenditure like any other, in that it involves paying R&D costs today to receive cash flows later. If R&D is successful, a project using the new technology can be undertaken if its NPV is positive. This final option is a call option, just like the other projects we have analyzed. The R&D leading up to this project is therefore like an option premium: We pay R&D costs to acquire the project. R&D can be thought of as acquiring future investment options.
 
@@ -447,7 +447,7 @@ An example of staged investment. The value of the project, if developed, is in t
 
 Peak-load pricing and research and development are examples of how option techniques are used in making investment decisions. In the next two sections we develop an extended example of commodity extraction, which is yet another area in which real option considerations are essential.
 
-# 4. COMMODITY EXTRACTION AS AN OPTION
+### 4. COMMODITY EXTRACTION AS AN OPTION
 
 Natural resources investments are an important application of option techniques to investment decisions. $^{14}$  The extraction of a resource from the ground exhibits many similarities to the exercise of a financial option. The resource has a value that can be realized by paying an extraction cost. The market for the resource is typically competitive so that the behavior of one producer does not affect the price.
 
@@ -455,7 +455,7 @@ In this section we will consider the problem of extracting oil from the ground. 
 
 Our goal in studying the oil extraction problem will be to understand the economics of this problem. The analysis is an example illustrating the costs and benefits of deferring investment and stopping and starting production. The specific formulas do not apply in every situation.
 
-# Single-Barrel Extraction under Certainty
+### Single-Barrel Extraction under Certainty
 
 Suppose there is a plot of land that contains one barrel of oil. The current price of a barrel of oil is  $15, the oil forward curve is such that the effective annual lease rate, \delta , is 4\% (constant over time and across maturities at a point in time), and the effective annual risk-free rate, r,$  is  $5 \%$  (also constant over time). There is no uncertainty about the future price of oil. The barrel can be extracted at any time by paying 13.60, which we denote  $X.$  Finally, to make matters simple, suppose that the land is completely worthless once the oil is extracted.
 
@@ -562,7 +562,7 @@ To see why a zero lease rate implies that we would never extract gold, think abo
 
 This discussion provides an answer to the question of why gold has a positive lease rate. Investors hold a large stock of gold above ground despite the positive lease rate. The lease rate must therefore reflect a convenience yield earned by gold investors. This convenience yield is reflected in the forward curve as a positive lease rate. The positive lease rate in turn makes producers willing to extract new gold.
 
-# Single-Barrel Extraction under Uncertainty
+### Single-Barrel Extraction under Uncertainty
 
 Now we consider the effects of uncertainty on the oil extraction decision. Before proceeding, try to answer this question: If we keep all variables unchanged (the lease rate, extraction cost, and so forth), except that the oil price is uncertain, how do the extraction trigger price and the value of the undeveloped land change?
 
@@ -593,7 +593,7 @@ This is the present value of our investment strategy.
 By varying  \overline{S} , we can see how the present value of the project is affected by different extraction trigger prices. Figure 7 compares the value of the land under different rules about when to pay 13.60 and extract the oil. When oil price volatility is 15\%, the trigger price is higher and the land is more valuable. The trigger price that maximizes the value of the land is  \overline{S} = 25.3388 . At this price, we have a project value of
 
 $$
-\left(\mathbb {S} 2 5. 3 3 8 8 - \mathbb {S} 1 3. 6 0\right) \left(\frac {\mathbb {S} 1 5}{2 5 . 3 3 8 8}\right) ^ {h _ {1}} = \mathbb {S} 3. 7 8 5 6
+(\bar{S} - \$13.60) \left(\frac{S_0}{\bar{S}}\right)^{h_1} = \$3.7856
 $$
 
 # FIGURE 7
@@ -605,19 +605,19 @@ Value of land containing one barrel of oil as a function of the trigger extracti
 We can verify this calculation by exploiting the insight that for option pricing purposes the lease rate is the dividend yield, and use the perpetual call formula:
 
 $$
-\text {C a l l P e r t e p u a l} [ \$ 1 5, \$ 1 3. 6 0, 0. 1 5, \ln (1. 0 5), \ln (1. 0 4) ] = \{\$ 3. 7 8 5 6, \$ 2 5. 3 3 8 8 \}
+\text{Call Perpetual} [\$15, \$13.60, 0.15, \ln(1.05), \ln(1.04)] = \{\$3.7856, \$25.3388\}
 $$
 
 The perpetual call calculation also gives \overline{S} = \25.3388 as the price at which exercise should occur.
 
-# Valuing an Infinite Oil Reserve
+### Valuing an Infinite Oil Reserve
 
 Now suppose that the land contains an infinite number of barrels of oil that can be extracted at the rate of one barrel per year. We will assume that the firm can at any time invest  $I$  in order to turn the undeveloped reserve into a developed reserve. Exactly 1 year after that, the reserve will begin to produce one barrel of oil a year forever at a cost  $c$  per barrel. We solve this problem by working backward. We first compute the value of the firm supposing that it is already producing, and we then study the decision about when to invest.
 
 **Valuing the Producing Firm.** Once the firm has invested, it will continue producing forever since the price of oil is always rising. The lease rate is the discount rate linking the future commodity price with the current commodity price. Thus, the time  $t$  value of a barrel received at time  $T$  is  $\mathrm{PV}_t(F_{t,T}) = F_{t,T} / (1 + r)^{T - t} = S_t / (1 + \delta)^{T - t}$ . The value of the producing firm at time 0 is therefore
 
 $$
-\begin{array}{l} \sum_ {i = 1} ^ {\infty} \frac {F _ {0 , i} - c}{(1 + r) ^ {i}} = \sum_ {i = 1} ^ {\infty} \left(\frac {S _ {0}}{(1 + \delta) ^ {i}} - \frac {c}{(1 + r) ^ {i}}\right) \tag {8} \\ = \frac {S _ {0}}{\delta} - \frac {c}{r} \\ \end{array}
+h_1 = \frac{1}{2} - \frac{r - \delta}{\sigma^2} + \sqrt{\left(\frac{r - \delta}{\sigma^2} - \frac{1}{2}\right)^2 + \frac{2r}{\sigma^2}}
 $$
 
 You might wonder why the present value of a barrel of oil a year forever is  $S_0 / \delta$ . We know that a perpetual-coupon bond paying  $c$  /year is worth  $c / r$  (the second term on the right in equation (8)). The lease rate on a commodity bond is analogous to the interest rate on a cash bond. The operating well is like a bond paying one unit of the commodity forever, so the lease rate  $\delta$  is the appropriate discount rate for a bond denominated in a commodity, and  $S_0 / \delta$  is the value of the well.
@@ -625,7 +625,7 @@ You might wonder why the present value of a barrel of oil a year forever is  $S_
 Valuing the Option to Invest. If the firm invests at the price  $S_{T}$ , the value of the land at that time is the value of the producing well less the investment cost,  $I$ , or  $S_{T} / \delta - c / r - I$ . The value of the land today is
 
 $$
-\frac {1}{(1 + r) ^ {T}} \left(\frac {S _ {T}}{\delta} - \frac {c}{r} - I\right) = \frac {1}{(1 + r) ^ {T}} \frac {1}{\delta} \left(S _ {T} - \delta \left[ \frac {c}{r} + I \right]\right) \tag {9}
+\frac{1}{(1 + r)^T} \left(\frac{S_T}{\delta} - \frac{c}{r} - I\right) = \frac{1}{(1 + r)^T} \frac{1}{\delta} \left(S_T - \delta \left[ \frac{c}{r} + I \right]\right)
 $$
 
 This is the value of the undeveloped oil reserve. Note the similarity with equation (6). If in equation (6) we replace  $S_{T}$  with the present value of oil extracted,  $S_{T} / \delta$ , and replace the extraction cost,  $X$ , with the present value of all extraction costs,  $c / r + I$ , then we have a problem that appears the same as in the single-barrel case. We want to select  $T$  to maximize equation (9). The right-hand side of equation (9) expresses the value on a per-barrel basis, times  $1 / \delta$ . Having multiple barrels in the ground does not change anything fundamental about the problem if there is certainty and the oil price grows indefinitely.
@@ -633,7 +633,7 @@ This is the value of the undeveloped oil reserve. Note the similarity with equat
 Example 3. Suppose  S_0 = \15, r = 5\% ,  \delta = 4\% ,  c = \8 , and the value of the producing well is  \15 / 0.04 - \8 / 0.05 = \215 . If the investment cost,  I , is  \180 , then the per-barrel extraction cost is  \delta (c / r + I) = 0.04 \times (\$8 / 0.05 + \$180) = \$13.60 . The problem is the same as having  1 / \delta  options to extract at a cost of  \13.60 ; hence, the solution is exactly the same as in the single-barrel case. To appreciate the similarity, use the option pricing formula:
 
 $$
-\text {C a l l P e r p e t u a l} \left[ \frac {\S 1 5}{0 . 0 4}, \frac {\S 8}{0 . 0 5} + 1 8 0, 0. 0 0 0 0 0 1, \ln (1. 0 5), \ln (1. 0 4) \right] = \{\S 4 4. 9 1 4, \S 4 2 2. 9 5 6 \}
+\text{Call Perpetual} \left[ \frac{\$15}{0.04}, \frac{\$8}{0.05} + 180, 0.000001, \ln(1.05), \ln(1.04) \right] = \{\$44.914, \$422.956\}
 $$
 
 The value of the well at which extraction occurs is  $422.956. Thus, extraction occurs when S = 0.04 \times$ 422.956 = 16.918.
@@ -643,14 +643,14 @@ With uncertainty, we could have the ability to shut a producing well. We will as
 Example 4. Make the same assumptions as in Example 3, except suppose that the price of oil is lognormally distributed with a constant lease rate and volatility is  $\sigma = 0.15$ . The land value and optimal extraction decision is given by
 
 $$
-\text {C a l l P e r p e t u a l} \left[ \frac {\mathbb {S} 1 5}{0 . 0 4}, \frac {\mathbb {S} 8}{0 . 0 5} + \mathbb {S} 1 8 0, 0. 1 5, \ln (1. 0 5), \ln (1. 0 4) \right] = \{\mathbb {S} 9 4. 6 3 9, \mathbb {S} 6 3 3. 4 6 9 \}
+\text{Call Perpetual} \left[ \frac{\$15}{0.04}, \frac{\$8}{0.05} + \$180, 0.15, \ln(1.05), \ln(1.04) \right] = \{\$94.639, \$633.469\}
 $$
 
 The well is worth 94.639 and we invest when it is worth S / 0.04 = \633.469, or when S = \25.3388. . On a per-barrel basis, the well is worth 0.04 \times \94.639 = \3.7856. With these assumptions, the solution is the same as in the single-barrel case.
 
 In the absence of any shutdown options, the singleand infinite-barrel cases differ only in scale. The interesting difference arises when it is possible to avoid operating losses by shutting down, which matters only in the multiple-barrel case.
 
-# 5. COMMODITY EXTRACTION WITH SHUTDOWN AND RESTART OPTIONS
+## 5. COMMODITY EXTRACTION WITH SHUTDOWN AND RESTART OPTIONS
 
 With production occurring over time and uncertainty about the price of oil, we face two new operating decisions: whether to keep the well operating, or, if it has been shut down, whether to reopen it. There are thus three stages of production:
 
@@ -682,12 +682,12 @@ It is helpful to analyze shutting down and restarting by considering three separ
 
 Each case layers a new option on the previous case. In addition to allowing additional shutting down and restarting, we can impose costs of doing so. We focus in this section on the case where the well can be shut down never or once after the initial investment. Appendix B adds restarting to the analysis.
 
-# Permanent Shutting Down
+### Permanent Shutting Down
 
 Suppose that we are operating the well. If the current price is  $S$  and we ignore shutting down, the value of the operating well is simply
 
 $$
-V _ {\text {o p e r a t i n g , n o s h u t d o w n}} = \frac {S}{\delta} - \frac {c}{r} \tag {10}
+V_{\text{operating, no shutdown}} = \frac{S}{\delta} - \frac{c}{r}
 $$
 
 Suppose that we can at any time pay a cost of  $k_{s}$ , abandon the well, and never produce again.  $S_{*}$  is the price at which we shut down.
@@ -701,7 +701,7 @@ What is the value of shutting down? There are three considerations:
 Thus, the value of shutting down at price  $S_{*}$  at a cost of  $k_{s}$  is
 
 $$
-- \frac {S _ {*}}{\delta} + \frac {c}{r} - k _ {s} = \left(\frac {c}{r} - k _ {s}\right) - \frac {S _ {*}}{\delta} \tag {11}
+\sum_{i=1}^{\infty} \frac{F_{0,i} - c}{(1 + r)^i} = \sum_{i=1}^{\infty} \left(\frac{S_0}{(1 + \delta)^i} - \frac{c}{(1 + r)^i}\right) = \frac{S_0}{\delta} - \frac{c}{r}
 $$
 
 This is the payoff to a put option with strike price  $c / r - k_s$  and asset price  $S_*/\delta$ . If we are operating and the price is  $S$ , we can value this put to determine the value of the option to shut down, as well as the trigger price,  $S_*$ , for shutting down.
@@ -709,13 +709,13 @@ This is the payoff to a put option with strike price  $c / r - k_s$  and asset p
 Example 5. Suppose the oil well is operating and the oil price is  S = \10 . We also have  c = \8, \sigma = 0.15 , and effective annual  r  and  \delta  are  5\%  and  4\% , respectively. If  k_{s} = \0 , the value of the option to shut down is
 
 $$
-\text {P u t P e r p e t u a l} [ \$ 1 0 / 0. 0 4, \$ 8 / 0. 0 5, 0. 1 5, \ln (1. 0 5), \ln (1. 0 4) ] = \{\$ 9. 6 3 3, \$ 1 0 6. 8 3 0 \}
+\text{Put Perpetual} [\$10/0.04, \$8/0.05, 0.15, \ln(1.05), \ln(1.04)] = \{\$9.633, \$106.830\}
 $$
 
 Thus, we shut down production when S/δ = \$106.83 or when S = 0.04 × \$106.83 = 4.273. At this point, the present value of continuing to produce is
 
 $$
-\frac {\mathbb {S} 4 . 2 7 3}{0 . 0 4} - \frac {\mathbb {S} 8 . 0 0}{0 . 0 5} = - \mathbb {S} 5 3. 1 7
+V - I_{0} - I_{1}/(1 + r) = 93.694 - \$10 - \$95/1.06
 $$
 
 By shutting down production, we avoid losses of 53.17.
@@ -733,7 +733,7 @@ In Example 5, shutdown is permanent so the zero NPV price (S = \6.40)6.40) is th
 The value of the producing well. Given that shutdown is possible, what is the value of a producing well? The answer is that the value of the well is the value of the perpetually producing well plus the value of the shutdown option:
 
 $$
-\begin{array}{l} V _ {\text {o p e r a t i n g}} (S) = V _ {\text {n o s h u t d o w n}} (S) + V _ {\text {s h u t d o w n o p t i o n}} (S) \\ = \frac {S}{\delta} - \frac {c}{r} + \text {P u t P e r p e t u a l} \left[ \frac {S}{\delta}, \frac {c}{r} - k _ {s}, \sigma , \ln (1 + r), \ln (1 + \delta) \right] \tag {12} \\ \end{array}
+V_{\text{operating}}(S) = V_{\text{no shutdown}}(S) + V_{\text{shutdown option}}(S)
 $$
 
 Figure 9 graphs equation (12) for a range of oil prices and four different volatilities, along with the value of the well without a shutdown option. Without the shutdown option, the value of the well is like a stock and declines to  $-c / r = -\$ 160$  when  $S = 0$ . With the option, the well is worth zero once it is shut. (Recall that once the well has been shut, the land has no additional value.)
@@ -748,7 +748,7 @@ Value of a producing well that can never be shut down (equation (8)), and that c
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/6ecadb9573e330a27a9f1759a64240cf920f123df5b4ed77e04dd8fc2c09e10b.jpg)
 
-# Investing When Shutdown Is Possible
+### Investing When Shutdown Is Possible
 
 How does the ability to shut the well affect the initial investment decision? Once we drill the well, the maximum potential loss is less because of the shutdown option. The ability to shut down makes us willing to invest sooner.
 
@@ -757,13 +757,13 @@ To account for the value of the shutdown option we work backward. Equation (12) 
 Value of well at time of investment  $= V_{p}(\overline{S}) - I$
 
 $$
-= \frac {\bar {S}}{\delta} - \frac {c}{r} + \text {P u t P e r p e t u a l} \left[ \frac {\bar {S}}{\delta}, \frac {c}{r} - k _ {s}, \sigma , \ln (1 + r), \ln (1 + \delta) \right] - I \tag {13}
+= \frac{\bar{S}}{\delta} - \frac{c}{r} + \text{Put Perpetual} \left[ \frac{\bar{S}}{\delta}, \frac{c}{r} - k_s, \sigma, \ln(1 + r), \ln(1 + \delta) \right] - I
 $$
 
 To solve for  $\overline{S}$ , we need to find the present value of equation (13), and then choose  $\overline{S}$  to maximize this present value. For a given  $\overline{S}$ , equation (13) tells us the value of investing when  $S = \overline{S}$ . If the oil price today is  $S < \overline{S}$ , we can compute the present value of equation (13) using equation (14). The value will depend upon the current oil price (the lower the price, the longer it will take to hit  $\overline{S}$ ), so we denote it as  $V_{\mathrm{Invest}}(S; \overline{S})$ . This present value is
 
 $$
-\begin{array}{l} V _ {\text {i n v e s t}} (S; \bar {S}) = \left(\frac {S}{\bar {S}}\right) ^ {h _ {1}} \\ \times \left(\frac {\bar {S}}{\delta} - \frac {c}{r} + \text {P u t P e r p e t u a l} \left[ \frac {\bar {S}}{\delta}, \frac {c}{r} - k _ {s}, \sigma , \ln (1 + r), \ln (1 + \delta) \right] - I\right) \tag {14} \\ \end{array}
+V_{\text{invest}}(S; \bar{S}) = \left(\frac{S}{\bar{S}}\right)^{h_1} \times \left(\frac{\bar{S}}{\delta} - \frac{c}{r} + \text{Put Perpetual} \left[ \frac{\bar{S}}{\delta}, \frac{c}{r} - k_s, \sigma, \ln(1 + r), \ln(1 + \delta) \right] - I\right)
 $$
 
 Equation (14) can be maximized with respect to  $\overline{S}$  using a spreadsheet or other numerical program.
@@ -774,7 +774,7 @@ If we increase the current oil price to S = \$20, then the value of the undevelo
 
 This example illustrates some key points. First, as discussed earlier, the ability to shut down reduces the investment trigger, from \$25.34 with no shutting down, to \$25.12 with shutting down. Second, if there is a cost of shutting down, shutting down occurs at a lower price and provides less protection. This mitigates the benefit of shutting down, raising the shutdown trigger to \$25.21. Finally, a point that may be obvious but is important to understand: The investment trigger implied by maximizing equation (14) is independent of S, the current oil price. To see why, suppose that S = $25. If S = $15, it must pass \$20 before reaching \$25. Thus, if we evaluate the option when S = \$20, we must obtain the same S as when S = 15. Thus, S is independent of S.
 
-# Restarting Production
+### Restarting Production
 
 The preceding example assumed that the firm could never restart once it had shut down. In this section we examine the restart strategy if the firm could restart after it permanently had shut down.
 
@@ -783,7 +783,7 @@ Suppose the firm can pay  $k_{r}$  to restart production. The ability to restart
 Example 7. The value of a shutdown well is
 
 $$
-\text {C a l l P e r p e t u a l} \left[ \frac {S}{\delta}, \frac {c}{r} + k _ {r}, \sigma , \log (1 + r), \log (1 + \delta) \right]
+\text{Call Perpetual} \left[ \frac{S}{\delta}, \frac{c}{r} + k_r, \sigma, \log(1 + r), \log(1 + \delta) \right]
 $$
 
 Assuming that  $S = \$ 10, \delta = 0.04, r = 0.05, \sigma = 0.15, c = \$8, and k_r = \$0, the option pricing formula gives us the value of the well as \$94.46, and \$11.92 as the price at which to restart.
@@ -792,7 +792,7 @@ The ability to restart affects the decision to shut down. When we shut down, we 
 
 Comparison of investment  $(\overline{S})$ , shutdown  $(S_{*})$ , and restart  $(S^{*})$  triggers under different assumptions.  $k_{s}$  is the cost of shutting down the well and  $k_{r}$  is the cost of restarting once it is shut. In all cases,  $r = 5\%$  and the lease rate is  $\delta = 4\%$ .
 
-# TABLE I
+### TABLE I
 
 | σ    | ks   | kr   | Shutdown | Restart | S      | S*    | S**   |
 |------|------|------|----------|---------|--------|-------|-------|
@@ -804,7 +804,7 @@ Comparison of investment  $(\overline{S})$ , shutdown  $(S_{*})$ , and restart  
 | 0.15 | 25   | 25   | 1        | 1       | 25.17  | 4.33  | 13.79 |
 | 0.15 | 25   | 25   | ∞        | ∞       | 25.17  | 4.37  | 13.18 |
 
-# Additional Options
+## Additional Options
 
 The firm might be able to restart and shut down production many times. We can determine triggers and solve for the value of the well by following the strategy in the previous sections. Details of the solution are in Appendix B.
 
@@ -814,13 +814,13 @@ The results in Table 1 illustrate a phenomenon called hysteresis, which Dixit (1
 
 Real-life investment decisions exhibit hysteresis. To illustrate hysteresis in a different context, Dixit (1989) considers investment decisions of a manufacturer with operations in a foreign country. Exchange rate fluctuations will change the profitability of the foreign investment. However, since investing and disinvesting are costly, it will be optimal to wait until the investment is sufficiently profitable before investing, and sufficiently unprofitable before disinvesting. What appear to be sluggish investment decisions may simply result from costs of undoing what has been done.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 Real options is the analysis of investment decisions taking into account the ability to revise future operating decisions. Examples of real options include timing options (the ability to choose when to make an investment), shutdown options (the ability to stop production in order to avoid losses), sequential investments where the decision to make later investments depends on the outcome of earlier investments (common in R&D), and natural resource extraction. Investment decisions in which such options are present can be analyzed using pricing tools, such as the Black-Scholes model, perpetual options, binomial trees, and barrier present value calculations. In some cases the optimal decision is equivalent to the problem of when to exercise an American option. In general, however, as illustrated by the oil extraction problem, a simple option formulation is just a starting point for analysis.
 
 Even when standard option pricing models are not directly applicable, understanding the economics of derivatives is helpful in understanding the economics of investment and operation decisions.
 
-# FURTHER READING
+## FURTHER READING
 
 Early papers that used techniques from financial options to analyze real assets include Brennan and Schwartz (1985) and McDonald and Siegel (1985, 1986). These papers study investment timing and the option to shut down and restart. Brennan (2000) insightfully summarizes the literature since then. There are several valuable books on real options, including Dixit and Pindyck (1994) and Trigeorgis (1996).
 

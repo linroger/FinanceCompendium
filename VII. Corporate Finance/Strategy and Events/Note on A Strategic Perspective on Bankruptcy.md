@@ -1,21 +1,25 @@
 ---
 title: A Strategic Perspective on Bankruptcy
+parent_directory: Strategy and Events
+formatted: 2025-12-21 05:30:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
-  - corporate bankruptcy
-  - chapter 11 reorganization
-  - financial distress
-  - corporate restructuring
+   - corporate bankruptcy
+   - chapter 11 reorganization
+   - financial distress
+   - corporate restructuring
 secondary_tags:
-  - bankruptcy code
-  - out-of-court reorganization
-  - in-court reorganization
-  - creditor claims hierarchy
-  - distressed companies
-  - bankruptcy procedures
-  - corporate control market
-  - vulture investors
-  - bankruptcy costs
-  - reorganization challenges
+   - bankruptcy code
+   - out-of-court reorganization
+   - in-court reorganization
+   - creditor claims hierarchy
+   - distressed companies
+   - bankruptcy procedures
+   - corporate control market
+   - vulture investors
+   - bankruptcy costs
+   - reorganization challenges
 cssclasses: academia
 ---
 
@@ -29,7 +33,7 @@ ANDREW N. McLEAN
 
 For the managers of a company with obligations to claimholders that exceed its ability to fulfill them, the choice between out-of-court reorganization and a court-supervised reorganization under Chapter 11 of the U.S. Bankruptcy Code involves complex economic, legal, and ethical considerations.
 
-Over the five-year span that began in 2007, 619 public companies in the U.S. representing more than $2.0$ trillion in combined assets entered Chapter 11 bankruptcy proceedings (see Exhibit 1).<sup>1</sup> While fifteen years earlier managers had reluctance to damage their reputations by taking a company into bankruptcy,<sup>2</sup> it is now a more frequent path for companies in financial distress. Nevertheless, reorganizing the obligations and operations of a distressed company remains a time-consuming, complex process with uncertain timelines, numerous hazards, and unknown outcomes.
+Over the five-year span that began in 2007, 619 public companies in the U.S. representing more than \$2.0 trillion in combined assets entered Chapter 11 bankruptcy proceedings (see Exhibit 1).<sup>1</sup> While fifteen years earlier managers had reluctance to damage their reputations by taking a company into bankruptcy,<sup>2</sup> it is now a more frequent path for companies in financial distress. Nevertheless, reorganizing the obligations and operations of a distressed company remains a time-consuming, complex process with uncertain timelines, numerous hazards, and unknown outcomes.
 
 ## The Challenges of Reorganizing under the Bankruptcy Code
 
@@ -61,7 +65,7 @@ Market for corporate control All companies in distress encounter a volatile mark
 
 Continuing operations The survival of a distressed company depends on its ability to restore operating cash flows to a sustainable level. Under court supervision, companies commonly find easier access to credit because any new obligations are often given priority over all other debt obligations. This cash infusion can be vital to the company's ability to continue to operate its business.
 
-Continuing operations under court supervision face unique challenges. First, management actions are subject to court scrutiny. Under Chapter 11, management may be permitted to retain control of the company under the theory that management knows more about the business and is therefore more likely to turn it around successfully. In the case of alleged fraud or management misconduct, however, the court will appoint a trustee to oversee operations. Yet even in cases without a trustee, management must seek court approval for any major decision, including the securing of new credit, employing professionals to work on the bankruptcy, and disposing of assets outside the normal course of business. While bankruptcy courts often will allow companies to reject executory contracts, $^a$ other obligations are hard to break. For example, management must persuade the court that there is no alternative plan under which the company could successfully emerge from bankruptcy before underfunded pension obligations can be transferred to the federal Pension Benefit Guarantee Corporation. Likewise, before rejecting a collective bargaining agreement, the debtor usually has to demonstrate to the court a good-faith effort to renegotiate the contract privately. $^6$
+Continuing operations under court supervision face unique challenges. First, management actions are subject to court scrutiny. Under Chapter 11, management may be permitted to retain control of the company under the theory that management knows more about the business and is therefore more likely to turn it around successfully. In the case of alleged fraud or management misconduct, however, the court will appoint a trustee to oversee operations. Yet even in cases without a trustee, management must seek court approval for any major decision, including the securing of new credit, employing professionals to work on the bankruptcy, and disposing of assets outside the normal course of business. While bankruptcy courts often will allow companies to reject executory contracts, <sup>a</sup> other obligations are hard to break. For example, management must persuade the court that there is no alternative plan under which the company could successfully emerge from bankruptcy before underfunded pension obligations can be transferred to the federal Pension Benefit Guarantee Corporation. Likewise, before rejecting a collective bargaining agreement, the debtor usually has to demonstrate to the court a good-faith effort to renegotiate the contract privately. $^6$
 
 Second, commitment of employees, partners, and customers suffers under court supervision. This has been observed in cases of companies that depend on highly skilled employees, strategic business partnerships, or long-term customer relationships. While it may be appealing to relinquish burdensome obligations and generate immediate cash savings, the effect of the consequent loss of goodwill should be carefully considered in light of the future value of the affected relationships. Transaction-based businesses—notably airlines and retail—have established histories of frequent recourse to court-supervised reorganizing, while relationship businesses—for example, financial services, business technology, and durable goods—are notably absent. Restructuring in this class may be more likely to be conducted out of court or through the sale of all or part of the business.
 

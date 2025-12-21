@@ -123,8 +123,6 @@ $$
 
 Concept Check 7.1 asks you to explore the bordered covariance matrix a bit further.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/300f0131da05a5cf8bd3ef88b9679e8549cfec1238d513a60c6368115d56b081.jpg)
-
 # Concept Check 7.1 a. First confirm for yourself that our simple rule for computing the variance of a two-asset portfolio from the bordered covariance matrix is consistent with Equation 7.3.
 
 b. Return to Example 7.1. What would be the variance of a portfolio invested in stocks  $X$ ,  $Y$ , and  $Z$  from Example 7.1 with weights .20, .30, and .50 respectively?
@@ -959,8 +957,6 @@ b. Critique the client's suggestion. Discuss how both systematic and firm-specif
 # E-INVESTMENTS EXERCISES
 
 Go to the www.investopedia.com/articles/ basics/03/050203.asp Web site to learn more about diversification, the factors that influence investors' risk preferences, and the types of investments that fit into each of the risk categories. Then check out www.investopedia.com/managing wealth/achieve-optimal-asset-allocation for asset allocation guidelines for various types of portfolios from conservative to very aggressive. What do you conclude about your own risk preferences and the best portfolio type for you? What would you expect to happen to your attitude toward risk as you get older? How might your portfolio composition change?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/48378221561dc50c51ec97595625637b4f97d920ba85cadf153e5c64d5370f43.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

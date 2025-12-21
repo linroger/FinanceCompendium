@@ -1,7 +1,7 @@
 ---
 title: A Primer on Perpetuals
 parent_directory: Options Futures & Forwards
-formatted: 2025-12-21 02:15:00 PM
+formatted: 2025-12-21 03:00:00 AM
 formatter_model: claude-3-5-sonnet-20241022
 cli-tool: claude-code
 primary_tags:
@@ -51,11 +51,11 @@ Matthew Lorig $^{8}$
 
 This version: September 9, 2022
 
-## Abstract
+### Abstract
 
 We consider a continuous-time financial market with no arbitrage and no transactions costs. In this setting, we introduce two types of perpetual contracts, one in which the payoff to the long side is a fixed function of the underlyers and the long side pays a funding rate to the short side, the other in which the payoff to the long side is a fixed function of the underlyers times a discount factor that changes over time but no funding payments are required. Assuming asset prices are continuous and strictly positive, we derive model-free expressions for the funding rate and discount rate of these perpetual contracts as well as replication strategies for the short side. When asset prices can jump, we derive expressions for the funding and discount rates, which are semi-robust in the sense that they do not depend on the dynamics of the volatility process of the underlying risky assets, but do depend on the intensity of jumps under the market's pricing measure. When asset prices can jump and the volatility process is independent of the underlying risky assets, we derive an explicit replication strategy for the short side of a perpetual contract. Throughout the paper, we illustrate through examples how specific perpetual contracts relate to traditional financial instruments such as variance swaps and leveraged exchange traded funds.
 
-## 1 Introduction
+### 1 Introduction
 
 A perpetual contract (often just perp, for short) is a type of financial contract that enables relatively general payoffs. At a high level, a perp contract can be described as follows: two parties, which we will call the long side and the short side, enter into an agreement. The short side agrees to pay the long side some payoff, which is a function of the prices of the underlying assets, at a time of the long side's choosing. In exchange for this, the long side pays a continual cash-flow to the short side up until contract termination. This cash flow can be implemented in two distinct ways. First, it can be implemented directly as a literal cash flow, where the long side pays the short side cash at fixed time increments. Second, a sometimes more practical approach is instead to replace the cash flow by discounting the payoff at contract termination.
 
@@ -69,7 +69,7 @@ Recently, perps with payoffs that are proportional to some power of the price of
 
 The role of this paper is to clearly define perps, show a number of natural generalizations to those known in the literature, and correct some of the misinformation that exists online as to how the rate of cash-flow should be computed in a no-arbitrage setting. The rest of the paper proceeds as follows: in Section 2 we introduce a financial market in which risky assets have continuous price paths. Next, in Section 3, we define a perpetual contract in which the long side must pay a funding rate to the short side. We derive a model-free expression for the funding rate as well as a replication strategy for the short side. In Section 4 we define a second type of perpetual contract in which no funding payments are required but the payoff is discounted over time. We derive a model-free expression for the discount rate as well as a replication strategy for the short side. Lastly, in Section 5, we consider a market with a single risky asset whose value may jump. In this setting, we derive expressions for the funding and discount rates of the two types of perpetual contracts introduced in Sections 3 and 4. And, under the assumption of an independent volatility process, we derive a replication strategy for the short side of a perpetual contract.
 
-## 2 Market model and assumptions
+### 2 Market model and assumptions
 
 In Sections 2, 3, and 4, we consider a continuous-time financial market, defined on a filtered probability space  $(\Omega, \mathcal{F}, \mathbb{I}, \mathbb{P})$ , with no arbitrage and no transaction costs. The filtration  $\mathbb{I} = (\mathcal{F}_t)_{t \geq 0}$  represents the history of the market and  $\mathbb{P}$  represents the real-world probability measure. We suppose that the market
 
@@ -89,7 +89,7 @@ $$
 
 where  $\mathrm{W} = (\mathrm{W}_t^{(1)},\mathrm{W}_t^{(2)},\dots ,\mathrm{W}_t^{(d)})$  is a  $d$ -dimensional (IF, IP)-Brownian motion with independent components. Lastly, throughout this paper, in order to avoid unnecessary complications, we assume all local martingales are true martingales.
 
-## 3 Perpetual contracts with funding
+### 3 Perpetual contracts with funding
 
 We will discuss two types of perpetual contracts in this paper: (i) perpetual contracts with funding and (ii) perpetual contrast with discounting. In this section, we focus on the former. We begin with a definition.
 
@@ -98,11 +98,9 @@ DEFINITION 1. A perpetual contract with funding (or simply, a perp) written on S
 The following theorem gives an expression for the funding rate.
 
 THEOREM 2. Consider a perpetual contract as described in Definition 1. Suppose that the function  $\varphi \in \mathbb{C}^2 (\mathbb{R}^d,\mathbb{R})$ . Under the assumptions of Section 2, the funding rate  $\mathbf{F}$  is given by
-
 $$
-\mathrm {F} _ {t} = \frac {1}{2} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \left(\sigma_ {t} \sigma_ {t} ^ {\top}\right) ^ {(i, j)} \mathrm {S} _ {t} ^ {(i)} \mathrm {S} _ {t} ^ {(j)} \partial_ {i} \partial_ {j} \varphi (\mathrm {S} _ {t}) - \left(\varphi (\mathrm {S} _ {t}) - \sum_ {i = 1} ^ {n} \mathrm {S} _ {t} ^ {(i)} \partial_ {i} \varphi (\mathrm {S} _ {t})\right) r _ {t}. \tag {1}
+\mathrm{F}_t = \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n \left(\sigma_t \sigma_t^{\top}\right)^{(i,j)} \mathrm{S}_t^{(i)} \mathrm{S}_t^{(j)} \partial_i \partial_j \varphi (\mathrm{S}_t) - \left(\varphi (\mathrm{S}_t) - \sum_{i=1}^n \mathrm{S}_t^{(i)} \partial_i \varphi (\mathrm{S}_t)\right) r_t. \tag{1}
 $$
-
 where $(\sigma_t\sigma_t^\top)^{(i,j)}$ denotes the $(i,j)$-th component of $\sigma_t\sigma_t^\top$ and $\partial_j \coloneqq \frac{\partial}{\partial s_j}$.
 
 Proof. We will show that, with  $\mathbf{F}_t$  given by (1), the short side can create a self-financing portfolio whose value  $\mathrm{X} = (\mathrm{X}_t)_{t\geq 0}$  satisfies
@@ -140,11 +138,9 @@ r_{t} = \frac{\mathrm{d}}{\mathrm{d}t} \log \mathsf{M}_{t}, \quad (\sigma_{t} \s
 $$
 
 we can express  $\mathbf{F}$  in the following model-free form
-
 $$
-\mathrm{F}_{t} \mathrm{dt} = \frac{1}{2} \sum_{i=1}^{n} \sum_{j=1}^{n} \mathrm{S}^{(i)} \mathrm{S}^{(j)} \partial_{i} \partial_{j} \varphi(\mathrm{S}_{t}) \mathrm{d} \langle \log \mathrm{S}^{(i)}, \log \mathrm{S}^{(j)} \rangle_{t} - \left(\varphi(\mathrm{S}_{t}) - \sum_{i=1}^{n} \mathrm{S}_{t}^{(i)} \partial_{i} \varphi(\mathrm{S}_{t})\right) \mathrm{d} \log \mathrm{M}_{t}. \tag{5}
+\mathrm{F}_t \mathrm{dt} = \frac{1}{2} \sum_{i=1}^n \sum_{j=1}^n \mathrm{S}^{(i)} \mathrm{S}^{(j)} \partial_i \partial_j \varphi(\mathrm{S}_t) \mathrm{d} \langle \log \mathrm{S}^{(i)}, \log \mathrm{S}^{(j)} \rangle_t - \left(\varphi(\mathrm{S}_t) - \sum_{i=1}^n \mathrm{S}_t^{(i)} \partial_i \varphi(\mathrm{S}_t)\right) \mathrm{d} \log \mathrm{M}_t. \tag{5}
 $$
-
 By contrast, in order to price and replicate most traditional financial derivatives such as European, American, Bermudan and Barrier options, one requires a parametric model for the underlying S as well as knowledge of unobservable model parameters.
 
 EXAMPLE 5. A (continuously monitored) variance swap (VS), written on an asset  $S \equiv S^{(1)}$  is an agreement between two parties, referred to as the long and short sides. At the maturity date  $T$ , the short side pays the long side
@@ -154,20 +150,16 @@ $$
 $$
 
 where the swap rate $K$ is determined at inception $t = 0$ so that the initial cost to enter the swap is zero. Under the assumptions of Section 2, the swap rate $K$ is given by $-2\widetilde{\mathbb{E}}\log(\mathrm{S_T}/\mathrm{S_0})$, where $\widetilde{\mathbb{E}}$ denotes expectation under the market's chosen pricing measure $\widetilde{\mathbb{P}}$, which can be deduced by observing implied volatilities of T-maturity European calls and puts (see, e.g., Carr and Madan (2001)). Because implied volatilities tend to be higher than realized volatility (this is sometimes known as the volatility premium) taking the long side of a VS is typically a losing trade. As an alternative to entering the long side of a VS, an investor wishing to gain exposure to volatility could take a long position in a perp as described in Definition 1 with payoff $\varphi(\mathrm{S}_t) = 2\log(\mathrm{S}_t / \mathrm{S}_0)$. Like a VS, there is no cost to entering this perp because $\varphi(\mathrm{S}_0) = 2\log(\mathrm{S}_0 / \mathrm{S}_0) = 0$. Moreover, assuming $r \equiv 0$ for simplicity, we have from (5) that the funding rate is
-
 $$
-\mathrm{F}_{t} \mathrm{dt} = - \mathrm{d} \langle \log \mathrm{S} \rangle_{t}.
+\mathrm{F}_t \mathrm{dt} = - \mathrm{d} \langle \log \mathrm{S} \rangle_t.
 $$
-
 Therefore, if the long side chooses to terminate the contract at time  $T$ , the value of the payoff minus funding paid is
-
 $$
-\varphi(\mathrm{S}_{\mathrm{T}}) - \int_{0}^{\mathrm{T}} \mathrm{F}_{t} \mathrm{dt} = 2 \log\left(\frac{\mathrm{S}_{\mathrm{T}}}{\mathrm{S}_{0}}\right) + \int_{0}^{\mathrm{T}} \mathrm{d} \langle \log \mathrm{S} \rangle_{t}.
+\varphi(\mathrm{S}_T) - \int_0^T \mathrm{F}_t \mathrm{dt} = 2 \log\left(\frac{\mathrm{S}_T}{\mathrm{S}_0}\right) + \int_0^T \mathrm{d} \langle \log \mathrm{S} \rangle_t.
 $$
-
 Thus, by taking a long position in a perp, the investor can achieve the same exposure to volatility that they would have had they taken the long side of a VS, without paying a volatility premium.
 
-## 4 Perpetual contracts with discounting
+### 4 Perpetual contracts with discounting
 
 One of the problems with a perp with funding is that execution of the contract requires the long side to place a deposit (e.g., on an exchange or into a smart contract) at inception in order to pay the funding rate. If the time-integral of the funding rate ever exceeds the deposit, the contract is automatically terminated. One way to avoid automatic termination of the contract is to consider, instead, a perpetual contract with discounting, whose mechanics are described in the following definition.
 
@@ -222,11 +214,9 @@ $$
 $$
 
 Now, consider a perp as described in Definition 6 with payoff  $\varphi (\mathrm{S}_t) = \mathrm{L}_0(\mathrm{S}_t / \mathrm{S}_0)^{\Upsilon}$ . We have from (5) and (6) that
-
 $$
-\mathrm {D} _ {t} \mathrm {d} t = \frac {\gamma (\gamma - 1)}{2} \mathrm {d} \langle \log \mathrm {S} \rangle_ {t} - (1 - \gamma) \mathrm {d} \log \mathrm {M} _ {t}.
+\mathrm{D}_t \mathrm{dt} = \frac{\gamma (\gamma - 1)}{2} \mathrm{d} \langle \log \mathrm{S} \rangle_t - (1 - \gamma) \mathrm{d} \log \mathrm{M}_t.
 $$
-
 If the long side terminates the perp at time  $t$  it will receive
 
 $$
@@ -244,17 +234,13 @@ $$
 where  $p$  and  $q$  are constants satisfying  $p, q > 0$  and  $p + q = 1$  (c.f., Angeris and Chitra (2020); Evans (2020)).
 
 Now, consider a perp as described in Definition 6 with payoff
-
 $$
-\varphi \left(\mathrm {S} _ {t}\right) = \mathrm {V} _ {0} \left(\frac {\mathrm {S} _ {t} ^ {(1)}}{\mathrm {S} _ {0} ^ {(1)}}\right) ^ {p} \left(\frac {\mathrm {S} _ {t} ^ {(2)}}{\mathrm {S} _ {0} ^ {(2)}}\right) ^ {q}. \tag {10}
+\varphi \left(\mathrm{S}_t\right) = \mathrm{V}_0 \left(\frac{\mathrm{S}_t^{(1)}}{\mathrm{S}_0^{(1)}}\right)^p \left(\frac{\mathrm{S}_t^{(2)}}{\mathrm{S}_0^{(2)}}\right)^q. \tag{10}
 $$
-
 We have from (5) and (6) that
-
 $$
-\mathrm {D} _ {t} \mathrm {d} t = \frac {p (p - 1)}{2} \mathrm {d} \langle \log \mathrm {S} ^ {(1)} \rangle_ {t} + \frac {q (q - 1)}{2} \mathrm {d} \langle \log \mathrm {S} ^ {(2)} \rangle_ {t} + p q \mathrm {d} \langle \log \mathrm {S} ^ {(1)}, \log \mathrm {S} ^ {(2)} \rangle_ {t}.
+\mathrm{D}_t \mathrm{dt} = \frac{p (p - 1)}{2} \mathrm{d} \langle \log \mathrm{S}^{(1)} \rangle_t + \frac{q (q - 1)}{2} \mathrm{d} \langle \log \mathrm{S}^{(2)} \rangle_t + p q \mathrm{d} \langle \log \mathrm{S}^{(1)}, \log \mathrm{S}^{(2)} \rangle_t.
 $$
-
 If the perp is terminated at time  $t$  the value of the payoff to the long side is
 
 $$
@@ -265,7 +251,7 @@ One can show that the term in the exponent is positive along every path of  $(\m
 
 This follows from  $p(1 - p)\mathrm{d}x^2 + q(1 - q)\mathrm{d}y^2 - 2pq\mathrm{d}x\mathrm{d}y = pq\mathrm{d}x^2 + pq\mathrm{d}y^2 - 2pq\mathrm{d}x\mathrm{d}y = (p\mathrm{d}x - q\mathrm{d}y)^2 \geq 0$ .
 
-## 5 Extension to models with jumps
+### 5 Extension to models with jumps
 
 In this section, we derive funding and discount rates for perpetual contracts as well as replication strategies for the short side when asset prices are allowed to jump. For simplicity, we will assume the risk-free rate of interest is zero ( $r_t = 0$ ) and we will consider perpetuals written on a single risky asset S. The extension to non-zero interest rates and multiple assets it straightforward, but tedious.
 
@@ -278,11 +264,9 @@ $$
 where  $\sigma = (\sigma_{t})_{t\geq 0}$  and  $\gamma (z) = (\gamma_{t}(z))_{t\geq 0}$  for every  $z\in \mathbb{R}$  are scalar IF-adapted processes,  $\widetilde{\mathsf{W}} = (\widetilde{\mathsf{W}}_t)_{t\geq 0}$  is a scalar  $(\widetilde{\mathbb{P}},\mathbb{F})$  -Brownian motion and  $\widetilde{\mathrm{N}} (\mathrm{dt},\mathrm{dz}) = \mathrm{N}(\mathrm{dt},\mathrm{dz}) - \nu (\mathrm{d}z)\mathrm{d}t$  is a compensated Poisson random measure on  $\mathbb{R}$ . Observe that S is a  $(\widetilde{\mathbb{P}},\mathbb{F})$  -martingale, as it must be in the absence of arbitrage. The following theorem gives the funding rate F and discount rate D for the perpetual contracts described in Definitions 1 and 6, respectively, when the dynamics of the underlying S are given by (11).
 
 THEOREM 10. Suppose the dynamics of a single underlying risky asset are of the form (11) and the payoff function  $\varphi$  of a perpetual satisfies  $\varphi \in C^2 (\mathbb{R},\mathbb{R})$  and  $\varphi \neq 0$ . Then, the funding rate  $F$  of the perpetual contract described in Definition 1 is given by
-
 $$
-\mathrm {F} _ {t} = \frac {1}{2} \sigma_ {t} ^ {2} \mathrm {S} _ {t} ^ {2} \varphi^ {\prime \prime} (\mathrm {S} _ {t}) + \int \left(\varphi (\mathrm {S} _ {t} \mathrm {e} ^ {\gamma_ {t} (z)}) - \varphi (\mathrm {S} _ {t}) - \mathrm {S} _ {t} (\mathrm {e} ^ {\gamma_ {t} (z)} - 1) \varphi^ {\prime} (\mathrm {S} _ {t})\right) \nu (\mathrm {d} z). \tag {12}
+\mathrm{F}_t = \frac{1}{2} \sigma_t^2 \mathrm{S}_t^2 \varphi'' (\mathrm{S}_t) + \int \left(\varphi (\mathrm{S}_t \mathrm{e}^{\gamma_t (z)}) - \varphi (\mathrm{S}_t) - \mathrm{S}_t (\mathrm{e}^{\gamma_t (z)} - 1) \varphi' (\mathrm{S}_t)\right) \nu (\mathrm{dz}). \tag{12}
 $$
-
 and the discount rate  $\mathrm{D}$  of a perpetual contract described in Definition 6 is given by  $\mathrm{D}_t = \mathrm{F}_t / \varphi(\mathrm{S}_t)$ .
 
 Proof. Consider first a perpetual contract with funding, as described in Definition 1. The infinitesimal change in value of the long side is
@@ -346,7 +330,7 @@ $$
 Let  $\mathrm{X} = (\mathrm{X}_t)_{0\leq t\leq T}$  be a the value of self-financing portfolio with dynamics of the form
 
 $$
-\mathrm {d} X _ {t} = \Delta_ {t -} \mathrm {d} S _ {t} + \sum_ {i = 1} ^ {n} \Gamma_ {t -} ^ {\left(p _ {i}\right)} \mathrm {d} Y _ {t} ^ {\left(p _ {i}\right)} + F _ {t -} \mathrm {d} t, \quad \mathrm {X} _ {0} = \varphi \left(\mathrm {S} _ {0}\right), \tag {20}
+B_0 = e^{-r T} \left\{\mathrm{E}^* \left(A_T \mid \text{Default}\right) \times \Pr^* (\text{Default}) + \bar{B} \times [1 - \Pr^* (\text{Default})] \right\}
 $$
 
 $$
@@ -443,7 +427,7 @@ REMARK 13. The replication strategy described in Theorem 12 works only up until 
 
 REMARK 14. Note that  $\mathbf{S}_{t-}$ ,  $\mathbf{P}_{t-}^{(p_i)}$  for all  $i$  and  $\sigma_{t-} = \frac{\mathrm{d}}{\mathrm{d}t} \langle \mathbf{Z}^c \rangle_t$  are observable. Thus, no assumptions about the dynamics of the volatility process  $\sigma$  are needed for the replication strategy to work. We do, however, require knowledge of the possible jump-sizes  $\{z_1, z_2, \ldots, z_n\}$  and jump intensities under the pricing measure  $\{\lambda_1, \lambda_2, \ldots, \lambda_n\}$  as these appear in  $\nu$  and  $\psi$ .
 
-## References
+### References
 
 C. Alexander, J. Choi, H. Park, and S. Sohn. Bitmex bitcoin derivatives: Price discovery, informational efficiency, and hedging effectiveness. Journal of Futures Markets, 40(1):23-43, 2020.  
 G. Angeris and T. Chitra. Improved price oracles: Constant function market makers. In Proceedings of the 2nd ACM Conference on Advances in Financial Technologies, AFT '20, page 80-91, New York, NY, USA, 2020. Association for Computing Machinery. ISBN 9781450381390.  

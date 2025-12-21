@@ -1,16 +1,54 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Calculating the Greeks in the Binomial Model
-linter-yaml-title-alias: Calculating the Greeks in the Binomial Model
+aliases:
+parent_directory: Foundations of Pricing Financial Derivatives/Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:26:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - binomial greeks
+  - delta gamma theta
+  - option sensitivities
+  - risk management
+secondary_tags:
+  - binomial model
+  - option pricing
+  - hedging
+  - volatility
+  - interest rates
+  - time decay
+  - vega rho
+cssclasses: academia
 ---
 
 # Calculating the Greeks in the Binomial Model
 
 Option pricing models are primarily useful for identifying the fair value of an option, but that is not their only use. They also provide measures that facilitate the management of option portfolios. In particular, dealers that make markets in options need to be able to hedge the risk.<sup>1</sup> Hence, they must know how sensitive their options are to changes in market conditions. Knowing these sensitivities enables them to balance that risk using other instruments. These sensitivities are often known as the Greeks. This term arose because they are primarily identified with Greek letters, such as delta and gamma. End users, such as corporate executives, portfolio managers, and regulators, have all found these measures and other Greeks to be very useful. For example, in Chapter 18 we will see an application of option theory to gain insights on corporate default risk. Within this framework, the Greeks provide useful information regarding sensitivities of default risk to changes in market conditions. Numerous financial instruments contain option-like features where understanding the related Greeks will aid in financial decision-making.
+
+```d2
+greeks_overview: Option Greeks Overview {
+  direction: right
+  delta: Delta Δ {
+    label: Sensitivity to underlying price
+  }
+  gamma: Gamma Γ {
+    label: Rate of change of delta
+  }
+  theta: Theta Θ {
+    label: Time decay
+  }
+  vega: Vega ν {
+    label: Sensitivity to volatility
+  }
+  rho: Rho ρ {
+    label: Sensitivity to interest rate
+  }
+  delta -> gamma
+  gamma -> theta
+  theta -> vega
+  vega -> rho
+}
+```
 
 # 8.1 STANDARD APPROACH
 
@@ -34,19 +72,19 @@ FIGURE 8.1 The Binomial Model (Two Periods)
 The sensitivity of call and put options to the value of the underlying is called the delta. Of course, it is intuitive that a put moves opposite to the underlying as it benefits from decreases in the price of the underlying. Thus, its delta must be negative. Here, we take the negative of the traditional measure of the put delta to represent it as a positive number, simplifying various binomial model interpretations. $^2$  The call and put deltas are formally defined as
 
 $$
-\Delta_ {c} = \frac {\partial c}{\partial S} \text {a n d} \Delta_ {p} = - \frac {\partial p}{\partial S}. \tag {8.2}
+\Delta_c = \frac{\partial c}{\partial S} \text{and} \Delta_p = - \frac{\partial p}{\partial S}. \tag{8.2}
 $$
 
 We have specified the deltas in terms of partial derivatives. At this point, we do not have a continuous and differentiable model of the option value, which will come later with the Black-Scholes-Merton model. We can observe the following relationship between call and put deltas based on put-call parity, Equation (8.1), and the fact that the partial derivative of anything with itself is one. Thus, we know (recall our put delta is signed)
 
 $$
-\Delta_ {c} = 1 - \Delta_ {p}. \tag {8.3}
+\Delta_c = 1 - \Delta_p. \tag{8.3}
 $$
 
 In discrete time, we approximate the deltas with the following:
 
 $$
-\Delta_ {c} \simeq \frac {\Delta c}{\Delta S} \text {a n d} \Delta_ {p} \simeq - \frac {\Delta p}{\Delta S}, \tag {8.4}
+\Delta_c \simeq \frac{\Delta c}{\Delta S} \text{and} \Delta_p \simeq - \frac{\Delta p}{\Delta S}, \tag{8.4}
 $$
 
 where the delta symbols in the numerator and denominator reflect the change in the prices of the options and asset from their current prices. The problem in measuring delta in a binomial tree is that technically we must assume that the asset price changes without an increment of time. Time is a variable and if we advance further into the tree, we have
@@ -56,7 +94,7 @@ not held time constant. With delta, we are attempting to measure the sensitivity
 As we shall see later when covering the Black-Scholes-Merton model, in a continuous time world, the option price is nonlinear with respect to the asset price, meaning that the option price change is not the same upward as it is downward for a given change in the underlying. This result is due to the convexity of the relationship between the option price and the asset price. That convexity is evident in the binomial model as well. Although it is not apparent in Figure 8.1, the option price change is not the same upward as it is downward. In continuous time, we deal with this problem by using the first derivative, which is the limit of the rate of change in the option price for an infinitesimal change in the asset price. The first derivative linearizes the change in the option price in relation to the change in the asset price. In the binomial model, the usual approach to measuring delta is to take the average of the two possible call price changes and divide by the average of the two possible asset price changes:
 
 $$
-\begin{array}{l} \Delta_ {c} = \frac {(1 / 2) (c _ {u} - c) + (1 / 2) (c - c _ {d})}{(1 / 2) (S u - S) + (1 / 2) (S - S d)} = \frac {c _ {u} - c _ {d}}{S u - S d} \\ \Delta_ {p} = 1 - \Delta_ {c} = - \frac {(1 / 2) \left(p _ {u} - p\right) + (1 / 2) \left(p - p _ {d}\right)}{(1 / 2) \left(S u - S\right) + (1 / 2) \left(S - S d\right)} = \frac {p _ {d} - p _ {u}}{S u - S d}. \tag {8.5} \\ \end{array}
+\begin{array}{l} \Delta_c = \frac{(1/2)(c_u - c) + (1/2)(c - c_d)}{(1/2)(Su - S) + (1/2)(S - Sd)} = \frac{c_u - c_d}{Su - Sd} \\ \Delta_p = 1 - \Delta_c = - \frac{(1/2)(p_u - p) + (1/2)(p - p_d)}{(1/2)(Su - S) + (1/2)(S - Sd)} = \frac{p_d - p_u}{Su - Sd}. \tag{8.5} \\ \end{array}
 $$
 
 Recall that in Chapter 7, our derivation of the binomial model revealed that this is the correct measure of delta because it is the number of shares that should be held to hedge in relation to a short position in one call option. This idea is the same notion of delta in the continuous time world of the Black-Scholes-Merton model. Because the delta is  $\Delta c / \Delta S$ , if we hold  $\Delta c / \Delta S$  units of the asset and the asset changes by  $\Delta S$ , the position in the asset changes by  $(\Delta c / \Delta S)\Delta S = \Delta c$ . If we hold one short call, then it changes by  $-\Delta c$  and the net result is an offset.
@@ -70,59 +108,59 @@ price changes. We often use the binomial model to approximate a continuous time 
 The gamma is formally defined as
 
 $$
-\Gamma = \frac {\partial \left(\frac {\partial c}{\partial S}\right)}{\partial S} = \frac {\partial^ {2} c}{\partial S ^ {2}}. \tag {8.6}
+\Gamma = \frac{\partial (\frac{\partial c}{\partial S})}{\partial S} = \frac{\partial^{2} c}{\partial S^{2}}. \tag{8.6}
 $$
 
 Taking the second derivative of Equation (8.1), we note that the gamma of the call and put are equal or
 
 $$
-\Gamma_ {c} = \Gamma_ {p}. \tag {8.7}
+\Gamma_c = \Gamma_p. \tag{8.7}
 $$
 
 In the binomial model, we measure the call gamma by first noting that the call delta can change from the above measure,  $\Delta_{\mathrm{c}}$ , either to the new delta if the asset goes up, which we call  $\Delta_{cu}$ , or to the new delta if the asset goes down, which we call  $\Delta_{cd}$ . Using the formula for the call delta, these deltas at time 1 are defined as follows:
 
 $$
-\Delta_ {c u} = \frac {c _ {u ^ {2}} - c _ {u d}}{S u ^ {2} - S u d}
+\Delta_{cu} = \frac{c_{u^{2}} - c_{ud}}{S u^{2} - Sud}
 $$
 
 $$
-\Delta_ {c d} = \frac {c _ {u d} - c _ {d ^ {2}}}{S u d - S d ^ {2}}. \tag {8.8}
+\Delta_{cd} = \frac{c_{ud} - c_{d^{2}}}{Sud - Sd^{2}}. \tag{8.8}
 $$
 
 In the binomial model, the gamma is estimated by averaging the change in the delta,  $(1/2)(\Delta_u - \Delta) + (1/2)(\Delta - \Delta_d) = (1/2)(\Delta_u - \Delta_d)$ , and dividing by the average change in the asset price. For the numerator,
 
 $$
-(1 / 2) (\Delta_ {u} - \Delta_ {d}) = (1 / 2) \left(\frac {c _ {u ^ {2}} - c _ {u d}}{S u ^ {2} - S u d}\right) - (1 / 2) \left(\frac {c _ {u d} - c _ {d ^ {2}}}{S u d - S d ^ {2}}\right). \tag {8.9}
+(1/2)(\Delta_u - \Delta_d) = (1/2) \left( \frac{c_{u^{2}} - c_{ud}}{S u^{2} - Sud} \right) - (1/2) \left( \frac{c_{ud} - c_{d^{2}}}{Sud - Sd^{2}} \right). \tag{8.9}
 $$
 
 For the denominator,
 
 $$
-\begin{array}{l} (1 / 4) (S u ^ {2} - S u) + (1 / 4) (S u - S u d) + (1 / 4) (S u d - S d) + (1 / 4) (S d - S d ^ {2}) \\ = (1 / 4) \left(S u ^ {2} - S d ^ {2}\right). \tag {8.10} \\ \end{array}
+\begin{array}{l} (1/4)(S u^{2} - Su) + (1/4)(Su - Sud) + (1/4)(Sud - Sd) + (1/4)(Sd - Sd^{2}) \\ = (1/4)(S u^{2} - Sd^{2}). \tag{8.10} \\ \end{array}
 $$
 
 So now we have the following estimate of the call gamma:
 
 $$
-\Gamma_ {c} = \frac {\left(\frac {c _ {u ^ {2}} - c _ {u d}}{S u ^ {2} - S u d}\right) - \left(\frac {c _ {u d} - c _ {d ^ {2}}}{S u d - S d ^ {2}}\right)}{(1 / 2) \left(S u ^ {2} - S d ^ {2}\right)}. \tag {8.11}
+\Gamma_c = \frac{ \left( \frac{c_{u^{2}} - c_{ud}}{S u^{2} - Sud} \right) - \left( \frac{c_{ud} - c_{d^{2}}}{Sud - Sd^{2}} \right) }{(1/2)(S u^{2} - Sd^{2})}. \tag{8.11}
 $$
 
 Following this logic, the put gamma can be estimated in a similar fashion:
 
 $$
-\Gamma_ {p} = \frac {\left(\frac {p _ {d 2} - p _ {u d}}{S u d - S d ^ {2}}\right) - \left(\frac {p _ {u d} - p _ {u ^ {2}}}{S u ^ {2} - S u d}\right)}{(1 / 2) \left(S u ^ {2} - S d ^ {2}\right)}. \tag {8.12}
+\Gamma_p = \frac{ \left( \frac{p_{d^{2}} - p_{ud}}{Sud - Sd^{2}} \right) - \left( \frac{p_{ud} - p_{u^{2}}}{S u^{2} - Sud} \right) }{(1/2)(S u^{2} - Sd^{2})}. \tag{8.12}
 $$
 
 Note that in order to calculate the call or put gamma, you need the asset and option prices two time periods ahead. Thus, one important limitation of this approach is that it
 
-is impossible to calculate the gamma one time step before expiration. This point in time, which would often be very close to expiration, would tend to have a high gamma unless the option is deep inor out-of-the-money. Therefore, there can be a critical need to estimate the gamma at that very point at which it cannot be estimated. One solution is to use a large number of time steps of very short length.
+is impossible to calculate the gamma one time step before expiration. This point in time, which would often be very close to expiration, would tend to have a high gamma unless the option is deep in-or out-of-the-money. Therefore, there can be a critical need to estimate the gamma at that very point at which it cannot be estimated. One solution is to use a large number of time steps of very short length.
 
 # 8.1.3 Theta
 
 The theta is the effect of the change in time on the option price. It captures the time value decay, meaning that it reflects the rate at which the option price changes when nothing else changes. We know that option prices move toward their exercise values, and at expiration, they equal their exercise value. The formal specification of theta for a continuous time world is
 
 $$
-\Theta_ {c} = \frac {\partial c}{\partial t} \text {a n d} \Theta_ {p} = \frac {\partial p}{\partial t}, \tag {8.13}
+\Theta_c = \frac{\partial c}{\partial t} \text{and} \Theta_p = \frac{\partial p}{\partial t}, \tag{8.13}
 $$
 
 where  $t$  is the current point in time. If the remaining time is, say,  $\tau = T - t$ , then  $\partial t = T - \partial \tau$ . Sometimes theta is evaluated in terms of  $\partial \tau$ , but we need not do so here as the transformation is simple.
@@ -130,11 +168,11 @@ where  $t$  is the current point in time. If the remaining time is, say,  $\tau 
 Observing the binomial tree diagram, it should be apparent that an estimate of theta is obtained as
 
 $$
-\Theta_ {c} = \frac {c _ {u d} - c}{2 \Delta t} \text {a n d} \tag {8.14}
+\Theta_c = \frac{c_{ud} - c}{2 \Delta t} \text{and} \tag{8.14}
 $$
 
 $$
-\Theta_ {p} = \frac {p _ {u d} - p}{2 \Delta t}, \tag {8.15}
+\Theta_p = \frac{p_{ud} - p}{2 \Delta t}, \tag{8.15}
 $$
 
 where  $\Delta t$  is the length of each time step. Note that we are measuring the change in option price without the effect of an asset price change. Two time steps are required for the asset to return to where it started. In other words, to measure the time sensitivity at time 0, we take the difference in the price two periods later at the same asset price,  $c_{ud}$ , and subtract the current option price, dividing that difference by  $2\Delta t$ , because two time steps have elapsed.
@@ -165,11 +203,11 @@ FIGURE 8.2 Two-Period Expanded Binomial Model
 price being  $Su^2$  or  $Sd^2$  at the same time point and measure delta as the average option price change divided by the average asset price change.
 
 $$
-\Delta_ {c} = \frac {\left(1 / 2\right) \left(c _ {u ^ {2}} - c _ {u d}\right) + \left(1 / 2\right) \left(c _ {u d} - c _ {d ^ {2}}\right)}{\left(1 / 2\right) \left(S u ^ {2} - S u d\right) + \left(1 / 2\right) \left(S u d - S d ^ {2}\right)} = \frac {c _ {u ^ {2}} - c _ {d ^ {2}}}{S u ^ {2} - S d ^ {2}} \text {a n d} \tag {8.16}
+\Delta_c = \frac{(1/2)(c_{u^{2}} - c_{ud}) + (1/2)(c_{ud} - c_{d^{2}})}{(1/2)(S u^{2} - Sud) + (1/2)(Sud - Sd^{2})} = \frac{c_{u^{2}} - c_{d^{2}}}{S u^{2} - Sd^{2}} \text{and} \tag{8.16}
 $$
 
 $$
-\Delta_ {p} = \frac {(1 / 2) \left(p _ {u d} - p _ {u ^ {2}}\right) + (1 / 2) \left(p _ {d ^ {2}} - p _ {u d}\right)}{(1 / 2) \left(S u ^ {2} - S u d\right) + (1 / 2) \left(S u d - S d ^ {2}\right)} = \frac {p _ {d ^ {2}} - p _ {u ^ {2}}}{S u ^ {2} - S d ^ {2}}. \tag {8.17}
+\Delta_p = \frac{(1/2)(p_{ud} - p_{u^{2}}) + (1/2)(p_{d^{2}} - p_{ud})}{(1/2)(S u^{2} - Sud) + (1/2)(Sud - Sd^{2})} = \frac{p_{d^{2}} - p_{u^{2}}}{S u^{2} - Sd^{2}}. \tag{8.17}
 $$
 
 So, now our estimate of delta does not permit any passage of time.
@@ -179,11 +217,11 @@ So, now our estimate of delta does not permit any passage of time.
 Remember that gamma measures the change in delta, given a change in the asset price. From the point at which the asset is at Sud, we can think of the gamma as being the difference in the change in option price over the change in asset price for the asset price in the node above and for the asset price in the node below. That is,
 
 $$
-\Gamma_ {c} = \frac {\left(\frac {c _ {u 2} - c _ {u d}}{S u ^ {2} - S u d}\right) - \left(\frac {c _ {u d} - c _ {d 2}}{S u d - S d ^ {2}}\right)}{(1 / 2) \left(S u ^ {2} - S d ^ {2}\right)} a n d \tag {8.18}
+\Gamma_c = \frac{ \left( \frac{c_{u2} - c_{ud}}{S u^{2} - Sud} \right) - \left( \frac{c_{ud} - c_{d2}}{Sud - Sd^{2}} \right) }{(1/2)(S u^{2} - Sd^{2})} \text{and} \tag{8.18}
 $$
 
 $$
-\Gamma_ {p} = \frac {\left(\frac {p _ {d 2} - p _ {u d}}{S u d - S d ^ {2}}\right) - \left(\frac {p _ {u d} - p _ {u 2}}{S u ^ {2} - S u d}\right)}{(1 / 2) \left(S u ^ {2} - S d ^ {2}\right)}. \tag {8.19}
+\Gamma_p = \frac{ \left( \frac{p_{d2} - p_{ud}}{Sud - Sd^{2}} \right) - \left( \frac{p_{ud} - p_{u2}}{S u^{2} - Sud} \right) }{(1/2)(S u^{2} - Sd^{2})}. \tag{8.19}
 $$
 
 The numerator measures the average difference in the delta and the denominator measures the average asset price change. Note that we can now measure gamma at any time step, including the one before expiration.
@@ -193,11 +231,11 @@ The numerator measures the average difference in the delta and the denominator m
 As in the standard case, theta will require two time steps ahead of the current price. The theta would then be measured the same as in the standard case:
 
 $$
-\Theta_ {c} = \frac {c _ {u ^ {2} d ^ {2}} - c _ {u d}}{2 \Delta t} \text {a n d} \tag {8.20}
+\Theta_c = \frac{c_{u^{2} d^{2}} - c_{ud}}{2 \Delta t} \text{and} \tag{8.20}
 $$
 
 $$
-\Theta_ {p} = \frac {p _ {u ^ {2} d ^ {2}} - p _ {u d}}{2 \Delta t}. \tag {8.21}
+\Theta_p = \frac{p_{u^{2} d^{2}} - p_{ud}}{2 \Delta t}. \tag{8.21}
 $$
 
 # 8.2.4 Vega and Rho
@@ -209,7 +247,7 @@ The same issues concerning the estimation of vega and rho that were discussed pr
 Now let us take a look at some numerical examples. Let us first look at a simple problem with two binomial time steps. Later we extend the problem to more time steps. We use the following inputs:  $S = 100$ ,  $X = 100$ ,  $\tau = 2$  (time to expiration),  $\sigma = 0.4$ ,  $r = 0.07$  (discrete), and  $n = 2$ . With the inputs expressed in these terms, we have to convert them to their binomial analogs. Thus, we now introduce a reasonable and widely used formula to convert the volatility and risk-free rate of the asset return to the binomial parameters,
 
 $$
-u = e ^ {\sigma \sqrt {\tau / n}}
+u = e^{\sigma \sqrt{\tau / n}}
 $$
 
 $$
@@ -217,41 +255,47 @@ d = 1 / u
 $$
 
 $$
-r (p e r p e r i o d) = (1 + r) ^ {\tau / n} - 1.
+d = 1 / u
+$$
+
+$$
+r (\text{per period}) = (1 + r)^{\tau / n} - 1.
 $$
 
 Note here that  $d$  is the reciprocal of  $u$ , but that does not have to be the case. Research on the binomial model has produced many formulas for converting volatility of the underlying to the  $u$  and  $d$  factors. In the limit, all of them produce the desired result. This is just one of the more widely used formulas. The calculations are
 
 $$
-u = e ^ {0. 4 \sqrt {2 / 2}} = 1. 4 9 1 8
+u = e^{0.4 \sqrt{2/2}} = 1.4918
 $$
 
 $$
-d = 1 / 1. 4 9 1 8 = 0. 6 7 0 3
+d = 1/1.4918 = 0.6703
 $$
 
 $$
-r (p e r p e r i o d) = (1 + r) ^ {T / n} = (1. 0 7) ^ {2 / 2} - 1 = 0. 0 7.
+r (\text{per period}) = (1.07)^{2/2} - 1 = 0.07.
 $$
+
+
 
 We obtain  $u = 1.4918$ ,  $d = 0.6703$ , and the per-period risk-free rate is 0.07. The length of a time step is 2 (years)/2 = 1. That is, each time step is one year. The standard binomial tree is as shown in Figure 8.3.
 
 The standard Greeks are computed as follows:
 
 $$
-\begin{array}{l} \Delta_ {c} = \frac {c _ {u} - c _ {d}}{S u - S d} = \frac {5 5 . 7 2 - 0}{1 4 9 . 1 8 - 6 7 . 0 3} = 0. 6 7 8 3 \text {a n d} \Delta_ {p} \\ = \frac {p _ {d} - p _ {u}}{S u - S d} = \frac {2 6 . 4 3 - 0}{1 4 9 . 1 8 - 6 7 . 0 3} = 0. 3 2 1 7, \\ \end{array}
+\begin{array}{l} \Delta_c = \frac{c_u - c_d}{Su - Sd} = \frac{55.72 - 0}{149.18 - 67.03} = 0.6783 \text{and} \Delta_p \\ = \frac{p_d - p_u}{Su - Sd} = \frac{26.43 - 0}{149.18 - 67.03} = 0.3217, \\ \end{array}
 $$
 
 $$
-\Gamma_ {c} = \frac {\left(\frac {c _ {u 2} - c _ {u d}}{S u ^ {2} - S u d}\right) - \left(\frac {c _ {u d} - c _ {d 2}}{S u d - S d ^ {2}}\right)}{(1 / 2) (S u ^ {2} - S d ^ {2})} = \frac {\left(\frac {1 2 2 . 5 5 - 0}{2 2 2 . 5 5 - 1 0 0}\right) - \left(\frac {0 - 0}{1 0 0 - 4 4 . 9 3}\right)}{(1 / 2) (2 2 2 . 5 5 - 4 4 . 9 3)} = 0. 0 1 1 3 \mathrm {a n d}
+\Gamma_c = \frac{ \left( \frac{c_{u2} - c_{ud}}{S u^{2} - Sud} \right) - \left( \frac{c_{ud} - c_{d2}}{Sud - Sd^{2}} \right) }{(1/2)(S u^{2} - Sd^{2})} = \frac{ \left( \frac{122.55 - 0}{222.55 - 100} \right) - \left( \frac{0 - 0}{100 - 44.93} \right) }{(1/2)(222.55 - 44.93)} = 0.0113 \text{and}
 $$
 
 $$
-\Gamma_ {p} = \frac {\left(\frac {p _ {d ^ {2}} - p _ {u d}}{S u d - S d ^ {2}}\right) - \left(\frac {p _ {u d} - p _ {u ^ {2}}}{S u ^ {2} - S u d}\right)}{(1 / 2) (S u ^ {2} - S d ^ {2})} = \frac {\left(\frac {5 5 . 0 7 - 0}{1 0 0 - 4 4 . 9 3}\right) - \left(\frac {0 - 0}{2 2 2 . 5 5 - 1 0 0}\right)}{(1 / 2) (2 2 2 . 5 5 - 4 4 . 9 3)} = 0. 0 1 1 3,
+\Gamma_p = \frac{ \left( \frac{p_{d^{2}} - p_{ud}}{Sud - Sd^{2}} \right) - \left( \frac{p_{ud} - p_{u^{2}}}{S u^{2} - Sud} \right) }{(1/2)(S u^{2} - Sd^{2})} = \frac{ \left( \frac{55.07 - 0}{100 - 44.93} \right) - \left( \frac{0 - 0}{222.55 - 100} \right) }{(1/2)(222.55 - 44.93)} = 0.0113,
 $$
 
 $$
-\Theta_ {c} = \frac {c _ {u d} - c}{2 \Delta t} = \frac {0 - 2 5 . 3 4}{2 (1)} = - 1 2. 6 7 \text {a n d} \Theta_ {p} = \frac {p _ {u d} - p}{2 \Delta t} = \frac {0 - 1 2 . 6 8}{2 (1)} = - 6. 3 4.
+\Theta_c = \frac{c_{ud} - c}{2 \Delta t} = \frac{0 - 25.34}{2(1)} = -12.67 \text{and} \Theta_p = \frac{p_{ud} - p}{2 \Delta t} = \frac{0 - 12.68}{2(1)} = -6.34.
 $$
 
 Note that from Equations (8.3) and (8.7), the put-call parity relationship for delta and gamma hold. The tree for the more precise method is as shown in Figure 8.4:
@@ -275,19 +319,19 @@ $S$  and only does so if  $d$  is the reciprocal of  $u$ . That is the case in t
 Delta and gamma are computed as follows:
 
 $$
-\Delta_ {c} = \frac {c _ {u ^ {2}} - c _ {d ^ {2}}}{S u ^ {2} - S d ^ {2}} = \frac {1 3 5 . 2 1 - 0}{2 2 2 . 5 5 - 4 4 . 9 3} = 0. 7 6 1 2,
+\Delta_c = \frac{c_{u^{2}} - c_{d^{2}}}{S u^{2} - S d^{2}} = \frac{135.21 - 0}{222.55 - 44.93} = 0.7612,
 $$
 
 $$
-\Delta_ {p} = \frac {p _ {d ^ {2}} - p _ {u ^ {2}}}{S u ^ {2} - S d ^ {2}} = \frac {4 2 . 4 1 - 0}{2 2 2 . 5 5 - 4 4 . 9 3} = 0. 2 3 8 8,
+\Delta_p = \frac{p_{d^{2}} - p_{u^{2}}}{S u^{2} - Sd^{2}} = \frac{42.41 - 0}{222.55 - 44.93} = 0.2388,
 $$
 
 $$
-\Gamma_ {c} = \frac {\left(\frac {c _ {u 2} - c _ {u d}}{S u ^ {2} - S u d}\right) - \left(\frac {c _ {u d} - c _ {d 2}}{S u d - S d ^ {2}}\right)}{(1 / 2) (S u ^ {2} - S d ^ {2})} = \frac {\left(\frac {1 3 5 . 2 1 - 2 5 . 3 4}{2 2 2 . 5 5 - 1 0 0}\right) - \left(\frac {2 5 . 3 4 - 0}{1 0 0 - 4 4 . 9 3}\right)}{(1 / 2) (2 2 2 . 5 5 - 4 4 . 9 3)} = 0. 0 0 4 9, \mathrm {a n d}
+\Gamma_c = \frac{ \left( \frac{c_{u2} - c_{ud}}{S u^{2} - Sud} \right) - \left( \frac{c_{ud} - c_{d2}}{Sud - Sd^{2}} \right) }{(1/2)(S u^{2} - Sd^{2})} = \frac{ \left( \frac{135.21 - 25.34}{222.55 - 100} \right) - \left( \frac{25.34 - 0}{100 - 44.93} \right) }{(1/2)(222.55 - 44.93)} = 0.0049, \text{and}
 $$
 
 $$
-\Gamma_ {p} = \frac {\left(\frac {p _ {d 2} - p _ {u d}}{S u d - S d ^ {2}}\right) - \left(\frac {p _ {u d} - p _ {u 2}}{S u ^ {2} - S u d}\right)}{(1 / 2) (S u ^ {2} - S d ^ {2})} = \frac {\left(\frac {4 2 . 4 1 - 1 2 . 6 8}{1 0 0 - 4 4 . 9 3}\right) - \left(\frac {1 2 . 6 8 - 0}{2 2 2 . 5 5 - 1 0 0}\right)}{(1 / 2) (2 2 2 . 5 5 - 4 4 . 9 3)} = 0. 0 0 4 9.
+\Gamma_p = \frac{ \left( \frac{p_{d2} - p_{ud}}{Sud - Sd^{2}} \right) - \left( \frac{p_{ud} - p_{u2}}{S u^{2} - Sud} \right) }{(1/2)(S u^{2} - Sd^{2})} = \frac{ \left( \frac{42.41 - 12.68}{100 - 44.93} \right) - \left( \frac{12.68 - 0}{222.55 - 100} \right) }{(1/2)(222.55 - 44.93)} = 0.0049.
 $$
 
 Theta is the same as in the standard method, but this will not always be the case. The period two time steps ahead in both models is the expiration, so the option value will be the same, but for models with more time steps, the thetas will not always be the same.

@@ -1,14 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "The Binomial Model"
+parent_directory: "Foundations of the Pricing of Financial Derivatives chapters"
+formatted: 2025-12-21 02:25:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - binomial model
+  - option pricing
+  - risk neutral valuation
+  - hedge ratios
+  - american options
+secondary_tags:
+  - arbitrage pricing
+  - multiperiod models
+  - early exercise
+  - dividend adjustment
+  - path dependence
 cssclasses: academia
-title: Discrete Time Derivatives Pricing Theory
-linter-yaml-title-alias: Discrete Time Derivatives Pricing Theory
 ---
-
-# Discrete Time Derivatives Pricing Theory
 
 # The Binomial Model
 
@@ -19,6 +28,46 @@ To this point we have used a simple model in which the asset price can either mo
 Recalling from the previous chapter, we specified an asset priced at  $S$  that can go up to  $Su$  or down to  $Sd$ . Given the historical decision to assume a lognormal distribution, early authors pursued a multiplicative binomial approach. We shall refer to these two states as the up state and the down state, respectively. The basic idea is communicated in Figure 7.1. At the initial point in time, there is only one node, whereas at the next point in time, there are only two nodes. Also, at the initial point in time, there are two arcs emanating from the initial node.
 
 This type of figure is sometimes called a binomial tree, although it will look a little more like a tree when we expand it later.
+
+```d2
+direction: right
+
+Binomial Tree Structure: One-Period Model {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+Time 0: Current State {
+  shape: circle
+  style.fill: "#4caf50"
+}
+
+Time 1: Expiration States {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+Up State: S × u {
+  shape: oval
+  style.fill: "#81c784"
+}
+
+Down State: S × d {
+  shape: oval
+  style.fill: "#e57373"
+}
+
+Time 0 -> Time 1
+
+Time 1 -> Up State: Up move (probability p)
+Time 1 -> Down State: Down move (probability 1-p)
+
+Hedging Portfolio: Δ shares + short option {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.border-dash: 5
+}
+```
 
 The risk-free rate is  $r$ . Consider a call option with exercise price  $X$  that expires in one period. The two possible values of the option at expiration are
 
@@ -284,7 +333,7 @@ c _ {u ^ {2}} = \max  (0, S u ^ {2} - X) \quad p _ {u ^ {2}} = \max  (0, X - S u
 $$
 
 $$
-c _ {u d} = \max (0, S u d - X) \mathrm {a n d} p _ {u d} = \max (0, X - S u d).
+c _ {u d} = \max (0, S u d - X) \mathrm{and} p _ {u d} = \max (0, X - S u d).
 $$
 
 $$
@@ -301,7 +350,7 @@ FIGURE 7.6 Two-Period Binomial Model
 next period, which is the expiration. It should be easy to see that the value of the call and put at this point would be
 
 $$
-c _ {u} = \frac {\phi c _ {u ^ {2}} + (1 - \phi) c _ {u d}}{1 + r} \text {a n d} p _ {u} = \frac {\phi p _ {u ^ {2}} + (1 - \phi) p _ {u d}}{1 + r}. \tag {7.20}
+c _ {u} = \frac {\phi c _ {u ^ {2}} + (1 - \phi) c _ {u d}}{1 + r} \text{and} p _ {u} = \frac {\phi p _ {u ^ {2}} + (1 - \phi) p _ {u d}}{1 + r}. \tag {7.20}
 $$
 
 Likewise, in the time 1 down state, the option value would be

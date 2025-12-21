@@ -1,27 +1,40 @@
 ---
+title: "Chapter 15: Options on Money Market Futures"
 aliases:
-  - Options on Money Market Futures
+   - Options on Money Market Futures
+   - Money Market Futures Options
 tags:
 key_concepts:
 parent_directory: Instruments of the Money Market
+formatted: 2025-12-21 02:32:38 PM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: claude-code
+primary_tags:
+   - money market futures options
+   - interest rate options
+   - futures options
+   - option pricing
+   - hedging strategies
+secondary_tags:
+   - eurodollar futures options
+   - treasury bill options
+   - put-call parity
+   - option payoffs
+   - delta hedging
 cssclasses: academia
-title: Chapter 15 Options on Money Market Futures
-linter-yaml-title-alias: Chapter 15 Options on Money Market Futures
 ---
 
-# Chapter 15
+# Chapter 15: Options on Money Market Futures
 
-# OPTIONS ON MONEY MARKET FUTURES
+**Author: Anatoli Kuprianov**
 
-Anatoli Kuprianov
-
-# INTRODUCTION
+## Introduction
 
 Options are contracts that give their buyers the right, but not the obligation, to buy or sell a specified item at a set price within some predetermined time period. Options on futures contracts, known as futures options, are standardized option contracts traded on futures exchanges. Although an active over-the-counter market in stock options has existed in the United States for almost a century, the advent of exchange-traded options is a more recent development. Standardized options began trading on organized exchanges in 1973, when the Chicago Board Options Exchange (CBOE) was organized. The American and Philadelphia Stock Exchanges soon followed suit by listing stock options in 1975, followed one year later by the Pacific Stock Exchange. Today a wide variety of options trade on virtually all major stock and futures exchanges, including stock options, foreign currency options, and futures options.
 
 Options on three different short-term interest rate futures are traded actively at present. The International Monetary Market (IMM) division of the Chicago Mercantile Exchange (CME) began listing options on three-month Eurodollar time deposit futures in March of 1985, and on 13-week Treasury bill futures a year later. Trading in options on IMM One-Month LIBOR futures began in 1991. The London International Financial Futures Exchange also lists options on its Eurodollar futures contract, but the IMM contract is the more actively traded of the two by a substantial margin.
 
-# DEFINITIONS AND BASIC CONCEPTS
+## Definitions and Basic Concepts
 
 Call Options A call option gives a buyer the right, but not the obligation, to buy a specified item at a stipulated "exercise" or "strike" price. The underlying item can be a security such as a common stock or a Treasury bond, a specified amount of a commodity, or a futures contract. Call options are bought and sold for a market-determined premium termed the call price. The buyer, or "holder," of an option is said to take on a long position while the seller, or "writer,"
 
@@ -41,7 +54,7 @@ When an option on a futures contract expires on the same day the underlying futu
 
 The principal advantage of futures options over options on physicals stems from the fact that most traders find delivery requirements less burdensome for futures options than options on actual physical items. Futures markets tend to be more liquid and have lower transactions costs than underlying cash markets. Thus, while the exercise of an option on an actual cash item requires the writer to buy or deliver that item, the exercise of a futures option results only in a long or short futures position, which is easy to offset. Such considerations are especially important to put and call writers, most of whom sell options in order to earn premium income rather than to buy or sell the underlying item (Chance 1989, Chap. 12).
 
-# CONTRACT SPECIFICATIONS FOR IMM OPTIONS ON MONEY MARKET INTEREST RATE FUTURES
+## Contract Specifications for IMM Options on Money Market Interest Rate Futures
 
 Options on Treasury Bill Futures Options on three-month Treasury bill futures began trading in April of 1986. The IMM currently lists options for the first four contract delivery months, making the furthest expiration date of a traded option one year in the future. Expiration dates for traded contracts fall approximately three to four weeks before the underlying futures contract matures.[2]
 
@@ -77,7 +90,7 @@ U.S. Money Market Options
 
 As the two figures show, trading activity in Eurodollar futures options dwarfs that of the other two contracts. The popularity of Eurodollar futures options reflects the trading volume in the underlying futures contract, which is correspondingly higher than that of any other futures contract on money market instruments.
 
-# OPTION PAYOFFS AND THE BEHAVIOR OPTION PRICES
+## Option Payoffs and the Behavior of Option Prices
 
 This section reviews some basic principles of option pricing. The review begins by describing the payoff patterns resulting from different unhedged positions in futures contracts and futures options and concludes with a brief discussion of the theory of option pricing
 
@@ -137,17 +150,13 @@ Payoffs for Unhedged Put Options
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/0de2d476b636b72c88afd956f01f8a1d8624b3ce573ff5b5223adffb364d5b74.jpg)  
 FIGURE 5
 
-# Principles of Option Pricing
+## Principles of Option Pricing
 
 The Time Value of an Option An out-of-the-money option typically will sell for a positive premium before the contract expiration date because there is always some chance that the option will go in-the-money before it expires. The excess of an option premium over its intrinsic value is termed its time value, or speculative value. All other things equal, the time value of an option tends to increase with the time to expiration because a longer-lived option has a greater chance of going deeper in-the-money before it expires. At expiration time value is zero and the only value the option has is its intrinsic value. The rate at which an option premium changes over time, with all other things held equal, is known as the "theta" of the option. Option pricing theory predicts that theta should be negative, reflecting the fact that time value is expected to fall as the expiration date draws nearer.
 
 Table 1 lists call prices, underlying futures prices, and time values for IMM Eurodollar futures call options with different expiration dates as of the close of trading on October 21, 1992. Looking at the first row, a December Eurodollar futures call option with a strike price of 96.00 sold for a premium of 51 basis points, while the price of the underlying futures contract at the end of the same trading session was 96.44. Thus, the intrinsic value of the December option was 44 basis points. The difference between the call premium and its intrinsic value was 7 basis points, or \$175. Notice that the time values listed in Table 1 are larger for options with more distant expiration dates.
 
-# TABLE 1
-
-# Eurodollar Futures Call Option Premiums,
-
-Intrinsic Values, and Time Values
+## Table 1: Eurodollar Futures Call Option Premiums, Intrinsic Values, and Time Values
 
 <table><tr><td>Expiration Month</td><td>Strike Price</td><td>Premium</td><td>Futures Price</td><td>Intrinsic Value</td><td>Time Value</td></tr><tr><td>December 1992</td><td>96.00</td><td>0.51</td><td>96.44</td><td>0.44</td><td>0.07</td></tr><tr><td>March 1993</td><td>96.00</td><td>0.55</td><td>96.36</td><td>0.36</td><td>0.19</td></tr><tr><td>June 1993</td><td>96.00</td><td>0.39</td><td>95.91</td><td>0.00</td><td>0.39</td></tr></table>
 
@@ -155,11 +164,7 @@ Strike Prices and Option Premiums All other things equal, a call option should b
 
 Responsiveness of Option Premiums to Changes in Underlying Futures Prices A similar line of reasoning leads to the prediction that a futures call should become more valuable the higher the underlying futures price, all other things equal, while a futures put should become more valuable when the underlying futures price falls. The responsiveness of an option's premium to a change in the price of the underlying item is known as the option "delta." The relationship between the strike price and the price of the underlying item influences the value of delta. The value of an option that is deep in-the-money is determined largely by its intrinsic value. In this case, a change in the price of the underlying item can affect the value of the option by an almost equal amount, so delta is close
 
-# TABLE 2
-
-# Selected Call and Put Premiums for
-
-# Options on Eurodollar Futures
+## Table 2: Selected Call and Put Premiums for Options on Eurodollar Futures
 
 Strike Price  
 
@@ -195,15 +200,13 @@ If  $F > K$  the call option expires in-the-money and the option holder earns  $
 
 In theory, put-call parity applies only to European options. The relationship need not be exact with American options because there are circumstances under which an option holder has an incentive to exercise a futures option before expiration. As a practical matter, however, the approximation can be quite close. (See Kawaller [1988].) Put-call parity can be used to help characterize payoffs to combined positions in options and the underlying item. For example, a common options hedging strategy involves buying a put option to protect against the risk of a drop in the price of the underlying item. Rearranging terms in the put-call parity formula shows that the payoff at expiration for such a position will be  $C = P + (F - K)$ ; that is, a long position in both a futures put option and the underlying futures contract creates a "synthetic" long call option. Thus, buying a call option can substitute for buying the underlying instrument and hedging the resulting risk of loss by buying a put option. Conversely, a short position in a futures put combined with a short position in the underlying futures contract creates a synthetic short position in the corresponding futures call option. The put-call parity formula can be used to determine the value of the resulting synthetic call.
 
-# FIGURE 6
-
-# Put-Call Parity
+## Figure 6: Put-Call Parity
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/e1b74a3b55f8a5afe535a5304ccef57e42eb793edcb7d8427c1eb8dbb73a5f5b.jpg)
 
 As another example, consider the payoff associated with a short position in a futures contract together with a long position in a call option on that contract. According to the put-call parity formula, the payoff at expiration for such a position would be  $P = C - (F - K)$ , which says that such a hedging strategy creates a synthetic long put option on the futures contract. The ensuing discussion of option hedging strategies makes use of these results.
 
-# HEDGING WITH INTEREST RATE FUTURES OPTIONS
+## Hedging with Interest Rate Futures Options
 
 An option hedge combines a position in an option with a position in the underlying item in such a way that either the option protects the underlying item against loss or the position in the underlying item helps to offset losses resulting from the option. This section presents examples of two basic hedging strategies for options on money market futures.
 
@@ -330,11 +333,11 @@ The implicit premium is determined by the difference between the 5.17 percent ca
 
 call. The return earned using the option hedge is greater than the return to the futures hedge when LIBOR falls below 4.69 percent, which is just the 4.86 percent futures rate less the 17 basis point put premium.
 
-# CONCLUDING COMMENTS
+## Concluding Comments
 
 Options can be viewed as basic building blocks that can be combined to replicate an almost endless variety of payoff patterns. This chapter has focused on futures options. However, the use of option-like derivatives in the money market is not limited to options on interest rate futures. In addition to exchange-traded options, custom-tailored over-the-counter interest rate options—known as caps, collars, and floors—have become increasingly popular in recent years. The basic concepts examined in this chapter provide the background necessary to understand the uses of these new instruments, which are discussed in the next chapter.
 
-# REFERENCES
+## References
 
 Chance, Don M. An Introduction to Options and Futures. Chicago, III.: The Dryden Press, 1989.  
 Grabbe, J. Orlin. International Financial Markets, 2d ed. New York: Elsevier Science Publishing, 1991.  

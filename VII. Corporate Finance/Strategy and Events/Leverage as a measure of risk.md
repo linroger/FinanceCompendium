@@ -1,32 +1,36 @@
 ---
 title: Leverage as a Measure of Risk
+parent_directory: Strategy and Events
+formatted: 2025-12-21 11:05:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
-  - leverage analysis
-  - risk management
-  - derivatives pricing
-  - portfolio management
-  - accounting leverage
+   - leverage analysis
+   - risk management
+   - derivatives pricing
+   - portfolio management
+   - accounting leverage
 secondary_tags:
-  - risk based leverage
-  - equivalent security approach
-  - bucketized risk
-  - financial crisis
-  - structured finance
-  - portfolio risk control
-  - delta hedging
-  - dv01
-  - risk sensitivity
-  - portfolio nav
-  - leverage measurement
-  - risk metrics
-  - portfolio optimization
-  - hedge ratios
-  - risk exposure
-  - volatility analysis
-  - option greeks
-  - duration matching
-  - curve risk
-  - interest rate sensitivity
+   - risk based leverage
+   - equivalent security approach
+   - bucketized risk
+   - financial crisis
+   - structured finance
+   - portfolio risk control
+   - delta hedging
+   - dv01
+   - risk sensitivity
+   - portfolio nav
+   - leverage measurement
+   - risk metrics
+   - portfolio optimization
+   - hedge ratios
+   - risk exposure
+   - volatility analysis
+   - option greeks
+   - duration matching
+   - curve risk
+   - interest rate sensitivity
 cssclasses: academia
 ---
 

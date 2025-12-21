@@ -2,9 +2,30 @@
 aliases:
   - Primer on Structured Finance
   - Structured Finance Primer
-tags:
-key_concepts:
 parent_directory: Structured Finance & Securitization
+formatted: 2025-12-21 10:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - structured finance
+  - securitisation
+  - credit risk transfer
+  - collateralised debt obligations
+  - asset-backed securitisation
+  - mortgage-backed securitisation
+  - credit derivatives
+  - credit default swaps
+secondary_tags:
+  - total return swaps
+  - credit-linked notes
+  - synthetic securitisation
+  - Pfandbrief
+  - Islamic finance
+  - put-call parity
+  - recovery risk
+  - fixed recovery CDS
+  - zero recovery CDS
+  - recovery lock
 cssclasses: academia
 title: A Primer on Structured Finance
 linter-yaml-title-alias: A Primer on Structured Finance

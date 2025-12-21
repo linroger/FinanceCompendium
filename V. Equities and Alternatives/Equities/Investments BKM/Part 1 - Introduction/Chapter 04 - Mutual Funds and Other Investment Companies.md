@@ -50,8 +50,6 @@ $$
 \text{Net asset value} = \frac {\$120 \text{million} - \$5 \text{million}}{5 \text{million shares}} = \$23 \text{per share}
 $$
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/90e1ba7d620b78699b954f2cacd8765261c5333ce9b8433b623c13c00e5d0de0.jpg)
-
 **Concept Check 4.1**
 
 Consider these data from the October 2021 annual report of Fidelity's Focused Stock Fund. (All values are in millions.) What was the net asset value of the fund?
@@ -273,8 +271,6 @@ Fees can have a big effect on performance. Table 4.2 considers an investor who s
 
 Note the substantial return advantage of low-cost Fund A. Moreover, that differential is greater for longer investment horizons.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/1bcde4a8036970f48e059b978fdac14976080c2c92db6e55b20df4228515ea9a.jpg)
-
 **Concept Check 4.2**
 
 The Equity Fund sells Class A shares with a front-end load of $4\%$ and Class C shares with 12b- 1 fees of .5\% annually as well as back- end load fees that start at $5\%$ and fall by $1\%$ for each full year the investor holds the portfolio (until the fifth year). Assume the rate of return on the fund portfolio net of operating expenses is $10\%$ annually. What will be the value of a \$10,000 investment in Class A and Class C shares if the shares are sold after (a) 1 year, (b) 4 years, and (c) 10 years? Which fee structure provides higher net proceeds at the end of each investment horizon?
@@ -292,8 +288,6 @@ A fund with a high portfolio turnover rate can be particularly "tax inefficient.
 Until recently, turnover rates in equity funds typically were around $50\%$  when weighted by assets under management. By contrast, a low-turnover fund such as an index fund may have turnover as low as $2\%$ , which is both tax-efficient and economical with respect to trading costs. However, in the last decade, asset-weighted average turnover has dropped considerably, falling to $32\%$ in 2020. Part of this decline probably reflects the shift from actively managed to indexed funds.
 
 SEC rules require funds to disclose the tax impact of portfolio turnover. Funds must include in their prospectus after-tax returns for the past 1-, 5-, and 10-year periods. Marketing literature that includes performance data also must include after-tax results. The after-tax returns are computed accounting for the impact of the taxable distributions of income and capital gains passed through to the investor, assuming the investor is in the maximum federal tax bracket.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/0890e45fc0c25f0caca2f8ae1db633d88cb44e871f3af3ec5bb87b23120232c3.jpg)
 
 **Concept Check 4.3**
 
@@ -557,8 +551,6 @@ f. Do you need to eliminate any of the funds from consideration due to a minimum
 
 2. Based on what you know about the funds, which do you think would be best for your investment?
 3. Select up to five funds that are of the most interest to you. Click on the button that says Score These Results. Customize the criteria listed by indicating their importance to you. Examine the score results. Does the fund with the highest score match the choice you made in part 2?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8bae597414fd02f60369c946d5f303d6ab5e34bd722180805a12169b9c9a50b8.jpg)
 
 **SOLUTIONS TO CONCEPT CHECKS**
 

@@ -1,19 +1,32 @@
 ---
-parent_directory: FINM Quantitative Trading Strategies/Lecture Notes
 title: "Lecture 03: Opportunity Identification and Backtesting Basics"
-tags:
+parent_directory: FINM Quantitative Trading Strategies
+formatted: "2025-12-21 06:30:00 PM"
+formatter_model: grok-code-fast-1
+cli_tool: claude-code
+primary_tags:
+   - backtesting
+   - quantitative trading strategies
+   - strategy metrics
+   - sharpe ratio
+   - kelly criterion
+secondary_tags:
+   - historical simulation
+   - return opportunity
+   - sortino ratio
+   - maximum drawdown
+   - benchmarks
+   - fama french
+   - alpha
 aliases:
-  - Backtesting Basics
-  - Opportunity Identification
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+   - Backtesting Basics
+   - Opportunity Identification
 cssclasses: academia
 ---
 
-# OPPORTUNITY IDENTIFICATION AND BACKTESTING
+## OPPORTUNITY IDENTIFICATION AND BACKTESTING
 
-# 1. THE ROLE OF HISTORICAL SIMULATION
+## 1. THE ROLE OF HISTORICAL SIMULATION
 
 A well-designed quantitative trading strategy nearly always undergoes a certain amount of analysis against historical data. There are various reasons to do this
 
@@ -21,7 +34,7 @@ A well-designed quantitative trading strategy nearly always undergoes a certain 
 - Make as much money as possible, by optimizing its parameters  
 - Develop a sense of risks and rewards expected in potential live trading scenarios
 
-# 2. MAJOR STRATEGY METRICS
+## 2. MAJOR STRATEGY METRICS
 
 When we judge a strategy, either in historical simulation or in actual performance, there are various metrics we can use. They range from extremely simple ones, such as annualized rate of return with no correction for fees, to more complex ones such as cost-adjusted risk/reward ratios. Here we look at some of the common choices.
 
@@ -40,7 +53,7 @@ $$
 The Sharpe ratio is now universally used in its modified form, sometimes called the information ratio where we base on some benchmark return  $r_b$  (which might be 0 for some cases)
 
 $$
-S _ {\mathrm {M o d i f i e d}} = \frac {\mathbb {E} [ r - r _ {b} ]}{\sqrt {\mathbb {E} [ (r - r _ {b}) ^ {2} ]}}
+S_{\mathrm{Modified}} = \frac{\mathbb{E}[r - r_b]}{\sqrt{\mathbb{E}[(r - r_b)^2]}}
 $$
 
 In the rare case the strategy exactly replicates the  $r_b$ , Sharpe ratio is undefined.
@@ -48,7 +61,7 @@ In the rare case the strategy exactly replicates the  $r_b$ , Sharpe ratio is un
 2.4.2. Sortino Ratio. The Sortino ratio is much like the Sharpe ratio, but it only penalizes cases where return disappoints us versus the benchmark
 
 $$
-S _ {\mathrm {S o r t i n o}} = \frac {\mathbb {E} [ r - r _ {b} ]}{\sqrt {\mathbb {E} \left[ (r - r _ {b}) ^ {2} \mid r <   r _ {b} \right]}}
+S_{\mathrm{Sortino}} = \frac{\mathbb{E}[r - r_b]}{\sqrt{\mathbb{E}\left[(r - r_b)^2 \mid r < r_b\right]}}
 $$
 
 Note the Sortino ratio may not be well-defined if our benchmark is not competitive, because then we may have no returns that underperform the benchmark, and thus an empty set in the expectation.
@@ -60,13 +73,13 @@ If everything is close to gaussian, Sharpe ratio and Sortino ratio scale (approx
 2.4.5. Downside Beta. We compute at the beta (essentially, correlation) of strategy returns to market returns in cases when the overall market is losing money. To do so, we look at strategy returns  $r_t$  conditional on market returns  $r_t^{(M)}$ , and fit the model
 
 $$
-r \sim r ^ {(M)} + \mathrm {C o n s t}
+r \sim r^{(M)} + \mathrm{Const}
 $$
 
 on the data set
 
 $$
-\left\{r _ {t}, r _ {t} ^ {(M)} \Big | r ^ {(M)} <   0 \right\}
+\left\{r_t, r_t^{(M)} \mid r^{(M)} < 0\right\}
 $$
 
 2.4.6. Stress Scenarios and Stress Beta. We can choose some scenarios we think would be particularly stressful for the strategy, and examine is average returns or betas to the market in those cases.
@@ -99,14 +112,14 @@ TABLE 1. CalPERS Performance, 21 Years
 
 Take for example the retirement savings fund for California public employees in Table 1. This is a large, professionally managed fund with performance information distributed publicly. We find very strong correlation to overall market performance.
 
-2.6.1. Short Positions, Benchmarks And Alpha. One underappreciated property of buy-and-hold benchmarks is that, while they are easy to create for a  $100\%$  long or  $100\%$  short strategy, it is puzzling to form benchmarks for strategies that are long some securities and short others. Even a 130/30 mutual fund is tricky to handle.
+2.6.1. Short Positions, Benchmarks And Alpha. One underappreciated property of buy-and-hold benchmarks is that, while they are easy to create for a 100\% long or 100\% short strategy, it is puzzling to form benchmarks for strategies that are long some securities and short others. Even a 130/30 mutual fund is tricky to handle.
 
 If we simultaneously run against a reasonably complete set of benchmarks, the residual return, which has theoretically been controlled for factor exposures of any important kind, is called portable alpha. In principle it will be uncorrelated with any other strategy and so can be advantageously combined with other portfolios. When it really exists, it is highly desirable for those reasons.
 
 By hedging, we can truly construct the portable alpha. At any moment, for each benchmark  $B$ , we take its beta from the regression and enter an "extra" position of size
 
 $$
-- \boldsymbol {\beta} \cdot \boldsymbol {B}
+-\boldsymbol{\beta} \cdot \boldsymbol{B}
 $$
 
 The gross pool of alpha available to all actors is zero. Of course, each of them has overhead so the net alpha is in fact negative. Any actor has some finite supply available to them given their skills, and it is constantly reduced by beta creep.
@@ -115,38 +128,36 @@ For any given trade, the trader on the other side is likely an informed investor
 
 2.7. Further Metrics. We have further metrics that are important to examine for a strategy. In particular, we care about trade frequency, turnover, capacity, competition/crowding.
 
-# 3. BACKTEST PREREQUISITES
+## 3. BACKTEST PREREQUISITES
 
 What do we need to form a good backtest?
 
 3.1. Asset Prices. We cannot get very far without some way of judging PL, for which we need asset prices. In public markets such as US equity and futures markets, this is usually fairly simple. For OTC and closed markets, such as exotic options or rates options, the problem becomes more difficult. If we have not already got the data we must find a vendor. Certain markets, notably distributed exchanges for cryptotokens are inherently public (though technical skill is often needed to extract historical information from them). Others, such as developed-economy equity and futures markets, have some limited historical data available, with most professionals paying for cleaned and normalized data streams. Over-the-counter markets tend to be quite obscure, thereby manifesting a barrier to entry for outsiders and startups.  
-3.2. Trading cost assumptions. We often assume that trades happen only by crossing bid/offer spreads. This raises questions of the quality of historical data we have on spread sizes and quantities available for liquidity takers. For equities, the information is at least public. For corporate fixed income, the spreads can be  $2 - 5\%$ , for government fixed income about  $1 / 8\%$  and for liquid FX pairs about  $1 / 4\%$ .
+3.2. Trading cost assumptions. We often assume that trades happen only by crossing bid/offer spreads. This raises questions of the quality of historical data we have on spread sizes and quantities available for liquidity takers. For equities, the information is at least public. For corporate fixed income, the spreads can be 2-5\%, for government fixed income about 1/8\% and for liquid FX pairs about 1/4\%.
 
 Transactions taking place on public exchanges also attract fees. The typical structure is that the liquidity taker (the entity crossing the spread) pays a small fee, while the market maker collects a slightly smaller fee, with the difference going to the exchange.
 
-Trading costs are higher for bigger transactions. A rule of thumb is for total transaction sizes of  $N$  unit in some security  $S$ , trading costs will look like
+Trading costs are higher for bigger transactions. A rule of thumb is for total transaction sizes of$N$ unit in some security $S$, trading costs will look like
 
 $$
-c _ {0} ^ {(S)} + c _ {\frac {1}{2}} ^ {(S)} \sqrt {N}
+c_0^{(S)} + c_{\frac{1}{2}}^{(S)} \sqrt{N}
 $$
 
-where the constants  $c_{0}$  and  $c_{\frac{1}{2}}$  vary by security.
+where the constants$c_0$ and $c_{\frac{1}{2}}$ vary by security.
 
-Almgren and Chriss (2000) provide a more sophisticated picture combining a GBM-like random walk with price impact functions including a permanent impact based on trading rate  $v$
+Almgren and Chriss (2000) provide a more sophisticated picture combining a GBM-like random walk with price impact functions including a permanent impact based on trading rate$v$
 
-$$
-g (v) = \gamma v
-$$
+$$g(v) = \gamma v$$
 
 This sums to a quadratic in size and trading rate, varying from
 
 $$
-\frac {1}{2} \gamma N ^ {2} + \epsilon N + (\eta - \frac {1}{2} \gamma \tau) \frac {N ^ {2}}{T}
+\frac{1}{2} \gamma N^2 + \epsilon N + (\eta - \frac{1}{2} \gamma \tau) \frac{N^2}{T}
 $$
 to  
 
 $$
-\epsilon N + \eta \frac {N ^ {2}}{\tau}
+\epsilon N + \eta \frac{N^2}{\tau}
 $$
 depending on the scaling plan.  
 
@@ -167,7 +178,7 @@ A common rough solution begins with VWAP, or volume-weighted average pricing.
 The classical perspective on position sizing is the Kelly criterion where we have a given size of capital and want to make the most of it without risking ruin. We have just one "thing" we can do, and know its expected return and variability. Kelly finds under simple assumptions that we should invest a proportion  $s$  of trading capital where
 
 $$
-s = \frac {\Pr \left\{\mathrm {w} > 0 \right\}}{\mathbb {E} [ w | w <   0 ]} - \frac {\Pr \left\{\mathrm {w} <   0 \right\}}{\mathbb {E} [ w | w > 0 ]}
+s = \frac{\Pr\{w > 0\}}{\mathbb{E}[w \mid w < 0]} - \frac{\Pr\{w < 0\}}{\mathbb{E}[w \mid w > 0]}
 $$
 
 is based on profit probability and expected PL sizes.
@@ -179,18 +190,18 @@ Another way to address some of these problems is due to Browne, who noted that b
 Browne's mathematical target is to maximize the probability of achieving a given wealth  $b$  before some time  $T$  deadline, given some expected excess profitability  $x$ . It results in
 
 $$
-s = \frac {1}{\sigma \sqrt {T}} \frac {b e ^ {- r T}}{x} \phi \left(\Phi^ {- 1} \left(\frac {x}{b} e ^ {r T}\right)\right)
+s = \frac{1}{\sigma \sqrt{T}} \frac{b e^{-r T}}{x} \phi\left(\Phi^{-1}\left(\frac{x}{b} e^{r T}\right)\right)
 $$
 
 which readers familiar with options will recognize as the hedging strategy of a binary call.
 
-The result is that, given some threshold  $\epsilon$  Browne will outperform Kelly by that threshold with probability  $(1 + \epsilon)^{-1}$ . A Kelly criterion on a strategy with  $30\%$  volatility requires about 10,000 years to beat a buy-and-hold strategy with  $95\%$  confidence. A Browne criterion that accepts  $5\%$  ruin probability reduces the time to 85 years.
+The result is that, given some threshold  $\epsilon$  Browne will outperform Kelly by that threshold with probability  $(1 + \epsilon)^{-1}$ . A Kelly criterion on a strategy with30\% volatility requires about 10,000 years to beat a buy-and-hold strategy with95\% confidence. A Browne criterion that accepts 5\% ruin probability reduces the time to 85 years.
 
-3.8. Hedging Rules. Most quantitative trading strategies aim to hedge out certain risks. A long-short equity strategy may be run a  $0\%$ ,  $25\%$ ,  $100\%$  or any other proportion net long. An options strategy will hedge delta and maybe gamma. Credit strategies often hedge using CDX or bond ETFs.
+3.8. Hedging Rules. Most quantitative trading strategies aim to hedge out certain risks. A long-short equity strategy may be run a0\%, 25\%, 100\% or any other proportion net long. An options strategy will hedge delta and maybe gamma. Credit strategies often hedge using CDX or bond ETFs.
 
 Note that (fully) hedging against some security at least theoretically removes it from the list of reasonable benchmarks.
 
-Both the Kelly and Browne criteria are mainly useful for allocation of capital to strategies (where they are useful at all). This is because position sizing considerations typically need to take into account multiple potential investments, with various risk-reward criteria among them, and where they are far from independent of each othcr.
+Both the Kelly and Browne criteria are mainly useful for allocation of capital to strategies (where they are useful at all). This is because position sizing considerations typically need to take into account multiple potential investments, with various risk-reward criteria among them, and where they are far from independent of each other.
 
 3.9. Evaluation Frequencies. Fully algorithmic trading strategies attempt to handle all incoming information in real time. Others must decide on target time periods in which to let analyses lie fallow. These time periods need not be purely clock-based, since a flood of news in the market should naturally be accompanied by re-evaluations.
 
@@ -210,9 +221,9 @@ One big problem is that historical information on repo rates and short availabil
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/288ff56f-85f1-4919-885a-7b03b3ef39c6/09cab002fc4b4f271adb0af72012e3bdb82d6f5ec4ef4c0126676433182f1b8d.jpg)
 
-# 4. BACKTESTING CONSIDERATIONS BY ASSET CLASS
+## 4. BACKTESTING CONSIDERATIONS BY ASSET CLASS
 
-# 4.1. Equities.
+#### 4.1. Equities
 
 4.1.1. As-of data. Equity models often take into account SEC filings, which are subject to correction.  
 4.1.2. Mergers and spinoffs. Mergers and spinoffs modify the available universe while also (typically) invalidating the economic assumptions behind our models.  
@@ -225,9 +236,9 @@ FIGURE 1. XLF dividend adjustment problems for Yahoo: a special dividend and its
 
 Naively, one might think it reasonable to use the Yahoo "Raw" series. However, then standard dividends would remain unadjusted for the remainder of the price series. In addition, returns inferred from the Yahoo "Raw" price, though computed from a time series without discontinuity, would be slightly different.
 
-4.1.4. High sensitivity to common benchmarks. If we take overall market return as a benchmark, we find most equities have correlations over  $60\%$ . If we allow further benchmarks to include Fama French or a set of ETFs, it can be surprising how much the rest resembles low-volatility noise.
+4.1.4. High sensitivity to common benchmarks. If we take overall market return as a benchmark, we find most equities have correlations over60\%. If we allow further benchmarks to include Fama French or a set of ETFs, it can be surprising how much the rest resembles low-volatility noise.
 
-# 4.2. Credit Instruments.
+#### 4.2. Credit Instruments
 
 4.2.1. Finding hedging instruments. There are not many credit ETFs, and credit indexes tend to be untradable, so the only reasonable hedging instruments in corporate credit are CDX (in very mature markets) or highly liquid corporate bonds in related companies, which take care of market risk without addressing default risk.  
 4.2.2. Scaling and inventory. The credit markets are OTC and are traded in large lot sizes, making minimum position sizes quite large. At the same time, scaling strategies need to take into account the fact that these markets are quite slow relative to electronic markets. nextframe
@@ -251,13 +262,13 @@ Though credit instruments ultimately trade on probability of default,  $h$ , the
 
 4.3.2. Pegs. A common form of ongoing intervention is a peg (or sometimes a pair of lower and upper bounds), maintained by frequent interventions. Strategies relying on pegs may go suddenly bad, and strategies expecting pegs to fail can take a very long time to come to fruition.
 
-# 4.3.3. Sizing.
+##### 4.3.3. Sizing
 
 4.3.4. Similarity to common strategies. FX rates are clearly linked to many assets, such as foreign equities and bonds. Crises therefore tend to come with high covariance to other asset classes. In addition, these links mean that one should consider which elements of foreign economies may be driving FX rates.
 
 Unlike equities, a net long portfolio of foreign currencies has no theoretical positive excess return expectation. In each respective country, the currency is, of course, just cash, so the risk premium is zero.
 
-# 4.4. Options.
+#### 4.4. Options
 
 4.4.1. Probability of ruin at high leverage. Options are often very highly levered investments, so their use comes with enhanced probability of ruin. Hedging can control this to an extent, but markets can begin crashing just when liquidity disappears. The problem is exacerbated for market makers, who tend to be structurally short options.
 

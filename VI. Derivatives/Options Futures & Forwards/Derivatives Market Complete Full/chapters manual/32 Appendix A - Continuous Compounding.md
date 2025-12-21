@@ -117,7 +117,7 @@ $$
 We could of course do the same calculation using effective annual rates. For the first 2 years, we earn  $e^{0.05} - 1 = 5.127\%$ , and for the second 2 years,  $e^{0.06} = 6.184\%$ . The future value of 1 is
 
 $$
-1. 0 5 1 2 7 ^ {2} 1. 0 6 1 8 4 ^ {2} = \$ 1. 2 4 6 1
+1.05127 ^ {2} \times 1.06184 ^ {2} = 1.2461
 $$
 
 This calculation gives us the same answer.
@@ -125,15 +125,9 @@ This calculation gives us the same answer.
 What is the average annual rate earned over the 4 years? The average annual continuously compounded rate is
 
 $$
-
-\frac {1}{4} \ln (1. 2 4 6 0 8) = 0. 0 5 5
-
-$$ which is the average of  $5\%$  and  $6\%$ .
-
-However, if we express the answer in terms of effective annual rates, we get
-
+\frac {1}{4} \ln (1.24608) = 0.055
 $$
-1.24608 ^ {0.25} - 1 = 5.6541 \%
+1.24608 ^ {0.25} - 1 = 5.654\% 
 $$
 
 This is not the average of  $5.127\%$  and  $6.184\%$ , which is 5.6555. This makes calculations with continuous compounding easier.
@@ -168,6 +162,44 @@ $$
 $$
 
 When using continuous compounding, increases and decreases are symmetric.
+
+```d2
+direction: right
+
+classes: {
+  rate: {
+    style.fill: "#e3f2fd"
+    style.stroke: "#1976d2"
+  }
+  result: {
+    style.fill: "#e8f5e9"
+    style.stroke: "#388e3c"
+  }
+}
+
+effective_annual: Effective Annual Rate {
+  class: rate
+  label: 10% annual compounding
+  formula: "(1 + 0.10)^3 = 1.331"
+}
+
+continuous: Continuous Compounding {
+  class: rate
+  label: 9.53% continuous compounding
+  formula: "e^(0.0953 × 3) = 1.3499"
+}
+
+comparison: Comparison {
+  class: result
+  label: Same economic result
+  note: "Continuous compounding ≈ daily compounding"
+}
+
+effective_annual -> comparison
+continuous -> comparison
+```
+
+**Figure: Continuous vs Effective Annual Compounding** - Both methods yield the same economic result, with continuous compounding providing a mathematically simpler framework for financial calculations.
 
 Moreover, if the index dropped to 1000, the continuously compounded return from the peak would be
 

@@ -1,12 +1,35 @@
 ---
+title: "Chapter 13: Deriving the Black-Scholes-Merton Model"
 aliases:
   - Deriving the Black-Scholes-Merton Model
-tags:
-key_concepts:
 parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:30:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - black-scholes-merton model
+  - option pricing theory
+  - risk neutral pricing
+  - geometric brownian motion
+  - ito lemma
+  - partial differential equations
+secondary_tags:
+  - stochastic processes
+  - hedge ratios
+  - volatility
+  - interest rates
+  - dividends
+  - binary options
+  - put call parity
+  - european options
+  - martingale measures
+  - arbitrage pricing
+  - no arbitrage conditions
+  - continuous time models
+  - risk free hedging
+  - option sensitivities
+  - greeks
 cssclasses: academia
-title: "Chapter 13: Deriving the Black-Scholes-Merton Model"
-linter-yaml-title-alias: "Chapter 13: Deriving the Black-Scholes-Merton Model"
 ---
 
 # Deriving the Black-Scholes-Merton Model
@@ -19,7 +42,7 @@ $$
 
 where  $dS_{t}$  is the change in the asset price per unit of time  $dt$ ,  $S_{t}$  is the asset price at time  $t$ ,  $\alpha$  is the drift or expected rate of return on the asset,  $\sigma$  is the volatility of the return on the asset, and  $dW_{t}$  is the Wiener process that represents the uncertainty. Equation (13.1) describes the rate of return on the asset. Recall that  $dW_{t} = \varepsilon_{t}\sqrt{dt}$ , where  $\varepsilon_{t}$  is a standard normal random variable (mean 0, variance 1) and that the key properties of  $dW_{t}$  are that  $E\big(dW_t\big) = 0$ ,  $\mathrm{var}\big(dW_t\big) = dt$ , and that  $dW_{t}^{2} = dt$ .
 
-# 13.1 DERIVATION OF THE EUROPEAN CALL OPTION PRICING FORMULA
+## 13.1 DERIVATION OF THE EUROPEAN CALL OPTION PRICING FORMULA
 
 Consider a European call option with exercise price  $X$ . The option price is assumed to be a function of only two variables: the asset price and time. Thus, we write the option price function in its general form as  $c(S_{t}, t)$  and more loosely as  $c_{t}$ , which denotes the option price at time  $t$  and where the option price is implicitly a function of the asset price at time  $t$ ,  $S_{t}$ . The option's time to expiration is  $\tau = T - t$ . At expiration, the option price is  $c_{T} = \max \left(0, S_{T} - X\right)$ .
 
@@ -133,7 +156,7 @@ Note that the expected return on the asset is not a factor in pricing the option
 
 Of the five inputs into the model, four are easily observable. We know the price of the asset,  $S$ . The option contract specifies the exercise price,  $X$ , and when the option expires. The time to expiration,  $\tau$ , is simply the number of remaining days divided by 365. The risk-free rate,  $r_c$ , would be the continuously compounded rate on a risk-free security that matures at the option expiration. The only remaining factor is the volatility, and it is indeed an unobservable factor. Investors will have different opinions on the volatility, and this diversity of opinions will generate trading. $^8$
 
-# 13.2 THE EUROPEAN PUT OPTION PRICING FORMULA
+## 13.2 THE EUROPEAN PUT OPTION PRICING FORMULA
 
 The model for pricing a European put is easily derived from put-call parity. We know that
 
@@ -169,7 +192,7 @@ where  $\nu$  is the value of the option, whether a call or a put.
 
 Once the Black-Scholes-Merton equation is found, one can determine the partial derivatives, which can then be substituted back into the partial differential equation to verify that the solution is correct. In Chapter 14, we examine the comparative statics of the Black-Scholes-Merton option pricing model and use these derivatives to verify the solution.
 
-# 13.3 DERIVING THE BLACK-SCHOLES-MERTON MODEL AS AN EXPECTED VALUE
+## 13.3 DERIVING THE BLACK-SCHOLES-MERTON MODEL AS AN EXPECTED VALUE
 
 Another approach to deriving the Black-Scholes-Merton model is to treat the option as if it were valued in a world of risk-neutral investors. The Black-Scholes-Merton price is then found as the present value of the expected call price at expiration. We term this solution methodology as the expectations approach.
 
@@ -499,11 +522,11 @@ where  $\varepsilon$  is distributed normal with mean 0 and standard deviation 1
 
 Based on the previous two sections, we know that both approaches result in the Black-Scholes-Merton model.
 
-# 13.5 DECOMPOSING THE BLACK-SCHOLES-MERTON MODEL INTO BINARY OPTIONS
+## 13.5 DECOMPOSING THE BLACK-SCHOLES-MERTON MODEL INTO BINARY OPTIONS
 
 Recall in Chapter 7, we introduced binary options, asset-or-nothing options and cash-or-nothing options. We can obtain the value of an asset-or-nothing call by using the method of expectations, as covered in Section 13.4. Recall that we derived the Black-Scholes-Merton model and found that it has two components,  $SN(d_1)$  and  $Xe^{-r_c\tau}N(d_2)$ . The first represents the expected value of the underlying asset at expiration conditional on the value of the underlying asset exceeding the exercise price times the probability that the value of the underlying asset exceeds the exercise price, discounted to the present at the risk-free rate. The second equals the discounted value of a payoff of  $X$  at expiration provided that the price of the underlying asset exceeds the exercise price  $X$ . The payoff of the first component is precisely that of an asset-or-nothing call, and the payoff of the second is precisely the payoff of a cash-or-nothing call. Therefore, as explained in Chapter 7, a standard European option can be viewed as a long position in an asset-or-nothing call and a short position in a cash-or-nothing call both struck at  $X$  and the latter paying  $X$ . Similarly, a standard European put can be decomposed into a long position in a cash-or-nothing put and a short position in an asset-or-nothing put.
 
-# 13.6 BLACK-SCHOLES-MERTON OPTION PRICING WHEN THERE ARE DIVIDENDS
+## 13.6 BLACK-SCHOLES-MERTON OPTION PRICING WHEN THERE ARE DIVIDENDS
 
 Recall in Chapter 2 that we examined the boundary conditions for option pricing with and without dividends. In almost every situation, we subtracted the present value of the dividends,  $D_{t}$ , from the asset price. We also discussed how this consideration comes into play in the binomial model, as covered in Chapter 7. Whenever we subtract the present value of the dividends over the life of the option, we are assuming that the dividends over the life of the option are known. Hence, when we are interested in pricing an option in a continuous time world, the stochastic process followed by the asset price, Equation (13.1), can apply only to the value of the asset price minus the present value of the dividends. Without going through the derivation again, we will just say that the Black-Scholes-Merton formula for calls and puts requires a small adjustment, which is that the asset price,  $S_{t}$ , must represent the asset price minus the present value of the dividends.
 
@@ -513,7 +536,7 @@ Finally, we should add that some options are on physical assets that incur stora
 
 We now turn to exploring selected limiting results for the Black-Scholes-Merton model.
 
-# 13.7 SELECTED BLACK-SCHOLES-MERTON MODEL LIMITING RESULTS
+## 13.7 SELECTED BLACK-SCHOLES-MERTON MODEL LIMITING RESULTS
 
 In this section, we explore the Black-Scholes-Merton model for calls when the asset price tends to zero or positive infinity, time tends to zero, volatility tends to zero or to positive infinity, and the exercise price tends to zero. We assume the dividend yield is zero.
 
@@ -548,7 +571,7 @@ $$
 The first term on the right-hand side tends toward zero as  $\tau$  tends to  $+\infty$  and the second term on the right-hand side tends toward  $+\infty$  as  $\tau$  tends to  $+\infty$ . Thus, assuming positive interest rates,  $N(d_1) \to 1.0$ . Note that the second term of the Black-Scholes-Merton model goes to zero due to the present value factor  $(e^{-r_c\tau})$ . That is, the present value of the exercise price is zero. Thus,
 
 $$
-\tau \rightarrow + \infty \Rightarrow d _ {1} \rightarrow + \infty , X e ^ {- r _ {c} \tau} N (d _ {2}) \rightarrow 0 \Rightarrow N (d _ {1}) \rightarrow 1. 0 \Rightarrow c = S. \qquad (1 3. 6 3)
+\tau \rightarrow + \infty \Rightarrow d _ {1} \rightarrow + \infty , X e ^ {- r _ {c} \tau} N (d _ {2}) \rightarrow 0 \Rightarrow N (d _ {1}) \rightarrow 1. 0 \Rightarrow c = S. \tag{13.63}
 $$
 
 We now turn to the case where time to maturity tends to zero. In other words, we are approaching very closely to maturity. Recall, for the model to be coherent, then it must converge to  $\max(0, S_T - X)$  at expiration. We must address three cases: (1)  $S_T > X$ , (2)  $S_T < X$ , and (3)  $S_T = X$ . When  $S_T > X$ , we note that  $d_1$  can be written as
@@ -568,7 +591,7 @@ $$
 2. Out-of-the-money  $(S_T < X)$ :
 
 $$
-\tau \rightarrow 0 \&\ln (S / X) <   0 \Rightarrow d _ {1}, d _ {2} \rightarrow - \infty \Rightarrow N \big (d _ {1} \big), N \big (d _ {2} \big) \rightarrow 0. 0 \Rightarrow c = 0. \qquad (1 3. 6 6)
+\tau \rightarrow 0 \&\ln (S / X) <   0 \Rightarrow d _ {1}, d _ {2} \rightarrow - \infty \Rightarrow N \big (d _ {1} \big), N \big (d _ {2} \big) \rightarrow 0. 0 \Rightarrow c = 0. \tag{13.66}
 $$
 
 3. At-the-money  $(S_T = X)$ :
@@ -639,7 +662,7 @@ Thus, as the exercise price approaches zero, then the call price approaches the 
 
 Note that using a similar approach, we can find the limits for puts. Alternatively, we can apply the limiting results with put-call parity and arrive at the same put limits. For completeness, we conclude this chapter by manually computing Black-Scholes-Merton option pricing model values.
 
-# 13.8 COMPUTING THE BLACK-SCHOLES-MERTON OPTION PRICING MODEL VALUES
+## 13.8 COMPUTING THE BLACK-SCHOLES-MERTON OPTION PRICING MODEL VALUES
 
 We provide a few illustrations of the manual option value computation. The key to manually calculating option values is the standard normal cumulative distribution table given in Chapter 5 (Table 5.1). We will refer back to Table 5.1 during these illustrations.
 
@@ -668,11 +691,11 @@ We start with a non-dividend example with an at-the-money call option where the 
 is 0.25. The first step in the calculations requires the computation of  $d_{1}$  and  $d_{2}$ . Recall at-the-money implies  $S = X$ , thus we have
 
 $$
-\begin{array}{l} d _ {1} = \frac {\ln (S / X) + \left(r _ {c} - \delta + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}} \\ = \frac {\ln (5 0 / 5 0) + \left(0 . 0 2 - 0 . 0 + 0 . 4 ^ {2} / 2\right) 0 . 2 5}{0 . 4 \sqrt {0 . 2 5}} = \frac {0 . 0 2 5}{0 . 2} = 0. 1 2 5 \\ \end{array}
+\begin{array}{l} d _ {1} = \frac {\ln (S / X) + \left(r _ {c} - \delta + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}} \\ = \frac {\ln (50 / 50) + \left(0.02 - 0.0 + 0.4^{2} / 2\right) 0.25}{0.4 \sqrt {0.25}} = \frac {0.025}{0.2} = 0.125 \\ \end{array}
 $$
 
 $$
-d _ {2} = d _ {1} - \sigma \sqrt {\tau} = 0. 1 2 5 - 0. 4 \sqrt {0 . 2 5} = - 0. 0 7 5.
+d _ {2} = d _ {1} - \sigma \sqrt {\tau} = 0.125 - 0.4 \sqrt {0.25} = -0.075.
 $$
 
 The second step is to look up the values of  $N(d_{1})$  and  $N(d_{2})$  from Table 5.1. Recall the values are given such that the first column provides the value of the first decimal and the first row provides the values of the second and third decimals incrementing by 0.005. Thus, the value for  $N(d_{1})$  is found by locating the row starting with 0.1. From that row locate the column with a heading of 0.025. At the intersection of this row and column is the value 0.549738 and therefore  $N(d_{1}) = 0.549738$ . The value for  $N(d_{2})$  is found by locating the row starting with -0.0. From that row locate the column with a heading of 0.075. At the intersection of this row and column is the value 0.470107 and therefore  $N(d_{2}) = 0.470107$ .
@@ -680,7 +703,7 @@ The second step is to look up the values of  $N(d_{1})$  and  $N(d_{2})$  from T
 The final step is to substitute these values into the call equation or
 
 $$
-\begin{array}{l} c = S e ^ {- \delta \tau} N (d _ {1}) - X e ^ {- r _ {c} \tau} N (d _ {2}) \\ = 5 0 e ^ {- 0 (0. 2 5)} 0. 5 4 9 7 3 8 - 5 0 e ^ {- 0. 0 2 (0. 2 5)} 0. 4 7 0 1 0 7 \\ = 2 7. 4 8 6 9 - 2 3. 3 8 8 1 = 4. 0 9 8 8. \\ \end{array}
+\begin{array}{l} c = S e ^ {- \delta \tau} N (d _ {1}) - X e ^ {- r _ {c} \tau} N (d _ {2}) \\ = 50 e ^ {- 0 (0.25)} 0.549738 - 50 e ^ {- 0.02 (0.25)} 0.470107 \\ = 27.4869 - 23.3881 = 4.0988. \\ \end{array}
 $$
 
 There are several ways to compute the put value. We first note the put-call parity approach. From the symmetry of the standard normal cumulative distribution function, we know that  $N(-d) = 1 - N(d)$ . Thus, the put equation can be rearranged to one expression of put-call parity or
@@ -692,13 +715,15 @@ $$
 With call value calculated, we can quickly compute the put value as
 
 $$
-\begin{array}{l} p = X e ^ {- r _ {c} \tau} - S e ^ {- \delta \tau} + c \\ = 5 0 e ^ {- 0. 0 2 (0. 2 5)} - 5 0 e ^ {- 0 (0. 2 5)} + 4. 0 9 8 8 \\ = 4 9. 7 5 0 6 - 5 0 + 4. 0 9 8 8 = 3. 8 4 9 4. \\ \end{array}
+\begin{array}{l} p = X e ^ {- r _ {c} \tau} - S e ^ {- \delta \tau} + c \\
+ = 50 e ^ {- 0.02 (0.25)} - 50 e ^ {- 0 (0.25)} + 4.0988 \\ = 49.7506 - 50 + 4.0988 = 3.8494. \\ \end{array}
 $$
 
 Alternatively, we can work through the same three steps for computing the call option. The first step in manual calculations for a put requires the computation of  $-d_{1}$  and  $-d_{2}$ . Thus, given we have already computed the values of  $-d_{1}$  and  $-d_{2}$ , we simply have
 
 $$
-\begin{array}{l} - d _ {1} = - \frac {\ln (S / X) + \left(r _ {c} - \delta + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}} = - 0. 1 2 5 \\ - d _ {2} = 0. 0 7 5. \\ \end{array}
+\begin{array}{l} - d _ {1} = - \frac {\ln (S / X) + \left(r _ {c} - \delta + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}} = - 0.125 \\
+ - d _ {2} = 0.075. \\ \end{array}
 $$
 
 The second step is to look up the values of  $N(-d_1)$  and  $N(-d_2)$  from Table 5.1. The value for  $N(-d_1)$  is found by locating the row starting with -0.1. From that row locate the column with heading of 0.025. At the intersection of this row and column is the value 0.450262 and therefore  $N(-d_1) = 0.450262$ . The value for  $N(d_2)$  is found by locating the row starting with 0.0. From that row locate the column with heading of 0.075. At the intersection of this row and column is the value 0.529893 and therefore  $N(d_2) = 0.529893$ .
@@ -706,7 +731,7 @@ The second step is to look up the values of  $N(-d_1)$  and  $N(-d_2)$  from Tab
 The final step is to substitute these values into the put equation or
 
 $$
-\begin{array}{l} p = X e ^ {- r _ {c} \tau} N \big (- d _ {2} \big) - S e ^ {- \delta \tau} N \big (- d _ {1} \big) \\ = 5 0 e ^ {- 0. 0 2 (0. 2 5)} 0. 5 2 9 8 9 3 - 5 0 e ^ {- 0 (0. 2 5)} 0. 4 5 0 2 6 2 \\ = 2 6. 3 6 2 5 - 2 2. 5 1 3 1 = 3. 8 4 9 4. \\ \end{array}
+\begin{array}{l} p = X e ^ {- r _ {c} \tau} N \big (- d _ {2} \big) - S e ^ {- \delta \tau} N \big (- d _ {1} \big) \\ = 50 e ^ {- 0.02 (0.25)} 0.529893 - 50 e ^ {- 0 (0.25)} 0.450262 \\ = 26.3625 - 22.5131 = 3.8494. \\ \end{array}
 $$
 
 Thus, both put values are identical. The key to successfully using Table 5.1 is knowing where to round. The purpose of such a dense table is to avoid significant rounding error with manual calculations. With Table 5.1, we round up or down on the quarters, that is, 0.XX25 and 0.XX75. For example, if  $d_{1} = 0.3224$ , then we round down to  $d_{1} = 0.320$  and use  $N(d_{1}) = 0.625516$ . Alternatively, if  $d_{1} = 0.3226$ , then we round up to  $d_{1} = 0.325$  and use  $N(d_{1}) = 0.627409$ . For most applications, Table 5.1 is granular enough to provide option values without too much estimation error.
@@ -714,28 +739,28 @@ Thus, both put values are identical. The key to successfully using Table 5.1 is 
 Now let us consider the influence of a  $2\%$  dividend yield  $(\delta = 0.02)$  on our calculations given in the previous example. This will enable us to see firsthand the influence of dividends on call and put values. As before, the first step in manual calculations requires the computation of  $d_{1}$  and  $d_{2}$  or
 
 $$
-\begin{array}{l} d _ {1} = \frac {\ln (S / X) + \left(r _ {c} - \delta + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}} \\ = \frac {\ln (5 0 / 5 0) + \left(0 . 0 2 - 0 . 0 2 + 0 . 4 ^ {2} / 2\right) 0 . 2 5}{0 . 4 \sqrt {0 . 2 5}} = 0. 1 \\ \end{array}
+\begin{array}{l} d _ {1} = \frac {\ln (S / X) + \left(r _ {c} - \delta + \sigma^ {2} / 2\right) \tau}{\sigma \sqrt {\tau}} \\ = \frac {\ln (50 / 50) + \left(0.02 - 0.02 + 0.4^{2} / 2\right) 0.25}{0.4 \sqrt {0.25}} = 0.1 \\ \end{array}
 $$
 
 $$
-d _ {2} = d _ {1} - \sigma \sqrt {\tau} = 0. 1 - 0. 4 \sqrt {0 . 2 5} = - 0. 1.
+d _ {2} = d _ {1} - \sigma \sqrt {\tau} = 0.1 - 0.4 \sqrt {0.25} = - 0.1.
 $$
 
 The value for  $N(d_{1})$  is found by locating the row starting with 0.1 and selecting the first value or  $N(d_{1}) = 0.539828$ . Similarly, we find the value for  $N(d_{2}) = 0.460172$ . The final step is to substitute these values into the call equation or
 
 $$
-\begin{array}{l} c = S e ^ {- \delta \tau} N \big (d _ {1} \big) - X e ^ {- r _ {c} \tau} N \big (d _ {2} \big) \\ = 5 0 e ^ {- 0. 0 2 (0. 2 5)} 0. 5 3 9 8 2 8 - 5 0 e ^ {- 0. 0 2 (0. 2 5)} 0. 4 6 0 1 7 2 \\ = 2 6. 8 5 6 8 - 2 2. 8 9 3 8 = 3. 9 6 3 0. \\ \end{array}
+\begin{array}{l} c = S e ^ {- \delta \tau} N \big (d _ {1} \big) - X e ^ {- r _ {c} \tau} N \big (d _ {2} \big) \\ = 50 e ^ {- 0.02 (0.25)} 0.539828 - 50 e ^ {- 0.02 (0.25)} 0.460172 \\ = 26.8568 - 22.8938 = 3.9630. \\ \end{array}
 $$
 
 Applying put-call parity, we have
 
 $$
-\begin{array}{l} p = X e ^ {- r _ {c} \tau} - S e ^ {- \delta \tau} + c \\ = 5 0 e ^ {- 0. 0 2 (0. 2 5)} - 5 0 e ^ {- 0. 0 2 (0. 2 5)} + 3. 9 6 3 0 = 3. 9 6 3 0. \\ \end{array}
+\begin{array}{l} p = X e ^ {- r _ {c} \tau} - S e ^ {- \delta \tau} + c \\ = 50 e ^ {- 0.02 (0.25)} - 50 e ^ {- 0.02 (0.25)} + 3.9630 = 3.9630. \\ \end{array}
 $$
 
 Thus, both call and put values are identical because the underlying growth rate under the equivalent martingale measure is zero. Clearly, we see that the call value declined and the put value increased when the dividend yield was changed from  $0\%$  to  $2\%$ .
 
-# 13.9 RECAP AND PREVIEW
+## 13.9 RECAP AND PREVIEW
 
 In this chapter, we showed how the Black-Scholes-Merton model is derived. We illustrated the construction of the dynamic hedge that eliminates the effect of movements in the underlying asset. With the risk eliminated, the hedge portfolio should earn the risk-free rate. There is one and only one call option value that ensures this will be true. If it is not true, there is an opportunity for a dynamic arbitrage, which we assume cannot exist under these conditions. We also derive the put version of the model.
 
@@ -745,9 +770,9 @@ We conclude this chapter by exploring some of the Black-Scholes-Merton model lim
 
 In Chapter 14, we show how the derivatives of the model are obtained, and we provide the Greeks, which as you should recall from the binomial model, are the sensitivities to the factors that go into the model.
 
-# APPENDIX 13.A
+## APPENDIX 13.A
 
-# Deriving the Arithmetic Brownian Motion Option Pricing Model
+### Deriving the Arithmetic Brownian Motion Option Pricing Model
 
 In this appendix, we derive the call and put prices based on arithmetic Brownian motion (ABM) incorporating a dividend yield. We assume ABMGD or
 
@@ -1024,7 +1049,7 @@ $$
 X = S e ^ {- d _ {1} \sigma \sqrt {\tau} + (r + \sigma^ {2} / 2) \tau}. \tag {14.15}
 $$
 
-# 14.1 DELTA: THE FIRST DERIVATIVE WITH RESPECT TO THE UNDERLYING PRICE
+## 14.1 DELTA: THE FIRST DERIVATIVE WITH RESPECT TO THE UNDERLYING PRICE
 
 This measure is called the delta. We take the derivative of the call price with respect to the underlying price,
 
@@ -1046,7 +1071,7 @@ $$
 
 The delta expresses the instantaneous change in the option price for a change in the underlying price. Because  $N(d_{1})$  is a probability, its value is between 0 and 1. In the derivation of the Black-Scholes-Merton model, delta is also the hedge ratio, representing the number of units of the asset required to offset one unit of the option when the underlying price changes in continuous time.
 
-# 14.2 GAMMA: THE SECOND DERIVATIVE WITH RESPECT TO THE UNDERLYING PRICE
+## 14.2 GAMMA: THE SECOND DERIVATIVE WITH RESPECT TO THE UNDERLYING PRICE
 
 The second derivative with respect to the underlying price is the gamma and is obtained as follows:
 
@@ -1056,7 +1081,7 @@ $$
 
 This value is called the gamma. We can indeed think of it as the second derivative with respect to the asset price or we can think of it as the first derivative of the delta. Thus, it represents the instantaneous rate of change of the delta as the underlying price changes.
 
-# 14.3 THETA: THE FIRST DERIVATIVE WITH RESPECT TO TIME
+## 14.3 THETA: THE FIRST DERIVATIVE WITH RESPECT TO TIME
 
 Now we need the derivative with respect to time to expiration.
 

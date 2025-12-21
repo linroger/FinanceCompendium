@@ -1,13 +1,23 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: "Practical Yield, Price, Duration and Convexity Approximations"
+parent_directory: Bond Math & Analytics
+formatted: 2025-12-21 02:31:25 PM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+  - bond duration approximation
+  - convexity approximation
+  - yield price approximation
+secondary_tags:
+  - effective duration
+  - taylor expansion approximation
+  - scenario analysis
 cssclasses: academia
-title: Practical yield, price, duration and convexity approximations
 ---
 
-# Practical yield, price, duration and convexity approximations
-# Abstract
+# Practical Yield, Price, Duration and Convexity Approximations
+
+## Abstract
 
 Practical techniques for approximating yield given the price and price given the yield are described. Duration and convexity estimations given prices and yields at three observation points are presented. Such approximations are useful when computing prices and yields from their values at nearby points and generating additional data for scenario analysis.
 
@@ -39,9 +49,7 @@ $C(y_{0})$  convexity at  $y_{0}$  , provided it is not undefined
 Conversely, (approximated) yield  $y$  corresponding to (known) price  $p$  can be computed as
 
 $$
-
-{ y ( p ) } { \approx } { y_{ 0 } + \frac{ d y ( p ) } { d p } \Bigg |_{ p = p_{ 0 } } ( p - p_{ 0 } ) + \frac{ 1 } { 2 } \frac{ d^{ 2 } y ( p ) } { d p^{ 2 } } \Bigg |_{ p = p_{ 0 } } ( p - p_{ 0 } )^{ 2 } . } { ( 5 ) }
-
+y(p) \approx y_0 + \frac{dy(p)}{dp} \bigg|_{p = p_0} (p - p_0) + \frac{1}{2} \frac{d^2 y(p)}{dp^2} \bigg|_{p = p_0} (p - p_0)^2. \tag{5}
 $$ or, in terms of duration and convexity,
 
 
@@ -63,10 +71,12 @@ $$ p^{\prime} \left(y_{0}\right) + \frac{1}{2} \Delta y_{2} p^{\prime \prime} \l
 $$ where:
 
 
-$$ p^{\prime} (y_{0}) = \frac{d p}{d y} \Bigg |_{y = y_{0}} \quad , \text{pr ov id ed it is de fi ne d},
+$$
+p'(y_0) = \frac{dp}{dy} \bigg|_{y = y_0}, \quad \text{provided it is defined},
 $$
 
-$$ p^{\prime \prime} (y_{0}) = \left. \frac{d^{2} p}{d y^{2}} \right|_{y = y_{0}}, \text{pr ov id ed it is de fi ne d},
+$$
+p''(y_0) = \frac{d^2 p}{dy^2} \bigg|_{y = y_0}, \quad \text{provided it is defined},
 $$
 
 $$
@@ -160,11 +170,11 @@ $$
 Computing the determinants, we obtain:
 
 $$
-\begin{array}{l} \Delta = \left| \begin{array}{c c} 1 & 0. 5 \Delta y_{1} \\ 1 & 0. 5 \Delta y_{2} \end{array} \right| = 0. 5 (\Delta y_{2} - \Delta y_{1}) \\ = 0. 5 \left(y_{2} - y_{0} - y_{1} + y_{0}\right) = 0. 5 \left(y_{2} - y_{1}\right) \neq 0, \tag {B.3} \\ \end{array}
+\begin{array}{l} \Delta = \left| \begin{array}{cc} 1 & 0.5 \Delta y_1 \\ 1 & 0.5 \Delta y_2 \end{array} \right| = 0.5 (\Delta y_2 - \Delta y_1) \\ = 0.5 (y_2 - y_0 - y_1 + y_0) = 0.5 (y_2 - y_1) \neq 0, \tag {B.3} \\ \end{array}
 $$
 
 $$
-\Delta_{p^{\prime}} = \left| \begin{array}{c c} \frac{\Delta p_{1}}{\Delta y_{1}} & 0. 5 \Delta y_{1} \\ \frac{\Delta p_{2}}{\Delta y_{2}} & 0. 5 \Delta y_{2} \end{array} \right| = 0. 5 \frac{\Delta p_{1} (\Delta y_{2})^{2} - \Delta p_{2} (\Delta y_{1})^{2}}{\Delta y_{1} \Delta y_{2}}, \tag {B.4}
+\Delta_{p'} = \left| \begin{array}{cc} \frac{\Delta p_1}{\Delta y_1} & 0.5 \Delta y_1 \\ \frac{\Delta p_2}{\Delta y_2} & 0.5 \Delta y_2 \end{array} \right| = 0.5 \frac{\Delta p_1 (\Delta y_2)^2 - \Delta p_2 (\Delta y_1)^2}{\Delta y_1 \Delta y_2}, \tag {B.4}
 $$
 
 $$
@@ -180,11 +190,11 @@ $$ p^{\prime \prime} \left(y_{0}\right) = \frac{\Delta p^{\prime \prime}}{\Delta
 $$
 
 $$
-D y_{0} = - \frac{p^{\prime} \left(y_{0}\right)}{p_{0}} = - \frac{\Delta p_{1} \left(\Delta y_{2}\right)^{2} - \Delta p_{2} \left(\Delta y_{1}\right)^{2}}{\Delta y_{1} \Delta y_{2} \left(y_{2} - y_{1}\right) p_{0}}, \tag {B.8}
+D(y_0) = -\frac{p'(y_0)}{p_0} = -\frac{\Delta p_1 (\Delta y_2)^2 - \Delta p_2 (\Delta y_1)^2}{\Delta y_1 \Delta y_2 (y_2 - y_1) p_0}, \tag {B.8}
 $$
 
 $$
-C y_{0} = \frac{p^{\prime \prime} \left(y_{0}\right)}{p_{0}} = \frac{2 \left(\Delta p_{2} \Delta y_{1} - \Delta p_{1} \Delta y_{2}\right)}{\Delta y_{1} \Delta y_{2} \left(y_{2} - y_{1}\right) p_{0}}. \tag {B.9}
+C(y_0) = \frac{p''(y_0)}{p_0} = \frac{2 (\Delta p_2 \Delta y_1 - \Delta p_1 \Delta y_2)}{\Delta y_1 \Delta y_2 (y_2 - y_1) p_0}. \tag {B.9}
 $$
 
 # References

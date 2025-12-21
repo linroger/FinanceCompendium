@@ -57,15 +57,15 @@ The chapter is divided into four general topics:
 
 You should keep in mind when reading this chapter that the distribution of asset prices remains an area in which there is significant ongoing research. Statistical techniques for measuring volatility continue to evolve, and there is a search for pricing models that best explain observed option prices.
 
-# I. IMPLIED VOLATILITY
+## I. IMPLIED VOLATILITY
 
 To provide a context for the discussion in this chapter, we begin by reviewing implied volatility. Figure 1 depicts implied volatilities for exchange-traded IBM and S&P 500 index options on January 18, 2012, an arbitrarily chosen date. The patterns are typical, with in-the-money (low strike) calls having higher implied volatilities than at-the-money and out-of-the-money calls. In addition, the implied volatility curve is flatter for options with longer time to maturity. You may see volatilities such as those in Figure 1 plotted in a three-dimensional graph, with time to maturity on one axis and strike prices on a different axis. Such a plot is called a volatility surface.
 
 The pattern of implied volatilities generally is referred to as the volatility skew. However, specific patterns are frequently observed. If you use your imagination, the implied volatility plot in Figure 1 resembles a lopsided grin or a smirk. The pattern in the figure is sometimes called a volatility smirk. When the plot of implied volatility against strike prices looks like a smile, it is called a volatility smile. Volatility frowns may also be observed.
 
-Implied volatility may seem like a natural way to measure the volatility that is expected to prevail over a future period of time. However, the fact that implied volatilities are not constant across strike prices and over time raises at least two issues. First, it is common to measure implied volatility using the Black-Scholes model, which assumes that volatility is constant. The volatility skew may reflect pricing or specification error in the Black-Scholes
+Implied volatility may seem like a natural way to measure the volatility that is expected to prevail over a future period of time. However, the fact that implied volatilities are not constant across strike prices and over time raises at least two issues. First, it is common to measure implied volatility using the Black-Scholes model, which assumes that volatility is constant. The volatility skew may reflect pricing or specification error in the Black-Scholes model, which raises the question of what implied volatility actually measures.
 
-FIGURE I
+# FIGURE 1
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/5ec7b5019d5f40ea7fd5314e6a0f7fb8d04fe4dde310e35a7a62e95cb8ff287d.jpg)
 
@@ -79,7 +79,7 @@ Data from Optionmetrics.
 
 VIX (top panel) and VIX minus VXO (bottom panel), January 1990-March 2012.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/7a4fda743b5142d2a548f4a58a9d24a4efa26f7df7abbca7e4cab9edbe98421c.jpg) model, which raises the question of what implied volatility actually measures. Second, since there is no single measure of implied volatility (for the same asset, implied volatilities differ across strikes and across option maturities), how should we interpret the implied volatility numbers? Should we look at volatility at a particular "moneyness"? Is there some way to average the different volatilities? We will see later in this chapter that some theoretical pricing models are able to account for implied volatility patterns such as those in Figure 1.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/7a4fda743b5142d2a548f4a58a9d24a4efa26f7df7abbca7e4cab9edbe98421c.jpg) Second, since there is no single measure of implied volatility (for the same asset, implied volatilities differ across strikes and across option maturities), how should we interpret the implied volatility numbers? Should we look at volatility at a particular "moneyness"? Is there some way to average the different volatilities? We will see later in this chapter that some theoretical pricing models are able to account for implied volatility patterns such as those in Figure 1.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/da61cfb45ca1eb32d0c39d8ed2bfdb9e7dec685dda839596201346b047137a1b.jpg)
 
@@ -104,13 +104,13 @@ The top panel of Figure 2 plots the new VIX index from 1990 to 2012. The spike i
 
 Looking at Figures 1 and 2, it is natural to ask whether implied volatility is an accurate forecast of future volatility. It turns out that implied volatility on average exceeds future realized volatility. An interpretation is that there is a negative volatility risk premium (Bakshi and Kapadia, 2003a; Bates, 2003). We discuss this later in the chapter.
 
-# 2. MEASUREMENT AND BEHAVIOR OF VOLATILITY
+## 2. MEASUREMENT AND BEHAVIOR OF VOLATILITY
 
 In this section we examine different ways to characterize and measure the behavior of volatility using only historical information about the asset price. In our examples we will concentrate on stock price volatility.
 
 We take as a starting point the lognormal model of stock prices. Suppose the stock price follows this process:
 
-$$ d S _ {t} / S _ {t} = (\alpha - \delta) d t + \sigma \left(S _ {t}, X _ {t}, t\right) d Z \tag {1}
+$$ d S_{t} / S_{t} = (\alpha - \delta) dt + \sigma \left(S_{t}, X_{t}, t\right) dZ \tag{1}
 $$ where  $\alpha$  is the continuously compounded expected return on the stock,  $\delta$  is the continuously compounded dividend yield, and  $\sigma(S_t, X_t, t)$  is the instantaneous volatility. In equation (1), volatility at a point in time can depend on the level of the stock price  $S$ , other variables,  $X$ , and time. By comparison, the standard Black-Scholes assumption is that  $\sigma(S_t, X_t, t) = \sigma_0$ , a constant. Equation (1) is an example of a stock price process with stochastic volatility, in which instantaneous volatility can change randomly. $^3$
 
 
@@ -124,7 +124,7 @@ $$
 
 We will assume throughout this section that  $h$  is small, and therefore that we can ignore the mean return.
 
-# Historical Volatility
+### Historical Volatility
 
 The natural starting point for examining volatility is historical volatility, which we compute using past stock returns. Suppose that we observe  $n$  continuously compounded stock returns over a period of length  $T$ , so that  $h = T / n$ . Under the assumption that volatility is constant, we can estimate the historical annual variance of returns,  $\sigma^2$ , as
 
@@ -138,7 +138,7 @@ The multiplication by  $1 / h$  annualizes the variance estimate in square brack
 
 It is natural to estimate volatility using daily returns for all trading days. It is important to recognize, however, that not all calendar days, and not even all trading days, exhibit the same volatility. For example, if all days were the same, return volatility over a weekend (from Friday's close of trading to Monday's close of trading) should be  $\sqrt{3}$  times the weekday volatility. However, French and Roll (1986) showed that returns from Friday to Monday were significantly less volatile than returns over three consecutive weekdays. Individual stock price volatilities are also greater on the days when firms make earnings announcements, and this greater volatility affects option prices (Patell and Wolfson, 1979, 1981; Dubinsky and Johannes, 2004). Thus, while equation (2) provides an estimate of annualized volatility, the volatilities on individual days can vary.
 
-# Exponentially Weighted Moving Average
+### Exponentially Weighted Moving Average
 
 Because volatility appears to be changing over time, it is natural to try to take this variation into account when estimating volatility. We might reason that if volatility is changing, we want to emphasize more recent observations at the expense of more distant observations. One way to do this is to compute an exponentially weighted moving average (EWMA) of the squared stock returns.
 
@@ -182,29 +182,29 @@ Figure 3 illustrates two different historical volatility calculations. The top p
 
 The bottom panel in Figure 3 displays the EWMA estimate for  $b = 0.94$  and  $n = 60$  days. Note that the EWMA estimator exhibits more variability than the standard historical volatility estimate. This additional variability occurs because the most recent observation has four times the weight in the EWMA estimator as in the standard estimator. Thus a particularly large return will create a large effect on the estimate. This effect will then decay at the rate  $b$ .
 
-There are two problems with the EWMA estimator, one practical and one conceptual. First, if we use the EWMA estimator in equation (3) to forecast future volatility, we obtain a constant expected volatility at any horizon. The reason is that the forecast of  $\epsilon_t^2$  is  $\hat{\sigma}_{t - 1}^2$ , so that all forecasts of future volatility would equal  $\hat{\sigma}_{t - 1}^2$ . Thus, the EWMA estimator does not forecast patterns in future volatility. Second, the EWMA estimator is not derived from a
+There are two problems with the EWMA estimator, one practical and one conceptual. First, if we use the EWMA estimator in equation (3) to forecast future volatility, we obtain a constant expected volatility at any horizon. The reason is that the forecast of  $\epsilon_t^2$  is  $\hat{\sigma}_{t - 1}^2$ , so that all forecasts of future volatility would equal  $\hat{\sigma}_{t - 1}^2$ . Thus, the EWMA estimator does not forecast patterns in future volatility. Second, the EWMA estimator is not derived from a formal statistical model in which volatility can vary over time. ARCH and GARCH, which we discuss next, address both problems.
 
 # FIGURE 3
 
 Sixty-day volatility estimates for IBM and the S&P 500 index from January 1990 to March 2012. The top panel shows volatility estimates using equation (2), whereas the bottom panel uses equation (5), with  $b = 0.94$ .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/9b20b8e1d435474d6fc6ac173e4ce72010580dc6d8cd5d84b212e4ca1271a4fb.jpg) formal statistical model in which volatility can vary over time. ARCH and GARCH, which we discuss next, address both problems.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/9b20b8e1d435474d6fc6ac173e4ce72010580dc6d8cd5d84b212e4ca1271a4fb.jpg)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/851cbcc9145ea0db035efcd8fdcf9788ce0c2f62d7da43117a276e40b1b1753e.jpg)
 
 Source: Stock price data from Yahoo.
 
-# Time-Varying Volatility: ARCH
+### Time-Varying Volatility: ARCH
 
 A casual examination of data, such as looking at historical volatilities (Figure 3), or looking at the behavior over time of implied volatilities (Figure 2), suggests that volatilities are not constant. What do we do once we formally accept that volatilities change over time? Ideally we would have a statistical model that permits volatility changes to occur. Such a model could serve both to provide better estimates of volatility and also to provide a building block for better pricing models.
 
-Research on the behavior of volatility shows that for many assets, there are periods of turbulence and periods of calm: high volatility tends to be followed by high volatility and
+Research on the behavior of volatility shows that for many assets, there are periods of turbulence and periods of calm: high volatility tends to be followed by high volatility and low volatility by low volatility. Put differently, during a period when measured volatility is high, the typical day tends to exhibit high volatility. (High volatility could in principle also arise from an increased chance of large but infrequent price moves.) Figure 4 displays squared daily returns for the S&P 500 index and IBM. At a casual level, this figure exhibits this effect, with periods in which many of the daily squared returns are large, and periods when many are small. This is called volatility clustering.
 
 # FIGURE 4
 
 Squared daily returns on IBM (top panel) and the S&P 500 index (bottom panel) from January 2, 1990, to March 30, 2012.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/bc237cc8a958ac8b5dc82f2f9e808e85b0530622cc60fa16f42ab3a96e739b03.jpg) low volatility by low volatility. Put differently, during a period when measured volatility is high, the typical day tends to exhibit high volatility. (High volatility could in principle also arise from an increased chance of large but infrequent price moves.) Figure 4 displays squared daily returns for the S&P 500 index and IBM. At a casual level, this figure exhibits this effect, with periods in which many of the daily squared returns are large, and periods when many are small. This is called volatility clustering.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/bc237cc8a958ac8b5dc82f2f9e808e85b0530622cc60fa16f42ab3a96e739b03.jpg)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/2689b596de56152aef748a771f0f64d85a302679a9f4af2d50849a3ec2b4f7ca.jpg)
 
@@ -218,7 +218,7 @@ The ARCH Model. The autoregressive conditional heteroskedasticity (ARCH) model o
 
 The 2003 Nobel Prize in economics was awarded to Robert F. Engle and Clive Granger for their work in statistical methods in economics. Engle was cited for his work in studying the behavior of volatility. This quote, from the Royal Swedish Academy of Science press release announcing the award of the 2003 economics prize, describes Engle's contribution:
 
-Random fluctuations over time—volatility—are particularly significant because the value of shares, options and other financial instruments depends on their risk. Fluctuations can vary considerably over time; turbulent periods with large fluctuations are followed by calmer periods with small fluctuations. Despite such time-varying volatility, in want of a better alter native, researchers used to work with statistical methods that presuppose constant volatility. Robert Engle's discovery was therefore a major breakthrough. He found that the concept of autoregressive conditional heteroskedasticity (ARCH) accurately captures the properties of many time series and developed methods for statistical modeling of time-varying volatility. His ARCH models have become indispensable tools not only for researchers, but also for analysts on financial markets, who use them in asset pricing and in evaluating portfolio risk.
+Random fluctuations over time—volatility—are particularly significant because the value of shares, options and other financial instruments depends on their risk. Fluctuations can vary considerably over time; turbulent periods with large fluctuations are followed by calmer periods with small fluctuations. Despite such time-varying volatility, in want of a better alternative, researchers used to work with statistical methods that presuppose constant volatility. Robert Engle's discovery was therefore a major breakthrough. He found that the concept of autoregressive conditional heteroskedasticity (ARCH) accurately captures the properties of many time series and developed methods for statistical modeling of time-varying volatility. His ARCH models have become indispensable tools not only for researchers, but also for analysts on financial markets, who use them in asset pricing and in evaluating portfolio risk.
 
 Source: Royal Swedish Academy of Science, Press Release, October 2003.
 
@@ -291,12 +291,12 @@ Thus, with estimates of  $a_0$  and  $a_1$  we can compute the unconditional vol
 
 In practice, if markets become more turbulent, they may remain more turbulent for a period of time. Equation (9) with a single lag cannot account for a period of sustained high volatility. As you might guess, more than one lag—generally many lags—are necessary for ARCH to fit the data.
 
-# The GARCH Model
+### The GARCH Model
 
 The GARCH model, due to Bollerslev (1986), is a variant of ARCH that allows for infinite lags yet can be estimated with a small number of parameters. The GARCH model has the form
 
-$$ q _ {t} = a _ {0} + \sum_ {i = 1} ^ {m} a _ {i} \epsilon_ {t - i} ^ {2} + \sum_ {j = 1} ^ {n} b _ {i} q _ {t - i} \tag {13}
-$$ where  $a_0 > 0, a_i \geq 0, i = 1, \dots, m, b_i \geq 0, i = 1, \dots, n,$  and  $\sum_{i=1}^{m} a_i + \sum_{i=1}^{n} b_i < 1$ . This model states that volatility at a point in time depends upon recent volatility as well as recent squared returns. Equation (13) is a GARCH(m, n) model.
+$$ q _ {t} = a _ {0} + \sum_ {i = 1} ^ {m} a _ {i} \epsilon_ {t - i} ^ {2} + \sum_ {j = 1} ^ {n} b _ {j} q _ {t - j} \tag {13}
+$$ where  $a_0 > 0, a_i \geq 0, i = 1, \dots, m, b_j \geq 0, j = 1, \dots, n,$  and  $\sum_{i=1}^{m} a_i + \sum_{j=1}^{n} b_j < 1$ . This model states that volatility at a point in time depends upon recent volatility as well as recent squared returns. Equation (13) is a GARCH(m, n) model.
 
 
 GARCH(1,1) is frequently used in practice. The GARCH(1,1) model is
@@ -399,7 +399,7 @@ $$
 
 The other parameters do not change much, and this unconditional volatility estimate of  $42.29\%$  is more reasonable. This example illustrates that a GARCH model estimated using normally distributed returns can be sensitive to extreme data points. In addition to eliminating earnings announcement days, one could permit a fatter-tailed return distribution (e.g., see Bollerslev, 1987).
 
-# Realized Quadratic Variation
+### Realized Quadratic Variation
 
 The quadratic variation (the sum of squared increments) of a Brownian motion from  $t$  to  $T$  is  $T - t$ . That is, suppose we frequently sample a diffusion process,  $\sigma Z(t)$ . Letting  $n = (T - t) / h$  and  $Z(i) = Z(t + ih)$ , we have
 
@@ -423,7 +423,7 @@ Apart from the  $n / (n - 1)$  term, this appears to be the same as annualized r
 
 the averaged bid and ask prices to impute a price at 30-minute intervals. They then use this imputed price to measure the 30-minute continuously compounded return, from which they construct realized quadratic variation. In comparing forecasts based on realized quadratic variation with other methods of forecasting volatility, both inand out-of-sample over oneand ten-day horizons, they find that realized quadratic variation is generally at least as good as other estimates.
 
-# 3. HEDGING AND PRICING VOLATILITY
+## 3. HEDGING AND PRICING VOLATILITY
 
 In this section we discuss derivative claims that have volatility as an underlying asset. We begin by discussing volatility and variance swaps (including one contract based on the VIX). We then look at an example of pricing a variance swap. Finally, we discuss the construction of the history of the VIX volatility index reported by the Chicago Board Options Exchange (CBOE). In this section we will let  $V$  denote measured volatility and  $V^2$  measured variance.
 

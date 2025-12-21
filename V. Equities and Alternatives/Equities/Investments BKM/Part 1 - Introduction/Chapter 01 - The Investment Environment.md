@@ -438,8 +438,6 @@ Why had the rating agencies so dramatically underestimated credit risk in these 
 
 Finally, agency problems became apparent. The ratings agencies were paid to provide ratings by the issuers of the securities—not the purchasers. They faced pressure from the issuers, who could shop around for the most favorable treatment, to provide generous ratings.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c42836364663d433371c714fb3d84bca353f7d092c156acfb57fa4482d9c3fc1.jpg)
-
 **Concept Check 1.2**
 
 When Freddie Mac and Fannie Mae pooled mortgages into securities, they guaranteed the underlying mortgage loans against homeowner defaults. In contrast, there were no guarantees on the mortgages pooled into subprime mortgage-backed securities, so investors were the ones bearing the credit risk. Were either of these arrangements necessarily a better way to manage and allocate default risk?

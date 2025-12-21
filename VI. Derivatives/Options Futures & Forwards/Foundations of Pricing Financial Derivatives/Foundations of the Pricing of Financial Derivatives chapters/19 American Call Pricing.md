@@ -1,22 +1,79 @@
 ---
-aliases:
-  - American Call Option Pricing
-tags:
-key_concepts:
-parent_directory: Foundations of the Pricing of Financial Derivatives chapters
-cssclasses: academia
 title: "Chapter 19: American Call Option Pricing"
-linter-yaml-title-alias: "Chapter 19: American Call Option Pricing"
+parent_directory: Foundations of the Pricing of Financial Derivatives chapters
+formatted: 2025-12-21 02:23:25 PM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+   - american option pricing
+   - early exercise premium
+   - roll-geske-whaley model
+secondary_tags:
+   - dividend capture strategy
+   - compound option valuation
+   - optimal exercise boundary
+   - american call valuation
+cssclasses: academia
 ---
 
 # American Call Option Pricing
 
 It is well known, as we covered in Chapter 2, that an American call option on an asset that makes no cash payments, such as dividends on stocks, during the life of the option will not be exercised early and, hence, can be valued as a European option with the standard Black-Scholes-Merton formula. If the underlying asset makes a cash payment during the life of the option, early exercise could possibly be optimal, thereby giving the American call a premium over a European call and rendering the Black-Scholes-Merton model inappropriate.<sup>1</sup> As we showed when covering the binomial model, valuation of such an option can be done by numerical methods, such as the binomial model, but it is also possible to obtain a closed-form valuation model. For an asset making a single payment during the life of the option, the model is called the Roll-Geske-Whaley model after Roll (1977), Geske (1979a, 1981), and Whaley (1981), and it is based on Geske's (1979b) compound option model.
 
-Similar to Chapter 18, the analysis in this chapter will require more precise notation as we will work our way toward more than one dividend payment. Figure 19.1 illustrates this notation for a single dividend payment. Recall with a compound option we used  $T_{2}$  to denote the underlying option expiration, whereas here we will use  $T_{A}$  to denote the expiration of the American option. Thus,  $\tau_{A}$  denotes the time to expiration of an American option. As we will see, interim dividend payments are creating a condition analogous to the exercise of compound options. We denote the dividend dates as  $T_{1}, T_{2}$ , and so forth to allow for generalizations. Similarly,  $\tau_{1}$  denotes the time until the first dividend payment and  $\tau_{1A}$  denotes the time between the first dividend payment and the option time to expiration. The values of different instruments, such as assets and options, will use only the subscript to denote the observation date. For example,  $S_{1}$  denotes the asset value at time  $T_{1}$ . Where possible, we will drop the subscript  $t$  as it will be understood, thus  $S_{t} = S$ .
+```d2
+direction: right
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/e2c3cafed12723dbca6c9db80dd1e3ad016b3b1e18c79317d89b2b68653e60aa.jpg)  
-FIGURE 19.1 American Option with Single Dividend Payment Timeline
+classes: {
+  option: {
+    style.fill: "#e3f2fd"
+    style.stroke: "#1976d2"
+  }
+  decision: {
+    shape: diamond
+    style.fill: "#fff3e0"
+    style.stroke: "#f57c00"
+  }
+  value: {
+    style.fill: "#e8f5e9"
+    style.stroke: "#388e3c"
+  }
+}
+
+american_call: American Call {
+  class: option
+  label: "Can exercise early"
+  value: "C > c"
+}
+
+european_call: European Call {
+  class: option
+  label: "Cannot exercise early"
+  value: "c"
+}
+
+early_exercise: Early Exercise Decision {
+  class: decision
+  label: "Compare intrinsic value vs. holding"
+}
+
+dividend_payment: Dividend Payment {
+  class: value
+  label: "Triggers potential early exercise"
+}
+
+optimal_boundary: Optimal Exercise Boundary {
+  class: value
+  label: "S* where C = c"
+}
+
+american_call -> early_exercise
+european_call -> early_exercise
+early_exercise -> dividend_payment: "If dividend large enough"
+dividend_payment -> optimal_boundary
+optimal_boundary -> american_call: "Premium = C - c"
+```
+
+**Figure: American vs European Call Option Pricing** - American calls have early exercise premium over European calls when dividends are present. The Roll-Geske-Whaley model values this premium using compound option replication.
 
 # 19.1 CLOSED-FORM AMERICAN CALL PRICING: ROLL-GESKE-WHALEY
 
@@ -42,7 +99,7 @@ To understand how these options combine to replicate the American call, let us a
 
 $S_{1}^{-}\leq S_{1}^{*}$  (post-payment price is less than or equal to the critical price):
 
-(OP1) Regardless of the post-payment price, this is a European call and cannot be exercised until its expiration  $T_{A}$ . It is simply worth its standard Black-Scholes-Merton value with remaining time  $\tau_{1A}$ .
+(OP1) Regardless of the post-payment price, this is a European call and cannot be exercised until its expiration $T_A$. It is simply worth its standard Black-Scholes-Merton value with remaining time $\tau_{1A}$.
 
 (OP2) This compound option will be exercised or not depending on whether the value of (OP1) exceeds the exercise price of the compound option,  $S_{1}^{*} + D - X$ . The critical ex-dividend asset price is the one at which the option in (OP1) is precisely equal in value to  $S_{1}^{*} + D - X$ . Because the asset price  $S_{1}^{-}$  is less than  $S_{1}^{*}$ , as assumed in this case, then the value of the corresponding call  $(c_{1}^{-}) c_{1}^{-} < c^{*}$ , but by definition  $c^{*} = S_{1}^{*} + D - X$ . Thus  $c_{1}^{-} < S_{1}^{*} + D - X$ . Consequently, the compound option is out-of-the-money and is not exercised.  
 (OP3) This is an expiring European call. Its exercise price  $S_{1}^{*}$  exceeds the ex-dividend price, so it expires worthless.
@@ -55,50 +112,48 @@ Thus if  $S_1^- < S_1^*$ , this combination of options produces no cash flow at 
 
 Thus if  $S_1^- \geq S_1^*$  the overall cash flow is  $S_1^- - S_1^* + S_1^* + D - X = S_1^- + D - X$ . Thus, we paid out  $X$  and received an asset worth  $S_1^-$  and its cash payment,  $D$ . We see that this combination of two standard European options, one long and one short with different exercise prices and expirations, and one compound option produce the same results as an American option. That is, if the ex-dividend asset price is below the critical price for justification of early exercise, the American call option holder is left holding an option with exercise price  $X$  and time to expiration  $\tau_{1A}$ . If the ex-dividend asset price is above the critical price for justification of early exercise, the American call option holder exercises the option, paying out  $X$  and receiving the dividend  $D$  and is left holding an asset worth  $S_1^-$ . These same results are obtained with the combination of options (OP1), (OP2), and (OP3).
 
-The critical asset price for justification of exercise is the one such that it produces a Black-Scholes-Merton value of  $S_1^* + D - X$  for a European call with exercise price of  $X$  and a time to expiration of  $\tau_{1A}$ . This value must be derived iteratively by plugging in values into the Black-Scholes-Merton model with time to expiration of  $\tau_{1A}$  until the option value equals  $S_1^* + D - X$ . A good starting point estimate of  $S_1^*$  is  $X - D$  because the option would have to give a positive payoff to justify exercise, but the actual value of  $S_1^*$  will be much higher. Standard iterative equation-solving techniques such as Newton-Raphson can speed up the search. If early exercise is not justified at any price, due to too small of a cash
-
-payment relative to the other values in the model,  $S_1^*$  will be infinite. In that case, our final solution will converge to Black-Scholes-Merton.
+The critical asset price for justification of exercise is the one such that it produces a Black-Scholes-Merton value of  $S_1^* + D - X$  for a European call with exercise price of  $X$  and a time to expiration of  $\tau_{1A}$ . This value must be derived iteratively by plugging in values into the Black-Scholes-Merton model with time to expiration of  $\tau_{1A}$  until the option value equals  $S_1^* + D - X$ . A good starting point estimate of  $S_1^*$  is  $X - D$  because the option would have to give a positive payoff to justify exercise, but the actual value of  $S_1^*$  will be much higher. Standard iterative equation-solving techniques such as Newton-Raphson can speed up the search. If early exercise is not justified at any price, due to too small of a cash payment relative to the other values in the model, $S_1^*$ will be infinite. In that case, our final solution will converge to Black-Scholes-Merton.
 
 Because our combination of the three options replicates the American call, we can easily find the value of the American call by adding the values of options (OP1) and (OP3), which are given by the Black-Scholes-Merton model, and subtracting the value of option (OP2), which as a compound option is given by Geske's compound option formula. The values of these three options can be written as
 
 $$
-O P 1 = \left(S - D e ^ {- r _ {c} \tau_ {1}}\right) N _ {1} (a) - X e ^ {- r _ {c} \tau_ {A}} N _ {1} \left(a _ {2}\right)
+OP1 = \left(S - D e^{-r_c \tau_1}\right) N_1(a) - X e^{-r_c \tau_A} N_1(a_2)
 $$
 
 $$
-O P 2 = \left(S - D e ^ {- r _ {c} \tau_ {1}}\right) N _ {2} \big (b _ {1}, a _ {1}, \rho \big) - X e ^ {- r _ {c} \tau_ {A}} N _ {2} \big (b _ {2}, a _ {2}, \rho \big) - \left(S _ {t} ^ {*} + D - X\right) e ^ {- r _ {c} \tau_ {1}} N _ {1} \big (b _ {2}, a _ {2}, \rho \big).
+OP2 = \left(S - D e^{-r_c \tau_1}\right) N_2(b_1, a_1, \rho) - X e^{-r_c \tau_A} N_2(b_2, a_2, \rho) - \left(S_t^* + D - X\right) e^{-r_c \tau_1} N_1(b_2, a_2, \rho).
 $$
 
 $$
-O P 3 = \left(S - D e ^ {- r _ {c} \tau_ {1}}\right) N _ {1} \left(b _ {1}\right) - S _ {t} ^ {*} e ^ {- r _ {c} \tau_ {1}} N _ {1} \left(b _ {2}\right), \tag {19.2}
+OP3 = \left(S - D e^{-r_c \tau_1}\right) N_1(b_1) - S_t^* e^{-r_c \tau_1} N_1(b_2), \tag{19.2}
 $$
 
 where
 
 $$
-a _ {1} = \frac {\ln \left[ (S - D e ^ {- r _ {c} \tau_ {1}}) / X \right] + (r _ {c} + \sigma^ {2} / 2) \tau_ {A}}{\sigma \sqrt {\tau_ {A}}}
+a_1 = \frac{\ln\left[\frac{S - D e^{-r_c \tau_1}}{X}\right] + (r_c + \sigma^2/2)\tau_A}{\sigma\sqrt{\tau_A}}
 $$
 
 $$
-a _ {2} = a _ {1} - \sigma \sqrt {\tau_ {A}}
+a_2 = a_1 - \sigma\sqrt{\tau_A}
 $$
 
 $$
-b _ {1} = \frac {\ln \left[ (S - D e ^ {- r _ {c} \tau_ {1}}) / S _ {1} ^ {*} \right] + (r _ {c} + \sigma^ {2} / 2) \tau_ {1 A}}{\sigma \sqrt {\tau_ {1 A}}}
+b_1 = \frac{\ln\left[\frac{S - D e^{-r_c \tau_1}}{S_1^*}\right] + (r_c + \sigma^2/2)\tau_{1A}}{\sigma\sqrt{\tau_{1A}}}
 $$
 
 $$
-b _ {2} = b _ {1} - \sigma \sqrt {\tau_ {1 A}}
+b_2 = b_1 - \sigma\sqrt{\tau_{1A}}
 $$
 
 $$
-\rho = \sqrt {\tau_ {1} / \tau_ {A}}, \tag {19.3}
+\rho = \sqrt{\frac{\tau_1}{\tau_A}}, \tag{19.3}
 $$
 
 where  $N_{1}(.)$  is the univariate normal probability and  $N_{2}(.)$  is the bivariate normal probability. These formulas can be consolidated to equal
 
 $$
-\begin{array}{l} C = O P 1 - O P 2 + O P 3 \\ = (S - D e ^ {- r _ {c} \tau_ {1}}) N _ {1} (a _ {1}) - (X - D) e ^ {- r _ {c} \tau_ {1}} N _ {1} (b _ {2}) \\ + (S - D e ^ {- r _ {c} \tau_ {1}}) \left[ N _ {1} (b _ {1}) - N _ {2} (b _ {1}, a _ {1}; \rho) \right] - X e ^ {- r _ {c} \tau_ {A}} \left[ N _ {1} (a _ {2}) - N _ {2} (b _ {2}, a _ {2}; \rho) \right]. (1 9. 4) \\ \end{array}
+\begin{array}{l} C = OP1 - OP2 + OP3 \\ = (S - D e ^ {- r _ {c} \tau_ {1}}) N _ {1} (a _ {1}) - (X - D) e ^ {- r _ {c} \tau_ {1}} N _ {1} (b _ {2}) \\ + (S - D e ^ {- r _ {c} \tau_ {1}}) \left[ N _ {1} (b _ {1}) - N _ {2} (b _ {1}, a _ {1}; \rho) \right] - X e ^ {- r _ {c} \tau_ {A}} \left[ N _ {1} (a _ {2}) - N _ {2} (b _ {2}, a _ {2}; \rho) \right]. \tag{19.4} \\ \end{array}
 $$
 
 The following relationships are known to exist between the univariate and the bivariate normal distributions:
@@ -114,7 +169,7 @@ $$
 Therefore, the third expression in Equation (19.4) can be written as
 
 $$
-(S - D e ^ {- \tau_ {c} \tau_ {1}}) N _ {2} \left(b _ {1}, - a _ {1}; - \rho\right), \tag {19.6}
+(S - D e^{-r_c \tau_1}) N_2(b_1, -a_1; -\rho), \tag{19.6}
 $$
 
 and the fourth expression can be written as
@@ -138,7 +193,7 @@ $$
 Substituting we obtain the overall solution as
 
 $$
-\begin{array}{l} C = (S - D e ^ {- r _ {c} \tau_ {1}}) N _ {1} (b _ {1}) + (S - D e ^ {- r _ {c} \tau_ {1}}) N _ {2} (a _ {1}, - b _ {1}; - \rho) \\ - X e ^ {- r _ {c} \tau_ {A}} N _ {2} (a _ {2}, - b _ {2}; - \rho) - (X - D) e ^ {- r _ {c} \tau_ {1}} N _ {1} (b _ {2}) o r \tag {19.10} \\ \end{array}
+\begin{array}{l} C = (S - D e ^ {- r _ {c} \tau_ {1}}) N _ {1} (b _ {1}) + (S - D e ^ {- r _ {c} \tau_ {1}}) N _ {2} (a _ {1}, - b _ {1}; - \rho) \\ - X e ^ {- r _ {c} \tau_ {A}} N _ {2} (a _ {2}, - b _ {2}; - \rho) - (X - D) e^{-r_c \tau_1} N_1(b_2) \text{ or } \tag{19.10} \\ \end{array}
 $$
 
 $$
@@ -182,7 +237,7 @@ The single dividend model has been extended to cover the case of two known payme
 Let the first payment be  $D_{1}$  and the time to the payment date be  $\tau_{1}$  and the second payment be  $D_{2}$  and the time to the second ex-dividend date be  $\tau_{2}$ . The solution is<sup>4</sup>
 
 $$
-\begin{array}{l} C = \left(S - D _ {1} e ^ {- r _ {c} \tau_ {1}}\right) \left(1 - N _ {3} \Big (- a _ {1,} - b _ {1}, - \hat {c} _ {1}; \sqrt {\tau_ {1} / \tau_ {A}}, \sqrt {\tau_ {2} / \tau_ {A}}, \sqrt {\tau_ {1} / \tau_ {2}} \Big)\right) \\ - X \left[ e ^ {- r _ {c} \tau_ {1}} N _ {1} (\hat {c} _ {2}) + e ^ {- r _ {c} \tau_ {2}} N _ {2} \Big (b _ {2}, - \hat {c} _ {2}; - \sqrt {\tau_ {1} / \tau_ {2}} \Big) \right] \\ + e ^ {- r _ {c} \tau_ {A}} N _ {3} \Big (a _ {2}, - b _ {2}, - \widehat {c} _ {2}; - \sqrt {\tau_ {1} / \tau_ {A}}, \sqrt {\tau_ {2} / \tau_ {A}}, \sqrt {\tau_ {1} / \tau_ {2}} \Big) \\ + D _ {1} e ^ {- r _ {c} \tau_ {1}} N _ {1} (\widehat {c} _ {2}) + D _ {2} e ^ {- r _ {c} \tau_ {2}} \left[ N _ {1} (\widehat {c} _ {1}) + N _ {2} (\widehat {b} _ {2}, - \widehat {c} _ {2}; - \sqrt {\tau_ {1} / \tau_ {2}}) \right], \tag {19.16} \\ \end{array}
+\begin{array}{l} C = \left(S - D _ {1} e ^ {- r _ {c} \tau_ {1}}\right) \left(1 - N_3(-a_1, -b_1, -\hat{c}_1; \sqrt{\tau_1/\tau_A}, \sqrt{\tau_2/\tau_A}, \sqrt{\tau_1/\tau_2})\right) \\ - X \left[ e ^ {- r _ {c} \tau_ {1}} N _ {1} (\hat {c} _ {2}) + e ^ {- r _ {c} \tau_ {2}} N _ {2} \Big (b _ {2}, - \hat {c} _ {2}; - \sqrt {\tau_ {1} / \tau_ {2}} \Big) \right] \\ + e ^ {- r _ {c} \tau_ {A}} N _ {3} \Big (a _ {2}, - b _ {2}, - \widehat {c} _ {2}; - \sqrt {\tau_ {1} / \tau_ {A}}, \sqrt {\tau_ {2} / \tau_ {A}}, \sqrt {\tau_ {1} / \tau_ {2}} \Big) \\ + D _ {1} e ^ {- r _ {c} \tau_ {1}} N _ {1} (\widehat {c} _ {2}) + D _ {2} e ^ {- r _ {c} \tau_ {2}} \left[ N _ {1} (\widehat {c} _ {1}) + N _ {2} (\widehat {b} _ {2}, - \widehat {c} _ {2}; - \sqrt {\tau_ {1} / \tau_ {2}}) \right], \tag {19.16} \\ \end{array}
 $$
 
 where
@@ -269,7 +324,7 @@ In Chapter 20, we show that this approach can also be applied to put options.
 Consider a stock priced at  $S = 100$  with a volatility of  $20\%$  and a time to expiration of  $\tau_{A} = 1$  (one year). Suppose in nine months, the stock pays a dividend of 2.0. Thus,  $D_{1} = 2.0$ , and  $\tau_{1} = 0.75$ . The continuously compounded risk-free rate is  $4\%$ . Let us first calculate the price if this option were European. Recall that we determine the stock price minus the present value of the dividends, which is
 
 $$
-S _ {t} - D e ^ {- r _ {c} \tau_ {1}} = 1 0 0 - 2 e ^ {- 0. 0 4 (0. 7 5)} = 9 8. 0 5 9 1.
+S _ {t} - D e ^ {- r _ {c} \tau_ {1}} = 100 - 2 e ^ {- 0.04 (0.75)} = 98.0591.
 $$
 
 We then insert this value for the stock price into the Black-Scholes-Merton formula, and we obtain a value of 8.7622.
@@ -279,49 +334,34 @@ For the compound option model, we must first find the critical ex-dividend price
 Recall that the American call formula is Equation (19.11), which is as follows:
 
 $$
-\begin{array}{l} \left(1 0 0 - 2 e ^ {- 0. 0 4 (0. 7 5)}\right) N _ {1} \left(b _ {1}\right) + \left(1 0 0 - 2 e ^ {- 0. 0 4 (0. 7 5)}\right) N _ {2} \left(a _ {1}, - b _ {1}; - \rho\right) \\ - 1 0 0 e ^ {- 0. 0 4 (1)} N _ {2} \left(a _ {2}, - b _ {2}; - \rho\right) - (1 0 0 - 2) e ^ {- 0. 0 4 (0. 7 5)} N _ {1} \left(b _ {2}\right). \\ \end{array}
+\begin{array}{l} \left(100 - 2 e ^ {- 0.04 (0.75)}\right) N _ {1} \left(b _ {1}\right) + \left(100 - 2 e ^ {- 0.04 (0.75)}\right) N _ {2} \left(a _ {1}, - b _ {1}; - \rho\right) \\ - 100 e ^ {- 0.04 (1)} N _ {2} \left(a _ {2}, - b _ {2}; - \rho\right) - (100 - 2) e ^ {- 0.04 (0.75)} N _ {1} \left(b _ {2}\right). \\ \end{array}
 $$
 
 The various values that go into the normal probabilities are as follows:
 
 $$
-\begin{array}{l} a _ {1} = \frac {\ln \left[ \left(1 0 0 - 2 e ^ {- 0 . 0 4 (0 . 7 5)}\right) / 1 0 0 \right] + \left(0 . 0 4 + (0 . 2) ^ {2} / 2\right) (1)}{0 . 2 \sqrt {1}} = 0. 2 0 2 0 0 1 \\ a _ {2} = 0. 2 0 2 0 0 1 - 0. 2 \sqrt {1} = 0. 0 0 2 0 0 1 \\ b _ {1} = \frac {\ln \left[ \left(1 0 0 - 2 e ^ {- 0 . 0 4 (0 . 7 5)}\right) / 1 0 8 . 5 1 7 2 \right] + \left(0 . 0 4 + (0 . 2) ^ {2} / 2\right) (0 . 7 5)}{0 . 2 \sqrt {0 . 7 5}} = - 0. 3 2 5 2 7 \\ b _ {2} = 0. 3 2 5 2 7 - 0. 2 \sqrt {1 - 0 . 2 5} = - 0. 4 9 8 4 7 \\ \rho = \sqrt {0 . 7 5 / 1} = 0. 8 6 6 0. \\ \end{array}
+\begin{array}{l} a _ {1} = \frac {\ln \left[ \left(100 - 2 e ^ {- 0.04 (0.75)}\right) / 100 \right] + \left(0.04 + (0.2) ^ {2} / 2\right) (1)}{0.2 \sqrt {1}} = 0.202001 \\ a _ {2} = 0.202001 - 0.2 \sqrt {1} = 0.002001 \\ b _ {1} = \frac {\ln \left[ \left(100 - 2 e ^ {- 0.04 (0.75)}\right) / 108.5172 \right] + \left(0.04 + (0.2) ^ {2} / 2\right) (0.75)}{0.2 \sqrt {0.75}} = - 0.32527 \\ b _ {2} = 0.32527 - 0.2 \sqrt {1 - 0.25} = - 0.49847 \\ \rho = \sqrt {0.75 / 1} = 0.8660. \\ \end{array}
 $$
 
 Now we calculate the probabilities using spreadsheet routines as covered in Chapter 5:
 
 $$
-\begin{array}{l} N _ {1} (b _ {1}) = N _ {1} (- 0. 3 2 5 2 7) = 0. 3 7 2 4 8 9 \\ N _ {2} \left(a _ {1}, - b _ {1}; - \rho\right) = N _ {2} (0. 2 0 2 0 0 1, 0. 3 2 5 2 7; - 0. 8 6 6 0) = 0. 2 2 4 4 9 2 \\ \end{array}
+\begin{array}{l} N _ {1} (b _ {1}) = N _ {1} (- 0.32527) = 0.372489 \\ N _ {2} \left(a _ {1}, - b _ {1}; - \rho\right) = N _ {2} (0.202001, 0.32527; - 0.8660) = 0.224492 \\ \end{array}
 $$
 
 $$
-N _ {2} \big (a _ {2}, - b _ {2}; - \rho \big) = N _ {2} (0. 0 0 2 0 0 1, 0. 4 9 8 4 7; - 0. 8 6 6 0) = 0. 2 0 9 8 4 9
+N_2(a_2, -b_2; -\rho) = N_2(0.002001, 0.49847; -0.8660) = 0.209849
 $$
 
 $$
-N _ {1} \left(b _ {2}\right) = N _ {1} (- 0. 4 9 8 4 7) = 0. 3 0 9 0 7 5.
+N _ {1} (b _ {2}) = N _ {1} (- 0.49847) = 0.309075.
 $$
 
 The option value is, therefore,
 
 $$
-\begin{array}{l} 9 8. 0 5 9 1 (0. 3 7 2 4 8 9) + 9 8. 0 5 9 1 (0. 2 2 4 4 9 2) \\ - 1 0 0 e ^ {- 0. 0 4 (1)} 0. 2 0 9 8 4 9 - (1 0 0 - 2) e ^ {- 0. 0 4 (0. 7 5)} (0. 3 0 9 0 7 5) \\ = 8. 9 8 3 1 5 5. \\ \end{array}
+\begin{array}{l} 98.0591 (0.372489) + 98.0591 (0.224492) \\ - 100 e ^ {- 0.04 (1)} 0.209849 - (100 - 2) e ^ {- 0.04 (0.75)} (0.309075) \\ = 8.983155. \\ \end{array}
 $$
-
-# QUESTIONS AND PROBLEMS
-
-1 "An American call option on a stock that does not pay a dividend during the life of the option will not be exercised early and, hence, can be valued as a European option with the standard Black-Scholes-Merton formula." Prove this statement.  
-2 An American call option with one dividend payment can be valued based on the following equation. Provide an interpretation of this expression:
-
-$$
-\begin{array}{l} C = \left(S - D e ^ {- r _ {c} \tau_ {1}}\right) N _ {1} \left(b _ {1}\right) - (X - D) e ^ {- r _ {c} \tau_ {1}} N _ {1} \left(b _ {2}\right) \\ + \left(S - D e ^ {- r _ {c} \tau_ {1}}\right) N _ {2} \big (a _ {1}, - b _ {1}; - \rho \big) - X e ^ {- r _ {c} \tau_ {A}} N _ {2} \big (a _ {2}, - b _ {2}; - \rho \big). \\ \end{array}
-$$
-
-3 Explain the variable,  $S_{t}^{*}$ , contained in the American call option model with one dividend presented in this chapter.  
-4 Explain the variables  $S_{t_1}^*$  and  $S_{t_2}^*$  contained in the American call option model with two dividends presented in this chapter.  
-5 Interpret the variable  $N_{3}(x,y,z;\rho_{xy},\rho_{xz},\rho_{yz})$  contained in the American call option model with two dividends presented in this chapter.  
-[Contributed by Jason Priddle] Explain why it is necessary to use a compound option to value an American call on a dividend-paying stock.  
-[Contributed by Dennel McKenzie] Write out the equations that implicitly solve for the critical stock price for early exercise of an American call if the underlying stock pays three dividends,  $D_{1}$ ,  $D_{2}$ , and  $D_{3}$ , with respective times with ex-dividend dates of  $t_{1}$ ,  $t_{2}$ , and  $t_{3}$ . There will be three equations, one for each ex-dividend date.
 
 # NOTES
 

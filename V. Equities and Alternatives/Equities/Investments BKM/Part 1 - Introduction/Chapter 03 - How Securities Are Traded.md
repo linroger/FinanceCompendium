@@ -54,9 +54,6 @@ In a typical underwriting arrangement, the investment bankers purchase the secur
 
 An important innovation was introduced in 1982 when the SEC approved Rule 415 for seasoned offerings, which allows firms that are already publicly traded to register securities and gradually sell them to the public for three years following the initial registration. Because the securities are already registered, they can be sold on short notice, with little additional paperwork. Moreover, they can be sold in small amounts without incurring substantial flotation costs. The securities are "on the shelf," ready to be issued, which has given rise to the term shelf registration.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ed8ed02a5722bdb6b8b84a6242892d1b61f957f4020d2b0cfe8ba62ee60c70f6.jpg)
-Figure 3.1 Relationships among a firm issuing securities, the underwriters, and the public.
-
 # Concept Check 3.1
 
 Why does it make sense for shelf registration to be limited in time?
@@ -122,8 +119,6 @@ Dealer Markets When trading activity in a particular type of asset increases, de
 
 Auction Markets The most integrated market is an auction market, in which all traders converge at one place (either physically or "electronically") to buy or sell an asset.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/10a3dde61ad994fa8b16407b4c6f46e46b09c1e36a630ba147609e3fed070aa5.jpg)
-
 # Concept Check 3.2
 
 Many assets trade in more than one type of market. What types of markets do the following trade in?
@@ -175,9 +170,6 @@ Top of Book
 <table><tr><td colspan="2">Bid</td><td colspan="2">Ask</td></tr><tr><td>Price</td><td>Shares</td><td>Price</td><td>Shares</td></tr><tr><td>286.95</td><td>90</td><td>286.97</td><td>200</td></tr><tr><td>286.94</td><td>100</td><td>286.98</td><td>500</td></tr><tr><td>286.93</td><td>300</td><td>286.99</td><td>480</td></tr><tr><td>286.92</td><td>17</td><td>287.00</td><td>307</td></tr><tr><td>286.91</td><td>267</td><td>287.01</td><td>180</td></tr></table>
 
 Source: markets.cboe.com.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/0ad245838f931d108897c74c6f11964d9d50b29864f1ef2068372a69fa44d2b3.jpg)
-Figure 3.4 A portion of the limit order book for Microsoft on the CBOE Global Markets, August 4, 2021.
 
 # Concept Check 3.3
 
@@ -419,8 +411,6 @@ $$
 $$ which implies that  $P = \$57.14$ . If the price of the stock falls below  $\$57.14$  per share, the investor will receive a margin call.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/4338689aeba43b4a19b62c1020944ca336ae6736fdd948832798583a5f1c95a3.jpg)
-
 # Concept Check 3.4
 
 Suppose the maintenance margin in Example 3.2 is  $40\%$ . How far can the stock price fall before the investor gets a margin call?
@@ -468,8 +458,6 @@ $$
 $$
 
 Table 3.1 summarizes the possible results of these hypothetical transactions. If there is no change in the stock price, the investor loses  $9\%$ , the cost of the loan.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/99a173882457f38da6901cd9e4efc6a5b8a610881b7a5e0477563fd48849e2e7.jpg)
 
 # Concept Check 3.5
 
@@ -559,8 +547,6 @@ For example, short-sellers took large (negative) positions in firms such as Worl
 Academic research supports the conjecture that short sales contribute to efficient "price discovery." For example, the greater the demand for shorting a stock, the lower its future returns tend to be; moreover, firms that attack short-sellers with threats of legal action or bad publicity tend to have especially poor future returns.* Short-sale bans may, in the end, be nothing more than an understandable, but nevertheless misguided, impulse to "shoot the messenger."
 
 *See, for example, C. Jones and O. A. Lamont, "Short Sale Constraints and Stock Returns," Journal of Financial Economics, November 2002, pp. 207-39; or O. A. Lamont, "Go Down Fighting: Short Sellers vs. Firms," Review of Asset Pricing Studies, 2012, pp. 1-30.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8dc029a6d9f24804ce56d0968eb14cc30efee57fc020e9f895f1d7d025696ace.jpg)
 
 # Concept Check 3.6 a. Construct the balance sheet if Dot Bomb in Example 3.4 goes up to 110.
 

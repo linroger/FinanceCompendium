@@ -1,6 +1,32 @@
-# Financial Statement Analysis
+---
+title: "Financial Statement Analysis"
+parent_directory: "Part 5 - Security Analysis"
+formatted: "2025-12-21 14:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - financial statement analysis
+  - ratio analysis
+  - return on equity
+  - profitability measures
+  - leverage analysis
+secondary_tags:
+  - dupont system
+  - economic value added
+  - liquidity ratios
+  - asset utilization
+  - financial ratios
+  - balance sheet analysis
+  - income statement analysis
+  - cash flow analysis
+  - quality of earnings
+  - accounting comparability
+  - fair value accounting
+  - international accounting standards
+cssclasses: academia
+---
 
-# 19
+# Financial Statement Analysis
 
 IN THE PREVIOUS chapter, we explored equity valuation techniques. These techniques take the firm's dividends and earnings prospects as inputs. Although the analyst is interested in economic earnings streams, only financial accounting data are readily available. What can we learn from a company's financial statements that can help us estimate the intrinsic value of its common stock? In this chapter, we show how investors use financial data as inputs in their valuation analysis.
 
@@ -9,9 +35,9 @@ We start by reviewing the basic sources of such data—the income statement, the
 
 Finally, we conclude with a discussion of the challenges you will encounter when using financial statement analysis as a tool in uncovering mispriced securities. Some of these issues arise from differences in firms' accounting procedures. Others are due to inflation-induced distortions in accounting numbers.
 
-# 19.1 The Major Financial Statements
+## 19.1 The Major Financial Statements
 
-# The Income Statement
+### The Income Statement
 
 The income statement summarizes the profitability of the firm over a period of time, such as a year. It presents revenues generated during that period, the expenses incurred, and the company's net income, which is simply the difference between revenues and expenses.
 
@@ -22,12 +48,7 @@ Table 19.1 presents an income statement for Target. At the top are the company's
 
 Analysts also commonly prepare a common-size income statement, in which all items on the income statement are expressed as a percent of total revenue. This makes it easier to compare firms of different sizes. The right-hand column of Table 19.1 is Target's common-size income statement.
 
-In the previous chapter, we saw that stock valuation models require a measure of economic earnings—the sustainable cash flow that can be paid out to stockholders without impairing the productive capacity of the firm. In contrast, accounting earnings are affected by several conventions, among them, the valuation of assets such as inventories (e.g., LIFO versus FIFO treatment) and the way some expenditures such as capital investments are recognized over time (as depreciation expenses). We discuss questions raised by some of these accounting conventions in greater detail later in the chapter. In addition to these accounting issues, as the firm makes its way through the business cycle, its earnings will rise above or fall below the trend line that might more accurately reflect its sustainable economic earnings. This introduces an added complication in interpreting net income. Given all of these
-
-Table 19.1
-Target's income statement for year ending January 2021
-
-<table><tr><td></td><td>$ Million</td><td>Percent of Revenue</td></tr><tr><td>Operating Revenues</td><td></td><td></td></tr><tr><td>Net sales</td><td>93,561</td><td>100.0\%</td></tr><tr><td>Operating Expenses</td><td></td><td></td></tr><tr><td>Cost of goods sold</td><td>66,177</td><td>70.7\%</td></tr><tr><td>Selling, general &amp; administrative expenses</td><td>18,615</td><td>19.9\%</td></tr><tr><td>Depreciation</td><td>2,230</td><td>2.4\%</td></tr><tr><td>Total operating expenses</td><td>87,022</td><td>93.0\%</td></tr><tr><td>Operating income</td><td>6,539</td><td>7.0\%</td></tr><tr><td>Other expenses</td><td>16</td><td>0.0\%</td></tr><tr><td>Earnings before interest and taxes</td><td>6,523</td><td>7.0\%</td></tr><tr><td>Interest expense</td><td>977</td><td>1.0\%</td></tr><tr><td>Taxable income</td><td>5,546</td><td>5.9\%</td></tr><tr><td>Taxes</td><td>1,178</td><td>1.3\%</td></tr><tr><td>Net income</td><td>4,368</td><td>4.7\%</td></tr><tr><td>Allocation of net income</td><td></td><td></td></tr><tr><td>Dividends</td><td>1,343</td><td>1.4\%</td></tr><tr><td>Addition to retained earnings</td><td>3,025</td><td>30.2\%</td></tr></table> issues, one might wonder how closely accounting earnings approximate economic earnings and, correspondingly, how useful accounting data might be in valuing the firm.
+In the previous chapter, we saw that stock valuation models require a measure of economic earnings—the sustainable cash flow that can be paid out to stockholders without impairing the productive capacity of the firm. In contrast, accounting earnings are affected by several conventions, among them, the valuation of assets such as inventories (e.g., LIFO versus FIFO treatment) and the way some expenditures such as capital investments are recognized over time (as depreciation expenses). We discuss questions raised by some of these accounting conventions in greater detail later in the chapter. In addition to these accounting issues, as the firm makes its way through the business cycle, its earnings will rise above or fall below the trend line that might more accurately reflect its sustainable economic earnings. This introduces an added complication in interpreting net income. Given all of these issues, one might wonder how closely accounting earnings approximate economic earnings and, correspondingly, how useful accounting data might be in valuing the firm.
 
 Note: Sums subject to rounding error.
 Source: Target Annual Report, year ending January 2021.
@@ -35,7 +56,7 @@ Source: Target Annual Report, year ending January 2021.
 
 In fact, financial statements clearly convey considerable information: Stock prices respond vigorously when firms announce earnings that differ from the prior expectations of market analysts or investors.
 
-# The Balance Sheet
+### The Balance Sheet
 
 While the income statement provides a measure of profitability over a period of time, the balance sheet provides a "snapshot" of the financial condition of the firm at a particular moment. The balance sheet is a list of the firm's assets and liabilities. The difference in assets and liabilities is the net worth of the firm, also called shareholders' or stockholders' equity. Like income statements, balance sheets are reasonably standardized in presentation.
 
@@ -55,7 +76,7 @@ Source: Target Annual Report, year ending January 2021.
 
 Table 190.2
 
-# The Statement of Cash Flows
+### The Statement of Cash Flows
 
 The income statement and balance sheets are based on accrual methods of accounting, which means that revenues and expenses are recognized at the time of a sale even if no cash has yet been exchanged. In contrast, the statement of cash flows tracks the cash implications of transactions. For example, if goods are sold now, with payment due in 60 days, the income statement will treat the revenue as generated when the sale occurs, and the balance sheet will be immediately augmented by accounts receivable, but the statement of cash flows is concerned with when the bill is paid and the cash is in hand.
 
@@ -80,7 +101,7 @@ To summarize, Target's operations generated a cash flow of  \$10,525 million. So
 
 The statement of cash flows provides important evidence on the well-being of a firm. If a company cannot pay its dividends and maintain the productivity of its capital stock out of cash flow from operations, for example, and must resort to borrowing to meet these demands, this is a warning that it cannot maintain the dividend payout at its current level in the long run. The statement of cash flows will reveal this developing problem when it shows that cash flow from operations is inadequate and that borrowing is being used to maintain dividend payments at unsustainable levels.
 
-# 190.2 Measuring Firm Performance
+## 19.2 Measuring Firm Performance
 
 In Chapter 1, we pointed out that a natural goal of the firm is to maximize value but that various agency problems, or conflicts of interest, may impede that goal. How can we measure how well the firm is actually performing? Financial analysts have come up with a mind-numbing list of financial ratios that measure many aspects of firm performance. Before getting lost in the trees, let's first pause to consider what sorts of ratios may be related to the ultimate objective of added value.
 
@@ -93,41 +114,41 @@ These questions suggest that we organize financial ratios along the lines given 
 
 The next section explains how to calculate and interpret some of these key financial ratios and shows how many of them are related.
 
-# 19.3 Profitability Measures
+## 19.3 Profitability Measures
 
 Big firms naturally earn greater profits than smaller ones. Therefore, most profitability measures focus on earnings per dollar employed. The most common measures are return on assets, return on capital, and return on equity.
 
-# Return on Assets, ROA
+### Return on Assets, ROA
 
 Return on assets (ROA) equals earnings before interest and taxes (EBIT) as a fraction of the firm's total assets0.2
 
 $$
-\mathrm {R O A} = \frac {\mathrm {E B I T}}{\text {T o t a l a s s e t s}}
+\mathrm{ROA} = \frac{\mathrm{EBIT}}{\text{Total assets}}
 $$
 
 The numerator of this ratio may be viewed (abstracting from one-off expenses or income sources) as the firm's operating income. Therefore, ROA tells us operating income per dollar deployed in the firm.
 
-# Return on Capital, ROC
+### Return on Capital, ROC
 
 Whereas ROA compares EBIT to total assets, return on capital (ROC) expresses EBIT as a fraction of long-term capital (i.e., shareholders' equity plus long-term debt). It measures earnings per dollar of long-term capital invested in the firm.
 
 $$
-\mathrm {R O C} = \frac {\mathrm {E B I T}}{\text {L o n g - t e r m c a p i t a l}}
+\mathrm{ROC} = \frac{\mathrm{EBIT}}{\text{Long-term capital}}
 $$
 
-# Return on Equity, ROE
+### Return on Equity, ROE
 
 Whereas ROA and ROC measure profitability relative to funds raised by both debt and equity financing, return on equity (ROE) focuses only on the profitability of equity investments. It equals net income realized by shareholders per dollar they have invested in the firm.
 
 $$
-\mathrm {R O E} = \frac {\text {N e t i n c o m e}}{\text {S h a r e h o l d s} ^ {\prime} \text {e q u i t y}}
+\mathrm{ROE} = \frac{\text{Net income}}{\text{Shareholders' equity}}
 $$
 
 We saw in Chapter 18 that ROE is one of the two basic factors in determining a firm's growth rate of earnings. Sometimes it is reasonable to assume that future ROE will approximate its current value, but a high ROE in the past does not necessarily imply a firm's future ROE will be high. It can be dangerous to accept historical values as indicators of future values. While data from the recent past may provide information regarding expected performance, keep your focus on the future.
 
 Not surprisingly, ROA and ROE are linked, but as we will see next, their relationship is affected by the firm's financial policies.
 
-# Financial Leverage and ROE
+### Financial Leverage and ROE
 
 ROE is affected by the firm's debt-equity mix as well as the interest rate on its debt. An example will show why. Suppose Nodett is a firm that is all-equity financed and has total assets of 100 million. Assume its corporate tax rate is 20\%. (The exact corporate tax rate in 2022 was 21\%).
 
@@ -156,7 +177,7 @@ Impact of financial leverage on ROE
 We can summarize the exact relationship among ROE, ROA, and leverage in the following equation:
 
 $$
-\mathrm {R O E} = (1 - \text {T a x r a t e}) \left[ \mathrm {R O A} + (\mathrm {R O A} - \text {I n t e r s t r a t e}) \frac {\text {D e b t}}{\text {E q u i t y}} \right] \tag {19.1}
+\mathrm{ROE} = (1 - \text{Tax rate}) \left[ \mathrm{ROA} + (\mathrm{ROA} - \text{Interest rate}) \frac{\text{Debt}}{\text{Equity}} \right] \tag{19.1}
 $$
 
 This result makes sense: If ROA exceeds the borrowing rate, the firm earns more on its investments than it pays out to creditors. The surplus earnings are available to the firm's equityholders, which increases ROE. If, on the other hand, ROA is less than the interest rate paid on debt, then ROE will decline by an amount that depends on the debt-to-equity ratio.
@@ -166,7 +187,7 @@ This result makes sense: If ROA exceeds the borrowing rate, the firm earns more 
 To illustrate the application of Equation 19.1, look at Table 19.5. In a normal year, Nodett has an ROE of  $8\%$ , which is .8 (i.e., 1 minus the tax rate) times its ROA of  $10\%$ . However, Somdett, which borrows at an interest rate of  $8\%$  and maintains a debt-to-equity ratio of  $2/3$ , has an ROE of  $9.07\%$ . The calculation using Equation 19.1 is
 
 $$
-\begin{array}{l} \mathrm {ROE} = . 8 [ 10 \% + (10 \% - 8 \%) ^ {2 / 3} ] \\ = .8[10\% +4 / 3\% ] = 9.07\% \\ \end{array}
+\begin{array}{l} \mathrm{ROE} = 0.8 [ 10 \% + (10 \% - 8 \%)^{2/3} ] \\ = 0.8[10\% + 4/3\% ] = 9.07\% \\ \end{array}
 $$
 
 Somdett's debt makes a positive contribution to ROE in this scenario because the firm's ROA exceeds the interest rate on its debt.
@@ -176,18 +197,16 @@ Table 19.5 shows that financial leverage increases the risk of equityholder retu
 3The derivation of Equation 19.1 is as follows:
 
 $$
-\begin{array}{l} \mathrm {R O E} = \frac {\text {N e t p r o f i t}}{\text {E q u i t y}} = \frac {\text {E B I T - I n t e r s t - T a x e s}}{\text {E q u i t y}} = \frac {(1 - \text {T a x r a t e}) (\text {E B I T - I n t e r s t})}{\text {E q u i t y}} \\ = (1 - \text {T a x r a t e}) \left[ \frac {\left(\mathrm {R O A} \times \text {A s s e t s}\right) - (\text {I n t e r e s t r a t e} \times \text {D e b t})}{\text {E q u i t y}} \right] \\ = (1 - \text {T a x r a t e}) \left[ \mathrm {R O A} \times \frac {\text {E q u i t y} + \text {D e b t}}{\text {E q u i t y}} - \text {I n t e r s t r a t e} \times \frac {\text {D e b t}}{\text {E q u i t y}} \right] \\ = (1 - \text {T a x r a t e}) \left[ \text {R O A} + (\text {R O A} - \text {I n t e r e s t r a t e}) \frac {\text {D e b t}}{\text {E q u i t y}} \right] \\ \end{array}
+\begin{array}{l} \mathrm{ROE} = \frac{\text{Net profit}}{\text{Equity}} = \frac{\text{EBIT - Interest - Taxes}}{\text{Equity}} = \frac{(1 - \text{Tax rate})(\text{EBIT - Interest})}{\text{Equity}} \\ = (1 - \text{Tax rate}) \left[ \frac{(\mathrm{ROA} \times \text{Assets}) - (\text{Interest rate} \times \text{Debt})}{\text{Equity}} \right] \\ = (1 - \text{Tax rate}) \left[ \mathrm{ROA} \times \frac{\text{Equity} + \text{Debt}}{\text{Equity}} - \text{Interest rate} \times \frac{\text{Debt}}{\text{Equity}} \right] \\ = (1 - \text{Tax rate}) \left[ \text{ROA} + (\text{ROA} - \text{Interest rate}) \frac{\text{Debt}}{\text{Equity}} \right] \\ \end{array}
 $$
 
 Even if financial leverage increases the expected ROE of Somdett relative to Nodett (as it seems to in Table 19.5), this does not imply that Somdett's share price will be higher. Financial leverage increases the risk of the firm's equity as surely as it raises the expected ROE, and the correspondingly higher discount rate will offset the higher expected earnings.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/934a8a5e0054d8be48228324ddbb407d81786e55f27499cb3f8f01144386508e.jpg)
 
 # Concept Check 19.1
 
 Mordett has the same assets as Nodett and Somdett, but its debt-to-equity ratio is 1.0 and its interest rate is  $9\%$ . What will its net profit and ROE be in a bad year, a normal year, and a good year?
 
-# Economic Value Added
+### Economic Value Added
 
 While profitability measures such as ROA, ROC, and ROE are commonly used to measure performance, profitability is really not enough. A firm should be viewed as successful only if the return on its projects is better than the rate investors could expect to earn for themselves (on a risk-adjusted basis) in the capital market. Plowing back funds into the firm increases stock price only if the firm earns a higher rate of return on those funds than the opportunity cost of capital, that is, the market capitalization rate. To account for this opportunity cost, we can measure the success of the firm using the difference between the return on capital, ROC, and the opportunity cost of capital,  $k$ . Economic value added (EVA) is the spread between ROC and  $k$  multiplied by the capital invested in the firm. It therefore measures the dollar value of the firm's return in excess of its opportunity cost. Another term for EVA (the term coined by Stern Stewart, a consulting firm that has promoted its use) is residual income.
 
@@ -212,16 +231,16 @@ Economic value added, 2021 cover its opportunity cost of capital and, therefore,
 
 On the other hand, while EVA has many advantages over return on capital as a means of evaluating management, it is not perfect. Notice Walt Disney's large negative EVA in 2021. This largely reflected the impact of COVID-19 on theme park revenues, and it would seem inappropriate to hold management responsible for that. Still, EVA does reflect the opportunity cost borne by shareholders, regardless of where the blame lies.
 
-# 19.4 Ratio Analysis
+## 19.4 Ratio Analysis
 
-# Decomposition of ROE
+### Decomposition of ROE
 
 To understand the factors affecting a firm's ROE, particularly its trend over time and its performance relative to competitors, analysts often "decompose" ROE into the product of a series of ratios. Each component ratio is in itself meaningful, and the process serves to focus the analyst's attention on the separate factors influencing performance. This kind of decomposition of ROE is often called the DuPont system.
 
 One useful decomposition of ROE is
 
 $$
-\mathrm {R O E} = \frac {\text {N e t p r o f i t}}{\text {E q u i t y}} = \frac {\text {N e t p r o f i t s}}{\text {P r e t a x p r o f i t s}} \times \frac {\text {P r e t a x p r o f i t s}}{\text {E B I T}} \times \frac {\text {E B I T}}{\text {S a l e s}} \times \frac {\text {S a l e s}}{\text {A s s e t s}} \times \frac {\text {A s s e t s}}{\text {E q u i t y}} \tag {190.2}
+\mathrm{ROE} = \frac{\text{Net profit}}{\text{Equity}} = \frac{\text{Net profits}}{\text{Pretax profits}} \times \frac{\text{Pretax profits}}{\text{EBIT}} \times \frac{\text{EBIT}}{\text{Sales}} \times \frac{\text{Sales}}{\text{Assets}} \times \frac{\text{Assets}}{\text{Equity}} \tag{19.2}
 $$
 
 (1) (2) (3) (4) (5)
@@ -265,7 +284,7 @@ ROE = Tax burden × Interest burden × Margin × Turnover × Leverage
 Because
 
 $$
-\mathrm {R O A} = \text {M a r g i n} \times \text {T u r n o v e r} \tag {19.3}
+\mathrm{ROA} = \text{Margin} \times \text{Turnover} \tag{19.3}
 $$ and
 
 
@@ -273,7 +292,7 @@ Compound leverage factor = Interest burden × Leverage we can decompose ROE equi
 
 
 $$
-\mathrm {R O E} = \text {T a x b u r d e n} \times \mathrm {R O A} \times \text {C o m p o u n d l e v e r a g e f a c t o r} \tag {19.4}
+\mathrm{ROE} = \text{Tax burden} \times \mathrm{ROA} \times \text{Compound leverage factor} \tag{19.4}
 $$
 
 Equation 19.3 shows that ROA is the product of margin and turnover. High values of one of these ratios are often accompanied by low values of the other. For example, Walmart has low profit margins but high turnover, while the luxury brand firm LVMH has high margins but low turnover. Firms would love to have high values for both margin and turnover, but this generally will not be possible: Retailers with high markups will sacrifice sales volume, while those with low turnover need high margins just to remain viable. Therefore, comparing these ratios in isolation usually is meaningful only in evaluating firms following similar strategies in the same industry.
@@ -281,7 +300,7 @@ Equation 19.3 shows that ROA is the product of margin and turnover. High values 
 Figure 190.2 shows evidence of the turnover-profit margin trade-off. Each point in the figure corresponds to the profit margin-turnover pair for one particular industry. Industries with high turnover, such as retail stores, tend to have low profit margins, while industries with high margins, such as utilities, tend to have low turnover. The two curved lines trace out turnover-margin combinations that result in an ROA of either  $2\%$  or  $10\%$ . You can see that most industries lie inside of this range, so ROA across industries demonstrates far less variation than either turnover or margin taken in isolation.
 
 $$
-\frac {{} ^ {5} \text {A s s e t s}}{\text {E q u i t y}} = \frac {\text {E q u i t y} + \text {D e b t}}{\text {E q u i t y}} = 1 + \frac {\text {D e b t}}{\text {E q u i t y}}
+\frac{\text{Assets}}{\text{Equity}} = \frac{\text{Equity} + \text{Debt}}{\text{Equity}} = 1 + \frac{\text{Debt}}{\text{Equity}}
 $$
 
 Figure 190.2 Operating profit margin and asset turnover for 42 industries
@@ -631,7 +650,7 @@ Some of the differences between U.S. and European accounting standards arise fro
 
 For some years, the SEC worked to bring U.S. accounting standards more in line with international rules. In 2007, the SEC began allowing foreign firms to issue securities in the U.S. if their financial statements were prepared using IFRS. Subsequently, it went even further when it proposed allowing large U.S. multinational firms to report earnings using IFRS rather than GAAP and announced that it hoped to eventually adopt IFRS more broadly. But after many years of protracted negotiations, it become clear by 2014 that the SEC's plan to move to IFRS had stalled. While the SEC and the IASB (International Accounting Standards Board) continue to collaborate on accounting rules, there is little immediate prospect for a single global accounting standard that will include the United States.
 
-# 19.7 Value Investing: The Graham Technique
+## 19.7 Value Investing: The Graham Technique
 
 No presentation of fundamental security analysis would be complete without a discussion of the ideas of Benjamin Graham, the greatest of the investment "gurus." Until the evolution of modern portfolio theory in the latter half of the 20th century, Graham was the single most important thinker, writer, and teacher in the field of investment analysis. His influence on investment professionals, among them his now equally famous student Warren Buffet, remains very strong.
 
@@ -690,7 +709,7 @@ International Financial Reporting Standards (IFRS)
 
 # KEY EQUATIONS
 
-ROE and leverage: ROE = (1 - Tax rate) [ROA + (ROA - Interest rate)  $\frac{\text{Debt}}{\text{Equity}}$ ]
+ROE and leverage: ROE = (1 - Tax rate) [ROA + (ROA - Interest rate) $\frac{\text{Debt}}{\text{Equity}}$]
 
 DuPont formula: ROE = $\frac{\text{Net profits}}{\text{Pretax profits}} \times \frac{\text{Pretax profits}}{\text{EBIT}} \times \frac{\text{EBIT}}{\text{Sales}} \times \frac{\text{Sales}}{\text{Assets}} \times \frac{\text{Assets}}{\text{Equity}}$
 
@@ -957,8 +976,6 @@ Now answer these questions: e. How liquid is the firm?
 f. How well is the firm using its assets?
 g. How effectively is the firm using leverage?
 $h$ . How profitable is the firm?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/33e6c404009c5773ae1ee8c45db9c9d13cb84f247c9cb228acfc637452277e39.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

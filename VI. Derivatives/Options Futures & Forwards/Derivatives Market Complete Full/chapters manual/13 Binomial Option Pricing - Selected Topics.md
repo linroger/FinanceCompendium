@@ -462,14 +462,14 @@ $$
 The period-2 prices from the 50.071 node are
 
 $$
-\left(\$ 50. 0 7 1 e ^ {0. 0 8 \times 1 / 3} - 5\right) \times e ^ {0. 3 \times \sqrt {1 / 3}} = \$ 5 5. 2 0 3
+\left(\$50.071 e ^ {0.08 \times 1 / 3} - 5\right) \times e ^ {0.3 \times \sqrt {1 / 3}} = \$55.203
 $$
 
 $$
-\left(\S 5 0. 0 7 1 e ^ {0. 0 8 \times 1 / 3} - 5\right) \times e ^ {- 0. 3 \times \sqrt {1 / 3}} = \S 3 9. 0 4 1
+\left(\$50.071 e ^ {0.08 \times 1 / 3} - 5\right) \times e ^ {-0.3 \times \sqrt {1 / 3}} = \$39.041
 $$
 
-Repeating this procedure for the node  S = \35.411  gives prices of  \37.300  and  \26.380 . You can see that there are now four prices instead of three after two binomial steps: The  ud  and  du  nodes do not recombine. There are six distinct prices in the final period as each set of ex-dividend prices generates a distinct tree (three prices arise from the top two prices in period 2 and three prices arise from the bottom two prices in period 2). Each discrete dividend causes the tree to bifurcate.
+Repeating this procedure for the node S = \$35.411 gives prices of \$37.300 and \$26.380. You can see that there are now four prices instead of three after two binomial steps: The ud and du nodes do not recombine. There are six distinct prices in the final period as each set of ex-dividend prices generates a distinct tree (three prices arise from the top two prices in period 2 and three prices arise from the bottom two prices in period 2). Each discrete dividend causes the tree to bifurcate.
 
 There is also a conceptual problem with equation (15). Since the amount of the dividend is fixed, the stock price could in principle become negative if there have been large downward moves in the stock prior to the dividend.
 
@@ -501,7 +501,7 @@ $$
 \sigma_ {F} = \sigma_ {s} \times \frac {S}{F ^ {P}}
 $$
 
-Figure 10 shows the construction of the binomial tree for a specific example, using the same initial inputs as Figure 9. Both the observed stock price and the stock price less the present value of dividends (the prepaid forward price) are included in the figure. Assuming that the dividend is paid just before the second period, the initial prepaid forward price is  $F_0^P = 41 - 5e^{-0.08 \times 2/3} = 36.26$ . The volatility for the prepaid forward is therefore  $0.3 \times \frac{\$41}{\$36.26} = 0.3392$ .
+Figure 10 shows the construction of the binomial tree for a specific example, using the same initial inputs as Figure 9. Both the observed stock price and the stock price less the present value of dividends (the prepaid forward price) are included in the figure. Assuming that the dividend is paid just before the second period, the initial prepaid forward price is $F_0^P = 41 - 5e^{-0.08 \times 2/3} = 36.26$. The volatility for the prepaid forward is therefore $0.3 \times \frac{\$41}{\$36.26} = 0.3392$.
 
 To understand Figure 10, note first that  $u = 1.2492$ . Look at the node where the stock price is 61.584. This is a cum-dividend price, just before the dividend is paid. The nodes in the last period are constructed based on the ex-dividend price, for example,
 
@@ -513,23 +513,7 @@ As a final point, we obtain risk-neutral probabilities for the tree in the same 
 
 # FIGURE 10
 
-Binomial tree for pricing an American call option on
-
-a stock paying a discrete dividend of 5 in 8 months;
-
-assumes S = 41.00, K =
-
-40.00, σ = 0.3392, r =
-
-0.08, T = 1.00 years, δ =
-
-0.00, and h = 0.333. At each node the stock price, prepaid
-
-forward price, and option price are given. Option
-
-prices in bold italic signify that exercise is optimal at
-
-that node.
+Binomial tree for pricing an American call option on a stock paying a discrete dividend of 5 in 8 months; assumes S = 41.00, K = 40.00, σ = 0.3392, r = 0.08, T = 1.00 years, δ = 0.00, and h = 0.333. At each node the stock price, prepaid forward price, and option price are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/536cd7e9871de11c8a9bbddb49fa91500ee79df4ed9407f102ceae2bdc58c860.jpg)
 

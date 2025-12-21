@@ -1,11 +1,27 @@
 ---
+title: "Lecture 16: How Much Should a Firm Borrow? Part I"
 aliases:
+   - How Much Should a Firm Borrow Part I
+   - Real World Departures from MM Assumptions
 tags:
 key_concepts:
-parent_directory:
+parent_directory: Lecture Notes
+formatted: 2025-12-21 02:29:25 PM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: claude-code
+primary_tags:
+   - capital structure
+   - trade-off theory
+   - modigliani miller theorem
+   - tax shields
+   - financial distress costs
+secondary_tags:
+   - bankruptcy costs
+   - agency costs
+   - corporate taxes
+   - optimal leverage
+   - debt financing
 cssclasses: academia
-title: Real World Departures from MM Assumptions
-linter-yaml-title-alias: Real World Departures from MM Assumptions
 ---
 
 Dave Schabes
@@ -14,13 +30,13 @@ February 28, 2023
 
 # Real World Departures from MM Assumptions
 
-MM understood that the real world departed from their assumptions  
+MM understood that the real world departed from their assumptions
 Major departures
 
-$\mathrm{O}$  Taxes  
-$\circ$  Transaction Costs  
-○ Financial Distress and Bankruptcy  
-$\bigcirc$  Conflicts between creditors and shareholders
+- Taxes
+- Transaction Costs
+- Financial Distress and Bankruptcy
+- Conflicts between creditors and shareholders
 
 # Taxes
 
@@ -33,10 +49,10 @@ So-called "double taxation"
 
 # Taxes
 
-- Limits were placed on the deductibility of interest at  $30\%$  of income (defined as EBITDA) in 2017
+- Limits were placed on the deductibility of interest at $30\%$ of income (defined as EBITDA) in 2017
 
-$\circ$  This has been repealed as part of the CARES act legislation  
-○ With interest rates currently low, few companies would have hit this constraint
+- This has been repealed as part of the CARES act legislation
+- With interest rates currently low, few companies would have hit this constraint
 
 Due to the Corona virus, poor earnings may have made this constraint "bite" more quickly for some companies
 
@@ -48,23 +64,23 @@ Due to the Corona virus, poor earnings may have made this constraint "bite" more
 
 - Firm U and L are identical except
 
-\( \circ \) L has \(1,000 of debt at 8% per annum  
-$\bigcirc$  U is capitalized entirely with equity
+- L has $1,000 of debt at 8% per annum
+- U is capitalized entirely with equity
 
 - Firm L pays \$16.80 less in corporate taxes
 
-$\circ$  Allows that amount to be distributed to shareholders  
-$\circ$  However firm pays \$80 of interest to bondholders
+- Allows that amount to be distributed to shareholders
+- However firm pays \$80 of interest to bondholders
 
 # Tax Shield Valuation
 
 - MM III states that a firm is worth its asset value plus the present value of the tax shield  
 - Assume L intends to borrow \$1,000 in perpetuity
 
-$\circ$  Interest payments in perpetuity are worth:
+- Interest payments in perpetuity are worth:
 
 $$
-P V _ {T a x S h i e l d} = \\(16.80 / 8 \% = \\)210,\( so tax shield increases firm value by \(2.1\%\)
+PV_{TaxShield} = (16.80 / 8\% = )210, so tax shield increases firm value by (2.1\%)
 $$
 
 - MM III states that when a corporation maintains a permanent constant amount of debt outstanding, the interest rate paid is irrelevant to the value of the tax shield
@@ -74,28 +90,28 @@ $$
 - Assuming fixed amount of debt, D
 
 $$
-I n t e r e s t P a y m e n t = r _ {D} \times D, P V _ {T a x S h i e l d} = T _ {C} \times \frac {r _ {D} \times D}{r _ {D}},
+Interest Payment = r_D \times D, PV_{TaxShield} = T_C \times \frac{r_D \times D}{r_D},
 $$
 
 where  $T_{C}$  is the corporate tax rate, cancelling  $r_{D}$ ,
 
 $$
-w e o b t a i n P V _ {T a x S h i e l d} = T _ {C} \times D
+we obtain PV_{TaxShield} = T_C \times D
 $$
 
 - Additional Assumptions
-- Corporate tax rate is constant; no other taxes or transaction costs  
-○ Adequate taxable income to fully utilize tax shield
+- Corporate tax rate is constant; no other taxes or transaction costs
+- Adequate taxable income to fully utilize tax shield
 
 # Firms U and L
 
 - Above calculated value of L's tax shield at \$210
 
-$\circ$  Using this, L is worth  $10,210; U$  worth  $\$ 10,000$  
+- Using this, L is worth $10,210; U worth \$10,000  
 
 - \$210 increase due solely to tax shield  
-Since L borrowed \$1,000, needs only 902 shares outstanding at a price of \$10.21 each  
-$\circ$  Earnings per share increase to  $\$ {.81}$  from  $\$ {.79}$
+Since L borrowed \$1,000, needs only 902 shares outstanding at a price of \$10.21 each
+- Earnings per share increase to \$.81 from \$.79
 
 Due to reduction of issuance (or decrease share count through a buyback) to 902 shares from 1,000  
 
@@ -108,12 +124,12 @@ J&J adds \$10 billion of debt and buys back \$10 billion of stock
 - Since nothing else regarding expectations for J&J's future cash flow has changed, MM III states:
 
 $$
-\Delta P V _ {J \& J} = T _ {C} \times D =. 2 1 \times \$ 1 0 b n = \$ 2. 1 b n
+\Delta PV_{J\&J} = T_C \times D = .21 \times \$10bn = \$2.1bn
 $$
 
-$\circ$  Add  $10$  bn debt and  $\$ 2.1$ bn to total value
+- Add $10 bn debt and \$2.1 bn to total value
 
-Market value of equity decreases  \$7.9 bn, so shareholders gain\$ 2.1 bn  
+Market value of equity decreases \$7.9 bn, so shareholders gain \$2.1 bn  
 
 - Book Value Balance Sheet "Total Value" line is unchanged
 
@@ -138,9 +154,9 @@ Book Values
 
 - How do we obtain market values?
 
-○ Utilize Financial Statement values for working capital, long-term debt and other liabilities  
-$\circ$  Add estimated PV of tax shield to Assets  
-○ Utilize market value of equity to value assets not included in book value on the balance sheet, e.g., brand name, customer relationships, and research and development
+- Utilize Financial Statement values for working capital, long-term debt and other liabilities
+- Add estimated PV of tax shield to Assets
+- Utilize market value of equity to value assets not included in book value on the balance sheet, e.g., brand name, customer relationships, and research and development
 
 - Stock Price X number of shares = market value of equity
 
@@ -168,7 +184,7 @@ $\odot$  FT
 
 - Since J&J's value increased \$2.1bn by borrowing \$10 bn
 
-○ Practical and market limits to amount a company borrows
+- Practical and market limits to amount a company borrows
 
 - Formula does not apply at extremely high debt ratios  
 - Debt may not be fixed and perpetually outstanding  
@@ -190,28 +206,28 @@ Corporate and Personal Taxes
 
 - Taxes on investors come in two classes
 
-○ Ordinary Income Tax – applies to wages and interest earned (on bonds or loans),  $T_{p}$
+- Ordinary Income Tax – applies to wages and interest earned (on bonds or loans), $T_p$
 
-$\circ$  Capital Gains and Dividend taxes,  $T_{p E}$  collectively – apply to gain on sale and dividends received respectively
+- Capital Gains and Dividend taxes, $T_{pE}$ collectively – apply to gain on sale and dividends received respectively
 
 - Often set at same rate  
 Capital gains tax only paid upon sale of asset
 
 $$
-\mathrm {R e l a t i v e T a x A d v a n t a g e o f D e b t} = \frac {1 - T _ {p}}{\left(1 - T _ {p E}\right) (1 - T _ {C})}
+\mathrm{Relative Tax Advantage of Debt} = \frac{1 - T_p}{(1 - T_{pE})(1 - T_C)}
 $$
 
 # Relative Tax Advantage of Debt
 
 - An increase in:
 
-$\circ T_{p}$  will decrease the relative advantage of debt  
-$\circ T_{p E} \text { or } T_{C}$  will increase the relative advantage of debt
+- $T_p$ will decrease the relative advantage of debt
+- $T_{pE}$ or $T_C$ will increase the relative advantage of debt
 
 - Special cases:
 
-1. $T_{pE} = T_p$ , implies relative advantage  $= \frac{1}{1 - T_C}$  
-2. $1 - T_{p} = (1 - T_{pE})(1 - T_{C})$ , implies debt policy irrelevant as relative advantage  $= 1$
+1. $T_{pE} = T_p$, implies relative advantage $= \frac{1}{1 - T_C}$
+2. $1 - T_p = (1 - T_{pE})(1 - T_C)$, implies debt policy irrelevant as relative advantage $= 1$
 
 # Relative Tax Advantage of Debt
 
@@ -221,40 +237,40 @@ $\circ T_{p E} \text { or } T_{C}$  will increase the relative advantage of debt
 
 # Relative Tax Advantage of Debt
 
-- Where  $T_{C} = 21 \%$ ,  $T_{pe} = 15 \%$  and  $T_{p} = 37 \%$ , there is a $.04 disadvantage to debt  
-- Where  $T_{C} = 35 \%$ ,  $T_{pe} = 25 \%$  and  $T_{p} = 39 \%$ ,, there is a $.12 advantage to debt
+- Where $T_C = 21\%$, $T_{pe} = 15\%$ and $T_p = 37\%$, there is a \$.04 disadvantage to debt
+- Where $T_C = 35\%$, $T_{pe} = 25\%$ and $T_p = 39\%$, there is a \$.12 advantage to debt
 
 These tax rates are close to where rates were prior to the 2017 tax law changes
 
-- In the case where  $T_{C} = 21\%$  and no other taxes, there is a  $\$ 21$ advantage to debt
+- In the case where $T_C = 21\%$ and no other taxes, there is a \$21 advantage to debt
 
 # Costs of Financial Distress
 
 - In the real world, companies run into financial difficulties
 
-○ Unanticipated downturns in sales  
+- Unanticipated downturns in sales  
 
-- Increasing spending too quickly  
-O Coupled with too much debt
+- Increasing spending too quickly
+- Coupled with too much debt
 
 - To capture this we add costs of financial distress to value equation
 
 $$
-\begin{array}{l} \text {V a l u e o f F i r m} = \text {A s s e t V a l u e} + P V _ {\text {T a x S h i e l d}} \\ - P V _ {C o s t s o f F i n a n c i a l D i s t r e s s} \\ \end{array}
+\begin{array}{l} \text{Value of Firm} = \text{Asset Value} + PV_{\text{Tax Shield}} \\ - PV_{\text{Costs of Financial Distress}} \\ \end{array}
 $$
 
 # Costs of Financial Distress
 
 - How creditors think about default:
 
-$\circ$  Probability of default  
-$\circ$  Loss given default  
-○ Product of these gives expected loss
+- Probability of default
+- Loss given default
+- Product of these gives expected loss
 
 - Two types of default:
 
-○ Technical  
-○ Money
+- Technical
+- Money
 
 # Costs of Financial Distress
 
@@ -267,26 +283,26 @@ $\circ$  Loss given default
 - Financial distress and bankruptcy are extremely costly  
 Distress alone can force companies to deal with harsh terms from suppliers and constant monitoring by creditors
 
-Banks  
-$\bigcirc$  Bondholders
+Banks
+- Bondholders
 
 # Financial Distress Costs
 
 - Additional costs of distress include:
 
-○ Customer loss – fear that products will no longer be supported or warranties honored  
-○ Supplier loss – fear of non-payment  
-○ Employee loss – best employees often first to leave  
-○ Inability to collect on receivables  
-○ Forced asset sales – by banks or suppliers
+- Customer loss – fear that products will no longer be supported or warranties honored
+- Supplier loss – fear of non-payment
+- Employee loss – best employees often first to leave
+- Inability to collect on receivables
+- Forced asset sales – by banks or suppliers
 
 # Financial Distress Costs
 
 - Creditors often face additional costs as well:
-- Increased monitoring costs – asset valuations  
-- Increased personnel costs at company – financial consultants  
-○ More favorable loan terms – lower interest rate, deferral of repayment of principal  
-$\circ$  Legal review – options if situation worsens, lender liability
+- Increased monitoring costs – asset valuations
+- Increased personnel costs at company – financial consultants
+- More favorable loan terms – lower interest rate, deferral of repayment of principal
+- Legal review – options if situation worsens, lender liability
 
 # Bankruptcy Costs
 
@@ -296,19 +312,19 @@ One of the key issues for European banks
 
 - Bankruptcy proceedings can last as long as seven years in Italy, where it is called sofferenze
 
-○ US or UK – bankruptcy proceedings typically less than 18 months
+- US or UK – bankruptcy proceedings typically less than 18 months
 
 # Bankruptcy Costs
 
 - In the US there are two principal chapters of the bankruptcy code that affect corporations
 
-Chapter 11 – Reorganization  
-$\mathrm{O}$  Chapter 7 - Liquidation
+Chapter 11 – Reorganization
+- Chapter 7 - Liquidation
 
 - Many "repeat offenders" in reorganization process
 
 These are known as Chapter 22, 33, …  
-○ Recent examples: A&P, Payless Shoes, Radio Shack, and Tuesday Morning
+- Recent examples: A&P, Payless Shoes, Radio Shack, and Tuesday Morning
 
 # Chapter 11 – Reorganization
 
@@ -318,7 +334,7 @@ These are known as Chapter 22, 33, …
 - Prohibited from taking action against company to obtain moneys owed ahead of other creditors
 - Allows for "Debtor-In-Possession" (DIP) financing,
 
-○ DIP lender obtains a "super-lien", allowing for improved liquidity during the bankruptcy process
+- DIP lender obtains a "super-lien", allowing for improved liquidity during the bankruptcy process
 
 # Chapter 11 – Reorganization
 
@@ -326,9 +342,9 @@ These are known as Chapter 22, 33, …
 - Other creditors or equity holders may submit a plan as well after 120 day period  
 - Taken to bankruptcy court for
 
-$\circ$  Approval  
-○ Modification  
-$\mathrm{O}$  Rejection
+- Approval
+- Modification
+- Rejection
 
 # Chapter 11 – Reorganization
 
@@ -339,29 +355,29 @@ Vote on plan by "interested parties" – impaired creditors
 
 - At risk of losing money – not fully secured  
 - Usually restructuring or turnaround specialists hired to execute  
-○ If creditors agree, restructuring plan is put in place. If not, judge may impose a plan, known as a "cram down"
+- If creditors agree, restructuring plan is put in place. If not, judge may impose a plan, known as a "cram down"
 
 # Chapter 7 – Liquidation
 
 - Often begin as Chapter 11
 
-○ Company determined no longer viable as a going concern  
+- Company determined no longer viable as a going concern
 Liquidation value greater than going concern value
 
 - Trustee appointed to oversee liquidation
 
-$\circ$  Typically accounting or law firm
+- Typically accounting or law firm
 
 # Chapter 7 – Liquidation
 
-# - Assets sold
+- Assets sold
 
-Creditors paid off as proceeds received  
-$\circ$  Generally in order of their priority in the capital structure
+Creditors paid off as proceeds received
+- Generally in order of their priority in the capital structure
 
-Secured creditors  
+Secured creditors
 
-- Un (under) secured creditors  
+- Un (under) secured creditors
 Other creditors
 
 - Such sales may be conducted, under Chapter 11 as well
