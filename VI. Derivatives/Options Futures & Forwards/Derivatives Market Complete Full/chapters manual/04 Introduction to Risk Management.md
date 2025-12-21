@@ -1,8 +1,29 @@
 ---
 title: "Chapter 4 - Introduction to Risk Management"
-aliases:
-  - Introduction to Risk Management
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:08:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+   - risk management
+   - hedging strategies
+   - commodity derivatives
+   - forward contracts
+secondary_tags:
+   - put options
+   - call options
+   - collar strategies
+   - basis risk
+   - cross-hedging
+   - quantity uncertainty
+   - agricultural hedging
+   - paylater strategies
+   - hedge ratio optimization
+   - concave profit functions
+   - bankruptcy costs
+   - external financing costs
+   - managerial risk aversion
+   - tax convexity
 cssclasses: academia
 ---
 
@@ -69,7 +90,7 @@ Comparison of unhedged position, 420-strike put option, and unhedged position pl
 
 Profit ($)
 
-Since the put premium is paid 1 year prior to the option payoff, we must take into account interest cost when we compute profit in 1 year. The future value of the premium is 8.77 \times 1.05 = \9.21. As with the forward contract, we assume financial settlement, although physical settlement would yield the same net income.
+Since the put premium is paid 1 year prior to the option payoff, we must take into account interest cost when we compute profit in 1 year. The future value of the premium is 8.77 \times 1.05 = \$9.21. As with the forward contract, we assume financial settlement, although physical settlement would yield the same net income.
 
 Table 3 shows the result of buying this put. If the price is less than  \$420, the put is exercised and Golddiggers sells gold for\$ 420/oz. less the cost of the put. This gives net income of \$30.79. If the price is greater than \$420, Golddiggers sells gold at the market price.
 
@@ -130,7 +151,7 @@ The political risk also explains why the few countries or states that have launc
 Based on Blas & Thomas 2008, Williams 2009 gold is less than 420, Golddiggers will make
 
 $$
-P _ {g} + \$ 9. 2 1 - \$ 3 8 0
+P_{g} + \$9.21 - \$380
 $$
 
 On the downside, Golddiggers has exposure to gold but keeps the option premium.
@@ -408,7 +429,7 @@ A 420-440 Collar. Suppose that Golddiggers buys a 420-strike put option for \$8.
 
 # FIGURE 9
 
-Net profit at expiration resulting from buying a 420-strike put with premium of  \$8.77 and selling a 440-strike call with premium of\$ 2.49. The profit for gold prices between  \$420 and\$ 440 is ( $2.49 -$ 8.77) × 1.05 = -6.60.
+Net profit at expiration resulting from buying a 420-strike put with premium of \$8.77 and selling a 440-strike call with premium of \$2.49. The profit for gold prices between \$420 and \$440 is ($2.49 - $8.77) × 1.05 = -6.60.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7df7f2541ad29f75808a980e112bf87ba6bdb444924d204b48c6b0246a0cab24.jpg) the call owner will exercise and Golddiggers is obligated to sell gold at the strike price of  \$440, rather than the market price of\$ 450. The 2.49 premium Golddiggers received initially compensates them for the possibility that this will happen.
 
@@ -432,13 +453,13 @@ We can examine the payoffs by considering separately the three interesting regio
 
 Price of gold < \$400.78: In this region, Golddiggers can sell gold for \$400.78 by exercising the put option.
 
-Price of gold between  \$400.78 and\$ 440.78: In this region, Golddiggers can sell gold at the market price.
+Price of gold between \$400.78 and \$440.78: In this region, Golddiggers can sell gold at the market price.
 
 Price of gold > \$440.78: In this region, Golddiggers sells gold at \$440.78. It has sold a call, so the owner of the call will exercise. This forces Golddiggers to sell gold to the call owner for the strike price of 440.78.
 
-Figure 11 graphs the zero-cost collar against the unhedged position. Notice that between  \$400.78 and\$ 440.78, the zero-cost collar graph is coincident with the unhedged profit. Above the 440.78-strike the collar provides profit of \$60.78, and below the 400.78-strike, the collar provides profit of \$20.78.
+Figure 11 graphs the zero-cost collar against the unhedged position. Notice that between \$400.78 and \$440.78, the zero-cost collar graph is coincident with the unhedged profit. Above the 440.78-strike the collar provides profit of \$60.78, and below the 400.78-strike, the collar provides profit of \$20.78.
 
-The Forward Contract as a Zero-Cost Collar. Because the put and call with strike prices of  \$420 have the same premiums, we could also construct a zero-cost collar by buying the\$ 420-strike put and selling the 420-strike call. If we do this, here is what happens:
+The Forward Contract as a Zero-Cost Collar. Because the put and call with strike prices of  \$420 have the same premiums, we could also construct a zero-cost collar by buying the \$420-strike put and selling the 420-strike call. If we do this, here is what happens:
 
 Price of gold < \$420: Golddiggers will exercise the put option, selling gold at the price of \$420.
 
@@ -457,7 +478,7 @@ Synthetic Forwards at Prices Other Than \$420. We can easily extend this example
 How much is it worth to Golddiggers to be able to lock in a selling price of \$440 instead of \$420? Obviously, it is worth \$20 1 year from today, or $20 ÷ (1.05) = $19.05 in present value terms. Since locking in a \$420 price is free, it should therefore be the case that we pay \$19.05 in net premium in order to lock in a \$440 price. In fact, looking at the prices of the 440-strike put and call in Table 8, we have premiums of \$21.54 for the put and \$2.49 for the call. This gives us
 
 $$
-\text {N e t} = \ 2 1. 5 4 - \ 2. 4 9 = \$ 1 9. 0 5
+\text{Net} = 21.54 - 2.49 = \$19.05
 $$
 
 Similarly, suppose Golddiggers explored the possibility of locking in a \$400 price for gold in 1 year. Obviously, Golddiggers would require compensation to accept a lower price. In fact, they would need to be paid \$19.05—the present value of 20—today.
@@ -465,7 +486,7 @@ Similarly, suppose Golddiggers explored the possibility of locking in a \$400 pr
 Again we compute the option premiums and see that the 400-strike call sells for \$21.26 while the 400-strike put sells for \$2.21. Again we have
 
 $$
-\text {N e t} = \$ 2. 2 1 - \$ 2 1. 2 6 = - \$ 1 9. 0 5
+\text{Net} = \$2.21 - \$21.26 = -\$19.05
 $$
 
 Golddiggers in this case receives the net premium for accepting a lower price.
@@ -480,9 +501,9 @@ Alternatively, we could raise the cap level (the strike price on the call) and s
 
 A disadvantage to buying a put option is that Golddiggers pays the premium even when the gold price is high and insurance was, after the fact, unnecessary. One strategy to avoid this problem is a paylater strategy, where the premium is paid only when the insurance is needed. While it is possible to construct exotic options in which the premium is paid only at expiration and only if the option is in the money, the strategy we discuss here is a ratio spread using ordinary put options. The goal is to find a strategy where if the gold price is high, there is no net option premium. If the gold price is low, there is insurance, but the effective premium is greater than with an ordinary insurance strategy.
 
-If there is no premium when the gold price is high, we must have no initial premium. This means that we must sell at least one option. Consider the following strategy for Golddiggers: Sell a 434.6-strike put and buy two 420-strike puts. Using our assumptions, the premium on the 434.6-strike put is \$17.55, while the premium on the 420-strike put is \$8.77. Thus, the net option premium from this strategy is $17.55 - (2 × $8.775) = 0.
+If there is no premium when the gold price is high, we must have no initial premium. This means that we must sell at least one option. Consider the following strategy for Golddiggers: Sell a 434.6-strike put and buy two 420-strike puts. Using our assumptions, the premium on the 434.6-strike put is \$17.55, while the premium on the 420-strike put is \$8.77. Thus, the net option premium from this strategy is $17.55 - (2 × $8.77) = 0.
 
-Figure 12 depicts the result of Golddiggers's hedging with a paylater strategy. When the price of gold is greater than  \$434.60, neither put is exercised, and Golddiggers's profit is the same as if it were unhedged. When the price of gold is between\$ 420 and \$434.60, because of the written \$434.60 put, the firm loses \$2 of profit for every \$1 decline in the price of gold. Below 420 the purchased 420-strike puts are exercised, and profit becomes constant. The net result is an insurance policy that is not paid for unless it is needed.
+Figure 12 depicts the result of Golddiggers's hedging with a paylater strategy. When the price of gold is greater than  \$434.60, neither put is exercised, and Golddiggers's profit is the same as if it were unhedged. When the price of gold is between \$420 and \$434.60, because of the written \$434.60 put, the firm loses \$2 of profit for every \$1 decline in the price of gold. Below 420 the purchased 420-strike puts are exercised, and profit becomes constant. The net result is an insurance policy that is not paid for unless it is needed.
 
 Also depicted in Figure 12 is the familiar result from a conventional insurance strategy of hedging by purchasing a single 420-strike put. When the gold price is high, the paylater strategy with a zero premium outperforms the single put. When the gold price is low, the paylater strategy does worse because it offers less insurance. Thus, the premium is paid later, if insurance is needed.
 
@@ -541,7 +562,7 @@ where the subscript  $t$  denotes the value at time  $t$ . Other specifications,
 Example 1. Suppose that a firm produces  $N_{w} = 350$  widgets; that each widget requires as an input  $\lambda = 0.5$  oz of gold; and that  $\sigma_{w} = 0.15$ ,  $\sigma_{g} = 0.25$ , and  $\rho = 0.8$ . Suppose further that a gold futures contract calls for delivery of  $q = 5$  oz of gold. Applying equation (3), we have
 
 $$
-5 H ^ {*} = 0. 5 \times 3 5 0 - 3 5 0 \frac {0 . 8 \times 0 . 1 5}{0 . 2 5} = 7
+5 H^{*} = 0.5 \times 350 - 350 \frac{0.8 \times 0.15}{0.25} = 7
 $$
 
 We go long 7 oz of gold, or  $H = 1.4$  contracts.
@@ -581,7 +602,7 @@ First, consider scenario A, where quantity is certain: The producer always produ
 On the other hand, if the producer sells forward  $1\mathrm{m}$  bushels at the forward price  $F = 2.50$ , revenue is
 
 $$
-\text {R e v e n u e} = (S \times 1 \mathrm {m}) - [ 1 \mathrm {m} \times (S - 2. 5 0) ] = 2. 5 \mathrm {m}
+\text{Revenue} = (S \times 1\mathrm{m}) - [1\mathrm{m} \times (S - 2.50)] = 2.5\mathrm{m}
 $$
 
 We have guaranteed revenue in this case. The calculation is illustrated explicitly in Table 10.
@@ -589,7 +610,7 @@ We have guaranteed revenue in this case. The calculation is illustrated explicit
 In general, if the producer enters into forward contracts on  $H$  units, hedged revenue,  $R(H)$ , will be
 
 $$
-\text {H e d g e d} = R (H) = (S \times Q) + [ H \times (S - F) ] \tag {5}
+\text{Hedged} = R(H) = (S \times Q) + [H \times (S - F)] \tag{5}
 $$
 
 <table><tr><td>TABLE 10</td><td colspan="3">When the producer is sure to produce 1m bushels (Scenario A), revenue of 2.5m is assured by selling forward 1m bushels.</td></tr><tr><td></td><td rowspan="3">Corn Price</td><td rowspan="3">Quantity</td><td>Revenue</td></tr><tr><td></td><td>Unhedged</td></tr><tr><td></td><td>Sell Forward 1m bu</td></tr><tr><td></td><td>3</td><td>1.0m</td><td>3.0m</td></tr><tr><td></td><td>2</td><td>1.0m</td><td>2.0m</td></tr><tr><td></td><td></td><td></td><td>2.5m</td></tr></table>
@@ -599,13 +620,13 @@ $$
 Using equation (5), when there is uncertainty, the variability of hedged revenue,  $\sigma_{R(H)}^2$ , is
 
 $$
-\sigma_ {R (H)} ^ {2} = \sigma_ {S Q} ^ {2} + H ^ {2} \sigma_ {S} ^ {2} + 2 H \rho_ {S Q, S} \sigma_ {S Q} \sigma_ {S} \tag {6}
+\sigma_{R(H)}^{2} = \sigma_{SQ}^{2} + H^{2} \sigma_{S}^{2} + 2 H \rho_{SQ,S} \sigma_{SQ} \sigma_{S} \tag{6}
 $$
 
 The standard deviation of total revenue,  $SQ$ , is  $\sigma_{SQ}$ , and the correlation of total revenue with price is  $\rho_{SQ,S}$ . As in the preceding discussion of cross-hedging, the  $H$  that minimizes the variance of hedged revenue will be
 
 $$
-H = - \frac {\rho_ {S Q , S} \sigma_ {S Q}}{\sigma_ {S}} \tag {7}
+H = - \frac{\rho_{SQ,S} \sigma_{SQ}}{\sigma_{S}} \tag{7}
 $$
 
 This is the same as the second term in equation (3). The formula for the variance-minimizing hedge ratio in equation (7) is the negative of the coefficient from a regression of unhedged revenue on price. We can therefore determine the variance-minimizing hedge ratios for the negativeand positive-correlation scenarios (scenarios B and C) in Table 9 either by using equation (7) directly or by running a regression of revenue on price.
@@ -613,15 +634,15 @@ This is the same as the second term in equation (3). The formula for the varianc
 First, consider what happens in Scenario B if we hedge by shorting the expected quantity of production. As a benchmark, column 3 of Table 11 shows that unhedged revenue has variability of  $0.654\mathrm{m}$ . From Table 9, expected production in the negative correlation scenario, B, is
 
 $$
-0. 2 5 \times (1 + 0. 6 + 1. 5 + 0. 8) = 0. 9 7 5
+0.25 \times (1 + 0.6 + 1.5 + 0.8) = 0.975
 $$
 
 If we short this quantity of corn, column 5 of Table 11 shows that there is still variability in hedged revenue. Perhaps more surprising, the variability of total revenue actually increases. The reason is that price decreases when quantity increases, so nature already provides a degree of hedging: The increase in quantity partially offsets the decrease in price. Hedging by shorting the full expected quantity leaves us overhedged, with a commensurate increase in variability.
 
-The variance-minimizing hedge can be obtained using equation (7). By direct calculation, we have  $\rho_{SQ,S} = 0.07647$ ,  $\sigma_S = \0.5$ , and  $\sigma_{SQ} = \$ 0.654\mathrm{m} . Thus, we have
+The variance-minimizing hedge can be obtained using equation (7). By direct calculation, we have  $\rho_{SQ,S} = 0.07647$ ,  $\sigma_S = 0.5$ , and  $\sigma_{SQ} = \$0.654\mathrm{m}$.$ Thus, we have
 
 $$
-H = - \frac {0 . 0 7 6 4 7 \times \$ 0 . 6 5 4 \mathrm {m}}{\$ 0 . 5} = - 0. 1 0 0 \mathrm {m}
+H = - \frac{0.07647 \times \$0.654\mathrm{m}}{\$0.5} = -0.100\mathrm{m}
 $$
 
 Column (7) of Table 11 shows that variability is reduced to  $0.652\mathrm{m}$  when hedging this amount. The optimal hedge quantity is closer to no hedging than to full hedging. In fact, we gain little by hedging optimally, but we increase the standard deviation of revenue by  $25\%$  if we adopt the plausible but incorrect hedging strategy of shorting 975,000 bushels. Problem 21 asks you to verify that you obtain the same answer by running a regression of revenue on price.

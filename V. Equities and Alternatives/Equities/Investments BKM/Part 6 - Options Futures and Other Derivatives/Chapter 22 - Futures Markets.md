@@ -1,6 +1,35 @@
-# Futures Markets
+---
+title: "Futures Markets"
+parent_directory: "Part 6 - Options Futures and Other Derivatives"
+formatted: "2025-12-21 02:35:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - futures markets
+  - futures contracts
+  - hedging strategies
+  - trading mechanics
+  - spot futures parity
+  - modern portfolio theory
+secondary_tags:
+  - forward contracts
+  - speculation
+  - clearinghouse
+  - margin accounts
+  - marking to market
+  - convergence property
+  - cost of carry
+  - arbitrage opportunities
+  - spread pricing
+  - forward vs futures pricing
+  - expectations hypothesis
+  - normal backwardation
+  - contango
+  - basis risk
+cssclasses: academia
+---
 
-# 22
+# Futures Markets
 
 FUTURES AND FORWARD contracts are like options in that they specify purchase or sale of some underlying security at some future date. The key difference is that the holder of an option is not compelled to buy or sell and will not do so unless the trade is advantageous. A futures or forward contract, however, carries the obligation to go through with the agreed-upon transaction.
 
@@ -41,21 +70,19 @@ Figure 22.1 Futures listings
 
 Source: The Wall Street Journal, October 2, 2021 (prices for October 1, 2021).
 
-
-The long position, that is, the trader who will purchase the good, profits from price increases. Suppose that when the contract matures, the price of corn turns out to be 546.50 cents per bushel. The long side, who entered the contract at the futures price of 541.50 cents, therefore earns a profit of 5 cents per bushel. As each contract calls for delivery of 5,000 bushels, the dollar profit equals  $5,000 \times .05 = \$ 250$ per contract. Conversely, the short position loses 5 cents per bushel. The short position's loss equals the long position's gain.
+The long position, that is, the trader who will purchase the good, profits from price increases. Suppose that when the contract matures, the price of corn turns out to be 546.50 cents per bushel. The long side, who entered the contract at the futures price of 541.50 cents, therefore earns a profit of 5 cents per bushel. As each contract calls for delivery of 5,000 bushels, the dollar profit equals $5,000 \times 0.05 = \$250$ per contract. Conversely, the short position loses 5 cents per bushel. The short position's loss equals the long position's gain.
 
 To summarize, at maturity:
 
-Profit to long  $=$  Spot price at maturity - Original futures price
+Profit to long = Spot price at maturity - Original futures price
 
-Profit to short  $=$  Original futures price - Spot price at maturity where the spot price is the actual market price of the commodity at the time of the delivery.
-
+Profit to short = Original futures price - Spot price at maturity where the spot price is the actual market price of the commodity at the time of the delivery.
 
 The futures contract, therefore, is a zero-sum game, with losses and gains netting out to zero. Every long position is offset by a short position. The aggregate profits to futures trading, summing over all investors, also must be zero, as is the net exposure to changes in the commodity price. For this reason, the establishment of a futures market in a commodity should not have a major impact on prices in the spot market for that commodity.
 
-Figure 22.2, Panel A, is a plot of the long position's profits as a function of the asset price on the maturity date. Profit is zero when the ultimate spot price,  $P_{T}$ , equals the initial futures price,  $F_{0}$ . Profit per unit of the underlying asset price rises or falls one-for-one with changes in the final spot price. Unlike the payoff of a call option, the payoff of the long futures position can be negative: This will be the case if the spot price falls below the original futures price. Unlike the holder of a call, who has an option to buy, the long futures trader cannot simply walk away from the contract. Also unlike options, there is no need to distinguish gross futures payoffs from net profits. This is because the futures contract is not purchased; it is simply a contract. The futures price adjusts to make the present value of entering into a new contract equal to zero.
+Figure 22.2, Panel A, is a plot of the long position's profits as a function of the asset price on the maturity date. Profit is zero when the ultimate spot price, $P_{T}$, equals the initial futures price, $F_{0}$. Profit per unit of the underlying asset price rises or falls one-for-one with changes in the final spot price. Unlike the payoff of a call option, the payoff of the long futures position can be negative: This will be the case if the spot price falls below the original futures price. Unlike the holder of a call, who has an option to buy, the long futures trader cannot simply walk away from the contract. Also unlike options, there is no need to distinguish gross futures payoffs from net profits. This is because the futures contract is not purchased; it is simply a contract. The futures price adjusts to make the present value of entering into a new contract equal to zero.
 
-The distinction between futures and options is highlighted by comparing Panel A of Figure 22.2 to the payoff and profit diagrams for an investor in a call option with exercise price  $X$ , chosen equal to the futures price  $F_{0}$  (see Panel C). The futures investor is exposed to considerable losses if the asset price falls significantly. In contrast, the investor in the call cannot lose more than the cost of the option.
+The distinction between futures and options is highlighted by comparing Panel A of Figure 22.2 to the payoff and profit diagrams for an investor in a call option with exercise price $X$, chosen equal to the futures price $F_{0}$ (see Panel C). The futures investor is exposed to considerable losses if the asset price falls significantly. In contrast, the investor in the call cannot lose more than the cost of the option.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/cc11764d18dda7c4a8fde0e72239de503855b0a0a91c4af62e7493e2b0ea551e.jpg)
 Figure 22.2 Profits to buyers and sellers of futures and options contracts
@@ -63,7 +90,6 @@ Figure 22.2 Profits to buyers and sellers of futures and options contracts
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/a6eb1537e03ac6d1cec6867c742e8c498b1892ecba81f90965c8bb53b2640980.jpg)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/f82fe42be5cd78afc918025c8388161eac614707bc4c20ba27c4e1a48b4ddfb7.jpg)
-
 
 Figure 22.2, Panel B, is a plot of the profits realized by an investor who enters the short side of a futures contract. It is the mirror image of the profit diagram for the long position.
 
@@ -87,10 +113,9 @@ Sample of futures contracts
 
 If you find S&P 500 or T-bond contracts a bit dry, perhaps you'd be interested in futures contracts with payoffs that depend on the winner of the next presidential election, or the severity of the next influenza season, or the host city of the 2036 Olympics. You can now find "futures markets" in these events and many others.
 
-For example, both Iowa Electronic Markets (www.biz.uowa.edu/iem) and the Politics page of BetFair (www.betfair.com) maintain presidential futures markets. In January 2020, you could have purchased a contract that would pay off  \$1 if Bernie Sanders had won the Democratic primary but nothing if he lost. The contract price (expressed as a percentage of face value) therefore may be viewed as the probability of a Sanders victory, at least according to the consensus view of market participants at the time. If you believed that the probability of a Sanders victory was 40\%$ , you would have been prepared to pay up to .40 for the contract. Alternatively, if you had wished to bet against him, you could have sold the contract. Similarly, you could have bet on (or against) a victory by any of the other candidates, for contracts traded on each of them.
+For example, both Iowa Electronic Markets (www.biz.uowa.edu/iem) and the Politics page of BetFair (www.betfair.com) maintain presidential futures markets. In January 2020, you could have purchased a contract that would pay off \$1 if Bernie Sanders had won the Democratic primary but nothing if he lost. The contract price (expressed as a percentage of face value) therefore may be viewed as the probability of a Sanders victory, at least according to the consensus view of market participants at the time. If you believed that the probability of a Sanders victory was 40\%$, you would have been prepared to pay up to 0.40 for the contract. Alternatively, if you had wished to bet against him, you could have sold the contract. Similarly, you could have bet on (or against) a victory by any of the other candidates, for contracts traded on each of them.
 
-
-The accompanying figure shows the contract price for most of the major candidates in early 2020. The price clearly tracks their perceived prospects. You can see Biden's price start above  $\ .80$  but fall dramatically as his early debate performance was heavily criticized. But Biden's decisive victory on Super Tuesday (March 3) shows up in his rocketing price as well as the deep dive in the prices of Bernie Sanders and Elizabeth Warren. By mid-March, with all the other candidates either out of the race or widely expected to drop out, Biden's price had increased to about  $\$  .90 .
+The accompanying figure shows the contract price for most of the major candidates in early 2020. The price clearly tracks their perceived prospects. You can see Biden's price start above \$.80 but fall dramatically as his early debate performance was heavily criticized. But Biden's decisive victory on Super Tuesday (March 3) shows up in his rocketing price as well as the deep dive in the prices of Bernie Sanders and Elizabeth Warren. By mid-March, with all the other candidates either out of the race or widely expected to drop out, Biden's price had increased to about \$.90.
 
 Interpreting prediction market prices as probabilities actually requires a caveat. Because the contract payoff is risky, the price of the contract may reflect a risk premium. Therefore, to be precise, these probabilities are actually risk-neutral probabilities (see Chapter 21). In practice, however, it seems unlikely that the risk premium associated with these contracts is substantial.
 
@@ -98,8 +123,7 @@ Prediction markets for the 2020 Democratic presidential primary. Each contract p
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/f122abf9f60172b1622af06d41d6899602ef7f06af2224e5e1f21dbaa377b249.jpg) necessarily incomplete. The nearby box discusses some comparatively fanciful futures markets, sometimes called prediction markets, in which payoffs may be tied to the winner of presidential elections, the box office receipts of a particular movie, or anything else in which participants are willing to take positions.
 Source: Iowa Electronic Markets, downloaded April 20, 2020.
 
-
-Outside the futures markets, a well-developed network of banks and brokers has established a forward market in foreign exchange. This forward market is not a formal exchange in the sense that the exchange specifies the terms of the traded contract. Instead, participants in this over-the-counter market may negotiate for delivery of any quantity of goods at any date, whereas in the formal futures markets contract size and delivery dates are set by the exchange. In forward arrangements, banks and brokers simply negotiate contracts for clients (or themselves) as needed. This market is huge. In London alone, the largest currency market, more than  \$3 trillion of currency trades each day. An additional\$ 1.5 trillion trades on a typical day in New York.
+Outside the futures markets, a well-developed network of banks and brokers has established a forward market in foreign exchange. This forward market is not a formal exchange in the sense that the exchange specifies the terms of the traded contract. Instead, participants in this over-the-counter market may negotiate for delivery of any quantity of goods at any date, whereas in the formal futures markets contract size and delivery dates are set by the exchange. In forward arrangements, banks and brokers simply negotiate contracts for clients (or themselves) as needed. This market is huge. In London alone, the largest currency market, more than \$3 trillion of currency trades each day. An additional \$1.5 trillion trades on a typical day in New York.
 
 # 22.2 Trading Mechanics
 
@@ -109,8 +133,7 @@ Until about 25 years ago, most futures trades in the United States occurred amon
 
 Once a trade is agreed to, the clearinghouse enters the picture. Rather than having the long and short traders hold contracts with each other, the clearinghouse becomes the seller of the contract for the long position and the buyer of the contract for the short position. The clearinghouse delivers the commodity to the long position and pays for delivery from the short; consequently, its position nets to zero. This arrangement makes the clearinghouse the trading partner of each trader, both long and short. The clearinghouse, bound to perform on its side of each contract, is the only party that can be hurt by the failure of any trader to satisfy the obligations of the contract. This arrangement is necessary because a futures contract calls for future performance, which cannot be as easily guaranteed as an immediate stock transaction.
 
-Figure 22.3, Panel A, shows what would happen in the absence of the clearinghouse. The long position would be obligated to pay the futures price to the short position, and the short position would be obligated to deliver the commodity. Panel B shows how the clear inghouse becomes an intermediary, acting as the trading partner for each side of the contract. The clearinghouse's position is neutral, as it takes a long and a short position for each transaction.
-
+Figure 22.3, Panel A, shows what would happen in the absence of the clearinghouse. The long position would be obligated to pay the futures price to the short position, and the short position would be obligated to deliver the commodity. Panel B shows how the clearinghouse becomes an intermediary, acting as the trading partner for each side of the contract. The clearinghouse's position is neutral, as it takes a long and a short position for each transaction.
 
 The clearinghouse makes it possible for traders to liquidate positions easily. If you are currently long and want to undo your position, you simply instruct your broker to enter the short side of a contract. This is called a reversing trade. The exchange nets out your long and short positions, reducing your net position to zero. Your zero net position eliminates the need to fulfill at maturity either the original long or reversing short position.
 
@@ -289,7 +312,7 @@ The payoff from the short futures position equals the difference between the ori
 
 The overall position is perfectly hedged. Any increase in the value of the indexed stock portfolio is offset by an equal decrease in the payoff of the short futures position, resulting in a final value that is independent of the stock price. The 1,030 total payoff is the sum of the current futures price, F_{0} = 1,010, and the 20 dividend. It is as though the investor arranged to sell the stock at year-end for the current futures price, thereby eliminating price risk and locking in total proceeds equal to the futures price plus dividends.
 
-What rate of return is earned on this riskless position? The stock investment requires an initial outlay of  \$1,000, whereas the futures position is established without an initial cash outflow. Therefore, the\$ 1,000 portfolio grows to a year-end value of 1,030, providing a rate of return of 3\%. More generally, a total investment of S0, the current stock price, grows to a final value of F0 + D, where D is the dividend payout on the portfolio. The rate of return is therefore
+What rate of return is earned on this riskless position? The stock investment requires an initial outlay of \$1,000, whereas the futures position is established without an initial cash outflow. Therefore, the \$1,000 portfolio grows to a year-end value of 1,030, providing a rate of return of 3\%. More generally, a total investment of S0, the current stock price, grows to a final value of F0 + D, where D is the dividend payout on the portfolio. The rate of return is therefore
 
 $$
 \text {R a t e} = \frac {(F _ {0} + D) - S _ {0}}{S _ {0}}
@@ -315,19 +338,19 @@ $$ where  $d$  is the dividend yield on the indexed stock portfolio, defined as 
 Suppose the S&P 500 index is currently at  $S_0 = \$ 4,000 $and the S&P indexed portfolio is expected to pay an annual dividend yield of 2\%$ , or D = \$80\$. If the risk-free interest rate is  $1\%$ , a one-year maturity contract should have a futures price of
 
 $$
-F _ {0} = S _ {0} (1 + r _ {f} - d) = 4, 0 0 0 (1 + . 0 1 -. 0 2) = 3, 9 6 0
+F _ {0} = S _ {0} (1 + r _ {f} - d) = 4,000 (1 + .01 -.02) = 3,960
 $$ or,equivalently,
 
 
 $$
-F _ {0} = S _ {0} (1 + r _ {f}) - D = 4, 0 0 0 (1 + . 0 1) - 8 0 = 3, 9 6 0
+F _ {0} = S _ {0} (1 + r _ {f}) - D = 4,000 (1 + .01) - 80 = 3,960
 $$
 
 Any deviation from parity gives rise to risk-free arbitrage opportunities. Example 22.9 illustrates how to exploit violations of the parity relation.
 
 # Example 22.9 Futures Market Arbitrage
 
-Suppose the one-year maturity futures price were  \$3,965 rather than the "appropriate" value of\$ 3,960 that we found in Example 22.8. The arbitrage portfolio entails a long position in the relatively underpriced index and a short position in the relatively overpriced futures contract with borrowing used to pay for the stock purchase.
+Suppose the one-year maturity futures price were \$3,965 rather than the "appropriate" value of \$3,960 that we found in Example 22.8. The arbitrage portfolio entails a long position in the relatively underpriced index and a short position in the relatively overpriced futures contract with borrowing used to pay for the stock purchase.
 
 <table><tr><td>Action</td><td>Initial
 Cash Flow</td><td>Cash Flow in
@@ -347,9 +370,7 @@ The arbitrage strategy of Example 22.9 can be represented more generally as foll
 
 <table><tr><td>Action</td><td>Initial Cash Flow</td><td>Cash Flow in 1 Year</td></tr><tr><td>1. Borrow S0 dollars</td><td>S0</td><td>-S0(1 + rf)</td></tr><tr><td>2. Buy stock for S0</td><td>-S0</td><td>ST+D</td></tr><tr><td>3. Enter short futures position</td><td>0</td><td>F0 - ST</td></tr><tr><td>Total</td><td>0</td><td>F0 - So(1 + rf) + D</td></tr></table>
 
-The initial cash flow is zero by construction: The money necessary to purchase the stock in step 2 is borrowed in step 1, and the futures position in step 3, which is used to hedge the value of the stock position, does not require an initial outlay. Moreover, the total cash flow at year-end is riskless because it involves only terms that are already known when the contract is entered into. If the final cash flow were not zero, all investors would try to cash in on the arbitrage opportunity. Ultimately, prices would change until the year-end cash flow is reduced to zero, at which point  $F_{0}$  would equal  $S_{0}(1 + r_{f}) - D$ .
-
-
+The initial cash flow is zero by construction: The money necessary to purchase the stock in step 2 is borrowed in step 1, and the futures position in step 3, which is used to hedge the value of the stock position, does not require an initial outlay. Moreover, the total cash flow at year-end is riskless because it involves only terms that are already known when the contract is entered into. If the final cash flow were not zero, all investors would try to cash in on the arbitrage opportunity. Ultimately, prices would change until the year-end cash flow is reduced to zero, at which point $F_{0}$ would equal $S_{0}(1 + r_{f}) - D$.
 The parity relationship also is called the cost-of-carry relationship because it asserts that the futures price is determined by the relative costs of buying a stock with deferred delivery in the futures market versus buying it in the spot market with immediate delivery and "carrying" it in inventory. If you buy stock now, you tie up your funds and incur a time-value-of-money cost of  $r_f$  per period. On the other hand, you receive dividend payments with a current yield of  $d$ . The net carrying cost advantage of deferring delivery of the stock is therefore  $r_f - d$  per period. This advantage must be offset by a differential between the futures price and the spot price. The price differential just offsets the cost-of-carry advantage when  $F_0 = S_0(1 + r_f - d)$ .
 
 The parity relationship is easily generalized to multiperiod applications. We simply recognize that the difference between the futures and spot price will be larger as the maturity of the contract is longer. This reflects the longer period to which we apply the net cost of carry. For contract maturity of  $T$  periods, the parity relationship is
@@ -406,7 +427,7 @@ To see how to use Equation 22.3, consider the following data for a hypothetical 
 Suppose that the effective annual T-bill rate is  $3\%$  and that the dividend yield is  $2\%$  per year. The "correct" March futures price given the January price is, according to Equation 22.3,
 
 $$
-1 0 5 (1 +. 0 3 -. 0 2) ^ {2 / 1 2} = 1 0 5. 1 7
+105 (1 +.03 -.02) ^ {2 / 12} = 105.17
 $$
 
 The actual March futures price is 105.09, making it slightly underpriced compared to the January futures price so that, aside from transaction costs, an arbitrage opportunity seems to be present.
@@ -431,8 +452,7 @@ The parity spreadsheet allows you to calculate futures prices corresponding to a
 
 1. Experiment with different values for both income yield and interest rate. What happens to the size of the time spread
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>1</td><td colspan="5">Spot Futures Parity and Time Spreads</td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Spot price</td><td>100</td><td></td><td></td><td></td></tr><tr><td>4</td><td>Income yield (\%)</td><td>2</td><td></td><td colspan="2">Futures prices versus maturity</td></tr><tr><td>5</td><td>Interest rate (\%)</td><td>1.5</td><td></td><td></td><td></td></tr><tr><td>6</td><td>Today&#x27;s date</td><td>5/10/2021</td><td></td><td>Spot price</td><td>100.00</td></tr><tr><td>7</td><td>Maturity date 1</td><td>11/10/2021</td><td></td><td>Futures 1</td><td>99.75</td></tr><tr><td>8</td><td>Maturity date 2</td><td>7/10/2022</td><td></td><td>Futures 2</td><td>99.42</td></tr><tr><td>9</td><td>Maturity date 3</td><td>9/10/2022</td><td></td><td>Futures 3</td><td>99.33</td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td>Time to maturity 1</td><td>0.50</td><td></td><td></td><td></td></tr><tr><td>12</td><td>Time to maturity 2</td><td>1.17</td><td></td><td></td><td></td></tr><tr><td>13</td><td>Time to maturity 3</td><td>1.33</td><td></td><td></td><td></td></tr></table> long position as  $P_{T} - F_{0}$  and assumed for convenience that the entire profit accrues on the delivery date. Strictly speaking, our parity theorems are appropriate for forward pricing because they assume that contract proceeds are in fact realized only on delivery. In contrast, the actual timing of cash flows conceivably might affect the futures price.
-
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>1</td><td colspan="5">Spot Futures Parity and Time Spreads</td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Spot price</td><td>100</td><td></td><td></td><td></td></tr><tr><td>4</td><td>Income yield (\%)</td><td>2</td><td></td><td colspan="2">Futures prices versus maturity</td></tr><tr><td>5</td><td>Interest rate (\%)</td><td>1.5</td><td></td><td></td><td></td></tr><tr><td>6</td><td>Today&#x27;s date</td><td>5/10/2021</td><td></td><td>Spot price</td><td>100.00</td></tr><tr><td>7</td><td>Maturity date 1</td><td>11/10/2021</td><td></td><td>Futures 1</td><td>99.75</td></tr><tr><td>8</td><td>Maturity date 2</td><td>7/10/2022</td><td></td><td>Futures 2</td><td>99.42</td></tr><tr><td>9</td><td>Maturity date 3</td><td>9/10/2022</td><td></td><td>Futures 3</td><td>99.33</td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td>Time to maturity 1</td><td>0.50</td><td></td><td></td><td></td></tr><tr><td>12</td><td>Time to maturity 2</td><td>1.17</td><td></td><td></td><td></td></tr><tr><td>13</td><td>Time to maturity 3</td><td>1.33</td><td></td><td></td><td></td></tr></table> long position as $P_{T} - F_{0}$ and assumed for convenience that the entire profit accrues on the delivery date. Strictly speaking, our parity theorems are appropriate for forward pricing because they assume that contract proceeds are in fact realized only on delivery. In contrast, the actual timing of cash flows conceivably might affect the futures price.
 
 Futures prices will deviate from parity when marking gives a systematic advantage to either the long or short position. If marking to market tends to favor the long position, for example, the futures price should exceed the forward price because the long position will be willing to pay a premium for that advantage.
 
@@ -515,27 +535,19 @@ What must be true of the risk of the spot price of an asset if the futures price
 
 forward contract futures price
 
-
 long position short position
-
 
 single-stock futures clearinghouse
 
-
 open interest marking to market
-
 
 maintenance margin convergence property
 
-
 cash settlement basis
-
 
 basis risk calendar spread
 
-
 spot-futures parity theorem cost-of-carry relationship
-
 
 # KEY TERMS
 
@@ -581,7 +593,7 @@ a. If the 1-year T-bill rate is  $3\%$  and the expected dividend yield on the S
 $b$ . What if the T-bill rate is less than the dividend yield, for example,  $1\%$ ?
 
 11. Consider a stock that pays no dividends on which a futures contract, a call option, and a put option trade. The maturity date for all three contracts is  $T$ , the exercise price of both the put and the call is  $X$ , and the futures price is  $F$ . Show that if  $X = F$ , then the call price equals the put price. Use parity conditions to guide your demonstration.
- 12. It is now January. The current interest rate is 2\%. The June futures price for gold is \$1,500, whereas the December futures price is \$1,510. Is there an arbitrage opportunity here? If so, how would you exploit it?
+12. It is now January. The current interest rate is 2\%. The June futures price for gold is \$1,500, whereas the December futures price is \$1,510. Is there an arbitrage opportunity here? If so, how would you exploit it?
 
 # PROBLEM SETS
 

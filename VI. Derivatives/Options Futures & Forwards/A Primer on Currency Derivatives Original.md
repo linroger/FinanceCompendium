@@ -1,9 +1,36 @@
 ---
 title: "A Primer on Currency Derivatives"
-aliases:
-  - Currency Derivatives
-  - Currency Derivatives Primer
 parent_directory: Options Futures & Forwards
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
+primary_tags:
+   - currency derivatives
+   - forward contracts
+   - futures contracts
+   - currency options
+   - hedging strategies
+   - exchange rate risk
+   - derivatives pricing
+   - arbitrage theory
+secondary_tags:
+   - covered interest parity
+   - margin requirements
+   - over the counter
+   - organized exchanges
+   - option valuation
+   - black scholes model
+   - binomial trees
+   - delta hedging
+   - gamma risk
+   - vega risk
+   - correlation risk
+   - speculation risk
+   - exotic options
+   - barrier options
+   - average rate options
+   - contingent premium
+   - risk management
 cssclasses: academia
 ---
 
@@ -25,7 +52,7 @@ tion is that derivatives are inherently mysterious, highly risky, and complex. O
 
 sarily very risky and can be used to reduce the risk inherent in other investments.
 
-# FORWARD CONTRACTS
+## FORWARD CONTRACTS
 
 One way for the company to lock in the exchange rate in one year is to enter into a forward contract. A forward contract is an agreement to buy or sell a specific quantity of currency at a predetermined dollar price on a specific date in the future. The predetermined price is called the forward exchange rate. The
 
@@ -55,7 +82,7 @@ Another problem with forward contracts is that they involve potentially large cr
 
 tract. If the company has no line of credit with the bank, the bank may require the company to deposit 5 percent of the amount of the forward contract as collateral.
 
-# FUTURES CONTRACTS
+## FUTURES CONTRACTS
 
 Another method the company might use to reduce the risk of foreign exchange volatility is to enter a futures contract. Futures contracts are similar to forward contracts in that both involve the promise to buy or sell currency at a specific price at a specific time in the future. The difference is that profits or losses from holding a futures contract are realized and paid out at the end of each day; in contrast, profits or losses from holding a forward contract are realized and transferred only when the contract expires.
 
@@ -87,13 +114,13 @@ How would the company in our example
 
 2The discussion has been simplified for expository purposes. The winning and losing parties do not directly transfer funds to each other, but rather use a clearing corporation as an intermediary. The clearing corporation also guarantees both sides of the contract against default. For more institutional detail regarding currency futures markets, see Grabbe (1991).
 
-# Two Exchanges
+## Two Exchanges
 
-# The International Money Market (IMM) of the Chicago Mercantile Exchange
+### The International Money Market (IMM) of the Chicago Mercantile Exchange
 
 The Chicago Mercantile Exchange, known as "The Merc," was founded in 1919 as a nonprofit organization to facilitate the trading of spot and futures commodity contracts. Since its founding, the exchange has grown, periodically adding new commodities to trade: in 1962, frozen pork bellies were added; in 1966, contracts on live cattle began trading, to give cattle ranchers and distributors hedging opportunities. In 1987, the International Money Market, a division of the Merc, began offering foreign currency futures for seven currencies in standardized amounts, for delivery at standardized times. The exchange requires that no trading take place at prices between minimum price moves, called ticks, and may place maximum daily allowable price moves on some currencies. The exchange also sets margin requirements for brokers who are members of the exchange. The Merc is regulated by the Commodity Futures Trading Commission.
 
-# The Philadelphia Stock Exchange
+### The Philadelphia Stock Exchange
 
 Founded in 1790, the Philadelphia Stock Exchange, the oldest securities market in the United States, began trading options on the major foreign currencies in 1982.* Currency options are traded on standardized amounts equaling one-half the amount of currency corresponding to an IMM futures contract on the same currency. The exchange has also standardized the expiration dates of the options and the strike prices. Expiration dates are set to correspond to the expiration dates of futures contracts at the IMM. Currency options traded at the Philadelphia Stock Exchange are guaranteed by the Options Clearing Corporation, which acts as a clearinghouse for all options traded on U.S. securities exchanges.
 
@@ -115,7 +142,7 @@ amount that can be hedged by a futures contract. For example, a company may need
 
 advantage the futures contract shares with the forward contract is that it does not allow the company to benefit if the dollar price of the yen falls.
 
-# CURRENCY OPTIONS
+## CURRENCY OPTIONS
 
 The final type of derivative the company might use is the currency option. A currency option gives its holder the right, but not the obligation, to take a position on a specific quantity of foreign currency at a prearranged price on or before the date the option expires. The prearranged price is called the strike price, which is an exchange rate. For example, if the option were on yen, the strike price would be quoted in terms of dollars per yen. The date the option expires is called the expiration date. The premium is the price paid to acquire the option. A call option on a currency allows the holder to buy that currency; a put option allows
 
@@ -127,7 +154,7 @@ The option will specify a quantity of foreign exchange to be bought or sold. For
 
 exchanges. They can also be bought over the counter as long as the purchaser can find someone willing to sell an option.
 
-A currency option is a kind of currency insurance: the option insures against unfavorable exchange rate movements, so that the maximum loss one can experience is the premium paid for the option. For example, suppose the American company buys two call options on 6.25 million yen, and the options expire in one year with a strike price of 97 yen per dollar, or \( .0103 / \yen \). If the premium is \) .0001 / \yen , the company can't pay any more than $ .0104 / \yen (\\( .0103 / \yen + \\) .0001 / \yen = \\( .0104 / \yen) \) when settlement is due. This means that each computer screen will cost no more than $ 104, yielding a \$ 1 profit per screen.
+A currency option is a kind of currency insurance: the option insures against unfavorable exchange rate movements, so that the maximum loss one can experience is the premium paid for the option. For example, suppose the American company buys two call options on 6.25 million yen, and the options expire in one year with a strike price of 97 yen per dollar, or $0.0103/yen. If the premium is $0.0001/yen, the company can't pay any more than $0.0104/yen ($0.0103/yen + $0.0001/yen = $0.0104/yen) when settlement is due. This means that each computer screen will cost no more than $104, yielding a $1 profit per screen.
 
 In contrast to a forward contract, the company can benefit from favorable movements in the exchange rate when using options. For example, suppose the exchange rate on the settlement date turned out to be 100 yen per dollar. In that case, the company will not exercise the option but will instead buy yen at the market rate. Thus, each computer screen will cost  \$100 plus the option premium of\$ 1 per screen ($.0001/yen × 10,000 yen/screen), yielding a profit of \$4 per screen.
 
@@ -139,13 +166,13 @@ Consider a short period of time in which the exchange rate can be thought of as 
 
 from its current value to one of two values at the end of the period. Of course, this is an approximation, but one that works well for short periods. If the exchange rate can take on only one of two values at the end of the period, the option can have one of two values, depending on which value the exchange rate turns out to have. These two payoffs over a short period can be replicated by a portfolio consisting of a long forward contract and riskless lending of the domestic currency. Thus, the option's value over this short interval must be the same as that of the replicating portfolio. Once an option is valued over a particular interval, the method can be extended to valuing an option over every interval by continually adjusting the forward rate-lending portfolio to match the payoffs of the option. This portfolio replication argument, discovered by Fischer Black and Myron Scholes and extended to the foreign exchange market by Mark Garman and Steven Kohlhagen, is used to calculate the fair value of an option: at each instant in time, the option must cost as much as a portfolio of forward contracts and lending of the domestic currency that exactly duplicates an option's payoffs. (See Option Valuation.)
 
-# USERS OF CURRENCY DERIVATIVES
+## USERS OF CURRENCY DERIVATIVES
 
 The main users of currency derivatives are hedgers and speculators. Hedgers use currency derivatives to reduce the risk of international trade. Speculators use derivatives to increase substantially the potential return on their investments.
 
-But the possibility of greater returns comes only by assuming greater risk. For example, suppose a speculator who wanted to invest in the Japanese yen could buy 12.5 million yen at 100 yen per dollar, which involves a dollar investment of \(125,000. If the exchange rate moves to 95 yen per dollar, or \).0105/yen, in 30 days, the dollar value of this investment becomes \)131,579, a monthly return of 5.3 percent. But if the exchange rate moves to 105 yen
+But the possibility of greater returns comes only by assuming greater risk. For example, suppose a speculator who wanted to invest in the Japanese yen could buy 12.5 million yen at 100 yen per dollar, which involves a dollar investment of $125,000. If the exchange rate moves to 95 yen per dollar, or $0.0105/yen, in 30 days, the dollar value of this investment becomes $131,579, a monthly return of 5.3 percent. But if the exchange rate moves to 105 yen
 
-# Option Valuation
+### Option Valuation
 
 Consider a European call on a hypothetical currency with a strike price of \$5.50 and an expiration date one year from now. Each unit of the currency costs \$5.50 today. The dollar interest rate is 10 percent per year. Forward contracts on the foreign currency with settlement in one year can be entered into today at a forward price of \$5.72 per unit of foreign currency. Assume that the exchange rate in one year is not known with certainty, but the investor knows that it will be either \$11 or \$2.75 per unit of foreign currency. Then, if the investor lends \$1.80 at 10 percent and enters a forward contract to purchase 2/3 of a unit of foreign currency at the end of the year, he will have duplicated the two possible option payoffs. Since \$1.80 is the amount invested (recall that the forward contract costs nothing to enter), \$1.80 must be the price of the option.
 
@@ -157,9 +184,9 @@ In this hypothetical example, we assumed that we knew that the exchange rate wil
 
 per dollar, the speculator will lose part of his initial investment.
 
-To gain leverage, the speculator might have bought 200 European call options that gave her the right to buy 1.25 billion yen for 97 yen per dollar, or  $.0103 / \yen$ , in 30 days for a premium of  $.0001 / \yen$ , or  $125,000$ . If the exchange rate in 30 days turned out to be 95 yen per dollar, the speculator could buy 1.25 billion yen for  $.0103 / \yen$  and sell them for  $.0105 / \yen$ , yielding a profit of \$250,000. Thus, the monthly return on this investment is 100 percent. Of course, this higher return comes with much greater risk. If the exchange rate happens to be above 97 yen per dollar on the option's expiration date, the speculator will not exercise the options and will lose the entire \$125,000 investment.
+To gain leverage, the speculator might have bought 200 European call options that gave her the right to buy 1.25 billion yen for 97 yen per dollar, or $0.0103/yen, in 30 days for a premium of $0.0001/yen, or $125,000. If the exchange rate in 30 days turned out to be 95 yen per dollar, the speculator could buy 1.25 billion yen for $0.0103/yen and sell them for $0.0105/yen, yielding a profit of $250,000. Thus, the monthly return on this investment is 100 percent. Of course, this higher return comes with much greater risk. If the exchange rate happens to be above 97 yen per dollar on the option's expiration date, the speculator will not exercise the options and will lose the entire $125,000 investment.
 
-# RISKINESS OF DERIVATIVES
+## RISKINESS OF DERIVATIVES
 
 Some Option Risk Measures. Professional users of derivatives assess the risk of currency options by examining how the option price changes with respect to small changes in underlying variables, such as the exchange rate. For example, consider a European call on the yen. Suppose the dollar price of the yen rises. Then, the price of the call will rise as well, since it is now more likely that the exchange rate will end up higher at the expiration date, and hence it is more likely that the call will ultimately be exercised at a profit. A number known as delta measures how much the call price changes for small changes in the exchange rate. If the delta of the European call is 0.5, the call price will rise half as fast as the exchange rate rises.
 
@@ -187,7 +214,7 @@ When a company decides to use a derivative that provides less protection against
 
 Understanding the risks may well be more difficult in the case of exotic options, since they tend to be derivatives tailor-made to a company's particular situation and thus quite complex. It is important for a company to
 
-# Simple Exotic Derivatives
+### Simple Exotic Derivatives
 
 Cacall - A cacall is an option to purchase a call. Suppose a company might enter into a contract involving foreign exchange risk. Since the company might need a call option, it might want to hedge the risk that the option will become more expensive. The company can lock in the call's price by purchasing a cacall.
 
@@ -203,7 +230,7 @@ understand how an exotic derivative's value varies with exchange rates, interest
 
 especially if the hedging strategy involves a portfolio of exotic derivatives.
 
-# SUMMARY
+## SUMMARY
 
 The three major types of currency derivatives are the forward, future, and option. The future and the option can be understood in terms of the most basic derivative, the forward contract. Currency derivatives can be used to hedge risk as well as to speculate on exchange-rate movements. Exotic derivatives, by allowing less exchange rate protection in exchange for a lower premium, give a company the ability to combine hedging and speculation. However, the risk of exotic derivatives is more
 

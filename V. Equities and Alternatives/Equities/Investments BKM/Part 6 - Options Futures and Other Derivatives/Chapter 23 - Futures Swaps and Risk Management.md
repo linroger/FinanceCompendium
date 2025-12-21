@@ -1,40 +1,41 @@
 ---
 title: Chapter 23 - Futures, Swaps, and Risk Management
 primary_tags:
-  - futures contracts
-  - interest rate swaps
-  - risk management
-  - foreign exchange futures
-  - stock index futures
+   - futures contracts
+   - interest rate swaps
+   - risk management
+   - foreign exchange futures
+   - stock index futures
 secondary_tags:
-  - hedging strategies
-  - interest rate parity
-  - covered interest arbitrage
-  - synthetic positions
-  - index arbitrage
-  - commodity futures
-  - currency swaps
-  - credit default swaps
-  - hedge ratio
-  - cross hedging
-  - program trading
-  - market neutral strategies
-  - price value of basis point
-  - eurodollar contracts
-  - swap pricing
-  - storage costs
-  - convenience yield
-  - seasonal pricing
-  - discounted cash flow
+   - hedging strategies
+   - interest rate parity
+   - covered interest arbitrage
+   - synthetic positions
+   - index arbitrage
+   - commodity futures
+   - currency swaps
+   - credit default swaps
+   - hedge ratio
+   - cross hedging
+   - program trading
+   - market neutral strategies
+   - price value of basis point
+   - eurodollar contracts
+   - swap pricing
+   - storage costs
+   - convenience yield
+   - seasonal pricing
+   - discounted cash flow
 aliases:
-  - Futures, Swaps, and Risk Management
+   - Futures, Swaps, and Risk Management
 parent_directory: Part 6 - Options Futures and Other Derivatives
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
 cssclasses: academia
 ---
 
 # Futures, Swaps, and Risk Management
-
-## 23
 
 CHAPTER 22 provided an introduction to the operation of futures markets and the principles of futures pricing. This chapter explores both pricing and risk management in selected futures markets in more depth. Financial futures dominate trading, so we emphasize these contracts.
 
@@ -47,9 +48,7 @@ We begin with foreign exchange futures, showing how forward exchange rates are d
 
 ### The Markets
 
-Exchange rates between currencies vary continually and often substantially. This variability adds risk to international business. A U.S. exporter who sells goods in England, for example, will be paid in British pounds, and the dollar value of those pounds depends on the exchange rate at the time payment is made. This risk can be hedged through currency futures or forward markets. For example, if you know you will receive
-
-£100,000 in 90 days, you can sell those pounds forward in the forward market to lock in an exchange rate equal to today's forward price.
+Exchange rates between currencies vary continually and often substantially. This variability adds risk to international business. A U.S. exporter who sells goods in England, for example, will be paid in British pounds, and the dollar value of those pounds depends on the exchange rate at the time payment is made. This risk can be hedged through currency futures or forward markets. For example, if you know you will receive £100,000 in 90 days, you can sell those pounds forward in the forward market to lock in an exchange rate equal to today's forward price.
 
 The forward market in foreign exchange is fairly informal. It is a network of banks and brokers that allows customers to enter forward contracts to purchase or sell currency in the future at a currently agreed-upon rate of exchange. The bank market in currencies is among the largest in the world, and most large traders with sufficient creditworthiness execute their trades here rather than in futures markets. In forward markets, traders can negotiate to deliver any quantity of currency on any delivery date that is mutually agreeable to both sides of the contract. Moreover, there is no marking to market. Currency forward contracts call for execution only at the maturity date. Participants need to consider counterparty risk, the possibility that a trading partner may not be able to make good on its obligations under the contract if prices move against it. For this reason, traders who participate in forward markets must have solid creditworthiness.
 
@@ -127,7 +126,7 @@ What would be the arbitrage strategy and associated profits in Example 23.1 if t
 
 ### Example 23.2 Covered Interest Arbitrage
 
-Let's continue our earlier discussion for the dollar-pound exchange rate. The interest rate in the U.S. is assumed to be 4\% and the U.K. interest rate is 1\%. The spot exchange rate is E_0 = \1.30/ This implies the following pattern for forward exchange rates of various maturities:
+Let's continue our earlier discussion for the dollar-pound exchange rate. The interest rate in the U.S. is assumed to be 4\% and the U.K. interest rate is 1\%. The spot exchange rate is E_0 = $1.30/ This implies the following pattern for forward exchange rates of various maturities:
 
 <table><tr><td>Time horizon, T</td><td>Forward exchange rate = E0(1 + rUS/1 + rUK)T</td></tr><tr><td>1</td><td>$1.30(1.04/1.01)1 = $1.3386/£</td></tr><tr><td>2</td><td>$1.30(1.04/1.01)2 = $1.3784/£</td></tr><tr><td>3</td><td>$1.30(1.04/1.01)3 = $1.4193/£</td></tr></table>
 
@@ -149,7 +148,7 @@ Consider a U.S. firm that exports most of its product to Great Britain. The firm
 
 To offset its foreign exchange exposure, the firm might engage in transactions that bring it profits when the pound depreciates. The lost profits from business operations resulting from a depreciation will then be offset by gains on its financial transactions. For example, if the firm enters a futures contract to deliver pounds for a given number of dollars, then if the pound depreciates, the futures position will yield a profit.
 
-Suppose the futures price is currently  \$1.40 per pound for delivery in three months. If the firm enters a futures contract with a futures price of\$ 1.40 per pound and the exchange rate in three months is \$1.30 per pound, then the profit to the short position is  $F_{0} - F_{T} =$ 1.40 - $1.30 = $.10 per pound.
+Suppose the futures price is currently  \$1.40 per pound for delivery in three months. If the firm enters a futures contract with a futures price of \$1.40 per pound and the exchange rate in three months is \$1.30 per pound, then the profit to the short position is  $F_{0} - F_{T} =$ 1.40 - $1.30 = $.10 per pound.
 
 How many pounds should be sold in the futures market to most fully offset its exposure? Suppose the dollar value of profits in the next quarter will fall by \$200,000 for every $.10 depreciation of the pound. To hedge, we need an equal but opposite exposure: in this case, a futures position that provides 200,000 extra profit for every
 
@@ -252,7 +251,7 @@ Suppose that an institutional investor wants to invest 100 million in the market
 This is an artificial, or synthetic, stock position. What is the value of this portfolio at the maturity date? Call  $S_T$  the value of the stock index on the maturity date  $T$  and, as usual, let  $F_0$  be the original futures price:
 
 <table><tr><td></td><td>In General
-(Per Unit of the Index)</td><td>Our Numbers</td></tr><tr><td>1. Profits from contract</td><td>ST-F0</td><td>25,000(ST-4,040)</td></tr><tr><td>2. Face value of T-bills</td><td>FO</td><td>101,000,000</td></tr><tr><td>Total</td><td>ST</td><td>25,000ST</td></tr></table>
+(Per Unit of the Index)</td><td>Our Numbers</td></tr><tr><td>1. Profits from contract</td><td>$S_T - F_0$</td><td>25,000(ST-4,040)</td></tr><tr><td>2. Face value of T-bills</td><td>$F_0$</td><td>101,000,000</td></tr><tr><td>Total</td><td>$S_T$</td><td>25,000ST</td></tr></table>
 
 The total payoff on the contract maturity date is exactly proportional to the value of the stock index. In other words, adopting this portfolio strategy is equivalent to holding the stock index itself, aside from the issue of interim dividend distributions and tax treatment.
 
@@ -286,7 +285,7 @@ Suppose that the S&P 500 index currently is at 4,000. A decrease in the index to
 
 To hedge this risk, you could sell stock index futures. When your portfolio falls in value along with declines in the broad market, the futures contract will provide an offsetting profit.
 
-The sensitivity of a futures contract to market movements is easy to determine. With its contract multiplier of  \$50, the profit on the S&P 500 futures contract varies by\$ 5,000 for every 100-point swing in the index. Therefore, to hedge your market exposure for two months, you could calculate the hedge ratio as follows:
+The sensitivity of a futures contract to market movements is easy to determine. With its contract multiplier of  \$50, the profit on the S&P 500 futures contract varies by \$5,000 for every 100-point swing in the index. Therefore, to hedge your market exposure for two months, you could calculate the hedge ratio as follows:
 
 
 $$
@@ -295,7 +294,7 @@ $$
 
 You would enter the short side of the contracts because you want profits from the contract to offset the exposure of your portfolio to the market. Because your portfolio does poorly when the market falls, you need a position that will do well when the market falls.
 
-We also could approach the hedging problem in Example 23.4 using a similar regression procedure as that illustrated in Figure 23.3 for foreign exchange risk. The predicted value of the portfolio is graphed in Figure 23.4 as a function of the value of the S&P 500 index. With a beta of .8, the slope of the relationship is 6,000: A  $2.5\%$  increase in the index, from 4,000 to 4,100, results in a capital gain of  $2\%$  of \$30 million, or \$ 600,000. Therefore, your portfolio will increase in value by \$6,000 for each increase of one point in the index. As a result, you should enter a short position on 6,000 units of the S&P 500 index to fully offset your exposure to marketwide movements. Because the contract multiplier is \$ 50 times the index, you need to sell 6,000/50 = 120 contracts.
+We also could approach the hedging problem in Example 23.4 using a similar regression procedure as that illustrated in Figure 23.3 for foreign exchange risk. The predicted value of the portfolio is graphed in Figure 23.4 as a function of the value of the S&P 500 index. With a beta of .8, the slope of the relationship is 6,000: A  $2.5\%$  increase in the index, from 4,000 to 4,100, results in a capital gain of  $2\%$  of \$30 million, or \$ 600,000. Therefore, your portfolio will increase in value by \$6,000 for each increase of one point in the index. As a result, you should enter a short position on 6,000 units of the S&P 500 index to fully offset your exposure to marketwide movements. Because the contract multiplier is \$50 times the index, you need to sell 6,000/50 = 120 contracts.
 
 Notice that when the slope of the regression line relating your unprotected position to the value of an asset is positive, your hedge strategy calls for a short position in that asset. The hedge ratio is the negative of the regression slope. This is because the hedge position should offset your initial exposure. If you do poorly when the asset value falls, you need a short position that will do well when the asset value falls.
 
@@ -341,7 +340,7 @@ $$
 
 One way to hedge this exposure is to take an offsetting position in an interest rate futures contract, for example, the Treasury bond contract. The contract nominally calls for delivery of  \$100,000 par value T-bonds with 6\%$  coupons and 20-year maturity. In practice, delivery terms are fairly complicated because many bonds with different coupon rates and maturities may be substituted to settle the contract. To simplify, we will assume that the bond to be delivered is known and has a modified duration of 10 years. Finally, suppose that the futures price currently is 90 per \$100 par value. Because the contract actually requires delivery of \$100,000 par value of bonds, the contract multiplier is 1,000.
 
-Given these data, we can calculate the PVBP for the futures contract. If the yield on the delivery bond increases by 10 basis points, the bond value will fall by  $D^{*} \times .1\% = 10 \times .1\% = 1\%$ . The futures price also will decline  $1\%$ , from 90 to 89.10. Because the contract multiplier is  $\1,000$ , the gain on each short contract will be  $\$ 1,000 \times .90 = \$900 . Therefore, the PVBP for one futures contract is  $\$900 / 10\$ -basis-point change, or  $\$90$  for a change in yield of 1 basis point.
+Given these data, we can calculate the PVBP for the futures contract. If the yield on the delivery bond increases by 10 basis points, the bond value will fall by  $D^{*} \times .1\% = 10 \times .1\% = 1\%$ . The futures price also will decline  $1\%$ , from 90 to 89.10. Because the contract multiplier is  \$1,000 , the gain on each short contract will be  \$1,000 \times .90 = \$900 . Therefore, the PVBP for one futures contract is  \$900 / 10 -basis-point change, or  \$90  for a change in yield of 1 basis point.
 
 Now we can easily calculate the hedge ratio as follows:
 
@@ -368,7 +367,7 @@ This problem highlights the fact that most hedging activity is in fact cross-hed
 
 ## 23.4 Swaps
 
-Swaps are multiperiod extensions of forward contracts. For example, rather than agreeing to exchange British pounds for U.S. dollars at an agreed-upon forward price at one single date, a foreign exchange swap would call for an exchange of currencies on several future dates. The parties might exchange  \$1.3 million for\$ 1 million in each of the next five years. Similarly, interest rate swaps call for the exchange of a series of cash flows proportional to a given interest rate for a corresponding series of cash flows proportional to a floating interest rate. $^{6}$  One party might receive a variable cash flow equal to  \$1 million times a short-term interest rate and pay\$ 1 million times a fixed interest rate of 5\% for each of the next seven years.
+Swaps are multiperiod extensions of forward contracts. For example, rather than agreeing to exchange British pounds for U.S. dollars at an agreed-upon forward price at one single date, a foreign exchange swap would call for an exchange of currencies on several future dates. The parties might exchange  \$1.3 million for \$1 million in each of the next five years. Similarly, interest rate swaps call for the exchange of a series of cash flows proportional to a given interest rate for a corresponding series of cash flows proportional to a floating interest rate. $^{6}$  One party might receive a variable cash flow equal to  \$1 million times a short-term interest rate and pay \$1 million times a fixed interest rate of 5\% for each of the next seven years.
 
 
 The swap market is a huge component of the derivatives market, with more than 400 trillion in interest rate and exchange rate swap agreements outstanding. We can illustrate how these contracts work using the following example.
@@ -379,7 +378,7 @@ Consider the manager of a large portfolio that currently includes  \$100 million
 
 A swap dealer might advertise its willingness to exchange, or "swap," a cash flow based on the LIBOR or SOFR rate for one based on a fixed rate of  $7\%$ . Until recently, LIBOR (the London Interbank Offer Rate) was by far the most common short-term rate used in the swaps market. However, as detailed in Chapter 2, LIBOR is currently being phased out, and U.S. dollar-denominated interest-rate swaps are increasingly pegged to SOFR (the secured overnight financing rate) based on overnight repurchase agreements. We therefore will use SOFR as our benchmark short-term rate.
 
-A portfolio manager who enters the swap agreement would pay the dealer  $7 \%$ on notional principal of  $100 million and receive payment of SOFR \times$ 100 million. $^{8}$  The manager’s net cash flow from the swap agreement is therefore (SOFR – .07) × 100 million. The participants have agreed to exchange a fixed cash flow for a variable one.
+A portfolio manager who enters the swap agreement would pay the dealer  $7 \%$ on notional principal of  $100 million and receive payment of SOFR \times \$100 million. $^{8}$  The manager’s net cash flow from the swap agreement is therefore (SOFR – .07) × 100 million. The participants have agreed to exchange a fixed cash flow for a variable one.
 
 Now consider the portfolio's net cash flow in three interest rate scenarios:
 
@@ -500,7 +499,7 @@ Once interest or exchange rates change, however, the situation is not as simple.
 
 ### Example 23.7 Credit Risk in Swaps
 
-Consider a swap written on 1 million of notional principal that calls for exchange of SOFR for a fixed rate of 4 \%for five years. Suppose, for simplicity, that the yield curve is currently flat at 4 \%With SOFR equal to 4 \%, no cash flows will be exchanged unless interest rates change. But now suppose that the yield curve immediately shifts up to 5 \%The floating-rate payer now is obligated to pay a cash flow of (.05 – .04) × \$ 1million = \$ 10,000 each year to the fixed- rate payer (as long as rates remain at 5 \% ). If the floating-rate payer defaults on the swap, the fixed- rate payer loses that 5- year annuity. The present value of that annuity is \$ 10,000 \times Annuity factor (5\%, 5 years) = \$ 43,295, which is only a bit more than 4 \%of notional principal. We conclude that the credit risk of the swap is far less than notional principal.
+Consider a swap written on $1 million of notional principal that calls for exchange of SOFR for a fixed rate of 4\% for five years. Suppose, for simplicity, that the yield curve is currently flat at 4\%. With SOFR equal to 4\%, no cash flows will be exchanged unless interest rates change. But now suppose that the yield curve immediately shifts up to 5\%. The floating-rate payer now is obligated to pay a cash flow of (.05 – .04) × \$1 million = \$10,000 each year to the fixed-rate payer (as long as rates remain at 5\%). If the floating-rate payer defaults on the swap, the fixed-rate payer loses that 5-year annuity. The present value of that annuity is \$10,000 × Annuity factor (5\%, 5 years) = \$43,295, which is only a bit more than 4\% of notional principal. We conclude that the credit risk of the swap is far less than notional principal.
 
 ### Credit Default Swaps
 

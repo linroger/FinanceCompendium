@@ -3,12 +3,25 @@ title: "Chapter 25 - International Diversification"
 aliases:
   - International Diversification
 parent_directory: Part 7 - Applied Portfolio Management
+formatted: 2025-12-21 02:15:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+primary_tags:
+  - international diversification
+  - exchange rate risk
+  - political risk
+  - home country bias
+secondary_tags:
+  - emerging markets
+  - developed markets
+  - currency hedging
+  - global equity markets
+  - international investing
+  - portfolio risk management
 cssclasses: academia
 ---
 
 # International Diversification
-
-# 25
 
 ALTHOUGH WE IN the United States customarily use a broad index of U.S. equities as the market-index portfolio, the practice is increasingly inappropriate. U.S. equities represent only about  $40\%$  of world equities and a far smaller fraction of total world wealth. In this chapter, we look beyond domestic markets to survey issues of international and extended diversification.
 
@@ -31,7 +44,7 @@ U.S. investors also can trade derivative securities based on prices in foreign s
 
 The investments industry commonly distinguishes between "developed" and "emerging" markets. A typical emerging economy still is undergoing industrialization, is growing faster than developed economies, and has capital markets that usually entail greater risk. We use the FTSE $^1$  classifications, which emphasize capital market conditions, to characterize markets as emerging or developed.
 
-# Developed Countries
+## Developed Countries
 
 To appreciate the myopia of an exclusive investment focus on U.S. stocks and bonds, consider the data in Table 25.1. The U.S. accounts for only  $41\%$  of world stock market capitalization. Clearly, active investors can attain better risk-return trade-offs by extending their search for attractive securities abroad. Developed countries accounted for  $53.6\%$  of world gross domestic product and  $74.5\%$  of world market capitalization.
 
@@ -45,15 +58,15 @@ Market capitalization and GDP ( billion) of selected developed markets, 2020.
 
 Sources: World Federation of Exchanges; World Bank; and The PRS Group, Inc., International Country Risk Guide, 2021.
 
-# Emerging Markets
+## Emerging Markets
 
 For a passive strategy, one could argue that a portfolio of equities of just the eight developed markets with the largest capitalization would make up over two-thirds of the world portfolio and may be sufficiently diversified. However, this argument will not hold for active portfolios that seek to tilt investments toward promising assets. Active portfolios will naturally include many stocks or indexes of emerging markets.
 
 Surely, active portfolio managers do not want to neglect stocks in dynamic markets such as China. Table 25.2 shows data from the largest emerging markets. The economies in this table account for almost one-third of the world GDP. Per capita GDP in these emerging markets is quite variable, ranging from  \$1,826 (India) to\$ 60,621 (Qatar). Market capitalization as a percent of GDP in these countries still tends to be considerably lower than in the developed countries in Table 25.1, suggesting that these markets can grow significantly over the coming years, even without spectacular growth in GDP.
 
-# Market Capitalization and GDP
+### Market Capitalization and GDP
 
-A contemporary view of economic development holds that an important requirement for economic advancement is a developed code of business laws, institutions, and regulations
+A contemporary view of economic development holds that an important requirement for economic advancement is a developed code of business laws, institutions, and regulations.
 
 <table><tr><td>Country Name</td><td>Market Cap
 ($ billion)</td><td>Percent of
@@ -71,7 +84,7 @@ that allows citizens to legally own, capitalize, and trade capital assets. As a 
 
 Figure 25.1 depicts the relationship between per capita GDP and market capitalization for both emerging and developed markets. The positive slopes of the regression lines show that, on average, countries whose capital markets play larger roles in their economies also tend to have higher levels of per capita GDP. While this single-variable correlation cannot establish causality, it is at least consistent with the notion that well-functioning security markets that effectively allocate capital can also contribute to productivity. This pattern emerges even when we treat developed and emerging markets separately.
 
-# Home-Country Bias
+## Home-Country Bias
 
 We know that purely passive investment strategies would call for risky portfolios that are indexed to a broad market portfolio. In the international context, that market portfolio would include stock markets from all nations, and the market index would be a broadly diversified world portfolio.
 
@@ -84,11 +97,11 @@ Source: Compiled from data in Table 25.1.
 
 # 25.2 Exchange Rate Risk and International Diversification
 
-# Exchange Rate Risk
+## Exchange Rate Risk
 
 When a U.S. investor invests abroad, the dollar-denominated return depends on two factors: first, the performance of the investment in the local currency, and second, the exchange rate at which that investment can be brought back into dollars.
 
-# Example 25.1 Exchange Rate Risk
+### Example 25.1 Exchange Rate Risk
 
 Consider an investment in risk-free British government bills paying  $10 \%$ annual interest in British pounds. While these U.K. bills would be the risk- free asset to a British investor, this is not the case for a U.S. investor. Suppose, for example, the current exchange rate is  \$1.40 per pound and the U.S. investor starts with\$ 14,000. That amount can be exchanged for £10,000 and invested at a riskless  $10 \%$ rate in the United Kingdom to provide £11,000 in one year.
 
@@ -111,9 +124,7 @@ Source: Author's calculations.
 
 The year 2021 was generally a quiet year for exchange rates, but even then, exchange rate fluctuations had large effects on dollar-denominated returns in some countries, for example, Turkey and Argentina, both of which experienced large currency depreciations.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/6aaf243733d778b8d36df347182afe78cc3ffc4b5db417a0040426da725d2b2e.jpg)
-
-# Concept Check 25.1
+### Concept Check 25.1
 
 Using the data in Example 25.1, calculate the rate of return in dollars to a U.S. investor holding the British bill if the year-end exchange rate is (a)  $E_{1} = \1.40 / \text{£}; (b) E_{1} = \$ 1.50 / \text{£} .
 
@@ -158,13 +169,13 @@ $$
 $$ where  r(\text{foreign})  is the possibly risky return earned in the currency of the foreign investment and exchange rates are direct quotes ( per unit of foreign currency). You can set up a perfect hedge only in the special case that  r(\text{foreign})  is actually known. In that case, you must sell in the forward or futures market an amount of foreign currency equal to [1 + r(\text{foreign})] for each unit of that currency you purchase today.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/b717db57c47cc4ca57b48f97d64fd25c792bb3c5f497b1c843e35b2cd6bdc469.jpg)
 
-# Concept Check 25.2
+
+### Concept Check 25.2
 
 How many pounds would the investor in Example 25.2 need to sell forward to hedge exchange rate risk if (a)  $r(\mathrm{UK}) = 20\%;$  (b)  $r(\mathrm{UK}) = 30\%$ ?
 
-# Investment Risk in International Markets
+## Investment Risk in International Markets
 
 While active-strategy managers engage in both individual-market asset allocation as well as security selection, we will restrict our focus to market-index portfolios across countries, keeping us on the side of an enhanced passive strategy. Nevertheless, our analysis illustrates the essential features of extended active management as well.
 
@@ -197,14 +208,14 @@ The second pair of columns in Table 25.5 show the residual standard deviation fo
 
 Source: Authors' calculations using returns downloaded from Datastream.
 
-# Table 25.5
+
 
 Index model regressions of country or region indexes against the MSCI World index using both local and dollar-denominated returns included in each region. Average country-specific risk is essentially the same regardless of whether returns are measured in local or foreign currency. By and large, country-specific risk is meaningful. Even the U.S. value of  $0.8\%$  per month (dollar-denominated returns) is not trivial. The message is that international diversification is potentially valuable.
 
 
 By and large, the results in Table 25.4 and Table 25.5 indicate that investment risk is pretty much the same regardless of whether we use local currency or dollar-denominated returns. Therefore, we will focus largely on local-currency returns when we turn to the potential for international diversification in the next section.
 
-# International Diversification
+## International Diversification
 
 In Chapter 7, we looked at the risk of equally weighted portfolios composed of different numbers of U.S. stocks chosen at random and saw the efficacy of naive diversification. Figure 25.3 presents the results of a similar
 
@@ -238,7 +249,7 @@ Source: Authors' calculations using returns downloaded from Datastream.
 
 Source: Authors' calculations using monthly returns downloaded from Datastream.
 
-# Table 25.7
+
 
 Composition and volatility of internationally diversified portfolios potential benefits from diversification than the naïve diversification exercise conducted in Figure 25.3.
 
@@ -249,7 +260,7 @@ What about efficient diversification that achieves the best risk-return trade-of
 
 The frontier in Figure 25.4 makes clear the benefits of international diversification. The U.S. market index appears as the solid dot. Given the fact that the U.S. has the highest Sharpe ratio of any individual country, it is perhaps not surprising that it plots near the boundary of the efficient frontier. Nevertheless, it is still located substantially below
 
-# Table 25.8
+
 
 Expected rates of return using local-currency betas against the MSCI World portfolio and an international CAPM
 
@@ -262,7 +273,7 @@ Figure 25.4 Efficient frontier and CAL using country and regional stock indexes
 Source: Authors' calculations using data from Tables 25.4, 25.6, and 25.8.
 
 
-# Are Benefits from International Diversification Preserved in Bear Markets?
+## Are Benefits from International Diversification Preserved in Bear Markets?
 
 Some studies suggest that correlation in country portfolio returns increases during periods of turbulence in capital markets. If so, benefits from diversification would be lost exactly when they are needed the most. For example, a study by Roll of the crash of October 1987 shows that all 23 country indexes studied declined over the crash period of October 12-26. Figure 25.5 shows returns of stock indexes from around the world on either October 19 or, to account for time zone differences, October 19-20. These common extreme losses indicate substantial cross-border correlation. Roll found that the beta of a country index on the world index (estimated prior to the crash) was the best predictor of that index's response to the October crash of the U.S. stock market. This suggests a common factor underlying the movement of stocks around the world. This model predicts that a macroeconomic shock would affect all countries and that while diversification can mitigate risk, it cannot eliminate exposure to such broad-based events.
 
@@ -281,7 +292,7 @@ Source:Authors' calculations.
 
 <table><tr><td rowspan="2">Market</td><td colspan="2">Average Monthly Return</td><td rowspan="2">Deviation from Average</td><td rowspan="2">Beta on U.S.</td><td rowspan="2">SD</td></tr><tr><td>1999–2008</td><td>2008: Sept.–Dec.</td></tr><tr><td>USA</td><td>-0.47</td><td>-8.31</td><td>-7.84</td><td>1</td><td>4.81</td></tr><tr><td>World largest six (non-U.S.) markets</td><td>-0.16</td><td>-7.51</td><td>-7.35</td><td>0.77</td><td>4.71</td></tr><tr><td>EU developed markets</td><td>-0.05</td><td>-10.34</td><td>-10.29</td><td>1.06</td><td>6.08</td></tr><tr><td>Other Europe developed markets</td><td>-0.14</td><td>-7.59</td><td>-7.73</td><td>0.82</td><td>4.95</td></tr><tr><td>Australia + Far East</td><td>-0.10</td><td>-9.29</td><td>-9.38</td><td>1.04</td><td>6.21</td></tr><tr><td>Emerging Far East + South Africa</td><td>-0.20</td><td>-9.70</td><td>-9.90</td><td>1.01</td><td>7.10</td></tr><tr><td>Emerging Latin America</td><td>-0.80</td><td>-11.72</td><td>-12.52</td><td>1.27</td><td>7.83</td></tr><tr><td>Emerging markets in Europe</td><td>-0.90</td><td>-15.43</td><td>-16.32</td><td>1.38</td><td>9.54</td></tr><tr><td>World minus U.S. (48 countries by cap)</td><td>-0.01</td><td>-8.79</td><td>-8.81</td><td>0.91</td><td>5.19</td></tr><tr><td>World portfolio (by country cap)</td><td>-0.15</td><td>-8.60</td><td>-8.45</td><td>0.94</td><td>4.88</td></tr></table>
 
-# 25.3 Political Risk
+## 25.3 Political Risk
 
 In principle, security analysis at the macroeconomic, industry, and firm-specific levels is similar in all countries. Such analysis aims to provide estimates of expected returns and risks of individual assets and portfolios. However, information about assets in a foreign country is by nature more difficult to acquire.
 
@@ -297,7 +308,7 @@ Finally, Table 25.12 shows ratings of political risk by each of its 12 component
 
 <table><tr><td>Rank</td><td>Country</td><td>Risk rating, January 2021</td><td>Risk rating, February 2020</td></tr><tr><td>1</td><td>Singapore</td><td>79.5</td><td>85.0</td></tr><tr><td>10</td><td>Germany</td><td>78.3</td><td>82.5</td></tr><tr><td>14</td><td>Canada</td><td>77.8</td><td>82.5</td></tr><tr><td>15</td><td>United Kingdom</td><td>77.3</td><td>78.8</td></tr><tr><td>17</td><td>Hong Kong</td><td>77.0</td><td>78.8</td></tr><tr><td>21</td><td>Japan</td><td>75.3</td><td>81.0</td></tr><tr><td>37</td><td>China</td><td>70.5</td><td>72.5</td></tr><tr><td>38</td><td>United States</td><td>70.0</td><td>77.5</td></tr><tr><td>41</td><td>Mexico</td><td>69.8</td><td>68.8</td></tr><tr><td>43</td><td>Italy</td><td>69.5</td><td>76.0</td></tr><tr><td>50</td><td>France</td><td>68.8</td><td>75.0</td></tr><tr><td>58</td><td>India</td><td>67.5</td><td>71.0</td></tr><tr><td>61</td><td>Cuba</td><td>66.8</td><td>70.0</td></tr><tr><td>66</td><td>Russia</td><td>66.5</td><td>72.8</td></tr><tr><td>109</td><td>Iran</td><td>59.3</td><td>62.0</td></tr><tr><td>120</td><td>Turkey</td><td>56.3</td><td>61.3</td></tr><tr><td>134</td><td>Somalia</td><td>50.5</td><td>53.5</td></tr><tr><td>138</td><td>Syria</td><td>46.8</td><td>55.8</td></tr><tr><td>139</td><td>Venezuela</td><td>42.8</td><td>43.0</td></tr><tr><td>140</td><td>Sudan</td><td>39.3</td><td>43.8</td></tr></table>
 
-# Table 25.9
+
 
 Composite risk ratings for January 2021 and February 2020
 
@@ -324,11 +335,11 @@ Source: The PRS Group, Inc., International Country Risk Guide, January 2021.
 
 Table 25.12
 
-# 25.4 International Investing and Performance Attribution
+## 25.4 International Investing and Performance Attribution
 
 Because many security markets may be less efficient than those in highly developed economies such as the U.S., international investing offers greater opportunities for active managers. International investing calls for specialization in additional fields of analysis: currency movements, country prospects, and industry analysis in a worldwide context; it also entails a larger universe for stock selection.
 
-# Constructing a Benchmark Portfolio of Foreign Assets
+### Constructing a Benchmark Portfolio of Foreign Assets
 
 Active (as well as passive) international investing requires a benchmark portfolio (called the bogey). One widely used international market index is the MSCI World index. MSCI also computes variants on this index that exclude some large markets such as the U.S.
 
@@ -349,14 +360,14 @@ Source: Authors' calculations using data in Table 25.1.
 
 This Excel model provides an efficient frontier analysis similar to that in Chapter 7. In Chapter 7 the frontier was based on individual securities, whereas this model examines the returns on international exchange-traded funds and enables us to analyze the benefits of international diversification. The Excel spreadsheet is available in Connect or through your course instructor.
 
-# Excel Questions
+### Excel Questions
 
 1. Find three points on the efficient frontier corresponding to three different expected returns. What are the portfolio standard deviations corresponding to each expected return?
 2. Now assume that the correlation between the S&P 500 and the other country indexes is cut in half. Find the new standard deviations corresponding to each of the three expected returns. Are they higher or lower? Why?
 
 <table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td></tr><tr><td>58</td><td></td><td colspan="7"> Bordered\ Covariance Matrix for Target Return Portfolio </td><td></td><td></td></tr><tr><td>59</td><td></td><td>EWD</td><td>EWH</td><td>EWI</td><td>EWJ</td><td>EWL</td><td>EWP</td><td>EWW</td><td>SP 500</td><td></td></tr><tr><td>60</td><td>Weights</td><td>0.00</td><td>0.00</td><td>0.08</td><td>0.38</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.52</td><td></td></tr><tr><td>61</td><td>0.0000</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td></td></tr><tr><td>62</td><td>0.0000</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td></td></tr><tr><td>63</td><td>0.0826</td><td>0.00</td><td>0.00</td><td>4.63</td><td>3.21</td><td>0.55</td><td>0.00</td><td>0.00</td><td>7.69</td><td></td></tr><tr><td>64</td><td>0.3805</td><td>0.00</td><td>0.00</td><td>3.21</td><td>98.41</td><td>1.82</td><td>0.00</td><td>0.00</td><td>53.79</td><td></td></tr><tr><td>65</td><td>0.0171</td><td>0.00</td><td>0.00</td><td>0.55</td><td>1.82</td><td>0.14</td><td>0.00</td><td>0.00</td><td>2.09</td><td></td></tr><tr><td>66</td><td>0.0000</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td></td></tr><tr><td>67</td><td>0.0000</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td></td></tr><tr><td>68</td><td>0.5198</td><td>0.00</td><td>0.00</td><td>7.69</td><td>53.79</td><td>2.09</td><td>0.00</td><td>0.00</td><td>79.90</td><td></td></tr><tr><td>69</td><td>1.0000</td><td>0.00</td><td>0.00</td><td>16.07</td><td>157.23</td><td>4.59</td><td>0.00</td><td>0.00</td><td>143.47</td><td></td></tr><tr><td>70</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>71</td><td>Port Via</td><td>321.36</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>72</td><td>Port S.D.</td><td>17.93</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>73</td><td>Port Mean</td><td>12.00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>74</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>75</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>76</td><td></td><td></td><td></td><td></td><td>Weights</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>77</td><td>Mean</td><td>St. Dev</td><td>EWD</td><td>EWH</td><td>EWI</td><td>EWJ</td><td>EWL</td><td>EWP</td><td>EWW</td><td>SP 500</td></tr><tr><td>78</td><td>6</td><td>21.89</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.71</td><td>0.00</td><td>0.02</td><td>0.00</td><td>0.26</td></tr><tr><td>79</td><td>9</td><td>19.66</td><td>0.02</td><td>0.00</td><td>0.02</td><td>0.53</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.41</td></tr><tr><td>80</td><td>12</td><td>17.93</td><td>0.00</td><td>0.00</td><td>0.08</td><td>0.38</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.52</td></tr><tr><td>81</td><td>15</td><td>16.81</td><td>0.00</td><td>0.00</td><td>0.14</td><td>0.22</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.62</td></tr><tr><td>82</td><td>18</td><td>16.46</td><td>0.00</td><td>0.00</td><td>0.19</td><td>0.07</td><td>0.02</td><td>0.00</td><td>0.00</td><td>0.73</td></tr><tr><td>83</td><td>21</td><td>17.37</td><td>0.00</td><td>0.00</td><td>0.40</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.60</td></tr><tr><td>84</td><td>24</td><td>21.19</td><td>0.00</td><td>0.00</td><td>0.72</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.28</td></tr><tr><td>85</td><td>27</td><td>26.05</td><td>0.00</td><td>0.00</td><td>1.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr><tr><td>86</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>87</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-# Performance Attribution
+### Performance Attribution
 
 We can measure the contribution of each of the following decisions to portfolio performance following a procedure similar to the performance attribution techniques introduced in Chapter 24.
 
@@ -373,9 +384,9 @@ Example of performance attribution: International.
 
 <table><tr><td></td><td>EAFE Weight</td><td>Return on Equity Index</td><td>Currency Appreciation  E_1 / E_0 - 1 </td><td>Manager&#x27;s Weight</td><td>Manager&#x27;s Return</td></tr><tr><td>Europe</td><td>0.30</td><td>10\%</td><td>10\%</td><td>0.35</td><td>8\%</td></tr><tr><td>Australasia</td><td>0.10</td><td>5</td><td>-10</td><td>0.10</td><td>7</td></tr><tr><td>Far East</td><td>0.60</td><td>15</td><td>30</td><td>0.55</td><td>18</td></tr><tr><td colspan="6">Overall performance (dollar return = local return + currency appreciation)</td></tr><tr><td>EAFE:</td><td colspan="5">0.30(10+10) + 0.10(5-10) + 0.60(15+30) = 32.5\%</td></tr><tr><td>Manager:</td><td colspan="5">0.35(8+10) + 0.10(7-10) + 0.55(18+30) = 32.4\%</td></tr><tr><td colspan="6">Loss of 0.10\% relative to EAFE</td></tr><tr><td colspan="6">Currency selection</td></tr><tr><td>EAFE:</td><td colspan="5">(0.30×10\%) + (0.10×(-10\%)) + (0.60×30\%) = 20\% appreciation</td></tr><tr><td>Manager:</td><td colspan="5">(0.35×10\%) + (0.10×(-10\%)) + (0.55×30\%) = 19\% appreciation</td></tr><tr><td colspan="6">Loss of 1\% relative to EAFE</td></tr><tr><td colspan="6">Country selection</td></tr><tr><td>EAFE:</td><td colspan="5">(0.30×10\%) + (0.10×5\%) + (0.60×15\%) = 12.5\%</td></tr><tr><td>Manager:</td><td colspan="5">(0.35×10\%) + (0.10×5\%) + (0.55×15\%) = 12.25\%</td></tr><tr><td colspan="6">Loss of 0.25\% relative to EAFE</td></tr><tr><td colspan="6">Stock selection</td></tr><tr><td colspan="6">(8\%-10\%)0.35+(7\%-5\%)0.10+(18\%-15\%)0.55=1.15\%</td></tr><tr><td colspan="6">Contribution of 1.15\% relative to EAFE</td></tr><tr><td colspan="6">Sum of attributions (equal to overall performance)</td></tr><tr><td colspan="6">Currency (-1\%) + country (-.25\%) + selection (1.15\%) = -0.10\%</td></tr></table>
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/a3b00adfd551a3d3cfc372c5b3a17a763c006eaed5f02050f0cee55c4768a3e4.jpg)
 
-# Concept Check 25.3
+
+### Concept Check 25.3
 
 Using the data in Table 25.14, compute the manager's country and currency selections if portfolio weights had been  $40\%$  in Europe,  $20\%$  in Australasia, and  $40\%$  in the Far East.
 
@@ -385,7 +396,7 @@ Using the data in Table 25.14, compute the manager's country and currency select
 4. International investing entails an added dimension of political risk, including uncertainty about government and social stability, democratic accountability, macroeconomic conditions, international trade, and legal protections afforded individuals, businesses, and investors. Several services now exist that sell information about political risk to interested parties.
 5. Several world market indexes can form a basis for passive international investing. Active international management can be partitioned into currency selection, country selection, stock selection, and cash/bond selection.
 
-# SUMMARY exchange rate risk interest rate parity relationship covered interest arbitrage relationship
+## SUMMARY
 
 
 political risk
@@ -393,7 +404,7 @@ Europe, Australasia, Far East (EAFE) index currency selection
 
 country selection stock selection cash/bond selection
 
-# KEY TERMS
+## KEY TERMS
 
 Interest rate parity (covered interest arbitrage) for direct (\$/foreign currency) exchange rates:
 
@@ -401,7 +412,7 @@ $$
 F _ {0} = E _ {0} \frac {1 + r _ {f} (\mathrm {U S})}{1 + r _ {f} (\mathrm {f o r e i g n})}
 $$
 
-# KEY EQUATIONS
+## KEY EQUATIONS
 
 Interest rate parity for indirect (foreign currency/\$) exchange rates:
 
@@ -412,7 +423,7 @@ $$
 1. Do you agree with the following claim? "U.S. companies with global operations can give you international diversification." Think about both business risk and foreign exchange risk.
 2. In Figure 25.2, we provide stock market returns in both local and dollar-denominated terms. Which of these is more relevant? What does this have to do with whether the foreign exchange risk of an investment has been hedged?
 
-# PROBLEM SETS
+## PROBLEM SETS
 
 3. Suppose a U.S. investor wishes to invest in a British firm currently selling for £40 per share. The investor has \$10,000 to invest, and the current exchange rate is \$2/£.
 
@@ -496,7 +507,7 @@ Capital flows into and out of Otunia, and foreign ownership of Otunia securities
 a. Briefly discuss aspects of the Otunia environment that favor investing actively and aspects that favor indexing.
 b. Recommend whether GAC should invest in Otunia actively or by indexing. Justify your recommendation based on the factors identified in part (a).
 
-# E-INVESTMENTS EXERCISES
+## E-INVESTMENTS EXERCISES
 
 A common misconception is that investors can earn excess returns by investing in foreign bonds with higher interest rates than are available in the U.S. Interest rate parity implies that any such interest rate differentials will be offset by premiums or discounts in the forward or futures market for foreign currency.
 
@@ -511,7 +522,7 @@ Forward exchange rates on currency futures contracts can be found at www.cmgroup
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/4b25162ca3a12a6993b7ffe1b230d1a75fa17307fd65762498e7fe44946f2cad.jpg)
 
-# SOLUTIONS TO CONCEPT CHECKS
+## SOLUTIONS TO CONCEPT CHECKS
 
 1.  $1 + r(\mathrm{US}) = [1 + r_f(\mathrm{UK})] \times (E_1 / E_0)$ a.  $1 + r(\mathrm{US}) = 1.1\times (1.40 / 1.40) = 1.10$  . Therefore,  $r(\mathrm{US}) = 10\%$
 
@@ -522,7 +533,7 @@ b.  $1 + r(\mathrm{US}) = 1.1 \times (1.50 / 1.40) = 1.179$ . Therefore,  $r(\ma
 a.  $10,000 \times 1.20 = 12,000$  pounds.
 b.  $10,000 \times 1.30 = 13,000$  pounds.
 
-# 3. Country selection:
+### 3. Country selection:
 
 $$
 (0.40 \times 10\%) + (0.20 \times 5\%) + (0.40 \times 15\%) = 11 \%

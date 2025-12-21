@@ -1,8 +1,24 @@
 ---
-title: "Chapter 3 - Insurance, Collars, and Other Strategies"
-aliases:
-  - Insurance, Collars, and Other Strategies
+title: "Insurance, Collars, and Other Strategies"
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:10:00 AM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
+primary_tags:
+   - options strategies
+   - put call parity
+   - insurance strategies
+   - spreads and collars
+   - volatility speculation
+secondary_tags:
+   - synthetic forwards
+   - covered writing
+   - bull bear spreads
+   - box spreads
+   - straddles strangles
+   - butterfly spreads
+   - zero cost collars
+   - asymmetric butterflies
 cssclasses: academia
 ---
 
@@ -10,19 +26,19 @@ cssclasses: academia
 
 In this chapter we discuss forwards, calls, and puts. We elaborate on the idea that options are insurance. We also examine the link between forward prices and option prices, including the important concept of put-call parity. Finally, we look at some common option strategies, such as spreads, straddles, and collars. Among your goals in this chapter should be to become familiar with drawing and interpreting profit and loss diagrams for option positions.
 
-# I. BASIC INSURANCE STRATEGIES
+## I. BASIC INSURANCE STRATEGIES
 
 There are an infinity of ways to combine options to create different payoffs. In this section we examine two important kinds of strategies in which the option is combined with a position in the underlying asset. First, options can be used to insure long or short asset positions. Second, options can be written against an asset position, in which case the option writer is selling insurance. We consider four positions: being long the asset coupled with a purchased put or written call, and being short the asset coupled with a purchased call or written put.
 
-In this section we use S&R index examples. We assume an index price of  \$1000, a 2\% effective 6-month interest rate, and premiums of\$ 93.809 for the 1000-strike 6-month call and 74.201 for the 1000-strike 6-month put.
+In this section we use S&R index examples. We assume an index price of  \$1000, a 2\% effective 6-month interest rate, and premiums of \$93.809 for the 1000-strike 6-month call and 74.201 for the 1000-strike 6-month put.
 
-# Insuring a Long Position: Floors
+## Insuring a Long Position: Floors
 
 An analysis has demonstrated that put options are insurance against a fall in the price of an asset. Thus, if we own the S&R index, we can insure the position by buying an S&R put option. The purchase of a put option is also called a floor, because we are guaranteeing a minimum sale price for the value of the index.
 
 To examine this strategy, we want to look at the combined payoff of the index position and put. We add them together to see the net effect of holding both positions at the same time.
 
-Table 1 summarizes the result of buying a 1000-strike put with 6 months to expiration, in conjunction with holding an index position with a current value of 1000. The table computes the payoff for each position and sums them to obtain the total payoff. The final column takes account of financing cost by subtracting cost plus interest from the payoff
+Table 1 summarizes the result of buying a 1000-strike put with 6 months to expiration, in conjunction with holding an index position with a current value of 1000. The table computes the payoff for each position and sums them to obtain the total payoff. The final column takes account of financing cost by subtracting cost plus interest from the payoff.
 
 From Chapter 3 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
@@ -30,10 +46,12 @@ TABLEI
 
 Payoff and profit at expiration from purchasing the S&R index and a 1000-strike put option. Payoff is the sum of the first two columns. Cost plus interest for the position is  $(\$  1000 + \$ 74.201)\times 1.02 = \$ 1095.68. $Profit is payoff less$ \ $1095.68\$
 
-<table><tr><td colspan="2">Payoff at Expiration</td><td></td><td></td><td></td></tr><tr><td>S&amp;R Index</td><td>S&amp;R Put</td><td>Payoff</td><td>-(Cost + Interest)</td><td>Profit</td></tr><tr><td>$900</td><td>$100</td><td>$1000</td><td>-$1095.68</td><td>-95.68</td></tr><tr><td>950</td><td>50</td><td>1000</td><td>-1095.68</td><td>-95.68</td></tr><tr><td>1000</td><td>0</td><td>1000</td><td>-1095.68</td><td>-95.68</td></tr><tr><td>1050</td><td>0</td><td>1050</td><td>-1095.68</td><td>-45.68</td></tr><tr><td>1100</td><td>0</td><td>1100</td><td>-1095.68</td><td>4.32</td></tr><tr><td>1150</td><td>0</td><td>1150</td><td>-1095.68</td><td>54.32</td></tr><tr><td>1200</td><td>0</td><td>1200</td><td>-1095.68</td><td>104.32</td></tr></table> to obtain profit. "Cost" here means the initial cash required to establish the position. This is positive when payment is required, and negative when cash is received. We could also have computed profit separately for the put and index. For example, if the index is 900 at expiration, we have
+<table><tr><td colspan="2">Payoff at Expiration</td><td></td><td></td><td></td></tr><tr><td>S&amp;R Index</td><td>S&amp;R Put</td><td>Payoff</td><td>-(Cost + Interest)</td><td>Profit</td></tr><tr><td>$900</td><td>$100</td><td>$1000</td><td>-$1095.68</td><td>-95.68</td></tr><tr><td>950</td><td>50</td><td>1000</td><td>-1095.68</td><td>-95.68</td></tr><tr><td>1000</td><td>0</td><td>1000</td><td>-1095.68</td><td>-95.68</td></tr><tr><td>1050</td><td>0</td><td>1050</td><td>-1095.68</td><td>-45.68</td></tr><tr><td>1100</td><td>0</td><td>1100</td><td>-1095.68</td><td>4.32</td></tr><tr><td>1150</td><td>0</td><td>1150</td><td>-1095.68</td><td>54.32</td></tr><tr><td>1200</td><td>0</td><td>1200</td><td>-1095.68</td><td>104.32</td></tr></table>
+
+to obtain profit. "Cost" here means the initial cash required to establish the position. This is positive when payment is required, and negative when cash is received. We could also have computed profit separately for the put and index. For example, if the index is 900 at expiration, we have
 
 $$
-\underbrace {\underline {{\$ 9 0 0 - (\$ 1 0 0 0 \times 1 . 0 2)}}} _ {\text {P r o f i t o n S & R I n d e x}} + \underbrace {\underline {{\$ 1 0 0 - (\$ 7 4 . 2 0 1 \times 1 . 0 2)}}} _ {\text {P r o f i t o n P u t}} = - \underline {{\$ 9 5 . 6 8}}
+\underbrace{\underline{\$900 - (\$1000 \times 1.02)}}_{\text{Profit on S&R Index}} + \underbrace{\underline{\$100 - (\$74.201 \times 1.02)}}_{\text{Profit on Put}} = -\underline{\$95.68}
 $$
 
 This gives the same result as the calculation performed in Table 1. The level of the floor is -\95.68, which is the lowest possible profit.
@@ -44,7 +62,7 @@ Notice in Figure 1 that the combined position created by adding the index and th
 
 Panel (c), however, illustrates that the payoff to the combined position (index plus put) is not identical to the payoff from buying a call. The difference stems from the fact that buying a call entails paying only the option premium, while buying the index and put entails paying for both the index and the put option, which together are more expensive than buying a call. The profit diagram in panel (d) of Figure 1, however, does look like a call.
 
-# FIGURE I
+## FIGURE I
 
 Panel (a) shows the payoff diagram for a long position in the index (column 1 in Table 1). Panel (b) shows the payoff diagram for a purchased index put with a strike price of \$1000 (column 2 in Table 1). Panel (c) shows the combined payoff diagram for the index and put (column 3 in Table 1). Panel (d) shows the combined profit diagram for the index and put, obtained by subtracting \$1095.68 from the payoff diagram in panel (c) (column 5 in Table 1).
 
@@ -74,13 +92,13 @@ Adding a bond to a payoff diagram shifts it vertically but leaves the correspond
 
 In practice, a buyer of homeowner's insurance also owns the insured asset (the house). Owning a home is analogous to owning the stock index, and insuring the house is like owning a put. Thus, owning a home plus insurance is like owning the index and owning a put. Figure 2 depicts an insurance policy, together with the uninsured house and the combined position. Interpreting the house as the S&R index and insurance as the put, Figure 2 looks exactly like Figure 1. An insured house has a profit diagram that looks like a call option.
 
-# FIGURE 2
+### FIGURE 2
 
-Payoff to owning a house and owning insurance. We assume a  \$25,000 deductible and a\$ 200,000 house, with the policy costing 15,000.
+Payoff to owning a house and owning insurance. We assume a  \$25,000 deductible and a \$200,000 house, with the policy costing 15,000.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/43ecf01eb42e60dc5671a5e012caa2fe7cf8b5913748343ac0353704af53ce5b.jpg)
 
-# Insuring a Short Position: Caps
+## Insuring a Short Position: Caps
 
 If we have a short position in the S&R index, we experience a loss when the index rises. We can insure a short position by purchasing a call option to protect against a higher price of repurchasing the index. Buying a call option is also called a cap.
 
@@ -94,7 +112,7 @@ TABLE 2
 
 <table><tr><td colspan="2">Payoff at Expiration</td><td></td><td></td><td></td></tr><tr><td>Short S&amp;R Index</td><td>S&amp;R Call</td><td>Payoff</td><td>-(Cost + Interest)</td><td>Profit</td></tr><tr><td>-$900</td><td>$0</td><td>-$900</td><td>$924.32</td><td>24.32</td></tr><tr><td>-950</td><td>0</td><td>-950</td><td>924.32</td><td>-25.68</td></tr><tr><td>-1000</td><td>0</td><td>-1000</td><td>924.32</td><td>-75.68</td></tr><tr><td>-1050</td><td>50</td><td>-1000</td><td>924.32</td><td>-75.68</td></tr><tr><td>-1100</td><td>100</td><td>-1000</td><td>924.32</td><td>-75.68</td></tr><tr><td>-1150</td><td>150</td><td>-1000</td><td>924.32</td><td>-75.68</td></tr><tr><td>-1200</td><td>200</td><td>-1000</td><td>924.32</td><td>-75.68</td></tr></table>
 
-# FIGURE 3
+## FIGURE 3
 
 Panel (a) shows the payoff diagram for a short position in the index (column 1 in Table 2). Panel (b) shows the payoff diagram for a purchased index call with a strike price of  \$1000 (column 2 in Table 2). Panel (c) shows the combined payoff diagram for the short index and long call (column 3 in Table 2). Panel (d) shows the combined profit diagram for the short index and long call, obtained by adding\$ 924.32 to the payoff diagram in panel (c) (column 5 in Table 2).
 
@@ -122,7 +140,7 @@ Profit ($)
 
 (d)
 
-# Selling Insurance
+## Selling Insurance
 
 We can expect that some investors want to purchase insurance. However, for every insurance buyer there must be an insurance seller. In this section we examine strategies in which investors sell insurance.
 
@@ -135,7 +153,7 @@ Covered Call Writing. If we own the S&R index and simultaneously sell a call opt
 The covered call looks exactly like a written put, and the maximum profit will be the same as with a written put. Suppose the index is 1100 at expiration. The profit is
 
 $$
-\underbrace {\underline {{\underline {{S 1 1 0 0 - (\underline {{S 1 0 0 0 \times 1 . 0 2}})}}}} + \underbrace {(\underline {{\underline {{S 9 3 . 8 0 9 \times 1 . 0 2}}}}) - \underline {{\underline {{S 1 0 0}}}}} _ {\text {P r o f i t o n S & R I n d e x}} = \underline {{\underline {{S 7 5 . 6 8}}}}
+\underbrace{\underline{\$1100 - (\$1000 \times 1.02)} + (\$93.809 \times 1.02) - \$100}_{\text{Profit on S&R Index}} = \underline{\$75.68}
 $$ which is the future value of the premium received from writing a 1000-strike put.
 
 
@@ -193,22 +211,24 @@ Payoff ($)
 
 A position where you have a constant payoff below the strike and increasing losses above the strike sounds like a written call. In fact, shorting the index and writing a put produces a profit diagram that is exactly the same as for a written call. Figure 5 shows this graphically, and Problem 2 asks you to verify this by constructing a payoff table.
 
-# 2. PUT-CALL PARITY
+## 2. PUT-CALL PARITY
 
 We now discuss put-call parity, which is one of the most important relationships in the theory of options. The parity equation tells us the difference in the premiums of puts and calls, when the two options have the same strike price and time to expiration. In this section we will first discuss the use of options to create synthetic forward contracts. We then develop the put-call parity equation.
 
-# Synthetic Forwards
+## Synthetic Forwards
 
 It is possible to mimic a long forward position on an asset by buying a call and selling a put, with each option having the same strike price and time to expiration. For example, we could buy the 6-month 1000-strike S&R call for \$93.81 and sell the 6-month 1000-strike S&R put for \$74.20. This position resembles a long forward contract: In 6 months we will pay 1000 to buy the index. An important difference between the forward and the option
 
-# FIGURE 6
+## FIGURE 6
 
 Purchase of a 1000-strike S&R call, sale of a 1000-strike S&R put, and the combined position. The combined position resembles the profit on a long forward contract.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7841db5397c6c9e6ded0ef79f8b09828b17ecbefc9628f90a0e386ca14a03d0d.jpg) position is that the forward contract has no premium, but the options have a net cost of  $93.81 -$ 74.20 = 19.61.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7841db5397c6c9e6ded0ef79f8b09828b17ecbefc9628f90a0e386ca14a03d0d.jpg)
+
+position is that the forward contract has no premium, but the options have a net cost of $93.81 - $74.20 = 19.61.
 
 
-To better understand this position, suppose that the index in 6 months is at 900. We will not exercise the call, but we have written a put. The put buyer will exercise the right to sell the index for  \$1000; therefore we are obligated to buy the index at\$ 1000. If instead the index is at \$1100, the put is not exercised, but we exercise the call, buying the index for \$1000. Thus, whether the index rises or falls, when the options expire we buy the index for the strike price of the options, 1000.
+To better understand this position, suppose that the index in 6 months is at 900. We will not exercise the call, but we have written a put. The put buyer will exercise the right to sell the index for \$1000; therefore we are obligated to buy the index at \$1000. If instead the index is at \$1100, the put is not exercised, but we exercise the call, buying the index for \$1000. Thus, whether the index rises or falls, when the options expire we buy the index for the strike price of the options, 1000.
 
 The purchased call, written put, and combined positions are shown in Figure 6. The purchase of a call and sale of a put creates a synthetic long forward contract, which has two minor differences from the actual forward:
 
@@ -221,7 +241,7 @@ Similarly, if we set the strike price high, we are obligated to buy the index at
 
 Finally, if we set the strike price equal to the forward price, then to mimic the forward the initial premium must equal zero. In this case, put and call premiums must be equal.
 
-# The Put-Call Parity Equation
+## The Put-Call Parity Equation
 
 We can summarize this argument by saying that the net cost of buying the index at a future date using options must equal the net cost of buying the index using a forward contract. If at time 0 we enter into a long forward position expiring at time  $T$ , we obligate ourselves to buy the index at the forward price,  $F_{0,T}$ . The present value of buying the index in the future is just the present value of the forward price,  $\mathrm{PV}(F_{0,T})$ .
 
@@ -230,17 +250,13 @@ If instead we buy a call and sell a put today to guarantee the purchase price fo
 Equating the costs of the alternative ways to buy the index at time  $t$  gives us
 
 $$
-
-\operatorname {P V} \left(F _ {0, T}\right) = \left[ \operatorname {C a l l} (K, T) - \operatorname {P u t} (K, T) \right] + \operatorname {P V} (K)
-
+\operatorname{PV}(F_{0,T}) = [\operatorname{Call}(K,T) - \operatorname{Put}(K,T)] + \operatorname{PV}(K)
 $$
 
 We can rewrite this as
 
 $$
-
-\operatorname {C a l l} (K, T) - \operatorname {P u t} (K, T) = \operatorname {P V} \left(F _ {0, T} - K\right) \tag {1}
-
+\operatorname{Call}(K,T) - \operatorname{Put}(K,T) = \operatorname{PV}(F_{0,T} - K) \tag{1}
 $$
 
 In words, the present value of the bargain element from buying the index at the strike price [the right-hand side of equation (1)] must equal the initial net option premium [the left-hand side of equation (1)]. Equation (1) is known as put-call parity.
@@ -248,9 +264,7 @@ In words, the present value of the bargain element from buying the index at the 
 Example 1. As an example of equation (1), consider buying the 6-month 1000-strike S&R call for a premium of \$93.809 and selling the 6-month 1000-strike put for a premium of \$74.201. These transactions create a synthetic forward permitting us to buy the index in 6 months for \$1000. Because the actual forward price is \$1020, this synthetic forward permits us to buy the index at a bargain of \$20, the present value of which is $20/1.02 = $19.61. The difference in option premiums is also $19.61 ($93.809 - \$74.201 = 19.61). This result is exactly what we get with equation (1):
 
 $$
-
-\$ 93.809 - \$ 74.201 = \mathrm {P V} (\$ 1020 - \$ 1000)
-
+\$93.809 - \$74.201 = \mathrm{PV}(\$1020 - \$1000)
 $$
 
 A forward contract for which the premium is not zero is sometimes called an off-market forward. This terminology arises since a true forward by definition has a zero premium. Therefore, a forward contract with a nonzero premium must have a forward price that is "off the market (forward) price." Unless the strike price equals the forward price, buying a call and selling a put creates an off-market forward.
@@ -262,9 +276,10 @@ Consider buying the index and buying a put, as in Section 1. Recall that, in thi
 Thus, the present value of the forward price equals the index price. Rewriting equation (1) gives
 
 $$
-
-\begin{array}{l} \operatorname {P V} \left(F _ {0, T}\right) + \operatorname {P u t} (K, T) = \operatorname {C a l l} (K, T) + \operatorname {P V} (K) \\ \$ 1000 + \$ 74.201 = \$ 93.809 + \$ 980.39 \\ \end{array}
-
+\begin{array}{l}
+\operatorname{PV}(F_{0,T}) + \operatorname{Put}(K,T) = \operatorname{Call}(K,T) + \operatorname{PV}(K) \\
+\$1000 + \$74.201 = \$93.809 + \$980.39
+\end{array}
 $$
 
 That is, buying the index and buying the put cost the same, and generate the same payoff, as buying the call and buying a zero-coupon bond costing  $\mathrm{PV}(K)$ .
@@ -272,22 +287,20 @@ That is, buying the index and buying the put cost the same, and generate the sam
 Similarly, in the case of writing a covered call, we have
 
 $$
-
-\operatorname {P V} \left(F _ {0, T}\right) - \operatorname {C a l l} (K, T) = \operatorname {P V} (K) - \operatorname {P u t} (K, T)
-
+\operatorname{PV}(F_{0,T}) - \operatorname{Call}(K,T) = \operatorname{PV}(K) - \operatorname{Put}(K,T)
 $$
 
 That is, writing a covered call has the same profit as lending  $\mathrm{PV}(K)$  and selling a put. Equation (1) provides a tool for constructing equivalent positions.
 
 No Arbitrage. In deriving equation (1), and in some earlier discussions, we relied on the idea that if two different investments generate the same payoff, they must have the same cost. If equation (1) did not hold, there would be both low-cost and high-cost ways to acquire the index at time  $T$ . We could simultaneously buy the index at low cost and sell the index at high cost. This transaction has no risk (since we both buy and sell the index) and generates a positive cash flow (because of the difference in costs). Taking advantage of such an opportunity is called arbitrage, and the idea that prices should not permit arbitrage is called "no-arbitrage pricing." We implicitly illustrated this idea earlier in showing how owning the index and buying a put has the same profit as a call, etc.
 
-# 3. SPREADS AND COLLARS
+## 3. SPREADS AND COLLARS
 
 There are many well-known, commonly used strategies that combine two or more options. In this section we discuss some of these strategies and explain the motivation for using them. The underlying theme in this section is that there are always trade-offs in designing a position: It is always possible to lower the cost of a position by reducing its payoff. Thus there are many variations on each particular strategy.
 
 All the examples in this section will use the set of option prices in Table 4. We will assume the continuously compounded interest rate is  $8\%$ .
 
-# Bull and Bear Spreads
+## Bull and Bear Spreads
 
 An option spread is a position consisting of only calls or only puts, in which some options are purchased and some written. Spreads are a common strategy. In this section we define some typical spread strategies and explain why you might use a spread.
 
@@ -296,7 +309,9 @@ Suppose you believe a stock will appreciate. Let's compare two ways to speculate
 TABLE 4
 Black-Scholes option prices assuming stock price  $= \$  40 , volatility  $= 30\%$ , effective annual risk-free rate  $= 8.33\%$  (8\%, continuously compounded), dividend yield  $= \ 0$ , and 91 days to expiration.
 
-<table><tr><td>Strike</td><td>Call</td><td>Put</td></tr><tr><td>35</td><td>6.13</td><td>0.44</td></tr><tr><td>40</td><td>2.78</td><td>1.99</td></tr><tr><td>45</td><td>0.97</td><td>5.08</td></tr></table> price at expiration is greater than the forward price, the forward contract and call have the same payoff. If the stock price is less than the forward price, however, the forward contract has a loss and the call is worth zero. Put-call parity tells us that the call is equivalent to the forward contract plus a put option. Thus, the call premium equals the cost of the put, which is insurance against the stock price being less than the forward price.
+<table><tr><td>Strike</td><td>Call</td><td>Put</td></tr><tr><td>35</td><td>6.13</td><td>0.44</td></tr><tr><td>40</td><td>2.78</td><td>1.99</td></tr><tr><td>45</td><td>0.97</td><td>5.08</td></tr></table>
+
+price at expiration is greater than the forward price, the forward contract and call have the same payoff. If the stock price is less than the forward price, however, the forward contract has a loss and the call is worth zero. Put-call parity tells us that the call is equivalent to the forward contract plus a put option. Thus, the call premium equals the cost of the put, which is insurance against the stock price being less than the forward price.
 
 
 You might ask: Is there a lower-cost way to speculate that the stock price will rise, that still has the insurance implicit in the call? The answer is yes: You can lower the cost of your strategy if you are willing to reduce your profit should the stock appreciate. You can do this by selling a call at a higher strike price. The owner of this second call buys appreciation above the higher strike price and pays you a premium. You achieve a lower cost by giving up some portion of profit. A position in which you buy a call and sell an otherwise identical call with a higher strike price is an example of a bull spread.
@@ -330,7 +345,7 @@ Profit ($)
 
 The opposite of a bull spread is a bear spread. Using the options from the above example, we could create a bear spread by selling the 40-strike call and buying the 45-strike call. The profit diagram would be exactly the opposite of Figure 7.
 
-# Box Spreads
+## Box Spreads
 
 A box spread is accomplished by using options to create a synthetic long forward at one price and a synthetic short forward at a different price. This strategy guarantees a cash flow in the future. Hence, it is an option spread that is purely a means of borrowing or lending money: It is costly but has no stock price risk. The reasons for using a box spread are discussed in Box 1.
 
@@ -343,34 +358,30 @@ Example 3. Suppose we simultaneously enter into the following two transactions:
 The first transaction is a synthetic forward purchase of a stock for  \$40, while the second transaction is the synthetic forward sale of the stock for\$ 45. Clearly the payoff at expiration will be 5; hence, the transaction has no stock price risk. Using the assumptions in Table 4, the cost of the strategy should be
 
 $$
-
-5 \times (1. 0 8 3 3) ^ {- 0. 2 5} = \$ 4. 9 0
-
+5 \times (1.0833)^{-0.25} = \$4.90
 $$
 
 In fact, using the premiums in Table 4, the initial cash flow is
 
 $$
-
-\left(\mathbb {S} 1. 9 9 - \mathbb {S} 2. 7 8\right) + \left(\mathbb {S} 0. 9 7 - \mathbb {S} 5. 0 8\right) = - \mathbb {S} 4. 9 0
-
+(\$1.99 - \$2.78) + (\$0.97 - \$5.08) = -\$4.90
 $$
 
 Another way to view this transaction is that we have bought a 40-45 bull spread using calls (buy 40 call, sell 45 call), and bought a 40-45 bear spread using puts (sell 40 put, buy 45 put).
 
-# Ratio Spreads
+## Ratio Spreads
 
 A ratio spread is constructed by buying  $m$  options at one strike and selling  $n$  options at a different strike, with all options having the same type (call or put), same time to maturity, and same underlying asset. You are asked to construct ratio spreads in Problem 15. Also, a ratio spread constructed by buying a low-strike call and selling two higher-strike calls is one of the positions depicted in the chapter summary in Figure 16.
 
 Since ratio spreads involve buying and selling unequal numbers of options, it is possible to construct ratio spreads with zero premium. The significance of this may not be obvious to you now, but by using ratio spreads we can construct paylater strategies: insurance that costs nothing if the insurance is not needed. The trade-off to this, as you might guess, is that the insurance is more costly if it is needed.
 
-# Collars
+## Collars
 
 A collar is the purchase of a put and the sale of a call with a higher strike price, with both options having the same underlying asset and the same expiration date. If the position is reversed (sale of a put and purchase of a call), the collar is written. The collar width is the difference between the call and put strikes.
 
 Example 4. Suppose we sell a 45-strike call with a \$0.97 premium and buy a 40-strike put with a \$1.99 premium. This collar is shown in Figure 8. Because the purchased put has a higher premium than the written call, the position requires investment of 1.02.
 
-# BOX I: The Use of Box Spreads
+## BOX I: The Use of Box Spreads
 
 A box spread is an alternative to buying a bond. Option market-makers in particular have low transaction costs and can sell box spreads, which is equivalent to borrowing. Box spreads can therefore be a source of funds. In the past, box spreads also provided a tax benefit for some investors. Although a change in the tax law in 1993 ostensibly eliminated this use of box spreads, the issue provides an illustration of why derivatives create problems for the tax authorities.
 
@@ -387,7 +398,7 @@ In Figure 8, the collar resembles a short forward contract. Economically, it is 
 
 In practice, collars are frequently used to implement insurance strategies—for example, by buying a collar when we own the stock. This position, which we will call a collared stock, entails buying the stock, buying a put, and selling a call. It is an insured position because we own the asset and buy a put. The sale of a call helps to pay for the purchase of the put. The collared stock looks like a bull spread; however, it arises from a different set
 
-# FIGURE 8
+## FIGURE 8
 
 Profit diagram of a purchased collar constructed by selling a 45-strike call and buying a 40-strike put.
 
@@ -400,7 +411,7 @@ If you have a short position in the stock, you can collar the position by buying
 
 Zero-Cost Collars. The collar depicted in Table 6 entails paying a net premium of 1.02: 1.99 for the purchased put, against 0.97 for the written call. It is possible to find strike prices for the put and call such that the two premiums exactly offset one another. This position is called a zero-cost collar.
 
-To illustrate a zero-cost collar, suppose you buy the stock and buy the 40-strike put that has a premium of  \$1.99. Trial and error with the Black-Scholes formula reveals that a call with a strike of\$ 41.72 also has a premium of \$1.99. Thus, you can buy a 40-strike put and sell a 41.72-strike call without paying any premium. The result is depicted in Figure 9. At expiration, the collar exposes you to stock price movements between  \$40 and\$ 41.72, coupled with downside protection below  \$40. You pay for this protection by giving up gains should the stock move above41.72.
+To illustrate a zero-cost collar, suppose you buy the stock and buy the 40-strike put that has a premium of \$1.99. Trial and error with the Black-Scholes formula reveals that a call with a strike of \$41.72 also has a premium of \$1.99. Thus, you can buy a 40-strike put and sell a 41.72-strike call without paying any premium. The result is depicted in Figure 9. At expiration, the collar exposes you to stock price movements between \$40 and \$41.72, coupled with downside protection below \$40. You pay for this protection by giving up gains should the stock move above 41.72.
 
 TABLE 6
 Profit at expiration from purchase of 40-strike put and sale of 45-strike call.
@@ -410,7 +421,7 @@ Profit at expiration from purchase of 40-strike put and sale of 45-strike call.
 45-Call</td><td>Premium
 Plus Interest</td><td>Profit on Stock</td><td>Total</td></tr><tr><td>$35.00</td><td>$5.00</td><td>$0.00</td><td>–$1.04</td><td>–$5.81</td><td>–$1.85</td></tr><tr><td>37.50</td><td>2.50</td><td>0.00</td><td>–1.04</td><td>–3.31</td><td>–1.85</td></tr><tr><td>40.00</td><td>0.00</td><td>0.00</td><td>–1.04</td><td>–0.81</td><td>–1.85</td></tr><tr><td>42.50</td><td>0.00</td><td>0.00</td><td>–1.04</td><td>1.69</td><td>0.65</td></tr><tr><td>45.00</td><td>0.00</td><td>0.00</td><td>–1.04</td><td>4.19</td><td>3.15</td></tr><tr><td>47.50</td><td>0.00</td><td>–2.50</td><td>–1.04</td><td>6.69</td><td>3.15</td></tr><tr><td>50.00</td><td>0.00</td><td>–5.00</td><td>–1.04</td><td>9.19</td><td>3.15</td></tr></table>
 
-# FIGURE 9
+## FIGURE 9
 
 Zero-cost collar on XYZ, created by buying XYZ at  \$40, buying a 40-strike put with a premium of\$ 1.99, and selling a 41.72-strike call with a premium of 1.99.
 
@@ -420,7 +431,7 @@ For any given stock there is an infinite number of zero-cost collars. One way to
 
 Understanding Collars. One aspect of the zero-cost collar that may seem puzzling is that you can finance the purchase of an at-the-money put by selling an out-of-the-money call. In the above example, with the stock at 40, you were able to costlessly buy a 40-strike put by also selling a 41.72-strike call. This makes it seem as if you have free insurance with some possibility of gain. Even if you are puzzled by this, you probably realize that "free"
 
-# Box 2: Bernard Madoff: A Collar by Any Other Name
+## Box 2: Bernard Madoff: A Collar by Any Other Name
 
 In 2009, Bernard L. Madoff confessed to having run a Ponzi scheme in his investment fund, Bernard L. Madoff Investment Securities, LLC. A Ponzi scheme (named after Charles Ponzi) is a fraudulent investment vehicle in which funds paid in by late investors are used to pay off early investors. The sheer scale of Madoff's fraud was astonishing: There was an estimated 65 billion missing from investor accounts. The story dominated the news for weeks, with numerous accounts of individual investors who had lost huge sums in the swindle.
 
@@ -444,11 +455,11 @@ The Cost of the Collar and the Forward Price. Suppose you try to construct a zer
 
 This is an implication of put-call parity, equation (1). It turns out that 40.808 is also the theoretical forward price. If we set the strike equal to the forward price, the call premium equals the put premium.
 
-# 4. SPECULATING ON VOLATILITY
+## 4. SPECULATING ON VOLATILITY
 
 The positions we have just considered are all directional: A bull spread or a collared stock is a bet that the price of the underlying asset will increase. Options can also be used to create positions that are nondirectional with respect to the underlying asset. With a nondirectional position, the holder does not care whether the stock goes up or down, but only how much it moves. We now examine straddles, strangles, and butterfly spreads, which are examples of nondirectional speculations.
 
-# Straddles
+## Straddles
 
 Consider the strategy of buying a call and a put with the same strike price and time to expiration: This strategy is called a straddle. The general idea of a straddle is simple: If the stock price rises, there will be a profit on the purchased call, and if the stock price declines, there will be a profit on the purchased put. Thus, the advantage of a straddle is that it can profit from stock price moves in both directions. The disadvantage to a straddle is that it has a high premium because it requires purchasing two options. If the stock price at expiration is near the strike price, the two premiums are lost. The profit diagram for a 40-strike straddle is graphed in Figure 10. The initial cost of the straddle at a stock price of  \$40 is$ 4.77; $2.78 for the call and \$1.99 for the put.
 
@@ -458,7 +469,7 @@ Strangle. The disadvantage of a straddle is the high premium cost. To reduce the
 
 Figure 11 shows the 40-strike straddle graphed against the 35-45 strangle. This comparison illustrates a key point: In comparing any two fairly priced option positions, there will always be a region where each outperforms the other. Indeed, this is necessary to have a fairly priced position.
 
-# FIGURE 10
+## FIGURE 10
 
 Combined profit diagram for a purchased 40-strike straddle—i.e., purchase of one 40-strike call option and one 40-strike put option.
 
@@ -472,11 +483,11 @@ Figure 12 depicts a written straddle, which is exactly the opposite of Figure 10
 
 It might occur to you that an investor wishing to bet that volatility will be low could write a straddle and acquire insurance against extreme negative outcomes. That intuition is correct and leads to our next strategy.
 
-# Butterfly Spreads
+## Butterfly Spreads
 
 The straddle writer can insure against large losses on the straddle by buying options to protect against losses on both the upside and downside. Buying an out-of-the-money put provides insurance on the downside, protecting against losses on the at-the-money written
 
-# FIGURE II
+## FIGURE II
 
 40-strike straddle and strangle composed of 35-
 strike put and 45-strike call.
@@ -484,7 +495,7 @@ strike put and 45-strike call.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/717aa85f968893803ba5b4cf6ec946b0ae8eae98697c7202d49a9ffb6cc5989b.jpg)
 Profit ($)
 
-# FIGURE 12
+## FIGURE 12
 
 Profit at expiration from a written straddle—i.e., selling a 40-strike call and a 40-strike put.
 
@@ -494,7 +505,7 @@ Profit ($) put. Buying an out-of-the-money call provides insurance on the upside
 
 Figure 13 displays the straddle written at a strike price of 40, along with the options to safeguard the position: a 35-strike put and a 45-strike call. The net result of combining these three strategies is an insured written straddle, which is called a butterfly spread,
 
-# FIGURE 13
+## FIGURE 13
 
 Written 40-strike straddle, purchased 45-strike call, and purchased 35-strike put. These positions combined generate the butterfly spread graphed in Figure 14.
 
@@ -505,19 +516,19 @@ Comparing the butterfly spread to the written straddle (Figure 14), we see that 
 
 By understanding the butterfly spread we gain important insights into option prices. Also, the butterfly spread can be created in a variety of ways: solely with calls, solely with puts, or by using the stock and a combination of calls and puts. You are asked to verify this in Problem 18. The spread in Figure 14 can also be created by simultaneously buying a 35–40 bull spread and a 40–45 bear spread.
 
-# Asymmetric Butterfly Spreads
+## Asymmetric Butterfly Spreads
 
 Examine Figure 15. It looks like a butterfly spread except that it is asymmetric: The peak is closer to the high strike than to the low strike. This picture was created by buying two 35-strike calls, selling ten 43-strike calls (with a premium of 1.525, using the assumptions in Table 4), and buying eight 45-strike calls. The position is like a butterfly in that it earns a profit if the stock stays within a small range, and the loss is the same for high and low stock prices. However, the profit diagram is now tilted to the right, rather than being symmetric.
 
 Suppose you knew that you wanted a position that looks like Figure 15. How would you know how many options to buy and sell to construct this position? In order to obtain
 
-# FIGURE 14
+## FIGURE 14
 
 Comparison of the 35-40-45 butterfly spread, obtained by adding the profit diagrams in Figure 13, with the written 40-strike straddle.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/2c6f7a1d198bda6ec628fb45fefca9d6f948fcf1588088013b6a74967d43075e.jpg)
 
-# FIGURE 15
+## FIGURE 15
 
 Asymmetric butterfly, created by buying two 35-strike calls and eight 45-strike calls and selling ten 43-strike calls.
 
@@ -551,7 +562,7 @@ For example, if  $K_{1} = 35$ ,  $K_{2} = 43$ , and  $K_{3} = 45$ , then  $\lamb
 
 You should verify that if you buy two 35-strike puts, sell ten 43-strike puts, and buy eight 45-strike puts, you duplicate the profit diagram in Figure 15.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 Puts are insurance against a price decline and calls are insurance against a price increase. Combining a long or short position in the asset with an offsetting position in options (for example, a long position in the asset is coupled either with a purchased put or written call) leads to the various possible positions and their equivalents in Table 7.
 
@@ -567,7 +578,7 @@ This relationship, called put-call parity, explains the difference in call and p
 
 <table><tr><td>TABLE 7</td><td colspan="2">Summary of equivalent positions from Section 1.</td></tr><tr><td>Position</td><td>Is Equivalent To</td><td>And Is Called</td></tr><tr><td>Index + Put</td><td>Zero-Coupon Bond + Call</td><td>Insured Asset (floor)</td></tr><tr><td>Index – Call</td><td>Zero-Coupon Bond – Put</td><td>Covered Written Call</td></tr><tr><td>–Index + Call</td><td>–Zero-Coupon Bond + Put</td><td>Insured Short (cap)</td></tr><tr><td>–Index – Put</td><td>–Zero-Coupon Bond – Call</td><td>Covered Written Put</td></tr></table>
 
-# FIGURE 16
+## FIGURE 16
 
 Profit diagrams for positions discussed in the chapter: bull spread, collar, straddle, strangle, butterfly, and 2:1 ratio spread.
 

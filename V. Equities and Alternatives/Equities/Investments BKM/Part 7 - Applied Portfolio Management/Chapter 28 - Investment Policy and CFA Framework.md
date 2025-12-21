@@ -1,32 +1,34 @@
 ---
 title: "Chapter 28 - Investment Policy and the Framework of the CFA Institute"
 aliases:
-  - Investment Policy and the Framework of the CFA Institute
+   - Investment Policy and the Framework of the CFA Institute
 parent_directory: Part 7 - Applied Portfolio Management
+formatted: 2025-12-21 02:05:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+   - CFA Institute framework
+   - investment policy statement
+   - portfolio management process
+   - strategic asset allocation
+   - investor objectives constraints
+secondary_tags:
+   - risk tolerance assessment
+   - individual investors
+   - institutional investors
+   - pension funds
+   - endowment funds
+   - life insurance companies
+   - tax considerations
+   - asset allocation strategies
+   - portfolio monitoring
+   - retirement planning models
+   - tax sheltered accounts
+   - defined benefit plans
+   - defined contribution plans
+   - annuity options
+   - university endowments
 cssclasses: academia
-tags:
-  - CFA Institute Framework
-  - Investment Policy Statement
-  - Portfolio Management Process
-  - Asset Allocation
-  - Investment Objectives
-  - Investment Constraints
-  - Risk Tolerance
-  - Individual Investors
-  - Institutional Investors
-  - Pension Funds
-  - Tax Considerations
-  - Investment Management
-key_concepts:
-  - CFA Institute investment management process
-  - Investment Policy Statement (IPS)
-  - Investment objectives and constraints
-  - Strategic asset allocation
-  - Individual vs institutional investors
-  - Risk tolerance assessment
-  - Tax-deferred investment options
-  - Pension fund types and strategies
-  - Portfolio monitoring and rebalancing
 ---
 
 # Investment Policy and the Framework of the CFA Institute
@@ -36,7 +38,6 @@ TRANSLATING THE ASPIRATIONS and circumstances of diverse households into appropr
 While many principles of investments are quite general and apply to virtually all investors, some issues are peculiar to the specific investor. For example, tax bracket, age, risk tolerance, wealth, job prospects, and other uncertainties make each investor's circumstances somewhat unique. In this chapter, we ask how investors can systematically review their particular objectives, constraints, and circumstances. Along the way, we survey some of the major classes of institutional investors and examine the special issues they must confront.
 
 There is no unique "correct" investment process. However, some approaches are better than others, and it can be helpful to take one high-quality approach as a useful case study. For this reason, we will examine the approach suggested by the CFA Institute. Among other things, the Institute administers examinations to certify investment professionals as Chartered Financial Analysts. Therefore, the approach we outline is also one that a highly respected professional group endorses through the curriculum that it requires investment practitioners to master.
-
 
 The basic framework involves dividing the investment process into four stages: specifying objectives, specifying constraints, formulating policy, and later monitoring and updating the portfolio as needed. We treat each of these activities in turn. We start with an overview of the investment process and a description of the major types of investors, both individual and institutional. We then turn to the objectives and constraints peculiar to each investor class, asking how those factors influence investment policy.
 
@@ -72,7 +73,7 @@ Figure 28.1 CFA Institute investment management process
 - Rebalancing
 - Performance evaluation
 
-# Table 28.1
+### Table 28.1
 
 Components of the investment management process
 
@@ -88,13 +89,13 @@ Source: John L. Maginn, Donald L. Tuttle, Dennis W. McLeavey, and Jerald E. Pint
 8. Investment strategies and investment styles
 9. Guidelines for rebalancing
 
-# Table 28.2
+### Table 28.2
 
 Components of the investment policy statement
 
 <table><tr><td>Objectives</td><td>Constraints</td><td>Policies</td></tr><tr><td>Return requirements</td><td>Liquidity</td><td>Asset allocation</td></tr><tr><td>Risk tolerance</td><td>Horizon</td><td>Diversification</td></tr><tr><td></td><td>Regulations</td><td>Risk positioning</td></tr><tr><td></td><td>Taxes</td><td>Tax positioning</td></tr><tr><td></td><td>Unique needs, such as ethical concerns, specific hedging objectives, age, children</td><td>Income generation</td></tr></table>
 
-# Table 28.3
+### Table 28.3
 
 Determination of portfolio policies
 
@@ -105,7 +106,6 @@ Here is an example of a short quiz that may be used by financial institutions to
 <table><tr><td>Question</td><td>1 Point</td><td>2 Points</td><td>3 Points</td><td>4 Points</td></tr><tr><td>1. I plan on using the money I am investing:</td><td>Within 6 months.</td><td>Within the next 3 years.</td><td>Between 3 and 6 years.</td><td>No sooner than 7 years from now.</td></tr><tr><td>2. My investments make up this share of assets (excluding home):</td><td>More than 75\%.</td><td>50\% or more but less than 75\%.</td><td>25\% or more but less than 50\%.</td><td>Less than 25\%.</td></tr><tr><td>3. I expect my future income to:</td><td>Decrease.</td><td>Remain the same or grow slowly.</td><td>Grow faster than the rate of inflation.</td><td>Grow quickly.</td></tr><tr><td>4. I have emergency savings:</td><td>No.</td><td>No.</td><td>Yes, but less than I&#x27;d like to have.</td><td>Yes.</td></tr><tr><td>5. I would risk this share of my portfolio in exchange for the same probability of doubling my money:</td><td>Zero.</td><td>10\%.</td><td>25\%.</td><td>50\%.</td></tr><tr><td>6. I have invested in stocks and stock mutual funds:</td><td>No.</td><td>Yes, but I was uneasy about it.</td><td>No, but I look forward to it.</td><td>Yes, and I was comfortable with it.</td></tr><tr><td>7. My most important investment goal is to:</td><td>Preserve my original investment.</td><td>Receive some growth and provide income.</td><td>Grow faster than inflation but still provide some income.</td><td>Grow as fast as possible. Income is not important today.</td></tr></table>
 
 Add the number of points for all seven questions. Add one point if you choose the first answer, two if you choose the second answer, and so on. If you score between 25 and 28 points, consider yourself an aggressive investor. If you score between 20 and 24 points, your risk tolerance is above average. If you score between 15 and 19 points, consider yourself a moderate investor. This means you are willing to accept some risk in exchange for a potential higher rate of return. If you score fewer than 15 points, consider yourself a conservative investor. If you have fewer than 10 points, you may consider yourself a very conservative investor.
-
 
 Source: Securities Industry and Financial Markets Association.
 
@@ -196,7 +196,7 @@ Both individual and institutional investors must consider how likely they are to
 
 <table><tr><td>Type of Investor</td><td>Liquidity</td><td>Horizon</td><td>Regulatory</td><td>Taxes</td></tr><tr><td>Individuals</td><td>Variable</td><td>Life cycle</td><td>None</td><td>Variable</td></tr><tr><td>Personal trusts</td><td>Variable</td><td>Life cycle</td><td>Prudent investor laws</td><td>Variable</td></tr><tr><td>Mutual funds</td><td>Usually low</td><td>Short</td><td>Little</td><td>None*</td></tr><tr><td>Pension funds</td><td>Young, low; mature, high</td><td>Long</td><td>ERISA</td><td>None</td></tr><tr><td>Endowment funds</td><td>Low</td><td>Long</td><td>Little</td><td>None</td></tr><tr><td>Life insurance companies</td><td>Low</td><td>Long</td><td>Complex</td><td>Yes</td></tr><tr><td>Non-life insurance companies</td><td>High</td><td>Short</td><td>Little</td><td>Yes</td></tr><tr><td>Banks</td><td>Low</td><td>Short</td><td>Risk-based capital requirements</td><td>Yes</td></tr></table>
 
-# Table 28.5
+### Table 28.5
 
 Matrix of constraints
 
@@ -285,7 +285,7 @@ Set forth key responsibilities and actors.
 
 Example: "Janice Jones, as financial adviser to Sam and Mary Smith, is responsible for coordinating updates to the Investment Policy. Sam and Mary Smith shall be responsible for approving the Investment Policy Statement."
 
-# Desirable Components of an Investment Policy Statement for Individual Investors
+### Desirable Components of an Investment Policy Statement for Individual Investors
 
 # SCOPE AND PURPOSE
 
@@ -443,7 +443,6 @@ We can view the process of asset allocation as consisting of the following steps
 Individual investors need not concern themselves with organizational efficiency. But professional investors with large amounts to invest must structure asset allocation activities to decentralize some of the decision making.
 
 Common features of large organizations are the investment committee and the asset universe. The investment committee includes top management officers, senior portfolio managers, and senior security analysts. The committee determines investment policies and verifies that portfolio managers and security analysts are operating within the bounds of specified policies. A major responsibility of the investment committee is to translate the objectives and constraints of the company into an asset universe, an approved list of assets for each of the company's portfolios.
-
 
 The investment committee has responsibility for broad asset allocation. While the investment manager might have some leeway to tilt the portfolio toward or away from one or another asset class, the investment committee establishes the benchmark allocation that largely determines the risk characteristics of the portfolio. The task of choosing specific securities from the approved universe is more fully delegated to the investment manager.
 
@@ -910,7 +909,7 @@ iv. Unique circumstances
 
 <table><tr><td>Asset Class</td><td>Recommended Allocation</td><td>Current Yield</td><td>Projected Annualized Pretax Total Return</td><td>Expected Standard Deviation</td></tr><tr><td>Cash</td><td>15.0\%</td><td>1.0\%</td><td>1.0\%</td><td>2.5\%</td></tr><tr><td>U.K. corporate bonds</td><td>55.0</td><td>4.0</td><td>5.0</td><td>11.0</td></tr><tr><td>U.K. small-capitalization equities</td><td>0.0</td><td>0.0</td><td>11.0</td><td>25.0</td></tr><tr><td>U.K. large-capitalization equities</td><td>10.0</td><td>2.0</td><td>9.0</td><td>21.0</td></tr><tr><td>U.S. equities*</td><td>5.0</td><td>1.5</td><td>10.0</td><td>20.0</td></tr><tr><td>Barnett Co. common stock</td><td>15.0</td><td>1.0</td><td>16.0</td><td>48.0</td></tr><tr><td>Total portfolio</td><td>100.0</td><td>—</td><td>6.7</td><td>12.4</td></tr></table>
 
-# Table 28I
+### Table 28I
 
 Louise and Christopher Maclin's recommended strategic asset allocation
 
@@ -918,7 +917,7 @@ Louise and Christopher Maclin's recommended strategic asset allocation
 
 <table><tr><td>Asset Class</td><td colspan="3">Allocation Ranges</td></tr><tr><td>Cash</td><td>0\%–3\%</td><td>5\%–10\%</td><td>15\%–20\%</td></tr><tr><td>U.K. corporate bonds</td><td>10\%–20\%</td><td>30\%–40\%</td><td>50\%–60\%</td></tr><tr><td>U.S. equities</td><td>0\%–5\%</td><td>10\%–15\%</td><td>20\%–25\%</td></tr><tr><td>Barnett Co. common stock</td><td>0\%–5\%</td><td>10\%–15\%</td><td>20\%–25\%</td></tr></table>
 
-# Table 28J
+### Table 28J
 
 Louise and Christopher Maclin's asset class ranges a. Identify aspects of the recommended asset allocation in Table 28I that are inconsistent with the Maclins' investment objectives and constraints. Support your responses.
 

@@ -1,6 +1,36 @@
-# Option Valuation
+---
+title: "Chapter 21 - Option Valuation"
+parent_directory: Part 6 - Options Futures and Other Derivatives
+formatted: 2025-12-21 02:10:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - option valuation
+  - black scholes model
+  - binomial option pricing
+  - intrinsic value
+  - time value
+  - put call parity
+  - risk neutral valuation
+  - implied volatility
+  - dynamic hedging
+  - option pricing theory
+secondary_tags:
+  - call option bounds
+  - put option bounds
+  - early exercise
+  - dividend effects
+  - replicating portfolio
+  - hedge ratio
+  - risk neutral probability
+  - lognormal distribution
+  - option greeks
+  - volatility estimation
+  - option market efficiency
+cssclasses: academia
+---
 
-# 21
+# Option Valuation
 
 IN THE PREVIOUS chapter, we examined option markets and strategies. We saw that many securities contain embedded options that affect both their values and their risk-return characteristics. In this chapter, we ask how options are valued. Most option-valuation models require a considerable background in statistics. Still, many of the ideas and insights of these models can be demonstrated in simple examples, and we will concentrate on these.
 
@@ -89,7 +119,7 @@ The payoff to the call will be  $S_{T} - X$  if the option expires in the money 
 Therefore, the value of the call must be greater than  $S_0 - (X + D) / (1 + r_f)^T$ , or, more generally,
 
 $$
-C _ {0} \geq S _ {0} - \operatorname {P V} (X) - \operatorname {P V} (D)
+C_0 \geq S_0 - \operatorname{PV}(X) - \operatorname{PV}(D)
 $$ where  $\mathrm{PV}(X)$  denotes the present value of the exercise price and  $\mathrm{PV}(D)$  is the present value of the dividends the stock will pay at the option's expiration. More generally, we can interpret  $\mathrm{PV}(D)$  as the present value of any and all dividends to be paid prior to the option expiration date. Because we know already that the value of a call option must be nonnegative, we conclude that  $C_0$  is greater than the maximum of either 0 or  $S_0 - \mathrm{PV}(X) - \mathrm{PV}(D)$ .
 
 
@@ -108,7 +138,7 @@ Figure 21.2 demonstrates graphically the range of prices that is ruled out by th
 A call option holder who wants to close out that position has two choices: exercise the call or sell it. If it is exercised at time  $t$ , the call will provide a payoff of  $S_{t} - X$ , assuming, of course, that the option is in the money. We have just seen that the option can be sold for at least  $S_{t} - \mathrm{PV}(X) - \mathrm{PV}(D)$ . Therefore, if the stock does not pay a dividend, the call must be worth at least  $S_{t} - \mathrm{PV}(X)$ . Because the present value of  $X$  is less than  $X$  itself, it follows that
 
 $$
-C _ {t} \geq S _ {t} - \operatorname {P V} (X) > S _ {t} - X
+C_t \geq S_t - \operatorname{PV}(X) > S_t - X
 $$
 
 The implication here is that the proceeds from a sale of the option (at price  $C_t$ ) must exceed the proceeds from an exercise  $(S_t - X)$ . It is more attractive to sell the call, which keeps it alive, than to exercise and thereby end the option. In other words, calls on non-dividend-paying stocks must be "worth more alive than dead."
@@ -198,7 +228,7 @@ The hedge ratio equals the ratio of ranges because the option and stock are perf
 We can generalize the hedge ratio,  $H$ , for other two-state option problems as
 
 $$
-H = \frac {C _ {u} - C _ {d}}{u S _ {0} - d S _ {0}}
+H = \frac{C_u - C_d}{u S_0 - d S_0}
 $$ where  $C_u$  or  $C_d$  refers to the call option's value when the stock goes up or down, respectively, and  $uS_0$  and  $dS_0$  are the stock prices in the two states. If the investor writes one option and holds  $H$  shares of stock, the value of the portfolio will be unaffected by the stock price. In this case, option pricing is easy: Simply set the value of the hedged portfolio equal to the present value of the known payoff.
 
 
@@ -212,11 +242,11 @@ Using our example, the option-pricing technique would proceed as follows:
 5. Set the value of the hedged position to the present value of the certain payoff:
 
 $$
-\frac {1}{3} S _ {0} - C _ {0} = \$ 2 7. 2 7
+\frac{1}{3} S_0 - C_0 = \$27.27
 $$
 
 $$
-\$ 33.33 - C _ {0} = \$ 27.27
+\$33.33 - C_0 = \$27.27
 $$
 
 6. Solve for the call's value, C0 = 6.06.

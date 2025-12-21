@@ -1,43 +1,77 @@
 ---
 title: "Options, Futures, and Other Derivatives - Solutions Manual"
-aliases:
-  - Hull Solutions Manual
-  - Derivatives Solutions Manual
 parent_directory: Options Futures & Forwards
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
+primary_tags:
+   - derivatives pricing
+   - options strategies
+   - futures hedging
+   - risk management
+   - arbitrage theory
+   - interest rate models
+   - volatility modeling
+   - real options valuation
+secondary_tags:
+   - option payoffs
+   - put call parity
+   - hedging ratios
+   - margin requirements
+   - forward contracts
+   - currency derivatives
+   - commodity futures
+   - basis risk
+   - volatility trading
+   - delta hedging
+   - binomial trees
+   - black scholes model
+   - monte carlo simulation
+   - credit risk
+   - exotic options
+   - interest rate derivatives
+   - term structure models
+   - risk neutral valuation
+   - stochastic calculus
+   - jump diffusion models
+   - greeks calculation
+   - portfolio insurance
+   - variance swaps
+   - correlation trading
 cssclasses: academia
 ---
 
-# Options, Futures, and Other Derivatives - Solutions Manual  
+# Options, Futures, and Other Derivatives - Solutions Manual
 
-# Short Concept Questions  
+## Short Concept Questions
 
-# Practice Questions  
+## Practice Questions  
 
-# 1.1  
+## 1.1
 
-Selling a call option involves giving someone else the right to buy an asset from you. It gives you a payoff of  
+Selling a call option involves giving someone else the right to buy an asset from you. It gives you a payoff of
 
 $$
-- \mathrm { m a x } ( S _ { T } - K , 0 ) = \mathrm { m i n } ( K - S _ { T } , 0 )
+-\max(S_T - K, 0) = \min(K - S_T, 0)
 $$  
 
-Buying a put option involves buying an option from someone else. It gives a payoff of  
+Buying a put option involves buying an option from someone else. It gives a payoff of
 
 $$
-\operatorname* { m a x } ( K - S _ { \mathrm { } _ { T } } , 0 )
+\max(K - S_T, 0)
 $$  
 
 In both cases, the potential payoff is $K - S _ { \scriptscriptstyle T }$ . When you write a call option, the payoff is negative or zero. (This is because the counterparty chooses whether to exercise.) When you buy a put option, the payoff is zero or positive. (This is because you choose whether to exercise.)  
 
 1.2  
 
-(a) The investor is obligated to sell pounds for 1.3000 when they are worth 1.2900. The gain is $( 1 . 3 0 0 0 - 1 . 2 9 0 0 ) \times 1 0 0 , 0 0 0 = \mathbb { S } 1 , 0 0 0$ .   
-(b) The investor is obligated to sell pounds for 1.3000 when they are worth 1.3200. The loss is $( 1 . 3 2 0 0 - 1 . 3 0 0 0 ) \times 1 0 0 , 0 0 0 = \mathbb { S } 2 , 0 0 0$  
+(a) The investor is obligated to sell pounds for 1.3000 when they are worth 1.2900. The gain is $(1.3000 - 1.2900) \times 100,000 = \$1,000$.
+(b) The investor is obligated to sell pounds for 1.3000 when they are worth 1.3200. The loss is $(1.3200 - 1.3000) \times 100,000 = \$2,000$  
 
 1.3  
 
-(a) The trader sells for 50 cents per pound something that is worth 48.20 cents per pound. $\mathrm { G a i n } = ( \mathbb { S } 0 . 5 0 0 0 - \mathbb { S } 0 . 4 8 2 0 ) \times 5 0 , 0 0 0 = \mathbb { S } 9 0 0$ .   
-(b) The trader sells for 50 cents per pound something that is worth 51.30 cents per pound. $\mathrm { L o s s } = ( \mathbb { S } 0 . 5 1 3 0 - \mathbb { S } 0 . 5 0 0 0 ) \times 5 0 , 0 0 0 = \mathbb { S } 6 5 0$ .  
+(a) The trader sells for 50 cents per pound something that is worth 48.20 cents per pound. Gain = $(\$0.5000 - \$0.4820) \times 50,000 = \$900$.
+(b) The trader sells for 50 cents per pound something that is worth 51.30 cents per pound. Loss = $(\$0.5130 - \$0.5000) \times 50,000 = \$650$.  
 
 # 1.4  
 
@@ -72,27 +106,27 @@ The seller of the option will lose money if the price of the stock is below $\$ 
 ![](images/cf564906b42e0438c7653f48a3bfcd09dc686956477099fd17a9ac2852ec866e.jpg)  
 Figure S1.2:  Profit from short position in Problem 1.10  
 
-# 1.11  
+## 1.11
 
-The trader has an inflow of $\$ 2$ in May and an outflow of $\$ 5$ in September. The $\$ 2$ is the cash received from the sale of the option. The $\$ 5$ is the result of the option being exercised. The trader has to buy the stock for $\$ 25$ in September and sell it to the purchaser of the option for $\$ 20$ .  
+The trader has an inflow of $\$2$ in May and an outflow of $\$5$ in September. The $\$2$ is the cash received from the sale of the option. The $\$5$ is the result of the option being exercised. The trader has to buy the stock for $\$25$ in September and sell it to the purchaser of the option for $\$20$.
 
-# 1.12  
+## 1.12
 
-The trader makes a gain if the price of the stock is above $\$ 26$ at the time of exercise. (This ignores the time value of money.)  
+The trader makes a gain if the price of the stock is above $\$26$ at the time of exercise. (This ignores the time value of money.)
 
-# 1.13  
+## 1.13  
 
 A long position in a four-month put option on the foreign currency can provide insurance against the exchange rate falling below the strike price. It ensures that the foreign currency can be sold for at least the strike price.  
 
-# 1.14  
+## 1.14
 
-The company could enter into a long forward contract to buy 1 million Canadian dollars in six months. This would have the effect of locking in an exchange rate equal to the current forward exchange rate. Alternatively, the company could buy a call option giving it the right (but not the obligation) to purchase 1 million Canadian dollars at a certain exchange rate in six months. This would provide insurance against a strong Canadian dollar in six months while still allowing the company to benefit from a weak Canadian dollar at that time.  
+The company could enter into a long forward contract to buy 1 million Canadian dollars in six months. This would have the effect of locking in an exchange rate equal to the current forward exchange rate. Alternatively, the company could buy a call option giving it the right (but not the obligation) to purchase 1 million Canadian dollars at a certain exchange rate in six months. This would provide insurance against a strong Canadian dollar in six months while still allowing the company to benefit from a weak Canadian dollar at that time.
 
-# 1.15  
+## 1.15  
 
-a) The trader sells 100 million yen for $\$ 0090$ per yen when the exchange rate is $\$ 0084$ per yen. The gain is $1 0 0 \times 0 . 0 0 0 6$ millions of dollars or $\$ 60,000$ . b) The trader sells 100 million yen for $\$ 0090$ per yen when the exchange rate is $\$ 0101$  
+a) The trader sells 100 million yen for $\$0.090$ per yen when the exchange rate is $\$0.084$ per yen. The gain is $100 \times 0.0006$ millions of dollars or $\$60,000$. b) The trader sells 100 million yen for $\$0.090$ per yen when the exchange rate is $\$0.101$
 
-per yen. The loss is $1 0 0 \times 0 . 0 0 1 1$ millions of dollars or \$110,000.  
+per yen. The loss is $100 \times 0.0011$ millions of dollars or \$110,000.  
 
 1.16 Most investors will use the contract because they want to do one of the following:  
 
@@ -108,22 +142,25 @@ The statement means that the gain (loss) to one side equals the loss (gain) to t
 
 # 1.18  
 
-The terminal value of the long forward contract is:  
+The terminal value of the long forward contract is:
 
 $$
-S _ { T } - F _ { 0 }
-$$  
+S_T - F_0
+$$
 
-where $S _ { T }$ is the price of the asset at maturity and $F _ { 0 }$ is the delivery price (which is the same as the forward price of the asset at the time the portfolio is set up). The terminal value of the put option is:  
+where $S_T$ is the price of the asset at maturity and $F_0$ is the delivery price (which is the same as the forward price of the asset at the time the portfolio is set up). The terminal value of the put option is:
 
 $$
-\operatorname* { m a x } { ( F _ { 0 } - S _ { T } , 0 ) }
-$$  
+\max(F_0 - S_T, 0)
+$$
 
-The terminal value of the portfolio is therefore,  
+The terminal value of the portfolio is therefore,
 
 $$
-\begin{array} { l } { { S _ { T } - F _ { 0 } + \operatorname* { m a x } { ( F _ { 0 } - S _ { T } , 0 ) } } } \\ { { \mathrm { ~ \ = m a x ( 0 , } S _ { T } - F _ { 0 } ) } } \end{array}
+\begin{array}{l}
+{S_T - F_0 + \max(F_0 - S_T, 0)} \\
+{\ =\ \max(0, S_T - F_0)}
+\end{array}
 $$  
 
 This is the same as the terminal value of a European call option with the same maturity as the forward contract and a strike price equal to $F _ { 0 }$ . This result is illustrated in Figure S1.3. The profit equals the terminal value of the call option less the amount paid for the put option. (It does not cost anything to enter into the forward contract.)  
@@ -428,29 +465,31 @@ $$
 
 This means that the size of the futures position should be $6 4 . 2 \%$ of the size of the company's exposure in a three-month hedge.  
 
-3.4 The formula for the number of contracts that should be shorted gives  
+## 3.4
+
+The formula for the number of contracts that should be shorted gives
 
 $$
-1 . 2 \times \frac { 2 0 , 0 0 0 , 0 0 0 } { 1 , 0 8 0 \times 2 5 0 } = 8 8 . 9
+1.2 \times \frac{20,000,000}{1,080 \times 250} = 88.9
 $$  
 
 Rounding to the nearest whole number, 89 contracts should be shorted. To reduce the beta to 0.6, half of this position, or a short position in 44 contracts, is required.  
 
-# 3.5  
+## 3.5
 
-A good rule of thumb is to choose a futures contract that has a delivery month as close as possible to, but later than, the month containing the expiration of the hedge. The contracts that should be used are therefore,  
+A good rule of thumb is to choose a futures contract that has a delivery month as close as possible to, but later than, the month containing the expiration of the hedge. The contracts that should be used are therefore,
 
-(a) July (b) September (c) March  
+(a) July (b) September (c) March
 
-# 3.6  
+## 3.6
 
-No. Consider, for example, the use of a forward contract to hedge a known cash inflow in a foreign currency. The forward contract locks in the forward exchange rate—which is in general different from the spot exchange rate.  
+No. Consider, for example, the use of a forward contract to hedge a known cash inflow in a foreign currency. The forward contract locks in the forward exchange rate—which is in general different from the spot exchange rate.
 
-# 3.7  
+## 3.7
 
-The basis is the amount by which the spot price exceeds the futures price. A short hedger is long the asset and short futures contracts. The value of his or her position therefore improves as the basis increases. Similarly, it worsens as the basis decreases.  
+The basis is the amount by which the spot price exceeds the futures price. A short hedger is long the asset and short futures contracts. The value of his or her position therefore improves as the basis increases. Similarly, it worsens as the basis decreases.
 
-# 3.8  
+## 3.8  
 
 The simple answer to this question is that the treasurer should:  
 
@@ -458,105 +497,106 @@ The simple answer to this question is that the treasurer should:
 
 However, this is not the whole story. As the gold jewelry example in Table 3.1 shows, the company should examine whether the magnitudes of the foreign cash flows depend on the exchange rate. For example, will the company be able to raise the price of its product in U.S. dollars if the yen appreciates? If the company can do so, its foreign exchange exposure may be quite low. The key estimates required are those showing the overall effect on the company's profitability of changes in the exchange rate at various times in the future. Once these estimates have been produced, the company can choose between using futures and options to hedge its risk. The results of the analysis should be presented carefully to other executives. It should be explained that a hedge does not ensure that profits will be higher. It means that profit will be more certain. When futures/forwards are used, both the downside and upside are eliminated. With options, a premium is paid to eliminate only the downside.  
 
-# 3.9  
+## 3.9
 
-If the hedge ratio is 0.8, the company takes a long position in 16 December oil futures contracts   
-on June 8 when the futures price is $\$ 48.00$ . It closes out its position on November 10. The spot   
-price and futures price at this time are $\$ 50.00$ and $\$ 49.10$ . The gain on the futures position is $( 4 9 . 1 0 - 4 8 . 0 0 ) \times 1 6 , 0 0 0 = 1 7 , 6 0 0$   
-The effective cost of the oil is therefore $2 0 , 0 0 0 \times 5 0 - 1 7 , 6 0 0 = 9 8 2 , 4 1$ 00   
-or $\$ 49.12$ per barrel. (This compares with $\$ 48.90$ per barrel when the company is fully hedged.)  
+If the hedge ratio is 0.8, the company takes a long position in 16 December oil futures contracts
+on June 8 when the futures price is $\$48.00$. It closes out its position on November 10. The spot
+price and futures price at this time are $\$50.00$ and $\$49.10$. The gain on the futures position is $(49.10 - 48.00) \times 16,000 = 17,600$
+The effective cost of the oil is therefore $20,000 \times 50 - 17,600 = 982,400$
+or $\$49.12$ per barrel. (This compares with $\$48.90$ per barrel when the company is fully hedged.)
 
-# 3.10  
+## 3.10
 
-The statement is not true. The minimum variance hedge ratio is  
+The statement is not true. The minimum variance hedge ratio is
 
 $$
-\rho \frac { \sigma _ { s } } { \sigma _ { F } }
-$$  
+\rho \frac{\sigma_s}{\sigma_F}
+$$
 
-It is 1.0 when $\rho = 0 . 5$ and $\sigma _ { s } = 2 \sigma _ { { \scriptscriptstyle F } }$ . Since $\rho < 1 . 0$ the hedge is clearly not perfect.  
+It is 1.0 when $\rho = 0.5$ and $\sigma_s = 2\sigma_F$. Since $\rho < 1.0$ the hedge is clearly not perfect.  
 
 # 3.11  
 
 The statement is true. Suppose for the sake of definiteness that the commodity is being purchased. If the hedge ratio is $h$ , the gain on futures is $h ( F _ { 2 } { - } F _ { 1 } )$ so that the price paid is $S _ { 2 } - h ( F _ { 2 } { - } F _ { 1 } )$ or $h b _ { 2 } + h F _ { 1 } + ( 1 - h ) S _ { 2 }$ .  If there is no basis risk, $b _ { 2 }$ is known. For a given $h$ , there is therefore no uncertainty in the first two terms. For any value of $h$ other than 1, there is uncertainty in the third term. The minimum variance hedge ratio is therefore 1.  
 
-# 3.12  
+## 3.12
 
-A company that knows it will purchase a commodity in the future is able to lock in a price close to the futures price. This is likely to be particularly attractive when the futures price is less than the spot price.  
+A company that knows it will purchase a commodity in the future is able to lock in a price close to the futures price. This is likely to be particularly attractive when the futures price is less than the spot price.
 
-# 3.13  
+## 3.13
 
-The optimal hedge ratio is  
+The optimal hedge ratio is
 
 $$
-0 . 7 \times \frac { 1 . 2 } { 1 . 4 } = 0 . 6
-$$  
+0.7 \times \frac{1.2}{1.4} = 0.6
+$$
 
-The beef producer requires a long position in $2 0 0 , 0 0 0 \times 0 . 6 = 1 2 0 , 0 0 0$ lbs of cattle. The beef producer should therefore take a long position in 3 December contracts closing out the position on November 15.  
+The beef producer requires a long position in $200,000 \times 0.6 = 120,000$ lbs of cattle. The beef producer should therefore take a long position in 3 December contracts closing out the position on November 15.  
 
 # 3.14  
 
 If weather creates a significant uncertainty about the volume of corn that will be harvested, the farmer should not enter into short forward contracts to hedge the price risk on the expected production. The reason is as follows. Suppose that the weather is bad and the farmer's production is lower than expected. Other farmers are likely to have been affected similarly. Corn production overall will be low and as a consequence the price of corn will be relatively high. The farmer's problems arising from the bad harvest will be made worse by losses on the short futures position. This problem emphasizes the importance of looking at the big picture when hedging. The farmer is correct to question whether hedging price risk while ignoring other risks is a good strategy.  
 
-# 3.15  
+## 3.15
 
-A short position in  
+A short position in
 
 $$
-1 . 3 \times \frac { 5 0 , 0 0 0 \times 3 0 } { 5 0 \times 1 , 5 0 0 } = 2 6
-$$  
+1.3 \times \frac{50,000 \times 30}{50 \times 1,500} = 26
+$$
 
 contracts is required. It will be profitable if the stock outperforms the market in the sense that its return is greater than that predicted by the capital asset pricing model.  
 
-3.16   
-If the company uses a hedge ratio of 1.5 in Table 3.5, it would at each stage short 150 contracts. The gain from the futures contracts would be  
+## 3.16
+
+If the company uses a hedge ratio of 1.5 in Table 3.5, it would at each stage short 150 contracts. The gain from the futures contracts would be
 
 $$
-1 . 5 0 \times 1 . 7 0 = \mathbb { S } 2 . 5 5
-$$  
+1.50 \times 1.70 = \$2.55
+$$
 
-per barrel and the company would be $\$ 0.85$ per barrel better off than with a hedge ratio of 1.  
+per barrel and the company would be $\$0.85$ per barrel better off than with a hedge ratio of 1.
 
-# 3.17  
+## 3.17  
 
 It may well be true that there is just as much chance that the price of oil in the future will be above the futures price as it will be below the futures price. This means that the use of a futures contract for speculation would be like betting on whether a coin comes up heads or tails. But it might make sense for the airline to use futures for hedging rather than speculation. The futures contract then has the effect of reducing risks. It can be argued that an airline should not expose its shareholders to risks associated with the future price of oil when there are contracts available to hedge the risks.  
 
-# 3.18  
+## 3.18
 
-Goldman Sachs can borrow 1 ounce of gold and sell it for $\$ 1200$ . It invests the $\$ 1,200$ at $5 \%$ so that it becomes $\$ 1,260$ at the end of the year. It must pay the lease rate of $1 . 5 \%$ on $\$ 1,200$ . This is $\$ 18$ and leaves it with $\$ 1,242$ . It follows that if it agrees to buy the gold for less than $\$ 1,242$ in one year it will make a profit.  
+Goldman Sachs can borrow 1 ounce of gold and sell it for $\$1200$. It invests the $\$1,200$ at $5\%$ so that it becomes $\$1,260$ at the end of the year. It must pay the lease rate of $1.5\%$ on $\$1,200$. This is $\$18$ and leaves it with $\$1,242$. It follows that if it agrees to buy the gold for less than $\$1,242$ in one year it will make a profit.
 
-# 3.19  
+## 3.19
 
-a) $0 . 0 5 + 0 . 2 \times ( 0 . 1 2 - 0 . 0 5 ) = 0 . 0 6 4$ or $6 . 4 \%$ b) $0 . 0 5 + 0 . 5 \times ( 0 . 1 2 - 0 . 0 5 ) = 0 . 0 8 5$ or $8 . 5 \%$ c) $0 . 0 5 + 1 . 4 \times ( 0 . 1 2 - 0 . 0 5 ) = 0 . 1 4 8$ or $14 . 8 \%$  
+a) $0.05 + 0.2 \times (0.12 - 0.05) = 0.064$ or $6.4\%$ b) $0.05 + 0.5 \times (0.12 - 0.05) = 0.085$ or $8.5\%$ c) $0.05 + 1.4 \times (0.12 - 0.05) = 0.148$ or $14.8\%$  
 
-# 3.20  
+## 3.20
 
-It should short five contracts. It has basis risk. It is exposed to the difference between the October futures price and the spot price of light sweet crude at the time it closes out its position in September. It is also possibly exposed to the difference between the spot price of light sweet crude and the spot price of the type of oil it is selling.  
+It should short five contracts. It has basis risk. It is exposed to the difference between the October futures price and the spot price of light sweet crude at the time it closes out its position in September. It is also possibly exposed to the difference between the spot price of light sweet crude and the spot price of the type of oil it is selling.
 
-# 3.21  
+## 3.21
 
-The excess of the spot over the futures at the time the hedge is closed out is $\$ 0.20$ per ounce. If the trader is hedging the purchase of silver, the price paid is the futures price plus the basis. The trader therefore loses $6 0 \times 5 , 0 0 0 \times \ S 0 . 2 0 = \ S 6 0 , 0 0 0$ . If the trader is hedging the sales of silver, the price received is the futures price plus the basis. The trader therefore gains $\$ 60,000$ .  
+The excess of the spot over the futures at the time the hedge is closed out is $\$0.20$ per ounce. If the trader is hedging the purchase of silver, the price paid is the futures price plus the basis. The trader therefore loses $60 \times 5,000 \times \$0.20 = \$60,000$. If the trader is hedging the sales of silver, the price received is the futures price plus the basis. The trader therefore gains $\$60,000$.
 
-# 3.22  
+## 3.22  
 
-(a) The minimum variance hedge ratio, $\boldsymbol { \mathrm { h } } ^ { * }$ , is $0 . 9 5 { \times } 0 . 4 3 / 0 . 4 0 { = } 1 . 0 2 1 2 5 .$   
-(b) The hedger should take a short position.   
-(c) The optimal number of contracts ignoring daily settlement is $1 . 0 2 1 2 5 \times 5 5 , 0 0 0 / 5 , 0 0 0 = 1 1 . 2 3$ (or 11 when rounded to the nearest whole number)   
-(d) The optimal number of contracts is $\hat { \rho } \hat { \sigma } _ { s } V _ { A } / ( \hat { \sigma } _ { F } V _ { F } )$ where $\hat { \rho }$ is correlation between percentage one-day returns of spot and futures, $\hat { \sigma } _ { s }$ and $\hat { \sigma } _ { F }$ are the standard deviations of percentage one-day returns on spot and futures, $V _ { A }$ is the value of the position and $V _ { F }$ is the futures price times the size of one contract. In this case, $V _ { A } = 5 5 , 0 0 0 { \times } 2 8 = 1 , 5 4 0 , 0 0 0$  
+(a) The minimum variance hedge ratio, $h^*$ , is $0.95 \times 0.43 / 0.40 = 1.02125$.
+(b) The hedger should take a short position.
+(c) The optimal number of contracts ignoring daily settlement is $1.02125 \times 55,000 / 5,000 = 11.23$ (or 11 when rounded to the nearest whole number)
+(d) The optimal number of contracts is $\hat{\rho} \hat{\sigma}_s V_A / (\hat{\sigma}_F V_F)$ where $\hat{\rho}$ is correlation between percentage one-day returns of spot and futures, $\hat{\sigma}_s$ and $\hat{\sigma}_F$ are the standard deviations of percentage one-day returns on spot and futures, $V_A$ is the value of the position and $V_F$ is the futures price times the size of one contract. In this case, $V_A = 55,000 \times 28 = 1,540,000$
 
-and $V _ { F } { = } 5 , 0 0 0 { \times } 2 7 { = } 1 3 5 , 0 0 0$ . If we assume that $ \hat { \rho } { = } 0 . 9 5$ and $\hat { \sigma } _ { s } / \hat { \sigma } _ { F } = 0 . 4 3 / 0 . 4 0 = 1 . 0 7 5$ , the optimal number of contracts when daily settlement is considered $0 . 9 5 { \times } 1 . 0 7 5 { \times } 1 , 5 4 0 , 0 0 0 / 1 3 5 , 0 0 0 { = } 1 1 . 6 5$ (or 12 when rounded to the nearest whole number). This does not make the interest rate adjustment discussed in the final part of Section 3.4.  
+and $V_F = 5,000 \times 27 = 135,000$. If we assume that $\hat{\rho} = 0.95$ and $\hat{\sigma}_s / \hat{\sigma}_F = 0.43 / 0.40 = 1.075$, the optimal number of contracts when daily settlement is considered $0.95 \times 1.075 \times 1,540,000 / 135,000 = 11.65$ (or 12 when rounded to the nearest whole number). This does not make the interest rate adjustment discussed in the final part of Section 3.4.  
 
-# 3.23  
+## 3.23
 
-Equation (3.1) shows that the hedge ratio should be $0 . 6 \times 1 . 5 = 0 . 9$ . Define $\boldsymbol { Q }$ as the number of gallons of the new fuel that the company is exposed to. $_ { 0 0 1 Q = 1 , 0 0 0 , 0 0 0 : }$ so that $\boldsymbol { \mathcal { Q } }$ is 100 million. It should therefore take a position of 90 million gallons in gasoline futures. Each futures contract is on 42,000 gallons. The number of contracts required is therefore  
+Equation (3.1) shows that the hedge ratio should be $0.6 \times 1.5 = 0.9$. Define $Q$ as the number of gallons of the new fuel that the company is exposed to. $Q = 1,000,000$ so that $Q$ is 100 million. It should therefore take a position of 90 million gallons in gasoline futures. Each futures contract is on 42,000 gallons. The number of contracts required is therefore
 
 $$
-\frac { 9 0 , 0 0 0 , 0 0 0 } { 4 2 , 0 0 0 } = 2 1 4 2 . 9
-$$  
+\frac{90,000,000}{42,000} = 2142.9
+$$
 
-or, rounding to the nearest whole number, 2143.  
+or, rounding to the nearest whole number, 2143.
 
-# 3.24  
+## 3.24  
 
 When the expected return on the market is $- 3 0 \%$ , the expected return on a portfolio with a beta of 0.2 is  
 
@@ -566,51 +606,49 @@ $$
 
 or $- 2 \%$ . The actual return of $- 1 0 \%$ is worse than the expected return. The portfolio manager hasdone $8 \%$ worse than a simple strategy of forming a portfolio that is $20 \%$ invested in an equity index and $80 \%$ invested in risk-free investments. (The manager has achieved an alpha of $- 8 \% !$ )  
 
-# 3.25  
+## 3.25
 
-a) The company should short  
+a) The company should short 140 contracts.
 
-or 140 contracts.  
+b) The company should take a long position in 60 contracts.
 
-b) The company should take a long position in  
+# CHAPTER 4 Interest Rates
 
-or 60 contracts.  
+## Practice Questions  
 
-# CHAPTER 4 Interest Rates  
+## 4.1
 
-# Practice Questions  
-
-4.1 The rate with continuous compounding is  
+The rate with continuous compounding is
 
 $$
-4 \ln \left( 1 + { \frac { 0 . 0 7 } { 4 } } \right) = 0 . 0 6 9 4
-$$  
+4 \ln \left( 1 + \frac{0.07}{4} \right) = 0.0694
+$$
 
-or $6 . 9 4 \%$ per annum.  
+or $6.94\%$ per annum.
 
-(a) The rate with annual compounding is  
+(a) The rate with annual compounding is
 
 $$
-\left( 1 + \frac { 0 . 0 7 } { 4 } \right) ^ { 4 } - 1 = 0 . 0 7 1 9
-$$  
+\left( 1 + \frac{0.07}{4} \right)^4 - 1 = 0.0719
+$$
 
-or $7 . 1 9 \%$ per annum.  
+or $7.19\%$ per annum.  
 
-# 4.2  
+## 4.2
 
-Suppose the bond has a face value of $\$ 100$ . Its price is obtained by discounting the cash flows at $5 . 2 \%$ . The price is  
+Suppose the bond has a face value of $\$100$. Its price is obtained by discounting the cash flows at $5.2\%$. The price is
 
 $$
-\frac { 2 } { 1 . 0 2 6 } + \frac { 2 } { 1 . 0 2 6 ^ { 2 } } + \frac { 1 0 2 } { 1 . 0 2 6 ^ { 3 } } = 9 8 . 2 9
-$$  
+\frac{2}{1.026} + \frac{2}{1.026^2} + \frac{102}{1.026^3} = 98.29
+$$
 
-If the 18-month zero rate is $R$ , we must have  
+If the 18-month zero rate is $R$, we must have
 
 $$
-\frac { 2 } { 1 . 0 2 5 } + \frac { 2 } { 1 . 0 2 5 ^ { 2 } } + \frac { 1 0 2 } { \left( 1 + R / 2 \right) ^ { 3 } } = 9 8 . 2 9
-$$  
+\frac{2}{1.025} + \frac{2}{1.025^2} + \frac{102}{(1 + R/2)^3} = 98.29
+$$
 
-which  gives $R { = } 5 . 2 0 4 \%$ .  
+which gives $R = 5.204\%$.  
 
 4.3  
 
@@ -656,15 +694,15 @@ so that $R = 0 . 0 9 5 7$ . The percentage return is therefore $9 . 5 7 \%$ per 
 
 <html><body><table><tr><td>Qtr 2</td><td>3.4%</td></tr><tr><td>Qtr 3</td><td>3.8%</td></tr><tr><td>Qtr 4</td><td>3.8%</td></tr><tr><td>Qtr 5</td><td>4.0%</td></tr><tr><td>Qtr 6</td><td>4.2%</td></tr></table></body></html>  
 
-# 4.5  
+## 4.5
 
-The value of the FRA is  
+The value of the FRA is
 
 $$
-1 , 0 0 0 , 0 0 0 { \times } 0 . 2 5 { \times } ( 0 . 0 4 5 { - } 0 . 0 4 0 ) e ^ { - 0 . 0 3 6 { \times } 1 . 2 5 } { = } 1 , 1 9 5
-$$  
+1,000,000 \times 0.25 \times (0.045 - 0.040) e^{-0.036 \times 1.25} = 1,195
+$$
 
-or $\$ 1,195$ .  
+or $\$1,195$.  
 
 4.6   
 When the term structure is upward sloping, $c > a > b$ . When it is downward sloping, $b > a > c$ .  

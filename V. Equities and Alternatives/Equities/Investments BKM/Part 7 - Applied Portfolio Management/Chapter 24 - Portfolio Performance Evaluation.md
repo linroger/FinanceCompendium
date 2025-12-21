@@ -1,14 +1,41 @@
 ---
 title: "Chapter 24 - Portfolio Performance Evaluation"
-aliases:
-  - Portfolio Performance Evaluation
 parent_directory: Part 7 - Applied Portfolio Management
+formatted: 2025-12-21 02:05:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - portfolio performance evaluation
+  - risk adjusted returns
+  - sharpe ratio
+  - treynor measure
+  - jensen alpha
+  - information ratio
+  - market timing
+  - performance attribution
+  - dollar weighted returns
+  - time weighted returns
+secondary_tags:
+  - capital asset pricing model
+  - security characteristic line
+  - benchmark comparison
+  - survivorship bias
+  - style analysis
+  - m squared measure
+  - t squared measure
+  - morningstar risk adjusted rating
+  - geometric average returns
+  - internal rate of return
+  - bogey portfolio
+  - asset allocation decisions
+  - sector selection
+  - security selection
+  - tracking error
+  - alpha generation
 cssclasses: academia
 ---
 
 # Portfolio Performance Evaluation
-
-# 24
 
 MOST FINANCIAL ASSETS are managed by professional investors, who thus at least indirectly allocate the lion's share of capital across firms. Efficient allocation therefore depends on the quality of these professionals and the ability of financial markets to identify and direct capital to the best stewards. Therefore, if capital markets are to be reasonably efficient, investors must be able to measure the performance of their asset managers.
 
@@ -31,13 +58,13 @@ Suppose we evaluate the performance of a portfolio over a period of 20 years. Th
 
 
 $$
-(1 + r _ {G}) ^ {2 0} = (1 + r _ {1}) (1 + r _ {2}) \dots (1 + r _ {2 0})
+1 + r_G = \left[ (1 + r_1)(1 + r_2) \dots (1 + r_{20}) \right]^{1/20}
 $$
 
-The right-hand side of this equation is the compounded final value of a  \$1 investment earning the 20 annual rates of return. The left-hand side is the compounded value of a\$ 1 investment earning  $r_G$  each year. We solve for  $1 + r_G$  as
+The right-hand side of this equation is the compounded final value of a \$1 investment earning the 20 annual rates of return. The left-hand side is the compounded value of a \$1 investment earning $r_G$ each year. We solve for $1 + r_G$ as
 
 $$
-1 + r _ {G} = \left[ (1 + r _ {1}) (1 + r _ {2}) \dots (1 + r _ {2 0}) \right] ^ {1 / 2 0}
+1 + r_G = \left[ (1 + r_1)(1 + r_2) \dots (1 + r_{20}) \right]^{1/20}
 $$
 
 Each return has an equal weight in the geometric average. For this reason, the geometric average is referred to as a time-weighted average.
@@ -61,8 +88,8 @@ Total cash outlays and inflows are as follows:
 Using the discounted cash flow (DCF) approach, we can solve for average return by equating the present values of the cash inflows and outflows:
 
 $$
-5 0 + \frac {5 3}{1 + r} = \frac {2}{1 + r} + \frac {1 1 2}{(1 + r) ^ {2}}
-$$ resulting in  $r = 7.117\%$ . This is the internal rate of return on the investment.
+50 + \frac{53}{1 + r} = \frac{2}{1 + r} + \frac{112}{(1 + r)^2}
+$$ resulting in $r = 7.117\%$. This is the internal rate of return on the investment.
 
 
 The internal rate of return is called the dollar-weighted rate of return. It is "dollar weighted" because the stock's performance in the second year, when two shares of stock are held, has a greater influence on the average overall return than the first-year return, when only one share is held.
@@ -70,7 +97,7 @@ The internal rate of return is called the dollar-weighted rate of return. It is 
 The time-weighted (geometric average) return is  $7.81\%$
 
 $$
-\begin{array}{l} r _ {1} = \frac {53 + 2 - 50}{50} = . 10 = 10 \% \quad r _ {2} = \frac {54 + 2 - 53}{53} = 0.566 = 5.66 \% \\ r _ {G} = (1. 1 0 \times 1. 0 5 6 6) ^ {1 / 2} - 1 = . 0 7 8 1 = 7. 8 1 \\ \end{array}
+\begin{array}{l} r_1 = \frac{53 + 2 - 50}{50} = 0.10 = 10\% \quad r_2 = \frac{54 + 2 - 53}{53} = 0.566 = 5.66\% \\ r_G = (1.10 \times 1.0566)^{1/2} - 1 = 0.0781 = 7.81\% \\ \end{array}
 $$
 
 The dollar-weighted average is less than the time-weighted average in this example because the return in the second year, when more money was invested, is lower.
@@ -496,7 +523,7 @@ Table 24.5 presents summary statistics for each of the three passive strategies,
 
 Performance of bills, equities, and perfect (annual) market timers. Initial investment  $= \$  1$
 
-The first row in Table 24.5 shows the terminal value of investing  \$1 in bills over the 95 years (1927-2021) is\$ 21, while the terminal value of the same initial investment in equities is 10,546. We pointed out in Chapter 5 that as impressive as the difference in terminal values is, it is best interpreted as no more than compensation for the risk borne by equity investors. As we've already seen, the annual difference in returns is just about 8.6\%, which doesn't seem as dramatic. Notice that the standard deviation of the all-equity investor was a hefty 19.89\%.
+The first row in Table 24.5 shows the terminal value of investing \$1 in bills over the 95 years (1927-2021) is \$21, while the terminal value of the same initial investment in equities is 10,546. We pointed out in Chapter 5 that as impressive as the difference in terminal values is, it is best interpreted as no more than compensation for the risk borne by equity investors. As we've already seen, the annual difference in returns is just about 8.6\%, which doesn't seem as dramatic. Notice that the standard deviation of the all-equity investor was a hefty 19.89\%.
 
 Now observe that the terminal value of the perfect timer is 1.51 million, a 143-fold increase over the already large terminal value of the all-equity strategy! In fact, this result is even better than it looks because the return to the market timer is truly risk-free. This is the classic case where a large standard deviation (13.34\%) has nothing to do with risk. Because the timer never delivers a return below the risk-free rate, the standard deviation is a measure of good surprises only.
 
@@ -517,10 +544,10 @@ The portfolio pays the risk-free return when the market is bearish (i.e., the ma
 
 Because the ability to predict the better-performing investment is equivalent to acquiring a (free) call option on the market, we can use option-pricing models to value it. This value would constitute the fee that a perfect timer could charge investors for its services. Placing a value on perfect timing will also allow us to assign value to less-than-perfect timers.
 
-The exercise price of the perfect-timer call option on  \$1 of the equity portfolio is the final value of the T-bill investment. Using continuous compounding, this is$ 1 × e $^{rT}$ . When you use this exercise price in the Black-Scholes formula for the value of the call option, the formula simplifies considerably to $^{18}$
+The exercise price of the perfect-timer call option on \$1 of the equity portfolio is the final value of the T-bill investment. Using continuous compounding, this is $1 \times e^{rT}$. When you use this exercise price in the Black-Scholes formula for the value of the call option, the formula simplifies considerably to $^{18}$
 
 $$
-\operatorname {M V} (\text {P e r f e c t t i m e r p e r $}  of assets) = C = 2 N \left(1 / 2 \sigma_ {M} \sqrt {T}\right) - 1 \tag{24.4}
+\operatorname{MV}(\text{Perfect timer per \$ of assets}) = C = 2N\left(\frac{1}{2}\sigma_M\sqrt{T}\right) - 1 \tag{24.4}
 $$
 
 We have so far assumed annual forecasts, that is,  $T = 1$  year. Using  $T = 1$ , and the standard deviation of stocks from Table 24.5,  $19.89\%$ , we compute the value of this call option as 7.92 cents, or  $7.92\%$  of the value of the equity portfolio.[19]
@@ -539,7 +566,7 @@ What is the market timing score of someone who flips a fair coin to predict the 
 
 Merton shows that the value of imperfect market timing equals the value of the perfect-timing call option times our measure of timing ability,  $P_{1} + P_{2} - 1$ .
 
-$\mathrm{MV}(\text{Imperfect timer}) = (P_1 + P_2 - 1) \times C = (P_1 + P_2 - 1)[2N(\frac{1}{2}\sigma_M\sqrt{T}) - 1]$  (24.5)
+$\operatorname{MV}(\text{Imperfect timer}) = (P_1 + P_2 - 1) \times C = (P_1 + P_2 - 1)[2N(\frac{1}{2}\sigma_M\sqrt{T}) - 1]$ (24.5)
 
 The incredible potential payoff to accurate timing versus the relative scarcity of billionaires suggests that market timing is far from a trivial exercise and that very imperfect timing is the most that we can hope for.
 
@@ -677,28 +704,14 @@ Information ratio:  $\frac{\alpha_P}{\sigma(e_P)}$
 
 Morningstar risk-adjusted return: MRAR(γ) =  $\left[\frac{1}{T}\sum_{t=1}^{T}\left(\frac{1 + r_t}{1 + r_{ft}}\right)^{-\gamma}\right]^{\frac{12}{\gamma}} - 1$
 
-# PROBLEM SETS
-
-1. A household savings-account spreadsheet shows the following entries:
-
-# Excel
-
-Please visit us at www.mhhe.com/Bodie13e
 
 
-<table><tr><td>Date</td><td>Additions</td><td>Withdrawals</td><td>Value</td></tr><tr><td>1/1/2022</td><td></td><td></td><td>148,000</td></tr><tr><td>1/3/2022</td><td>2,500</td><td></td><td></td></tr><tr><td>3/20/2022</td><td>4,000</td><td></td><td></td></tr><tr><td>7/5/2022</td><td>1,500</td><td></td><td></td></tr><tr><td>12/2/2022</td><td>13,460</td><td></td><td></td></tr><tr><td>3/10/2023</td><td></td><td>23,000</td><td></td></tr><tr><td>4/7/2023</td><td>3,000</td><td></td><td></td></tr><tr><td>5/3/2023</td><td></td><td></td><td>198,000</td></tr></table>
 
-Use the Excel function XIRR to calculate the dollar-weighted average return between the first and final dates.
 
-2. Is it possible for a positive alpha to be associated with inferior performance? Explain.
-3. When will the dollar-weighted return on a risky investment exceed the geometric return? When will it be lower?
-4. We have seen that market timing has tremendous potential value. Would it therefore be wise to shift resources to timing at the expense of security selection?
-5. Consider the rate of return of stocks ABC and XYZ.
 
-<table><tr><td>Year</td><td>rABC</td><td>rXYZ</td></tr><tr><td>1</td><td>20\%</td><td>30\%</td></tr><tr><td>2</td><td>12</td><td>12</td></tr><tr><td>3</td><td>14</td><td>18</td></tr><tr><td>4</td><td>3</td><td>0</td></tr><tr><td>5</td><td>1</td><td>-10</td></tr></table>
 
-$a$ . Calculate the arithmetic average return on these stocks over the sample period.
-$b$ . Which stock has greater dispersion around the mean return?
+
+
 c. Calculate the geometric average returns of each stock. What do you conclude?
 d. If you were equally likely to earn a return of  $20\%$ ,  $12\%$ ,  $14\%$ ,  $3\%$ , or  $1\%$  in each year (these are the five annual returns for stock ABC), what would be your expected rate of return?
 e. What if the five possible outcomes were those of stock XYZ?
@@ -998,7 +1011,7 @@ Select three of the funds that appear on both lists. For each fund, click on the
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/00c02e3dd0df60f729224e4e70b5db85962c8e9a85f71274efe887c3f05ccd6c.jpg)
 
-# SOLUTIONS TO CONCEPT CHECKS
+
 
 1. Time
 

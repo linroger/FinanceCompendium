@@ -1,8 +1,30 @@
 ---
 title: "Chapter 7 - Financial Forwards and Futures"
-aliases:
-  - Financial Forwards and Futures
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:10:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+   - financial forwards
+   - futures contracts
+   - derivative pricing
+   - arbitrage relationships
+   - risk management
+   - interest rate futures
+secondary_tags:
+   - prepaid forward contracts
+   - forward pricing formulas
+   - synthetic equivalents
+   - index futures
+   - currency forwards
+   - eurodollar futures
+   - cost of carry
+   - hedging strategies
+   - market making
+   - cross hedging
+   - quanto contracts
+   - carry trades
+   - libor rates
 cssclasses: academia
 ---
 
@@ -18,19 +40,19 @@ The purchase of a share of XYZ stock has three components: (1) fixing the price,
 
 Outright purchase. The typical way to think about buying stock. You simultaneously pay the stock price in cash and receive ownership of the stock.
 
-Fully leveraged purchase. A purchase in which you borrow the entire purchase price of the security. Suppose you borrow the share price,  $S_0$ , and agree to repay the borrowed
+Fully leveraged purchase. A purchase in which you borrow the entire purchase price of the security. Suppose you borrow the share price,  $S_0$ , and agree to repay the borrowed amount at time  $T$ . If the continuously compounded interest rate is  $r$ , at time  $T$  you would owe  $e^{rT}$  per dollar borrowed, or  $S_0e^{rT}$ .
 
-TABLEI
+TABLE 1
 
 Four different ways to buy a share of stock that has price  $S_0$  at time 0. At time 0 you agree to a price, which is paid either today or at time  $T$ . The shares are received either at 0 or  $T$ . The interest rate is  $r$ .
 
-<table><tr><td>Description</td><td>Pay at Time</td><td>Receive Security at Time</td><td>Payment</td></tr><tr><td>Outright purchase</td><td>0</td><td>0</td><td>S0 at time 0</td></tr><tr><td>Fully leveraged purchase</td><td>T</td><td>0</td><td>S0e rT at time T</td></tr><tr><td>Prepaid forward contract</td><td>0</td><td>T</td><td>?</td></tr><tr><td>Forward contract</td><td>T</td><td>T</td><td>? × e rT</td></tr></table> amount at time  $T$ . If the continuously compounded interest rate is  $r$ , at time  $T$  you would owe  $e^{rT}$  per dollar borrowed, or  $S_0e^{rT}$ .
+<table><tr><td>Description</td><td>Pay at Time</td><td>Receive Security at Time</td><td>Payment</td></tr><tr><td>Outright purchase</td><td>0</td><td>0</td><td>S0 at time 0</td></tr><tr><td>Fully leveraged purchase</td><td>T</td><td>0</td><td>S0e rT at time T</td></tr><tr><td>Prepaid forward contract</td><td>0</td><td>T</td><td>?</td></tr><tr><td>Forward contract</td><td>T</td><td>T</td><td>? × e rT</td></tr></table>
 
 Prepaid forward contract. An arrangement in which you pay for the stock today and receive the stock at an agreed-upon future date. The difference between a prepaid forward contract and an outright purchase is that with the former, you receive the stock at time  $T$ . We will see that the price you pay is not necessarily the stock price.
 
 Forward contract. An arrangement in which you both pay for the stock and receive it at time  $T$ , with the time  $T$  price specified at time 0.
 
-From Table 1 it is clear that you pay interest when you defer payment. The interesting question is how deferring the physical receipt of the stock affects the price; this deferral occurs with both the forward and prepaid forward contracts. What should you pay for the stock in those cases?4
+From Table 1 it is clear that you pay interest when you defer payment. The interesting question is how deferring the physical receipt of the stock affects the price; this deferral occurs with both the forward and prepaid forward contracts. What should you pay for the stock in those cases?
 
 # 2. PREPAID FORWARD CONTRACTS ON STOCK
 
@@ -422,7 +444,7 @@ The forward pricing formula for a stock index, equation (6), depends on  $r - \d
 
 Suppose you buy a unit of the index that costs  $S$  and fund the position by borrowing at the risk-free rate. You will pay  $rS$  on the borrowed amount, but the dividend yield will provide offsetting income of  $\delta S$ . You will have to pay the difference,  $(r - \delta)S$ , on an ongoing basis. This difference is the net cash flow if you carry a long position in the asset; hence, it is called the "cost of carry."
 
-Now suppose you were to short the index and invest the proceeds at the risk-free rate. You would receive  $S$  for shorting the asset and earn  $rS$  on the invested proceeds, but you would have to pay  $\delta S$  to the index lender. We will call  $\delta$  the lease rate of the index; it is what you would have to pay to a lender of the asset. The lease rate of an asset is the annualized cash payment that the borrower must make to the lender. For a non-dividend-paying stock, the lease rate is zero, while for a dividend-paying stock, the lease rate is the dividend.[10]
+Now suppose you were to short the index and invest the proceeds at the risk-free rate. You would receive  $S$  for shorting the asset and earn  $rS$  on the invested proceeds, but you would have to pay  $\delta S$  to the index lender. We will call  $\delta$  the lease rate of the index; it is what you would have to pay to a lender of the asset. The lease rate of an asset is the annualized cash payment that the borrower must make to the lender. For a non-dividend-paying stock, the lease rate is zero, while for a dividend-paying stock, the lease rate is the dividend.
 
 Here is an interpretation of the forward pricing formula:
 
@@ -441,7 +463,7 @@ Futures contracts are essentially exchange-traded forward contracts. As with for
 Although forwards and futures are similar in many respects, there are differences.
 
 - Whereas forward contracts are settled at expiration, futures contracts are settled daily. The determination of who owes what to whom is called marking-to-market. Frequent marking-to-market and settlement of a futures contract can lead to pricing differences between the futures and an otherwise identical forward.
-- As a result of daily settlement, futures contracts are liquid—it is possible to offset an obligation on a given date by entering into the opposite position. For example, if you are long the September S&P 500 futures contract, you can cancel your obligation to buy by entering into an offsetting obligation to sell the September S&P 500 contract. If you use the same broker to buy and to sell, your obligation is officially cancelled.[11]
+- As a result of daily settlement, futures contracts are liquid—it is possible to offset an obligation on a given date by entering into the opposite position. For example, if you are long the September S&P 500 futures contract, you can cancel your obligation to buy by entering into an offsetting obligation to sell the September S&P 500 contract. If you use the same broker to buy and to sell, your obligation is officially cancelled.
 - Over-the-counter forward contracts can be customized to suit the buyer or seller, whereas futures contracts are standardized. For example, available futures contracts may permit delivery of 250 units of a particular index in only March or June. A forward contract, by contrast, could specify April delivery of 300 units of the index.
 - Because of daily settlement, the nature of credit risk is different with the futures contract. In fact, futures contracts are structured so as to minimize the effects of credit risk.
 - There are typically daily price limits in futures markets (and on some stock exchanges as well). A price limit is a move in the futures price that triggers a temporary halt in trading. For example, there is an initial  $5\%$  limit on down moves in the S&P 500 futures contract. An offer to sell exceeding this limit can trigger a temporary trading halt, after which time a  $10\%$  price limit is in effect. If that is exceeded, there are subsequent  $15\%$  and  $20\%$  limits. The rules can be complicated, but it is important to be aware that such rules exist.
@@ -497,7 +519,7 @@ Let's explore the logistics of holding a futures position. Suppose the futures p
 
 A broker executes your buy order. For every buyer there is a seller, which means that one or more investors must be found who simultaneously agree to sell forward the same number of units of the index. The total number of open positions (buy/sell pairs) is called the open interest of the contract.
 
-Both buyers and sellers are required to post a performance bond with the broker to ensure that they can cover a specified loss on the position.[13] This deposit, which can earn interest, is called margin and is intended to protect the counterparty against your failure to meet your obligations. The margin is a performance bond, not a premium. Hence, futures contracts are costless (not counting, of course, commissions and the bid-ask spread).
+Both buyers and sellers are required to post a performance bond with the broker to ensure that they can cover a specified loss on the position. This deposit, which can earn interest, is called margin and is intended to protect the counterparty against your failure to meet your obligations. The margin is a performance bond, not a premium. Hence, futures contracts are costless (not counting, of course, commissions and the bid-ask spread).
 
 To understand the role of margin, suppose that there is  $10\%$  margin and weekly settlement (in practice, settlement is daily). The margin on futures contracts with a notional value of \$2.2 million is \$220,000.
 
@@ -511,7 +533,7 @@ $$
 
 We have a choice of either paying this loss directly, or allowing it to be taken out of the margin balance. It doesn't matter which we do, since we can recover the unused margin balance plus interest at any time by offsetting our position.
 
-If the loss is subtracted from the margin balance, we have earned 1 week's interest and have lost  \ {144},{020}  . Thus,if the continuously compounded interest rate is 6\%,our margin balance after 1 week is
+If the loss is subtracted from the margin balance, we have earned 1 week's interest and have lost  \ {144},{020}  . Thus, if the continuously compounded interest rate is 6\%, our margin balance after 1 week is
 
 $$
 
@@ -519,7 +541,7 @@ $$
 
 $$
 
-Because we have a 10\% margin, a 6.5\% decline in the futures price results in a 65\% decline in margin. Were we to close out our position by entering into eight short index futures contracts, we would receive the remaining margin balance of \76,233.99.
+Because we have a 10\% margin, a 6.5\% decline in the futures price results in a 65\% decline in margin. Were we to close out our position by entering into eight short index futures contracts, we would receive the remaining margin balance of $76,233.99.
 
 The decline in the margin balance means the broker has significantly less protection should we default. For this reason, participants are required to maintain the margin at a minimum level, called the maintenance margin. This is often set at  $70\%$  to  $80\%$  of the initial margin level. In this example, where the margin balance declines  $65\%$ , we would have to post additional margin. The broker would make a margin call, requesting additional margin. If we failed to post additional margin, the broker would close the position by selling 2000 units of the index and return to us the remaining margin. In practice, marking-to-market and settling up are performed at least daily.
 
@@ -562,7 +584,7 @@ Conversely, suppose that on average the interest rate declined as the futures pr
 
 This comparison of the forward and futures payoffs suggests that when the interest rate is positively correlated with the futures price, the futures price will exceed the price on an otherwise identical forward contract: The investor who is long futures buys at a higher price to offset the advantage of marking-to-market. Similarly, when the interest rate is negatively correlated with the forward price, the futures price will be less than an otherwise identical forward price: The investor who is long futures buys at a lower price to offset the disadvantage of marking-to-market.
 
-As an empirical matter, forward and futures prices are very similar.[14] The theoretical difference arises from uncertainty about the interest on mark-to-market proceeds. For short-lived contracts, the effect is generally small. However, for long-lived contracts, the difference can be significant, especially for long-lived interest rate futures, for which there is sure to be a correlation between the interest rate and the price of the underlying asset. For the rest of this chapter we will ignore the difference between forwards and futures.
+As an empirical matter, forward and futures prices are very similar. The theoretical difference arises from uncertainty about the interest on mark-to-market proceeds. For short-lived contracts, the effect is generally small. However, for long-lived contracts, the difference can be significant, especially for long-lived interest rate futures, for which there is sure to be a correlation between the interest rate and the price of the underlying asset. For the rest of this chapter we will ignore the difference between forwards and futures.
 
 # Arbitrage in Practice: S&P 500 Index Arbitrage
 
@@ -577,7 +599,7 @@ Actual and theoretical S&P 500 futures prices, December 16, 2010. The S&P 500 in
 
 Rates and dividend yield from Bloomberg.
 
-Two interest rates that we can easily observe are the yield on U.S. Treasury bills and the London Interbank Offer Rate (LIBOR), which is a borrowing rate for large financial institutions.[15] (We will discuss LIBOR further in Section 7.) Table 9 reports 3-month and 6-month T-bill and LIBOR rates from December 16. LIBOR yields are greater than Treasury yields for two reasons. First, banks have greater default risk than the government and thus the interest rate on their deposits is greater. Second, Treasury securities are more liquid—they are easier to buy and sell—and consequently their price is greater (their yield is lower).
+Two interest rates that we can easily observe are the yield on U.S. Treasury bills and the London Interbank Offer Rate (LIBOR), which is a borrowing rate for large financial institutions. (We will discuss LIBOR further in Section 7.) Table 9 reports 3-month and 6-month T-bill and LIBOR rates from December 16. LIBOR yields are greater than Treasury yields for two reasons. First, banks have greater default risk than the government and thus the interest rate on their deposits is greater. Second, Treasury securities are more liquid—they are easier to buy and sell—and consequently their price is greater (their yield is lower).
 
 To think about what interest rate is appropriate, consider the economic characteristics of a futures contract. A long futures contract is like a leveraged position in the underlying asset, where the loan that provides leverage is collateralized with margin that is refreshed daily. The lender will perceive a costly default as unlikely; thus the rate can be close to risk-free. The T-bill rate includes a liquidity premium, however, while the rate implicit in a futures contract would not. The appropriate rate is therefore greater than the T-bill rate and likely lower than LIBOR.
 
@@ -596,7 +618,7 @@ Arbitrageurs will need to take into account these considerations and small diffe
 
 # Quanto Index Contracts
 
-At first glance the Chicago Mercantile Exchange's Nikkei 225 futures contract—see the details summarized in Figure 2—is a stock index contract like the S&P 500 contract. However, there is one very important difference: Settlement of the contract is in a different currency (dollars) than the currency of denomination for the index (yen).[17]
+At first glance the Chicago Mercantile Exchange's Nikkei 225 futures contract—see the details summarized in Figure 2—is a stock index contract like the S&P 500 contract. However, there is one very important difference: Settlement of the contract is in a different currency (dollars) than the currency of denomination for the index (yen).
 
 To see why this is important, consider a dollar-based investor wishing to invest in the Nikkei 225 cash index. This investor must undertake two transactions: changing dollars to yen and using yen to buy the index. When the position is sold, the investor reverses these transactions, selling the index and converting yen back to dollars. There are two sources of risk in this transaction: the risk of the index, denominated in yen, and the risk that the yen/dollar exchange rate will change. From Figure 2, the Nikkei 225 futures contract is denominated in dollars rather than yen. Consequently, the contract insulates investors from currency risk, permitting them to speculate solely on whether the index rises or falls. This kind of contract is called a quanto. Quanto contracts allow investors in one country to invest in a different country without exchange rate risk.
 
@@ -663,9 +685,9 @@ Table 11 shows the performance of the hedged position. The result, as you would 
 
 Cross-Hedging with Imperfect Correlation. The preceding example assumes that the portfolio and the S&P 500 index are perfectly correlated. In practice, correlations between
 
-TABLE I Results from shorting 509.09 S&P 500 index futures against a 100m portfolio with a beta of 1.4.
+TABLE 11 Results from shorting 509.09 S&P 500 index futures against a 100m portfolio with a beta of 1.4.
 
-<table><tr><td>S&amp;P 500 Index</td><td>Gain on 509 Futures</td><td>Portfolio Value</td><td>Total</td></tr><tr><td>900</td><td>33.855</td><td>72.145</td><td>106.000</td></tr><tr><td>950</td><td>27.491</td><td>78.509</td><td>106.000</td></tr><tr><td>1000</td><td>21.127</td><td>84.873</td><td>106.000</td></tr><tr><td>1050</td><td>14.764</td><td>91.236</td><td>106.000</td></tr><tr><td>1100</td><td>8.400</td><td>97.600</td><td>106.000</td></tr><tr><td>1150</td><td>2.036</td><td>103.964</td><td>106.000</td></tr><tr><td>1200</td><td>-4.327</td><td>110.327</td><td>106.000</td></tr></table> two portfolios can be substantially less than one. Using the S&P 500 to hedge such a portfolio would introduce basis risk, creating a hedge with residual risk.[18]
+<table><tr><td>S&amp;P 500 Index</td><td>Gain on 509 Futures</td><td>Portfolio Value</td><td>Total</td></tr><tr><td>900</td><td>33.855</td><td>72.145</td><td>106.000</td></tr><tr><td>950</td><td>27.491</td><td>78.509</td><td>106.000</td></tr><tr><td>1000</td><td>21.127</td><td>84.873</td><td>106.000</td></tr><tr><td>1050</td><td>14.764</td><td>91.236</td><td>106.000</td></tr><tr><td>1100</td><td>8.400</td><td>97.600</td><td>106.000</td></tr><tr><td>1150</td><td>2.036</td><td>103.964</td><td>106.000</td></tr><tr><td>1200</td><td>-4.327</td><td>110.327</td><td>106.000</td></tr></table> two portfolios can be substantially less than one. Using the S&P 500 to hedge such a portfolio would introduce basis risk, creating a hedge with residual risk.
 
 Denote the return and invested dollars on the portfolio as  $r_p$  and  $I_p$ . Assume that we short  $H$  futures contracts, each with a notional value  $N$ . The futures position earns the risk premium,  $r_{\mathrm{S&P}} - r$ . Thus, the return on the hedged position is
 
@@ -726,11 +748,11 @@ Many corporations use currency futures and forwards for short-term hedging. An i
 
 # Currency Prepaid Forward
 
-Suppose that 1 year from today you want to have ¥1. A prepaid forward allows you to pay dollars today to acquire ¥1 in 1 year. What is the prepaid forward price? Suppose the yen-denominated interest rate is ry and the exchange rate today ($/¥) is x0. We can work
+Suppose that 1 year from today you want to have ¥1. A prepaid forward allows you to pay dollars today to acquire ¥1 in 1 year. What is the prepaid forward price? Suppose the yen-denominated interest rate is ry and the exchange rate today ($/¥) is x0. We can work backward. If we want ¥1 in 1 year, we must have e-ry in yen today. To obtain that many yen today, we must exchange x0e-ry dollars into yen.
 
 <table><tr><td>FIGURE 3</td><td>Underlying</td><td>Euro currency</td></tr><tr><td rowspan="5">Specifications for EUR/USD futures contract.</td><td>Where traded</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Size</td><td>125,000 euro</td></tr><tr><td>Months</td><td>March, June, September, December (six consecutive contracts)</td></tr><tr><td>Trading ends</td><td>9:16A.M. on the second business day prior to the third Wednesday of the month</td></tr><tr><td>Delivery</td><td>Cash-settlement</td></tr></table>
 
-<table><tr><td colspan="2">TABLE 12</td><td colspan="6">Dollar cost of foreign currencies.</td></tr><tr><td>Date</td><td>Currency</td><td>June</td><td>Sept.</td><td>Dec.</td><td>Mar.</td><td>June</td><td>Sept.</td></tr><tr><td rowspan="3">June 6, 2007</td><td>Euro</td><td>1.351</td><td>1.355</td><td>1.358</td><td>1.361</td><td>1.363</td><td>1.365</td></tr><tr><td>100 Yen</td><td>0.828</td><td>0.837</td><td>0.847</td><td>0.856</td><td>0.865</td><td>0.873</td></tr><tr><td>Sterling</td><td>1.992</td><td>1.99</td><td>1.987</td><td>1.984</td><td>1.98</td><td>1.975</td></tr><tr><td rowspan="3">June 2, 2010</td><td>Euro</td><td>1.224</td><td>1.225</td><td>1.226</td><td>1.228</td><td>1.229</td><td>1.231</td></tr><tr><td>100 Yen</td><td>1.085</td><td>1.087</td><td>1.089</td><td>1.092</td><td>1.095</td><td>1.098</td></tr><tr><td>Sterling</td><td>1.464</td><td>1.465</td><td>1.465</td><td>1.466</td><td>1.466</td><td>1.467</td></tr></table> backward. If we want ¥1 in 1 year, we must have e-ry in yen today. To obtain that many yen today, we must exchange x0e-ry dollars into yen.
+<table><tr><td colspan="2">TABLE 12</td><td colspan="6">Dollar cost of foreign currencies.</td></tr><tr><td>Date</td><td>Currency</td><td>June</td><td>Sept.</td><td>Dec.</td><td>Mar.</td><td>June</td><td>Sept.</td></tr><tr><td rowspan="3">June 6, 2007</td><td>Euro</td><td>1.351</td><td>1.355</td><td>1.358</td><td>1.361</td><td>1.363</td><td>1.365</td></tr><tr><td>100 Yen</td><td>0.828</td><td>0.837</td><td>0.847</td><td>0.856</td><td>0.865</td><td>0.873</td></tr><tr><td>Sterling</td><td>1.992</td><td>1.99</td><td>1.987</td><td>1.984</td><td>1.98</td><td>1.975</td></tr><tr><td rowspan="3">June 2, 2010</td><td>Euro</td><td>1.224</td><td>1.225</td><td>1.226</td><td>1.228</td><td>1.229</td><td>1.231</td></tr><tr><td>100 Yen</td><td>1.085</td><td>1.087</td><td>1.089</td><td>1.092</td><td>1.095</td><td>1.098</td></tr><tr><td>Sterling</td><td>1.464</td><td>1.465</td><td>1.465</td><td>1.466</td><td>1.466</td><td>1.467</td></tr></table>
 
 Source: CMEGroup via Datastream.
 
@@ -759,7 +781,7 @@ F _ {0, T} = x _ {0} e ^ {(r - r _ {y}) T} \tag {18}
 
 $$
 
-The forward currency rate will exceed the current exchange rate when the domestic risk-free rate is higher than the foreign risk-free rate.[20]
+The forward currency rate will exceed the current exchange rate when the domestic risk-free rate is higher than the foreign risk-free rate.
 
 Example 5. Suppose that the yen-denominated interest rate is  $2\%$  and the dollar-denominated rate is  $6\%$ . The current exchange rate is 0.009 dollars per yen. The 1-year forward rate is
 
@@ -799,7 +821,7 @@ To summarize, a forward exchange rate reflects the difference in interest rates 
 
 Businesses and individuals face uncertainty about future interest rates. A manager planning to borrow money 3 months from today doesn't know today what the interest rate will be at that time. Forward and futures contracts permit hedging interest rate risk by allowing the manager to lock in now a borrowing rate for 3 months in the future.
 
-The principles underlying interest rate contracts are exactly those we have been discussing, but interest rates seem more complicated because there are so many of them, depending upon whether you invest for 1 day, 1 month, 1 year, or 30 years. There are also implied forward interest rates between any two points in the future.[21] The Eurodollar contract is so important that we discuss it briefly here.
+The principles underlying interest rate contracts are exactly those we have been discussing, but interest rates seem more complicated because there are so many of them, depending upon whether you invest for 1 day, 1 month, 1 year, or 30 years. There are also implied forward interest rates between any two points in the future. The Eurodollar contract is so important that we discuss it briefly here.
 
 The Eurodollar contract, described in Figure 4, is based on a  \$1 million 3-month deposit earning LIBOR (the London Interbank Offer Rate), which is the average borrowing rate faced by large international London banks. The 1-month LIBOR contract is similar. Suppose that current LIBOR is 1.5\%$  over 3 months. By convention, this is annualized by multiplying by 4, so the quoted LIBOR rate is  $6\%$ . Assuming a bank borrows 1 million for
 
@@ -839,7 +861,7 @@ This example illustrates what we already knew from studying covered interest arb
 
 Carry trades can be undertaken with different asset classes, e.g., by borrowing short term and lending long term in the same currency. Currency carry trades are popular because historically they have been profitable. Burnside et al. (2008) show that this profitability (relative to risk) persists even when the investor buys options to protect against large losses. The persistent profitability of currency carry trades is surprising.
 
-3 months, a change in annualized LIBOR of  $0.01\%$  (1 basis point) would raise its borrowing cost by  $0.0001 / 4 \times \1$  million = \25.
+3 months, a change in annualized LIBOR of  $0.01\%$  (1 basis point) would raise its borrowing cost by  $0.0001 / 4 \times \1$  million = $25.
 
 The Eurodollar futures price at expiration of the contract is
 
@@ -872,7 +894,7 @@ Eurodollar futures price strip for four dates.
 
 Source: Datastream.
 
-25 \times 100 \times (94 - 92) = \5000. The short position in the futures contract compensates us for the increase in our borrowing cost.[22] In the same way, a long position can be used to lock in a lending rate.
+25 \times 100 \times (94 - 92) = $5000. The short position in the futures contract compensates us for the increase in our borrowing cost. In the same way, a long position can be used to lock in a lending rate.
 
 The Eurodollar futures price is a construct, not the price of an asset. In this sense Eurodollar futures are different from the futures contracts we have already discussed. Although Eurodollar LIBOR is closely related to a number of other interest rates, there is no one specific identifiable asset that underlies the Eurodollar futures contract.
 

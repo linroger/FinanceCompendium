@@ -1,5 +1,9 @@
 ---
 title: Options Markets Introduction
+parent_directory: Part 6 - Options Futures and Other Derivatives
+formatted: 2025-12-21 02:10:00 AM
+formatter_model: grok-fast
+cli-tool: opencode
 primary_tags:
   - options markets
   - derivative securities
@@ -9,10 +13,7 @@ primary_tags:
 secondary_tags:
   - option pricing
   - option contracts
-  - option expiration
   - option payoff
-  - option profit
-  - option strategies
   - protective put
   - covered call
   - straddle
@@ -25,9 +26,6 @@ secondary_tags:
   - exotic options
   - asian options
   - barrier options
-  - lookback options
-  - currency-translated options
-  - digital options
 cssclasses: academia
 ---
 
@@ -61,30 +59,29 @@ Sellers of call options, who are said to write calls, receive premium income now
 
 Figure 20.1 is a small sample of listed stock option quotations for Microsoft on September 10, 2021. The most recent price for the company's stock is \$295.71. The figure shows prices of options with exercise prices of \$290, \$300, and \$310 and with expiration dates in October and December. We can use the information in this figure to work out the gains or losses on various option positions as a function of the stock price on the expiration date.
 
-# Example 20.1 Profits and Losses on a Call Option
+**Example 20.1 Profits and Losses on a Call Option**
 
-Figure 20.1 shows that the October 1, 2021, expiration call on a share of Microsoft with an exercise price of  \$300 sells on September 10 for\$ 3.60. Until the expiration date, the call holder can exercise the option to buy shares of Microsoft for \$300. Because the stock price on September 10 is only  \$295.71, however, it clearly would not make sense at the moment to exercise the option to buy at\$ 300. Indeed, if Microsoft remains below  \$300 by the expiration date, the call will be left to expire worthless. However, if Microsoft sells above\$ 300 at expiration, the call holder will benefit by exercising. For example, if Microsoft sells for \$302 on October 1, the option holder will exercise the right to pay \$300 for a stock worth \$302. The value of each option on the expiration date would then be
+Figure 20.1 shows that the October 1, 2021, expiration call on a share of Microsoft with an exercise price of \$300 sells on September 10 for \$3.60. Until the expiration date, the call holder can exercise the option to buy shares of Microsoft for \$300. Because the stock price on September 10 is only \$295.71, however, it clearly would not make sense at the moment to exercise the option to buy at \$300. Indeed, if Microsoft remains below \$300 by the expiration date, the call will be left to expire worthless. However, if Microsoft sells above \$300 at expiration, the call holder will benefit by exercising. For example, if Microsoft sells for \$302 on October 1, the option holder will exercise the right to pay \$300 for a stock worth \$302. The value of each option on the expiration date would then be
 
 $$
 \text{Value} = \text{Stock price} - \text{Exercise price} = \$302 - \$300 = \$2
 $$
 
-Despite the  \$2 payoff at expiration, the call holder still realizes a loss of\$ 1.60 on the investment because the initial purchase price was 3.60:
+Despite the \$2 payoff at expiration, the call holder still realizes a loss of \$1.60 on the investment because the initial purchase price was 3.60:
 
 $$
 \text{Profit} = \text{Final value} - \text{Original investment} = \$2.00 - \$3.60 = -\$1.60
 $$
 
-Nevertheless, exercise of the call is optimal at expiration if the stock price exceeds the exercise price because the exercise proceeds will offset at least part of the purchase price. The call buyer will clear a profit if Microsoft is selling above 303.60 at the expiration date. At that stock price, the net proceeds from exercise will just cover the original cost of the call.
+Nevertheless, exercise of the call is optimal at expiration if the stock price exceeds the exercise price because the exercise proceeds will offset at least part of the purchase price. The call buyer will clear a profit if Microsoft is selling above \$303.60 at the expiration date. At that stock price, the net proceeds from exercise will just cover the original cost of the call.
 
-A put option gives its holder the right to sell an asset for a specified exercise or strike price on or before some expiration date. An October expiration put on Microsoft with an exercise price of  \$300 entitles its owner to sell Microsoft stock to the put writer for\$ 300 even if the market price of Microsoft is less than that amount. The cost of that put option on September 10 was 7.82. Whereas profits on call options increase when the asset price rises, profits on put options increase when the asset price falls. A put will be exercised only if the price of the underlying asset is less than the exercise price, that is, only if its holder can deliver for the exercise price an asset with a lesser market value. (One doesn't need to own the shares of Microsoft to exercise the put option. Upon exercise, the investor's broker purchases the necessary shares of Microsoft at the market price and immediately delivers, or "puts them," to an option writer for the exercise price.) The owner of the put profits by the difference between the exercise price and market price.
+A put option gives its holder the right to sell an asset for a specified exercise or strike price on or before some expiration date. An October expiration put on Microsoft with an exercise price of \$300 entitles its owner to sell Microsoft stock to the put writer for \$300 even if the market price of Microsoft is less than that amount. The cost of that put option on September 10 was \$7.82. Whereas profits on call options increase when the asset price rises, profits on put options increase when the asset price falls. A put will be exercised only if the price of the underlying asset is less than the exercise price, that is, only if its holder can deliver for the exercise price an asset with a lesser market value. (One doesn't need to own the shares of Microsoft to exercise the put option. Upon exercise, the investor's broker purchases the necessary shares of Microsoft at the market price and immediately delivers, or "puts them," to an option writer for the exercise price.) The owner of the put profits by the difference between the exercise price and market price.
 
-# Example 20.2 Profits and Losses on a Put Option
+**Example 20.2 Profits and Losses on a Put Option**
 
-Now consider the October 1, 2021, expiration put option on Microsoft with an exercise price of \$300, selling on September 10 for \$7.82. It entitles its owner to sell a share of Microsoft for \$300 at any time until October 1. If the put holder buys a share of Microsoft and immediately exercises the right to sell it at \$300, the exercise proceeds will be $300 - $295.71 = \$4.29. Obviously, an investor who pays \$7.82 for the put has no intention of exercising it immediately. If, on the other hand, Microsoft is selling for only 291 at expiration, the put will turn out to be a profitable investment. Its value at expiration will be
+Now consider the October 1, 2021, expiration put option on Microsoft with an exercise price of \$300, selling on September 10 for \$7.82. It entitles its owner to sell a share of Microsoft for \$300 at any time until October 1. If the put holder buys a share of Microsoft and immediately exercises the right to sell it at \$300, the exercise proceeds will be \$300 - \$295.71 = \$4.29. Obviously, an investor who pays \$7.82 for the put has no intention of exercising it immediately. If, on the other hand, Microsoft is selling for only \$291 at expiration, the put will turn out to be a profitable investment. Its value at expiration will be
 
 Put value at expiration = Exercise price - Stock price = \$300 - \$291 = \$9 and the investor's profit will be \$9 - \$7.82 = \$1.18. This is a holding period return of \$1.18/\$7.82 = 0.151, or 15.1\%—over only 22 days! Obviously, put sellers on October 1 (who are on the other side of the transaction) do not consider this outcome very likely.
-
 
 An option is said to be in the money when its exercise would produce a positive cash flow. Therefore, a call option is in the money when the asset price is greater than the exercise price, and a put option is in the money when the asset price is less than the exercise price. Conversely, a call is out of the money when the asset price is less than the exercise price; no one would exercise the right to pay the strike price for a stock when its market value is less than that amount. A put option is out of the money when the exercise price is less than the asset price. Options are at the money when the exercise price and asset price are equal.
 
@@ -104,8 +101,6 @@ Because trading in any particular option can be sporadic, it is not unusual to f
 
 Expirations of most exchange-traded options tend to be fairly short, ranging up to only several months. For larger firms and several stock indexes, however, longer-term options are traded with expirations ranging up to several years. These options are called LEAPS (for Long-Term Equity AnticiPation Securities).
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/3c59595fdf83cda75698cb6464098a718f8628793f02b8908069e92769a586b4.jpg)
-
 # Concept Check 20.1 a. What will be the proceeds and net profits to an investor who purchases the December expiration Microsoft calls with exercise price \$300 if the stock price at expiration is \$315? What if the stock price is 285?
 
 b. Now answer part (a) for an investor who purchases the December expiration put option with exercise price 300.
@@ -123,7 +118,6 @@ To account for a stock split, the exercise price is reduced by a multiple of the
 
 In contrast to stock dividends, cash dividends do not affect the terms of an option contract. Because payment of a cash dividend reduces the selling price of the stock without inducing offsetting adjustments in the option contract, the value of the option is affected by dividend policy. Other things being equal, call option values are lower for high-dividend payout policies because such policies slow the rate of increase of stock prices; conversely, put values are higher for high-dividend payouts. (Of course, the option values do not necessarily rise or fall on the dividend payment or ex-dividend dates. Dividend payments are anticipated, so the effect of the payment already is built into the original option price.)
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/48833bb61c8c355d1f7a8dc0538b6aff3a34878cb7194d89ecc14d2846fcb6dc.jpg)
 
 # Concept Check 20.2
 
@@ -187,7 +181,7 @@ Figure 20.2 Payoff and profit to call option at expiration
 Conversely, the call writer loses if the stock price is sufficiently high. In that scenario, the writer will be obligated to deliver a stock worth  $S_{T}$  for only  $X$  dollars:
 
 $$
-\text {P a y o f f t o c a l l w r i t e r} = \left\{ \begin{array}{l l} - (S _ {T} - X) & \text {i f} S _ {T} > X \\ 0 & \text {i f} S _ {T} \leq X \end{array} \right.
+\text{Payoff to call writer} = \left\{ \begin{array}{ll} -(S_{T} - X) & \text{if } S_{T} > X \\ 0 & \text{if } S_{T} \leq X \end{array} \right.
 $$
 
 The call writer is willing to bear this risk in return for the option premium.
@@ -204,7 +198,7 @@ A put option is the right to sell an asset at the exercise price. The put holder
 The value of a put option at expiration is
 
 $$
-\text {P a y o f f t o p u t h o l d e r} = \left\{ \begin{array}{l l} 0 & \text {i f} S _ {T} \geq X \\ X - S _ {T} & \text {i f} S _ {T} <   X \end{array} \right.
+\text{Payoff to put holder} = \left\{ \begin{array}{ll} 0 & \text{if } S_{T} \geq X \\ X - S_{T} & \text{if } S_{T} < X \end{array} \right.
 $$
 
 The solid line in Figure 20.4 plots the payoff at expiration on a FinCorp put with an exercise price of  \$100. If the stock price at expiration is above\$ 100, the put has no value, as the right to sell the shares at \$100 would not be exercised. Below a price of \$100, the put value at expiration increases by 1 for each dollar the stock price falls. The dashed line plots the put option owner's profit at expiration, net of the initial cost of the put.
@@ -215,8 +209,6 @@ Writing puts naked (i.e., writing a put without an offsetting short position in 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/ca37e73b36aa02b63330324ebb6d91f183d98750f259298817b85e503c0daf36.jpg)
 Figure 20.4 Payoff and profit to put option at expiration
 
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/5a21d41d2df2c7497728b03fe45b639194a508ced41f0db8b6a748a782252488.jpg)
 
 # Concept Check 20.3
 
@@ -236,7 +228,7 @@ Strategy A: Invest entirely in stock. Buy 100 shares, each selling for 100.
 
 Strategy B: Invest entirely in at-the-money call options. Buy 1,000 calls, each selling for 10. (This would require 10 contracts, each for 100 shares.)
 
-Strategy C: Purchase 100 call options for  \$1,000. Invest your remaining\$ 9,000 in 1-year T-bills, to earn 3\% interest. The bills will grow in value from  $9,000 to$ 9,000 × 1.03 = 9,270.
+Strategy C: Purchase 100 call options for \$1,000. Invest your remaining \$9,000 in 1-year T-bills, to earn 3\% interest. The bills will grow in value from \$9,000 to \$9,000 × 1.03 = \$9,270.
 
 Let's trace the possible values of these three portfolios as a function of the stock price when the options expire at the end of the year.
 
@@ -268,7 +260,7 @@ An unlimited variety of payoff patterns can be achieved by combining puts and ca
 
 Imagine you would like to invest in a stock, but you are unwilling to bear potential losses beyond some given level. Investing in the stock alone seems risky to you because in principle you could lose all the money you invest. You might consider adding a "protective" put option on the stock to your portfolio. Table 20.1 shows the total value of your portfolio at option expiration: Whatever happens to the stock price, you are guaranteed a payoff at least equal to the put option's exercise price because the put gives you the right to sell your shares for that amount.
 
-# Example 20.3 Protective Put
+**Example 20.3 Protective Put**
 
 Suppose the strike price is  $X = \$ 100 $and the stock is selling at$ \ $97\$  at option expiration. Then the value of your total portfolio is \$100. The stock is worth  $\$97$  and the value of the expiring put option is
 
@@ -305,13 +297,13 @@ The claim that derivatives are best viewed as risk management tools may seem sur
 
 A covered call position is the purchase of a share of stock coupled with a sale of a call option on that stock. The written call is "covered" because the potential obligation to deliver the stock can be satisfied using the stock held in the portfolio. Writing an option without an offsetting stock position is called by contrast naked option writing. The payoff to a covered call, presented in Table 20.2, equals the stock value minus the value of the written call.
 
-The solid line in Figure 20.8, Panel C, is the payoff. You see that the position is worth  $S_{T}$  when the stock price at time  $T$  is below  $X$  and rises to a maximum of  $X$  when  $S_{T}$  exceeds  $X$ . In essence, the sale of the call options means the call writer has
+The solid line in Figure 20.8, Panel C, is the payoff. You see that the position is worth $S_{T}$ when the stock price at time $T$ is below $X$ and rises to a maximum of $X$ when $S_{T}$ exceeds $X$. In essence, the sale of the call options means the call writer has
 
 # Table 20.2
 
 Value of a covered call position at option expiration
 
-<table><tr><td></td><td>ST≤X</td><td>ST&gt; X</td></tr><tr><td>Payoff of stock</td><td>ST</td><td>ST</td></tr><tr><td>+ Payoff of written call</td><td>-0</td><td>-(ST-X)</td></tr><tr><td>Total</td><td>ST</td><td>X</td></tr></table> sold the claim to any stock value above  $X$  in return for the initial premium (the call price). Therefore, at expiration, the position is worth at most  $X$ . The dashed line is the net profit.
+<table><tr><td></td><td>ST≤X</td><td>ST&gt; X</td></tr><tr><td>Payoff of stock</td><td>ST</td><td>ST</td></tr><tr><td>+ Payoff of written call</td><td>-0</td><td>-(ST-X)</td></tr><tr><td>Total</td><td>ST</td><td>X</td></tr></table> sold the claim to any stock value above $X$ in return for the initial premium (the call price). Therefore, at expiration, the position is worth at most $X$. The dashed line is the net profit.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/d745ed54d0330c12511713bf23be2dfedaf1d9f12fd359ae9f4dc03f2627e7d0.jpg)
 Figure 20.8 Value of a covered call position at expiration
@@ -319,7 +311,7 @@ Figure 20.8 Value of a covered call position at expiration
 
 Writing covered call options has been a popular investment strategy among institutional investors. Consider the managers of a fund invested largely in stocks. They might find it appealing to write calls on some or all of the stock in order to boost income by the premiums collected. Although they thereby forfeit potential capital gains should the stock price rise above the exercise price, if they view  $X$  as the price at which they plan to sell the stock anyway, then they may rationalize the call as providing a kind of "sell discipline." The written call guarantees the stock sale will occur as planned.
 
-# Example 20.4 Covered Call
+**Example 20.4 Covered Call**
 
 Assume a pension fund holds 1,000 shares of stock, with a current price of \$100 per share. Suppose the portfolio manager intends to sell all 1,000 shares if the share price hits \$110, and a call expiring in 60 days with an exercise price of \$110 currently sells for \$5. By writing 10 call contracts (for 100 shares each), the fund can pick up \$5,000 in extra income. The fund would lose its share of profits from any movement of the stock price above \$110 per share, but if it would have sold its shares at 110, it would not have realized those profits anyway.
 
@@ -327,9 +319,9 @@ Assume a pension fund holds 1,000 shares of stock, with a current price of \$100
 
 A long straddle is established by buying both a call and a put, each with the same exercise price,  $X$ , and the same expiration date,  $T$ . Straddles are useful strategies for investors who believe a stock price will move a lot but are uncertain about the direction of the move. For example, suppose you believe an important court case that will make or break a company is about to be settled, and the market is not yet aware of the situation. The stock price will either double in value if the case is settled favorably or drop by half if the settlement goes against the company. The straddle will do well regardless of the outcome because its value rises when the stock price makes either extreme upward or downward moves from  $X$ .
 
-The worst-case scenario for a straddle is no movement in the stock price. If  $S_{T}$  equals  $X$ , both the call and the put expire worthless, and the investor's outlay for the purchase of both options is lost. Straddles, therefore, are bets on volatility. The straddle investor must view the stock as more volatile than the market does.
+The worst-case scenario for a straddle is no movement in the stock price. If $S_{T}$ equals $X$, both the call and the put expire worthless, and the investor's outlay for the purchase of both options is lost. Straddles, therefore, are bets on volatility. The straddle investor must view the stock as more volatile than the market does.
 
-The payoff to a straddle is presented in Table 20.3. The solid line in Figure 20.9, Panel C, illustrates this payoff. Notice the portfolio payoff is always positive, except at the one point where the portfolio has zero value,  $S_{T} = X$ . You might wonder why all investors don't pursue such a seemingly "no-lose" strategy. The reason is that the straddle requires that both the put and call be purchased. The value of the portfolio at expiration, while never negative, still must exceed the initial outlay for a straddle to clear a profit.
+The payoff to a straddle is presented in Table 20.3. The solid line in Figure 20.9, Panel C, illustrates this payoff. Notice the portfolio payoff is always positive, except at the one point where the portfolio has zero value, $S_{T} = X$. You might wonder why all investors don't pursue such a seemingly "no-lose" strategy. The reason is that the straddle requires that both the put and call be purchased. The value of the portfolio at expiration, while never negative, still must exceed the initial outlay for a straddle to clear a profit.
 
 The dashed line in Figure 20.9, Panel C, is the profit diagram, which lies below the payoff line by the initial cost of the straddle,  $P + C$ . The final stock price must depart from  $X$  by this amount for the straddle to provide a profit.
 
@@ -355,7 +347,6 @@ Figure 20.9 Value of a straddle at expiration
 
 Strips and straps are variations of straddles. A strip is two puts and one call on a security with the same exercise price and expiration date. A strap is two calls and one put.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7ff349069aa0b59372d53933b7e81bfbd9343f3fc412231f34365924af0b04c4.jpg)
 
 # Concept Check 20.4
 
@@ -396,7 +387,6 @@ Using spreadsheets to analyze combinations of options is very helpful. Once the 
 
 A collar would be appropriate for an investor who has a target wealth goal in mind but is unwilling to risk losses beyond a certain level. If you are contemplating buying a house for \$220,000, for example, you might set this figure as your goal. Your current wealth may be \$200,000, and you are unwilling to risk losing more than \$20,000. A collar established by (1) purchasing 2,000 shares of stock currently selling at \$100 per share, (2) purchasing 2,000 put options (20 options contracts) with exercise price \$90, and (3) writing 2,000 calls with exercise price \$110 would give you a chance to realize the \$20,000 capital gain without risking a loss of more than \$20,000.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/23330cbd268d91fb69f792ada6b74b36269a878db1e9c2c1fe42d50bab2eb46b.jpg)
 
 # Concept Check 20.5
 
@@ -445,7 +435,7 @@ Table 20.5 summarizes the outcome. The immediate cash inflow is  \$2, exactly th
 Equation 20.1 actually applies only to options on stocks that pay no dividends before the expiration date of the option. The extension of the parity condition for European call options on dividend-paying stocks is, however, straightforward. Problem 12 at the end of the chapter leads you through the demonstration. The more general formulation of the put-call parity condition is
 
 $$
-P _ {0} = C _ {0} - S _ {0} + \operatorname {P V} (X) + \operatorname {P V} (\text {d i v i d e n d s}) \tag {20.2}
+P_{0} = C_{0} - S_{0} + \operatorname{PV}(X) + \operatorname{PV}(\text{dividends}) \tag{20.2}
 $$ where PV(dividends) is the present value of the dividends that will be paid by the stock during the life of the option. If the stock does not pay dividends, Equation 20.2 becomes identical to Equation 20.1.
 
 
@@ -482,7 +472,7 @@ There must be some compensation for the firm's implicit call option. If the call
 Figure 20.11 illustrates this optionlike property. The horizontal axis is the value of a straight bond with otherwise identical terms to the callable bond. The dashed 45-degree line represents the value of straight debt. The solid line is the value of the callable bond, and the dotted line is the value of the call option retained by the firm. A callable bond's potential for capital gains is limited by the firm's option to repurchase at the call price.
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/d1a843241713e8dacc521df2abe40b50693e1099f024e19e6e1df7b8ef2427f7.jpg)
+
 
 # Concept Check 20.6
 
@@ -490,7 +480,6 @@ How is a callable bond similar to a covered call position on a straight bond?
 
 The option inherent in callable bonds typically is more complex than an ordinary call option. First, it usually may be exercised only after some initial period of call protection. In addition, the price at which the bond is callable may change over time. Unlike exchange-listed options, these features are defined in the initial bond covenant and will depend on the needs of the issuing firm and its perception of the market's tastes.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/2a81618f85349ac15848e058513ba3135649c5d30fa4ffca7c77600d3db64142.jpg)
 
 # Concept Check 20.7
 
@@ -506,7 +495,6 @@ A bond's conversion value equals the value it would have if you converted it int
 
 The straight bond value, or "bond floor," is the value the bond would have if it were not convertible into stock. The bond must sell for more than its straight bond value because a convertible bond has more value; it is in fact a straight bond plus a valuable call option. Therefore, the convertible bond has two lower bounds on its market price: the conversion value and the straight bond value.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/b6cdc5b3671f7178a527c1a05ab253f90e56e16aca6966b765fe414cd7300d00.jpg)
 
 # Concept Check 20.8
 
@@ -609,7 +597,7 @@ How might the bank set the appropriate multiplier? To answer this, note various 
 
 1. The price the depositor is paying for the options is the forgone interest on the conventional CD that could be purchased. Because interest is received at the end of the period, the present value of the interest payment on each dollar invested is  $r_f / (1 + r_f)$ . Therefore, the depositor trades a sure payment with present value per dollar invested of  $r_f / (1 + r_f)$  for a return that depends on the market's performance. Conversely, the bank can fund its obligation using the interest that it would have paid on a conventional CD.
 2. The option we have described is an at-the-money option, meaning that the exercise price equals the current value of the stock index. The option goes into the money if the market index increases from its level at the inception of the contract.
-3. We can analyze the option on a per-dollar-invested basis. For example, the option costs the depositor  $r_f / (1 + r_f)$  dollars per dollar placed in the index-linked CD. The market price of the option per dollar invested is  $C_0 / S_0$ : The at-the-money option costs  $C_0$  dollars and is written on one unit of the market index, currently at  $S_0$ .
+3. We can analyze the option on a per-dollar-invested basis. For example, the option costs the depositor $r_f / (1 + r_f)$ dollars per dollar placed in the index-linked CD. The market price of the option per dollar invested is $C_0 / S_0$: The at-the-money option costs $C_0$ dollars and is written on one unit of the market index, currently at $S_0$.
 
 Now it is easy to determine the multiplier that the bank can offer on the CDs. It receives from its depositors an implicit "payment" of  $r_f / (1 + r_f)$  per dollar invested. It costs the bank  $C_0 / S_0$  to purchase the call option on a 1 investment in the market index.
 
@@ -620,8 +608,6 @@ Therefore, if  r_f / (1 + r_f)  is, for example,  70\%  of  C_0 / S_0 , the bank
 Suppose that  $r_f = 6\%$  per year, that 6-month maturity at-the-money calls on the market index currently cost \$50, and that the index is at 1,000. Then the option costs  $50 / 1,000 = $.05\$  per dollar of market value. The CD rate is  $3\%$  per 6 months, meaning that  $r_f / (1 + r_f) = .03 / 1.03 = .0291$ . Therefore, the multiplier would be  $.0291 / .05 = .5825$ .
 
 The index-linked CD has several variants. Investors can purchase similar CDs that guarantee a positive minimum return if they are willing to settle for a smaller multiplier. In this case, the option is "purchased" by the depositor for  $(r_f - r_{\mathrm{min}}) / (1 + r_f)$  dollars per dollar invested, where  $r_{\mathrm{min}}$  is the guaranteed minimum return. Because the purchase price is lower, fewer options can be purchased, which results in a lower multiplier. Another variant of the "bullish" CD we have described is the bear CD, which pays depositors a fraction of any fall in the market index. For example, a bear CD might offer a rate of return of .6 times any percentage decline in the S&P 500. This arrangement implicitly conveys put options to the investor.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/ce7b165912332d0cd13fb34e363b73e6108a5e7bdc29cb12778cf192eeebfdb5.jpg)
 
 # Concept Check 20.9
 
@@ -666,6 +652,35 @@ SUMMARY where  $X$  is the exercise price of both the call and the put options, 
 
 6. Many commonly traded securities embody option characteristics. Examples of these securities are callable bonds, convertible bonds, and warrants. Other arrangements such as collateralized loans and limited-liability borrowing can be analyzed as conveying implicit options to one or more parties.
 7. Trading in so-called exotic options now takes place in an active over-the-counter market.
+
+```d2
+Option Payoff Profiles: {
+  direction: right
+
+  Call Option: {
+    shape: line
+    style.stroke: "#28a745"
+    style.stroke-width: 3
+  }
+
+  Put Option: {
+    shape: line
+    style.stroke: "#dc3545"
+    style.stroke-width: 3
+  }
+
+  Stock Price: "Stock Price (S)" {
+    shape: text
+  }
+
+  Exercise Price: "Exercise Price (X)" {
+    shape: text
+  }
+
+  Call Option -> Stock Price: "Payoff = max(S - X, 0)"
+  Put Option -> Stock Price: "Payoff = max(X - S, 0)"
+}
+```
 
 # KEY TERMS call option
 
@@ -747,18 +762,13 @@ a. Performance to date: Up  $16\%$ .
 
 i. Long straddle ii. Long bullish spread
 iii. Short straddle
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/bdd824f282f971b1520b51a279400839207653e45636bb32e9cc039e4d68450b.jpg)
-SCHWESER
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7fd0c4ce348e85c71a5ef77b1cee57c0aa536158ddc85ae6ac44e6e7794aee86.jpg)
-
-SCHWESER b. Performance to date: Up  $16\%$ .
+ b. Performance to date: Up  $16\%$ .
 
 - Client objective: Earn at least  $15\%$ .
 - Your forecast: Good chance of a major market decline between now and end of year.
 
-i. Long put options ii. Short call options
+i. Long put options
+ii. Short call options
 iii. Long call options
 
 10. An investor purchases a stock for \$38 and a put for $.50 with a strike price of \$35. The investor also sells a call for $.50 with a strike price of 40. What are the maximum possible profit and loss for this position? Draw the profit and loss diagram for this strategy as a function of the stock price at expiration.
@@ -885,7 +895,6 @@ $b$  .Market conversion price.
 
 <table><tr><td>Characteristics</td><td>Convertible Bond</td><td>Common Equity</td></tr><tr><td>Par value</td><td>\$1,000</td><td>—</td></tr><tr><td>Coupon (annual payment)</td><td>4\%</td><td>—</td></tr><tr><td>Current market price</td><td>$980</td><td>$35 per share</td></tr><tr><td>Straight bond value</td><td>\$925</td><td>—</td></tr><tr><td>Conversion ratio</td><td>25</td><td>—</td></tr><tr><td>Conversion option</td><td>At any time</td><td>—</td></tr><tr><td>Dividend</td><td>—</td><td>\$0</td></tr><tr><td>Expected market price in 1 year</td><td>\$1,125</td><td>45 per share</td></tr></table>
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/b9fa8151956095f2ad0b21874a6b0b5bd6e65f4eb8a06e193ed7aec9e380431a.jpg)
 
 $a$  .Calculate,based on the exhibit, the: i. Current market conversion price for the Ytel convertible bond.
 
@@ -919,8 +928,6 @@ e. What are the prices of the put and call with 20 days time until expiration?
 f. What would be the cost of a straddle using the 20 days expiration? At expiration, what would be the break-even stock prices for the straddle?
 
 g. What would be the percentage increase or decrease in the stock price required to break even?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/3383da62ff4f9525e4587c59b83cca4c141dbbc3607a32dc245c5e1a5aecb34d.jpg)
 
 # SOLUTIONS TO CONCEPT CHECKS
 

@@ -1,9 +1,23 @@
 ---
 title: "The Black-Scholes Model - CUNY Lecture"
-aliases:
-  - Black-Scholes Model
-  - Black-Merton-Scholes Model
 parent_directory: Options Futures & Forwards
+formatted: 2025-12-21 02:15:00 AM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
+primary_tags:
+  - black scholes model
+  - option pricing theory
+  - geometric brownian motion
+secondary_tags:
+  - stochastic calculus
+  - implied volatility
+  - risk neutral pricing
+  - partial differential equations
+  - put call parity
+  - option Greeks
+  - volatility smile
+  - jump diffusion
+  - stochastic volatility
 cssclasses: academia
 ---
 
@@ -13,12 +27,12 @@ Liuren Wu
 
 Options Markets
 
-# The Black-Merton-Scholes-Merton (BMS) model
+## The Black-Merton-Scholes-Merton (BMS) model
 
 - Black and Scholes (1973) and Merton (1973) derive option prices under the following assumption on the stock price dynamics,
 
 $$
-d S _ {t} = \mu S _ {t} d t + \sigma S _ {t} d W _ {t} \quad (e x p l a i n e d \text {l a t e r})
+d S _ {t} = \mu S _ {t} d t + \sigma S _ {t} d W _ {t}
 $$
 
 - The binomial model: Discrete states and discrete time (The number of possible stock prices and time steps are both finite).  
@@ -66,8 +80,37 @@ $$
 - The log return (continuous compounded return) is normally distributed over all horizons:
 
 $$
-d \ln S _ {t} = \left(\mu - \frac {1}{2} \sigma^ {2}\right) d t + \sigma d W _ {t}. (B y I t o ^ {\prime} s l e m m a)
+d \ln S _ {t} = \left(\mu - \frac {1}{2} \sigma^ {2}\right) d t + \sigma d W _ {t}. (\text{By Ito's lemma})
 $$
+
+```d2
+direction: right
+
+GBM Process: Geometric Brownian Motion {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+Drift: μ (Expected Return) {
+  shape: oval
+  style.fill: "#c8e6c9"
+}
+
+Diffusion: σ (Volatility) {
+  shape: oval
+  style.fill: "#ffcdd2"
+}
+
+Wiener: dW_t (Random Shock) {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+GBM Process -> Drift: Multiplied by dt
+GBM Process -> Diffusion: Multiplied by dW_t
+Diffusion -> Wiener
+```
 
 $d\ln S_t\sim \phi (\mu dt - \frac{1}{2}\sigma^2 dt,\sigma^2 dt).$  
 -  $\ln S_t \sim \phi (\ln S_0 + \mu \bar{t} - \frac{1}{2}\sigma^2 t, \sigma^2 t)$ .  
@@ -75,7 +118,7 @@ $d\ln S_t\sim \phi (\mu dt - \frac{1}{2}\sigma^2 dt,\sigma^2 dt).$
 
 - Integral form:  $S_{t} = S_{0}e^{\mu t - \frac{1}{2}\sigma^{2}t + \sigma W_{t}}$ ,  $\ln S_{t} = \ln S_{0} + \mu t - \frac{1}{2}\sigma^{2}t + \sigma W_{t}$
 
-# Simulate 100 stock price sample paths
+## Simulate 100 stock price sample paths
 
 $$
 d S _ {t} = \mu S _ {t} d t + \sigma S _ {t} d W _ {t}, \quad \mu = 10 \%, \sigma = 20 \%, S _ {0} = 100, t = 1.
@@ -102,7 +145,7 @@ Stock with the return process:  $d\ln S_{t} = \left(\mu -\frac{1}{2}\sigma^{2}\r
 
 - We do not need to worry about risk and risk premium if we can hedge away the risk completely.
 
-# Partial differential equation
+## Partial differential equation
 
 - The hedging argument mathematically leads to the following partial differential equation:
 
@@ -150,6 +193,48 @@ $$
 c _ {t} = e ^ {- r (T - t)} \left[ F _ {t} N (d _ {1}) - K N (d _ {2}) \right], \quad d _ {1, 2} = \frac {\ln (F _ {t} / K) \pm \frac {1}{2} \sigma^ {2} (T - t)}{\sigma \sqrt {T - t}}
 $$
 
+```d2
+direction: down
+
+BS Formula: Black-Scholes Call Price {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+Discount: e^{-r(T-t)} {
+  shape: oval
+  style.fill: "#e8f5e9"
+}
+
+Intrinsic: [F_t × N(d1)] {
+  shape: oval
+  style.fill: "#e3f2fd"
+}
+
+Strike: [K × N(d2)] {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+BS Formula -> Discount: Multiplies
+Discount -> Intrinsic: Subtracts
+Discount -> Strike
+
+d1: ln(F/K) + (r-q+σ²/2)(T-t) / σ√(T-t) {
+  shape: rectangle
+  style.fill: "#fce4ec"
+}
+
+d2: d1 - σ√(T-t) {
+  shape: rectangle
+  style.fill: "#fce4ec"
+}
+
+Intrinsic -> d1
+Strike -> d2
+```
+
 -  $N(x)$  denotes the cumulative normal distribution, which measures the probability that a normally distributed variable with a mean of zero and a standard deviation of 1 ( $\phi(0,1)$ ) is less than  $x$ .  
 - See tables at the end of the book for its values.  
 - Most software packages (including excel) has efficient ways to computing this function.  
@@ -158,7 +243,7 @@ $$
 - As  $S_{t}$  becomes very large or  $K$  becomes very small,  $\ln (F_t / K) \uparrow \infty$ ,  $N(d_1) = N(d_2) = 1$ .  $c_{t} = e^{-r(T - t)}[F_{t} - K]$ .  
 - Similarly, as  $S_{t}$  becomes very small or  $K$  becomes very large,  $\ln (F_t / K) \uparrow -\infty$ ,  $N(-d_1) = N(-d_2) = 1$ .  $p_t = e^{-r(T - t)}[-F_t + K]$ .
 
-# Why does it matter?
+## Why does it matter?
 
 - As long as we assume that the underlying security price follows a geometric Brownian motion, we can use (some versions) of the BMS formula to price European options.  
 - Dividends, foreign interest rates, and other types of carrying costs may complicate the pricing formula a little bit.  
@@ -183,7 +268,7 @@ $$
 
 - The BMS model says that  $IV = \sigma$ . In reality, the implied volatility calculated from different options (across strikes, maturities, dates) are usually different.
 
-# Violations of BMS assumptions
+## Violations of BMS assumptions
 
 - The BMS model says that  $IV = \sigma$ . In reality, the implied volatility calculated from different options (across strikes, maturities, dates) are usually different.  
 - These difference indicates that in reality the security price dynamics differ from the BMS assumptions:  
@@ -207,10 +292,50 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/ba5a693f-feea-4359-8b00-e42d3cd273fa/ce726aa5e483adbeafbb1702e406528ed5b35641e37455f552364a4b1226c158.jpg)
 
 - Plots of option implied volatilities across different strikes at the same maturity often show a smile or skew pattern, reflecting deviations from the return normality assumption.  
-- A smile implies that the probability of reaching the tails of the distribution is higher than that from a normal distribution.  $\Rightarrow$  Fat tails, or (formally) leptokurtosis.  
+- A smile implies that the probability of reaching the tails of the distribution is higher than that from a normal distribution.  $\Rightarrow$  Fat tails, or (formally) leptokurtosis.
 - A negative skew implies that the probability of downward movements is higher than that from a normal distribution.  $\Rightarrow$  Negative skewness in the distribution.
 
-# Stochastic volatility on stock indexes and currencies
+```d2
+Volatility Patterns {
+  shape: rectangle
+  style.fill: "#fafafa"
+}
+
+Smile: Symmetric High Tails {
+  shape: oval
+  style.fill: "#e3f2fd"
+}
+
+Skew: Asymmetric Downward Bias {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+Volatility Patterns -> Smile: Fat tails both sides
+Volatility Patterns -> Skew: More downside risk
+
+ATM: At-the-money {
+  style.fill: "#c8e6c9"
+}
+
+OTM Put: Out-of-money puts {
+  style.fill: "#ffcdd2"
+}
+
+OTM Call: Out-of-money calls {
+  style.fill: "#ffcdd2"
+}
+
+Smile -> ATM: Lowest IV
+Smile -> OTM Put: Higher IV
+Smile -> OTM Call: Higher IV
+
+Skew -> ATM: Lowest IV
+Skew -> OTM Put: Highest IV
+Skew -> OTM Call: Moderate IV
+```
+
+## Stochastic volatility on stock indexes and currencies
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/ba5a693f-feea-4359-8b00-e42d3cd273fa/2a6a9089efd6cce1a427f1866969d4e9900e92bf1198b4cfce66ee3536f5a2d8.jpg)
 
@@ -234,7 +359,7 @@ Implied volatility spread between  $80\%$  and  $120\%$  strikes
 
 Return skewness also varies over time.
 
-# Second-generation option pricing models
+## Second-generation option pricing models
 
 - Second-generation option pricing models strive to add new features to capture the observed implied volatility behaviors
 

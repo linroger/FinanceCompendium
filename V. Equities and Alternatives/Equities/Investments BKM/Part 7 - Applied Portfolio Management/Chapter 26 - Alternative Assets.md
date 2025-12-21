@@ -1,28 +1,29 @@
 ---
 title: Chapter 26 - Alternative Assets
 parent_directory: Part 7 - Applied Portfolio Management
-cssclasses: academia
+formatted: 2025-12-21 02:15:00 PM
+formatter_model: claude-sonnet-4-5-20241022
+cli-tool: claude-code
 primary_tags:
-  - alternative assets
-  - hedge funds
-  - venture capital
-  - leveraged buyouts
+   - alternative assets
+   - hedge funds
+   - private equity
+   - venture capital
 secondary_tags:
-  - private equity
-  - real assets
-  - structured products
-  - market neutral strategies
-  - statistical arbitrage
-  - portable alpha
-  - venture capital funding
-  - angel investors
-  - leveraged buyout funds
-  - performance measurement
-  - incentive fees
-  - fund of funds
-  - tail events
-  - liquidity risk
-  - survivorship bias
+   - leveraged buyouts
+   - market neutral strategies
+   - statistical arbitrage
+   - portable alpha
+   - tail events
+   - black swan event
+   - survivorship bias
+   - backfill bias
+   - style analysis
+   - pairs trading
+   - vintage year
+   - grandstanding
+   - industry specialization
+cssclasses: academia
 ---
 
 # Alternative Assets
@@ -33,10 +34,9 @@ Alternatives raise virtually every issue addressed in earlier chapters—securit
 
 Hedge funds, another class of alternative assets, often bet on the relative mispricing of specific securities but try to hedge broad market exposure; their strategies constitute a challenge to market efficiency. This sort of pure "alpha seeking" behavior requires a procedure for optimally mixing an investment in a hedge fund with a more traditional portfolio. Other hedge funds engage in aggressive market timing; their risk profiles can shift rapidly and substantially, raising difficult questions for performance evaluation. Many hedge funds take extensive derivatives positions. Even those funds that do not trade derivatives charge incentive fees that resemble the payoff to a call option; understanding options, therefore, is necessary to interpret hedge fund strategies as well as their costs. In short, alternative assets raise the full range of issues associated with active portfolio management.
 
-
 We begin with an overview of alternative assets. We then survey the hedge fund universe, devoting considerable attention to the classic "market-neutral" or hedged strategies that historically gave hedge funds their name. We then turn to the private equity asset classes of venture capital and leveraged buyouts, focusing on how each of these investors generates value. We move on to evidence on the investment performance of alternative assets and the special difficulties in evaluating that performance. Finally, we consider the implications of the fee structures charged by such funds.
 
-# 26.1 Alternative Assets
+## 26.1 Alternative Assets
 
 Alternative assets depart from traditional ones in both form and function. They comprise four broad sectors: hedge funds, private equity and debt, real assets, and structured products.
 
@@ -52,8 +52,7 @@ Commodities are refined or extracted resources often used as production inputs, 
 
 Structured Products Structured products combine securities and often derivatives to generate custom-designed market-linked outcomes. Structured products can be highly individualized with payoffs designed to generate customized risk exposures. They are built to protect a broader portfolio from specific risks; it is sometimes cheaper to employ a structurer (structured-product designer) rather than to use market-traded options, swaps, or other derivatives to achieve the desired return profile.
 
-Chapter 1 emphasized that real assets include all those that convey intrinsic productive capacity; we will consider only investable assets.
-2We will devote most of this chapter to hedge funds and private equity. There are many resources available for real estate investing. For example, Real Estate Finance and Investments (New York: McGraw-Hill, 2022) by William Brueggeman and Jeffrey Fisher is an excellent source on real estate investment vehicles and valuation. The Real Estate Game (New York: Free Press, 1999) by William Poorvu and Jeffrey Cruikshank is an accessible introductory treatment.
+Chapter 1 emphasized that real assets include all those that convey intrinsic productive capacity; we will consider only investable assets. We will devote most of this chapter to hedge funds and private equity. There are many resources available for real estate investing. For example, Real Estate Finance and Investments (New York: McGraw-Hill, 2022) by William Brueggeman and Jeffrey Fisher is an excellent source on real estate investment vehicles and valuation. The Real Estate Game (New York: Free Press, 1999) by William Poorvu and Jeffrey Cruikshank is an accessible introductory treatment.
 
 # Alternative Assets versus Traditional Assets
 
@@ -95,7 +94,6 @@ Hedge funds, as an asset class, have seen the largest growth in recent years, fr
 Institutional investors, such as those that manage university endowments, foundations, and pension funds, have a fiduciary responsibility to the owners of those funds. This means they are legally obligated to act in good faith and trust on behalf of their clients' best interests, putting those interests ahead of even their own. The "prudent man rule" (since renamed the prudent person rule) was first applied to investments in the U.S. trust law case Harvard College v. Amory (1830), which required trustees to defend their investment decisions as prudent. But how does one define prudence?
 
 After several false starts, Congress passed The Employee Retirement Income Security Act (ERISA) in 1974. This act greatly expanded the regulation of defined benefit retirement plans under the stewardship of three government agencies: the Internal Revenue Service, the Pension Benefit Guaranty Corporation, and the Department of Labor. Among other requirements, ERISA mandated that prudence means, among other things, "... diversifying the investments of the plan so as to minimize the risk of large losses, unless under the circumstances it is clearly prudent not to do so. . . ." The original interpretation of this rule implied that high-volatility investments such as in start-ups (e.g., venture capital) and most derivatives (e.g., via hedge funds) would likely not be considered judicious and would violate the ERISA's fiduciary standard of care. Fund managers thus overweighted traditionally safer asset classes at the cost of performance.
-
 
 This changed in June 1979, when the Department of Labor issued a clarification stating: "An investment decision should be judged with regard to the role the investment plays in the pension plan's overall portfolio." This means the volatility of an investment viewed as a stand-alone position need not render it injudicious; instead, investment risk needs to be assessed as part of a larger strategy of diversification across asset classes. Many "speculative" assets could be entirely prudent when part of a diversified portfolio. Further adding to the flexibility of this clarification, ERISA did not create a list of allowable or forbidden securities, implying that prudence is better defined within the context of each individual fund's circumstances.
 

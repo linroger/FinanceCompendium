@@ -1,8 +1,36 @@
 ---
 title: "Chapter 2 - Insurance, Hedging, and Simple Strategies"
 aliases:
-  - Insurance, Hedging, and Simple Strategies
+   - Insurance, Hedging, and Simple Strategies
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:15:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+   - derivatives contracts
+   - forward contracts
+   - futures contracts
+   - call options
+   - put options
+   - payoff diagrams
+   - hedging strategies
+   - risk management
+secondary_tags:
+   - option terminology
+   - strike price
+   - exercise style
+   - european options
+   - american options
+   - cash settlement
+   - credit risk
+   - underlying assets
+   - expiration date
+   - option premium
+   - arbitrage pricing
+   - zero coupon bonds
+   - spot price
+   - forward price
+   - profit diagrams
 cssclasses: academia
 ---
 
@@ -12,11 +40,7 @@ Basic derivatives contracts include: forward contracts, futures contracts, call 
 
 There are a number of things we want to understand about these instruments. What are they? How do they work and what do they cost? If you enter into a forward contract, futures contract, or option, what obligations or rights have you acquired? Payoff and profit diagrams provide an important graphical tool to summarize the risk of these contracts.
 
-Once we understand what the basic derivatives contracts are, what can we do with them? Among other things, they can be used to provide insurance, to convert a stock investment into a risk-free investment and vice versa, and to speculate in a
-
-From Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
-
-variety of ways. Derivatives can often be customized for a particular purpose. It is interesting to see how corporate risk managers can use derivatives, and some reasons for doing so.
+Once we understand what the basic derivatives contracts are, what can we do with them? Among other things, they can be used to provide insurance, to convert a stock investment into a risk-free investment and vice versa, and to speculate in a variety of ways. Derivatives can often be customized for a particular purpose. It is interesting to see how corporate risk managers can use derivatives, and some reasons for doing so.
 
 This chapter introduces the basic derivatives contracts: forward contracts, call options, and put options. These fundamental contracts are widely used, and serve as building blocks for more complicated derivatives. We explain here how the contracts work and how to think about their risk. We also introduce an extremely important tool for analyzing derivatives positions—namely, payoff and profit diagrams. The terminology and concepts introduced in this chapter are fundamental.
 
@@ -31,17 +55,7 @@ This is in fact the definition of a forward contract: It sets today the terms at
 - Specifies the price the buyer will pay at the time of delivery.
 - Obligates the seller to sell and the buyer to buy, subject to the above specifications.
 
-The time at which the contract settles is called the expiration date. The asset or commodity on which the forward contract is based is called the underlying asset. Apart from commissions and bid-ask spreads, a forward contract requires no initial payment or premium. The contractual forward price simply represents the price at which consenting adults agree today
-
-<table><tr><td>FIGURE I</td></tr></table>
-
-Index futures price listings.
-
-<table><tr><td rowspan="2"></td><td rowspan="2">Open</td><td colspan="2">Contract</td><td rowspan="2">Low</td><td rowspan="2">Settle</td><td rowspan="2">Chg</td><td rowspan="2">OpenInterest</td></tr><tr><td>High</td><td>hilo</td></tr><tr><td colspan="8">Index Futures</td></tr><tr><td colspan="8">DJ Industrial Average (cBT) —\$10 x index</td></tr><tr><td>June</td><td>10981</td><td>11070</td><td>▲</td><td>10977</td><td>11065</td><td>102</td><td>6,972</td></tr><tr><td>Sept</td><td>10977</td><td>10977</td><td>▲</td><td>10977</td><td>11002</td><td>103</td><td>13</td></tr><tr><td colspan="8">Mini DJ Industrial Average (cBT) —\$5 x index</td></tr><tr><td>June</td><td>10979</td><td>11072</td><td>▲</td><td>10975</td><td>11065</td><td>102</td><td>84,086</td></tr><tr><td colspan="8">S&amp;P 500 Index (CME) —\$250 x index</td></tr><tr><td>June</td><td>1195.30</td><td>1207.00</td><td></td><td>1194.50</td><td>1206.60</td><td>13.50</td><td>313,917</td></tr><tr><td>Dec</td><td>1193.00</td><td>1197.60</td><td>▲</td><td>1192.00</td><td>1197.10</td><td>13.50</td><td>3,301</td></tr><tr><td colspan="8">Mini S&amp;P 500 (CME) —\$50 x index</td></tr><tr><td>June</td><td>1195.50</td><td>1207.25</td><td>▲</td><td>1194.50</td><td>1206.50</td><td>13.50</td><td>2,412,904</td></tr><tr><td>Sept</td><td>1190.50</td><td>1202.00</td><td>▲</td><td>1190.00</td><td>1201.75</td><td>13.50</td><td>11,460</td></tr><tr><td colspan="8">Nasdaq 100 (CME) —\$100 x index</td></tr><tr><td>June</td><td>2010.00</td><td>2027.00</td><td>▲</td><td>2007.25</td><td>2026.50</td><td>25.25</td><td>16,139</td></tr><tr><td colspan="8">Mini Nasdaq 100 (CME) —\$20 x index</td></tr><tr><td>June</td><td>2009.8</td><td>2026.8</td><td>▲</td><td>2006.8</td><td>2026.5</td><td>25.3</td><td>308,163</td></tr><tr><td>Sept</td><td>2005.8</td><td>2024.0</td><td>▲</td><td>2005.0</td><td>2024.3</td><td>25.5</td><td>377</td></tr><tr><td colspan="8">Mini Russell 2000 (ICE-us) —\$100 x index</td></tr><tr><td>June</td><td>706.50</td><td>721.00</td><td>▲</td><td>705.80</td><td>720.10</td><td>15.40</td><td>373,776</td></tr><tr><td>Sept</td><td>706.70</td><td>718.00</td><td>▲</td><td>706.30</td><td>717.70</td><td>15.40</td><td>2,835</td></tr><tr><td colspan="8">Mini Russell 1000 (ICE-us) —\$100 x index</td></tr><tr><td>June</td><td>661.50</td><td>665.70</td><td>▲</td><td>659.50</td><td>665.30</td><td>7.50</td><td>19,004</td></tr><tr><td colspan="8">U.S. Dollar Index (ICE-us) —1,000 x index</td></tr><tr><td>June</td><td>80.56</td><td>80.52</td><td>▲</td><td>80.14</td><td>80.29</td><td>-.33</td><td>44,534</td></tr><tr><td>Sept</td><td>80.81</td><td>80.86</td><td>▲</td><td>80.51</td><td>80.57</td><td>-.34</td><td>2,231</td></tr></table>
-
-Data from the Wall Street Journal, April 15, 2010, p. C-7.
-
-to transact in the future, at which time the buyer pays the seller the forward price and the seller delivers the asset.
+The time at which the contract settles is called the expiration date. The asset or commodity on which the forward contract is based is called the underlying asset. Apart from commissions and bid-ask spreads, a forward contract requires no initial payment or premium. The contractual forward price simply represents the price at which consenting adults agree today to transact in the future, at which time the buyer pays the seller the forward price and the seller delivers the asset.
 
 Futures contracts are similar to forward contracts in that they create an obligation to buy or sell at a predetermined price at a future date. We can think of them as interchangeable.
 
@@ -57,7 +71,7 @@ Abbreviations: CME = Chicago Mercantile Exchange, ICE = Intercontinental Exchang
 
 those in Figure 1, both in the United States and around the world. Table 1 is a non-exhaustive list of global stock indexes.
 
-The price quotes in Figure 1 are from April. The prices are therefore set in April for purchase of the index in later months. For example, the December futures settlement price for the S&P 500 index is  $1197.10.^2$  By contrast, the current S&P index price that day (not in Figure 1) is 1210.65. This is the spot price for the index—the market price for immediate delivery of the index.
+The price quotes in Figure 1 are from April. The prices are therefore set in April for purchase of the index in later months. For example, the December futures settlement price for the S&P 500 index is $1197.10^{2}$. By contrast, the current S&P index price that day (not in Figure 1) is 1210.65. This is the spot price for the index—the market price for immediate delivery of the index.
 
 There are also futures contracts on interest rates and commodities. Futures are widely used in risk management and as an alternative way to invest in the underlying asset.
 
@@ -87,7 +101,7 @@ Before dropping the plan, Defense officials defended it: "Research indicates tha
 
 A common concern about futures markets is the possibility that markets can be manipulated by better informed traders. The possibility of manipulation in this case was described as a "technical challenge and uncertainty." The natural worry was that terrorists would use the futures market to make money from attacks, or to mislead authorities about where they would attack.
 
-Payoff after 6 months from a long S&R forward contract and a short S&R forward contract at a forward price of  \$1020. If the index price in 6 months is\$ 1020, both the long and short have a 0 payoff. If the index price is greater than \$1020, the long makes money and the short loses money. If the index price is less than \$1020, the long loses money and the short makes money.
+Payoff after 6 months from a long S&R forward contract and a short S&R forward contract at a forward price of $1020$. If the index price in 6 months is $1020$, both the long and short have a 0 payoff. If the index price is greater than $1020$, the long makes money and the short loses money. If the index price is less than $1020$, the long loses money and the short makes money.
 
 TABLE 2
 
@@ -100,16 +114,16 @@ Every forward contract has both a party agreeing to buy and one agreeing to sell
 The payoff to a contract is the value of the position at expiration. The payoff to a long forward contract is
 
 $$
-\text {P a y o f t} = \text {S p o t} - \text {f o r w a r d} \tag {1}
+\text{Payoff} = \text{Spot} - \text{Forward} \tag{1}
 $$
 
 Because the short has agreed to sell at the fixed forward price, the short profits if prices fall. The payoff to a short forward contract is
 
 $$
-\text {P a y o f t} = \text {F o r w a r d p r i c e} - \text {s p o t p r i c e a t} \tag {2}
+\text{Payoff} = \text{Forward price} - \text{Spot price at expiration} \tag{2}
 $$
 
-To illustrate these calculations, consider a forward contract on a hypothetical stock index. Suppose the non-dividend-paying S&R ("Special and Rich") 500 index has a current price of  \$1000 and the 6-month forward price is\$ 1020. The holder of a long position in the S&R forward contract is obligated to pay \$1020 in 6 months for one unit of the index. The holder of the short position is obligated to sell one unit of the index for \$1020. Table 2 lists the payoff on the position for various possible future values of the index.
+To illustrate these calculations, consider a forward contract on a hypothetical stock index. Suppose the non-dividend-paying S&R ("Special and Rich") 500 index has a current price of $1000$ and the 6-month forward price is $1020$. The holder of a long position in the S&R forward contract is obligated to pay $1020$ in 6 months for one unit of the index. The holder of the short position is obligated to sell one unit of the index for $1020$. Table 2 lists the payoff on the position for various possible future values of the index.
 
 # FIGURE 2
 
@@ -248,7 +262,7 @@ $$
 P u r c h a s e d \quad \text {c a l l p a y o f} = \max  [ 0, \text {s p o t p r i c e a t e x p i r a t i o n - s t r i k e p r i c e} ] \tag {3}
 $$
 
-The expression  $\max [a, b]$  means take the greater of the two values  $a$  and  $b$ . (Spreadsheets contain a max function, so it is easy to compute option payoffs in a spreadsheet.)
+The expression $\max[a, b]$ means take the greater of the two values $a$ and $b$. (Spreadsheets contain a max function, so it is easy to compute option payoffs in a spreadsheet.)
 
 Example 5. Consider a call option on the S&R index with 6 months to expiration and a strike price of \$1000. Suppose the index in 6 months is \$1100. Clearly it is worthwhile to pay the \$1000 strike price to acquire the index worth \$1100. Using equation (3), the call payoff is
 
@@ -299,7 +313,7 @@ Payoff and profit after 6 months from a purchased 1000-strike S&R call option wi
 
 TABLE 3
 
-<table><tr><td>S&amp;R Indexin 6 Months</td><td>CallPayoff</td><td>Future Valueof Premium</td><td>CallProfit</td></tr><tr><td>800</td><td>$0</td><td>-$95.68</td><td>-95.68</td></tr><tr><td>850</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>900</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>950</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>1000</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>1050</td><td>50</td><td>-95.68</td><td>-45.68</td></tr><tr><td>1100</td><td>100</td><td>-95.68</td><td>4.32</td></tr><tr><td>1150</td><td>150</td><td>-95.68</td><td>54.32</td></tr><tr><td>1200</td><td>200</td><td>-95.68</td><td>104.32</td></tr></table>
+<table><tr><td>S&R Index in 6 Months</td><td>Call Payoff</td><td>Future Value of Premium</td><td>Call Profit</td></tr><tr><td>800</td><td>$0</td><td>-$95.68</td><td>-95.68</td></tr><tr><td>850</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>900</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>950</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>1000</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>1050</td><td>50</td><td>-95.68</td><td>-45.68</td></tr><tr><td>1100</td><td>100</td><td>-95.68</td><td>4.32</td></tr><tr><td>1150</td><td>150</td><td>-95.68</td><td>54.32</td></tr><tr><td>1200</td><td>200</td><td>-95.68</td><td>104.32</td></tr></table>
 
 Figure 5 graphs the call payoff that is computed in Table 3. The graph clearly shows the "optionality" of the option: Below the strike price of  \$1000, the payoff is zero, while it is positive and increasing above\$ 1000.
 
@@ -330,9 +344,9 @@ Profit ($) counterparty to the option buyer. The writer receives the premium for
 
 The payoff and profit to a written call are just the opposite of those for a purchased call:
 
-Written call payoff  $= -\max [0$  spot price at expiration - strike price] (5)
+Written call payoff $= -\max[0, \text{spot price at expiration - strike price}] \tag{5}$
 
-Written call profit  $= -\max [0,$  spot price at expiration - strike price] (6)
+Written call profit $= -\max[0, \text{spot price at expiration - strike price}] \tag{6}$
 
 + future value of option premium
 
@@ -341,17 +355,13 @@ This example illustrates the option writer's payoff and profit. Just as a call b
 Example 7. Consider a 1000-strike call option on the S&R index with 6 months to expiration. At the time the option is written, the option seller receives the premium of 93.81.
 
 Suppose the index in 6 months is \$1100. It is worthwhile for the option buyer to pay the \$1000 strike price to acquire the index worth \$1100. Thus, the option writer will have to sell the index, worth \$1100, for the strike price of 1000. Using equation (5), the written call payoff is
-
 $$
-- \max  [ 0, \ 1 1 0 0 - \$ 1 0 0 0 ] = - \$ 1 0 0
+-\max[0, 1100 - 1000] = -100
 $$
-
 The premium has earned  $2\%$  interest for 6 months and is now worth 95.68. Profit for the written call is
-
 $$
-- \$ 1 0 0 + \$ 9 5. 6 8 = - \$ 4. 3 2
+-100 + 95.68 = -4.32
 $$
-
 If the index is 900 at expiration, it is not worthwhile for the option buyer to pay the \$1000 strike price to buy the index worth \$900. The payoff is then
 
 $$
@@ -385,9 +395,7 @@ Other terminology for a put option is the same as for a call option, with the ob
 We now see how to compute payoff and profit for a purchased put option. The put option gives the put buyer the right to sell the underlying asset for the strike price. The buyer does this only if the asset is less valuable than the strike price. Thus, the payoff on the put option is
 
 $$
-
-\text {P u t} = \max  [ 0, \text {s t r i k e p r i c e - s p o t p r i c e a t e x p i r a t i o n} ] \tag {7}
-
+\text{Put} = \max[0, \text{strike price - spot price at expiration}] \tag{7}
 $$
 
 The put buyer has a long position in the put. Here is an example.
@@ -397,25 +405,19 @@ Example 9. Consider a put option on the S&R index with 6 months to expiration an
 Suppose the index in 6 months is \$1100. It is not worthwhile to sell the index worth \$1100 for the 1000 strike price. Using equation (7), the put payoff is
 
 $$
-
-\max  [ 0, \mathbb {S} 1 0 0 0 - \mathbb {S} 1 1 0 0 ] = \mathbb {S} 0
-
+\max[0, 1000 - 900] = 100
 $$
 
 If the index were 900 at expiration, it is worthwhile selling the index for 1000. The payoff is then
 
 $$
-
-\max  [ 0, \mathbb {S} 1 0 0 0 - \mathbb {S} 9 0 0 ] = \mathbb {S} 1 0 0
-
+\max[0, 1100 - 1000] = 100
 $$
 
 As with the call, the payoff does not take account of the initial cost of acquiring the position. At the time the option is acquired, the put buyer pays the option premium to the put seller; we need to account for this in computing profit. If we borrow the premium amount, we must pay 6 months' interest. The option profit is computed as
 
 $$
-
-\text {P u r c h a s e d p u t p r o f i t} = \max  [ 0, \text {s t i k e p r i c e} - \text {s p o t p r i c e a t e x p i r a t i o n} ] \tag {8}
-
+\text{Purchased put profit} = \max[0, \text{strike price} - \text{spot price at expiration}] \tag{8}
 $$
 
 - future value of option premium
@@ -427,18 +429,9 @@ Example 10. Use the same option as in Example 9, and suppose that the risk-free 
 If the S&R index price at expiration is 1100, the put buyer will not exercise the option. Using equation (8), profit is
 
 $$
-
-\max  [ 0, \mathbb {S} 1 0 0 0 - \mathbb {S} 1 1 0 0 ] - \mathbb {S} 7 5. 6 8 = - \mathbb {S} 7 5. 6 8
-
-$$ reflecting the loss of the premium.
-
-
-If the index is \$900 at expiration, the put buyer exercises the put, selling the index for \$1000. Profit is then
-
+\max[0, 900 - 1000] - 95.68 = -95.68
 $$
-
-\max  [ 0, \mathbb {S} 1 0 0 0 - \mathbb {S} 9 0 0 ] - \mathbb {S} 7 5. 6 8 = \mathbb {S} 2 4. 3 2
-
+\max[0, 1100 - 1000] - 95.68 = 4.32
 $$
 
 Table 4 computes the payoff and profit on a purchased put for a range of index values at expiration. Whereas call profit increases as the value of the underlying asset increases, put profit increases as the value of the underlying asset decreases.
@@ -454,7 +447,7 @@ Now we examine the put from the perspective of the put writer. The put writer is
 TABLE 4
 Profit after 6 months from a purchased 1000-strike S&R put option with a future value of premium of 75.68.
 
-<table><tr><td>S&amp;R Indexin 6 Months</td><td>PutPayoff</td><td>Future Valueof Premium</td><td>PutProfit</td></tr><tr><td>$800</td><td>$200</td><td>- $75.68</td><td>$124.32</td></tr><tr><td>850</td><td>150</td><td>-75.68</td><td>74.32</td></tr><tr><td>900</td><td>100</td><td>-75.68</td><td>24.32</td></tr><tr><td>950</td><td>50</td><td>-75.68</td><td>-25.68</td></tr><tr><td>1000</td><td>0</td><td>-75.68</td><td>-75.68</td></tr><tr><td>1050</td><td>0</td><td>-75.68</td><td>-75.68</td></tr><tr><td>1100</td><td>0</td><td>-75.68</td><td>-75.68</td></tr><tr><td>1150</td><td>0</td><td>-75.68</td><td>-75.68</td></tr><tr><td>1200</td><td>0</td><td>-75.68</td><td>-75.68</td></tr></table>
+<table><tr><td>S&R Index in 6 Months</td><td>Put Payoff</td><td>Future Value of Premium</td><td>Put Profit</td></tr><tr><td>$800</td><td>$200</td><td>- $75.68</td><td>$124.32</td></tr><tr><td>850</td><td>150</td><td>-75.68</td><td>74.32</td></tr><tr><td>900</td><td>100</td><td>-75.68</td><td>24.32</td></tr><tr><td>950</td><td>50</td><td>-75.68</td><td>-25.68</td></tr><tr><td>1000</td><td>0</td><td>-75.68</td><td>-75.68</td></tr><tr><td>1050</td><td>0</td><td>-75.68</td><td>-75.68</td></tr><tr><td>1100</td><td>0</td><td>-75.68</td><td>-75.68</td></tr><tr><td>1150</td><td>0</td><td>-75.68</td><td>-75.68</td></tr><tr><td>1200</td><td>0</td><td>-75.68</td><td>-75.68</td></tr></table>
 
 # FIGURE 8
 
@@ -465,17 +458,11 @@ Profit on a purchased S&R index put with a strike price of 1000 versus a short S
 The payoff and profit for a written put are the opposite of those for the purchased put:
 
 $$
-
-\text {W r i t t e n} = - \max  [ 0, \text {s t r i k e p r i c e} - \text {s p o t p r i c e a t e x p i r a t i o n} ] \tag {9}
-
+\text{Written put payoff} = -\max[0, \text{strike price} - \text{spot price at expiration}] \tag{9}
 $$
 
 $$
-
-\text {W r i t t e n p u t p r o f i t} = - \max  [ 0, \text {s t i k e p r i c e} - \text {s p o t p r i c e a t e x p i r a t i o n} ] \tag {10}
-
-$$
-
+\text{Written put profit} = -\max[0, \text{strike price} - \text{spot price at expiration}] \tag{10}
 $$
 + \text {f u t u r e v a l u e o f o p t i o n p r e m i u m}
 $$
@@ -493,17 +480,13 @@ Example 11. Consider a 1000-strike put option on the S&R index with 6 months to 
 Suppose the index in 6 months is  \$1100. The put buyer will not exercise the put. Thus, the put writer keeps the premium, plus 6 months' interest, for a payoff of 0 and profit of\$ 75.68.
 
 If the index is \$900 in 6 months, the put owner will exercise, selling the index for \$1000. Thus, the option writer will have to pay \$1000 for an index worth \$900. Using equation (9), the written put payoff is
-
 $$
-- \max  [ 0, \ 1 0 0 0 - \$ 9 0 0 ] = - \$ 1 0 0
+-\max[0, 1000 - 900] = -100
 $$
-
 The premium has earned  $2 \%$ interest for 6 months and is now worth 75.68. Profit for the written put is therefore
-
 $$
-- \$ 1 0 0 + \$ 7 5. 6 8 = - \$ 2 4. 3 2
+-100 + 75.68 = -24.32
 $$
-
 Figure 9 graphs the profit diagram for a written put. As you would expect, it is the mirror image of the purchased put.
 
 # The "Moneyness" of an Option
@@ -539,7 +522,7 @@ Maximum possible profit and loss at maturity for long and short forwards and pur
 
 When you purchase an option you are said to have a long position in that option. Thus, a call that you purchase is a "long call" and a put that you purchase is a "long put." In both cases, you make money if the price of the option you purchased goes up. Similarly, any option that you sell is a short position in that option. A call that you sell is a "short call" and a put that you sell is a "short put."
 
-The terms "long" and "short" can be confusing, however, because they are often used more generally. In this more general usage, a position is long with respect to  $x$  if the value of the position goes up when  $x$  goes up, and it is short with respect to  $x$  if the value of the position goes down when  $x$  goes up.
+The terms "long" and "short" can be confusing, however, because they are often used more generally. In this more general usage, a position is long with respect to $x$ if the value of the position goes up when $x$ goes up, and it is short with respect to $x$ if the value of the position goes down when $x$ goes up.
 
 A purchased call is therefore long with respect to the stock, because the call becomes more valuable when the stock price goes up. Similarly, a purchased put is short with respect to the stock, because the put becomes more valuable when the stock price goes down. The case of a purchased put illustrates that a position can be simultaneously long with respect to one thing (its own price) and short with respect to something else (the price of the underlying asset).
 
@@ -584,11 +567,11 @@ A homeowner's insurance policy promises that in the event of damage to your hous
 
 To demonstrate how homeowner's insurance acts as a put option, suppose that you own a house that costs 200,000 to build. To make this example as simple as possible, we assume that physical damage is the only thing that can affect the market value of the house.
 
-Let's say you buy a \$15,000 insurance policy to compensate you for damage to the house. Like most policies, this has a deductible, meaning that there is an amount of damage for which you are obligated to pay before the insurance company pays anything. Suppose the deductible is \$25,000. If the house suffers \$4000 damage from a storm, you pay for all repairs yourself. If the house suffers \$45,000 in damage from a storm, you pay \$25,000 and the insurance company pays the remaining \$20,000. Once damage occurs beyond the amount of the deductible, the insurance company pays for all further damage, up to $175,000. (Why $175,000? Because the house can be rebuilt for \$200,000, and you pay \$25,000 of that—the deductible—yourself.)
+Let's say you buy a $15,000 insurance policy to compensate you for damage to the house. Like most policies, this has a deductible, meaning that there is an amount of damage for which you are obligated to pay before the insurance company pays anything. Suppose the deductible is $25,000. If the house suffers $4,000 damage from a storm, you pay for all repairs yourself. If the house suffers $45,000 in damage from a storm, you pay $25,000 and the insurance company pays the remaining $20,000. Once damage occurs beyond the amount of the deductible, the insurance company pays for all further damage, up to $175,000. (Why $175,000? Because the house can be rebuilt for $200,000, and you pay $25,000 of that—the deductible—yourself.)
 
 Let's graph the profit to you for this insurance policy. On the vertical axis is the profit on the insurance policy—the payoff less the insurance premium—and on the horizontal axis, the value of the house. If the house is undamaged (the house value is \$200,000) the payoff is zero, and profit is the loss from the unused insurance premium, \$15,000. If the house suffers \$50,000 damage, the insurance payoff is \$50,000 less the \$25,000 deductible, or \$25,000. The profit is $25,000 – $15,000 = \$10,000. If the house is completely destroyed, the policy pays \$175,000, and your profit is 160,000.
 
-Figure 12 graphs the profit on the insurance policy. The insurance policy in Figure 12 has the same shape as the put option in Figure 8. An S&R put is insurance against a fall in the price of the S&R index, just as homeowner's insurance insures against a fall in the price of the house. Insurance companies are in the business of writing put options! The  \$15,000 insurance premium is like the premium of a put, and the\$ 175,000 level at which insurance begins to make payments is like the strike price on a put.
+Figure 12 graphs the profit on the insurance policy. The insurance policy in Figure 12 has the same shape as the put option in Figure 8. An S&R put is insurance against a fall in the price of the S&R index, just as homeowner's insurance insures against a fall in the price of the house. Insurance companies are in the business of writing put options! The $15,000 insurance premium is like the premium of a put, and the $175,000 level at which insurance begins to make payments is like the strike price on a put.
 
 The idea that a put option is insurance also helps us understand what makes a put option cheap or expensive. Two important factors are the riskiness of the underlying asset and the amount of the deductible. Just as with insurance, options will be more expensive when the underlying asset is riskier. Also, the option, like insurance, will be less expensive as the deductible gets larger (for the put option, this means lowering the strike price).
 
@@ -612,14 +595,14 @@ In the same way, Figure 8 depicts the risk of a put option without considering t
 
 Call options can also be insurance. Whereas a put option is insurance for an asset we already own, a call option is insurance for an asset we plan to own in the future. Put differently, a put option is insurance for a long position while a call option is insurance for a short position.
 
-Return to the earlier example of the S&R index. Suppose that the current price of the S&R index is 1000 and that we plan to buy the index in the future. If we buy an S&R call option with a strike price of \$1000, this gives us the right to buy S&R for a maximum cost of \$1000/share. By buying a call, we have bought insurance against an increase in the price.
+Return to the earlier example of the S&R index. Suppose that the current price of the S&R index is 1000 and that we plan to buy the index in the future. If we buy an S&R call option with a strike price of $1000, this gives us the right to buy S&R for a maximum cost of $1000/share. By buying a call, we have bought insurance against an increase in the price.
 
 
 # 6. EXAMPLE: EQUITY-LINKED CDS
 
 Although options and forwards are important in and of themselves, they are also commonly used as building blocks in the construction of new financial instruments. For example, banks and insurance companies offer investment products that allow investors to benefit from a rise in a stock index and that provide a guaranteed return if the market declines. We can "reverse-engineer" such equity-linked CDs and notes using the tools we have developed thus far.[10]
 
-A simple  $5 \frac{1}{2}$  year CD with a return linked to the S&P 500 might have the following structure: At maturity, the CD is guaranteed to repay the invested amount, plus  $70\%$  of the simple appreciation in the S&P 500 over that time.[11]
+A simple $5\frac{1}{2}$ year CD with a return linked to the S&P 500 might have the following structure: At maturity, the CD is guaranteed to repay the invested amount, plus $70\%$ of the simple appreciation in the S&P 500 over that time.[11]
 
 We can ask several questions about the CD:
 
@@ -628,19 +611,17 @@ We can ask several questions about the CD:
 - How does the issuing bank hedge the risk associated with issuing the product?
 - How does the issuing bank make a profit?
 
-To understand this product, suppose the S&P index is 1300 initially and an investor invests  \$10,000. If the index is below 1300 after 5.5 years, the CD returns to the investor the original\$ 10,000 investment. If the index is above 1300 after 5.5 years, the investor receives 10,000 plus 70\% of the percentage gain on the index. For example, if the index is 2200, the investor receives
+To understand this product, suppose the S&P index is 1300 initially and an investor invests $10,000. If the index is below 1300 after 5.5 years, the CD returns to the investor the original $10,000 investment. If the index is above 1300 after 5.5 years, the investor receives 10,000 plus 70\% of the percentage gain on the index. For example, if the index is 2200, the investor receives
 
 $$
-
-\$ 10,000 \times [1 + (2200 / 1300 - 1) \times 70\% ] = \$ 14,846
-
+\$10,000 \times [1 + (2200/1300 - 1) \times 70\%] = \$14,846
 $$
 
 At first glance this product appears to permit gains but no losses. However, by now you are probably skeptical of a phrase like "gains but no losses"; the investor must pay something for an investment like this.
 
 # Graphing the Payoff on the CD
 
-As a first step in analyzing the CD, we will draw a payoff diagram. If we invest  \$10,000, we receive at least\$ 10,000. If the index rises to  $S_{\mathrm{final}} > 1300$ , we also receive on our investment 70\% of the rate of return
+As a first step in analyzing the CD, we will draw a payoff diagram. If we invest $10,000, we receive at least $10,000. If the index rises to $S_{\text{final}} > 1300$, we also receive on our investment 70\% of the rate of return
 
 $$
 

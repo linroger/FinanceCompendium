@@ -1,23 +1,33 @@
 ---
 title: "Option Pricing Using the Binomial Model - CRR Derivation"
-aliases:
-  - Cox-Ross-Rubinstein Model
-  - Binomial Option Pricing
-  - CRR Model
 parent_directory: Options Futures & Forwards
+formatted: 2025-12-21 02:15:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - binomial option pricing
+  - crr model derivation
+  - risk neutral valuation
+secondary_tags:
+  - american put option
+  - stock price lattice
+  - volatility calibration
+  - early exercise feature
+  - continuous compounding
+  - dividend yield adjustment
 cssclasses: academia
 ---
 
-# Finance 400
+## Finance 400
 
-# A. Penati - G. Pennacchi
+## A. Penati - G. Pennacchi
 
 # Option Pricing Using the Binomial Model
 
 The Cox-Ross-Rubinstein (CRR) technique is useful for valuing relatively complicated options, such as those having American (early exercise) features. In these notes we show how an American put option can be valued. Recall that CRR assume that over each period of length  $\Delta t$ , stock prices follow the process
 
 $$
-u S \quad \text {w i t h p r o b a b i l i t y} q
+u S \quad \text{with probability} q
 $$
 
 $$
@@ -25,7 +35,7 @@ S \begin{array}{c} \nearrow \\ \searrow \end{array} \tag {1}
 $$
 
 $$
-d S \quad \text {w i t h p r o b a b i l i t y} 1 - q
+d S \quad \text{with probability} 1 - q
 $$
 
 The results of our earlier analysis showed that the assumption of an absence of arbitrage allowed us to use a risk-neutral valuation method to derive the value of an option. In general, this method of valuing a derivative security can be implemented by:
@@ -95,7 +105,7 @@ $$
 
 Let us illustrate this binomial valuation technique with the following example:
 
-A stock has a current price of \( S = \\)80.50 \) and a volatility \( \sigma = 0.33 \). If \( \Delta t = \frac{1}{9} \) year, then \( u = e^{\frac{.33}{\sqrt{9}}} = e^{.11} = 1.1163 \) and \( d = \frac{1}{u} = .8958 \).
+A stock has a current price of \(S = 80.50\) and a volatility \(\sigma = 0.33\). If \(\Delta t = \frac{1}{9}\) year, then \(u = e^{\frac{.33}{\sqrt{9}}} = e^{.11} = 1.1163\) and \(d = \frac{1}{u} = .8958\).
 
 Thus the 3-period tree for the stock price is
 
@@ -103,7 +113,7 @@ Thus the 3-period tree for the stock price is
 
 Next, consider valuing an American put option on this stock that matures in  $\tau = \frac{1}{3}$
 
-(4 months) and has an exercise price of \(X = \\)75\). Assume that the risk-free rate is \(r = 9\%\). This implies
+(4 months) and has an exercise price of \(X = 75\). Assume that the risk-free rate is \(r = 9\%\). This implies
 
 $$
 p = \frac {e ^ {r \Delta t} - d}{u - d} = \frac {e ^ {\frac {. 0 9}{9}} - . 8 9 5 8}{1 . 1 1 6 3 -. 8 9 5 8} = . 5 1 8 1
@@ -128,7 +138,7 @@ $$
 *Note that at  $P_{dd}$  the option is exercised early since
 
 $$
-\begin{array}{l} P _ {d d} = \max \left[ X - S _ {2}, e ^ {- r \Delta t} \left[ p P _ {3} ^ {u} + (1 - p) P _ {3} ^ {d} \right] \right] \\ = \max  [ 7 5 - 6 4. 6 0, 9. 6 5 ] = \$ 1 0. 4 0 \\ \end{array}
+\begin{array}{l} P _ {d d} = \max \left[ X - S _ {2}, e ^ {- r \Delta t} \left[ p P _ {3} ^ {u} + (1 - p) P _ {3} ^ {d} \right] \right] \\ = \max  [75 - 64.60, 9.65] = \$10.40 \\ \end{array}
 $$
 
 Next, using
@@ -146,7 +156,7 @@ P _ {d} = \max \left[ X - S _ {1}, e ^ {- r \Delta t} \left[ p P _ {2} ^ {u} + (
 $$
 
 $$
-= \max  [ 7 5 - 7 2. 1 2, 5. 6 6 ] = \$ 5. 6 6
+= \max  [75 - 72.12, 5.66] = \$5.66
 $$
 
 Finally, we calculate the value of the put at date 0 using
@@ -156,7 +166,7 @@ P _ {0} = \max \left[ X - S _ {0}, e ^ {- r \Delta t} \left[ p P _ {1} ^ {u} + (
 $$
 
 $$
-= \max  [ - 5. 5, 3. 0 3 ] = \$ 3. 0 3
+= \max  [-5.5, 3.03] = \$3.03
 $$
 
 and the final tree for the put is

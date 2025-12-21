@@ -1,8 +1,30 @@
 ---
 title: "Chapter 1 - Introduction to Derivatives"
 aliases:
-  - Introduction to Derivatives
+   - Introduction to Derivatives
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 12:15:00 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
+primary_tags:
+   - derivatives markets
+   - financial risk management
+   - market mechanisms
+secondary_tags:
+   - futures contracts
+   - options trading
+   - swaps agreements
+   - hedging strategies
+   - speculation techniques
+   - market regulation
+   - trading costs
+   - short selling
+   - bid ask spreads
+   - market liquidity
+   - risk sharing
+   - financial engineering
+   - prediction markets
+   - clearing mechanisms
 cssclasses: academia
 ---
 
@@ -10,7 +32,7 @@ cssclasses: academia
 
 The world of finance has changed dramatically in recent decades. Electronic processing, globalization, and deregulation have all transformed markets, with many of the most important changes involving derivatives. The set of financial claims traded today is quite different than it was in 1970. In addition to ordinary stocks and bonds, there is now a wide array of products collectively referred to as financial derivatives: futures, options, swaps, credit default swaps, and many more exotic claims.
 
-Derivatives sometimes make headlines. Prior to the financial crisis in 2008, there were a number of well-known derivatives-related losses: Procter & Gamble lost  \$150 million in 1994, Barings Bank lost\$ 1.3 billion in 1995, Long-Term Capital Management lost \$3.5 billion in 1998, the hedge fund Amaranth lost \$6 billion in 2006, Société Générale lost €5 billion in 2008. During the crisis in 2008 the Federal Reserve loaned 85 billion to AIG in conjunction with AIG's losses on credit default swaps. In the wake of the financial crisis, a significant portion of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 pertained to derivatives.
+Derivatives sometimes make headlines. Prior to the financial crisis in 2008, there were a number of well-known derivatives-related losses: Procter & Gamble lost \$150 million in 1994, Barings Bank lost \$1.3 billion in 1995, Long-Term Capital Management lost \$3.5 billion in 1998, the hedge fund Amaranth lost \$6 billion in 2006, Société Générale lost €5 billion in 2008. During the crisis in 2008 the Federal Reserve loaned 85 billion to AIG in conjunction with AIG's losses on credit default swaps. In the wake of the financial crisis, a significant portion of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 pertained to derivatives.
 
 What is not in the headlines is the fact that, most of the time, for most companies and most users, these financial products are a useful and everyday part of business. Just as companies routinely issue debt and equity, they also routinely use swaps to fix the cost of production inputs, futures contracts to hedge foreign exchange risk, and options to compensate employees, to mention just a few examples.
 
@@ -24,7 +46,34 @@ From Chapter 1 of Derivatives Markets, Third Edition, Robert McDonald. Copyright
 
 A derivative is a financial instrument that has a value determined by the price of something else. Options, futures, and swaps are all examples of derivatives. A bushel of corn is not a derivative; it is a commodity with a value determined in the corn market. However, you could enter into an agreement with a friend that says: If the price of a bushel of corn in 1 year is greater than \$3, you will pay the friend \$1. If the price of corn is less than \$3, the friend will pay you \$1. This is a derivative in the sense that you have an agreement with a value depending on the price of something else (corn, in this case).
 
-You might think: "That doesn't sound like it's a derivative; that's just a bet on the price of corn." Derivatives can be thought of as bets on the price of something, but the term "bet" is not necessarily pejorative. Suppose your family grows corn and your friend's family buys corn to mill into cornmeal. The bet provides insurance: You earn  \$1 if your family's corn sells for a low price; this supplements your income. Your friend earns\$ 1 if the corn his family buys is expensive; this offsets the high cost of corn. Viewed in this light, the bet hedges you both against unfavorable outcomes. The contract has reduced risk for both of you.
+```d2
+direction: right
+
+corn_price: Corn Price {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+}
+
+derivative_contract: Derivative Contract {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+payment_outcome: Payment Outcome {
+  shape: diamond
+  style.fill: "#fce4ec"
+}
+
+corn_price -> derivative_contract: "Determines value of"
+derivative_contract -> payment_outcome: "Results in"
+
+note: "Derivatives have payoffs determined by underlying assets" {
+  shape: callout
+  near: top-center
+}
+```
+
+You might think: "That doesn't sound like it's a derivative; that's just a bet on the price of corn." Derivatives can be thought of as bets on the price of something, but the term "bet" is not necessarily pejorative. Suppose your family grows corn and your friend's family buys corn to mill into cornmeal. The bet provides insurance: You earn \$1 if your family's corn sells for a low price; this supplements your income. Your friend earns \$1 if the corn his family buys is expensive; this offsets the high cost of corn. Viewed in this light, the bet hedges you both against unfavorable outcomes. The contract has reduced risk for both of you.
 
 Investors who do not make a living growing or processing corn could also use this kind of contract simply to speculate on the price of corn. In this case the contract does not serve as insurance; it is simply a bet. This example illustrates a key point: It is not the contract itself, but how it is used, and who uses it, that determines whether or not it is risk-reducing. Context is everything.
 
@@ -63,9 +112,9 @@ Before we discuss specific markets, it will be helpful to explain some ways in w
 
 Trading volume. This measure counts the number of financial claims that change hands daily or annually. Trading volume is the number commonly emphasized in press coverage, but it is a somewhat arbitrary measure because it is possible to redefine the meaning of a financial claim. For example, on a stock exchange, trading volume refers to the number of shares traded. On an options exchange, trading volume refers to the number of options traded, but each option on an individual stock covers 100 shares of stock.
 
-Market value. The market value (or "market cap") of the listed financial claims on an exchange is the sum of the market value of the claims that could be traded, without regard to whether they have traded. A firm with 1 million shares and a share price of  \$50 has a market value of\$ 50 million. Some derivative claims can have a zero market value; for such claims, this measure tells us nothing about activity at an exchange.
+Market value. The market value (or "market cap") of the listed financial claims on an exchange is the sum of the market value of the claims that could be traded, without regard to whether they have traded. A firm with 1 million shares and a share price of \$50 has a market value of \$50 million. Some derivative claims can have a zero market value; for such claims, this measure tells us nothing about activity at an exchange.
 
-Notional value. Notional value measures the scale of a position, usually with reference to some underlying asset. Suppose the price of a stock is  \$100 and that you have a derivative contract giving you the right to buy 100 shares at a future date. We would then say that the notional value of one such contract is 100 shares, or\$ 10,000. The concept of notional value is especially important in derivatives markets. Derivatives exchanges frequently report the notional value of contracts traded during a period of time.
+Notional value. Notional value measures the scale of a position, usually with reference to some underlying asset. Suppose the price of a stock is \$100 and that you have a derivative contract giving you the right to buy 100 shares at a future date. We would then say that the notional value of one such contract is 100 shares, or \$10,000. The concept of notional value is especially important in derivatives markets. Derivatives exchanges frequently report the notional value of contracts traded during a period of time.
 
 Open interest. Open interest measures the total number of contracts for which counterparties have a future obligation to perform. Each contract will have two counterparties. Open interest measures contracts, not counterparties. Open interest is an important statistic in derivatives markets.
 
@@ -163,6 +212,47 @@ You might be wondering what this discussion has to do with the notions of divers
 
 Financial markets in theory serve two purposes. Markets permit diversifiable risk to be widely shared. This is efficient: By definition, diversifiable risk vanishes when it is widely shared. At the same time, financial markets permit nondiversifiable risk, which does not vanish when shared, to be held by those most willing to hold it. Thus, the fundamental economic idea underlying the concepts and markets is that the existence of risk-sharing mechanisms benefits everyone.
 
+```d2
+direction: down
+
+risk_types: Risk Types {
+  shape: rectangle
+  style.fill: "#ffebee"
+}
+
+diversifiable: Diversifiable Risk {
+  shape: oval
+  style.fill: "#e8f5e9"
+}
+
+nondiversifiable: Non-Diversifiable Risk {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+wide_sharing: Wide Sharing {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+willing_holders: Willing Holders {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+}
+
+benefits: Benefits Everyone {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+}
+
+risk_types -> diversifiable
+risk_types -> nondiversifiable
+diversifiable -> wide_sharing: "Vanishes when shared"
+nondiversifiable -> willing_holders: "Held by those willing"
+wide_sharing -> benefits
+willing_holders -> benefits
+```
+
 Derivatives markets continue to evolve. A recent development has been the growth in prediction markets, discussed in Box 1.
 
 # 4. THE USES OF DERIVATIVES
@@ -177,7 +267,7 @@ Risk management. Derivatives are a tool for companies and other users to reduce 
 
 # BOX I: Prediction Markets
 
-Prediction markets are derivatives markets in which the value of traded claims depends on the outcome of events. With one common contract, an investor can own a claim that receives  \$1 if the event occurs, or sell a claim that requires the investor to pay\$ 1 if the event occurs. Such markets can be used to speculate on presidential elections, the winner of an Olympic event, the occurrence of a natural disaster, or the value of a government statistic such as employment or the consumer price index.
+Prediction markets are derivatives markets in which the value of traded claims depends on the outcome of events. With one common contract, an investor can own a claim that receives \$1 if the event occurs, or sell a claim that requires the investor to pay \$1 if the event occurs. Such markets can be used to speculate on presidential elections, the winner of an Olympic event, the occurrence of a natural disaster, or the value of a government statistic such as employment or the consumer price index.
 
 Much of the interest in prediction markets stems from the idea that the price of a contract will aggregate individual information that could not otherwise be observed. For years, the Iowa Electronic Markets (http://tippie.uowa.edu/iem/markets/) has permitted speculation on the outcome of presidential and other elections. The "vote share" contracts pay in cents the percentage of the popular vote received by the official candidate of a party. For example, if the Re publican were to receive  $48\%$  of the vote, the Republican vote share contract on election day would be worth \$0.48. The Democratic and Republican "winner-take-all" contracts pay \$ 1 if that party wins the election, and zero otherwise. There are also party nomination contracts that allow an investor to bet on a specific candidate winning the party nomination. (See Box 2.)
 
@@ -235,7 +325,7 @@ First, there is a commission, which is a transaction fee you pay your broker. A 
 
 Second, the term "stock price" is, surprisingly, imprecise. There are in fact two prices, a price at which you can buy, and a price at which you can sell. The price at which you can buy is called the offer price or ask price, and the price at which you can sell is called the bid price. To understand these terms, consider the position of the broker.
 
-To buy stock, you contact a broker. Suppose that you wish to buy immediately at the best available price. If the stock is not too obscure and your order is not too large, your purchase will probably be completed in a matter of seconds. Where does the stock that you have just bought come from? It is possible that at the exact same moment, another customer called the broker and put in an order to sell. More likely, however, a market-maker sold you the stock. As their name implies, market-makers make markets. If you want to buy, they sell, and if you want to sell, they buy. In order to earn a living, market-makers sell for a high price and buy for a low price. If you deal with a market-maker, therefore, you buy for a high price and sell for a low price. This difference between the price at which you can buy and the price at which you can sell is called the bid-ask spread.[11] In practice, the bid-ask spread on the stock you are buying may be  $49.75 to$ 50. This means that you can buy for \$50/share and sell for \$49.75/share. If you were to buy immediately and then sell, you would pay the commission twice, and you would pay the bid-ask spread.
+To buy stock, you contact a broker. Suppose that you wish to buy immediately at the best available price. If the stock is not too obscure and your order is not too large, your purchase will probably be completed in a matter of seconds. Where does the stock that you have just bought come from? It is possible that at the exact same moment, another customer called the broker and put in an order to sell. More likely, however, a market-maker sold you the stock. As their name implies, market-makers make markets. If you want to buy, they sell, and if you want to sell, they buy. In order to earn a living, market-makers sell for a high price and buy for a low price. If you deal with a market-maker, therefore, you buy for a high price and sell for a low price. This difference between the price at which you can buy and the price at which you can sell is called the bid-ask spread.[11] In practice, the bid-ask spread on the stock you are buying may be \$49.75 to \$50. This means that you can buy for \$50/share and sell for \$49.75/share. If you were to buy immediately and then sell, you would pay the commission twice, and you would pay the bid-ask spread.
 
 Example 1. Suppose XYZ is bid at \$49.75 and offered at \$50, and the commission is \$15. If you buy 100 shares of the stock you pay ($50 × 100) + $15 = \$5015. If you immediately sell them again, you receive ($49.75 × 100) - $15 = \$4960. Your round-trip transaction cost—the difference between what you pay and what you receive from a sale, not counting changes in the bid and ask prices—is $5015 - $4960 = \$55.
 
@@ -309,6 +399,31 @@ Suppose you want to short-sell IBM stock for 90 days. Table 4 depicts the cash f
 
 Notice that the cash flows in Table 4 are exactly the opposite of the cash flows from purchasing the stock. Thus, short-selling is literally the opposite of buying.
 
+```d2
+direction: right
+
+long_position: Long Position {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+}
+
+short_position: Short Position {
+  shape: rectangle
+  style.fill: "#ffebee"
+}
+
+long_position.label: "Buy Low → Sell High"
+short_position.label: "Sell High → Buy Low"
+
+cash_flow_opposite: Cash Flows Are Opposite {
+  shape: diamond
+  style.fill: "#fff3e0"
+}
+
+long_position -> cash_flow_opposite
+short_position -> cash_flow_opposite
+```
+
 # The Lease Rate of an Asset
 
 We have seen that when you borrow an asset it may be necessary to make payments to the lender. Dividends on short-sold stock are an example of this. We will refer to the payment required by the lender as the lease rate of the asset. This concept will arise frequently, and, as we will see, it provides a unifying concept for our later discussions of derivatives.
@@ -321,7 +436,7 @@ The preceding examples were simple illustrations of the mechanics and economics 
 
 Credit Risk. As the short-seller, you have an obligation to the lender to return the wine. The lender fears that you will renegel on this obligation. This concern can be addressed with collateral: After you sell the wine, the lender can hold the money you received from selling the wine. You have an obligation to return the wine; the lender keeps the money in the event that you don't.
 
-Holding on to the money will help the lender feel more secure, but after thinking the matter over, the lender will likely want more from you than just the current value of the wine. Suppose you borrow  \$5000 worth of wine. What happens, the lender will think, if the price of that particular wine rises 1 week later to\$ 6000? This is a \$1000 loss on your short-sale. In order to return the wine, you will have to pay \$6000 for wine you just sold for \$5000. Perhaps you cannot afford the extra \$1000 and you will fail to return the borrowed wine. The lender, thinking ahead, will be worried at the outset about this possibility and will ask you to provide more than the \$5000 the wine is worth—say, an extra \$1000. This extra amount is called a haircut and serves to protect the lender against your failure to return the wine when the price rises.[13] In practice, short-sellers must have funds—called capital—to be able to pay haircuts. The amount of capital places a limit on their ability to short-sell.
+Holding on to the money will help the lender feel more secure, but after thinking the matter over, the lender will likely want more from you than just the current value of the wine. Suppose you borrow \$5000 worth of wine. What happens, the lender will think, if the price of that particular wine rises 1 week later to \$6000? This is a \$1000 loss on your short-sale. In order to return the wine, you will have to pay \$6000 for wine you just sold for \$5000. Perhaps you cannot afford the extra \$1000 and you will fail to return the borrowed wine. The lender, thinking ahead, will be worried at the outset about this possibility and will ask you to provide more than the \$5000 the wine is worth—say, an extra \$1000. This extra amount is called a haircut and serves to protect the lender against your failure to return the wine when the price rises.[13] In practice, short-sellers must have funds—called capital—to be able to pay haircuts. The amount of capital places a limit on their ability to short-sell.
 
 Scarcity. As the short-seller, do you need to worry about the short-sale proceeds? The lender is going to have 6000 of your money. Most of this, however, simply reflects your obligation, and we could ask a trustworthy third party, such as a bank, to hold the money so the lender cannot abscond with it. However, when you return the wine, you are going to want your money back, plus interest. This raises the question: What rate of interest will the lender pay you? Over the course of the short-sale, the lender can invest your money, earning, say, 6\%. The lender could offer to pay you 4\% on the funds, thinking to keep as a fee the 2\% difference between the 6\% earned on the money and the 4\% paid to you. What happens if the lender and borrower negotiate?
 

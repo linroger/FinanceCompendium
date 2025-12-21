@@ -1,8 +1,27 @@
 ---
 title: "Chapter 6 - Commodity Forwards and Futures"
 aliases:
-  - Commodity Forwards and Futures
+   - Commodity Forwards and Futures
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
+primary_tags:
+   - commodity forwards
+   - commodity futures
+   - forward pricing
+   - storage costs
+   - convenience yield
+secondary_tags:
+   - arbitrage pricing
+   - lease rates
+   - contango
+   - backwardation
+   - gold markets
+   - corn futures
+   - energy commodities
+   - hedging strategies
+   - synthetic commodities
 cssclasses: academia
 ---
 
@@ -16,18 +35,18 @@ A commodity is characterized by its physical properties, the date at which it wi
 
 Notice that with this definition, corn in July and corn in September, for example, are different commodities: They are available on different dates. With a financial asset, such as a stock, we think of the stock as being fundamentally the same asset over time. The same is not necessarily true of a commodity, since it can be costly or impossible to transform a commodity on one date into a commodity on another date. This observation will be important.
 
-The price of a financial asset today is the present value of the asset at time  $T$ , less the value of dividends to be received between now and time  $T$ . It follows that the difference between the forward price and spot price of a financial asset reflects the costs and benefits of delaying payment for, and receipt of, the asset. Specifically, the forward price on a financial asset is given by
+The price of a financial asset today is the present value of the asset at time $T$, less the value of dividends to be received between now and time $T$. It follows that the difference between the forward price and spot price of a financial asset reflects the costs and benefits of delaying payment for, and receipt of, the asset. Specifically, the forward price on a financial asset is given by
 
 $$
 F _ {0, T} = S _ {0} e ^ {(r - \delta) T} \tag {1}
-$$ where  $S_0$  is the spot price of the asset,  $r$  is the continuously compounded interest rate, and  $\delta$  is the continuous dividend yield on the asset. We will explore the extent to which equation (1) also holds for commodities.
+$$ where $S_0$ is the spot price of the asset, $r$ is the continuously compounded interest rate, and $\delta$ is the continuous dividend yield on the asset. We will explore the extent to which Equation (1) also holds for commodities.
 
 
-# I. INTRODUCTION TO COMMODITY FORWARDS
+## I. Introduction to Commodity Forwards
 
 This section provides an overview of some issues that arise in discussing commodity forward and futures contracts. We begin by looking at some commodity futures prices. We then discuss some terms and concepts that will be important for commodities.
 
-# Examples of Commodity Futures Prices
+### Examples of Commodity Futures Prices
 
 For many commodities there are futures contracts available that expire at different dates in the future. Table 1 provides illustrative examples; we can examine these prices to see what issues might arise with commodity forward pricing.
 
@@ -45,7 +64,7 @@ The prices in Table 1 suggest that commodities are different than financial cont
 
 There are many more commodities with traded futures than just those in Table 1. You might think that a futures contract could be written on anything, but it is an interesting bit of trivia, discussed in the box below, that Federal law in the United States prohibits trading on two commodities.
 
-# Box I: Forbidden Futures
+### Box I: Forbidden Futures
 
 In the United States, futures contracts on two items are explicitly prohibited by statute: onions and box office receipts for movies. Title 7, Chapter 1, §13-1 of the United States Code is titled "Violations, prohibition against dealings in onion futures; punishment" and states
 
@@ -67,7 +86,7 @@ Source: Fortune magazine on-line, June 27, 2008.
 
 Similarly, futures on movie box office receipts had been approved early in 2010 by the Commodity Futures Trading Commission. After lobbying by Hollywood interests, the ban on such trading was inserted into the Dodd-Frank financial reform bill.
 
-# Differences Between Commodities and Financial Assets
+### Differences Between Commodities and Financial Assets
 
 In discussing the commodity prices in Table 1, we invoked considerations that did not arise with financial assets, but that will arise repeatedly when we discuss commodities. Among these are:
 
@@ -81,7 +100,7 @@ Convenience yield. The owner of a commodity in a commodity-related business may 
 
 We will discuss all of these concepts in more depth later in the chapter. For now, the important thing to keep in mind is that commodities differ in important respects from financial assets.
 
-# Commodity Terminology
+### Commodity Terminology
 
 There are many terms that are particular to commodities and thus often unfamiliar even to those well acquainted with financial markets. These terms deal with the properties of the forward curve and the physical characteristics of commodities.
 
@@ -96,7 +115,7 @@ Finally, commodities are measured in uncommon units for which you may not know p
 
 Entire books are devoted to commodities (e.g., see Geman, 2005). Our goal here is to understand the logic of forward pricing for commodities and where it differs from the logic of forward pricing for financial assets. We will see that understanding a forward curve generally requires that we understand something about the underlying commodity.
 
-# 2. EQUILIBRIUM PRICING OF COMMODITY FORWARDS
+## 2. Equilibrium Pricing of Commodity Forwards
 
 In this section we present definitions relating the prepaid forward price, forward price, and present value of a future commodity price. These ideas are important for understanding commodities.
 
@@ -127,25 +146,25 @@ $$
 
 Equation (5) deserves emphasis: The time- $T$  forward price discounted at the risk-free rate is the present value of a unit of commodity received at time  $T$ . This equation implies that, for example, an industrial producer who buys oil can calculate the present value of future oil costs by discounting oil forward prices at the risk-free rate. This calculation does not depend upon whether the producer hedges. We will see an example of this calculation later in the chapter.
 
-# 3. PRICING COMMODITY FORWARDS BY ARBITRAGE
+## 3. Pricing Commodity Forwards by Arbitrage
 
 We now investigate no-arbitrage pricing for commodity forward contracts. We begin by using copper as an example. Copper is durable and can be stored, but it is typically not stored except as needed for production. The primary goal in this section will be to understand the issues that distinguish forward pricing for commodities from forward pricing for financial assets.
 
 Figure 1 shows specifications for the CME Group copper contract and Figure 2 shows forward curves for copper on four dates. The copper forward curve lacks drama: For three of the four curves, the forward price in 1 year is approximately equal to the forward price in the current month. For the fourth curve, the 1-year price is below the current price (the curve exhibits backwardation).
 
-We saw that for non-dividend-paying financial assets, the forward price rises at the interest rate. How can the forward price of copper on a future date equal the current forward price? At an intuitive level, it is reasonable to expect the price of copper in 1 year to equal the price today. Suppose, for example, that the extraction and other costs of copper production are  \$3/pound and are expected to remain\$ 3. If demand is not expected to change, or if it is easy for producers to alter production, it would be reasonable to expect that on average the price of copper would remain at 3. The question is how to reconcile this intuition with the behavior of forward prices for financial assets.
+We saw that for non-dividend-paying financial assets, the forward price rises at the interest rate. How can the forward price of copper on a future date equal the current forward price? At an intuitive level, it is reasonable to expect the price of copper in 1 year to equal the price today. Suppose, for example, that the extraction and other costs of copper production are \$3/pound and are expected to remain \$3. If demand is not expected to change, or if it is easy for producers to alter production, it would be reasonable to expect that on average the price of copper would remain at 3. The question is how to reconcile this intuition with the behavior of forward prices for financial assets.
 
 While it is reasonable to think that the price of copper will be expected to remain the same over the next year, it is important to recognize that a constant price would not be a reasonable assumption about the price of a non-dividend-paying stock. Investors must expect that a stock will on average pay a positive return, or no one would own it. In equilibrium, stocks and other financial assets must be held by investors, or stored. The stock price appreciates on average so that investors will willingly store the stock. There is no such requirement for copper, which can be extracted and then used in production. The equilibrium condition for copper relates to extraction, not to storage above ground. This distinction between a storage and production equilibrium is a central concept in our discussion of commodities. At the outset, then, there is an obvious difference between copper and a financial asset. It is not necessarily obvious, however, what bearing this difference has on pricing forward contracts.
 
-# An Apparent Arbitrage
+### An Apparent Arbitrage
 
-Suppose that you observe that both the current price and 1-year forward price for copper are  \$3.00 and that the effective annual interest rate is 10\%$ . For the reasons we have just discussed, market participants could rationally believe that the copper price in 1 year will be 3.00. From our discussion of financial forwards, however, you might think that the forward price should be  $1.10 \times$ 3.00 = 3.30, the future value of the current copper price.
+Suppose that you observe that both the current price and 1-year forward price for copper are \$3.00 and that the effective annual interest rate is 10\%. For the reasons we have just discussed, market participants could rationally believe that the copper price in 1 year will be 3.00. From our discussion of financial forwards, however, you might think that the forward price should be  $1.10 \times$ 3.00 = 3.30, the future value of the current copper price.
 
 <table><tr><td>FIGURE 1</td><td>Underlying</td><td>High-grade (Grade 1) copper</td></tr><tr><td rowspan="5">Specifications for the CME Group/COMEX high-grade copper contract.</td><td>Where traded</td><td>CME Group/COMEX</td></tr><tr><td>Size</td><td>25,000 pounds</td></tr><tr><td>Months</td><td>24 consecutive months</td></tr><tr><td>Trading ends</td><td>Third-to-last business day of the maturing month</td></tr><tr><td>Delivery</td><td>Exchange-designated warehouse within the United States</td></tr></table>
 
 Data from Datastream.
 
-# FIGURE 2
+### FIGURE 2
 
 Forward curves for four dates for the CME Group high-grade copper futures contract.
 
@@ -169,7 +188,7 @@ The arbitrage assumes that you can short-sell copper by borrowing it today and r
 
 To summarize: The apparent arbitrage in Table 2 has nothing to do with mispriced forward contracts on copper. The issue is that the copper loan is equivalent to an interest-free loan, and thus generates an arbitrage profit.
 
-# Short-selling and the Lease Rate
+### Short-selling and the Lease Rate
 
 How do we correct the arbitrage analysis in Table 2? We have to recognize that the copper lender has invested 3.00 in copper and must expect to earn a satisfactory return on that investment. The copper lender will require us to make a lease payment so that the commodity loan is a fair deal. The actual payment the lender requires will depend on the forward price.
 
@@ -207,7 +226,7 @@ $$
 
 It is important to be clear about the reason a lease payment is required for a commodity and not for a financial asset. For a non-dividend-paying financial asset, the price is the present value of the future price, so that  $S_0 = E(S_T)e^{-\alpha T}$ . This implies that the lease payment is zero. For most commodities, the current price is not the present value of the expected future price, so there is no presumption that the lease rate would be zero.
 
-# No-Arbitrage Pricing Incorporating Storage Costs
+### No-Arbitrage Pricing Incorporating Storage Costs
 
 We now consider the effects of storage costs. Storage is not always feasible (for example, fresh strawberries are perishable), and when technically feasible, storage for commodities is almost always costly. If storage is feasible, how do storage costs affect forward pricing? The intuitive answer is that if it is optimal to store the commodity, then the forward price must be high enough so that the returns on a cash-and-carry compensate for both financing and storage costs. However, if storage is not optimal, storage costs are irrelevant. We will examine both cash-and-carry and reverse cash-and-carry arbitrages to see how they are affected by storage costs.
 
@@ -263,7 +282,7 @@ Reverse cash-and-carry for copper for 1 year, assuming that the commodity lender
 
 <table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Short-sell copper</td><td>S0</td><td>-S1</td></tr><tr><td>Lease payment</td><td>0</td><td>-L</td></tr><tr><td>Long forward</td><td>0</td><td>S1-F0,1</td></tr><tr><td>Invest @ R</td><td>-S0</td><td>(1+R)S0</td></tr><tr><td>Total</td><td>0</td><td>[(1+R)S0-F0,1]-L</td></tr></table> to buy the commodity forward. If it is too high, there is an incentive for traders to sell the commodity, whether or not arbitrage is feasible. Leasing and storage costs complicate arbitrage, however.
 
-# Convenience Yields
+### Convenience Yields
 
 The discussion of commodities has so far ignored business reasons for holding commodities. For example, if you are a food producer for whom corn is an essential input, you will hold corn in inventory. If you hold too much corn, you can sell the excess. However, if you hold too little, you may run out of corn, halting production and idling workers and machines. The physical inventory of corn in this case has value: It provides insurance that you can keep producing in case there is a disruption in the supply of corn.
 
@@ -281,15 +300,15 @@ What is the commodity lease rate in this case? An owner lending the commodity sa
 
 The difficulty with the convenience yield in practice is that convenience is hard to observe. The concept of the convenience yield serves two purposes. First, it explains patterns in storage—for example, why a commercial user might store a commodity when the average investor will not. Second, it provides an additional parameter to better explain the forward curve. You might object that we can invoke the convenience yield to explain any forward curve, and therefore the concept of the convenience yield is vacuous. While convenience yield can be tautological, it is a meaningful economic concept and it would be just as arbitrary to assume that there is never convenience. Moreover, the upper bound in equation (8) depends on storage costs but not the convenience yield. Thus, the convenience yield only explains anomalously low forward prices, and only when there is storage.
 
-# Summary
+## Summary
 
 Much of the discussion in this section was aimed at explaining the differences between commodities and financial assets. The main conclusions are intuitive:
 
-- The forward price,  $F_{0,T}$ , should not exceed  $S_0e^{(r + \lambda)T}$ . If the forward price were greater, you could undertake a simple cash-and-carry and earn a profit after paying both storage costs and interest on the position. Storage costs here includes deterioration of the commodity, so fragile commodities could have large (or infinite) storage costs.
-- In a carry market, the forward price should equal  $S_0 e^{(r - c + \lambda)T}$ . A user who buys and stores the commodity will then be compensated for interest and physical storage costs less a convenience yield.
+- The forward price, $F_{0,T}$, should not exceed $S_0e^{(r + \lambda)T}$. If the forward price were greater, you could undertake a simple cash-and-carry and earn a profit after paying both storage costs and interest on the position. Storage costs here includes deterioration of the commodity, so fragile commodities could have large (or infinite) storage costs.
+- In a carry market, the forward price should equal $S_0 e^{(r - c + \lambda)T}$. A user who buys and stores the commodity will then be compensated for interest and physical storage costs less a convenience yield.
 - In any kind of market, a reverse cash-and-carry arbitrage (attempting to arbitrage too low a forward price) will be difficult, because the terms at which a lender will lend the commodity will likely reflect the forward price, making profitable arbitrage difficult.
 
-# 4. GOLD
+## 4. Gold
 
 Of all commodities, gold is most like a financial asset. Gold is durable, nonreactive, noncorrosive, relatively inexpensive to store (compared to its value), widely held, and actively produced through gold mining. Because of transportation costs and purity concerns, gold often trades in certificate form, as a claim to physical gold at a specific location. There are exchange-traded gold futures, specifications for which are in Figure 3.
 
@@ -297,7 +316,7 @@ Figure 4 graphs futures prices for all available gold futures contracts—the fo
 
 <table><tr><td>FIGURE 3</td><td>Underlying</td><td>Refined gold bearing approved refiner stamp</td></tr><tr><td rowspan="5">Specifications for the CME Group gold futures contract.</td><td>Where traded</td><td>CME Group/NYMEX</td></tr><tr><td>Size</td><td>100 troy ounces</td></tr><tr><td>Months</td><td>February, April, August, October, out 2 years. June, December, out 5 years</td></tr><tr><td>Trading ends</td><td>Third-to-last business day of maturity month</td></tr><tr><td>Delivery</td><td>Any business day of the delivery month</td></tr></table>
 
-# FIGURE 4
+### FIGURE 4
 
 The forward curve for gold on four dates, from NYMEX gold futures prices.
 
@@ -305,7 +324,7 @@ The forward curve for gold on four dates, from NYMEX gold futures prices.
 
 Data from Datastream.
 
-# Gold Leasing
+### Gold Leasing
 
 From our discussion in Section 3, the forward price implies a lease rate for gold. Short-sales and loans of gold are in fact common in the gold market. On the lending side, large gold holders (including some central banks) put gold on deposit with brokers, in order that it may be loaned to short-sellers. The gold lenders earn the lease rate.
 
@@ -325,11 +344,11 @@ $$
 
 The negative lease rate seems to imply that gold owners would pay to lend gold. With significant demand in recent years for gold storage, the negative lease rate could be measuring increased marginal storage costs. It is also possible that LIBOR is not the correct interest rate to use in computing the lease rate. Whatever the reason for negative lease rates, gold in recent years has been trading at close to full carry.
 
-# Evaluation of Gold Production
+### Evaluation of Gold Production
 
 Suppose we wish to compute the present value of future production for a proposed gold mine. As discussed in Section 2, the present value of a unit of commodity received in the future is simply the present value of the forward price, with discounting performed at the risk-free rate. We can thus use the forward curve for gold to compute the value of an operating gold mine.
 
-Suppose that at times  $t_i$ ,  $i = 1, \dots, n$ , we expect to extract  $n_{t_i}$  ounces of gold by paying a per-unit extraction cost of  $x(t_i)$ . We have a set of  $n$  forward prices,  $F_{0,t_i}$ . If the continuously compounded annual risk-free rate from time 0 to  $t_i$  is  $r(0, t_i)$ , the value of the gold mine is
+Suppose that at times $t_i$, $i = 1, \dots, n$, we expect to extract $n_{t_i}$ ounces of gold by paying a per-unit extraction cost of $x(t_i)$. We have a set of  $n$  forward prices,  $F_{0,t_i}$ . If the continuously compounded annual risk-free rate from time 0 to $t_i$ is $r(0, t_i)$, the value of the gold mine is
 
 $$
 \text {P V} \quad \text {g o l d} = \sum_ {i = 1} ^ {n} n _ {t _ {i}} \left[ F _ {0, t _ {i}} - x \left(t _ {i}\right) \right] e ^ {- r \left(0, t _ {i}\right) t _ {i}} \tag {10}
@@ -351,7 +370,7 @@ TABLE 6
 
 <table><tr><td>Expiration Year</td><td>Forward Price ($)</td><td>Prepaid Forward Price ($)</td></tr><tr><td>1</td><td>313.81</td><td>295.53</td></tr><tr><td>2</td><td>328.25</td><td>291.13</td></tr><tr><td>3</td><td>343.36</td><td>286.80</td></tr><tr><td>4</td><td>359.17</td><td>282.53</td></tr><tr><td>5</td><td>375.70</td><td>278.32</td></tr><tr><td>6</td><td>392.99</td><td>274.18</td></tr></table>
 
-# FIGURE 5
+### FIGURE 5
 
 Specifications for the CME Group/CBOT corn futures contract.
 
@@ -379,7 +398,7 @@ Delivery
 
 Second business day following the last trading day of the delivery month
 
-# 5. CORN
+## 5. Corn
 
 Important grain futures in the United States include corn, soybeans, and wheat. In this section we discuss corn as an example of an agricultural product. Corn is harvested primarily in the fall, from September through November. The United States is a leading corn producer, generally exporting rather than importing corn. Figure 5 presents specifications for the CME Group corn futures contract.
 
@@ -389,7 +408,7 @@ As discussed in Section 3, storage is an economic decision in which there is a t
 
 An equilibrium with some current selling and some storage requires that corn prices be expected to rise at the interest rate plus storage costs, which implies that there will be an
 
-# FIGURE 6
+### FIGURE 6
 
 Forward curves for corn for four years.
 
@@ -407,11 +426,11 @@ The behavior of the corn forward price, graphed in Figure 6, largely conforms wi
 
 Although corn prices vary throughout the year, farmers will plant in anticipation of receiving the harvest price. It is therefore the harvest price that guides production decisions. The price during the rest of the year should approximately equal the harvest price plus storage, less convenience.
 
-# 6. ENERGY MARKETS
+## 6. Energy Markets
 
 One of the most important and heavily traded commodity sectors is energy. This sector includes oil, oil products (heating oil and gasoline), natural gas, and electricity. These products represent different points on the spectrum of storage costs and carry.
 
-# Electricity
+### Electricity
 
 The forward market for electricity illustrates forward pricing when storage is often not possible, or at least quite costly. Electricity is produced in different ways: from fuels such as coal and natural gas, or from nuclear power, hydroelectric power, wind power, or solar power. Once it is produced, electricity is transmitted over the power grid to end-users.
 
@@ -423,7 +442,7 @@ Notice two things. First, the swings in Table 7 could not occur with financial a
 
 Just as intraday arbitrage is difficult, there is no costless way to buy winter electricity and sell it in the summer, so there are seasonal variations as well as intraday variations. Peak-load power plants operate only when prices are high, temporarily increasing the supply of electricity. However, expectations about supply, storage, and peak-load power generation should already be reflected in the forward price.
 
-# Natural Gas
+### Natural Gas
 
 Natural gas is a market in which seasonality and storage costs are important. The natural gas futures contract, introduced in 1990, has become one of the most heavily traded futures contracts in the United States. The asset underlying one contract is 10,000 MMBtu, delivered over one month at a specific location (different gas contracts call for delivery at different locations). Figure 7 details the specifications for the Henry Hub contract.
 
@@ -447,7 +466,7 @@ $$
 8. 3 2 9 = 7. 0 5 9 e ^ {0. 0 0 5} + \lambda
 $$
 
-# FIGURE 8
+### FIGURE 8
 
 Forward curves for natural gas for four years. Prices are dollars per MMBtu, from CME Group/NYMEX.
 
@@ -461,13 +480,13 @@ This calculation implies an estimated expected marginal storage cost of  $\lambd
 
 Because of the expense in transporting gas internationally, the seasonal behavior of the forward curve can vary in different parts of the world. In tropical areas where gas is used for cooking and electricity generation, the forward curve is relatively flat because demand is relatively flat. In the Southern hemisphere, where seasons are reversed from the Northern hemisphere, the forward curve will peak in June and July rather than December and January.
 
-# Oil
+### Oil
 
 Both oil and natural gas produce energy and are extracted from wells, but the different physical characteristics and uses of oil lead to a very different forward curve than that for gas. Oil is easier to transport than gas, with the result that oil trades in a global market. Oil is also easier to store than gas. Thus, seasonals in the price of crude oil are relatively unimportant. Specifications for the NYMEX light sweet crude oil contract (also known as West Texas Intermediate, or WTI) are shown in Figure 9. The NYMEX forward curve on four dates is plotted in Figure 10.
 
 <table><tr><td>FIGURE 9</td><td>Underlying</td><td>Specific domestic crudes delivered at Cushing, Oklahoma</td></tr><tr><td rowspan="5">Specifications for the NYMEX light sweet crude oil contract.</td><td>Where traded</td><td>New York Mercantile Exchange</td></tr><tr><td>Size</td><td>1000 U.S. barrels (42,000 gallons)</td></tr><tr><td>Months</td><td>30 consecutive months plus long-dated futures out 7 years</td></tr><tr><td>Trading ends</td><td>Third-to-last business day preceding the 25th calendar day of month prior to maturity month</td></tr><tr><td>Delivery</td><td>As uniformly as possible over the delivery month</td></tr></table>
 
-# FIGURE 10
+### FIGURE 10
 
 Multi-year strips of NYMEX crude oil futures prices,  $/barrel,$  for four different dates.
 
@@ -481,7 +500,7 @@ On the four dates in the figure, near-term oil prices range from  $40 to$ 125. A
 
 Although oil is a global market, the delivery point for the WTI oil contract is Cushing, Oklahoma, which is landlocked. Another important oil contract is the Brent crude oil
 
-# BOX 2: Tanker-Based Arbitrage
+### BOX 2: Tanker-Based Arbitrage
 
 From The Wall Street Journal: The huge floating stockpile of crude oil kept on tankers amid a global supply glut is showing signs of shrinking, as traders struggle to make profits from the once highly lucrative storage play.
 
@@ -501,7 +520,7 @@ ICAP said there were currently 21 trading VLCCs offshore with some 43 million ba
 
 Source: Chazan (2010) contract, based on oil from the North Sea. Historically WTI and Brent traded within a few dollars of each other, and they are of similar quality. In early 2011, however, the price of Brent was at one point almost 20/barrel greater than the price of WTI. Though there is no one accepted explanation for this discrepancy, the difficulty of transporting oil from Cushing to ports undoubtedly plays a role, and the WTI contract in recent years has lost favor as a global oil benchmark. In particular, in 2009 Saudi Arabia dropped WTI from its export benchmarks. The WTI-Brent price discrepancy illustrates the importance of transportation costs even in an integrated global market.
 
-# Oil Distillate Spreads
+### Oil Distillate Spreads
 
 Some commodities are inputs in the creation of other commodities, which gives rise to commodity spreads. Crude oil is refined to make petroleum products, in particular heating oil and gasoline. The refining process entails distillation, which separates crude oil into different components, including gasoline, kerosene, and heating oil. The split of oil into these different components can be complemented by a process known as "cracking"; hence, the difference in price between crude oil and equivalent amounts of heating oil and gasoline is called the crack spread. $^{8}$
 
@@ -516,11 +535,11 @@ $$ or  $0.8767 / 3 =$ 0.29221/gallon.
 
 There are crack spread swaps and options. Most commonly these are based on the difference between the price of heating oil and crude oil, and the price of gasoline and heating oil, both in a 1:1 ratio.
 
-# 7. HEDGING STRATEGIES
+## 7. Hedging Strategies
 
 In this section we discuss some issues when using commodity futures and forwards to hedge commodity price exposure. First, since commodities are heterogeneous and often costly to transport and store, it is common to hedge a risk with a commodity contract that is imperfectly correlated with the risk being hedged. This gives rise to basis risk: The price of the commodity underlying the futures contract may move differently than the price of the commodity you are hedging. For example, because of transportation cost and time, the price of natural gas in California may differ from that in Louisiana, which is the location underlying the principal natural gas futures contract (see again Figure 7). Second, in some cases one commodity may be used to hedge another. As an example of this we discuss the use of crude oil to hedge jet fuel. Finally, weather derivatives provide another example of an instrument that can be used to cross-hedge. We discuss degree-day index contracts as an example of such derivatives.
 
-# Basis Risk
+### Basis Risk
 
 Exchange-traded commodity futures contracts call for delivery of the underlying commodity at specific locations and specific dates. The actual commodity to be bought or sold may reside at a different location and the desired delivery date may not match that of the futures contract. Additionally, the grade of the deliverable under the futures contract may not match the grade that is being delivered.
 
@@ -534,7 +553,7 @@ An alternative to a strip hedge is a stack hedge. With a stack hedge, we enter i
 
 There are at least two reasons for using a stack hedge. First, there is often more trading volume and liquidity in near-term contracts. With many commodities, bid-ask spreads widen with maturity. Thus, a stack hedge may have lower transaction costs than a strip hedge. Second, the manager may wish to speculate on the shape of the forward curve. You might decide that the forward curve looks unusually steep in the early months. If you undertake a stack hedge and the forward curve then flattens, you will have locked in all your oil at the relatively cheap near-term price, and implicitly made gains from not having locked in the relatively high strip prices. However, if the curve becomes steeper, it is possible to lose.
 
-# BOX 3: Metallgesellschaft A. G.
+### BOX 3: Metallgesellschaft A. G.
 
 In 1992, a U.S. subsidiary of the German industrial firm Metallgesellschaft A. G. (MG) had offered customers fixed prices on over 150 million barrels of petroleum products, including gasoline, heating oil, and diesel fuel, over periods as long as 10 years. To hedge the resulting short exposure, MG entered into futures and swaps.
 
@@ -547,7 +566,7 @@ The MG case was extremely complicated and has been the subject of pointed exchan
 
 The box above recounts the story of Metallgesellschaft A. G. (MG), in which MG's large losses on a hedged position might have been caused, at least in part, by the use of a stack hedge.
 
-# Hedging Jet Fuel with Crude Oil
+### Hedging Jet Fuel with Crude Oil
 
 Jet fuel futures do not exist in the United States, but firms sometimes hedge jet fuel with crude oil futures along with futures for related petroleum products. In order to perform this hedge, it is necessary to understand the relationship between crude oil and jet fuel prices. If we own a quantity of jet fuel and hedge by holding  $H$  crude oil futures contracts, our mark-to-market profit depends on the change in the jet fuel price and the change in the futures price:
 
@@ -571,7 +590,7 @@ $$
 
 The explanatory power of the regression is improved, with an implied correlation of 0.886 between the actual and predicted jet fuel price. The price of heating oil is more closely related to the price of jet fuel than is the price of crude oil.
 
-# Weather Derivatives
+### Weather Derivatives
 
 Many businesses have revenue that is sensitive to weather: Ski resorts are harmed by warm winters, soft drink manufacturers are harmed by a cold spring, summer, or fall, and makers of lawn sprinklers are harmed by wet summers. In all of these cases, firms could hedge their risk using weather derivatives—contracts that make payments based upon realized characteristics of weather—to cross-hedge their specific risk.
 
