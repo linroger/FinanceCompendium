@@ -1,20 +1,24 @@
 ---
+title: "Exchange Rates and the Foreign Exchange Market: An Asset Approach"
+parent_directory: "Part 3 - Exchange Rates and Open-Economy Macroeconomics"
+formatted: "2025-12-21 08:59:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- price approach exchange rate
-- rates theories foreign
-- euros quickly difference
-- rate alter sweater dollar
+  - exchange rate determination
+  - foreign exchange market
+  - interest parity condition
+  - covered interest parity
 secondary_tags:
-- jeans seen exchange rate
-- different currencies american
-- british sweatersexchange rate
-- prices exchange rates carnegie
-- international currency economic
-- dollar euro essays jean
-- does change dollar depreciates
-- analysis foreign exchange market
-- year dollar
-tags_extracted: '2025-12-18T00:53:11.542753'
+  - asset market approach
+  - currency depreciation
+  - currency appreciation
+  - forward exchange rates
+  - exchange rate expectations
+  - carry trade
+  - international trade prices
+  - foreign exchange equilibrium
+cssclasses: academia
 ---
 
 # EXCHANGE RATES AND THE FOREIGN EXCHANGE MARKET: AN ASSET APPROACH
@@ -29,7 +33,7 @@ Our general goals in this chapter are to understand the role of exchange rates i
 
 determined in that market. A final section underlines our asset market approach by showing how today's exchange rate responds to changes in the expected future values of exchange rates.
 
-# LEARNING GOALS
+## LEARNING GOALS
 
 After reading this chapter, you will be able to:
 
@@ -39,7 +43,7 @@ Describe the structure and functions of the foreign exchange market.
 - Apply the interest parity condition to find equilibrium exchange rates.
 Find the effects of interest rates and expectation shifts on exchange rates.
 
-# Exchange Rates and International Transactions
+## Exchange Rates and International Transactions
 
 Exchange rates play a central role in international trade because they allow us to compare the prices of goods and services produced in different countries. A consumer deciding which of two American cars to buy must compare their dollar prices, for example,  \$44,500 (for a Lincoln Continental) or\$ 27,000 (for a Ford Taurus). But how is the same consumer to compare either of these prices with the 3,500,000 Japanese yen it costs to buy a Nissan Leaf from Japan? To make this comparison, he or she must know the relative price of dollars and yen.
 
@@ -47,7 +51,7 @@ You can view the relative prices of currencies in real time on the Internet. Exc
 
 Households and firms use exchange rates to translate foreign prices into domestic currency terms. Once the money prices of domestic goods and imports have been expressed in terms of the same currency, households and firms can compute the relative prices that affect international trade flows.
 
-# Domestic and Foreign Prices
+## Domestic and Foreign Prices
 
 If we know the exchange rate between two countries' currencies, we can compute the price of one country's exports in terms of the other country's money. For example, how many dollars would it cost to buy an Edinburgh Woolen Mill sweater costing 50 British pounds (£50)?
 
@@ -60,19 +64,19 @@ Rates are derived from WM Reuters Spot Rates and MorningStar (latest rates at ti
 The answer is found by multiplying the price of the sweater in pounds, 50, by the price of a pound in terms of dollars—the dollar's exchange rate against the pound. At an exchange rate of \$1.50 per pound (expressed in American terms), the dollar price of the sweater is
 
 $$
-(1. 5 0 \mathrm{~S} / \mathrm{E}) \times (\mathrm{E} 5 0) = \mathrm{S} 7 5.
+(1.50 \mathrm{~\$} / \mathrm{£}) \times (\mathrm{£} 50) = \mathrm{\$} 75.
 $$
 
 A change in the dollar/pound exchange rate would alter the sweater's dollar price. At an exchange rate of 1.25 per pound, the sweater would cost only
 
 $$
-(1. 2 5 \mathrm{~\$} / \mathrm{£}) \times (\mathrm{£} 5 0) = \mathrm{~\$} 6 2. 5 0,
+(1.25 \mathrm{~\$} / \mathrm{£}) \times (\mathrm{£} 50) = \mathrm{\$} 62.50,
 $$
 
 assuming its price in terms of pounds remained the same. At an exchange rate of \$1.75 per pound, the sweater's dollar price would be higher, equal to
 
 $$
-(1. 7 5 \mathrm{~\$} / \mathrm{£}) \times (\mathrm{£} 5 0) = \mathrm{~\$} 8 7. 5 0.
+(1.75 \mathrm{~\$} / \mathrm{£}) \times (\mathrm{£} 50) = \mathrm{\$} 87.50.
 $$
 
 Changes in exchange rates are described as depreciations or appreciations. A depreciation of the pound against the dollar is a fall in the dollar price of pounds, for example, a change in the exchange rate from  \$1.50 per pound to\$ 1.25 per pound. The preceding example shows that all else equal, a depreciation of a country's currency makes its goods cheaper for foreigners. A rise in the pound's price in terms of dollars—for example, from \$1.50 per pound to \$1.75 per pound—is an appreciation of the pound against the dollar. All else equal, an appreciation of a country's currency makes its goods more expensive for foreigners.
@@ -80,20 +84,20 @@ Changes in exchange rates are described as depreciations or appreciations. A dep
 The exchange rate changes discussed in the example simultaneously alter the prices Britons pay for American goods. At an exchange rate of  \$1.50 per pound, the pound price of a pair of American designer jeans costing\$ 45 is ($45)/(1.50/$/£) = £30. A change in the exchange rate from \$1.50 per pound to \$1.25 per pound, while a depreciation of the pound against the dollar, is also a rise in the pound price of dollars, an appreciation of the dollar against the pound. This appreciation of the dollar makes the American jeans more expensive for Britons by raising their pound price from £30 to
 
 $$
-(\$ 45) / (1. 2 5 \$\)/£) = £ 3 6.
+(\$45) / (1.25\$/\£) = £36.
 $$
 
 The change in the exchange rate from  \$1.50 per pound to\$ 1.75 per pound—an appreciation of the pound against the dollar but a depreciation of the dollar against the pound—lowers the pound price of the jeans from £30 to
 
 $$
-\left(\S 4 5\right) / \left(1. 7 5 \S / £\right) = £ 2 5. 7 1.
+(\$45) / (1.75\$ / £) = £25.71.
 $$
 
 As you can see, descriptions of exchange rate changes as depreciations or appreciations can be bewildering because when one currency depreciates against another, the second currency must simultaneously appreciate against the first. To avoid confusion in discussing exchange rates, we must always keep track of which of the two currencies we are examining has depreciated or appreciated against the other.
 
 If we remember that a depreciation of the dollar against the pound is at the same time an appreciation of the pound against the dollar, we reach the following conclusion: When a country's currency depreciates, foreigners find that its exports are cheaper and domestic residents find that imports from abroad are more expensive. An appreciation has opposite effects: Foreigners pay more for the country's products and domestic consumers pay less for foreign products.
 
-# Exchange Rates and Relative Prices
+## Exchange Rates and Relative Prices
 
 Import and export demands, like the demands for all goods and services, are influenced by relative prices, such as the price of sweaters in terms of designer jeans. We have just seen how exchange rates allow individuals to compare domestic and foreign money
 
@@ -107,11 +111,11 @@ Table 14-2 shows the relative prices implied by exchange rates of  \$1.25 per po
 
 The table shows that if the goods' money prices do not change, an appreciation of the dollar against the pound makes sweaters cheaper in terms of jeans (each pair of jeans buys more sweaters) while a depreciation of the dollar against the pound makes sweaters more expensive in terms of jeans (each pair of jeans buys fewer sweaters). The computations illustrate a general principle: All else equal, an appreciation of a country's currency raises the relative price of its exports and lowers the relative price of its imports. Conversely, a depreciation lowers the relative price of a country's exports and raises the relative price of its imports.
 
-# The Foreign Exchange Market
+## The Foreign Exchange Market
 
 Just as other prices in the economy are determined by the interaction of buyers and sellers, exchange rates are determined by the interaction of the households, firms, and financial institutions that buy and sell foreign currencies to make international payments. The market in which international currency trades take place is called the foreign exchange market.
 
-# The Actors
+### The Actors
 
 The major participants in the foreign exchange market are commercial banks, corporations that engage in international trade, nonbank financial institutions such as asset-management firms and insurance companies, and central banks. Individuals may also participate in the foreign exchange market—for example, the tourist who buys foreign currency at a hotel's front desk—but such cash transactions are an insignificant fraction of total foreign exchange trading.
 
@@ -131,7 +135,7 @@ Because their international operations are so extensive, large commercial banks 
 3. Nonbank financial institutions. Over the years, deregulation of financial markets in the United States, Japan, and other countries has encouraged nonbank financial institutions such as mutual funds to offer their customers a broader range of services, many of them indistinguishable from those offered by banks. Among these have been services involving foreign exchange transactions. Institutional investors such as pension funds often trade foreign currencies. So do insurance companies. Hedge funds, which cater to very wealthy individuals and are not bound by the government regulations that limit mutual funds' trading strategies, trade actively in the foreign exchange market.
 4. Central banks. In the previous chapter, we learned that central banks sometimes intervene in foreign exchange markets. While the volume of central bank transactions is typically not large, the impact of these transactions may be great. The reason for this impact is that participants in the foreign exchange market watch central bank actions closely for clues about future macroeconomic policies that may affect exchange rates. Government agencies other than central banks may also trade in the foreign exchange market, but central banks are the most regular official participants.
 
-# Characteristics of the Market
+### Characteristics of the Market
 
 Foreign exchange trading takes place in many financial centers, with the largest volumes of trade occurring in such major cities as London (the largest market), New York, Tokyo, Frankfurt, Hong Kong, and Singapore. The worldwide volume of foreign exchange trading is enormous, and it has ballooned over the past three decades. In April 1989, the average total value of global foreign exchange trading was close to  \$600 billion per day. A total of\$ 184 billion was traded daily in London, \$115 billion in the United States, and \$111 billion in Tokyo. Thirty years later, in April 2019, the daily global value of foreign exchange trading had jumped to around \$6.6 trillion. A total of \$3.58 trillion was traded daily in the United Kingdom, \$1.37 trillion in the United States, and \$376 billion in Japan.[2]
 
@@ -145,7 +149,7 @@ shekels. In contrast, relatively few transactions require direct exchanges of Sw
 
 Because of its pivotal role in so many foreign exchange deals, the U.S. dollar is sometimes called a vehicle currency. A vehicle currency is one that is widely used to denominate international contracts made by parties who do not reside in the country that issues the vehicle currency. It has been suggested that the euro, which was introduced at the start of 1999, could evolve into a vehicle currency on a par with the dollar. By April 2019, 32.3 percent of foreign exchange trades were against euros—less than half the share of the dollar and significantly below the figure of 39 percent clocked in 2010. Japan's yen is the third most important currency, with a market share of 16.8 percent. (All shares are out of 200 because two currencies are necessary for every foreign exchange trade.) The pound sterling, once second only to the dollar as a key international currency, has declined greatly in importance and now stands in fourth place. China's renminbi ranked eighth among the word's currencies in 2019, with a market share of 4.3 percent—low, but much above its 0.9 percent share in 2010.[4]
 
-# Spot Rates and Forward Rates
+### Spot Rates and Forward Rates
 
 The foreign exchange transactions we have been discussing take place on the spot: Two parties agree to an exchange of bank deposits and execute the deal immediately. Exchange rates governing such "on-the-spot" trading are called spot exchange rates, and the deal is called a spot transaction.
 
@@ -346,6 +350,56 @@ When, however, the dollar interest rate is 10 percent, the euro interest rate is
 
 Only when all expected rates of return are equal—that is, when the interest parity condition holds—is there no excess supply of some type of deposit and no excess demand for another. The foreign exchange market is in equilibrium when no type of deposit is in excess demand or excess supply. We can therefore say that the foreign exchange market is in equilibrium when, and only when, the interest parity condition holds.
 
+```d2
+# Interest Parity Condition Visualization
+# The exchange rate adjusts to equalize expected returns on different currency deposits
+
+direction: right
+
+# Interest rates determine baseline returns
+dollar_deposits: Dollar Deposits {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  label: "Dollar Deposits\nInterest Rate: R$"
+}
+
+euro_deposits: Euro Deposits {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  label: "Euro Deposits\nInterest Rate: R€"
+}
+
+# Exchange rate expectations affect euro deposit returns when measured in dollars
+exchange_rate_today: Current Exchange Rate {
+  shape: hexagon
+  style.fill: "#fff3e0"
+  label: "Current Exchange Rate\nE$/€"
+}
+
+expected_future_rate: Expected Future Rate {
+  shape: hexagon
+  style.fill: "#fff3e0"
+  label: "Expected Future Rate\nE$/€ expected"
+}
+
+# Equilibrium condition
+equilibrium: Interest Parity {
+  shape: diamond
+  style.fill: "#e8f5e9"
+  label: "EQUILIBRIUM\nR$ = R€ + (E$/€ expected - E$/€ current) / E$/€ current"
+}
+
+# Relationships
+dollar_deposits -> equilibrium: "Return R$"
+euro_deposits -> equilibrium: "Return R€"
+exchange_rate_today -> equilibrium: "Current rate affects euro returns"
+expected_future_rate -> equilibrium: "Expected appreciation/depreciation"
+
+equilibrium -> exchange_rate_today: "Rate adjusts until parity holds" {
+  style.stroke-dash: 3
+}
+```
+
 To represent interest parity between dollar and euro deposits symbolically, we use equation (14-1), which shows the difference between the two assets' expected rates of return measured in dollars. The expected rates of return are equal when
 
 $$
@@ -354,7 +408,7 @@ $$
 
 You probably suspect that when dollar deposits offer a higher return than euro deposits, the dollar will appreciate against the euro as investors all try to shift their funds into dollars. Conversely, the dollar should depreciate against the euro when it is euro deposits that initially offer the higher return. This intuition is exactly correct. To understand the mechanism at work, however, we must take a careful look at how exchange rate changes like these help to maintain equilibrium in the foreign exchange market.
 
-# How Changes in the Current Exchange Rate Affect Expected Returns
+## How Changes in the Current Exchange Rate Affect Expected Returns
 
 As a first step in understanding how the foreign exchange market finds its equilibrium, we examine how changes in today's exchange rate affect the expected return on a foreign currency deposit when interest rates and expectations about the future exchange rate do not change. Our analysis will show that, other things equal, depreciation of a country's
 
@@ -387,7 +441,7 @@ euro deposits,  $R_{\epsilon}$  +  $\frac{E_{\S/\epsilon}^{\theta} - E_{\S/\epsi
 
 measures today's dollar/euro exchange rate and the horizontal axis measures the expected dollar return on euro deposits. For fixed values of the expected future dollar/ euro exchange rate and the euro interest rate, the relation between today's dollar/euro exchange rate and the expected dollar return on euro deposits defines a downward-sloping schedule.
 
-# The Equilibrium Exchange Rate
+## The Equilibrium Exchange Rate
 
 Now that we understand why the interest parity condition must hold for the foreign exchange market to be in equilibrium and how today's exchange rate affects the expected return on foreign currency deposits, we can see how equilibrium exchange rates are determined. Our main conclusion will be that exchange rates always adjust to maintain interest parity. We continue to assume the dollar interest rate  $R_{\S}$ , the euro interest rate  $R_{\epsilon}$ , and the expected future dollar/euro exchange rate  $E_{\S/\epsilon}^{e}$  are all given.
 
@@ -415,13 +469,13 @@ How does the exchange rate adjust? The unhappy owners of euro deposits attempt t
 
 The same process works in reverse if we are initially at point 3 with an exchange rate of  $E_{\S/\in}^{3}$ . At point 3, the return on euro deposits exceeds that on dollar deposits, so there is now an excess supply of the latter. As unwilling holders of dollar deposits bid for the more attractive euro deposits, the price of euros in terms of dollars tends to rise; that is, the dollar tends to depreciate against the euro. When the exchange rate has moved to  $E_{\S/\in}^{1}$ , rates of return are equalized across currencies and the market is in equilibrium. The depreciation of the dollar from  $E_{\S/\in}^{3}$  to  $E_{\S/\in}^{1}$  makes euro deposits less attractive relative to dollar deposits by reducing the rate at which the dollar is expected to depreciate in the future.[9]
 
-# Interest Rates, Expectations, and Equilibrium
+## Interest Rates, Expectations, and Equilibrium
 
 Having seen how exchange rates are determined by interest parity, we now take a look at how current exchange rates are affected by changes in interest rates and in expectations about the future, the two factors we held constant in our previous discussions.
 
 We will see that the exchange rate (which is the relative price of two assets) responds to factors that alter the expected rates of return on those two assets.
 
-# The Effect of Changing Interest Rates on the Current Exchange Rate
+### The Effect of Changing Interest Rates on the Current Exchange Rate
 
 We often read in the newspaper that the dollar is strong because U.S. interest rates are high or that it is falling because U.S. interest rates are falling. Can these statements be explained using our analysis of the foreign exchange market?
 
@@ -447,7 +501,7 @@ Our discussion shows that, all else equal, an increase in the interest paid on d
 
 Before we conclude that the newspaper account of the effect of interest rates on exchange rates is correct, we must remember that our assumption of a constant expected future exchange rate often is unrealistic. In many cases, a change in the expected future exchange rate will accompany a change in interest rates. This change in the expected future exchange rate will depend, in turn, on the economic causes of the interest rate change. We compare different possible relationships between interest rates and expected future exchange rates in Chapter 16. Keep in mind for now that in the real world, we cannot predict how a given interest rate change will alter exchange rates unless we know why the interest rate is changing.
 
-# The Effect of Changing Expectations on the Current Exchange Rate
+### The Effect of Changing Expectations on the Current Exchange Rate
 
 We may also use Figure 14-6 to study the effect on today's exchange rate of a rise in the expected future dollar/euro exchange rate,  $E_{\mathbb{S} / \infty}^{\mathrm{e}}$ .
 
@@ -457,13 +511,13 @@ Because a rise in the expected depreciation rate of the dollar raises the expect
 
 We conclude that, all else equal, a rise in the expected future exchange rate causes a rise in the current exchange rate. Similarly, a fall in the expected future exchange rate causes a fall in the current exchange rate.
 
-# CASE STUDY
+## CASE STUDY
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/d90ef836ce85f8cf0eaa682549316dcf5a6bac9239cab78fbf7d524a59887b03.jpg)
 
 aaee aee
 
-# What Explains the Carry Trade?
+### What Explains the Carry Trade?
 
 Over much of the 2000s, Japanese yen interest rates were close to zero (as Figure 14-2 shows) while Australia's interest rates were comfortably positive, climbing to over 7 percent per year by the spring of 2008. While it might therefore have appeared attractive to borrow yen and invest the proceeds in Australian dollar bonds, the interest parity condition implies that such a strategy should not be systematically profitable: On average, shouldn't the interest advantage of Australian dollars be wiped out by relative appreciation of the yen?
 
@@ -625,48 +679,7 @@ spot exchange rates, p. 388
 
 vehicle currency, p. 388
 
-# PROBLEMS
 
-1. In Delhi, a haircut costs 135 rupees (INR). The same haircut costs 15 Singapore dollars (SGD) in Singapore. At an exchange rate of 50 INR per SGD, what is the price of an Indian haircut in terms of a Singapore haircut? Keeping all else equal, how does this relative price change if the INR depreciates to 55 INR per SGD? Compared to the initial situation, does a Singapore haircut become more or less expensive in relation to an Indian haircut?
-2. As defined in footnote 3, cross exchange rates are exchange rates quoted against currencies other than the U.S. dollar. If you return to Table 14-1, you will notice that it lists not only exchange rates against the dollar, but also cross rates against the euro and the pound sterling. The fact that we can derive the Swiss franc/Israeli shekel exchange rate, say, from the dollar/franc rate and the dollar/shekel rate follows from ruling out a potentially profitable arbitrage strategy known as triangular arbitrage. As an example, suppose the Swiss franc price of a shekel were below the Swiss franc price of a dollar times the dollar price of a shekel. Explain why, rather than buying shekels with dollars, it would be cheaper to buy Swiss francs with dollars and use the francs to buy the shekels. Thus, the hypothesized situation offers a riskless profit opportunity and therefore is not consistent with profit maximization.
-3. Table 14-1 reports exchange rates not only against the U.S. dollar, but also against the euro and the pound sterling. (Each row gives the price of the dollar, euro, and pound, respectively, in terms of a different currency.) At the same time, the table gives the spot dollar prices of the euro ( \$1.1219 per euro) and the pound sterling (\$ 1.2597 per pound). Pick any five currencies from the table and show that the three quoted spot exchange rates (in terms of dollars, euros, and pounds) approximately rule out triangular arbitrage. Why do we need to add the word "approximately"?
-4. Petroleum is sold in a world market and tends to be priced in U.S. dollars. The Phosphate Group of Morocco must import petroleum to produce fertilizer and other chemicals. How are its profits affected when the Dirham (Moroccan currency) depreciates against the dollar?
-5. Calculate the euro rates of return on the following assets:
-
-a. A painting whose price rises from €200,000 to €250,000 in a year.
-b. A diamond whose price rises from €20 000 to €21 000 between 2014 and 2015.
-c. A £10,000 deposit in a London bank in a year when the interest rate on pounds is 2 percent and the €/£ exchange rate moves from €1.36 per pound to 1.17 per pound.
-
-6. What would be the real rates of return on the assets in the preceding question if the price changes described were accompanied by a simultaneous 10 percent increase in all dollar prices?
-
-7. Suppose the Mexican peso (MXN) interest rate and the Indian rupee (INR) interest rate are the same, 5 percent per year. What is the relation between the current equilibrium MXN/INR exchange rate and its expected future level? Suppose the expected future MXN/INR exchange rate, 3.40 INR per Mexican peso, remains constant as India's interest rate rises to 10 percent per year. If the Mexican interest rate also remains constant, what is the new equilibrium MXN/INR exchange rate?
-
-8. Traders in asset markets suddenly learn that the interest rate on dollars will decline in the near future. Use the diagrammatic analysis of this chapter to determine the effect on the current dollar/euro exchange rate, assuming current interest rates on dollar and euro deposits do not change.
-
-9. We noted that we could have developed our diagrammatic analysis of foreign exchange market equilibrium from the perspective of Europe, with the euro/dollar exchange rate E€/¢ (= 1/E$/¢) on the vertical axis, a schedule vertical at R€ to indicate the euro return on euro deposits, and a downward-sloping schedule showing how the euro return on dollar deposits varies with E€/¢. Derive this alternative picture of equilibrium and use it to examine the effect of changes in interest rates and the expected future exchange rate. Do your answers agree with those we found earlier?
-
-10. A report appeared in the Financial Times on 18 January, 2016, noted that the South Korean Finance Minister had voiced confidence in China's economic outlook, and had declared that "he endorsed Beijing's predictions of a 'soft landing,' saying Seoul expected China's economy to grow between 6 percent and 7 percent this year."
-
-a. In your opinion, why was the South Korean Minister so concerned about China's "soft landing?"
-b. Do you think that the rate of exchange of the Won/RMB is a factor in this "soft landing?"
-
-11. Suppose the dollar exchange rates of the euro and the yen are equally variable. The euro, however, tends to depreciate unexpectedly against the dollar when the return on the rest of your wealth is unexpectedly high, while the yen tends to appreciate unexpectedly in the same circumstances. As a European resident, which currency the dollar or the yen, would be considered riskier?
-12. Does any of the discussion in this chapter lead you to believe that dollar deposits may have liquidity characteristics different from those of other currency deposits? If so, how would the differences affect the interest differential between, say, dollar and Mexican peso deposits? Do you have any guesses about how the liquidity of euro deposits may be changing over time?
-13. In October 1979, the U.S. central bank (the Federal Reserve System) announced it would play a less active role in limiting fluctuations in dollar interest rates. After this new policy went into effect, the dollar's exchange rates against foreign currencies became more volatile. Does our analysis of the foreign exchange market suggest any connection between these two events?
-14. The central bank of a country announces it would play a less active role in limiting fluctuations in its currency interest rates. Do you think that the exchange rate of its currency will become more volatile? Why?
-15. Take the two currencies—South African Rand (ZAR) and Indonesia Naira (NGN). Suppose the one-year forward exchange rate is 23 NGN per ZAR and the spot exchange rate is 20 NGN per ZAR. What is the forward premium on NGN (the forward discount on ZAR)? What is the difference between the interest rate on one-year ZAR deposits and that on one-year NGN deposits (assuming no repayment risk)?
-
-16. Europe's single currency, the euro, was introduced in January 1999, replacing the currencies of 11 European Union members, including France, Germany, Italy, and Spain (but not Britain; see Chapter 21). Do you think that, immediately after the euro's introduction, the value of foreign exchange trading in euros was greater or less than the euro value of the pre-1999 trade in the 11 original national currencies? Explain your answer.
-17. Multinationals generally have production plants in a number of countries. Consequently, they can move production from expensive locations to cheaper ones in response to various economic developments—a phenomenon called outsourcing when a domestically based firm moves part of its production abroad. If the dollar depreciates, what would you expect to happen to outsourcing by American companies? Explain and provide an example.
-18. In the beginning of 2015, the interest rate of some currencies are the following:
-
-<table><tr><td>Australia</td><td>2.25</td></tr><tr><td>Canada</td><td>0.75</td></tr><tr><td>China</td><td>5.60</td></tr><tr><td>EU-euro</td><td>0.05</td></tr><tr><td>Japan</td><td>0.10</td></tr><tr><td>Mexico 5</td><td>5.75</td></tr><tr><td>New Zealand</td><td>3.5</td></tr><tr><td>Russia</td><td>15</td></tr><tr><td>South Africa</td><td>5.75</td></tr><tr><td>USA</td><td>0.25</td></tr></table>
-
-a. What are in theory the best carry trade cases?
-b. If you take in account the exchange rate variation risk, what carry trade operation will you favor? Explain.
-c. Calculate the carry trade between euro and Mexican Peso and Russian Rouble. Looking at exchange rate data base you have accessed on internet, is this carry trade positive as of January 2017?
-
-19. The chapter explained why exporters cheer when their home currency depreciates. At the same time, domestic consumers find that they pay higher prices, so they should be disappointed when the currency becomes weaker. Why do the exporters usually win out, so that governments often seem to welcome depreciations while trying to avoid appreciations? (Hint: Think about the analogy with protective tariffs.)
 
 # FURTHER READINGS
 
