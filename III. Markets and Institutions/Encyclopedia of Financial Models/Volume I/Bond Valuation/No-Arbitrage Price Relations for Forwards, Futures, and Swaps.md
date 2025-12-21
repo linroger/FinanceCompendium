@@ -7,18 +7,16 @@ formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:
 - no-arbitrage pricing
-- forward contracts
-- futures contracts
-- swap contracts
+- derivatives valuation
 secondary_tags:
 - net cost of carry
-- carry costs
-- continuous rates
-- discrete flows
+- valuing forwards
+- valuing futures
+- valuing swaps
+- telescoping futures position
 - hedging with forwards
-- telescoping futures
-- forward curves
-- swap valuation
+- carry costs
+- forward curve
 cssclasses: academia
 ---
 
@@ -207,7 +205,7 @@ A telescoping futures position is created as follows. We begin, on day 0, with  
 
 Table 7 Cash Flows of Telescoping Futures Position Providing Same Terminal Value as Forward Position on Day  $T$
 
-<table><tr><td>Day t</td><td>Futures Prices</td><td>No. of Futures Contracts</td><td>Mark-to-Market Gain/Loss on Day t</td><td>Value of Gain/Loss on Day T</td></tr><tr><td>0</td><td>F</td><td>e-rT</td><td></td><td></td></tr><tr><td>1</td><td>F1</td><td>e-(r(T-1))</td><td>e-(r(T-1)(F1-F)</td><td>e-(r(T-1)(F1-F)e(r(T-1)=(F1-F)</td></tr><tr><td>2</td><td>F2</td><td>e-(r(T-2))</td><td>e-(r(T-2)(F2-F1)</td><td>F2-F1</td></tr><tr><td>...</td><td></td><td></td><td>...</td><td></td></tr><tr><td>t</td><td>Ft</td><td>e-(r(T-t))</td><td>e-(r(T-t)(Ft-Ft-1)</td><td>Ft-Ft-1</td></tr><tr><td>...</td><td></td><td></td><td>...</td><td></td></tr><tr><td>T-1</td><td>FT-1</td><td>e-r</td><td>e-(FT-1-FT-2)</td><td>FT-1-FT-2</td></tr><tr><td>T</td><td>FT</td><td>1</td><td>FT-T-FT-1</td><td>FT-T-FT-1</td></tr><tr><td>Total</td><td></td><td></td><td></td><td>FT-F=ST-F</td></tr></table>
+<table><tr><td>Day t</td><td>Futures Prices</td><td>No. of Futures Contracts</td><td>Mark-to-Market Gain/Loss on Day t</td><td>Value of Gain/Loss on Day T</td></tr><tr><td>0</td><td>F</td><td>e^{-rT}</td><td></td><td></td></tr><tr><td>1</td><td>F1</td><td>e^{-(r(T-1))}</td><td>e-(r(T-1)(F1-F)</td><td>e-(r(T-1)(F1-F)e(r(T-1)=(F1-F)</td></tr><tr><td>2</td><td>F2</td><td>e-(r(T-2))</td><td>e-(r(T-2)(F2-F1)</td><td>F2-F1</td></tr><tr><td>...</td><td></td><td></td><td>...</td><td></td></tr><tr><td>t</td><td>Ft</td><td>e-(r(T-t))</td><td>e-(r(T-t)(Ft-Ft-1)</td><td>Ft-Ft-1</td></tr><tr><td>...</td><td></td><td></td><td>...</td><td></td></tr><tr><td>T-1</td><td>FT-1</td><td>e-r</td><td>e-(FT-1-FT-2)</td><td>FT-1-FT-2</td></tr><tr><td>T</td><td>FT</td><td>1</td><td>FT-T-FT-1</td><td>FT-T-FT-1</td></tr><tr><td>Total</td><td></td><td></td><td></td><td>FT-F=ST-F</td></tr></table>
 
 $T$ , and the value of the futures position will be  $S_{T} - F$ . Assuming that the futures and forward contracts expire at the same time, the telescoping futures position will have exactly the same terminal value as the long forward position.
 
@@ -233,12 +231,12 @@ F = f = S e^{r T} - F V I \tag {5}
 $$ if noninterest carry costs are discrete.
 
 
-Let's illustrate how to short sell stocks synthetically using stock futures. Retail investors in the U.S. often find it costly to short sell shares of common stock. Consequently, stocks futures were recently launched. Assume that an investor wants to short sell a particular stock over the next  $T$  days. Its current share price is  $S$ , and a cash dividend of  $D$  has been declared and will be paid in  $t$  days. Let's demonstrate that selling a telescoping position in share futures is equivalent to short selling the stock.
+Let's illustrate how to short sell stocks synthetically using stock futures. Retail investors in the U.S. often find it costly to short sell shares of common stock. Consequently, stock futures were recently launched. Assume that an investor wants to short sell a particular stock over the next  $T$  days. Its current share price is  $S$ , and a cash dividend of  $D$  has been declared and will be paid in  $t$  days. Let's demonstrate that selling a telescoping position in share futures is equivalent to short selling the stock.
 
 First, the value in  $T$  days of a short position in the stock must be identified. Short selling a share of the stock generates proceeds of  $S$ . Assume that an investor can take the proceeds from the short sale and invest them at the risk-free rate of interest. In addition, the stock pays a cash dividend of  $D$  on day  $t$ . The investor is responsible for paying the cash dividend. On day  $T$ , the value of each security position in the portfolio is as reported in the following table:
 
 
-<table><tr><td>Trades</td><td>Initial Investment</td><td>Value on Day T</td></tr><tr><td>Short sell stock.</td><td>S</td><td>- ŠT - De(r(T-t))</td></tr><tr><td>Must pay cash dividends, if any.</td><td></td><td></td></tr><tr><td>Buy risk-free bonds</td><td>-S</td><td>Se rT</td></tr><tr><td>Net portfolio value</td><td>0</td><td>Se rT - De(r(T-t) - ŠT)</td></tr></table>
+<table><tr><td>Trades</td><td>Initial Investment</td><td>Value on Day T</td></tr><tr><td>Short sell stock.</td><td>S</td><td>- \tilde{S}_T - D e^{r(T-t)}</td></tr><tr><td>Must pay cash dividends, if any.</td><td></td><td></td></tr><tr><td>Buy risk-free bonds</td><td>-S</td><td>S e^{r T}</td></tr><tr><td>Net portfolio value</td><td>0</td><td>S e^{r T} - D e^{r(T-t)} - \tilde{S}_T</td></tr></table>
 
 The net portfolio value on day  $T$  is  $Se^{rT} - De^{r(T - t)} - \tilde{S}_T$ .
 

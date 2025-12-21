@@ -1,23 +1,27 @@
 ---
+title: "Appendix B: Discrete Choice Models"
+parent_directory: Economics Advance International Trade
+formatted: 2025-12-21 09:40:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
 primary_tags:
-- infer individual taste
-- random products consumers general
-- optimal prices estimated jointly
+  - discrete choice models
+  - random utility theory
 secondary_tags:
-- appendix discrete choice models
-- choice models discrete
-- nonlinear income discrete choice
-- discrete choice literature implies
-- aggregated individual choice
-- discrete choice purchased quantity
-tags_extracted: '2025-12-18T00:14:12.237080'
+  - demand aggregation theorem
+  - logit demand system
+  - market share estimation
+  - nested logit model
+  - optimal pricing strategy
+  - consumer choice probability
+cssclasses: academia
 ---
 
 # Appendix B: Discrete Choice Models
 
 Discrete choice models are commonly taught in econometrics, but the economic generality of these models is sometimes unclear. This is especially true when we consider models that incorporate not just demand but also the optimal prices charged by firms under imperfect competition. In that case, we want to derive demand and prices in a mutually consistent fashion, as will be discussed in this Appendix.
 
-We begin with an aggregation theorem due to McFadden (1978, 1981). He has shown that when individual have random utility over discrete alternatives, the decisions that they made can sometimes be aggregated up to a representative consumer. McFadden focuses on the case where individual have utility functions that are linear in income, and where the goods over which a discrete choice is being made are purchased in the quantity 0 or 1. Under certain conditions, it is possible to generalize this to the case where utility is nonlinear in income, and where the discrete-choice good is purchased in continuous quantities. This is a principal result of Anderson, de Palma and Thisse (1992, chaps. 2-5) who show, for example, that the representative consumer can have a CES utility function, as we also demonstrate below.
+We begin with an aggregation theorem due to McFadden (1978, 1981). He has shown that when individuals have random utility over discrete alternatives, the decisions they make can sometimes be aggregated up to a representative consumer. McFadden focuses on the case where individual have utility functions that are linear in income, and where the goods over which a discrete choice is being made are purchased in the quantity 0 or 1. Under certain conditions, it is possible to generalize this to the case where utility is nonlinear in income, and where the discrete-choice good is purchased in continuous quantities. This is a principal result of Anderson, de Palma and Thisse (1992, chaps. 2-5) who show, for example, that the representative consumer can have a CES utility function, as we also demonstrate below.
 
 At the same time as presenting these aggregation results, we will discuss the empirical strategy to estimate discrete choice models due to Berry (1994). In this approach, we suppose that the individual-level data on consumer choices is not available. Rather, we just observe the market-level data on the quantity purchased of each product, as well as their prices and characteristics. The goal is to infer the individual taste parameters from this market-level data on quantities and prices, as well as parameters of marginal cost, so that price-cost margins can be estimated.
 
@@ -32,16 +36,16 @@ $$
 where  $u_{j}$  is the utility obtained from product  $j$  by every consumer, while  $\varepsilon_{j}^{h}$  is an additional part of utility obtained by consumer  $h$ . We will treat  $\varepsilon_{j}^{h}$  as a random variable with cumulative density function  $F(\varepsilon)$ , where each consumer obtains a different draw of  $\varepsilon = (\varepsilon_{1},\dots,\varepsilon_{N})$ . Given this draw, the consumer chooses the product with highest utility. The probability that a consumer will choose product  $j$  is:
 
 $$
-\begin{array}{l} P_{j} = \operatorname{Pr ob} \left[ V_{j} \geq V_{k}, \text{fo ra ll k =1 , . . . ,N} \right] \\ = \operatorname{Pr ob} \left[ u_{j} + \varepsilon_{j} \geq u_{k} + \varepsilon_{k}, \text{fo ra ll} k = 1, \dots , N \right] \tag {B2} \\ = \operatorname{Pr ob} \left[ \varepsilon_{\mathrm{j}} - \varepsilon_{\mathrm{k}} \geq u_{\mathrm{k}} - u_{\mathrm{j}}, \text{fo ra ll k =1 , . . . ,N} \right]. \\ \end{array}
+\begin{array}{l} P_{j} = \operatorname{Pr ob} \left[ V_{j} \geq V_{k}, \text{for all } k =1 , \dots , N \right] \\ = \operatorname{Pr ob} \left[ u_{j} + \varepsilon_{j} \geq u_{k} + \varepsilon_{k}, \text{for all } k = 1, \dots , N \right] \tag {B2} \\ = \operatorname{Pr ob} \left[ \varepsilon_{\mathrm{j}} - \varepsilon_{\mathrm{k}} \geq u_{\mathrm{k}} - u_{\mathrm{j}}, \text{for all } k =1 , \dots , N \right]. \\ \end{array}
 $$
 
-We can think of (B2) as the probability that any consumer choose alternative  $j$ , or equivalently, as the expected fraction of the population that chooses that alternative. The solution for these choice probabilities depends on the distribution function  $F(\varepsilon)$ , as well as on the specification of utility  $u_j$ . A simplified version of utility used by Berry (1994) is,
+We can think of (B2) as the probability that any consumer chooses alternative  $j$ , or equivalently, as the expected fraction of the population that chooses that alternative. The solution for these choice probabilities depends on the distribution function  $F(\varepsilon)$ , as well as on the specification of utility  $u_j$ . A simplified version of utility used by Berry (1994) is,
 
 $$
 u_{j} = y + \beta^{\prime} z_{j} - \alpha p_{j} + \xi_{j}, \quad \alpha > 0. \tag {B3}
 $$
 
-Thus, utility is linear in individual income  $y$ , decreasing in the price  $p_j$ , and also depends on the characteristics  $z_j$  of the product. The term  $\xi_j$  is another random element in utility, but unlike  $\varepsilon_j^h$ , it does not vary across consumers. We could think of  $\xi_j$  as some unmeasured characteristics of product  $j$ , which is random across products but not consumers.
+Thus, utility is linear in individual income  $y$ , decreasing in the price  $p_j$ , and also depends on the characteristics  $z_j$  of the product. The term  $\xi_j$  is another random element in utility, but unlike  $\varepsilon_j^h$ , it does not vary across consumers. We can think of  $\xi_j$  as some unmeasured characteristics of product  $j$ , which is random across products but not consumers.
 
 In general, computing the choice probabilities from (B2) is computationally intensive since it requires integration over various subsets of the domain of  $\mathrm{F}(\varepsilon)$ . However, McFadden has shown that for a class of distribution functions  $\mathrm{F}(\varepsilon)$  known as the generalized extreme value, the expected demands can be equivalently obtained by simple differentiation:
 
@@ -97,7 +101,7 @@ $$
 F \left(\varepsilon_{1}, \dots , \varepsilon_{N}\right) = \prod_{j = 1}^{N} \exp \left(- e^{- \varepsilon_{j}}\right). \tag {B8}
 $$
 
-This cumulative distribution function is therefore the product of N iid "double-exponential" or extreme value distributions, which apply to the random utility terms in (B1). Therefore, the random term in utility is distributed as iid extreme value.2
+This cumulative distribution function is therefore the product of N iid "double-exponential" or extreme value distributions, which apply to the random utility terms in (B1). Therefore, the random term in utility is distributed as iid extreme value.
 
 Computing the choice probabilities as in (B6) using (B7) and (B3), we obtain:
 
@@ -131,9 +135,7 @@ $$
 p_{j} = \gamma^{\prime} z_{j} + \frac{1}{\alpha \left(1 - s_{j}\right)} + \omega_{j}, \tag {B13}
 $$
 
-which can be estimated jointly with (B10). It is apparent, though, that the random error  $\xi_{\mathrm{j}}$  influence the market shares in (B10), and therefore from (B13) will be correlated with prices  $\mathfrak{p}_{\mathrm{j}}$ . Accordingly, the joint estimation of (B10) and (B13) should be done with instrumental
-
-variables.3
+which can be estimated jointly with (B10). It is apparent, though, that the random error  $\xi_{\mathrm{j}}$  influences the market shares in (B10), and therefore from (B13) will be correlated with prices  $\mathfrak{p}_{\mathrm{j}}$ . Accordingly, the joint estimation of (B10) and (B13) should be done with instrumental variables.
 
 The problem with this simple logit example is that the demand elasticities obtained are implausible. From the market shares  $s_j = P_j$  in (B9) we readily see that  $s_j / s_k$  is independent of the price or characteristics of any third product  $i$ . This property is known as the "independence of irrelevant alternatives" in the discrete choice literature, and it implies that the cross-elasticity of demand between products  $j$  and  $k$  and the third product  $i$  must be equal. To improve on this, we consider the nested logit system.
 
@@ -156,7 +158,7 @@ $$
 where  $\rho_{\mathrm{g}}$  roughly measures the correlation between random terms  $\varepsilon_{\mathrm{j}}$  within a group. Computing the choice probabilities as in (B6) using (B14), we obtain:
 
 $$
-P_{j} = \frac{e^{u_{j} / \left(1 - \rho_{g}\right)}}{D_{g}} \frac{D_{g}^{\left(1 - \rho_{g}\right)}}{\left[ \sum_{g = 0}^{G} D_{g}^{\left(1 - \rho_{g}\right)} \right]}, \quad f o r j \in J_{g}, \tag {B16}
+P_{j} = \frac{e^{u_{j} / \left(1 - \rho_{g}\right)}}{D_{g}} \frac{D_{g}^{\left(1 - \rho_{g}\right)}}{\left[ \sum_{g = 0}^{G} D_{g}^{\left(1 - \rho_{g}\right)} \right]}, \quad for j \in J_{g}, \tag {B16}
 $$
 
 where the term  $\mathrm{D_g} \equiv \sum_{\mathrm{k} \in \mathrm{J_g}} \mathrm{e}^{\mathrm{u_k} / (1 - \rho_g)}$  appearing in (B16) is called an "inclusive value", since it summarizes the utility obtained from all products in the group  $\mathrm{g}$ .
@@ -164,7 +166,7 @@ where the term  $\mathrm{D_g} \equiv \sum_{\mathrm{k} \in \mathrm{J_g}} \mathrm{
 Berry (1994, p. 252) motivates this nested logit case somewhat differently. He re-writes the random errors  $\varepsilon_{j}^{h}$  as,
 
 $$
-\varepsilon_{j}^{h} = \zeta_{g}^{h} + \left(1 - \rho_{g}\right) e_{j}^{h}, \quad \text{fo r} j \in J_{g}, \tag {B17}
+\varepsilon_{j}^{h} = \zeta_{g}^{h} + \left(1 - \rho_{g}\right) e_{j}^{h}, \quad \text{for} j \in J_{g}, \tag {B17}
 $$
 
 where the errors  $\mathrm{e}_{\mathrm{j}}^{\mathrm{h}}$  are iid extreme value. The random variable  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  in (B17) is common to all products within group  $\mathbf{g}$ , and therefore induces a correlation between the random utilities for those products. Cardell (1997) shows that there exists a distribution for  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  (depending on  $\rho_{\mathrm{g}}$ ) such that when  $\mathrm{e}_{\mathrm{j}}^{\mathrm{h}}$  are iid extreme value, then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  are also distributed extreme value but are not independent. Notice that as the parameter  $\rho_{\mathrm{g}}$  approaches unity then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  are perfectly correlated within the group  $\mathbf{g}$  (since they equal  $\zeta_{\mathrm{g}}^{\mathrm{h}}$ ), whereas when  $\rho_{\mathrm{g}}$  approaches zero (in which case  $\zeta_{\mathrm{g}}^{\mathrm{h}}$  also approaches zero) then  $\varepsilon_{\mathrm{j}}^{\mathrm{h}}$  become independent. Using the errors in (B17) gives the same choice probabilities as shown in (B16).

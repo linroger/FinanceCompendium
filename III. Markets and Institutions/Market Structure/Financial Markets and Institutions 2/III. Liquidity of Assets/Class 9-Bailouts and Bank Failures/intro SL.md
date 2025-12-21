@@ -6,16 +6,9 @@ formatter_model: "kimi-k2-turbo"
 cli_tool: "claude-code"
 primary_tags:
   - world financial crisis
+secondary_tags:
   - bank runs
   - financial regulation
-secondary_tags:
-  - systemic risk
-  - too big to fail
-  - shadow banking system
-  - federal reserve intervention
-  - mortgage backed securities
-  - credit default swaps
-  - commercial paper market
 cssclasses: academia
 ---
 
