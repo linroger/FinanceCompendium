@@ -1,18 +1,26 @@
 ---
-parent_directory:
-title: Netflix Inc
-tags:
-aliases:
-parent_folder: Week 4
-subfolder:
-key_concepts:
+title: "NFLX - MS, JPM reports Oct 2011"
+parent_directory: "VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 4"
+formatted: 2025-12-20 11:45:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - netflix
+  - financial analysis
+  - investment banking
+secondary_tags:
+  - equity research
+  - content costs
+  - subscriber trends
+  - valuation models
+  - analyst ratings
+  - streaming business
 cssclasses: academia
-linter-yaml-title-alias: Netflix Inc
 ---
 
 # Netflix Inc
 
-# Downgrading to Neutral; Higher Content Costs and International Losses Heavier than Expected in 2012
+## Downgrading to Neutral; Higher Content Costs and International Losses Heavier than Expected in 2012
 
 We're downgrading shares of Netflix from Overweight to Neutral and lowering our price target to  \$67. We believe the long-term potential for streaming-only in the U.S. and international markets remains intact and Netflix's value proposition to streaming-only subscribers is unchanged. However, Netflix expects to double its domestic streaming content spending in 2012 and start-up costs in Latin America and UK/Ireland are likely to come in much higher than we anticipated. As a result, Netflix does not expect to be profitable for the first few quarters of 2012—this compares to previous Street expectations for$ 5 - $6 of GAAP EPS.
 
@@ -31,7 +39,7 @@ Netflix Inc (NFLX;NFLX US)
 
 Source: Company data and J.P. Morgan estimates. Note: JPM estimates are GAAP, while Bloomberg are Pro Forma.
 
-# Neutral
+## Neutral
 
 Previous: Overweight
 
@@ -43,7 +51,7 @@ $\nabla$  Price Target:\$67.00
 
 Previous: \$205.00
 
-# Internet
+## Internet
 
 Doug Anmuth AC
 
@@ -51,13 +59,13 @@ Doug Anmuth AC
 
 douglas.anmuth@jpmorgan.com
 
-# Kaizad Gotla, CFA
+## Kaizad Gotla, CFA
 
-(1-212) 622-6436
+(1-212) 622-6571
 
 kaizad.gotla@jpmorgan.com
 
-# Shelby Taffer
+## Shelby Taffer
 
 (212) 622-6518
 
@@ -68,97 +76,39 @@ J.P. Morgan Securities LLC
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/ae03f674-83f0-4922-a3f5-fbccea489823/958a2717e2cb7143b7d839f2d16b5b810b90e21e415085d37c175e8fba4fa55e.jpg)  
 Price Performance
 
-<table><tr><td colspan="2">Company Data</td></tr><tr><td>Price ($)</td><td>118.84</td></tr><tr><td>Date Of Price</td><td>24 Oct 11</td></tr><tr><td>52-week Range ($)</td><td>304.79 - 103.13</td></tr><tr><td>Mkt Cap ($ mn)</td><td>6,401.91</td></tr><tr><td>Fiscal Year End</td><td>Dec</td></tr><tr><td>Shares O/S (mn)</td><td>54</td></tr><tr><td>Price Target ($)</td><td>67.00</td></tr><tr><td>Price Target End Date</td><td>31 Dec 12</td></tr></table>
-
-# See page 11 for analyst certification and important disclosures.
+## See page 11 for analyst certification and important disclosures.
 
 J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.
 
-# Our Take on 3Q and Thoughts on the Stock
+## Our Take on 3Q and Thoughts on the Stock
 
-We're downgrading shares of Netflix from Overweight to Neutral and lowering our price target to  \$67. We believe the long-term potential for streaming-only in the U.S. and international markets remains intact and Netflix's value proposition to streaming-only subscribers is unchanged. However, Netflix expects to double its domestic streaming content spending in 2012 and start-up costs in Latin America and UK/Ireland are likely to come in much higher than we anticipated. As a result, Netflix does not expect to be profitable for the first few quarters of 2012—this compares to previous Street expectations for$ 5 - $6 of GAAP EPS.
+## What We Liked
 
-Increased streaming content and international expansion have been drivers of Netflix's stock over the past couple of years as domestic sub growth has been strong. However, we believe the complexion of the business has changed and Netflix will now see reverse leverage over the next few quarters. Instead of adding domestic streaming content that it can quickly lever, Netflix is now paying up for content to help grow the subscriber base—seemingly from a more defensive position. And with U.S. streaming (including hybrid subs) slowing at the same time as Netflix is now breaking out contribution profit in the U.S. between streaming and DVDs, the current profitability of the higher multiple streaming business is under significant pressure. 4Q11 contribution profit margins for domestic streaming are  $7.7\%$  at the mid-point, with streaming accounting for only 1/6 of U.S. contribution profit, and even less on a fully allocated basis.
+### Subscriber count roughly in line with our expectations; 4Q trends improving in recent weeks
 
-Additionally, expansion into the UK and Ireland—a positive longer-term—comes at the same time domestic growth is slowing and content costs are building. The combination of these factors creates significant pressure on 2012 profitability. And though management is optimistic on U.S. streaming margin expansion off low 4Q11 levels, it will require a strong rebound in subscriber growth and a potential slowing of content costs. As a result, we now project 2012 GAAP EPS of  \$0.20 compared to\$ 5.62 previously. And though visibility into 2013 is limited, we project GAAP EPS of \$2.17 compared to \$8.20 previously.
+## What Concerned Us
 
-There are still some modest positives here. 4Q subscriber trends have gotten "less bad" in recent weeks and the outlook for 4Q domestic subs includes a slight increase. Additionally, we view expansion into the UK and Ireland as a positive longer-term, despite the heavy early losses. Still, to become more positive on Netflix, we'd have to see strong U.S. subscriber growth in 2012 that drives leverage in domestic streaming margins, stabilization in hybrid churn, and strong traction in new international markets.
+### Streaming only contribution margin lower than expected
 
-Our \$67 price target is based on 11x 2013E EBITDA of \$309MM. We are changing our price target methodology from P/E to EV/EBITDA given the differing margin and growth profiles of NFLX's US DVD, US Streaming, and International Streaming business, which we value on the sum of the parts basis. Our \$67 price target on NFLX implies 11x our 2013 US streaming EBITDA of \$170MM, 7x 2013 DVD EBITDA of \$139MM, and 1x 2013 revenue of \$594MM.
-
-# What We Liked
-
-# Subscriber count roughly in line with our expectations; 4Q trends improving in recent weeks
-
-Netflix ended 3Q with 23.79M U.S. subscribers, in line with our estimate of 23.67M subs. Of the total U.S. subscribers, 9.86M were streaming only (vs. 5.66M in 2Q), 2.34M were DVD only, and 11.59M were hybrid subscribers (vs. 18.94M in 2Q).
-
-Churn was  $7.3\%$  during the quarter, compared to our estimate of  $5.9\%$ , and up from  $4.2\%$  in 2Q. Despite an increase in cancellations and reduction in net additions, Netflix saw a  $20\%$  Y/Y increase in gross additions (4.7M) in 3Q. Additionally, in recent weeks, the company has seen continued Y/Y growth in weekly gross additions as well as a declining level of cancellations.
-
-Netflix is guiding total U.S. subscribers to be slightly up in 4Q. The company expects slightly negative streaming net additions, reflective of negative net adds in October, flat in November, and positive net adds in December. We are modeling 23.83M total U.S. subscribers in 4Q, comprising 12.60M streaming only, 3.14M DVD only, and 8.09M hybrid subs.
-
-Figure 1: Netflix's U.S. Subscriber Mix  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/ae03f674-83f0-4922-a3f5-fbccea489823/3d900ed5d838dd0e7f7af33d08f03bb0fa5137fe96a40cfdb2b79e7e710e70b9.jpg)  
-Source: Company reports and J.P. Morgan estimates.
-
-# What Concerned Us
-
-# Streaming only contribution margin lower than expected
-
-Overall U.S. contribution margin was  $\sim 27\%$  in 3Q, fairly consistent to where it's been for the last few quarters. However, contribution margin for domestic streaming was  $11.5\%$ , well below our  $22\%$  projection.
-
-Netflix is guiding a  $7.7\%$  contribution margin (at the midpoint) for the U.S. streaming business in 4Q due to increased streaming content spend. Netflix has more than doubled its domestic spending on streaming content over 2010, and plans to double spend again in 2012 from 2011 spend.
-
-As the domestic streaming member base continues to grow and Netflix sees some leverage in content spend, we expect contribution margin for domestic streaming to increase over time. The company is guiding a 100 bps increase per quarter in streaming contribution margin. However, we note that we could see some short-term
-
-pressure from 1Q12 to 2Q12, as seasonally there have been lower net additions in 2Q vs. 1Q. We are modeling a  $7.5\%$  streaming contribution margin in 2012.
-
-# International investments weighing on profitability
+### International investments weighing on profitability
 
 For a few quarters beginning in 1Q12, Netflix expects to post a global consolidated loss, as the investments associated with the UK and Ireland launch more than offset expected domestic profits. Additionally, investments in Canada and Latin America continue to weigh on profitability. Netflix is doubling its quarterly content spending in Canada over the next year and does not expect to achieve a positive contribution margin until 3Q12. In Latin America, Netflix is now unsure that it will reach breakeven within two years, as it previously has anticipated. Likewise, management thinks it could take longer than two years to reach profitability in the UK.
 
 We are modeling a global contribution profit of  \$441.8M in 2012, compared to our prior estimate of\$ 916M. Accordingly, we are lowering our 2012 GAAP EPS to \$0.20, from our previous estimate of \$5.62.
 
-# Summary of the Quarter
+## Summary of the Quarter
 
-Netflix reported 3Q net revenue, EBITDA, and GAAP EPS of  $822M,$ 124M, and \$1.16, vs. our estimates of  $802M,$ 91M, and \$0.70.
+## Adjusting Estimates
 
-Table 1: NFLX 3Q Results vs. J.P. Morgan Estimates  
- $ in millions except per share data  
+## Investment Thesis
 
-<table><tr><td>Netflix</td><td colspan="3">3Q11 JPME</td></tr><tr><td>($ in millions)</td><td>JPME</td><td>Actuals</td><td>Diff (%)</td></tr><tr><td>Subscribers</td><td></td><td></td><td></td></tr><tr><td>WW</td><td>24,990</td><td>25,269</td><td>1.1%</td></tr><tr><td>US</td><td>23,673</td><td>23,789</td><td>0.5%</td></tr><tr><td>International</td><td>1,317</td><td>1,480</td><td>12.4%</td></tr><tr><td>Net Revenue</td><td>802</td><td>822</td><td>2.5%</td></tr><tr><td>GAAP Operating income</td><td>65</td><td>97</td><td>48.8%</td></tr><tr><td>EBITDA</td><td>91</td><td>124</td><td>37.4%</td></tr><tr><td>GAAP EPS</td><td>$0.70</td><td>$1.16</td><td>65.3%</td></tr><tr><td>Y/Y Growth</td><td></td><td></td><td></td></tr><tr><td>WW</td><td>47.6%</td><td>49.2%</td><td></td></tr><tr><td>US</td><td>40.9%</td><td>41.6%</td><td></td></tr><tr><td>International</td><td>890.2%</td><td>1012.8%</td><td></td></tr><tr><td>Net Revenue</td><td>45.0%</td><td>48.6%</td><td></td></tr><tr><td>GAAP Operating income</td><td>-6.3%</td><td>39.3%</td><td></td></tr><tr><td>EBITDA</td><td>5.8%</td><td>45.4%</td><td></td></tr><tr><td>GAAP EPS</td><td>-0.3%</td><td>64.7%</td><td></td></tr><tr><td>Sequential Growth</td><td></td><td></td><td></td></tr><tr><td>WW</td><td>-2.2%</td><td>-1.1%</td><td></td></tr><tr><td>US</td><td>-3.7%</td><td>-3.3%</td><td></td></tr><tr><td>International</td><td>36.2%</td><td>53.1%</td><td></td></tr><tr><td>Net Revenue</td><td>1.7%</td><td>4.2%</td><td></td></tr><tr><td>GAAP Operating income</td><td>-43.4%</td><td>-15.9%</td><td></td></tr><tr><td>EBITDA</td><td>-35.7%</td><td>-11.6%</td><td></td></tr><tr><td>GAAP EPS</td><td>-44.6%</td><td>-8.4%</td><td></td></tr></table>
+## Valuation
 
-Source: Company reports and J.P. Morgan estimates.
+## Risks to Rating and Price Target
 
-# Adjusting Estimates
+## Financial Models
 
-Given the higher than expected content spend and international investments ahead, we are adjusting our estimates as follows:
-
-Table 2: Adjusting J.P. Morgan Estimates  
- $ in millions except per share data  
-
-<table><tr><td rowspan="2">Netflix($ in millions)</td><td colspan="2">4Q11 JPME</td><td colspan="2">2011 JPME</td><td colspan="2">2012 JPME</td><td colspan="2">2013 JPME</td></tr><tr><td>Old</td><td>New</td><td>Old</td><td>New</td><td>Old</td><td>New</td><td>Old</td><td>New</td></tr><tr><td colspan="9">Subscribers</td></tr><tr><td>WW</td><td>25,855</td><td>25,555</td><td>25,855</td><td>25,555</td><td>36,605</td><td>37,229</td><td>47,610</td><td>48,962</td></tr><tr><td>Y/Y Growth</td><td>29.2%</td><td>27.7%</td><td>29.2%</td><td>27.7%</td><td>41.6%</td><td>45.7%</td><td>30.1%</td><td>31.5%</td></tr><tr><td>% chg vs. old</td><td></td><td>-1.2%</td><td></td><td>-1.2%</td><td></td><td>1.7%</td><td></td><td>2.8%</td></tr><tr><td>US</td><td>24,129</td><td>23,829</td><td>24,129</td><td>23,829</td><td>31,648</td><td>32,272</td><td>37,694</td><td>39,045</td></tr><tr><td>Y/Y Growth</td><td>23.7%</td><td>22.2%</td><td>23.7%</td><td>22.2%</td><td>31.2%</td><td>35.4%</td><td>19.1%</td><td>21.0%</td></tr><tr><td>% chg vs. old</td><td></td><td>-1.2%</td><td></td><td>-1.2%</td><td></td><td>2.0%</td><td></td><td>3.6%</td></tr><tr><td>International</td><td>1,726</td><td>1,726</td><td>1,726</td><td>1,726</td><td>4,958</td><td>4,958</td><td>9,917</td><td>9,917</td></tr><tr><td>Y/Y Growth</td><td>239.1%</td><td>239.1%</td><td>239.1%</td><td>239.1%</td><td>187.2%</td><td>187.2%</td><td>100.0%</td><td>100.0%</td></tr><tr><td>% chg vs. old</td><td></td><td>0.0%</td><td></td><td>0.0%</td><td></td><td>0.0%</td><td></td><td>0.0%</td></tr><tr><td>Net Revenue</td><td>834</td><td>854</td><td>3,143</td><td>3,183</td><td>3,552</td><td>3,497</td><td>4,362</td><td>4,396</td></tr><tr><td>Y/Y Growth</td><td>39.9%</td><td>43.3%</td><td>45.3%</td><td>47.2%</td><td>13.0%</td><td>9.9%</td><td>22.8%</td><td>25.7%</td></tr><tr><td>% chg vs. old</td><td></td><td>2.4%</td><td></td><td>1.3%</td><td></td><td>-1.5%</td><td></td><td>0.8%</td></tr><tr><td>GAAP Operating income</td><td>87</td><td>53</td><td>369</td><td>367</td><td>502</td><td>31</td><td>726</td><td>203</td></tr><tr><td>Y/Y Growth</td><td>10.9%</td><td>-32.1%</td><td>30.3%</td><td>29.5%</td><td>35.8%</td><td>-91.6%</td><td>44.7%</td><td>553.0%</td></tr><tr><td>Margin (%)</td><td>10.4%</td><td>6.2%</td><td>11.8%</td><td>11.5%</td><td>14.1%</td><td>0.9%</td><td>16.7%</td><td>4.6%</td></tr><tr><td>% chg vs. old</td><td></td><td>-38.8%</td><td></td><td>-0.6%</td><td></td><td>-93.8%</td><td></td><td>-72.1%</td></tr><tr><td>EBITDA</td><td>112</td><td>79</td><td>468</td><td>469</td><td>604</td><td>134</td><td>832</td><td>309</td></tr><tr><td>Y/Y Growth</td><td>16.6%</td><td>-17.6%</td><td>33.6%</td><td>33.9%</td><td>29.0%</td><td>-71.4%</td><td>37.8%</td><td>130.7%</td></tr><tr><td>Margin (%)</td><td>13.4%</td><td>9.3%</td><td>14.9%</td><td>14.7%</td><td>17.0%</td><td>3.8%</td><td>19.1%</td><td>7.0%</td></tr><tr><td>% chg vs. old</td><td></td><td>-29.3%</td><td></td><td>0.2%</td><td></td><td>-77.8%</td><td></td><td>-62.8%</td></tr><tr><td>GAAP EPS</td><td>$0.95</td><td>$0.57</td><td>$4.03</td><td>$4.11</td><td>$5.62</td><td>$0.20</td><td>$8.20</td><td>$2.17</td></tr><tr><td>Y/Y Growth</td><td>9.7%</td><td>-34.0%</td><td>36.1%</td><td>38.7%</td><td>39.3%</td><td>-95.1%</td><td>45.9%</td><td>968.6%</td></tr><tr><td>% chg vs. old</td><td></td><td>-39.9%</td><td></td><td>1.9%</td><td></td><td>-96.4%</td><td></td><td>-73.5%</td></tr></table>
-
-Source: J.P. Morgan estimates.
-
-# Investment Thesis
-
-We're downgrading shares of Netflix from Overweight to Neutral. We believe the long-term potential for streaming-only in the U.S. and international markets remains intact and Netflix's value proposition to streaming-only subscribers is unchanged. However, Netflix expects to double its domestic streaming content spending in 2012 and start-up costs in Latin America and UK/Ireland are likely to come in much higher than we anticipated. As a result, Netflix does not expect to be profitable for the first few quarters of 2012—this compares to previous Street expectations for  $5 -$ 6 of GAAP EPS.
-
-# Valuation
-
-Lowering PT to $67. Our $67 price target is based on an 11x multiple on our 2013 EBITDA of \$309MM. We are changing our price target methodology from P/E to EV/EBITDA given the differing margin and growth profiles of NFLX's US DVD, US Streaming, and International Streaming business, which we value on the sum of the parts basis. Our \$67 price target on NFLX implies a multiple of 11x our 2013 US streaming EBITDA of \$170MM, 7x 2013 DVD EBITDA of \$139MM, and 1x 2013 revenue of \$594MM.
-
-# Risks to Rating and Price Target
-
-Netflix stock could perform above our expectations if: The company grows its streaming subscribers at a faster rate than we had anticipated; Hybrid customer churn is less than expected; International profits kick in quicker than we had projected; The company is better able to manage its content costs going forward.
-
-Netflix stock could perform below expectations if: The company is unable to strike deals with content owners to continue to expand its streaming catalog; Internet Service Providers add more restrictive data usage caps; Other competitors, such as
-
-Redbox, Amazon, or Apple are able to offer more attractive customer offerings and thus take market share; The company is not able to manage future postal price increases effectively.
-
-# Financial Models
-
-# Netflix
+## Netflix
 
 Table 3: Netflix Income Statement  
  $ in millions  
@@ -194,51 +144,15 @@ Note: $ in millions (except per-share data).Fiscal year ends Dec
 
 Analyst Certification: The research analyst(s) denoted by an "AC" on the cover of this report certifies (or, where multiple research analysts are primarily responsible for this report, the research analyst denoted by an "AC" on the cover or within the document individually certifies, with respect to each security or issuer that the research analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect his or her personal views about any and all of the subject securities or issuers; and (2) no part of any of the research analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the research analyst(s) in this report.
 
-# Important Disclosures
+## Important Disclosures
 
-Market Maker: JPMS makes a market in the stock of Netflix Inc.  
+## Explanation of Equity Research Ratings and Analyst(s) Coverage Universe:
 
-- Client: J.P. Morgan currently has, or had within the past 12 months, the following company(ies) as clients: Netflix Inc.  
-- Investment Banking (next 3 months): J.P. Morgan expects to receive, or intend to seek, compensation for investment banking services in the next three months from Netflix Inc.
+## Other Disclosures
 
-Netflix Inc (NFLX) Price Chart  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/ae03f674-83f0-4922-a3f5-fbccea489823/faa4a4d0f2dd29c126ba88b7b4d445973bd2a3620f9e882b6310ee9f5b96d380.jpg)  
-Source: Bloomberg and J.P. Morgan; price data adjusted for stock splits and dividends. Initiated coverage Jan 12, 2007.
+## Legal Entities Disclosures
 
-<table><tr><td>Date</td><td>Rating</td><td>Share Price ($)</td><td>Price Target ($)</td></tr><tr><td>12-Jan-07</td><td>N</td><td>22.71</td><td>-</td></tr><tr><td>11-Jun-07</td><td>UW</td><td>21.93</td><td>-</td></tr><tr><td>22-Jan-08</td><td>N</td><td>21.85</td><td>-</td></tr><tr><td>15-Sep-09</td><td>OW</td><td>44.97</td><td>53.00</td></tr><tr><td>23-Oct-09</td><td>OW</td><td>54.89</td><td>57.00</td></tr><tr><td>04-Jan-10</td><td>OW</td><td>55.09</td><td>63.00</td></tr><tr><td>28-Jan-10</td><td>OW</td><td>50.97</td><td>70.00</td></tr><tr><td>22-Apr-10</td><td>OW</td><td>100.25</td><td>110.00</td></tr><tr><td>09-Jun-10</td><td>OW</td><td>115.43</td><td>133.00</td></tr><tr><td>22-Jul-10</td><td>OW</td><td>119.65</td><td>136.00</td></tr><tr><td>13-Sep-10</td><td>OW</td><td>146.16</td><td>181.00</td></tr><tr><td>21-Oct-10</td><td>OW</td><td>172.69</td><td>186.00</td></tr><tr><td>27-Jan-11</td><td>OW</td><td>183.03</td><td>224.00</td></tr><tr><td>13-Jul-11</td><td>OW</td><td>298.73</td><td>340.00</td></tr><tr><td>15-Sep-11</td><td>OW</td><td>208.71</td><td>245.00</td></tr><tr><td>23-Sep-11</td><td>OW</td><td>129.36</td><td>205.00</td></tr></table>
-
-The chart(s) show J.P. Morgan's continuing coverage of the stocks; the current analysts may or may not have covered it over the entire period.
-
-J.P. Morgan ratings:  $\mathrm{OW} =$  Overweight,  $\mathbf{N} =$  Neutral,  $\mathrm{UW} =$  Underweight
-
-# Explanation of Equity Research Ratings and Analyst(s) Coverage Universe:
-
-J.P. Morgan uses the following rating system: Overweight [Over the next six to twelve months, we expect this stock will outperform the average total return of the stocks in the analyst's (or the analyst's team's) coverage universe.] Neutral [Over the next six to twelve months, we expect this stock will perform in line with the average total return of the stocks in the analyst's (or the analyst's team's) coverage universe.] Underweight [Over the next six to twelve months, we expect this stock will underperform the average total return of the stocks in the analyst's (or the analyst's team's) coverage universe.] In our Asia (ex-Australia) and UK smalland mid-cap equity research, each stock's expected total return is compared to the expected total return of a benchmark country market index, not to those analysts' coverage universe. If it does not appear in the Important Disclosures section of this report, the certifying analyst's coverage universe can be found on J.P. Morgan's research website, www.morganmarkets.com.
-
-Coverage Universe: Anmuth, Doug: Amazon.com (AMZN), Bankrate Inc (RATE), Google (GOOG), HomeAway Inc (AWAY), LinkedIn Corp (LNKD), Netflix Inc (NFLX), Pandora Media Inc (P), Priceline.com (PCLN), QuinStreet, Inc. (QNST), ReachLocal (RLOC), Yahoo Inc (YHOO), eBay, Inc (EBAY)
-
-J.P. Morgan Equity Research Ratings Distribution, as of September 30, 2011  
-
-<table><tr><td></td><td>Overweight (buy)</td><td>Neutral (hold)</td><td>Underweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage</td><td>47%</td><td>42%</td><td>11%</td></tr><tr><td>IB clients*</td><td>51%</td><td>44%</td><td>33%</td></tr><tr><td>JPMS Equity Research Coverage</td><td>45%</td><td>47%</td><td>7%</td></tr><tr><td>IB clients*</td><td>70%</td><td>60%</td><td>52%</td></tr></table>
-
-*Percentage of investment banking clients in each rating category.  
-For purposes only of FINRA/NYSE ratings distribution rules, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category.
-
-Equity Valuation and Risks: For valuation methodology and risks associated with covered companies or price targets for covered companies, please see the most recent company-specific research report at http://www.morganmarkets.com, contact the primary analyst or your J.P. Morgan representative, or email research.dDisclosure.inquiries@jpmorgan.com.
-
-Equity Analysts' Compensation: The equity research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues, which include revenues from, among other business units, Institutional Equities and Investment Banking.
-
-# Other Disclosures
-
-J.P. Morgan ("JPM") is the global brand name for J.P. Morgan Securities LLC ("JPMS") and its affiliates worldwide. J.P. Morgan Cazenove is a marketing name for the U.K. investment banking businesses and EMEA cash equities and equity research businesses of JPMorgan Chase & Co. and its subsidiaries.
-
-Options related research: If the information contained herein regards options related research, such information is available only to persons who have received the proper option risk disclosure documents. For a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options, please contact your J.P. Morgan Representative or visit the OCC's website at http://www/optionsclearing.com/publications/risks/riskstoc.pdf
-
-# Legal Entities Disclosures
-
-U.S.: JPMS is a member of NYSE, FINRA, SIPC and the NFA. JPMorgan Chase Bank, N.A. is a member of FDIC and is authorized and regulated in the UK by the Financial Services Authority. U.K.: J.P. Morgan Securities Ltd. (JPMSL) is a member of the London Stock Exchange and is authorized and regulated by the Financial Services Authority. Registered in England & Wales No. 2711006. Registered Office 125 London Wall, London EC2Y 5AJ. South Africa: J.P. Morgan Equities Limited is a member of the Johannesburg Securities Exchange and is regulated by the FSB. Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong. Korea: J.P. Morgan Securities (Far East) Ltd, Seoul Branch, is regulated by the Korea Financial Supervisory Service. Australia: J.P. Morgan Australia Limited (ABN 52 002 888 011/AFS Licence No: 238188) is regulated by ASIC and J.P. Morgan Securities Australia Limited (ABN 61 003 245 234/AFS Licence No: 238066) is a Market Participant with the ASX and regulated by ASIC. Taiwan: J.P.Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company-type) and regulated by the Taiwan Securities and Futures Bureau. India: J.P. Morgan India Private Limited, having its registered office at J.P. Morgan Tower, Off C.S.T. Road, Kalina, Santacruz East, Mumbai - 400098, is a member of the National Stock Exchange of India Limited (SEBI Registration Number - INB 230675231/INF 230675231/INE 230675231) and Bombay Stock Exchange Limited (SEBI Registration Number - INB 010675237/INF 010675237) and is regulated by Securities and Exchange Board of India. Thailand: JPMorgan Securities (Thailand) Limited is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission. Indonesia: PT J.P. Morgan Securities Indonesia is a member of the Indonesia Stock Exchange and is regulated by the BAPEPAM LK. Philippines: J.P. Morgan Securities Philippines Inc. is a member of the Philippine Stock Exchange and is regulated by the Securities and Exchange Commission. Brazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil. Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero is a member of the Mexican Stock Exchange and authorized to act as a broker dealer by the National Banking and Securities Exchange Commission. Singapore: This material is issued and distributed in Singapore by J.P. Morgan Securities Singapore Private Limited (JPMSS) [MICA (P) 025/01/2011 and Co. Reg. No.: 199405335R] which is a member of the Singapore Exchange Securities Trading Limited and is regulated by the Monetary Authority of Singapore (MAS) and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore) which is regulated by the MAS. Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146-X) which is a Participating Organization of Bursa Malaysia Berhad and a holder of Capital Markets Services License issued by the Securities Commission in Malaysia. Pakistan: J.P. Morgan Pakistan Broking (Pvt.) Ltd is a member of the Karachi Stock Exchange and regulated by the Securities and Exchange Commission of Pakistan. Saudi Arabia: J.P. Morgan Saudi Arabia Ltd. is authorized by the Capital Market Authority of the Kingdom of Saudi Arabia (CMA) to carry out dealing as an agent, arranging, advising and custody, with respect to securities business under licence number 35-07079 and its registered address is at 8th Floor, Al-Faisaliyah Tower, King Fahad Road, P.O. Box 51907, Riyadh 11553, Kingdom of Saudi Arabia. Dubai: JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - Building 3, Level 7, PO Box 506551, Dubai, UAE.
-
-# Country and Region Specific Disclosures
+## Country and Region Specific Disclosures
 
 U.K. and European Economic Area (EEA): Unless specified to the contrary, issued and approved for distribution in the U.K. and the EEA by JPMSL. Investment research issued by JPMSL has been prepared in accordance with JPMSL's policies for managing conflicts of interest arising as a result of publication and distribution of investment research. Many European regulators require a firm to establish, implement and maintain such a policy. This report has been issued in the U.K. only to persons of a kind described in Article 19 (5), 38, 47 and 49 of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (all such persons being referred to as "relevant persons"). This document must not be acted on or relied on by persons who are not relevant persons. Any investment or investment activity to which this document relates is only available to relevant persons and will be engaged in only with relevant persons. In other EEA countries, the report has been issued to persons regarded as professional investors (or equivalent) in
 
@@ -260,9 +174,9 @@ Attractive
 
 October 25, 2011
 
-# Netflix Inc
+## Netflix Inc
 
-One Very Expensive Lesson in Minding Your Business
+### One Very Expensive Lesson in Minding Your Business
 
 C2012E content spend will be  $\sim 2x$  C2011E, and earnings are likely to be negative for the first three quarters. CQ4:11 net sub add guidance was lackluster.
 
@@ -294,72 +208,19 @@ Zachary.Arrick@morganstanley.com
 
 +1 212 761 4226
 
-# Key Ratios and Statistics
+## Key Ratios and Statistics
 
-Reuters:NFLX.O Bloomberg:NFLX US
+## Netflix (NFLX, \$118.84, Equal-weight)
 
-Internet / United States of America
+## Why Equal-weight?
 
-<table><tr><td>Price target</td><td>NA</td></tr><tr><td>Shr price, close (Oct 24, 2011)</td><td>\$118.84</td></tr><tr><td>Mkt cap, curr (mm)</td><td>\$6,394</td></tr><tr><td>52-Week Range</td><td>\$304.79-103.13</td></tr></table>
+## Key Value Drivers
 
-<table><tr><td>Fiscal Year ending</td><td>12/10</td><td>12/11e</td><td>12/12e</td><td>12/13e</td></tr><tr><td>Revenue, net ($mm)</td><td>2,163</td><td>3,188</td><td>3,560</td><td>4,106</td></tr><tr><td>ModelWare EPS ($)</td><td>2.88</td><td>4.17</td><td>(0.85)</td><td>2.95</td></tr></table>
+## Potential Catalysts
 
-Unless otherwise noted, all metrics are based on Morgan Stanley ModelWare  
-framework (please see explanation later in this note).  
-e = Morgan Stanley Research estimates
+## Key Questions
 
-Morgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.
-
-For analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.
-
-# Netflix (NFLX, \$118.84, Equal-weight)
-
-Risk-Reward View: Domestic Pressure with International Upside  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/ae03f674-83f0-4922-a3f5-fbccea489823/38a992512d3ec7a8a93a898af4bf15800cb82f3f607b5dc15fd1de805d64703c.jpg)  
-Source: FactSet, Morgan Stanley Research (\$74 represents intraday price 10/25/11).
-
-<table><tr><td colspan="2">Price Target NA</td><td>Base Case valuation based on our DCF model assuming terminal growth rate of 4% and WACC of 14%.</td></tr><tr><td>Bull</td><td>16x Bull</td><td>International expansion pays off, but domestic troubles</td></tr><tr><td>Case</td><td>Case C13e</td><td rowspan="2">linger. Continued lead in digital video monetization. 5-year revenue CAGR of 23% (C2010-C2015E), operating margin (ex-Stock-Based Compensation) of 30.5% by C2015E.</td></tr><tr><td>\$183</td><td>EV / EBITDA</td></tr><tr><td>Base</td><td>12x Base</td><td rowspan="3">Business suffers from brand equity damage, long-term margins improve but content costs cap upside. 5-year revenue CAGR of 20% (C2010-C2015E), operating margin of 24% by C2015E.</td></tr><tr><td>Case</td><td>Case C13e</td></tr><tr><td>\$90</td><td>EV / EBITDA</td></tr><tr><td>Bear</td><td>Bear</td><td>Streaming content costs are bid up by deep-pocketed entrants, margins erode and international is a black hole.</td></tr><tr><td>Case</td><td>Case C13e</td><td rowspan="2">Higher content costs and lack of film content lead to margin compression and sub attrition. 5-year revenue CAGR of 16% (C2010-C2015E), operating margin of 13% by C2015E.</td></tr><tr><td>\$25</td><td>EBITDA of \$75MM</td></tr></table>
-
-SWOT Analysis - Netflix  
-
-<table><tr><td>Strengths
-1. Market / brand leadership in subscription-based online streaming and DVD-by-mail
-2. Strong value proposition with “all-you-can-eat” subscription plans and hybrid distribution
-3. Broadest digital device penetration among streaming providers</td><td>Weaknesses
-1. Delivery by mail does not offer instant gratification
-2. Some competitors offer new releases to customers earlier than Netflix
-3. Recent price increase and flip-flop on ‘Qwikster’ has had at least a short-term impact on net adds</td></tr><tr><td>Opportunities
-1. Continued subscriber growth due to success with digital streaming product
-2. Operating margin expansion as model shifts to digital
-3. International expansion</td><td>Threats
-1. Higher content costs by the entry of deep-pocketed competitors with lower ROIC tolerances
-2. Long term risk from consumer shift to competing digital streaming offers, such as cable + satellite VOD / Amazon VOD / Apple iTunes</td></tr></table>
-
-Source: Morgan Stanley Research, Framework based on Michael Porter's Competitive Strategy
-
-# Why Equal-weight?
-
-- Netflix is facing a war for content as scarcity value increases cost. Although the debate is less about stickiness of subs (long term), the value to subs vs. economics to shareholder dilemma is very real.  
-- Netflix has created a scale-based competitive advantage around user experience.
-
-# Key Value Drivers
-
-- Slowing sub growth – the loyal sub base has already been acquired; incremental net adds will become more difficult.  
-- Increasing content costs will handicap margin expansion, but Netflix should benefit from careful international expansion.  
-- Netflix streaming device / content deals improve value proposition.
-
-# Potential Catalysts
-
-- Competition in international markets is likely to be a negative catalyst and will pressure run-rate margins.  
-- Sustainable domestic net sub adds.
-
-# Key Questions
-
-- How will the shift to digital streaming impact Netflix? Specifically, what impact will content deals have on gross margin?  
-- How will Netflix fair in the war for content against the likes of Google and Amazon.com  
-- How can Netflix wage a domestic content battle AND expand internationally while maintaining shareholder support?
-
-# Key Risks
+## Key Risks
 
 Rising digital content licensing costs  
 Usage-based broadband pricing
@@ -434,104 +295,27 @@ Source: Morgan Stanley Research
 <table><tr><td>MORGAN STANLEY
 ModelWare</td><td>Morgan Stanley ModelWare is a proprietary analytic framework that helps clients uncover value, adjusting for distortions and ambiguities created by local accounting regulations. For example, ModelWare EPS adjusts for one-time events, capitalizes operating leases (where their use is significant), and converts inventory from LIFO costing to a FIFO basis. ModelWare also emphasizes the separation of operating performance of a company from its financing for a more complete view of how a company generates earnings.</td></tr></table>
 
-# Disclosure Section
+## Disclosure Section
 
-The information and opinions in Morgan Stanley Research were prepared by Morgan Stanley & Co. LLC, and/or Morgan Stanley C.T.V.M. S.A., and/or Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V. As used in this disclosure section, "Morgan Stanley" includes Morgan Stanley & Co. LLC, Morgan Stanley C.T.V.M. S.A., Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V. and their affiliates as necessary.
+## Analyst Certification
 
-For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.
+## Global Research Conflict Management Policy
 
-# Analyst Certification
+## Important US Regulatory Disclosures on Subject Companies
 
-The following analysts hereby certify that their views about the companies and their securities discussed in this report are accurately expressed and that they have not received and will not receive direct or indirect compensation in exchange for expressing specific recommendations or views in this report: Scott Devitt.
+## STOCK RATINGS
 
-Unless otherwise stated, the individuals listed on the cover page of this report are research analysts.
+## Global Stock Ratings Distribution
 
-# Global Research Conflict Management Policy
+## AnalystStockRatings
 
-Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies.
+## Analyst Industry Views
 
-# Important US Regulatory Disclosures on Subject Companies
+## Stock Price, Price Target and Rating History (See Rating Definitions)
 
-As of September 30, 2011, Morgan Stanley beneficially owned  $1\%$  or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: Amazon.com, Ancestry.com Inc., Blue Nile Inc, LinkedIn Corp, Mercadolibre Inc., Netflix Inc, OpenTable Inc., Pandora Media Inc., Shutterfly Inc, VistaPrint N.V., Yahoo!.
+## Important Disclosures for Morgan Stanley Smith Barney LLC Customers
 
-Within the last 12 months, Morgan Stanley managed or co-managed a public offering (or 144A offering) of securities of Ancestry.com Inc., Demand Media, Inc., Digital River Inc, eBay, Google, HomeAway, Inc., LinkedIn Corp, Pandora Media Inc..
-
-Within the last 12 months, Morgan Stanley has received compensation for investment banking services from Amazon.com, Ancestry.com Inc., Demand Media, Inc., Digital River Inc, eBay, Expedia Inc., Google, HomeAway, Inc., LinkedIn Corp, Netflix Inc, Pandora Media Inc., priceline.
-
-In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from Amazon.com, Ancestry.com Inc., Blue Nile Inc, Demand Media, Inc., Digital River Inc, eBay, Expedia Inc., Google, HomeAway, Inc., LinkedIn Corp, Mercadolibre Inc., Netflix Inc, OpenTable Inc., Pandora Media Inc., priceline.com, Vistaprint N.V., WebMD Health Corp., Yahoo!.
-
-Within the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from Amazon.com, Ancestry.com Inc., Demand Media, Inc., Digital River Inc, eBay, Google, Netflix Inc, Pandora Media Inc., priceline.com.
-
-Within the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client
-
-relationship with, the following company: Amazon.com, Ancestry.com Inc., Blue Nile Inc, Demand Media, Inc., Digital River Inc, eBay, Expedia Inc., Google, HomeAway, Inc., LinkedIn Corp, Mercadolibre Inc., Netflix Inc, OpenTable Inc., Pandora Media Inc., priceline.com, Shutterfly Inc, Vistaprint N.V., WebMD Health Corp., Yahoo!.
-
-Within the last 12 months, Morgan Stanley has either provided or is providing non-investment banking, securities-related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: Amazon.com, Ancestry.com Inc., Demand Media, Inc., Digital River Inc, eBay, Google, Netflix Inc, OpenTable Inc., Pandora Media Inc., pricingline.com.
-
-An employee, director or consultant of Morgan Stanley (not a research analyst or a member of a research analyst's household) is a director of Yahoo!. Morgan Stanley & Co. LLC makes a market in the securities of Amazon.com, Ancestry.com Inc., Blue Nile Inc, Demand Media, Inc., Digital River Inc, eBay, Expedia Inc., Google, HomeAway, Inc., LinkedIn Corp, Mercadolibre Inc., Netflix Inc, OpenTable Inc., Pandora Media Inc., priceline.com, Shutterfly Inc, Vistaprint N.V., WebMD Health Corp., Yahoo!.
-
-The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues.
-
-Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity and specialized trading, risk arbitrage and other proprietary trading, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Certain disclosures listed above are also for compliance with applicable regulations in non-US jurisdictions.
-
-# STOCK RATINGS
-
-Morgan Stanley uses a relative rating system using terms such as Overweight, Equal-weight, Not-Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.
-
-# Global Stock Ratings Distribution
-
-(as of September 30, 2011)
-
-For disclosure purposes only (in accordance with NASD and NYSE requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal-weight, Not-Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal-weight and Not-Rated to hold and Underweight to sell recommendations, respectively.
-
-<table><tr><td rowspan="2">Stock Rating Category</td><td colspan="2">Coverage Universe</td><td colspan="3">Investment Banking Clients (IBC)</td></tr><tr><td>Count</td><td>% of Total</td><td>Count</td><td>% of % of Rating Total IBC</td><td>Category</td></tr><tr><td>Overweight/Buy</td><td>1130</td><td>40%</td><td>457</td><td>46%</td><td>40%</td></tr><tr><td>Equal-weight/Hold</td><td>1168</td><td>42%</td><td>419</td><td>42%</td><td>36%</td></tr><tr><td>Not-Rated/Hold</td><td>112</td><td>4%</td><td>23</td><td>2%</td><td>21%</td></tr><tr><td>Underweight/Sell</td><td>400</td><td>14%</td><td>104</td><td>10%</td><td>26%</td></tr><tr><td>Total</td><td>2,810</td><td></td><td>1003</td><td></td><td></td></tr></table>
-
-Data include common stock and ADRs currently assigned ratings. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months.
-
-# AnalystStockRatings
-
-Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Equal-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Not-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.
-
-# Analyst Industry Views
-
-Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.
-
-In-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below.
-
-Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below.
-
-Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index.
-
-# Stock Price, Price Target and Rating History (See Rating Definitions)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/ae03f674-83f0-4922-a3f5-fbccea489823/b326719c969d139ffa983fda1a145ed01ec74cdb096c17df5646c079ff35f590.jpg)  
-Volatility shading indicates "more volatile" (V) flag. As of Nov-14-2008 the V flag has been discontinued.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/ae03f674-83f0-4922-a3f5-fbccea489823/79db7d4142fc5707692d5835aea52001374572f1bf7a6670936062ed7218305c.jpg)  
-Stock Rating History: 10/1/08 : NA/H; 8/20/09 : 0/A; 3/12/10 : E/A; 7/30/10 : 0/A; 2/15/11 : E/A  
-Price Target History: 8/20/09 : 56; 10/23/09 : 59; 1/28/10 : 68; 3/12/10 : NA; 1/18/11 : 225; 1/27/11 : 245;  
-2/15/11 : NA  
-Source: Morgan Stanley Research Date Format: MM/DD/YY Price Target No Price Target Assigned (NA) Stock Price (Not Covered by Current Analyst) Stock Price (Covered by Current Analyst) Stock and Industry Ratings (abbreviations below) appear as  $\clubsuit$  Stock Rating/Industry View Stock Ratings: Overweight (O) Equal-weight (E) Underweight (U) Not-Rated (NR) More Volatile (U) No Rating Available (NA) Industry View: Attractive (A) In-line (I) Cautious (C) No Rating (NR)
-
-# Important Disclosures for Morgan Stanley Smith Barney LLC Customers
-
-Financial Advisor or use Research Center to view any available CIRA research reports in addition to Morgan Stanley research reports.
-
-Important disclosures regarding the relationship between the companies that are the subject of Morgan Stanley Research and Morgan Stanley Smith Barney LLC, Morgan Stanley and Citigroup Global Markets Inc. or any of their affiliates, are available on the Morgan Stanley Smith Barney disclosure website at www.morganstanleysmithbarney.com/researchdisclosures.
-
-For Morgan Stanley and Citigroup Global Markets, Inc. specific disclosures, you may refer to www.morganstanley.com/researchdisclosures and https://www.citigroupgeo.com/geopublic/Disclosures/index_a.html.
-
-Each Morgan Stanley Equity Research report is reviewed and approved on behalf of Morgan Stanley Smith Barney LLC. This review and approval is conducted by the same person who reviews the Equity Research report on behalf of Morgan Stanley. This could create a conflict of interest.
-
-# Other Important Disclosures
+## Other Important Disclosures
 
 Pandora Media Inc., Yahoo!.
 
@@ -575,43 +359,43 @@ Morgan Stanley Research is disseminated and available primarily electronically, 
 
 Additional information on recommended securities/instruments is available on request.
 
-# The Americas
+## The Americas
 
 1585 Broadway
 
 New York, NY 10036-8293
 
-# United States
+## United States
 
 Tel: +1 (1) 212 761 4000
 
-# Europe
+## Europe
 
 20 Bank Street, Canary Wharf
 
 London E14 4AD
 
-# United Kingdom
+## United Kingdom
 
 Tel: +44 (0) 207 425 8000
 
-# Japan
+## Japan
 
 4-20-3 Ebisu, Shibuya-ku
 
 Tokyo 150-6008
 
-# Japan
+## Japan
 
 Tel: +81 (0) 35424 5000
 
-# Asia/Pacific
+## Asia/Pacific
 
 1 Austin Road West
 
 Kowloon
 
-# Hong Kong
+## Hong Kong
 
 Tel: +852 2848 5200
 

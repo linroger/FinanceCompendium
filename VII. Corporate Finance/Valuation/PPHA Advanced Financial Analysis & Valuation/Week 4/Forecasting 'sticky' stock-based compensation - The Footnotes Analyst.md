@@ -1,13 +1,19 @@
 ---
-parent_directory:
-title: The Footnotes Analyst
-tags:
-aliases:
-parent_folder: Week 4
-subfolder:
-key_concepts:
+title: "Forecasting 'sticky' stock-based compensation"
+parent_directory: "VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 4"
+formatted: "2025-12-20 06:53:00 PM"
+formatter_model: opencode
+cli_tool: opencode
+primary_tags:
+  - stock-based compensation
+  - forecasting
+  - expense
+secondary_tags:
+  - equity compensation
+  - vesting
+  - forfeits
+  - valuation
 cssclasses: academia
-linter-yaml-title-alias: The Footnotes Analyst
 ---
 
 # The Footnotes Analyst

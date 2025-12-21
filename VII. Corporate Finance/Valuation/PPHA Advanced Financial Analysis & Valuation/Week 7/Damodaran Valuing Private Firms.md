@@ -1,8 +1,14 @@
 ---
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 7
 title: What makes private firms different?
+formatted: "2025-12-20 07:49:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [valuing private firms, illiquidity discount, private business valuation, beta estimation, cost of capital]
+secondary_tags: [accounting betas, fundamental betas, bottom-up betas, owner salaries, tax effects]
 tags:
 aliases:
+  - "What makes private firms different?"
 parent_folder: Week 7
 subfolder:
 key_concepts:
@@ -14,7 +20,7 @@ So far in this book, we have concentrated on the valuation of publicly traded fi
 
 When valuing private firms, the motive for the valuation matters and can affect the value. In particular, the value that is attached to a publicly traded firm may be different when it is being valued for sale to an individual, for sale to a publicly traded firm or for an initial public offering. In particular, whether there should be a discount on value for illiquidity and non-diversifiable risk or a premium for control will depend upon the motive for the valuation. We will consider each of these components over the course of this chapter.
 
-# What makes private firms different?
+## What makes private firms different?
 
 There are a number of common characteristics shared by private firms with publicly traded firms, but there are four significant differences that can affect both how we estimate inputs for valuation.
 
@@ -30,23 +36,23 @@ Each of the differences cited above can have change value by affecting discount 
 
 To examine the issues that arise in the context of valuing private firms, we will consider two firms. The first firm is the New York Yankees, a fabled baseball franchise and the second is a private software firm called InfoSoft. We will value the Yankees for sale in a private transaction, whereas we will value InfoSoft for sale in an initial public offering.
 
-# Estimating Valuation Inputs at Private Firms
+## Estimating Valuation Inputs at Private Firms
 
 The value of a private firm is the present value of expected cash flows discounted back at an appropriate discount rate. Since this construct is not different from the one we used to value publicly traded firms, the differences between private firms and publicly traded firms have to show up in how we estimate these inputs to the discounted cash flow model.
 
-# Discount Rates
+## Discount Rates
 
 If we choose to value equity, we discount cashflows to equity at the cost of equity, whereas if we choose to value the firm, we discount cashflows at the cost of capital. While the fundamental definitions of these costs have not changed, the process of estimating them may have to be changed given the special circumstances surrounding private firms.
 
-# Cost of Equity
+## Cost of Equity
 
 In assessing the cost of equity for publicly traded firms, we looked at the risk of investments through the eyes of the marginal investors in these firms. With the added assumption that these investors were well diversified, we were able to define risk in terms of risk added on to a diversified portfolio or market risk. The beta (in the CAPM) and betas (in the multi-factor models) that measure this risk are usually estimated using historical stock prices. The absence of historical price information for private firm equity and the failure on the part of many private firm owners to diversify can create serious problems with estimating and using betas for these firms.
 
-# Approaches to Estimating Market Betas
+## Approaches to Estimating Market Betas
 
 The standard process of estimating the beta in the capital asset pricing model involves running a regression of stock returns against market returns. Multi-factor models use other statistical techniques, but they also require historical price information. In the absence of such information, as is the case with private firms, there are three ways in which we can estimate betas:
 
-# 1. Accounting Betas
+## 1. Accounting Betas
 
 While price information is not available for private firms, accounting earnings information is. We could regress changes in a private firm's accounting earnings against changes in earnings for an equity index (such as the S&P 500) to estimate an accounting beta
 
@@ -58,7 +64,7 @@ The slope of the regression (b) is the accounting beta for the firm. Using opera
 
 There are two significant limitations with this approach. The first is that private firms usually measure earnings only once a year, leading to regressions with few observations and limited statistical power. The second is that earnings are often smoothed out and subject to accounting judgments, leading to mismeasurement of accounting betas.
 
-# Illustration 24.1: Estimating Accounting Betas — InfoSoft
+## Illustration 24.1: Estimating Accounting Betas — InfoSoft
 
 InfoSoft, even though it is a private business, has been in existence since 1992 and has accounting earnings going back to that year. Table 24.1 summarizes the quarterly accounting earnings changes at InfoSoft and for the S&P 500 for each quarter between 1992 and 1998.
 
@@ -74,7 +80,7 @@ InfoSoft Earnings Change  $= 0.05 + 2.15$  (S & P 500 Earnings Change)
 
 Based upon this regression, the beta for InfoSoft is 2.15. In calculating this beta, we used net income to arrive at an equity beta. Using operating earnings for both the firm and the S&P 500 should yield the equivalent of an unlevered beta.
 
-# 2. Fundamental Betas
+## 2. Fundamental Betas
 
 There have been attempts made by researchers to relate the betas of publicly traded firms to observable variables such as earnings growth, debt ratios and variance in earnings. Beaver, Kettler, and Scholes (1970) examined the relationship between betas and seven variables - dividend payout, asset growth, leverage, liquidity, asset size, earnings variability, and the accounting beta. Rosenberg and Guy (1976) also attempted a similar analysis. The following is a regression that we ran relating the betas of NYSE and AMEX stocks in 1996 to four variables: coefficient of variation in operating income  $(\mathrm{CV}_{\mathrm{OI}})$ , book debt/equity (D/E), historical growth in earnings (g) and the book value of total assets (TA).
 
@@ -90,7 +96,7 @@ $$
 
 We could measure each of these variables for a private firm and use these to estimate the beta for the firm. While this approach is simple, it is only as good as the underlying regression. The low  $\mathbf{R}^2$  suggests that the beta estimates that emerge from it are likely to have large standard errors.
 
-# Illustration 24.2: Estimating a Fundamental Beta: InfoSoft
+## Illustration 24.2: Estimating a Fundamental Beta: InfoSoft
 
 To use the crosssectional regression that we reported earlier to estimate a beta for InfoSoft, we have to estimate the values for each of the independent variables for the firm:
 
@@ -112,7 +118,7 @@ $$
 
 This would yield an estimate of 1.03 for InfoSoft's beta. The standard error on this estimate is 0.18, resulting in a range of 0.85 to 1.21 for the beta, with  $67\%$  probability.
 
-# 3. Bottom-up Betas
+## 3. Bottom-up Betas
 
 When valuing publicly traded firms, we used the unlevered betas of the businesses that the firms operated in to estimate bottom-up betas – the costs of equity were based upon these betas. We did so because of the low standard errors on these estimates (due to the averaging across large numbers of firms) and the forward looking nature of the estimates (because the business mix used to weight betas can be changed). We can estimate bottom-up betas for private firms and these betas have the same advantages that they do for publicly traded firms. Thus, the beta for a private steel firm can be estimated by looking at the average betas for publicly traded steel companies. Any differences in financial or even operating leverage can be adjusted for in the final estimate.
 
@@ -136,7 +142,7 @@ The adjustment for operating leverage is simpler and is based upon the proportio
 
 spearn.xls: This dataset on the web has earnings changes, by year, for the S&P 500 going back to 1960.
 
-# Illustration 24.3: Estimating bottom-up betas - New York Yankees and InfoSoft
+## Illustration 24.3: Estimating bottom-up betas - New York Yankees and InfoSoft
 
 Bottom-up Beta for Yankees
 
@@ -176,7 +182,7 @@ $$
 \text {B o t t o m - u p B e t a f o r F i n o S o f t} = 1. 2 4 (1 + (1 -. 3 5) (. 0 7 0 9)) = 1. 2 9
 $$
 
-# Adjusting for Non-Diversification
+## Adjusting for Non-Diversification
 
 Betas measure the risk added by an investment to a diversified portfolio. Consequently, they are best suited for firms where the marginal investor is diversified. With private firms, the owner is often the only investor and thus can be viewed as the marginal investor. Furthermore, in most private firms, the owner tends to have much of his or her wealth invested in the private business and does not have an opportunity to diversify. Consequently, it can be argued that betas will understate the exposure to market risk in these firms.
 
@@ -206,7 +212,7 @@ You might wonder how a total beta can be estimated for a private firm, where the
 
 The question of whether the total beta adjustment should be made cannot be answered without examining why the valuation of the private firm is being done in the first place. If the private firm is being valued for sale, whether and how much the market beta should be adjusted will depend upon the potential buyer or buyers. If the valuation is for an initial public offering, there should be no adjustment for non-diversification, since the potential buyers are stock market investors. If the valuation is for sale to another individual or private business, the extent of the adjustment will depend upon the degree to which the buyer's portfolio is diversified; the more diversified the buyer, the higher the correlation with the market and the smaller the total beta adjustment.
 
-# Illustration 24.4: Adjusting bottom-up beta for non-diversification
+## Illustration 24.4: Adjusting bottom-up beta for non-diversification
 
 Consider the estimate of market beta that we obtained for the New York Yankees in the previous illustration. Using firms that derive the bulk of their revenues from sports as our comparable firms, we obtained an unlevered beta of 0.90 for the Yankees. The average correlation coefficient for these publicly traded firms with the markets is 0.50. (The R squared is  $25\%$ .) The total unlevered beta for the Yankees can be estimated as follows:
 
@@ -220,11 +226,11 @@ $$
 
 This total beta estimate, in a sense, takes the limiting view that the potential buyer will own only the Yankees. To the extent that the buyer has some diversification, the correlation coefficient will be adjusted upwards; if the buyer has a diversified portfolio, the correlation coefficient will approach one and the total beta will converge on the market beta.
 
-# From Cost of Equity to Cost of Capital
+## From Cost of Equity to Cost of Capital
 
 To get from the cost of equity to the cost of capital, we need two additional inputs – the cost of debt, which measures the rate at which firms can borrow, and the debt ratio that determines the weights in the cost of capital computation. In this section, we consider how best to estimate each of these inputs for a private firm.
 
-# Cost of Debt
+## Cost of Debt
 
 The cost of debt represents the rate at which a firm can borrow money. To estimate it for publicly traded firms, we generally use either the yields on bonds issued by these firms or the ratings for these bonds to get default spreads. Private firms generally are not rated and do not have bonds outstanding. Consequently, we have to use one of the following alternative approaches:
 
@@ -240,7 +246,7 @@ To estimate the cost of debt for a private firm with an interest coverage ratio 
 
 This approach may underestimate the cost of debt if banks charge higher interest rates for private firms than for otherwise similar publicly traded firms. In that case, you would add an additional spread to reflect this difference, if you were valuing the firm for sale in a private transaction, but not if you were valuing it for sale to a publicly traded firm or an initial public offering.
 
-# Illustration 24.3: Estimating Cost of Debt
+# ## Illustration 24.3: Estimating Cost of Debt
 
 We will use different approaches to estimate the cost of debt for the Yankees andInfosoft. For the Yankee's, we will use the interest rate from the most recent loans that the firm has taken:
 

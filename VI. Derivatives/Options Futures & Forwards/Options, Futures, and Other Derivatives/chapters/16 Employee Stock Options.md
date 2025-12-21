@@ -1,11 +1,20 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Employee Stock Options
+parent_directory: Options, Futures, and Other Derivatives
+formatted: 2025-12-20 06:55:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - employee stock options
+  - executive compensation
+  - stock option valuation
+secondary_tags:
+  - vesting periods
+  - early exercise behavior
+  - accounting standards
+  - backdating scandal
+  - black-scholes model
 cssclasses: academia
-title: 16.1 CONTRACTUAL ARRANGEMENTS
-linter-yaml-title-alias: 16.1 CONTRACTUAL ARRANGEMENTS
 ---
 
 # 16.1 CONTRACTUAL ARRANGEMENTS
@@ -60,7 +69,7 @@ This approach would have a number of advantages. The cumulative charge to the co
 
 The accounting rules which came into effect in 2005 have led companies to consider alternatives to traditional compensation plans where at-the-money stock options are granted. We have already mentioned restricted stock units (RSUs), which are shares that will be owned by the employee at a future time (the vesting date). Many companies have replaced stock options by RSUs. A variation on an RSU is a market-leveraged stock unit (MSU), in which the number of shares that will be owned on the vesting date is equal to  $S_T / S_0$ , where  $S_0$  is the stock price on the grant date and  $S_T$  is the stock price on the vesting date.
 
-If the stock market as a whole goes up, employees with stock options tend to do well, even if their own company's stock price underperforms the market. One way of overcoming this problem is to tie the strike price of the options to the performance of a broadly based index. Suppose that on the option grant date the stock price is  \$30 and the index is 2,000. The strike price would initially be set at\$ 30. If the index increased by 10\% to 2,200, then the strike price would also increase by 10\% to \$33. If the index moved down by 15\% to 1,700, then the strike price would also move down by 15\% to \$25.50. The effect of this is that the company's stock price performance has to beat that of the index to become in the money. As an alternative to using a broadly based index as the reference index, the company could use an index of the prices of stocks in the same industrial sector as the company.
+If the stock market as a whole goes up, employees with stock options tend to do well, even if their own company's stock price underperforms the market. One way of overcoming this problem is to tie the strike price of the options to the performance of a broadly based index. Suppose that on the option grant date the stock price is  \$30 and the index is 2,000. The strike price would initially be set at \$30. If the index increased by 10\% to 2,200, then the strike price would also increase by 10\% to \$33. If the index moved down by 15\% to 1,700, then the strike price would also move down by 15\% to \$25.50. The effect of this is that the company's stock price performance has to beat that of the index to become in the money. As an alternative to using a broadly based index as the reference index, the company could use an index of the prices of stocks in the same industrial sector as the company.
 
 # 16.4 VALUATION
 
@@ -74,7 +83,7 @@ It should be emphasized that using the Black-Scholes-Merton formula in this way 
 
 # Example 16.1
 
-A company grants 1,000,000 options to its executives on November 1, 2021. The stock price on that date is  \$30 and the strike price of the options is also\$ 30. The options last for 10 years and vest after three years. The company has issued similar at-the-money options for the last 10 years. The average time to exercise or expiry of these options is 4.5 years. The company therefore decides to use an "expected life" of 4.5 years. It estimates the long-term volatility of the stock price, using 5 years of historical data, to be 25\%. The present value of dividends during the next 4.5 years is estimated to be \$4. The 4.5-year zero-coupon risk-free interest rate is 5\%. The option is therefore valued using the Black-Scholes-Merton model (adjusted for dividends in the way described in Section 15.12) with  $S_0 = 30 - 4 = 26$ ,  $K = 30$ ,  $r = 5\%$ ,  $\sigma = 25\%$ , and  $T = 4.5$ . The Black-Scholes-Merton formula gives the value of one option as \$6.31. Hence, the income statement expense is 1,000,000 × 6.31, or 6,310,000.
+A company grants 1,000,000 options to its executives on November 1, 2021. The stock price on that date is  \$30 and the strike price of the options is also \$30. The options last for 10 years and vest after three years. The company has issued similar at-the-money options for the last 10 years. The average time to exercise or expiry of these options is 4.5 years. The company therefore decides to use an "expected life" of 4.5 years. It estimates the long-term volatility of the stock price, using 5 years of historical data, to be 25\%. The present value of dividends during the next 4.5 years is estimated to be \$4. The 4.5-year zero-coupon risk-free interest rate is 5\%. The option is therefore valued using the Black-Scholes-Merton model (adjusted for dividends in the way described in Section 15.12) with  $S_0 = 30 - 4 = 26$ ,  $K = 30$ ,  $r = 5\%$ ,  $\sigma = 25\%$ , and  $T = 4.5$ . The Black-Scholes-Merton formula gives the value of one option as \$6.31. Hence, the income statement expense is 1,000,000 × 6.31, or 6,310,000.
 
 # Binomial Tree Approach
 
@@ -98,24 +107,26 @@ Figure 16.1 Valuation of employee stock option in Example 16.2.
 
 The value of the option at the final nodes is its intrinsic value. Consider the nodes at time 6 years. Nodes I and J are easy. Since these nodes are certain to lead to nodes where the option is worth nothing, the value of the option is zero at these nodes. At node H there is a  $30\%$  chance that the employee will choose to exercise the option. In cases where the employee does not choose to exercise, there is a  $5\%$  chance that the employee leaves the company and has to exercise. The total probability of exercise is therefore  $0.3 + 0.7 \times 0.05 = 0.335$ . If the option is exercised, its value is  $61.14 - 40 = 21.14$ . If it is not exercised, its value is
 
-$$ e ^ {- 0. 0 5 \times 2} (0. 5 1 5 8 \times 5 3. 4 5 + 0. 4 8 4 2 \times 0) = 2 4. 9 5
+$$
+e^{-0.05 \times 2} (0.5158 \times 53.45 + 0.4842 \times 0) = 24.95
 $$
 
 The value of the option at node H is therefore
 
 $$
-0. 3 3 5 \times 2 1. 1 4 + 0. 6 6 5 \times 2 4. 9 5 = 2 3. 6 7
+0.335 \times 21.14 + 0.665 \times 24.95 = 23.67
 $$
 
 The value at node G is similarly
 
 $$
-0. 8 1 \times 1 0 2. 8 3 + 0. 1 9 \times 1 0 6. 6 4 = 1 0 3. 5 6
+0.81 \times 102.83 + 0.19 \times 106.64 = 103.56
 $$
 
 We now move on to the nodes at time 4 years. At node F the option is clearly worth zero. At node E there is a  $5\%$  chance that the employee will forfeit the option because he or she leaves the company and a  $95\%$  chance that the option will be retained. In the latter case the option is worth
 
-$$ e ^ {- 0. 0 5 \times 2} (0. 5 1 5 8 \times 2 3. 6 7 + 0. 4 8 4 2 \times 0) = 1 1. 0 5
+$$
+e^{-0.05 \times 2} (0.5158 \times 23.67 + 0.4842 \times 0) = 11.05
 $$
 
 The option is therefore worth  $0.95 \times 11.05 = 10.49$ . At node D there is a 0.43 probability that the option will be exercised and a 0.57 chance that it will be retained. The value of the option is 56.44.
@@ -190,27 +201,4 @@ Yermack, D., "Good Timing: CEO Stock Option Awards and Company News Announcement
 16.5. What assumption is made in the exercise multiple approach for valuing stock options?
 16.6. Why did some companies backdate stock option grants in the United States prior to 2002? What changed in 2002?
 
-# Practice Questions
 
-16.7. "Stock option grants are good because they motivate executives to act in the best interests of shareholders." Discuss this viewpoint.
-16.8. "Granting stock options to executives is like allowing a professional footballer to bet on the outcome of games." Discuss this viewpoint.
-16.9. In what way would the benefits of backdating be reduced if a stock option grant had to be revalued at the end of each quarter?
-16.10. Explain how you would do an analysis similar to that of Yermack and Lie to determine whether the backdating of stock option grants was happening.
- 16.11. On May 31 a company's stock price is \$70. One million shares are outstanding. An executive exercises 100,000 stock options with a strike price of \$50. What is the impact of this on the stock price?
-16.12. The notes accompanying a company's financial statements say: "Our executive stock options last 10 years and vest after 4 years. We valued the options granted this year using the Black-Scholes-Merton model with an expected life of 5 years and a volatility of  $20\%$ ." What does this mean? Discuss the modeling approach used by the company.
- 16.13. In a Dutch auction of 10,000 options, bids are as follows: A bids \$30 for 3,000; B bids \$33 for 2,500; C bids \$29 for 5,000; D bids \$40 for 1,000; E bids \$22 for 8,000; and F bids \$35 for 6,000. What is the result of the auction? Who buys how many at what price?
-16.14. A company has granted 500,000 options to its executives. The stock price and strike price are both 40. The options last for 12 years and vest after 4 years. The company decides to value the options using an expected life of 5 years and a volatility of 30\% per annum. The company pays no dividends and the risk-free rate is 4\%. What will the company report as an expense for the options on its income statement?
- 16.15. A company's CFO says: "The accounting treatment of stock options is crazy. We granted 10,000,000 at-the-money stock options to our employees last year when the stock price was \$30. We estimated the value of each option on the grant date to be \$5. At our year-end the stock price had fallen to \$4, but we were still stuck with a \$50 million charge to the P&L." Discuss.
-16.16. What is the (risk-neutral) expected life for the employee stock option in Example 16.2? What is the value of the option obtained by using this expected life in Black-Scholes-Merton?
-
-16.17. A company has granted 2,000,000 options to its employees. The stock price and strike price are both  \$60. The options last for 8 years and vest after 2 years. The company decides to value the options using an expected life of 6 years and a volatility of 22\%$  per annum. Dividends on the stock are 1 per year, payable halfway through each year, and the risk-free rate is  $5\%$ . What will the company report as an expense for the options on its income statement?
-16.18. (a) Hedge funds earn a management fee plus an incentive fee that is a percentage of the profits, if any, that they generate (see Business Snapshot 1.3). How is a fund manager motivated to behave with this type of compensation package?
-(b) "Granting options to an executive gives the executive the same type of compensation package as a hedge fund manager and motivates him or her to behave in the same way as a hedge fund manager." Discuss this statement.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/75a2b1dab120b0ad963b5c65e19451e33aeebc0cff3bc8ff0687c9a57759ade0.jpg)
-
-# CHAPTER
-
-# Options on Stock Indices and Currencies
-
-Options on stock indices and currencies were introduced in Chapter 10. This chapter discusses them in more detail. It explains how they work and reviews some of the ways they can be used. In the second half of the chapter, the valuation results in Chapter 15 are extended to cover European options on a stock paying a known dividend yield. It is then argued that both stock indices and currencies are analogous to stocks paying dividend yields. This enables the results for options on a stock paying a dividend yield to be applied to these types of options as well.

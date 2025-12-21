@@ -1,11 +1,17 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Value at Risk
+parent_directory: Options, Futures, and Other Derivatives
+formatted: 2025-12-20 07:03:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - value at risk
+  - expected shortfall
+secondary_tags:
+  - historical simulation
+  - monte carlo simulation
+  - back testing
 cssclasses: academia
-title: Chapter 22. Value at risk and expected shortfall 492
-linter-yaml-title-alias: Chapter 22. Value at risk and expected shortfall 492
 ---
 
 # Chapter 22. Value at risk and expected shortfall 492

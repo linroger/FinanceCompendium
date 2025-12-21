@@ -1,14 +1,49 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 10 - Evaluating Trading Strategies and Performance
+parent_directory: Financial Trading and Investing
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - trading strategies evaluation
+  - portfolio performance
+  - risk adjusted returns
+secondary_tags:
+  - sharpe ratio
+  - treynor ratio
+  - jensen measure
+  - net asset value
+  - dollar weighted returns
+  - time weighted returns
 cssclasses: academia
-title: "10"
-linter-yaml-title-alias: "10"
 ---
 
 # 10
+
+```d2
+trading strategy evaluation: {
+  shape: flowchart
+  
+  returns: "Measure Returns" {
+    nav: "Net Asset Value"
+    dollar_weighted: "Dollar-Weighted Returns"
+    time_weighted: "Time-Weighted Returns"
+  }
+  
+  risk: "Assess Risk" {
+    volatility: "Portfolio Volatility"
+    beta: "Market Beta"
+  }
+  
+  benchmarks: "Compare to Benchmarks" {
+    sharpe: "Sharpe Ratio"
+    treynor: "Treynor Ratio"
+    jensen: "Jensen Measure"
+  }
+  
+  returns -> risk -> benchmarks
+}
+```
 
 # Evaluating Trading Strategies and Performance
 

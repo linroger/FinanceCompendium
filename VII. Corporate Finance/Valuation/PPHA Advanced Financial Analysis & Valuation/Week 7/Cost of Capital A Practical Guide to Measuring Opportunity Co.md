@@ -1,24 +1,30 @@
 ---
-parent_directory:
-title: Counterpoint Global Insights
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 7
+title: Cost of Capital A Practical Guide to Measuring Opportunity Cost
+formatted: "2025-12-20 07:48:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [cost of capital, weighted average cost of capital, capital asset pricing model, equity risk premium]
+secondary_tags: [risk-free rate, beta estimation, debt cost, capital structure]
 tags:
 aliases:
+  - "Counterpoint Global Insights"
 parent_folder: Week 7
 subfolder:
 key_concepts:
 cssclasses: academia
-linter-yaml-title-alias: Counterpoint Global Insights
+linter-yaml-title-alias: Cost of Capital A Practical Guide to Measuring Opportunity Cost
 ---
 
-# Counterpoint Global Insights
+## Counterpoint Global Insights
 
-# Cost of Capital
+## Cost of Capital
 
-# A Practical Guide to Measuring Opportunity Cost
+## A Practical Guide to Measuring Opportunity Cost
 
 CONSILIENT OBSERVER | February 15, 2023
 
-# Introduction
+## Introduction
 
 Time preference is a core concept in economics and finance. The idea is that most people place greater value on a dollar today than a dollar in the future. Spending money now allows you to consume with certainty. Saving money allows someone else to consume now. The rate of return on your savings compensates you for deferring consumption.
 
@@ -32,7 +38,7 @@ The cost of capital is a measure of both expected return, which takes us from th
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/a714ed59-01d3-453d-97c7-f19f3aef1d4c/a7b41b29aec5ede0c0bf861cbfe946390de1cf014527e70c63b335e28b3078c7.jpg)
 
-# Table of Contents
+## Table of Contents
 
 Introduction 1  
 High-Level View of the Cost of Capital 5  
@@ -58,7 +64,7 @@ Appendix B: Fama-French Three-Factor Model 40
 Definitions of Terms 42  
 Endnotes 43
 
-# Introduction
+## Introduction
 
 The cost of capital varies over time. Periods when the cost of capital is high are followed by periods of returns that are above normal, on average, and a low cost of capital tends to precede subpar returns.[2]
 
@@ -88,7 +94,7 @@ There is not a lot of upside in coming up with a sensible cost of capital but th
 
 Successful investing is ultimately about properly anticipating revisions in expectations about future cash flows. The rate at which those cash flows are discounted is important but is overwhelmed in the long run by getting the cash flows right. We recommend settling on a practical cost of capital and then allocating the bulk of analytical time and attention to thinking about the potential paths of cash flows.
 
-# High-Level View of the Cost of Capital
+## High-Level View of the Cost of Capital
 
 The cost of capital for a company is the opportunity cost for investors in the setting of a diversified portfolio.
 
@@ -154,7 +160,7 @@ Risk can be disaggregated into business risk, which reflects the volatility of a
 
 Some investors prefer to discount cash flows at a required rate of return that reflects the minimum threshold of expected return they want to earn. In cases when that rate of return exceeds the cost of capital, the approach is equivalent to discounting at the cost of capital and insisting on paying a price that is sufficiently less than value.
 
-# Estimating the Cost of Debt
+## Estimating the Cost of Debt
 
 The cost of debt is the effective after-tax rate a company has to pay on its long-term debt.
 
@@ -232,7 +238,7 @@ The combination of cash and marketable securities was \$70.0 billion, and sales 
 
 Estimating the cost of debt is a reasonably straightforward process for most companies. The calculation is more challenging for companies that have debt that is rated below investment grade or substantial leases or other liabilities.
 
-# Estimating the Cost of Equity
+## Estimating the Cost of Equity
 
 The cost of equity is the expected total return on a company's stock.
 
@@ -484,7 +490,7 @@ The cost of equity is an opportunity cost that is implicit and therefore difficu
 
 To summarize this section, we recommend using the 10-year Treasury note as the risk-free rate, an equity risk premium that looks forward, and a 60-month, monthly beta that is adjusted as appropriate. Each calculation is open to debate but this is a good starting point. Estimates for the cost of equity should also be checked by examining other forms of risk priced by the market.
 
-# Weighted Average Cost of Capital
+## Weighted Average Cost of Capital
 
 The weighted average cost of capital (WACC) combines the opportunity cost of the sources of capital with the relative contribution of those sources based on target weights.
 

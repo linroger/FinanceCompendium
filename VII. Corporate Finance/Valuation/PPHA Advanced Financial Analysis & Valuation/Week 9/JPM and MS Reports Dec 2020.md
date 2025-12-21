@@ -1,16 +1,24 @@
 ---
-parent_directory:
-title: Table of Contents
-tags:
-aliases:
-parent_folder: Week 9
-subfolder:
-key_concepts:
+title: "JPM and MS Reports Dec 2020"
+parent_directory: "VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 9"
+formatted: 2025-12-20 11:45:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - zoom video
+  - financial analysis
+  - investment banking
+secondary_tags:
+  - equity research
+  - analyst reports
+  - valuation models
+  - covid impact
 cssclasses: academia
-linter-yaml-title-alias: Table of Contents
 ---
 
-# Table of Contents
+# JPM and MS Reports Dec 2020
+
+## Table of Contents
 
 Rpt. 70957792 ZOOM VIDEO COMMUNICATIONS INC
 
@@ -28,7 +36,7 @@ Rpt. 70957810 ZOOM VIDEO COMMUNICATIONS INC
 
 - MARSHALL, META, ET AL
 
-# Zoom Video
+## Zoom Video
 
 3Q21: Growth Accelerates
 
@@ -39,97 +47,25 @@ Growth accelerated in the October quarter, and the education vertical was once a
 - Issues: Lower gross margins, greater concentration of riskier customer base. (1) Gross margins declined roughly 400bps from last quarter to  $68.2\%$  as the commencement of the school year significantly increased the company's percentage of free users and increased infrastructure build. We expect the lower margin to hold steady into FY22 as free usage remains high in areas like schools for remote learning (not all are free or paid). (2) Revenue contribution from accounts with under 10 employees ticked up to  $38\%$  from  $36\%$  last quarter. We view this customer base as the most likely to be impacted if a vaccine becomes widely available, and could result in higher churn in future quarters.  
 - December 2021 price target is \$450. Our price target is based on our 10-year DCF and FCFF per share analysis.
 
-# Overweight
+## Overweight
 
-ZM, ZM US
+## Software Technology
 
-Price (30 Nov 20): \$478.36
+## Matthew Parron
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/43af39aca9f3a3ae9b07f3758f73ee1279808795faf97f3fa68326920944673b.jpg)
+## Drew E Glaeser
 
-$\triangle$  Price Target (Dec-21):  \$450.00 Prior (Dec-21):\$ 425.00
+## Maya R Kilculen
 
-# Software Technology
+## See page 9 for analyst certification and important disclosures.
 
-Sterling Auty, CFA AC
+## Summary Investment Thesis and Valuation
 
-(1-212) 622-6389
+### Investment Thesis
 
-sterling.auty@jpmorgan.com
+### Valuation
 
-Bloomberg JPMA AUTY<GO>
-
-Jackson E Ader, CFA
-
-(1-212) 622-4863
-
-jackson.e.ader@jpmorgan.com
-
-# Matthew Parron
-
-(1-212) 622-0155
-
-matthew.parron@jpmorgan.com
-
-# Drew E Glaeser
-
-(1-212) 622-8020
-
-drew.e.glaeser@jpmchase.com
-
-# Maya R Kilculen
-
-(1-212) 622-1696
-
-maya.r.kilcullen@jpmorgan.com
-
-J.P. Morgan Securities LLC
-
-Key Changes (FYE Jan)  
-
-<table><tr><td></td><td>Prev</td><td>Cur</td></tr><tr><td>Adj. EPS - 21E ($)</td><td>2.47</td><td>2.90</td></tr><tr><td>Adj. EPS - 22E ($)</td><td>2.62</td><td>2.89</td></tr><tr><td>Revenue - 21E ($ mn)</td><td>2,389</td><td>2,577</td></tr><tr><td>Revenue - 22E ($ mn)</td><td>3,114</td><td>3,527</td></tr></table>
-
-Quarterly Forecasts (FYE Jan)  
-
-<table><tr><td colspan="4">Adj. EPS ($)</td></tr><tr><td></td><td>2020A</td><td>2021E</td><td>2022E</td></tr><tr><td>Q1</td><td>0.03</td><td>0.20A</td><td>0.71</td></tr><tr><td>Q2</td><td>0.08</td><td>0.92A</td><td>0.71</td></tr><tr><td>Q3</td><td>0.09</td><td>0.99A</td><td>0.72</td></tr><tr><td>Q4</td><td>0.15</td><td>0.78</td><td>0.75</td></tr><tr><td>FY</td><td>0.35</td><td>2.90</td><td>2.89</td></tr></table>
-
-Style Exposure  
-
-<table><tr><td rowspan="2">Quant 
-Factors</td><td>Current</td><td colspan="4">Hist %Rank (1=Top)</td></tr><tr><td>%Rank</td><td>6M</td><td>1Y</td><td>3Y</td><td>5Y</td></tr><tr><td>Value</td><td>87</td><td>87</td><td>89</td><td></td><td></td></tr><tr><td>Growth</td><td>17</td><td>43</td><td>51</td><td></td><td></td></tr><tr><td>Momentum</td><td>1</td><td>2</td><td>2</td><td></td><td></td></tr><tr><td>Quality</td><td>24</td><td>33</td><td>56</td><td>85</td><td>79</td></tr><tr><td>Low Vol</td><td>71</td><td>72</td><td>86</td><td></td><td></td></tr></table>
-
-Sources for: Style Exposure - J.P. Morgan Quantitative and Derivatives Strategy; all other tables are company data and J.P. Morgan estimates.
-
-# See page 9 for analyst certification and important disclosures.
-
-J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/4b63afe85e71b2e5a9a1d292d1ce2c1eab7c82113cd72fb61c7aa01bae79f195.jpg)  
-Price Performance
-
-Company Data  
-
-<table><tr><td>Shares O/S (mn)</td><td>300</td></tr><tr><td>52-week range ($)</td><td>588.84-62.02</td></tr><tr><td>Market cap ($ mn)</td><td>143,535.80</td></tr><tr><td>Exchange rate</td><td>1.00</td></tr><tr><td>Free float(%)</td><td>94.8%</td></tr><tr><td>3M - Avg daily vol (mn)</td><td>11.87</td></tr><tr><td>3M - Avg daily val ($ mn)</td><td>5,346.2</td></tr><tr><td>Volatility (90 Day)</td><td>95</td></tr><tr><td>Index</td><td>S&amp;P 500</td></tr><tr><td>BBG BUY|HOLD|SELL</td><td>12|14|4</td></tr></table>
-
-Key Metrics (FYE Jan)  
-
-<table><tr><td>$ in millions</td><td>FY20A</td><td>FY21E</td><td>FY22E</td><td>FY23E</td></tr><tr><td>Financial Estimates</td><td></td><td></td><td></td><td></td></tr><tr><td>Revenue</td><td>623</td><td>2,577</td><td>3,527</td><td>4,393</td></tr><tr><td>Adj. EBIT</td><td>89</td><td>867</td><td>923</td><td>1,188</td></tr><tr><td>Adj. EBITDA</td><td>29</td><td>570</td><td>570</td><td>801</td></tr><tr><td>Adj. net income</td><td>101</td><td>868</td><td>906</td><td>969</td></tr><tr><td>Adj. EPS</td><td>0.35</td><td>2.90</td><td>2.89</td><td>2.97</td></tr><tr><td>BBG EPS</td><td>2.46</td><td>2.59</td><td>-</td><td>-</td></tr><tr><td>Cashflow from operations</td><td>152</td><td>1,271</td><td>1,341</td><td>1,754</td></tr><tr><td>FCFF</td><td>114</td><td>1,174</td><td>1,221</td><td>1,622</td></tr><tr><td>Margins and Growth</td><td></td><td></td><td></td><td></td></tr><tr><td>Revenue growth</td><td>88.4%</td><td>313.8%</td><td>36.9%</td><td>24.6%</td></tr><tr><td>EBIT margin</td><td>14.2%</td><td>33.7%</td><td>26.2%</td><td>27.0%</td></tr><tr><td>EBIT growth</td><td>486.9%</td><td>878.3%</td><td>6.4%</td><td>28.7%</td></tr><tr><td>EBITDA margin</td><td>4.7%</td><td>22.1%</td><td>16.2%</td><td>18.2%</td></tr><tr><td>EBITDA growth</td><td>(19.0%)</td><td>1854.4%</td><td>0.0%</td><td>40.5%</td></tr><tr><td>Net margin</td><td>16.3%</td><td>33.7%</td><td>25.7%</td><td>22.1%</td></tr><tr><td>Adj. EPS growth</td><td>446.6%</td><td>735.6%</td><td>(0.4%)</td><td>2.8%</td></tr><tr><td>Ratios</td><td></td><td></td><td></td><td></td></tr><tr><td>Adj. tax rate</td><td>1.0%</td><td>1.3%</td><td>6.0%</td><td>21.0%</td></tr><tr><td>Interest cover</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td></tr><tr><td>Net debt/Equity</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td></tr><tr><td>Net debt/EBITDA</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td></tr><tr><td>ROE</td><td>20.5%</td><td>67.5%</td><td>41.4%</td><td>31.0%</td></tr><tr><td>Valuation</td><td></td><td></td><td></td><td></td></tr><tr><td>FCFF yield</td><td>0.1%</td><td>0.8%</td><td>0.8%</td><td>1.0%</td></tr><tr><td>Dividend yield</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>EV/Revenue</td><td>99.8</td><td>23.9</td><td>17.1</td><td>13.4</td></tr><tr><td>EV/EBITDA</td><td>2,132.5</td><td>108.0</td><td>105.9</td><td>73.3</td></tr><tr><td>Adj. P/E</td><td>1,379.1</td><td>165.0</td><td>165.8</td><td>161.3</td></tr></table>
-
-# Summary Investment Thesis and Valuation
-
-# Investment Thesis
-
-Zoom is fundamentally changing how professionals communicate through the use of its video-first collaboration platform. This is a \$40B TAM that Zoom is penetrating at a rapid rate, as shown by one of the most attractive financial profiles seen in all of software at this stage of the company's lifecycle. The large market, combined with a technological competitive advantage and best-in-class growth profile, underscores our Overweight rating.
-
-# Valuation
-
-Our Dec 2021 \$450 price target is based on our 10-year DCF (FCFF/share) analysis.
-
-Performance Drivers  
-
-<table><tr><td>Market</td><td>0%</td><td></td><td></td></tr><tr><td>Sector</td><td>8%</td><td></td><td></td></tr><tr><td>Macro</td><td>10%</td><td></td><td></td></tr><tr><td>Style</td><td>8%</td><td></td><td></td></tr><tr><td>Idiosyn.</td><td></td><td></td><td>83%</td></tr><tr><td>Factors</td><td></td><td>6M Corr</td><td>1Y Corr</td></tr><tr><td>Market: MSCI US</td><td></td><td>0.06</td><td>0.02</td></tr><tr><td>Sect: Technology</td><td></td><td>0.33</td><td>0.22</td></tr><tr><td>Ind: Software &amp; Serv</td><td></td><td>0.26</td><td>0.18</td></tr><tr><td>Macro:</td><td></td><td></td><td></td></tr><tr><td>US 10yr yield</td><td></td><td>-0.14</td><td>-0.21</td></tr><tr><td>Crude Oil</td><td></td><td>0.13</td><td>-0.21</td></tr><tr><td>US 10yr Breakeven</td><td></td><td>-0.19</td><td>-0.14</td></tr><tr><td>Quant Styles:</td><td></td><td></td><td></td></tr><tr><td>Value</td><td></td><td>-0.36</td><td>-0.27</td></tr><tr><td>Momentum</td><td></td><td>0.21</td><td>0.16</td></tr><tr><td>Growth</td><td></td><td>0.07</td><td>0.14</td></tr></table>
-
-# Estimate Reconciliation
+### Estimate Reconciliation
 
 Table 1: New vs. Old Estimates  
 
@@ -150,53 +86,23 @@ Table 3: Actual 3Q21 Results vs. JPM Estimates and Consensus
 Source: Company reports, J.P. Morgan estimates, Street Account and Bloomberg Finance L.P.  
 Note: EPS variances may not sum to total due to rounding.
 
-# Investment Thesis, Valuation and Risks
+## Investment Thesis, Valuation and Risks
 
-Zoom Video Communications (Overweight; Price Target: \$450.00)
+### Investment Thesis
 
-# Investment Thesis
+#### Technological advantages that are hard to overcome
 
-Zoom is fundamentally changing how professionals communicate through the use of its video-first collaboration platform. This is a  \$40B TAM that Zoom is penetrating at a rapid rate, as shown by one of the most attractive financial profiles seen in all of software at this stage of the company's lifecycle. Traditionally, the video collaboration market has had 10-15M users globally, but the ease of Zoom's solutions we see expanding that market dramatically into the broader 400M estimated knowledge workers. The\$ 40B TAM only needs to see that penetration get to roughly one-third. The large market, combined with a technological competitive advantage and best-in-class growth profile, underscores our Overweight rating.
+### Valuation
 
-# Technological advantages that are hard to overcome
+### Risks to Rating and Price Target
 
-The core architecture at Zoom utilizes a completely different approach to the routing and media processing that we believe will be costly and time consuming to replicate by existing vendors. In addition, the solution was developed with modern security policies in mind such that connecting and using the product are seamless. This has created very high user satisfaction for which feedback around Zoom is typically described as "it just works," something that has been missing from competitive solutions. We believe that existing vendors likely suffer from what is known as the innovator's dilemma and are unlikely to match Zoom's capability in the foreseeable future.
+#### Monthly churn
 
-# Valuation
+#### Revenue declines post COVID-19
 
-December 2021 price target \$450, up from \$425
+#### Microsoft gives away product and/or improves Skype/Teams
 
-We use a 10-year discounted cash flow (DCF) analysis to value shares of ZM. Although Zoom currently generates free cash flow and our expectations are for continued positive generation in the coming years, the financial model is far from its maturity, and so a multiples-based valuation approach would not be appropriate, in our opinion. We assume a 26x terminal EV/FCFF multiple and a  $9.5\%$  discount rate to arrive at our price target.
-
-The main driver of our price target increase is the significant pull-forward of revenue and cash flow generation due to the surge in remote working, which leads to big increases in our nearand long-term cash flow estimates.
-
-Discounted cash flow analysis  
-
-<table><tr><td></td><td>FY2019</td><td>FY2020E</td><td>FY2021E</td><td>FY2022E</td><td>FY2023E</td><td>FY2024E</td><td>FY2025E</td><td>FY2026E</td><td>FY2027E</td><td>FY2028E</td><td>FY2029E</td><td>FY2030E</td><td>FY2031E</td><td>FY2032E</td></tr><tr><td>FCFF</td><td>20.9</td><td>113.8</td><td>1,174.0</td><td>1,220.7</td><td>1,622.3</td><td>2,141.4</td><td>2,783.8</td><td>3,563.3</td><td>4,489.8</td><td>5,567.3</td><td>6,792.1</td><td>8,218.5</td><td>9,862.2</td><td>11,736.0</td></tr><tr><td>Growth</td><td>116%</td><td>445%</td><td>932%</td><td>4%</td><td>33%</td><td>32%</td><td>30%</td><td>28%</td><td>26%</td><td>24%</td><td>22%</td><td>21%</td><td>20%</td><td>19%</td></tr><tr><td>Fully diluted shares</td><td>272.8</td><td>292.8</td><td>306.0</td><td>318.7</td><td>331.7</td><td>338.3</td><td>345.1</td><td>352.0</td><td>359.0</td><td>366.2</td><td>373.5</td><td>381.0</td><td>388.6</td><td>396.4</td></tr><tr><td>Y/Y change</td><td></td><td></td><td></td><td></td><td></td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td></tr><tr><td>Period</td><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Present value of FCFF</td><td></td><td></td><td></td><td></td><td>1,481.7</td><td>1,786.4</td><td>2,121.1</td><td>2,479.8</td><td>2,853.8</td><td>3,232.1</td><td>3,601.5</td><td>3,980.2</td><td>4,362.4</td><td>4,741.5</td></tr><tr><td>FCFF/Share</td><td></td><td></td><td></td><td></td><td>4.9</td><td>6.3</td><td>8.1</td><td>10.1</td><td>12.5</td><td>15.2</td><td>18.2</td><td>21.6</td><td>25.4</td><td>29.6</td></tr><tr><td>Y/Y change</td><td></td><td></td><td></td><td></td><td></td><td>29.4%</td><td>27.5%</td><td>25.5%</td><td>23.5%</td><td>21.6%</td><td>19.6%</td><td>18.6%</td><td>17.6%</td><td>16.7%</td></tr><tr><td>Present Value of FCFF/Share</td><td></td><td></td><td></td><td></td><td>$4.47</td><td>$5.28</td><td>$6.15</td><td>$7.05</td><td>$7.95</td><td>$8.83</td><td>$9.64</td><td>$10.45</td><td>$11.23</td><td>$11.96</td></tr></table>
-
-Source: Company reports and J.P. Morgan estimates.
-
-Terminal multiple scenarios  
-
-<table><tr><td colspan="5">Terminal multiple scenarios</td></tr><tr><td>Terminal value</td><td>334.9</td><td>362.8</td><td>390.8</td><td>418.7</td></tr><tr><td>Last forecasted FCFF</td><td>29.6</td><td>29.6</td><td>29.6</td><td>29.6</td></tr><tr><td>Terminal EV/FCFF multiple</td><td>24</td><td>26</td><td>28</td><td>30</td></tr><tr><td>Total present value of FCFF</td><td>83.0</td><td>83.0</td><td>83.0</td><td>83.0</td></tr><tr><td>Terminal value</td><td>334.9</td><td>362.8</td><td>390.8</td><td>418.7</td></tr><tr><td>Total enterprise value</td><td>417.9</td><td>445.8</td><td>473.8</td><td>501.7</td></tr><tr><td>- debt</td><td></td><td></td><td></td><td></td></tr><tr><td>+ CY21 excess cash</td><td>6.6</td><td>6.6</td><td>6.6</td><td>6.6</td></tr><tr><td>= Price per share</td><td>$ 424.55</td><td>$ 452.47</td><td>$ 480.38</td><td>$ 508.29</td></tr><tr><td>/ shares outstanding</td><td>318.7</td><td>318.7</td><td>318.7</td><td>318.7</td></tr><tr><td>Based on 2023E</td><td></td><td></td><td></td><td></td></tr><tr><td>Implied EV / Sales</td><td>30.3</td><td>32.3</td><td>34.4</td><td>36.4</td></tr></table>
-
-Source: Company reports and J.P. Morgan estimates.
-
-# Risks to Rating and Price Target
-
-# Monthly churn
-
-The blended monthly customer churn is approximately  $1.7\%$ . That is made up of customers with less than 10 employees that churn at  $\sim 4\%$  or higher and customers with less than 10 employees that have monthly churn of less than  $1\%$ . If churn increases it makes it more difficult to deliver on growth expectations, and shares could suffer.
-
-# Revenue declines post COVID-19
-
-Based on the churn information in the risk above it opens the possibility that after COVID-19 we see a portion of the under 10 employee customer group churn off and actually take down revenue. This group is now  $36\%$  of total. If that happens we would expect the stock to react negatively.
-
-# Microsoft gives away product and/or improves Skype/Teams
-
-We see the primary long-term competition for Zoom coming from Microsoft, which has the most significant enterprise presence and the ability to penetrate customers through the use of Office 365. But currently Microsoft has two video collaboration platforms, Skype for Business and Microsoft Teams, making it confusing for the market. If the company is able to consolidate and improve the technology to make it easier to use for both internal and external use cases, along with bundling the solution as part of existing Office 365 subscriptions, it could create a challenging competitive dynamic.
-
-# Valuation is a risk if market corrects
+#### Valuation is a risk if market corrects
 
 The stock currently trades at an EV/sales multiple of  $30\mathrm{x}+$ , one of the most expensive in all of software, putting the stock in a small group of hyper-premium-valued companies that includes ZS, TEAM, OKTA, ESTC, and MDB. These stocks saw declines of  $30\%+$  during the market correction that started in September 2018. It is likely that Zoom could see a similar type of reaction if there is another market correction in software.
 
@@ -222,57 +128,13 @@ Analyst Certification: The Research Analyst(s) denoted by an "AC" on the cover o
 
 All authors named within this report are Research Analysts unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.
 
-# Important Disclosures
+## Important Disclosures
 
-- Market Maker/Liquidity Provider: J.P. Morgan is a market maker and/or liquidity provider in the financial instruments of/related to Zoom Video.  
-- Client: J.P. Morgan currently has, or had within the past 12 months, the following entity(ies) as clients: Zoom Video.  
-- Investment Banking (next 3 months): J.P. Morgan expects to receive, or intends to seek, compensation for investment banking services in the next three months from Zoom Video.  
-- Debt Position: J.P. Morgan may hold a position in the debt securities of Zoom Video, if any.
+## Explanation of Equity Research Ratings, Designations and Analyst(s) Coverage Universe:
 
-Company-Specific Disclosures: Important disclosures, including price charts and credit opinion history tables, are available for compendium reports and all J.P. Morgan-covered companies by visiting https://www.jpmm.com/research/disclosures, calling 1-800-477-0406, or e-mailing research.dDisclosure.inquiries@jpmorgan.com with your request. J.P. Morgan's Strategy, Technical, and Quantitative Research teams may screen companies not covered by J.P. Morgan. For important disclosures for these companies, please call 1-800-477-0406 or e-mail research.dDisclosure.inquiries@jpmorgan.com.
+## Other Disclosures
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/381ba5212a828574292ec1927d1bd9b40e6ef026868d30dd46a3b3d133c41c27.jpg)  
-Source: Bloomberg Finance L.P. and J.P. Morgan; price data adjusted for stock splits and dividends. Initiated coverage May 13, 2019. All share prices are as of market close on the previous business day.
-
-<table><tr><td>Date</td><td>Rating</td><td>Price ($)</td><td>Price Target ($)</td></tr><tr><td>13-May-19</td><td>OW</td><td>79.63</td><td>113</td></tr><tr><td>06-Sep-19</td><td>OW</td><td>92.69</td><td>125</td></tr><tr><td>05-Mar-20</td><td>OW</td><td>116.80</td><td>150</td></tr><tr><td>03-Jun-20</td><td>OW</td><td>208.08</td><td>220</td></tr><tr><td>31-Aug-20</td><td>OW</td><td>299.27</td><td>425</td></tr></table>
-
-The chart(s) show J.P. Morgan's continuing coverage of the stocks; the current analysts may or may not have covered it over the entire period.
-
-J.P. Morgan ratings or designations:  $\mathrm{OW} =$  Overweight,  $\mathbf{N} =$  Neutral,  $\mathrm{UW} =$  Underweight,  $\mathrm{NR} =$  Not Rated
-
-# Explanation of Equity Research Ratings, Designations and Analyst(s) Coverage Universe:
-
-J.P. Morgan uses the following rating system: Overweight [Over the next six to twelve months, we expect this stock will outperform the average total return of the stocks in the analyst's (or the analyst's team's) coverage universe.] Neutral [Over the next six to twelve months, we expect this stock will perform in line with the average total return of the stocks in the analyst's (or the analyst's team's) coverage universe.] Underweight [Over the next six to twelve months, we expect this stock will underperform the average total return of
-
-the stocks in the analyst's (or the analyst's team's) coverage universe.] Not Rated (NR): J.P. Morgan has removed the rating and, if applicable, the price target, for this stock because of either a lack of a sufficient fundamental basis or for legal, regulatory or policy reasons. The previous rating and, if applicable, the price target, no longer should be relied upon. An NR designation is not a recommendation or a rating. In our Asia (ex-Australia and ex-India) and U.K. smalland mid-cap equity research, each stock's expected total return is compared to the expected total return of a benchmark country market index, not to those analysts' coverage universe. If it does not appear in the Important Disclosures section of this report, the certifying analyst's coverage universe can be found on J.P. Morgan's research website, www.jpmorganmarkets.com.
-
-Coverage Universe: Auty, Sterling P: Adobe Inc (ADBE), Akamai Technologies, Inc. (AKAM), Autodesk (ADSK), Avalara (AVLR), Check Point Software (CHKP), Cloudflare (NET), CoStar Group (CSGP), CrowdStrike (CRWD), CyberArk (CYBR), Datadog (DDOG), DocuSign (DOCU), Duck Creek (DCT), Dynatrace (DT), Everbridge (EVBG), FireEye (FEYE), Five9 (FIVN), Fortinet, Inc (FTNT), GoDaddy Inc (GDDY), Guidewire Software (GWRE), Intuit (INTU), JFrog (FROG), Jamf (JAMF), LivePerson (LPSN), Mime, New Relic (NEWR), Okta (OKTA), PTC Inc (PTC), PagerDuty (PD), Palo Alto Networks (PANW), Pluralsight (PS), Q2 Holdings Inc. (QTWO), Qualys (QLYS), RealPage (RP), RingCentral (RNG), Sapiens (SPNS), SecureWorks (SCWX), ServiceNow (NOW), SolarWinds (SWI), Tenable (TENB), Tufin Software (TUFN), Varonis Systems (VRNS), Veeva Systems (VEEV), VeriSign (VRSN), Vonage (VG), Wix.com (WIX), Zoom Video (ZM), ZScaler (ZS)
-
-J.P. Morgan Equity Research Ratings Distribution, as of October 10, 2020  
-
-<table><tr><td></td><td>Overweight (buy)</td><td>Neutral (hold)</td><td>Underweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage</td><td>47%</td><td>39%</td><td>14%</td></tr><tr><td>IB clients*</td><td>52%</td><td>49%</td><td>37%</td></tr><tr><td>JPMS Equity Research Coverage</td><td>46%</td><td>40%</td><td>14%</td></tr><tr><td>IB clients*</td><td>75%</td><td>70%</td><td>55%</td></tr></table>
-
-*Percentage of subject companies within each of the "buy," "hold" and "sell" categories for which J.P. Morgan has provided investment banking services within the previous 12 months. Please note that the percentages might not add to  $100\%$  because of rounding.  
-For purposes only of FINRA ratings distribution rules, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category. Please note that stocks with an NR designation are not included in the table above. This information is current as of the end of the most recent calendar quarter.
-
-Equity Valuation and Risks: For valuation methodology and risks associated with covered companies or price targets for covered companies, please see the most recent company-specific research report at http://www.jpmorganmarkets.com, contact the primary analyst or your J.P. Morgan representative, or email research.dDisclosure.inquiries@jpmorgan.com. For material information about the proprietary models used, please see the Summary of Financials in company-specific research reports and the Company Tears sheets, which are available to download on the company pages of our client website, http://www.jpmorganmarkets.com. This report also sets out within it the material underlying assumptions used.
-
-Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.
-
-# Other Disclosures
-
-J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.  
-All research material made available to clients are simultaneously available on our client website, J.P. Morgan Markets, unless specifically permitted by relevant laws. Not all research content is redistributed, e-mailed or made available to third-party aggregators. For all research material available on a particular stock, please contact your sales representative.  
-Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR, (China); Taiwan, (China); and Macau SAR, (China).  
-Options and Futures related research: If the information contained herein regards optionsor futures-related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or http://www.finra.org/sites/default/files/Security_Futures_Risk_DisclosureStatement_2018.pdf for a copy of the Security Futures Risk Disclosure Statement.
-
-Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank Offered_Rates
-
-Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries ("J.P. Morgan Private Bank"), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.
-
-Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below, this material has been distributed by the legal entity responsible for production. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.
-
-# Legal Entities Disclosures and Country-/Region-Specific Disclosures:
+## Legal Entities Disclosures and Country-/Region-Specific Disclosures:
 
 Argentina: JPMorgan Chase Bank N.A. Sucursal Buenos Aires is regulated by Banco Central de la Republica Argentina ("BCRA"-Central Bank of Argentina) and Comisión Nacional de Valores ("CNV"-Argentinian Securities Commission" - ALYC y AN Integral  $\mathbf{N}^{\circ}51)$  . Australia: J.P. Morgan Securities Australia Limited ("JPMSAL") (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market, Clearing and Settlement Participant of ASX Limited and CHI-X. This material is issued and distributed in Australia by or on behalf of JPMSAL only to "wholesale clients" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia's Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy. Brazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil. Ombudsman J.P. Morgan: 0800-7700847 / ouvidoria.jp.morgan@jpmorgan.com. Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Investment Industry Regulatory Organization of Canada and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P.Morgan Securities Canada Inc.China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business. Dubai: JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed to persons regarded as professional clients or market counterparties as defined under the DFSA rules. Germany: This material is distributed in Germany by J.P. Morgan Securities plc, Frankfurt Branch, which is regulated by the Bundesanstalt für Finanzdienstleistungsaufsich and also by J.P. Morgan AG ("JPM AG"), which is a member of the Frankfurt Stock Exchange, is authorised by the European Central Bank ("ECB") and is regulated by the Federal Financial Supervisory Authority (BaFin), JPM AG is a company incorporated in the Federal Republic of Germany with a registered office at Taunistor 1, 60310 Frankfurt am Main, the Federal Republic of Germany. Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. JP Morgan Chase Bank, N.A., Hong Kong is organized under the laws of the United States with limited liability. India: J.P. Morgan India Private Limited (Corporate Identity Number - U67120MH1992FTC068724), having its registered office at J.P. Morgan Tower, Off.C.S.T.Road, Kalina, Santacruz - East, Mumbai - 400098, is registered with the Securities and Exchange Board of India (SEBI) as a 'Research Analyst' having registration number INH000001873. J.P. Morgan India Private Limited is also registered with SEBI as a member of the National Stock Exchange of India Limited and the Bombay Stock Exchange Limited (SEBI Registration Number - INZ000239730) and as a Merchant Banker (SEBI Registration Number - MB/INM000002970). Telephone: 91-22-6157 3000, Facsimile: 91-22-6157 3990 and Website: www.jpmipl.com For non-local research material, this material is not distributed in India by J.P. Morgan India Private Limited. Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is regulated by the OJK a.k.a. BAPEPAM LK. Korea: This material is issued and distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch, which is a member of the Korea Exchange (KRX) and is regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan. Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146-X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia. Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V.and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission. New Zealand: This material is issued and distributed by JPMSAL in New Zealand only to "wholesale clients" (as defined in the Financial
 
@@ -286,89 +148,13 @@ securities discussed, unless otherwise stated. Past performance is not indicativ
 
 Copyright 2020 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan.
 
-# Zoom Video Communications Inc | North America
+## Zoom Video Communications Inc | North America
 
-# FQ3 a Cool Virtual Background, But Focus Remains on What Post-COVID Room Looks Like
+### FQ3 a Cool Virtual Background, But Focus Remains on What Post-COVID Room Looks Like
 
-Stock Rating
+#### What we liked in FQ3:
 
-Equal-weight
-
-Industry View
-
-In-Line
-
-$\odot$  Price Target
-
-\$380.00
-
-ZM beat Street expectations, accelerating Y/Y growth in FQ3. Current WFH/virtual school environment masks investor Q's of what post-COVID growth looks like. Plenty of runway for growth given  $\$ 100$ bn+ TAM, but we expect valuation to trade between base / bull case in near term, keeping us EW.
-
-<table><tr><td rowspan="2">WHAT&#x27;S 
-CHANGED?</td><td>Zoom Video Communications Inc 
-(ZM.O)</td><td>From:</td><td>To:</td></tr><tr><td>Price Target</td><td>$350.00</td><td>$380.00</td></tr></table>
-
-Vaccine news draws investor attention to a post-COVID world. As we noted in our recent Debate Series, Zoom has put themselves in a leadership position in a largely untapped \(100bn+ UC opportunity, something built into valuation today in our view. As noted, in order to see upside from our bull case, where Zoom had been trading at and beyond pre-vaccine news, Zoom would have to expand outside of the UC market, something we thought unlikely in the near term given the early days they were at on the UC opportunity (<20mm paid subscribers out of a 500-700mm user market). While Zoom posted a meaningful beat in FQ3, growing \(367\%\) Y/Y, an acceleration from \(355\%\) in FQ2, post-FQ3 movement likely to be driven by what the post-COVID world looks like vs. how strong adds are today. As a result, focus was more on commentary around FY22 and what the post-COVID work environment looks like, something Zoom noted it is still too early to know. Given unknown environment, but that at least hybrid a major part of that discussion for now, we would expect ZM to trade between our base / bull cases for now. We could prove too conservative if post-COVID world stays more heavily WFH than expected.
-
-# What we liked in FQ3:
-
-- Adding large customers faster. ZM reported 1,289 customers contributing more than \(100K in TTM revenue, up 136% Y/Y and 30% sequentially. While ZM has shown the company's ability to win in the video conferencing / UC landscape over the past few quarters, we were encouraged by the continued trend in this metric, signaling ZM's success in moving up-market and into Global 2K companies. This remains a large opportunity, given only 12% generate more than \(\$ 100K\)ARR vs. \(54 \%\)at \(\$ 1\mathsf{K}+\).
-
-MORGAN STANLEY & CO. LLC
-
-Meta A Marshall
-
-EQUITY ANALYST
-
-Meta.Marshall@morganstanley.com +1 212 761-0430
-
-Keith Weiss, CFA
-
-EQUITY ANALYST
-
-Keith.Weiss@morganstanley.com +1 212 761-4149
-
-Erik Lapinski
-
-RESEARCH ASSOCIATE
-
-Erik.Lapinski@morganstanley.com
-
-Karan Juvekar
-
-RESEARCH ASSOCIATE
-
-Karan.Juvekar@morganstanley.com +1-212-761-9817
-
-Zoom Video Communications Inc (ZM.0, ZM US)  
-Software/United States of America  
-
-<table><tr><td>Stock Rating</td><td>Equal-weight</td></tr><tr><td>Industry View</td><td>In-Line</td></tr><tr><td>Price target</td><td>\$380.00</td></tr><tr><td>Shr price, close (Nov 30, 2020)</td><td>\$478.36</td></tr><tr><td>Mkt cap, curr (mm)</td><td>\$145,758</td></tr><tr><td>52-Week Range</td><td>\$588.84-62.02</td></tr></table>
-
-<table><tr><td>Fiscal Year Ending</td><td>01/20</td><td>01/21e</td><td>01/22e</td><td>01/23e</td></tr><tr><td>ModelWare EPS ($)</td><td>0.09</td><td>1.85</td><td>0.67</td><td>(0.14)</td></tr><tr><td>EPS ($)**</td><td>0.35</td><td>2.86</td><td>2.56</td><td>2.56</td></tr></table>
-
-Unless otherwise noted, all metrics are based on Morgan Stanley ModelWare framework  
-\*\* = Based on consensus methodology  
-$e =$  Morgan Stanley Research estimates
-
-QUARTERLY EPS ($)  
-
-<table><tr><td>Quarter</td><td>2020</td><td>2021e 
-Prior</td><td>2021e 
-Current</td><td>2022e 
-Prior</td><td>2022e 
-Current</td></tr><tr><td>Q1</td><td>0.03</td><td>-</td><td>0.20a</td><td>0.52</td><td>0.61</td></tr><tr><td>Q2</td><td>0.08</td><td>-</td><td>0.92a</td><td>0.48</td><td>0.63</td></tr><tr><td>Q3</td><td>0.09</td><td>-</td><td>0.99a</td><td>0.48</td><td>0.67</td></tr><tr><td>Q4</td><td>0.15</td><td>0.61</td><td>0.78</td><td>0.47</td><td>0.68</td></tr></table>
-
-e = Morgan Stanley Research estimates, a = Actual Company reported data
-
-Morgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.
-
-For analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.
-
-- Net expansion continues trend despite large base. With  $19\%$  of ZM's growth in FQ3 coming from existing customers, implied net expansion was  $\sim 170\%$  in the quarter. This is an acceleration from last quarter and we believe this remains an encouraging trend for ZM's ability to continue growth even as new customer adds slow post-COVID, with addition of Phone or Rooms.  
-- Zoom Phone traction. Zoom Phone continues to gain momentum in international expansion (up to 44 markets) and notable customer references, with Rakuten recently expanding into the product globally. It was the fastest growing product for Zoom in the quarter, and has seen traction within all segments from the SMB side as well as up to enterprise, with the company noting addition of their largest customer yet (a previous video customer). We believe strong traction shows the competitiveness of the product vs. other cloud UC vendors and expect Phone to be a strong contributor to results in FY22.
-
-# What we are watching:
+#### What we are watching:
 
 - Smaller customers increasingly larger contributor to results. Revenue from customers with 10 or fewer customers expanded 200bps sequentially to  $38\%$  of revenue. We continue to expect elevated churn in the SMB segment as WFH related dynamics subside, especially if macro conditions take longer to recover than expected, adding potential risk. We continue to keep our eye on SMB contribution / churn moving forward.  
 - Gross margin trajectory. Zoom reported FQ3'21 gross margins of  $68.2\%$ , a step down sequentially from  $72.3\%$ . The sequential downtick was due to the increased usage of free services on the platform, particularly with education (125K K-12 institutions). We will continue to track Zoom's gross margin trajectory and specifically longer-term impacts of potentially lasting free usage. We would look to monetization potential in "prosummer" offerings to be more positive on margin trajectory if free usage remained for a longer period of time.  
@@ -380,232 +166,55 @@ Non-GAAP gross margins of 68.2% contracted Y/Y and sequentially as free usage of
 
 Remain EW, roll forward PT and raise to \$380 (from \$350). We rolling forward our PT a year as the year comes to a close. As a result, our PT increases to \$380 (from \$350), which represents ~29x EV/FY23e Revenue or 28x EV/discounted FY32e FCF (in-line with current trading levels of software peers, 10-yr model assumes beats to published model). We believe that while COVID keeps video conferencing as a critical piece of employee connectivity, valuation is likely to remain closer to our bull case. Our bull case moves to \$530 (from \$500) and represents 31x EV/FY23e Rev or 29x EV/discounted FY32e FCF. Our bear case also increases to \$250 (from \$210), which represents 19x EV/FY23e Revenue or 27x EV/discounted FY32e FCF. Risks to valuation remain macro headwinds, competitive efforts, COVID-19 vaccine causes a return to work/school.
 
-# Risk Reward – Zoom Video Communications Inc (ZM.O)
+### Risk Reward – Zoom Video Communications Inc (ZM.O)
 
-Bull Case Requires Permanence to WFH Post COVID
+#### PRICE TARGET \$380.00
 
-# PRICE TARGET \$380.00
+#### EQUAL-WEIGHT THESIS
 
-Our valuation methodology is based on a 10-Year and 15-Year Modified DCF. We apply an EV/FCF multiple to FY33e FCF and discount nine years at a  $\sim 8\%$  WACC, resulting in our one year forward price target of \$380. This is also validated by a 15-Year DCF valuation.
+#### Risk Reward Themes
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/e8c9e8e1679f2b1a25036f9b90fe81c7248cf7c86c477204cbde6bcc5a172aac.jpg)  
-RISK REWARD CHART AND OPTIONS IMPLIED PROBABILITIES (12M)
+##### BULL CASE
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/d2073ccae7add4eb8c49b3ddb8fd6364bed3f6136964fb99fc71ce77133e9377.jpg)  
-Key: Historical Stock Performance  $\odot$  Current Stock Price  $\spadesuit$  Price Target
+##### \$530.00
 
-Source: Thomson Reuters, Morgan Stanley Research, Morgan Stanley Institutional Equities Division. The probabilities of our Bull, Base, and Bear case scenarios playing out were estimated with implied volatility data from the options market as of 30 Nov, 2020. All figures are approximate risk-neutral probabilities of the stock reaching beyond the scenario price in either three-months' or one-years' time. View explanation of Options Probabilities methodology, here
+##### 29x Discounted FY33 FCF / 31x bull EV/FY23e Rev
 
-# EQUAL-WEIGHT THESIS
+##### BASE CASE
 
-- Zoom eliminates barriers to video conferencing growth  
-Company has meaningful competitive moat built on more than just architecture  
-Leveraging position with customers to be center of UC platform  
-■ WFH has permanence, but diminishes post COVID  
-Valuation credits significant expansion opportunities in broader unified communications landscape, supported by initial Phone execution
+##### 28x Discounted FY33 FCF / 29x base EV/FY23e Rev
 
-Consensus Rating Distribution  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/953cc88c2cb3fbd4c9cc013f2209ddf58bc996a786b180743e15f6939398214c.jpg)  
-MS Rating  
-Source: Thomson Reuters, Morgan Stanley Research
+##### \$380.00
 
-# Risk Reward Themes
+##### BEAR CASE
 
-Secular Growth:
+##### \$250.00
 
-Positive
-
-Share Gain:
-
-Positive
-
-View descriptions of Risk Rewards Themes, here
-
-# BULL CASE
-
-# \$530.00
-
-# 29x Discounted FY33 FCF / 31x bull EV/FY23e Rev
-
-Becomes default UC platform, no pricing pressure. Able to maintain  $\sim 40\%$  CAGR for next five years (post-COVID) driven by investments in S&M and success of new products like Phone (~50% attach rates) and rapidly expanding the addressable market. Quickly shows permanent operating margin excess, on path to  $\sim 40\%$  potential as S&M efficiency remains market leading. Our 29x EV/FCF multiple in FY2033 is roughly in-line with peers on our bull case assumptions.
-
-# BASE CASE
-
-# 28x Discounted FY33 FCF / 29x base EV/FY23e Rev
-
-Becomes default UC platform,  $\sim 35\%$  attach rate in Phone. Able to maintain  $\sim 35\%$  CAGR over next five years post-COVID as investments in S&M show traction and Phone product sees some success ( $\sim 10 - 25\%$  attach rates), expanding ARPU. Little monetization of additional markets, though faster recognition of core UC market. Shows margin leverage in early years, but able to attain  $\sim 35\%$  operating margins in long term. Our 28x EV/FCF multiple in FY2033 is generally in-line with peers (discounted back).
-
-# \$380.00
-
-# BEAR CASE
-
-# \$250.00
-
-# 27x Discounted FY33 FCF / 19x EV/FY23e Rev
+##### 27x Discounted FY33 FCF / 19x EV/FY23e Rev
 
 Large competitor introduces refreshed portfolio at compelling price point, dents Zoom's growth. Zoom's growth performs to Street model with little upside as sales environment becomes more competitive with refreshed offerings from large vendors. Sees pricing pressure as a result of competition, limiting margin leverage. Our 27x EV/FCF multiple in FY2033 is slightly below peers on bear case assumptions (discounted back).
 
-# Risk Reward – Zoom Video Communications Inc (ZM.O)
+#### Risk Reward – Zoom Video Communications Inc (ZM.O)
 
-KEY EARNINGS INPUTS  
+#### INVESTMENT DRIVERS
 
-<table><tr><td>Drivers</td><td>2020</td><td>2021e</td><td>2022e</td><td>2023e</td></tr><tr><td>Revenue Growth Y/Y (%)</td><td>88.4</td><td>314.0</td><td>35.2</td><td>12.9</td></tr><tr><td>Dollar Based Net Retention Rate (%)</td><td>133.4</td><td>162.2</td><td>107.6</td><td>110.3</td></tr><tr><td>Billings Growth Y/Y (%)</td><td>87.0</td><td>318.2</td><td>30.6</td><td>15.1</td></tr><tr><td>Operating Margin (%)</td><td>14.2</td><td>33.7</td><td>24.0</td><td>21.6</td></tr><tr><td>Free Cash Flow ($, mm)</td><td>158</td><td>1,319</td><td>835</td><td>1,030</td></tr></table>
+#### GLOBAL REVENUE EXPOSURE
 
-# INVESTMENT DRIVERS
+#### MS ALPHA MODELS
 
-- Can Zoom protect its competitive moat?  
-- Can Zoom keep its highly efficient financial model as it grows, and achieve  $30\%$  operating margins?  
-- Can Zoom be the center of the UC platform?  
-- Can Zoom monetize new markets like prosumer and K-12?
+#### RISKS TO PT/RATING
 
-# GLOBAL REVENUE EXPOSURE
+#### RISKS TO UPSIDE
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/aebbc54bcad94c10e202df23fa25908fbb4aa63065f89baba571b80fc888b78c.jpg)
+#### RISKS TO DOWNSIDE
 
-0-10%
+#### OWNERSHIP POSITIONING
 
-APAC, ex Japan, Mainland China and India
+#### MS ESTIMATES VS. CONSENSUS
 
-0-10%
+## Analysis
 
-Europe ex UK
-
-0-10%
-
-Japan
-
-0-10%
-
-Mainland China
-
-0-10%
-
-UK
-
-80-90% North America
-
-Source: Morgan Stanley Research Estimate
-
-View explanation of regional hierarchies, here
-
-# MS ALPHA MODELS
-
-4/5 BEST
-
-24 Month Horizon
-
-4/5 MOST
-
-3 Month Horizon
-
-Source: Thomson Reuters, FactSet, Morgan Stanley Research; 1 is the highest favored Quintile and 5 is the least favored Quintile
-
-# RISKS TO PT/RATING
-
-# RISKS TO UPSIDE
-
-- Zoom Phone adopted faster than expected  
-Sales efficiency matches previous levels  
-International business shows continued leverage  
-- Top line beats flow to bottom line  
-- WFH permanence  
-K-12 Market
-
-# RISKS TO DOWNSIDE
-
-Macro conditions suffer  
-Large competitor refreshes portfolio and gets aggressive on price  
-
-- WFH wanes post COVID  
-China / K-12 opportunity not monetizable
-
-# OWNERSHIP POSITIONING
-
-Inst. Owners, % Active
-
-HF Sector Long/Short Ratio
-
-HF Sector Net Exposure
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/80c766d54011f07c42f3b8ca682b489135cc48a96de04e6de137bd175c4f8fd7.jpg)
-
-2.6x
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/4c47a68e38eb1ff2b5b396698fa1421e99b6364776e899fbe595ba957e003dc8.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/407d6edadb544552d7e018523a32a540f006e49c5eeb2a08447b540c8e49fd3f.jpg)
-
-Thomson Reuters; MSPB Content. Includes certain hedge fund exposures held with MSPB. Information may be inconsistent with or may not reflect broader market trends. Long/Short Ratio = Long Exposure / Short exposure. Sector % of Total Net Exposure = (For a particular sector: Long Exposure - Short Exposure) / (Across all sectors: Long Exposure - Short Exposure).
-
-# MS ESTIMATES VS. CONSENSUS
-
-FY Jan 2021e
-
-Sales /
-
-Revenue
-
-($, mm)
-
-2,370
-
-#
-
-2,414
-
-#
-
-2,630
-
-1,002
-
-EBITDA
-
-(S, mm) Note: There are not sufficient brokers supplying consensus data for this metric
-
-Net income
-
-($, mm)
-
-721
-
-#
-
-870
-
-751
-
-EPS
-
-(\\()
-
-2.41
-
-#
-
-3.49
-
-2.55
-
-Mean
-
-#
-
-Organ S
-
-Stanley Estimates
-
-Source: Thomson Reuters, Morgan Stanley Research
-
-# Analysis
-
-Exhibit 1: Changes to Our Model  
-
-<table><tr><td colspan="13">($ millions, except per share data)</td></tr><tr><td></td><td>FY20A</td><td>Y/Y (%)</td><td>Q1-21A</td><td>Q2-21A</td><td>Q3-21A</td><td>Q4-21E</td><td>FY21E</td><td>Y/Y (%)</td><td>FY22E</td><td>Y/Y (%)</td><td>FY23E</td><td>Y/Y (%)</td></tr><tr><td>New Revenue</td><td>$622.7</td><td>88%</td><td>$328.2</td><td>$663.5</td><td>$777.2</td><td>$809.1</td><td>$2,577.9</td><td>314%</td><td>$3,485.7</td><td>35%</td><td>$3,933.8</td><td>13%</td></tr><tr><td>Old Revenue</td><td>$622.7</td><td>88%</td><td>$328.2</td><td>$663.5</td><td>$688.1</td><td>$703.2</td><td>$2,383.0</td><td>283%</td><td>$2,986.2</td><td>25%</td><td>$3,444.7</td><td>15%</td></tr><tr><td>% Change</td><td>0%</td><td></td><td>0%</td><td>0%</td><td>13%</td><td>15%</td><td>8%</td><td></td><td>17%</td><td></td><td>14%</td><td></td></tr><tr><td>New Gross Profit</td><td>$515.3</td><td>90%</td><td>$227.8</td><td>$479.5</td><td>$530.3</td><td>$542.1</td><td>$1,779.6</td><td>245%</td><td>$2,442.3</td><td>37%</td><td>$2,931.4</td><td>20%</td></tr><tr><td>New Gross Margin</td><td>83%</td><td></td><td>69%</td><td>72%</td><td>68%</td><td>67%</td><td>69%</td><td></td><td>70%</td><td></td><td>75%</td><td></td></tr><tr><td>Old Gross Profit</td><td>$515.3</td><td>90%</td><td>$227.8</td><td>$479.5</td><td>$498.9</td><td>$509.8</td><td>$1,716.0</td><td>233%</td><td>$2,203.0</td><td>28%</td><td>$2,583.5</td><td>17%</td></tr><tr><td>Old Gross Margin</td><td>83%</td><td></td><td>69%</td><td>72%</td><td>73%</td><td>73%</td><td>72%</td><td></td><td>74%</td><td></td><td>75%</td><td></td></tr><tr><td>% Change</td><td>0%</td><td></td><td>0%</td><td>0%</td><td>6%</td><td>6%</td><td>4%</td><td></td><td>11%</td><td></td><td>13%</td><td></td></tr><tr><td>New Operating Income</td><td>$88.7</td><td>487%</td><td>$54.6</td><td>$277.0</td><td>$290.8</td><td>$248.8</td><td>$859.1</td><td>880%</td><td>$837.0</td><td>(4%)</td><td>$850.3</td><td>2%</td></tr><tr><td>New Operating Margin</td><td>14%</td><td></td><td>17%</td><td>42%</td><td>37%</td><td>31%</td><td>34%</td><td></td><td>24%</td><td></td><td>22%</td><td></td></tr><tr><td>Old Operating Income</td><td>$88.7</td><td>487%</td><td>$54.6</td><td>$277.0</td><td>$227.1</td><td>$186.4</td><td>$745.0</td><td>740%</td><td>$618.0</td><td>(17%)</td><td>$671.7</td><td>9%</td></tr><tr><td>Old Operating Margin</td><td>14%</td><td></td><td>17%</td><td>42%</td><td>33%</td><td>27%</td><td>31%</td><td></td><td>21%</td><td></td><td>20%</td><td></td></tr><tr><td>% Change</td><td>0%</td><td></td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td></td><td>NM</td><td></td><td>NM</td><td></td></tr><tr><td>New Adjusted EPS</td><td>$0.35</td><td>NM</td><td>$0.20</td><td>$0.92</td><td>$0.99</td><td>$0.78</td><td>$2.86</td><td>NM</td><td>$2.56</td><td>NM</td><td>$2.56</td><td>NM</td></tr><tr><td>Old Adjusted EPS</td><td>$0.35</td><td>NM</td><td>$0.20</td><td>$0.92</td><td>$0.75</td><td>$0.61</td><td>$2.44</td><td>NM</td><td>$1.92</td><td>NM</td><td>$1.62</td><td>NM</td></tr><tr><td>% Change</td><td>0%</td><td></td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td></td><td>NM</td><td></td><td>NM</td><td></td></tr></table>
-
-Source: Morgan Stanley Research estimates.
-
-# Financials
+## Financials
 
 Exhibit 2: Income Statement (\( in millions except per share data)  
 
@@ -631,112 +240,27 @@ Source: Company filings, Morgan Stanley Research estimates.
 
 <table><tr><td>FY2019A</td><td>FY2020A</td><td>FY2021E</td><td>FY2022E</td><td>FY2023E</td></tr><tr><td>7.6</td><td>25.3</td><td>535.0</td><td>209.6</td><td>(44.6)</td></tr><tr><td>6.8</td><td>16.4</td><td>28.4</td><td>76.7</td><td>137.5</td></tr><tr><td>23.1</td><td>37.1</td><td>104.3</td><td>183.9</td><td>236.3</td></tr><tr><td>8.9</td><td>73.1</td><td>296.1</td><td>595.0</td><td>871.2</td></tr><tr><td>-</td><td>6.4</td><td>20.2</td><td>-</td><td>-</td></tr><tr><td>14.8</td><td>4.8</td><td>51.8</td><td>223.3</td><td>53.2</td></tr><tr><td>(39.1)</td><td>(64.7)</td><td>(628.4)</td><td>(132.5)</td><td>(125.6)</td></tr><tr><td>(4.7)</td><td>(24.8)</td><td>167.7</td><td>(14.8)</td><td>(21.3)</td></tr><tr><td>(59.4)</td><td>(72.7)</td><td>(354.6)</td><td>(303.2)</td><td>(341.8)</td></tr><tr><td>2.2</td><td>(2.0)</td><td>63.3</td><td>(7.7)</td><td>3.7</td></tr><tr><td>16.8</td><td>46.7</td><td>122.6</td><td>55.6</td><td>79.8</td></tr><tr><td>71.5</td><td>106.3</td><td>766.0</td><td>183.4</td><td>253.1</td></tr><tr><td>48.4</td><td>151.9</td><td>1,172.5</td><td>1,069.2</td><td>1,101.5</td></tr><tr><td>(78.0)</td><td>(852.0)</td><td>(1,263.4)</td><td>-</td><td>-</td></tr><tr><td>68.7</td><td>343.6</td><td>406.6</td><td>-</td><td>-</td></tr><tr><td>(30.5)</td><td>(38.2)</td><td>(114.9)</td><td>(261.3)</td><td>(314.0)</td></tr><tr><td>-</td><td>(1.6)</td><td>(5.7)</td><td>-</td><td>-</td></tr><tr><td>(39.7)</td><td>(548.3)</td><td>(977.3)</td><td>(261.3)</td><td>(314.0)</td></tr><tr><td>2.5</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>15.0</td><td>57.7</td><td>34.6</td><td>-</td><td>-</td></tr><tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>-</td><td>558.0</td><td>261.6</td><td>-</td><td>-</td></tr><tr><td>17.5</td><td>615.7</td><td>296.2</td><td>-</td><td>-</td></tr><tr><td>26.3</td><td>219.3</td><td>491.4</td><td>807.9</td><td>787.5</td></tr><tr><td>36.8</td><td>63.8</td><td>283.1</td><td>774.6</td><td>1,582.5</td></tr><tr><td>63.1</td><td>283.1</td><td>774.6</td><td>1,582.5</td><td>2,370.0</td></tr></table>
 
-# Disclosure Section
+## Disclosure Section
 
-The information and opinions in Morgan Stanley Research were prepared by Morgan Stanley & Co. LLC, and/or Morgan Stanley C.T.V.M. S.A., and/or Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V., and/or Morgan Stanley Canada Limited. As used in this disclosure section, "Morgan Stanley" includes Morgan Stanley & Co. LLC, Morgan Stanley C.T.V.M. S.A., Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V., Morgan Stanley Canada Limited and their affiliates as necessary.
+## Analyst Certification
 
-For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.
+## Global Research Conflict Management Policy
 
-For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303-2495; Hong Kong +852 2848-5999; Latin America +1 718 754-5444 (U.S.); London +44 (0)20-7425-8169; Singapore +65 6834-6860; Sydney +61 (0)2-9770-1505; Tokyo +81 (0)3-6836-9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.
+## Important Regulatory Disclosures on Subject Companies
 
-# Analyst Certification
+## STOCK RATINGS
 
-The following analysts hereby certify that their views about the companies and their securities discussed in this report are accurately expressed and that they have not received and will not receive direct or indirect compensation in exchange for expressing specific recommendations or views in this report: Meta A Marshall; Keith Weiss, CFA.
+## Global Stock Ratings Distribution
 
-Unless otherwise stated, the individuals listed on the cover page of this report are research analysts.
+## AnalystStockRatings
 
-# Global Research Conflict Management Policy
+## Analyst Industry Views
 
-Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies. A Portuguese version of the policy can be found at www.morganstanley.com.br
+## Stock Price, Price Target and Rating History (See Rating Definitions)
 
-# Important Regulatory Disclosures on Subject Companies
+## Important Disclosures for Morgan Stanley Smith Barney LLC Customers
 
-As of October 30, 2020, Morgan Stanley beneficially owned  $1\%$  or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: 2u Inc, 8x8 Inc, Adobe Inc., Anaplan Inc, Appian Corp, Box Inc, Chegg Inc, Cloudflare Inc, Coupa Software Inc, CyberArk Software Ltd, Datadog, Inc., DocuSign Inc, Domo Inc, FireEye Inc, Liveramp Holdings Inc, McAfee Corp, MongoDB Inc, Nuance Communications Inc., Okta, Inc., PagerDuty, Inc., Palo Alto Networks Inc, PROS Holdings Inc, Sabre Corp, Salesforce.com, ServiceNow Inc, Shopify Inc, Slack Technologies, Inc., Snowflake Inc., Twilio Inc, Veeva Systems Inc, Vertex Inc., Vonage Holdings Corp, Workday Inc, Zoom Video Communications Inc, ZoomInfo Technologies Inc, Zuora Inc.
-
-Within the last 12 months, Morgan Stanley managed or co-managed a public offering (or 144A offering) of securities of 2u Inc, Appian Corp, Autodesk, BigCommerce Holdings, Inc., Chegg Inc, Citrix Systems Inc, Datto Holding Corp., Five9 Inc, HubSpot, Inc., JFrog Ltd., McAfee Corp, MongoDB Inc, NICE Ltd., Okta, Inc., PagerDuty, Inc., Palo Alto Networks Inc, Pluralsight Inc., PROS Holdings Inc, RingCentral Inc, Sabre Corp, ServiceNow Inc, Slack Technologies, Inc., Snowflake Inc., Splunk Inc, Sprout Social Inc, Sumo Logic Inc, Tenable Holdings Inc, Twilio Inc, Vertex Inc., VMware Inc, Zendesk, Inc, ZoomInfo Technologies Inc, ZScaler Inc.
-
-Within the last 12 months, Morgan Stanley has received compensation for investment banking services from 2u Inc, Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BigCommerce Holdings, Inc., Box Inc, Chegg Inc, Citrix Systems Inc, Datadog, Inc., Datto Holding Corp., Five9 Inc, HubSpot, Inc., JFrog Ltd., McAfee Corp, Microsoft, MongoDB Inc, NICE Ltd., Okta, Inc., PagerDuty, Inc., Palantir Technologies Inc., Palo Alto Networks Inc, Pluralsight Inc., PROS Holdings Inc, RingCentral Inc, Sabre Corp, Salesforce.com, ServiceNow Inc, Slack Technologies, Inc., Snowflake Inc., Splunk Inc, Sprout Social Inc, Sumo Logic Inc, Tenable Holdings Inc, Twilio Inc, Vertex Inc., VMware Inc, Workday Inc, Zendesk, Inc, ZoomInfo Technologies Inc, Zscaler Inc. In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from 2u Inc, 8x8 Inc, Adobe Inc., Akamai Technologies, Inc., Anaplan Inc, Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BigCommerce Holdings, Inc., Box Inc, CDK Global Inc, Check Point Software Technologies Ltd., Chegg Inc, Citrix Systems Inc, Cloudera Inc, Cloudflare Inc, Coupa Software Inc, CyberArk Software Ltd, Datadog, Inc., Datto Holding Corp., DocuSign Inc, FireEye Inc, Five9 Inc, Fortinet Inc., HubSpot, Inc., Intuit, JFrog Ltd., Liveramp Holdings Inc, McAfee Corp, Microsoft, MongoDB Inc, New Relic Inc, NICE Ltd., NortonLifeLock Inc, Nuance Communications Inc., Okta, Inc., Oracle Corporation, PagerDuty, Inc., Palantir Technologies Inc., Palo Alto Networks Inc, Pluralsight Inc., Proofpoint Inc, PROS Holdings Inc, Qualys Inc, Rapid7 Inc, RingCentral Inc, Sabre Corp, SailPoint Technologies Holdings Inc, Salesforce.com, ServiceNow Inc, Shopify Inc, Slack Technologies, Inc., Smartsheet Inc, Snowflake Inc., Solarwinds Corp, Splunk Inc, Sprout Social Inc, Sumo Logic Inc, Tenable Holdings Inc, Twilio Inc, Varonis Systems, Inc., Veeva Systems Inc, Vertex Inc., VMware Inc, Vonage Holdings Corp, Workday Inc, Workiva Inc, Yext Inc, Zendesk, Inc, Zoom Video Communications Inc, ZoomInfo Technologies Inc, Zscaler Inc, Zuora Inc. Within the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from Adobe Inc., Akamai Technologies, Inc., Autodesk, Check Point Software Technologies Ltd., Cloudera Inc, Fortinet Inc., Intuit, McAfee Corp, Microsoft, NICE Ltd., NortonLifeLock Inc, Nuance Communications Inc., Oracle Corporation, Palo Alto Networks Inc, Proofpoint Inc, Qualys Inc, Sabre Corp, Salesforce.com, Solarwinds Corp.
-
-Within the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client relationship with, the following company: 2u Inc, 8x8 Inc, Adobe Inc., Akamai Technologies, Inc., Anaplan Inc, Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BigCommerce Holdings, Inc., Box Inc, CDK Global Inc, Check Point Software Technologies Ltd., Chegg Inc, Citrix Systems Inc, Cloudera Inc, Cloudflare Inc, Coupa Software Inc, CyberArk Software Ltd, Datadog, Inc., Datto Holding Corp., DocuSign Inc, FireEye Inc, Five9 Inc, Fortinet Inc., HubSpot, Inc., Intuit, JFrog Ltd., Liveramp Holdings Inc, McAfee Corp, Microsoft, MongoDB Inc, New Relic Inc, NICE Ltd., NortonLifeLock Inc, Nuance Communications Inc., Okta, Inc., Oracle Corporation, PagerDuty, Inc., Palantir Technologies Inc., Palo Alto Networks Inc, Pluralsight Inc., Proofpoint Inc, PROS Holdings Inc, Qualys Inc, Rapid7 Inc, RingCentral Inc, Sabre Corp, SailPoint Technologies Holdings Inc, Salesforce.com, ServiceNow Inc, Shopify Inc, Slack Technologies, Inc., Smartsheet Inc, Snowflake Inc., Solarwinds Corp, Splunk Inc, Sprout Social Inc, Sumo Logic Inc, Tenable Holdings Inc, Twilio Inc, Varonis Systems, Inc., Veeva Systems Inc, Vertex Inc., VMware Inc, Vonage Holdings Corp, Workday Inc, Workiva Inc, Yext Inc, Zendesk, Inc, Zoom Video Communications Inc, ZoomInfo Technologies Inc, ZScaler Inc, Zuora Inc.
-
-Within the last 12 months, Morgan Stanley has either provided or is providing non-investment banking, securities-related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: 2u Inc, 8x8 Inc, Adobe Inc., Akamai Technologies, Inc., Atlassian Corporation PLC, Autodesk, CDK Global Inc, Check Point Software Technologies Ltd., Chegg Inc, Citrix Systems Inc, Cloudera Inc, Coupa Software Inc, CyberArk Software Ltd, Datadog, Inc., DocuSign Inc, FireEye Inc, Five9 Inc, Fortinet Inc., HubSpot, Inc., Intuit, McAfee Corp, Microsoft, MongoDB Inc, NICE Ltd., NortonLifeLock Inc, Nuance Communications Inc., Okta, Inc., Oracle Corporation, PagerDuty, Inc., Palo Alto Networks Inc, Proofpoint Inc, PROS Holdings Inc, Qualys Inc, RingCentral Inc, Sabre Corp, Salesforce.com, Secureworks Corp, ServiceNow Inc, Slack Technologies, Inc., Solarwinds Corp, Splunk Inc, Twilio Inc, VMware Inc, Vonage Holdings Corp, Workday Inc, Zendesk, Inc.
-
-An employee, director or consultant of Morgan Stanley is a director of Workiva Inc. This person is not a research analyst or a member of a research analyst's household.
-
-Morgan Stanley & Co. LLC makes a market in the securities of 2u Inc, Adobe Inc., Akamai Technologies, Inc., Appian Corp, Atlassian Corporation PLC, Autodesk, BigCommerce Holdings, Inc., Box Inc, CDK Global Inc, Check Point Software Technologies Ltd., Chegg Inc, Citrix Systems Inc, CyberArk Software
-
-Ltd, Datadog, Inc., DocuSign Inc, Domo Inc, FireEye Inc, Five9 Inc, Fortinet Inc., Intuit, JFrog Ltd., Liveramp Holdings Inc, McAfee Corp, Microsoft, New Relic Inc, NortonLifeLock Inc, Nuance Communications Inc., Oracle Corporation, Palo Alto Networks Inc, Pluralsight Inc., Proofpoint Inc, PROS Holdings Inc, Qualys Inc, Rapid7 Inc, RingCentral Inc, Sabre Corp, Salesforce.com, ServiceNow Inc, Shopify Inc, Splunk Inc, Sumo Logic Inc, Tenable Holdings Inc, Varonis Systems, Inc., Veeva Systems Inc, Vertex Inc., VMware Inc, Vonage Holdings Corp, Workday Inc, Zendesk, Inc, Zoom Video Communications Inc, ZoomInfo Technologies Inc, ZScaler Inc.
-
-The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts' or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.
-
-Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.
-
-Certain disclosures listed above are also for compliance with applicable regulations in non-US jurisdictions.
-
-# STOCK RATINGS
-
-Morgan Stanley uses a relative rating system using terms such as Overweight, Equal-weight, Not-Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.
-
-# Global Stock Ratings Distribution
-
-(as of November 30, 2020)
-
-The Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm. For disclosure purposes only (in accordance with FINRA requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal-weight, Not-Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal-weight and Not-Rated to hold and Underweight to sell recommendations, respectively.
-
-<table><tr><td></td><td colspan="2">COVERAGE UNIVERSE</td><td colspan="3">INVESTMENT BANKING CLIENTS (IBC)</td><td colspan="2">OTHER MATERIAL INVESTMENT SERVICES CLIENTS (MISC)</td></tr><tr><td>STOCK RATING CATEGORY</td><td>COUNT</td><td>% OF TOTAL</td><td>COUNT</td><td>% OF TOTAL IBC</td><td>% OF RATING CATEGORY</td><td>COUNT</td><td>% OF TOTAL OTHER MISC</td></tr><tr><td>Overweight/Buy</td><td>1404</td><td>41%</td><td>372</td><td>46%</td><td>26%</td><td>620</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1448</td><td>43%</td><td>346</td><td>43%</td><td>24%</td><td>666</td><td>44%</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>1</td><td>0%</td><td>20%</td><td>4</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>536</td><td>16%</td><td>85</td><td>11%</td><td>16%</td><td>219</td><td>15%</td></tr><tr><td>TOTAL</td><td>3,393</td><td></td><td>804</td><td></td><td></td><td>1509</td><td></td></tr></table>
-
-Data include common stock and ADRs currently assigned ratings. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months. Due to rounding off of decimals, the percentages provided in the  $\%$  of total column may not add up to exactly 100 percent.
-
-# AnalystStockRatings
-
-Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Equal-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Not-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.
-
-# Analyst Industry Views
-
-Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.  
-In-Line (l): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below.  
-Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below.  
-Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.
-
-# Stock Price, Price Target and Rating History (See Rating Definitions)
-
-Zoom Video Communications Inc (ZM.O) - As of 11/30/20 in USD Industry : Software
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/fbfddc00-cdaf-4c99-80fb-1929019e9524/ee4a520cf0102119a2c5c2f5736cf2855b93671d1a6ddf55efecdbba5811376c.jpg)
-
-Stock Rating History: 12/1/15 : NA/I; 1/19/16 : NA/A; 5/13/19 : E/A; 7/27/20 : E/I
-
-Price Target History: 5/13/19 : 75; 1/13/20 : 80; 2/28/20 : 90; 3/25/20 : 105; 6/3/20 : 170; 6/9/20 : 190; 8/20/20 : 240; 9/1/20 : 350
-
-Source: Morgan Stanley Research Date Format: MM/DD/YY Price Target No Price Target Assigned (NA)
-
-Stock Price (Not Covered by Current Analyst) - Stock Price (Covered by Current Analyst)
-
-Stock and Industry Ratings (abbreviations below) appear as  $\clubsuit$  Stock Rating/Industry View
-
-Stock Ratings: Overweight (O) Equal-weight (E) Underweight (U) Not-Rated (NR) No Rating Available (NA)
-
-Industry View: Attractive (A) In-line (I) Cautious (C) No Rating (NR)
-
-Effective January 13, 2014, the stocks covered by Morgan Stanley Asia Pacific will be rated relative to the analyst's industry (or industry team's) coverage.
-
-Effective January 13, 2014, the industry view benchmarks for Morgan Stanley Asia Pacific are as follows: relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.
-
-# Important Disclosures for Morgan Stanley Smith Barney LLC Customers
-
-Important disclosures regarding the relationship between the companies that are the subject of Morgan Stanley Research and Morgan Stanley Smith Barney LLC or Morgan Stanley or any of their affiliates, are available on the Morgan Stanley Wealth Management disclosure website at www.morganstanley.com/online/researchdisclosures. For Morgan Stanley specific disclosures, you may refer to www.morganstanley.com/researchdisclosures.
-
-Each Morgan Stanley Equity Research report is reviewed and approved on behalf of Morgan Stanley Smith Barney LLC. This review and approval is conducted by the same person who reviews the Equity Research report on behalf of Morgan Stanley. This could create a conflict of interest.
-
-# Other Important Disclosures
+## Other Important Disclosures
 
 Morgan Stanley & Co. International PLC and its affiliates have a significant financial interest in the debt securities of 2u Inc, 8x8 Inc, Adobe Inc., Akamai Technologies, Inc., Autodesk, CDK Global Inc, Chegg Inc, Cloudflare Inc, Coupa Software Inc, CyberArk Software Ltd, DocuSign Inc, HubSpot, Inc., Intuit, Microsoft, MongoDB Inc, NortonLifeLock Inc, Nuance Communications Inc., Okta, Inc., Oracle Corporation, Palantir Technologies Inc., Palo Alto Networks Inc, Proofpoint Inc, PROS Holdings Inc, RingCentral Inc, Sabre Corp, Slack Technologies, Inc., Splunk Inc, Twilio Inc, VMware Inc, Workday Inc, Workiva Inc, Zendesk, Inc.
 

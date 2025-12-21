@@ -1,14 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: The Stock Market Is Smarter Than You Think
-linter-yaml-title-alias: The Stock Market Is Smarter Than You Think
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - stock market valuation
+  - ROIC drivers
+  - growth fundamentals
+secondary_tags:
+  - market bubbles
+  - earnings myths
+  - share repurchases
+  - informed investors
+  - noise traders
+cssclasses: academia
 ---
 
-# The Stock Market Is Smarter Than You Think
+## The Stock Market Is Smarter Than You Think
 
 The stock market's volatility and the sometimes-erratic pricing of companies' shares have always raised questions about the link between stock prices and economic fundamentals. Some experts have at times even posited that stock markets seem to lead lives of their own. In 2017 the level of market valuations led Nobel laureate Richard Thaler to comment, "We seem to be living in the riskiest moment of our lives, and yet the stock market seems to be napping… . I admit to not understanding it."1 Several years earlier, another Nobel Prize-winning economist, Robert Shiller, wrote, "Fundamentally, stock markets are driven by popular narratives, which don't need basis in solid facts."2 American investor Bill Gross claimed in 2012 that the last 100 years of U.S. stock returns "belied a commonsensical flaw much like that of a chain letter or yes—a Ponzi scheme."3
 
@@ -31,6 +40,21 @@ Say trading starts when the price of a single share in the market is \$30. Infor
 EXHIBIT 7.1 Model of Share Price Trading Boundaries price begins to fall. The noise investors accelerate the fall, but this slows as more and more informed investors begin to buy until, at 36, all informed investors are buying again, and the fall is reversed.
 
 The pattern continues, with the share price oscillating within a band whose boundaries are set by the informed investors, as shown in Exhibit 7.1. If the noise traders act not only on price movements but also on random, insignificant events, there will also be price oscillations within the band. The band itself can change over time, depending on the uncertainty among informed investors about the company's intrinsic value. For example, product launches or successes in research and development can lead informed investors to increase their value estimates as well as their trading bandwidth. As a result, price volatility will be temporarily higher while investors are absorbing the new information, as shown in the period after time  $T$  in Exhibit 7.1.
+
+```d2
+share price trading model: {
+  shape: flowchart
+  
+  informed_buy: "Informed Investors Buy (below $40-$60 band)"
+  noise_follow: "Noise Traders Follow Momentum"
+  price_rise: "Price Rises Within Band"
+  informed_sell: "Informed Investors Sell (above band)"
+  noise_sell: "Noise Traders Sell"
+  price_fall: "Price Falls Within Band"
+  
+  informed_buy -> noise_follow -> price_rise -> informed_sell -> noise_sell -> price_fall -> informed_buy
+}
+```
 
 In this model, prices will move within the bandwidth if there is enough informed capital. This mechanism can break down, but only in rare situations. For example, when fundamental investors are vastly outnumbered by noise traders, their sales of stocks might not be able to stop a price rally. Such circumstances are unlikely, given the amounts of capital managed by sophisticated, professional—that is to say, fundamental—investors today. Nevertheless, once they have sold all the overvalued stock, some fundamental investors can be reluctant to engage in short sales for fear of losing significant amounts before prices revert to lower levels. Others can face institutional or regulatory
 

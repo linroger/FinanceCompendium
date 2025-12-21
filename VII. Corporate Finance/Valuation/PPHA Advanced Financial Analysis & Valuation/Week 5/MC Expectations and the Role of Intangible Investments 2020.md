@@ -1,26 +1,31 @@
 ---
-parent_directory: PPHA Advanced Financial Analysis & Valuation/Week 5
-title: "Week 5: Expectations and the Role of Intangible Investments"
-tags:
-aliases:
-  - "Expectations and the Role of Intangible Investments"
-  - "Counterpoint Global Insights"
-parent_folder: Week 5
-subfolder:
-key_concepts:
+title: "MC Expectations and Role of Intangible Investments"
+parent_directory: "PPHA Advanced Financial Analysis & Valuation/Week 5"
+formatted: "2025-12-20 07:40:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags:
+  - intangible investments
+  - expectations revisions
+  - valuation methodology
+secondary_tags:
+  - economic growth
+  - investor psychology
+  - accounting standards
+  - free cash flow
+  - return on investment
 cssclasses: academia
-linter-yaml-title-alias: "Week 5: Expectations and the Role of Intangible Investments"
 ---
 
-# Counterpoint Global Insights
+## Counterpoint Global Insights
 
-# One Job
+## One Job
 
-# Expectations and the Role of Intangible Investments
+## Expectations and the Role of Intangible Investments
 
 CONSILIENT OBSERVER | September 15, 2020
 
-# Introduction
+## Introduction
 
 Here's a profile of a company. Do you want to buy the stock?
 
@@ -36,7 +41,7 @@ You would be forgiven for thinking the first profile sounds better than the seco
 
 The negative free cash flow in the second profile tells you only that the company invested more money than it made. The firm required external financing, which led to rising debt and slim cash balances. But the second profile omitted the key fact that Walmart's annual return on invested capital averaged 18 percent during that time, a level well in excess of its cost of capital. It spent more than it earned, but its investments had a high payoff.
 
-# AUTHORS
+## AUTHORS
 
 Michael J. Mauboussin
 
@@ -46,7 +51,7 @@ Dan Callahan, CFA
 
 dan.callahan1@morganstanley.com
 
-# Anticipating Expectations Revisions
+## Anticipating Expectations Revisions
 
 The one job of an equity investor is to take advantage of gaps between expectations and fundamentals. Expectations reflect the future free cash flows a company must deliver to justify today's stock price.
 
@@ -70,7 +75,7 @@ Second is the characteristics of intangible assets. Economists have for decades 
 
 Finally, we explore the implications for investors. One example is the usefulness of earnings. Investments that are recorded on the income statement reduce earnings and can even lead to losses. A reallocation of those investments to the balance sheet leads to higher earnings and invested capital. Comparing today's valuations to those of the past using simple metrics such as a price-earnings or price-book multiple can lead to misleading or faulty conclusions.
 
-# Measurement
+## Measurement
 
 An investment is a cost today that creates an asset that is expected to provide a benefit measured by the present value of future free cash flow. The net present value of an investment is positive when the benefit is greater than the cost.
 
@@ -222,7 +227,7 @@ To illustrate the point, Amazon.com's capital expenditures, officially called "p
 
 Measurement boils down to doing the proper financial statement analysis to separate the cost of running a business at a steady state from the investment a company makes to grow value. The mix between maintenance and investment spending varies based on where a company or industry is in its life cycle and management's capital allocation choices. A more accurate assessment of the magnitude and return on investment will help an investor do the one job that matters: anticipating the timing, magnitude, and riskiness of free cash flow, the lifeblood of value.
 
-# Characteristics of Intangible Assets
+## Characteristics of Intangible Assets
 
 Economists have known for a long time that characteristics of intangible assets are different from those of tangible assets.[28] An investor's task is to assess what the nature of intangible investments means for growth, return on investment, competition, and sustainable competitive advantage.
 
@@ -276,7 +281,7 @@ Note that spillovers and synergies can be at odds. On the one hand, companies wa
 
 An appreciation for the growth and characteristics of intangible investments is essential to understand the prospects for future free cash flows for companies. This is especially important in drawing lessons from history, whether it's the application of statistical factors to assess relative value or patterns of growth. We now turn to the implications of the rise of intangibles for investors.
 
-# Implications for Investors
+## Implications for Investors
 
 The primary task of an investor is to anticipate revisions in expectations. This requires an understanding of price-implied expectations and having a sound thesis for why the market will revise those expectations. The primary purpose of financial accounting is to provide a company's external parties, including current and prospective shareholders and creditors, with the information they need to make informed economic decisions.
 
@@ -318,7 +323,7 @@ This report discussed the measurement and characteristics of intangible assets. 
 
 Please see Important Disclosures on pages 23-25
 
-# Endnotes
+## Endnotes
 
 <sup>1</sup> James Mackintosh, "Money-Losing Companies Mushroom Even as Stocks Hit New Highs," Wall Street Journal, January 9, 2020 and Feng Gu and Baruch Lev, "How to Distinguish Between GAAP Losers and Real Losers," Lev The End of Accounting Blog, February 6, 2020. For analysis of why these companies can be valued highly, see Masako Darrough and Jianming Ye, "Valuation of Loss Firms in a Knowledge-Based Economy, Review of Accounting Studies, Vol. 12, No. 1, March 2007, 61-93.  
 2 Alfred Rappaport and Michael J. Mauboussin, Expectations Investing: Reading Stock Prices for Better Returns (Boston, MA: Harvard Business School Press, 2001).  
@@ -374,7 +379,7 @@ $^{48}$  Eugene F. Fama and Kenneth R. French, "The Cross-Section of Expected St
 50 Baruch Lev and Anup Srivastava, "Explaining the Recent Failure of Value Investing," NYU Stern School of Business Working Paper, March 31, 2020. The authors of this paper came to similar conclusions: Noel Amenc, Felix Goltz, and Ben Luyten, "Intangible Capital and the Value Factor: Has Your Value Definition Just Expired?" Journal of Portfolio Management, Vol. 46, No. 7, July 2020, 83-99.  
 <sup>51</sup> Meghan Ayyagari, Asli Demirguc-Kunt, and Vojislav Maksimovic, "The Rise of Star Firms: Intangible Capital and Competition," Working Paper, April 2020.
 
-# DEFINITIONS OF TERMS
+## DEFINITIONS OF TERMS
 
 Free cash flow (FCF) is a measure of financial performance calculated as net operating profit after tax minus investment in growth. FCF represents the cash that a company is able generate after laying out the money required to maintain or expand its asset base.
 
@@ -398,15 +403,15 @@ The residual, or terminal, value is the value of all future cash flows at the po
 
 Return on invested capital represents the rate of return a company makes on the cash it invests in its business.
 
-# DISTRIBUTION
+## DISTRIBUTION
 
 This communication is only intended for and will only be distributed to persons resident in jurisdictions where such distribution or availability would not be contrary to local laws or regulations.
 
 Ireland: Morgan Stanley Investment Management (Ireland) Limited. Registered Office: The Observatory, 7-11 Sir John Rogerson's, Quay, Dublin 2, Ireland. Registered in Ireland under company number 616662. Regulated by the Central Bank of Ireland. United Kingdom: Morgan Stanley Investment Management Limited is authorised and regulated by the Financial Conduct Authority. Registered in England. Registered No. 1981121. Registered Office: 25 Cabot Square, Canary Wharf, London E14 4QA. Dubai: Morgan Stanley Investment Management Limited (Representative Office, Unit Precinct 3-7th Floor-Unit 701 and 702, Level 7, Gate Precinct Building 3, Dubai International Financial Centre, Dubai, 506501, United Arab Emirates. Telephone: +97 (0)14 709 7158). Germany: Morgan Stanley Investment Management Limited Niederlassung Deutschland, Grosse Gallusstrasse 18, 60312 Frankfurt am Main, Germany (Gattung: Zweigniederlassung (FDI) gem. § 53b KWG). Italy: Morgan Stanley Investment Management Limited, Milan Branch (Sede Secondaria di Milano) is a branch of Morgan Stanley Investment Management Limited, a company registered in the UK, authorised and regulated by the Financial Conduct Authority (FCA), and whose registered office is at 25 Cabot Square, Canary Wharf, London, E14 4QA. Morgan Stanley Investment Management Limited Milan Branch (Sede Secondaria di Milano) with seat in Palazzo Serbelloni Corso Venezia, 16 20121 Milano, Italy, is registered in Italy with company number and VAT number 08829360968. The Netherlands: Morgan Stanley Investment Management, Rembrandt Tower, 11th Floor Amstelvein 1 1096HA, Netherlands. Telephone: 31 2-0462-1300. Morgan Stanley Investment Management is a branch office of Morgan Stanley Investment Management Limited. Morgan Stanley Investment Management Limited is authorised and regulated by the Financial Conduct Authority in the United Kingdom. Switzerland: Morgan Stanley & Co. International plc, London, Zurich Branch Authorised and regulated by the Eidgenössische Finanzmarktaufsicht ("FINMA"). Registered with the Register of Commerce Zurich CHE-115.415.770. Registered Office: Beethovenstrasse 33, 8002 Zurich, Switzerland, Telephone +41 (0) 44 588 1000. Facsimile Fax: +41(0)44 588 1074.
 
-# U.S.:
+## U.S.:
 
-# NOT FDIC INSURED | OFFER NO BANK GUARANTEE | MAY LOSE VALUE | NOT INSURED BY ANY FEDERAL GOVERNMENT AGENCY | NOT A BANK DEPOSIT
+## NOT FDIC INSURED | OFFER NO BANK GUARANTEE | MAY LOSE VALUE | NOT INSURED BY ANY FEDERAL GOVERNMENT AGENCY | NOT A BANK DEPOSIT
 
 Hong Kong: This document has been issued by Morgan Stanley Asia Limited for use in Hong Kong and shall only be made available to "professional investors" as defined under the Securities and Futures Ordinance of Hong Kong (Cap 571). The contents of this document have not been reviewed nor approved by any regulatory authority including the Securities and Futures Commission in Hong Kong. Accordingly, save where an exemption is available under the relevant law, this document shall not be issued, circulated, distributed, directed at, or made available to, the public in Hong Kong. Singapore: This document should not be considered to be the subject of an invitation for subscription or purchase, whether directly or indirectly, to the public or any member of the public in Singapore other than (i) to an institutional investor under section 304 of the Securities and Futures Act, Chapter 289 of Singapore ("SFA"), (ii) to a "relevant person" (which includes an accredited investor) pursuant to section 305 of the SFA, and such distribution is in accordance with the conditions specified in section 305 of the SFA; or (iii) otherwise pursuant to, and in accordance with the conditions of, any other applicable provision of the SFA. This publication has not been reviewed by the Monetary Authority of Singapore. Australia: This publication is disseminated in Australia by Morgan Stanley Investment Management (Australia) Pty Limited ACN: 122040037, AFSL No. 314182, which accepts responsibility for its contents. This publication, and any access to it, is intended only for "wholesale clients" within the meaning of the Australian Corporations Act.
 
@@ -414,7 +419,7 @@ Japan: For professional investors, this document is circulated or distributed fo
 
 guaranteed. Please consider the investment objectives and nature of risks before investing. As an investment advisory fee for an IAA or an IMA, the amount of assets subject to the contract multiplied by a certain rate (the upper limit is  $2.20\%$  per annum (including tax)) shall be incurred in proportion to the contract period. For some strategies, a contingency fee may be incurred in addition to the fee mentioned above. Indirect charges also may be incurred, such as brokerage commissions for incorporated securities. Since these charges and expenses are different depending on a contract and other factors, MSIMJ cannot present the rates, upper limits, etc. in advance. All clients should read the Documents Provided Prior to the Conclusion of a Contract carefully before executing an agreement. This document is disseminated in Japan by MSIMJ, Registered No. 410 (Director of Kanto Local Finance Bureau (Financial Instruments Firms)), Membership: the Japan Securities Dealers Association, The Investment Trusts Association, Japan, the Japan Investment Advisers Association and the Type II Financial Instruments Firms Association.
 
-# IMPORTANT INFORMATION
+## IMPORTANT INFORMATION
 
 EMEA: This marketing communication has been issued by Morgan Stanley Investment Management Limited ("MSIM"). Authorised and regulated by the Financial Conduct Authority. Registered in England No. 1981121. Registered Office: 25 Cabot Square, Canary Wharf, London E14 4QA.
 
@@ -426,7 +431,7 @@ Certain information herein is based on data obtained from third party sources be
 
 The information herein is a general communications which is not impartial and has been prepared solely for information and educational purposes and does not constitute an offer or a recommendation to buy or sell any particular security or to adopt any specific investment strategy. The material contained herein has not been based on a consideration of any individual client circumstances and is not investment advice, nor should it be construed in any way as tax, accounting, legal or regulatory advice. To that end, investors should seek independent legal and financial advice, including advice as to tax consequences, before making any investment decision.
 
-# Past performance is no guarantee of future results.
+## Past performance is no guarantee of future results.
 
 Charts and graphs provided herein are for illustrative purposes only. Any securities referenced herein are solely for illustrative purposes only and should not be construed as a recommendation for investment.
 

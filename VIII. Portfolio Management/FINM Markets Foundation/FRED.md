@@ -1,9 +1,18 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: "FRED Data Retrieval - Main"
+parent_directory: FINM Markets Foundation
+formatted: 2025-12-20 06:55:30 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - federal reserve data
+  - monetary policy indicators
+secondary_tags:
+  - excess reserves
+  - federal funds rate
+  - discount window
+  - open market operations
 cssclasses: academia
-title: FRED
 ---
 
 # FRED

@@ -1,18 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Leveraged Betas and the Cost of Equity
-linter-yaml-title-alias: Leveraged Betas and the Cost of Equity
+parent_directory: VII. Corporate Finance/Valuation
+formatted: 2025-12-20 07:07:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - leveraged beta
+  - cost of equity
+secondary_tags:
+  - capital asset pricing model
+  - financial leverage risk
+  - risk premium decomposition
+cssclasses: academia
 ---
 
 # Leveraged Betas and the Cost of Equity
 
 A stock's expected return, its dividend yield plus expected price appreciation, is related to risk. Risk averse investors must be compensated with higher expected returns for bearing risk. One source of risk is the financial risk incurred by shareholders in a firm which has debt in its capital structure. The objective of this note is to delineate a methodology for measuring the risk associated with financial leverage and estimating its impact on the cost of equity capital.
 
-# Financial Leverage and Risk
+## Financial Leverage and Risk
 
 The presence of debt in a firm's capital structure has an impact on the risk borne by its shareholders. In the absence of debt, shareholders are subjected only to basic business or operating risk. This business risk is determined by factors such as the volatility of a firm's sales and its level of operating leverage. As compensation for incurring business risk, investors require a premium in excess of the return they could earn on a riskless security such as a Treasury bill. Thus, in the absence of financial leverage a stock's expected return can be thought of as the risk-free rate plus a premium for business risk.
 
@@ -38,7 +44,7 @@ $$
 
 Thus, the expected return on a firm's stock can be decomposed into three components. These components are (1) the return on a riskless security,  $\mathbb{R}_{\mathrm{F}}$ , (2) a premium reflecting the firm's basic business (or operating) risk in the absence of financial leverage, BRP, and (3) a premium for the additional risk created by the existence of debt in a firm's capital structure, FRP. This relationship is illustrated graphically in Exhibit 1. The Capital Asset Pricing Model provides a methodology for measuring these risk premia and estimating the impact of financial leverage on expected returns.
 
-# The Effect of Financial Leverage on Beta
+## The Effect of Financial Leverage on Beta
 
 CAPM is an idealized representation of the manner in which capital markets price securities and thereby determine expected returns. Since CAPM models the risk/expected return trade-off in the capital markets, it can be used to examine the impact of financial leverage on expected returns.
 

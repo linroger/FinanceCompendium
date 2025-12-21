@@ -1,11 +1,19 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Risk and the Cost of Capital
-linter-yaml-title-alias: Risk and the Cost of Capital
+parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - cost of capital
+  - risk premium
+  - opportunity cost
+secondary_tags:
+  - wacc
+  - diversification
+  - scenario analysis
+  - hedged risk
+cssclasses: academia
 ---
 
 # Risk and the Cost of Capital
@@ -25,6 +33,19 @@ Our focus in this chapter will be on key principles. Chapter 15 provides detail 
 The cost of capital is not a cash cost. It is an opportunity cost. To illustrate, when one company acquires another company, the alternative might have been to return that cash to shareholders, who could then reinvest it in other companies. So the cost of capital for the acquiring company is the price investors charge for bearing risk—what they could have earned by reinvesting the proceeds in other investments with similar risk. Similarly, when valuing individual business units or projects for strategic decision making, the correct cost of capital is what a company's investors could expect to earn in other similarly risky projects, not necessarily the whole company. The core principle is that the cost of capital is driven by investors' opportunity cost, because the executives leading the company are the investors' agents and have a fiduciary responsibility to the company's investors. That's why the cost of capital is also referred to as the investors' required return or expected return. The meaning of these terms may differ in academia, but for the most part you can use cost of capital, required return, and expected return interchangeably.
 
 Chapter 15 describes in detail how to estimate a company's opportunity cost of capital. Most practitioners use a weighted average cost of capital (WACC), meaning the weighted average of the cost of equity capital and the cost of debt capital. For now, it's enough to say that a company's cost of equity capital is what investors could earn by investing in a broad portfolio of
+
+```d2
+cost of capital components: {
+  shape: flowchart
+  
+  opportunity_cost: "Opportunity Cost"
+  time_value: "Time Value of Money"
+  risk_premium: "Risk Premium for Diversifiable Risk"
+  
+  opportunity_cost -> time_value
+  opportunity_cost -> risk_premium
+}
+```
 
 3 To be more precise, the cost of capital is the return investors can earn from investing in a well-diversified, "efficient" portfolio of investments with similar risk.
 

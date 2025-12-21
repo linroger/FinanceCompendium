@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Finance in a Nutshell
 linter-yaml-title-alias: Finance in a Nutshell
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [value creation, return on capital, discounted cash flow, economic profit]
+secondary_tags: [financial performance, growth strategies, capital markets, shareholder returns]
 ---
 
-# Finance in a Nutshell
+## Finance in a Nutshell
 
 Companies create value when they earn a return on invested capital (ROIC) greater than their opportunity cost of capital. If the ROIC is at or below the cost of capital, growth may not create value. Companies should aim to find the combination of growth and ROIC that drives the highest discounted value of their cash flows. In so doing, they should consider that performance in the stock market may differ from intrinsic value creation, generally as a result of changes in investors' expectations.
 

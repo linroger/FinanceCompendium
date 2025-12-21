@@ -1,9 +1,21 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: "FRED Data Retrieval - Part 1"
+parent_directory: "FINM Markets Foundation"
+formatted: "2025-12-20 07:35:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags:
+  - fred data retrieval
+  - interest rates data
+  - python pandas
+  - financial data api
+secondary_tags:
+  - sofr index
+  - federal funds rate
+  - treasury bills
+  - data analysis
+  - economic indicators
 cssclasses: academia
-title: FRED-1
 ---
 
 # FRED-1

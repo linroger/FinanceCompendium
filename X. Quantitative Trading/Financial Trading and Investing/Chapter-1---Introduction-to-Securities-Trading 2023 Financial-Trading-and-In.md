@@ -1,22 +1,57 @@
 ---
-title: "Chapter 1 - Introduction to Securities Trading and Markets"
-tags:
-  - trading
-  - securities
-  - market_microstructure
-  - financial_markets
-  - trading_strategies
-key_concepts:
-  - securities_trading
-  - market_microstructure
-  - auction_theory
-  - trading_strategies
-  - market_liquidity
-parent_directory: "X. Quantitative Trading"
+title: Chapter 1 - Introduction to Securities Trading and Markets
+parent_directory: Financial Trading and Investing
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - securities trading
+  - market microstructure
+  - auction theory
+secondary_tags:
+  - trading strategies
+  - market liquidity
+  - algorithmic trading
+  - bargaining power
+  - proprietary trading
+  - agency trading
 cssclasses: academia
 ---
 
 # Introduction to Securities Trading and Markets
+
+```d2
+trading ecosystem: {
+  shape: flowchart
+  
+  traders: "Traders" {
+    proprietary: "Proprietary Traders"
+    agency: "Agency Traders"
+    dealers: "Dealers"
+    brokers: "Brokers"
+  }
+  
+  securities: "Securities" {
+    debt: "Debt Securities"
+    equity: "Equity Securities"
+    derivatives: "Derivative Securities"
+  }
+  
+  markets: "Markets" {
+    exchanges: "Exchanges"
+    ats: "Alternative Trading Systems"
+  }
+  
+  trades: "Trades" {
+    buy: "Buy Orders"
+    sell: "Sell Orders"
+  }
+  
+  traders -> trades
+  securities -> trades
+  markets -> trades
+}
+```
 
 ## 1.1 TRADES, TRADERS, SECURITIES, AND MARKETS
 

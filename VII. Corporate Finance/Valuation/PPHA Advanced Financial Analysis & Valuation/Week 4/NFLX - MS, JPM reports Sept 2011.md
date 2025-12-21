@@ -1,13 +1,20 @@
 ---
-parent_directory:
-title: Morgan Stanley
-tags:
-aliases:
-parent_folder: Week 4
-subfolder:
-key_concepts:
+title: "NFLX - MS, JPM reports Sept 2011"
+parent_directory: "VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 4"
+formatted: 2025-12-20 11:45:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - netflix
+  - financial analysis
+  - investment banking
+secondary_tags:
+  - equity research
+  - content costs
+  - streaming business
+  - competitor analysis
+  - valuation models
 cssclasses: academia
-linter-yaml-title-alias: Morgan Stanley
 ---
 
 # Morgan Stanley
@@ -22,9 +29,9 @@ Attractive
 
 September 26, 2011
 
-# Netflix Inc
+## Netflix Inc
 
-# Can Netflix be a leader in this brave new world of content?
+### Can Netflix be a leader in this brave new world of content?
 
 Investment conclusion: The competitive environment for consumer video consumption has changed from the days of DVD by mail. Barriers to entry have changed as Netflix's business model evolves; Google and Amazon have emerged as serious, deep-pocketed competitors for content, which will drive mid / long-term content costs higher. We are reducing our estimates and our fair value estimate to \$180 but remain Equal-weight.
 
@@ -60,80 +67,21 @@ Zachary.Arrick@morganstanley.com
 
 +1 212 761 4226
 
-# Key Ratios and Statistics
+## Key Ratios and Statistics
 
-Reuters:NFLX.O Bloomberg:NFLX US
+## Netflix (NFLX, \$129, Equal-weight)
 
-Internet / United States of America
+## Why Equal-weight?
 
-<table><tr><td>Price target</td><td>NA</td></tr><tr><td>Shr price, close (Sep 23, 2011)</td><td>\$129.36</td></tr><tr><td>Mkt cap, curr (mm)</td><td>\$6,982</td></tr><tr><td>52-Week Range</td><td>\$304.79-125.02</td></tr></table>
+## Key Value Drivers
 
-<table><tr><td>Fiscal Year ending</td><td>12/10</td><td>12/11e</td><td>12/12e</td><td>12/13e</td></tr><tr><td>Revenue, net ($mm)</td><td>2,163</td><td>3,278</td><td>4,339</td><td>4,572</td></tr><tr><td>EBITDA, adj ($mm)**</td><td>116</td><td>(52)</td><td>530</td><td>537</td></tr><tr><td>ModelWare EPS ($)</td><td>2.88</td><td>4.54</td><td>5.68</td><td>5.07</td></tr></table>
+## Potential Catalysts
 
-Unless otherwise noted, all metrics are based on Morgan Stanley ModelWare framework (please see explanation later in this note).  
-** = Based on consensus methodology  
-e = Morgan Stanley Research estimates
+## Key Questions
 
-CAUTION: The "Virtuous Cycle" Works Both Ways  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/fb449a6c081095ba94ae973837422be3494a83f285ea4382ddd9dd64b0d8e3e2.jpg)  
-Source: Morgan Stanley Research
+## Key Risks
 
-Morgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.
-
-For analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.
-
-# Netflix (NFLX, \$129, Equal-weight)
-
-Risk-Reward View: Domestic Pressure with International Upside  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/95b11e00baa11fa63e654c6f4d3af6a28d2d606640567ca281d156000d46c2eb.jpg)  
-Source: FactSet, Morgan Stanley Research
-
-<table><tr><td colspan="2">Price Target NA</td><td>Base Case valuation based on our DCF model assuming terminal growth rate of 5% and WACC of 13%.</td></tr><tr><td>Bull</td><td>20x Bull</td><td rowspan="3">Higher content costs offset by strong international growth and higher quality streaming content. Continued lead in digital video monetization. 5-year revenue CAGR of 23% (C2010-C2015E), operating margin (ex-Stock-Based Compensation) of 17% by C2015E.</td></tr><tr><td>Case</td><td>Case C13e</td></tr><tr><td>\$230</td><td>EV / EBITDA</td></tr><tr><td>Base</td><td>18x Base</td><td rowspan="2">Subscriber growth continues but at a decelerating rate, long-term margins improve but content costs cap upside.</td></tr><tr><td>Case</td><td>Case C13e</td></tr><tr><td>\$180</td><td>EV / EBITDA</td><td>5-year revenue CAGR of 22% (C2010-C2015E), operating margin of 14% by C2015E.</td></tr><tr><td>Bear</td><td>17x Bear</td><td rowspan="3">Streaming content costs are bid up by deep-pocketed entrants; margins erode. Higher content costs and lack of film content lead to margin compression and sub attrition. 5-year revenue CAGR of 20% (C2010-C2015E), operating margin of 8% by C2015E.</td></tr><tr><td>Case</td><td>Case C13e</td></tr><tr><td>\$100</td><td>EV / EBITDA</td></tr></table>
-
-SWOT Analysis - Netflix  
-
-<table><tr><td>Strengths
-1. Market / brand leadership in subscription-based online streaming and DVD-by-mail
-2. Strong value proposition with “all-you-can-eat” subscription plans and hybrid distribution
-3. Broadest digital device penetration among streaming providers</td><td>Weaknesses
-1. Delivery by mail does not offer instant gratification
-2. Some competitors offer new releases to customers earlier than Netflix</td></tr><tr><td>Opportunities
-1. Continued subscriber growth due to success with digital streaming product
-2. Operating margin expansion as model shifts to digital
-3. International expansion</td><td>Threats
-1. Higher content costs by the entry of deep-pocketed competitors with lower ROIC tolerances
-2. Long term risk from consumer shift to competing digital streaming offers, such as cable + satellite VOD / Amazon VOD / Apple iTunes</td></tr></table>
-
-Source: Morgan Stanley Research, Framework based on Michael Porter's Competitive Strategy
-
-# Why Equal-weight?
-
-- Netflix is facing a war for content as scarcity value increases cost. Although the debate is less about stickiness of subs (long term), the value to subs vs. economics to shareholder dilemma is very real.  
-- Netflix has created a scale-based competitive advantage around user experience.
-
-# Key Value Drivers
-
-- Slowing sub growth – the loyal sub base has already been acquired; incremental net adds will become more difficult.  
-- Increasing content costs will handicap margin expansion, but Netflix should benefit from international expansion.  
-- Netflix streaming device / content deals improve value proposition.
-
-# Potential Catalysts
-
-- Potential for Starz negotiations to resume; deadline is CQ1:12.  
-- Positive data points from international expansion, specifically subscriber growth.
-
-# Key Questions
-
-- How will the shift to digital streaming impact Netflix? Specifically, what impact will content deals have on gross margin?  
-- How will Netflix fare in the war for content against the likes of Google and Amazon.com?  
-- Was Netflix's ARPU for its streaming offering based on an artificially low streaming content licensing agreement?
-
-# Key Risks
-
-Rising digital content licensing costs  
-Usage-based broadband pricing
-
-# Investment Case
+## Investment Case
 
 Historically, Netflix has thrived on the edge of innovation for video content distribution…
 
@@ -169,93 +117,39 @@ Subscribers want value, which limits Netflix's pricing power.
 
 With looming content cost increases, Netflix must double-down on its commitment to its most valuable asset, its subscriber base. The company can ill afford to have additional attrition. We believe the company will undergo a brand rebuilding phase over the next 18 months where it must prove that it still has the best value proposition in town. This consumer value imperative limits Netflix's pricing power, thus forcing the company to go all-in on its plans for international expansion.
 
-# Debate 1: "Virtuous Cycle Lives" or "Vicious Spiral Looms"?
+### Debate 1: "Virtuous Cycle Lives" or "Vicious Spiral Looms"?
 
-Market's view: The market is unsure, although it is likely focusing more on subscriber figures and less on mid / long-term content cost issues.
+#### Netflix's "Virtuous Cycle" in the US is experiencing pressure and risks impairment.
 
-Our view: There are real and growing competitive pressures on Netflix's "Virtuous Cycle" relating to content acquisition that could easily turn into a "Vicious Spiral".
+##### Lower quality content…
 
-# Netflix's "Virtuous Cycle" in the US is experiencing pressure and risks impairment.
+##### …less value…
 
-The company has long touted the strength of its "Virtuous Cycle":
+##### …fewer subscribers…
 
-A good value proposition will increase subscribers.  
+##### …less money to acquire content. Repeat.
 
-- Increased subscribers will allow Netflix to cut larger checks to acquire more and better content.  
-- More and better content will create an even more compelling value proposition. Repeat.
+### Debate 2: How is Netflix positioned for the Content Wars?
 
-# Lower quality content…
+#### Content is a key part of the "Virtuous Cycle".
 
-Whether you are a Bear or a Bull, February 2012 grows ever closer, and Starz has publicly stated that it no longer wishes to continue negotiations toward a renewed content agreement. If no agreement is reached, Netflix will lose almost half of its output film inventory. For a portfolio that already favors TV to film content, losing the high-quality Starz titles would be a setback to Netflix's streaming offering.
+#### The Starz press release is a material uncertainty with potentially very negative consequences.
 
-Exhibit 2 Output film catalogs are highly concentrated; if not Starz, then what?  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/539c2801b23b5e15346407eaaf1adc8f25d9119200dc6f5679273f9772bd8634.jpg)  
-Source: Box Office Mojo; company data; Morgan Stanley Research
+#### Comprehensive negotiations with studios for output film content are not possible (at least for now).
 
-# …less value…
+#### Amazon and Google are in the battle for content, not subs.
 
-For the customer, losing Starz content may not be the doomsday scenario that Wall Street predicts, however, the situation does leave the subscriber with fewer options. The secret to success in streaming is to have enough variety such that the subscriber always feels content after consuming content. Lack of content breeds disinterest, which leaves the subscriber vulnerable to alternative options. Until recently, there were no other viable options – this is changing.
+#### Scale matters, and Netflix may not be large enough.
 
-# …fewer subscribers…
+### Debate 3: Is international expansion the third "S-Curve"?
 
-We have seen empirical evidence that subscribers vote with their "cancel buttons" when the value proposition is negatively affected. Among the announced price increase on July 12, the effective date of the price increase and Starz' press release on September 1 and the announced separation of the DVD by mail and streaming businesses on September 18, Netflix has sustained  $7.7\mathrm{B}$  of shareholder value destruction  $(-50\%)$  and has revised Q3:11 subscriber estimates down by 1MM. If the value proposition deteriorates further, it is possible that we will witness an acceleration in subscriber attrition.
+#### Innovation is at the heart of the company's DNA.
 
-# …less money to acquire content. Repeat.
+#### Precedents suggest Netflix will be successful internationally.
 
-The loss of subs, especially long-time subs materially hurts Netflix. The company loses the ever-important word-of-mouth advertising, and foregoes the economics that would have contributed to the solution. With fewer subs and less money, successive rounds at the negotiating table with content owners / aggregators will yield an inferior scenario for the remaining subs.
+#### "It ain't cheap."
 
-Exhibit 3  
-Virtuous Cycles can turn into Vicious Spirals…  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/dd8f7a82aeaae90155dcd6a01de22272ac0b3b08d2a94afb913bf3dd5ca6dcd5.jpg)  
-Source: Morgan Stanley Research
-
-# Debate 2: How is Netflix positioned for the Content Wars?
-
-Market's view: The market is focused on subscriber counts as the key risk to the "Virtuous Cycle" unraveling. Our view: We believe the market should focus on the secular changes in content acquisition; the next generation of competitors have outsized resources to bid for content as well as the requisite infrastructure and experience to deliver streaming content to users.
-
-# Content is a key part of the "Virtuous Cycle".
-
-At the heart of Netflix's value proposition is the ability for the company to offer every single subscriber something that she will want to watch, when she wants to watch it. This is offered through both having a broad selection of content and also by leveraging Netflix's recommendation algorithms. Any risks related to content acquisition / availability are material and could easily disrupt Netflix's "Virtuous Cycle". We maintain that the quality of content is more important than the quantity of content.
-
-# The Starz press release is a material uncertainty with potentially very negative consequences.
-
-On September 1, 2011, Starz issued a press release stating that it has ended contract renewal negotiations with Netflix. Assuming the contract with Starz is not renewed, Netflix's maximum market share of box office output films is only  $27\%$ . Of that, Netflix already has a deal signed with EPIX that constitutes 16 of the 27 points. HBO has been unwilling to sign any content agreements with Netflix; we believe HBO may be looking to make its own foray into direct to consumer distribution, in the future.
-
-# Comprehensive negotiations with studios for output film content are not possible (at least for now).
-
-The Starz renewal saga is compounded by the fact that there are no other alternative avenues for Netflix to obtain output film content. Almost all of the major studios are currently in exclusive contracts with premium cable networks. While we believe the studios would be open to negotiating with Netflix when the contracts are up for renewal, the costs will be significant as studios do not let distributors cherry pick the best films – they require commitments for a full slate, which represents a substantial financial commitment. HBO, for example, spends  $\sim$ 1B just for its output film content. That is in addition to the  $\sim$ 600MM it spends on producing original content.
-
-Exhibit 4 Output film content is locked up in exclusive contracts with premium cable networks.  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/493e17eb8dc3ff88c8a6e0fd16cf442f2c0bae09f21dde03ec430c9094a08448.jpg)  
-
-* We believe the MGM and Paramount's exclusive agreements will extend through at least 2015.  
-Source: Morgan Stanley Research
-
-# Amazon and Google are in the battle for content, not subs.
-
-The most precarious part about the looming content wars is that Netflix's fiercest competitors for content have completely separate agendas. Amazon is focused on growing eCommerce wallet share. Google has ambitions of maintaining dominance in search and cracking into social. Both companies view video content as a means to an end. Frankly, Amazon is better at execution than Google. Having incongruent costs of capital and return hurdles puts Netflix at a disadvantage. Simply put, Amazon and Google may assign a higher value to streaming video content than Netflix.
-
-# Scale matters, and Netflix may not be large enough.
-
-Both Amazon and Google have used loss-leader strategies in the past. As the two companies grow, their ability to risk larger amounts of capital with less material downside increases. Netflix does not have the comparable scale to match the financial resources of Amazon or Google, nor does it have adjacent business lines that can help subsidize margin pressures. The best solution Netflix currently has is to run Qwikster as a cash-cow yield business and use the proceeds to acquire content for domestic streaming content and to invest in international subscriber acquisition. Note, however, that management has stated in the past that DVD by mail will be a secular declining business over time, so Qwikster's subsidization is not a long-term solution.
-
-# Debate 3: Is international expansion the third "S-Curve"?
-
-Market's view: The international story is the only thing that is supporting the company's stock, currently. International subscriber growth is the new Netflix story. Our view: We see multiple points of friction in international markets. Pricing appears to be alienating a portion of the potential addressable market, and there are incumbent offerings that Netflix will have to deal with.
-
-# Innovation is at the heart of the company's DNA.
-
-Reed Hastings and his team have led Netflix through two very difficult, very dynamic transitions: 1) the transition from bricks and mortar DVD rentals to DVDs by mail and 2) from physical video content to streaming video content. By having courage of conviction, Netflix has enjoyed a double "S-Curve" of sorts where both subscribers and financial performance accelerated at unprecedented rates.
-
-# Precedents suggest Netflix will be successful internationally.
-
-With a streaming-only subscription offering, Netflix's international success is contingent upon four things: broadband penetration, content, brand awareness and value. Netflix does not have to build-out fulfillment centers, nor deal with local postal systems. While these four points may appear straightforward, execution may not be frictionless.
-
-# "It ain't cheap."
-
-We look at two primary metrics to judge whether or not the relative cost of Netflix's subscriptions are priced with consumer value in mind: 1) Netflix subscription price vs. cable TV ARPU and 2) Netflix subscription prices on a purchasing power parity basis relative to the US.
-
-# To succeed, Netflix must narrow its field of competitors.
+#### To succeed, Netflix must narrow its field of competitors.
 
 One of the toughest challenges Netflix will face is the presence of incumbent competition. Depending upon price points, competition may be cable TV plans. Netflix management has always spoken of its streaming offering as a complementary service to the cable box. It appears, however, that Netflix has priced its streaming service at a high point, relative to basic cable when compared to the US. The higher the percentage of the basic cable package, the better the content has to be or in the worst case, the lower the adoption level.
 
@@ -275,160 +169,29 @@ Netflix Inc – NFLX – Quarterly Revenue Build-Up
 <table><tr><td rowspan="2">Netflix, Inc. Model
 (USD millions)</td><td colspan="4">2010</td><td colspan="4">2011E</td><td colspan="4">2012E</td></tr><tr><td>Q1</td><td>Q2</td><td>Q3</td><td>Q4</td><td>Q1</td><td>Q2</td><td>Q3E</td><td>Q4E</td><td>Q1E</td><td>Q2E</td><td>Q3E</td><td>Q4E</td></tr><tr><td>Revenue</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic Revenue:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ARPU</td><td>$12.54</td><td>$11.96</td><td>$11.60</td><td>$10.88</td><td>$11.13</td><td>$10.83</td><td>$10.65</td><td>$12.60</td><td>$12.42</td><td>$12.33</td><td>$12.24</td><td>$11.98</td></tr><tr><td>(x) Average Subscribers (millions)</td><td>13.1</td><td>14.5</td><td>15.9</td><td>18.2</td><td>21.1</td><td>23.7</td><td>24.3</td><td>24.6</td><td>25.8</td><td>26.8</td><td>27.4</td><td>28.9</td></tr><tr><td>Domestic Revenue</td><td>$494</td><td>$520</td><td>$553</td><td>$592</td><td>$706</td><td>$770</td><td>$776</td><td>$929</td><td>$961</td><td>$990</td><td>$1,008</td><td>$1,038</td></tr><tr><td>International Revenue:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ARPU</td><td>NA</td><td>NA</td><td>$--</td><td>$3.77</td><td>$6.24</td><td>$7.12</td><td>$7.12</td><td>$7.12</td><td>$7.12</td><td>$7.12</td><td>$7.12</td><td>$7.12</td></tr><tr><td>(x) Average Subscribers</td><td>--</td><td>--</td><td>0.1</td><td>0.3</td><td>0.7</td><td>0.9</td><td>1.2</td><td>1.8</td><td>2.6</td><td>3.6</td><td>4.5</td><td>5.3</td></tr><tr><td>International Revenue</td><td>$--</td><td>$--</td><td>$--</td><td>$4</td><td>$12</td><td>$19</td><td>$27</td><td>$39</td><td>$56</td><td>$76</td><td>$95</td><td>$114</td></tr><tr><td>Other Revenue</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Total Revenue</td><td>$494</td><td>$520</td><td>$553</td><td>$596</td><td>$719</td><td>$789</td><td>$803</td><td>$968</td><td>$1,017</td><td>$1,066</td><td>$1,103</td><td>$1,153</td></tr><tr><td>Domestic Revenue Build-Up</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total End-of-Period Subscribers (thousands):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Base Case</td><td>14.0</td><td>15.0</td><td>16.8</td><td>19.5</td><td>22.8</td><td>24.6</td><td>24.0</td><td>25.2</td><td>26.4</td><td>27.1</td><td>27.8</td><td>30.0</td></tr><tr><td>y/y Growth - %</td><td>35.5%</td><td>41.5%</td><td>51.3%</td><td>59.0%</td><td>63.2%</td><td>63.9%</td><td>42.7%</td><td>29.1%</td><td>16.0%</td><td>10.2%</td><td>15.8%</td><td>19.1%</td></tr><tr><td>q/q Growth - %</td><td>13.8%</td><td>7.4%</td><td>12.0%</td><td>16.1%</td><td>16.9%</td><td>7.9%</td><td>(2.5%)</td><td>5.0%</td><td>5.0%</td><td>2.5%</td><td>2.5%</td><td>8.0%</td></tr><tr><td>Bull Case</td><td>14.0</td><td>15.0</td><td>16.8</td><td>19.5</td><td>22.8</td><td>24.6</td><td>24.5</td><td>25.3</td><td>26.6</td><td>27.2</td><td>28.5</td><td>30.2</td></tr><tr><td>y/y Growth - %</td><td>35.5%</td><td>41.5%</td><td>51.3%</td><td>59.0%</td><td>63.2%</td><td>63.9%</td><td>45.7%</td><td>29.6%</td><td>16.5%</td><td>10.7%</td><td>16.3%</td><td>19.6%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>300</td><td>50</td><td>50</td><td>50</td><td>50</td><td>50</td></tr><tr><td>Bear Case</td><td>14.0</td><td>15.0</td><td>16.8</td><td>19.5</td><td>22.8</td><td>24.6</td><td>23.5</td><td>25.0</td><td>26.2</td><td>26.9</td><td>27.0</td><td>29.5</td></tr><tr><td>y/y Growth - %</td><td>35.5%</td><td>41.5%</td><td>51.3%</td><td>59.0%</td><td>63.2%</td><td>63.9%</td><td>39.7%</td><td>28.1%</td><td>15.0%</td><td>9.2%</td><td>14.8%</td><td>18.1%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>(300)</td><td>(100)</td><td>(100)</td><td>(100)</td><td>(100)</td><td>(100)</td></tr><tr><td>Average Revenue per User (ARPU):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Base Case</td><td>$12.54</td><td>$11.96</td><td>$11.60</td><td>$10.88</td><td>$11.13</td><td>$10.83</td><td>$10.65</td><td>$12.60</td><td>$12.42</td><td>$12.33</td><td>$12.24</td><td>$11.98</td></tr><tr><td>y/y Growth - %</td><td>(5.9%)</td><td>(8.2%)</td><td>(10.8%)</td><td>(14.2%)</td><td>(11.3%)</td><td>(9.5%)</td><td>(8.1%)</td><td>15.9%</td><td>11.6%</td><td>13.9%</td><td>14.9%</td><td>(4.9%)</td></tr><tr><td>q/q Growth - %</td><td>(1.0%)</td><td>(4.6%)</td><td>(3.1%)</td><td>(6.2%)</td><td>2.3%</td><td>(2.7%)</td><td>(1.6%)</td><td>18.3%</td><td>(1.5%)</td><td>(0.7%)</td><td>(0.7%)</td><td>(2.1%)</td></tr><tr><td>Bull Case</td><td>$12.54</td><td>$11.96</td><td>$11.60</td><td>$10.88</td><td>$11.13</td><td>$10.83</td><td>$10.65</td><td>$12.67</td><td>$12.48</td><td>$12.39</td><td>$12.23</td><td>$12.02</td></tr><tr><td>y/y Growth - %</td><td>(5.9%)</td><td>(8.2%)</td><td>(10.8%)</td><td>(14.2%)</td><td>(11.3%)</td><td>(9.5%)</td><td>(8.1%)</td><td>16.5%</td><td>12.1%</td><td>14.4%</td><td>14.8%</td><td>(5.1%)</td></tr><tr><td>Spread vs. Base Case - bps</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>61</td><td>55</td><td>54</td><td>(14)</td><td>(17)</td></tr><tr><td>Bear Case</td><td>$12.54</td><td>$11.96</td><td>$11.60</td><td>$10.88</td><td>$11.13</td><td>$10.83</td><td>$10.65</td><td>$12.55</td><td>$12.37</td><td>$12.28</td><td>$12.27</td><td>$11.97</td></tr><tr><td>y/y Growth - %</td><td>(5.9%)</td><td>(8.2%)</td><td>(10.8%)</td><td>(14.2%)</td><td>(11.3%)</td><td>(9.5%)</td><td>(8.1%)</td><td>15.4%</td><td>11.1%</td><td>13.5%</td><td>15.2%</td><td>(4.7%)</td></tr><tr><td>Spread vs. Base Case - bps</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>(47)</td><td>(41)</td><td>(40)</td><td>29</td><td>26</td></tr><tr><td>International Revenue Build-Up</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total End-of-Period Subscribers (thousands):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Base Case</td><td>--</td><td>--</td><td>0.1</td><td>0.5</td><td>0.8</td><td>1.0</td><td>1.5</td><td>2.1</td><td>3.1</td><td>4.0</td><td>4.9</td><td>5.8</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1,073.5%</td><td>309.5%</td><td>290.7%</td><td>315.9%</td><td>221.6%</td><td>177.9%</td></tr><tr><td>q/q Growth - %</td><td>NA</td><td>NA</td><td>NA</td><td>291.5%</td><td>57.8%</td><td>20.4%</td><td>57.8%</td><td>36.6%</td><td>50.5%</td><td>28.2%</td><td>22.0%</td><td>18.0%</td></tr><tr><td>Bull Case</td><td>--</td><td>--</td><td>0.1</td><td>0.5</td><td>0.8</td><td>1.0</td><td>1.7</td><td>2.2</td><td>3.1</td><td>4.0</td><td>5.3</td><td>6.1</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>1,173.5%</td><td>329.5%</td><td>291.7%</td><td>316.9%</td><td>222.6%</td><td>178.9%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>10,000</td><td>2,000</td><td>100</td><td>100</td><td>100</td><td>100</td></tr><tr><td>Bear Case</td><td>--</td><td>--</td><td>0.1</td><td>0.5</td><td>0.8</td><td>1.0</td><td>1.4</td><td>1.7</td><td>3.1</td><td>4.0</td><td>4.5</td><td>4.7</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>973.5%</td><td>234.5%</td><td>289.7%</td><td>314.9%</td><td>220.6%</td><td>176.9%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>(10,000)</td><td>(7,500)</td><td>(100)</td><td>(100)</td><td>(100)</td><td>(100)</td></tr><tr><td>Average Revenue per User (ARPU):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Base Case</td><td>NA</td><td>NA</td><td>$--</td><td>$3.77</td><td>$6.24</td><td>$7.12</td><td>$7.12</td><td>$7.12</td><td>$7.12</td><td>$7.12</td><td>$7.12</td><td>$7.12</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>88.6%</td><td>14.1%</td><td>--%</td><td>--%</td><td>--%</td></tr><tr><td>q/q Growth - %</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>65.3%</td><td>14.1%</td><td>--%</td><td>--%</td><td>--%</td><td>--%</td><td>--%</td><td>--%</td></tr><tr><td>Bull Case</td><td>NA</td><td>NA</td><td>$--</td><td>$3.77</td><td>$6.24</td><td>$7.12</td><td>$7.12</td><td>$7.15</td><td>$7.18</td><td>$7.19</td><td>$7.19</td><td>$7.23</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>89.6%</td><td>15.1%</td><td>1.0%</td><td>1.0%</td><td>1.0%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr><tr><td>Bear Case</td><td>NA</td><td>NA</td><td>$--</td><td>$3.77</td><td>$6.24</td><td>$7.12</td><td>$7.12</td><td>$7.08</td><td>$7.05</td><td>$7.05</td><td>$7.05</td><td>$7.01</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>87.6%</td><td>13.1%</td><td>(1.0%)</td><td>(1.0%)</td><td>(1.0%)</td></tr><tr><td>Spread vs. Base Case - bps</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>(100)</td><td>(100)</td><td>(100)</td><td>(100)</td><td>(100)</td><td>(100)</td></tr></table>
 
-# Exhibit 8
+## Exhibit 8
 
-Netflix Inc – NFLX – Annual Revenue Build-Up  
+## Disclosure Section
 
-<table><tr><td rowspan="2">Netflix, Inc. Model
-(USD millions)</td><td colspan="2">Historical Financials</td><td colspan="5">Projected Financials</td></tr><tr><td>2009</td><td>2010</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td></tr><tr><td>Revenue</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic Revenue:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ARPU</td><td>$12.57</td><td>$11.03</td><td>$10.98</td><td>$11.97</td><td>$10.49</td><td>$10.25</td><td>\$10.05</td></tr><tr><td>(x) Average Subscribers (millions)</td><td>11.1</td><td>16.3</td><td>24.1</td><td>27.8</td><td>31.5</td><td>34.3</td><td>36.9</td></tr><tr><td>Domestic Revenue</td><td>$1,670</td><td>$2,159</td><td>$3,181</td><td>$3,997</td><td>$3,964</td><td>$4,222</td><td>\$4,450</td></tr><tr><td>International Revenue:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ARPU</td><td>NA</td><td>$1.89</td><td>$5.97</td><td>$6.38</td><td>$6.57</td><td>$6.77</td><td>$6.97</td></tr><tr><td>(x) Average Subscribers</td><td>--</td><td>0.2</td><td>1.3</td><td>4.5</td><td>7.7</td><td>12.1</td><td>16.9</td></tr><tr><td>International Revenue</td><td>$--</td><td>$4</td><td>$96</td><td>$342</td><td>$609</td><td>$984</td><td>\$1,410</td></tr><tr><td>Other Revenue</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Total Revenue</td><td>$1,670</td><td>$2,163</td><td>$3,278</td><td>$4,339</td><td>$4,572</td><td>$5,206</td><td>\$5,860</td></tr><tr><td>Domestic Revenue Build-Up</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total End-of-Period Subscribers (thousands):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Base Case</td><td>12.3</td><td>19.5</td><td>25.2</td><td>30.0</td><td>33.0</td><td>35.6</td><td>38.1</td></tr><tr><td>y/y Growth - %</td><td>30.6%</td><td>59.0%</td><td>29.1%</td><td>19.1%</td><td>10.0%</td><td>8.0%</td><td>7.0%</td></tr><tr><td>q/q Growth - %</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td></tr><tr><td>Bull Case</td><td>12.3</td><td>19.5</td><td>25.3</td><td>30.2</td><td>33.4</td><td>36.2</td><td>38.9</td></tr><tr><td>y/y Growth - %</td><td>30.6%</td><td>59.0%</td><td>29.6%</td><td>19.6%</td><td>10.4%</td><td>8.4%</td><td>7.4%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>--</td><td>--</td><td>50</td><td>50</td><td>40</td><td>40</td><td>40</td></tr><tr><td>Bear Case</td><td>12.3</td><td>19.5</td><td>25.0</td><td>29.5</td><td>32.3</td><td>34.7</td><td>37.0</td></tr><tr><td>y/y Growth - %</td><td>30.6%</td><td>59.0%</td><td>28.1%</td><td>18.1%</td><td>9.5%</td><td>7.5%</td><td>6.5%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>--</td><td>--</td><td>(100)</td><td>(100)</td><td>(50)</td><td>(50)</td><td>(50)</td></tr><tr><td>Average Revenue per User (ARPU):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Base Case</td><td>$12.57</td><td>$11.03</td><td>$10.98</td><td>$11.97</td><td>$10.49</td><td>$10.25</td><td>\$10.05</td></tr><tr><td>y/y Growth - %</td><td>(4.1%)</td><td>(12.3%)</td><td>(0.4%)</td><td>9.0%</td><td>(12.4%)</td><td>(2.2%)</td><td>(1.9%)</td></tr><tr><td>q/q Growth - %</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td></tr><tr><td>Bull Case</td><td>$12.57</td><td>$11.03</td><td>$11.00</td><td>$12.00</td><td>$10.50</td><td>$10.26</td><td>\$10.06</td></tr><tr><td>y/y Growth - %</td><td>(4.1%)</td><td>(12.3%)</td><td>(0.2%)</td><td>9.1%</td><td>(12.5%)</td><td>(2.3%)</td><td>(2.0%)</td></tr><tr><td>Spread vs. Base Case - bps</td><td>--</td><td>--</td><td>14</td><td>11</td><td>(6)</td><td>(8)</td><td>(7)</td></tr><tr><td>Bear Case</td><td>$12.57</td><td>$11.03</td><td>$10.98</td><td>$11.97</td><td>$10.49</td><td>$10.26</td><td>\$10.07</td></tr><tr><td>y/y Growth - %</td><td>(4.1%)</td><td>(12.3%)</td><td>(0.4%)</td><td>9.0%</td><td>(12.4%)</td><td>(2.2%)</td><td>(1.9%)</td></tr><tr><td>Spread vs. Base Case - bps</td><td>--</td><td>--</td><td>(6)</td><td>2</td><td>3</td><td>8</td><td>7</td></tr><tr><td>International Revenue Build-Up</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total End-of-Period Subscribers (thousands):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Base Case</td><td>--</td><td>0.8</td><td>2.1</td><td>5.8</td><td>9.7</td><td>14.6</td><td>19.1</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>159.5%</td><td>177.9%</td><td>66.7%</td><td>51.2%</td><td>31.1%</td></tr><tr><td>q/q Growth - %</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td></tr><tr><td>Bull Case</td><td>--</td><td>0.8</td><td>2.2</td><td>6.1</td><td>10.2</td><td>15.5</td><td>20.3</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>172.2%</td><td>178.9%</td><td>67.2%</td><td>51.7%</td><td>31.6%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>NA</td><td>NA</td><td>1,268</td><td>100</td><td>50</td><td>50</td><td>50</td></tr><tr><td>Bear Case</td><td>--</td><td>0.8</td><td>1.7</td><td>4.7</td><td>7.8</td><td>11.8</td><td>15.4</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>112.0%</td><td>176.9%</td><td>66.2%</td><td>50.7%</td><td>30.6%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>NA</td><td>NA</td><td>(4,754)</td><td>(100)</td><td>(50)</td><td>(50)</td><td>(50)</td></tr><tr><td>Average Revenue per User (ARPU):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Base Case</td><td>NA</td><td>$1.89</td><td>$5.97</td><td>$6.38</td><td>$6.57</td><td>$6.77</td><td>$6.97</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>216.3%</td><td>6.9%</td><td>3.0%</td><td>3.0%</td><td>3.0%</td></tr><tr><td>q/q Growth - %</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td><td>NM</td></tr><tr><td>Bull Case</td><td>NA</td><td>$1.89</td><td>$5.96</td><td>$6.44</td><td>$6.64</td><td>$6.84</td><td>$7.04</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>216.1%</td><td>8.0%</td><td>3.0%</td><td>3.0%</td><td>3.0%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>NA</td><td>NA</td><td>(22)</td><td>117</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Bear Case</td><td>NA</td><td>$1.89</td><td>$6.11</td><td>$6.39</td><td>$6.55</td><td>$6.71</td><td>$6.88</td></tr><tr><td>y/y Growth - %</td><td>NA</td><td>NA</td><td>224.1%</td><td>4.5%</td><td>2.5%</td><td>2.5%</td><td>2.5%</td></tr><tr><td>Spread vs. Base Case - bps</td><td>NA</td><td>NA</td><td>775</td><td>(241)</td><td>(50)</td><td>(50)</td><td>(50)</td></tr></table>
+## Analyst Certification
 
-Exhibit 9  
-Netflix Inc - NFLX - Quarterly Income Statement  
+## Global Research Conflict Management Policy
 
-<table><tr><td rowspan="2">Netflix, Inc. Model
-(USD millions)</td><td colspan="4">2010</td><td colspan="4">2011E</td><td colspan="4">2012E</td></tr><tr><td>Q1</td><td>Q2</td><td>Q3</td><td>Q4</td><td>Q1</td><td>Q2</td><td>Q3E</td><td>Q4E</td><td>Q1E</td><td>Q2E</td><td>Q3E</td><td>Q4E</td></tr><tr><td colspan="13">Income Statement</td></tr><tr><td colspan="13">Revenues:</td></tr><tr><td>Domestic</td><td>$494</td><td>$520</td><td>$553</td><td>$592</td><td>$706</td><td>$770</td><td>$776</td><td>$929</td><td>$961</td><td>$990</td><td>$1,008</td><td>$1,038</td></tr><tr><td>International</td><td>--</td><td>--</td><td>--</td><td>4</td><td>12</td><td>19</td><td>27</td><td>39</td><td>56</td><td>76</td><td>95</td><td>114</td></tr><tr><td>Other</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Consolidated Revenues</td><td>$494</td><td>$520</td><td>$553</td><td>$596</td><td>$719</td><td>$789</td><td>$803</td><td>$968</td><td>$1,017</td><td>$1,066</td><td>$1,103</td><td>$1,153</td></tr><tr><td>(-) Subscription Expenses</td><td>(260)</td><td>(265)</td><td>(292)</td><td>(337)</td><td>(377)</td><td>(428)</td><td>(457)</td><td>(556)</td><td>(599)</td><td>(611)</td><td>(627)</td><td>(654)</td></tr><tr><td>(-) Fulfillment Expenses</td><td>(47)</td><td>(49)</td><td>(52)</td><td>(54)</td><td>(61)</td><td>(61)</td><td>(62)</td><td>(68)</td><td>(70)</td><td>(71)</td><td>(72)</td><td>(74)</td></tr><tr><td>Gross Profit</td><td>$187</td><td>$205</td><td>$209</td><td>$205</td><td>$281</td><td>$299</td><td>$283</td><td>$344</td><td>$348</td><td>$384</td><td>$404</td><td>$424</td></tr><tr><td>(-) Technology &amp; Development</td><td>(36)</td><td>(35)</td><td>(39)</td><td>(43)</td><td>(46)</td><td>(51)</td><td>(58)</td><td>(65)</td><td>(73)</td><td>(76)</td><td>(79)</td><td>(82)</td></tr><tr><td>(-) Marketing</td><td>(75)</td><td>(74)</td><td>(80)</td><td>(62)</td><td>(103)</td><td>(93)</td><td>(106)</td><td>(120)</td><td>(130)</td><td>(133)</td><td>(138)</td><td>(144)</td></tr><tr><td>(-) General &amp; Administrative</td><td>(13)</td><td>(14)</td><td>(14)</td><td>(15)</td><td>(18)</td><td>(24)</td><td>(26)</td><td>(25)</td><td>(25)</td><td>(28)</td><td>(28)</td><td>(29)</td></tr><tr><td>(-) Stock-Based Compensation</td><td>(6)</td><td>(7)</td><td>(7)</td><td>(8)</td><td>(12)</td><td>(16)</td><td>(13)</td><td>(12)</td><td>(14)</td><td>(15)</td><td>(15)</td><td>(15)</td></tr><tr><td>(+) Gain on Disposal of DVDs</td><td>--</td><td>2</td><td>1</td><td>1</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>(-) Restructuring Charges</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Operating Income</td><td>$58</td><td>$77</td><td>$70</td><td>$78</td><td>$102</td><td>$115</td><td>$81</td><td>$121</td><td>$105</td><td>$131</td><td>$144</td><td>$155</td></tr><tr><td>(-) Interest Expense</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td><td>(5)</td></tr><tr><td>(+ ) Interest &amp; Other Income</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Pre-Tax Income</td><td>$54</td><td>$73</td><td>$65</td><td>$75</td><td>$98</td><td>$111</td><td>$77</td><td>$117</td><td>$101</td><td>$127</td><td>$140</td><td>$151</td></tr><tr><td>(+/-) Income Tax Provision</td><td>(22)</td><td>(30)</td><td>(27)</td><td>(27)</td><td>(38)</td><td>(43)</td><td>(31)</td><td>(47)</td><td>(42)</td><td>(52)</td><td>(57)</td><td>(62)</td></tr><tr><td>Net Income</td><td>$32</td><td>$44</td><td>$38</td><td>$47</td><td>$60</td><td>$68</td><td>$46</td><td>$70</td><td>$60</td><td>$75</td><td>$82</td><td>$89</td></tr><tr><td>Adj. EBITDA</td><td>$50</td><td>$66</td><td>$16</td><td>($17)</td><td>$23</td><td>($322)</td><td>$114</td><td>$133</td><td>$106</td><td>$131</td><td>$144</td><td>$149</td></tr><tr><td>Operating Income (ex-SBC)</td><td>39</td><td>57</td><td>8</td><td>(26)</td><td>13</td><td>(333)</td><td>104</td><td>123</td><td>95</td><td>119</td><td>132</td><td>136</td></tr><tr><td colspan="13">Earnings Per Share</td></tr><tr><td>Basic - GAAP EPS</td><td>$0.61</td><td>$0.83</td><td>$0.73</td><td>$0.90</td><td>$1.14</td><td>$1.30</td><td>$0.88</td><td>$1.34</td><td>$1.14</td><td>$1.43</td><td>$1.57</td><td>$1.69</td></tr><tr><td>Diluted - GAAP EPS</td><td>0.59</td><td>0.80</td><td>0.70</td><td>0.87</td><td>1.11</td><td>1.26</td><td>0.85</td><td>1.31</td><td>1.11</td><td>1.39</td><td>1.53</td><td>1.65</td></tr><tr><td>Operating - Non-GAAP EPS</td><td>$0.65</td><td>$0.88</td><td>$0.79</td><td>$0.96</td><td>$1.25</td><td>$1.44</td><td>$1.00</td><td>$1.44</td><td>$1.27</td><td>$1.57</td><td>$1.70</td><td>$1.82</td></tr><tr><td colspan="13">Growth Metrics</td></tr><tr><td>Total Revenue Growth</td><td>25.3%</td><td>27.2%</td><td>30.7%</td><td>34.1%</td><td>45.6%</td><td>51.7%</td><td>45.1%</td><td>62.4%</td><td>41.6%</td><td>35.2%</td><td>37.4%</td><td>19.1%</td></tr><tr><td>Gross Income (in-D&amp;A) Growth</td><td>38.3%</td><td>47.2%</td><td>41.3%</td><td>21.5%</td><td>50.5%</td><td>45.9%</td><td>35.4%</td><td>67.2%</td><td>23.9%</td><td>28.2%</td><td>42.5%</td><td>23.4%</td></tr><tr><td>Operating Income Growth</td><td>60.0%</td><td>46.5%</td><td>40.9%</td><td>47.1%</td><td>75.2%</td><td>48.8%</td><td>16.1%</td><td>54.7%</td><td>3.1%</td><td>14.2%</td><td>77.9%</td><td>27.3%</td></tr><tr><td>Adj. EBITDA (ex-SBC)</td><td>74.8%</td><td>1.2%</td><td>(73.2%)</td><td>(136.6%)</td><td>(54.0%)</td><td>(585.5%)</td><td>595.9%</td><td>904.8%</td><td>364.3%</td><td>140.5%</td><td>26.7%</td><td>11.7%</td></tr><tr><td>Operating Income (ex-SBC)</td><td>101.7%</td><td>0.9%</td><td>(85.1%)</td><td>(173.8%)</td><td>(66.4%)</td><td>(682.5%)</td><td>1,254.3%</td><td>576.0%</td><td>629.7%</td><td>135.7%</td><td>26.8%</td><td>10.6%</td></tr><tr><td>Operating - Non-GAAP EPS</td><td>62.5%</td><td>51.7%</td><td>43.6%</td><td>62.7%</td><td>92.3%</td><td>63.6%</td><td>26.6%</td><td>50.0%</td><td>1.6%</td><td>9.0%</td><td>70.0%</td><td>26.4%</td></tr><tr><td colspan="13">Metrics as % of Revenue</td></tr><tr><td>Gross Income (in-D&amp;A)</td><td>37.8%</td><td>39.5%</td><td>37.8%</td><td>34.5%</td><td>39.1%</td><td>38.0%</td><td>35.3%</td><td>35.5%</td><td>34.2%</td><td>36.0%</td><td>36.6%</td><td>36.8%</td></tr><tr><td>Adj. EBITDA Margin (ex-SBC)</td><td>10.1%</td><td>12.8%</td><td>3.0%</td><td>(2.8%)</td><td>3.2%</td><td>(40.9%)</td><td>14.2%</td><td>13.8%</td><td>10.4%</td><td>12.2%</td><td>13.1%</td><td>12.9%</td></tr><tr><td>Operating Income Margin (ex-SBC, ex-Amort. of Intangibles)</td><td>7.9%</td><td>11.0%</td><td>1.4%</td><td>(4.3%)</td><td>1.8%</td><td>(42.2%)</td><td>12.9%</td><td>12.7%</td><td>9.3%</td><td>11.1%</td><td>11.9%</td><td>11.8%</td></tr><tr><td>Subscription Expenses</td><td>52.6%</td><td>51.1%</td><td>52.9%</td><td>56.5%</td><td>52.5%</td><td>54.3%</td><td>57.0%</td><td>57.5%</td><td>58.9%</td><td>57.3%</td><td>56.8%</td><td>56.8%</td></tr><tr><td>Fulfillment Expenses (ex-SBC)</td><td>9.6%</td><td>9.5%</td><td>9.4%</td><td>9.0%</td><td>8.4%</td><td>7.7%</td><td>7.8%</td><td>7.0%</td><td>6.8%</td><td>6.7%</td><td>6.6%</td><td>6.4%</td></tr><tr><td>Technology &amp; Development Expenses (ex-SBC)</td><td>7.2%</td><td>6.8%</td><td>7.1%</td><td>7.2%</td><td>6.3%</td><td>6.4%</td><td>7.2%</td><td>6.8%</td><td>7.2%</td><td>7.2%</td><td>7.2%</td><td>7.1%</td></tr><tr><td>Marketing Expenses (ex-SBC)</td><td>15.1%</td><td>14.2%</td><td>14.5%</td><td>10.4%</td><td>14.3%</td><td>11.9%</td><td>13.2%</td><td>12.4%</td><td>12.8%</td><td>12.5%</td><td>12.5%</td><td>12.5%</td></tr><tr><td>General &amp; Administrative Expenses (ex-SBC)</td><td>2.6%</td><td>2.6%</td><td>2.5%</td><td>2.6%</td><td>2.5%</td><td>3.1%</td><td>3.2%</td><td>2.6%</td><td>2.5%</td><td>2.6%</td><td>2.5%</td><td>2.5%</td></tr><tr><td>Stock-Based Compensation</td><td>1.1%</td><td>1.3%</td><td>1.3%</td><td>1.4%</td><td>1.7%</td><td>2.0%</td><td>1.6%</td><td>1.2%</td><td>1.4%</td><td>1.4%</td><td>1.4%</td><td>1.3%</td></tr></table>
+## Important US Regulatory Disclosures on Subject Companies
 
-Exhibit 10  
-Netflix Inc - NFLX - Annual Income Statement  
+## STOCK RATINGS
 
-<table><tr><td>Netflix, Inc. Model</td><td colspan="2">Historical Financials</td><td colspan="5">Projected Financials</td></tr><tr><td>(USD millions)</td><td>2009</td><td>2010</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td></tr><tr><td>Income Statement</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Revenues:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic</td><td>$1,670</td><td>$2,159</td><td>$3,181</td><td>$3,997</td><td>$3,964</td><td>$4,222</td><td>\$4,450</td></tr><tr><td>International</td><td>--</td><td>4</td><td>96</td><td>342</td><td>609</td><td>984</td><td>1,410</td></tr><tr><td>Other</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Consolidated Revenues</td><td>$1,670</td><td>$2,163</td><td>$3,278</td><td>$4,339</td><td>$4,572</td><td>$5,206</td><td>\$5,860</td></tr><tr><td>(-) Subscription Expenses</td><td>(909)</td><td>(1,154)</td><td>(1,819)</td><td>(2,492)</td><td>(2,729)</td><td>(2,999)</td><td>(3,345)</td></tr><tr><td>(-) Fulfillment Expenses</td><td>(169)</td><td>(202)</td><td>(252)</td><td>(288)</td><td>(295)</td><td>(317)</td><td>(339)</td></tr><tr><td>Gross Profit</td><td>$591</td><td>$806</td><td>$1,207</td><td>$1,560</td><td>$1,548</td><td>$1,890</td><td>\$2,176</td></tr><tr><td>(-) Technology &amp; Development</td><td>(110)</td><td>(153)</td><td>(220)</td><td>(310)</td><td>(339)</td><td>(386)</td><td>(436)</td></tr><tr><td>(-) Marketing</td><td>(236)</td><td>(291)</td><td>(422)</td><td>(545)</td><td>(552)</td><td>(630)</td><td>(703)</td></tr><tr><td>(-) General &amp; Administrative</td><td>(45)</td><td>(55)</td><td>(93)</td><td>(110)</td><td>(119)</td><td>(135)</td><td>(152)</td></tr><tr><td>(-) Stock-Based Compensation</td><td>(13)</td><td>(28)</td><td>(52)</td><td>(60)</td><td>(59)</td><td>(68)</td><td>(76)</td></tr><tr><td>(+) Gain on Disposal of DVDs</td><td>5</td><td>4</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>(-) Restructuring Charges</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Operating Income</td><td>$192</td><td>$284</td><td>$419</td><td>$535</td><td>$479</td><td>$671</td><td>\$809</td></tr><tr><td>(-) Interest Expense</td><td>(6)</td><td>(20)</td><td>(20)</td><td>(20)</td><td>(20)</td><td>(20)</td><td>(20)</td></tr><tr><td>(+ ) Interest &amp; Other Income</td><td>7</td><td>4</td><td>4</td><td>4</td><td>4</td><td>8</td><td>13</td></tr><tr><td>Pre-Tax Income</td><td>$192</td><td>$268</td><td>$403</td><td>$519</td><td>$464</td><td>$659</td><td>\$802</td></tr><tr><td>(+/-) Income Tax Provision</td><td>(76)</td><td>(107)</td><td>(158)</td><td>(213)</td><td>(190)</td><td>(270)</td><td>(329)</td></tr><tr><td>Net Income</td><td>$116</td><td>$161</td><td>$245</td><td>$306</td><td>$273</td><td>$389</td><td>\$473</td></tr><tr><td>Adj. EBITDA</td><td>$200</td><td>$116</td><td>($52)</td><td>$530</td><td>$537</td><td>$761</td><td>\$914</td></tr><tr><td>Operating Income (ex-SBC)</td><td>162</td><td>78</td><td>(93)</td><td>481</td><td>482</td><td>696</td><td>838</td></tr><tr><td>Earnings Per Share</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Basic - GAAP EPS</td><td>$2.05</td><td>$3.06</td><td>$4.66</td><td>$5.84</td><td>$5.21</td><td>$7.41</td><td>\$9.02</td></tr><tr><td>Diluted - GAAP EPS</td><td>1.98</td><td>2.96</td><td>4.54</td><td>5.68</td><td>5.07</td><td>7.21</td><td>8.78</td></tr><tr><td>Operating - Non-GAAP EPS</td><td>$2.11</td><td>$3.27</td><td>$5.11</td><td>$6.33</td><td>$5.72</td><td>$7.95</td><td>\$9.61</td></tr><tr><td>Growth Metrics</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total Revenue Growth</td><td>22.4%</td><td>29.5%</td><td>51.6%</td><td>32.4%</td><td>5.4%</td><td>13.9%</td><td>12.6%</td></tr><tr><td>Gross Income (in-D&amp;A) Growth</td><td>30.0%</td><td>36.4%</td><td>49.7%</td><td>29.2%</td><td>(0.7%)</td><td>22.1%</td><td>15.1%</td></tr><tr><td>Operating Income Growth</td><td>58.0%</td><td>47.8%</td><td>47.9%</td><td>27.5%</td><td>(10.4%)</td><td>40.1%</td><td>20.5%</td></tr><tr><td>Adj. EBITDA (ex-SBC)</td><td>(3.2%)</td><td>(42.2%)</td><td>(145.2%)</td><td>1,111.5%</td><td>1.5%</td><td>41.6%</td><td>20.1%</td></tr><tr><td>Operating Income (ex-SBC)</td><td>(7.0%)</td><td>(52.1%)</td><td>(219.5%)</td><td>618.6%</td><td>0.2%</td><td>44.4%</td><td>20.4%</td></tr><tr><td>Operating - Non-GAAP EPS</td><td>46.5%</td><td>55.0%</td><td>56.3%</td><td>23.9%</td><td>(9.6%)</td><td>39.0%</td><td>20.9%</td></tr><tr><td>Metrics as % of Revenue</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Gross Income (in-D&amp;A)</td><td>35.4%</td><td>37.3%</td><td>36.8%</td><td>35.9%</td><td>33.9%</td><td>36.3%</td><td>37.1%</td></tr><tr><td>Adj. EBITDA Margin (ex-SBC)</td><td>12.0%</td><td>5.4%</td><td>(1.6%)</td><td>12.2%</td><td>11.8%</td><td>14.6%</td><td>15.6%</td></tr><tr><td>Operating Income Margin (ex-SBC, ex-Amort. of Intangibles)</td><td>9.7%</td><td>3.6%</td><td>(2.8%)</td><td>11.1%</td><td>10.5%</td><td>13.4%</td><td>14.3%</td></tr><tr><td>Subscription Expenses</td><td>54.4%</td><td>53.4%</td><td>55.5%</td><td>57.4%</td><td>59.7%</td><td>57.6%</td><td>57.1%</td></tr><tr><td>Fulfillment Expenses (ex-SBC)</td><td>10.1%</td><td>9.3%</td><td>7.7%</td><td>6.6%</td><td>6.5%</td><td>6.1%</td><td>5.8%</td></tr><tr><td>Technology &amp; Development Expenses (ex-SBC)</td><td>6.6%</td><td>7.1%</td><td>6.7%</td><td>7.1%</td><td>7.4%</td><td>7.4%</td><td>7.4%</td></tr><tr><td>Marketing Expenses (ex-SBC)</td><td>14.1%</td><td>13.4%</td><td>12.9%</td><td>12.6%</td><td>12.1%</td><td>12.1%</td><td>12.0%</td></tr><tr><td>General &amp; Administrative Expenses (ex-SBC)</td><td>2.7%</td><td>2.6%</td><td>2.8%</td><td>2.5%</td><td>2.6%</td><td>2.6%</td><td>2.6%</td></tr><tr><td>Stock-Based Compensation</td><td>0.8%</td><td>1.3%</td><td>1.6%</td><td>1.4%</td><td>1.3%</td><td>1.3%</td><td>1.3%</td></tr></table>
+## Global Stock Ratings Distribution
 
-Exhibit 11 Netflix Inc - NFLX - Quarterly Balance Sheet  
+## AnalystStockRatings
 
-<table><tr><td rowspan="2">Netflix, Inc. Model
-(USD millions)</td><td colspan="4">2010</td><td colspan="4">2011E</td><td colspan="4">2012E</td></tr><tr><td>Q1</td><td>Q2</td><td>Q3</td><td>Q4</td><td>Q1</td><td>Q2</td><td>Q3E</td><td>Q4E</td><td>Q1E</td><td>Q2E</td><td>Q3E</td><td>Q4E</td></tr><tr><td colspan="13">Balance Sheet</td></tr><tr><td colspan="13">Assets:</td></tr><tr><td>Cash &amp; Cash Equivalents</td><td>$80</td><td>$107</td><td>$113</td><td>$194</td><td>$150</td><td>$175</td><td>$19</td><td>$94</td><td>($7)</td><td>$290</td><td>$28</td><td>$152</td></tr><tr><td>Short-Term Investments</td><td>186</td><td>172</td><td>144</td><td>156</td><td>192</td><td>201</td><td>205</td><td>247</td><td>260</td><td>272</td><td>281</td><td>294</td></tr><tr><td>Current Content Library, Net</td><td>56</td><td>93</td><td>138</td><td>181</td><td>266</td><td>499</td><td>499</td><td>499</td><td>499</td><td>499</td><td>499</td><td>499</td></tr><tr><td>Prepaid Content</td><td>32</td><td>34</td><td>59</td><td>62</td><td>75</td><td>60</td><td>60</td><td>74</td><td>77</td><td>81</td><td>83</td><td>88</td></tr><tr><td>Other Current Assets</td><td>26</td><td>35</td><td>38</td><td>47</td><td>38</td><td>34</td><td>40</td><td>50</td><td>40</td><td>35</td><td>42</td><td>52</td></tr><tr><td>Total Current Assets</td><td>$380</td><td>$441</td><td>$492</td><td>$641</td><td>$722</td><td>$969</td><td>$823</td><td>$964</td><td>$869</td><td>$1,178</td><td>$933</td><td>$1,085</td></tr><tr><td>Content Library, Net</td><td>109</td><td>95</td><td>120</td><td>181</td><td>198</td><td>425</td><td>415</td><td>425</td><td>450</td><td>477</td><td>505</td><td>538</td></tr><tr><td>Net PP&amp;E</td><td>127</td><td>123</td><td>125</td><td>129</td><td>135</td><td>137</td><td>143</td><td>152</td><td>161</td><td>171</td><td>180</td><td>190</td></tr><tr><td>Deferred Income Taxes</td><td>19</td><td>22</td><td>19</td><td>17</td><td>22</td><td>26</td><td>26</td><td>26</td><td>26</td><td>26</td><td>26</td><td>26</td></tr><tr><td>Other Non-Current Assets</td><td>13</td><td>13</td><td>14</td><td>14</td><td>14</td><td>13</td><td>13</td><td>13</td><td>13</td><td>13</td><td>13</td><td>13</td></tr><tr><td>Total Assets</td><td>$648</td><td>$694</td><td>$770</td><td>$982</td><td>$1,090</td><td>$1,571</td><td>$1,420</td><td>$1,580</td><td>$1,519</td><td>$1,865</td><td>$1,657</td><td>$1,853</td></tr><tr><td colspan="13">Liabilities:</td></tr><tr><td>Accounts Payable</td><td>$103</td><td>$120</td><td>$170</td><td>$223</td><td>$301</td><td>$533</td><td>$570</td><td>$561</td><td>$387</td><td>$370</td><td>$384</td><td>$400</td></tr><tr><td>Accrued Expenses</td><td>39</td><td>35</td><td>37</td><td>36</td><td>44</td><td>44</td><td>32</td><td>36</td><td>40</td><td>61</td><td>42</td><td>42</td></tr><tr><td>Current Portion of Lease Financing Obligations</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Deferred Revenue</td><td>100</td><td>101</td><td>103</td><td>127</td><td>143</td><td>147</td><td>149</td><td>183</td><td>190</td><td>199</td><td>205</td><td>218</td></tr><tr><td>Total Current Liabilities</td><td>$243</td><td>$258</td><td>$312</td><td>$389</td><td>$490</td><td>$727</td><td>$754</td><td>$783</td><td>$619</td><td>$633</td><td>$634</td><td>$663</td></tr><tr><td>Long-Term Debt</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td></tr><tr><td>Lease Financing Obligations</td><td>36</td><td>35</td><td>35</td><td>34</td><td>34</td><td>33</td><td>33</td><td>33</td><td>33</td><td>33</td><td>33</td><td>33</td></tr><tr><td>Other Non-Current Liabilities</td><td>22</td><td>24</td><td>32</td><td>69</td><td>91</td><td>277</td><td>41</td><td>90</td><td>118</td><td>360</td><td>53</td><td>117</td></tr><tr><td>Total Liabilities</td><td>$502</td><td>$517</td><td>$578</td><td>$692</td><td>$814</td><td>$1,237</td><td>$1,028</td><td>$1,106</td><td>$970</td><td>$1,226</td><td>$920</td><td>$1,013</td></tr><tr><td colspan="13">Shareholders&#x27; Equity:</td></tr><tr><td>Preferred Equity</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td></tr><tr><td>Common Equity</td><td>0</td><td>0</td><td>0</td><td>52</td><td>0</td><td>0</td><td>13</td><td>25</td><td>39</td><td>54</td><td>69</td><td>84</td></tr><tr><td>AOC Income / (Loss)</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Retained Earnings</td><td>146</td><td>176</td><td>191</td><td>238</td><td>275</td><td>333</td><td>379</td><td>450</td><td>509</td><td>585</td><td>667</td><td>756</td></tr><tr><td>Total Shareholders&#x27; Equity</td><td>$147</td><td>$177</td><td>$192</td><td>$290</td><td>$276</td><td>$334</td><td>$393</td><td>$475</td><td>$549</td><td>$639</td><td>$737</td><td>$841</td></tr><tr><td>Total Liabilities &amp; Shareholders&#x27; Equity</td><td>$648</td><td>$694</td><td>$770</td><td>$982</td><td>$1,090</td><td>$1,571</td><td>$1,420</td><td>$1,580</td><td>$1,519</td><td>$1,865</td><td>$1,657</td><td>$1,853</td></tr></table>
+## Analyst Industry Views
 
-Source: Morgan Stanley Research
+## Stock Price, Price Target and Rating History (See Rating Definitions)
 
-Exhibit 12  
-Netflix Inc - NFLX - Annual Balance Sheet  
+## Important Disclosures for Morgan Stanley Smith Barney LLC Customers
 
-<table><tr><td rowspan="2">Netflix, Inc. Model
-(USD millions)</td><td colspan="2">Historical Financials</td><td colspan="5">Projected Financials</td></tr><tr><td>2009</td><td>2010</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td></tr><tr><td colspan="8">Balance Sheet</td></tr><tr><td colspan="8">Assets:</td></tr><tr><td>Cash &amp; Cash Equivalents</td><td>$134</td><td>$194</td><td>$94</td><td>$152</td><td>$473</td><td>$934</td><td>\$1,508</td></tr><tr><td>Short-Term Investments</td><td>186</td><td>156</td><td>247</td><td>294</td><td>310</td><td>353</td><td>397</td></tr><tr><td>Current Content Library, Net</td><td>37</td><td>181</td><td>499</td><td>499</td><td>499</td><td>499</td><td>499</td></tr><tr><td>Prepaid Content</td><td>27</td><td>62</td><td>74</td><td>88</td><td>93</td><td>106</td><td>119</td></tr><tr><td>Other Current Assets</td><td>27</td><td>47</td><td>50</td><td>52</td><td>55</td><td>58</td><td>60</td></tr><tr><td>Total Current Assets</td><td>$411</td><td>$641</td><td>$964</td><td>$1,085</td><td>$1,429</td><td>$1,949</td><td>\$2,584</td></tr><tr><td>Content Library, Net</td><td>109</td><td>181</td><td>425</td><td>538</td><td>595</td><td>638</td><td>686</td></tr><tr><td>Net PP&amp;E</td><td>132</td><td>129</td><td>152</td><td>190</td><td>208</td><td>226</td><td>244</td></tr><tr><td>Deferred Income Taxes</td><td>16</td><td>17</td><td>26</td><td>26</td><td>26</td><td>26</td><td>26</td></tr><tr><td>Other Non-Current Assets</td><td>12</td><td>14</td><td>13</td><td>13</td><td>13</td><td>13</td><td>13</td></tr><tr><td>Total Assets</td><td>$680</td><td>$982</td><td>$1,580</td><td>$1,853</td><td>$2,271</td><td>$2,852</td><td>\$3,552</td></tr><tr><td colspan="8">Liabilities:</td></tr><tr><td>Accounts Payable</td><td>$91</td><td>$223</td><td>$561</td><td>$400</td><td>$435</td><td>$477</td><td>\$530</td></tr><tr><td>Accrued Expenses</td><td>33</td><td>36</td><td>36</td><td>42</td><td>45</td><td>50</td><td>56</td></tr><tr><td>Current Portion of Lease Financing Obligations</td><td>1</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Deferred Revenue</td><td>100</td><td>127</td><td>183</td><td>218</td><td>230</td><td>262</td><td>295</td></tr><tr><td>Total Current Liabilities</td><td>$226</td><td>$389</td><td>$783</td><td>$663</td><td>$713</td><td>$791</td><td>\$883</td></tr><tr><td>Long-Term Debt</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td><td>200</td></tr><tr><td>Lease Financing Obligations</td><td>37</td><td>34</td><td>33</td><td>33</td><td>33</td><td>33</td><td>33</td></tr><tr><td>Other Non-Current Liabilities</td><td>18</td><td>69</td><td>90</td><td>117</td><td>152</td><td>198</td><td>257</td></tr><tr><td>Total Liabilities</td><td>$481</td><td>$692</td><td>$1,106</td><td>$1,013</td><td>$1,098</td><td>$1,222</td><td>\$1,373</td></tr><tr><td colspan="8">Shareholders&#x27; Equity:</td></tr><tr><td>Preferred Equity</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td><td>$--</td></tr><tr><td>Common Equity</td><td>0</td><td>52</td><td>25</td><td>84</td><td>144</td><td>211</td><td>287</td></tr><tr><td>AOC Income / (Loss)</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Retained Earnings</td><td>199</td><td>238</td><td>450</td><td>756</td><td>1,029</td><td>1,418</td><td>1,891</td></tr><tr><td>Total Shareholders&#x27; Equity</td><td>$199</td><td>$290</td><td>$475</td><td>$841</td><td>$1,174</td><td>$1,630</td><td>\$2,179</td></tr><tr><td>Total Liabilities &amp; Shareholders&#x27; Equity</td><td>$680</td><td>$982</td><td>$1,580</td><td>$1,853</td><td>$2,271</td><td>$2,852</td><td>\$3,552</td></tr></table>
-
-Exhibit 13  
-Netflix Inc - NFLX - Quarterly Cash Flow Statement  
-
-<table><tr><td rowspan="2">Netflix, Inc. Model
-(USD millions)</td><td colspan="4">2010</td><td colspan="4">2011E</td><td colspan="4">2012E</td></tr><tr><td>Q1</td><td>Q2</td><td>Q3</td><td>Q4</td><td>Q1</td><td>Q2</td><td>Q3E</td><td>Q4E</td><td>Q1E</td><td>Q2E</td><td>Q3E</td><td>Q4E</td></tr><tr><td colspan="13">Cash Flow Statement</td></tr><tr><td colspan="13">Operating Cash Flow:</td></tr><tr><td>Net Income</td><td>$32</td><td>$44</td><td>$38</td><td>$47</td><td>$60</td><td>$68</td><td>$46</td><td>$70</td><td>$60</td><td>$75</td><td>$82</td><td>$89</td></tr><tr><td>Additions to Streaming Content Library</td><td>(50)</td><td>(66)</td><td>(115)</td><td>(174)</td><td>(192)</td><td>(613)</td><td>(110)</td><td>(143)</td><td>(172)</td><td>(189)</td><td>(199)</td><td>(209)</td></tr><tr><td>Change in Streaming Content Liabilities</td><td>11</td><td>18</td><td>59</td><td>80</td><td>82</td><td>420</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Amortization of Streaming Content Library</td><td>19</td><td>30</td><td>45</td><td>65</td><td>86</td><td>144</td><td>114</td><td>129</td><td>144</td><td>159</td><td>170</td><td>174</td></tr><tr><td>Amortization of DVD Content Library</td><td>44</td><td>35</td><td>33</td><td>31</td><td>27</td><td>24</td><td>25</td><td>23</td><td>21</td><td>20</td><td>20</td><td>19</td></tr><tr><td>Amortization of Content Library</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Depreciation &amp; Amortization of PP&amp;E &amp; Intangibles</td><td>11</td><td>9</td><td>9</td><td>9</td><td>10</td><td>10</td><td>10</td><td>10</td><td>11</td><td>12</td><td>12</td><td>13</td></tr><tr><td>Stock-Based Compensation</td><td>6</td><td>7</td><td>7</td><td>8</td><td>12</td><td>16</td><td>13</td><td>12</td><td>14</td><td>15</td><td>15</td><td>15</td></tr><tr><td>Excess Tax Benefit from Exercise of Stock Options</td><td>(7)</td><td>(11)</td><td>(16)</td><td>(28)</td><td>(16)</td><td>(18)</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Amortization of Intangible Assets</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Other Non-Cash Income</td><td>(3)</td><td>(3)</td><td>(2)</td><td>(1)</td><td>(1)</td><td>(1)</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Deferred Income Taxes</td><td>(3)</td><td>(3)</td><td>3</td><td>2</td><td>(5)</td><td>(4)</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Funds from Operations (FFO)</td><td>$58</td><td>$60</td><td>$60</td><td>$39</td><td>$63</td><td>$47</td><td>$97</td><td>$101</td><td>$79</td><td>$93</td><td>$101</td><td>$102</td></tr><tr><td colspan="13">Changes in Working Capital:</td></tr><tr><td>Prepaid Content</td><td>($5)</td><td>($2)</td><td>($25)</td><td>($3)</td><td>($12)</td><td>$15</td><td>($1)</td><td>($14)</td><td>($3)</td><td>($4)</td><td>($2)</td><td>($5)</td></tr><tr><td>Other Current Assets</td><td>1</td><td>(9)</td><td>(3)</td><td>(10)</td><td>9</td><td>5</td><td>(6)</td><td>(10)</td><td>9</td><td>5</td><td>(6)</td><td>(11)</td></tr><tr><td>Accounts Payable</td><td>11</td><td>1</td><td>(11)</td><td>17</td><td>15</td><td>(4)</td><td>37</td><td>(9)</td><td>(174)</td><td>(17)</td><td>14</td><td>16</td></tr><tr><td>Accrued Expenses</td><td>14</td><td>8</td><td>18</td><td>28</td><td>23</td><td>18</td><td>(12)</td><td>4</td><td>4</td><td>22</td><td>(19)</td><td>(0)</td></tr><tr><td>Deferred Revenue</td><td>0</td><td>1</td><td>2</td><td>24</td><td>16</td><td>4</td><td>3</td><td>34</td><td>7</td><td>8</td><td>7</td><td>13</td></tr><tr><td>Other Non-Current Assets &amp; Liabilities</td><td>(1)</td><td>1</td><td>3</td><td>2</td><td>3</td><td>3</td><td>(236)</td><td>49</td><td>28</td><td>242</td><td>(307)</td><td>64</td></tr><tr><td>Changes in Working Capital</td><td>$19</td><td>$1</td><td>($18)</td><td>$58</td><td>$53</td><td>$39</td><td>($215)</td><td>$54</td><td>($129)</td><td>$257</td><td>($314)</td><td>$77</td></tr><tr><td>Operating Cash Flow</td><td>$77</td><td>$60</td><td>$42</td><td>$97</td><td>$116</td><td>$86</td><td>($118)</td><td>$155</td><td>($51)</td><td>$349</td><td>($212)</td><td>$178</td></tr><tr><td colspan="13">Investing Cash Flow:</td></tr><tr><td>Acquisition of DVD Content Library</td><td>($37)</td><td>($24)</td><td>($30)</td><td>($33)</td><td>($22)</td><td>($19)</td><td>($18)</td><td>($18)</td><td>($18)</td><td>($18)</td><td>($18)</td><td>($18)</td></tr><tr><td>Purchases of Short-Term Investments</td><td>(36)</td><td>(22)</td><td>(15)</td><td>(34)</td><td>(52)</td><td>(41)</td><td>(4)</td><td>(42)</td><td>(13)</td><td>(13)</td><td>(9)</td><td>(13)</td></tr><tr><td>Proceeds from Sale of Short-Term Investments</td><td>31</td><td>32</td><td>42</td><td>16</td><td>15</td><td>17</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Proceeds from Maturities of Short-Term Investments</td><td>4</td><td>4</td><td>2</td><td>6</td><td>1</td><td>16</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Capex</td><td>(6)</td><td>(6)</td><td>(7)</td><td>(14)</td><td>(16)</td><td>(9)</td><td>(16)</td><td>(19)</td><td>(20)</td><td>(21)</td><td>(22)</td><td>(23)</td></tr><tr><td>Other Assets</td><td>4</td><td>4</td><td>3</td><td>2</td><td>1</td><td>1</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Investing Cash Flow</td><td>($41)</td><td>($11)</td><td>($6)</td><td>($58)</td><td>($74)</td><td>($35)</td><td>($38)</td><td>($80)</td><td>($51)</td><td>($52)</td><td>($50)</td><td>($54)</td></tr><tr><td colspan="13">Financing Cash Flow:</td></tr><tr><td>Principal Payments of Lease Financing Obligations</td><td>($0)</td><td>($0)</td><td>($0)</td><td>($0)</td><td>($1)</td><td>($1)</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Proceeds from Issuance of Common Stock</td><td>10</td><td>13</td><td>11</td><td>16</td><td>7</td><td>7</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Excess Tax Benefit from Exercise of Stock Options</td><td>7</td><td>11</td><td>16</td><td>28</td><td>16</td><td>18</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Repurchase of Common Equity</td><td>(108)</td><td>(45)</td><td>(57)</td><td>--</td><td>(109)</td><td>(51)</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Changes in Debt</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Financing Cash Flow</td><td>($91)</td><td>($21)</td><td>($31)</td><td>$43</td><td>($87)</td><td>($27)</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Effects of FX</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Beginning Cash</td><td>$134</td><td>$80</td><td>$107</td><td>$113</td><td>$194</td><td>$150</td><td>$175</td><td>$19</td><td>$94</td><td>($7)</td><td>$290</td><td>$28</td></tr><tr><td>(+/-) Net Changes in Cash</td><td>(54)</td><td>27</td><td>6</td><td>81</td><td>(44)</td><td>25</td><td>(156)</td><td>75</td><td>(102)</td><td>297</td><td>(262)</td><td>124</td></tr><tr><td>(+/-) Restatements / Adjustments (pre-10-Q / K)</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Ending Cash</td><td>$80</td><td>$107</td><td>$113</td><td>$194</td><td>$150</td><td>$175</td><td>$19</td><td>$94</td><td>($7)</td><td>$290</td><td>$28</td><td>$152</td></tr></table>
-
-Exhibit 14
-
-Netflix Inc - NFLX - Annual Cash Flow Statement  
-
-<table><tr><td rowspan="2">Netflix, Inc. Model
-(USD millions)</td><td colspan="2">Historical Financials</td><td colspan="5">Projected Financials</td></tr><tr><td>2009</td><td>2010</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td></tr><tr><td colspan="8">Cash Flow Statement</td></tr><tr><td colspan="8">Operating Cash Flow:</td></tr><tr><td>Net Income</td><td>$116</td><td>$161</td><td>$245</td><td>$306</td><td>$273</td><td>$389</td><td>\$473</td></tr><tr><td>Additions to Streaming Content Library</td><td>(64)</td><td>(406)</td><td>(1,059)</td><td>(769)</td><td>(884)</td><td>(972)</td><td>(1,069)</td></tr><tr><td>Change in Streaming Content Liabilities</td><td>(4)</td><td>168</td><td>502</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Amortization of Streaming Content Library</td><td>48</td><td>158</td><td>473</td><td>648</td><td>826</td><td>928</td><td>1,021</td></tr><tr><td>Amortization of DVD Content Library</td><td>171</td><td>142</td><td>99</td><td>81</td><td>71</td><td>67</td><td>64</td></tr><tr><td>Amortization of Content Library</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Depreciation &amp; Amortization of PP&amp;E &amp; Intangibles</td><td>38</td><td>38</td><td>40</td><td>48</td><td>55</td><td>65</td><td>76</td></tr><tr><td>Stock-Based Compensation</td><td>13</td><td>28</td><td>52</td><td>60</td><td>59</td><td>68</td><td>76</td></tr><tr><td>Excess Tax Benefit from Exercise of Stock Options</td><td>(13)</td><td>(62)</td><td>(34)</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Amortization of Intangible Assets</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Other Non-Cash Income</td><td>(9)</td><td>(9)</td><td>(2)</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Deferred Income Taxes</td><td>6</td><td>(1)</td><td>(9)</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Funds from Operations (FFO)</td><td>$302</td><td>$217</td><td>$308</td><td>$374</td><td>$401</td><td>$545</td><td>\$640</td></tr><tr><td colspan="8">Changes in Working Capital:</td></tr><tr><td>Prepaid Content</td><td>($6)</td><td>($35)</td><td>($12)</td><td>($14)</td><td>($5)</td><td>($13)</td><td>(\$13)</td></tr><tr><td>Other Current Assets</td><td>(5)</td><td>(22)</td><td>(2)</td><td>(2)</td><td>(3)</td><td>(3)</td><td>(3)</td></tr><tr><td>Accounts Payable</td><td>2</td><td>18</td><td>38</td><td>(161)</td><td>35</td><td>42</td><td>53</td></tr><tr><td>Accrued Expenses</td><td>13</td><td>67</td><td>32</td><td>6</td><td>3</td><td>5</td><td>6</td></tr><tr><td>Deferred Revenue</td><td>17</td><td>27</td><td>56</td><td>35</td><td>12</td><td>32</td><td>33</td></tr><tr><td>Other Non-Current Assets &amp; Liabilities</td><td>2</td><td>4</td><td>(182)</td><td>27</td><td>35</td><td>46</td><td>59</td></tr><tr><td>Changes in Working Capital</td><td>$23</td><td>$60</td><td>($69)</td><td>($110)</td><td>$78</td><td>$109</td><td>\$135</td></tr><tr><td>Operating Cash Flow</td><td>$325</td><td>$276</td><td>$239</td><td>$264</td><td>$479</td><td>$653</td><td>\$775</td></tr><tr><td colspan="8">Investing Cash Flow:</td></tr><tr><td>Acquisition of DVD Content Library</td><td>($193)</td><td>($124)</td><td>($78)</td><td>($73)</td><td>($70)</td><td>($66)</td><td>(\$63)</td></tr><tr><td>Purchases of Short-Term Investments</td><td>(228)</td><td>(107)</td><td>(139)</td><td>(47)</td><td>(16)</td><td>(43)</td><td>(44)</td></tr><tr><td>Proceeds from Sale of Short-Term Investments</td><td>167</td><td>121</td><td>31</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Proceeds from Maturities of Short-Term Investments</td><td>36</td><td>16</td><td>17</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Capex</td><td>(46)</td><td>(34)</td><td>(60)</td><td>(87)</td><td>(73)</td><td>(83)</td><td>(94)</td></tr><tr><td>Other Assets</td><td>19</td><td>12</td><td>2</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Investing Cash Flow</td><td>($246)</td><td>($116)</td><td>($226)</td><td>($207)</td><td>($158)</td><td>($192)</td><td>($201)</td></tr><tr><td></td><td></td><td></td><td>$13</td><td>$57</td><td>$321</td><td>$461</td><td>$574</td></tr><tr><td colspan="8">Financing Cash Flow:</td></tr><tr><td>Principal Payments of Lease Financing Obligations</td><td>($1)</td><td>($2)</td><td>(\$1)</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Proceeds from Issuance of Common Stock</td><td>35</td><td>50</td><td>14</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Excess Tax Benefit from Exercise of Stock Options</td><td>13</td><td>62</td><td>34</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Repurchase of Common Equity</td><td>(324)</td><td>(210)</td><td>(160)</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Changes in Debt</td><td>193</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Financing Cash Flow</td><td>($85)</td><td>($100)</td><td>(\$113)</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Effects of FX</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Beginning Cash</td><td>$140</td><td>$134</td><td>$194</td><td>$94</td><td>$152</td><td>$473</td><td>\$934</td></tr><tr><td>(+/-) Net Changes in Cash</td><td>(6)</td><td>60</td><td>(100)</td><td>57</td><td>321</td><td>461</td><td>574</td></tr><tr><td>(+/-) Restatements / Adjustments (pre-10-Q / K)</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td><td>--</td></tr><tr><td>Ending Cash</td><td>$134</td><td>$194</td><td>$94</td><td>$152</td><td>$473</td><td>$934</td><td>\$1,508</td></tr></table>
-
-Exhibit 15  
-Netflix Inc - NFLX - Discounted Cash Flow (DCF) Valuation Analysis  
-
-<table><tr><td rowspan="2">Netflix, Inc. Model
-(USD millions)</td><td colspan="2">Historical Financials</td><td colspan="11">Projected Financials</td></tr><tr><td>2009</td><td>2010</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td></td></tr><tr><td colspan="14">Discounted Cash Flow (DCF) Valuation Analysis</td></tr><tr><td>Revenue</td><td>$1,670</td><td>$2,163</td><td>$3,278</td><td>$4,339</td><td>$4,572</td><td>$5,206</td><td>$5,860</td><td>$6,504</td><td>$7,127</td><td>$7,722</td><td>$8,325</td><td>$8,927</td><td></td></tr><tr><td>y/y Growth - %</td><td>22.4%</td><td>29.5%</td><td>51.6%</td><td>32.4%</td><td>5.4%</td><td>13.9%</td><td>12.6%</td><td>11.0%</td><td>9.6%</td><td>8.4%</td><td>7.8%</td><td>7.2%</td><td></td></tr><tr><td>Adj. EBITDA</td><td>$200</td><td>$116</td><td>($52)</td><td>$530</td><td>$537</td><td>$761</td><td>$914</td><td>$1,039</td><td>$1,199</td><td>$1,355</td><td>$1,474</td><td>$1,566</td><td></td></tr><tr><td>(-) Cash Taxes</td><td></td><td></td><td>38</td><td>(197)</td><td>(198)</td><td>(285)</td><td>(343)</td><td>(390)</td><td>(450)</td><td>(508)</td><td>(551)</td><td>(597)</td><td></td></tr><tr><td>(+/-) Changes in Working Capital</td><td></td><td></td><td>(69)</td><td>(110)</td><td>78</td><td>109</td><td>135</td><td>156</td><td>171</td><td>197</td><td>243</td><td>296</td><td></td></tr><tr><td>(-) Capex</td><td></td><td></td><td>(60)</td><td>(87)</td><td>(73)</td><td>(83)</td><td>(94)</td><td>(104)</td><td>(114)</td><td>(124)</td><td>(133)</td><td>(143)</td><td></td></tr><tr><td>Unlevered Free Cash Flow (UFCF)</td><td>$105</td><td>$131</td><td>($144)</td><td>$136</td><td>$345</td><td>$501</td><td>$611</td><td>$702</td><td>$807</td><td>$920</td><td>$1,032</td><td>$1,123</td><td></td></tr><tr><td>% of Revenue</td><td>6.3%</td><td>6.1%</td><td>(4.4%)</td><td>3.1%</td><td>7.5%</td><td>9.6%</td><td>10.4%</td><td>10.8%</td><td>11.3%</td><td>11.9%</td><td>12.4%</td><td>12.6%</td><td></td></tr><tr><td>Adj. EBITDA Margin</td><td>12.0%</td><td>5.4%</td><td>(1.6%)</td><td>12.2%</td><td>11.8%</td><td>14.6%</td><td>15.6%</td><td>16.0%</td><td>16.8%</td><td>17.5%</td><td>17.7%</td><td>17.5%</td><td></td></tr><tr><td>UFCF / Adj. EBITDA</td><td>52.2%</td><td>113.2%</td><td>274.3%</td><td>25.7%</td><td>64.1%</td><td>65.9%</td><td>66.9%</td><td>67.5%</td><td>67.3%</td><td>67.9%</td><td>70.0%</td><td>71.7%</td><td></td></tr><tr><td>DCF Valuation Assumptions</td><td colspan="6">Twelve Month Forward Valuation</td><td colspan="7">Equity Value: WACC vs. Perpetual Growth Rate</td></tr><tr><td>Valuation Date</td><td>Sep-12</td><td colspan="2">Enterprise Value</td><td colspan="3">\$9,822</td><td>12.0%</td><td>12.5%</td><td>13.0%</td><td>13.5%</td><td>14.0%</td><td></td><td></td></tr><tr><td>Cost of Equity</td><td>13.0%</td><td colspan="2">(-) Total Debt</td><td colspan="3">(200)</td><td>4.50%</td><td>10,772</td><td>10,026</td><td>9,369</td><td>8,788</td><td>8,269</td><td></td></tr><tr><td>Cost of Debt</td><td>--%</td><td colspan="2">(+) Cash &amp; Equivalents</td><td colspan="3">176</td><td>5.00%</td><td>11,358</td><td>10,525</td><td>\$9,799</td><td>9,160</td><td>8,593</td><td></td></tr><tr><td>Marginal Tax-Rate</td><td>35.0%</td><td colspan="2">Equity Value</td><td colspan="3">\$9,799</td><td>5.50%</td><td>12,035</td><td>11,097</td><td>10,286</td><td>9,578</td><td>8,956</td><td></td></tr><tr><td>Long-Term Debt / Total Cap.</td><td>--%</td><td colspan="2">(+) Fully Diluted Shares</td><td colspan="3">54</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>WACC</td><td>13.0%</td><td colspan="2">Implied Equity Value per Share</td><td colspan="3">\$180</td><td colspan="7">Equity Value per Share: WACC vs. Perpetual Growth Rate</td></tr><tr><td>Perpetual Growth Rate</td><td>5.00%</td><td colspan="2"></td><td colspan="3"></td><td>4.50%</td><td>198</td><td>184</td><td>172</td><td>162</td><td>152</td><td></td></tr><tr><td>EV / EBITDA Mult. (&#x27;13e EBITDA)</td><td>18.3x</td><td colspan="2"></td><td colspan="3"></td><td>5.00%</td><td>208</td><td>193</td><td>\$180</td><td>169</td><td>158</td><td></td></tr><tr><td></td><td></td><td colspan="2"></td><td colspan="3"></td><td>5.50%</td><td>221</td><td>204</td><td>189</td><td>176</td><td>165</td><td></td></tr></table>
-
-Source: Morgan Stanley Research
-
-<table><tr><td>MORGAN STANLEY
-ModelWare</td><td>Morgan Stanley ModelWare is a proprietary analytic framework that helps clients uncover value, adjusting for distortions and ambiguities created by local accounting regulations. For example, ModelWare EPS adjusts for one-time events, capitalizes operating leases (where their use is significant), and converts inventory from LIFO costing to a FIFO basis. ModelWare also emphasizes the separation of operating performance of a company from its financing for a more complete view of how a company generates earnings.</td></tr></table>
-
-# Disclosure Section
-
-The information and opinions in Morgan Stanley Research were prepared by Morgan Stanley & Co. LLC, and/or Morgan Stanley C.T.V.M. S.A., and/or Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V. As used in this disclosure section, "Morgan Stanley" includes Morgan Stanley & Co. LLC, Morgan Stanley C.T.V.M. S.A., Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V. and their affiliates as necessary.
-
-For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.
-
-# Analyst Certification
-
-The following analysts hereby certify that their views about the companies and their securities discussed in this report are accurately expressed and that they have not received and will not receive direct or indirect compensation in exchange for expressing specific recommendations or views in this report: Scott Devitt.
-
-Unless otherwise stated, the individuals listed on the cover page of this report are research analysts.
-
-# Global Research Conflict Management Policy
-
-Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies.
-
-# Important US Regulatory Disclosures on Subject Companies
-
-As of August 31, 2011, Morgan Stanley beneficially owned  $1\%$  or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: Amazon.com, Blue Nile Inc, Google, LinkedIn Corp, Mercadolibre Inc., Netflix Inc, OpenTable Inc., Shutfly Inc, Vistaprint N.V., Yahoo!.
-
-Within the last 12 months, Morgan Stanley managed or co-managed a public offering (or 144A offering) of securities of Ancestry.com Inc., Demand Media, Inc., Digital River Inc, eBay, Google, HomeAway, Inc., LinkedIn Corp, Pandora Media Inc..
-
-Within the last 12 months, Morgan Stanley has received compensation for investment banking services from Amazon.com, Ancestry.com Inc., Demand Media, Inc., Digital River Inc, eBay, Expedia Inc., Google, HomeAway, Inc., LinkedIn Corp, Netflix Inc, Pandora Media Inc., priceline.
-
-In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from Amazon.com, Ancestry.com Inc., Blue Nile Inc, Demand Media, Inc., Digital River Inc, eBay, Expedia Inc., Google, HomeAway, Inc., LinkedIn Corp, Mercadolibre Inc., Netflix Inc, OpenTable Inc., Pandora Media Inc., priceline.com, Vistaprint N.V., WebMD Health Corp., Yahoo!.
-
-Within the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from Amazon.com, Ancestry.com Inc., Demand Media, Inc., Digital River Inc, eBay, Google, Netflix Inc, Pandora Media Inc., priceline.com.
-
-Within the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client
-
-relationship with, the following company: Amazon.com, Ancestry.com Inc., Blue Nile Inc, Demand Media, Inc., Digital River Inc, eBay, Expedia Inc., Google, HomeAway, Inc., LinkedIn Corp, Mercadolibre Inc., Netflix Inc, OpenTable Inc., Pandora Media Inc., priceline.com, Shutterfly Inc, Vistaprint N.V., WebMD Health Corp., Yahoo!.
-
-Within the last 12 months, Morgan Stanley has either provided or is providing non-investment banking, securities-related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: Amazon.com, Ancestry.com Inc., Demand Media, Inc., Digital River Inc, eBay, Google, Netflix Inc, OpenTable Inc., Pandora Media Inc., pricingline.com.
-
-An employee, director or consultant of Morgan Stanley (not a research analyst or a member of a research analyst's household) is a director of Yahoo!. Morgan Stanley & Co. LLC makes a market in the securities of Amazon.com, Ancestry.com Inc., Blue Nile Inc, Demand Media, Inc., Digital River Inc, eBay, Expedia Inc., Google, HomeAway, Inc., LinkedIn Corp, Mercadolibre Inc., Netflix Inc, OpenTable Inc., Pandora Media Inc., priceline.com, Shutterfly Inc, Vistaprint N.V., WebMD Health Corp., Yahoo!.
-
-The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues.
-
-Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity and specialized trading, risk arbitrage and other proprietary trading, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Certain disclosures listed above are also for compliance with applicable regulations in non-US jurisdictions.
-
-# STOCK RATINGS
-
-Morgan Stanley uses a relative rating system using terms such as Overweight, Equal-weight, Not-Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.
-
-# Global Stock Ratings Distribution
-
-(as of August 31, 2011)
-
-For disclosure purposes only (in accordance with NASD and NYSE requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal-weight, Not-Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal-weight and Not-Rated to hold and Underweight to sell recommendations, respectively.
-
-<table><tr><td rowspan="2">Stock Rating Category</td><td colspan="2">Coverage Universe</td><td colspan="3">Investment Banking Clients (IBC)</td></tr><tr><td>Count</td><td>% of Total</td><td>Count</td><td>% of % of Rating Total IBC</td><td>Category</td></tr><tr><td>Overweight/Buy</td><td>1120</td><td>41%</td><td>460</td><td>48%</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1151</td><td>42%</td><td>389</td><td>40%</td><td>34%</td></tr><tr><td>Not-Rated/Hold</td><td>114</td><td>4%</td><td>21</td><td>2%</td><td>18%</td></tr><tr><td>Underweight/Sell</td><td>374</td><td>14%</td><td>93</td><td>10%</td><td>25%</td></tr><tr><td>Total</td><td>2,759</td><td></td><td>963</td><td></td><td></td></tr></table>
-
-Data include common stock and ADRs currently assigned ratings. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months.
-
-# AnalystStockRatings
-
-Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Equal-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Not-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.
-
-# Analyst Industry Views
-
-Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.
-
-In-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below.
-
-Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below.
-
-Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index.
-
-# Stock Price, Price Target and Rating History (See Rating Definitions)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/714fc92dddd3be2925b88984334385d82d39c85e8896a3c78aa5b429f5550d07.jpg)
-
-Stock Rating History: 9/1/08 : NR/A; 8/20/09 : 0/A; 3/12/10 : E/A; 7/30/10 : 0/A; 2/15/11 : E/A
-
-Price Target History: 8/20/09 : 56; 10/23/09 : 59; 1/28/10 : 68; 3/12/10 : NA; 1/18/11 : 225; 1/27/11 : 245;
-
-2/15/11：NA
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/fd72f2f01178a374a5f810da75c6eb40b576456116b6d04bd538ad8b84ed653b.jpg)
-
-# Important Disclosures for Morgan Stanley Smith Barney LLC Customers
-
-Financial Advisor or use Research Center to view any available CIRA research reports in addition to Morgan Stanley research reports.
-
-Important disclosures regarding the relationship between the companies that are the subject of Morgan Stanley Research and Morgan Stanley Smith Barney LLC, Morgan Stanley and Citigroup Global Markets Inc. or any of their affiliates, are available on the Morgan Stanley Smith Barney disclosure website at www.morganstanleysmithbarney.com/researchdisclosures.
-
-For Morgan Stanley and Citigroup Global Markets, Inc. specific disclosures, you may refer to www.morganstanley.com/researchdisclosures and https://www.citigroupgeo.com/geopublic/Disclosures/index_a.html.
-
-Each Morgan Stanley Equity Research report is reviewed and approved on behalf of Morgan Stanley Smith Barney LLC. This review and approval is conducted by the same person who reviews the Equity Research report on behalf of Morgan Stanley. This could create a conflict of interest.
-
-# Other Important Disclosures
+## Other Important Disclosures
 
 Pandora Media Inc., Yahoo!.
 
@@ -472,57 +235,49 @@ Morgan Stanley Research is disseminated and available primarily electronically, 
 
 Additional information on recommended securities/instruments is available on request.
 
-# The Americas
+## The Americas
 
 1585 Broadway
 
 New York, NY 10036-8293
 
-# United States
+## United States
 
 Tel: +1 (1) 212 761 4000
 
-# Europe
+## Europe
 
 20 Bank Street, Canary Wharf
 
 London E14 4AD
 
-# United Kingdom
+## United Kingdom
 
 Tel: +44 (0) 207 425 8000
 
-# Japan
+## Japan
 
 4-20-3 Ebisu, Shibuya-ku
 
 Tokyo 150-6008
 
-# Japan
+## Japan
 
 Tel: +81 (0) 35424 5000
 
-# Asia/Pacific
+## Asia/Pacific
 
 1 Austin Road West
 
 Kowloon
 
-# Hong Kong
+## Hong Kong
 
 Tel: +852 2848 5200
 
-Industry Coverage:Internet  
+## Netflix Inc
 
-<table><tr><td>Company (Ticker)</td><td colspan="2">Rating (as of) Price* (09/23/2011)</td></tr><tr><td>Scott Devitt</td><td></td><td></td></tr><tr><td>Amazon.com (AMZN.O)</td><td>O (03/18/2002)</td><td>\$223.61</td></tr><tr><td>Ancestry.com Inc. (ACOM.O)</td><td>O (12/15/2009)</td><td>\$23.75</td></tr><tr><td>Blue Nile Inc (NILE.O)</td><td>E (08/20/2009)</td><td>\$35.17</td></tr><tr><td>Demand Media, Inc. (DMD.N)</td><td>E (03/07/2011)</td><td>\$7.39</td></tr><tr><td>Digital River Inc (DRIV.O)</td><td>U (08/17/2011)</td><td>\$22.17</td></tr><tr><td>Expedia Inc. (EXPE.O)</td><td>E (04/30/2010)</td><td>\$27.17</td></tr><tr><td>Google (GOOG.O)</td><td>E (07/07/2011)</td><td>\$525.51</td></tr><tr><td>HomeAway, Inc. (AWAY.O)</td><td>O (08/08/2011)</td><td>\$33.97</td></tr><tr><td>LinkedIn Corp (LNKD.N)</td><td>E (08/05/2011)</td><td>\$75.39</td></tr><tr><td>Mercadolibre Inc. (MELI.O)</td><td>NR (10/14/2010)</td><td>\$58.98</td></tr><tr><td>Netflix Inc (NFLX.O)</td><td>E (02/15/2011)</td><td>\$129.36</td></tr><tr><td>OpenTable Inc. (OPEN.O)</td><td>E (08/20/2009)</td><td>\$47.67</td></tr><tr><td>Pandora Media Inc. (P.N)</td><td>O (09/23/2011)</td><td>\$10.75</td></tr><tr><td>Shutterstock Inc (SFLY.O)</td><td>O (04/28/2011)</td><td>\$47.49</td></tr><tr><td>Vistaprint N.V. (VPRT.O)</td><td>E (03/12/2010)</td><td>\$26.12</td></tr><tr><td>WebMD Health Corp. (WBMD.O)</td><td>E (05/12/2008)</td><td>\$29.44</td></tr><tr><td>Yahoo! (YHOO.O)</td><td>E (01/18/2011)</td><td>\$14.71</td></tr><tr><td>eBay (EBAY.O)</td><td>O (07/17/2011)</td><td>\$32.08</td></tr><tr><td>priceline.com (PCLN.O)</td><td>E (05/10/2010)</td><td>\$514.61</td></tr></table>
-
-Stock Ratings are subject to change. Please see latest research for each company.  
-
-* Historical prices are not split adjusted.
-
-# Netflix Inc
-
-# Accelerated Transition To Streaming Creates Near Term Uncertainty, But Growth Story To Return In 2012
+### Accelerated Transition To Streaming Creates Near Term Uncertainty, But Growth Story To Return In 2012
 
 Despite adjusting numbers last week, we are again lowering our 3Q (now below revised guidance), 4Q and 2012 estimates on Netflix due to the company's pricing changes and recent Qwikster rebranding announcement. As a result, we are also reducing our price target to  \$205 from\$ 245 though our rating remains Overweight. We recognize the near term challenges for Netflix, but expect growth to return in 2012. Over time we expect Netflix to become more profitable as Qwikster is run more for profit than growth while streaming subscriber growth continues.
 
@@ -531,154 +286,35 @@ Despite adjusting numbers last week, we are again lowering our 3Q (now below rev
 - Proprietary survey showed elevated churn. Our prop survey of 1600 current and recent Netflix subs conducted prior to the guidance revision (Sep 9-13) showed elevated levels of churn inline with the company's revised guidance. In addition, the survey showed a high degree of awareness of the pricing change while awareness of Starz content on Netflix was low (see pg 10 for more details).  
 - Valuation. Our \$205 YE 2012 price target on NFLX is based on 23x our 2013 PF EPS of \$8.89 vs. a 40% 2010-13E EPS CAGR.
 
-# Overweight
+## Overweight
 
-NFLX,NFLX US
+## Internet
 
-Price: \$128.53
+## Kaizad Gotla, CFA
 
-$\nabla$  Price Target: \$205.00
+## Shelby Taffer
 
-Previous: \$245.00
+## See page 19 for analyst certification and important disclosures.
 
-# Internet
+## Accelerated Transition To Streaming Creates Near Term Uncertainty, But Growth Story To Return In 2012
 
-Doug Anmuth AC
+### Near term sentiment to remain weak but story to improve in 4Q and 2012.
 
-(1-212) 622-6571
+### Updating Estimates For Netflix/Qwikster Split and International
 
-douglas.anmuth@jpmorgan.com
+### Model Now Driven On Subscribers and Subscriptions
 
-# Kaizad Gotla, CFA
+### Building International Bottom-Up
 
-(1-212) 622-6436
+### Key Takeaways From Our Proprietary Survey
 
-kaizad.gotla@jpmorgan.com
+### What To Watch For
 
-# Shelby Taffer
+### Investment Thesis
 
-(212) 622-6518
+### Valuation
 
-shelby.x.taffer@jpmorgan.com
-
-J.P. Morgan Securities LLC
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/77aa932687967f60e079e1c0c00d966d937848bbf4d3f385b26d18cd77bd96d8.jpg)  
-Price Performance
-
-Netflix Inc (NFLX;NFLX US)  
-
-<table><tr><td>FYE Dec</td><td>2009A</td><td>2010A</td><td>2011E 
-(Prev)</td><td>2011E 
-(Curr)</td><td>2012E 
-(Prev)</td><td>2012E 
-(Curr)</td></tr><tr><td>EPS Reported ($)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Q1 (Mar)</td><td>0.37</td><td>0.59</td><td>1.11A</td><td>1.11A</td><td>-</td><td>-</td></tr><tr><td>Q2 (Jun)</td><td>0.54</td><td>0.80</td><td>1.27A</td><td>1.27A</td><td>-</td><td>-</td></tr><tr><td>Q3 (Sep)</td><td>0.52</td><td>0.70</td><td>0.80</td><td>0.70</td><td>-</td><td>-</td></tr><tr><td>Q4 (Dec)</td><td>0.56</td><td>0.87</td><td>1.03</td><td>0.95</td><td>-</td><td>-</td></tr><tr><td>FY</td><td>1.98</td><td>2.96</td><td>4.21</td><td>4.03</td><td>6.55</td><td>5.62</td></tr><tr><td>Bloomberg EPS FY ($)</td><td>2.00</td><td>3.09</td><td>-</td><td>5.02</td><td>-</td><td>7.29</td></tr></table>
-
-Source: Company data and J.P. Morgan estimates. Note: JPM estimates are GAAP, while Bloomberg are Pro Forma.
-
-<table><tr><td colspan="2">Company Data</td></tr><tr><td>Price ($)</td><td>128.53</td></tr><tr><td>Date Of Price</td><td>22 Sep 11</td></tr><tr><td>52-week Range ($)</td><td>304.79 - 125.02</td></tr><tr><td>Mkt Cap ($ mn)</td><td>6,928.92</td></tr><tr><td>Fiscal Year End</td><td>Dec</td></tr><tr><td>Shares O/S (mn)</td><td>54</td></tr><tr><td>Price Target ($)</td><td>205.00</td></tr><tr><td>Price Target End Date</td><td>31 Dec 12</td></tr></table>
-
-# See page 19 for analyst certification and important disclosures.
-
-J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.
-
-# Accelerated Transition To Streaming Creates Near Term Uncertainty, But Growth Story To Return In 2012
-
-Reiterate Overweight but lowering price target. Despite adjusting numbers last week, we are again lowering our 3Q, 4Q and 2012 estimates on Netflix due to the company's pricing changes and recent Qwikster rebranding announcement. As a result, we are also reducing our price target to  \$205 from\$ 245 though our rating remains Overweight.
-
-We recognize the challenges but think growth can return. Netflix shares are  $-41\%$  QTD vs. the Nasdaq  $-5\%$ . Though Street estimates have come down slightly post the 3Q guidance reduction announcement, we think the stock already reflects a high probability of a potential further reduction in 3Q subscriber guidance and elevated churn in 4Q on the heels of Qwikster. We believe the lack of any viable consensus on a floor for 2012 and 2013 estimates has added to uncertainty and pressured the stock. While we acknowledge these concerns – and our revised numbers reflect this conservatism – we think that Netflix can return to solid subscriber and EPS growth over time as: 1) the streaming only service represented  $\sim 75\%$  of gross adds in 2Q and we expect this number to increase; 2) the streaming only product and price remain unchanged since the streaming/DVD split was announced; 3) we continue to believe the 3Q reduction in subscriber guidance was due to churn rather than weakness in gross adds as  $80\%$  of the miss was in DVD only. Over time we expect Netflix to become more profitable as Qwikster is run more for profit than growth while streaming subscriber growth continues.
-
-Lower estimates primarily due to lower hybrid subscribers. We are lowering our domestic hybrid (DVD + Streaming) subscriber numbers for 3Q, 4Q, 2012 to account for higher churn than previously expected due to the recent rebranding announcement. For 3Q, 4Q, and 2012 we now project 23.7MM, 24.1MM, and 31.6MM total US subscribers respectively. However, we are raising our international subscriber forecasts based on our new bottom-up analysis of addressable broadband subscriptions by country. We now project 4.9MM international subscribers by the end of 2012 and 9.9MM by the end of 2013. Though we have reduced our 2012 GAAP EPS estimate to \$5.62, we are increasing our 2013 EPS estimate slightly as the Qwikster/DVD business is run for profit.
-
-# Near term sentiment to remain weak but story to improve in 4Q and 2012.
-
-NFLX could remain range bound in the near term due to negative news flow from potential competitor announcements (Dish, Amazon, and Hulu) and continued disruption from headlines regarding subscriber churn. However, we think sentiment will improve in 4Q as Netflix signs more content deals and the company announces additional international launches, and we expect churn to normalize in 2012.
-
-Valuation. Our \$205 YE 2012 price target on NFLX is based on 23x our 2013 PF EPS of \$8.89 vs. a 40% 2010-13E EPS CAGR. We maintain our Overweight rating.
-
-# Updating Estimates For Netflix/Qwikster Split and International
-
-While we lowered estimates last week to account for greater 3Q subscriber churn around the price increase, we believe the Qwikster split and related negative press could further weigh on subscribers.
-
-Lowering domestic subscribers: We are lowering our domestic hybrid (DVD + Streaming) subscriber numbers for 3Q, 4Q, 2012 to account for higher churn than previously expected due to the recent rebranding announcement. Given that the DVD business will no longer sit under the Netflix brand (with separate sign-ups, queues, and billing) we think it may be challenging for the Qwikster brand to add as many DVD subscribers as we had previously expected. However, we are modeling higher streaming subscribers (still not offsetting the decline in hybrid subs) as we think the streaming business benefits from clearer marketing under the Netflix brand as well as some churn from the Qwikster business. We model the hybrid business to continue losing subs from 2012-2015 as subscribers migrate more towards streaming only over time. Note that even prior to the pricing change in 2Q, the hybrid business lost  $\sim 200\mathrm{k}$  subs per our estimates. For 3Q, 4Q, and 2012 we project 23.7MM, 24.1MM, and 31.6MM total US subscribers respectively.
-
-Raising international subscribers: We have done a detailed bottom up analysis (see the International section of the report) of Netflix's streaming opportunity in Canada, Latin America, and Europe (UK, Spain, France) based on broadband penetration and found that our prior estimates may be conservative. As a result we are increasing our 2012-2015 international subscriber estimates accordingly, though these changes do not offset the decline in domestic subscribers. We now project 4.9MM international subscribers by the end of 2012 and 9.9MM by the end of 2013.
-
-Revenue: As a result of a decline in hybrid subscribers we are lowering our revenue estimates for 3Q, 4Q, and 2012 to  $802MM,$ 834MM, and \$3.14B respectively.
-
-Cost of goods: Our cost of goods declines substantially due to lower DVD content acquisition costs and DVD postage/packaging. Note that the price change and split may have resulted in Netflix losing nearly  $27\%$  of its DVD subscribers in 3Q and we expect these declines to continue into 4Q and 2012. Our 2012 streaming content expenses in the P&L are also lower due to the loss of the Starz deal which we think may be difficult for Netflix to fully replace with content that is accretive to user streaming hours.
-
-Other operating expenses: Our sales and marketing expenses are moving higher in absolute terms as well as on a per subscriber (SAC) basis as we think the company may lose some marketing efficiency due to the new brand created for the DVD business. In addition, we think international SAC will drive up overall SAC due to Netflix's relative lack of brand awareness in international markets. Our Tech/Dev and G&A expenses are increasing in absolute terms again due to lost synergies from the streaming and DVD split.
-
-Contribution profit margin: Netflix has noted that it plans to run Qwikster for cash flows and the business will have higher contribution margin than the US streaming business due to the lack of required investment. Contribution profit includes COGS and marketing costs, but excludes Tech/Dev, G&A, and stock compensation as these
-
-fixed costs are applied across the Netflix US (streaming only), Qwikster, and international streaming businesses. Netflix's US business (DVD + Streaming) had  $24\%$  contribution margin in 2010 and  $13.5\%$  operating margin including Tech/Dev, G&A and stock compensation expenses. We expect US contribution margin to reach  $27.4\%$  in 2011 ( $15.7\%$  operating margin), falling to  $26.4\%$  ( $13.5\%$  operating margin) in 2012 due to the decline in higher margin DVD subscribers. We expect contribution margin to improve in 2013 to  $31.1\%$  ( $16.8\%$  operating margin) as margins in the US streaming business improve from solid subscriber growth and moderating growth in content expenses.
-
-Table 1: JPM Estimate Changes for NFLX  
-
-<table><tr><td rowspan="2">Netflix
-($ in millions)</td><td colspan="2">3Q11 JPME</td><td colspan="2">4Q11 JPME</td><td colspan="2">2011 JPME</td><td colspan="2">2012 JPME</td><td colspan="2">2013 JPME</td></tr><tr><td>Old</td><td>New</td><td>Old</td><td>New</td><td>Old</td><td>New</td><td>Old</td><td>New</td><td>Old</td><td>New</td></tr><tr><td>Subscribers</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>WW</td><td>25,211</td><td>24,990</td><td>28,211</td><td>25,855</td><td>28,211</td><td>25,855</td><td>38,411</td><td>36,605</td><td>47,511</td><td>47,610</td></tr><tr><td>Y/Y Growth</td><td>48.9%</td><td>47.6%</td><td>41.0%</td><td>29.2%</td><td>41.0%</td><td>29.2%</td><td>36.2%</td><td>41.6%</td><td>23.7%</td><td>30.1%</td></tr><tr><td>% chg vs. old</td><td></td><td>-0.9%</td><td></td><td>-8.4%</td><td></td><td>-8.4%</td><td></td><td>-4.7%</td><td></td><td>0.2%</td></tr><tr><td>US</td><td>23,894</td><td>23,673</td><td>26,494</td><td>24,129</td><td>26,494</td><td>24,129</td><td>34,194</td><td>31,648</td><td>40,194</td><td>37,694</td></tr><tr><td>Y/Y Growth</td><td>42.2%</td><td>40.9%</td><td>35.9%</td><td>23.7%</td><td>35.9%</td><td>23.7%</td><td>29.1%</td><td>31.2%</td><td>17.5%</td><td>19.1%</td></tr><tr><td>% chg vs. old</td><td></td><td>-0.9%</td><td></td><td>-8.9%</td><td></td><td>-8.9%</td><td></td><td>-7.4%</td><td></td><td>-6.2%</td></tr><tr><td>International</td><td>1,317</td><td>1,317</td><td>1,717</td><td>1,726</td><td>1,717</td><td>1,726</td><td>4,217</td><td>4,958</td><td>7,317</td><td>9,917</td></tr><tr><td>Y/Y Growth</td><td>890.2%</td><td>890.2%</td><td>237.3%</td><td>239.1%</td><td>237.3%</td><td>239.1%</td><td>145.6%</td><td>187.2%</td><td>73.5%</td><td>100.0%</td></tr><tr><td>% chg vs. old</td><td></td><td>0.0%</td><td></td><td>0.5%</td><td></td><td>0.5%</td><td></td><td>17.6%</td><td></td><td>35.5%</td></tr><tr><td>Net Revenue</td><td>803</td><td>802</td><td>913</td><td>834</td><td>3,223</td><td>3,143</td><td>4,259</td><td>3,552</td><td>5,232</td><td>4,362</td></tr><tr><td>Y/Y Growth</td><td>45.2%</td><td>45.0%</td><td>53.2%</td><td>39.9%</td><td>49.0%</td><td>45.3%</td><td>32.1%</td><td>13.0%</td><td>22.8%</td><td>22.8%</td></tr><tr><td>% chg vs. old</td><td></td><td>-0.2%</td><td></td><td>-8.6%</td><td></td><td>-2.5%</td><td></td><td>-16.6%</td><td></td><td>-16.6%</td></tr><tr><td>GAAP Operating income</td><td>74</td><td>65</td><td>94</td><td>87</td><td>385</td><td>369</td><td>596</td><td>502</td><td>725</td><td>726</td></tr><tr><td>Y/Y Growth</td><td>7.0%</td><td>-6.3%</td><td>19.4%</td><td>10.9%</td><td>35.9%</td><td>30.3%</td><td>54.5%</td><td>35.8%</td><td>21.7%</td><td>44.7%</td></tr><tr><td>Margin (%)</td><td>9.3%</td><td>8.1%</td><td>10.3%</td><td>10.4%</td><td>12.0%</td><td>11.8%</td><td>14.0%</td><td>14.1%</td><td>13.9%</td><td>16.7%</td></tr><tr><td>% chg vs. old</td><td></td><td>-12.5%</td><td></td><td>-7.1%</td><td></td><td>-4.1%</td><td></td><td>-15.7%</td><td></td><td>0.2%</td></tr><tr><td>EBITDA</td><td>100</td><td>91</td><td>119</td><td>112</td><td>484</td><td>468</td><td>697</td><td>604</td><td>830</td><td>832</td></tr><tr><td>Y/Y Growth</td><td>16.6%</td><td>5.8%</td><td>23.5%</td><td>16.6%</td><td>38.1%</td><td>33.6%</td><td>44.2%</td><td>29.0%</td><td>19.1%</td><td>37.8%</td></tr><tr><td>Margin (%)</td><td>12.4%</td><td>11.3%</td><td>13.0%</td><td>13.4%</td><td>15.0%</td><td>14.9%</td><td>16.4%</td><td>17.0%</td><td>15.9%</td><td>19.1%</td></tr><tr><td>% chg vs. old</td><td></td><td>-9.3%</td><td></td><td>-5.6%</td><td></td><td>-3.3%</td><td></td><td>-13.4%</td><td></td><td>0.2%</td></tr><tr><td>GAAP EPS</td><td>$0.80</td><td>$0.70</td><td>$1.03</td><td>$0.95</td><td>$4.21</td><td>$4.03</td><td>$6.55</td><td>$5.62</td><td>$7.96</td><td>$8.20</td></tr><tr><td>Y/Y Growth</td><td>13.7%</td><td>-0.3%</td><td>18.3%</td><td>9.7%</td><td>42.0%</td><td>36.1%</td><td>55.7%</td><td>39.3%</td><td>21.6%</td><td>45.9%</td></tr><tr><td>% chg vs. old</td><td></td><td>-12.3%</td><td></td><td>-7.3%</td><td></td><td>-4.1%</td><td></td><td>-14.2%</td><td></td><td>2.9%</td></tr></table>
-
-Source: Company reports and J.P. Morgan estimates.
-
-# Model Now Driven On Subscribers and Subscriptions
-
-In order to reflect the recent split in the US streaming and DVD businesses, our revenue model is now driven off both subscribers and subscriptions, primarily to account for the subscribers that use both streaming and DVD. Our US subscription model is divided into streaming only, streaming plus DVD, and DVD only segments, with streaming plus DVD subscribers accounting for 2 subscriptions.
-
-Given the streaming/DVD split didn't go into effect until the end of 3Q, we believe our 4Q ASP numbers represent a better gauge of monthly subscription ASP. We use the \$7.99 monthly ASP against our streaming subscription forecast. Our streaming plus DVD segment revenue estimate incorporates a \$8.30 blended ASP per
-
-subscription (\$16.60 per subscriber) which primarily consists of \$7.99 streaming only and \$7.99 DVD only plans as well as a small % of higher priced DVD plans, i.e. 2,3,4 DVDs at a time. Similar to the hybrid ASP blend mentioned above, our 4Q DVD only segment revenue employs a \$8.30 monthly ASP. We think ASP in the hybrid and DVD only segments may likely drift closer to \$7.99 over time as we expect new subscription growth to come from the \$7.99 streaming or \$7.99 one at a time DVD plans (thereby replacing higher ASP multi disc plans).
-
-Our international model continues to be driven off of subscriptions which are equivalent to subscribers due to the lack of a DVD offering overseas.
-
-# Building International Bottom-Up
-
-We have updated our international revenue and subscriber forecasts to incorporate a bottom-up analysis of Netflix penetration by country. We use broadband subscriptions by country as the addressable market for Netflix's streaming product. In Canada, Netflix's first foray outside the US, penetration is already  $\sim 10\%$ , less than a year after launching. Netflix launched its streaming service in Latin America in early September, expanding the company's target opportunity by  $\sim 44$  MM broadband subscribers. Brazil, Mexico, and Argentina represent nearly  $75\%$  of broadband subscriptions in the 43 Latin American countries launched and we expect Netflix to focus its marketing and content primarily on these three countries. However, we are modeling a significantly slower adoption rate in Latin America due to: 1) considerably lower discretionary spending levels vs. the US and Canada; 2) lower credit card penetration; 3) slower broadband connection speeds and usage caps. As a result, we are modeling (see Figure 1 below) just  $3\%$  penetration of Latin America broadband subscribers by the end of 2012 - equivalent to 1.2MM Netflix subscribers. As a basis for comparison, we think Canada could reach  $13\%$  penetration by the end of 2012.
-
-Figure 1: Netflix streaming only penetration of broadband subscriptions by country  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/a00bbc08904ebd3b65ad8fbeb7f1ade96a9cc837b0d7c5e8dfecbc6cca0adfb8.jpg)  
-Source: J.P. Morgan estimates.  
-Note: 2010 = Yr 1 for US/Canada streaming; 2011 = Yr 1 for Latin America streaming; 2012 = Yr 1 for Europe. US 2010 streaming subscriptions include streaming only subscribers and excludes hybrid subscribers.
-
-We believe that Netflix is considering launches in UK, Spain, and France in 2012. The table below provides greater detail on our international penetration assumptions. Overall, we think Canada, Latin America and Europe (UK, Spain, France) could account for  $\sim 5$ MM subscribers by the end of 2012, with the potential to grow to 18MM by 2015, depending upon competition and NFLX's marketing intensity. We are modeling just  $1\%$  penetration for Mexico, Argentina, and Brazil and  $0.5\%$  penetration in the rest of Latin America in 2011. Assuming an early 2012 launch in UK and Spain, we are modeling  $5\%$  and  $2\%$  penetration of broadband subscriptions in 2012 for UK and Spain respectively. We are modeling  $3\%$  penetration of French broadband subscriptions in 2012 assuming we see a mid year launch in this market. See table 2 for a detailed build of Netflix streaming subscribers by country.
-
-Figure 2: Netflix International Subscriber Build-Up  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/17f58c7a9cc4f33c8e65127e3053a4c1e0901761f8b7b82d065dee0523c8ade4.jpg)  
-Source: J.P. Morgan estimates.
-
-Table 2: Netflix streaming subscriber build by country  
-
-<table><tr><td>All figures in 000s</td><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td></tr><tr><td>US</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>81,744</td><td>82,744</td><td>83,744</td><td>84,744</td><td>85,744</td><td>86,744</td></tr><tr><td>Netflix Total Subscribers</td><td>19,501</td><td>23,247</td><td>28,020</td><td>31,165</td><td>33,134</td><td>34,788</td></tr><tr><td>Netflix Streaming Subscribers**</td><td>1,717</td><td>20,743</td><td>24,900</td><td>28,177</td><td>30,427</td><td>32,543</td></tr><tr><td>% penetration of broadband subscriber</td><td>2.1%</td><td>25.1%</td><td>29.7%</td><td>33.2%</td><td>35.5%</td><td>37.5%</td></tr><tr><td>International Total</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>In-market broadband subscriptions</td><td>100,321</td><td>106,952</td><td>112,349</td><td>117,088</td><td>121,280</td><td>125,334</td></tr><tr><td>Netflix Subscribers (bottom up)</td><td>509</td><td>1,726</td><td>4,958</td><td>9,917</td><td>14,165</td><td>17,828</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.5%</td><td>1.6%</td><td>4.4%</td><td>8.5%</td><td>11.7%</td><td>14.2%</td></tr><tr><td>Canada</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>10,139</td><td>10,339</td><td>10,539</td><td>10,739</td><td>10,939</td><td>11,139</td></tr><tr><td>Netflix Subscribers</td><td>509</td><td>1,344</td><td>1,792</td><td>2,255</td><td>2,735</td><td>3,119</td></tr><tr><td>% penetration of broadband subscriber</td><td>5.0%</td><td>13.0%</td><td>17.0%</td><td>21.0%</td><td>25.0%</td><td>28.0%</td></tr><tr><td>Latin America Total</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>38,835</td><td>43,667</td><td>47,463</td><td>50,703</td><td>53,495</td><td>56,148</td></tr><tr><td>Netflix Subscribers</td><td>-</td><td>382</td><td>1,243</td><td>2,528</td><td>3,954</td><td>5,130</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.0%</td><td>0.9%</td><td>2.6%</td><td>5.0%</td><td>7.4%</td><td>9.1%</td></tr><tr><td>Mexico</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>11,325</td><td>12,025</td><td>12,625</td><td>13,125</td><td>13,525</td><td>13,825</td></tr><tr><td>Netflix Subscribers</td><td>-</td><td>120</td><td>379</td><td>788</td><td>1,217</td><td>1,521</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.0%</td><td>1.0%</td><td>3.0%</td><td>6.0%</td><td>9.0%</td><td>11.0%</td></tr><tr><td>Argentina</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions*</td><td>3,862</td><td>4,594</td><td>4,894</td><td>5,134</td><td>5,326</td><td>5,479</td></tr><tr><td>Netflix Subscribers</td><td>-</td><td>46</td><td>147</td><td>308</td><td>426</td><td>548</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.0%</td><td>1.0%</td><td>3.0%</td><td>6.0%</td><td>8.0%</td><td>10.0%</td></tr><tr><td>Brazil</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>14,087</td><td>16,087</td><td>17,887</td><td>19,587</td><td>21,187</td><td>22,687</td></tr><tr><td>Netflix Subscribers</td><td>-</td><td>161</td><td>537</td><td>1,175</td><td>1,907</td><td>2,496</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.0%</td><td>1.0%</td><td>3.0%</td><td>6.0%</td><td>9.0%</td><td>11.0%</td></tr><tr><td>Other Latin America (ex Mexico, Argentina, Brazil)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>9,561</td><td>10,961</td><td>12,057</td><td>12,857</td><td>13,457</td><td>14,157</td></tr><tr><td>Netflix Subscribers</td><td>-</td><td>55</td><td>181</td><td>257</td><td>404</td><td>566</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.0%</td><td>0.5%</td><td>1.5%</td><td>2.0%</td><td>3.0%</td><td>4.0%</td></tr><tr><td>Europe Total</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td></td><td></td><td>54,347</td><td>55,647</td><td>56,847</td><td>58,047</td></tr><tr><td>Netflix Subscribers</td><td></td><td></td><td>1,923</td><td>5,134</td><td>7,476</td><td>9,578</td></tr><tr><td>% penetration of broadband subscriber</td><td></td><td></td><td>3.5%</td><td>9.2%</td><td>13.2%</td><td>16.5%</td></tr><tr><td>Spain</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>10,579</td><td>11,279</td><td>11,879</td><td>12,379</td><td>12,879</td><td>13,379</td></tr><tr><td>Netflix Subscribers</td><td>-</td><td>-</td><td>238</td><td>619</td><td>902</td><td>1,338</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.0%</td><td>0.0%</td><td>2.0%</td><td>5.0%</td><td>7.0%</td><td>10.0%</td></tr><tr><td>UK</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>19,468</td><td>20,068</td><td>20,568</td><td>21,068</td><td>21,468</td><td>21,868</td></tr><tr><td>Netflix Subscribers</td><td>-</td><td>-</td><td>1,028</td><td>2,739</td><td>3,650</td><td>4,592</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.0%</td><td>0.0%</td><td>5.0%</td><td>13.0%</td><td>17.0%</td><td>21.0%</td></tr><tr><td>France</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Broadband subscriptions</td><td>21,300</td><td>21,600</td><td>21,900</td><td>22,200</td><td>22,500</td><td>22,800</td></tr><tr><td>Netflix Subscribers</td><td>-</td><td>-</td><td>657</td><td>1,776</td><td>2,925</td><td>3,648</td></tr><tr><td>% penetration of broadband subscriber</td><td>0.0%</td><td>0.0%</td><td>3.0%</td><td>8.0%</td><td>13.0%</td><td>16.0%</td></tr></table>
-
-Source: J.P. Morgan estimates, ITU. **Note: Using Streaming only subs for US in 2010
-
-# Key Takeaways From Our Proprietary Survey
-
-We ran a survey of 1600 current and recent Netflix subscribers from September 9-13th to gauge the impact of the July pricing change as well as the potential effects of the removal of Starz content. Note, our survey was conducted prior to the reduction in 3Q subscriber guidance (on Sep 15) as well as the formation of a separate Qwikster brand for DVDs and video games (on Sep 19). Overall, the survey yielded results that were in-line with recently revised subscriber guidance. Following were the key findings:
-
-- 3Q churn was higher than expected: Of the 1600 survey respondents – including Netflix current subs and subs in the last 3 months - nearly  $39\%$  indicated they were no longer Netflix subscribers. The remaining  $61\%$  were currently subscribers. This mix of current vs. recent subscribers was lower than our expectations prior to launching the survey. In addition,  $67\%$  of users who recently left Netflix cited the pricing changes as the reason for leaving. Though we don't think Netflix's actual churn levels are this high, we believe the results are indicative of the company's recently reduced subscriber guidance due to higher than expected churn. We continue to think that the reduced guidance was due to subscriber churn from the pricing change rather than weakness in gross adds as Netflix's 3Q streaming subscriber guidance was relatively unchanged and the impact was felt in DVDs. Moreover, we note that pricing for the streaming product was unchanged and that  $75 - 80\%$  of gross adds in a regular quarter come from streaming only subscribers.  
-- Pricing change awareness was high, though many members had yet to change their plan as of Sep 13: Over  $83\%$  of current Netflix members were aware of the pricing changes announced this summer, though only  $44\%$  of these members indicated they had already changed their plan in reaction to the pricing changes. The number is skewed higher by users who had already churned off and many subs may not move from a hybrid or streaming plan at all, yet there is potentially room for additional churn as hybrid subscribers go through the September billing cycle at a higher price point. This data point in addition to the recent Qwikster rebranding gives us additional reason for conservatism in our 4Q numbers. Of those current Netflix subscribers that were unaware of the price change  $(17\%)$ , roughly  $36\%$  indicated they would switch to streaming only while  $15\%$  indicated they would end their Netflix subscription.  
-- Usage of Starz on Netflix appears low, though hard to gauge accurately: When we questioned both current and recent Netflix subscribers on their usage of Starz,  $66\%$  of respondents indicated they never or infrequently watch Starz content on Netflix while  $30\%$  indicated they were not aware that Starz content was available through Netflix. Only  $14\%$  of respondents indicated they watched Starz content frequently. Though these numbers appear low, we believe it's difficult to gauge if users would recognize Starz content even if they were watching it. As a result, we think these numbers may not reflect the actual perceived value of Starz content to Netflix subscribers. Netflix has previously suggested that Starz currently accounts for  $8\%$  of streaming hours and is expected to drift down to  $5 - 6\%$  by the end of the contract in 1Q 2012.
-- Newer movies drive new subs, though behavior changes over time: Nearly  $53\%$  of current Netflix subscribers cited new film releases as their primary reason for originally joining Netflix though  $52\%$  indicated that both movies and TV shows/documentsaries were now their primary reason for using Netflix. In our view, consumers may initially be attracted to Netflix's streaming movies and may diversify their usage across TV shows due to Netflix's strong merchandising and recommendation engine.
-- Amazon Prime Videos appears to have some recognition: Among both current and recent Netflix members,  $26\%$  indicated they had heard of free videos available on Amazon Prime. Roughly  $17\%$  of the survey sample indicated they were Amazon Prime members, suggesting a disproportionately high  $\%$  of Amazon Prime members using Netflix. We think Amazon Prime likely has less than  $5\%$  of US Internet users. As Amazon Prime continues to add a greater selection of content, it could pose a more significant challenge to Netflix.
-
-# What To Watch For
-
-- Dish Network Announcement: According to Bloomberg, Dish Network which recently acquired Blockbuster is set to announce pricing and other details regarding a new subscription streaming product on Sep 23. In addition, the Bloomberg article notes that Dish's offering is expected to include movies from Starz. We think it is likely the service will initially be bundled with the Dish satellite video service - which had 14MM subscribers as of 2Q11 – though we don't think the service would be competitive until it is opened up to non-Dish Network subscribers.  
-- Amazon deepening its subscription video offering: Amazon has been expanding its Prime free video content selection from 5000 low quality titles in February to nearly 9000 titles this summer, including recent deals announced with CBS and NBC Universal. Furthermore, the company's upcoming tablet launch could potentially include an Amazon Prime bundle which could make the service compelling to some consumers.  
-- Hulu could become a bigger threat in the hands of a larger company: Per the WSJ (8/21), Hulu's owners are taking bids for the company, and Google has been one of the bidders, though Google itself has said nothing about bidding. Though the bidding process for Hulu which also includes Amazon is far from complete, we think a well-capitalized acquirer could potentially make the service more competitive with Netflix over time. Hulu's CEO has noted he expects the company to have  \$500MM in revenue in 2011 and that Hulu may spend\$ 375MM on content this year. Note that Hulu Plus has recently passed the 1MM paid subscriber mark. We believe Hulu could be very important for Google's display business as we think Google needs more owned & operated (O&O) display inventory to become a much larger player in the space and capture a greater share of net revenue.  
-- Facebook integration could help drive international subs: At its F8 conference today, Facebook and Netflix announced an integration to allow Netflix users to view their friends' movie/TV recommendations on Netflix.com while also allowing Facebook users that have a Netflix subscription to view Netflix content through a pop-up Facebook video player. The Facebook integration is currently available only outside the US due to a 1998 US law called the Video Privacy Protection (VPP) Act which requires rental information be kept private. Netflix is currently lobbying for the law to be clarified in the US Congress. The company has mentioned that the Facebook integration is a nice benefit for users though the recent split into two separate streaming and Qwikster operating units without shared queues is not attributable to the integration with Facebook.  
-- Additional content deals likely: Netflix recently announced a renewed 2 yr content partnership with Discovery Communications to offer streaming versions of its shows. In addition, last week Time Warner and News Corp executives noted their willingness to sign additional content deals with Netflix. We believe Netflix will likely replace a significant portion of Starz content with additional TV shows and older movies from multiple studios.
-
-# Investment Thesis
-
-Maintain Overweight. Despite lower near-term subscriber expectations, we continue to believe that Netflix's ongoing subscriber migration from DVDs to streaming offers significant financial leverage that Netflix can use to acquire more content and expand overseas. We think there is still considerable room for Netflix in the U.S. market with current penetration at  $\sim 30\%$  of broadband subscribers and revenue at just  $\sim 13\%$  of the home video market. Additionally, we remain bullish on Netflix's international opportunity given the company's track record of execution and there does not appear to be significant international competition.
-
-# Valuation
-
-Our year end 2012 price target moves to \(205 from \)245. Our \$205 PT is based on ~23x our 2013 PF EPS of \(8.89 vs. a 40% 2010-13E EPS CAGR. A 23x multiple is only 0.6x our projected 3 yr growth rate, a significant discount. Our mid and large cap names trade at an avg of 1.1x peg. Our lower multiple (28x previously) takes into account still strong profit growth, but also slower sub growth and less near-term visibility.
-
-# Risks to Rating and Price Target
+### Risks to Rating and Price Target
 
 Netflix stock could perform below expectations if: The company is unable to strike deals with content owners to continue to expand its streaming catalog; Internet Service Providers add more restrictive data usage caps; Other competitors, such as Redbox, Amazon, or Apple are able to offer more attractive customer offerings and thus take market share; The company is not able to manage future postal price increases effectively.
 
@@ -730,51 +366,15 @@ Note: $ in millions (except per-share data).Fiscal year ends Dec 31.
 
 Analyst Certification: The research analyst(s) denoted by an "AC" on the cover of this report certifies (or, where multiple research analysts are primarily responsible for this report, the research analyst denoted by an "AC" on the cover or within the document individually certifies, with respect to each security or issuer that the research analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect his or her personal views about any and all of the subject securities or issuers; and (2) no part of any of the research analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the research analyst(s) in this report.
 
-# Important Disclosures
+## Important Disclosures
 
-Market Maker: JPMS makes a market in the stock of Netflix Inc.  
+## Explanation of Equity Research Ratings and Analyst(s) Coverage Universe:
 
-- Client: J.P. Morgan currently has, or had within the past 12 months, the following company(ies) as clients: Netflix Inc.  
-- Investment Banking (next 3 months): J.P. Morgan expect to receive, or intend to seek, compensation for investment banking services in the next three months from Netflix Inc.
+## Other Disclosures
 
-Netflix Inc (NFLX) Price Chart  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/28ec6a39-2893-4d75-9122-95ffdd29d9eb/f84a19569ec964ce6a05cf797e1a137e310f148c148a74e6974081e555d0c71f.jpg)  
-Source: Bloomberg and J.P. Morgan; price data adjusted for stock splits and dividends. Initiated coverage Jan 12, 2007.
+## Legal Entities Disclosures
 
-<table><tr><td>Date</td><td>Rating</td><td>Share Price ($)</td><td>Price Target ($)</td></tr><tr><td>12-Jan-07</td><td>N</td><td>22.71</td><td>-</td></tr><tr><td>11-Jun-07</td><td>UW</td><td>21.93</td><td>-</td></tr><tr><td>22-Jan-08</td><td>N</td><td>21.85</td><td>-</td></tr><tr><td>15-Sep-09</td><td>OW</td><td>44.97</td><td>53.00</td></tr><tr><td>23-Oct-09</td><td>OW</td><td>49.63</td><td>57.00</td></tr><tr><td>04-Jan-10</td><td>OW</td><td>53.48</td><td>63.00</td></tr><tr><td>28-Jan-10</td><td>OW</td><td>63.04</td><td>70.00</td></tr><tr><td>22-Apr-10</td><td>OW</td><td>86.98</td><td>110.00</td></tr><tr><td>09-Jun-10</td><td>OW</td><td>110.33</td><td>133.00</td></tr><tr><td>22-Jul-10</td><td>OW</td><td>103.56</td><td>136.00</td></tr><tr><td>13-Sep-10</td><td>OW</td><td>147.94</td><td>181.00</td></tr><tr><td>21-Oct-10</td><td>OW</td><td>172.69</td><td>186.00</td></tr><tr><td>27-Jan-11</td><td>OW</td><td>210.87</td><td>224.00</td></tr><tr><td>13-Jul-11</td><td>OW</td><td>298.73</td><td>340.00</td></tr><tr><td>15-Sep-11</td><td>OW</td><td>169.25</td><td>245.00</td></tr></table>
-
-The chart(s) show J.P. Morgan's continuing coverage of the stocks; the current analysts may or may not have covered it over the entire period.
-
-J.P. Morgan ratings:  $\mathrm{OW} =$  Overweight,  $\mathbf{N} =$  Neutral,  $\mathrm{UW} =$  Underweight
-
-# Explanation of Equity Research Ratings and Analyst(s) Coverage Universe:
-
-J.P. Morgan uses the following rating system: Overweight [Over the next six to twelve months, we expect this stock will outperform the average total return of the stocks in the analyst's (or the analyst's team's) coverage universe.] Neutral [Over the next six to twelve months, we expect this stock will perform in line with the average total return of the stocks in the analyst's (or the analyst's team's) coverage universe.] Underweight [Over the next six to twelve months, we expect this stock will underperform the average total return of the stocks in the analyst's (or the analyst's team's) coverage universe.] The analyst or analyst's team's coverage universe is the sector and/or country shown on the cover of each publication. See below for the specific stocks in the certifying analyst(s) coverage universe.
-
-Coverage Universe: Anmuth, Doug: Amazon.com (AMZN), Bankrate Inc (RATE), Google (GOOG), HomeAway Inc (AWAY), LinkedIn Corp (LNKD), Netflix Inc (NFLX), Pandora Media Inc (P), Priceline.com (PCLN), QuinStreet, Inc. (QNST), ReachLocal (RLOC), Yahoo Inc (YHOO), eBay, Inc (EBAY)
-
-J.P. Morgan Equity Research Ratings Distribution, as of June 30, 2011  
-
-<table><tr><td></td><td>Overweight (buy)</td><td>Neutral (hold)</td><td>Underweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage</td><td>47%</td><td>42%</td><td>11%</td></tr><tr><td>IB clients*</td><td>50%</td><td>46%</td><td>32%</td></tr><tr><td>JPMS Equity Research Coverage</td><td>45%</td><td>47%</td><td>8%</td></tr><tr><td>IB clients*</td><td>70%</td><td>64%</td><td>52%</td></tr></table>
-
-*Percentage of investment banking clients in each rating category.  
-For purposes only of FINRA/NYSE ratings distribution rules, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category.
-
-Equity Valuation and Risks: Please see the most recent company-specific research report for an analysis of valuation methodology and risks on any securities recommended herein. Research is available at http://www.morganmarkets.com, or you can contact the analyst named on the front of this note or your J.P. Morgan representative.
-
-Equity Analysts' Compensation: The equity research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues, which include revenues from, among other business units, Institutional Equities and Investment Banking.
-
-# Other Disclosures
-
-J.P. Morgan ("JPM") is the global brand name for J.P. Morgan Securities LLC ("JPMS") and its affiliates worldwide. J.P. Morgan Cazenove is a marketing name for the U.K. investment banking businesses and EMEA cash equities and equity research businesses of JPMorgan Chase & Co. and its subsidiaries.
-
-Options related research: If the information contained herein regards options related research, such information is available only to persons who have received the proper option risk disclosure documents. For a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options, please contact your J.P. Morgan Representative or visit the OCC's website at http://www-optionsclearing.com/publications/risks/riskstoc.pdf
-
-# Legal Entities Disclosures
-
-U.S.: JPMS is a member of NYSE, FINRA,SIPC and the NFA. JPMorgan Chase Bank, N.A. is a member of FDIC and is authorized and regulated in the UK by the Financial Services Authority. U.K.: J.P. Morgan Securities Ltd. (JPMSL) is a member of the London Stock Exchange and is authorized and regulated by the Financial Services Authority. Registered in England & Wales No. 2711006. Registered Office 125 London Wall, London EC2Y 5AJ. South Africa: J.P. Morgan Equities Limited is a member of the Johannesburg Securities Exchange and is regulated by the FSB. Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong. Korea: J.P. Morgan Securities (Far East) Ltd, Seoul Branch, is regulated by the Korea Financial Supervisory Service. Australia: J.P. Morgan Australia Limited (ABN 52 002 888 011/AFS Licence No: 238188) is regulated by ASIC and J.P. Morgan Securities Australia Limited (ABN 61 003 245 234/AFS Licence No: 238066) is a Market Participant with the ASX and regulated by ASIC. Taiwan: J.P.Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company-type) and regulated by the Taiwan Securities and Futures Bureau. India: J.P. Morgan India Private Limited, having its registered office at J.P. Morgan Tower, Off C.S.T. Road, Kalina, Santacruz East, Mumbai - 400098, is a member of the National Stock Exchange of India Limited (SEBI Registration Number - INB 230675231/INF 230675231/INE 230675231) and Bombay Stock Exchange Limited (SEBI Registration Number - INB 010675237/INF 010675237) and is regulated by Securities and Exchange Board of India. Thailand: JPMorgan Securities (Thailand) Limited is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission. Indonesia: PT J.P. Morgan Securities Indonesia is a member of the Indonesia Stock Exchange and is regulated by the BAPEPAM LK. Philippines: J.P. Morgan Securities Philippines Inc. is a member of the Philippine Stock Exchange and is regulated by the Securities and Exchange Commission. Brazil: Banco J.P. Morgan S.A. is regulated by the Comissao de Valores Mobiliarios (CVM) and by the Central Bank of Brazil. Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V., J.P. Morgan Grupo Financiero is a member of the Mexican Stock Exchange and authorized to act as a broker dealer by the National Banking and Securities Exchange Commission. Singapore: This material is issued and distributed in Singapore by J.P. Morgan Securities Singapore Private Limited (JPMSS) [MICA (P) 025/01/2011 and Co. Reg. No.: 199405335R] which is a member of the Singapore Exchange Securities Trading Limited and is regulated by the Monetary Authority of Singapore (MAS) and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore) which is regulated by the MAS. Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146-X) which is a Participating Organization of Bursa Malaysia Berhad and a holder of Capital Markets Services License issued by the Securities Commission in Malaysia. Pakistan: J.P. Morgan Pakistan Broking (Pvt.) Ltd is a member of the Karachi Stock Exchange and regulated by the Securities and Exchange Commission of Pakistan. Saudi Arabia: J.P. Morgan Saudi Arabia Ltd. is authorized by the Capital Market Authority of the Kingdom of Saudi Arabia (CMA) to carry out dealing as an agent, arranging, advising and custody, with respect to securities business under licence number 35-07079 and its registered address is at 8th Floor, Al-Faisaliyah Tower, King Fahad Road, P.O. Box 51907, Riyadh 11553, Kingdom of Saudi Arabia. Dubai: JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - Building 3, Level 7, PO Box 506551, Dubai, UAE.
-
-# Country and Region Specific Disclosures
+## Country and Region Specific Disclosures
 
 U.K. and European Economic Area (EEA): Unless specified to the contrary, issued and approved for distribution in the U.K. and the EEA by JPMSL. Investment research issued by JPMSL has been prepared in accordance with JPMSL's policies for managing conflicts of interest arising as a result of publication and distribution of investment research. Many European regulators require a firm to establish, implement and maintain such a policy. This report has been issued in the U.K. only to persons of a kind described in Article 19 (5), 38, 47 and 49 of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (all such persons being referred to as "relevant persons"). This document must not be acted on or relied on by persons who are not relevant persons. Any investment or investment activity to which this document relates is only available to relevant persons and will be engaged in only with relevant persons. In other EEA countries, the report has been issued to persons regarded as professional investors (or equivalent) in
 

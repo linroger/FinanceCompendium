@@ -9,17 +9,17 @@ title: Cases in Financial Management Lecture Notes
 linter-yaml-title-alias: Cases in Financial Management Lecture Notes
 ---
 
-# Introduction to Corporate Finance
+## Introduction to Corporate Finance
 
 "The greatest competitive advantage Panera had, the reason we produced these results we did, is because we could think long term …. And the reason I took our company private is I'm increasingly worried about our ability to do that in a public market …. What's driving today's shareholdings are traders on the market …. We had large shareholders like Capital Research \& Management, Goldman Sachs, Baron Funds, but the reality is, they don't drive the price. What drives the price are the traders who are betting on next week's comp. And that affects the entire organization …. Do you think this is good economic growth?"
 
-# PREVIEW
+## PREVIEW
 
-# The Purpose of the Course Handouts
+## The Purpose of the Course Handouts
 
 I intend for these handouts to augment whatever corporate finance (and capital markets) book you intend to utilize in this course. Thus, think of these handouts as complementary rather than as substitutes to the various finance textbooks. Hopefully, you will find them useful for the case preparation and for your class participation.
 
-# The Role of Corporate Finance
+## The Role of Corporate Finance
 
 This course is about financial decisions by corporate managers, often from the viewpoint of the chief financial officer (CFO). It could just as easily be from the view of the CEO, board member, investment banker, credit (and equity) research analyst, strategy consultant, investment manager, proprietary trader, and many other roles that require financial knowledge. At times, the course will cross over into the study of capital markets due to the strong link in practice between corporate finance and capital markets. Many corporate finance decisions are often heavily influenced by what is currently occurring in capital markets, and we will attempt to analyze the respective linkages when possible.
 
@@ -58,7 +58,7 @@ Notably, Blackrock, the enormous asset manager, has spent the past few years pus
 
 In this course, we will primarily assume that managers act on behalf of shareholders, yet mindful of the impact of decisions on other stakeholders. Moreover, we consider how a more explicit model of stakeholder governance will alter the decisions we observe relative to shareholder wealth maximization. Interestingly, the concept of stakeholder governance has yet to appear in the mainstream corporate finance textbooks with virtually no mention therein.
 
-# Incorporating Human Behavior into Corporate Finance
+## Incorporating Human Behavior into Corporate Finance
 
 Traditional corporate finance textbooks tend to assume that market rationality largely prevails, and likewise that corporate managers also behave rationally, even in a world with market imperfections and agency costs as noted earlier. That is, corporate managers can mostly assume that markets are generally efficient with prices reflecting close to fundamental values. Similarly, investors can assume that managers act rationally and pursue their self-interest, subject to monitoring, auditing, and various incentive mechanisms designed to ensure that managers maximize shareholder wealth.
 
@@ -70,7 +70,7 @@ More recently, academic researchers have begun to focus on cases in which corpor
 
 In this course, we will assume, at least in most cases, that rationality prevails on the part of markets and investors, and on the part of managers. Nonetheless, we will discuss instances of many mispricings and address whether corporate managers are equipped to engage in arbitrage. We will also note numerous cases in which managers seem to act in manners not predicted by basic rational models and analyze the resulting implications.
 
-# CORPORATE FINANCE IN A WORLD OF CERTAINTY AND PERFECT CAPITAL MARKETS³
+## CORPORATE FINANCE IN A WORLD OF CERTAINTY AND PERFECT CAPITAL MARKETS³
 
 Corporate finance is a difficult subject to master, and mastery is impossible to attain in a single course. To fully understand corporate finance, one first needs a good command of accounting, asset pricing (investments), microeconomics, and statistics. And one needs to appreciate a combination of theory, empirical evidence of both smalland large-sample studies, and anecdotes and experiences from practice in the real world. Corporate finance is a subject that requires a healthy mix of both academia and practice because they are often intertwined.
 
@@ -197,7 +197,7 @@ However, PCMC can issue the new \$25 million of equity at a higher price to fina
 
 Alternatively, management can raise additional debt of 25 million. The debt matures at the end of the period and carries an interest rate of 5 \%given the certainty of cash flows. Note the interest rate on the debt is identical to the discount rate for PROJECT. In a world in which cash flows are certain, there is only one discount rate, which happens to be the risk- free rate. The resulting stock price is \$ 20.17, the same as if equity finances PROJECT. Management is indifferent to using debt or equity to finance the funding gap with PROJECT because the value implications are identical due to the assumption of perfect capital markets. Obviously, debt and equity issues can have different value implications due to various real- world frictions such as taxes and information asymmetry.
 
-# The Separation of the Investment Decision from the Consumption Decision
+## The Separation of the Investment Decision from the Consumption Decision
 
 As described previously, management of PCMC maximizes shareholder wealth by accepting all +NPV projects and rejecting all -NPV projects. But shareholders have different utility functions in that some shareholders prefer to consume cash flows today more so than other shareholders who might have lower personal discount rates. That is, to the extent that shareholders have different discount rates, those shareholders who have a higher preference for consuming cash flows today will have higher discount rates than shareholders who are willing to consume cash flows in later periods. The question is whether managers need to take account of the consumption patterns desired by their shareholders when contemplating which projects to invest in.
 
@@ -235,7 +235,7 @@ The preponderance of the empirical evidence in the academic finance journals sho
 
 Part of the issue may be that CEOs, legal jurists, reporters, etc., think more in terms of anecdotes, rather than thinking in terms of the entire distribution of possible outcomes, and thus may have biased views, often based on their recent experience, irrespective of their level of intelligence. On a personal level, I have witnessed pushes for short-term profits over long-term profits, and interestingly this often comes from private-equity investors where one would think that this conflict shouldn't exist. But this doesn't necessarily mean that, on average, corporations sacrifice long-term profits for short-term profits.[14]
 
-# MULTIPERIOD CASH FLOWS
+## MULTIPERIOD CASH FLOWS
 
 In the PCMC exercise, capital markets are perfect and certainty prevails. Given all cash flows are known with certainty, the discount rate reflects only the time value of money because there is no risk. In the real world, we consider the short-term U.S. Treasury Bill as somewhat risk-free. While a subsequent lecture note focuses on established asset-pricing models by which to compute discount rates in practice, for now, we will assume, rather than estimate, a discount rate and consider it to reflect the time value of money plus some risk premium. That is, we will assume uncertain cash flows, but will continue to maintain the assumption of perfect capital markets. We will also assume multiple periods as opposed to the single-period exercise with PCMC.
 
@@ -322,19 +322,19 @@ $$
 
 With a starting cash flow of 100 in one year, growing 3 \%annually, and a discount rate of 8 \%, the growing annuity has a value of \$ 755.01million per the preceding formula. Alternatively, as shown in Table 3, the summation of the discounted cash flows growing 3 \%annually generates the same value of \$ 755.01million. Intuitively, just as the growing perpetuity had a higher value than the constant perpetuity, the growing annuity also has a higher value than a constant annuity with the same discount rate and number of years.
 
-# CONCLUDING THOUGHTS
+## CONCLUDING THOUGHTS
 
 Corporate finance can get complicated much quicker than we often think. And it can get messy with lots of details and nuances. This is especially the case in the real world where agency costs and information asymmetry are prevalent, when lots of players are involved, and when markets are in turmoil. To this point, we will cover messy cases in this class, and I have picked cases which are realistic, yet allows you to apply what you have learned in finance courses to settings you will experience down the road.
 
 For most of you to get the maximum benefit out of this course, it is crucial that you do not attack the cases in isolation, instead you should also read the relevant lecture notes as they will assist you in the case preparation and likewise in the class discussion. Moreover, reading the lecture notes should decrease the time you spend preparing your answers as you will have a better framework to attack the cases. These notes are written that that in mind, that is, think of them as refresher notes to your corporate finance and capital markets textbooks. Lastly, if you happen to get stuck on a particular issue in the subsequent lecture notes, it is generally advantageous to revert to a world of perfect capital markets which this introductory lecture stresses. Without knowing the value implications of decisions and events in perfect capital markets, it is virtually impossible to master financial management in the real world.
 
-# Financial Forecasting
+## Financial Forecasting
 
-# TRANSITION FROM FINANCIAL ACCOUNTING TO CORPORATE FINANCE
+## TRANSITION FROM FINANCIAL ACCOUNTING TO CORPORATE FINANCE
 
 This brief lecture note covers short-term financial planning to accompany the Plainview case. It provides a simple exercise in forecasting financial statements with the purpose of assessing a short-term cash surplus or cash deficiency. Do not view this note as a comprehensive treatment of cash planning. Rather given that financial executives spend a lot of time with short-term planning and preparing budgets, it is useful to have a rudimentary understanding of forecasting financial statements.
 
-# FORECASTING AT GIDDY-UP CORPORATION
+## FORECASTING AT GIDDY-UP CORPORATION
 
 We consider the fictional company, Giddy-Up Corporation, in this cursory overview of financial forecasting. Giddy-Up manufactures western hats which are distributed through retail outlets such as Walmart and Neiman Marcus. Exhibit 1 displays the income statement for Giddy-Up during 2017 and 2018, and Giddy-Up's pro forma income statement for 2019. Note that Giddy-Up's income statement is a sparse listing of accounts, as income statements for most firms contain far more detail than as presented. Exhibit 2 displays the 2017 and 2018 balance sheet for Giddy-Up, and the pro forma balance sheet for 2019. As the case for the income statement, the balance sheet for Giddy-Up displays a limited number of accounts relative to that shown on the balance sheet of most large corporations. There are no unique line items on either Giddy-Up's balance sheets or income statements with which you should not be already familiar.
 
@@ -362,7 +362,7 @@ Suppose the pro forma estimates for the total assets and total liabilities and e
 
 Alternatively, Giddy-Up can utilize new debt to satisfy the financing deficiency of 1.323 million. If debt rather than equity is employed to eliminate the financing deficiency, the amount raised, however, will have to exceed the \$1.323 million deficiency. Assume for example that Giddy-Up raises \$1.323 million at an annual coupon rate of 6.8\%. This debt raise will result in interest expense of \$90,000 which reduces net income by \$71,000, after accounting for a 21\% tax rate. Thus, there is less retained earnings due to the decline in net income which results in a higher financing deficiency than 1.323 million and so forth given to the interdependency between the interest expense and the required external financing.5
 
-# CONCLUDING THOUGHTS
+## CONCLUDING THOUGHTS
 
 As indicated at the beginning of this lecture note, the objective is to provide a brief overview of financial forecasting with the goal of assessing the excess cash or cash deficiency in future periods. It is largely intended to complement the Plainview case. For those who might want to take the Giddy-Up exercise a step forward, you can also estimate the statement of cash flows for 2018 and the forecasted cash flows for 2019 as well, using either the direct or indirect (starting with net income) method of computing cash flows.
 
@@ -380,11 +380,11 @@ Exhibit 3: Linking Giddy-Up's Income Statement to the Balance Sheet (thousands)
 
 <table><tr><td>2017 Retained Earnings</td><td>6,919</td><td>2018 Retained Earnings</td><td>8,755</td></tr><tr><td>+ 2018 Net Income</td><td>3,218</td><td>+ 2019 Pro Forma Net Income</td><td>3,397</td></tr><tr><td>- 2018 Dividends</td><td>-1,382</td><td>- 2019 Pro Forma Dividends</td><td>-1,459</td></tr><tr><td>= 2018 Retained Earnings</td><td>8,755</td><td>= 2019 Pro Forma Retained Earnings</td><td>10,693</td></tr></table>
 
-# Using NPV to Make Investment Decisions
+## Using NPV to Make Investment Decisions
 
 "Our ultimate financial measure, and the one we most want to drive over the long-term, is free cash flow per share. Why not focus first and foremost, as many do, on earnings, earnings per share or earnings growth? The simple answer is that earnings don't directly translate into cash flows, and shares are only worth the present value of their future cash flows, not the present value of their future earnings."1
 
-# Measuring Cash Flows
+## Measuring Cash Flows
 
 Cash flows versus some measure of revenue, profits, etc., is what ultimately matters to shareholders. As Jeff Bezos stresses in Amazon's 2004 Letter to Shareholders referenced above, "shares are worth only the present value of their future cash flows, not the present value of their future earnings." In contrast, corporate management, and the business press among others, often tend to fixate on earnings per share as the optimal metric for corporate financial performance. This lecture note highlights differences between cash flows versus earnings, and shows that while these measures are generally directionally the same, they can yield starkly divergent recommendations about which projects to move forward on.
 
@@ -438,7 +438,7 @@ The next step is to convert the cash flows over time to discounted cash flows, u
 
 The travel project, as discussed above, is representative of many projects with specified lives, in this case, seven years. If valuing a project or investment with a perpetual life, more specifically if valuing an entire corporation, the discounted-cash-flow analysis will consist of two stages. The first stage is a forecast period, with year-by-year cash flows, for a specified number of years, usually around five to ten years. The second stage is a terminal value calculation based on cash flows starting the year after the forecast period ends and going forever, with cash flows growing at a constant rate, sometimes zero. This terminal value is then discounted back to the current date to obtain the overall value of the project or corporation.
 
-# NET PRESENT VALUE VERSUS OTHER INVESTMENT PERFORMANCE METRICS
+## NET PRESENT VALUE VERSUS OTHER INVESTMENT PERFORMANCE METRICS
 
 NPV analysis is widely accepted today as the superior methodology for assessing the ex ante financial impact of project selection, at least conceptually, notwithstanding the concerns by many CEOs who believe that shareholders sometimes favor short-term profits over long-term cash flow and profits. But putting those issues aside, given shareholders prefer greater wealth to less wealth, they instruct the management team to accept all +NPV projects and reject all -NPV projects. The basic approach to computing NPV is straightforward:
 
@@ -494,7 +494,7 @@ If the payback rule indicated that the payback period should be a maximum of fou
 
 Imagine how corporate management would explain the travel machine project on a conference call with equity analysts. She would not just state that the travel machine project would have a NPV of - \111.2 million and leave it at that. Instead, she would likely convey the IRR of 6.92\% and the payback period of about three and a half years. Also, she would probably indicate when it would be accretive on an earnings basis as analysts who build equity models tend to focus on the accretive/dilutive aspects associated with new projects and ventures.
 
-# CONCLUDING REMARKS
+## CONCLUDING REMARKS
 
 NPV analysis is the workhorse for deciding whether a project merits an investment. $^{10}$  There is no close runner-up. Its beauty lies in the fact that if the NPV is positive (negative), management should advance (reject) the project for one straightforward reason: it is always consistent with maximizing shareholder wealth.
 
@@ -502,7 +502,7 @@ The textbook framework to compute the NPV of a project is clearcut. The analyst 
 
 Obviously, having a great understanding of NPV analysis does not make a great manager pe se. But it can certainly help a good manager improve their decisions, and importantly, in communicating their actions and decisions to external parties such as equity analysts, business press, and shareholders. Indeed, a good CEO, who fully understands NPV analysis, will do a far better job at handling angry activist investors than a good CEO with less than a complete understanding
 
-# amazon.com
+## amazon.com
 
 To our shareholders:
 
@@ -568,11 +568,11 @@ Amazon.com, Inc.
 
 April 2005
 
-# amazon.com
+## amazon.com
 
-# 1997 LETTER TO SHAREHOLDERS
+## 1997 LETTER TO SHAREHOLDERS
 
-# (Reprinted from the 1997 Annual Report)
+## (Reprinted from the 1997 Annual Report)
 
 To our shareholders:
 
@@ -582,7 +582,7 @@ But this is Day 1 for the Internet and, if we execute well, for Amazon.com. Toda
 
 We have a window of opportunity as larger players marshal the resources to pursue the online opportunity and as customers, new to purchasing online, are receptive to forming new relationships. The competitive landscape has continued to evolve at a fast pace. Many large players have moved online with credible offerings and have devoted substantial energy and resources to building awareness, traffic, and sales. Our goal is to move quickly to solidify and extend our current position while we begin to pursue the online commerce opportunities in other areas. We see substantial opportunity in the large markets we are targeting. This strategy is not without risk: it requires serious investment and crisp execution against established franchise leaders.
 
-# It's All About the Long Term
+## It's All About the Long Term
 
 We believe that a fundamental measure of our success will be the shareholder value we create over the long term. This value will be a direct result of our ability to extend and solidify our current market leadership position. The stronger our market leadership, the more powerful our economic model. Market leadership can translate directly to higher revenue, higher profitability, greater capital velocity, and correspondingly stronger returns on invested capital.
 
@@ -608,7 +608,7 @@ We aren't so bold as to claim that the above is the "right" investment philosoph
 
 With this foundation, we would like to turn to a review of our business focus, our progress in 1997, and our outlook for the future.
 
-# Obssess Over Customers
+## Obssess Over Customers
 
 From the beginning, our focus has been on offering our customers compelling value. We realized that the Web was, and still is, the World Wide Wait. Therefore, we set out to offer customers something they simply could not get any other way, and began serving them with books. We brought them much more selection than was possible in a physical store (our store would now occupy 6 football fields), and presented it in a useful, easy-to-search, and easy-to-browse format in a store open 365 days a year, 24 hours a day. We maintained a dogged focus on improving the shopping experience, and in 1997 substantially enhanced our store. We now offer customers gift certificates, 1-Click $^{\text{SM}}$  shopping, and vastly more reviews, content, browsing options, and recommendation features.
 
@@ -626,7 +626,7 @@ In terms of audience reach, per Media Matrix, our Web site went from a rank of 9
 
 We established long-term relationships with many important strategic partners, including America Online, Yahoo!, Excite, Netscape, GeoCities, AltaVista, @Home, and Prodigy.
 
-# Infrastructure
+## Infrastructure
 
 During 1997, we worked hard to expand our business infrastructure to support these greatly increased traffic, sales, and service levels:
 
@@ -638,13 +638,13 @@ Inventories rose to over 200,000 titles at year-end, enabling us to improve avai
 
 - Our cash and investment balances at year-end were  \$125 million, thanks to our initial public offering in May 1997 and our\$ 75 million loan, affording us substantial strategic flexibility.
 
-# Our Employees
+## Our Employees
 
 The past year's success is the product of a talented, smart, hard-working group, and I take great pride in being a part of this team. Setting the bar high in our approach to hiring has been, and will continue to be, the single most important element of Amazon.com's success.
 
 It's not easy to work here (when I interview people I tell them, "You can work long, hard, or smart, but at Amazon.com you can't choose two out of three"), but we are working to build something important, something that matters to our customers, something that we can all tell our grandchildren about. Such things aren't meant to be easy. We are incredibly fortunate to have this group of dedicated employees whose sacrifices and passion build Amazon.com.
 
-# Goals for 1998
+## Goals for 1998
 
 We are still in the early stages of learning how to bring new value to our customers through Internet commerce and merchandising. Our goal remains to continue to solidify and extend our brand and customer base. This requires sustained investment in systems and infrastructure to support outstanding customer convenience, selection, and service while we grow. We are planning to add music to our product offering, and over time we believe that other products may be prudent investments. We also believe there are significant opportunities to better serve our customers overseas, such as reducing delivery times and better tailoring the customer experience. To be certain, a big part of the challenge for us will lie not in finding new ways to expand our business, but in prioritizing our investments.
 
@@ -660,11 +660,11 @@ Founder and Chief Executive Officer
 
 Amazon.com, Inc.
 
-# The Cost of Capital
+## The Cost of Capital
 
 "Cost of capital is what could be produced by our second best idea, and our best idea has to beat it. We don't discount the future cash flows at  $9\%$  or  $10\%$ ; we use the U.S. Treasury rate. We try to deal with things about which we are quite certain. You can't compensate for risk by using a high discount rate. Charlie and I don't know our cost of capital. It's taught at business schools, but we're skeptical. We just look to do the most intelligent thing we can do with the capital we have. We measure against our alternatives. I've never seen a cost of capital calculation that made sense to me."
 
-# INTRODUCTION
+## INTRODUCTION
 
 Most major managerial investment decisions involve projects for which the initial investment outlay is expected to generate positive cash flows for several years. To assess the feasibility of these significant investments, management needs to adjust the expected positive future cash flows by a discount rate, namely the project's cost of capital. Investors expect to earn risk-adjusted returns as they are not providing money for free. Estimates of the cost of capital not only vary widely over time and across firms and industries, but also vary widely at the same point in time by firms in the same industry depending on the type of project undertaken.
 
@@ -676,17 +676,17 @@ This lecture note provides a broad overview of computing the cost of capital. Th
 
 A caveat is in order. This lecture note assumes corporate managers behave rationally and adhere to theoretical models of asset pricing with respect to computing cost of capital estimates. In reality, irrespective of rational behavior, most corporate managers don't necessarily adhere to models well grounded in academic theory. This is not to suggest that academia has not led to huge breakthroughs in the practice of finance as it has on many fronts. And even if many corporate managers completely disregard practices well grounded in finance theory and empirical evidence, it is still useful to understand how asset pricing models can instruct us as to the best estimate of the discount rate for project valuation.
 
-# MARKET RISK PREMIUM
+## MARKET RISK PREMIUM
 
 As this lecture note will describe, there are several steps in computing the cost of capital for a project. A good starting point is to assume the project has the same risk as that of the overall stock market. While the typical project will have a risk profile entirely different from that of the overall stock market, it is useful to consider how corporate management discounts a project with risk identical to the aggregate stock market. The required return for this hypothetical project is the expected return that the firm could make if investing in the stock market rather than in the project itself. That is, the shareholders of the firm can invest directly in the overall stock market, and thus this is the opportunity cost or required return for the firm considering a real investment with identical risk to the stock market.
 
-# Eq.1
+## Eq.1
 
 Discount Rate = Risk-Free Rate + Market Risk Premium
 
 Assume the project has an expected life of thirty years. Currently, thirty-year U.S. Treasury bonds are yielding  $3.7\%$ , and thus the discount rate should exceed at least the thirty-year Treasury yield. Investors will not hold stocks with an expected return of only  $3.7\%$  over the next thirty years if they expect to receive a return of  $3.7\%$  by investing in U.S. Treasury bonds. Thus, the market risk premium is in addition to the current risk-free rate corresponding to the expected life of the project. The true risk premium for the stock market is unobservable and thus must be estimated:
 
-# Eq. 2
+## Eq. 2
 
 Market Risk Premium = E(RMARKET) - RFREE
 
@@ -700,7 +700,7 @@ Table 1 Average Annual Rate of Return and Standard Deviation (1900-2014)
 
 As shown, U.S. Treasury bills have generated an average annual rate of return of  $3.8\%$ , whereas Treasury bonds have returned a higher  $5.4\%$ . Stocks have returned  $11.5\%$  annually, thus an excess return of  $7.7\%$  relative to Treasury bills and an excess return of  $6.1\%$  to Treasury bonds. Assuming investor expectations turn out to be correct ex-post, then we can use the realized historical excess return as the proxy for the ex-ante risk premium going forward. In this context, if we assume a long-term project has the same risk as the stock market, the project's cost of capital is:
 
-# Eq. 1a
+## Eq. 1a
 
 $$
 9.8 \% = 3.7 \% + 6.1 \%
@@ -718,7 +718,7 @@ Corporate finance textbooks tend to suggest a range of  $5 \%$ to  $6 \%$ for th
 
 Consider that the P/E Ratio today based on 2023 expected earnings for the S&P 500 is roughly 17.2, and Treasury bonds are currently yielding  $3.7\%$ . Thus, we can crudely calibrate via the growing perpetuity model:
 
-# Eq. 3
+## Eq. 3
 
 $$
 V = \frac {E}{[ r - g ]}
@@ -728,7 +728,7 @@ With Treasury bonds at  $3.7\%$ , the required return is  $9.3\%$  ( $3.7\% + 5.
 
 We have no chance of knowing the true value of the market risk premium since it is unobservable, but having a better understanding of what the market risk premium represents and the various complications arising in estimating it should not only improve our financial decisions, but also our decisions to invest in real assets.
 
-# THEORETICAL FOUNDATIONS OF THE COST OF CAPITAL
+## THEORETICAL FOUNDATIONS OF THE COST OF CAPITAL
 
 The next step is to modify the estimate of the market risk premium to compute the cost of capital for an actual project or a firm. Generically, the cost of capital is the required rate of return for an investment project of a given level of risk. Funds used for investment projects have an opportunity cost that depends on the riskiness of the particular investment. This section briefly discusses the theoretical foundations of the cost of capital which we will compute for firms and projects.
 
@@ -756,7 +756,7 @@ $$
 
 Thus, high beta stocks have high required returns and hence high cost of equity capital, and vice versa for low beta stocks. This, of course, does not mean that high volatility stocks, such as gold mining stocks, necessarily have high betas. While gold-mining stocks exhibit very high levels of volatility vis-à-vis the typical stock, they have low betas. For example, Newmont Mining has a beta of roughly 0.20 during the past ten years. That is to say that gold-mining stocks have high idiosyncratic risk, but they do not move proportionately with the overall market. It is for this reason that many investors consider gold-mining stocks as an instrument to reduce the overall systematic risk of their portfolio. Despite their high volatility, gold-mining projects have a low discount rate or hurdle rate when conducting project valuation which can be counterintuitive.
 
-# COMPUTING THE ASSET BETA
+## COMPUTING THE ASSET BETA
 
 Before the final computation of the cost of capital for a company or a project, it is necessary to adjust the equity betas to account for the capital structure of the firm or firms used to provide the equity beta estimates. The risk of common stocks, as proxied by the beta, reflects the business risk of the future cash flows and the assets held by the firm. To the extent that the firm issues debt to finance its investment opportunities, shareholders bear financial risk as well. The more a firm relies on debt financing, the riskier is its common stock. That is, borrowing creates financial leverage, and hence higher risk for the stockholders, who have claims on the cash flows of the firm junior to the demands of debtholders.
 
@@ -778,7 +778,7 @@ $$
 
 This process is known as unlevering the equity beta to compute the asset beta. That is, the relevant issue is calculating the systematic risk of the overall cash flows of the corporation, not just the systematic risk of the cash flows going to the stockholders.
 
-# THE UNLEVERED COST OF CAPITAL
+## THE UNLEVERED COST OF CAPITAL
 
 The cost of capital for a firm is given by:
 
@@ -790,7 +790,7 @@ $$
 
 This equation is the familiar CAPM formula, but here is employed to provide the expected return for the overall firm rather than merely for the equity of the firm as the asset or total firm beta is for the overall systematic risk of the firm. In computing the cost of capital for a particular project for a firm, Eq. 7 will work for a project with the same risk as that for the overall firm. But projects within firms have systematic risk which can be materially different from the average systematic risk of the firm. Moreover, there are many circumstances in which equity betas are not available for the firm undertaking the project. For situations such as those, management should use the asset beta from publicly-traded firms with comparable risk to the project.
 
-# ESTIMATING THE COST OF CAPITAL FOR NORTHROP GRUMMAN
+## ESTIMATING THE COST OF CAPITAL FOR NORTHROP GRUMMAN
 
 This section provides a brief discussion of calculating the cost of capital for Northrop Grumman, the global aerospace and defense technology firm. Note that the estimates are as of 2019. If you have access to Bloomberg, you can easily recalculate and see if the cost of capital estimates has changed.
 
@@ -844,7 +844,7 @@ $$
 
 Thus,  $6.93\%$  is the discount rate which Northrop Grumman would use for long-term projects with similar systematic risk to the overall risk of Northrop Grumman. It reflects the opportunity cost, that is, the expected return that an investor would expect to receive if investing in other companies or projects of similar risk. To restate, the discount rate estimate for Northrop Grumman reflects the time value of money, an overall market risk premium, and the sensitivity (beta) of the systematic project risk relative to the overall stock market.
 
-# PORTFOLIO DIVERSIFICATION
+## PORTFOLIO DIVERSIFICATION
 
 Investors are concerned with the tradeoff between the risk or variability of the returns on their portfolio and the average or expected return. The expected return on a portfolio of securities, stocks, for instance, is the weighted average of the individual expected returns on the individual securities, where the weights are the proportion of the portfolio value accounted for by each security.
 
@@ -872,7 +872,7 @@ $$
 
 Note that as the number of securities in the portfolio increases, the first term in the variance equation above goes to zero as  $n$  gets very large and the portfolio variance approaches the average covariance. That is, there are two types of risk from holding risky securities as discussed earlier, systematic or non-diversifiable risk and idiosyncratic or diversifiable risk. Systematic risk cannot be diversified away and arises from the fact that aggregate economic phenomenon similarly hit all stocks. On the other hand, a well-diversified portfolio largely purges the idiosyncratic risk. A diversified portfolio is simply a selection of securities that are not perfectly correlated, or that do not move in perfect unison with one another.
 
-# PORTFOLIO THEORY
+## PORTFOLIO THEORY
 
 Using the assumption that investors are only concerned about the tradeoff between risk and expected return, portfolio theory can be used to define optimal portfolios. The first step is to identify the investment opportunity set of risky assets. The opportunity set is the set of all available investment portfolios consisting entirely of risky assets. Markowitz developed the mathematics for optimally combining the securities in the investment opportunity set into efficient mean-variance portfolios, and thus identifies the efficient frontier. $^{12}$  The term efficient refers to the concept of maximizing the expected return for a given level of standard deviation, or minimizing the standard deviation for a given level of expected return. For any group of stocks or securities, one can create efficient portfolios via quadratic programming to solve for the minimum variance given any expected return. Figure A1 displays the mean-standard deviation frontier for a set of securities.
 
@@ -900,7 +900,7 @@ $$
 
 The Sharpe Ratio offers the highest risk premium per unit of risk, and the tangent portfolio maximizes the Sharpe Ratio. As noted earlier, the tangent portfolio is efficient as it lies on the efficient frontier, and when matched up with the risk-free security, it provides all combinations of the risk-free security and the tangency portfolio which are also efficient. Thus, as stated above, all investors will hold the market portfolio as it maximizes the Sharpe ratio, and based on their degree of risk aversion, will move up and down the line. Conservative risk-averse investors will hold a combination of the risk-free security and the market portfolio whereas less conservative investors may not only avoid allocating any of their portfolio to the risk-free security, instead may even borrow and lever up the market portfolio.
 
-# THE CAPITAL ASSET PRICING MODEL
+## THE CAPITAL ASSET PRICING MODEL
 
 Whereas Markowitz laid the foundation for asset pricing in his classic 1952 article entitled "Portfolio Selection," Bill Sharpe made an enormous contribution in 1964 with his extension of Markowitz's work by incorporating economics and building a model of market equilibrium which prices securities.[14] Sharpe made several simplifying assumptions in his model, later coined the Capital Asset Pricing Model (CAPM).[15]
 
@@ -959,9 +959,9 @@ Eq. A8 is the infamous CAPM equation. It states that the beta of a security is t
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-22/cbf82273-a15d-432e-9863-7f3c8eb46c63/3118b007ce61a464dda34141be5687dd02d18d4ba1eff33c73ddf417a02329ab.jpg)
 
-# Additional Considerations in Estimating the Cost of Capital
+## Additional Considerations in Estimating the Cost of Capital
 
-# Recapping the Cost of Capital
+## Recapping the Cost of Capital
 
 How should corporate management think about the cost of capital for a project or venture under consideration? How important is it to managerial decision making? How reliable is the cost of capital estimate? What impact has academia had on corporate management in calculating the cost of capital?
 
@@ -989,7 +989,7 @@ There are three primary components of the cost of capital estimate via the CAPM,
 
 A few additional considerations are in order with computing the cost of capital. First, how should we think about the risk-free rate for long-term projects versus short-term projects? Second, what about the weighted-average-cost of capital (WACC) and its use in practice? Third, is the CAPM the right model by which to calculate the cost of capital? Should we consider a multi-factor asset pricing model instead? We discuss these considerations below.
 
-# Risk-Free Rate for Long-Term Projects
+## Risk-Free Rate for Long-Term Projects
 
 As discussed in the Cost of Capital lecture note, the CAPM is a one-period model, and the risk-free rate is assumed to be a short-term Treasury security in a well-developed economy. But most corporate projects are long-term in nature. As a matter of practice, investment bankers, private equity analysts, CFOs, etc., use the long-term Treasury rate as the measure of the risk-free rate. And rather than calculating a market risk premium of stocks relative to Treasury bills, they calculate a market risk premium of stocks relative to Treasury bonds, as we did in the Northrop Grumman example in the Cost of Capital lecture note.
 
@@ -1011,7 +1011,7 @@ $$
 
 While Equation 3 is more theoretically correct per the CAPM, it also adds measurement error to the cost of capital estimate. That is, we now also have to estimate a bond risk premium which may or may not be equal to the historical return difference between bonds and bills. Just as we indicated that survivorship bias can partly explain the large excess historical returns of stocks over bills, the same is true of bonds over bills. In addition to adding measurement error, I have rarely seen this version of the cost of capital used in practice, and I would consider it to be more of an academic exercise, but still useful to at least understand. In the end, the cost of capital calculation yields roughly the same answer if using the short rate versus the long rate. The most important part is that the duration of the risk-free security should be the same for both places in Equations 1 and 3.
 
-# Weighted-Average Cost of Capital
+## Weighted-Average Cost of Capital
 
 The weighted-average cost of capital (WACC) computes the cost of capital for the overall corporation as a weighted average of the debt cost of capital and the equity cost of capital:
 
@@ -1025,7 +1025,7 @@ Many practitioners use the WACC as the cost of capital for projects of all types
 
 In the U.S., debt financing creates shareholder value since interest, while a return of capital to debtholders, is treated as an expense by the tax authorities. WACC reflects the after-tax cost of debt to account for the value creation resulting from the interest tax shields. And when using the WACC as the discount rate for a project under consideration by the firm, the resulting NPV reflects the tax benefits of debt financing. Importantly, the NPV can be positive solely due to the use of the lower discount rate, via the WACC, as opposed to a discount rate which doesn't incorporate the interest tax shields. In The Tradeoff Theory of Capital Structure lecture note, we introduce the concept of APV, short for Adjusted Net Present Value, where we separately calculate the NPV of any financing benefits (or costs) such as interest tax shields from that of the NPV associated with the project as if equity financed and without any market imperfections.
 
-# Failure of the CAPM
+## Failure of the CAPM
 
 The CAPM is a significant contribution to modern finance theory and has not merely had an enormous impact in academia but also a huge influence in practice. The power of the CAPM in practice is not just for security or portfolio performance but also for applications in corporate finance, such as estimating the cost of capital for a project or a corporation.
 
@@ -1125,11 +1125,11 @@ The Fama-French model, as well as other multi-factor asset-pricing models, is no
 
 To summarize, the Fama-French three-factor model has had an enormous impact in finance, not only in academia, but in practice as well. It has done a great job in pointing out that the CAPM is not as reliable an asset pricing model as once thought. Today, investment fund performance is generally measured relative to the multi-factor asset pricing model, if anything, to see what factors a fund's portfolio loads on. The concept of alpha, in a CAPM world, is no longer necessarily alpha in a multi-factor world. For corporate finance and calculating the cost of capital, the Fama-French model is a nice complement to the CAPM, but not an obvious or even suitable replacement. Indeed, at the project level, it is often confusing to think about how projects should load on SMB or HML. We can think of firms loading on these factors, but not projects so much. As a practitioner, I have rarely seen anyone use a multi-factor model to calculate the cost of capital, but I think it is helpful to do so as it helps to confirm or modify our CAPM estimates and reinforces our thought structure that it is systematic risk which matters to investors more so than idiosyncratic risk.
 
-# The Multiples Approach to Valuation
+## The Multiples Approach to Valuation
 
 Investment bankers have a strong preference in using multiples from comparable corporations, EBITDA multiples for example, to value corporations and other assets. Private equity firms often tout multiples expansion in terms of creating value with their portfolio companies. Indeed, multiple expansion is often viewed as arbitrage, that is, taking a corporation private at a low multiple and subsequently taking the corporation back public again a few years later at a higher multiple. This note provides a brief introduction to using multiples as a valuation tool. While corporate finance textbooks devote minimal discussion to multiples analysis, it is important to understand why practitioners have adopted multiples valuation as a primary valuation tool and how it relates to the basic DCF framework. First, this note revisits the perpetuity formula in terms of calculating terminal values for a project or corporation and then transitions to the concept of multiples valuation.
 
-# Terminal Value in the Context of a Corporation
+## Terminal Value in the Context of a Corporation
 
 The lecture note, *Using NPV to Make Investment Decisions*, contains a valuation example of a travel machine as discussed in Amazon's 2004 shareholder letter. For that example, we forecast cash flows over a seven-year period and assume the project terminates at the end of the seventh year. Alternatively, we could assume Amazon continues to invest in travel machines and generate cash flows beyond the seventh year, and thus calculate the value of the project beyond the seven-year forecast period. We often think of corporations as having perpetual lives as they don't have maturity dates like many projects for example. Here, the analyst can calculate year-to-year discounted cash flows when the firm is experiencing high or volatile growth, until the growth rate hits steady state. Afterwards, the analyst calculates the terminal value as of the end of the forecast period and then discounts back to the present date. This terminal value can take the form of a perpetuity valuation or of a multiples valuation, and this note describes both in turn.
 
@@ -1161,7 +1161,7 @@ Year 9 is the first year of cash flows for the terminal value calculation. There
 
 A caveat to keep in mind regarding the seemingly precise valuation of \$3.199 billion. This estimate is based on all the various assumptions as given, including that the cash flows are expected to continue forever. In a statistical sense, that is, if we account for the variability associated with the assumptions, the \$3.199 billion is likely not significantly different from \$3.0 billion, or perhaps even \$2.5 billion. In fact, suppose for instance that we believe the perpetual growth rate is 6\% instead of 3\%. The resulting valuation as of today would be \$4.566 billion, over 40\% greater than the \$3.199 billion valuation. While any DCF analysis is highly dependent on the assumptions, the perpetuity formula is particularly sensitive to differences in discount rates and growth rates, given the formula assumes cash flows grow forever. An attribute of using multiples to value a corporation is that we don't have to rely on estimating the various inputs such as discount rates and growth rates, rather they are already incorporated in the valuation of the comparable firm by the market as we discuss below.
 
-# Using Multiples from Comparable Firms to Value Projects and Firms
+## Using Multiples from Comparable Firms to Value Projects and Firms
 
 The use of multiples in comparable transactions is how many, likely most, of us conduct valuations with respect to our personal and business transactions. For example, when we purchase a house, we search for prices of comparable houses to assess the value. Obviously, for valuation purposes the critical issue is finding a comparable house since it is generally unlikely there is an identical house with a recent transacted price. Realtors tend to quote in terms of square foot per house, and then adjust for differences in location, age of house, upgrades, etc. to derive a suitable comparable transaction price. Alternatively, we can compute a DCF analysis of purchasing a house, but this analysis entails making numerous assumptions about all the various costs and benefits associated with owning a house and the expected price at which we could sell the house at some future date. But then how do we come up with a reasonable estimate of selling the house in several years down the road? Moreover, given the expected long life of houses and the perpetual life of the underlying land, small mistakes in the discount rate and growth rate can lead to erroneous valuations.
 
@@ -1191,7 +1191,7 @@ As described, there is a direct connection in valuing a corporation using DCF an
 
 While conceptually the cash-flow multiple from a comparable firm should mimic traditional DCF valuation, a shortcoming in actual practice is that cash flows can be very lumpy and vary considerably year-to-year across firms. Recall the previously mentioned analysis of the travel machine project as described in Amazon's 2004 letter to shareholders. The analysis computes the net income for the Amazon travel machine project and then converts the net income to cash flows as follows:
 
-# After-tax Profits
+## After-tax Profits
 
 + Depreciation
 CAPX
@@ -1212,7 +1212,7 @@ $$
 
 Our working assumption is that the Cash Flow Conversion, which represents an adjustment for depreciation, taxes, CAPX, and changes in NWC, is largely the same for the target firm as it is for the comparable firm(s). And to the extent that the ratio is not roughly the same, one can adjust EBITDA to reflect these differences. Private equity firms tend to employ EBITDA multiples in part because they focus on mature firms which don't tend to exhibit unusually high growth. But if looking at a target with super-high growth, the EBITDA might be negative just like the cash flow. In this instance, one might even employ a revenue multiple or instead forecast cash flows for a very long period until the cash flows are expected to stabilize.
 
-# Multiple Expansion (Arbitrage or Not?)
+## Multiple Expansion (Arbitrage or Not?)
 
 The beginning of this lecture note made a reference to multiples expansion. Suppose a private equity firm takes a target firm private at an EBITDA multiple of 8.4 and a few years later returns to the public market via an IPO at an EBITDA multiple of 10.7. I expect the private equity firm will make numerous references to the 2.3 increase in the EBITDA multiple as multiples expansion, and perhaps even refer to it as multiples arbitrage.
 
@@ -1220,9 +1220,9 @@ There are various ways in which multiples expansion can occur. We know that base
 
 I have found over the years that board directors and CEOs like high multiple businesses. At least they often speak affectively of morphing into a business model with a higher multiple than with their current company. For example, consider a software consulting firm which provides customized solutions. This firm will have a lower multiple than a SaaS subscription model which is highly scalable and has recurring revenue. Certainly, SaaS subscription firms are the rage these days with relatively high valuations. But the transition is costly and not necessarily shareholder wealth maximizing for all firms. Once a firm makes the transition to a SaaS subscription model, it will tend to enjoy a higher multiple after the fact. However, the cost of the transition and a reduction in near-term earnings during the transition period may possibly reduce shareholder wealth. Stated differently, it is optimal for some firms to operate low-multiple businesses and other firms to operate high-multiple businesses.
 
-# Real Options Analysis
+## Real Options Analysis
 
-# PREVIEW
+## PREVIEW
 
 The DCF concept of converting cash flows over several periods into a value as of a specific date is a powerful concept in finance. The resulting NPV generates a value that management can use to decide whether to invest or reject the investment project under consideration and maximize shareholder wealth.
 
@@ -1284,7 +1284,7 @@ The decision tree illustrates the optionality associated with the Bang-Bang proj
 
 Decision tree analysis is merely an extension of NPV rather than an alternative to NPV. Basic NPV doesn't allow for contingent decisions throughout a project by management, and thus decision tree analysis delivers considerable value to the NPV framework by incorporating the concept of subsequent decisions and the resulting optionality. However, decision tree analysis has its share of drawbacks. First, it is not easy to estimate the probabilities associated with the various states of the world. Second, the risk is changing as the project moves through the tree. In our illustration, we assume risk and expected cash flows in the respective states of the world do not change, but these are overly simplistic and lousy assumptions, at least when it comes to real options in the real world. Now, we turn to the basics of option pricing to gain insight into how we can value real options, just like the option to delay the Bang-Bang projects, similar to the valuation of financial options which many of us are familiar.
 
-# BASIC OPTION TERMINOLOGY
+## BASIC OPTION TERMINOLOGY
 
 Before delving into real options, it is crucial to understand basic option terminology, payoff diagrams, standard option valuation models, etc. The subsequent sections provide the basic framework necessary to understand financial options, mainly what is most relevant for corporate finance, and is a cursory review of what you learned in Investments.
 
@@ -1355,7 +1355,7 @@ Figure 6
 
 The purpose of illustrating the above is to point out that if an investment strategy looks like an option, then it should be modeled and valued as an option. The same is true for real options as discussed at the end of this lecture note.
 
-# FACTORS DRIVING OPTION VALUES
+## FACTORS DRIVING OPTION VALUES
 
 The value of an option is driven by six primary factors:
 
@@ -1371,19 +1371,19 @@ Increases in the strike price result in lower (higher) call (put) option values.
 
 Longer-dated options, both calls and puts, have higher values than short-dated options, everything else constant. eBay's stock price is currently \$45.98. A put option with a strike price of \$42.50 and expiring in one day is worth about 1 cent. But if the put option has two years of remaining life, the value is about 6.20, thus 620 times higher.
 
-# (4) volatility of underlying asset
+## (4) volatility of underlying asset
 
 If volatility increases unexpectedly, the probability of the asset performing either extremely well or extremely poorly increases and thus leads to higher values for both calls and puts. For example, if Kinder Morgan, a pipeline transportation and energy storage firm with long-term fixed contracts, were to expand into exploration and production, its volatility would likely increase, resulting in higher value for both call and put options.
 
-# (5) risk-free interest rate
+## (5) risk-free interest rate
 
 Since the exercise price is not paid until a future date, increases in the interest rate will increase the value of call options and decrease the value of put options, everything else held constant.
 
-# (6) expected dividends
+## (6) expected dividends
 
 As discussed in the Dividend Policy lecture note, dividends reduce the stock price on the ex-dividend date. Thus, dividends paid prior to the exercise date have the effect of reducing the price of call options and increasing the price of put options. Note that dividends can lead to early exercise of call options depending on the size of the dividend.
 
-# THE BINOMINAL OPTION PRICING MODEL
+## THE BINOMINAL OPTION PRICING MODEL
 
 When one thinks of option pricing models, what first comes to mind is the famous Black-Scholes model published in 1973. Fischer Black began attempting to price options in 1968, started collaborating with Myron Scholes in 1969, and circulated the first version of their paper in 1970. As with many innovative articles, Black and Scholes had great difficulty in publishing their option pricing model. Three academic journals rejected their article before it was finally accepted by the Journal of Political Economy based on the strong recommendations of Eugene Fama and Merton Miller. In the same year, Robert Merton published his option pricing model independent of Black-Scholes, and often their joint model is referred to as Black-Scholes-Merton. We discuss their model in the next section. While the Black-Scholes-Merton model is mathematically complicated, a far easier way to price options was developed a few years after, namely the binomial option pricing model which converges to the Black-Scholes-Merton model with enough timesteps.
 
@@ -1484,7 +1484,7 @@ Since the value of the replicating portfolio is  $\$ 9.25$  as in Eq. 16 above, 
 
 The above stylized example can easily be generalized to apply to any option. As before, assume there is only one period which has a beginning and end of the period and can be represented below.
 
-# Current End of Period
+## Current End of Period
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-22/cbf82273-a15d-432e-9863-7f3c8eb46c63/faff392ae7d04a4bf0e6af8cb789541e36c6319e4d695cfdef65ee60c53249f0.jpg)
 
@@ -1591,7 +1591,7 @@ Thus, the initial value of the call option is \$5.07 given the exercise price of
 
 The purpose of showing the two-period example is to illustrate that the math employed is identical to that of the one-period example, just employed more times. And to make the binomial model realistic, we increase the number of periods and thus let the time between each period be very close, for example, each period could be one nanosecond. As the number of periods near infinity, the binomial option model approaches the Black-Scholes-Merton model which we consider next.
 
-# THE BLACK-SCHOLES-MERTON OPTION PRICING MODEL
+## THE BLACK-SCHOLES-MERTON OPTION PRICING MODEL
 
 A bit of history is important to understand the timing of the incredible breakthrough by Black-Scholes-Merton in developing the option pricing model. $^{13}$  Fischer Black began work as a consultant at Arthur D. Little, Inc. in Boston and was influenced by another consultant, Jack Treynor, who is known as one of the developers of the CAPM. $^{14}$  They both worked in the Operations Research group. Though trained as a mathematician, Black had a strong interest in finance and economics and began to study the CAPM and other financial models. He attempted to use the CAPM to price securities other than stocks and began to focus on the valuation of warrants in 1968. Black recognized fairly quickly that one couldn't use the CAPM to price warrants as the discount rate changes dynamically due to the non-stop change in the riskiness of warrants as stock prices changes and as time passes by. Thus, Black took the novel step of attempting to price a warrant where its price depended on the underlying stock price and a host of other factors. He used the CAPM to account for every moment in the warrant's life, reflecting every possible stock price, etc. The result was a differential equation with just one solution. However, Black was unable to solve the equation to obtain the solution and quit working on it, but he did recognize, and importantly, that the warrant value did not depend on the expected return of the stock, instead it depended on the total risk, i.e., volatility of the underlying stock.
 
@@ -1626,7 +1626,7 @@ $$
 
 The important takeaways from the Black-Scholes equations are that the value of a call option increases with the stock price and decreases with the exercise price as expected. And it increases with the time to maturity and the assumed volatility. As indicated earlier, the binomial model has discrete time steps but as each period becomes shorter and shorter, the time steps approach continuous time and the distribution approximates the well-known normal distribution. The value drivers are the same for Black-Scholes as for the binomial model and the vastly important principle of replicating portfolios applies to both in the same way, that is, the replicating portfolio is created by buying a certain number of shares using borrowed funds, that is, it is self-financing.
 
-# REAL OPTIONS
+## REAL OPTIONS
 
 Many projects and real investments have options embedded in them and thus traditional discounted cash flow analysis will underestimate the value of the project. Examples of these real options include the following:
 
@@ -1648,15 +1648,15 @@ It is relatively straightforward to identify when a project has an embedded real
 
 (3) There has to be some exclusivity on the option; otherwise, it is simply an opportunity and doesn't have real economic value.
 
-# ILLUSTRATIONS OF REAL OPTIONS
+## ILLUSTRATIONS OF REAL OPTIONS
 
 Below, we provide two illustrations of real options. The first illustration involves ScrollMotion, a digital marketing services firm which assists corporations in developing interactive sales presentations.
 
 ScrollMotion is contemplating a major shift in strategy where it will transition from a services-based operating model to a subscriber-based platform which allows the end-user to develop the interactive sales presentations internally. The issue is whether ScrollMotion should move forward on the major strategy shift even though the NPV appears to be negative. Does moving forward on the -NPV project allow ScrollMotion to subsequently expand and create shareholder wealth? The second illustration is about FreshDirect, an online food grocer which has recently built a new operating plant. In this illustration, the focus is on the abandonment value of the new plant in the state of the world where it performs well below expectations.
 
-# Strategy Shift at ScrollMotion
+## Strategy Shift at ScrollMotion
 
-# Background
+## Background
 
 ScrollMotion was launched in 2008 to assist major corporations, especially in publishing, to take their print content to the interactive touch format on tablets, etc. Over the next few years, ScrollMotion consulted for numerous large corporations in their transition to using mobile devices in their outreach to customers. While ScrollMotion was able to assist corporations in creating interactive presentations with the client needing an internal designer or developer, the process was extremely time consuming and often required large teams of developers at ScrollMotion. In addition, the marketing and sales outreach was also an arduous task as it was difficult to convince the client that it was worthwhile to make the switch given the lengthy process involved.
 
@@ -1678,7 +1678,7 @@ The valuation metrics for Ingage and Ingage Plus are displayed below.
 
 Based on the above NPV estimates, ScrollMotion will reject both projects. But, in the course of developing Ingage and assessing the customer response thereof, management will amass valuable information which will likely influence its decision to go forward or not with Ingage Plus. By considering only the expected cash flows and then discounting back to the current, management should pass on Ingage and by definition, on Ingage Plus as well, since to invest in Ingage Plus, Scrollmotion must first develop Ingage. While Ingage Plus looks like a bad investment today, this does not have to be the case if we are able to value the real option of Ingage Plus by investing in Ingage today.
 
-# Real Option Analysis of Ingage Plus
+## Real Option Analysis of Ingage Plus
 
 To examine the real option value of Ingage Plus to ScrollMotion, we can create a framework just like that of analyzing financial options as described earlier. First, it is important that the project looks like a financial option, that is, there must be a non-linear contingent payoff. In the case of Ingage Plus, the cash flow estimates as provided above assume that Ingage has been completely developed. Put differently, one could immediately develop Ingage Plus without developing Ingage first, but the cost would be substantially higher and thus the NPV even more negative. Thus, as set up, the Ingage Plus cash flows are contingent on the prior development of Ingage.
 
@@ -1708,15 +1708,15 @@ As shown above, the extremely high level of uncertainty about Ingage Plus genera
 
 I wrote the above synopsis for the Spring Quarter 2019 class in Corporate Finance. As expected Ingage was horribly -NPV, far worse than expected. On the positive side, it did generate massive tax-loss carryforwards due to a recapitalization which wiped out all the junior security holders!! The investors moved forward on Ingage Plus. By March 2020, Ingage Plus was also heading into the bad state of the world despite having built incredible software which sales managers loved. The sales team was experiencing traction at various conferences, but the growth was slower than expected. And with COVID-19, the concern was that in light of the shutdown of the physical conferences, Ingage Plus had no chance to grow and reduce its massive cash burn. But given that the sales personnel of its potential customers were also unable to travel, this actually created an extraordinary demand for the product and as of early 2023, ScrollMotion is on its way to profitability despite numerous setbacks. Had COVID-19 not occurred, it is likely that investor fatigue would have forced a sale at a price way below the expected valuation.
 
-# Plant Expansion at FreshDirect
+## Plant Expansion at FreshDirect
 
-# Background
+## Background
 
 FreshDirect, an online grocer founded in 1999 in New York City, was profitable during 2011 to 2017. It is the largest online grocer in New York City with more than  $50\%$  of the market share. With expected revenue of about  $\$ 800$  million in 2018, FreshDirect had grown beyond its capacity in the Long Island City plant just across the East River from Manhattan. In July 2018, FreshDirect opened a 650,000 square foot facility in the South Bronx which allows it to double the overall size of the business. The new stateofthe art facility has it all with robotic pick towers, smart routing technologies and nine miles of conveyor belts.
 
 Assume that when the new Bronx plant goes into production, the incremental value to FreshDirect is \$100 million. Beyond the typical systematic risk of operating an online grocery, there is the idiosyncratic risk that the plant may not live up to expectations. To simplify, assume that the plant will either work as intended or it will be an absolute failure. If the new plant works as intended, the value at the end of the year will be \$125 million, that is, the incremental value of the Bronx plant versus the old facility in Long Island City. But there is a low likelihood that the design and configuration of the new plant will render it to have only \$20 million incremental value relative to the old facility, even after reconfigurations to improve the overall facility. In case the new Bronx plant is a complete failure, FreshDirect will have the option to sell it at the end of the year for \$50 million (the 50 million is net of the cost of reopening the old facility in Long Island City) to a beer distributor.
 
-# Analysis
+## Analysis
 
 The ability of FreshDirect to sell the new plant at the end of the year for 50 million in case it doesn't work as intended can be modelled as a real option. That is, the right for FreshDirect to sell the plant has real value which we can refer to as abandonment value or disposal value. In financial derivative terms, it can be likened to a put option.
 
@@ -1778,11 +1778,11 @@ Investors must be compensated to bear risk, specifically systematic risk as one 
 
 Based on recent surveys, roughly  $30\%$  of large corporations state they employ real options in their valuation of projects. These users tend to be industry specific, for example, drug companies looking to invest in R&D and oil companies deciding when to drill. Moreover, they may largely use the framework to help them in recognizing the option, etc., without drilling too deep into the black box as the assumptions can become overwhelming. Rather, when it comes to real options, the first order effect is to recognize the real option and be able to understand the factors which influence the option value. But knowing the
 
-# REAL OPTIONS AND FIRM VALUATIONS
+## REAL OPTIONS AND FIRM VALUATIONS
 
 This lecture note has focused on how optionality increases the value of a project. The optionality is multifaceted, as it can be to expand, delay, terminate or otherwise alter the project. This section provides a brief overview of how to think about real options in the context of the overall valuation of corporations.
 
-# VALUE and GROWTH
+## VALUE and GROWTH
 
 This overview examines two fictional firms, VALUE and GROWTH, to illustrate the concept of real options in the context of a firm's value. From an asset pricing or investments perspective, value stocks are viewed as stocks which tend to trade at low prices relative to fundamentals such as dividends, cash flow, or earnings. Growth stocks are stocks which have high earnings potential. Some commentators claim that value stocks tend to be cheap and growth stocks the opposite. Below, we frame VALUE and GROWTH firms from a corporate finance perspective and afterwards connect to their meaning with respect to asset pricing or investments.
 
@@ -1810,7 +1810,7 @@ GROWTH: Market-Value Balance Sheet
 
 As mentioned above with respect to VALUE, we have not provided sufficient information to assess whether management created shareholder value regarding the assets-in-place. The focus is to understand the logic behind the \$750 million estimate of growth options, commonly referred to as PVGO. The \$750 million of PVGO reflects investors' expectations today of NPVs associated with GROWTH future projects. Put differently, investors expect that GROWTH management will undertake new projects which generate a return in excess of the respective cost of capital of such projects. Importantly, the estimate simply captures the NPV part of the expected future projects, not the total expected value. For example, suppose investors expect GROWTH to invest in numerous future projects, but these projects will generate zero NPV in aggregate, that is, the return will simply equal the cost of capital. In this case, the value of PVGO is zero and GROWTH has the same value as VALUE.
 
-# Adobe Inc. versus Kroger
+## Adobe Inc. versus Kroger
 
 Adobe Inc. (previously known as Adobe Systems) is a large computer software firm which has been widely known for Photoshop (introduced in 1989) and PDF (introduced in 1993). We can think of Photoshop, PDF, and other well-known products such as Adobe Reader and Adobe Creative Suite, as representation of Adobe's assets-in-place. In 2018, Adobe generated roughly \$3 billion in cash flow. Think of these cash flows as generated by Adobe's current assets-in-place. Using a cost of capital of  $10.8\%$  and assuming perpetual cash flows with zero growth, the value of Adobe's assets-in-place is:
 
@@ -1848,11 +1848,11 @@ And if we assumed a positive growth rate, the estimated value of Kroger's assets
 
 Notwithstanding any adjustments, large or small, to the various assumptions, it is clear that Adobe derives the majority of its market value from the expected NPV of future real options, whereas Kroger derives its value from existing assets-in-place. From an investments framework, an analyst may view Adobe as a rich security since it has an Enterprise Value / Cash Flow multiple of 40.0 versus a multiple of less than 10.0 with respect to Kroger. Indeed, cash flow multiples are one of the benchmarks used to distinguish value stocks from growth stocks. But from our corporate finance perspective, we are not making a judgement call on cheapness or richness, rather that Kroger's value simply derives from its assets-in-place and Adobe's value derives from expected profits of new ventures.
 
-# Introduction to Capital Structure: M&M Propositions
+## Introduction to Capital Structure: M&M Propositions
 
 "My equity investors expect me to generate returns in the high teens and are very demanding especially during quarterly calls. But I can go out and raise debt and pay only a  $5.5\%$  coupon. Thus, debt financing is far cheaper than equity."
 
-# INTRODUCTION
+## INTRODUCTION
 
 Analysts value firms by largely focusing on the assets and projects on the left-hand side of the balance sheet. The value of a project is the sum of the project's expected future cash flows discounted at the project's cost of capital. For a firm with multiple projects, the overall firm value is equal to the sum of the value of all projects, other assets including excess cash, plus growth options not associated with the projects.
 
@@ -1862,7 +1862,7 @@ The bifurcation of cash flows into straight debt and equity is obviously simplis
 
 Can management take advantage of financing opportunities and realize +NPV on the right-hand side of the balance sheet just like with real assets on the left-hand side of the balance sheet? Suppose the cost of long-term debt financing at Procter & Gamble is  $4.2\%$  and the cost of equity financing is  $8.4\%$ . Is it possible for Procter & Gamble to lower its overall cost of capital, thereby increase firm value, by increasing its level of debt financing and simultaneously decreasing its equity financing? Or instead can Procter & Gamble create value by reducing the relative amount of debt financing since debt requires fixed and periodic payments to the debtholders whereas dividend payments to shareholders are not mandatory? Framed more generally, what is the mix of debt and equity that produces the highest firm value? There are two primary questions. First, as framed by the question above, can management alter the firm's cost of capital by merely rearranging the mix of debt and equity? Second, what mix of debt and equity generates high operating efficiencies, low bankruptcy costs, minimal managerial malfeasance, etc.? That is, is there a debt/equity ratio that is optimal for creating value on the left-hand side of the balance?
 
-# MODIGLIANI & MILLER
+## MODIGLIANI & MILLER
 
 Consider the above mentioned Procter & Gamble, a multinational manufacturer and marketer of consumer products. Procter & Gamble has an equity market capitalization of  \$360 billion as of January 2023 and a book value of debt of\$ 33 billion. The annual EBITDA for Procter & Gamble is roughly 21.1 billion, and it incurs interest expense of around 450 million. Due to the low leverage and high-interest coverage, Procter & Gamble has an investment grade credit rating of AAand minimal chance of bankruptcy. Prior to the era of modern corporate finance theory, the prevailing wisdom was that since the likelihood of default was so low Procter & Gamble could simply tweak its capital structure just a bit by raising "cheap debt" (4.2\%) and repurchasing "expensive equity" (8.4\% required return), and create instant value as this slight adjustment would not impact the probability of financial distress. While this is not the prevailing wisdom today, at least in academic circles, it is still widely held by many practitioners and especially by corporate management.
 
@@ -1872,7 +1872,7 @@ Modigliani and Miller assume perfect capital markets, that is, a world absent of
 
 Rather than operate in an academic vacuum, Modigliani and Miller recognize the importance of carefully identifying the assumptions, as they allow us to consider the optimal debt/equity ratio in an environment free of market imperfections. Once we understand the capital structure implications in the world without frictions, we can relax the restrictive assumptions and assess their impact on real-world capital structure and resulting firm value.
 
-# PROPOSITION I
+## PROPOSITION I
 
 Consider two firms which are identical with one exception, namely, their capital structures are different. One firm, ALLEQUITY, has zero debt. The other firm, LEVER, has a capital structure composed of debt and equity. Imagine these two firms produce the same product, employ the same quality of workers, utilize the same technology, and so forth. ALLEQUITY generates expected annual profits of  \$50 million with a 10\% cost of capital. It has just paid a dividend of\$ 50 million reflecting the previous year's profits. All of ALLEQUITY's assets in place are required to generate the expected annual profits of 50 million which are expected to remain constant forever. The value of ALLEQUITY can be represented as follows:
 
@@ -1916,7 +1916,7 @@ Eq. 2a  $V_{\text{LEVER}} = \$ 500 \, \text{million} = \ $250 \, \text{million} 
 
 This proof is the foundation for Proposition I. Note that their proof was a formal mathematical proof as opposed to the numerical example as provided here.
 
-# Proposition 1:
+## Proposition 1:
 
 "…the market value of any firm is independent of its capital structure and is given by capitalizing its expected return at the rate appropriate to its class….the average cost of capital to any firm is completely independent of its capital structure and is equal to the capitalization rate of a pure equity stream of its class."
 
@@ -1956,7 +1956,7 @@ In proving that capital structure does not matter in perfect capital markets, Mo
 
 Proposition II directly follows from Proposition I. As stated by Modigliani and Miller,
 
-# Proposition II:
+## Proposition II:
 
 "From Proposition I, we can derive the following proposition concerning the rate of return on common stock in companies whose capital structure includes some debt: the expected rate of return or yield,  $i$ , on the stock of any company  $j$  belonging to the  $k$ th class is a linear function of leverage as follows:
 
@@ -2031,19 +2031,19 @@ D
 For purposes of illustration only, assume here that debt becomes risky once the proportion of debt in the capital structure exceeds  $60\%$ . Thus, as shown in Figure 2, the expected return on debt is constant and risk-free when the proportion of debt in the firm is  $60\%$  or less, and the expected return on equity increases linearly with increasing leverage. But when the proportion of debt exceeds  $60\%$ , the required return on debt increases because the debtholders are not expected to be paid in full if a corporate default occurs. The expected return on equity continues to increase as its risk continues to increase with leverage rising because if default occurs, the creditors receive payment before the shareholders receive their claims. But note that as the expected return on debt increases due to being subject to the overall business risk of the firm, the equity risk begins to increase at a decreasing rate. Importantly, while both the expected return on debt and equity are increasing, the overall cost of capital remains fixed due to the relative proportion of the debt increasing and the relative proportion of the equity decreasing. At the limit, that is where the firm is  $100\%$  debt, as in the case of a failure and the debtholders receive all of the future cash flows, the expected return on debt becomes the overall cost of capital. Indeed the firm reverts to an all-equity capital structure. That is, bankruptcy occurs, but the formality of bankruptcy itself is not costly as all that happens is that the equityholders turn over the keys to the debtholders.
 
 
-# Recap of Propositions I and II
+## Recap of Propositions I and II
 
 Like many excellent academic papers, the work of Modigliani and Miller was not instantly embraced, instead met with a lot of criticism, and if not criticism, then considerable skepticism. The critics challenged the assumptions for being unrealistic and for the concept that arbitrage could work with risky assets. At the time, interest rates were low and expected returns on equity were thought to be high such that there was a double-digit spread between expected equity returns and debt returns. The prevailing wisdom was that a firm with no or minimal debt could increase leverage a bit could automatically create value due to the expected return on equity not increasing as much as predicted by Modigliani and Miller. Moreover, this belief was not simply based on the ability to deduct interest expenses with respect to taxes. Instead, it was a view that management could somewhat create value on the right-hand side of the balance sheet via financial engineering. That is, it was based on the understanding that a firm like Procter & Gamble with a strong Investment Grade bond rating and a low level of leverage can create shareholder value via a slight amount of additional leverage. But this understanding missed the point of Proposition II, that is, increases in leverage, however slight, result in high costs of equity capital.
 
 Ex post, the paper ended up resulting in not one, but two separate Nobel Prizes, Modigliani in 1985 and Miller in 1990, as the paper created what today is known as modern corporate finance theory. The subsequent academic work has used Modigliani and Miller as the foundation of corporate finance and has focused empirically and theoretically on how capital structure impacted cash flows and investors' expectations of cash flows based on the relaxation of the various assumptions underlying the theory.
 
-# The Trade-Off Theory of Capital Structure
+## The Trade-Off Theory of Capital Structure
 
-# RECAP OF MODIGLIANI & MILLER
+## RECAP OF MODIGLIANI & MILLER
 
 Modigliani and Miller laid the groundwork for modern corporate finance theory in their capital structure propositions. They issued a steep challenge to the way that academics and practitioners thought about corporate finance and faced enormous skepticism and rebuttal initially, but soon their invariance proposition became the cornerstone of corporate finance and set the stage for all future work. Modigliani and Miller debunked the prevailing notion that firms could arbitrage the spread between the cost of equity and the cost of debt by showing investors can accomplish the same outcome, thereby eliminating such arbitrage by corporations. Importantly, Modigliani and Miller did not operate in a vacuum; rather they were quite mindful of the restrictive assumptions they incorporated in deriving their propositions. The objective of the next few lecture notes is to isolate each of these assumptions and demonstrate how these assumptions substantively impact capital structure through time and across corporations.
 
-# DEBT AND TAXES
+## DEBT AND TAXES
 
 The tax code of the United States imposes double taxation on corporations with one tax at the corporate level via the corporate income tax and a separate tax at the shareholder level via taxes on capital gains and dividends. Until the recent tax law of 2017 which decreased the federal corporate tax rate from  $35\%$  to  $21\%$ , the combined tax rate (federal and average state tax rate on corporations, and federal and average state tax rate on individuals) was  $56.6\%$  in the United States, second highest in developed economies.[2] With the recent tax law change, the combined tax rate has declined to  $42.6\%$ .
 
@@ -2083,7 +2083,7 @@ $$
 
 In the lecture note, Introduction to Capital Structure, ALLEQUITY and LEVER have identical firm values in perfect capital markets. That is, the equity value and firm value of LEVER are  \$700 million and\$ 1 billion, respectively, in perfect capital markets. However, the presence of corporate taxes will result in higher cash flows to the combined debtholders and equity holders for a firm with debt relative to a comparable all-equity firm as shown in Table 1.
 
-# Table 1
+## Table 1
 
 <table><tr><td></td><td>ALLEQUITY</td><td>LEVER</td></tr><tr><td>Earnings Before Interest and Taxes</td><td>100.0</td><td>100.0</td></tr><tr><td>Interest Expense</td><td>0.0</td><td>18.0</td></tr><tr><td>Pretax Income</td><td>100.0</td><td>82.0</td></tr><tr><td>Corporate Taxes</td><td>25.0</td><td>20.5</td></tr><tr><td>Net Income to Shareholders</td><td>75.0</td><td>61.5</td></tr><tr><td>Total Income to All Investors</td><td>75.0</td><td>79.5</td></tr><tr><td>Interest Expense Tax Shield</td><td></td><td>4.5</td></tr></table>
 
@@ -2150,7 +2150,7 @@ In the third stage of the recapitalization, ALLEQUITY issues the new debt of \$3
 
 LEVER repurchases  \$300 million of stock in the fourth and final stage of the recapitalization. Specifically, LEVER repurchases 18.1 million shares at\$ 16.54 which reflects the entire present value of the interest tax shields.
 
-# THE IMPACT OF PERSONAL TAXES ON THE INTEREST TAX SHIELD
+## THE IMPACT OF PERSONAL TAXES ON THE INTEREST TAX SHIELD
 
 At first glance, the tax status of a firm's investor base does not appear to be of first-order importance to corporate management of publicly-traded corporations. $^{8}$  Conceptually, however, management should attempt to minimize the value of all taxes, corporate and personal, paid by its investors. $^{9}$  The issue is that interest income is taxed at a higher personal tax rate than dividends or capital gains, that is, for taxable investors. Moreover, capital gains are taxed only when realized, that is, capital gains are not taxed marked-to-market on an annual basis. Since the personal income tax on interest is considerably higher, at  $40.8\%$ , than the  $23.8\%$  tax rate on dividends and capital gains $^{10}$ , this suggests that the tax benefit of debt financing is less than otherwise believed.
 
@@ -2166,7 +2166,7 @@ $$
 
 In Eq. 5,  $T_{i}$  represents the tax rate on interest income,  $T_{e}$  represents the tax rate on equity income (capital gains and dividends) and  $T_{c}$  represents the corporate tax rate. Given the tax rates provided above, it seems there still is an advantage to debt financing for taxable investors, albeit it is lower perhaps than previously assumed. However, it is extremely difficult to know the exact tax advantage of debt financing for taxable investors because it requires knowledge of the marginal investor's tax rate, whether debt investors with personal tax rates have other clientele reasons to prefer debt financing, and several other considerations.
 
-# THE WEIGHTED AFTER COST OF CAPITAL (WITH TAXES)
+## THE WEIGHTED AFTER COST OF CAPITAL (WITH TAXES)
 
 In a Modigliani and Miller world, a firm's overall value is invariant to changes in leverage, assuming no taxes, transactions costs, agency costs, etc. Leverage has no impact on the operating cash flows, and the firm's cost of capital, or weighted average cost of capital (WACC), is also invariant to changes to leverage.
 
@@ -2310,7 +2310,7 @@ $$
 
 Thus, by these rough calculations, the PVFD at Xerox is 256 million and is 2.6\% of its total enterprise value of \$ 9.8 billion. The message is that even for a well- known firm like Xerox, the cost of the expected likelihood of future financial distress is factored in the valuation of the underlying firm and should be weighed against the tax benefits of debt financing.
 
-# THE TRADE-OFF THEORY OF CAPITAL STRUCTURE
+## THE TRADE-OFF THEORY OF CAPITAL STRUCTURE
 
 The trade-off theory of capital structure weighs the benefits of debt financing in shielding cash flows from taxes against the cost of direct and indirect financial distress. Using the Adjusted Present Value approach to estimating a firm's value:
 
@@ -2326,9 +2326,9 @@ The trade-off theory of capital structure indicates there is an optimal leverage
 
 The trade-off theory cleanly builds on the Modigliani and Miller theory of capital structure and advances our fundamental understanding. While the trade-off theory can explain many differences in capital structure across certain industries, it is unable to explain why there are many large successful firms which have a small amount of debt relative to the market capitalization of the firm's equity. Microsoft, for example, has an equity market capitalization of  \$1.8 trillion versus\$ 80 billion of debt. Indeed, Microsoft has negative net debt since it has cash and equivalents of \$110 billion. With forecasted EBITDA in excess of \$100 billion, Microsoft could easily handle a considerable more substantial debt burden and still maintain investment grade debt (currently AAA debt). Nonetheless, there are numerous large profitable and financial stable firms carrying large amounts of "excess cash."
 
-# Agency Costs and Capital Structure
+## Agency Costs and Capital Structure
 
-# REVIEW OF TRADEOFF THEORY OF CAPITAL STRUCTURE
+## REVIEW OF TRADEOFF THEORY OF CAPITAL STRUCTURE
 
 In perfect capital markets, capital structure has no impact on the overall value of firms. If a firm chooses to alter its mix of debt and equity, the only impact is to change the risk and return of the various securities, not the risk of the overall firm. Stated differently, decision making on the left-hand side of the balance sheet is what drives firm value and is invariant to changes on the right-hand side of the balance sheet.
 
@@ -2372,7 +2372,7 @@ Distinguishing financial distress from economic distress is important. For examp
 
 In contrast, financial distress occurs when a leveraged firm is forced to recapitalize due to its overlevered capital structure, otherwise, its operating margins may be more than sufficient to continue as a viable firm. That is, when financial distress occurs, the firm's operating performance will be lower than the operating performance of firms without leverage. Put differently, the present value of financial distress can be viewed as the cost of leverage, that is, the incremental possibility of the firm experiencing financial distress imposes a reduction in the value of the firm's operating assets. The recognition of financial distress costs resulted in the trade-off theory as the tax shields are quite valuable but have to be weighed against the expected value of financial distress and thus the destruction of value on the left-hand side of the balance sheet.
 
-# AGENCY COSTS OF ISSUING EQUITY
+## AGENCY COSTS OF ISSUING EQUITY
 
 Does management always acts on behalf of the shareholders of the firm? In the case of a sole proprietorship, this assumption is a non-issue since a single person owns  $100\%$  of the firm. Thus, even if the manager-owner intentionally engages in actions which do not maximize the value of the firm, she is doing so on her own behalf to maximize utility. That is, if the owner-manager chooses to put unqualified friends and family on the payroll, she incurs the full costs of these actions.
 
@@ -2386,7 +2386,7 @@ Before the seminal work by Jensen and Meckling, the academic literature largely 
 
 Jensen and Meckling suggest that one route to avoid the agency costs associated with issuing equity is for the owner to raise all external funds via debt. Indeed, they proposed the leveraged buyout (LBO) years in advance of the LBO structure becoming part of many U.S. corporations.
 
-# CREDIT AGREEMENTS AND DEBT INDENTURES
+## CREDIT AGREEMENTS AND DEBT INDENTURES
 
 There are two primary forms of debt financing: bank loans and debentures. A bank loan is a private agreement between the corporation and the lender, traditionally a bank or syndicate of banks, but lenders of loans have extended to many non-banks over recent years. A bank loan avoids various costs of registration but is generally illiquid due to not being publicly traded on a listed exchange. Bank loans are typically of two forms, either a term loan with a stated maturity or a revolving line of credit which is similar to a credit card for an individual. Jumbo bank loans tend to be syndicated to multiple lenders via the lead arranger for the loan who serves as the underwriter. As bank loans are private contracts between the borrowers and lenders, they can be made to fit every situation and usually have numerous restrictive covenants, many of which are commonly broken and thus the borrower is required to cure via additional cash payments, pledging of more assets, etc. These loans tend to be shorter in term than traditional public bonds and are most often secured by specific assets. By having security on various assets, the lender has substantive leverage over the borrower as it can take steps to seize the secured assets in case the two parties are unable to resolve a dispute.
 
@@ -2400,7 +2400,7 @@ In 1939, Congress passed the Trust Indenture Act (TIA) to protect bondholder rig
 
 While bond indentures provide specific restrictions of various actions by managers via covenants which address asset sales, dividends, share repurchases, mergers, and other events which could negatively hamper the bondholders' ability to be repaid, disputes arise quite frequently, and in particular, when the firm is in financial distress. Indeed, whereas stockholders, especially minority stockholders, can rely on a board of directors to protect their economic interest, bondholders are often forced to take legal action against management in disputes over major decisions which impair the value of the securities held by the debtholders. And in some cases, the setting is not merely management against bondholders, but could be management and majority bondholders who may agree to the stripping of covenants, etc. from the indenture, which could benefit them due to their holding other securities of the issuer, but may impair the ability of the minority bondholders from receiving payment.
 
-# OPTIONS AND CAPITAL STRUCTURE
+## OPTIONS AND CAPITAL STRUCTURE
 
 An option is a contract which gives the buyer the right to buy or sell an underlying asset at a specified strike price on a set date. The seller must sell or buy the underlying asset if the buyer chooses to exercise the option. Interestingly, we can view the capital structure of a corporation as options on the assets of the corporation. Consider Hewlett Packard Enterprise whose capital structure consists of \$12.9 billion of debt and \$28.7 billion of equity as of January 2023. Shareholders of Hewlett Packard have limited liability, that is, if Hewlett Packard fails to repay its interest and principal on the debt, the debtholders have no rights to go after other assets owned by the shareholders. Put differently, shareholders of a publicly-traded corporation don't sign personal guarantees to obtain debt financing for the corporation. By having the option to default, and in effect give the keys to the debtholders, the shareholders own a call option on the assets of the corporation.
 
@@ -2446,7 +2446,7 @@ That is, due to put-call parity, the debtholder value is equal to the present va
 
 As shown, Figure 3 displays the identical payoff to the debtholders as in Figure 2; rather the interpretation is different. Whereas in Figure 2, the debtholders have sold the upside of the corporation to the equity holders, Figure 3 characterizes it as the debtholders owning a risk-free bond and having sold a put option to the equity holders. Indeed, a debtholder could purchase a put option and therefore insulate itself from credit risk. This type of put option is referred to as a credit default swap for which the holder pays a periodic premium and would receive a substantial payment from the seller if the firm were to default.
 
-# THE AGENCY COST OF LEVERAGE: MAXIMIZE FIRM VALUE OR SHAREHOLDER WEALTH?
+## THE AGENCY COST OF LEVERAGE: MAXIMIZE FIRM VALUE OR SHAREHOLDER WEALTH?
 
 In the Tradeoff Theory of Capital Structure lecture note, the entire value created by the increase in leverage due to the interest-tax shields accrued solely to the shareholders. That is, the existing bondholders and new bondholders do not participate in the +NPV generated by the leveraged recapitalization. Thus, the maximization of shareholder wealth is consistent with maximizing firm value, and if the existing debt is risk-free, then the change in shareholder wealth is equivalent to the change in firm value. Consider LEVER's market-value balance sheet below.
 
@@ -2506,7 +2506,7 @@ Table 1: Payoffs at Debt Maturity
 
 In treating debt and equity as options on a portfolio of assets, it is logical that management, acting on behalf of equity holders, acts to move forward with a wealth-destroying project for the corporation, but wealth increasing for the shareholders who wish to maximize the value of their call option, and thus prefer the higher volatility project even it is expected to generate a loss. This issue is often referred to as the asset substitution model and was introduced in Jensen and Meckling's (1976) seminal work discussed in the beginning of this lecture note.
 
-# BEYOND FINANCE THEORY: AGENCY COSTS IN THE REAL WORLD
+## BEYOND FINANCE THEORY: AGENCY COSTS IN THE REAL WORLD
 
 In the absence of agency costs, there is no need for auditors, independent board members, incentive compensation plans, lengthy loan contracts and indentures, proxy battles, activist investors, etc. A huge amount of time and effort is spent in attempting to contain and curtail agency costs in corporations on all levels. In my experience, it seems that most of the time and energy at high management levels of large corporations go into monitoring and bonding with respect to agency costs. And at the board level, especially across board committees such as risk, human resources, audit, independent, corporate governance, etc., the primary focus is often to curtail agency costs.
 
@@ -2515,9 +2515,9 @@ In reality, agency costs increase non-linearly with financial distress. The over
 
 It is important to note that bondholders don't behave passively and simply sit still, rather their level of aggressiveness can be rather extreme relative to the shareholder activist saber rattling we often witness. A highly publicized example is Caesars Entertainment, the largest casino operator in the United States. In December 2006, Caesars agreed to a leveraged buyout by Apollo and TPG, two large and well-known private-equity firms. Caesars was one of the largest buyouts in corporate history and by the time that the deal formally closed in January 2008, the economy was in a downturn and headed for the financial crisis. Due to a heavy debt burden, management of Caesars embarked on numerous financial and asset restructuring programs for survival. The asset restructuring programs included transferring some of the best casino properties to other entities that they owned. The debtholders, led by Elliott Management, Appaloosa Management, and Oaktree Capital, did not take the asset transfers lightly, rather sued Caesars and the private equity sponsors for fraudulent convenience. It ended up becoming one of the nastiest corporate brawls in history involving some of the largest Wall Street players on both sides. Importantly, the entire impetus for the war between the equityholders and the debtholders of Caesars was due to the divergence of incentives caused by the financial distress and eventual inability of Caesars to meet its debt obligations.
 
-# Information Asymmetry and Capital Structure
+## Information Asymmetry and Capital Structure
 
-# REVIEW OF AGENCY COSTS AND CAPITAL STRUCTURE
+## REVIEW OF AGENCY COSTS AND CAPITAL STRUCTURE
 
 As described in Agency Costs and Capital Structure, agency costs can significantly reduce firm value. If investors expect that management will not maximize shareholder value, stock prices will be lower as a result. Thus, the burden is on management to convince shareholders that their objective is to maximize shareholder wealth. Agency cost concerns are exceptionally high at firms with multiple class voting structures for board members. For example, Mark Zuckerberg controls  $15\%$  of the economic interest of Meta Platforms (Facebook) and  $58\%$  of the voting interest. Given the voting interest, Zuckerberg in effect controls the board.
 
@@ -2532,7 +2532,7 @@ Unlike shareholders, debtholders don't have a board of directors to act on their
 
 A key takeaway of our knowledge of agency costs and capital structure is that firms are reluctant to issue new equity when in financial distress as the proceeds likely go to the debtholders. This lecture note will consider equity issues for firms not in financial distress.
 
-# PREVIEW OF CAPITAL STRUCTURE AND INFORMATION ASYMMETRY
+## PREVIEW OF CAPITAL STRUCTURE AND INFORMATION ASYMMETRY
 
 In perfect capital markets, outside investors have access to the same information set as management and other insiders. Of course, this assumption doesn't hold up well in the real world. Managers know what earnings the day before the earnings release will be, they have superior information concerning product launches, they know firsthand what is taking place in merger negotiations, all well before outside investors learn of the resulting information, and thus information asymmetry is simply a given in real-world corporate finance.
 
@@ -2546,7 +2546,7 @@ The underwriters set the offering price at \$185.00, well below the closing pric
 
 In perfect capital markets, stock prices should not change in response to the announcement of an equity issue. If the purpose of the equity issue to finance a specific investment or project, the stock price response responds to the unexpected amount of the NPV resulting from the project, but it should not move based on the fact that the firm decided to finance the project with equity. Also, there are no transactions costs associated with equity issues in perfect capital markets.
 
-# THEORY: INFORMATION ASYMMETRY AND CAPITAL STRUCTURE
+## THEORY: INFORMATION ASYMMETRY AND CAPITAL STRUCTURE
 
 While the 1958 seminal paper on capital structure by Modigliani and Miller ushered in the modern era of corporate finance, it was another twenty years before researchers began to formally address the importance of information asymmetry for investment decisions and the choice of equity or debt to finance those real investments. The seminal work started on information asymmetry and capital structure started with discussions between Stewart Myers (MIT professor) and Nicholas Majluf (then a Ph.D. student in corporate strategy at MIT) in 1978. It was another six years in 1984 before they were successful in publishing their paper in an academic journal. Since publication, their joint work has generally been viewed as the most influential research about equity issues and information asymmetry.
 
@@ -2640,7 +2640,7 @@ The original shareholders, specifically the only shareholders when management co
 
 In this model, management will optimally bypass a  $+NPV$  if the firm is substantially undervalued in the market to avoid issuing stock at too low a price. Of course, there are times where the project has such a large  $+NPV$  that it still makes sense for management to accept the project and invest as it more than compensates for selling the stock at too low a price.
 
-# THE VALUE OF FINANCIAL SLACK AND THE PECKING ORDER THEORY
+## THE VALUE OF FINANCIAL SLACK AND THE PECKING ORDER THEORY
 
 We can think of financial slack in a corporation as cash on hand and an available line of credit or immediate debt capacity. Given information asymmetry, financial slack has option value as it allows a firm to invest in a  $+$  NPV project where the firm might otherwise reject if forced to issue undervalued stock. In the real world, many large prominent companies maintain financial slack to solve this problem of information asymmetry.
 
@@ -2665,7 +2665,7 @@ Consider two paths which management could take. The first path is to issue new s
 
 ECONOMIC DILUTION IS DUE TO SELLING UNDERVALUED STOCK.
 
-# CONVERTIBLE DEBENTURES
+## CONVERTIBLE DEBENTURES
 
 Most external financing of large corporations is either of straight debt (or bank loans) and of common equity (for stock mergers, IPOs, etc., as noted above). Other corporate financings include convertible securities (debentures and preferred), preferred equity, and warrants. Historically, convertible debentures have been an important source of financing for firms with negative or volatile cash flows and often with expected high future growth. Despite convertibles having been around for decades, many market participants, including some issuers and bankers, do not appear to have a rudimentary understanding of how convertible debentures are valued.
 
@@ -2673,7 +2673,7 @@ An often-used explanation given for the issuance of a convertible security is th
 
 We will view a convertible debenture not only in the context of a Modigliani and Miller world, but will also relax assumptions of taxes, financial distress costs, and information asymmetry, to show why convertible debentures exist, even if not mispriced as suggested by the popular explanation. In addition, we consider there are instances where convertibles can become mispriced and largely due to issues involving liquidity, a concept not frequently studied in corporate finance as corporate finance is often studied in a vacuum isolated from capital markets.
 
-# CONVERTIBLE DEBENTURES AND MODERN FINANCE THEORY
+## CONVERTIBLE DEBENTURES AND MODERN FINANCE THEORY
 
 In the lecture note, *Introduction to Capital Structure*, the focus was on the choice of debt versus equity and did not consider hybrid securities such as convertible debentures. But by understanding the Modigliani and Miller propositions, we know that in a perfect world without market frictions and imperfections, the issuance of a convertible debenture to either replace a corresponding amount of debt or equity, or even both, will have no impact on the overall value of the corporation. An investor can easily create a mimicking portfolio of a straight corporate debenture and equity options (or delta hedged shares). And with respect to Proposition II, if the convertible debenture is issued to replace straight corporate debt, it will decrease the expected return on equity, though not as much as an equity issue would. And if the convertible debenture is used to replace straight equity, it will increase the riskiness of equity, though not as much as if straight corporate debt was issued.
 
@@ -2686,11 +2686,11 @@ To add further realism to the above example, suppose there is considerable uncer
 
 Stein (1992) developed a complementary theory to the previous work of Brennan and Schwartz (1988). According to Stein, small, growth firms are often unable to raise debt efficiently due to high financial distress costs. Many of these firms prefer to issue equity, but not at the current stock price if management believes the stock is undervalued. Moreover, as we discussed earlier, an equity issue will typically cause investors to anticipate that the current stock price is overvalued, thereby driving the stock price down. In Stein's model, management of the convertible issuer is confident that the cost of financial distress is low, that is, management is optimistic that investors will not redeem the convertible for cash at maturity. In fact, Stein's model posits that management believes they will be able to call the convertible at a future date and thereby force the holders to convert to equity at the higher conversion price relative to the stock price at issue. Thus, the issuance of a convertible debenture doesn't communicate a negative signal about the current stock price as a regular equity issue would.
 
-# Dividend Policy
+## Dividend Policy
 
 "Companies are returning a lot of money to shareholders through dividends and buybacks. And a lot of people say that's not a good use of capital. I think that's normal reallocation of capital."1
 
-# INTRODUCTION TO DIVIDEND POLICY
+## INTRODUCTION TO DIVIDEND POLICY
 
 This lecture note provides a broad overview to dividend policy, covering the following topics:
 
@@ -2743,13 +2743,13 @@ $$
 
 Equation 5 is simply the discounted cash-flow formula for a stock. And even though Amazon hasn't paid a dividend since going public in 1997, it has a high stock valuation because of the expectation of high dividends in the future, even if at a far-off date. While the dividend-discount model is theoretically the correct way to value a stock, this doesn't mean it is as feasible for say a company like Amazon where other stock valuation models may be employed.
 
-# MECHANICS OF DIVIDEND DISTRIBUTIONS
+## MECHANICS OF DIVIDEND DISTRIBUTIONS
 
 In our context, the term, dividend, usually refers to a cash dividend, though some companies issue stock dividends. For those public corporations which pay cash dividends, the frequency is typically quarterly and sometimes supplemented by an extra or a special dividend.
 
 For an example of the mechanics of a dividend payment, Goldman Sachs declared a quarterly cash dividend of  \$2.50 per common share on January 13, 2023, payable on March 30, 2023, to shareholders of record on March 2, 2023. To ensure there is no uncertainty about whether or a not an investor owns the shares on March 2, 2023, Goldman's stock will trade ex-dividend one business days before the record date. That is, if an investor purchases shares in Goldman's stock on or after March 2, 2023, she will not receive the\$ 2.50 cash dividend payable on March 30, 2023. Thus, March 2, 2023 is the ex-dividend date (will not receive dividend) and March 1, 2023, the day prior, is the cum dividend date (will receive dividend).
 
-# MILLER AND MODIGLIANI: DIVIDEND POLICY IN PERFECT CAPTIAL MARKETS
+## MILLER AND MODIGLIANI: DIVIDEND POLICY IN PERFECT CAPTIAL MARKETS
 
 The prevailing wisdom, whether in corporate boardrooms, Main Street, or on Wall Street, is that dividend policy influences shareholder wealth. A common argument is that since CEOs can control dividend policy, dividends are less risky than capital gains. As a result, the commonly-held view is that dividend-paying stocks have a lower cost of capital, and thus it benefits firms to pay dividends. An influential paper by Miller and Modigliani in 1961 issued a strong challenge to conventional wisdom. They show that under certain assumptions, dividend policy does not alter firm value, rather firm value is driven by the operating assets on the left-hand side of the balance sheet.
 
@@ -2782,7 +2782,7 @@ The prevailing wisdom when Miller and Modigliani published their seminal work on
 
 It is the case that dividend-paying stocks tend to have a lower cost of capital than stocks which do not pay dividends. But this is not driven by dividend policy, rather it is driven by the lower riskiness of the assets on the left-hand side of the balance sheet. For example, utility firms have low cost of capital and high dividend yields. The low cost of capital is driven by the relatively low asset beta of utility firms, not by a high dividend yield. And given the tangible nature of the assets on the left-hand side of the balance sheet, utility firms tend to pay out their cash flows as dividends. That is, dividend policy is endogenous to the underlying risk of the assets on the left-hand side of the balance sheet.
 
-# DIVIDENDS AND TAX POLICY
+## DIVIDENDS AND TAX POLICY
 
 Miller and Modigliani chose to assume zero taxes in their model, not because of naivety, rather because they recognized that taxes do matter and thus can significantly influence dividend policy. Historically, dividends have been taxed at a higher rate than capital gains. Since 2013, however, dividends and capital gains have both been taxed at the rate of  $23.8\%$ . Given capital gains are deferred until the shares of stock are sold, indeed can be deferred indefinitely, capital gains still hold a tax advantage over dividends.
 
@@ -2834,7 +2834,7 @@ In the extreme form, tax-free investors don't need to own the shares permanently
 
 The above example is an extreme case of dividend arbitrage. In reality, investors do not allow this arbitrage opportunity to persist as tax-free investors will bid up the stock well in advance of the ex-dividend date.
 
-# DIVIDEND PAYOUT TRENDS
+## DIVIDEND PAYOUT TRENDS
 
 Historically, firms have paid out roughly  $50\%$  of their net earnings as dividends. Figure 1 displays the dividend-payout ratio for S&P 500 firms, which shows a slight decline since World War II.
 
@@ -2857,19 +2857,19 @@ Table 2 is consistent with recent survey evidence of financial executives who an
 
 These recent survey results of financial executives are consistent with a classic survey paper by John Lintner of Harvard Business School over fifty years ago. Lintner found that CEOs prefer stable dividends with persistent growth and set dividends as a target percentage of earnings. Very little has changed since Lintner's survey as CEOs exhibit a preference for stable dividends remain fairly constant, raising them only when they are convinced that growth is long lasting and prefer not to cut dividends, consistent with the empirical evidence on changes in dividends.
 
-# DIVIDENDS AS SIGNALS
+## DIVIDENDS AS SIGNALS
 
 In perfect capital markets, dividend announcements do not provide new information. For example, Miller and Modigliani's model of dividend policy assumes all investors possess the same information set, that is, shareholders are privy to the same information as possessed by management. Numerous academic studies have analyzed the stock price reaction to dividend announcements. When firms increase their dividends substantially, stock prices increase  $1 - 3\%$  surrounding the announcement. And when firms cut their dividends, stock prices declines  $5 - 8\%$  on average, thus of a substantially larger magnitude.
 
 A large amount of research has focused on the impact of dividends as signaling future profitability. Indeed, the literature is so extensive that there are several academic papers which provide lengthy literature reviews and summaries of the massive empirical research on dividend policy. Overall, the empirical results have been remarkably weak in establishing an empirical link between changes in dividends and subsequent changes in future profitability, and thus, the signaling models have somewhat fallen out of favor. More recent work documents that while dividend changes do not predict changes in future profitability, dividend changes are predictive of the volatility of future profitability. For example, cash-flow volatility decreases (increases) following increases (decreases) in dividend payouts. Indeed, by focusing on the second moment rather than the first moment, these results better help us interpret the survey evidence that managers are more likely to increase dividends when they are reasonably confident they will not have to decrease their dividends down the road.[13]
 
-# DIVIDENDS VERSUS SHARE REPURCHASES
+## DIVIDENDS VERSUS SHARE REPURCHASES
 
 When Miller and Modigliani wrote their paper on dividends, share repurchases were infrequently used by corporations, but today share repurchases are as important as dividends in returning excess cash to shareholders. We can think of share repurchases as the opposite of equity issues.
 
 Companies typically repurchase shares of common stock via open-market stock repurchase programs. For example, on February 26, 2019, Home Depot announced a 15 billion stock repurchase program which would take place over the next three years. Assuming no new share issuance, this repurchase program would reduce Home Depot's shares by over six percent during the next three years. Home Depot has been a serial repurchaser, having repurchased over a third of its shares during the past ten years. Home Depot is not obligated to complete the program and can repurchase its shares just like any investor would, though subject to certain restrictions. In March 2020, Home Depot suspended its share repurchase program as part of several steps to shore up liquidity during the COVID-19 outbreak. In February 2021, announced its resumption of the 2019 repurchase program and subsequently announced an extension of the share repurchase program in August 2022.
 
-# Stock Buyback by REPURCHASE
+## Stock Buyback by REPURCHASE
 
 In perfect capital markets, shareholders are indifferent between the firm returning cash via dividends or repurchases. That is, there is no valuation impact for shareholder repurchases as shareholders can replicate a share repurchase by selling her shares just like we saw with dividend policy that a shareholder can create or undo dividends. We demonstrate below via a simple example.
 
@@ -2883,19 +2883,19 @@ Repurchase</td></tr><tr><td>Excess Cash</td><td>75</td><td>0</td></tr><tr><td>As
 
 Suppose management wishes to distribute the excess cash to shareholders via a share repurchase program rather than increasing its dividend rate or paying a special dividend. Table 3 displays REPURCHASE's market-value balance sheet information before and after the share repurchase. REPURCHASE buys back 2.94 million shares at the current price of \$25.50 for a total repurchase amount of \$75 million. Since we assume capital markets are perfect, there is no information about the value of the assets-in-place or the value of the growth options, and thus the repurchase announcement doesn't signal any new information about the value of the firm. Consequently, there is no share price impact.
 
-# Taxes and Share Repurchases (versus Dividends)
+## Taxes and Share Repurchases (versus Dividends)
 
 As discussed earlier in this lecture note, dividend payout reduces the after-tax cash flows to taxable shareholders. With share repurchases, high tax-rate investors are not required to sell their shares in the open market when corporations engage in share repurchase programs. Consequently, there is a tax advantage to share repurchases versus dividends as a means of redistributing capital to shareholders.
 
 Holding everything else constant, a corporation which distributes all cash flows to shareholders via open-market repurchase programs will have a higher valuation than an identical firm which distributes its cash flows via dividends since the after-tax cash flows will be higher for the firm which repurchases its shares. But as we point out below, dividend payout has signaling advantages relative to share repurchases.
 
-# Signaling and Share Repurchases (versus Dividends)
+## Signaling and Share Repurchases (versus Dividends)
 
 Like dividends, share repurchases can signal private information known by management to external shareholders. If management believes the corporation's shares are undervalued, a share repurchase program announcement will convey management's belief. And assuming that management acts on behalf of its shareholders, management will not announce a share repurchase program if they believe the shares are overvalued. Otherwise, the share repurchase program benefits the selling shareholders at the expense of the long-term shareholder as a result of repurchasing overvalued stock. The average stock price reaction to share repurchase announcements is roughly 2-3 percent which is consistent with the notion that management believes their shares are undervalued when announcing these programs.
 
 A key difference between the signal from a dividend initiation or a dividend increase from a share repurchase program is that changes in dividends tend to reflect information about long-term future earnings. As discussed earlier, corporations tend to increase dividends when management is reliably confident about the long-term future cash flows of the corporation, and thus the signal is often more material than the signal from a share repurchase program that the stock may temporarily undervalued. Moreover, management is extremely hesitant to cut dividends, whereas with share repurchase programs, they tend to not always follow through and purchase the entire amount of shares allotted in the program when announced.
 
-# SUMMARY
+## SUMMARY
 
 It has been over sixty years since Miller and Modigliani published their seminal work on dividend policy. The prevailing view at the time, both in academia and in practice, was that dividends are safer than capital gains and thus the payout of dividends increases firm value. Today, in many corporations, this view remains widely held, and especially at the boardroom level, namely that dividends are safer than capital gains. But this view is incorrect as shown by Miller and Modigliani.
 
@@ -2903,7 +2903,7 @@ Dividend policy surely matters else, CEOs wouldn't spend so much talking about d
 
 Perhaps, the most important takeaway from the theoretical work led by Miller and Modigliani and the enormous amount of subsequent empirical results is that what really matter with respect to creating shareholder wealth is for managers to invest (reject) in positive (negative) net present value projects as this is where value is created or destroyed. And the primary purpose of capital structure and distribution decisions is to support the value created on the left-hand side of the balance sheet.
 
-# Financial Risk Management
+## Financial Risk Management
 
 Throughout this course, we have discussed risk, generally in the context of risk and return. We use basic summary statistics such as the standard deviation ("volatility") as a measure of risk. For example, the annual volatility of Tesla's daily stock returns over the past five years is roughly  $65\%$ . Meanwhile, the annual volatility of the S&P 500 over this same period is about  $22\%$ . In terms of the CAPM, Tesla's equity beta to the S&P 500 is roughly 1.7. Thus, we can bifurcate Tesla's historical equity volatility into systematic risk of  $37\%$  ( $22\% \times 1.7$ ) and idiosyncratic risk of about  $28\%$ . By comparison, the annual volatility of Microsoft over the same period is  $31\%$ , less than the systematic component of Tesla's volatility and slightly more than Tesla's idiosyncratic risk. Another approach is to look at the total risk of Tesla's enterprise and then further differentiate between the risk of Tesla's debt versus its equity.
 
@@ -2914,7 +2914,7 @@ Notwithstanding Tesla's ambitious business strategy, there are ways in which man
 
 This lecture note discusses the relevance of financial risk management, including the purchase of insurance and hedging practices, in perfect capital markets, and importantly in the real world. As we show in the next section, there is no role for active financial risk management in perfect capital markets since investors can replicate a corporation's risk management decisions at zero cost. In the real world, however, financial risk management can play an important role in the success of a corporation, specifically in terms of facilitating the creation of value on the left-hand side of the balance sheet.
 
-# Financial Risk Management in Perfect Capital Markets
+## Financial Risk Management in Perfect Capital Markets
 
 Modigliani and Miller proved over sixty years ago that capital structure has no influence on firm value in perfect capital markets. As discussed in prior lecture notes, perfect capital markets assume a world free of taxes, information asymmetries, transactions costs, and other real-world frictions. Moreover, in perfect capital markets, investors are unable to profit ex ante by trading securities or financial assets and thus markets are considered efficient. Importantly however, cash flows are not known with certainty, even in perfect capital markets and thus firms exhibit risky cash flows just like in the real world.
 
@@ -2973,7 +2973,7 @@ What is the impact of American Tower purchasing insurance with respect to severe
 
 Turning back to the Modigliani and Miller capital structure propositions, we know that in perfect capital markets investors can replicate and undo any capital structure changes undertaken by management. For example, suppose management chooses to reduce shareholder risk by cutting back on leverage. Indeed, this is a form of risk management which reduces the volatility of the stock. But investors can replicate this action via reducing leverage on their own. Likewise, in subsequent work, Miller and Modigliani demonstrate the irrelevance of dividend policy as investor can easily create and undo dividends in their own personal accounts when perfect capital markets hold. The same goes for all financial decisions on the right-hand side of the balance sheet, including various forms of financial risk management such as the purchase of insurance and the hedging of certain cash flows.
 
-# Financial Risk Management in the Real World
+## Financial Risk Management in the Real World
 
 Notwithstanding the irrelevance of financial risk management in perfect capital markets, corporate managers expend a lot of effort, money, and time on numerous risk management measure in the real world. Thus, it must be that the various assumptions behind perfect capital markets are the reason that risk management can increase shareholder value. Whereas Modigliani and Miller ushered in modern corporate finance, we think of much of the subsequent academic research as in a post-modern world of corporate finance. Under Modigliani and Miller, shareholders instruct management to focus on the creation of shareholder wealth via the acceptance of all +NPV projects and the rejection of all -NPV projects on the left-hand side of the balance sheet. The post-modern framework of corporate finance continues the framework of value creation via accepting (rejecting) +NPV projects (-NPV Projects) on the left-hand side of the balance sheet. But it also stresses that financial policy matters and can influence the project selection decisions on the left-hand side of the balance sheet. Today, we know for example that cost of financial distress and information asymmetry can greatly limit a firm's ability to undertake profitable investments when cash is constrained. That is, external financing is not always readily available in the real world for +NPV projects as assumed by Modigliani and Miller.
 
@@ -3025,7 +3025,7 @@ The Trade-off Theory of Capital Structure lecture note describes how the tax ben
 
 Suppose for DRILLOIL, the optimal capital structure based on the simple trade-off between interest tax shields and cost of financial distress is roughly  $15\%$  debt and  $85\%$  equity. A major consideration in limiting debt to only  $15\%$  of the capital structure is the high volatility of oil prices. Thus, to the extent that DRILLOIL can successfully reduce the likelihood of financial distress via hedging oil prices, the benefit of hedging is that it allows a higher level of leverage, and thus greater interest tax shields, than otherwise. Importantly, the benefit of the hedging program is not that it reduces the volatility of the cash flows per se, rather that it reduces the expected cost of financial distress at given levels of leverage.
 
-# Concluding Comments
+## Concluding Comments
 
 Corporate managers receive high compensation, partly due to a compensating wage differential, to take risks, specifically to take good risks. Positive NPV projects are good risks to take even though they may turn out to be ex post disasters. Within projects, there are numerous embedded risks, some within the control of management and other risks outside of managerial control. Value can be created by hedging external risks if such hedging reduces the likelihood of financial distress or cash shortfalls. Moreover, in light of agency costs, hedging can improve the incentive alignment between shareholders and corporate management.
 
@@ -3041,7 +3041,7 @@ The hedging against jet fuel pricing risk is conceptually straightforward. In pr
 An issue in hedging via crude oil is that of basis risk, namely that jet fuel does not move lockstep, with a premium, to oil prices, rather the difference in prices tends to exhibit volatility, and sometimes high volatility at that. Another issue with hedging against jet fuel price risk is that while short-term demand for air travel tends to be predictable, exceptions occur. For example, when COVID-19 erupted in the U.S. during March 2020, both oil prices and air travel plummeted. Thus, for those airlines which hedged via forward contracts, they were hit with a dummy whammy during 2020, that is, they realized massive losses on their hedges, and they were ex post over-hedged due to the abrupt decline in air travel. In other words, airlines not only paid way too much ex post for jet fuel by hedging, but they also purchased way too much jet fuel relative to the actual travel undertaken. Overall, due to the various frictions with hedging, its practical benefits can be substantially less than the conceptual benefits during episodic events.
 
 
-# Mergers & Acquisitions
+## Mergers & Acquisitions
 
 If you use the search phrase, "do mergers create or destroy value," on Google, the overwhelming response is that mergers destroy value. Many highly respected business reporters, Wall Street analysts, notable consulting firms such as BCG and McKinsey, and even some finance professors, question whether mergers, in general, create value.
 
@@ -3055,7 +3055,7 @@ The focus on mergers tends to be on various large-scale mergers which have faile
 
 The purpose of this lecture note is to provide a high-level overview of mergers and acquisitions, and from the perspective of corporate finance. The goal is not to learn a lot of facts about mergers, instead to enhance and deepen our understanding of corporate finance theory and practice.
 
-# MERGERS AS A PROJECT
+## MERGERS AS A PROJECT
 
 Consider two firms, ACQUIRER and TARGET. ACQUIRER has a market value of  \$20 billion, and TARGET has a market value of\$ 10 billion. Neither firm has debt in its capital structure. ACQUIRER and TARGET decide to merge, and ACQUIRER will change its name to COMBINED. For the merger to create economic value, the following must be true:
 
@@ -3083,7 +3083,7 @@ ACQUIRER should proceed not only if there are gains from the proposed merger, th
 
 The above example of bidder overpayment might appear to be a silly textbook exercise, but it occurs often in the real world and many view bidder over-payment for targets as quite common.
 
-# Announcement Period Abnormal Returns
+## Announcement Period Abnormal Returns
 
 The cleanest evidence on whether mergers create value for shareholders comes from short-term event studies where the average abnormal stock market reaction at merger announcement is a gauge of value creation or destruction. In efficient capital markets, stock prices immediately adjust to a merger announcement, incorporating any expected value changes. Table 1 displays abnormal returns measured over a three-day window surrounding the merger announcement for both targets and acquirers, as well as for the targets and acquirers combined.
 
@@ -3101,7 +3101,7 @@ The skeptical view of mergers as mentioned at the beginning of this lecture note
 
 The expectation is that managers of public corporations engage in projects which create value. Thus, the stock price of corporations reflects the expectation of  $+NPV$  project announcements often several years into the future. Given this, the stock price reaction to a project announcement reflects two components, relative size and timing. If the project announcement reveals a  $+NPV$  that is larger than expected, then a positive stock price reaction will occur. And the fact that when a firm announces a project there is a resolution of uncertainty, that is, the project is announced today rather than at an expected later date. Put differently, it is challenging to manufacture alpha, and not only in financial markets by mutual funds, hedge funds, individual investors, etc., but it is also difficult for corporate management to manufacture unexpected alpha in real asset markets. For example, if a management team has a fantastic track record of investing in  $+NPV$  projects, the firm's stock price will reflect their talents and even before their next acquisition announcement.
 
-# Form of Payment and Mergers
+## Form of Payment and Mergers
 
 The full sample results, as described above, hide an important distinction based on the financing of mergers. Specifically, mergers financed with stock, have different value effects than mergers funded with cash.
 
@@ -3116,7 +3116,7 @@ Table 2 Announcement-Period Abnormal Returns for Mergers4
 
 Target firm shareholders also do better when there is no equity financing. And financing has a significant impact on inferences about the overall value creation from mergers. The combined average abnormal returns for stock-financed mergers are  $+0.6\%$ , thus close to zero, and increases to  $+3.6\%$  for non-stock financed mergers. To draw inferences about the value creation on the left-hand-side of the balance sheet from mergers, the analyst will give more weight to the  $+3.6\%$  estimate for the non-stock financed mergers. Moreover, as indicated above, these stock price reactions reflect the resolution of uncertainty; that is, stock price already incorporate the expectation of merger announcements.
 
-# The Impact of Merger Arbitrage on Acquirer Returns
+## The Impact of Merger Arbitrage on Acquirer Returns
 
 Soon after launching a merger-arbitrage practice at AQR Arbitrage $^{6}$  in 2001 based on our academic research, we started to notice a phenomenon which is counter to one of the underlying assumptions in perfect capital markets, that is, the assumption traders do not have an impact on market prices. Our anecdotal observation was the negative stock price reaction to stock mergers on the announcement date appeared to be negatively correlated to the amount of shorting by merger arbitrageurs in the acquirer's stock price. To better understand our anecdotal observation, a cursory description of merger arbitrage is provided below.
 
@@ -3133,12 +3133,12 @@ Pricing Period CAAR for Floating Ratio Stock Mergers
 
 Importantly, the pricing period is set once the merger completion date is known and thus there is no new merger information around the closing date. However, as shown above, the stock price declines significantly during this period where there is substantial short selling by arbitrageurs to hedge their merger arbitrage positions. Thus, there appears to be strong evidence that price pressure caused by merger arbitrageurs is a significant driver of the negative stock price reaction to stock mergers. It is also strong evidence that traders can have a substantive impact on stock prices, thus is at odds with perfect capital markets which assumes prices are perfectly elastic.
 
-# Pre- and Post-Merger Profitability
+## Pre- and Post-Merger Profitability
 
 Many academic studies have focused on various measures of operating performance to identify the sources of gains from mergers and to determine whether the expected gains at the merger announcement are ever actually realized. If mergers create value for shareholders, the benefits should eventually show up in the firms' cash flows. To test this conjecture, a highly-cited study by Andrade, Mitchell, and Stafford focus on operating margins, specifically cash flows to sales. We create a measure of average abnormal operating performance, which is the difference between the combined firm's operating margin and the corresponding industry median operating margin. On average, there is an improvement in operating margins following the merger of roughly 1 percent and is statistically significant. Also, as discussed later, industry shocks are a primary source of merger activity. To the extent the industry benchmark firms are also undertaking value-enhancing mergers or otherwise restructuring internally in response to industry shocks, the measured change in operating performance will be biased down. Overall, the improvement in post-merger operating performance is consistent with the positive announcement-period stock market returns to the combined acquirer and target returns.
 
 
-# MERGER WAVES
+## MERGER WAVES
 
 Mergers tend to occur in waves rather than evenly through time. There has been a total of six waves in U.S. corporate history:
 
@@ -3173,7 +3173,7 @@ There are two leading hypotheses to explain merger waves. The first is a neoclas
 
 The alternative theory is that managers time market overvaluations of their firms and thus buy other firms when their stock prices are high and is, therefore, a behavioral story. There has been some anecdotal and systematic support for the overvaluation story. However, when researchers have tested between the two hypotheses, the conclusion has been mainly that clustering of shocks to industries results in the well-known merger waves. Nonetheless, the behavioral story still has considerable merit and likely can explain numerous mergers.
 
-# FREE CASH FLOWS AND AGENCY COSTS
+## FREE CASH FLOWS AND AGENCY COSTS
 
 The Agency Costs and Capital Structure lecture note describes how agency costs results in management not always acting on behalf of the shareholders. Before the seminal work by Jensen and Meckling in 1976, the academic literature largely ignored agency costs, and indeed the initial response to their work was not well received when they presented their paper before publication as it upset the status quo in a significant way. Since the publication of the Jensen and Meckling paper, the agency cost theory literature has exploded and continues to be a vibrant area in academic research and practitioner research as well. In effect, its influence has been to take the textbook profit maximization world to be more adaptable to the real world where sometimes managers are inclined to make decisions which are at odds with maximizing shareholder wealth.
 
@@ -3202,7 +3202,7 @@ Table 2: Project Selection at ALLEQUITY vs LEVER
 
 The prediction from Jensen's free cash flow theory is that leverage can lead to improved managerial decision making. Academic research has generally provided considerable support for Jensen's free cash flow theory. For example, the stock market responds more positively to acquisition announcements by acquirers with higher leverage than with zero or low leverage. $^{14}$  The results are consistent with the logic that levered firms must go to the capital markets if they are to expand the firm via acquisition and thus subject to external monitoring due to the need to raise external funds. But for unlevered firms with excess cash, the management team is not under pressure to seek outside funding and thus more immune from external forces. The results imply that agency costs are a major detractor to shareholder wealth creation and that capital structure adapts to account for them. These results do not necessarily mean that companies should always increase leverage. Instead, the point is that agency costs are real, and debt is one mechanism which is used to control them, yet debt is not used nearly as much as Jensen's free cash flow hypothesis might imply. This seemingly underutilization of debt suggests there are some substantive costs to too much debt as discussed in Agency Costs and Capital Structure and in Information Asymmetry and Capital Structure.
 
-# FREE CASH FLOW THEORY AND DISCIPLINARY MERGERS
+## FREE CASH FLOW THEORY AND DISCIPLINARY MERGERS
 
 A major critique of mergers has to do with the managerial motives. Various studies have shown that self-interested managers may pursue mergers which benefit them personally and at the expense of their shareholders. To the extent that management compensation is positively correlated with overall firm size, then there is an incentive for management to pursue a merger even if it has negative net present value. But is there enough scrutiny to ensure that this negative outcome doesn't happen? According to Jensen's free cash flow theory, the market will force debt, a leveraged buyout at the extreme, on firms which have free cash flows, that is, profitable firms which invests their retained earnings in –NPV projects.
 

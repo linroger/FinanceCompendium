@@ -1,8 +1,26 @@
+---
+parent_directory: VII. Corporate Finance/Financial Statements
+title: A Primer on Financial Statements
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [financial statements, accounting principles, balance sheet, income statement]
+secondary_tags: [profitability measures, leverage ratios, asset valuation]
+tags:
+aliases:
+  - "A Primer on Financial Statements"
+parent_folder: Week 7
+subfolder:
+key_concepts:
+cssclasses: academia
+linter-yaml-title-alias: A Primer on Financial Statements
+---
+
 <table><tr><td>Aspects</td><td colspan="2">Likelkeit</td></tr><tr><td>Buchwerte im Kreditgeschäft (Millionen €)</td><td>davon in Mio. €</td><td>davon in %</td></tr><tr><td>Zinsanteil der Gesamtbezogene Finanzschulden (Millionen €)</td><td>2013</td><td>4,5</td></tr><tr><td>Zinsanteil der Gesamtergebnis der Kapitalgeschäfte (Millionen €)</td><td>2013</td><td>-1,7</td></tr><tr><td>Erträge aus der Handels- und Geschäfts-Optionsrechnung</td><td>davon in %</td><td>-1,6</td></tr></table>
 
-#
+##
 
-#
+##
 
 (1)  $\overrightarrow{OP} = m\overrightarrow{AB} + \frac{2}{11}\overrightarrow{AC}$  . 若  $m$  为正整数,则  $m = 1$  的
 
@@ -16,11 +34,11 @@ A
 
 How would you rate the answer?
 
-#
+##
 
 "Tharue gurulalare! Cunlualae Eiy 1
 
-#
+##
 
 How much risk is there in this firm, and what is the cost of its debt and equity financing?
 

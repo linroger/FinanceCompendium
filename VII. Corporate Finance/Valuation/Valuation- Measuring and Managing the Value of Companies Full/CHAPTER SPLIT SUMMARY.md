@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full
 cssclasses: academia
 title: McKinsey Valuation Textbook - Chapter Split Summary
 linter-yaml-title-alias: McKinsey Valuation Textbook - Chapter Split Summary
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [valuation textbook, chapter split, mckinsey]
+secondary_tags: [book splitting, document organization, academic resources]
 ---
 
-# McKinsey Valuation Textbook - Chapter Split Summary
+## McKinsey Valuation Textbook - Chapter Split Summary
 
 **Date:** December 6, 2025
 **Source File:** `ValuationMeasuring and Managing the Value of Companies Full.md` (2.0 MB)

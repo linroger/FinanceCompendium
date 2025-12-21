@@ -1,6 +1,20 @@
 ---
-parent_directory:
-title: NBER WORKING PAPER SERIES
+title: Government Guarantees and the Valuation of American Banks
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 6
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - government guarantees
+  - bank valuation
+  - market-to-book ratio
+secondary_tags:
+  - franchise value
+  - financial crisis
+  - deposit insurance
+  - taxpayer liability
+  - bank leverage
+cssclasses: academia
 tags:
 aliases:
 parent_folder: Week 6
@@ -10,9 +24,9 @@ cssclasses: academia
 linter-yaml-title-alias: NBER WORKING PAPER SERIES
 ---
 
-# NBER WORKING PAPER SERIES
+## NBER WORKING PAPER SERIES
 
-# GOVERNMENT GUARANTEES AND THE VALUATION OF AMERICAN BANKS
+## GOVERNMENT GUARANTEES AND THE VALUATION OF AMERICAN BANKS
 
 Andrew G. Atkeson
 
@@ -52,7 +66,7 @@ June 2018
 
 JEL No. G18,G2,G21,G28,G32,G33,G38
 
-# ABSTRACT
+## ABSTRACT
 
 Banks' ratio of the market value to book value of their equity was close to 1 until the 1990s, then more than doubled during the 1996-2007 period, and fell again to values close to 1 after the 2008 financial crisis. Sarin and Summers (2016) and Chousakos and Gorton (2017) argue that the drop in banks' market-to-book ratio since the crisis is due to a loss in bank franchise value or profitability. In this paper we argue that banks' market-to-book ratio is the sum of two components: franchise value and the value of government guarantees. We empirically decompose the ratio between these two components and find that a large portion of the variation in this ratio over time is due to changes in the value of government guarantees.
 
@@ -106,7 +120,7 @@ and NBER
 
 poweill@econ.ucla.edu
 
-# 1 Introduction
+## 1 Introduction
 
 Are banks safer today than they were in 2007? Book measures of leverage indicate that regulations post-crisis have shored up the US banking system (see Yellen, 2017); however, market measures of leverage and bank credit risk are actually higher than pre-crisis levels (Sarin and Summers, 2016). Do book or market measures more accurately depict the safety of the US banking system? The answer depends on the quantitative drivers of the difference between the market and book values of bank assets. In this paper, we provide a decomposition of banks' market-to-book values into a component driven by bank profitability, or "franchise value," and a component driven by the value of explicit and implicit government guarantees. We find that, quantitatively, about half of the elevated market values of banks from the mid-1990s to 2007 arose from the ability of bank equity holders to capitalize the value of the government safety net. Under current regulatory limitations on leverage, the ability of banks to capture the value of government guarantees is constrained, and, as a result, market-to-book ratios are lower.
 
@@ -119,6 +133,19 @@ $$
 $$
 \begin{array}{c c} \text {f r a n c h i s e} & \text {g o v e r n m e n t} \\ \text {v a l u e} & \text {g u a r a n t e e s} \end{array}
 $$
+
+```d2
+market_to_book_decomposition: {
+  shape: flowchart
+  
+  mve_bve: "MVE/BVE"
+  franchise: "(FVE - BVE)/BVE"
+  guarantees: "(MVE - FVE)/BVE"
+  
+  mve_bve -> franchise: "Franchise Value"
+  mve_bve -> guarantees: "Government Guarantees"
+}
+```
 
 The first component of banks' market-to-book equity ratios is the ratio of the gap between the fair value of bank equity (FVE) and the book value of bank equity divided by the book value of bank equity. We define the fair value of bank equity as the difference between the fair value of all of the bank's assets and the fair value of
 
@@ -170,7 +197,7 @@ Finally, in section 7, we conclude. Our valuation estimates indicate that regula
 
 In Appendix A, we present proofs of several propositions regarding the impact of changes in leverage, risk taking, and economic profitability on banks' accounting profitability and market-to-book ratios. In Appendix B, we discuss in greater detail several of our modeling assumptions and compare our results on the value of government guarantees to other measures of the value of government guarantees in the literature.
 
-# 2 Historical Data on the Valuation of US Banks
+## 2 Historical Data on the Valuation of US Banks
 
 In this section we develop the main stylized facts describing changes in bank valuation, leverage, profitability, and market credit risk measures. These facts motivate our study and support the calibration of our model.<sup>5</sup>
 
@@ -216,13 +243,13 @@ In Figure 9, the blue line corresponds to averages of the natural  $\log^{11}$  
 11Option-adjusted spreads roughly follow a log-normal distribution with time-varying mean and standard deviation.  
 <sup>12</sup>We define non-financial firms as firms with a standard industry classification code not between 6000 and 6999.
 
-# 3 An Accounting Model
+## 3 An Accounting Model
 
 We now present the model we use to define the concepts of book, fair, and market values of equity and to establish the results that FVE - Be is a measure of the franchise value of the bank and MVE - FVE is a measure of the market value of the taxpayer injections of resources needed to honor government guarantees of bank liabilities.
 
 A representative bank operates a loan-making arm and a government-guaranteed deposit-taking arm.[13] Deposits are fully guaranteed by the government. Every period, the loan-making arm makes new loans and the deposit arm takes in new government-guaranteed deposits. The bank also issues subordinated debt. Both the loan-making and the deposit-taking arms are subject to shocks: shocks to the prepayment rate and default rate of loans, to the withdrawal rate of deposits, and to the growth rate of the balance sheet achieved through origination of new loans and deposits. We assume that the vector of shocks is independently and identically distributed over time under the risk-neutral probability measure but that the shocks can be contemporaneously correlated. After observing the realized shocks, equity holders have the option to default. In that case, the subordinated debt holders take over the bank and auction it off immediately to new owners. The government makes a contribution of taxpayer funds to the sale sufficient to ensure that the new owners of the bank are willing to assume the bank's deposit liabilities and pay a non-negative price for the bank to the holders of the subordinated debt.
 
-# 3.1 The loan-making Arm
+## 3.1 The loan-making Arm
 
 Let  $L$  denote the total face value, or book value, of the loans on the bank's balance sheet. Every period, every dollar of loan pays a coupon  $c_{L}$ , net of servicing cost. Then the face value of the loan is prepaid with probability  $\mu_{L}^{\prime}$ , and default on the face value of the loan occurs with probability  $\delta_{L}^{\prime}$ . We use the prime notation,  $\mu_{L}^{\prime}$  and  $\delta_{L}^{\prime}$ , to indicate that the probability of prepayment and default are themselves random variables, representing aggregate risk of prepayment and default. The fair value of the loans on the bank's balance sheet is  $v_{L} \times L$ , where the ratio of fair to book value for the stock of loans on the balance sheet solves the asset pricing equation
 
@@ -264,7 +291,7 @@ $$
 
 Assuming that banks only make investments with positive net present value, we have that  $v_{L} \geq 1 + \phi_{L}$ . Thus, the fair value of the loan-making arm exceeds the book value for two reasons: value from assets in place and value from growth opportunities. First, the present value of all the payments to be received from each outstanding loan,  $v_{L}$ , exceeds its book value of 1. Second, each time the bank will issue a new loan, it will make a profit equal to the net present value,  $v_{L} - (1 + \phi_{L})$ .
 
-# 3.2 The Deposit-Taking Arm
+## 3.2 The Deposit-Taking Arm
 
 Let  $D$  denote the total face value, or book value, of the deposits on the bank's balance sheet. Every period, every dollar of deposits costs the bank  $c_{D}$ , equal to the sum of the interest rate paid on deposits and the servicing cost. The deposit is withdrawn with probability of repayment,  $\mu_{D}^{\prime}$ . As before, we use the prime notation,  $\mu_{D}^{\prime}$ , to indicate that the probability is random, representing aggregate run or funding risk. Hence, the fair value of the deposits on the bank's balance sheet is  $-v_{D} \times D$ , where
 
@@ -300,7 +327,7 @@ $$
 
 Assuming as before that the bank invests only in projects with positive net present value, we have that  $v_{D} + \phi_{D} \leq 1$ . This implies that the fair value of the deposit-taking arm exceeds the book value for two reasons. First, the present value of the payment to be made on outstanding deposits is less than the face value of 1. Second, each time the bank takes a new deposit, it makes a profit equal to the net present value,  $1 - v_{D} - \phi_{D}$ .
 
-# 3.3 Subordinated Debt
+## 3.3 Subordinated Debt
 
 In addition to deposits, we assume that the bank also issues subordinated debt.14 We assume that subordinated debt takes the form of one-period defaultable debt with face value  $1 + i$ . We denote the price of a unit of subordinated debt by  $v_{B}$ . To determine  $v_{B}$ , we need to study the default decision of equity.
 
@@ -354,7 +381,7 @@ $$
 
 and one sees by direct comparison that  $\mathrm{FVB} = v_{B}$
 
-# 3.4 Book, Fair, and Market Value of Equity
+## 3.4 Book, Fair, and Market Value of Equity
 
 Book Value Banks hold loans and deposits on their books at face values. Banks hold subordinated debt on their books at market value. The book value of bank equity is the difference between the book value of bank assets and the book value of bank liabilities. Hence, the ratio of the book value of bank equity to the book value of bank assets is given by
 
@@ -416,7 +443,7 @@ $$
 
 Both the second and the third terms are positive. The second term reflects the franchise value of the bank relative to the book value of bank equity. The third term reflects the market value of government guarantees relative to the fair value of bank equity.
 
-# 3.5 Comparative Statics for the Market to Book Ratio
+## 3.5 Comparative Statics for the Market to Book Ratio
 
 As we argued earlier, the market to book equity ratio dropped dramatically after the financial crisis of 2008. This drop has been interpreted by Sarin and Summers (2016) as a signal that banks have become riskier. In what follows, we provide comparative statics to demonstrate that, in fact, whether a drop in the market to book ratio signals an improvement or a deterioration in bank safety depends on the forces driving the decline. For instance, if the drop is the consequence of a decrease in bank franchise value, it indicates that banks are riskier. But if the drop is the consequence of a decrease in risk taking (perhaps due to more stringent regulation),
 
@@ -468,7 +495,7 @@ it less profitable to operate a bank, so it increases incentives to default. Cor
 
 This comparative statics exercise illustrates that a decrease in the market-to-book equity ratio for a bank, if driven by a decrease in book leverage, can be interpreted, following Yellen (2017), as a signal of an increase in bank safety.
 
-# 3.6 What Triggers Default
+## 3.6 What Triggers Default
 
 The Default Region In this paragraph, we investigate the multiple dimensions of banks' default risk: we ask which type of shocks bring the bank closer to default, in the sense of decreasing the sum of current dividends and continuation payoffs,  $DIV_E' + (1 + g')\mathrm{MVE}$ .
 
@@ -503,7 +530,7 @@ $$
 
 That is, the bank defaults whenever the return on equity, properly adjusted for the benefit of current growth opportunities, falls below the negative of the market-to-book ratio. $^{16}$
 
-# 3.7 Two-State Valuation
+## 3.7 Two-State Valuation
 
 In this subsection, we develop the valuation formulas that we implement in the remainder of the paper. Since default is a binary decision, a bank's valuation ultimately depends on probabilities and payoffs for two events: repayment  $(I' = 1)$  and default  $(I' = 0)$ . Hence, we can value the bank as if there were only two states. Of course, these two events are determined by the optimal default decision for equity, but given that decision, we can use the following valuation formulas.
 
@@ -561,7 +588,7 @@ $$
 
 This term represents the expected discounted value of the loss that the owners of the bank will suffer when they default since they must give up their equity in the bank.
 
-# 4 Calibrating Aggregate Credit Risk
+## 4 Calibrating Aggregate Credit Risk
 
 Our findings regarding the value of government guarantees to bank equity require that banks be exposed to a risk that involves a small probability of a very negative outcome. We document that aggregate credit risk has this feature. Broad portfolios of corporate bonds experienced large negative realized excess returns in 2008. These portfolios earn relatively small realized excess returns from their exposure to this risk in normal times.[17]
 
@@ -599,7 +626,7 @@ To map these data to our model to calibrate the risk-neutral probability  $q(n)$
 
 Based on these observations, in what follows, we use a calibration of the risk-neutral probability of the normal state of  $q(n) = 0.95$ .
 
-# 5 Applying the Model to a Stylized Bank
+## 5 Applying the Model to a Stylized Bank
 
 We now use our model to study the implications of government guarantees for the market valuation of a stylized bank that has no franchise value because all of its assets and liabilities are simply marketable securities. We do so to make a simple quantitative illustration of the two comparative statics results that we considered in Lemmas 2 and 3.
 
@@ -633,7 +660,7 @@ $$
 
 For our stylized bank, the ratio FVE/Be = 1.
 
-# 5.1 Risk and Bank Valuation
+## 5.1 Risk and Bank Valuation
 
 We now examine the implications of our stylized model for the market valuation and accounting profitability of stylized banks that have different exposures to aggregate credit risk as indexed by their realized excess returns in the crisis state  $R(c) - i$  and different levels of leverage  $\Theta$ . We calibrate our stylized model to a risk-neutral probability of the normal state of  $q(n) = 0.95$  and hence a risk-neutral probability of a crisis of  $q(c) = 0.05$ . We set the risk-free interest rate to  $i = 5\%$  and the growth rate of the book balance sheet in normal times of  $g(n) = 7.5\%$ .[24]
 
@@ -659,7 +686,7 @@ The results in Table 2 from this simple numerical exercise make clear the quanti
 
 tive implications of Lemma 2. Specifically, we see that, in the presence of government guarantees, it is entirely plausible that large changes in banks' accounting profitability and market valuations can be accounted for by small changes in banks' exposure to the aggregate credit risk in investment grade corporate bonds.
 
-# 5.2 Equity Capital, Bank Accounting Profits, and Valuation
+## 5.2 Equity Capital, Bank Accounting Profits, and Valuation
 
 We now illustrate the comparative statics exercise in Lemma 3. Specifically, we now consider the accounting profitability and valuation of our stylized banks with a value for leverage in these banks of  $\Theta = 0.85$ . Results are reported in the lower half of Table 2.
 
@@ -671,13 +698,13 @@ This reduction in banks' book leverage has a striking impact on their market val
 
 The results in Table 2 from this second simple numerical exercise highlight the quantitative implications of Lemma 3, that is, the prediction of our model that an increase in bank capital following a crisis should be expected to substantially reduce bank market valuations and accounting profitability relative to what was observed prior to that crisis.
 
-# 5.3 Risk Taking and Accounting Profitability
+## 5.3 Risk Taking and Accounting Profitability
 
 As shown in Table 2, the accounting profitability of our stylized bank rises in the risk exposure of its assets.[25] We can use the benchmark for accounting profitability in equation (18) to decompose the accounting profitability of banks observed in normal times into a component that is due to exposure to aggregate risk  $ROE(n) - \overline{ROE}$  and a component that is due to the fair value of bank equity  $\overline{ROE}$ .
 
 For our stylized banks in which FVE = Be, we have  $\overline{ROE} = i$ , which we calibrate to  $i = 5\%$ . For each of our stylized banks, we see that they show accounting profitability in normal times in excess of this benchmark, with this gap increasing as the credit quality of the bank's assets is reduced. Note that this excess accounting profitability for the  $BBB$  bank with book leverage of  $\Theta = 0.9$  is  $840bp$ . When book leverage is reduced to  $\Theta = 0.85$ , this excess profitability is reduced to  $560bp$ . The risk-neutral expectation of the bank's accounting profitability, however, is unchanged at  $\overline{ROE}$  regardless of risk taking. A bank that takes risks succeeds at raising its accounting profitability in normal times at the expense of reducing its profitability in the crisis state. From equation (19) and our quantitative results, we see how this impact of risk taking on accounting profitability translates into higher valuations of government guarantees.
 
-# 6 Accounting for the Valuation of US Banks
+## 6 Accounting for the Valuation of US Banks
 
 In this section, we use our model to provide a full accounting of the evolution of the market valuation of banks for three time periods: 1970-1985, 1996-2007, and 2011-2017. We choose these time periods to correspond to "normal" states as opposed to crisis states. We omit the time period between 1986 and 1995 because this was a period of rapid change in the regulatory environment and business models for banking and of substantial volatility in bank earnings and valuations. We omit the years 2008-2010 as these correspond to a crisis period in banking. Table 3 summarizes
 
@@ -687,7 +714,7 @@ In the first step, we construct a measure of the fair value of bank equity, usin
 
 In the second step, we construct a measure of the model's implications for the market value of bank equity. This measure is the maximum of the fair value of bank equity and the market value of bank equity conditional on equity defaulting in the crisis state from equation (16). The inputs required here are measures of the risk-free interest rate  $i$ , a measure of the growth rate of the bank balance sheet in normal times  $g(n)$ , a measure of the bank's free cash flow to equity in the normal state  $DIV_{E}(n)$  given observed accounting profitability, and our calibration of the risk-neutral probability of the normal state  $q(n) = 0.95$ . Hence, this second step gives us a measure of the ratio of the market value of government guarantees to the fair value of bank equity implied by  $\frac{\text{MVE-FVE}}{\text{BVE}}$ .
 
-# 6.1 First Step: FVE
+## 6.1 First Step: FVE
 
 Measurement of Franchise Value in Banking. From equation (11), the fair value of bank equity, and hence the franchise value of the bank, is determined by the fair value of the current stock of bank loans relative to its book value  $v_{L}$ , the fair value of the current stock of deposits relative to its book value  $v_{D}$ , the leverage of the bank  $\Theta_{D}$ , and the value of the bank's opportunities to originate new loans and deposits. Note that the subordinated debt of the bank is recorded on the balance sheet at its market price, so we are able to read  $\Theta_{B}v_{B}$  off bank balance sheets.
 
@@ -739,7 +766,7 @@ Results on Bank Franchise Values Bank franchise parameters give us the following
 
 holding companies in the 1996-2007 time period and 1.10 for bank holding companies in the 2011-2017 time period. Thus, our estimates imply that bank franchise values have fallen considerably relative to bank book equity — from  $33\%$  in 1996-2007 to  $10\%$  in 2011-2017.
 
-# 6.2 Second Step: MVE
+## 6.2 Second Step: MVE
 
 Market Value of Equity We now turn to the second step of our accounting, that of measuring the model's implications for the market value of bank equity. For this step, from equation (16) we require measures of the following parameters:  $q(n), i, g(n)$ , and  $ROE(n)$ . These parameters are presented in the top panel of Table 3, where we compute  $ROE(n) = ROA(n) / (1 - \Theta)$ .
 
@@ -755,7 +782,7 @@ $$
 
 To estimate the market price of subordinated debt  $v_{B}$ , we use data on banks' bond spreads as described in Section 2. We have that  $v_{B} = \frac{1 + i}{1 + y}$  where  $y$  is the yield on subordinated debt. We calibrate the spreads on bank-subordinated debt  $y_{B} - i$  to 93bp for 1996-2007 and 147bp for 2011-2017. We do not have data for the 1970-1985 time period. We use a spread of 100bp for this time period. This calibration implies values of  $v_{B}$  equal to 0.991 for 1970-1985 and 1996-2007 and 0.986 for 2011-2017. Using these data, we have implied values of  $\Theta_{B}$ .
 
-# 6.3 Results
+## 6.3 Results
 
 Our results are presented in the bottom panel of Table 3.
 
@@ -771,7 +798,7 @@ We have seen that the book value of bank leverage has declined steadily across t
 
 The answer lies in the amount of aggregate risk in bank assets. To derive this answer, we use equation (18) to measure the excess accounting return on equity of banks in normal times for these three time periods.[38] We find a value of  $ROE(s^n) - \overline{ROE}$  of only 89bp in the 1970-1985 time period. This excess accounting return to equity contrasts sharply with the value of 908bp in the 1996-2007 time period and the value of 577bp for the 2011-2017 time period. Based on this evidence, we argue that risk taking by banks in terms of the exposure in bank assets rose sharply from the 1970-1985 time period to the 1990s and beyond. This evidence suggests that the risk in bank assets has declined only modestly since the crisis of 2008.[39]
 
-# 7 Conclusion
+## 7 Conclusion
 
 In this paper, we have shown that a large part of the evolution of bank valuations from 1970 to the present can be explained by changes in the value of government guarantees. By increasing leverage and exposure to losses in credit crisis states, bankers increase the capitalized value of government guarantees. We show that changes in the capitalized value of these guarantees, driven mainly by changes in bank leverage, risk taking, and the growth rate of banks' balance sheets, have been at least as important as banks' true franchise values in determining the value of US banks over time.
 
@@ -824,19 +851,19 @@ Figure 9: Corporate Bond Log Option-Adjusted Spreads The blue line is the averag
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b7bb2165-7d23-49bd-b208-91fbdd98f9a6/2b91e88bcd5c09ee4eed9ba8aff141b218146e94d1d0a765572ae3df96270b4a.jpg)  
 Figure 10: Fair to Book Value of Loans The ratio is computed as the sum of the fair value of loans across bank holding companies divided by the sum of the book value of loans across bank holding companies. Observations of fair value of loans come from notes in the annual reports of bank holding companies. See, for example, note 22 "Fair Value of Financial Instruments", on page 208 of the 2016 Bank of America annual report. We collected observations for Bank of America, Citigroup, JP Morgan Chase, Wells Fargo, American International Group, Metlife, American Express, Huntington Bancshares, Fifth Third Bank, Washington Mutual, SunTrust Banks, Regions Financial Corporation, PNC Financial Services, National City Corporation, Zions Bancorporation, Countrywide Financial, Comerica, KeyCorp, and U.S. Bancorp.
 
-# Noninterest Income Share
+## Noninterest Income Share
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b7bb2165-7d23-49bd-b208-91fbdd98f9a6/898837793d3d2676f08fe37784dca2435c1c1049d957bb3062ce86b2f0ca2efc.jpg)  
 Figure 11: Non-Interest Income Share by Bank Size Non-interest income as a percentage of net operating revenue. Net operating revenue is defined as the sum of net interest income and non-interest income. Source: Federal Reserve Bank of New York, "Quarterly Trends for Consolidated US Banking Organizations" 4th quarter 2017.
 
-# Return on Equity
+## Return on Equity
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b7bb2165-7d23-49bd-b208-91fbdd98f9a6/51b34dc1e956529db7e638ba9c7f2c49adc9a05f523e9273bf24365733639d85.jpg)  
 Figure 12: Return on Equity by BHC Size Source: Federal Reserve Bank of New York, "Quarterly Trends for Consolidated US Banking Organizations" 4th quarter 2017.
 
-# A Omitted Proofs
+## A Omitted Proofs
 
-# A.1 Proof of Lemma 1
+## A.1 Proof of Lemma 1
 
 It is clear from the Bellman equations that a decrease in profitability decreases both MVE and FVE. Since  $\mathrm{BVE} = 1 - \Theta$  is not affected by profitability, it follows that both MVE/Be and FVE/Be decrease. To sign the net impact on MVG, recall the Bellman equation for FVE:
 
@@ -858,7 +885,7 @@ $$
 
 The left-hand side is strictly increasing in  $\rho$  and the right-hand side is weakly decreasing. It is clear that any parameter that decreases dividends in all states, besides growth and leverage, increases the right-hand side. This implies that following any change in parameter that decreases dividends in all states, besides growth and leverage,  $\rho$  must increase.
 
-# A.2 Proof of Lemma 2
+## A.2 Proof of Lemma 2
 
 Recall the equation for MVE:
 
@@ -882,7 +909,7 @@ $$
 
 for some coefficients  $a$  and  $k_{n}$  since the dividend is an affine function of shocks and the shocks are affine functions of the  $\varepsilon$ 's. Now it is easy to see that, for any mean zero random variable, the function  $\sigma \mapsto \mathbb{E}\left[\max \{0,a + b\sigma \varepsilon \} \right]$  is increasing in  $\sigma$ , so the result follows.
 
-# A.3 Proof of Lemma 3
+## A.3 Proof of Lemma 3
 
 Start from the right-hand side of (23). Let
 
@@ -898,7 +925,7 @@ $$
 
 whenever the right-hand side of the Bellman equation (23) is positive. This implies that a decrease in  $\Theta$  decreases  $\rho$ .
 
-# A.4 Proof of Lemma 4
+## A.4 Proof of Lemma 4
 
 We have
 
@@ -926,7 +953,7 @@ $$
 1 + \phi_ {L}, \text {o r} v _ {D} <   1 - \phi_ {D}.
 $$
 
-# B Frequently Asked Questions
+## B Frequently Asked Questions
 
 Here we address several questions that have been asked about our modeling and measurement of the fair value of banks and of the value of government guarantees for banks. These questions are as follows.
 
@@ -940,7 +967,7 @@ Here we address several questions that have been asked about our modeling and me
 
 We address each of these questions in the subsections below.
 
-# B.1 A Full Accounting for Fair Value of the Balance Sheet
+## B.1 A Full Accounting for Fair Value of the Balance Sheet
 
 In our measurement of the franchise value of banks, we have focused on measuring the gap between the fair value and book value of banks' loans and deposits. Would consideration of the gap between the fair value and book value of the other assets and liabilities on banks' balance sheets have a substantial impact on our measurement of banks' franchise value?
 
@@ -954,7 +981,7 @@ Note that these disclosed estimates of the fair value of bank assets and liabili
 
 Nissim and Penman (2007) provide a comprehensive discussion of the gap between the fair and book values of all of the items on banks' balance sheets. Using data from before the crisis, they report, "On average,  $36\%$  of banks' reported assets (cash and balances due, federal funds sold, securities purchased under resell agreements, available-for-sale securities, and trading assets) and  $16\%$  of their liabilities (federal funds purchased, securities sold under repurchase agreements, and trading liabilities) were reported on the balance sheet at or close to fair value. Another  $52\%$  of assets (loans, held-to-maturity securities, and other financial assets) and  $34\%$  of liabilities (time deposits and debt) were subject to Statement of Financial Accounting Standard (SFAS) 107 and SFAS 115 fair value disclosure requirements. Thus, for approximately  $88\%$  of BHCs' reported assets and  $50\%$  of their liabilities, fair value estimates were generally available during the sample period." They further conclude that the difference between the fair and book values of existing assets is likely of "secondary importance."
 
-# B.2 Non-interest Income and Bank Value
+## B.2 Non-interest Income and Bank Value
 
 In our measurement of the franchise value of banks, we have assumed that bank equity does not derive significant value from banks' non-interest income other than
 
@@ -976,7 +1003,7 @@ Next we consider data on the valuation of banks by bank size. Figure 3 shows mea
 
 41The large decline in bank return on equity in the final quarter of 2017 is largely due to the impact of the recent corporate tax cut on the valuation of banks' tax assets.
 
-# B.3 Interest Rate Risk
+## B.3 Interest Rate Risk
 
 In our model of the value of government guarantees, we have assumed that the risks that banks face are independent and identically distributed (i.i.d.) over time. With this stark modeling assumption, we can derive very simple formulas for the value of government guarantees based on a few parameters. We see this simplicity as the main advantage of our modeling framework.
 
@@ -990,7 +1017,7 @@ underlying fundamental risks. As discussed in section 5, we can also model these
 
 Begenau, Piazzesi, and Schneider (2015) is an important study of the joint distribution of interest rate and credit risk faced by banks. Future work should incorporate results from their model of the returns banks obtain from exposure to these risks to improve the computation of the implied value of government guarantees.
 
-# B.4 Government guarantees and the value of growing a bank
+## B.4 Government guarantees and the value of growing a bank
 
 In our model of the value of government guarantees for banks, we have assumed that banks' opportunity to grow their balance sheets contributes to the value of these guarantees. That is, we assume that (i) the government guarantee is a regulatory rent, (ii) the value of which accrues to the owners of bank liabilities (insured debt and equity), and that (iii) bankers can expand the value of this rent by growing their bank.[42] What justification can we provide for these assumptions?
 
@@ -1021,7 +1048,7 @@ Based on these observations, we interpret the assumption that the growth of bank
 49This is the apparent paradox pointed to in Tullock (1980) of the low costs of rent seeking relative to the gains from rent seeking.  
 $^{50}$ Such expenses could be modeled in a manner parallel to the non-interest expenses  $\phi_L$  and  $\phi_D$  we assumed that banks incur to grow deposits and loans.
 
-# B.5 The impact of the length of the time period on valuation
+## B.5 The impact of the length of the time period on valuation
 
 In our valuation model for banks, we use a discrete time model and consider each time period to be one year. Hence, we have implicitly assumed that banks are required to meet capital standards only once per year (at the beginning of each time period) and that the risks to bank assets and liabilities over a one-year horizon is the relevant horizon for measuring bank risks. We choose this time period based on the observation that larger banks are required to undergo a full examination annually. This convention of an annual review of bank balance sheets has continued post crisis with the implementation of annual stress tests and approval of capital plans for larger banks.
 
@@ -1037,7 +1064,7 @@ There is a large literature in finance, both in option pricing and structural cr
 
 Based on these observations that the risk of jump to default is likely to be an important driver of the risk of bank failure, we conjecture that the choice of the length of a time period in our model does not have a substantial impact on our results.
 
-# B.6 Comparison to other estimates in the literature
+## B.6 Comparison to other estimates in the literature
 
 Our finding of large capitalized values of government guarantees in the period before 2008 follows a large literature on the impact of government guarantees on the value of bank debt and equity. Li, Qu, and Zhang (2011), Office (2014) and Acharya, Anginer, and Warburton (2016) are recent studies of the impact of government guarantees on the pricing of bank bonds. Schweikhard and Tsesmelidakis (2012) study the impact of government guarantees on bank CDS spreads relative to equity based estimates of banks' probability of default. Gandhi and Lustig (2015) and Gandhi, Lustig, and Plazzi (2017) study the impact of government guarantees on the pricing of bank equity. Kelly, Lustig, and Van Nieuwerburgh (2016) study the impact of government guarantees on the pricing of options on bank equity. This paper highlights the impact of guarantees on option pricing due to guarantees against an aggregate or systemic shock to the financial sector as opposed to an idiosyncratic shock to an individual bank. All of this literature finds a significant impact of government guarantees on the pricing of bank debt and equity, particularly for larger banks.
 
@@ -1070,7 +1097,7 @@ Note that if one assumes a model in which risk to bank dividends and growth is i
 $^{54}$ Lucas, Klaassen, Spreij, and Straetmans (2001) and Nagel and Purnanandam (2017) provide theoretical arguments that returns on bank portfolios should be expected to have a thick tail of extreme negative returns. Recall that our measure of the value of government guarantees for stylized banks in section 5 is a proof of concept based on direct observation of the downside risk in portfolios of corporate bonds.  
 [55] As discussed in Atkeson, Eisfeldt, and Will (2017), the distribution of equity volatility across firms appears to experience regime shifts that have a dramatic impact on estimates of the risk in firm or bank assets derived from a Merton-type structural credit risk model. See, for example, estimates of the probabilities of default of European banks based on this method in Flannery and Giacomini (2015). These regime shifts suggest that it may be fruitful to move beyond an i.i.d. model of the risks facing banks to include shifts in regimes. See d'Avernas (2017) for a regime-switching model of equity volatility and bond spreads for non-financial firms in the United States.
 
-# References
+## References
 
 Viral V. Acharya, Deniz Anginer, and A. Joseph Warburton. The end of market discipline? Investor expectations of implicit government guarantees. Unpublished paper, May 2016.  
 Anat Admati and Martin Hellwig. The Banker's New Clothes: What's Wrong with Banking and What to Do about it. Princeton University Press, Princeton, NJ, 2013.  

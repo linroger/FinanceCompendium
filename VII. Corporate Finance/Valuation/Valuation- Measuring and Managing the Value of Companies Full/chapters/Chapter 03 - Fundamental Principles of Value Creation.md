@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Fundamental Principles of Value Creation
 linter-yaml-title-alias: Fundamental Principles of Value Creation
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [value creation, roic, revenue growth, discounted cash flow]
+secondary_tags: [investment strategies, capital allocation, shareholder wealth, financial performance]
 ---
 
-# Fundamental Principles of Value Creation
+## Fundamental Principles of Value Creation
 
 Companies create value for their owners by investing cash now to generate more cash in the future. The amount of value they create is the difference between cash inflows and the cost of the investments made, adjusted to reflect the fact that tomorrow's cash flows are worth less than today's because of the time value of money and the riskiness of future cash flows. As we illustrated in Chapter 2, the conversion of revenues into cash flows—and earnings—is a function of a company's return on invested capital (ROIC) and its revenue growth. That means the amount of value a company creates is governed ultimately by its ROIC, revenue growth, and ability to sustain both over time. Keep in mind that a company will create value only if its ROIC is greater than its cost of capital. Moreover, only if ROIC exceeds the cost of capital will growth increase a company's value. Growth at lower returns actually reduces a company's value. Exhibit 3.1 illustrates this core principle of value creation.
 

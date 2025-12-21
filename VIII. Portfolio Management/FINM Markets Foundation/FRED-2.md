@@ -1,9 +1,19 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: "FRED Data Retrieval - Part 2"
+parent_directory: FINM Markets Foundation
+formatted: 2025-12-20 06:50:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - economic data retrieval
+  - fred api integration
+secondary_tags:
+  - macroeconomic indicators
+  - inflation breakeven rates
+  - federal reserve data
+  - labor market statistics
+  - government debt metrics
 cssclasses: academia
-title: FRED-2
 ---
 
 # FRED-2

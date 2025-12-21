@@ -1,11 +1,17 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Volatilities Correlations
+parent_directory: Options, Futures, and Other Derivatives
+formatted: 2025-12-20 07:05:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - volatility estimation
+  - correlation analysis
+secondary_tags:
+  - garch model
+  - exponentially weighted moving average
+  - maximum likelihood methods
 cssclasses: academia
-title: Chapter 23. Estimating volatilities and correlations 520
-linter-yaml-title-alias: Chapter 23. Estimating volatilities and correlations 520
 ---
 
 # Chapter 23. Estimating volatilities and correlations 520

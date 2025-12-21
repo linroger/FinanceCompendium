@@ -1,9 +1,17 @@
 ---
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: M.1. Homework
+parent_directory: FINM Markets Foundation
+formatted: 2025-12-20 07:02:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - treasury debt analysis
+  - yield to maturity
+secondary_tags:
+  - time to maturity
+  - discount yields
+  - short-term rates
+cssclasses: academia
 ---
 
 # M.1. Homework

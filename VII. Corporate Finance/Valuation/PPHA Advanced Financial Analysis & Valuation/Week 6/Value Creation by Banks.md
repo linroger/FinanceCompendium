@@ -1,6 +1,11 @@
 ---
 parent_directory: PPHA Advanced Financial Analysis & Valuation/Week 6
 title: "Week 6: The Cross-Section of Bank Value"
+formatted: "2025-12-20 07:47:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [value creation, bank productivity, deposit taking, asset management]
+secondary_tags: [financial institutions, market-to-book ratio, industrial organization, cross-sectional analysis]
 tags:
 aliases:
   - "The Cross-Section of Bank Value"
@@ -11,7 +16,7 @@ cssclasses: academia
 linter-yaml-title-alias: "Week 6: The Cross-Section of Bank Value"
 ---
 
-# The Cross-Section of Bank Value
+## The Cross-Section of Bank Value
 
 Mark Egan
 
@@ -67,7 +72,7 @@ appears to be less important for value than for deposit productivity. A related 
 
 A large literature investigates the synergies between bank assets and liabilities.7 Consistent with this literature, we find that a bank's asset productivity is correlated with its deposit productivity. Synergies make it challenging to separately assign value to a bank's deposit and lending businesses since being deposit productive might raise a bank's asset productivity and vice versa. We show that our treatment of synergies does not affect our overall conclusions about value creation. Even when we ascribe the part of deposit productivity correlated with asset productivity to asset productivity, deposit productivity is still responsible for the majority of bank value.
 
-# 1. Economic Framework
+## 1. Economic Framework
 
 In this section, we present a simple economic framework linking a bank's value with its productivity at raising deposits and its skill at investing its assets. Let  $A_{jt}$  be the total assets of bank  $j = 1,\dots,J$  at time  $t$ . Banks fund their assets by raising deposits  $D_{jt}$  and with equity  $E_{jt}$ . Per-period bank profits are then given by
 
@@ -91,7 +96,7 @@ where  $\pi_{jt}^{*}(\phi_{jt},\delta_{jt})$  is the bank's equilibrium profits.
 
 This simple framework demonstrates why we need to recover productivity primitives in order to decompose bank value between lending and deposit taking. The bank's equilibrium assets and deposits depend on both primitives. Similarly, the return on assets the bank earns and the cost of deposits the bank pays depend on both primitives. If a bank is good at gathering deposits, it will optimally scale up. If it faces diminishing returns, as the bank scales up, it will earn less on its assets and pay more on its deposits. Similarly, if a bank is good at lending, it will optimally scale up, and as it scales up, it will earn less on its assets and pay more on its deposits. Thus, the bank's equilibrium balance sheet, as well as its equilibrium interest income and interest expense, mix how good the bank is at raising deposits with how good it is at lending. To attribute bank value to deposit taking or lending, we must therefore first recover the primitives  $\phi_{jt}$  and  $\delta_{jt}$ .
 
-# 1.1 Bank assets
+## 1.1 Bank assets
 
 We now describe how we use a standard, flexible framework from the industrial organization literature to recover the primitives  $\phi_{jt}$  and  $\delta_{jt}$  in the data. On the asset side, we model bank  $j$  as generating revenue of  $Y_{j,t} = f(A_{j,t};\phi_{j,t})$  from making loans and holding securities, where total assets  $A_{jt}$  equal the sum of the deposits and other capital.
 
@@ -105,7 +110,7 @@ This functional form corresponds to a first-order Taylor series approximation of
 
 Asset productivity directly translates into bank profits and value in our framework. As an illustration, suppose a bank's asset productivity increases from  $\phi_j^0$  to  $\phi_j^1$ . All else equal, this increase in asset productivity results in an increase in profits of  $(\phi_j^1 - \phi_j^0)A_{jt}^\theta$ . In other words, the partial derivative of profits with respect to asset productivity is simply  $\frac{\partial \pi}{\partial \phi_{jt}} = A_{jt}^\theta$ .
 
-# 1.2 Bank deposits
+## 1.2 Bank deposits
 
 On the deposit side, we model banks as producing deposit products that are valued by consumers. The value consumers place on deposits is a function of the deposit rate and quality of services provided. A consumer depositing funds at bank  $j$  at time  $t$  earns the net-of-fee deposit rate  $i_{jt}$ , which yields utility  $\alpha i_{jt}$ . The parameter  $\alpha > 0$  measures the consumer's sensitivity to deposit rates. Depositor  $k$  also derives utility from deposit services produced by banks, given by  $F_{jt}(X_{jt}) + \varepsilon_{jkt}$ . The function  $F_{jt}(X_{jt})$  is a bank-specific production function for turning costly inputs  $X_{jt}$ , such as capital, labor, and noninterest expenditures, into services valued by consumers like At Ms and checking services. We parameterize the production function as  $F_{jt}(X_{jt}) = \beta X_{jt} + \delta_{jt}$ . The parameter  $\beta$  reflects a technology that is common across banks for turning costly inputs into services valued by consumers. We assume that these noninterest inputs  $X_{jt}$  are fixed on a short-term (quarter-to-quarter) basis, while deposit rates are flexibly adjusted. The bank-specific effect,  $\delta_{jt}$ , denotes the bank's productivity at raising deposits. Conditional on the other inputs, banks with higher deposit productivity offer superior services and hence higher utility to consumers. Thus, deposit productivity captures differences in efficiency across banks in producing deposits from costly inputs  $X_{jt}$ . Variation in productivity could be driven by differences in production technologies (i.e., physical productivity), brand/franchise value, selection of markets to operate in, and other factors. Finally, the term  $\varepsilon_{jkt}$  is a consumer-bank-specific utility shock capturing
 
@@ -127,7 +132,7 @@ The total market size for deposits at time  $t$  is denoted  $N_{t}$ , so bank  
 
 Deposit productivity has a direct effect on the cost of raising deposits. Let  $c(D_{jt}; \mathbf{i}_{-jt}; \delta_t)$  denote the interest cost of collecting  $D_{jt}$  deposits. One can show that a one-unit increase in deposit productivity decreases the cost of collecting  $D_{jt}$  deposits by  $\frac{1}{\alpha} D_{jt}$ , that is,  $\frac{\partial c(D_{jt}; \mathbf{i}_{-jt}; \delta_t)}{\partial \delta_{jt}} = -\frac{1}{\alpha} D_{jt}$ . Thus, a one-unit increase in deposit productivity leads to a  $\frac{1}{\alpha} D_{jt}$  increase in profits.
 
-# 1.3 Summary
+## 1.3 Summary
 
 Putting together the asset side and deposit side, the specific version of the profit function equation (1) we work with empirically is
 
@@ -137,15 +142,15 @@ $$
 
 Note that bank profits are linear in both deposit and asset productivity,  $\frac{\partial\pi_{jt}}{\partial\phi_{jt}} = A_{jt}^{\theta} > 0$  and  $\frac{\partial\pi_{jt}}{\partial\delta_{jt}} = \frac{1}{\alpha} D_{jt} > 0$ . In the empirics, we use these specifications to recover each bank's deposit and asset productivity in the data and then examine how variation in bank deposit and asset productivity contribute to bank value.
 
-# 2. Data and Estimation
+## 2. Data and Estimation
 
-# 2.1 Data
+## 2.1 Data
 
 Our primary data source is the Federal Reserve FR Y-9C reports, which provide quarterly balance sheet and income statement data for all U.S. bank holding companies. We supplement the Y-9C data with stock market data from CRSP and weekly branch-level data on advertised deposit rates from RateWatch. We also obtain branch-level deposit quantities from the annual FDIC Summary of Deposits files and data on consumer complaints from the Consumer Financial Protection Bureau. Finally, we obtain countyand metropolitan statistical area (MSA)-level demographic characteristics from the U.S. Census Bureau, and mortgage originations from Home Mortgage Disclosure Act (HMDA) data.
 
 Our sample is the universe of publicly listed U.S. bank holding companies. Our primary data set consists of an unbalanced panel of 847 bank holding companies over the period 1994 through 2015. Observations are at the bank holding company by quarter level. Table 1 provides the summary statistics for our main data set. Our three primary measures of bank risk are equity beta, the standard deviation of return on assets, and the standard deviation of the return (net of losses) on loan and securities. Following Baker and Wurgler (2015), we calculate the equity beta for each bank using monthly returns over the past 2 years. Similarly, we measure the standard deviation of return on assets and net return on loans and securities using quarterly data over the past 2 years. Internet Appendix E defines the variables.
 
-# 2.2 Estimation: Bank deposits
+## 2.2 Estimation: Bank deposits
 
 We estimate the demand system described in Section 1.2 using our bank data set over the period 1994 through 2015. Using equation (4), we write a bank's log market share  $s_{jt}$  as
 
@@ -199,7 +204,7 @@ The table displays the results corresponding to our demand estimates (Equation (
 
 Our estimates of deposit productivity have an intuitive reduced-form interpretation. More productive banks are raising more deposits with the same inputs than less productive banks. Bank deposit productivity is highly persistent in the data, with a quarterly autocorrelation of 0.99.
 
-# 2.3 Estimation: Bank assets
+## 2.3 Estimation: Bank assets
 
 Next, we estimate the asset production function to recover each bank's asset productivity at a given point in time. We focus on assets associated with traditional banking, namely, loans and securities held outside the trading book, because these are the main assets held by the banks in our sample.
 
@@ -241,9 +246,9 @@ $$
 
 Our asset productivity is equal to the estimated bank fixed effect plus the bank-quarter-specific residual. Note that this construction implies that our asset productivity measures will include any differences in economies of scale  $(\theta)$  across banks. In our main results, we calculate banks' asset productivity using this equation based on the estimates in column 5 of Table 3. The reduced-form interpretation of our results is simply that more asset-productive banks generate more income than less productive banks with the same inputs. Asset productivity is highly persistent in the data, with a quarterly autocorrelation of 0.95.
 
-# 3. Economic Sources of Bank Value
+## 3. Economic Sources of Bank Value
 
-# 3.1 Productivity and the cross-section of bank value
+## 3.1 Productivity and the cross-section of bank value
 
 We begin by examining how our productivity measures relate to a stock-market based measure of value: the market-to-book (M/B) ratio. It is worth noting up front that because we are using a market-based measure of value, our results only directly speak to private value created for shareholders, not the total social value created by banks.
 
@@ -279,7 +284,7 @@ Next, we compare the relative importance of deposit and asset productivity in de
 
 a one-standard-deviation increase deposit productivity is associated with an increase of 0.2 points in M/B, whereas a one-standard-deviation increase in asset productivity is associated with an increase of 0.08 points in M/B. Relative to asset productivity, the impact of deposit productivity is about twice as large in column 5, where we only include time fixed effects, and roughly seven times as large in column 6, where we include the full suite of controls. This suggests that liability-driven theories of bank value creation, which focus on the special services provided by bank deposits, explain more variation in the cross-section of banks than do asset-driven theories.
 
-# 3.2 Relationship between deposit and asset productivity
+## 3.2 Relationship between deposit and asset productivity
 
 An important consideration in our above analysis is that there may be synergies between deposit gathering and lending. Synergies make it challenging to separately assign value to a bank's deposit and lending businesses. A bank may have a high value of our asset productivity measure, that is, earn high revenues given its asset base, because in reality it is deposit productive (e.g., its deposit business allows it to write highly profitable credit lines). Conversely, a bank may have a high value of deposit productivity, that is, raise many deposits at relatively low cost, because in reality it is asset productive (e.g., has a good mortgage origination business that allows it to gather low-cost deposits by requiring that borrowers establish a deposit account).
 
@@ -318,7 +323,7 @@ In contrast, if we are as generous to the liability side of the balance sheet as
 
 It is worth noting that if synergies played a central role in bank value creation, we would not be able to assign value to one side of the balance sheet or the other. For instance, consider the synergies between deposits and credit lines emphasized by Kashyap, Rajan, and Stein (2002). Having more deposits raises the value to a bank of writing credit lines by reducing the incremental liquidity needed to meet draws on those credit lines. Conversely, having more credit lines increases the value of raising deposits because deposits allow the bank to reduce the amount of liquidity it holds to meet draws on credit lines. In this case, the incremental value generated by the union of deposits and credit lines does not "belong" to either the asset or liability side of the balance sheet. If these kinds of synergies constituted the majority of bank value, then our bounding exercise above would result in vastly different results when we attribute all synergies to the asset side of the balance sheet than when attribute all synergies to the liability side. The results of our bounding exercise suggest instead that synergies do create value but that they are not so large as to render our balance sheet decomposition uninformative.
 
-# 3.3 From the cross-section to levels
+## 3.3 From the cross-section to levels
 
 Thus far, our results speak to the cross-section of bank value. With additional assumptions, we can also make statements about levels of net income and M/B. These exercises, which we will describe below, imply that for the average bank, deposit productivity makes a larger contribution to value than asset productivity.
 
@@ -365,7 +370,7 @@ for about twice as much value as asset productivity. The mean deposit share of b
 
 Overall, our results show that deposit productivity is more important than asset productivity for explaining both the level of bank value and variation in value across banks.
 
-# 3.4 Which assets and liabilities create value?
+## 3.4 Which assets and liabilities create value?
 
 In this section, we disaggregate our results, asking which products and business lines are most related to bank valuations. This analysis sheds further light on the economic sources of bank value creation since certain products are most closely associated a particular theory of value creation. For instance, checking deposits are most closely associated with transaction services.
 
@@ -414,7 +419,7 @@ In Table 7, we examine the correlations between our deposit productivity measure
 
 Table 7 displays correlations between our asset productivity measure and banks' asset composition. Columns 1-3 show that more productive banks tend to hold more real estate loans and more loan commitments (credit lines). This is consistent with the idea that more productive banks have better screening and monitoring technologies that allow them to make loans with high risk-adjusted returns. Overall, we find strong evidence that our productivity measures are capturing meaningful information about bank-specific business line specialization.
 
-# 4. What Drives Differences in Productivity?
+## 4. What Drives Differences in Productivity?
 
 What are the underlying sources of variation in our productivity measures? The industrial organization literature finds that a number of variables including technology, quality of inputs, market power, and firm structure are primary drivers of nonfinancial firms' productivity (Syverson, 2011). In the context
 
@@ -428,7 +433,7 @@ of banks, explanations for differences in productivity can be categorized broadl
 
 In this section, we use additional data sources to show that our deposit and asset productivity measures appear to be driven by both technological and customer-based explanations. Despite the difficulty in fully decomposing our productivity measures into either customer based or technological sources, and given that we only have rough proxies for each and that the two broad sources may be intimately related (Syverson 2004; Holmes, Levine, and Schmitz 2012), these results provide additional insight into the factors driving our asset and deposit productivity measures and hence bank value.
 
-# 4.1 Customers
+## 4.1 Customers
 
 To examine customer-based explanations for variation in our productivity measures, we analyze the demographic and geographic correlates of our productivity measures in Table 8, panel A. We combine county-level Census data with the FDIC's Summary of Deposits to compute average demographic characteristics of the counties where a bank operates, weighted by the fraction of the bank's deposits in each county. Column 1 shows the correlation between asset productivity and these demographic characteristics. There is a concave, increasing relationship between asset productivity and population. Banks in higher-population areas have higher asset productivity, but the relationship fades as population increases since the coefficients for the squared terms are negative. Banks in high house price areas also have higher asset productivity. Market power also appears to matter. Banks with high asset productivity tend to operate in less competitive areas, as measured by the Herfindahl-Hirschman index (HHI) of mortgage originations from Home Mortgage Disclosure Act (HMDA) data.
 
@@ -436,7 +441,7 @@ In column 2, we add geographic fixed effects to flexibly control for other unobs
 
 These results suggest that customer-based explanations play a large role in explaining variation in our deposit productivity and asset productivity measures. However, Table 8, panel B, shows that even after controlling for MSA fixed effects and directly including demographic characteristics and market concentration variables in our regressions, our main findings continue to hold: our productivity measures are still strongly related to bank value, and deposit productivity continues to have a larger impact than asset productivity. In total, demographic and geographic variables explain about  $40\%$  of the variation in M/B, suggesting there is significant remaining variation for technological differences in productivity to explain.
 
-# 4.2 Technology: Consumer complaints
+## 4.2 Technology: Consumer complaints
 
 Next, we turn to technological sources of variation in productivity by examining the quality of services offered by the bank. We supplement our baseline data with data from the Consumer Financial Protection Bureau's (CFPB) Consumer Complaint Database. The CFPB collects data on consumer complaints filed over the period 2011-2015 on various financial products. We manually match firm names in the CFPB database to 79 bank holding companies in our baseline
 
@@ -458,7 +463,7 @@ The table displays the relationship between productivity and the quality of serv
 
 find that banks with larger brand effects receive fewer complaints per depositor. Columns 3 and 4 of Table 9 examine the relationship between asset productivity and CFPB complaints. There is little relationship between asset productivity and the number of CFPB complaints a firm receives. To the extent that asset productivity measures the investment and risk management skill of a bank, it is not surprising that we do not find a relationship between asset productivity and CFPB complaints.
 
-# 4.3 Technology: Rate setting
+## 4.3 Technology: Rate setting
 
 Finally, we examine another technological source of variation in productivity: firm structure decisions and pricing technology. Specifically, we look at the relationship between a bank's rate-setting technology and productivity.
 
@@ -474,13 +479,13 @@ The table displays the relationship between productivity and the variation in ra
 
 productivity over time? As Syverson (2004b) and Hsieh and Klenow (2009) show, differences in productivity are generally large and persistent across firms, and there is no reason to think that banks are any different than other types of firms. If anything, banks may face even greater frictions that could limit the convergence of productivity over time. For example, switching costs and information frictions (i.e., relationship lending) are likely to be very important for banks relative to other types of firms, and these factors can significantly limit convergence. As our results in Table 8, panel A, show, the set of customers a bank has captured through its branch network is a key driver of deposit productivity. Because these customers are sticky, it is difficult for other banks to induce them to switch, which makes it difficult for some banks to achieve the high deposit productivity enjoyed by other banks. In addition, labor market search frictions in the spirit of Eeckhout and Kircher (2018) may also affect the matching of workers to firms in a manner that limits productivity convergence. For instance, our evidence in Table 9 shows that banks could increase their deposit productivity if they improved their customer service and reduced the number of CFPB complaints filed against them. However, labor market frictions may prevent banks from finding employees who can provide better customer service.
 
-# 5. Robustness
+## 5. Robustness
 
 We find that banks that are more productive in raising deposits and generating asset income have higher M/B ratios, with deposit productivity accounting for twice as much of bank value as asset productivity. In this section, we show that these general findings hold under a host of alternative specifications. We
 
 explore alternative data, functional forms, and methodologies, including other measures of bank efficiency that have been commonly used in the literature. For brevity, we provide an overview of our robustness checks and findings and relegate many of the details to the Internet Appendix.
 
-# 5.1 Alternative production function and demand estimates
+## 5.1 Alternative production function and demand estimates
 
 We first consider an alternative methodology to compute deposit and asset productivity that directly measures differences in average bank interest expense and interest income. An advantage of this alternative methodology is that both deposit and asset productivity are calculated in parallel fashion, which helps reduce concerns that our findings are driven by the specific approach used to calculate deposit and asset productivity. A drawback is that this alternative methodology does not have a structural interpretation; that is, it does not emerge from a model of optimizing banks and consumers. This means it would be more difficult for us to conduct our analysis of the level of bank value with this methodology.
 

@@ -1,14 +1,20 @@
 ---
+title: Week 6: Bank Goodwill Impairment Study
 parent_directory: PPHA Advanced Financial Analysis & Valuation/Week 6
-title: "Week 6: Bank Goodwill Impairment Study"
-tags:
-aliases:
-  - "Bank Goodwill Impairment Study"
-parent_folder: Week 6
-subfolder:
-key_concepts:
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - bank goodwill
+  - impairment study
+  - financial reporting
+secondary_tags:
+  - fair value
+  - balance sheet integrity
+  - level assets
+  - goodwill impairment
+  - bank valuation
 cssclasses: academia
-linter-yaml-title-alias: "Week 6: Bank Goodwill Impairment Study"
 ---
 
 March 25, 2009
@@ -114,9 +120,9 @@ Mr. William H. Donaldson, CFA, Co-Chair, Council of Institutional Investors
 
 Mr. Arthur Levitt, Jr., Co-Chair, Council of Institutional Investors
 
-# Addendum
+## Addendum
 
-# Bank Goodwill Impairment Study
+## Bank Goodwill Impairment Study
 
 Published: March 18, 2009
 
@@ -134,7 +140,20 @@ ph: 763-595-0900
 
 disclosureinsight.com
 
-# THE BANK WRITE-DOWNS THAT ARE COMING - GOODWILL IMPAIRMENTS PROVIDE A HINT
+## THE BANK WRITE-DOWNS THAT ARE COMING - GOODWILL IMPAIRMENTS PROVIDE A HINT
+
+```d2
+goodwill impairment: {
+  shape: flowchart
+  
+  market_decline: "Market Value Decline"
+  assess_goodwill: "Assess Goodwill for Impairment"
+  impair: "Impair Goodwill"
+  balance_sheet: "Update Balance Sheet"
+  
+  market_decline -> assess_goodwill -> impair -> balance_sheet
+}
+```
 
 At Least 70% of Banks in Our Study Have Questionable Goodwill Balances
 
@@ -147,25 +166,25 @@ Our thesis is simple. The credible assessment of fair value is a critical compon
  3. It appears banks are not adequately impairing their goodwill. While market value isn't necessarily the sole trigger for a bank to impair its goodwill, it is a powerful one. Fully 72% (36 of 50) of the banks we analyzed trade below book with 58% (29 of 50) trading below tangible book. Based on the rules governing goodwill, we expected to find widespread goodwill impairments by banks. That didn't happen. Rather, our analysis shows that 70% (35 of 50) of the banks we analyzed did not impair goodwill in 2008. Despite a pop in the easy credit bubble, a period during which many acquisitions that generated the goodwill were made, only \$21.5 billion (less than 10%) in total goodwill was written down by 15 of the banks in our study.  
 4. Bank of America – The poster child for goodwill desperately in need of impairment. Our analysis of Bank of America's acquisitions of FleetBoston, MBNA, and LaSalle illustrate well why banks need to impair their goodwill more – far more – than they've done to date.
 
-# Banks with the Most Questionable Treatment of Goodwill and/or Intangibles
+## Banks with the Most Questionable Treatment of Goodwill and/or Intangibles
 
-# 15 Banks Trading Below Tangible Book Value Per Share
+## 15 Banks Trading Below Tangible Book Value Per Share
 
-# That Did Not Impair Any Goodwill in 2008
+## That Did Not Impair Any Goodwill in 2008
 
 <table><tr><td>(millions of $, other than per share)</td><td>Goodwill (G)</td><td>Intangibles (I)</td><td>Equity (E)</td><td>(G+I)/ E</td><td>TBV/ Share</td><td>Stock Price</td><td>Price/ TBV</td></tr><tr><td>Huntington Bancshares Inc.</td><td>$3,055.0</td><td>$356.7</td><td>$7,227.1</td><td>47.2%</td><td>$10.42</td><td>\$1.74</td><td>0.17</td></tr><tr><td>Webster Financial Corp.</td><td>529.9</td><td>34.0</td><td>1,874.1</td><td>30.1%</td><td>23.15</td><td>4.44</td><td>0.19</td></tr><tr><td>SunTrust Banks Inc.</td><td>7,043.5</td><td>1,035.4</td><td>22,388.1</td><td>36.1%</td><td>40.36</td><td>12.15</td><td>0.30</td></tr><tr><td>Bank of America Corp.</td><td>81,934.0</td><td>8,535.0</td><td>177,052.0</td><td>51.1%</td><td>17.26</td><td>6.27</td><td>0.36</td></tr><tr><td>Cathay General Bancorp</td><td>319.6</td><td>29.2</td><td>1,292.9</td><td>27.0%</td><td>17.58</td><td>10.61</td><td>0.60</td></tr><tr><td>Comerica Inc.</td><td>150.0</td><td>0.0</td><td>5,100.0</td><td>2.9%</td><td>27.69</td><td>18.51</td><td>0.67</td></tr><tr><td>First Citizens Bancshares Inc.</td><td>102.6</td><td>3.8</td><td>1,443.4</td><td>7.4%</td><td>152.67</td><td>105.00</td><td>0.69</td></tr><tr><td>First Horizon National Corp.</td><td>192.4</td><td>45.1</td><td>3,279.5</td><td>7.2%</td><td>14.82</td><td>10.52</td><td>0.71</td></tr><tr><td>Whitney Holding Corp.</td><td>435.7</td><td>22.9</td><td>1,525.5</td><td>30.1%</td><td>15.73</td><td>11.19</td><td>0.71</td></tr><tr><td>Astoria Financial Corp.</td><td>185.0</td><td>0.0</td><td>1,181.8</td><td>15.7%</td><td>10.40</td><td>8.69</td><td>0.84</td></tr><tr><td>PNC Financial Services Group</td><td>8,868.0</td><td>2,820.0</td><td>25,422.0</td><td>46.0%</td><td>31.00</td><td>28.51</td><td>0.92</td></tr><tr><td>Susquehanna Bancshares Inc.</td><td>1,017.6</td><td>54.0</td><td>1,945.9</td><td>55.1%</td><td>10.15</td><td>9.48</td><td>0.93</td></tr><tr><td>JPMorgan Chase &amp; Co.</td><td>48,027.0</td><td>14,984.0</td><td>166,884.0</td><td>37.8%</td><td>26.35</td><td>25.14</td><td>0.95</td></tr><tr><td>BB&amp;T Corp.</td><td>5,483.0</td><td>542.0</td><td>16,037.0</td><td>37.6%</td><td>17.90</td><td>17.53</td><td>0.98</td></tr><tr><td>City National Corp.</td><td>459.4</td><td>40.6</td><td>2,044.0</td><td>24.5%</td><td>30.30</td><td>30.12</td><td>0.99</td></tr></table>
 
-# Banks Trading Above Tangible Book Value per Share,
+## Banks Trading Above Tangible Book Value per Share,
 
-# But Below Book Value per Share,
+## But Below Book Value per Share,
 
-# That Did Not Impair Any Goodwill in 2008
+## That Did Not Impair Any Goodwill in 2008
 
 <table><tr><td>(millions of $, other than per share)</td><td>Goodwill (G)</td><td>Intangibles (I)</td><td>Equity (E)</td><td>(G+I)/ E</td><td>BV/ Share</td><td>Stock Price</td><td>Price/ BV</td></tr><tr><td>Associated Banc-Corp.</td><td>$929.2</td><td>$801.7</td><td>$2,876.5</td><td>60.2%</td><td>$22.45</td><td>\$13.35</td><td>0.59</td></tr><tr><td>Wells Fargo &amp; Co.</td><td>22,627.0</td><td>14,740.0</td><td>99,084.0</td><td>37.7%</td><td>22.71</td><td>14.66</td><td>0.65</td></tr><tr><td>M&amp;T Bank Corp.</td><td>3,192.0</td><td>183.0</td><td>6,784.0</td><td>49.7%</td><td>56.35</td><td>39.76</td><td>0.71</td></tr><tr><td>New York Community Bancorp</td><td>2,436.4</td><td>87.8</td><td>4,219.2</td><td>59.8%</td><td>12.23</td><td>9.90</td><td>0.81</td></tr><tr><td>State Street Corp.</td><td>4,527.0</td><td>1,851.0</td><td>12,774.0</td><td>49.9%</td><td>29.57</td><td>25.59</td><td>0.87</td></tr></table>
 
 Notes on methodology: This research report relies on data available in the 31-Dec-08 filings made by 50 of the largest banks trading in the United States (based on asset size). Large banks without year-end filings as of 9-Mar-09 were not included. Because of their recent re-definition as bank holding companies, Goldman Sachs (GS) and Morgan Stanley (MS) were not included in this analysis though data for them are provided. Historical and other data are used to illustrate comparables. FASB Statements 142 and 157 are the reference points for rules governing goodwill and fair value accounting referred to in this study. Prices are as of the close on 17-March-09.
 
-# Summary Data:
+## Summary Data:
 
 - Of the 50 banks we analyzed …
 
@@ -191,7 +210,7 @@ $30\%$  impaired their goodwill (15 of the 50)
 
 1. Investors are straining to trust bank balance sheets. Across the 50 banks we analyzed, \$2.74 trillion is categorized as Level 1, 2, and 3 assets. Level 2 assets equal \$1.48 trillion of the total, or 53.9%. Level 3 assets total \$259 billion, or 9.4% of the total. The methodologies banks use to value these sizable Level 2 and 3 asset bases are typically opaque, leaving investors highly vulnerable to the judgments and representations of management. These 50 banks also hold \$4.76 trillion in loans, net of \$130.8 billion in allowances for loan losses (2.7% of net loans). Despite the "Great Recession", out of our group of 50 banks, allowances as a percentage of loans range from a paltry 0.2% to 4.7%.
 
-# The 10 Largest Banks by Loans
+## The 10 Largest Banks by Loans
 
 <table><tr><td>(millions of $)</td><td>Loans (L)</td><td>Allowances (A)</td><td>A/L</td></tr><tr><td>Bank of America Corp.</td><td>$908,375.0</td><td>$23,071.0</td><td>2.54%</td></tr><tr><td>Wells Fargo &amp; Co.</td><td>843,817.0</td><td>21,013.0</td><td>2.49%</td></tr><tr><td>JPMorgan Chase &amp; Co.</td><td>721,734.0</td><td>23,164.0</td><td>3.21%</td></tr><tr><td>Citigroup Inc.</td><td>664,600.0</td><td>29,616.0</td><td>4.46%</td></tr><tr><td>US Bancorp</td><td>181,715.0</td><td>3,514.0</td><td>1.93%</td></tr><tr><td>PNC Financial Services Group Inc.</td><td>171,572.0</td><td>3,917.0</td><td>2.28%</td></tr><tr><td>SunTrust Banks Inc.</td><td>124,647.4</td><td>2,351.0</td><td>1.89%</td></tr><tr><td>Capital One Financial Corp.</td><td>96,493.8</td><td>4,524.0</td><td>4.69%</td></tr><tr><td>BB&amp;T Corp.</td><td>95,671.0</td><td>1,574.0</td><td>1.65%</td></tr><tr><td>Regions Financial Corp.</td><td>95,592.5</td><td>1,826.1</td><td>1.91%</td></tr></table>
 
@@ -273,7 +292,7 @@ The 10 Banks Carrying the Most Goodwill and Intangibles (As a % of total equity)
 
 BAC paid a total of  \$102.8 billion for these three acquisitions. Using market comparables, one of the methods prescribed under FASB 142, we derived a current value for these acquisitions of\$ 37.4 billion. BAC currently carries \$64.7 billion in goodwill on its book for these three acquisitions, or twice our estimated value for what these acquisitions are now worth. As such, it strains credibility that Bank of America did not impair any goodwill.
 
-# - FleetBoston
+## - FleetBoston
 
 - Acquired by BAC on 1-Apr-04 for a total price of \$47.3 billion (basically an all stock deal).  
 Bank of America booked \(33.2 billion in goodwill for the acquisition.  
@@ -281,7 +300,7 @@ Bank of America booked \(33.2 billion in goodwill for the acquisition.
 - Applying the  $52.4\%$  average drop to the FleetBoston purchase price implies a current value for that acquisition of \$22.5 billion.  
 - This is substantially less than the \(33.2 billion of goodwill that BAC acquired with FleetBoston.
 
-# MBNA
+## MBNA
 
 - Acquired by BAC on 1-Jan-06 for a total price of  \$34.6 billion (\$ 28.9 billion in stock, \$5.2 billion cash).  
 Bank of America booked \(20.4 billion in goodwill for the acquisition.  
@@ -289,7 +308,7 @@ Bank of America booked \(20.4 billion in goodwill for the acquisition.
 - Applying the  $75.5\%$  average drop to the MBNA purchase price implies a current value for that acquisition of \$8.5 billion.  
 This is substantially less than the \$20.4 billion of goodwill that BAC acquired with MBNA.
 
-# LaSalle
+## LaSalle
 
 - Acquired by BAC on 1-Oct-07 for a total price of \$21.0 billion (all cash).  
 Bank of America booked \(11.1 billion in goodwill for the acquisition.  
@@ -299,7 +318,7 @@ This is substantially less than the \$11.1 billion of goodwill that BAC acquired
 
 We did not conduct the same analysis above for either the Countrywide or Merrill Lynch acquisitions. These acquisitions account for \(9.4 billion of BAC's goodwill. In the end, we decided that the only appropriate comparables for Countrywide and Merrill were companies that are no longer in business.
 
-# DISCLOSURES
+## DISCLOSURES
 
 Disclosure Insight, Inc. is a publisher of research and analysis for public companies. This report is for informational purposes only. It is based on sources Disclosure Insight, Inc. believes to reliable and accurate when published. However, such information is presented "as is" without warranty of any kind. Disclosure Insight, Inc. has not independently verified information and assumptions underlying this report. Information contained herein is not guaranteed as to accuracy or timeliness, and does not purport to be a complete statement of all material facts related to any company, industry, or security. Opinions and estimates reflect the author's judgment and are subject to change without notice. Disclosure Insight, Inc. does not undertake to update or supplement this report or any of the information contained therein. Actual results could vary significantly from those described in the report. Nothing in this report shall be deemed a recommendation or solicitation to buy or sell the subject securities or provide investment advice.
 

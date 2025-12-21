@@ -1,14 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Black-Scholes-Merton Model"
+parent_directory: Options, Futures, and Other Derivatives
+formatted: 2025-12-20 19:00:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: opencode
+primary_tags:
+  - black-scholes model
+  - option pricing theory
+  - risk neutral valuation
+secondary_tags:
+  - geometric brownian motion
+  - implied volatility
+  - lognormal distribution
+  - volatility estimation
+  - dividend adjustment
+  - employee stock options
+  - warrants pricing
 cssclasses: academia
-title: 15.1 LOGNORMAL PROPERTY OF STOCK PRICES
-linter-yaml-title-alias: 15.1 LOGNORMAL PROPERTY OF STOCK PRICES
 ---
 
-# 15.1 LOGNORMAL PROPERTY OF STOCK PRICES
+## 15 Black-Scholes-Merton Model
 
 The model of stock price behavior used by Black, Scholes, and Merton is the model we developed in Chapter 14. It assumes that percentage changes in the stock price in a very short period of time are normally distributed. Define
 
@@ -45,18 +56,18 @@ $$
 
 $$ where  $S_{T}$  is the stock price at a future time  $T$  and  $S_{0}$  is the stock price at time 0. There is no approximation here. The variable  $\ln S_{T}$  is normally distributed, so that  $S_{T}$  has a lognormal distribution. The mean of  $\ln S_{T}$  is  $\ln S_{0} + (\mu - \sigma^{2}/2)T$  and the standard deviation of  $\ln S_{T}$  is  $\sigma \sqrt{T}$ .
 
-# Example 15.1
+## Example 15.1
 
 Consider a stock with an initial price of 40, an expected return of 16\% per annum, and a volatility of 20\% per annum. From equation (15.3), the probability distribution of the stock price S_{T} in 6 months' time is given by
 
 $$
-\begin{array}{l} \ln S _ {T} \sim \phi [ \ln 4 0 + (0. 1 6 - 0. 2 ^ {2} / 2) \times 0. 5, 0. 2 ^ {2} \times 0. 5 ] \\ \ln S _ {T} \sim \phi (3. 7 5 9, 0. 0 2) \\ \end{array}
+\begin{array}{l} \ln S _ {T} \sim \phi [ \ln 40 + (0.16 - 0.2 ^ {2} / 2) \times 0.5, 0.2 ^ {2} \times 0.5 ] \\ \ln S _ {T} \sim \phi (3.759, 0.02) \\ \end{array}
 $$
 
 There is a  $95\%$  probability that a normally distributed variable has a value within 1.96 standard deviations of its mean. In this case, the standard deviation is  $\sqrt{0.02} = 0.141$ . Hence, with  $95\%$  confidence,
 
 $$
-3. 7 5 9 - 1. 9 6 \times 0. 1 4 1 <   \ln S _ {T} <   3. 7 5 9 + 1. 9 6 \times 0. 1 4 1
+e ^ {3.759 - 1.96 \times 0.141} < S _ {T} < e ^ {3.759 + 1.96 \times 0.141}
 $$
 
 This can be written  $b \pm  {2.5}$
@@ -130,10 +141,7 @@ Thus, the continuously compounded rate of return per annum is normally distribut
 Consider a stock with an expected return of  $17\%$  per annum and a volatility of  $20\%$  per annum. The probability distribution for the average rate of return (continuously compounded) realized over 3 years is normal, with mean
 
 $$
-0. 1 7 - \frac {0 . 2 ^ {2}}{2} = 0. 1 5
-$$ or  $15\%$  per annum, and standard deviation
-
-
+100 \times (1.124) ^ {5} = 179.40
 $$
 
 \sqrt {\frac {0 . 2 ^ {2}}{3}} = 0. 1 1 5 5
@@ -188,7 +196,7 @@ A 1-standard-deviation move in the stock price in 1 week is therefore  $50 \time
 
 Uncertainty about a future stock price, as measured by its standard deviation, increases—at least approximately—with the square root of how far ahead we are looking. For example, the standard deviation of the stock price in 4 weeks is approximately twice the standard deviation in 1 week.
 
-# Business Snapshot 15.1 Mutual Fund Returns Can Be Misleading
+## Business Snapshot 15.1 Mutual Fund Returns Can Be Misleading
 
 The difference between  $\mu$  and  $\mu - \sigma^2 / 2$  is closely related to an issue in the reporting of mutual fund returns. Suppose that the following is a sequence of returns per annum reported by a mutual fund manager over the last five years (measured using annual compounding):  $15\%$ ,  $20\%$ ,  $30\%$ ,  $-20\%$ ,  $25\%$ .
 
@@ -319,7 +327,7 @@ This is what we did in Example 15.4 when calculating volatility from the data in
 The life of an option is also usually measured using trading days rather than calendar days. It is calculated as  $T$  years, where
 
 $$
-T = \frac {\text {N u m b e r o f t r a d i n g d a y s u n t i l o p t i o n m a t u r i t y}}{2 5 2}
+\frac {1,000,000}{1,000,000 + 200,000} \times 7.04 = 5.87
 $$
 
 # 15.5 THE IDEA UNDERLYING THE BLACK-SCHOLES-MERTON DIFFERENTIAL EQUATION
@@ -465,7 +473,7 @@ $$
 
 This equals  $rf$ , showing that equation (15.16) is indeed satisfied.
 
-# A Perpetual Derivative
+## A Perpetual Derivative
 
 Consider a perpetual derivative that pays off a fixed amount  $Q$  when the stock price equals  $H$  for the first time. In this case, the value of the derivative for a particular  $S$  has no dependence on  $t$ , so the  $\frac{\partial f}{\partial t}$  term vanishes and the partial differential equation (15.16) becomes an ordinary differential equation.
 
@@ -486,13 +494,13 @@ $$
 
 Problem 15.31 shows how equation (15.17) can be used to price a perpetual American put option. Section 26.2 extends the analysis to show how perpetual American call and put options can be priced when the underlying asset provides a yield at rate  $q$ .
 
-# The Prices of Tradeable Derivatives
+## The Prices of Tradeable Derivatives
 
 Any function  $f(S, t)$  that is a solution of the differential equation (15.16) is the theoretical price of a derivative that could be traded. If a derivative with that price existed, it would not create any arbitrage opportunities. Conversely, if a function  $f(S, t)$  does not satisfy the differential equation (15.16), it cannot be the price of a derivative without creating arbitrage opportunities for traders.
 
 To illustrate this point, consider first the function  $e^S$ . This does not satisfy the differential equation (15.16). It is therefore not a candidate for being the price of a derivative dependent on the stock price. If an instrument whose price was always  $e^S$  existed, there would be an arbitrage opportunity. As a second example, consider the function  $e^{(\sigma^2 - 2r)(T - t)} / S$ . This does satisfy the differential equation, and so is, in theory, the price of a tradeable security. (It is the price of a derivative that pays off  $1 / S_T$  at time  $T$ .) For other examples of tradeable derivatives, see Problems 15.19, 15.20, and 15.31.
 
-# 15.7 RISK-NEUTRAL VALUATION
+## 15.7 RISK-NEUTRAL VALUATION
 
 We introduced risk-neutral valuation in connection with the binomial model in Chapter 13. It is without doubt the single most important tool for the analysis of derivatives. It arises from one key property of the Black-Scholes-Merton differential equation (15.16). This property is that the equation does not involve any variables that are affected by the risk preferences of investors. The variables that do appear in the equation are the current stock price, time, stock price volatility, and the risk-free rate of interest. All are independent of risk preferences.
 
@@ -510,7 +518,7 @@ Consider a derivative that provides a payoff at one particular time. It can be v
 
 It is important to appreciate that risk-neutral valuation (or the assumption that all investors are risk neutral) is merely an artificial device for obtaining solutions to the Black-Scholes-Merton differential equation. The solutions that are obtained are valid in all worlds, not just those where investors are risk neutral. When we move from a risk-neutral world to a risk-averse world, two things happen. The expected payoff from the derivative changes and the discount rate that must be used for this payoff changes. It happens that these two changes always offset each other exactly.
 
-# Application to Forward Contracts on a Stock
+## Application to Forward Contracts on a Stock
 
 We valued forward contracts on a non-dividend-paying stock in Section 5.7. In Example 15.5, we verified that the pricing formula satisfies the Black-Scholes-Merton differential equation. In this section we derive the pricing formula from risk-neutral valuation. We make the assumption that interest rates are constant and equal to  $r$ . This is somewhat more restrictive than the assumption in Chapter 5.
 
@@ -541,7 +549,7 @@ $$
 
 This is in agreement with equation (5.5).
 
-# 15.8 BLACK-SCHOLES-MERTON PRICING FORMULAS
+## 15.8 BLACK-SCHOLES-MERTON PRICING FORMULAS
 
 The most famous solutions to the differential equation (15.16) are the Black-Scholes-Merton formulas for the prices of European call and put options. These formulas are:
 
@@ -581,7 +589,7 @@ Since it is never optimal to exercise early an American call option on a non-div
 
 When the Black-Scholes-Merton formula is used in practice the interest rate  $r$  is set equal to the zero-coupon risk-free interest rate for a maturity  $T$ . As we show in later chapters, this is theoretically correct when  $r$  is a known function of time. It is also theoretically correct when the interest rate is stochastic provided that the stock price at time  $T$  is lognormal and the volatility parameter is chosen appropriately. As mentioned earlier, time is normally measured as the number of trading days left in the life of the option divided by the number of trading days in 1 year.
 
-# Understanding  $N(d_{1})$  and  $N(d_{2})$
+## Understanding  $N(d_{1})$  and  $N(d_{2})$
 
 The term  $N(d_{2})$  in equation (15.20) has a fairly simple interpretation. It is the probability that a call option will be exercised in a risk-neutral world. The  $N(d_{1})$  term is not quite so easy to interpret. The expression  $S_{0}N(d_{1})e^{rT}$  is the expected stock price at time  $T$  in a risk-neutral world when stock prices less than the strike price are counted as zero. The strike price is only paid if the stock price is greater than  $K$  and as just mentioned this has a probability of  $N(d_{2})$ . The expected payoff in a risk-neutral world is therefore
 
@@ -609,7 +617,7 @@ $S_0e^{rT}N(d_1) / N(d_2)$  Expected stock price in a risk-neutral world if opti
 
 $K$ : Strike price paid if option is exercised.
 
-# Properties of the Black-Scholes-Merton Formulas
+## Properties of the Black-Scholes-Merton Formulas
 
 We now show that the Black-Scholes-Merton formulas have the right general properties by considering what happens when some of the parameters take extreme values.
 
@@ -641,18 +649,18 @@ $$
 
 When  $S_0 < Ke^{-rT}$ , it follows that  $\ln(S_0 / K) + rT < 0$ . As  $\sigma$  tends to zero,  $d_1$  and  $d_2$  tend to  $-\infty$ , so that  $N(d_1)$  and  $N(d_2)$  tend to zero and equation (15.20) gives a call price of zero. The call price is therefore always  $\max(S_0 - Ke^{-rT}, 0)$  as  $\sigma$  tends to zero. Similarly, it can be shown that the put price is always  $\max(Ke^{-rT} - S_0, 0)$  as  $\sigma$  tends to zero.
 
-# 15.9 CUMULATIVE NORMAL DISTRIBUTION FUNCTION
+## 15.9 CUMULATIVE NORMAL DISTRIBUTION FUNCTION
 
 When implementing equations (15.20) and (15.21), it is necessary to evaluate the cumulative normal distribution function  $N(x)$ . Tables for  $N(x)$  are provided at the end of this book. The NORMSDIST function in Excel also provides a convenient way of calculating  $N(x)$ .
 
-# Example 15.6
+## Example 15.6
 
 The stock price 6 months from the expiration of an option is  \$42, the exercise price of the option is\$ 40, the risk-free interest rate is 10\% per annum, and the volatility is 20\% per annum. This means that  $S_0 = 42$ ,  $K = 40$ ,  $r = 0.1$ ,  $\sigma = 0.2$ ,  $T = 0.5$ ,
 
-$$ d _ {1} = \frac {\ln (4 2 / 4 0) + (0 . 1 + 0 . 2 ^ {2} / 2) \times 0 . 5}{0 . 2 \sqrt {0 . 5}} = 0. 7 6 9 3
+$$ d _ {1} = \frac {\ln (42 / 40) + (0.1 + 0.2 ^ {2} / 2) \times 0.5}{0.2 \sqrt {0.5}} = 0.7693
 $$
 
-$$ d _ {2} = \frac {\ln (4 2 / 4 0) + (0 . 1 - 0 . 2 ^ {2} / 2) \times 0 . 5}{0 . 2 \sqrt {0 . 5}} = 0. 6 2 7 8
+$$ d _ {2} = \frac {\ln (42 / 40) + (0.1 - 0.2 ^ {2} / 2) \times 0.5}{0.2 \sqrt {0.5}} = 0.6278
 $$ and
 
 
@@ -664,31 +672,27 @@ $$
 
 Hence, if the option is a European call, its value  $c$  is given by
 
-$$ c = 4 2 N (0. 7 6 9 3) - 3 8. 0 4 9 N (0. 6 2 7 8)
+$$ c = 42 N (0.7693) - 38.049 N (0.6278)
 $$
 
 If the option is a European put, its value  $p$  is given by
 
-$$ p = 3 8. 0 4 9 N (- 0. 6 2 7 8) - 4 2 N (- 0. 7 6 9 3)
+$$ p = 38.049 N (- 0.6278) - 42 N (- 0.7693)
 $$
 
 Using the NORMSDIST function in Excel gives
 
 $$
-N (0. 7 6 9 3) = 0. 7 7 9 1, \quad N (- 0. 7 6 9 3) = 0. 2 2 0 9
+K e ^ {- r T} = 40 e ^ {- 0.05} = 38.049
 $$
 
 $$
-N (0. 6 2 7 8) = 0. 7 3 4 9, \quad N (- 0. 6 2 7 8) = 0. 2 6 5 1
-$$ so that
-
-
-$$ c = 4. 7 6, \quad p = 0. 8 1
+c = 4.76, \quad p = 0.81
 $$
 
 Ignoring the time value of money, the stock price has to rise by  \$2.76 for the purchaser of the call to break even. Similarly, the stock price has to fall by\$ 2.81 for the purchaser of the put to break even.
 
-# 15.10 WARRANTS AND EMPLOYEE STOCK OPTIONS
+## 15.10 WARRANTS AND EMPLOYEE STOCK OPTIONS
 
 The exercise of a regular call option on a company has no effect on the number of the company's shares outstanding. If the writer of the option does not own the company's shares, he or she must buy them in the market in the usual way and then sell them to the option holder for the strike price. As explained in Chapter 10, warrants and employee stock options are different from regular call options in that exercise leads to the company issuing more shares and then selling them to the option holder for the strike price. As the strike price is less than the market price, this dilutes the interest of the existing shareholders.
 
@@ -696,7 +700,7 @@ How should potential dilution affect the way we value outstanding warrants and e
 
 Consider next the situation a company is in when it is contemplating a new issue of warrants (or employee stock options). We suppose that the company is interested in calculating the cost of the issue assuming that there are no compensating benefits. We assume that the company has  $N$  shares worth  $S_0$  each and the number of new options contemplated is  $M$ , with each option giving the holder the right to buy one share for  $K$ . The value of the company today is  $NS_0$ . This value does not change as a result of the warrant issue. Suppose that without the warrant issue the share price will be  $S_T$  at the warrant's maturity. This means that (with or without the warrant issue) the total value of the equity and the warrants at time  $T$  will  $NS_T$ . If the warrants are exercised, there is a cash inflow from the strike price increasing this to  $NS_T + MK$ . This value is distributed
 
-# Business Snapshot 15.3 Warrants, Employee Stock Options, and Dilution
+## Business Snapshot 15.3 Warrants, Employee Stock Options, and Dilution
 
 Consider a company with 100,000 shares each worth \$50. It surprises the market with an announcement that it is granting 100,000 stock options to its employees with a strike price of \$50. If the market sees little benefit to the shareholders from the employee stock options in the form of reduced salaries and more highly motivated managers, the stock price will decline immediately after the announcement of the employee stock options. If the stock price declines to \$45, the dilution cost to the current shareholders is \$5 per share or 500,000 in total.
 
@@ -785,7 +789,7 @@ Operationally, this means that the Black-Scholes-Merton formulas can be used pro
 Consider a European call option on a stock when there are ex-dividend dates in two months and five months. The dividend on each ex-dividend date is expected to be  \$0.50. The current share price is\$ 40, the exercise price is 40, the stock price volatility is 30\% per annum, the risk-free rate of interest is 9\% per annum, and the time to maturity is six months. The present value of the dividends is
 
 $$
-0. 5 e ^ {- 0. 0 9 \times 2 / 1 2} + 0. 5 e ^ {- 0. 0 9 \times 5 / 1 2} = 0. 9 7 4 2
+100 \times 1.15 \times 1.20 \times 1.30 \times 0.80 \times 1.25 = \$179.40
 $$
 
 The option price can therefore be calculated from the Black-Scholes-Merton formula, with  $S_0 = 40 - 0.9742 = 39.0258$ ,  $K = 40$ ,  $r = 0.09$ ,  $\sigma = 0.3$ , and  $T = 0.5$ :
@@ -888,7 +892,7 @@ Assuming that  $K$  is fairly close to the current stock price, this inequality 
 
 We can conclude from this analysis that, in many circumstances, the most likely time for the early exercise of an American call is immediately before the final ex-dividend date,  $t_n$ . Furthermore, if inequality (15.25) holds for  $i = 1, 2, \ldots, n - 1$  and inequality (15.23) holds, we can be certain that early exercise is never optimal, and the American option can be treated as a European option.
 
-# Black's Approximation
+## Black's Approximation
 
 Black suggests an approximate procedure for taking account of early exercise in call options.[15] This involves calculating, as described earlier in this section, the prices of European options that mature at times  $T$  and  $t_n$ , and then setting the American price equal to the greater of the two.[16] This is an approximation because it in effect assumes the option holder has to decide at time zero whether the option will be exercised at time  $T$  or  $t_n$ .
 
@@ -957,102 +961,13 @@ Roll R. "Orange Juice and Weather," American Economic Review, 74, 5 (December 19
 15.9. How is an implied volatility calculated?
 15.10. How can the Black-Scholes-Merton formulas be adjusted to take account of known dividends?
 
-# Practice Questions
-
-15.11. What does the Black-Scholes-Merton stock option pricing model assume about the probability distribution of the stock price in one year? What does it assume about the probability distribution of the continuously compounded rate of return on the stock during the year?
-15.12. The volatility of a stock price is  $30\%$  per annum. What is the standard deviation of the percentage price change in one trading day?
-15.13. Calculate the price of a 3-month European put option on a non-dividend-paying stock with a strike price of  \$50 when the current stock price is\$ 50, the risk-free interest rate is 10\% per annum, and the volatility is 30\% per annum.
-15.14. What difference does it make to your calculations in Problem 15.13 if a dividend of  \ {1.50}  is expected in 2 months?
-15.15. A stock price is currently 40. Assume that the expected return from the stock is 15\% and that its volatility is 25\%. What is the probability distribution for the rate of return (with continuous compounding) earned over a 2-year period?
-15.16. A stock price follows geometric Brownian motion with an expected return of  $16\%$  and a volatility of  $35\%$ . The current price is 38.
-
-(a) What is the probability that a European call option on the stock with an exercise price of 40 and a maturity date in 6 months will be exercised?
-(b) What is the probability that a European put option on the stock with the same exercise price and maturity will be exercised?
-
-15.17. Using the notation in this chapter, prove that a  $95\%$  confidence interval for  $S_{T}$  is between  $S_0e^{(\mu -\sigma^2 /2)T - 1.96\sigma \sqrt{T}}$  and  $S_0e^{(\mu -\sigma^2 /2)T + 1.96\sigma \sqrt{T}}$
-15.18. A portfolio manager announces that the average of the returns realized in each year of the last 10 years is  $20\%$  per annum. In what respect is this statement misleading?
-15.19. Assume that a non-dividend-paying stock has an expected return of  $\mu$  and a volatility of  $\sigma$ . An innovative financial institution has just announced that it will trade a security that pays off a dollar amount equal to  $\ln S_T$  at time  $T$ , where  $S_T$  denotes the value of the stock price at time  $T$ .
-
-(a) Use risk-neutral valuation to calculate the price of the security at time  $t$  in terms of the stock price,  $S$ , at time  $t$ . The risk-free rate is  $r$ .
-(b) Confirm that your price satisfies the differential equation (15.16).
-
-15.20. Consider a derivative that pays off  $S_T^n$  at time  $T$ , where  $S_T$  is the stock price at that time. When the stock pays no dividends and its price follows geometric Brownian motion, it can be shown that its price at time  $t$  ( $t \leq T$ ) has the form  $h(t, T)S^n$ , where  $S$  is the stock price at time  $t$  and  $h$  is a function only of  $t$  and  $T$ .
-
-(a) By substituting into the Black-Scholes-Merton partial differential equation, derive an ordinary differential equation satisfied by  $h(t,T)$ .
-(b) What is the boundary condition for the differential equation for  $h(t,T)$ ?
-(c) Show that  $h(t, T) = e^{[0.5\sigma^2 n(n - 1) + r(n - 1)](T - t)}$ , where  $r$  is the risk-free interest rate and  $\sigma$  is the stock price volatility.
-
-15.21. What is the price of a European call option on a non-dividend-paying stock when the stock price is  \$52, the strike price is\$ 50, the risk-free interest rate is 12\% per annum, the volatility is 30\% per annum, and the time to maturity is 3 months?
- 15.22. What is the price of a European put option on a non-dividend-paying stock when the stock price is \$69, the strike price is \$70, the risk-free interest rate is 5\% per annum, the volatility is 35\% per annum, and the time to maturity is 6 months?
- 15.23. Consider an American call option on a stock. The stock price is \$70, the time to maturity is 8 months, the risk-free rate of interest is 10\% per annum, the exercise price is \$65, and the volatility is 32\%. A dividend of 1 is expected after 3 months and again after 6 months. Show that it can never be optimal to exercise the option on either of the two dividend dates. Use DerivaGem to calculate the price of the option.
- 15.24. A call option on a non-dividend-paying stock has a market price of \$2½. The stock price is \$15, the exercise price is 13, the time to maturity is 3 months, and the risk-free interest rate is 5\% per annum. What is the implied volatility?
-15.25. With the notation used in this chapter:
-
-(a) What is  $N'(x)$ ?
-(b) Show that  $SN^{\prime}(d_1) = Ke^{-r(T - t)}N^{\prime}(d_2)$ , where  $S$  is the stock price at time  $t$  and
-
-$$ d _ {1} = \frac {\ln (S / K) + (r + \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}, \quad d _ {2} = \frac {\ln (S / K) + (r - \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}
-$$
-
-(c) Calculate  $\partial d_1 / \partial S$  and  $\partial d_2 / \partial S$ .
-
-(d) Show that when  $c = SN(d_1) - Ke^{-r(T - t)}N(d_2)$ , it follows that
-
-$$
-\frac {\partial c}{\partial t} = - r K e ^ {- r (T - t)} N \left(d _ {2}\right) - S N ^ {\prime} \left(d _ {1}\right) \frac {\sigma}{2 \sqrt {T - t}}
-$$ where  $c$  is the price of a call option on a non-dividend-paying stock.
-
-
-(e) Show that  $\partial c / \partial S = N(d_1)$ .
-(f) Show that  $c$  satisfies the Black-Scholes-Merton differential equation.
-(g) Show that  $c$  satisfies the boundary condition for a European call option, i.e., that  $c = \max(S - K, 0)$  as  $t \to T$ .
-
-15.26. Show that the Black-Scholes-Merton formulas for call and put options satisfy put-call parity.
-15.27. A stock price is currently 50 and the risk-free interest rate is 5\%. Use the DerivaGem software to translate the following table of European call options on the stock into a table of implied volatilities, assuming no dividends. Are the option prices consistent with the assumptions underlying Black-Scholes-Merton?
-
-<table><tr><td rowspan="2">Strike price ($)</td><td colspan="3">Maturity (months)</td></tr><tr><td>3</td><td>6</td><td>12</td></tr><tr><td>45</td><td>7.0</td><td>8.3</td><td>10.5</td></tr><tr><td>50</td><td>3.7</td><td>5.2</td><td>7.5</td></tr><tr><td>55</td><td>1.6</td><td>2.9</td><td>5.1</td></tr></table>
-
-15.28. Explain carefully why Black's approach to evaluating an American call option on a dividend-paying stock may give an approximate answer even when only one dividend is anticipated. Does the answer given by Black's approach understate or overstate the true option value? Explain your answer.
- 15.29. Consider an American call option on a stock. The stock price is \$50, the time to maturity is 15 months, the risk-free rate of interest is 8\% per annum, the exercise price is \$55, and the volatility is 25\%. Dividends of 1.50 are expected in 4 months and 10 months. Show that it can never be optimal to exercise the option on either of the two dividend dates. Calculate the price of the option.
- 15.30. Show that the probability that a European call option will be exercised in a risk-neutral world is, with the notation introduced in this chapter, N(d2). What is an expression for the value of a derivative that pays off 100 if the price of a stock at time T is greater than K?
-15.31. Use the result in equation (15.17) to determine the value of a perpetual American put option on a non-dividend-paying stock with strike price  $K$  if it is exercised when the stock price equals  $H$  where  $H < K$ . Assume that the current stock price  $S$  is greater than  $H$ . What is the value of  $H$  that maximizes the option value? Deduce the value of a perpetual American put with strike price  $K$ .
-15.32. A company has an issue of executive stock options outstanding. Should dilution be taken into account when the options are valued? Explain your answer.
-15.33. A company's stock price is 50 and 10 million shares are outstanding. The company is considering giving its employees 3 million at-the-money 5-year call options. Option exercises will be handled by issuing more shares. The stock price volatility is 25\%, the 5-year risk-free rate is 5\%, and the company does not pay dividends. Estimate the cost to the company of the employee stock option issue.
-15.34. If the volatility of a stock is  $18\%$  per annum, estimate the standard deviation of the percentage price change in (a) 1 day, (b) 1 week, and (c) 1 month.
-15.35. A stock price is currently 50. Assume that the expected return from the stock is 18\% and its volatility is 30\%. What is the probability distribution for the stock price in
-
-2 years? Calculate the mean and standard deviation of the distribution. Determine the  $95\%$  confidence interval.
-
-15.36. Suppose that observations on a stock price (in dollars) at the end of each of 15 consecutive weeks are as follows:
-
-30.2, 32.0, 31.1, 30.1, 30.2, 30.3, 30.6, 33.0, 32.9, 33.0, 33.5, 33.5, 33.7, 33.5, 33.2
-
-Estimate the stock price volatility. What is the standard error of your estimate?
-
-15.37. The appendix derives the key result
-
-$$
-
-E [ \max  (V - K, 0) ] = E (V) N \left(d _ {1}\right) - K N \left(d _ {2}\right)
-
-$$
-
-Show that
-
-$$
-
-E \left[ \max  (K - V, 0) \right] = K N (- d _ {2}) - E (V) N (- d _ {1})
-
-$$ and use this to derive the Black-Scholes-Merton formula for the price of a European put option on a non-dividend-paying stock.
-
-
 # APPENDIX
 
-# PROOF OF THE BLACK-SCHOLES-MERTON FORMULA USING RISK-NEUTRAL VALUATION
+## PROOF OF THE BLACK-SCHOLES-MERTON FORMULA USING RISK-NEUTRAL VALUATION
 
 We will prove the Black-Scholes result by first proving another key result that will also be useful in future chapters.
 
-# Key Result
+## Key Result
 
 If  $V$  is lognormally distributed and the standard deviation of  $\ln V$  is  $w$ , then
 
@@ -1070,7 +985,7 @@ $$ d _ {2} = \frac {\ln [ E (V) / K ] - w ^ {2} / 2}{w}
 $$ and  $E$  denotes the expected value. (See Problem 15.37 for a similar result for puts.)
 
 
-# Proof of Key Result
+## Proof of Key Result
 
 Define  $g(V)$  as the probability density function of  $V$ . It follows that
 
@@ -1151,7 +1066,7 @@ $$
 
 Substituting for  $m$  from equation (15A.3) gives the key result.
 
-# The Black-Scholes-Merton Result
+## The Black-Scholes-Merton Result
 
 We now consider a call option on a non-dividend-paying stock maturing at time  $T$ . The strike price is  $K$ , the risk-free rate is  $r$ , the current stock price is  $S_0$ , and the volatility is  $\sigma$ . As shown in equation (15.22), the call price  $c$  is given by
 
@@ -1173,12 +1088,4 @@ $$
 
 This is the Black-Scholes-Merton result.
 
-# Employee Stock Options
 
-Employee stock options are call options on a company's stock granted by the company to its employees. The options give the employees a stake in the fortunes of the company. If the company does well so that the company's stock price moves above the strike price, employees gain by exercising the options and then selling the stock they acquire at the market price.
-
-Many companies, particularly technology companies, feel that the only way they can attract and keep the best employees is to offer them attractive stock option packages. Some companies grant options only to senior management; others grant them to people at all levels in the organization. Microsoft was one of the first companies to use employee stock options. All Microsoft employees were granted options and, as the company's stock price rose, it is estimated that over 10,000 of them became millionaires. Employee stock options have become less popular in recent years for reasons we will explain in this chapter. (Microsoft, for example, announced in 2003 that it would discontinue the use of options and award shares of Microsoft to employees instead.) But many companies throughout the world continue to be enthusiastic users of employee stock options.
-
-Employee stock options are popular with start-up companies. Often these companies do not have the resources to pay key employees as much as they could earn with an established company and they solve this problem by supplementing the salaries of the employees with stock options. If the company does well and shares are sold to the public in an initial public offering (IPO), the options are likely to prove to be very valuable. Some newly formed companies have even granted options to students who worked for just a few months during their summer break—and in some cases this has led to windfalls of hundreds of thousands of dollars for the students.
-
-This chapter explains how stock option plans work and how their popularity has been influenced by their accounting treatment. It discusses whether employee stock options help to align the interests of shareholders with those of top executives running a company. It also describes how these options are valued and looks at backdating scandals.

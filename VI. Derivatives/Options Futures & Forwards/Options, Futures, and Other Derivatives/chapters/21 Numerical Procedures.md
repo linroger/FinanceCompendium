@@ -1,11 +1,17 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Numerical Procedures
+parent_directory: Options, Futures, and Other Derivatives
+formatted: 2025-12-20 07:01:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - numerical procedures
+  - binomial trees
+secondary_tags:
+  - monte carlo simulation
+  - finite difference methods
+  - variance reduction
 cssclasses: academia
-title: Chapter 21. Basic numerical procedures 448
-linter-yaml-title-alias: Chapter 21. Basic numerical procedures 448
 ---
 
 # Chapter 21. Basic numerical procedures 448

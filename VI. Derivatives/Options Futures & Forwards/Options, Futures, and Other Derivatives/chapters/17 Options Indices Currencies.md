@@ -1,31 +1,39 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: 17 Options Indices Currencies
+parent_directory: Options, Futures, and Other Derivatives
+formatted: 2025-12-20 19:30:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: opencode
+primary_tags:
+  - index options pricing
+  - currency options valuation
+  - portfolio insurance
+secondary_tags:
+  - range forward contracts
+  - dividend yield adjustment
+  - binomial trees
+  - put-call parity
 cssclasses: academia
-title: 17.1 OPTIONS ON STOCK INDICES
-linter-yaml-title-alias: 17.1 OPTIONS ON STOCK INDICES
 ---
 
-# 17.1 OPTIONS ON STOCK INDICES
+# 17 Options Indices Currencies
 
 Several exchanges trade options on stock indices. Some of the indices track the movement of the market as a whole. Others are based on the performance of a particular sector (e.g., computer technology, oil and gas, transportation, or telecoms). Among the index options traded on the Chicago Board Options Exchange (CBOE) are American and European options on the S&P 100 (OEX and XEO), European options on the S&P 500 (SPX), European options on the Dow Jones Industrial Average (DJX), and European options on the Nasdaq 100 (NDX). In Chapter 10, we explained that the CBOE trades LEAPS and flex options on individual stocks. It also offers these option products on indices.
 
 One index option contract is usually on 100 times the index. (Note that the Dow Jones index used for index options is 0.01 times the usually quoted Dow Jones index.) Index options are settled in cash. This means that, on exercise of the option, the holder of a call option contract receives  $(S - K) \times 100$  in cash and the writer of the option pays this amount in cash, where  $S$  is the value of the index at the close of trading on the day of the exercise and  $K$  is the strike price. Similarly, the holder of a put option contract receives  $(K - S) \times 100$  in cash and the writer of the option pays this amount in cash.
 
-# Portfolio Insurance
+## Portfolio Insurance
 
 Portfolio managers can use options on a well-diversified index to limit their downside risk. Suppose that the value of the index today is  $S_0$ . Consider a manager in charge of a well-diversified portfolio whose beta is 1.0. A beta of 1.0 implies that the returns from the portfolio mirror those from the index. Assuming the dividend yield from the portfolio is the same as the dividend yield from the index, the percentage changes in the value of the portfolio can be expected to be approximately the same as the percentage changes in the value of the index. Since each contract is on 100 times the index, it follows that the value of the portfolio is protected against the possibility of the index falling below  $K$  if, for each  $100S_0$  dollars in the portfolio, the manager buys one put option contract with strike price  $K$ . Suppose that the manager's portfolio is worth  $\500,000$  and the value of the index is currently 1,000. The portfolio is worth 500 times the index. The manager can obtain insurance against the value of the portfolio dropping below  $\$ 450,000  in the next three months by buying five three-month put option contracts on the index with a strike price of 900.
 
 To illustrate how the insurance works, consider the situation where the index drops to 880 in three months. The portfolio will be worth about \$440,000. The payoff from the options will be 5 × (900 - 880) × 100 = \$10,000, bringing the total value of the portfolio up to the insured value of 450,000.
 
-# When the Portfolio's Beta Is Not 1.0
+## When the Portfolio's Beta Is Not 1.0
 
 If the portfolio's beta  $(\beta)$  is not  $1.0, \beta$  put options must be purchased for each  $100S_{0}$  dollars in the portfolio, where  $S_{0}$  is the current value of the index. Suppose that the 500,000 portfolio just considered has a beta of 2.0 instead of 1.0. We continue to assume that the index is 1,000. The number of put options required is
 
 $$
-2. 0 \times \frac {5 0 0 , 0 0 0}{1 , 0 0 0 \times 1 0 0} = 1 0
+2.0 \times \frac {500,000}{1,000 \times 100} = 10
 $$ rather than 5 as before.
 
 
@@ -45,7 +53,7 @@ To illustrate how the insurance works, consider what happens if the value of the
 
 The examples in this section show that there are two reasons why the cost of hedging increases as the beta of a portfolio increases. More put options are required and they have a higher strike price.
 
-# 17.2 CURRENCY OPTIONS
+## 17.2 CURRENCY OPTIONS
 
 Currency options are primarily traded in the over-the-counter market. The advantage of this market is that large trades are possible, with strike prices, expiration dates, and other features tailored to meet the needs of corporate treasurers. Although currency options do trade on NASDAQ OMX in the United States, the exchange-traded market for these options is much smaller than the over-the-counter market.
 
@@ -55,7 +63,7 @@ An example of a European call option is a contract that gives the holder the rig
 
 For a corporation wishing to hedge a foreign exchange exposure, foreign currency options are an alternative to forward contracts. A U.S. company due to receive sterling at a known time in the future can hedge its risk by buying put options on sterling that mature at that time. The hedging strategy guarantees that the exchange rate applicable to the sterling will not be less than the strike price, while allowing the company to benefit from any favorable exchange-rate movements. Similarly, a U.S. company due to pay sterling at a known time in the future can hedge by buying calls on sterling that mature at that time. This hedging strategy guarantees that the cost of the sterling will not be greater than a certain amount while allowing the company to benefit from favorable exchange-rate movements. Whereas a forward contract locks in the exchange rate for a future transaction, an option provides a type of insurance. This is not free. It costs nothing to enter into a forward transaction, but options require a premium to be paid up front.
 
-# Range Forwards
+## Range Forwards
 
 A range forward contract is a variation on a standard forward contract for hedging foreign exchange risk. Consider a U.S. company that knows it will receive one million pounds sterling in three months. Suppose that the three-month forward exchange rate is 1.3200 dollars per pound. The company could lock in this exchange rate for the dollars it receives by entering into a short forward contract to sell one million pounds sterling in three months. This would ensure that the amount received for the one million pounds is 1,320,000.
 
@@ -78,7 +86,7 @@ In practice, a range forward contract is set up so that the price of the put opt
 
 As the strike prices of the call and put options in a range forward contract are moved together, the range forward contract becomes a regular forward contract. The (short) range forward contract in Figure 17.1a becomes a short forward contract and the (long) range forward contract in Figure 17.1b becomes a long forward contract.
 
-# 17.3 OPTIONS ON STOCKS PAYING KNOWN DIVIDEND YIELDS
+## 17.3 OPTIONS ON STOCKS PAYING KNOWN DIVIDEND YIELDS
 
 In this section we produce a simple rule that enables valuation results for European options on a non-dividend-paying stock to be extended so that they apply to European options on a stock paying a known dividend yield. Later we show how this enables us to value options on stock indices and currencies.
 
@@ -91,7 +99,7 @@ This argument shows that we get the same probability distribution for the stock 
 
 This leads to a simple rule. When valuing a European option lasting for time  $T$  on a stock paying a known dividend yield at rate  $q$ , we reduce the current stock price from  $S_0$  to  $S_0e^{-q\tilde{T}}$  and then value the option as though the stock pays no dividends.2
 
-# Lower Bounds for Option Prices
+## Lower Bounds for Option Prices
 
 As a first application of this rule, consider the problem of determining bounds for the price of a European option on a stock paying a dividend yield at rate  $q$ . Substituting  $S_0e^{-qT}$  for  $S_0$  in equation (11.4), we see that a lower bound for the European call option price,  $c$ , is given by
 
@@ -115,7 +123,7 @@ Portfolio C: one European put option plus  $e^{-qT}$  shares with dividends on t
 
 Portfolio  $D$ : an amount of cash equal to  $Ke^{-rT}$ .
 
-# Put-Call Parity
+## Put-Call Parity
 
 Replacing  $S_0$  by  $S_0e^{-qT}$  in equation (11.6) we obtain put-call parity for an option on a stock paying a dividend yield at rate  $q$ :
 
@@ -134,7 +142,7 @@ $$
 S _ {0} e ^ {- q T} - K \leq C - P \leq S _ {0} - K e ^ {- r T}
 $$
 
-# Pricing Formulas
+## Pricing Formulas
 
 By replacing  $S_0$  by  $S_0e^{-qT}$  in the Black-Scholes-Merton formulas, equations (15.20) and (15.21), we obtain the price,  $c$ , of a European call and the price,  $p$ , of a European put on a stock paying a dividend yield at rate  $q$  as
 
@@ -159,7 +167,7 @@ $$
 
 These results were first derived by Merton. As discussed in Chapter 15, the word dividend should, for the purposes of option valuation, be defined as the reduction in the stock price on the ex-dividend date arising from any dividends declared. If the dividend yield rate is known but not constant during the life of the option, equations (17.4) and (17.5) are still true, with  $q$  equal to the average annualized dividend yield during the option's life.
 
-# Differential Equation and Risk-Neutral Valuation
+## Differential Equation and Risk-Neutral Valuation
 
 To prove the results in equations (17.4) and (17.5) more formally, we can either solve the differential equation that the option price must satisfy or use risk-neutral valuation.
 
@@ -182,28 +190,28 @@ $$ e ^ {(r - q) T} S _ {0} N (d _ {1}) - K N (d _ {2})
 $$ where  $d_{1}$  and  $d_{2}$  are defined as above. Discounting at rate  $r$  for time  $T$  leads to equation (17.4).
 
 
-# 17.4 VALUATION OF EUROPEAN STOCK INDEX OPTIONS
+## 17.4 VALUATION OF EUROPEAN STOCK INDEX OPTIONS
 
 In valuing index futures in Chapter 5, we assumed that the index could be treated as an asset paying a known yield. In valuing index options, we make similar assumptions. This means that equations (17.1) and (17.2) provide a lower bound for European index options; equation (17.3) is the put-call parity result for European index options; equations (17.4) and (17.5) can be used to value European options on an index; and the binomial tree approach can be used for American options. In all cases,  $S_0$  is equal to the current value of the index,  $\sigma$  is equal to the volatility of the index, and  $q$  is equal to the average annualized dividend yield on the index during the life of the option expressed with continuous compounding.
 
-# Example 17.1
+## Example 17.1
 
 Consider a European call option on an index that is two months from maturity. The current value of the index is 930, the exercise price is 900, the risk-free interest rate is
 
 8\% per annum, and the volatility of the index is 20\% per annum. Dividend yields of 0.2\% and 0.3\% (expressed with continuous compounding) are expected in the first month and the second month, respectively. In this case  $S_0 = 930$ ,  $K = 900$ ,  $r = 0.08$ ,  $\sigma = 0.2$ , and  $T = 2/12$ . The total dividend yield during the option's life is 0.2\% + 0.3\% = 0.5\%. This corresponds to 3\% per annum. Hence,  $q = 0.03$  and
 
-$$ d _ {1} = \frac {\ln (9 3 0 / 9 0 0) + (0 . 0 8 - 0 . 0 3 + 0 . 2 ^ {2} / 2) \times 2 / 1 2}{0 . 2 \sqrt {2 / 1 2}} = 0. 5 4 4 4
+$$ d _ {1} = \frac {\ln (930 / 900) + (0.08 - 0.03 + 0.2 ^ {2} / 2) \times 2 / 12}{0.2 \sqrt {2 / 12}} = 0.5444
 $$
 
-$$ d _ {2} = \frac {\ln (9 3 0 / 9 0 0) + (0 . 0 8 - 0 . 0 3 - 0 . 2 ^ {2} / 2) \times 2 / 1 2}{0 . 2 \sqrt {2 / 1 2}} = 0. 4 6 2 8
+$$ d _ {2} = \frac {\ln (930 / 900) + (0.08 - 0.03 - 0.2 ^ {2} / 2) \times 2 / 12}{0.2 \sqrt {2 / 12}} = 0.4628
 $$
 
 $$
-N \left(d _ {1}\right) = 0. 7 0 6 9, \quad N \left(d _ {2}\right) = 0. 6 7 8 2
+N \left(d _ {1}\right) = 0.7069, \quad N \left(d _ {2}\right) = 0.6782
 $$ so that the call price,  $c$ , is given by equation (17.4) as
 
 
-$$ c = 9 3 0 \times 0. 7 0 6 9 e ^ {- 0. 0 3 \times 2 / 1 2} - 9 0 0 \times 0. 6 7 8 2 e ^ {- 0. 0 8 \times 2 / 1 2} = 5 1. 8 3
+$$ c = 930 \times 0.7069 e ^ {- 0.03 \times 2 / 12} - 900 \times 0.6782 e ^ {- 0.08 \times 2 / 12} = 51.83
 $$
 
 One contract, if on 100 times the index, would cost 5,183.
@@ -214,7 +222,7 @@ If the absolute amount of the dividend that will be paid on the stocks underlyin
 
 It is sometimes argued that, in the long run, the return from investing a certain amount of money in a well-diversified stock portfolio is almost certain to beat the return from investing the same amount of money in a bond portfolio. If this were so, a long-dated put option allowing the stock portfolio to be sold for the value of the bond portfolio should not cost very much. In fact, as indicated by Business Snapshot 17.1, it is quite expensive.
 
-# Forward Prices and the Estimation of Dividend Yields
+## Forward Prices and the Estimation of Dividend Yields
 
 Define  $F_0$  as the forward price of the index for a contract with maturity  $T$ . As shown by equation (5.3),  $F_0 = S_0 e^{(r - q)T}$ . This means that the equations for the European call price  $c$  and the European put price  $p$  in equations (17.4) and (17.5) can be written
 
@@ -228,7 +236,7 @@ $$ where
 $$ d _ {1} = \frac {\ln \left(F _ {0} / K\right) + \sigma^ {2} T / 2}{\sigma \sqrt {T}} \quad \text {a n d} \quad d _ {2} = \frac {\ln \left(F _ {0} / K\right) - \sigma^ {2} T / 2}{\sigma \sqrt {T}}
 $$
 
-# Business Snapshot 17.1 Can We Guarantee that Stocks Will Beat Bonds in the Long Run?
+## Business Snapshot 17.1 Can We Guarantee that Stocks Will Beat Bonds in the Long Run?
 
 It is often said that if you are a long-term investor you should buy stocks rather than bonds. Consider a U.S. fund manager who is trying to persuade investors to buy, as a long-term investment, an equity fund that is expected to mirror the S&P 500. The manager might be tempted to offer purchasers of the fund a guarantee that their return will be at least as good as the return on risk-free bonds over the next 10 years. Historically stocks have outperformed bonds in the United States over almost any 10-year period. It appears that the fund manager would not be giving much away.
 
@@ -258,7 +266,7 @@ $$
 
 For a particular strike price and time to maturity, the estimates of  $q$  calculated from this equation are liable to be unreliable. But when the results from many matched pairs of calls and puts are combined, a clearer picture of the term structure of dividend yields being assumed by the market emerges.
 
-# 17.5 VALUATION OF EUROPEAN CURRENCY OPTIONS
+## 17.5 VALUATION OF EUROPEAN CURRENCY OPTIONS
 
 To value currency options, we define  $S_0$  as the spot exchange rate. To be precise,  $S_0$  is the value of one unit of the foreign currency in U.S. dollars. As explained in Section 5.10, a foreign currency is analogous to a stock paying a known dividend yield. The owner of foreign currency receives a yield equal to the risk-free interest rate,  $r_f$ , in the foreign currency. Equations (17.1) and (17.2), with  $q$  replaced by  $r_f$ , provide bounds for the European call price,  $c$ , and the European put price,  $p$ :
 
@@ -287,13 +295,13 @@ $$
 
 Both the domestic interest rate,  $r$ , and the foreign interest rate,  $r_f$ , are the rates for a maturity  $T$ .
 
-# Example 17.2
+## Example 17.2
 
 Consider a 4-month European call option on the British pound. Suppose that the current exchange rate is 1.6000, the exercise price is 1.6000, the risk-free interest rate in the United States is  $8\%$  per annum, the risk-free interest rate in Britain is  $11\%$  per annum, and the option price is 4.3 cents. In this case,  $S_0 = 1.6$ ,  $K = 1.6$ ,  $r = 0.08$ ,  $r_f = 0.11$ ,  $T = 0.3333$ , and  $c = 0.043$ . The implied volatility can be calculated by trial and error. A volatility of  $20\%$  gives an option price of 0.0639; a volatility of  $10\%$  gives an option price of 0.0285; and so on. The implied volatility is  $14.1\%$ .
 
 Put and call options on a currency are symmetrical in that a put option to sell one unit of currency A for currency B at strike price  $K$  is the same as a call option to buy  $K$  units of B with currency A at strike price  $1 / K$  (see Problem 17.12).
 
-# Using Forward Exchange Rates
+## Using Forward Exchange Rates
 
 Because banks and other financial institutions trade forward contracts on foreign exchange rates actively, forward exchange rates are often used for valuing options. From equation (5.9), the forward exchange rate,  $F_{0}$ , for a maturity  $T$  is given by
 
@@ -318,7 +326,7 @@ $$
 
 Equations (17.13) and (17.14) are the same as equations (17.8) and (17.9). As we shall see in Chapter 18, a European option on the spot price of any asset can be valued in terms of the price of a forward or futures contract on the asset using equations (17.13) and (17.14). The maturity of the forward or futures contract must be the same as the maturity of the European option.
 
-# 17.6 AMERICAN OPTIONS
+## 17.6 AMERICAN OPTIONS
 
 As described in Chapter 13, binomial trees can be used to value American options on indices and currencies. As in the case of American options on a non-dividend-paying stock, the parameter determining the size of up movements,  $u$ , is set equal to  $e^{\sigma \sqrt{\Delta t}}$  where  $\sigma$  is the volatility and  $\Delta t$  is the length of time steps. The parameter determining the size of down movements,  $d$ , is set equal to  $1 / u$ , or  $e^{-\sigma \sqrt{\Delta t}}$ . For a non-dividend-paying stock, the probability of an up movement is
 
@@ -367,65 +375,4 @@ Merton, R. C. "Theory of Rational Option Pricing," Bell Journal of Economics and
 17.5. "Once we know how to value options on a stock paying a dividend yield, we know how to value options on stock indices and currencies." Explain this statement.
 17.6. A portfolio is currently worth 10 million and has a beta of 1.0. An index is currently standing at 800. Explain how a put option on the index with a strike price of 700 can be used to provide portfolio insurance.
 
-# Practice Questions
 
-17.7. A stock index is currently 300, the dividend yield on the index is  $3\%$  per annum, and the risk-free interest rate is  $8\%$  per annum. What is a lower bound for the price of a six-month European call option on the index when the strike price is 290?
-17.8. A currency is currently worth 0.80 and has a volatility of 12\%. The domestic and foreign risk-free interest rates are 6\% and 8\%, respectively. Use a two-step binomial tree to value (a) a European four-month call option with a strike price of 0.79 and (b) an American four-month call option with the same strike price.
-17.9. Explain how corporations can use range forward contracts to hedge their foreign exchange risk when they are due to receive a certain amount of a foreign currency in the future.
-
-17.10. Calculate the value of a three-month at-the-money European call option on a stock index when the index is at 250, the risk-free interest rate is  $10\%$  per annum, the volatility of the index is  $18\%$  per annum, and the dividend yield on the index is  $3\%$  per annum.
-17.11. Calculate the value of an eight-month European put option on a currency with a strike price of 0.50. The current exchange rate is 0.52, the volatility of the exchange rate is  $12\%$ , the domestic risk-free interest rate is  $4\%$  per annum, and the foreign risk-free interest rate is  $8\%$  per annum.
-17.12. Show that the formula in equation (17.12) for a put option to sell one unit of currency A for currency B at strike price  $K$  gives the same value as equation (17.11) for a call option to buy  $K$  units of currency B for currency A at strike price  $1 / K$ .
- 17.13. A foreign currency is currently worth \$1.50. The domestic and foreign risk-free interest rates are 5\% and 9\%, respectively. Calculate a lower bound for the value of a six-month call option on the currency with a strike price of \$1.40 if it is (a) European and (b) American.
-17.14. Consider a stock index currently standing at 250. The dividend yield on the index is  $4\%$  per annum, and the risk-free rate is  $6\%$  per annum. A three-month European call option on the index with a strike price of 245 is currently worth 10. What is the value of a three-month put option on the index with a strike price of 245?
-17.15. An index currently stands at 696 and has a volatility of  $30\%$  per annum. The risk-free rate of interest is  $7\%$  per annum and the index provides a dividend yield of  $4\%$  per annum. Calculate the value of a three-month European put with an exercise price of 700.
-17.16. Show that, if  $C$  is the price of an American call with exercise price  $K$  and maturity  $T$  on a stock paying a dividend yield of  $q$ , and  $P$  is the price of an American put on the same stock with the same strike price and exercise date, then
-
-$$
-
-S _ {0} e ^ {- q T} - K <   C - P <   S _ {0} - K e ^ {- r T},
-
-$$ where  $S_0$  is the stock price,  $r$  is the risk-free rate, and  $r > 0$ . (Hint: To obtain the first half of the inequality, consider possible values of:
-
-Portfolio A: a European call option plus an amount  $K$  invested at the risk-free rate
-
-Portfolio B: an American put option plus  $e^{-qT}$  of stock with dividends being reinvested in the stock.
-
-To obtain the second half of the inequality, consider possible values of:
-
-Portfolio  $C$ : an American call option plus an amount  $Ke^{-rT}$  invested at the risk-free rate
-
-Portfolio  $D$ : a European put option plus one stock with dividends being reinvested in the stock.)
-
-17.17. Show that a European call option on a currency has the same price as the corresponding European put option on the currency when the forward price equals the strike price.
-17.18. Would you expect the volatility of a stock index to be greater or less than the volatility of a typical stock? Explain your answer.
-17.19. Does the cost of portfolio insurance increase or decrease as the beta of a portfolio increases? Explain your answer.
-
-17.20. Suppose that a portfolio is worth \$60 million and a stock index stands at 1,200. If the value of the portfolio mirrors the value of the index, what options should be purchased to provide protection against the value of the portfolio falling below \$54 million in one year's time?
-17.21. Consider again the situation in Problem 17.20. Suppose that the portfolio has a beta of 2.0, the risk-free interest rate is  $5\%$  per annum, and the dividend yield on both the portfolio and the index is  $3\%$  per annum. What options should be purchased to provide protection against the value of the portfolio falling below 54 million in one year's time?
-17.22. An index currently stands at 1,500. European call and put options with a strike price of 1,400 and time to maturity of six months have market prices of 154.00 and 34.25, respectively. The six-month risk-free rate is  $5\%$ . What is the implied dividend yield?
-17.23. A total return index tracks the return, including dividends, on a certain portfolio. Explain how you would value (a) forward contracts and (b) European options on the index.
-17.24. What is the put-call parity relationship for European currency options?
-17.25. Prove the results in equations (17.1), (17.2), and (17.3) using the portfolios indicated.
-17.26. Can an option on the yen/euro exchange rate be created from two options, one on the dollar/euro exchange rate, and the other on the dollar/yen exchange rate? Explain your answer.
-17.27. Suppose the Dow Jones Industrial Average is 27,000 and the price of a two-month (European) call option on the index with a strike price of 270 is  $5.35$ . Use the DerivaGem software to calculate the implied volatility of this option. Assume the risk-free rate is  $0.25\%$  and the dividend yield is  $2\%$ . Estimate the price of a two-month put option with a 270 strike price. What is the volatility implied by the price you estimate for this option? (Note that options are on the Dow Jones index divided by 100.)
-17.28. A stock index currently stands at 300 and has a volatility of  $20\%$ . The risk-free interest rate is  $8\%$  and the dividend yield on the index is  $3\%$ . Use a three-step binomial tree to value a six-month put option on the index with a strike price of 300 if it is (a) European and (b) American?
-17.29. Suppose that the spot price of the Canadian dollar is U.S.  \$0.75 and that the Canadian dollar/U.S. dollar exchange rate has a volatility of 8\%$  per annum. The risk-free rates of interest in Canada and the United States are  $4\%$  and  $5\%$  per annum, respectively. Calculate the value of a European call option to buy one Canadian dollar for U.S. 0.75 in nine months. Use put-call parity to calculate the price of a European put option to sell one Canadian dollar for U.S. \$0.75 in nine months. What is the price of a call option to buy U.S. \$0.75 with one Canadian dollar in nine months?
-17.30. The spot price of an index is 1,000 and the risk-free rate is  $4\%$ . The prices of 3-month European call and put options when the strike price is 950 are 78 and 26. Estimate (a) the dividend yield and (b) the implied volatility.
-17.31. Assume that the price of currency A expressed in terms of the price of currency B follows the process  $dS = (r_{\mathrm{B}} - r_{\mathrm{A}})Sdt + \sigma Sdz$ , where  $r_{\mathrm{A}}$  is the risk-free interest rate in currency A and  $r_{\mathrm{B}}$  is the risk-free interest rate in currency B. What is the process followed by the price of currency B expressed in terms of currency A?
-
-17.32. In Business Snapshot 17.1, what is the cost of a guarantee that the return on the fund will not be negative over the next 10 years?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/eed61c2214a89a91669c9ed920b5a8699135587d9545a0e6e566fe191fee8576.jpg)
-
-# 18
-
-# Futures Options and Black's Model
-
-The options we have considered so far provide the holder with the right to buy or sell a certain asset by a certain date for a certain price. They are sometimes termed options on spot or spot options because, when the options are exercised, the sale or purchase of the asset at the agreed-on price takes place immediately. In this chapter we move on to consider options on futures, also known as futures options. In these contracts, exercise of the option gives the holder a position in a futures contract.
-
-The Commodity Futures Trading Commission in the U.S. authorized the trading of options on futures on an experimental basis in 1982. Permanent trading was approved in 1987, and since then the popularity of the contract has grown very fast.
-
-In this chapter we consider how futures options work and the differences between these options and spot options. We examine how futures options can be priced, explore the relative pricing of futures options and spot options, and discuss what are known as futures-style options.
-
-In 1976, Fischer Black proposed a model, now known as Black's model, for valuing European options on futures. As this chapter will show, the model has proved to be an important alternative to the Black-Scholes-Merton model for valuing a wide range of European spot options.

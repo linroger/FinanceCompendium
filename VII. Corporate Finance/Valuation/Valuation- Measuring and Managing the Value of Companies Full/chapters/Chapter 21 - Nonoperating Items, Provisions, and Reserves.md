@@ -1,12 +1,19 @@
 ---
-aliases:
-  - Nonoperating Items, Provisions, and Reserves
-tags:
-key_concepts:
-parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
-cssclasses: academia
 title: Chapter 21 - Nonoperating Items, Provisions, and Reserves
-linter-yaml-title-alias: Nonoperating Items, Provisions, and Reserves
+parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - nonoperating items
+  - provisions reserves
+  - valuation adjustments
+secondary_tags:
+  - amortization intangibles
+  - restructuring charges
+  - litigation expenses
+  - asset write-offs
+cssclasses: academia
 ---
 
 # Nonoperating Items, Provisions, and Reserves
@@ -123,6 +130,22 @@ Although gains and losses should not be included in operating profit, past asset
 Provisions are noncash expenses that reflect future costs or expected losses. Companies take provisions by reducing current income and setting up a corresponding reserve as a liability (or deducting the amount from the relevant asset).
 
 For the purpose of analyzing and valuing a company, we categorize provisions into one of four types: ongoing operating provisions, long-term operating provisions, nonoperating provisions like restructuring provisions, or provisions created for the purpose of smoothing income (transferring income from one period to another). Based on the characteristics of each provision, adjust the financial statements to reflect the company's true operating performance. For example, ongoing operating provisions are treated the same way as any other operating expense, whereas restructuring provisions are converted from an accrual to a cash basis and treated as nonoperating. Exhibit 21.5 summarizes the four types of provisions and how to treat them in NOPAT, invested capital, and valuation.
+
+```d2
+provisions classification: {
+  shape: flowchart
+  
+  ongoing_operating: "Ongoing Operating Provisions (e.g., warranties, returns)"
+  long_term_operating: "Long-Term Operating Provisions (e.g., decommissioning)"
+  nonoperating: "Nonoperating Provisions (e.g., restructuring)"
+  income_smoothing: "Income-Smoothing Provisions"
+  
+  ongoing_operating -> nopat: "Deduct from revenue"
+  long_term_operating -> nopat: "Deduct operating portion"
+  nonoperating -> valuation: "Value separately"
+  income_smoothing -> nopat: "Eliminate from NOPAT"
+}
+```
 
 We believe our classification system of reserves leads to better analysis, but the way you adjust the financial statements should not affect the company's valuation. The valuation depends solely on how and when cash flows through the business, not on accrual-based accounting.
 

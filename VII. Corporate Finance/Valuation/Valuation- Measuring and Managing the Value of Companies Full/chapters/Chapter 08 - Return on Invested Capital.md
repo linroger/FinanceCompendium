@@ -1,15 +1,23 @@
 ---
-aliases:
-  - Return on Invested Capital
-tags:
-key_concepts:
-parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
-cssclasses: academia
 title: Chapter 08 - Return on Invested Capital
-linter-yaml-title-alias: Return on Invested Capital
+parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - return on invested capital
+  - competitive advantage
+  - ROIC drivers
+secondary_tags:
+  - industry structure
+  - sustainable ROIC
+  - ROIC trends
+  - business strategy
+  - economic value creation
+cssclasses: academia
 ---
 
-# Return on Invested Capital
+## Return on Invested Capital
 
 As Chapter 3 explains, the higher a company can raise its return on invested capital (ROIC), and the longer it can earn a rate of return on that capital greater than its cost of capital, the more value it will create. So it is critical to every strategic and investment decision to be able to understand and predict what drives and sustains ROIC.
 
@@ -62,6 +70,33 @@ Competitive advantage derives from some combination of ten sources, defined in E
 EXHIBIT 8.2 Sources of Competitive Advantage
 
 <table><tr><td>Price premium</td><td>Cost and capital efficiency</td></tr><tr><td>Innovative products: Difficult-to-copy or patented products, services, or technologies</td><td>Innovative business method: Difficult-to-copy business method that contrasts with established industry practice</td></tr><tr><td>Quality: Customers willing to pay a premium for a real or perceived difference in quality over and above competing products or services</td><td>Unique resources: Advantage resulting from inherent geological characteristics or unique access to raw material(s)</td></tr><tr><td>Brand: Customers willing to pay a premium based on brand, even if there is no clear quality difference</td><td>Economies of scale: Efficient scale or size for the relevant market</td></tr><tr><td>Customer lock-in: Customers unwilling or unable to replace a product or service they use with a competing product or service</td><td>Scalable product/process: Ability to add customers and capacity at negligible marginal cost</td></tr><tr><td>Rational price discipline: Lower bound on prices established by large industry leaders through price signaling or capacity management</td><td></td></tr></table>
+
+```d2
+sources of competitive advantage: {
+  shape: flowchart
+  
+  price premium: "Price Premium" {
+    innovative products: "Innovative Products"
+    quality: "Quality"
+    brand: "Brand"
+    customer lock_in: "Customer Lock-In"
+    rational price discipline: "Rational Price Discipline"
+  }
+  
+  cost efficiency: "Cost & Capital Efficiency" {
+    innovative business method: "Innovative Business Method"
+    unique resources: "Unique Resources"
+    economies of scale: "Economies of Scale"
+    scalable product: "Scalable Product/Process"
+  }
+  
+  network economies: "Network Economies"
+  
+  price premium -> competitive advantage
+  cost efficiency -> competitive advantage
+  network economies -> competitive advantage
+}
+```
 
 On balance, price premiums offer any business the greatest scope for achieving an attractive ROIC, but they are usually more difficult to achieve than cost efficiencies. Also, the businesses or products with the highest returns are often those that weave together more than one advantage.
 

@@ -1,14 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Contents
+parent_directory: 151 Trading Strategies
+formatted: 2025-12-20 11:45:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - trading strategies
+  - options strategies
+  - financial derivatives
+secondary_tags:
+  - covered calls
+  - protective puts
+  - straddles
+  - spreads
+  - momentum trading
+  - value investing
+  - mean reversion
+  - volatility trading
+  - arbitrage strategies
 cssclasses: academia
-title: "**Contents**"
-source: "151 Trading Strategies.pdf"
-converted: "2025-11-28T12:31:53.790149"
-type: document
-linter-yaml-title-alias: "**Contents**"
 ---
 
 Copyright c _⃝_ 2018 Zura Kakushadze and Juan Andr´es Serur. All Rights
@@ -23,9 +33,9 @@ Reserved.
 **1** **Introduction and Summary** **15**
 
 **2** **Options** **17**
-2.1 Generalities … … … … … … … … … … . . 17
+2.1 Generalities 17
 
-2.2 Strategy: Covered call … … … … … … … … . . 18
+2.2 Strategy: Covered call 18
 2.3 Strategy: Covered put … … … … … … … … . . 18
 2.4 Strategy: Protective put … … … … … … … … . 19
 2.5 Strategy: Protective call … … … … … … … … . 19
@@ -336,7 +346,7 @@ to the option holder. Typically, an option gives the option holder the right, bu
 
 the obligation, to buy or sell an underlying security or financial asset (e.g., a share
 
-- f common stock) at an agreed-upon price (referred to as the strike price) during a
+of common stock) at an agreed-upon price (referred to as the strike price) during a
 certain period of time or on a specific date (referred to as the exercise date). A buyer
 pays a premium to the seller for the option. For option pricing, see, e.g., [Harrison
 and Pliska, 1981], [Baxter and Rennie, 1996], [Hull, 2012], [Kakushadze, 2015a].
@@ -345,7 +355,7 @@ A European call option is a right (but not an obligation) to buy a stock at the
 
 maturity time _T_ for the strike price _k_ agreed on at time _t_ = 0. The claim for the call
 
-- ption _f_ _[call]_ ( _ST_ _, k_ ) = ( _ST −_ _k_ ) [+] . Here ( _x_ ) [+] = _x_ if _x >_ 0, and ( _x_ ) [+] = 0 if _x _ 0. By
+option _f_ _[call]_ ( _ST_ _, k_ ) = ( _ST −_ _k_ ) [+] . Here ( _x_ ) [+] = _x_ if _x >_ 0, and ( _x_ ) [+] = 0 if _x _ 0. By
 the "claim" we mean how much the option is worth at maturity _T_ . If the stock price
 at maturity _ST > k_, then the option holder gains _ST −_ _k_ (excluding the cost paid for
 the option at _t_ = 0). If the price at maturity _ST _ _k_, then there is no profit to be
@@ -369,8 +379,8 @@ readily generalized to other assets. Furthermore, there is a variety of option s
 
 before expiration – see, e.g., [Kim, 1990]), Bermudan options (that can be exercised
 
-- nly on specified dates on or before expiration – see, e.g., [Andersen, 1999]), Canary
-- ptions (that can be exercised, say, quarterly, but not before a determined time
+only on specified dates on or before expiration – see, e.g., [Andersen, 1999]), Canary
+options (that can be exercised, say, quarterly, but not before a determined time
 period, say, 1 year, has elapsed – see, e.g., [Henrard, 2006]), Asian options (whose
 payo↵is determined by the average underlying price over some preset time period
 
@@ -378,7 +388,7 @@ payo↵is determined by the average underlying price over some preset time perio
 the underlying security's price passes a certain level or "barrier" – see, e.g., [Haug,
 2001]), other exotic options (a broad category of options that typically are complexly
 structured – see, e.g., [Fabozzi, 2002]), etc. Let us also mention binary (a.k.a. all
-- r-nothing or digital) options (that pay a preset amount, say, \$1, if the underlying
+or-nothing or digital) options (that pay a preset amount, say, \$1, if the underlying
 security meets a predefined condition on expiration, otherwise they simply expire
 without paying anything to the holder – see, e.g., [Breeden and Litzenberger, 1978]).
 

@@ -1,9 +1,17 @@
 ---
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: M.1. Solutions
+parent_directory: FINM Markets Foundation
+formatted: 2025-12-20 07:04:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - homework solutions
+  - treasury analysis
+secondary_tags:
+  - yield calculations
+  - debt composition
+  - short-term rates
+cssclasses: academia
 ---
 
 # M.1. Solutions

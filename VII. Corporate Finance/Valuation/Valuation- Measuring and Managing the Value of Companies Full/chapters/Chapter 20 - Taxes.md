@@ -1,12 +1,20 @@
 ---
-aliases:
-  - Taxes
-tags:
-key_concepts:
-parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
-cssclasses: academia
 title: Chapter 20 - Taxes
-linter-yaml-title-alias: Taxes
+parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - tax valuation
+  - operating taxes
+  - deferred taxes
+  - cash tax rates
+secondary_tags:
+  - tax reconciliation
+  - effective tax rate
+  - statutory tax rate
+  - valuation methodology
+cssclasses: academia
 ---
 
 # Taxes
@@ -14,6 +22,19 @@ linter-yaml-title-alias: Taxes
 A good valuation begins with good housekeeping. Reorganize the company's income statement and balance sheet into three categories: operating, nonoperating, and financing items. The reorganized statements can then be used to estimate return on invested capital (ROIC) and free cash flow (FCF), which in turn drive the company's valuation.
 
 One line item that incorporates all three categories is taxes. In this chapter, we explore the role of operating taxes in valuation and discuss how to use the notes in the annual report to estimate operating taxes and the operating tax rate. Since some companies can defer a portion of their reported taxes over long periods, we'll also go through the steps for converting operating taxes to operating cash taxes and, as a result, how to incorporate deferred taxes into a valuation.
+
+```d2
+tax valuation process: {
+  shape: flowchart
+  
+  reorganize_statements: "Reorganize Income Statement and Balance Sheet"
+  estimate_operating_taxes: "Estimate Operating Taxes from Reconciliation Table"
+  convert_to_cash_taxes: "Convert to Operating Cash Taxes (Adjust for Deferred Taxes)"
+  incorporate_into_valuation: "Incorporate into Valuation (NOPAT, FCF)"
+  
+  reorganize_statements -> estimate_operating_taxes -> convert_to_cash_taxes -> incorporate_into_valuation
+}
+```
 
 # ESTIMATING OPERATING TAXES
 

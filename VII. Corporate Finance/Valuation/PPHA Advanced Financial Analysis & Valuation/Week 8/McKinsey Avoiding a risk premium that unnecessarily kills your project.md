@@ -1,8 +1,14 @@
 ---
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 8
 title: Avoiding a risk premium that unnecessarily kills your project
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [risk premium, discount rate, cost of capital, project valuation]
+secondary_tags: [NPV, scenario analysis, weighted average cost of capital]
 tags:
 aliases:
+  - "Avoiding a risk premium that unnecessarily kills your project"
 parent_folder: Week 8
 subfolder:
 key_concepts:
@@ -12,7 +18,7 @@ linter-yaml-title-alias: Avoiding a risk premium that unnecessarily kills your p
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/bc5fd2da-2d81-4465-97fe-96606903d960/cb6c39690560e25bca3e458d0f8106379b866895a345975d7f04cc990e74888b.jpg)
 
-# Avoiding a risk premium that unnecessarily kills your project
+## Avoiding a risk premium that unnecessarily kills your project
 
 Too high a discount rate can make good projects seem unattractive. How high is too high?
 
@@ -30,7 +36,7 @@ the discount rate to compensate for the potentially overstated cash flows.2
 
 A better approach for determining the expected value of a project is to develop multiple cashflow scenarios, preferably including at least one downside case, value them at the unadjusted cost of capital, and then calculate the average weighted by the probability that each will happen (Exhibit 1).
 
-# Exhibit 1
+## Exhibit 1
 
 Risk-weighted scenarios are more nuanced than adding a premium to the discount rate.
 
@@ -48,7 +54,7 @@ Approach 2: adding a premium to the discount rate, $ million
 
 2Weighted average cost of capital.
 
-# Exhibit 2
+## Exhibit 2
 
 # Small changes in discount rate imply unrealistic expectations of failure.
 

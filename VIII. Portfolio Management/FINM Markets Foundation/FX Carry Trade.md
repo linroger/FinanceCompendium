@@ -1,14 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "FX Carry Trade Analysis"
+parent_directory: Portfolio Management/FINM Markets Foundation
+formatted: 2025-12-20 19:45:00 PM
+formatter_model: kimi-k2-turbo
+cli_tool: opencode
+primary_tags:
+  - fx carry trade
+  - currency exchange rates
+  - interest rate differentials
+  - forecasting regressions
+secondary_tags:
+  - uncovered interest parity
+  - forward premium
+  - peso problem
+  - volatility crashes
+  - excess returns
+  - dynamic trading strategies
+  - regression analysis
+  - risk free rates
+  - currency appreciation
 cssclasses: academia
-title: Topic 8 - FX Carry Trade
-linter-yaml-title-alias: Topic 8 - FX Carry Trade
 ---
 
-# Topic 8 - FX Carry Trade
+# FX Carry Trade
 
 ## FINM 36700: Portfolio and Risk Management
 
@@ -55,7 +69,7 @@ $$\newcommand{\FX}{S}$$
 
 $$\newcommand{\fxlog}{\texttt{s}}$$
 
-# Data
+## Data
 
 ```python
 DATAPATH_FX = '../data/fx_carry_data.xlsx'
@@ -88,7 +102,7 @@ logFXgrowth = logFX.diff(axis=0)
 logRX = logFXgrowth - logRFspread.values
 ```
 
-# The Carry Trade
+## The Carry Trade
 
 The carry trade logic is simple:
 
@@ -129,7 +143,25 @@ Given that exchange rates are subject to large sudden movements,
 
 What economic factors explain this premium?
 
-# Testing the Carry Trade
+```d2
+carry trade strategy: {
+  shape: rectangle
+  label: "FX Carry Trade"
+  
+  logic: "Go Long High Interest Currency" {
+    risk: "Risk of Depreciation"
+  }
+  
+  premium: "Interest Rate Premium" {
+    crash: "Subject to Crashes"
+  }
+  
+  logic -> premium
+  risk -> crash
+}
+```
+
+## Testing the Carry Trade
 
 Run a forecasting regression for the log FX Growth, as implied by UIP.
 
@@ -240,7 +272,7 @@ In fact, the statements above are just about the point estimates, and may not be
 
 These effects are extremely small! The R-squared stats for all four currencies are nearly 0. 
 
-# The Dynamic Carry Trade
+## The Dynamic Carry Trade
 
 ```python
 forecast = pd.DataFrame(columns=logFXgrowth.columns, index=logFXgrowth.index)
@@ -302,6 +334,17 @@ forecast.plot(title='Forecasted Excess Log Returns', figsize=(10,6));
 
 ![png](output_20_0.png)
 
+```d2
+dynamic carry trade: {
+  forecast: "Generate Forecasts using Regression"
+  weights: "Calculate Time-Varying Weights"
+  returns: "Compute Forecasted Returns"
+  compare: "Compare to Passive Strategy"
+  
+  forecast -> weights -> returns -> compare
+}
+```
+
 ### Positive or Negative Forecasts?
 
 Though the static carry-trade above found that UK and EU have negative mean excess (log) returns, the dynamic carry trade finds that the time-varying forecast is often positive.
@@ -318,7 +361,7 @@ It is analogous to timing the trading of SPY according to the Earnings-Price Rat
 
 Of course, it is an open question as to whether this will work given the weak R-squared in-sample, let alone out-of-sample.
 
-# Building the Dynamic Trade
+## Building the Dynamic Trade
 
 Try implementing the forecasts with a simple proportional weighting of each forecast.
 

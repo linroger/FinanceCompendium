@@ -1,11 +1,17 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Volatility Smiles
+parent_directory: Options, Futures, and Other Derivatives
+formatted: 2025-12-20 06:59:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - volatility smiles
+  - implied volatility
+secondary_tags:
+  - volatility surfaces
+  - risk-neutral distributions
+  - minimum variance delta
 cssclasses: academia
-title: Chapter 20. Volatility smiles and volatility surfaces 429
-linter-yaml-title-alias: Chapter 20. Volatility smiles and volatility surfaces 429
 ---
 
 # Chapter 20. Volatility smiles and volatility surfaces 429

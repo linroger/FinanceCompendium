@@ -1,14 +1,38 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Greek Letters
+parent_directory: Options, Futures, and Other Derivatives
+formatted: 2025-12-20 06:57:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - greek letters
+  - option sensitivities
+secondary_tags:
+  - delta hedging
+  - theta gamma vega
+  - rho sensitivity
+  - portfolio insurance
 cssclasses: academia
-title: Chapter 19. The Greek letters 395
-linter-yaml-title-alias: Chapter 19. The Greek letters 395
 ---
 
 # Chapter 19. The Greek letters 395
+
+```d2
+greek letters overview: {
+  shape: flowchart
+  
+  delta: "Δ - Price sensitivity to underlying"
+  gamma: "Γ - Delta sensitivity to underlying" 
+  theta: "Θ - Price sensitivity to time decay"
+  vega: "V - Price sensitivity to volatility"
+  rho: "Ρ - Price sensitivity to interest rate"
+  
+  delta -> gamma: "second derivative"
+  delta -> theta: "time component"
+  delta -> vega: "volatility component"
+  delta -> rho: "rate component"
+}
+```
 
 19.1 Illustration 395
 19.2 Naked and covered positions 396

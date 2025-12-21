@@ -1,20 +1,27 @@
 ---
+title: Blackstone and the Sale of Citigroup's Loan Portfolio
 parent_directory: PPHA Advanced Financial Analysis & Valuation/Week 6
-title: "Week 6: Blackstone and the Sale of Citigroup's Loan Portfolio"
-tags:
-aliases:
-  - "Blackstone and the Sale of Citigroup's Loan Portfolio"
-parent_folder: Week 6
-subfolder:
-key_concepts:
+formatted: 2025-12-20 07:06:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - leveraged loans
+  - citigroup
+  - blackstone
+  - private equity
+secondary_tags:
+  - leveraged buyouts
+  - distressed debt
+  - loan portfolio
+  - risk management
+  - financial markets
 cssclasses: academia
-linter-yaml-title-alias: "Week 6: Blackstone and the Sale of Citigroup's Loan Portfolio"
 ---
 
 VICTORIA IVASHINA  
 DAVID SCHARFSTEIN
 
-# Blackstone and the Sale of Citigroup's Loan Portfolio
+## Blackstone and the Sale of Citigroup's Loan Portfolio
 
 At the end of March 2008, Bennett J. Goodman (HBS'84), a Senior Managing Director at Blackstone, one of the world's largest private equity firms, was reviewing materials for the potential purchase of a \(6.11 billion pool of leveraged loans from Citigroup, one of the world's largest banking entities. Most of these loans were used to finance large leveraged buyouts (LBOs) that had been announced in late 2006 and early 2007. In a number of cases, Blackstone had considered making an equity investment. The research and due diligence that Blackstone had performed in the process gave Goodman some degree of confidence that he understood the risks in the loan portfolio. TPG, another large private equity firm that was considering partnering with Blackstone in purchasing the loan pool, had also researched and even participated in many of the LBOs.
 
@@ -26,7 +33,7 @@ Goodman, along with Tripp Smith and Doug Ostrover, had just earlier that month c
 
 While the investment opportunity seemed attractive, and had the support of a number of GSO's general partners, the very dislocations in the market that gave rise to the opportunity also brought substantial risk. In recent months, financial markets had witnessed a set of events that would have been hard to imagine a year earlier. Just a few days prior, Bear Stearns—one of the most prominent global investment banks—had collapsed, leading JPMorgan Chase to buy the bank for a small fraction of its value a year earlier, and then only with assistance from the Federal Reserve. And the economy had moved into a deep recession. Goodman questioned whether anyone could predict how markets would evolve over the next year. He wondered how Steve Schwarzman (CEO) and Tony James (President) would react to such a high profile transaction in the face of such uncertainty. Was the loan pool a great buying opportunity or a great opportunity to remain on the sidelines?
 
-# Citigroup's Leveraged Loan Exposure
+## Citigroup's Leveraged Loan Exposure
 
 In the second half of 2007, the banking industry and financial markets began to show signs of considerable stress brought on, in large part, by rising default rates on residential mortgages and the decline in the value of residential mortgage-backed securities. On November 4, 2007, Citigroup announced that the decline in the fair value of its \(55 billion in U.S. sub-prime related direct exposures could be as much as \(20\%\).<sup>b</sup> By the end of 2007, Citigroup's financial results were significantly affected by write-downs related to subprime exposures, leveraged lending, a slowdown in investment banking activities, and the collapse of the private label securitization market. Net income was down \(83\%\), and the stock price was down \(47\%\) relative to 2006. While Citigroup still appeared to be "well capitalized" from a regulatory capital perspective, its capitalization ratios had declined despite efforts to bolster them.<sup>c</sup> With the prospect that it would incur further losses in the months to come, Citigroup was focused on ensuring that it would continue to meet regulatory capital requirements.
 
@@ -38,7 +45,7 @@ large LBO typically used senior unsecured notes in addition to loans. Notes also
 
 Citigroup's leveraged loan exposure posed two main challenges for the bank. First, leveraged loans were costly from a regulatory capital perspective since they received a  $100\%$  risk weight. By contrast, real estate loans only received a  $50\%$  risk weight, and highly rated securities only a  $20\%$  weight. With a capital requirement of  $8\%$ , this would mean that Citigroup would need \$80 million of capital for every billion dollars of leveraged loans. Reducing its leveraged loan portfolio would ease Citigroup's capital requirements, but might entail selling the loans below their fundamental value, possibly at fire sale prices. The second challenge posed by holding these loans was posed by their accounting treatment. Since a substantial fraction of these loans was intended to be sold and as such would be classified as "held-for-sale" under accounting requirements, their value was marked-to-market. With the leveraged-loan index (LCDX) dropping to 97 cents on the dollar in the fall of 2007 (from par level in summer of the same year), Citigroup had to recognize \$1.5 billion losses on its leveraged loan portfolio for the fiscal year ending on December 31, 2007. By March of 2008, the LCDX index dropped to 92 cents on the dollar, and analysts estimated that write-downs on the leveraged loan portfolio for the first quarter of 2008 could be as high as the total leveraged loans related losses for 2007. Volatility in the pricing of leveraged loans would add further volatility into Citigroup's earnings and its stock price.
 
-# The Loan Portfolio Transaction
+## The Loan Portfolio Transaction
 
 With these concerns in mind, Citigroup approached several large investors, including private equity firms and hedge funds, about purchasing leveraged loans from its portfolio.
 
@@ -48,7 +55,7 @@ Overall, roughly  $75\%$  of the portfolio was comprised of senior secured debt 
 
 The weighted average coupon of the portfolio was LIBOR+309 basis points (bps).<sup>e</sup> (See Exhibit 4 for information on the forward LIBOR.) The weighted average coupon for the senior secured loans in the portfolio was LIBOR+277 bps. On average, the loans in the portfolio were rated "B"/'B-".
 
-# Financing
+## Financing
 
 After some period of negotiation, Blackstone, TPG and Citigroup set the purchase price for the  $6.11 billion loan portfolio at 83 cents on the dollar.\(^{\mathrm{f}}$  Citigroup offered to provide  $80\%$  leverage for senior secured loans and  $60\%$  leverage for senior unsecured notes. Overall, Citigroup offered non-recourse debt financing for  $75\%$  of the purchase price. According to the deal terms, Blackstone and TPG would contribute a total of \)1.26 billion of equity.
 
@@ -60,7 +67,7 @@ The cost of the Citigroup financing was LIBOR+100 bps. The financing had a tenor
 
 The underlying loan portfolio would be used as collateral on the \(3.81 billion financing. If the total value of the loans fell below \(66.4\%\) of its face value (80% of the purchase price), Blackstone and TPG would have to post additional collateral. (See Figure A.)
 
-# Assessing the Deal
+## Assessing the Deal
 
 A key to the investment from Blackstone's perspective was that the loan portfolio was substantially undervalued. In its view, Blackstone had carefully selected the portfolio so that the expected default rates would be smaller than those for average "B"-rated securities, which historically were estimated at  $5.91\%$  for the first year (Exhibit 5). The default probabilities implied by credit default swaps (CDS) were substantially higher. For example, the CDS for Harrah's Entertainment notes implied a default probability in the subsequent year of  $20.82\%$  ( $= 1147.35$  bps/(1-0.449), where 0.449 is the historical recovery rate on defaulted senior unsecured notes).[8] (Historical recovery rates are reported in Exhibit 6. Exhibit 7 provides data on credit default swaps spreads for the senior unsecured debt of the issuers in the Citigroup loan portfolio.)
 
@@ -109,7 +116,7 @@ Exhibit 7 Average Five-Year Credit Derivatives Swaps (CDS) Spreads on Senior Not
 Source: Thomson Datastream and Bloomberg.  
 <sup>a</sup>CDSs are quoted as annual insurance premium in percentage of notional amount. For example, a CDS Spread of 1,000 bps means that default insurance for a notional amount of \$100 costs $10 p.a. ($2.5 per quarter).
 
-# Exhibit 8 Bennett J. Goodman Biography
+## Exhibit 8 Bennett J. Goodman Biography
 
 Bennett Goodman is a Founder of GSO Capital Partners ("GSO"), Senior Managing Director of Blackstone and a Member of Blackstone's Management Committee. Since joining Blackstone in 2008, Mr. Goodman focuses on the management of GSO, which is Blackstone's credit investment platform with over \$50 billion of alternative assets under management ("AUM") ranging from hedge funds, mezzanine vehicles, distressed funds and other investment strategies. Before founding GSO Capital Partners in 2005, Mr. Goodman was the Founder and Managing Partner of the Alternative Capital Division of Credit Suisse. Mr. Goodman joined Credit Suisse in November 2000 when they acquired Donaldson, Lufkin & Jenrette ("DLJ") where he was Global Head of Leveraged Finance. Mr. Goodman joined DLJ in February of 1988 as the founder of the High Yield Capital Markets Group. In 1993, DLJ became the 1 global issuer of high yield bonds, and Mr. Goodman's team retained that coveted market position for the next 11 consecutive years. Prior to joining DLJ, Mr. Goodman worked in the high yield business at Drexel Burnham Lambert from 1984 to 1988. Mr. Goodman is on the Board of Directors of the Film Society of Lincoln Center and the Cancer Research Institute. He is a member of the American Jewish Committee's Board of Trustees and he also serves on the Investment Committee of the Lafayette College endowment. Mr. Goodman received Institutional Investor's 2012 Money Manager of The Year Award. He also received the 2004 Lifetime Achievement Award from Euromoney Magazine for his career achievements in the global capital markets. He graduated from Lafayette College and the Harvard Business School.
 

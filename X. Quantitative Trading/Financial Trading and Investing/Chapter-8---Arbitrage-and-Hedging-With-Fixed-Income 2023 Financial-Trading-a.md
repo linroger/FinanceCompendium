@@ -1,18 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Arbitrage and Hedging With Fixed Income Instruments and Currencies"
+parent_directory: "X. Quantitative Trading/Financial Trading and Investing"
+formatted: "2025-12-20 06:53:00 PM"
+formatter_model: opencode
+cli_tool: opencode
+primary_tags:
+  - arbitrage
+  - hedging
+  - fixed-income
+secondary_tags:
+  - bonds
+  - interest-rates
+  - duration
+  - convexity
+  - term-structure
+  - currency-arbitrage
+  - purchase-power-parity
+  - forward-contracts
+  - risk-management
 cssclasses: academia
-title: "8"
-linter-yaml-title-alias: "8"
 ---
 
 # 8
 
 # Arbitrage and Hedging With Fixed Income Instruments and Currencies
 
-# 8.1 ARBITRAGE WITH RISKLESS BONDS
+## 8.1 ARBITRAGE WITH RISKLESS BONDS
 
 As we discussed in Chapter 7, traders are very concerned with arbitrage, where riskless arbitrage involves the simultaneous purchase and sale of identical cash flows. The most easily arbitraged financial instruments are often those with guaranteed payments or with payments that are perfectly correlated with other instruments. Consider a set of riskless bonds whose coupon payments and redemption values are guaranteed. Such riskless bonds might be replicated by portfolios of other riskless bonds if their payments are similarly guaranteed and are to be made on the same dates. For example, consider the illustration provided in Table 8.1, which consists of three priced riskless bonds, all making payments on the same dates until they mature. The cash flow structure of any one-, two-, or three-year bond (e.g., Bond D) added to the market can be replicated with some portfolio of bonds A, B, and C, as long as all the cash payments to investors on Bond D are on the same dates as those made by at least one (in this example, two) of the three bonds A, B, and C. For example, assume that there now exists Bond D, a three-year,  $20\%$  coupon bond selling in this market for \$1360. This bond will make payments of \$200 in years 1 and 2 in addition to a \$1200 payment in year 3. We will demonstrate that a portfolio of bonds A, B, and C can be assembled to generate the same cash flow series as Bond D.
 
@@ -74,11 +87,11 @@ $$
 
 Thus, by buying Bonds C and D at quantities  $2\frac{1}{3}$  and 1, respectively, and shorting Bond B in quantity  $3\frac{1}{3}$ , the arbitrageur locks in a profit of 84 in time zero, and zero profits in the subsequent three years. The arbitrage portfolio is riskless because all bonds are presumed to be default risk-free and are presumed to be held to maturity, thereby eliminating interest rate and liquidity risk.
 
-# 8.2 FIXED INCOME HEDGING
+## 8.2 FIXED INCOME HEDGING
 
 Fixed income instruments provide for fixed interest payments at fixed intervals and principal repayments. In the absence of default and liquidity risk (and hybrid or adjustable features), uncertainties in interest rate shifts are the primary source of pricing risk for many fixed income instruments. In this section, we will define a few terms used in the analysis of fixed income instruments and discuss how to manage interest rate uncertainty.
 
-# Bond Yields and Sources of Risk
+## Bond Yields and Sources of Risk
 
 Assume that we wish to analyze a bond maturing in  $n$  periods with a face value (or principle amount) equal to  $F$  paying interest annually at a rate of  $c$ . The annual interest payment is rate  $c$  multiplied by face value  $F$  (or  $cF$ ) and the bond makes a single payment in
 
@@ -130,7 +143,7 @@ In addition, if the bond can be called prior to maturity by its issuer, the bond
 
 U.S. Treasury issues are generally regarded as being practically free of default risk. Furthermore, there exists an active market for Treasury issues, particularly those maturing within a short period. Thus, Treasury issues are regarded as having minimal liquidity risk. However, all bonds are subject to interest rate risk. Longer-term bonds are subject to increased interest rate risk due to the increased periods that the yields on longer-term bonds are likely to differ from newly issued bonds. We will discuss hedging this interest risk shortly.
 
-# Fixed Income Portfolio Dedication
+## Fixed Income Portfolio Dedication
 
 Fixed income funds seek to ensure relatively stable income levels over given periods of time. Typically, a fixed income fund must provide payments to its creditors, clients, or owners for the given period. For example, a pension fund is often expected to make a series of fixed retirement payments to pension fund participants. Such funds must invest their assets to ensure that their liabilities are paid. In many cases, fixed income funds will purchase assets such that their cash flows exactly match the liability payments that they are required to make. This exact matching strategy is referred to as dedication or laddering and is intended to minimize the risk of the fund. The process of dedication is much the same as the arbitrage transactions discussed above; the fund manager merely determines the cash flows associated with his liability structure and replicates them with a series of default risk-free bonds. For example, assume that a pension fund manager needs to make payments to pension plan participants of  \$12,000,000 in one year,\$ 14,000,000 in two years, and \$15,000,000 in three years. The manager wishes to match these cash flows with a portfolio of Bonds A, B, and C whose characteristics were given above in Table 8.1. These three bonds must be used to match the cash flows associated with the fund's liability structure. For example, in year 1, Bond A will pay \$40, B will pay \$60, and C will pay \$0. These payments must be combined to total \$12,000,000. Cash flows must be matched in years 2 and 3 as well. Only one exact matching strategy exists for this scenario. The following system
 
@@ -178,11 +191,11 @@ Exact matching or dedication programs can be very effective when liquidity is su
 
 into the future? If no bonds are available on that date, some sort of approximation must be acceptable. Alternatively, what if such bonds are available, but overpriced? Again, the manager must work with an approximation or accept investment in overpriced bonds. In any case, dedication programs can limit managers with respect to what bonds they can purchase and in what quantities they must be purchased. Next, we will discuss portfolio immunization, which is not always as effective as an interest-rate hedging tool, but does allow for more flexibility.
 
-# 8.3 FIXED INCOME PORTFOLIO IMMUNIZATION
+## 8.3 FIXED INCOME PORTFOLIO IMMUNIZATION
 
 As discussed earlier, bonds and certain other debt instruments issued by the U.S. Treasury are often regarded to be practically free of default risk and of relatively low liquidity risk. However, these bonds, particularly those with longer terms to maturity, are subject to market value fluctuations after they are issued, primarily due to changes in interest rates offered on new issues. Generally, interest rate increases on new bond issues decrease values of bonds that are already outstanding; interest rate decreases on new bond issues increase values of bonds that are already outstanding. Immunization models such as the duration model are intended to describe the proportional change in the value of a bond induced by a change in interest rates or yields of new issues.
 
-# Bond Duration
+## Bond Duration
 
 Many analysts use present value models to value Treasury issues, frequently using yields to maturity of new Treasury issues to value existing issues with comparable terms. It is important for analysts to know how changes in new-issue interest rates will affect values of bonds with which they are concerned. Bond duration measures the proportional sensitivity of a bond to changes in the market rate of interest. Consider a two-year \(10\%\) coupon Treasury issue which is currently selling for \\(966.20. The yield to maturity y of this bond is \(12\%\). Default risk and liquidity risk are assumed to be zero; interest rate risk will be of primary importance. Assume that this bond's yield or discount rate is the same as the market yields of comparable Treasury issues (which might be expected in an efficient market) and assume that bonds of all terms to maturity have the same yield. Further assume that investors have valued the bond such that its market price equals its present value; that is, the discount rate \(k\) for the bond equals its yield to maturity \(y\). If market interest rates and yields were to rise for new Treasury issues, then the yield of this bond would rise accordingly. However, since the contractual terms of the bond will not change, its market price must drop to accommodate a yield consistent with the market. Assume that the value of an \(n\)-year bond paying interest at a rate of \(c\) on face value \(F\) is determined by a present value model with the yield \(y\) of comparable issues serving as the discount rate \(k\):
 
@@ -236,7 +249,7 @@ This duration level of  $-1.907$  suggests that the proportional decrease in the
 
 Application of the simple Macaulay duration model does require several important assumptions. First, it is assumed that yields are invariant with respect to maturities of bonds; that is, the yield curve is flat. Furthermore, it is assumed that investors' projected reinvestment rates are identical to the bond yields to maturity. Any change in interest rates will be infinitesimal and will also be invariant with respect to time. The accuracy of this model will depend on the extent to which these assumptions hold.
 
-# Portfolio Immunization
+## Portfolio Immunization
 
 Earlier, we discussed bond portfolio dedication, which is concerned with matching cash flows of bond portfolios with required payouts associated with liabilities. This process assumes that no transactions will take place within the portfolio and that cash flows associated with liabilities will remain as originally anticipated. Clearly, these assumptions will not hold for many institutions. Alternatively, one may hedge fixed income portfolio risk by using immunization strategies, which are concerned with matching the present values of asset portfolios with the present values of cash flows associated with future liabilities. More specifically, immunization strategies are primarily concerned with matching asset durations with liability durations. If asset and liability durations are matched, it is expected that the net fund value (equity or surplus) will not be affected by a very small shift in interest rates; asset and liability changes offset each other. Again, this simple immunization strategy is dependent on the following:
 
@@ -247,7 +260,7 @@ Earlier, we discussed bond portfolio dedication, which is concerned with matchin
 
 The first assumption, because it allows us to use derivatives to measure sensitivities, can only be an approximation when interest rates change by finite amounts. We will discuss bond convexity shortly as a correction for this scenario. Assumptions requiring flat yield curves and parallel yield curve shifts are useful in that we do not have to distinguish between different rates (e.g., shortand long-term rates) over the term of the bond. Immunization becomes significantly more complicated when we need to analyze fixed income risks such as those related to liquidity and default.
 
-# Immunization Illustration
+## Immunization Illustration
 
 Let us revisit our portfolio dedication illustration discussed in the Fixed Income Hedging section. We note here that our illustration allows for a flat yield curve, such that all yields to maturity equal  $4\%$ . In this illustration, the pension fund manager still has anticipated cash payouts of  $12,000,000,$ 14,000,000, and \$15,000,000 over the next three years 1, 2, and 3. Now, suppose that the manager seeks to immunize interest rate risk associated with this liability stream with a portfolio. Rather than exactly match the liability outflow streams with bond inflows, the manager will match durations of the liability stream with the duration of the bond investment portfolio. This will ensure that changes in the value of the liability stream induced by interest rate changes are approximately the same as changes in the value of the bond portfolio. This will minimize fluctuations in the net value (assets minus liabilities) of the fund as interest rates vary. Bond details were given in Table 8.1. In addition, given the flat yield curve of  $4\%$ , the value of the liability stream is \$37,817,193.90.
 
@@ -287,7 +300,7 @@ This simple matrix system yields the same results as our system above. Note that
 
 Duration-immunized portfolios are most effective when interest rate changes are infinitesimal. Since interest rate changes are likely to be finite, immunization strategies will be improved if we correct for finite interest rate movements by using convexity. Duration is based on the first derivative of a bond's price with respect to interest rates. This first derivative, or first order approximation, would be accurate only if the relationship were linear, which it is not. To correct for nonlinearities in this relationship, we match asset and liability portfolio convexities as well as durations to correct for finite interest rate changes. We will discuss convexity calculations next.
 
-# Convexity
+## Convexity
 
 We used duration to determine the approximate change in a bond's value induced by a change in interest rates  $(1 + y)$ . However, the accuracy of the duration model is reduced by finite changes in interest rates, as we might expect. Duration may be regarded as a first order approximation (it only uses the first derivative) of the change in the value of a bond induced by a change in interest rates. Convexity is determined by the second derivative of the bond's value with respect to  $(1 + y)$ . The first derivative of the bond's price with respect to  $(1 + y)$  is given:
 
@@ -339,13 +352,13 @@ $$
 
 The single solution to this  $3 \times 3$  system of equations is  $w_{A} = 0.106$ ,  $w_{B} = 5.166$ , and  $w_{C} = -4.272$ . Again, rounding in calculations does affect final results; with less rounding,  $w_{A} = 0.100151$ ,  $w_{B} = 5.207593$ , and  $w_{C} = -4.30774$ . Nevertheless, this system provides an improved immunization strategy when interest rate changes are finite.
 
-# 8.4 TERM STRUCTURE, INTEREST RATE CONTRACTS, AND HEDGING
+## 8.4 TERM STRUCTURE, INTEREST RATE CONTRACTS, AND HEDGING
 
 Thus far in this chapter, we have discussed fixed income arbitrage and hedging without use of derivative instruments such as forward and futures contracts. Also, in Section 8.3, we assumed that yield curves were flat, and that shifts in the yield curve are parallel.
 
 Here, we will discuss long-term interest rates as a function of short-term rates, both originating at time zero (spot rates, based on loans originating now or time zero) and short-term rates originating in the future (forward rates, based on loans originating in the future at rates locked in now). In fact, we will argue that long-term interest rates are related to a combination of short-term rates on loans originating now (spot rates) and on loans originating in the future (forward rates). More specifically, the long-term spot rate will be expressed as a geometric mean of short-term spot and forward interest rates. In addition, we will discuss how to use forward and futures contracts to arbitrage fixed income instruments and to hedge fixed income portfolios. At the end of this section, after having discussed the relationship between long-term spot rates and short-term rates, we will discuss the evolution of short-term rates.
 
-# The Term Structure of Interest Rates
+## The Term Structure of Interest Rates
 
 The term structure of interest rates is concerned with interest rates on debt securities and how these rates vary with respect to varying dates of maturity. For example, term structure might be concerned with why the interest rate on debt maturing in one year is  $2\%$  versus  $5\%$  for debt maturing in 20 years. Generally at a given point in time, we observe longer-term interest rates exceeding shorter-term rates (normal yield curves), although this is not always the case (e.g., the years 1980-1983 when we observed inverted yield curves).
 
@@ -369,13 +382,13 @@ $$
 \begin{array}{l} y _ {0, n} = \sqrt [ n ]{\prod_ {t = 1} ^ {n} (1 + y _ {t - 1 , t})} - 1 = \sqrt [ 3 ]{(1 + y _ {0 , 1}) (1 + y _ {1 , 2}) (1 + y _ {2 , 3})} - 1 \\ = \sqrt [ 3 ]{(1 + 0 . 0 5) (1 + 0 . 0 6) (1 + 0 . 0 7)} - 1 = 0. 0 5 9 9 7 \\ \end{array}
 $$
 
-# Term Structure Estimation With Coupon Bonds
+## Term Structure Estimation With Coupon Bonds
 
 The spot rate is the yield at present prevailing for zero coupon bonds of a given maturity. The  $t$  year spot rate is denoted here by  $y_{0,t}$ , which represents the interest rate on a loan to be made at time zero and repaid in its entirety at time  $t$ . Spot rates can be estimated from bonds with known future cash flows and their current prices. We can obtain spot rates from yields implied from series of coupon bonds if the law of one price holds.
 
 These next few sub-sections are concerned with how interest rates or yields vary with maturities of bonds. The simplest bonds to work with from an arithmetic perspective are pure discount notes, that is, notes that make no interest payments. Such notes make only one payment at one point in time—on the maturity date of the note. Determining the relationship between yield and term to maturity for these bonds is quite trivial. The return obtained from a pure discount note is strictly a function of capital gains; that is, the difference between the face value of the note and its purchase price. Short-term U.S. Treasury bills are an example of pure discount (or zero coupon) notes. Coupon bonds are somewhat more difficult to work with from an arithmetic perspective because they make payments to bondholders at a variety of different periods typically every year or every 6 months.
 
-# Bootstrapping the Yield Curve
+## Bootstrapping the Yield Curve
 
 The yield curve can be obtained empirically by examining the payoffs associated with a bond simultaneously with the bond's purchase price. Let  $D_{t}$  be the discount function for time  $t$ ; that is,  $D_{t} = 1 / (1 + y_{0,t})^{t}$ . This means that a coupon payment  $cF$  or payment to face value  $F$  made at time  $t$  will be discounted by multiplying it by the discount function  $D_{t}$ :
 
@@ -482,7 +495,7 @@ $$
 y _ {1, 3} = \sqrt {(1 + 0 . 0 5 2 7 3 1) (1 + 0 . 0 5 2 7 4 4)} - 1 = 0. 0 5 2 7 3 7
 $$
 
-# Simultaneous Estimation of Discount Functions
+## Simultaneous Estimation of Discount Functions
 
 A coupon bond might be treated as a portfolio of pure discount notes, with each coupon payment being treated as a separate note maturing on the date the coupon is paid. Consider an example involving three bonds whose characteristics are given in Table 8.3. The three bonds are trading at known prices with a total of eight annual coupon payments among them (three for bonds F and G and two for bond E). Bond yields or spot rates must be determined simultaneously to avoid associating contradictory rates for the annual coupons on each of the three bills.
 
@@ -558,7 +571,7 @@ $$
 
 Again, contract or bond contracts that are inconsistent with these rates lead to arbitrage opportunities.
 
-# The Evolution of Short-Term Rates<sup>2</sup>
+## The Evolution of Short-Term Rates<sup>2</sup>
 
 As we discussed earlier in this section, the yield curve depicts varying spot rates over associated terms to maturity. Understanding the nature of the uncertainty that drives spot and forward rates, particularly short term rates is essential to understanding fixed income instruments. The Merton (1973) term structure model prices bonds based on the assumption that short-term interest rates (more precisely, instantaneous spot  $r_0$  and forward rates  $r_t$ ) are related to an arithmetic Brownian motion process  $Z_t$ , similar to the stock price model in Section 7.1:
 
@@ -610,11 +623,11 @@ $$
 
 As in the Vasicek model, the mean reversion component draws the short-term rate back towards the long-term rate. However, notice that the nominal (not proportional) volatility of rates is not constant; it declines as the interest rate declines. That is, as the short term rate  $r_t$  approaches zero, the random component of interest rate changes  $\sigma \sqrt{r_t} dZ_t$  will also approach zero. First, this characteristic is more realistic for interest rates, as the volatility of rates tends to be reduced as interest rates approach zero. Second, this process ensures that rates will not drop to or below zero, eliminating arbitrage opportunities for investors holding cash. Both represent advantages of CIR over the Vasicek model.
 
-# 8.5 ARBITRAGE WITH CURRENCYCS
+## 8.5 ARBITRAGE WITH CURRENCYCS
 
 Currency arbitrage can exist when currency prices are not consistent with respect to other currencies or with respect to goods or financial instruments in different countries. Thus, there exist many potential types of currency (foreign exchange or FX) arbitrage opportunities. Here, we discuss triangular arbitrage and absolute purchase power parity (PPP), scenarios that often do not require derivative securities to exploit. When no-arbitrage conditions force prices to retain consistency, triangular arbitrage and PPP can be used to hedge currency risk.
 
-# Triangular Arbitrage
+## Triangular Arbitrage
 
 Triangular arbitrage exploits the relative price difference between one currency and two other currencies. Suppose, for example, the buying and selling prices of EUR1.0 is USD1.2816. However, another currency, the South African Rand (SFR), has a price (buying or selling) equal to USD0.2000 or EUR0.1600. Is there a triangular arbitrage opportunity?
 
@@ -628,7 +641,7 @@ Since  $\mathrm{USD0.20} = \mathrm{EUR0.16}$ , dividing both figures by 0.16 imp
 
 Because of our price inconsistency, we will earn USD0.0051 every time that we execute this series of transactions. Existence of such arbitrage profits should be exploited by arbitrageurs, whose arbitrage transactions will ultimately force down the price SFR in terms of USD and force up the price of SFR in terms of EUR until the discrepancy is eliminated.
 
-# Purchase Power Parity, Arbitrage, and Hedging in FX Markets
+## Purchase Power Parity, Arbitrage, and Hedging in FX Markets
 
 In a world economy characterized by free trade, complete certainty and no market frictions (such as transactions costs), we would expect that exchange rates will be regulated by purchase power parity (PPP). PPP is an example of the law of one price, which simply states that securities offering the same cash flow characteristics or baskets offering the same commodities must sell for the same price. PPP states that the values of currencies relative to each other are determined by the quantity of goods they will purchase. This condition holds both in spot markets and forward markets (we will discuss forward markets in the next section). Currency traders creating arbitrage portfolios should force the PPP to hold. Violations of this parity condition should lead traders to purchase the less expensive currency sell the more expensive currency.
 
@@ -640,7 +653,7 @@ TABLE 8.4 Triangular Arbitrage
 
 the dollar/pound exchange rate is  \$1.46/£; that is, GBP1 has the same value as USD1.46. At this exchange rate of\$ 1.46/£, the British pound appeared overvalued by approximately 15% relative to the U.S. dollar. However, we need to recognize that Big Macs are not easily exported from countries where they are underpriced, which might prevent absolute PPP from holding in this instance. Nor does this relationship among prices account for differences in taxes, subsidies, labor, and other production costs.
 
-# Purchase Power Parity in Spot Markets
+## Purchase Power Parity in Spot Markets
 
 Purchase power parity states that two commodities must sell for the same price (after adjusting for relative currency values). PPP is the primary basis for international comparisons of prices, income and expenditures. In spot markets, the price of a commodity in a foreign market (e.g.,  $P_{\mathrm{UK0}}$  — the price in the UK) multiplied by the exchange rate at present ( $S_0$  — the dollars per pound exchange rate) should equal the price of the commodity in domestic markets (e.g.,  $P_{\mathrm{US0}}$  — the price in the United States):
 
@@ -650,11 +663,11 @@ $$
 
 This condition is known as PPP in spot markets or absolute PPP. In the absence of market frictions in both commodity and exchange markets, and with the ability to freely transport commodities between markets, the potential for arbitrage should force absolute PPP in spot markets to hold. For example, if the spot price of gold in U.S. markets is USD1400 per ounce and UK1000 in British markets, the spot exchange rate must be USD1.400/GBP (Great Britain Pounds). Any single deviation from these rates will lead to an arbitrage opportunity. We will discuss changes in exchange rates and forward markets for exchange in the next section.
 
-# 8.6 ARBITRAGE AND HEDGING WITH CURRENCY FORWARD CONTRACTS
+## 8.6 ARBITRAGE AND HEDGING WITH CURRENCY FORWARD CONTRACTS
 
 In frictionless markets, currency arbitrage opportunities exist when forward currency exchange rates are inconsistent given prices of commodities or rates associated with financial instruments in different countries. Here, we will discuss triangular arbitrage in forward markets and relative PPP, scenarios that do require certain derivative securities.
 
-# Parity and Arbitrage in FX Markets
+## Parity and Arbitrage in FX Markets
 
 In a world economy characterized by free trade, complete certainty, and no market frictions (such as transactions costs), we can argue that the following conditions will hold in equilibrium:
 
@@ -666,7 +679,7 @@ In a world economy characterized by free trade, complete certainty, and no marke
 
 Collectively, these conditions are often referred to as the international equilibrium model. Violations of these conditions imply either arbitrage opportunities or frictions that prevent the exploitation of arbitrage opportunities.
 
-# Purchase Power Parity
+## Purchase Power Parity
 
 We argued above that PPP states that two commodities must sell for the same price (after adjusting for relative currency values). In forward markets, as in spot markets, the price of a commodity in a foreign market (e.g.,  $P_{\mathrm{UK1}}$ —the forward price in the UK) multiplied by the forward exchange rate ( $F_1$ —the dollars per pound forward exchange rate) should equal the price of the commodity in domestic markets (e.g.,  $P_{\mathrm{US1}}$ —the forward price in the United States):
 
@@ -710,7 +723,7 @@ $$
 
 The forward price of the pound (\(1.6296) increased relative to the dollar while the inflation rate affecting the dollar is less than for the pound. This means that the forward price of gold in the United States is too low relative to the UK, the forward price of gold in the UK is too high relative to the United States, and the forward price of pounds is too high relative to dollars.
 
-# Interest Rate Parity
+## Interest Rate Parity
 
 Interest rate parity states that anticipated currency exchange rate shifts will be proportional to countries' relative interest rates. Continuing the above example, assume that the current nominal interest rate in the United States is  $12\%$ , and the spot exchange rate of dollars for pounds is 1.6. Based on these rates, what must be the nominal interest rate in the UK? To avoid arbitrage opportunities in the market for interest bearing securities, interest rate parity must hold:
 
@@ -736,7 +749,7 @@ Time One Positions
 
 Here, we are able to lock in a profit of \(15.74 by engaging the above transactions. The change in exchange rates did not coincide appropriately with the countries' relative interest rates. You should be able to demonstrate for yourself that Equation (8.24) does not hold for this example. Whenever Equation (8.24) does not hold, we will be able to locate an arbitrage opportunity or a friction that prevents its exploitation.
 
-# Exchange Rate Expectations
+## Exchange Rate Expectations
 
 The third of the four parity relations states that the prevailing forward rate of exchange equals the expected spot rate at the time of delivery:
 
@@ -746,7 +759,7 @@ $$
 
 Speculators will force Equation (8.26) to hold, at least approximately, through their trading activity. However, its violation does not necessarily represent an arbitrage opportunity.
 
-# The Fisher Effect
+## The Fisher Effect
 
 The Fisher effect within a given country states that the relationships among the nominal interest rate  $(i)$ , the real interest rate  $(i^{\prime})$  and the expected inflation rate  $E(\pi)$  are given by Equation (8.27):
 
@@ -756,7 +769,7 @@ $$
 
 The Fisher effect provides a definition for the real rate  $i'$  of interest in an economy in terms of the nominal rate  $i$  and the inflation rate  $\pi$ . Equation (8.27) provides a definition, but does not necessarily indicate an arbitrage opportunity.
 
-# The International Fisher Effect
+## The International Fisher Effect
 
 The international counterpart to the Fisher effect is the final parity condition—the international Fisher effect. The international Fisher effect draws from the Fisher effect and purchase and interest rate parity. For example, the following states the international fisher effect for the United States, the United Kingdom:
 
@@ -766,7 +779,7 @@ $$
 
 Thus, the Fisher effect specifies the relationships among real and nominal interest rates and inflation rates. The international Fisher effect extends this relation among countries, indicating that real interest rates among countries will be identical. If this condition were not to hold, arbitrageurs would borrow in countries with low real interest rates and lend in countries with higher nominal interest rates. Alternatively, they might be able to exploit arbitrage opportunities arising from violations in PPP. Please take time to notice the relationships among Equation (8.23) through (8.28) and how additional equalities can be created from them.
 
-# 8.7 HEDGING EXCHANGE EXPOSURE
+## 8.7 HEDGING EXCHANGE EXPOSURE
 
 Multinational companies face a number of risks not experienced by companies operating in only one country. Among the most significant of these risks is exchange rate uncertainty and fluctuations. Transaction exposure is a firm's risk arising from settlement of obligations denominated in foreign currencies. The following are sources of transaction exposure:
 
@@ -784,7 +797,7 @@ The corporate treasurer is responsible for managing these risks. The treasurer w
 
 We use illustrations to examine the first three of these strategies for dealing with transactions exposure. We will discuss the options strategies in the next chapter.
 
-# Illustration: Managing Transactions Exposure
+## Illustration: Managing Transactions Exposure
 
 Consider an example regarding the management of transactions exposure. The Dayton Company of America invested in a British construction project and expects to receive a payoff of  $1,000,000$  in three months. The company seeks to realize its revenues in dollars. The problem is that management does not know the dollar amount of the payoff due to exchange rate uncertainty. Assume relevant data as follows:
 
@@ -806,29 +819,29 @@ Transactions cost on £1,000,000 forward contract: \$500
 
 The treasurer's problem is to evaluate non-options-based methods of managing the transaction risk associated with this extension of credit and the implications of each. We will determine which hedging strategy is likely to be optimal and why. First, we consider the alternative of doing nothing.
 
-# Unhedged Alternative
+## Unhedged Alternative
 
 The unhedged alternative simply means to accept the risk. The strategy is simply to wait 3 months, then sell  \$1,000,000 for dollars at the then prevailing spot rate. The result of this strategy is that all\$ 1,000,000 is at risk. The expected value of the transaction is \$1,754,000 based on the forward rate of exchange used as a predictor for the future spot rate. However, all funds are at risk.
 
-# Forward Market Hedge
+## Forward Market Hedge
 
 The forward market hedge strategy is to sell £1,000,000 forward for dollars at once. The result is that, in the absence of default risk, \$1,754,000 will certainly be received in three months. Transactions costs at time zero will total \$500. Forgone interest on this \$500 over three months totals $7.50 = 0.06 × 0.25 × $500. The total amount (net of forgone interest) to be received in three months is \$1,753,492.50. This amount is certain.
 
-# Money Market hedge
+## Money Market hedge
 
 The money market hedge strategy is to borrow  $\pounds 975,609.76$  in UK for three months at an annual rate of  $10\%$ , exchange the  $\pounds 975,609.76$  for  $\pounds 1,720,975.60$  now at the spot exchange rate, and then invest  $\pounds 1,720,975.60$  for three months at an annual rate of  $6\%$ . The result of this strategy is that the UK pound loan is repaid by receipts from sale in three months.  $\pounds 1,746,790.20$  is obtained from the U.S. investment. This amount is certain in the absence of default risk. Note that this strategy in this example is inferior to the forward market hedge.
 
-# Other Hedging Strategies
+## Other Hedging Strategies
 
 The hedging strategies described in the above examples and in the next chapter are more effective when firms can easily enter into forward, money market and options contracts. This is normally quite easily accomplished in countries with major currencies. However, in many instances, firms will need to hedge exchange rate volatility in countries where such opportunities are not available. For example, it is often very difficult to employ the above strategies in smaller African, Asian, or Latin American countries. In many instances, firms might modify these strategies with cross-hedges. Typically, these cross-hedging strategies involve the use of contracts denominated in currencies strongly correlated with the currency to be hedged. For example, rather than attempt to directly hedge exchange rate risk involving Philippine pesos, a firm might use contracts denominated in
 
 yen, which are fairly highly correlated with pesos. An alternative cross hedging strategy is to hedge currency risk with commodity contracts whose values are strongly correlated with that of the currency. For example, the price of oil is strongly correlated with the value of the Saudi Arabia riyal (SAR). The firm needing to hedge risk associated with the riyal can use futures contracts on oil as an imperfect substitute for the currency itself.
 
-# Additional Reading
+## Additional Reading
 
 Elton, Gruber, Brown, and Goetzmann (2010), Chapters 21 and 22, offer good coverage of yield curves, fixed income arbitrage, and hedging. Knopf and Teall (2015) offer a somewhat more detailed introduction to much of the fixed-income-related material in this chapter, as does Chapter 18 in Neftci (2000), which extends material in this chapter to continuous time. Chapters 1 through 6 in Neftci comprise good background reading for Chapter 18. Shapiro (2006) and Grabbe (1996) discuss parity conditions along with currency exposure and hedging. Chapter 9 in Saunders and Cornett (2009) provides a concise overview of FX markets, instruments and analysis.
 
-# References
+## References
 
 Cox, J., Ingersoll, J., & Ross, S. (1985). A theory of the term structure of interest rates. *Econometrica*, 53, 385-408.  
 Elton, E., Gruber, M., Brown, S., & Goetzmann, W. (2010). Modern portfolio theory and investment analysis (8th ed.). New York: Wiley.  
@@ -842,7 +855,7 @@ Shapiro, A. C. (2006). Multinational financial management (8th ed). New York: Wi
 Uhlenbeck, G. E., & Ornstein, L. S. (1930). On the theory of Brownian motion. *Physics Review*, 36, 823-841.  
 Vasicek, O. (1977). An equilibrium characterization of the term structure. Journal of Financial Economics, 5, 177-188.
 
-# 8.8 EXERCISES
+## 8.8 EXERCISES
 
 1. There are two three-year bonds with face values equaling \$1000. The coupon rate of bond A is 0.05 and 0.08 for bond B. A third bond C also exists, with a maturity of two years. Bond C also has a face value of \$1000; it has a coupon rate of 11%. The prices of the three bonds are $878.9172, $955.4787, and \$1055.419, respectively. Find a portfolio of bonds A, B, and C that would replicate the cash flow structure of bond D, which has a face value of \$1000, a maturity of three years, and a coupon rate of 3%.
 2. A \$1000 face value bond is currently selling at a premium for \$1200. The coupon rate of this bond is 12% and it matures in three years. Calculate the following for this bond assuming that its interest payments are made annually:

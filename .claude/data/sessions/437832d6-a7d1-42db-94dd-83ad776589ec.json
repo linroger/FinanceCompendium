@@ -1,0 +1,6 @@
+{
+  "session_id": "437832d6-a7d1-42db-94dd-83ad776589ec",
+  "prompts": [
+    "fix this punycode depreciaation stuff once and for all. gemini extensions install https://github.com/gemini-cli-extensions/conductor\n(node:18034) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\nInstalling extension \"conductor\".\n**The extension you are about to install may have been created by a third-party developer and sourced from a public repository. Google does not vet, endorse, or guarantee the functionality or security of extensions. Please carefully inspect any extension and its source code before installing to understand the permissions it requires and the actions it may perform.**\nThis extension will append info to your gemini.md context using GEMINI.md\nDo you want to continue? [Y/n]: y\nExtension \"conductor\" installed successfully and enabled.\ngemini extensions install https://github.com/gemini-cli-extensions/jules\n(node:18395) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\nExtension \"gemini-cli-jules\" is already installed. Please uninstall it first."
+  ]
+}

@@ -1,8 +1,14 @@
 ---
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 7
 title: Investor Protection and Governance in the Valuation of Emerging Markets Investments
+formatted: "2025-12-20 07:51:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [investor protection, corporate governance, emerging markets, valuation discounts]
+secondary_tags: [institutional frameworks, cost of equity, EV/EBITDA multiples, governance scores]
 tags:
 aliases:
+  - "Investor Protection and Governance in the Valuation of Emerging Markets Investments"
 parent_folder: Week 7
 subfolder:
 key_concepts:
@@ -10,7 +16,7 @@ cssclasses: academia
 linter-yaml-title-alias: Investor Protection and Governance in the Valuation of Emerging Markets Investments
 ---
 
-# Investor Protection and Governance in the Valuation of Emerging Markets Investments
+## Investor Protection and Governance in the Valuation of Emerging Markets Investments
 
 by Leila Atwi, B.e.e., Assem Safieddine, American University of Beirut, and Sheridan Titman, University of Texas at Austin
 
@@ -30,7 +36,7 @@ We recently conducted a survey of investment professionals that was designed to 
 
 Our survey participants were given an explicit valuation task, one that was designed to provide very concrete answers. Specifically, they were presented with information about a hypothetical chemical company located in Australia and asked to indicate how the firm's value would change if (1) it were instead located in an alternative emerging market that differs in terms of the quality of their legal institutions for investor protection (as reported by the
 
-# Survey Background
+## Survey Background
 
 Survey participants were presented with the following financial and valuation information for a hypothetical chemical company located in Australia:
 
@@ -62,7 +68,7 @@ Our findings suggest that investors should pay particular attention to corporate
 
 The results of our survey also reveal a tendency by participants to incorporate higher premiums in their cost of equity estimates than in their valuation discounts—that is, the costs of equity they report imply even larger discounts for investments in poorly governed companies in countries with weak investor protection. Our study thus suggests that even sophisticated investors can be subject to what researchers refer to as "exponential growth bias," and should thus be aware of this tendency when investing in emerging markets.
 
-# Does Governance Influence the Investment Decision Process?
+## Does Governance Influence the Investment Decision Process?
 
 We started our survey by asking participants whether they would consider the governance features of the target company in their investment decision process. As shown
 
@@ -71,7 +77,7 @@ Figure 2 Would you consider the governance features of Ausco in your investment 
 
 in Figure 2, all participants said they include governance of target firms in their investment due diligence process. The governance analysis is almost equally likely to rely on external data, such as governance ratings and scores compiled by third parties or the inclusion of the company in a governance-based index, and on internal analysis.
 
-# Value Implications of the Investor Protection and Governance in Emerging Markets
+## Value Implications of the Investor Protection and Governance in Emerging Markets
 
 We then asked participants to estimate the EV/EBITDA multiple and the cost of equity for the subject company, assuming it was located in each of the markets in question. In order to isolate the impact of the institutional frameworks and corporate governance, we asked participants to ignore all other political, liquidity, and currency risks for the country in question.
 
@@ -115,11 +121,11 @@ Figure 6 What importance/impact weight (out of  $100\%$  ) would you allocate to
 
 the long-term effects of, for example, increasing the interest rate from  $12\%$  to  $14\%$ . The evidence in our survey of institutional investors indicates that this bias is potentially important, even for quite sophisticated investors.
 
-# The Drivers of the Value Adjustments
+## The Drivers of the Value Adjustments
 
 How can the above valuation discounts be interpreted? For example, is the discounted value of the Iranian investment attributable mainly to the weak investor protection afforded by Iranian laws and regulations, or to the lax governance of individual companies? This part of the survey, which investigates the interplay of investor protection and corporate governance, allowed us to explore the impact of each of these factors on the observed valuation adjustments.
 
-# How is the Valuation Influenced by the Institutional Frameworks for Investor Protection and the Company Governance Scores?
+## How is the Valuation Influenced by the Institutional Frameworks for Investor Protection and the Company Governance Scores?
 
 Figure 6 displays the importance (or "impact weighting") that participants assigned to each of the institutional frameworks
 
@@ -132,7 +138,7 @@ Figure 7 What would be your valuation (estimate of EV/EBITDA multiple) of Ausco 
 
 are weaker, investors face more serious risks associated with extraction of private gains, unfriendly litigation processes, and unreliable enforcement of contracts. These findings are consistent with previous research that suggests that firm-level governance can act as a partial substitute for weak legal frameworks.[9]
 
-# Governance Premiums and the Interplay Between Investor Protection and Firm-Level Governance
+## Governance Premiums and the Interplay Between Investor Protection and Firm-Level Governance
 
 To better understand the dynamics of the relationship between the institutional frameworks, firm-level governance, and the value of emerging market companies, we asked participants to provide their estimates of the valuation multiples and cost of equity for the company assuming that it has the higher governance score of the Australian company (i.e. score of 8). Posing the question in this way allowed us to accomplish three goals of our survey: (1) quantify the valuation premium that investment professionals attribute to improvements in firm-level governance; (2) isolate and assess the impact of the institutional risks on the value by assuming that the subject company has the same firm-level governance score in all international markets; and (3) examine whether and how corporate governance can substitute for non-investor friendly environments.
 
@@ -157,7 +163,7 @@ as the Iranian company mentioned earlier) is expected to reduce its cost of equi
 
 The findings in Figure 9 also reflect the tendency of investment professionals, noted earlier, to incorporate premiums into their discount rates that are higher than those implied by their valuation multiples. For instance, their reported cost of equity for the Iranian company of  $16.7\%$  was more than  $2\%$  higher than the cost of equity implied by the  $8.9\mathrm{x}$  EV/EBITDA multiple reported in Figure 7. Similar to our earlier reported finding, this differential was lower in the countries with better investor protection and shrinks to  $0.3\%$  in the case of Malaysia, the country with the best legal and regulatory systems in our sample.
 
-# How Important are Specific Governance Features to the Investment Analysis?
+## How Important are Specific Governance Features to the Investment Analysis?
 
 In this section, we dig deeper into the effects of specific firm-level governance features on the valuation and investment
 
@@ -189,11 +195,11 @@ Figure 12 Please indicate which of the below financial disclosure deficiencies w
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/20297ffc-4be9-43d1-9c84-f05cf2de9744/56fa7ac04e946de8b041f8f803fcd06790bc63fe9859b666fbe8c7327dcba540.jpg)  
 Figure 13 Please indicate the lack of which of the below governance disclosures would lead you to rule out an emerging market investment. Select all that apply
 
-# What is the Most Critical Information?
+## What is the Most Critical Information?
 
 Finally, we asked participants to identify the financial and governance information that is most essential to their investment process—information without which they would not consider investing in an emerging market company.
 
-# Can Insufficient Financial Disclosures Break an Investment Decision?
+## Can Insufficient Financial Disclosures Break an Investment Decision?
 
 As reported in Figure 12, the vast majority of our respondents said that a lack of access to full annual reports, audited financial statements, and detailed financial statements for group companies would very likely rule out an investment in the company.
 
@@ -201,11 +207,11 @@ Other disclosure deficiencies, such as failure to announce shareholder meetings,
 
 corporate events, failure to make disclosures in English and other widely used languages, lack of access to historical quarterly financial statements beyond three years or to management discussion of performance were all viewed as serious challenges to the screening process but were less likely to represent deal stoppers. Less than  $30\%$  of the participants said they would disregard the investment due to these disclosure deficiencies.
 
-# Can Insufficient Governance and Audit Disclosures Break an Investment Decision?
+## Can Insufficient Governance and Audit Disclosures Break an Investment Decision?
 
 As reported in Figure 13, companies that do not disclose information about related party transactions were the most likely to be ruled out by investment professionals. Related party transactions raised major concerns about the exercise
 
-# The Case of Grupo Financiero Banorte: Mexico's Corporate Governance Standout
+## The Case of Grupo Financiero Banorte: Mexico's Corporate Governance Standout
 
 A close look at the components of the Dow Jones Sustainability Emerging Markets Index lends support to the argument that companies can provide internal assurance on investor protection even if they operate in weak institutional frameworks. The index includes selected companies with high standards of corporate sustainability based on economic, environmental, social, and corporate governance criteria with a strong focus on shareholder value.
 
@@ -225,7 +231,7 @@ and protection of minority shareholders' rights. What's more, the complex and op
 
 The disclosure of auditor information (such fees and services) and information about the group structure and cross-holdings were also seen as critical to the investment process according to  $65\%$  of participants. And almost half of the participants reported that a failure to disclose the company's top direct and ultimate shareholders would lead them to reject the investment. At the same time, access to information about board committees, directors' ownership information, and auditor identity were said to be important, but not necessarily essential factors in the investment decision process.
 
-# Conclusion
+## Conclusion
 
 Investment professionals take into account and reflect weak corporate governance and an uncertain legal environment by reducing the amount they are willing to pay when investing in emerging markets. This paper uses a unique survey design to quantify the valuation adjustments for different thresholds of investor protection and governance performance. For instance, should investments in more friendly-investor protection environments be favored regardless of the governance standings of the companies? And should investors consider corporate governance through the same lens, regardless of where an investment is located?
 

@@ -1,18 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Homework 8
-linter-yaml-title-alias: Homework 8
+parent_directory: FINM Markets Foundation
+formatted: 2025-12-20 06:58:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - ltcm case study
+  - hedge fund analysis
+secondary_tags:
+  - convergence trading
+  - funding risk management
+  - leverage risk assessment
+  - risk decomposition
+cssclasses: academia
 ---
 
 # Homework 8
 ## Mark Hendricks
 ## 2022
 
-# 1. LTCM
+## 1. LTCM
 
 ## 1.1 
 ### Describe LTCM's investment strategy with regard to the following aspects:

@@ -1,14 +1,43 @@
 ---
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: A primer on Capital Structure Arbitrage
+parent_directory: Quantitative Trading
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - capital structure arbitrage
+  - credit default swaps
+  - merton model
+secondary_tags:
+  - arbitrage strategies
+  - equity debt mispricing
+  - cds spreads
+  - structural models
+  - credit risk
+  - hedge funds
+cssclasses: academia
 ---
 
 # A primer on Capital Structure Arbitrage
 
 # Introduction
+
+```d2
+capital structure arbitrage: {
+  shape: flowchart
+  
+  detect: "Detect Mispricing between CDS and Equity"
+  sell_overvalued: "Sell Overvalued CDS, Short Equity"
+  buy_undervalued: "Buy Undervalued CDS, Buy Equity"
+  convergence: "Wait for Price Convergence"
+  profit: "Profit from Reversion"
+  
+  detect -> sell_overvalued
+  detect -> buy_undervalued
+  sell_overvalued -> convergence -> profit
+  buy_undervalued -> convergence -> profit
+}
+```
 
 The idea behind capital structure arbitrage is that the market pricing of equity and debt can diverge away from equilibrium, which might be because different types of investors are active in each market, and they possibly have different opinions about the prospects of a company. Therefore, capital structure arbitrage aims to generate profits by taking advantage of the misinformation between equity and debt markets, and the subsequent mispricing of a single issuer's securities.
 
@@ -22,7 +51,7 @@ Capital structure arbitrage hinges on the issue of synchronization and the relat
 
 One of the first papers published on the topic was Fan Yu (2005), who examines the risks and returns of capital structure arbitrage using the CreditGrades model based on a sample of North American firms covering the period between 2001 and 2004. Yu (2005) analyzes strategies in several specifications with different holding periods (30 or 180 days) and different trading-triggers based on whether a deviation between the market and model CDS spreads exceeds  $50\%$ ,  $100\%$  or  $200\%$ . He backtested the strategy using 4,044 daily CDS spreads on 33 obligors and found that individual capital structure arbitrage strategies are very risky and only  $10\%$  of the trades eventually converge. Yu (2005) also finds that while the mean holding period returns are negative or near-zero for the 30 day holding periods, they are positive for the 180 day strategy. The maximum mean holding period return of  $2.78\%$  is achieved for speculative grade obligors and the strategy using the  $50\%$  trading deviation trigger. However, after they conducted the statistical arbitrage test by Hogan et al. (2004), they found no evidence of significant arbitrage. A statistical arbitrage is defined by Hogan et al. (2004), as a zero initial cost self-financing trading strategy with positive expected discounted profits, a probability of loss converging to zero, and a time-average variance converging to zero.
 
-The analysis of his trading returns (Yu, 2005) suggests that suggests that capital structure arbitrage works well when the market spread and theoretical spread follow each other closely. However, in his study Yu (2005) showed that across his data sample the correlation was -0.19, making it difficult to consistently profit overtime.
+The analysis of his trading returns (Yu, 2005) suggests that capital structure arbitrage works well when the market spread and theoretical spread follow each other closely. However, in his study Yu (2005) showed that across his data sample the correlation was -0.19, making it difficult to consistently profit overtime.
 
 Duarte et al. (2007) find that capital structure arbitrage requires several times more capital to achieve a standard deviation of excess returns of  $10\%$ . They also find that these excess returns are positively skewed, meaning that investors may expect small frequent losses with few large wins.
 
@@ -45,7 +74,7 @@ The Merton model estimates default probability by comparing a company's value to
 The value of the company's equity can be expressed by the Black-Scholes option pricing equation. When the volatility of the company's equity is fixed within a time period  $T$ , the value of the equity is:
 
 $$
-E (V, t) = V \mathcal {N} (d _ {1}) - e ^ {- r t} D \mathcal {N} (d _ {2})
+E(V, t) = V \mathcal{N}(d_{1}) - e^{-rt} D \mathcal{N}(d_{2})
 $$
 
 Where  $E$  is the company's equity value as a function of its value,  $V$  is company value,  $t$  is duration,  $r$  is the risk-free rate for the given duration  $t$ ,  $D$  is the value of debt, and  $\mathcal{N}$  is the cumulative normal distribution  $d_{1}$  and  $d_{2}$
@@ -53,23 +82,23 @@ Where  $E$  is the company's equity value as a function of its value,  $V$  is c
 are the option's delta and probability of the option expiring in the money, respectively.
 
 $$
-d _ {1} = \frac {\log \frac {V}{D} + \left(r _ {t} ^ {f} + \frac {1}{2} \sigma_ {V} ^ {2}\right) t}{\sigma_ {V} \sqrt {t}}
+d_{1} = \frac{\log \frac{V}{D} + (r_{t}^{f} + \frac{1}{2} \sigma_{V}^{2}) t}{\sigma_{V} \sqrt{t}}
 $$
 
 $$
-d _ {2} = d _ {1} - \sigma_ {V} \sqrt {t}
+d_{2} = d_{1} - \sigma_{V} \sqrt{t}
 $$
 
 The equity's volatility will then be:
 
 $$
-\sigma_ {E} = \sigma_ {V} \frac {V}{E} \mathcal {N} (d _ {1})
+\sigma_{E} = \sigma_{V} \frac{V}{E} \mathcal{N}(d_{1})
 $$
 
 From here onwards, a solver determines the precise value of  $V$  and  $\sigma_V$ . Lastly, the distance to default and the probability of default of a given company with a typical  $t = 1$  year horizon
 
 $$
-P r o b a b i l i t y \enspace D e f a u l t = \mathcal {N} (- D D)
+\text{Probability of Default} = \mathcal{N}(-DD)
 $$
 
 The main assumptions this model has, are that the company's value  $V$  follows a Geometric Brownian motion, from time  $t$  to  $t + 1$ , and that the probability of lying within the default area follows a Normal Distribution.
@@ -144,10 +173,10 @@ and close the trade once this value has been surpassed.
 
 After the trade has been opened, there are four scenarios that can occur:
 
-NaN.  $c_t$  and  $S_t$  both decrease. In this case convergence occurs, hence the trader profits from both positions.  
-NaN.  $c_t$  decreases but  $S_t$  increases. In this case the trader profits from his CDS position but yields a loss from his equity position. He will profit if the former falls more rapidly than the latter rises, giving place to partial convergence.  
-NaN.  $c_t$  increases but  $S_t$  decreases. In this scenario, the trader profits from his equity position, but suffers a loss from selling the credit protection. He will profit if the former rises less rapidly than the latter decreases, giving place to another case of partial convergence.  
-NaN.  $c_t$  and  $S_t$  both increase. In this case, divergence occurs, and the trader makes a loss on both positions regardless of the size of the equity hedge.
+1. $c_t$ and $S_t$ both decrease. In this case convergence occurs, hence the trader profits from both positions.
+2. $c_t$ decreases but $S_t$ increases. In this case the trader profits from his CDS position but yields a loss from his equity position. He will profit if the former falls more rapidly than the latter rises, giving place to partial convergence.
+3. $c_t$ increases but $S_t$ decreases. In this scenario, the trader profits from his equity position, but suffers a loss from selling the credit protection. He will profit if the former rises less rapidly than the latter decreases, giving place to another case of partial convergence.
+4. $c_t$ and $S_t$ both increase. In this case, divergence occurs, and the trader makes a loss on both positions regardless of the size of the equity hedge.
 
 # Risks of Trading Strategy
 
@@ -163,6 +192,4 @@ A third source of negative or poor returns is model misspecification.
 
 In conclusion, capital structure arbitrage is a model-based trading strategy which has risen to popularity in the past two decades, but has struggled to generate positive expected returns, according to Yu (2005). However, more recent research, particularly Wojtowicz (2017) shows that as the CDS markets continue to become more liquid, the trading strategy has become more profitable as a result of more attractive bid-ask spreads, with an annual return of  $24.35\%$ , on a sample of companies rated AAA-CC. The results also showcased that the strategy works best with poorer rated companies, with companies rated in the A's category posting the poorest returns, and the companies in the C's category responsible for the highest returns. However, even if some studies yield positive returns, one must not forget about the risks and drawdowns involved in this strategy. The most losses occurred when the arbitrageur shorts CDS and finds the market spread to be subsequently skyrocketing, at which point the hedging becomes ineffective and the CDS trading ceases forcing to liquidate the position.
 
-TAGS:
 
-Arbitrage, Markets, CDS, Equities, Volatility

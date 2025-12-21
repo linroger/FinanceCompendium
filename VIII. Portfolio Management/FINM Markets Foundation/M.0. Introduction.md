@@ -1,9 +1,17 @@
 ---
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: M.0. Introduction
+parent_directory: FINM Markets Foundation
+formatted: 2025-12-20 07:00:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - course introduction
+  - markets foundations
+secondary_tags:
+  - financial mathematics
+  - multidisciplinary curriculum
+  - active learning
+cssclasses: academia
 ---
 
 # M.0. Introduction

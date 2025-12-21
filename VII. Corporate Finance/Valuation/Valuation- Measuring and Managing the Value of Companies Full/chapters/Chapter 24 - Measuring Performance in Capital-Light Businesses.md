@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Measuring Performance in Capital-Light Businesses
 linter-yaml-title-alias: Measuring Performance in Capital-Light Businesses
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [capital-light businesses, return on capital, intangible investments]
+secondary_tags: [rd capitalization, economic profit, revenue-based measures]
 ---
 
-# Measuring Performance in Capital-Light Businesses
+## Measuring Performance in Capital-Light Businesses
 
 In this book, our primary measure of return on capital is return on invested capital (ROIC). We define ROIC as net operating profit after taxes (NOPAT) divided by invested capital. We derive ROIC from items on a company's financial statements, with some adjustments, such as separating operations from financing and separating operating items from nonoperating items. ROIC correctly reflects return on capital in most cases, but special circumstances require alternative measures. For example, a young biotech company could spend a billion dollars on research and development (R&D) before its product is launched. Since R&D is expensed, not capitalized, the company would show a negative ROIC in its early years and a very high ROIC once the product is launched. The actual economic return on capital over the life of the product would lie at some average level in between.
 

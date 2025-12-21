@@ -1,14 +1,22 @@
 ---
+title: Week 4: Netflix's Man Overboard Moment
 parent_directory: PPHA Advanced Financial Analysis & Valuation/Week 4
-title: "Week 4: Netflix's Man Overboard Moment"
-tags:
-aliases:
-  - "Netflix's Man Overboard Moment"
-parent_folder: Week 4
-subfolder:
-key_concepts:
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - netflix analysis
+  - subscriber growth
+  - market saturation
+  - competition analysis
+secondary_tags:
+  - earnings guidance
+  - covid impact
+  - macroeconomic factors
+  - content strategy
+  - streaming industry
+  - investment decision making
 cssclasses: academia
-linter-yaml-title-alias: "Week 4: Netflix's Man Overboard Moment"
 ---
 
 # NETFLIX'S MAN OVERBOARD MOMENT
@@ -42,6 +50,28 @@ FOLLOW SHARE
 Last week, Netflix, a stock we've owned for five and a half years, and which is one of our largest positions, reported quarterly earnings causing the stock to fall  $22\%$ . In this post, we will explain our analysis of their reported results and guidance and explain our rationale for remaining confident in the company's long-term opportunity and ongoing place within our top portfolio holdings.
 
 We will seek to make three objective arguments based on the information that has been reported, which we believe refutes three points of concern being discussed in the media and among investors.
+
+```d2
+netflix concerns: {
+  shape: flowchart
+  
+  saturation: "Market Saturation?" {
+    evidence: "Strong Q4 results, growth in mature UCAN market"
+  }
+  
+  competition: "Increased Competition?" {
+    evidence: "Steady global subscriber additions, low churn, high engagement"
+  }
+  
+  guidance: "Catastrophic Guidance?" {
+    evidence: "Weak Q1 forecast, but not unprecedented, strong long-term opportunity"
+  }
+  
+  saturation -> evidence
+  competition -> evidence
+  guidance -> evidence
+}
+```
 
 - We do not believe the evidence supports the contention that Netflix has
 

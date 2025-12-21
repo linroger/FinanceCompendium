@@ -1,22 +1,40 @@
 ---
+title: Mayer Brown Pharma Biotech Valuing Pipeline
 parent_directory: PPHA Advanced Financial Analysis & Valuation/Week 5
-title: "Week 5: Pharma & Biotech - Valuing the Pipeline"
-tags:
-aliases:
-  - "Pharma & Biotech"
-  - "Valuing the Pipeline"
-parent_folder: Week 5
-subfolder:
-key_concepts:
+formatted: "2025-12-20 07:45:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags:
+  - pharma biotech valuing pipeline
+  - drug development valuation
+  - biotech pharma deals
+secondary_tags:
+  - valuation methodologies
+  - risk adjusted npv
+  - comparables analysis
+  - forecasting challenges
 cssclasses: academia
-linter-yaml-title-alias: "Week 5: Pharma & Biotech - Valuing the Pipeline"
 ---
 
-# Pharma & Biotech
+### Pharma & Biotech
 
 Drug Development Valuing the pipeline - a UK study March 2009
 
-# Introduction
+## Introduction
+
+```d2
+valuation methods: {
+  shape: flowchart
+  
+  risk_adjusted_npv: "Risk Adjusted NPV"
+  comparables: "Comparables Analysis"
+  multiple_methods: "Multiple Methodology Approach"
+  
+  risk_adjusted_npv -> drug_value: "Drug Value"
+  comparables -> drug_value
+  multiple_methods -> drug_value
+}
+```
 
 Mayer Brown is pleased to report on the findings of a study examining the methodologies used to value drug development programmes. The study was conducted by members of our Pharmaceutical, Biotechnology & Life Sciences practice in the London office.
 
@@ -33,7 +51,7 @@ US contact: Jamison Lynch (jlynch@mayerbrown.com)
 
 Please remember that this report contains general information, much of which has been provided by third parties and which we have not independently verified. We hope it will interest you but you should not rely on this report in relation to specific matters as it has not been prepared with a specific set of circumstances in mind, nor of course is this report an invitation or inducement to engage in investment activity.
 
-# Contents
+## Contents
 
 The valuation of drug development projects 1
 
@@ -72,7 +90,7 @@ Executive Summary 3
 6.4 Forecast period 29  
 6.5 Pharmaceuticals versus biopharmaceuticals versus medical devices 30
 
-# The valuation of drug development projects
+## The valuation of drug development projects
 
 Drug discovery, research and development ("drug development") follows a sequence of distinct stages, each of which aims to generate "economically valuable specific knowledge" about the drug candidate in question. In this way, the implementation of a drug development project generates intellectual assets capable of transfer or licensing.
 
@@ -92,7 +110,7 @@ Outline of the stages of drug development
 
 <table><tr><td rowspan="2"></td><td colspan="3">Early stage</td><td colspan="4">Clinical development</td></tr><tr><td>Discovery</td><td>Pre-clinical</td><td>Phase I</td><td>Phase II</td><td>Phase III</td><td>Regulatory review</td><td>Market launch</td></tr><tr><td>Time</td><td colspan="2"></td><td>1-2 years</td><td>1-2 years</td><td>2-4 years</td><td>1-2 years</td><td></td></tr><tr><td>Typical Population</td><td>Laboratory studies</td><td>Laboratory and animal studies</td><td>20 to 80 healthy volunteers</td><td>100 to 300 patient volunteers</td><td>1000 to 3000 patient volunteers</td><td></td><td></td></tr><tr><td>Purpose</td><td>Discovery and synthesis of drug candidate.</td><td>Assess safety and efficacy profile.</td><td>Establish safe dosages and assess absorption, distribution, metabolic effects and excretion and toxicity of candidate.</td><td>Test drug candidate in patients with targeted disease/condition. Verify safety and obtain preliminary efficacy data. Phase II can be divided into Phase IIA and Phase IIB. Phase IIA is designed to assess dosing requirements whereas Phase IIB is designed to study efficacy.</td><td>Establish statistically significant efficacy and monitor adverse reactions that occur infrequently. Preparation for market launch (including sales force construction) can start in Phase III.</td><td>Obtain marketing approval in major markets.</td><td>Launch commercial sales of drug.</td></tr></table>
 
-# Executive Summary
+## Executive Summary
 
 Complex science, long development times, the high risk of technical failure and changing regulatory and market conditions make it difficult to derive reliable values of a drug development project solely through the application of valuation methodology. Based on the views of the participants of this study, the current market conditions create new uncertainties and limitations around the tools used to value drug development assets.
 
@@ -108,7 +126,21 @@ The current market conditions include shifting categories of projects of interes
 
 "If one looks at the share price, things seem cheaper then once the fight begins, you cannot be sure that the price will not go up. There are no Phase III projects around." (pharma)
 
-# Methodologies used to value drug development projects
+## Methodologies used to value drug development projects
+
+```d2
+valuation methods: {
+  shape: flowchart
+  
+  risk_adjusted_npv: "Risk Adjusted NPV"
+  comparables: "Comparables Analysis"
+  multiple_methods: "Multiple Methodology Approach"
+  
+  risk_adjusted_npv -> drug_value: "Drug Value"
+  comparables -> drug_value
+  multiple_methods -> drug_value
+}
+```
 
 The participants were asked to identify the methods they used to value drug development projects. Most participants only used risk adjusted NPV and comparables. Few participants (mainly the pharma participants) regularly used other methodologies such as scenario analysis, decision-tree analysis, Monte Carlo and real options.
 
@@ -124,7 +156,7 @@ Some consider that even if IPOs return, these no longer offer a complete exit to
 
 In comparison, analysts will rely on values derived from NPV modelling, but they tend to focus on late stage projects. More specifically, the focus is on when the drug candidate will be launched and when relevant sales will peak. This focus on late stage projects was criticised by the biotech participants for ignoring the fact that the value for biotech companies currently lies in being acquired. If an early stage project is of interest to an acquirer, then the acquirer will place a positive value on the project for which the analyst may have given no value.
 
-# Valuation in acquisition, licensing and partnering negotiations between biotech rights owners and pharma buyers
+## Valuation in acquisition, licensing and partnering negotiations between biotech rights owners and pharma buyers
 
 The theoretical value derived from valuation methods, when considered in isolation, assumes that a drug development project has an intrinsic value. Yet, most participants explained deal values simply on the basis of who wants/needs the asset more. Consequently, the key sources of value discrepancy continue to depend ultimately on qualitative factors and the subjective criteria specific to the rights owner and the buyer, and of course the negotiating power of the parties.
 
@@ -145,7 +177,7 @@ Finally, competition amongst the bidders is a key driver of deal value and value
 
 "We would of course not offer more unless we had to, e.g. if we were at risk of losing the deal. We would tend to work up the initial valuation in 'exquisite detail' then go in with a bid, and competition would change everything. It is a question of 'how hungry are you?' Passion takes over from common sense. For example, where there is an important strategic gap in the portfolio, the price would go up - but one would not start from that position." (pharma)
 
-# Forecasting challenges
+## Forecasting challenges
 
 As to the current function of quantitative valuation, valuation methods remain an important tool for capturing the variables which are important to a drug development project:-
 
@@ -172,11 +204,11 @@ Therefore, the key function of quantitative modelling is as a tool to gather ins
 
 An understanding and appropriate quantification of as many possible sources of value and uncertainty remains important to decreasing the risk of underselling or overvaluing drug development projects.
 
-# 1. Introduction to valuing drug development projects
+## 1. Introduction to valuing drug development projects
 
 Valuation can involve a market, cost or income approach. This section seeks to provide a basic introduction to valuation theory. We start with NPV, which considers the cash flow opportunities of the asset in question and incorporates the income approach.
 
-# 1.1 Summary of project lifecycle and cash flows
+## 1.1 Summary of project lifecycle and cash flows
 
 Figure 1 shows the typical project lifecycle from a cash flow perspective. During the early research stage, project cash flows tend to be negative. Early stage research can take several years, but is not as expensive as clinical development. The drug is launched upon marketing approval being issued, followed by relatively fast market penetration. A stable period of revenue generation follows. Finally, revenues decline following patent expiry. The project lifecycle is such that even though the basic term of patent protection lasts 20 years from the date application for patent was filed, the period during which revenues can enjoy patent protection is effectively reduced to the patent term remaining after regulatory approval.
 
@@ -193,11 +225,11 @@ in the case of competition from follow-on biologics, the current lack of clarity
 
 The endpoint of a forecast period may also be the point beyond which information required to forecast is unavailable or unreliable.
 
-# 1.2 Cash Flow Modelling - NPV
+## 1.2 Cash Flow Modelling - NPV
 
 NPV is also known as discounted cash flow or DCF. NPV, when applied to a drug development project, involves deriving cash flows over a forecast period by projecting the costs of development and the revenues from commercialisation activities. These cash flows are then discounted in accordance with finance theory to derive a net present value of the drug development project.
 
-# Forecasting costs of drug development
+## Forecasting costs of drug development
 
 The costs associated with drug development can be broadly grouped as follows:
 
@@ -207,11 +239,11 @@ Regulatory review costs: The costs of marketing approval need to be considered o
 
 - Launch, manufacturing and marketing costs: Marketing expenses start well before marketing approval. Launch, manufacturing and marketing costs are usually projected on the basis of conventional assumptions (e.g. the marketing expenses for year 1,  $100\%$  of the revenues, the marketing expenses for year 2,  $50\%$  of the revenues etc). The specific requirements of the target market are also important. For instance, hospital products are characterised by lower marketing costs than products promoted to specialists or primary physicians.
 
-# Forecasting revenues
+## Forecasting revenues
 
 Forecasting the likely eventual revenues of a drug candidate once developed, involves determining the size of the target market, the market share likely to be attained and subsequent market growth.
 
-# Market size
+## Market size
 
 The bottom-up approach focuses on the number of patients and calculates market size by evaluating the following parameters:
 
@@ -221,7 +253,7 @@ price of treatment per patient.
 
 The other approach used is a top-down approach which involves extrapolating from existing sales data of products in the same therapeutic class as the drug candidate of interest.
 
-# Market share
+## Market share
 
 Commentators will typically include the following in a list of factors influencing a new product's ability to penetrate a market:
 
@@ -234,17 +266,17 @@ patient/physician product loyalty.
 
 This is by no means exhaustive of the factors relevant to assessing market share. The distinction between volume market share (based on number of treatments) and value market share (based on sales value) is also relevant.
 
-# Market growth
+## Market growth
 
 The current market growth will only be a guide to future growth prospects. The factors behind market growth need to be identified and the distinction between volume and value growth is also relevant. Sales volume growth will be affected by changes in population growth, spread of an illness, frequency of occurrence, frequency of diagnosis, and treatment practice. Sales value growth depends on changes in pricing and product mix (older products may have significantly lower prices than newer, more efficacious ones).
 
 Standard sales evolution curves are also used. By looking at historical peak sales of drug products, different scenarios of rates of ramp-up to peak sales and rates of market erosion can be analysed.
 
-# Price premium
+## Price premium
 
 Novel products that are more efficacious than existing products are typically priced at a premium. However, this must be balanced against the number of patients/physicians who will switch to a more expensive product. Also, during the forecast period other products may lose patent protection and become subject to competition from generics. Patient/physician switch to generics needs to be considered. Pricing regulations and policies are also relevant in pricing analysis.
 
-# Discounting to adjust for time and risk
+## Discounting to adjust for time and risk
 
 An amount of money received today is worth more than the same nominal amount of money received in the future. Conversely, a dollar received tomorrow is worth less than a dollar received today. Applying this principle to forecasted cash flows means that not only are future revenues worth less today than in the future, but also future investments will "cost" less today. Finance theory requires that a discount rate be used to translate the future cash flows into today's value.
 
@@ -256,42 +288,42 @@ Once a discount rate has been identified, the present value of the net cash flow
 
 Despite being widely used, the use of NPV in valuing drug development projects is not without limitations. The remainder of this section considers the key limitations of NPV and the valuation methods seeking to overcome these.
 
-# 1.3 Risk adjusted NPV
+## 1.3 Risk adjusted NPV
 
 NPV does not properly account for technical risk
 
 Technical risk (e.g. scientific or technological risk) is mitigated as a drug candidate advances through each phase of development. The use of discount rates in NPV to simultaneously adjust for time and technical risk is argued to penalise long term projects relative to short term projects<sup>7</sup>. Risk adjusted NPV takes technical risk outside discount rates, instead accounting for it by adjusting the cash flows at each stage of development by the probability of the drug candidate successfully reaching launch from such stage. In turn, a lower discount rate applies.
 
-# Limitations
+## Limitations
 
 The calculation of probability rates is problematic, particularly in relation to the pre-clinical stages. Many unsuccessful pre-clinical projects are quietly discontinued. Available probability rates tend to be presented as industry averages. The challenges of applying these rates to a specific therapeutic indication are well understood. Where the drug mechanism is understood (such as in hypertension, diabetes and asthma), the relevant probabilities of technical success are likely to be higher than industry averages. Similarly, projects dealing with lesser understood diseases (such as cancer) may be associated with lower probabilities of technical success.
 
-# 1.4 Scenario analysis, decision-tree modelling and Monte Carlo simulation
+## 1.4 Scenario analysis, decision-tree modelling and Monte Carlo simulation
 
 NPV does not account for different outcomes
 
 NPV valuation is based on a single projection of inputs, which are impossible to calculate with any certainty. Scenario analysis, decision-tree modelling and Monte Carlo simulation seek to deliver a range of values based on likely variations to more than one input.
 
-# Scenario analysis
+## Scenario analysis
 
 Scenario analysis models the outcome of different scenarios on value. For instance, different revenue scenarios, based on the probabilities of the scenarios eventuating, can be modelled to examine the effects on value. Other examples include scenario analyses of different development options (e.g. development for indication X versus indication Y) and different commercialisation options (e.g. the stage to which the drug candidate should be developed before out-licensing or partnering).
 
-# Decision-tree modelling
+## Decision-tree modelling
 
 Decision-tree modelling considers the impact on project value of different scenarios (e.g. technical failure or success) at nominated decision points along the development path. Typically, decision points occur at the completion of each stage of the development path. The relevant impact on value can be pictorially represented together with relevant pay-offs if the project is abandoned at any decision point in the event of technical failure.
 
-# Monte Carlo
+## Monte Carlo
 
 Monte Carlo methodology simulates adjustments to multiple inputs (e.g. market size, expenditures, pricing and time to market) to produce an overall distribution of possible outcomes. This is achieved by defining the statistical probability distribution of each uncertain input of interest. Software simulation is then used to repeatedly sample values from the probability distributions of each input. Each simulation generates a single NPV estimate. The end result of the repeated simulation (as shown in Figure 2) is a range of possible NPVs and their respective probabilities of occurrence.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/ccbf792b-a735-463d-bb19-0cb6a982de88/0685cdb172aa09b14389e64c43734c3835d627aafdd9b35dc55b85332b144ba6.jpg)  
 Figure 2 - Outline of Monte Carlo simulation
 
-# Limitations
+## Limitations
 
 The value derived depends on the choices of scenarios and the associated probabilities of occurrence, which are largely subjective. Although the methods are useful for assessing the spread of values for a project, they still do not assist in yielding a more reliable single value.
 
-# 1.5 Real Options
+## 1.5 Real Options
 
 NPV does not properly account for the value of managerial flexibility in the face of economic uncertainty
 
@@ -301,21 +333,21 @@ Real options methodology aims to address the impact of economic uncertainty on p
 
 Different methodologies exist for valuing options contained in a drug development project. In the methodology known as the binomial tree, the project returns are adjusted by a parameter referred to as volatility (δ). This represents the standard deviation of project returns due to economic uncertainty.
 
-# Limitations
+## Limitations
 
 Even proponents of the approach acknowledge that much work remains in developing a practical application of the real options theory. Difficulties also exist with accurately estimating the volatility parameter because the market data needed to estimate it is typically not available. Other criticisms include many of the options not necessarily being exercisable in practice.
 
-# 1.6 Comparables
+## 1.6 Comparables
 
 NPV modelling is theoretical
 
 Cash flow based methods require forecasting inputs which are impossible to calculate with certainty. Consequently, assigning values by studying prices paid for comparable drug development projects in recent comparable transactions is considered a more accurate and reliable measure of value.
 
-# Limitations
+## Limitations
 
 A comparable project is a project involving a similar product with similar market potential and at a similar stage in development. In the case of a novel candidate with no obvious counterpart, finding comparable projects becomes very difficult. Even if a comparable project can be identified, care must be exercised in drawing valuation information from it because the market conditions and bargaining powers of relevant parties may have been different or the comparable project may not have been properly valued.
 
-# 2. Findings on the methods currently used to value drug development projects
+## 2. Findings on the methods currently used to value drug development projects
 
 Having introduced valuation theory, the remaining sections of this report seek to consider what happens in practice.
 
@@ -327,7 +359,7 @@ Of course, the scenario and the purpose for which and for whom the valuation exe
 
 "Valuation is the function of what you want to achieve so consider why you are doing it, which side you are doing it for and for what scenarios … the scenario is terribly important. The drug development industry is a science-based industry, which does a lot of analysis…there is a feeling that valuation methods are valid and correct. At the end of the day, the correct value is what someone else is willing to pay for a project." (biotech)
 
-# 2.1 Risk adjusted NPV
+## 2.1 Risk adjusted NPV
 
 Advantages of risk adjusted NPV("rNPV")
 
@@ -347,7 +379,7 @@ Several participants reiterated the limitations of NPV modelling, particularly i
 
 "We do not have enough information to put together NPV. If you did NPV for early stage, you would not get out of bed." (VC)
 
-# 2.2 Comparables
+## 2.2 Comparables
 
 Used in price negotiations
 
@@ -359,7 +391,7 @@ An exception arose in the case of the pharma participants, who indicated that a 
 
 "Comparables/comparators are used, but in the end it is what it is worth to us that matters. The other side do their own waterfall diagrams and the market price would not affect us insofar as the initial valuation was concerned, but it might be relevant when it came to bidding." (pharma)
 
-# Limitations - Current market circumstances
+## Limitations - Current market circumstances
 
 Finding true comparables remains key. Several participants referred to the current market circumstances and the uncertainty relating to the extent to which historical values can be drawn on:-
 
@@ -379,7 +411,7 @@ The extent of information available on comparable deals may also identify the fo
 
 "Upfront payments are the most heavily negotiated. These are valued on the basis of comparables. The two things that are typically publicly released are upfront fees and so called 'biovalue deal' value. You can also work out from company accounts, how much is paid out in milestones." (consultant)
 
-# 2.3 Multiple methodology approach
+## 2.3 Multiple methodology approach
 
 The participants as a whole did not regularly apply the other methodologies such as scenario analysis, decision-tree modelling, Monte Carlo and real options. The notable exception was the pharma participants, who tended to apply a wider range of methods.
 
@@ -403,7 +435,7 @@ On the whole, however, the present findings suggest that any efforts towards pop
 
 "We do not use real options … life's too short. It is a sort of luxury which might be used if you had one small company with very bright people and had a lot of time. It might have been worth it for an acquisition which was 'life changing'. For something big, you may therefore use more complex tools." (pharma)
 
-# 3. Findings on the VC approach to valuing early stage projects
+## 3. Findings on the VC approach to valuing early stage projects
 
 The VC approach focuses on:
 
@@ -437,9 +469,9 @@ One of the VC participants considered that, even if IPOs return, they are no lon
 
 "The key challenge lies in how to position the company with products and technologies that are compatible."(VC)
 
-# 4. Findings on the biotech and pharma approaches in acquisition, licensing and partnering
+## 4. Findings on the biotech and pharma approaches in acquisition, licensing and partnering
 
-# 4.1 Projects on offer
+## 4.1 Projects on offer
 
 Participants noted that Phase II and Phase III projects that fit the gaps in pharma portfolios are becoming increasingly rare:
 
@@ -459,7 +491,7 @@ Buyers are also considered to be applying more specific requirements to what a p
 
 "When pharma is looking at things top down within the organisation, standard attrition rates would be used across all therapeutic areas. However, when looking from the bottom up, we are starting to build in very specific attrition rates for that specific drug, i.e. product-related attrition rates. These would take into account whether the drug would be best in class, or first in class, whether there were any toxicology problems etc. These rates would be very different in oncology and infection." (pharma)
 
-# 4.2 Outright acquisition
+## 4.2 Outright acquisition
 
 Some participants referred to outright acquisitions of biotech companies becoming more popular than complex licensing and partnering deals. Others commented that the current value for biotech companies running out of funds and with low prospects of independent fundraising lies in being acquired.
 
@@ -471,7 +503,7 @@ One participant referred to a trend of partnering and licensing negotiations bei
 
 "Licensing is only interesting to VCs if they are in for the long haul and the company has a platform technology or multiple products." (VC)
 
-# 4.3 Other arrangements
+## 4.3 Other arrangements
 
 Pharma participants described receiving renewed requests for loans from cash-strapped biotech partners referring to the possibility of pharma directly re-financing key biotech partners in financial difficulties:-
 
@@ -483,7 +515,7 @@ Participants considered the current market circumstances to have revived interes
 
 Views expressed outside of this study also point to greater interest on other deal structures, including recent attention on the acquisition of options to acquire drug development assets (instead of the outright acquisition of the assets). The option deal structure, whilst considered disadvantageous from the biotech perspective, is reported as being considered by rights owners unable to otherwise access necessary funding.
 
-# 4.4 Sources of value discrepancy
+## 4.4 Sources of value discrepancy
 
 Participants also provided examples of the sources of value discrepancies between rights owners and buyers in price negotiations.
 
@@ -525,7 +557,7 @@ One biotech participant was keen to highlight that cash flows will be less relev
 
 "If a biotech has loads of cash then it may be less interested in upfronts. The pharma view stems from being margin conscious and not cash conscious. So you have this bizarre thing of sales-based milestone. Sales-based milestones do not affect the margin of the product. Also, the headline value of the deal can be increased by using sales-based milestones. Also from the perspective of a biotech, if you are in survival mode, then the NPV in 15 years is irrelevant." (biotech)
 
-# 4.5 Project value splits
+## 4.5 Project value splits
 
 Participants were asked to comment on the typical value split between rights owners and buyers. A limited number of participants acknowledged typical NPV splits:-
 
@@ -592,7 +624,7 @@ Notwithstanding the obvious advantages for a rights owner of a frontloaded payme
 
 "One must look at the economics. Often, negotiating parties ignore that people have to make decisions. For instance, if you have a small company with a programme in early stage development and it is negotiating with a large moderately capitalised company (not as big as a pharma company) and the research is in one of those areas where you have got good Phase II data to date, the small company knows that the R&D will work and will commonly negotiate on the basis that when it gets through, they will get a really big milestone payment. This position could skew a decision against your product. Therefore, you must put yourself in the shoes of the other side and consider what the decision process will be. The product may be returned and therefore you have to also consider the value if the product/project is returned." (biotech)
 
-# Competition amongst bidders:-
+## Competition amongst bidders:-
 
 "The licensor share is driven by competition. We would of course not offer more unless we had to, e.g. if we were at risk of losing the deal. We would tend to work up the initial valuation in 'exquisite detail' then go in with a bid, and competition would change everything. It is a question of 'how hungry are you?' Passion takes over from common sense. For example, where there is an important strategic gap in the portfolio, the price would go up - but one would not start from that position." (pharma)
 
@@ -602,7 +634,7 @@ Notably, a biotech participant pointed out that the deal structure is also relev
 
 "From the perspective of biotechs, in the case of auctions you tend to get the position flipped with pharma saying 'your product has huge sales potential' but when you look at the deal structure this is not the case. So, for example, if you take a  \$2 billion product and pharma says 'we will give you huge sales milestones (\$ 500 million etc)' but at the same time pharma is not agreeing to pay high royalty rates in the early stages of sales (for example, if you get a low royalty rate up to \$200 million) this indicates that pharma does not think that the data or the product is as good." (biotech)
 
-# 5. Findings on the analyst approach
+## 5. Findings on the analyst approach
 
 Financial analysts apply valuation tools as part of setting share prices. The analyst participants confirmed that they are mainly interested in late stage projects with many analysts placing no value on pre-clinical projects, and some taking a more extreme approach:-
 
@@ -624,11 +656,11 @@ If the company is bought by a company that is looking to get into metabolic diso
 
 Analysts really get it wrong and the one thing they get paid to do, they don't do, that is, look at what are the chances of the product succeeding?" (biotech)
 
-# 6. Forecasting challenges
+## 6. Forecasting challenges
 
 Participants were asked to comment on the key challenges in forecasting the future revenues, costs and risk associated with a drug development project. They were generally comfortable with their ability to estimate the costs of drug development. In comparison, significant uncertainties existed around projecting revenue and risk parameters. The emphasis on revenue potential and risk is consistent with NPV modelling showing the highest sensitivity to changes in these parameters.
 
-# 6.1 Inputs for projecting revenue
+## 6.1 Inputs for projecting revenue
 
 The key difficulties relating to revenue forecasting stem from the inability of participants to predict the shifts in, or to control, the factors determining a new product's ability to penetrate a market:-
 
@@ -650,7 +682,7 @@ Despite being perceived by the other groups as possessing informational advantag
 
 "For the initial valuation, we will put in standard values to see if it is even worth going so far as to investigate whether there is a business case. Then we will work up a very specific sales forecast (taking into account the competition, the patent situation, etc, although we've never got it right yet. All one can ever do is a 'best guess' and this is where the most heated discussions are, although it is rather a waste of time because no one knows the answer. There are conversations with people saying 'how do you know we're going to sell this?' Everything else can be much more precise."(pharma)
 
-# 6.2 Determining risk parameters
+## 6.2 Determining risk parameters
 
 The key difficulty in determining appropriate risk parameters stems from an inability to derive project specific rates:-
 
@@ -676,7 +708,7 @@ The need to consider market risk was also raised:-
 
 "Once launched … the product itself can lend itself to differing take-up. Therefore, for example, a biologic which can be controversial may have a slower take-up. Equally, a company that makes the medical device to deliver a drug has other inputs which can provide additional subtleties to the valuation." (analyst)
 
-# 6.3 Forecasting costs
+## 6.3 Forecasting costs
 
 The findings confirm pharma's information advantages when it comes to forecasting late stage development and marketing costs. The historical division of responsibilities between biotech and pharma has the latter assuming responsibility for downstream development and commercialisation activities. Whilst pharma understand clinical investment, a pharma participant commented on how it is becoming more difficult to predict what is going to be required of a drug candidate for regulatory approval:-
 
@@ -690,7 +722,7 @@ The less detailed approach by biotech investors to assessing downstream costs wa
 
 "The business model is someone buying a biotech company and you are not interested in late stage data. Pharma do not like the way biotech do that." (biotech)
 
-# 6.4 Forecast period
+## 6.4 Forecast period
 
 Participants saw the key challenge in connection with forecasting the development timetable. Any delays in development have significant implications for the all important competitive positioning:-
 
@@ -698,7 +730,7 @@ Participants saw the key challenge in connection with forecasting the developmen
 
 "It is a given in the industry that everything is going to change and so one usually starts with a joint development plan (either drawn up by us alone if we were going to control it, or jointly between the parties). Within that, there would be a joint committee or our own portfolio review allowing things to shift off the initial plan. I doubt that we (or any other pharma company) have ever done a project to time and as originally specified. If things were to go badly, or warning bells were being sounded (e.g. the product was no longer going to be first in class or best in class), then we would have the right to opt out/to stop." (pharma)
 
-# 6.5 Pharmaceuticals versus biopharmaceuticals versus medical devices
+## 6.5 Pharmaceuticals versus biopharmaceuticals versus medical devices
 
 The participant responses also identified differences between pharmaceuticals, biopharmaceuticals and medical devices, with most responses focusing mainly on differences relating to risk:-
 
@@ -716,7 +748,7 @@ In respect of the widely acknowledged lower risk profile of medical device devel
 
 Differences relating to other NPV parameters include:
 
-# Regulatory, costs and timing:-
+## Regulatory, costs and timing:-
 
 "Compared to NCEs, biologics and medical devices are likely to be different at the level of regulatory, product development costs and timing." (consultant)
 
@@ -724,19 +756,19 @@ Differences relating to other NPV parameters include:
 
 "It is more difficult to estimate the cost of goods with biologics unless the scale-up pathway is very clear."(corporate finance)
 
-# Sales:-
+## Sales:-
 
 "Once launched … the product itself can lend itself to differing take up. Therefore, for example, a biologic which can be controversial may have a slower take up." (analyst)
 
-# About Mayer Brown
+## About Mayer Brown
 
 Mayer Brown is a leading global law firm with offices in major cities across the Americas, Asia and Europe. We have approximately 1,000 lawyers in the Americas, 300 in Asia and 500 in Europe. Our presence in the world's leading markets enables us to offer clients access to local market knowledge combined with global reach.
 
 We are noted for our commitment to client service and our ability to assist clients with their most complex and demanding legal and business challenges worldwide. We serve many of the world's largest companies, including a significant proportion of the Fortune 100, FTSE 100, DAX and Hang Seng Index companies and more than half of the world's largest investment banks. We provide legal services in areas such as Supreme Court and appellate; litigation; corporate and securities; finance; real estate; tax; intellectual property; government and global trade; restructuring, bankruptcy and insolvency; and environmental.
 
-# OFFICE LOCATIONS
+## OFFICE LOCATIONS
 
-# AMERICAS
+## AMERICAS
 
 Charlotte  
 
@@ -748,7 +780,7 @@ Palo Alto
 - São Paulo  
 - Washington
 
-# ASIA
+## ASIA
 
 - Bangkok  
 - Beijing  
@@ -758,7 +790,7 @@ Hanoi
 Hong Kong  
 Shanghai
 
-# EUROPE
+## EUROPE
 
 Berlin  
 Brussels  
@@ -768,7 +800,7 @@ Frankfurt
 - London  
 Paris
 
-# ALLIANCE LAW FIRMS
+## ALLIANCE LAW FIRMS
 
 Mexico, Jaquegui, Navarrete y Nader  
 Spain, Ramón & Cajal  

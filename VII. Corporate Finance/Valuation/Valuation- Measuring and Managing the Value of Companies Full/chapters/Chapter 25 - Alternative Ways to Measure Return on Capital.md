@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Alternative Ways to Measure Return on Capital
 linter-yaml-title-alias: Alternative Ways to Measure Return on Capital
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [return on capital, roic alternatives, cfroi]
+secondary_tags: [internal rate of return, asset valuation, economic returns]
 ---
 
-# Alternative Ways to Measure Return on Capital
+## Alternative Ways to Measure Return on Capital
 
 Valuations often assume that historical return on capital is a good starting point for projecting future returns as a company grows. But if historical return on capital is measured in a way that gives us no meaningful information about value creation, decisions about whether to continue investing in a business may be incorrect. To be truly value based, the measure for return on capital should reflect the internal rate of return (IRR) of the underlying business from the time investments are made until all the cash flows from that investment have been collected. That's not possible in practice, because we can't wait until the end of every project to assess a company's performance; a business is an accumulation of different investments made at different times. So we need a proxy that measures how much value a company has created in the recent past and that can help a company with the particularly important task of planning for the future.
 

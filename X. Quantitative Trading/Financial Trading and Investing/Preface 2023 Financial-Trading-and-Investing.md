@@ -1,11 +1,17 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Preface
-linter-yaml-title-alias: Preface
+parent_directory: X. Quantitative Trading/Financial Trading and Investing
+formatted: 2025-12-20 07:08:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - financial trading textbook
+  - trading course introduction
+secondary_tags:
+  - market microstructure
+  - risk management
+  - behavioral finance
+cssclasses: academia
 ---
 
 # Preface
@@ -36,6 +42,6 @@ In addition to the simulation-based ancillary materials, which are located at th
 
 I welcome your comments and suggestions regarding this book. I can be contacted by e-mail at jtleall@jtleall.com or by using contact information available on my web page at http://www.jtleall.com.
 
-# ACKNOWLEDGMENTS
+## ACKNOWLEDGMENTS
 
 I am fortunate to have taught a number of excellent students who have offered many suggestions and corrections on chapter drafts for this book and its second edition. Several colleagues, friends, and reviewers made helpful contributions, including T.J. Wu, Tina Prodromou, Peter Knopf, Anthony Joseph, and Iman Palit. I am especially grateful to Lynda S. Livingston and Vassilios Gargalas, who provided many particularly helpful comments and ideas. Stan Wakefield and editors and staff at Elsevier, including Scott Bentley, Gayathri S, Anusha Sambamoorthy, Katey Birtcher and Chris Hockaday, were essential in bringing the book and this third edition to fruition. In addition, a number of anonymous reviewers were most helpful. Of course, my lovely wife Anne, who no longer requires that I work one day a week, and Emily, who had been such a delightfully pleasant adolescent, and now lives in my basement, always boost my productivity and morale.

@@ -1,17 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "GMO Investment Strategy Analysis"
+parent_directory: FINM Markets Foundation
+formatted: 2025-12-20 06:56:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - gmo investment strategy
+  - portfolio management homework
+secondary_tags:
+  - asset allocation analysis
+  - market forecasting models
+  - performance metrics
+  - risk assessment
 cssclasses: academia
-title: "**Homework 7**"
-linter-yaml-title-alias: "**Homework 7**"
 ---
 
-# **Homework 7**
+# Homework 7
 ## Mark Hendricks - Discussion
 
-# 1. GMO
+## 1. GMO
 
 ## 1.1. GMO's approach.
 
@@ -99,7 +106,7 @@ simply comment on the comparison in the exhibits.)**
 the benchmark and a Sharpe ratio more than double. We don?t have a long enough series
 of returns to do a more involved statistical analysis of the performance.
 
-# 2 Analyzing GMO
+## 2 Analyzing GMO
 
 ```python
 import numpy as np
@@ -438,7 +445,7 @@ mktreg.style.format({
             </tr>
     </tbody></table>
 
-# 3. Forecast Regressions
+## 3. Forecast Regressions
 
 ```python
 sigs = pd.read_excel(data_file_path,sheet_name='signals')
@@ -575,7 +582,7 @@ sigs_lag = sigs.shift().dropna()
 sigs_lag, spy = sigs_lag.align(rets[['SPY']], join='inner',axis=0)
 ```
 
-# 3.1 Forecast setup
+## 3.1 Forecast setup
 
 We will date the forecast by the date it is forecasting, not the date it was calculated.
 
@@ -591,7 +598,7 @@ For a baseline forecast, we use the mean return up to that point.
 forecasts = rets[['SPY']].expanding().mean().shift(1).dropna()
 forecasts.columns = ['Mean']
 
-# Define the models for the other forecasts
+## Define the models for the other forecasts
 model_map = {'DP':['DP'], 'EP':['EP'], 'ALL':sigs.columns}
 
 for model in model_map.keys():
@@ -728,7 +735,7 @@ plt.show()
 
 ![png](output_23_0.png)
 
-# 3.2 Build the Investment Strategy 
+## 3.2 Build the Investment Strategy 
 
 Use the forecasts to build investment weights.
 
@@ -1183,7 +1190,7 @@ get_ols_metrics(spy, fund_returns, annualization=12)
 </table>
 </div>
 
-# 3.3 Conclusions
+## 3.3 Conclusions
 
 The tables above indicate…
 
@@ -1424,7 +1431,7 @@ forecasts_OOS
 <p>285 rows × 4 columns</p>
 </div>
 
-# Investing
+## Investing
 
 ```python
 wts_OOS = 100 * forecasts_OOS
@@ -1934,7 +1941,7 @@ summary_forecast_strategy(forecasts_OOS,spy_OOS,fund_returns_OOS)
 - The correlation between EP and DP is lower OOS--close to 0.5.
 - The correlation between EP and SPY and between ALL and SPY is near 1 most of the sample but is negative during 2009-2013.
 
-# 5. Other Forecasting Approaches: In-Sample
+## 5. Other Forecasting Approaches: In-Sample
 
 Below we compare forecasting with mean return, OLS, and a few Machine Learning (ML) methods. Note that for brevity, we use just one model of signals: ALL={DP, EP, 10YR}. Can easily modify the model choice below.
 
@@ -2566,7 +2573,7 @@ summary_forecast_strategy(forecasts_ML,spy_ML,fund_returns_ML)
 - We shouldn't be too surprised by the impressive CART performance given that it is an extremely flexible model prone to over-fitting, and we're examining in-sample results.
 - This makes it even more glaring that the NN cannot generate better results in-sample.
 
-# 6. Machine-Learning OOS
+## 6. Machine-Learning OOS
 
 Another Extension section that was not originally listed in the homework.
 

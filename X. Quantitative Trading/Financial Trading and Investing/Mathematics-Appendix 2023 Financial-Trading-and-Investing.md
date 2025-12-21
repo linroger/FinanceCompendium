@@ -1,18 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Mathematics-Appendix 2023 Financial-Trading-and-Investing"
+parent_directory: "X. Quantitative Trading/Financial Trading and Investing"
+formatted: 2025-12-20 11:45:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - mathematical appendix
+  - statistics
+  - quantitative finance
+secondary_tags:
+  - mean variance
+  - hypothesis testing
+  - ols regression
+  - matrix arithmetic
 cssclasses: academia
-title: Mathematics Appendix
-linter-yaml-title-alias: Mathematics Appendix
 ---
 
-# Mathematics Appendix
+# Mathematics-Appendix 2023 Financial-Trading-and-Investing
 
-# A.1 A BRIEF OVERVIEW OF ELEMENTARY STATISTICS
+## A.1 A BRIEF OVERVIEW OF ELEMENTARY STATISTICS
 
-# Mean, Variance, and Standard Deviation
+### Mean, Variance, and Standard Deviation
 
 The purpose of this appendix is to review several important elementary statistics concepts. To begin with, suppose that we wish to describe or summarize the characteristics or distribution of a single population of values (or sample drawn from a population). Two important characteristics include central location (measured by average, mean, median, expected value, or mode) and dispersion (measured by range, variance, or standard deviation).
 
@@ -42,378 +50,25 @@ $$
 s = \sqrt {\frac {\sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) ^ {2}}{n - 1}} \tag {A.5}
 $$
 
-# Co-movement Statistics
+### Co-movement Statistics
 
-A joint probability distribution is concerned with probabilities associated with each possible combination of outcomes drawn from two sets of data. Covariance measures the mutual variability of outcomes selected from each set; that is, covariance measures the relationship between variability in one data set relative to variability in the second data set, where variables are selected one at a time from each data set and paired. If large values in one data set seem to be associated with large values in the second data set, covariance is positive; if large values in the first data set seem to be associated with small values in the second data set, covariance is negative. If data sets are unrelated, covariance is zero. Covariance between data set  $x$  and data set  $y$  may be measured as follows, depending on whether one is interested in covariance of a population or a sample or expected covariance:
+### Hypothesis Testing
 
-$$
-\sigma_ {x, y} = \sum_ {i = 1} ^ {n} \left(x _ {i} - \mu_ {x}\right) \left(y _ {i} - \mu_ {y}\right) \div n \tag {A.6}
-$$
+### Hypothesis Testing: Two Populations
 
-$$
-s _ {x, y} = \frac {\sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) \left(y _ {i} - \bar {y}\right)}{n - 1} \tag {A.7}
-$$
+### Introduction to Simple OLS Regression
 
-The sign associated with covariance indicates whether the relationship associated with the data in the sets are direct (positive sign), inverse (negative sign), or independent (covariance is zero). The absolute value of covariance measures the strength of the relationship between the two data sets. However, the absolute value of covariance can often be more easily interpreted when it is expressed relative to the standard deviations of each of the two data sets. That is, when we divide covariance by the product of the standard
+## A.2 ESSENTIALS OF MATRICES AND MATRIX ARITHMETIC
 
-deviations of each of the data sets, we obtain the sample coefficient of correlation  $\rho_{x,y}$  as follows:
+### Matrix Arithmetic
 
-$$
-\rho_ {x, y} = \frac {\sigma_ {x , y}}{\sigma_ {x} \sigma_ {y}} = \frac {\sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) \left(y _ {i} - \bar {y}\right) / (n - 1)}{\sqrt {\frac {\sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) ^ {2}}{n - 1}} \cdot \sqrt {\frac {\sum_ {i = 1} ^ {n} \left(y _ {i} - \bar {y}\right) ^ {2}}{n - 1}}} \tag {A.8}
-$$
+### Multiplication of Matrices
 
-A correlation coefficient equal to 1 indicates that the two data sets are perfectly positively correlated; that is, their changes are always in the same direction, by the same proportions, with  $100\%$  consistency. Correlation coefficients will always range between  $-1$  and  $+1$ . A correlation coefficient of  $-1$  indicates that the two data sets are perfectly inversely correlated; that is, their changes are always in the opposite direction, by the same proportions with  $100\%$  consistency. The closer a correlation coefficient is to  $-1$  or  $+1$ , the stronger is the relationship between the two data sets. A correlation coefficient equal to zero implies independence (no relationship) between the two sets of data.
+### Inverting Matrices
 
-The correlation coefficient may be squared to obtain the coefficient of determination (also referred to as  $r^2$  or r-square in some statistics texts and here as  $\rho^2$ ). The coefficient of determination is the proportion of variability in one data set that is explained by or associated with variability in the second data set. For example,  $\rho^2$  equal to 0.35 indicates that 35% of the variability in one data set is explained in a statistical sense by variability in the second data set.
+### Solving Systems of Equations
 
-# Hypothesis Testing
-
-In this section, we discuss the process of induction to form testable hypotheses or theories from specific observations. These hypotheses or theories are useful if they provide a means to make meaningful predictions. Normally, testing a theory involves the collection of additional observations to determine whether they support the theory's predictions. If the additional observations do not confirm the predictions, then one has grounds for rejecting the theory. The observations collected to test a theory are usually represented by numbers or data. In most cases, statistical inference concerns the generalization of sample results to a population.
-
-In many instances, one might make use of statistical inference to test a hypothesis. By convention, a hypotheses test usually involves formulation of a null (or maintained) hypothesis along with a competing alternative (research or challenging) hypothesis. The null hypothesis  $\mathrm{H_0}$  usually is the claim that the population parameter equals some "maintained" value (note that null frequently implies no difference, no impact or nothing). The null hypothesis normally includes an equality sign or either  $\leq$  or  $\geq$  signs. The alternative hypothesis  $\mathrm{H_A}$  is the claim that the population parameter differs from the maintained value. The alternative hypothesis normally includes a strict inequality sign. Such tests are usually structured in a conservative manner such that the burden of proof is on the
-
-alternative hypothesis. One supports the research or alternative hypothesis by demonstrating the null hypothesis to be false (rejecting the null hypothesis). One rejects the null hypothesis only when the probability of its being true is sufficiently low (the conventional probability, known as a level of significance, is 0.05 or 0.01). In some instances, the appropriate level of significance for a hypothesis test can be based on the relative costs of rejecting the null hypothesis when it is true or accepting it when it is false.
-
-One might list the steps of a typical statistical hypothesis test as follows:
-
-1. Define the null hypothesis,  $\mathrm{H}_0$  
-2. Define the alternative hypothesis,  $\mathrm{H}_{\mathrm{A}}$  
-3. Determine a level of significance,  $\alpha$ , for the test.  
-4. Determine the decision rule or test statistic along with acceptance or rejection regions or critical value based on  $\alpha$ .  
-5. Perform computations.  
-6. Form conclusions.
-
-The decision rule or test statistic is a given function of a measurement drawn from the sample on which the statistical decision will be based. The rejection region consists of those values of the test statistic that will lead to rejection of the null hypothesis. The critical value marks the boundary between the acceptance and rejection regions.
-
-An experiment involving a given sample drawn from a population has some probability of resulting in an erroneous conclusion. Thus, one's hypothesis test may lead to an incorrect rejection of a true null hypothesis (Type I error) or an incorrect retaining of a false null hypothesis (Type II error). The power of a test refers to the probability of not committing a Type II error. This is equivalent to the probability of accepting the alternative hypothesis when it is correct. A test is considered to be superior when its power is higher.
-
-Statistics are most useful for empirical studies in finance. This chapter provides, at best, a very superficial overview of a few of the applications of statistical methodology in finance. The reader is advised to consult a more comprehensive statistics text for a more detailed presentation of statistical methodology and its applications to financial problems.
-
-# Hypothesis Testing: Two Populations
-
-Here, we are concerned with comparing two means,  $\mu_{1}$  and  $\mu_{2}$  for populations 1 and 2 with standard deviations  $\sigma_{1}$  and  $\sigma_{2}$ . We shall assume that our samples are independent and drawn from populations whose data are normally distributed. Our test will be based on samples of sizes  $n_{1}$  and  $n_{2}$ . The samples will have means and variances equal to  $\overline{x}_{1}$  and  $\overline{x}_{2}$  and  $s_{1}^{2}$  and  $s_{2}^{2}$ , respectively. We will base our testing methodologies on test statistics and distributions somewhat different from those used earlier. Suppose that we wanted to test whether the means of two populations were different based on samples drawn from those populations. Our hypotheses and test statistics might be as follows:
-
-$$
-\begin{array}{l} \mathrm {H} _ {0}: \mu_ {1} = \mu_ {2} \\ \mathrm {H} _ {\mathrm {A}}: \mu \neq \mu_ {2} \\ \end{array}
-$$
-
-$$
-t = \frac {(\bar {x} _ {1} - \bar {x} _ {2}) - (\mu_ {1} - \mu_ {2})}{\sqrt {\left[ \frac {(n _ {1} - 1) s _ {1} ^ {2} + (n _ {2} - 1) s _ {2} ^ {2}}{(n _ {1} + n _ {2} - 2)} \right] \left[ \frac {n _ {1} + n _ {2}}{n _ {1} \cdot n _ {2}} \right]}} \tag {A.9}
-$$
-
-where  $s_1^2$  and  $s_2^2$  are the sample variances. If we are testing whether  $\overline{x}_1$  and  $\overline{x}_2$  are equal, then our hypothesized difference in means  $\mu_1 - \mu_2 = 0$  is used for computing our test statistic. Our test statistic assumes that our data follows a student-  $t$  distribution.
-
-A variety of other types of tests involving samples from two populations can be constructed as well. For example, tests can be developed to determine whether variances differ, other tests can be based on samples with matched pairs of observations, and so on. A statistics or econometrics text can be consulted to provide additional testing methodologies.
-
-# Introduction to Simple OLS Regression
-
-Regressions are used to determine relationships between a dependent variable and one or more independent variables. A simple regression is concerned with the relationship between a dependent variable and a single independent variable; a multiple regression is concerned with the relationship between a dependent variable and a series of independent variables. A linear regression is used to describe the relationship between the dependent and independent variable(s) to a linear function or line (or hyperplane in the case of a multiple regression).
-
-The simple ordinary least squares regression (simple OLS) takes the following form:
-
-$$
-y _ {t} = \hat {b} _ {0} + \hat {b} _ {1} x _ {t} + \varepsilon_ {i, t} \tag {A.10}
-$$
-
-The OLS regression coefficients  $\hat{b}_0$  and  $\hat{b}_1$  are derived by minimizing the variance of errors in fitting the curve (or  $m$ -dimensional surface for multiple regressions involving  $m$  variables). Since the expected value of error terms equals zero, this derivation is identical to minimizing error terms squared. Regression coefficient  $\hat{b}_1$  is simply the covariance between  $y$  and  $x$  divided by the variance of  $x$ ;  $\hat{b}_1$  and  $\hat{b}_0$  are found as follows:
-
-$$
-\hat {b} _ {1} = \frac {\sigma_ {x , y} ^ {2}}{\sigma_ {x} ^ {2}} = \frac {\sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) \left(y _ {i} - \bar {y}\right)}{\sum_ {i = 1} ^ {n} \left[ \left(x _ {i} - \bar {x}\right) \right] ^ {2}} \tag {A.11}
-$$
-
-$$
-\hat {b} _ {0} = \bar {y} - \hat {b} _ {1} \bar {x} \tag {A.12}
-$$
-
-Appropriate use of the OLS requires the following assumptions:
-
-- Dependent variable values are distributed independently of one another.  
-- The variance of  $x$  is approximately the same over all ranges for  $x$ .  
-- The variance of error term values is approximately the same over all ranges of  $x$ .  
-- The expected value of each disturbance or error term equals zero.
-
-Violations in these assumptions will weaken the validity of the results obtained from the regression and may necessitate either modifications to the OLS regression or different statistical testing techniques.
-
-A simple regression is concerned with the relationship between a dependent variable and a single independent variable. Regression coefficients  $\hat{b}_0$  and  $\hat{b}_1$  represent the vertical intercept and the slope in the statistical linear relationship between the dependent variable  $y_i$  and the independent variable  $x_i$ . Thus the vertical intercept  $\hat{b}_0$  represents the regression's forecasted value for  $y_i$  when  $x_i$  equals zero and the slope of the regression  $\hat{b}_1$  represents the change in  $\hat{y}_i$  (the value forecast by the regression for  $y_i$ ) induced by a change in  $x_i$ . The error term  $\hat{\varepsilon}_i$  represents the vertical distance between the value  $\hat{y}_i$  forecasted by the regression based on its true value  $y_i$ ; that is,  $\hat{\varepsilon}_i = y_i - \hat{y}_i$ . The OLS regression minimizes the sum or average of these error terms squared. The size of the sum of the squared errors (often called SSE or, when divided by  $(n - 2)$ , the variance of errors  $\sigma_{\varepsilon}^2$ ) will be used to measure the predictive strength of the regression equation. A regression with smaller error terms or smaller  $\sigma_{\hat{\varepsilon}}^2$  is likely to be a better predictor, all else held constant.
-
-Once we have determined the statistical relationship between  $y_{i}$  and  $x_{i}$  based on our OLS, our next problem is to measure the strength of the relationship, or its significance. One of the more useful indicators of the strength of the regression is the coefficient of determination or  $\rho^2$  statistic. The coefficient of determination (often referred to as r-square) represents the proportion of variation of variable  $y$  that is explained by its regression on  $x$ . It is determined as follows:
-
-$$
-\rho_ {x, y} ^ {2} = \frac {\left(\sigma_ {x , y}\right) ^ {2}}{\sigma_ {x} ^ {2} \sigma_ {y} ^ {2}} = \frac {\left[ \sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) \left(y _ {i} - \bar {y}\right) \right] ^ {2}}{\left[ \sum_ {i = 1} ^ {n} \left(x _ {i} - \bar {x}\right) \right] ^ {2} \left[ \sum_ {i = 1} ^ {n} \left(y _ {i} - \bar {y}\right) \right] ^ {2}} \tag {A.13}
-$$
-
-This coefficient of determination may also be expressed as either of the following:
-
-$$
-\rho_ {x, y} ^ {2} = \frac {\text {T o t a l V a r i a t i o n i n y E x p l a i n e d b y t h e R e g r e s s i o n}}{\text {T o t a l V a r i a t i o n i n y}} \tag {A.14}
-$$
-
-$$
-\rho_ {x, y} ^ {2} = \frac {\sum_ {i = 1} ^ {n} \left(y _ {i} - \bar {y}\right) ^ {2} - \sum_ {i = 1} ^ {n} \varepsilon_ {i} ^ {2}}{\sum_ {i = 1} ^ {n} \left(y _ {i} - \bar {y}\right) ^ {2}} \tag {A.15}
-$$
-
-The sum  $\sum (y_i - \overline{y})^2$  represents total variation in  $y$ ; the sum  $\sum \hat{\varepsilon}_i^2$  represents the variation in  $y$  not explained by the regression on  $x$ .
-
-Assume that there exists for a population a true OLS regression equation  $y_{i} = \beta_{0} + \beta_{1}x_{i} + \varepsilon_{i}$  representing the relationship between  $y_{i}$  and  $x_{i}$ , without measurement or sampling error. However, we propose the regression  $y_{i} = \hat{b}_{0} + \hat{b}_{1}x_{i} + \hat{\varepsilon}_{i}$ , whose ability to represent the true relationship between  $y_{i}$  and  $x_{i}$  is a function of our ability to measure and sample properly. Our sampling coefficients  $\hat{b}_{0}$  and  $\hat{b}_{1}$  are merely estimates for the true coefficients  $\beta_{0}$  and  $\beta_{1}$  and they may vary from sample to sample. It is useful to know the significance of each of these sampling coefficients in explaining the relationship between  $y_{i}$  and  $x_{i}$ .
-
-Our estimate  $\hat{b}_{1}$  for the slope coefficient  $\beta_{1}$  might vary from regression to regression, depending on how our sample varies. Our estimates for  $\hat{b}_{1}$  will follow a  $t$ -distribution if our sample of  $y_{i}$ 's is large or normally distributed; if our sample is sufficiently large, our estimates for  $\beta_{1}$  may be characterized as normally distributed. One potential test of the significance of our coefficient estimate  $\hat{b}_{1}$  is structured as follows:
-
-$$
-\mathrm {H} _ {0}: \beta_ {1} \leq 0
-$$
-
-$$
-\mathrm {H} _ {\mathrm {A}}: \beta_ {1} > 0
-$$
-
-Our null hypothesis is that  $y$  is unrelated or inversely related to  $x$ ; our alternative hypothesis is that  $y$  is directly related to  $x$ . The first step in our test is to compute the standard error  $se(\hat{b}_1)$  of our estimate for  $\beta_1$  as follows:
-
-$$
-s e \left(\hat {b} _ {1}\right) = \sqrt {\frac {1}{n} \frac {\sigma_ {\hat {\varepsilon}} ^ {2}}{\sigma_ {x} ^ {2}}} = \sqrt {\frac {\sum_ {i = 1} ^ {n} \hat {\varepsilon} _ {i} ^ {2}}{n - 2}} \tag {A.16}
-$$
-
-The standard error for  $\hat{b}_1$  is, in a sense, an indicator of our level of uncertainty regarding our estimate for  $\beta_1$ . The numerator within the radical indicates the variability unexplained by the regression; the denominator indicates total variability. Our next step is to find the test statistic for  $\hat{b}_1$ . This is analogous to standardizing or finding the normal deviate in our earlier hypothesis tests:
-
-$$
-t \left(\hat {b} _ {1}\right) = \frac {\hat {b} _ {1}}{s e \left(\hat {b} _ {1}\right)} \tag {A.17}
-$$
-
-We next compare this test statistic to a critical value from a table representing the  $t$ -distribution (such as Table A.2 at the end of this mathematics appendix).
-
-The process for determining the statistical significance of the vertical intercept  $\hat{b}_0$  is quite similar to that for determining the statistical significance for  $\hat{b}_1$ . We first designate appropriate hypotheses, such as:
-
-$$
-\mathrm {H} _ {0}: \beta_ {0} = 0
-$$
-
-$$
-\mathrm {H} _ {\mathrm {A}}: \beta_ {0} \neq 0
-$$
-
-The primary difference in the process is in determining  $se(\hat{b}_0)$ :
-
-$$
-s e \left(\hat {b} _ {0}\right) = \sqrt {\frac {\sum_ {i = 1} ^ {n} \varepsilon_ {i} ^ {2}}{n - 2} \cdot \sum_ {i = 1} ^ {n} x _ {i} ^ {2}}} \tag {A.18}
-$$
-
-Next, we find our  $t$ -statistic as follows:
-
-$$
-t \left(\hat {b} _ {0}\right) = \frac {\hat {b} _ {0}}{s e \left(\hat {b} _ {0}\right)} \tag {A.19}
-$$
-
-We then compare the  $t$ -statistic to the appropriate critical value just as we did when testing the significance of the slope coefficient. This particular test involves two tails, since our alternative hypothesis is a strict inequality. Be certain to make appropriate adjustments to the critical value (for example, divide  $\alpha$  by 2 for two-tailed tests) when making comparisons.
-
-# A.2 ESSENTIALS OF MATRICES AND MATRIX ARITHMETIC
-
-A matrix is simply an ordered rectangular array of numbers. A matrix is an entity that enables one to represent a series of numbers as a single object, thereby providing for convenient systematic methods for completing large numbers of repetitive computations. Such objects are essential for the management of large data structures. Rules of matrix arithmetic and other matrix operations are often similar to rules of ordinary arithmetic and other operations, but they are not always identical. In this text, matrices will usually be denoted with bold uppercase letters. When the matrix has only one row or one column, bold lowercase letters will be used for identification. The following are examples of matrices:
-
-$$
-\mathbf {A} = \left[ \begin{array}{c c c} 4 & 2 & 6 \\ 3 & 7 & 4 \\ 8 & - 5 & 9 \end{array} \right] \quad \mathbf {B} = \left[ \begin{array}{c c} 2 & - 3 \\ ^ {3} / _ {4} & - ^ {1} / _ {2} \end{array} \right] \quad \mathbf {c} = \left[ \begin{array}{l} 1 \\ 5 \\ 7 \end{array} \right] \quad \mathbf {d} = \left[ \begin{array}{l} 3 \\ \overline {{5}} \end{array} \right]
-$$
-
-The dimensions of a matrix are given by the ordered pair  $m \times n$ , where  $m$  is the number of rows and  $n$  is the number of columns in the matrix. The matrix is said to be of order  $m \times n$  where, by convention, the number of rows is listed first. Thus,  $\mathbf{A}$  is  $3 \times 3$ ,  $\mathbf{B}$  is  $2 \times 2$ ,  $\mathbf{c}$  is  $3 \times 1$ , and  $\mathbf{d}$  is  $1 \times 1$ . Each number or value in a matrix is referred to as an element. The symbol  $a_{i,j}$  denotes the element in row  $i$  and column  $j$  of matrix  $\mathbf{A}$ ,  $b_{i,j}$  denotes the element in row  $i$  and column  $j$  of matrix  $\mathbf{B}$ , and so on. Thus,  $a_{3,2}$  is  $-5$  and  $c_{2,1} = 5$ .
-
-There are specific terms denoting various types of matrices. Each of these particular types of matrices has useful applications and unique properties for working with. For example, a vector is a matrix with only one row or one column. Thus, the dimensions of a vector are  $1 \times n$  or  $m \times 1$ . Matrix  $\mathbf{c}$  above is a column vector, of order  $3 \times 1$ . A  $1 \times n$  matrix is a row vector with  $n$  elements. The column vector has one column and the row vector has one row. A scalar is a matrix with exactly one element. Matrix  $\mathbf{d}$  is a scalar. A square matrix has the same number of rows and columns ( $m = n$ ). Matrix  $\mathbf{A}$  is square and of order 2. The set of elements extending from the upper left-most corner to the lower right-most corner in a square matrix are said to be in the principal diagonal. For each of these elements  $i_{i,j}$ ,  $i = j$ . Principal diagonal elements of square matrix  $\mathbf{A}$  are  $a_{1,1} = 4$ ,  $a_{2,2} = 7$ , and  $a_{3,3} = 9$ . Matrices  $\mathbf{B}$  and  $\mathbf{d}$  are also square matrices.
-
-A symmetric matrix is a square matrix where  $c_{i,j}$  equals  $c_{j,i}$  for all  $i$  and  $j$ ; that is, the  $i$ th element in each row equals the  $j$ th element in each column. Scalar  $\mathbf{d}$  and matrices  $\mathbf{H}$ ,  $\mathbf{I}$ , and  $\mathbf{J}$  below are all symmetric matrices. A diagonal matrix is a symmetric matrix whose elements off the principal diagonal are zero, where the principal diagonal contains the series of
-
-elements where  $i = j$ . Scalar  $\mathbf{d}$  and matrices  $\mathbf{H}$  and  $\mathbf{I}$  in the following are all diagonal matrices. An identity or unit matrix is a diagonal matrix consisting of ones along the principal diagonal. Both matrices  $\mathbf{H}$  and  $\mathbf{I}$  following are diagonal matrices;  $\mathbf{I}$  is the  $3 \times 3$  identity matrix:
-
-$$
-\mathbf {H} = \left[ \begin{array}{l l l} 1 3 & 0 & 0 \\ 0 & 1 1 & 0 \\ 0 & 0 & 1 0 \end{array} \right] \mathbf {I} = \left[ \begin{array}{l l l} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{array} \right] \mathbf {J} = \left[ \begin{array}{l l l} 1 & 7 & 2 \\ 7 & 5 & 0 \\ 2 & 0 & 4 \end{array} \right]
-$$
-
-# Matrix Arithmetic
-
-Matrix arithmetic provides for standard rules of operation just as conventional arithmetic. Matrices can be added or subtracted if their dimensions are identical. Matrices  $\mathbf{A}$  and  $\mathbf{B}$  add to  $\mathbf{C}$  if  $a_{i,j} + b_{i,j} = c_{i,j}$  for all  $i$  and  $j$ :
-
-$$
-\left[ \begin{array}{c c c c} a _ {1, 1} & a _ {1, 2} & \dots & a _ {1, n} \\ a _ {2, 1} & a _ {2, 2} & \dots & a _ {2, n} \\ \vdots & \vdots & \vdots & \vdots \\ a _ {m, 1} & a _ {m, 2} & \dots & a _ {m, n} \end{array} \right] + \left[ \begin{array}{c c c c} b _ {1, 1} & b _ {1, 2} & \dots & b _ {1, n} \\ b _ {2, 1} & b _ {2, 2} & \dots & b _ {2, n} \\ \vdots & \vdots & \vdots & \vdots \\ b _ {m, 1} & b _ {m, 2} & \dots & b _ {m, n} \end{array} \right] = \left[ \begin{array}{c c c c} c _ {1, 1} & c _ {1, 2} & \dots & c _ {1, n} \\ c _ {2, 1} & c _ {2, 2} & \dots & c _ {2, n} \\ \vdots & \vdots & \vdots & \vdots \\ c _ {m, 1} & c _ {m, 2} & \dots & c _ {m, n} \end{array} \right]
-$$
-
-A
-
-B
-
-C
-
-For example:
-
-$$
-\left[ \begin{array}{l l l} 2 & 4 & 9 \\ 6 & 4 & 2 5 \\ 0 & 2 & 1 1 \end{array} \right] + \left[ \begin{array}{l l l} 3 & 0 & 6 \\ 2 & 1 & 3 \\ 7 & 0 & 4 \end{array} \right] = \left[ \begin{array}{l l l} 5 & 4 & 1 5 \\ 8 & 5 & 2 8 \\ 7 & 2 & 1 5 \end{array} \right]
-$$
-
-A
-
-B
-
-C
-
-Note that each of the three matrices is of dimension  $3 \times 3$  and that each of the elements in matrix  $\mathbf{C}$  is the sum of corresponding elements in matrices  $\mathbf{A}$  and  $\mathbf{B}$ . The process of subtracting matrices is similar, where  $d_{i,j} - e_{i,j} = f_{i,j}$  for  $\mathbf{D} - \mathbf{E} = \mathbf{F}$ :
-
-$$
-\left[ \begin{array}{c c c c} d _ {1, 1} & d _ {1, 2} & \ldots & d _ {1, n} \\ d _ {2, 1} & d _ {2, 2} & \ldots & d _ {2, n} \\ \vdots & \vdots & \vdots & \vdots \\ d _ {m, 1} & d _ {m, 2} & \ldots & d _ {m, n} \end{array} \right] - \left[ \begin{array}{c c c c} e _ {1, 1} & e _ {1, 2} & \ldots & e _ {1, n} \\ e _ {2, 1} & e _ {2, 2} & \ldots & e _ {2, n} \\ \vdots & \vdots & \vdots & \vdots \\ e _ {m, 1} & e _ {m, 2} & \ldots & e _ {m, n} \end{array} \right] = \left[ \begin{array}{c c c c} f _ {1, 1} & f _ {1, 2} & \ldots & f _ {1, n} \\ f _ {2, 1} & f _ {2, 2} & \ldots & f _ {2, n} \\ \vdots & \vdots & \vdots & \vdots \\ f _ {m, 1} & f _ {m, 2} & \ldots & f _ {m, n} \end{array} \right]
-$$
-
-D
-
-E
-
-F
-
-For example:
-
-$$
-\left[ \begin{array}{l l l} 9 & 4 & 9 \\ 6 & 4 & 8 \\ 5 & 2 & 9 \end{array} \right] - \left[ \begin{array}{l l l} 5 & 0 & 6 \\ 2 & 1 & 6 \\ 5 & 0 & 9 \end{array} \right] = \left[ \begin{array}{l l l} 4 & 4 & 3 \\ 4 & 3 & 2 \\ 0 & 2 & 0 \end{array} \right]
-$$
-
-D
-
-E
-
-F
-
-Now consider a third matrix operation. The transpose  $\mathbf{A}^T$  of matrix  $\mathbf{A}$  is obtained by interchanging the rows and columns of matrix  $\mathbf{A}$ . Each  $a_{i,j}$  becomes  $a_{j,i}$ . The following represent matrix  $\mathbf{A}$  and its transpose  $\mathbf{A}^T$ :
-
-$$
-\begin{array}{c c} \left[ \begin{array}{c c c} 1 & 8 & 9 \\ 6 & 4 & 2 5 \\ 3 & 2 & 3 5 \end{array} \right] & \left[ \begin{array}{c c c} 1 & 6 & 3 \\ 8 & 4 & 2 \\ 9 & 2 5 & 3 5 \end{array} \right] \\ \mathbf {A} & \mathbf {A} ^ {T} \end{array}
-$$
-
-The transpose of a column vector is a row vector:
-
-$$
-\begin{array}{c c} \left[ \begin{array}{l} 9 \\ 6 \\ 3 \\ 7 \end{array} \right] & \left[ \begin{array}{l l l l} 9 & 6 & 3 & 7 \end{array} \right] \\ \mathbf {y} & \mathbf {y} ^ {T} \end{array}
-$$
-
-Similarly, the transpose of a row vector is a column vector. Note that the transpose  $\mathbf{V}^T$  of a symmetric matrix  $\mathbf{V}$  is  $\mathbf{V}$ :
-
-$$
-\mathbf {V} = \left[ \begin{array}{l l l} 0. 0 9 & 0. 0 1 & 0. 0 4 \\ 0. 0 1 & 0. 1 6 & 0. 1 0 \\ 0. 0 4 & 0. 1 0 & 0. 6 4 \end{array} \right] \quad \mathbf {V} ^ {T} = \left[ \begin{array}{l l l} 0. 0 9 & 0. 0 1 & 0. 0 4 \\ 0. 0 1 & 0. 1 6 & 0. 1 0 \\ 0. 0 4 & 0. 1 0 & 0. 6 4 \end{array} \right] = \mathbf {V}
-$$
-
-# Multiplication of Matrices
-
-Two matrices  $\mathbf{A}$  and  $\mathbf{B}$  can be multiplied to obtain the product  $\mathbf{AB} = \mathbf{C}$  if the number of columns in the first matrix  $\mathbf{A}$  equals the number of rows  $\mathbf{B}$  in the second. If matrix  $\mathbf{A}$  is of dimension  $m \times n$  and matrix  $\mathbf{B}$  is of dimension  $n \times q$ , the dimensions of the product matrix  $\mathbf{C}$  will be  $m \times q$ . Each element  $c_{i,k}$  of matrix  $\mathbf{C}$  is determined by the following sum:
-
-$$
-c _ {i, k} = \sum_ {j = 1} ^ {n} a _ {i, j} b _ {j, k}
-$$
-
-For example, consider the following product:
-
-$$
-\begin{array}{c c} \left[ \begin{array}{l l l} 7 & 4 & 9 \\ 6 & 4 & 1 2 \\ 3 & 2 & 1 7 \end{array} \right] & \left[ \begin{array}{l l} 7 & 6 \\ 5 & 1 \\ 9 & 1 2 \end{array} \right] = \left[ \begin{array}{l l} 1 5 0 & 1 5 4 \\ 1 7 0 & 1 8 4 \\ 1 8 4 & 2 2 4 \end{array} \right] \\ \mathbf {A} & \mathbf {B} \\ & \mathbf {C} \end{array}
-$$
-
-If it is possible to multiply two matrices, they are said to be conformable for multiplication. Any matrix can be multiplied by a scalar, where the product is simply each element times the value of the scalar.
-
-Matrix C in the above is found as follows:
-
-$$
-\begin{array}{c c} \left[ \begin{array}{l l l} 7 & 4 & 9 \\ 6 & 4 & 1 2 \\ 3 & 2 & 1 7 \end{array} \right] & \left[ \begin{array}{l l} 7 & 6 \\ 5 & 1 \\ 9 & 1 2 \end{array} \right] = \left[ \begin{array}{l l} (7 \cdot 7) + (4 \cdot 5) + (9 \cdot 9) & (7 \cdot 6) + (4 \cdot 1) + (9 \cdot 1 2) \\ (6 \cdot 7) + (4 \cdot 5) + (1 2 \cdot 9) & (6 \cdot 6) + (4 \cdot 1) + (1 2 \cdot 1 2) \\ (3 \cdot 7) + (2 \cdot 5) + (1 7 \cdot 9) & (3 \cdot 6) + (2 \cdot 1) + (1 7 \cdot 1 2) \end{array} \right] \\ \mathbf {A} & \mathbf {B} = \mathbf {C} \end{array}
-$$
-
-Note that the number of columns (3) in matrix  $\mathbf{A}$  equals the number of rows in matrix  $\mathbf{B}$ . Also note that the number of rows in matrix  $\mathbf{C}$  equals the number of rows in matrix  $\mathbf{A}$ ; the number of columns in  $\mathbf{C}$  equals the number of columns in matrix  $\mathbf{B}$ .
-
-# Inverting Matrices
-
-An inverse matrix  $\mathbf{A}^{-1}$  exists for the square matrix  $\mathbf{A}$  if the product  $\mathbf{A}^{-1}\mathbf{A}$  or  $\mathbf{A}\mathbf{A}^{-1}$  equals the identity matrix  $\mathbf{I}$ . Consider the following product:
-
-$$
-\left[ \begin{array}{l l} 2 & 4 \\ 8 & 1 \end{array} \right] \quad \left[ \begin{array}{l l} \frac {- 1}{3 0} & \frac {2}{1 5} \\ \frac {4}{1 5} & \frac {- 1}{1 5} \end{array} \right] = \left[ \begin{array}{l l} 1 & 0 \\ 0 & 1 \end{array} \right]
-$$
-
-One means for finding the inverse matrix  $\mathbf{A}^{-1}$  for matrix  $\mathbf{A}$  is through the use of a process called the Gauss-Jordan Method. This method will be performed on matrix  $\mathbf{A}$  by first augmenting it with the identity matrix as follows:
-
-$$
-\left[ \begin{array}{l l l l l} 2 & 4 & \vdots & 1 & 0 \\ 8 & 1 & \vdots & 0 & 1 \end{array} \right] \tag {A}
-$$
-
-For the sake of convenience, call the above augmented matrix  $\mathbf{A}$  temporarily. Now, a series of row operations (addition, subtraction, or multiplication of each element in a row) will be performed such that the identity matrix replaces the original matrix  $\mathbf{A}$  (on the left side). The right-side elements will comprise the inverse matrix  $\mathbf{A}^{-1}$ . Thus, in our final augmented matrix, we will have ones along the principal diagonal on the left side and zeros elsewhere; the right side of the matrix will comprise the inverse of  $\mathbf{A}$ . Allowable row operations include the following:
-
-1. Multiply a given row by any constant. Each element in the row must be multiplied by the same constant.  
-2. Add a given row to any other row in the matrix. Each element in a row is added to the corresponding element in the same column of another row.  
-3. Subtract a given row from any other row in the matrix. Each element in a row is subtracted from the corresponding element in the same column of another row.  
-4. Any combination of the above. For example, a row may be multiplied by a constant before it is subtracted from another row.
-
-Our first row operation will serve to replace the upper left corner value with a one. We multiply row 1 in  $\mathbf{A}$  (row  $1A$ ) by 0.5 to obtain the following:
-
-$$
-\left[ \begin{array}{c c c c c} 1 & 2 & \vdots & 0. 5 & 0 \\ 8 & 1 & \vdots & 0 & 1 \end{array} \right] 2 A \cdot 0. 5 = 1 B
-$$
-
-where row  $1B$  replaces row  $1A$ . Now we obtain a zero in the lower left corner by multiplying row 2 in  $\mathbf{A}$  by  $1/8$  and subtracting the result from our new row 1 to obtain matrix  $\mathbf{B}$  as follows:
-
-$$
-\left[ \begin{array}{c c c c c} 1 & 2 & \vdots & 0. 5 & 0 \\ 0 & \frac {1 5}{8} & \vdots & 0. 5 & \frac {- 1}{8} \end{array} \right] \begin{array}{l} 1 A \cdot 0. 5 = 1 B \\ 1 B - (2 A \cdot \frac {1}{8}) = 2 B \end{array} \tag {B}
-$$
-
-Next, we obtain a 1 in the lower right corner of the left side of the matrix by multiplying row  $2B$  by 8/15:
-
-$$
-\left[ \begin{array}{c c c c c} 1 & 2 & \vdots & 0. 5 & 0 \\ 0 & 1 & \vdots & \frac {4}{1 5} & \frac {- 1}{1 5} \end{array} \right] \begin{array}{c} 1 A \cdot 0. 5 = 1 B \\ 2 B \cdot \frac {8}{1 5} = 2 C \end{array}
-$$
-
-We obtain a zero in the upper right corner of the left side matrix by multiplying row 2 above by 2 and subtracting from row 1 in  $\mathbf{B}$ :
-
-$$
-\left[ \begin{array}{c c c c c} 1 & 0 & \vdots & \frac {- 1}{3 0} & \frac {2}{1 5} \\ 0 & 1 & \vdots & \frac {4}{1 5} & \frac {- 1}{1 5} \end{array} \right] \begin{array}{l} 1 B - (2 C \cdot 2) = 1 C \\ 2 B \cdot \frac {8}{1 5} = 2 C \end{array} \tag {C}
-$$
-
-The left side of augmented matrix  $\mathbf{C}$  is the identity matrix; the right side of  $\mathbf{C}$  is  $\mathbf{A}^{-1}$ . Because matrices cannot be divided as numbers are in arithmetic, one performs an analogous operation by inverting the matrix intended to be the "divisor" and postmultiplying this inverse by the first matrix to obtain a quotient. Thus, instead of dividing  $\mathbf{A}$  by  $\mathbf{B}$  to obtain  $\mathbf{D}$ , one inverts  $\mathbf{B}$  and obtains  $\mathbf{D}$  by the product  $\mathbf{AB}^{-1} = \mathbf{D}$ . This concept is extremely useful for many types of algebraic manipulations.
-
-# Solving Systems of Equations
-
-Matrices can be very useful in arranging systems of equations. Consider, for example, the following system of equations:
-
-$$
-\begin{array}{l} 0. 0 5 x _ {1} + 0. 1 2 x _ {2} = 0. 0 5 \\ 0. 1 0 x _ {1} + 0. 3 0 x _ {2} = 0. 0 8 \\ \end{array}
-$$
-
-This system of equations can be represented as follows:
-
-$$
-\begin{array}{c c} \left[ \begin{array}{c c} 0. 0 5 & 0. 1 2 \\ 0. 1 0 & 0. 3 0 \end{array} \right] & \left[ \begin{array}{c} x _ {1} \\ x _ {2} \end{array} \right] = \left[ \begin{array}{c} 0. 0 5 \\ 0. 0 8 \end{array} \right] \\ \mathbf {C} & \mathbf {x} \quad \mathbf {s} \end{array}
-$$
-
-We are not able to divide  $\mathbf{C}$  by  $s$  to obtain  $\mathbf{x}$ ; instead, we invert  $\mathbf{C}$  to obtain  $\mathbf{C}^{-1}$  and multiply it by  $s$  to obtain  $\mathbf{x}$ :
-
-$$
-\mathbf {C} ^ {- 1} \mathbf {s} = \mathbf {x}
-$$
-
-Therefore, to solve for vector  $\mathbf{x}$ , we first invert  $\mathbf{C}$  by augmenting it with the identity matrix:
-
-$$
-\left[ \begin{array}{l l l l l} 0. 0 5 & 0. 1 2 & \vdots & 1 & 0 \\ 0. 1 0 & 0. 3 0 & \vdots & 0 & 1 \end{array} \right] \tag {A}
-$$
-
-$$
-\left[ \begin{array}{l l l l l} 1 & 2. 4 & \vdots & 2 0 & 0 \\ 0 & 0. 6 & \vdots & - 2 0 & 1 0 \end{array} \right] R o w B 1 = A 1 \cdot 2 0 \tag {B}
-$$
-
-$$
-\left[ \begin{array}{c c c c c} 1 & 0 & \vdots & 1 0 0 & - 4 0 \\ 0 & 1 & \vdots & \frac {- 1 0 0}{3} & \frac {5 0}{3} \end{array} \right] \quad \begin{array}{l} R o w C 1 0 = B 1 + - (2. 4 \cdot C 2) \\ R o w C 2 = B 2 \cdot 5 / 3 \end{array} \tag {C}
-$$
-
-$$
-\begin{array}{c c} \mathbf {I} & \mathbf {C} ^ {- 1} \end{array}
-$$
-
-Thus, we obtain vector  $\mathbf{x}$  with the following product:
-
-$$
-\left[ \begin{array}{l l} 1 0 0 & - 4 0 \\ \frac {- 1 0 0}{3} & \frac {5 0}{3} \end{array} \right] \quad \left[ \begin{array}{l} 0. 0 5 \\ 0. 0 8 \end{array} \right] = \left[ \begin{array}{l} x _ {1} \\ x _ {2} \end{array} \right] = \left[ \begin{array}{l} 1. 8 \\ \frac {- 1}{3} \end{array} \right] \tag {D}
-$$
-
-$$
-\mathbf {C} ^ {- 1} \quad \mathbf {s} = \mathbf {x} = \mathbf {x}
-$$
-
-Thus, we find that  $x_{1} = 1.8$  and  $x_{2} = -1 / 3$ .
-
-# A.3 DERIVATIVES OF POLYNOMIALS
+## A.3 DERIVATIVES OF POLYNOMIALS
 
 The derivative from calculus can be used to determine rates of change or slopes. They are also useful for finding function maxima and minima. For those functions whose slopes are constantly changing, the derivative is an instantaneous rate of change; that is, the change in  $y$  induced by the "tiniest" change in  $x$ . Assume that  $y$  is given as a function of variable  $x$ . If  $x$  were to increase by a small (infinitesimal—that is, approaching, though not quite, equal to zero) amount  $h$ , by how much would  $y$  change? This rate of change is given by the derivative of  $y$  with respect to  $x$ , which is defined as follows:
 

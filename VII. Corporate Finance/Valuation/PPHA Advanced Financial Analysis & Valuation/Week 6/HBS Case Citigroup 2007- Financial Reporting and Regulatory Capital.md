@@ -1,6 +1,11 @@
 ---
 parent_directory: PPHA Advanced Financial Analysis & Valuation/Week 6
 title: "Week 6: Citigroup 2007: Financial Reporting and Regulatory Capital"
+formatted: "2025-12-20 07:46:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [citigroup, financial reporting, regulatory capital, subprime crisis]
+secondary_tags: [capital adequacy, loan losses, fair value accounting, risk management]
 tags:
 aliases:
   - "Citigroup 2007: Financial Reporting and Regulatory Capital"
@@ -15,43 +20,43 @@ EDWARD J. RIEDL
 SURAJ SRINIVASAN  
 SHARON KATZ
 
-# Citigroup 2007: Financial Reporting and Regulatory Capital
+### Citigroup 2007: Financial Reporting and Regulatory Capital
 
 In early 2008, Jake Merando was trying to understand the implications of the deepening U.S. housing crisis for the financial health of Citigroup, one of the world's largest banks. Merando, a banking analyst at an investment firm, was considering Citigroup's future as the financial crisis continued. The fourth quarter of 2007 was shaping up to be the worst in Citigroup's 196-year history (see Exhibit 1), and tremendous uncertainty surrounded both the firm and the industry.
 
-# History of Citigroup<sup>a</sup>
+### History of Citigroup<sup>a</sup>
 
 Citigroup was established in 1812 as City Bank of New York. During its history, the firm attained numerous milestones within the banking industry, in the early years of the 1900s playing a key role in the establishment of the Federal Reserve Bank of New York, in 1919 becoming the first bank with more than \$1 billion in assets, in the 1960s introducing the certificate of deposit, and by the 1990s holding the titles of largest U.S. bank and largest credit card issuer in the world.
 
 In 1998, the then-named Citicorp merged with Travelers Group, a deal intended to bring a wide range of financial services under a single umbrella. The merger made Citigroup the largest financial services firm by assets in history and brought a number of Travelers' organizations into the corporate fold, including the investment banking and brokerage services of Salomon Brothers and Smith Barney, as well as Primerica's distribution of insurance and financial services. Citigroup continued to grow rapidly after the merger, increasing its domestic and international operations, most notably through its acquisition of Mexico's Grupo Financiero Banamex-Accival in 2001. As of December 2007, Citigroup operated in more than 100 countries with more than 200 million customer accounts, employing approximately 160,000 fulland part-time employees in the United States and another 227,000 employees internationally.
 
-# Operating Structure<sup>b</sup>
+### Operating Structure<sup>b</sup>
 
 As of 2007, Citigroup operated four primary business segments: Global Consumer Group (GCG); Citi Markets & Banking (CMB); Global Wealth Management (GWM); and Citi Alternative Investments (CAI). A smaller, fifth segment, Corporate/Other, included corporate treasury services, operations and technology, corporate expenses, and costs incurred through discontinued operations (see Exhibits 2a, 2b, and 2c for Citigroup's financial statements, and Exhibit 3 for its segment data).
 
-# Global Consumer Group
+### Global Consumer Group
 
 GCG was responsible for banking, lending, insurance, and investment services for individual customers and small and medium-sized enterprises. It was further segmented into U.S. and international consumer operations. In the U.S., GCG operated Citigroup's credit card services, including MasterCard, Visa, Diners Club, American Express, and private-label cards. GCG also made loans for real estate, autos, and education, and operated Citigroup's retail banking services through Citibank branches, CitiFinancial, and Primerica Financial Services. Internationally, GCG offered similar services through local retail branches providing investment and retirement services, real estate and personal loans, and sales financing. Broken down by service,  $30\%$  of GCG net income came from U.S. credit card services,  $28\%$  from international retail banking,  $22\%$  from international credit card services,  $14\%$  from U.S. retail distribution, and  $6\%$  from U.S. commercial banking.
 
-# Citi Markets & Banking
+### Citi Markets & Banking
 
 CMB served Citigroup's largest customers worldwide, including corporations, governments, large institutions, and other large investors, offering investment banking, debt and equity market operations, and lending through its Securities and Banking division. CMB also provided cash management, trade services, custody and fund services, clearing services, and agency/trust services through its Transaction Services branch. In 2007, CMB reported a net loss of  \$5.25 billion on revenues (net of interest expense) of\$ 10.5 billion. The revenue figure included \$20.4 billion in write-downs and losses related to deterioration in the mortgage-backed and credit markets. Of this amount, \$18.9 billion came from subprime-related exposures, of which approximately \$14.2 billion was related to exposures in the most senior tranches of collateralized debt obligations. At the end of 2007, Securities and Banking had \$37.3 billion in remaining U.S. subprime net direct exposure.
 
-# Global Wealth Management
+### Global Wealth Management
 
 GWM provided Citigroup's private banking, brokerage and investment advice, and financial planning services for high-net-worth individuals, companies, and nonprofit institutions. GWM was composed of three elements. Smith Barney offered clients investment advice, financial planning, and brokerage services; Private Bank supplied wealth management services to wealthy private banking clients; and Citigroup Investment Research conducted market research, mainly for Smith Barney and CMB's Securities and Banking division.
 
-# Citi Alternative Investments
+### Citi Alternative Investments
 
 CAI oversaw private equity, hedge funds, real estate, and structured products, and managed futures investments of both the bank itself and of high-net-worth individuals and other third-party clients.
 
-# Regulatory Capital
+### Regulatory Capital
 
 Regulatory capital was capital that the Federal Reserve Board (the Fed) required banks in the U.S. to set aside to offset credit, market, and operational risks. The Fed maintained discretion to adjust these standards as appropriate. Under rules initially issued in 1989, three primary ratios were used to assess capital adequacy: the Tier 1 capital ratio, the total capital ratio, and the leverage ratio (see Exhibit 4 for an overview of regulatory capital calculations, and Exhibit 5 for related Citigroup disclosures). Of particular note, the Tier 1 capital ratio was calculated as Tier 1 capital divided by risk-weighted assets. Tier 1 capital was broadly defined as a bank's "core capital," comprising common stockholders' equity, qualifying perpetual preferred stock, and minority interests, and excluding most intangible assets. Risk-weighted assets reflected asset categories multiplied by the "risk weight" assigned to that asset as defined by regulators: riskier assets required higher levels of capital to provide a cushion against potential declines in value.
 
 Generally, the Fed used regulatory capital measures to constrain the riskiness of lending by banking organizations. Accordingly, banking regulators assessed minimum values for each of these key measures. In 2007, "adequately capitalized" (i.e., minimum) levels were  $4\%$  for the Tier 1 capital ratio,  $8\%$  for the total capital ratio, and  $3\%$  for the leverage ratio; "well-capitalized" levels were  $6\%$  for Tier 1 capital,  $10\%$  for total capital, and  $5\%$  for leverage. Well-capitalized banks qualified for, among other things, lower premiums assessed by the Federal Deposit Insurance Corporation (FDIC). Undercapitalized banks (e.g., below the  $8\%$  minimum required total capital) received a warning from the FDIC, and continued violation of capital requirements triggered further regulatory costs, including intervention or (in the extreme) takeover by government regulators.
 
-# Subprime Mortgage Crisis and Citigroup Financial Reporting
+### Subprime Mortgage Crisis and Citigroup Financial Reporting
 
 Economists and market analysts often referred to the subprime mortgage crisis in 2007 as the biggest financial crisis since the Great Depression. Although a number of factors contributed to the spread of the crisis, its making was rooted in the downturn of the U.S. housing market. During the 1990s, the number of loans sold to people with poor credit or low income rose as lenders took on more risk. The subsequent collapse of the subprime market sent a chain reaction of economic hardships throughout the global markets. The consequences were particularly severe for financial institutions, which were required to write down the values of subprime assets such as mortgage and mortgage-backed securities to reflect the current prices in the depressed markets. Critics of new fair-value accounting guidelines argued that firms were forced to record excessively low values for their troubled assets.
 
@@ -65,11 +70,11 @@ Reserves for credit losses Lending impairment allowances represented management'
 
 Securitizations Citigroup engaged in securitization activities related to various types of mortgage, student and car loans, credit card receivables, and corporate debt instruments. These securitized assets were used to increase the company's balance sheet liquidity and secure better financing rates in the market. Special purpose entities were typically used in such securitization transactions. Under this process, assets were transferred at fair value into a trust, and any changes in fair value were recorded as a gain or loss on sale. In determining the gain or loss, management measured the net present value of future cash flows based on factors such as expected credit losses and the discount rate on these estimated cash flows.
 
-# Results for 2007 and Expectations for 2008
+### Results for 2007 and Expectations for 2008
 
 On January 15, 2008, Citigroup issued a press release with its fiscal 2007 results. While net income for the year was  \$3.6 billion, the fourth quarter was the worst in the firm's history, with a net loss of\$ 9.8 billion. The loss primarily reflected an  \$18.1 billion write-off due to losses on subprime-related exposures, as well as a\$ 4.1 billion increase in credit costs related to higher current and estimated losses on consumer loans. Following the press release, significant uncertainty remained regarding Citigroup's expected performance for the upcoming year. Forecasts for industrywide subprime losses varied widely, from  \$265 billion (S&P) to in excess of\$ 600 billion (UBS).<sup>d</sup> Geraud Charpin, head of European credit strategy at UBS, stated: "We have to recognize the risk that the economy will suffer more damage than what consensus suggests. All the investment schemes that have been built on the basis of a strong and resilient economic backdrop have to be unwound."<sup>e</sup> Against this backdrop, Merando pondered what further losses Citigroup could be facing, and the implications these might have for its operations and regulatory requirements.
 
-# Exhibit 1 Selected Market Measures
+### Exhibit 1 Selected Market Measures
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/4b2feaa5-61d2-42c8-8985-f778029364c2/3e5c8273baec762353714c14801eab34c1a5b988a2f66c589da449b8264d492e.jpg)  
 Panel A. Stock Price (S&P 500 and World Bank Index indexed to Citigroup's share price, December 31, 2005)
@@ -82,11 +87,11 @@ Exhibit 2a Citigroup, 2007 Consolidated Balance Sheet
 
 <table><tr><td></td><td colspan="2">December 31</td></tr><tr><td>In millions of dollars, except shares</td><td>2007</td><td>2006</td></tr><tr><td>Assets</td><td></td><td></td></tr><tr><td>Cash and due from banks (including segregated cash and other deposits)</td><td>$38,206</td><td>$26,514</td></tr><tr><td>Deposits with banks</td><td>69,366</td><td>42,522</td></tr><tr><td>Federal funds sold and securities borrowed or purchased under agreements to resell (including \$84,305 at fair value at December 31, 2007)</td><td>274,066</td><td>282,817</td></tr><tr><td>Brokerage receivables</td><td>57,359</td><td>44,445</td></tr><tr><td>Trading account assets (including \$157,221 and \$125,231 pledged to creditors, respectively)</td><td>538,984</td><td>393,925</td></tr><tr><td>Investments (including \$21,449 and \$16,355 pledged to creditors, respectively)</td><td>215,008</td><td>273,591</td></tr><tr><td>Loans, net of unearned income</td><td></td><td></td></tr><tr><td>Consumer</td><td>592,307</td><td>512,921</td></tr><tr><td>Corporate (including \$3,727 and \$384 at fair value, respectively)</td><td>185,686</td><td>166,271</td></tr><tr><td>Loans, net of unearned income</td><td>$777,993</td><td>$679,192</td></tr><tr><td>Allowance for loan losses</td><td>(16,117)</td><td>(8,940)</td></tr><tr><td>Total loans, net</td><td>$761,876</td><td>$670,252</td></tr><tr><td>Goodwill</td><td>41,204</td><td>33,415</td></tr><tr><td>Intangible assets (including \$8,380 at fair value at December 31, 2007)</td><td>22,687</td><td>15,901</td></tr><tr><td>Other assets (including \$9,802 at fair value at December 31, 2007)</td><td>168,875</td><td>100,936</td></tr><tr><td>TOTAL ASSETS</td><td>$2,187,631</td><td>$1,884,318</td></tr></table>
 
-# Liabilities
+### Liabilities
 
 <table><tr><td>Non-interest-bearing deposits in U.S. offices</td><td>$40,859</td><td>$38,615</td></tr><tr><td>Interest-bearing deposits in U.S. offices (including \$1,337 and \$366 at fair value, respectively)</td><td>225,198</td><td>195,002</td></tr><tr><td>Non-interest-bearing deposits in offices outside the U.S.</td><td>43,335</td><td>35,149</td></tr><tr><td>Interest-bearing deposits in offices outside the U.S.</td><td></td><td></td></tr><tr><td>(including \$2,261 and \$472 at fair value, respectively)</td><td>516,838</td><td>443,275</td></tr><tr><td>Total deposits</td><td>$826,230</td><td>$712,041</td></tr><tr><td>Federal funds purchased and securities loaned or sold under agreements to repurchase (including \$199,854 at fair value at December 31, 2007)</td><td>304,243</td><td>349,235</td></tr><tr><td>Brokerage payables</td><td>84,951</td><td>85,119</td></tr><tr><td>Trading account liabilities</td><td>182,082</td><td>145,887</td></tr><tr><td>Short-term borrowings (including \$13,487 and \$2,012 at fair value, respectively)</td><td>146,488</td><td>100,833</td></tr><tr><td>Long-term debt (including \$79,312 and \$9,439 at fair value, respectively)</td><td>427,112</td><td>288,494</td></tr><tr><td>Other liabilities (including \$1,568 at fair value at December 31, 2007)</td><td>102,927</td><td>82,926</td></tr><tr><td>Total liabilities</td><td>$2,074,033</td><td>$1,764,535</td></tr></table>
 
-# Stockholders' equity
+### Stockholders' equity
 
 <table><tr><td>Preferred stock (\$1.00 par value; authorized shares: 30 million), at aggregate liquidation value</td><td>$ —</td><td>$ 1,000</td></tr><tr><td>Common stock (\$0.01 par value; authorized shares: 15 billion), issued shares: 2007 and 2006—5,477,416,086 shares</td><td>55</td><td>55</td></tr><tr><td>Additional paid-in capital</td><td>18,007</td><td>18,253</td></tr><tr><td>Retained earnings</td><td>121,920</td><td>129,267</td></tr><tr><td>Treasury stock, at cost: 2007—482,834,568 shares and 2006—565,422,301 shares</td><td>(21,724)</td><td>(25,092)</td></tr><tr><td>Accumulated other comprehensive income (loss)</td><td>(4,660)</td><td>(3,700)</td></tr><tr><td>Total stockholders’ equity</td><td>$ 113,598</td><td>$ 119,783</td></tr><tr><td>TOTAL LIABILITIES AND STOCKHOLDERS’ EQUITY</td><td>$ 2,187,631</td><td>$ 1,884,318</td></tr></table>
 
@@ -109,7 +114,7 @@ Exhibit 3 Citigroup Segments
 Source: Compiled from Citigroup, 2007 10-K Report (New York: Citigroup, 2008), pp. 2, 23-34, and 128.  
 This document is authorized for use only by Roger Lin in BUSN 30131 85 and 2018-01 (Spring 2024) Adv Fin Analysis & Valuation at University of Chicago, 2024.
 
-# Exhibit 4 U.S. Regulatory Capital Requirements
+## Exhibit 4 U.S. Regulatory Capital Requirements
 
 Below is a summary of calculations for three primary regulatory capital ratios for U.S. banks and bank holding companies:
 
@@ -119,7 +124,7 @@ Average Total Assets quarterly average total assets, net of goodwill and intangi
 
 Source: Compiled by casewriters from http://www.fdic.gov (accessed August 6, 2010); Federal Reserve Bank of New York, "Introduction to US Capital Adequacy Standards" (2008); and Citigroup 2007 10-K (New York: Citigroup, 2008).
 
-# Exhibit 5 Excerpts on Regulatory Capital from Citigroup 2007 10-K
+## Exhibit 5 Excerpts on Regulatory Capital from Citigroup 2007 10-K
 
 Citigroup is subject to risk based capital and leverage guidelines issued by the Board of Governors of the Federal Reserve System (FRB). Its U.S. insured depository institution subsidiaries, including Citibank, N.A., are subject to similar guidelines.
 
@@ -135,11 +140,11 @@ Components of Capital Under Regulatory Guidelines
 
 Source: Citigroup, 2007 10-K Report (New York: Citigroup, 2008), pp. 3, 75, 153.
 
-# Exhibit 6 Excerpts from Citigroup 2007 Management Discussion and Analysis
+## Exhibit 6 Excerpts from Citigroup 2007 Management Discussion and Analysis
 
-# ACCOUNTING CHANGES
+### ACCOUNTING CHANGES
 
-# Fair Value Measurements (SFAS 157)
+### Fair Value Measurements (SFAS 157)
 
 The Company elected to early-adopt SFAS No. 157, "Fair Value Measurements" (SFAS 157), as of January 1, 2007. SFAS 157 defines fair value, expands disclosure requirements around fair value and specifies a hierarchy of valuation techniques based on whether the inputs to those valuation techniques are observable or unobservable. Observable inputs reflect market data obtained from independent sources, while unobservable inputs reflect the Company's market assumptions. These two types of inputs create the following fair value hierarchy:
 
@@ -149,25 +154,25 @@ The Company elected to early-adopt SFAS No. 157, "Fair Value Measurements" (SFAS
 
 This hierarchy requires the Company to use observable market data, when available, and to minimize the use of unobservable inputs when determining fair value. For some products or in certain market conditions, observable inputs may not always be available. For example, during the market dislocations that occurred in the second half of 2007, certain markets became illiquid, and some key observable inputs used in valuing certain exposures were unavailable.
 
-# Valuations of Financial Instruments
+### Valuations of Financial Instruments
 
 The Company holds fixed income and equity securities, derivatives, retained interests in securitizations, investments in private equity and other financial instruments. In addition, the Company purchases securities under agreements to resell and sells securities under agreements to repurchase. The Company holds its investments, trading assets and liabilities, and resale and repurchase agreements on the balance sheet to meet customer needs, to manage liquidity needs and interest rate risks, and for proprietary trading and private equity investing. Substantially all of these assets and liabilities are reflected at fair value on the Company's balance sheet.
 
-# Allowance for Credit Losses
+### Allowance for Credit Losses
 
 Management provides reserves for an estimate of probable losses inherent in the funded loan portfolio on the balance sheet in the form of an allowance for loan losses. In addition, management has established and maintains reserves for the potential credit losses related to the Company's off-balance sheet exposures of unfunded lending commitments, including standby letters of credit and guarantees. These reserves are established in accordance with Citigroup's Loan Loss Reserve Policies, as approved by the Audit and Risk Management Committee of the Company's Board of Directors.
 
 Source: Citigroup, 2007 10-K Report (New York: Citigroup, 2008).
 
-# Exhibit 7 Excerpts from Citigroup 2007 Financial Footnotes
+### Exhibit 7 Excerpts from Citigroup 2007 Financial Footnotes
 
-# 5. INTEREST REVENUE AND EXPENSE
+### 5. INTEREST REVENUE AND EXPENSE
 
 For the years ended December 31, 2007, 2006, and 2005, respectively, interest revenue and expense consisted of the following:
 
 <table><tr><td>In millions of dollars</td><td>2007</td><td>2006</td><td>2005</td></tr><tr><td>Interest revenue</td><td></td><td></td><td></td></tr><tr><td>Loan interest, including fees</td><td>$ 66,194</td><td>$ 54,864</td><td>\$ 47,089</td></tr><tr><td>Deposits with banks</td><td>3,200</td><td>2,289</td><td>1,537</td></tr><tr><td>Federal funds sold and securities purchased under agreements to resell</td><td>18,354</td><td>14,199</td><td>9,790</td></tr><tr><td>Investments, including dividends</td><td>13,487</td><td>10,399</td><td>7,338</td></tr><tr><td>Trading account assets</td><td>18,507</td><td>11,865</td><td>8,137</td></tr><tr><td>Other interest</td><td>4,725</td><td>2,881</td><td>2,031</td></tr><tr><td>Total interest revenue</td><td>$ 124,467</td><td>$ 96,497</td><td>\$ 75,922</td></tr><tr><td>Interest expense</td><td></td><td></td><td></td></tr><tr><td>Deposits</td><td>$ 28,741</td><td>$ 21,657</td><td>\$ 13,502</td></tr><tr><td>Trading account liabilities</td><td>1,440</td><td>1,119</td><td>669</td></tr><tr><td>Short-term debt and other liabilities</td><td>30,392</td><td>22,257</td><td>14,597</td></tr><tr><td>Long-term debt</td><td>16,958</td><td>11,910</td><td>7,908</td></tr><tr><td>Total interest expense</td><td>$ 77,531</td><td>$ 56,943</td><td>\$ 36,676</td></tr><tr><td>Net interest revenue</td><td>$ 46,936</td><td>$ 39,554</td><td>\$ 39,246</td></tr><tr><td>Provision for loan losses</td><td>17,424</td><td>6,738</td><td>7,929</td></tr><tr><td>Net interest revenue after provision for loan losses</td><td>$ 29,512</td><td>$ 32,816</td><td>\$ 31,317</td></tr></table>
 
-# 7. PRINCIPAL TRANSACTIONS
+### 7. PRINCIPAL TRANSACTIONS
 
 Principal transactions revenue consists of realized and unrealized gains and losses from trading activities. Not included in the table below is the impact of net interest revenue related to trading activities, which is an integral part of trading activities' profitability. The following table presents principal transactions revenue for the years ended December 31:
 
@@ -181,16 +186,16 @@ Principal transactions revenue consists of realized and unrealized gains and los
 (6) Primarily includes the results of Phibro Inc., which trades crude oil, refined oil products, and other commodities.  
 (7) Includes revenues from various fixed income, equities and foreign exchange transactions
 
-# 18. ALLOWANCE FOR CREDIT LOSSES
+### 18. ALLOWANCE FOR CREDIT LOSSES
 
 <table><tr><td>In millions of dollars</td><td>2007</td><td>2006</td><td>2005</td></tr><tr><td>Allowance for loan losses at beginning of year</td><td>$ 8,940</td><td>$ 9,782</td><td>\$ 11,269</td></tr><tr><td>Additions</td><td></td><td></td><td></td></tr><tr><td>Consumer provision for credit losses (1)</td><td>16,191</td><td>6,636</td><td>8,224</td></tr><tr><td>Corporate provision for credit losses</td><td>1,233</td><td>102</td><td>(295)</td></tr><tr><td>Total provision for credit losses</td><td>$ 17,424</td><td>$ 6,738</td><td>\$ 7,929</td></tr><tr><td>Deductions(1)</td><td></td><td></td><td></td></tr><tr><td>Consumer credit losses</td><td>$ 11,755</td><td>$ 9,227</td><td>\$ 10,586</td></tr><tr><td>Consumer credit recoveries</td><td>(1,972)</td><td>(1,965)</td><td>(1,903)</td></tr><tr><td>Net consumer loan losses</td><td>$ 9,783</td><td>$ 7,262</td><td>\$ 8,683</td></tr><tr><td>Corporate credit losses</td><td>$ 945</td><td>$ 314</td><td>\$ 375</td></tr><tr><td>Corporate credit recoveries</td><td>(277)</td><td>(232)</td><td>(652)</td></tr><tr><td>Net corporate credit losses (recoveries)</td><td>$ 668</td><td>$ 82</td><td>$ (277)</td></tr><tr><td>Other, net</td><td>204</td><td>(236)</td><td>(1,010)</td></tr><tr><td>Allowance for loan losses at end of year</td><td>$ 16,117</td><td>$ 8,940</td><td>\$ 9,782</td></tr><tr><td>Allowance for credit losses on unfunded lending commitments, Beg (2)</td><td>$ 1,100</td><td>$ 850</td><td>\$ 600</td></tr><tr><td>Provision for unfunded lending commitments</td><td>150</td><td>250</td><td>250</td></tr><tr><td>Allowance for credit losses on unfunded lending commitments, End</td><td>$ 1,250</td><td>$ 1,100</td><td>\$ 850</td></tr><tr><td>Total allowance for credit losses</td><td>$ 17,367</td><td>$ 10,040</td><td>\$ 10,632</td></tr></table>
 
 (1) Consumer credit losses primarily relate to U.S. mortgages, revolving credit and installment loans. Recoveries primarily relate to revolving credit and installment loans.  
 (2) Represents additional credit loss reserves for unfunded corporate lending commitments and letters of credit recorded with Other Liabilities on the Consolidated Balance Sheet.
 
-# 26. FAIR VALUE
+### 26. FAIR VALUE
 
-# Items Measured at Fair Value on a Recurring Basis
+### Items Measured at Fair Value on a Recurring Basis
 
 The following table presents for each of the fair-value hierarchy levels the Company's assets and liabilities that are measured at fair value on a recurring basis at December 31, 2007. The Company often hedges positions that have been classified in the Level 3 category with financial instruments that have been classified as Level 1 or Level 2. The Company also hedges items classified in the Level 3 category with instruments also classified in Level 3 of the fair value hierarchy. The effects of these hedges are presented gross in the following table.
 

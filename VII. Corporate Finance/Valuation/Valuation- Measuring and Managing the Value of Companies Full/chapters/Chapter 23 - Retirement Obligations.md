@@ -1,15 +1,20 @@
 ---
 aliases:
-  - Retirement Obligations Such as Pensions
+   - Retirement Obligations Such as Pensions
 tags:
 key_concepts:
-parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Chapter 23 - Retirement Obligations
 linter-yaml-title-alias: Retirement Obligations Such as Pensions
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [retirement obligations, pension valuation, fasb statement 158]
+secondary_tags: [nonoperating assets, unfunded liabilities, operating expenses]
 ---
 
-# Retirement Obligations Such as Pensions
+## Retirement Obligations Such as Pensions
 
 Following the passage of FASB Statement 158 under U.S. GAAP in 2006, companies now report the present value of pension shortfalls (and excess pension assets) on their balance sheets.[14] Since excess pension assets do not generate operating profits, nor do pension shortfalls fund operations, pension accounts should not be included in invested capital. Instead, pension assets should be treated as nonoperating assets, and pension shortfalls as a debt equivalent (and both should be valued separately from operations). If pension accounts are not explicitly detailed on the company's balance sheet, search the pension footnote to determine where they are embedded. Often excess pension assets are embedded in other assets, and unfunded pension liabilities are in other liabilities.
 

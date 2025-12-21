@@ -1,6 +1,26 @@
+---
+title: Chapter 10 - Debt Valuation
+parent_directory: Analytical Corporate Valuation/Part III - Company Valuation
+formatted: 2025-12-20 20:15:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: opencode
+primary_tags:
+  - debt valuation
+  - bond pricing
+  - interest rate rules
+secondary_tags:
+  - simple interest
+  - compound interest
+  - continuously compounded interest
+  - commercial interest
+cssclasses: academia
+---
+
+# Chapter 10 - Debt Valuation
+
 Abstract Governments and companies can raise the capital needed to finance their activities by issuing bonds to a public market. A bond is nothing more than a loan. There are several types of bonds. However, there are some elements common to all of them. In reality, any bond can be defined on the basis of five main elements: face value, price, coupon, maturity date, issuer. There is a strict relationship between price and risk of the bond. Specifically, the lower the grade of the bond, the higher the risk and therefore higher the return offered by the issuer to the investors in the bond. Therefore, not all bonds are inherently safer than stocks. Certain types of bonds can be just as risky, if not riskier in certain conditions, than stocks. Usually it is normal to measure the free-risk rate on the basis of the government bonds. Indeed, the default risk of the government tend to be small (mostly for the developed countries). It is because the government will always be able (or should be able) to bring in future revenues through taxation. On the other hand, companies must be able to generate profit in order to survive and face their debt obligations. The difference in risk between government and corporate bonds implies that the corporate bonds must offer a higher yield than government bonds. Therefore, it is necessary to evaluate the government bonds in order to estimate the free-risk rate, as well the company bonds on the basis of its default risk.
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 Any financial operations can be obtained by combining three main mechanisms for the transaction of goods and assets (Hicks 1939):
 
@@ -48,7 +68,7 @@ $$
 
 The Interest Rate  $(i)$  can be defined as the ratio between the Interest  $(I)$  and the Capital invested  $(C)$ , as follows:
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 $$
 i = \frac {I}{C} \tag {10.3}
@@ -144,7 +164,7 @@ Fig. 10.1 Financial operations
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/c9435fc0a5981510ba24ea16ca8d7906c9a954ccfc109682bd7c79ab9ed9f3db.jpg)
 Fig. 10.2 The relationship between interest rate and discount rate
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 $$
 C (1 - d) (1 + i) = C
@@ -167,7 +187,7 @@ It is relevant to note that the time  $t$  can be expressed on the basis of the 
 
 Obviously, time and interest rates must be expressed in the same unit-time period: time in years, and interest rate in year; time in months and interest rates in months.
 
-# Simple Interest
+## Simple Interest
 
 Interest is paid at the end of the accrued period without any capital reinvestment. Consequently, there is no new-interest earned on the matured interest.
 
@@ -251,7 +271,7 @@ $$
 t = \frac {r (t) - 1}{i} \tag {10.25}
 $$
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 It is possible to define the rules of Simple Interest in terms of discount rate  $(d)$  rather than the interest rate  $(i)$ . On the basis of Eq. (10.15), we have:
 
@@ -311,7 +331,7 @@ It is relevant to know the dynamics of  $\nu(t)$  and  $d(t)$  as function of ti
 
 Otherwise,  $r(t)$  draws a straight-line with slope equal to  $i$  and intercept equal to 1. Therefore,  $i$  measures the increase of  $r(t)$  to the increase of the time  $(t)$ . The relationship shows how the interest is always the same and the capital increases in order to the sum of interests. It is possible to summarize these relationships as follows as in Fig. 10.3.
 
-# Compound Interest
+## Compound Interest
 
 Interest generates interest. At the end of the compounding period accrued interest is reinvested with capital. Consequently, in each period interests are calculated based on capital and interest matured in the previous period with increasing of the amount earned at the end of the periods.
 
@@ -340,7 +360,7 @@ Fig. 10.3 Relationship between time  $t$  and  $r(t)$ ,  $\nu(t)$ ;  $d(t)$  in 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/e4568ae3b8d63ca979a3675006f293460ec7cf68ad529af0ee32b57f749d9490.jpg)
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 $$
 i (t) = (1 + i) ^ {t} - 1 \tag {10.31}
@@ -472,7 +492,7 @@ It is relevant to know the dynamics of  $\nu(t)$  and  $d(t)$  as function of ti
 
 It is possible to summarize these relationships as follows as in Fig. 10.4.
 
-# Continuously Compound Interest
+## Continuously Compound Interest
 
 Interest is generated continuously on the basis of a succession of instantaneous intervals. The interest matured in the previous instant is added to the capital by generating interest in the next period. It is based on the compound interest by reducing the period at the infinitesimal level ( $ds$ ).
 
@@ -543,7 +563,7 @@ $$
 t = \frac {\ln \left(\frac {M}{C}\right)}{i}
 $$
 
-# Bank Discount Rate
+## Bank Discount Rate
 
 The bank discount rate rule is normally used by banks to discount short-time marketable assets.
 
@@ -551,7 +571,7 @@ In this case the discount is function of the discount rate and the time:  $d(t) 
 
 The baseline equation is the following:
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 $$
 v (t) = 1 - d \cdot t \tag {10.48}
@@ -684,7 +704,7 @@ Table 10.1 Interest rules
 
 <table><tr><td>Simple Interest</td><td>Compound interest</td><td>Continuously compound interest</td><td>Bank discount rate</td></tr><tr><td>M = C(1+i·t)</td><td>M = C(1+i)t</td><td>M = C·e^{t·i}</td><td>C = M·(1-d·t)</td></tr><tr><td>↓</td><td>↓</td><td>↓</td><td>↓</td></tr><tr><td>C = M·1/(1+i·t)</td><td>C = M·1/(1+i)t</td><td>C = M·e^{-i·i}</td><td>M = C/1-d·t</td></tr><tr><td>i = M-C/C·t</td><td>i = (M/C)t-1</td><td>i = ln(M/C)/t</td><td>d = M-C/M·t</td></tr><tr><td>t = M-C/C·i</td><td>t = ln(M/C)/ln(1+i)</td><td>t = ln(M/C)/i</td><td>t = M-C/M·d</td></tr></table>
 
-# Relationships Between Interest Rates
+## Relationships Between Interest Rates
 
 The relationships with regards to time  $t$  can be defined among the simple interest, compounded interest and bank discount rate.
 
@@ -729,7 +749,7 @@ Table 10.2 (continued)
 
 <table><tr><td>Interest rate (i) (%)</td><td colspan="2">Time (t)</td><td>r(t) Simple interest</td><td>r(t) Compound interest</td><td>r(t) Bank discount rate</td><td>v(t) Simple interest</td><td>v(t) Compound interest</td><td>v(t) Bank discount rate</td></tr><tr><td>10</td><td>1 year and 9 months</td><td>1.750</td><td>1.1750</td><td>1.1815</td><td>1.1892</td><td>0.8511</td><td>0.8464</td><td>0.8409</td></tr><tr><td>10</td><td>1 year and 10 months</td><td>1.833</td><td>1.1833</td><td>1.1909</td><td>1.2000</td><td>0.8451</td><td>0.8397</td><td>0.8333</td></tr><tr><td>10</td><td>1 year and 11 months</td><td>1.917</td><td>1.1917</td><td>1.2004</td><td>1.2110</td><td>0.8392</td><td>0.8330</td><td>0.8258</td></tr><tr><td>10</td><td>2 years</td><td>2</td><td>1.2000</td><td>1.2100</td><td>1.2222</td><td>0.8333</td><td>0.8264</td><td>0.8182</td></tr></table>
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 By starting with the same capital  $C$  and considering the same time period  $t$  and by assuming the same capital  $M$  at the end of the period, it is possible to define the relationships between the different interest rates and therefore the equivalent interest rates.
 
@@ -817,7 +837,7 @@ $$
 (1 + i _ {C}) ^ {t} = e ^ {t \cdot i _ {C C}} \to \begin{array}{c} i _ {C C} = \ln (1 + i _ {C}) \\ i _ {C} = e ^ {i _ {C C}} - 1 \end{array}
 $$
 
-# Equivalence Among the Interest and Discount Rates in Different Time-Periods
+## Equivalence Among the Interest and Discount Rates in Different Time-Periods
 
 For periods of less than a year, relationship can be defined between the annual interest rate and the interest rates.
 
@@ -831,7 +851,7 @@ $$
 
 On the basis of Eq. (10.62) the annual interest rate  $(i)$  can be deducted from the interest rate for a shorter period  $\left(i\cdot \frac{1}{m}\right)$  and vice versa as follows:
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 $$
 i = \left(1 + i \frac {1}{m}\right) ^ {m} - 1 \tag {10.63}
@@ -997,14 +1017,14 @@ $$
 
 The behaviour of  $J(m)$  and  $\mathbb{C}(m)$  to the increase of  $m$  can be represented as in Fig. 10.7.
 
-# Inflation and Interest Rates
+## Inflation and Interest Rates
 
 The difference between nominal interest rate and real interest rate is due to inflation. Denote with:  $r$  the real interest rate;  $i$  the nominal interest rate;  $\pi$  the inflation rate;  $t$  is the time period. The relationship between real and nominal interest rates, can be defined as follows (Fisher 1930):
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/832fcdcfbf5633e9593d4039c0530296c0655127b77144ed0be3f52cc8b58bd3.jpg)
 Fig. 10.7 Behaviour of  $J(m)$  and  $\mathbb{C}(m)$  to the increase of  $m$
 
-# 10.1 Interest Rate Rules
+## 10.1 Interest Rate Rules
 
 $$
 1 + r _ {t + 1} = \frac {1 + i _ {t}}{1 + \pi_ {t + 1}} \tag {10.74}
@@ -1046,7 +1066,7 @@ $$
 r \approx i - \pi \tag {10.77}
 $$
 
-# 10.2 Bond: Price and Yield
+## 10.2 Bond: Price and Yield
 
 Based on the fundamentals relationship defined in the previous paragraph, the price and yield of bonds can be defined.
 
@@ -1255,7 +1275,7 @@ Generally, the factor that influences a bond more than any other is the level of
 - the interest rates rise, the prices of bonds in the market fall, thereby raising the yield of the older bonds and putting them in line with newer bonds being issued with higher coupons;
 - the interest rates fall, the prices of bonds in the market rise, thereby lowering the yield of the older bonds and putting them in line with newer bond being issued with lower coupons.
 
-# 10.3 Term Structure of Interest Rate
+## 10.3 Term Structure of Interest Rate
 
 The term structure of interest rates (TSI) defines the Yield Curve and it indicates the structure relationship between interest rates at different maturities (Alexander 1980; Altman 1987; Asquith et al. 1989; Balduzzi et al. 2001; Black and Cox 1976; Black and Scholes 1973; Brennan and Schwartz 1977, 1980, 1982; Chance 1990; Cox et al. 1980; Elton et al. 2001; Fama 1984a, b; Fraine and Mills 1961; Johnson 1967; Malkiel 1966; Rao 1982; Smith and Warner 1979; Sundaresan 1983; Zwick 1980). Specifically, the term structure of interest rates defines, at a defined time  $t$ , the relationship between the prices (or interest rates, as obtained indirectly on the price basis) of the bonds on markets and their maturity and therefore the end time-period  $T$ , as well as their time-period  $\tau = T - t$ . In other words, the term structure of interest rates illustrates the relationship between the interest rates when only the maturity changes in a defined both market and time: the different interest rates refer to the different maturity that define the curve of the term structure of interest rates, the Yield Curve. It is worth noting that in a different time-period and market, the structure of interest rates is different and then the yield curve is different.
 
@@ -1353,19 +1373,19 @@ Assume a bond with coupon. In this case, the relationship between the IRR  $(i)$
 
 It is possible to show this relationship by considering three main cases (Cesari 2012). In all cases, assume two different bonds with the same coupon but different with a different duration: bond (A) with coupon equal  $3\%$  and duration of 5 years; bond (B) with coupon equal  $3\%$  and duration of 10 years.
 
-# Case 1: Tsi Increases Over Time
+## Case 1: Tsi Increases Over Time
 
 In case the TSI increases over time, the bond with a long duration has a higher IRR than the bond with short duration as shown in Table 10.7 (adapted from Cesari 2012).
 
 Table 10.7 shows how the TSI's increase over time, the longer bond (bond B) is preferred to shorter bond (bond A).
 
-# Case 2: Tsi Decreases Over Time
+## Case 2: Tsi Decreases Over Time
 
 In case the TSI decreases over time, the bond with a short duration has a higher IRR than the bond with long duration as shown in Table 10.8 (adapted from Cesari 2012).
 
 Table 10.8 shows how the TSI decreases over time, shorter bond (bond A) is preferred to longer bond (bond B).
 
-# Case 3: Tsi is Flat Over Time
+## Case 3: Tsi is Flat Over Time
 
 In case the TSI is flat over time, both bonds have the same IRR equal to the TSI as shown in Table 10.9 (adapted from Cesari 2012).
 
@@ -1418,13 +1438,13 @@ IRR 7.037%
 
 of  $5\%$  and a duration of 10 years. Consider two cases: (i) TSI increases over time; (ii) TSI decreases over time (Cesari 2012).
 
-# Case 1: Tsi Increases Over Time
+## Case 1: Tsi Increases Over Time
 
 In case the TSI increases over time. Therefore, the bond (A) with lower coupon than the bond (B) is characterized by a higher IRR as shown in Table 10.10 (adapted from Cesari 2012).
 
 Therefore, if the TSI increases, the bond with a lower coupon has a higher IRR.
 
-# Case 2: Tsi Decreases Over Time
+## Case 2: Tsi Decreases Over Time
 
 In case the TSI decreases over time. Therefore, the bond (A) with lower coupon than the bond  $B$  is characterized by a lower IRR as shown in Table 10.11 (adapted from Cesari 2012).
 
@@ -1446,11 +1466,11 @@ Note that if the coupon is equal to zero, the duration is equal to the time  $n$
 
 Assume two bonds: bond (A) with a coupon of  $3\%$  and a duration of 10 years; bond (B) with a coupon of  $5\%$  and a duration of 10 years. Consider two cases: (i) TSI increases over time; (ii) TSI decreases over time.
 
-# Case 1: Tsi Increases Over Time
+## Case 1: Tsi Increases Over Time
 
 In case the TSI increases over time, the higher coupon, the lower the effective duration as shown in Table 10.12 (adapted from Cesari 2012).
 
-# Case 2: Tsi Decreases Over Time
+## Case 2: Tsi Decreases Over Time
 
 In case the TSI decreases over time, the higher coupon, the lower the effective duration as shown in Table 10.13 (adapted from Cesari 2012).
 

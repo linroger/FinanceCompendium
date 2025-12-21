@@ -1,24 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "The Markov Property"
+parent_directory: "Options, Futures, and Other Derivatives"
+formatted: "2025-12-20 07:30:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags:
+  - markov property
+  - wiener processes
+  - stochastic calculus
+  - geometric brownian motion
+secondary_tags:
+  - ito process
+  - lognormal distribution
+  - monte carlo simulation
+  - fractional brownian motion
 cssclasses: academia
-title: 14.1 THE MARKOV PROPERTY
-linter-yaml-title-alias: 14.1 THE MARKOV PROPERTY
 ---
 
-# 14.1 THE MARKOV PROPERTY
+## 14.1 The Markov Property
 
-A Markov process is a particular type of stochastic process where only the current value of a variable is relevant for predicting the future. The past history of the variable and the way that the present has emerged from the past are irrelevant.
-
-Stock prices are usually assumed to follow a Markov process. Suppose that the price of a stock is 100 now. If the stock price follows a Markov process, our predictions for the future should be unaffected by the price one week ago, one month ago, or one year ago. The only relevant piece of information is that the price is now 100.^{1} Predictions for the future are uncertain and must be expressed in terms of probability distributions. The Markov property implies that the probability distribution of the price at any particular future time is not dependent on the particular path followed by the price in the past.
-
-The Markov property of stock prices is consistent with the weak form of market efficiency. This states that the present price of a stock impounds all the information contained in a record of past prices. If the weak form of market efficiency were not true, technical analysts could make above-average returns by interpreting charts of the past history of stock prices. There is very little evidence that they are in fact able to do this.
-
-It is competition in the marketplace that tends to ensure that weak-form market efficiency and the Markov property hold. There are many investors watching the stock market closely. This leads to a situation where a stock price, at any given time, reflects the information in past prices. Suppose that it was discovered that a particular pattern in a stock price always gave a  $65\%$  chance of subsequent steep price rises. Investors would attempt to buy a stock as soon as the pattern was observed, and demand for the stock would immediately rise. This would lead to an immediate rise in its price and the observed effect would be eliminated, as would any profitable trading opportunities.
-
-# 14.2 CONTINUOUS-TIME STOCHASTIC PROCESSES
+## 14.2 Continuous-Time Stochastic Processes
 
 Consider a variable that follows a Markov stochastic process. Suppose that its current value is 10 and that the change in its value during a year is  $\phi(0,1)$ , where  $\phi(m,\nu)$  denotes a probability distribution that is normally distributed with mean  $m$  and variance  $\nu$ . What is the probability distribution of the change in the value of the variable during 2 years?
 
@@ -30,155 +31,13 @@ A similar argument shows that the probability distribution for the change in the
 
 Note that, when Markov processes are considered, the variances of the changes in successive time periods are additive. The standard deviations of the changes in successive time periods are not additive. The variance of the change in the variable in our example is 1.0 per year, so that the variance of the change in 2 years is 2.0 and the variance of the change in 3 years is 3.0. The standard deviations of the changes in 2 and 3 years are  $\sqrt{2}$  and  $\sqrt{3}$ , respectively. Uncertainty is often measured by standard deviation. These results therefore explain why uncertainty is sometimes referred to as being proportional to the square root of time.
 
-# Wiener Process
+## Wiener Process
 
-The process followed by the variable we have been considering is known as a Wiener process. It is a particular type of Markov stochastic process with a mean change of zero and a variance rate of 1.0 per year. It has been used in physics to describe the motion of a particle that is subject to a large number of small molecular shocks and is sometimes referred to as Brownian motion.
+## Generalized Wiener Process
 
-Expressed formally, a variable  $z$  follows a Wiener process if it has the following two properties:
+## Ito Process
 
-Property 1. The change  $\Delta z$  during a small period of time  $\Delta t$  is
-
-$$
-\Delta z = \epsilon \sqrt {\Delta t} \tag {14.1}
-$$ where  $\epsilon$  has a standard normal distribution  $\phi(0,1)$ .
-
-
-Property 2. The values of  $\Delta z$  for any two different short intervals of time,  $\Delta t$ , are independent.
-
-It follows from the first property that  $\Delta z$  itself has a normal distribution with
-
-$$
-
-\text {m e a n} \Delta z = 0
-
-$$
-
-$$
-
-\text {s t a n d a r d} \Delta z = \sqrt {\Delta t}
-
-$$
-
-$$
-
-\text {v a r i a n c e} \Delta z = \Delta t
-
-$$
-
-The second property implies that  $z$  follows a Markov process.
-
-Consider the change in the value of  $z$  during a relatively long period of time,  $T$ . This can be denoted by  $z(T) - z(0)$ . It can be regarded as the sum of the changes in  $z$  in  $N$  small time intervals of length  $\Delta t$ , where
-
-$$
-
-N = \frac {T}{\Delta t}
-
-$$
-
-Thus,
-
-$$ z (T) - z (0) = \sum_ {i = 1} ^ {N} \epsilon_ {i} \sqrt {\Delta t} \tag {14.2}
-$$ where the  $\epsilon_{i}(i = 1,2,\ldots ,N)$  are distributed  $\phi (0,1)$ . We know from the second property of Wiener processes that the  $\epsilon_{i}$  are independent of each other. It follows
-
-
-from equation (14.2) that  $z(T) - z(0)$  is normally distributed, with
-
-$$
-
-\text {m e a n} [ z (T) - z (0) ] = 0
-
-$$
-
-$$
-
-\text {v a r i a n c e} [ z (T) - z (0) ] = N \Delta t = T
-
-$$
-
-$$
-
-\text {s t a n d a r d} [ z (T) - z (0) ] = \sqrt {T}
-
-$$
-
-This is consistent with the discussion earlier in this section.
-
-# Example 14.1
-
-Suppose that the value,  $z$ , of a variable that follows a Wiener process is initially 25 and that time is measured in years. At the end of 1 year, the value of the variable is normally distributed with a mean of 25 and a standard deviation of 1.0. At the end of 5 years, it is normally distributed with a mean of 25 and a standard deviation of  $\sqrt{5}$ , or 2.236. Our uncertainty about the value of the variable at a certain time in the future, as measured by its standard deviation, increases as the square root of how far we are looking ahead.
-
-In ordinary calculus, it is usual to proceed from small changes to the limit as the small changes become closer to zero. Thus,  $dx = a dt$  is the notation used to indicate that  $\Delta x = a \Delta t$  in the limit as  $\Delta t \to 0$ . We use similar notational conventions in stochastic calculus. So, when we refer to  $dz$  as a Wiener process, we mean that it has the properties for  $\Delta z$  given above in the limit as  $\Delta t \to 0$ .
-
-Figure 14.1 illustrates what happens to the path followed by  $z$  as the limit  $\Delta t \to 0$  is approached. Note that the path is quite "jagged." This is because the standard deviation of the movement in  $z$  in time  $\Delta t$  equals  $\sqrt{\Delta t}$  and, when  $\Delta t$  is small,  $\sqrt{\Delta t}$  is much bigger than  $\Delta t$ . Two intriguing properties of Wiener processes, related to this  $\sqrt{\Delta t}$  property, are as follows:
-
-1. The expected length of the path followed by  $z$  in any time interval is infinite.
-2. The expected number of times  $z$  equals any particular value in any time interval is infinite.
-
-# Generalized Wiener Process
-
-The mean change per unit time for a stochastic process is known as the drift rate and the variance per unit time is known as the variance rate. The basic Wiener process,  $dz$ , that has been developed so far has a drift rate of zero and a variance rate of 1.0. The drift rate of zero means that the expected value of  $z$  at any future time is equal to its current value. The variance rate of 1.0 means that the variance of the change in  $z$  in a time interval of length  $T$  equals  $T$ . A generalized Wiener process for a variable  $x$  can be defined in terms of  $dz$  as
-
-$$ d x = a d t + b d z \tag {14.3}
-$$ where  $a$  and  $b$  are constants.
-
-
-To understand equation (14.3), it is useful to consider the two components on the right-hand side separately. The  $a$  term implies that  $x$  has an expected drift rate of  $a$  per unit of time. Without the  $b$  term, the equation is  $dx = a$  dt, which implies that
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/fbf0e396553eceea9e96413c080c354b5802a0a319893d1fa348364fb1988f0f.jpg)
-Figure 14.1 How a Wiener process is obtained when  $\Delta t\to 0$  in equation (14.1).
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/fb46bd4b855b25ff76bfa54118936bd4c123fb853c3a51d9e413ce7c8c057d2e.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/56321c58586f5f5a96d7a16ba5d8958be92a471868b3c6006642f851ab26721b.jpg)
-
-$dx / dt = a$ . Integrating with respect to time, we get
-
-$$ x = x _ {0} + a t
-$$ where  $x_0$  is the value of  $x$  at time 0. In a period of time of length  $T$ , the variable  $x$  increases by an amount  $aT$ . The  $b \, dz$  term on the right-hand side of equation (14.3) can be regarded as adding noise or variability to the path followed by  $x$ . The amount of this noise or variability is  $b$  times a Wiener process. A Wiener process has a variance rate per unit time of 1.0. It follows that  $b$  times a Wiener process has a variance rate per unit time of  $b^2$ . In a small time interval  $\Delta t$ , the change  $\Delta x$  in the value of  $x$  is given by equations (14.1) and (14.3) as
-
-
-$$
-
-\Delta x = a \Delta t + b \epsilon \sqrt {\Delta t}
-
-$$ where, as before,  $\epsilon$  has a standard normal distribution  $\phi(0,1)$ . Thus  $\Delta x$  has a normal distribution with
-
-mean of  $\Delta x = a\Delta t$ standard deviation of  $\Delta x = b\sqrt{\Delta t}$
-
-variance of  $\Delta x = b^{2}\Delta t$
-
-Similar arguments to those given for a Wiener process show that the change in the value of  $x$  in any time interval  $T$  is normally distributed with mean of change in  $x = aT$
-
-standard deviation of change in  $x = b\sqrt{T}$ variance of change in  $x = b^{2}T$
-
-To summarize, the generalized Wiener process given in equation (14.3) has an expected drift rate (i.e., average drift per unit of time) of  $a$  and a variance rate (i.e., variance per unit of time) of  $b^2$ . It is illustrated in Figure 14.2.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/fbb93b0ec1e92c885a7ebd79c61b4ddc2d5ae7c533153a8db36b644fd7c6d735.jpg)
-
-Figure 14.2 Generalized Wiener process with  $a = 0.3$  and  $b = 1.5$ .
-
-# Example 14.2
-
-Consider the situation where the cash position of a company, measured in thousands of dollars, follows a generalized Wiener process with a drift of 20 per year and a variance rate of 900 per year. Initially, the cash position is 50. At the end of 1 year the cash position will have a normal distribution with a mean of 70 and a standard deviation of  $\sqrt{900}$ , or 30. At the end of 6 months it will have a normal distribution with a mean of 60 and a standard deviation of  $30\sqrt{0.5} = 21.21$ . Our uncertainty about the cash position at some time in the future, as measured by its standard deviation, increases as the square root of how far ahead we are looking. (Note that the cash position can become negative. We can interpret this as a situation where the company is borrowing funds.)
-
-# Ito Process
-
-A further type of stochastic process, known as an Itô process, can be defined. This is a generalized Wiener process in which the parameters  $a$  and  $b$  are functions of the value of the underlying variable  $x$  and time  $t$ . An Itô process can therefore be written as
-
-$$ d x = a (x, t) d t + b (x, t) d z \tag {14.4}
-$$
-
-Both the expected drift rate and variance rate of an Ito process are liable to change over time. They are functions of the current value of  $x$  and the current time,  $t$ . In a small time interval between  $t$  and  $t + \Delta t$ , the variable changes from  $x$  to  $x + \Delta x$ , where
-
-$$
-\Delta x = a (x, t) \Delta t + b (x, t) \epsilon \sqrt {\Delta t}
-$$
-
-This equation involves a small approximation. It assumes that the drift and variance rate of  $x$  remain constant, equal to their values at time  $t$ , in the time interval between  $t$  and  $t + \Delta t$ .
-
-Note that the process in equation (14.4) is Markov because the change in  $x$  at time  $t$  depends only on the value of  $x$  at time  $t$ , not on its history. A non-Markov process could be defined by letting  $a$  and  $b$  in equation (14.4) depend on values of  $x$  prior to time  $t$ .
-
-# 14.3 THE PROCESS FOR A STOCK PRICE
+## 14.3 The Process for a Stock Price
 
 In this section we discuss the stochastic process usually assumed for the price of a non-dividend-paying stock.
 
@@ -225,254 +84,21 @@ $$
 
 Equation (14.6) is the most widely used model of stock price behavior. The variable  $\mu$  is the stock's expected rate of return. The variable  $\sigma$  is the volatility of the stock price. The variable  $\sigma^2$  is referred to as its variance rate. The model in equation (14.6) represents the stock price process in the real world. In a risk-neutral world,  $\mu$  equals the risk-free rate  $r$ .
 
-# Discrete-Time Model
+## Discrete-Time Model
 
-The model of stock price behavior we have developed is known as geometric Brownian motion. The discrete-time version of the model is
+## Monte Carlo Simulation
 
-$$
+## 14.4 The Parameters
 
-\frac {\Delta S}{S} = \mu \Delta t + \sigma \epsilon \sqrt {\Delta t} \tag {14.7}
+## 14.5 Correlated Processes
 
-$$ or
+## 14.6 Ito's Lemma
 
+## Application to Forward Contracts
 
-$$
+## 14.7 The Lognormal Property
 
-\Delta S = \mu S \Delta t + \sigma S \epsilon \sqrt {\Delta t} \tag {14.8}
-
-$$
-
-The variable  $\Delta S$  is the change in the stock price  $S$  in a small time interval  $\Delta t$ , and as before  $\epsilon$  has a standard normal distribution (i.e., a normal distribution with a mean of zero and standard deviation of 1.0). The parameter  $\mu$  is the expected rate of return per unit of time from the stock. The parameter  $\sigma$  is the stock price volatility. In this chapter we will assume these parameters are constant.
-
-The left-hand side of equation (14.7) is the discrete approximation to the return provided by the stock in a short period of time,  $\Delta t$ . The term  $\mu \Delta t$  is the expected value of this return, and the term  $\sigma \epsilon \sqrt{\Delta t}$  is the stochastic component of the return. The variance of the stochastic component (and, therefore, of the whole return) is  $\sigma^2\Delta t$ . This is consistent with the definition of the volatility  $\sigma$  given in Section 13.7; that is,  $\sigma$  is such that  $\sigma \sqrt{\Delta t}$  is the standard deviation of the return in a short time period  $\Delta t$ .
-
-
-Equation (14.7) shows that  $\Delta S / S$  is approximately normally distributed with mean  $\mu \Delta t$  and standard deviation  $\sigma \sqrt{\Delta t}$ . In other words,
-
-$$
-
-\frac {\Delta S}{S} \sim \phi (\mu \Delta t, \sigma^ {2} \Delta t) \tag {14.9}
-
-$$
-
-# Example 14.3
-
-Consider a stock that pays no dividends, has a volatility of  $30\%$  per annum, and provides an expected return of  $15\%$  per annum with continuous compounding. In this case,  $\mu = 0.15$  and  $\sigma = 0.30$ . The process for the stock price is
-
-$$
-
-\frac {d S}{S} = 0. 1 5 d t + 0. 3 0 d z
-
-$$
-
-If  $S$  is the stock price at a particular time and  $\Delta S$  is the increase in the stock price in the next small interval of time, the discrete approximation to the process is
-
-$$
-
-\frac {\Delta S}{S} = 0. 1 5 \Delta t + 0. 3 0 \epsilon \sqrt {\Delta t}
-
-$$ where  $\epsilon$  has a standard normal distribution. Consider a time interval of 1 week, or 0.0192 year, so that  $\Delta t = 0.0192$ . Then the approximation gives
-
-$$
-\frac {\Delta S}{S} = 0. 1 5 \times 0. 0 1 9 2 + 0. 3 0 \times \sqrt {0 . 0 1 9 2} \epsilon
-$$ or
-
-
-$$
-
-\Delta S = 0. 0 0 2 8 8 S + 0. 0 4 1 6 S \epsilon
-
-$$
-
-# Monte Carlo Simulation
-
-A Monte Carlo simulation of a stochastic process is a procedure for sampling random outcomes for the process. We will use it as a way of developing some understanding of the nature of the stock price process in equation (14.6).
-
-Consider the situation in Example 14.3 where the expected return from a stock is  $15\%$  per annum and the volatility is  $30\%$  per annum. The stock price change over 1 week was shown to be approximately
-
-$$
-
-\Delta S = 0. 0 0 2 8 8 S + 0. 0 4 1 6 S \epsilon \tag {14.10}
-
-$$
-
-A path for the stock price over 10 weeks can be simulated by sampling repeatedly for  $\epsilon$  from  $\phi(0,1)$  and substituting into equation (14.10). The expression  $= \text{RAND}()$  in Excel produces a random sample between 0 and 1. The inverse cumulative normal distribution is NORMSINV. The instruction to produce a random sample from a standard normal distribution in Excel is therefore  $= \text{NORMSINV}(\text{RAND})$ . Table 14.1 shows one path for a stock price that was sampled in this way. The initial stock price is assumed to be \$100. For the first period,  $\epsilon$  is sampled as 0.52. From equation (14.10), the change during the first time period is
-
-$$
-
-\Delta S = 0. 0 0 2 8 8 \times 1 0 0 + 0. 0 4 1 6 \times 1 0 0 \times 0. 5 2 = 2. 4 5
-
-$$
-
-Therefore, at the beginning of the second time period, the stock price is 102.45. The
-
-Table 14.1 Simulation of stock price when  $\mu = 0.15$  and  $\sigma = 0.30$  during 1-week periods.
-
-<table><tr><td>Stock price at start of period</td><td>Random sample
-for €</td><td>Change in stock price during period</td></tr><tr><td>100.00</td><td>0.52</td><td>2.45</td></tr><tr><td>102.45</td><td>1.44</td><td>6.43</td></tr><tr><td>108.88</td><td>-0.86</td><td>-3.58</td></tr><tr><td>105.30</td><td>1.46</td><td>6.70</td></tr><tr><td>112.00</td><td>-0.69</td><td>-2.89</td></tr><tr><td>109.11</td><td>-0.74</td><td>-3.04</td></tr><tr><td>106.06</td><td>0.21</td><td>1.23</td></tr><tr><td>107.30</td><td>-1.10</td><td>-4.60</td></tr><tr><td>102.69</td><td>0.73</td><td>3.41</td></tr><tr><td>106.11</td><td>1.16</td><td>5.43</td></tr><tr><td>111.54</td><td>2.56</td><td>12.20</td></tr></table>
-
-value of  $\epsilon$  sampled for the next period is 1.44. From equation (14.10), the change during the second time period is
-
-$$
-
-\Delta S = 0. 0 0 2 8 8 \times 1 0 2. 4 5 + 0. 0 4 1 6 \times 1 0 2. 4 5 \times 1. 4 4 = 6. 4 3
-
-$$
-
-So, at the beginning of the next period, the stock price is 108.88, and so on.4 Note that, because the process we are simulating is Markov, the samples for ε should be independent of each other.
-
-Table 14.1 assumes that stock prices are measured to the nearest cent. It is important to realize that the table shows only one possible pattern of stock price movements. Different random samples would lead to different price movements. Any small time interval  $\Delta t$  can be used in the simulation. In the limit as  $\Delta t\to 0$ , a perfect description of the stochastic process is obtained. The final stock price of 111.54 in Table 14.1 can be regarded as a random sample from the distribution of stock prices at the end of 10 weeks. By repeatedly simulating movements in the stock price, a complete probability distribution of the stock price at the end of this time is obtained. Monte Carlo simulation is discussed in more detail in Chapter 21.
-
-# 14.4 THE PARAMETERS
-
-The process for a stock price developed in this chapter involves two parameters,  $\mu$  and  $\sigma$ . The parameter  $\mu$  is the expected return (annualized) earned by an investor in a short period of time. Most investors require higher expected returns to induce them to take higher risks. It follows that the value of  $\mu$  should depend on the risk of the return from the stock. It should also depend on the level of interest rates in the economy. The higher the level of interest rates, the higher the expected return required on any given stock.
-
-Fortunately, we do not have to concern ourselves with the determinants of  $\mu$  in any detail because the value of a derivative dependent on a stock is, in general, independent of  $\mu$ . The parameter  $\sigma$ , the stock price volatility, is, by contrast, critically important to the determination of the value of many derivatives. We will discuss procedures for estimating  $\sigma$  in Chapter 15. Typical values of  $\sigma$  for a stock are in the range 0.15 to 0.60 (i.e.,  $15\%$  to  $60\%$ ).
-
-The standard deviation of the proportional change in the stock price in a small interval of time  $\Delta t$  is  $\sigma \sqrt{\Delta t}$ . As a rough approximation, the standard deviation of the proportional change in the stock price over a relatively long period of time  $T$  is  $\sigma \sqrt{T}$ . This means that, as an approximation, volatility can be interpreted as the standard deviation of the change in the stock price in 1 year. In Chapter 15, we will show that the volatility of a stock price is exactly equal to the standard deviation of the continuously compounded return provided by the stock in 1 year.
-
-# 14.5 CORRELATED PROCESSES
-
-So far we have considered how the stochastic process for a single variable can be represented. We now extend the analysis to the situation where there are two or more variables following correlated stochastic processes. Suppose that the processes followed by two variables  $x_{1}$  and  $x_{2}$  are
-
-$$ d x _ {1} = a _ {1} d t + b _ {1} d z _ {1} \quad \text {a n d} \quad d x _ {2} = a _ {2} d t + b _ {2} d z _ {2}
-$$ where  $dz_{1}$  and  $dz_{2}$  are Wiener processes.
-
-
-As has been explained, the discrete-time approximations for these processes are
-
-$$
-
-\Delta x _ {1} = a _ {1} \Delta t + b _ {1} \epsilon_ {1} \sqrt {\Delta t} \quad \text {a n d} \quad \Delta x _ {2} = a _ {2} \Delta t + b _ {2} \epsilon_ {2} \sqrt {\Delta t}
-
-$$ where  $\epsilon_{1}$  and  $\epsilon_{2}$  are samples from a standard normal distribution  $\phi (0,1)$ .
-
-The variables  $x_{1}$  and  $x_{2}$  can be simulated in the way described in Section 14.3. If they are uncorrelated with each other, the random samples  $\epsilon_{1}$  and  $\epsilon_{2}$  that are used to obtain movements in a particular period of time  $\Delta t$  should be independent of each other.
-
-If  $x_{1}$  and  $x_{2}$  have a nonzero correlation  $\rho$ , then the  $\epsilon_{1}$  and  $\epsilon_{2}$  that are used to obtain movements in a particular period of time should be sampled from a bivariate normal distribution. Each variable in the bivariate normal distribution has a standard normal distribution and the correlation between the variables is  $\rho$ . In this situation, we would refer to the Wiener processes  $dz_{1}$  and  $dz_{2}$  as having a correlation  $\rho$ .
-
-Obtaining samples for uncorrelated standard normal variables in cells in Excel involves putting the instruction "=NORMINV(RAND())" in each of the cells. To sample standard normal variables  $\epsilon_{1}$  and  $\epsilon_{2}$  with correlation  $\rho$ , we can set
-
-$$
-\epsilon_ {1} = u \quad \text {a n d} \quad \epsilon_ {2} = \rho u + \sqrt {1 - \rho^ {2}} v
-$$ where  $u$  and  $\nu$  are sampled as uncorrelated variables with standard normal distributions.
-
-
-Note that, in the processes we have assumed for  $x_{1}$  and  $x_{2}$ , the parameters  $a_{1}, a_{2}, b_{1}$  and  $b_{2}$  can be functions of  $x_{1}, x_{2}$ , and  $t$ . In particular,  $a_{1}$  and  $b_{1}$  can be functions of  $x_{2}$  as well as  $x_{1}$  and  $t$ ; and  $a_{2}$  and  $b_{2}$  can be functions of  $x_{1}$  as well as  $x_{2}$  and  $t$ .
-
-The results here can be generalized. When there are three different variables following correlated stochastic processes, we have to sample three different  $\epsilon$ 's. These have a trivariate normal distribution. When there are  $n$  correlated variables, we have  $n$  different  $\epsilon$ 's and these must be sampled from an appropriate multivariate normal distribution. The way this is done is explained in Chapter 21.
-
-# 14.6 ITO'S LEMMA
-
-The price of a stock option is a function of the underlying stock's price and time. More generally, we can say that the price of any derivative is a function of the stochastic variables underlying the derivative and time. A serious student of derivatives must, therefore, acquire some understanding of the behavior of functions of stochastic variables. An important result in this area was discovered by the mathematician K. Itô in 1951, $^{6}$  and is known as Itô's lemma.
-
-Suppose that the value of a variable  $x$  follows the Itô process
-
-$$ d x = a (x, t) d t + b (x, t) d z \tag {14.11}
-$$ where  $dz$  is a Wiener process and  $a$  and  $b$  are functions of  $x$  and  $t$ . The variable  $x$  has a drift rate of  $a$  and a variance rate of  $b^2$ . Itô's lemma shows that a function  $G$  of  $x$  and  $t$  follows the process
-
-
-$$ d G = \left(\frac {\partial G}{\partial x} a + \frac {\partial G}{\partial t} + \frac {1}{2} \frac {\partial^ {2} G}{\partial x ^ {2}} b ^ {2}\right) d t + \frac {\partial G}{\partial x} b d z \tag {14.12}
-$$ where the  $dz$  is the same Wiener process as in equation (14.11). Thus,  $G$  also follows an Itô process, with a drift rate of
-
-
-$$
-
-\frac {\partial G}{\partial x} a + \frac {\partial G}{\partial t} + \frac {1}{2} \frac {\partial^ {2} G}{\partial x ^ {2}} b ^ {2}
-
-$$ and a variance rate of
-
-
-$$
-
-\left(\frac {\partial G}{\partial x}\right) ^ {2} b ^ {2}
-
-$$
-
-A completely rigorous proof of Ito's lemma is beyond the scope of this book. In the appendix to this chapter, we show that the lemma can be viewed as an extension of well-known results in differential calculus.
-
-Earlier, we argued that
-
-$$ d S = \mu S d t + \sigma S d z \tag {14.13}
-$$ with  $\mu$  and  $\sigma$  constant, is a reasonable model of stock price movements. From Itô's lemma, it follows that the process followed by a function  $G$  of  $S$  and  $t$  is
-
-
-$$ d G = \left(\frac {\partial G}{\partial S} \mu S + \frac {\partial G}{\partial t} + \frac {1}{2} \frac {\partial^ {2} G}{\partial S ^ {2}} \sigma^ {2} S ^ {2}\right) d t + \frac {\partial G}{\partial S} \sigma S d z \tag {14.14}
-$$
-
-Note that both  $S$  and  $G$  are affected by the same underlying source of uncertainty,  $dz$ . This proves to be very important in the derivation of the Black-Scholes-Merton results.
-
-# Application to Forward Contracts
-
-To illustrate Ito's lemma, consider a forward contract on a non-dividend-paying stock. Assume that the risk-free rate of interest is constant and equal to  $r$  for all maturities. From equation (5.1),
-
-$$
-F _ {0} = S _ {0} e ^ {r T}
-$$ where  $F_{0}$  is the forward price at time zero,  $S_{0}$  is the spot price at time zero, and  $T$  is the time to maturity of the forward contract.
-
-
-We are interested in what happens to the forward price as time passes. We define  $F$  as the forward price at a general time  $t$ , and  $S$  as the stock price at time  $t$ , with  $t < T$ . The relationship between  $F$  and  $S$  is given by
-
-$$
-
-F = S e ^ {r (T - t)} \tag {14.15}
-
-$$
-
-Assuming that the process for  $S$  is given by equation (14.13), we can use Ito's lemma to determine the process for  $F$ . From equation (14.15),
-
-$$
-
-\frac {\partial F}{\partial S} = e ^ {r (T - t)}, \quad \frac {\partial^ {2} F}{\partial S ^ {2}} = 0, \quad \frac {\partial F}{\partial t} = - r S e ^ {r (T - t)}
-
-$$
-
-From equation (14.14), the process for  $F$  is given by
-
-$$ d F = \left[ e ^ {r (T - t)} \mu S - r S e ^ {r (T - t)} \right] d t + e ^ {r (T - t)} \sigma S d z
-$$
-
-Substituting  $F$  for  $S e^{r(T - t)}$  gives
-
-$$ d F = (\mu - r) F d t + \sigma F d z \tag {14.16}
-$$
-
-Like  $S$ , the forward price  $F$  follows geometric Brownian motion. It has the same volatility as  $S$  and an expected growth rate of  $\mu - r$  rather than  $\mu$ .
-
-# 14.7 THE LOGNORMAL PROPERTY
-
-We now use Ito's lemma to derive the process followed by  $\ln S$  when  $S$  follows the process in equation (14.13). We define
-
-$$
-G = \ln S
-$$
-
-Since
-
-$$
-\frac {\partial G}{\partial S} = \frac {1}{S}, \quad \frac {\partial^ {2} G}{\partial S ^ {2}} = - \frac {1}{S ^ {2}}, \quad \frac {\partial G}{\partial t} = 0
-$$ it follows from equation (14.14) that the process followed by  $G$  is
-
-
-$$ d G = \left(\mu - \frac {\sigma^ {2}}{2}\right) d t + \sigma d z \tag {14.17}
-$$
-
-Since  $\mu$  and  $\sigma$  are constant, this equation indicates that  $G = \ln S$  follows a generalized Wiener process. It has constant drift rate  $\mu -\sigma^2 /2$  and constant variance rate  $\sigma^2$ . The change in  $\ln S$  between time 0 and some future time  $T$  is therefore normally distributed, with mean  $(\mu - \sigma^2 / 2)T$  and variance  $\sigma^2 T$ . This means that
-
-$$
-\ln S _ {T} - \ln S _ {0} \sim \phi \left[ \left(\mu - \frac {\sigma^ {2}}{2}\right) T, \sigma^ {2} T \right] \tag {14.18}
-$$ or
-
-
-$$
-
-\ln S _ {T} \sim \phi \left[ \ln S _ {0} + \left(\mu - \frac {\sigma^ {2}}{2}\right) T, \sigma^ {2} T \right] \tag {14.19}
-
-$$ where  $S_{T}$  is the stock price at time  $T$ ,  $S_{0}$  is the stock price at time 0, and as before  $\phi(m, \nu)$  denotes a normal distribution with mean  $m$  and variance  $\nu$ .
-
-Equation (14.19) shows that  $\ln S_T$  is normally distributed. A variable has a lognormal distribution if the natural logarithm of the variable is normally distributed. The model of stock price behavior we have developed in this chapter therefore implies that a stock's price at time  $T$ , given its price today, is lognormally distributed. The standard deviation of the logarithm of the stock price is  $\sigma \sqrt{T}$ . It is proportional to the square root of how far ahead we are looking.
-
-# 14.8 FRACTIONAL BROWNIAN MOTION
+## 14.8 Fractional Brownian Motion
 
 Fractional Brownian motion (also known as fractal Brownian motion) provides a generalization of Brownian motion and the models involving Wiener processes that we have discussed so far in this chapter. It is used in rough volatility models for valuing derivatives, which are discussed later in the book.
 

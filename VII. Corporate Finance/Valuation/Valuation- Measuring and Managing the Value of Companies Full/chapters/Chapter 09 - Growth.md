@@ -1,15 +1,23 @@
 ---
-aliases:
-  - Growth
-tags:
-key_concepts:
-parent_directory: Valuation- Measuring and Managing the Value of Companies Full/chapters
-cssclasses: academia
 title: Chapter 09 - Growth
-linter-yaml-title-alias: Growth
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - revenue growth
+  - organic growth
+  - inorganic growth
+  - value creation
+secondary_tags:
+  - portfolio momentum
+  - market share
+  - mergers acquisitions
+  - sustainable growth
+cssclasses: academia
 ---
 
-# Growth
+## Growth
 
 Growth and its pursuit grip the business world. The popular view is that a company must grow to survive and prosper. There is certainly some truth to this. Slow-growing companies present fewer interesting opportunities for managers and so may have difficulty attracting and retaining talent. They are also much more likely to be acquired than faster-growing firms. Over the past 25 years, most of the companies that have disappeared from the S&P 500 index were acquired by larger companies or went private.
 
@@ -20,6 +28,20 @@ The previous chapter explored why executives need to understand whether their st
 # DRIVERS OF REVENUE GROWTH
 
 When executives plan for growth, a good starting point is for them to disaggregate revenue growth into its three main components:2
+
+```d2
+revenue growth components: {
+  shape: flowchart
+  
+  portfolio_momentum: "Portfolio Momentum"
+  market_share: "Market Share Performance"
+  mand_a: "Mergers & Acquisitions"
+  
+  portfolio_momentum -> total_growth: "Organic Growth"
+  market_share -> total_growth
+  mand_a -> total_growth: "Inorganic Growth"
+}
+```
 
 1. Portfolio momentum. This is the organic revenue growth a company enjoys because of overall expansion in the market segments represented in its portfolio.
 2. Market share performance. This is the organic revenue growth (or reduction) a company earns by gaining or losing share in any particular market.

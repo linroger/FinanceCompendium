@@ -1,8 +1,14 @@
 ---
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 9
 title: The Value of Transparency
+formatted: "2025-12-20 07:51:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [value of transparency, complexity in valuation, corporate disclosure, financial opacity]
+secondary_tags: [accounting standards, conglomerate discount, cost of capital, corporate governance]
 tags:
 aliases:
+  - "The Value of Transparency"
 parent_folder: Week 9
 subfolder:
 key_concepts:
