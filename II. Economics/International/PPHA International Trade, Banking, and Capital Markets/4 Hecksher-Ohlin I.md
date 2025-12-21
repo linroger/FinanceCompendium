@@ -1,13 +1,19 @@
 ---
-parent_directory:
 title: Heckscher-Ohlin Theory (Factor-Proportions Theory)
-tags:
-aliases:
-parent_folder: International Trade, Banking, and Capital Markets
-subfolder:
-key_concepts:
+parent_directory: PPHA International Trade, Banking, and Capital Markets
+formatted: 2025-12-21 08:50:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
+primary_tags:
+- heckscher ohlin theory
+- factor proportions model
+- comparative advantage
+secondary_tags:
+- international trade theory
+- factor abundance
+- capital labor ratios
+- trade patterns
 cssclasses: academia
-linter-yaml-title-alias: Heckscher-Ohlin Theory (Factor-Proportions Theory)
 ---
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/8417fcce-3cdd-43a8-9acf-074645c5cb2d/5585519336a36b65438ea7b50d54353f6a39b16348875ab92d48fdb07e32a590.jpg)
@@ -26,84 +32,84 @@ October 6, 2022
 
 - Expands on Ricardian and Specific-factors models
 
-$\circ$  Introduces mobile capital factors of production  
-$\bigcirc$  Capital factors may move to other sectors in the long-run
+- Introduces mobile capital factors of production
+- Capital factors may move to other sectors in the long-run
 
-- Capital may be substituted for labor and labor for capital  
-○ Labor competes against capital in addition to utilizing it  
+- Capital may be substituted for labor and labor for capital
+- Labor competes against capital in addition to utilizing it
 - Once real-world adjustments made, fits data well
 
-# Heckscher-Ohlin Theory
+## Heckscher-Ohlin Theory
 
 - Comparative advantage influenced by
 
-○ Relative abundance of factors  
-○ Technology choice
+- Relative abundance of factors
+- Technology choice
 
-- Comparative advantage in these drives international trade  
+- Comparative advantage in these drives international trade
 - Intensity of factor use
 
-$\bigcirc$  Focus on Labor versus Capital  
-$\circ$  Control rate of MPL decline
+- Focus on Labor versus Capital
+- Control rate of MPL decline
 
-# History of Heckscher-Ohlin Theorem
+## History of Heckscher-Ohlin Theorem
 
-- Theory developed between 1919 and 1924  
-End of long period of substantial international trade growth  
+- Theory developed between 1919 and 1924
+End of long period of substantial international trade growth
 - Dramatic improvements in transportation, "mobilizing" capital goods
 
-○ Capability to move large machines within country/internationally  
-○ Evened out technology differences between countries
+- Capability to move large machines within country/internationally
+- Evened out technology differences between countries
 
-# Origins of Heckscher-Ohlin Model
+## Origins of Heckscher-Ohlin Model
 
 - Debate between Heckscher and Knut Wicksell
 
-○ Wicksell influenced by Malthus and concerns about economic equity  
-○ Heckscher focused on the effects of relative abundance of factors of production
+- Wicksell influenced by Malthus and concerns about economic equity
+- Heckscher focused on the effects of relative abundance of factors of production
 
 - Mass emigration from Sweden to US 1871 to 1890 due to:
 
-○ Abundance of labor and scarcity of productive land and limited manufacturing led to  $44 \%$ population decrease
+- Abundance of labor and scarcity of productive land and limited manufacturing led to $44\%$ population decrease
 
-# Origins of Heckscher-Ohlin Model
+## Origins of Heckscher-Ohlin Model
 
 - During 1918-1920 Wicksell and Heckscher corresponded on the impact of increasing wood prices on Swedish labor
 
-○ Wicksell believed would lead to another wave of emigration
+- Wicksell believed would lead to another wave of emigration
 
 - Limited number of wealthy owners of forests who would choose to export raw lumber leading to labor emigration
 
 Heckscher argued immigration into Sweden would follow
 
-Real wages would fall as wood prices rose  
+Real wages would fall as wood prices rose
 
 - Sweden equipped with scarce resource (charcoal) – globally abundant labor would immigrate
 
-# Heckscher-Ohlin Assumptions
+## Heckscher-Ohlin Assumptions
 
 - Two by two by two model
 
-$\circ$  Factors:
+- Factors:
 
-Labor  
+Labor
 Capital
 
-$\circ$  Industries:
+- Industries:
 
-Shoes  
+Shoes
 Computers
 
 Countries:
 
-Home  
+Home
 Foreign
 
-# Heckscher-Ohlin Assumptions
+## Heckscher-Ohlin Assumptions
 
 - Factor Endowments:
 
-○ Home:
+- Home:
 
 $$
 \overline {{K}} = K_{S} + K_{C}
@@ -113,7 +119,7 @@ $$
 \overline {{L}} = L_{S} + L_{C}
 $$
 
-$\mathrm{O}$  Foreign:
+- Foreign:
 
 $$
 \overline {{K}}^{*} = K_{S}^{*} + K_{C}^{*}
@@ -126,7 +132,7 @@ $$
 - Total capital and labor are fixed within each country
 - But both move freely between industries within that country
 
-# Heckscher-Ohlin Assumptions
+## Heckscher-Ohlin Assumptions
 
 - By assumption:
 - Shoe production labor intensive – computer production capital intensive
@@ -135,13 +141,40 @@ $$
 \frac{L_{S}}{K_{S}} > \frac{L_{C}}{K_{C}}
 $$
 
-○ Home is Capital abundant – Foreign is labor abundant
+- Home is Capital abundant – Foreign is labor abundant
 
 $$
 \frac{\overline {{L}}^{*}}{\overline {{K}}^{*}} > \frac{\overline {{L}}}{\overline {{K}}}
 $$
 
-# Labor-Capital Relative Demand versus Wage/Rental
+```d2
+ho_trade: Heckscher-Ohlin Trade Pattern {
+  direction: right
+  
+  home: "Home (Capital Abundant)" {
+    shape: rectangle
+    label: "Exports capital-intensive goods\nImports labor-intensive goods"
+  }
+  
+  foreign: "Foreign (Labor Abundant)" {
+    shape: rectangle
+    label: "Exports labor-intensive goods\nImports capital-intensive goods"
+  }
+  
+  shoes: "Shoes (Labor Intensive)" {
+    shape: oval
+  }
+  
+  computers: "Computers (Capital Intensive)" {
+    shape: oval
+  }
+  
+  foreign -> shoes -> home: "Trade Flow"
+  home -> computers -> foreign: "Trade Flow"
+}
+```
+
+## Labor-Capital Relative Demand versus Wage/Rental
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/8417fcce-3cdd-43a8-9acf-074645c5cb2d/fe6b48c2c45540a71c00562622bd067d79639da450f7ea3a5b31c693d8f48a01.jpg)
 

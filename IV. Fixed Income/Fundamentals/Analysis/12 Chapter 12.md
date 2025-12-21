@@ -1,18 +1,32 @@
 ---
-aliases: Mortgage and Asset Backed Securities
-tags:
-key_concepts:
-parent_directory: Analysis
-cssclasses: academia
 title: Chapter 12 - Mortgage and Asset Backed Securities
-linter-yaml-title-alias: Chapter 12 - Mortgage and Asset Backed Securities
+parent_directory: Analysis
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - mortgage backed securities
+  - residential mortgage backed securities
+  - securitization process
+  - asset backed securities
+secondary_tags:
+  - prepayment risk
+  - credit risk
+  - constant prepayment rate
+  - single monthly mortality
+  - collateralized mortgage obligations
+  - commercial mortgage backed securities
+  - agency mortgage backed securities
+  - non-agency mortgage backed securities
+  - yield curve control
+  - mortgage coupon pricing
+  - weighted average maturity
+cssclasses: academia
 ---
 
-# Chapter 12
+# Chapter 12 - Mortgage and Asset Backed Securities
 
-# Mortgage and Asset Backed Securities
-
-# 12.1 Introduction
+#### 12.1 Introduction
 
 MBS is the perhaps the most successful financial innovation in the world of banking and finance globally. The creation of MBS allows the US to be one of very few (could be only) countries that can offer "affordable housing" via free market and not via government subsidy. The creation of the MBS market allows individual investors like you and I can participate in helping borrowers to buy their own homes.
 
@@ -24,31 +38,31 @@ Figure 12.1: Where MBS Lies
 
 There are two types of MBS: RMBS (residential) and CMBS (commercial).
 
-The former contains mortgages made out to residential homes. It further is understood as agency-based and non-agency-based. The latter is based upon commercial mortgages which are loans made out to commercial real estate properties such as hotels, rental apartments, hotels, carsinos, etc.
+The former contains mortgages made out to residential homes. It further is understood as agency-based and non-agency-based. The latter is based upon commercial mortgages which are loans made out to commercial real estate properties such as hotels, rental apartments, casinos, etc.
 
-# 12.1.1 RMBS
+##### 12.1.1 RMBS
 
-# Agencies
+###### Agencies
 
 The major player of the MBS is the three agencies: GNMA, FNMA, and FHLMC (pronounced Ginnie Mae, Fannie Mae, and Freddie Mac). These agencies were established after the WW2 by the congress to provide affordable mortgages. Over the years, FNMA and FHLMC, after completing their missions, have become private and GNMA remains as public as it has been. That said, it is a general belief that FNMA and FHLMC are very much guaranteed by the government and 2008 proved it.
 
-# Agency or Non-agency Based MBS
+###### Agency or Non-agency Based MBS
 
 Agencies underwrite mortgages and these securities are known as agency RMBS. These RMBS must pass certain credit criteria (to name a few):
 
 - LTV (loan to value)  $\leq 0.8$
-PI (payment to income)  $< \frac{1}{3}$
-FICO  $>620$
+PI (payment to income) $< \frac{1}{3}$
+FICO $>620$
 
 These mortgages are known as prime mortgages. Mortgages that do not pass these requirements cannot be underwritten by the agencies. They will have to be underwritten by private banks (e.g. Goldman Sachs). Hence non-agency RMBS are riskier.
 
 Not only non-agency RMBS are more risky because of the borrowers are more likely to default, the underwriting banks are also subject to default risk. These mortgages are smaller in volume and hence these RMBS are less liquid as well.
 
-# Basics https://www.sifma.org/wp-content/uploads/2017/08/chsf.pdf
+####### Basics https://www.sifma.org/wp-content/uploads/2017/08/chsf.pdf
 
 Brueggman and Fisher book
 
-# SMM
+####### SMM
 
 Investopedia:
 
@@ -56,7 +70,7 @@ Single monthly mortality (SMM) is a measure of the prepayment rate of a mortgage
 
 For investors of mortgage-backed securities, prepayment of mortgages is usually undesirable since future interest is foregone; investors prefer a lower or declining single monthly mortality on an MBS.
 
-# CPR
+####### CPR
 
 Investopedia:
 
@@ -64,7 +78,7 @@ Single monthly mortality can be annualized into the constant prepayment rate (CP
 
 Similarly, there are the first 30 months of a mortgage-backed security's life where it is considered "on the ramp" and during which SMM and CPR are expected to increase before leveling off once the MBS is "off the ramp" after 30 months. The caveat with the prepayment ramps is that they are based on the PSA model from the 1980s. Although the broad outline of this model holds up—mainly that there are two phases to an MBS lifespan—the mortgage market is a different place now, and public awareness of refinancing and interest rates is more ubiquitous than when the PSA model was created. The length of the ramps is believed to be much shorter now, as people are more likely to refinance when rates go down.
 
-# CDR
+####### CDR
 
 The constant default rate (CDR) is the percentage of mortgages within a pool of loans in which the mortgagors (borrowers) have fallen more than 90 days behind in making payments to their lenders. These pools of individual outstanding mortgages are created by financial institutions that combine loans to create mortgage-backed securities (MBS), which they sell to investors.
 
@@ -73,13 +87,13 @@ The constant default rate (CDR) evaluates losses within mortgage-backed securiti
 The CDR can be expressed as a formula:
 
 $$
-C D R = 1 - \left(1 - \frac{D}{N D P}\right)^{n}
+CDR = 1 - \left(1 - \frac{D}{NDP}\right)^{n}
 $$ where:
 
 
-$\mathrm{D} =$  Amount of new defaults during the period
+$\mathrm{D} =$ Amount of new defaults during the period
 
-NDP=Non-defaulted pool balance at the beginning of the period n=Number of periods per year
+NDP = Non-defaulted pool balance at the beginning of the period n = Number of periods per year
 
 
 The constant default rate (CDR) is calculated as follows:
@@ -99,13 +113,13 @@ Or consider Bank ABC, which saw 1 million in new defaults for the fourth quarter
 
 $$
 
-1 - \left(1 - \frac{\mathrm{s} 1 \text{mi ll io n}}{\mathrm{s} 1 0 0 \text{mi ll io n}}\right)^{4}
+1 - \left(1 - \frac{\$1\text{ million}}{\$100\text{ million}}\right)^{4}
 
 $$
 
 In addition to considering the constant default rate (CDR), analysts may also look at the cumulative default rate (CDX), which reflects the total value of defaults within the pool, rather than an annualized monthly rate. Analysts and market participants are likely to place a higher value on mortgage-backed security that has a low CDR and CDX than on one with a higher rate of defaults.
 
-# SDA
+####### SDA
 
 Another method for evaluating losses is the Standard Default Assumption (SDA) model created by the Bond Market Association, but this calculation is best suited to 30-year fixed-rate mortgages. During the subprime meltdown of 2007-2008, the SDA model vastly underestimated the true default rate as foreclosure rates hit multi-decade highs.
 
@@ -120,7 +134,7 @@ The following exhibit describes SDA pictorially:
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/1b7548028cc310939890d3891b9443c1eaa7310520a83848983ce00f5a5a2cac.jpg)
 Figure 12.2: SDA Scales
 
-# PSA
+####### PSA
 
 Public Securities Association (PSA) Prepayment Model, developed in 1985, is among the most widely used models.
 
@@ -136,7 +150,7 @@ Variations of the model are expressed in percent; e.g., "150\% PSA" means a mont
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/d8b9e0b3f72075a1550858a158e355d00b4b14c47a0c00b84448ecea57d8adb4.jpg)
 Figure 12.3: PSA Scales
 
-# FHA Experience
+####### FHA Experience
 
 Wikipedia:
 
@@ -145,7 +159,7 @@ An FHA insured loan is a US Federal Housing Administration mortgage insurance ba
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/d457870ff92f6b4a0a38299eff72f5073c2dfd28cd38f0ef8021b9d2a05e7db8.jpg)
 Figure 12.4: FHA Experience (from CoreLogid)
 
-# Mortgage Coupon
+####### Mortgage Coupon
 
 Investopedia:
 
@@ -168,7 +182,7 @@ Special Considerations
 A principle of mortgage analysis is that the higher a mortgage-backed security's coupon is relative to the current coupon, the more likely that mortgage-backed security is to prepay. Mortgage investors make this relative value analysis in calculating MBS yields and valuations. In addition, the current coupon reflects the state of the mortgage market. Thus, lenders and borrowers can use it as an indicator of what the fair rate for new mortgages should be.
 
 
-# WAC, WAM, WALA, WAL
+####### WAC, WAM, WALA, WAL
 
 WAM/WALA are very similar to duration.
 
@@ -180,18 +194,18 @@ The weighted average life (WAL) is the average length of time that each dollar o
 
 more...
 
-# 12.1.2 CMBS
+##### 12.1.2 CMBS
 
 Commercial mortgage backed securities refer to securities that are products of securitizing commercial mortgage loans. These loans are made out to commercial real estate properties such as rental apartments, hotels, casinos, etc. that earn rental incomes. Hence, the cash flows paid out to the investors do not come from salaries or wages of the borrowers but from the rental revenues.
 
-In addition, CMBS are not securitized by agencies and hence defaults are not guaranteed. Consequently, CMBS suffer credit risk. Contrary to RMBS, CMBS investors are guaranteed a certain period of interests, known as the "yield mainte nance" period. During this period, borrowers cannot prepay (or subject to a high prepayment penalty which is prohibited by law in RMBS).
+In addition, CMBS are not securitized by agencies and hence defaults are not guaranteed. Consequently, CMBS suffer credit risk. Contrary to RMBS, CMBS investors are guaranteed a certain period of interests, known as the "yield maintenance" period. During this period, borrowers cannot prepay (or subject to a high prepayment penalty which is prohibited by law in RMBS).
 
 
-# 12.1.3 ABS
+##### 12.1.3 ABS
 
 Asset backed securities include everything that is not an RMBS or CMBS. They suffer from both prepayment and credit risks.
 
-# 12.2 Securitization Process
+#### 12.2 Securitization Process
 
 Figure 12.5 demonstrates how the securitization process looks like. In the primary market, individuals borrow money to buy their homes (so these loans are collateralized) from either commercial (BoA) or mortgage-specialized banks (e.g. Norwest).
 
@@ -200,11 +214,45 @@ The banks that make the loans can decide to keep the loans for themselves (and m
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/7a809ee97ea133a19f6a6ddf693167c569004bb6879ee9fe9d57587245e650c6.jpg)
 Figure 12.5: Securitization
 
-# 12.3 RMBS
+```d2
+direction: right
 
-# 12.3.1 Paththroughs
+Borrowers: Borrowers {
+  shape: person
+}
 
-# Investopedia:
+Originators: Originators {
+  shape: hexagon
+}
+
+Agencies: Agencies {
+  shape: rectangle
+  label: "Fannie Mae\nFreddie Mac\nGinnie Mae"
+}
+
+Dealers: Dealers {
+  shape: rectangle
+}
+
+Investors: Investors {
+  shape: person
+}
+
+Borrowers -> Originators: "Mortgage Loans"
+Originators -> Agencies: "Pool Mortgages"
+Agencies -> Dealers: "MBS Securities"
+Dealers -> Investors: "Sell MBS"
+
+note: Securitization Process {
+  The securitization process transforms individual mortgage loans into tradable securities through pooling, tranching, and sale to investors.
+}
+```
+
+#### 12.3 RMBS
+
+##### 12.3.1 Paththroughs
+
+####### Investopedia:
 
 "A pass-through security is a pool of fixed-income securities backed by a package of assets. A servicing intermediary collects the monthly payments from issuers and, after deducting a fee, remits or passes them through to the holders of the pass-through security (that is, people or entities who have invested in it). A pass-through security is also known as a "pay-through security" or a "pass-through certificate"—though technically the certificate is the evidence of interest or participation in a pool of assets that signifies the transfer of payments to investors; it's not the security itself."
 
@@ -217,7 +265,7 @@ Figure 12.6: Mortgage Passthrough
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/f695793c3ecfc5a371e6383ada4f689af29d6959cf336caefc645b21838cfd41.jpg)
 
-# 12.3.2 CMO
+##### 12.3.2 CMO
 
 Investopedia:
 
@@ -228,6 +276,47 @@ This is a horizontal partition.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/a8a09149a1b965a3392e22738f7bcce22a78f9c123df7b49189ca6c3167d31a1.jpg)
 Figure 12.7: Collateralized Mortgage Obligations
 
+```d2
+direction: down
+
+Mortgage Pool: Mortgage Pool {
+  shape: stored_data
+  label: "Underlying\nMortgage Loans"
+}
+
+Tranches: Tranches
+
+Senior Tranches: Senior Tranches {
+  shape: rectangle
+  label: "Senior/AAA\n(Highest Priority)"
+}
+
+Mezzanine Tranches: Mezzanine Tranches {
+  shape: rectangle
+  label: "Mezzanine/AA\n(Medium Priority)"
+}
+
+Equity Tranches: Equity Tranches {
+  shape: rectangle
+  label: "Equity/Unrated\n(First Loss)"
+}
+
+Cash Flows: Cash Flows {
+  shape: hexagon
+  label: "Monthly Payments:\nPrincipal + Interest"
+}
+
+Mortgage Pool -> Cash Flows: "Generate"
+Cash Flows -> Senior Tranches: "Paid First"
+Cash Flows -> Mezzanine Tranches: "Paid Second"
+Cash Flows -> Equity Tranches: "Paid Last"
+
+note: CMO Waterfall Structure {
+  CMOs divide mortgage cash flows into tranches with different risk/return profiles.
+  Senior tranches have lowest risk and yield, equity tranches absorb first losses.
+}
+```
+
 Like CMOs, collateralized debt obligations (CDOs) consist of a group of loans bundled together and sold as an investment vehicle. However, whereas CMOs only contain mortgages, CDOs contain a range of loans such as car loans, credit cards, commercial loans, and even mortgages. Both CDOs and CMOs peaked in 2007 just before the global financial crisis, and their values fell sharply after that time. For example, at its peak in 2007, the CDO market was worth  \$1.3 trillion, compared to\$ 850 million in 2013.
 
 Collateralized Mortgage Obligations and the Global Financial Crisis
@@ -236,21 +325,48 @@ First issued by Salomon Brothers and First Boston in 1983, CMOs were complex and
 
 The use of CMOs has been criticized as a precipitating factor in the 2007-2008 financial crisis. Rising housing prices made mortgages look like fail-proof investments, enticing investors to buy CMOs and other MBSs, but market and economic conditions led to a rise in foreclosures and payment risks that financial models did not accurately predict. The aftermath of the global financial crisis resulted in increased regulations for mortgage-backed securities. Most recently, in December 2016, the SEC and FINRA introduced new regulations that mitigate the risk of these securities by creating margin requirements for covered agency transactions, including collateralized mortgage obligations.
 
-# 12.3.3 Interest Only and Principle Only
+##### 12.3.3 Interest Only and Principal Only
 
 The partition can be diagonal too. Figure 12.8
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/1c0c8f02ad7d743fdf8c709d2c0571d7cdec40759b8ffbcff64ed0cbb9e90fac.jpg)
 Figure 12.8: Interest Only and Principal Only
 
-# 12.3.4 NBER paper https://www.nber.org/papers/w24509.pdf
+```d2
+direction: right
+
+Mortgage Payments: Mortgage Payments {
+  shape: hexagon
+  label: "Monthly Mortgage\nPayments"
+}
+
+Interest Only Strip: Interest Only (IO) Strip {
+  shape: rectangle
+  label: "Interest-Only Strip\n(IO)\nReceives only interest\npayments"
+}
+
+Principal Only Strip: Principal Only (PO) Strip {
+  shape: rectangle
+  label: "Principal-Only Strip\n(PO)\nReceives only principal\npayments"
+}
+
+Mortgage Payments -> Interest Only Strip: "Interest Portion"
+Mortgage Payments -> Principal Only Strip: "Principal Portion"
+
+note: IO/PO Strips {
+  IO strips receive only interest payments and are sensitive to prepayment risk.
+  PO strips receive only principal payments and benefit from faster prepayments.
+}
+```
+
+##### 12.3.4 NBER Paper https://www.nber.org/papers/w24509.pdf
 
 
-# 12.4 CMBS
+#### 12.4 CMBS
 
 Investopedia:
 
-# Types of CMBS
+##### Types of CMBS
 
 The mortgages that back CMBS are classified into tranches according to their levels of credit risk, which typically are ranked from senior—or highest quality—to lower quality. The highest quality tranches will receive both interest and principal payments and have the lowest associated risk. Lower tranches offer higher interest rates, but the tranches that take on more risk also absorb most of the potential loss that can occur as the tranches go down in rank.
 
@@ -258,21 +374,21 @@ The lowest tranche in a CMBS structure will contain the riskiest—and possibly 
 
 Investors should understand, however, that in the case of a default on one or more loans in a CMBS, the highest tranches must be fully paid off, with interest, before the lower tranches will receive any funds.
 
-# Criticism of CMBS
+##### Criticism of CMBS
 
 Typically, only very wealthy investors invest in CMBS because there are not many options here for the average investor. It's difficult to find mutual funds or exchange traded funds (ETF) that invest solely in this asset class, though many real estate mutual funds invest a portion of their portfolios into CMBS.
 
-# Requirements for CMBS
+##### Requirements for CMBS
 
 In December 2016, the Securities and Exchange Commission (SEC) and Financial Industry Regulatory Authority (FINRA) introduced new regulations to mitigate some of the risks of CMBS by creating margin requirements for covered agency transactions, including collateralized mortgage obligations.
 
-# 12.5 ABS
+#### 12.5 ABS
 
 Asset backed securities (ABS) are "leftovers" securitized products from the RMBS and CMBS. It includes everything from subprime mortgages to credit card loans.
 
-# 12.5.1 Subprime (Alt-A)
+##### 12.5.1 Subprime (Alt-A)
 
-# What Is Subprime?
+####### What Is Subprime?
 
 Subprime is a below-average credit classification of borrowers with a tarnished or limited credit history, and which are subject to higher than average interest rates.
 
@@ -292,7 +408,7 @@ One of the higher risks associated with Alt-A loans is less loan documentation. 
 
 Dodd-Frank regulations require greater documentation on all types of loans (specifically mortgages). The legislation has instituted provisions for qualified mortgages, which are high-quality mortgages that meet specific standards and thus qualify for special treatment in both the primary and secondary market.
 
-# 12.5.2 Home Equity
+##### 12.5.2 Home Equity
 
 A home equity loan—also known as an equity loan, home equity installment loan, or second mortgage—is a type of consumer debt. Home equity loans allow homeowners to borrow against the equity in their home. The loan amount is based on the difference between the home's current market value and the homeowner's mortgage balance due. Home equity loans tend to be fixed-rate, while the typical alternative, home equity lines of credit (HELOCs), generally have variable rates.
 
@@ -303,9 +419,9 @@ Home equity loans allow homeowners to borrow against the equity in their residen
 
 Home equity loans come in two varieties—fixed-rate loans and home equity lines of credit (HELOCs). Fixed-rate home equity loans provide one lump sum, whereas HELOCs offer borrowers revolving lines of credit.
 
-# 12.5.3 Others
+##### 12.5.3 Others
 
-# Auto Floorplan https://www.nextgearcapital.com/news/how-does-floor-plan-financing-work/
+####### Auto Floorplan https://www.nextgearcapital.com/news/how-does-floor-plan-financing-work/
 
 
 https://www.nextgearcapital.com/news/how-to-begin-a-car-dealership-floor-plan-nextgear-capital/
@@ -328,7 +444,7 @@ Floor plan finance companies are uniquely attuned to the needs of auto dealers. 
 
 Though floor plan financing can seem like a confusing concept, in practice it can be an extremely beneficial business strategy for automotive dealers.
 
-# credit card https://www.fico.com/sites/default/files/2019-03/Asset-Backed\%20Securities-Rpt-Distribution\%20F
+####### Credit Card https://www.fico.com/sites/default/files/2019-03/Asset-Backed\%20Securities-Rpt-Distribution\%20F
 
 
 Asset-backed securitization allows receivables holders of any kind to transfer their revenue streams to investors. The practice began with computer leases in the 1980s. Today the market includes collateral types ranging from cell phone tower leases to heavy industrial equipment to retail lending products and commercial loans.
@@ -348,13 +464,13 @@ The Wall Street Reform and Consumer Protection Act (Dodd-Frank Act) of 2010 help
 
 Asset securitizations continue in the U.S. market with more confidence now. For all asset classes, more than  \$1 trillion is in the market, with\$ 28 billion sourced in the U.S. credit card market during 2018. This is still far below the \$2 trillion mark reached just before the 2008 financial crisis though. While cards do not dominate the general ABS market, the channel has placed more than \$225 billion into the market since 2012.
 
-# Movies
+####### Movies
 
 # Wikipedia:
 
 Film finance is an aspect of film production that occurs during the development stage prior to pre-production, and is concerned with determining the potential value of a proposed film. In the United States, the value is typically based on a forecast of revenues (generally 10 years for films and 20 years for television shows), beginning with theatrical release, and including DVD sales, and release to cable broadcast television networks both domestic and international and inflight airline licensing.
 
-# 12.6 Other Real Estate Derivatives
+#### 12.6 Other Real Estate Derivatives
 
 Mortgages are loans and hence usually regarded as interest rate derivatives. Yet, mortgages are loans made out to purchasing real estate properties. As a result, MBS also inherit all the risks of their underlying real estate properties and can be regarded as RE derivatives.
 
@@ -364,15 +480,13 @@ In this section, we should discuss other real estate derivatives. These securiti
 
 A property derivative is a financial derivative whose value is derived from the value of an underlying real estate asset. In practice, because individual real estate assets fall victim to market inefficiencies and are hard to accurately price, property derivative contracts are typically written based on a real estate property index. In turn, the real estate property index attempts to aggregate real estate market information to provide a more accurate representation of underlying real estate asset performance. Trading or taking positions in property derivatives is also known as synthetic real estate.
 
-# 12.6.1 Case-Shiller Index Futures
-
-# Wikipedia:
+##### Wikipedia:
 
 The Standard & Poor's CoreLogic Case-Shiller Home Price Indices are repeat-sales house price indices for the United States. There are multiple Case-Shiller home price indices: A national home price index, a 20-city composite index, a 10-city composite index, and twenty individual metro area indices. These indices are calculated and kept monthly by Standard & Poor's, with data points calculated for the time period of January 1987 through the present. The indices kept by Standard & Poor are normalized to have a value of 100 in January 2000. These Indices are based on original work by economists Karl Case and Robert Shiller, in which their team calculated the home price index back to 1890. That index is normalized as such that 1890 has a value of 100. The Case-Shiller Index being kept on Shiller's website is updated quarterly.[1] Due to the different set reference points, and perhaps calculation differences, the index numbers provided in each data set can be very different. For example, in 4th quarter 2013, the Standard and Poor 20 city index point was in the 160's, while the index point for 4th quarter on the Shiller data was in the 130's. Shiller claims in his book Irrational Exuberance that such a long series of home prices does not appear to have been published for any country.
 
 CME created futures and options contracts on the CSI on the MSAs (metropolitan statistical areas):
 
-# Contracts
+####### Contracts
 
 CSI Indices futures and options are cash-settled to a weighted composite index of U.S. housing prices, as well as to specific markets in 10 major U.S. cities:
 
@@ -386,7 +500,7 @@ Los Angeles Washington, D.C.
 
 Figure 12.9: Case-Shiller Index Futures
 
-# 12.6.2 RPX Swap and Forward Contracts https://realtytimes.com/headlines/item/6432-20070926_rpxmeasure
+##### 12.6.2 RPX Swap and Forward Contracts https://realtytimes.com/headlines/item/6432-20070926_rpxmeasure
 
 
 Another measure of the housing market began operating last week when trading in a new derivative known at the Residential Property Index, or RPX, got underway.
@@ -420,7 +534,7 @@ Rich McKinney, head of Residential MBS Trading at Lehman Brothers, said investor
 
 In addition to generating daily RPX prices, Radar Logic has developed a series of analytic tools designed to help professionals in both the real estate and financial services industries utilize these derivatives.
 
-# 12.6.3 REIT
+##### 12.6.3 REIT
 
 What Is a Real Estate Investment Trust (REIT)? A real estate investment trust (REIT) is a company that owns, operates, or finances income-generating real estate. Modeled after mutual funds, REITs pool the capital of numerous investors. This makes it possible for individual investors to earn dividends from real estate investments—without having to buy, manage, or finance any properties themselves.
 
@@ -431,7 +545,7 @@ A real estate investment trust (REIT) is a company that owns, operates, or finan
 
 REITs invest in most real estate property types, including apartment buildings, cell towers, data centers, hotels, medical facilities, offices, retail centers, and warehouses.
 
-# 12.6.4 REMIC
+##### 12.6.4 REMIC
 
 # Wikipedia:
 
@@ -439,9 +553,9 @@ REITs invest in most real estate property types, including apartment buildings, 
 
 The federal income taxation of REMICs is governed primarily under 26 U.S.C. §860A-860G of Part IV of Subchapter M of Chapter 1 of Subtitle A of the Internal Revenue Code (26 U.S.C.). To qualify as a REMIC, an organization makes an "election" to do so by filing a Form 1066 with the Internal Revenue Service, and by meeting certain other requirements. They were introduced in 1987 as the typical vehicle for the securitization of residential mortgages in the United States."
 
-Investopedia
+####### Investopedia
 
-# KEY TAKEAWAYS
+####### KEY TAKEAWAYS
 
 A real estate mortgage investment conduit (REMIC) is a special purpose vehicle (SPV) that is used to pool mortgage loans and issue mortgage-backed securities (MBS).
 
@@ -453,14 +567,14 @@ A real estate mortgage investment conduit (REMIC) may be organized as a partners
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/d6b68cbd5c6abe09e8c11d3db5dbab0ff70a34cb8eb78c6435f25f0898a25d23.jpg)
 Figure 12.10: REMIC (taken from Freddie Mac)
 
-# 12.6.5 STACR and Connecticut Avenue Securities (CAS)
+##### 12.6.5 STACR and Connecticut Avenue Securities (CAS)
 
 STACR REMIC structures offerings as notes issued by a trust that is treated as a Real Estate Mortgage Investment Conduit (REMIC). The trust pays interest (un-capped LIBOR floater) and principal (less credit and/or modification losses) to note-holders on a monthly basis. Credit and prepayment performance of the reference obligations determines performance of STACR REMIC securities.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/b113e4b0133340f949e63beb7bc4fb0ce675e1ca6a685a74bb7102db0bacff45.jpg)
 Figure 12.11: STACR
 
-# 12.7 Appendix
+#### 12.7 Appendix
 
 The following FICO table is taken from credit.com (https://www.credit.com/blog/what-is-a-prime-vs-subprime-credit-score-189867). To qualify for the prime mortgage, FICO score needs to be minimally 620.
 

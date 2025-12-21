@@ -1,36 +1,27 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Lecture Notes in International Trade
-linter-yaml-title-alias: Lecture Notes in International Trade
+title: "Lecture Notes in International Trade"
+parent_directory: "International"
+formatted: "2025-12-21 06:45:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- labor country respectively factor
-- economy trade policy
-- wage home comparative advantage
-- goods demand home labor
-- production good relative demand
-- produced average labor
+  - comparative advantage theory
+  - international trade patterns
+  - ricardian trade model
+  - heckscher-ohlin model
+  - trade welfare analysis
 secondary_tags:
-- lecture notes international trade
-- students economics international trade
-- allocation capital labor computers
-- home productivity relative foreign
-- international trade world economy
-- production function exhibiting increasing
-- relative wage foreign produce
-- country absolute advantage goods
-- model international trade
-- cars outputtotal labor inputaverage
-- supply labor determines relative
-- comparative advantage example relative
-- determination capital labor ratio
-- countries analyze trade
-- growth world trade period
-- labor ratio used goods
-tags_extracted: '2025-12-18T01:48:06.843431'
+  - lecture notes international trade
+  - trade determinants patterns
+  - absolute advantage concept
+  - opportunity cost trade
+  - gains from trade
+  - trade barriers tariffs
+  - world trade organization
+  - preferential trade agreements
+  - commercial policy instruments
+  - political economy trade
+cssclasses: academia
 ---
 
 # Lecture Notes in International Trade
@@ -71,24 +62,49 @@ Chapter 10. The World Trade Organization 143
 
 The aim of this book is to introduce undergraduate students to the economics of international trade. When we say international trade, what we mean is the exchange of goods and services across international borders. When a Chinese firm Lenovo ships a laptop computer to the United States, it is the export of a good by China to the US. When a Chinese airline buys an aircraft from Boeing, it is the import of a good by China from the US. One way to see the importance of international trade for the world economy is to see how large the exports are relative to the GDP for the world. The GDP for the world captures the total amount of economic activity for the world in a year. The exports capture the total amount of goods exported by each country in the world. Figure [1] (based on the data from the World Bank) shows that the Export-GDP ratio for the world has increased from about  $12\%$  in 1960 to about  $30\%$  in 2017. That is, there has been a substantial increase in world trade over the last 60 years. The ratio for the world masks enormous variations across countries. For example, in the latest year, this ratio was  $87\%$  for a small European country like Belgium but only  $12\%$  for the US. For China, it was  $19.5\%$ . In general, smaller countries trade a larger fraction of their GDP than larger countries; however, even controlling for country size, there are enormous variations across countries.
 
-If we go back in time, we realize that there was a tremendous growth in world trade during the period 1870-1913. This was followed by a dramatic reversal in the world trade during the inter-war years,
+If we go back in time, we realize that there was a tremendous growth in world trade during the period 1870-1913. This was followed by a dramatic reversal in the world trade during the inter-war years, and it was only after the end of the Second World War that global trade started increasing again.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/02939b73-361f-4a60-8286-d38577d8467c/0e3f6aae7d8b5468ce1e510d77c9ddc6bee6ad2c46550937f0b3ce46343c67f4.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/02939b73-361f-4a60-8286-d38577d8467c/0e3f6aae7d8b5468ce1e510d77c9ddc6bee6ad2c46550937f0b3ce46343c67f4.jpg)
 Figure 1.1: Exports to GDP ratio for the world.
 
-Table 1.1: Historical pattern of export-GDP ratio for the world.  
+Table 1.1: Historical pattern of export-GDP ratio for the world.
 
 <table><tr><td>1870</td><td>4.6</td></tr><tr><td>1913</td><td>7.9</td></tr><tr><td>1950</td><td>5.5</td></tr><tr><td>1973</td><td>10.5</td></tr><tr><td>1998</td><td>17.2</td></tr></table>
 
-Source: Angus Maddison, The World Economy: A Millennial Perspective, World Bank, 2001.
-
-and it was only after the end of the Second World War that global trade started increasing again. This historical pattern is apparent from the data from Maddison (2001) shown in Table [L.1].
+Source: Angus Maddison, The World Economy: A Millennial Perspective, World Bank, 2001. This historical pattern is apparent from the data from Maddison (2001) shown in Table [L.1].
 
 The sustained growth in world trade since the end of the Second World War has been accompanied by a changing pattern of trade. While in the late 19th and early 20th centuries, a lot of trade involved exchange of manufactured goods for agricultural products, the trade now is dominated by two-way exchange of manufactured products.
 
 This is true not only of trade among developed countries but also of trade between developed and developing countries. For example, more than  $90\%$  of the exports of China, a developing country and a relatively recent entrant to the world trade, consist of manufactured goods.
 
 In this book, we study the determinants of the pattern of trade among countries and also analyze how trade can provide aggregate gains to a country and at the same time produce winners and losers. That is, not everyone in a country is guaranteed to gain from international trade and to ensure that gains from trade are distributed in the entire population, governments may have to undertake fiscal transfers. In addition to studying the trade in goods and services, we also study the economics of the movement of factors of production such as labor and capital across international borders. From the news headlines, it is clear that countries use commercial policy instruments such as tariffs, quotas and export subsidies to impede or promote trade. We study the welfare implications of these commercial policy instruments and also analyze the welfare implications of preferential trading agreements signed by a subset of countries. We see that countries do not always adopt policies which increase aggregate welfare. Why? The answer to this question will take us into a discussion of the political economy of trade policy. Finally, we conclude with a discussion of the history of multilateral trade agreements since the end of the Second World War culminating in the formation of the World Trade Organization.
+
+```d2
+# Comparative Advantage Concept Visualization
+direction: right
+
+Home: {
+  shape: hexagon
+  Bread: "1 unit labor → 1 Bread\n(1/2 Cloth opportunity cost)"
+  Cloth: "1 unit labor → 1/2 Cloth\n(2 Bread opportunity cost)"
+}
+
+Foreign: {
+  shape: hexagon
+  Bread: "1 unit labor → 1/4 Bread\n(3/4 Cloth opportunity cost)"
+  Cloth: "1 unit labor → 3/4 Cloth\n(4/3 Bread opportunity cost)"
+}
+
+Home -> Foreign: "Trade Exchange" {
+  Bread: "Home exports Bread"
+  Cloth: "Foreign exports Cloth"
+}
+
+note: "Home has comparative advantage in Bread (lower opportunity cost)\nForeign has comparative advantage in Cloth" {
+  shape: page
+  style.fill: "#e8f5e9"
+}
+```
 
 The structure of the book is as follows. In Chapter 2, we introduce the Ricardian model of international trade which states that the main reason why countries trade is that different countries have different productivities (or technologies) for producing different goods and services. It shows how countries can gain from exporting goods that they are relatively better at making and importing goods that they are relatively worse at making. Chapter 3 discusses the Heckscher-Ohlin model of trade where endowment differences among countries play a key role in determining the pattern of trade. An important conclusion of this chapter is that international trade can produce winners and losers. That is, even though there are aggregate
 
@@ -510,6 +526,58 @@ Stolper-Samuelson Theorem. Increasing the relative price of a good, holding fact
 
 In the context of our model, the theorem says that an increase in the relative price of the capital-intensive good, Computers, will lead to an increase in the real reward of capital and a decrease in the real reward of labor. The proof of the theorem is straightforward. We have already established in Figure 3.1 that an increase in the relative price of Computers from 10 to 15 leads to a decrease in the capital labor ratio in both goods and an increase in the relative reward of capital. It follows from the expressions for real rewards in Equations (3.4) and (3.5) that a decrease in capital-labor ratio implies a decrease in the real wage and an increase in the real rental of capital.
 
+```d2
+# Stolper-Samuelson Theorem Visualization
+direction: right
+
+Capital_Intensive_Good: {
+  label: "Capital-Intensive Good\n(e.g., Computers)"
+  shape: rectangle
+  style.fill: "#1976d2"
+  style.font-color: white
+}
+
+Labor_Intensive_Good: {
+  label: "Labor-Intensive Good\n(e.g., Apparels)"
+  shape: rectangle
+  style.fill: "#f57c00"
+  style.font-color: white
+}
+
+Price_Increase: "↑ Relative Price of\nCapital-Intensive Good" {
+  shape: diamond
+  style.fill: "#4caf50"
+  style.font-color: white
+}
+
+Capital_Reward: "↑ Real Reward\nof Capital" {
+  shape: circle
+  style.fill: "#1976d2"
+  style.font-color: white
+}
+
+Labor_Reward: "↓ Real Reward\nof Labor" {
+  shape: circle
+  style.fill: "#f57c00"
+  style.font-color: white
+}
+
+Price_Increase -> Capital_Reward: "Factor intensively used\nin production benefits" {
+  style.stroke: "#1976d2"
+  style.stroke-width: 3
+}
+
+Price_Increase -> Labor_Reward: "Other factor is harmed" {
+  style.stroke: "#f57c00"
+  style.stroke-width: 3
+}
+
+note: "The theorem shows that changes in relative goods prices affect factor rewards,\nwith winners and losers depending on factor intensity in production." {
+  shape: page
+  style.fill: "#e8f5e9"
+}
+```
+
 The intuition behind this very important result can be understood in two different ways. One way to understand it is to note that since the relative price of Computers increases, firms should find it more profitable to produce Computers. Since Computers are more capital intensive, the relative demand for capital increases, increasing the relative price of capital. An alternative, and more mechanical, way to understand it is to note that if the relative price of Computers increases, given the perfectly competitive markets, the relative cost of producing Computers must increase as well. Now, this can happen
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/02939b73-361f-4a60-8286-d38577d8467c/41a79d22db12dae2583d2b668763fe49a3105351852515911c0913f682b27d8c.jpg)  
@@ -543,6 +611,52 @@ Now, we will use this result to derive the relative supply curve in Foreign. Rec
 Heckscher-Ohlin Theorem. A country has a comparative advantage in the good that is relatively intensive in the country's relatively abundant factor.
 
 In our example, capital is the relatively abundant factor in Home, and hence Home has a comparative advantage in Computers which is the capital-intensive good. Similarly, Foreign is relatively abundant in labor, and hence Foreign has a comparative advantage in Apparels which is the labor-intensive good. It is worth reiterating that the only difference between the two countries in this model is in the relative endowment of the two factors of production, which forms the basis of comparative advantage and the pattern of trade.
+
+```d2
+# Heckscher-Ohlin Theorem Visualization
+direction: right
+
+Home: {
+  shape: hexagon
+  label: "Capital Abundant\n(K/L > Foreign)"
+  style.fill: "#e8f5e9"
+
+  Capital_Intensive_Good: "Computers\n(Capital Intensive)" {
+    style.fill: "#4caf50"
+    style.font-color: white
+  }
+
+  exports -> Capital_Intensive_Good: "Exports"
+}
+
+Foreign: {
+  shape: hexagon
+  label: "Labor Abundant\n(K/L < Home)"
+  style.fill: "#fff3e0"
+
+  Labor_Intensive_Good: "Apparels\n(Labor Intensive)" {
+    style.fill: "#ff9800"
+    style.font-color: white
+  }
+
+  exports -> Labor_Intensive_Good: "Exports"
+}
+
+Home.exports -> Foreign.Labor_Intensive_Good: "Trade Flow" {
+  style.stroke: "#2196f3"
+  style.stroke-width: 3
+}
+
+Foreign.exports -> Home.Capital_Intensive_Good: "Trade Flow" {
+  style.stroke: "#f44336"
+  style.stroke-width: 3
+}
+
+note: "Comparative advantage determined by factor endowments:\nCapital abundant country → Capital intensive goods\nLabor abundant country → Labor intensive goods" {
+  shape: page
+  style.fill: "#f5f5f5"
+}
+```
 
 Having determined the pattern of comparative advantage, we can also derive the world relative price of Computers,  $\left(\frac{P_{\mathrm{C}}}{P_{\mathrm{A}}}\right)^{\mathrm{W}}$ , at which the two countries will exchange goods. The world relative price of Computers is determined in a fashion identical to that in
 

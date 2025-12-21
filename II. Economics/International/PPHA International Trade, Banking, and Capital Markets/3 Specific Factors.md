@@ -1,37 +1,39 @@
 ---
-parent_directory:
 title: Specific-Factors Model
-tags:
-aliases:
-parent_folder: International Trade, Banking, and Capital Markets
-subfolder:
-key_concepts:
+parent_directory: PPHA International Trade, Banking, and Capital Markets
+formatted: 2025-12-21 07:10:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - specific factors model
+  - factor mobility
+  - diminishing returns
+  - rental rates
+secondary_tags:
+  - labor allocation
+  - capital returns
+  - land returns
+  - trade effects on factors
+  - production possibilities frontier
+  - marginal productivity
+  - factor price equalization
+  - trade adjustment assistance
 cssclasses: academia
-linter-yaml-title-alias: Specific-Factors Model
 ---
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/7aa7ffb5-968a-4df2-979a-6b91b7e9b2d2/4f2938b7e4442390b9af44792e76db3de932a556d7ffe5a86905fac71a3d591e.jpg)
-
-Autumn
-
-2022
-
 # Specific-Factors Model
 
-Dave Schabes
+**Autumn 2022**
 
-October 4, 2022
+**Dave Schabes**
 
-# Specific-Factors Model
+**October 4, 2022**
 
 - Under Ricardian model all workers gained from trade
-
-$\bigcirc$  Earnings of other factors were not considered
-
+- Earnings of other factors were not considered
 - Specific (fixed) factors model examines productivity and returns of specific-factors in addition to labor
-
-○ Specific-factors not allowed to move from sector to sector  
-○ Labor still fully mobile between sectors in each country
+- Specific-factors not allowed to move from sector to sector
+- Labor still fully mobile between sectors in each country
 
 We will see this implies diminishing marginal returns of labor as production in one sector increases  
 This creates winners and losers in each country
@@ -47,21 +49,20 @@ This creates winners and losers in each country
 - Ricardian model assumed constant marginal productivity of labor  
 - Considering immobility of specific factors, marginal productivity will decrease
 
-○ Machine shared among 11 workers versus 10  
-$\mathrm{O} 100$  acres of farmland worked by three versus two tractors
+- Machine shared among 11 workers versus 10
+- 100 acres of farmland worked by three versus two tractors
 
 # Production Possibilities Frontier
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/7aa7ffb5-968a-4df2-979a-6b91b7e9b2d2/dbef25a40123d0c201568e73126b2b112587dc606a328eda98c75440cead6b5c.jpg)  
-ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/7aa7ffb5-968a-4df2-979a-6b91b7e9b2d2/dbef25a40123d0c201568e73126b2b112587dc606a328eda98c75440cead6b5c.jpg)
 
 # Effect on Production Possibilities Frontier
 
 - Ricardian model assumed constant marginal productivity of labor  
 - Under Specific-factor, PPF becomes bow shaped
 
-$\circ$  Slope at any point  $= -M P L_{A} / M P L_{M}$  
-○ When moving toward increased quantities of manufactures
+- Slope at any point $= -MPL_A / MPL_M$
+- When moving toward increased quantities of manufactures
 
 - $MPL_{M}$  decreases  
 - $MPL_{A}$  increases
@@ -84,8 +85,8 @@ or the relative price of manufactured goods to agricultural goods equals the opp
 
 - Foreign no-trade relative price assumed to differ due to differences in:
 
-$\mathrm{O}$  Productivity  
-$\bigcirc$  Resources: labor, capital, land
+- Productivity
+- Resources: labor, capital, land
 
 - Assume Home no-trade relative price of manufactures is lower than Foreign
 
@@ -109,8 +110,8 @@ $$
 
 - When international trade opens, manufactures' prices will:
 
-○ Increase relative to agricultural prices for Home  
-○ Decrease relative to agricultural prices for Foreign
+- Increase relative to agricultural prices for Home
+- Decrease relative to agricultural prices for Foreign
 
 - Relative prices converge to the world price line
 
@@ -118,13 +119,13 @@ $$
 
 Home gains from the steeper relative price curve
 
-○ Manufacturing and agricultural quantities produced move from A to B  
-$\circ$  Indifference curve from  $U_{1}$  to  $U_{2}$  
-Consumption from A to C
+- Manufacturing and agricultural quantities produced move from A to B
+- Indifference curve from $U_1$ to $U_2$
+- Consumption from A to C
 
 Home overall gains from trade
 
-○ Individual workers and industries may lose
+- Individual workers and industries may lose
 
 # Home Labor Earnings
 
@@ -135,7 +136,7 @@ $$
 Each industry hires until,
 
 $$
-W = P_{M} \times M P L_{M} a n d W = P_{A} \times M P L_{A},
+W = P_M \times MPL_M \quad \text{and} \quad W = P_A \times MPL_A,
 $$
 
 labor market equilibrium occurs when labor is allocated at point  $A$  where the two labor demand curves meet.
@@ -163,11 +164,14 @@ $$
 # Increase in Price of Manufactures
 
 $$
-D i v i d i n g t h r o u g h b y W = P_{M} \times M P L_{M},
+\text{Dividing through by } W = P_M \times MPL_M,
 $$
 
 $$
-\begin{array}{l} o b t a i n \frac{\Delta W}{W} <   \frac{\Delta P_{M} \times M P L_{M}}{P_{M} \times M P L_{M}} = \frac{\Delta P_{M}}{P_{M}} \\ \frac{\Delta W}{W} i s t h e e l a s t i c i t y o f w a g e s \\ \end{array}
+\begin{align}
+\frac{\Delta W}{W} &< \frac{\Delta P_M \times MPL_M}{P_M \times MPL_M} = \frac{\Delta P_M}{P_M} \\
+\frac{\Delta W}{W} &\text{ is the elasticity of wages}
+\end{align}
 $$
 
 $\frac{\Delta P_M}{P_M}$  is the elasticity of the manufactured goods price.
@@ -190,8 +194,7 @@ $$
 
 - Two methods to calculate earnings of capital and land:
 
-$\circ$  Calculate labor payments and deduct from revenues, remainder represents earnings of capital or land  
-
+- Calculate labor payments and deduct from revenues, remainder represents earnings of capital or land
 - Multiply the good's price by the marginal productivity of capital or land
 
 # Earnings of Capital and Land
@@ -199,13 +202,19 @@ $\circ$  Calculate labor payments and deduct from revenues, remainder represents
 - Calculate revenues and deduct payments to labor:
 
 $$
-\begin{array}{l} P a y m e n t s t o c a p i t a l o w n e r s = P_{M} \times Q_{M} - W \times L_{M} \\ P a y m e n t s t o l a n d o w n e r s = P_{A} \times Q_{A} - W \times L_{A} \\ \end{array}
+\begin{align}
+\text{Payments to capital owners} &= P_M \times Q_M - W \times L_M \\
+\text{Payments to land owners} &= P_A \times Q_A - W \times L_A
+\end{align}
 $$
 
 - Returns on capital and land are:
 
 $$
-\begin{array}{l} R_{K} = \frac{\text{Pa ym en ts to ca pi ta lo wn er s}}{K} = \frac{P_{M} \times Q_{M} - W \times L_{M}}{K} \\ R_{T} = \frac{\text{Pa ym en ts to la nd ow ne rs}}{T} = \frac{P_{A} \times Q_{A} - W \times L_{A}}{T} \\ \end{array}
+\begin{align}
+R_K &= \frac{\text{Payments to capital owners}}{K} = \frac{P_M \times Q_M - W \times L_M}{K} \\
+R_T &= \frac{\text{Payments to land owners}}{T} = \frac{P_A \times Q_A - W \times L_A}{T}
+\end{align}
 $$
 
 # Earnings of Capital and Land
@@ -219,7 +228,7 @@ $$
 - Either method may be used depending on available data  
 - $R_{K}$  and  $R_{T}$  are rental rates on capital and land respectively
 - Rental is periodic return, does not matter whether capital or land is actually rented or owned  
-○ If owned think of as return on investment
+- If owned think of as return on investment
 
 # Changes in Return on Capital and Land
 
@@ -227,17 +236,19 @@ $$
 - Raise prices on manufactured goods, holding agricultural goods prices constant  
 Result:
 
-$\circ$  Price increase increases quantity of labor used in manufacturing  
-
-- Raises marginal product of manufacturing specific factor  
-○ Reduces marginal product of agricultural specific factor
+- Price increase increases quantity of labor used in manufacturing
+- Raises marginal product of manufacturing specific factor
+- Reduces marginal product of agricultural specific factor
 
 # Changes in Return on Capital and Land
 
 - To achieve labor market equilibrium:
 
 $$
-P_{M} \uparrow \Rightarrow \left\{ \begin{array}{l} L_{M} \uparrow , s o t h a t M P K_{M} = \frac{R_{K}}{P_{M}} \uparrow \\ L_{A} \downarrow , s o t h a t M P K_{A} = \frac{R_{T}}{P_{A}} \downarrow \end{array} \right\}
+P_M \uparrow \Rightarrow \begin{cases}
+L_M \uparrow, & \text{so that } MPK_M = \frac{R_K}{P_M} \uparrow \\
+L_A \downarrow, & \text{so that } MPT_A = \frac{R_T}{P_A} \downarrow
+\end{cases}
 $$
 
 - Real rental rate in terms manufactured goods increases – percentage increase in  $R_{K}$  exceeds percentage increase in  $P_{M}$ , allowing capital owners to purchase more manufactures  

@@ -1,9 +1,9 @@
 ---
 title: Note on the Leveraged Loan Market
 parent_directory: Class 6-Bank Runs
-formatted: 2025-12-21 10:45:00 AM
-formatter_model: kimi-k2-turbo
-cli_tool: claude-code
+formatted: 2025-12-21 07:50:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
 primary_tags:
   - leveraged loans
   - loan syndication
@@ -25,17 +25,17 @@ cssclasses: academia
 
 VICTORIA IVASHINA
 
-# Note on the Leveraged Loan Market
+## Note on the Leveraged Loan Market
 
 A leveraged loan is a senior secured syndicated credit that has a non-investment-grade rating or is priced like a non-investment-grade loan (which means that it carries a similar risk). Typically, data providers classify loans as leveraged based on the spread: If the spread exceeds a certain threshold, the loan is considered leveraged. This cutoff point is a moving target, as spreads tend to compress in periods of credit expansion and expand in economic downturns.<sup>a</sup> As will be discussed later in this note, leveraged loans are primarily held by institutional investors. It is due to the wide investor base that leveraged loans—as distinct from other syndicated loans—are treated as a separate asset class and receive a lot of coverage from financial analysts.
 
 Starting in the late 1990s, leveraged loans were the main form of financing for highly levered corporate transactions. Over  $90\%$  of all LBOs worldwide were backed by a leveraged loan. In contrast, only  $7\%$  of all LBOs had a senior bond and  $22\%$  had a subordinated bond as part of debt financing. Not considering revolving credit, leveraged loans on average accounted for  $75\%$  of the debt financing of LBOs, while bonds accounted for less than  $12\%$ . (See Exhibit 1 for the funding structure of a typical LBO.) Of the leveraged loans issued in 2017, almost  $45\%$  were used to finance sponsored transactions. $^{1}$
 
-The leveraged loan market experienced a severe contraction during the 2007-2009 financial crisis, hitting its lowest point in the fourth quarter of 2008. However, the overall syndicated loan market and leveraged loan market, in particular, had been on the rise since. According to Bloomberg, the total volume of U.S. syndicated loans was roughly  \$2.4 trillion in 2017, an \(18.97\%$  increase from the previous year. U.S. leveraged loan volume in 2017 was about \)1.5 trillion, up  $48.43\%$  from the previous year.[2] (See Exhibit 2 for the evolution of annual leveraged loan issuance in the global market.)
+The leveraged loan market experienced a severe contraction during the 2007-2009 financial crisis, hitting its lowest point in the fourth quarter of 2008. However, the overall syndicated loan market and leveraged loan market, in particular, had been on the rise since. According to Bloomberg, the total volume of U.S. syndicated loans was roughly  $2.4 trillion in 2017, an 18.97\% increase from the previous year. U.S. leveraged loan volume in 2017 was about $1.5 trillion, up 48.43\% from the previous year.[2] (See Exhibit 2 for the evolution of annual leveraged loan issuance in the global market.)
 
 The goal of this note is to introduce key concepts related to the leveraged loan market and to outline the primary factors that influence leveraged loan issuance. In particular, the note explains the roles that banks and institutional investors play in this segment of the loan market.
 
-# 1. Loan Syndication
+## 1. Loan Syndication
 
 Leveraged loans are syndicated loans; they are originated (or "arranged") by one lender but funded by a group of lenders. The arrangers market is dominated by banks and is highly concentrated. As can be seen from Exhibit 3, the top 10 lead lenders by volume arrange over  $65\%$  of all syndicated loans, with the top 3 syndicating one third of all loans. The numbers are very similar for the leveraged segment of the market.
 
@@ -47,9 +47,7 @@ Bank lending—including leveraged lending—builds on proprietary information. 
 
 Collecting and assessing information about a borrower is costly, so the lead bank acts as the delegated manager for the syndicated loan, with primary responsibility for ex ante due diligence on and ex-post monitoring of the borrower. This reduces the cost of the borrower's screening and monitoring. Put simply, borrowing from a syndicate of five lenders is cheaper than getting a standalone loan from each of these lenders. However, this also makes syndicate participants dependent on the accuracy of the information collected and presented by the lead bank while holding a direct pro rata claim against the borrower. Unless it can be proven in court that the information was misrepresented, participants have no claim against the lead bank.
 
-Loan syndication is a form of the so-called "originate-to-distribute" model of lending and, as such, is sensitive to information asymmetry due to imperfect alignment of incentives between the originating lender and the syndicate participants. For example, the lead lender could have an incentive to originate
-
-a high-risk loan in order to build a relationship with a particular borrower or in order to collect the underwriting fees charged directly to the borrower at the origination of the loan. $^{f}$
+Loan syndication is a form of the so-called "originate-to-distribute" model of lending and, as such, is sensitive to information asymmetry due to imperfect alignment of incentives between the originating lender and the syndicate participants. For example, the lead lender could have an incentive to originate a high-risk loan in order to build a relationship with a particular borrower or in order to collect the underwriting fees charged directly to the borrower at the origination of the loan.$^{f}$
 
 In view of the above, while a traditional bank loan spread is determined by borrower characteristics and the nature of the collateral, in a syndication loan the private content of the information collected by the lead bank induces an additional premium driven by the degree of information asymmetry between the lead and participant banks. The lead's reputation and the implicit requirement that it retains a share of the loan on its balance sheet (the so-called "skin in the game") help to mitigate this cost. This is one explanation for why the arrangers market is so concentrated and is dominated by very large banks. (See Exhibit 3.) More broadly, due to information asymmetry, a bank's ability to originate syndicated loans is closely connected to its reputation, the strength of its balance sheet, and its capacity to retain a share of the loan on its balance.
 
@@ -63,7 +61,7 @@ Another important aspect of loan syndication is that all tranches (or "facilitie
 
 A typical loan contract would specify the number of votes required to pass certain amendments. Most loans require  $50.1\%$  of the votes by loan volume. However, material amendments—those that affect the interest rate, amount, or term of the loan—require a unanimous lenders agreement.
 
-# 2. Institutional Investors and Leveraged Loans
+## 2. Institutional Investors and Leveraged Loans
 
 Given that the arranging bank acts as an agent for the lending syndicate in collecting and processing information about the borrower, other syndicate participants—the "passive" lenders—no longer need to be banks; that is, they do not need to be able to screen and monitor the borrower to the same extent. Other than funding revolving and delay-draw lines, which require liquidity management, there is nothing that makes the participating (passive) banks any more special than a non-bank institutional investor.<sup>k</sup> Indeed, while banks have risk-based capital requirements, most institutional investors do not. A loan is not a security under the Securities Act of 1933, so loan investors would need to be reasonably sophisticated financial investors, but that still includes a wide range of institutional investors.
 
@@ -95,7 +93,7 @@ To put together a collateral pool, a CLO usually participates in over 100 syndic
 
 Syndication before securitization is a key difference between corporate loan securitization and other types of securitization. For example, after origination, a subprime mortgage ( $150,000-$ 190,000 on average) is typically sold by the originating lender—as part of a pool—to other investors. In the case of a securitization, this mortgage pool would be used as part of the collateral held by the SPV. At no point are any of the individual mortgages split into parts; in other words, there is only one direct claim against the borrower of the original mortgage. However, the fact that securitized leveraged loans are syndicated implies that there are other non-CLO lenders in the syndicate. Although securitization has been shown to suffer from multiple agency problems, in the corporate segment, the presence of other lenders creates a mechanism that counterweights these effects.<sup>o</sup>
 
-## 3. Implications for Market Conditions
+### 3. Implications for Market Conditions
 
 To summarize some of the points raised in this note, the inflow of institutional, non-bank money into the syndicated loan market—and specifically the securitization boom—is central for understanding the evolution of the leveraged loan market and the syndicated loan market more broadly.
 
@@ -178,8 +176,8 @@ Source: Standard & Poor's, Leveraged Data and Commentary.
 
 ## Endnotes
 
-$^{1}$  KPMG, Credit Markets Update December 31, 2017  
-2 Bloomberg, Global Syndicated League Tables FY 2017  
-<sup>3</sup> Loan Syndications and Trading Association, 2017 Secondary Trading & Settlement Summary: A Record Year for Trading, January 30, 2018.  
-Source: Highland Capital.  
-5 Thomson Reuters LPC, Leveraged Loan Monthly April 2018.
+$^{1}$ KPMG, Credit Markets Update December 31, 2017
+$^{2}$ Bloomberg, Global Syndicated League Tables FY 2017
+$^{3}$ Loan Syndications and Trading Association, 2017 Secondary Trading & Settlement Summary: A Record Year for Trading, January 30, 2018.
+$^{4}$ Source: Highland Capital.
+$^{5}$ Thomson Reuters LPC, Leveraged Loan Monthly April 2018.

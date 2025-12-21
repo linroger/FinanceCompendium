@@ -42,11 +42,44 @@ $$
 e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e}.
 $$
 
-- Under additional assumptions about the liquidity benefits of the currency forward, the convenient yield can be measured from the Treasury CIP deviation  $x_{t}^{Treas}$ :
+```d2
+direction: right
 
-$$
-\lambda_{t}^{*} = - \frac{1}{1 - \beta^{*}} x_{t}^{T r e a s}.
-$$
+# Convenience Yield Concept Visualization
+convenience_yield: Convenience Yield {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+bond_yield: Bond Yield {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+risk_premium: Risk Premium {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+exchange_rate: Exchange Rate {
+  shape: oval
+  style.fill: "#f3e5f5"
+}
+
+convenience_yield -> bond_yield: Lowers yield
+convenience_yield -> exchange_rate: Strengthens currency
+risk_premium -> exchange_rate: Weakens currency
+
+note: |md
+  **Convenience Yield Effects:**
+  - Lowers bond yields (investors accept lower returns)
+  - Strengthens currency (higher demand for safe assets)
+  - Distinct from risk premium (compensation vs. non-pecuniary benefits)
+| {
+  near: bottom-center
+}
+```
 
 In this chapter, we consider an additional ingredient that drives currency returns: the bond convenience yields, which reflect the currencies' non-pecuniary qualities including liquidity, safety, and the ability to pledge as collateral.
 
@@ -367,7 +400,7 @@ we learn that the dollar exchange rate movement also raises the expected return 
 For the discussion in this section, we assume the random variables are jointly normally distributed. First, we can derive the home interest rate expression:
 
 $$
-r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1}) - \lambda_{t},
+r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} \operatorname{var}_{t} (m_{t + 1}) - \lambda_{t},
 $$
 
 which now contains the convenience yield term  $\lambda_{t}$ . When the home households' convenience yield is higher, the home bonds' interest rate is lower.
@@ -375,7 +408,7 @@ which now contains the convenience yield term  $\lambda_{t}$ . When the home hou
 Next, the foreign households' Euler equations can be expressed as
 
 $$
-\begin{array}{l} 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ - \lambda_{t}^{*} = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + \mathbb{E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} var_{t} (\Delta e_{t + 1}) + cov_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
+\begin{array}{l} 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} \operatorname{var}_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ - \lambda_{t}^{*} = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} \operatorname{var}_{t} (m_{t + 1}^{*}) + \mathbb{E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} \operatorname{var}_{t} (\Delta e_{t + 1}) + \operatorname{cov}_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
 $$
 
 Recall that the expected log excess return of the home currency against the foreign currency is defined as
@@ -399,13 +432,13 @@ If we compare this result to the benchmark case in Proposition 1.10, we note tha
 Similarly, there is an expression from the home households' perspective:
 
 $$
-\mathbb{E}_{t} [ - r x_{t + 1} ] = - cov_{t} (m_{t + 1}, - \Delta e_{t + 1}) - \frac{1}{2} var_{t} (\Delta e_{t + 1}) + \lambda_{t}.
+\mathbb{E}_{t} [ - r x_{t + 1} ] = - \operatorname{cov}_{t} (m_{t + 1}, - \Delta e_{t + 1}) - \frac{1}{2} \operatorname{var}_{t} (\Delta e_{t + 1}) + \lambda_{t}.
 $$
 
 Combined together, these expressions imply that the home and foreign investors need to agree on the combination of the equilibrium currency risk premium and the convenience yield from their different perspectives:
 
 $$
-- cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}^{*} = cov_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) + \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}, \tag{4.9}
+- \operatorname{cov}_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{var}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}^{*} = \operatorname{cov}_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) + \frac{1}{2} \operatorname{var}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}, \tag{4.9}
 $$
 
 which is a direct extension of Eq. (1.12) which does not consider convenience yields.
@@ -465,7 +498,7 @@ which implies that the variations in the exchange rate level are driven by the v
 This expression shows why it is natural to focus on the case in which home and foreign households derive different convenience yields, i.e.,  $\lambda_t \neq \lambda_t^*$ . If the home and foreign households have the identical convenience yield, i.e.,  $\lambda_t = \lambda_t^*$ , then, the exchange rate level is determined only by the risk-free rate differentials and the currency risk premia, both of which are driven by the SDFs via
 
 $$
-\begin{array}{l} \rho_{t} - \rho_{t}^{*} = - \log \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}\right) \right] + \log \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \right], \\ r p_{t} = - cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} var_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
+\begin{array}{l} \rho_{t} - \rho_{t}^{*} = - \log \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}\right) \right] + \log \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \right], \\ r p_{t} = - \operatorname{cov}_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{var}_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
 $$
 
 In other words, only the home and foreign households' convenience yield differential, rather than their convenience yield levels, matters for the exchange rate level.
@@ -513,7 +546,7 @@ $$
 However, when we introduce the convenience yield, the relationship between the interest rate and the currency value becomes more complicated. By the home households' Euler equation, the home interest rate level is determined by the home households' SDF and convenience yield:
 
 $$
-r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1}) - \lambda_{t}.
+r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} \operatorname{var}_{t} (m_{t + 1}) - \lambda_{t}.
 $$
 
 In the complete-market world, convenience yields may still affect exchange rates indirectly via their effect on relative marginal utilities, for example, by affecting the natural rate in the home country [Caballero, Farhi, and Gourinchas, 2021, Kekre and Lenel, 2021].
@@ -523,13 +556,13 @@ Holding other things constant, a higher convenience yield  $\lambda_{t}$  lowers
 This discussion shows that the yield-exchange rate relationship depends on the types of shocks we are considering [Jiang, Krishnamurthy, Lustig, and Sun, 2021b]. When we consider a monetary shock  $\varepsilon_t^m$  whose primary effect is to raise the home interest rate, we expect a positive yield-exchange rate relationship:
 
 $$
-cov_{t} \left(e_{t}, r_{t} \mid \varepsilon_{t}^{m}\right) \stackrel {\text{de f}} {=} cov_{t} \left(proj \left[ e_{t} \mid \varepsilon_{t}^{m} \right], proj \left[ r_{t} \mid \varepsilon_{t}^{m} \right]\right) > 0.
+\operatorname{cov}_{t} \left(e_{t}, r_{t} \mid \varepsilon_{t}^{m}\right) \stackrel {\text{def}} {=} \operatorname{cov}_{t} \left(\operatorname{proj} \left[ e_{t} \mid \varepsilon_{t}^{m} \right], \operatorname{proj} \left[ r_{t} \mid \varepsilon_{t}^{m} \right]\right) > 0.
 $$
 
 When we consider a demand shock  $\varepsilon_t^d$  whose primary effect is to raise the convenience yield, which lowers the bond yield while strengthening the currency, we expect a negative yield-exchange rate relationship:
 
 $$
-cov_{t} (e_{t}, r_{t} | \varepsilon_{t}^{d}) \stackrel {\mathrm{de f}} {=} cov_{t} (p r o j [ e_{t} | \varepsilon_{t}^{d} ], p r o j [ r_{t} | \varepsilon_{t}^{d} ]) <   0.
+\operatorname{cov}_{t} (e_{t}, r_{t} | \varepsilon_{t}^{d}) \stackrel {\mathrm{def}} {=} \operatorname{cov}_{t} (\operatorname{proj} [ e_{t} | \varepsilon_{t}^{d} ], \operatorname{proj} [ r_{t} | \varepsilon_{t}^{d} ]) <   0.
 $$
 
 The overall relationship between the interest rate and the exchange rate depends on the relative strength of these two effects.
@@ -538,9 +571,7 @@ This intuition also carries over to the case of long-term debt, whose yield also
 
 # 4.C Measuring the Convenience Yields
 
-Having described the role convenience yields play in exchange rate dynamics, we face the obvious question of how they are measured empirically. As indicated in Section 2.A.6, the convenience yields manifest themselves in many interest rate spreads. In this section, we
-
-discuss this issue in the context of the Treasury basis, which follows Jiang, Krishnamurthy, and Lustig [2021a].
+Having described the role convenience yields play in exchange rate dynamics, we face the obvious question of how they are measured empirically. As indicated in Section 2.A.6, the convenience yields manifest themselves in many interest rate spreads. In this section, we discuss this issue in the context of the Treasury basis, which follows Jiang, Krishnamurthy, and Lustig [2021a].
 
 Recall that a dollar forward allows investors to lock in the dollar exchange rate at a fixed rate  $f_{t}$  in the next period. Now, consider the following trading strategy. In period  $t$ , an investor converts 1 unit of dollar to  $\exp(e_{t})$  units of the foreign currency, and purchase foreign risk-free bonds. At the same time, the investor enters a currency forward contract to lock in the dollar exchange rate at  $f_{t}$  in period  $t + 1$  for  $\exp(e_{t} + r_{t}^{*})$  units of foreign currency.
 
@@ -713,16 +744,14 @@ which implies that the bond price today reflects the expectation of the bond's c
 Moreover, the next period's convenience yield  $\lambda_{t+1}$  is priced by the SDF  $m_{t,t+1}$  in the sense that their covariance also matters. We can rewrite the 2-period bond price as
 
 $$
-\begin{array}{l} p_{t} (2) = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right] \mathbb{E}_{t} \left[ \exp \left(\lambda_{t + 1}\right) \right] \\ + cov_{t} \left(\exp \left(m_{t, t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right], \exp \left(\lambda_{t + 1}\right)\right). \\ \end{array}
+\begin{array}{l} p_{t} (2) = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right] \mathbb{E}_{t} \left[ \exp \left(\lambda_{t + 1}\right) \right] \\ + \operatorname{cov}_{t} \left(\exp \left(m_{t, t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right], \exp \left(\lambda_{t + 1}\right)\right). \\ \end{array}
 $$
 
 On the right-hand side, the first term shows that a higher expected convenience yield increases the price of the 2-period bond today, and the second term shows that a more counter-cyclical convenience yield can additionally raise the bond price by lowering its risk premium.
 
 We can iteratively derive the valuation of the longer-term bonds from that of the nearer-term bonds. Jiang and Richmond [2022] provide a general affine expression for the bond price in this setting under the additional assumption that the SDF volatility and the convenience yield jointly follow an affine process. As we expected, the 1-period bond's convenience yield and its cyclical property affects not only the long-term bonds' expected service flows and prices, but also their cyclical properties and hence risk premia.
 
-More realistically, we can additionally assume that the investors derive utility from holding long-term bonds as well. In this case, we
-
-can generalize the function  $v$  as
+More realistically, we can additionally assume that the investors derive utility from holding long-term bonds as well. In this case, we can generalize the function  $v$  as
 
 $$
 \mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (\sum_{h = 1}^{H} w_{t} (h) q_{t} (h) p_{t} (h); \theta_{t})) \right],

@@ -1,7 +1,7 @@
 ---
 title: "Incomplete Markets"
 parent_directory: "International Finance"
-formatted: 2025-12-21 07:30:00 AM
+formatted: "2025-12-21 07:45:00 AM"
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:

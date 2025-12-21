@@ -1,18 +1,32 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 13: Commodities"
+parent_directory: "Analysis"
+formatted: "2025-12-21 07:00:00 AM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "claude-code"
+primary_tags:
+  - commodity derivatives
+  - convenience yield
+  - commodity seasonality
+  - futures contracts
+  - commodity swaps
+secondary_tags:
+  - real options
+  - agricultural commodities
+  - energy commodities
+  - basis swap
+  - swing contracts
+  - case-shiller index
+  - water futures
+  - california water index
+  - cme water futures
+  - contango backwardation
 cssclasses: academia
-title: Chapter 13
-linter-yaml-title-alias: Chapter 13
 ---
 
-# Chapter 13
+# Chapter 13: Commodities
 
-# Commodities
-
-# 13.1 Introduction
+## 13.1 Introduction
 
 Unlike the other fixed income securities (bonds and interest rate or FX swaps), commodities are physical assets that cannot be transferred easily. As a result, their derivatives naturally present very different pricing behaviors. These derivatives are commonly known as "real options".
 
@@ -23,11 +37,11 @@ CME classifies the commodities traded in their exchange as follows:
 3. live stock and meat (e.g. live cattle, port belly)
 4. energy (e.g. oil, gas)
 
-In addition to these "well-known" commodities, real estate is another type of commodity that is as popular and CME trades its futures contracts (i.e. Case-Shiller index futures). Similar to (or even more so) the above commodities, real estate properties suffers low liquidity. Furthermore, real estate values present a strong pattern of seasonality.
+In addition to these "well-known" commodities, real estate is another type of commodity that is as popular and CME trades its futures contracts (i.e. Case-Shiller index futures). Similar to (or even more so) the above commodities, real estate properties suffer low liquidity. Furthermore, real estate values present a strong pattern of seasonality.
 
 Liquidity and seasonality impact pricing of commodity derivatives more so than the usual factors (e.g. market factor and economic factor) that impact financial derivatives. Hence, it is not hard to imagine that commodity derivatives must be evaluated quite differently than financial derivatives in that their underlying assets bear very different risks.
 
-Last but not least, commodities are highly subject to storage capacities (this is especially so for agriculture products as the harvest times may not match the demand of the crops). Even anticipating a large demand in the future, suppliers of the commodities cannot make all the potential profits if the storage capacity is limited. As a natural result, the prices of commodity derivatives are also impacted the storage capacity (sometimes known as inventory).
+Last but not least, commodities are highly subject to storage capacities (this is especially so for agriculture products as the harvest times may not match the demand of the crops). Even anticipating a large demand in the future, suppliers of the commodities cannot make all the potential profits if the storage capacity is limited. As a natural result, the prices of commodity derivatives are also impacted by the storage capacity (sometimes known as inventory).
 
 # 13.2 Convenience Yield
 
@@ -45,7 +59,7 @@ Investors can calculate the convenience yield as the cost of insurance against p
 
 The convenience yield is simple to calculate if a commodity's future price, spot price, borrowing rate and time to maturity are known. The futures price is calculated as the spot price multiplied by Euler's number, or the mathematical constant  $e$ , raised to the power of the difference between the borrowing rate and the convenience yield multiplied by the time to maturity. Consequently, the convenience yield is solved to be the difference between the borrowing rate and one divided by the time to maturity multiplied by the natural log of the futures price divided by the spot price. This formula is used for continuously compounding rates and yields.
 
-For example, let's say that a trader wishes to calculate the convenience yield of West Texas Intermediate (WTI) crude oil for delivery one year from today. Assume that the annual borrowing rate is 2\%, the spot price of WTI crude oil is \$50.50 and the futures price of crude oil contracts expiring one year from today is \$45.50. Therefore, the convenience yield is calculated to be 12.43\% continuously compounded per year, or 0.02 - (1/1) * LN($45.50/$50.50).
+For example, let's say that a trader wishes to calculate the convenience yield of West Texas Intermediate (WTI) crude oil for delivery one year from today. Assume that the annual borrowing rate is 2\%, the spot price of WTI crude oil is \$50.50 and the futures price of crude oil contracts expiring one year from today is \$45.50. Therefore, the convenience yield is calculated to be 12.43\% continuously compounded per year, or $0.02 - (1/1) \cdot \ln(45.50/50.50)$.
 
 Let  $F_{t,T}$  be the forward price of an asset with initial price  $S_{t}$  and maturity  $T$ . Suppose that  $r$  is the continuously compounded interest rate for one year. Then, the non-arbitrage pricing formula should be
 
@@ -75,6 +89,46 @@ $$
 $$ where  $\ell$  is the convenience yield (or any leakage such as dividend yield (for index options), risk-free rate (for futures options), and foreign risk-free rate (for FX options)).
 
 In the case of real estate,  $\ell$  is rent.
+
+```d2
+direction: right
+
+spot_price: Spot Price\n$S_t$ {
+  style.fill: "#e3f2fd"
+}
+
+futures_price: Futures Price\n$F_{t,T}$ {
+  style.fill: "#f3e5f5"
+}
+
+convenience_yield: Convenience Yield\n$\ell$ {
+  style.fill: "#e8f5e9"
+}
+
+interest_rate: Risk-Free Rate\n$r$ {
+  style.fill: "#fff3e0"
+}
+
+spot_price -> futures_price: Cost of Carry {
+  label: Storage costs +\ninterest on capital
+}
+
+convenience_yield -> futures_price: Reduces forward price {
+  style.stroke-dash: 5
+  label: Backwardation when\n$\ell > r$
+}
+
+interest_rate -> futures_price: Increases forward price
+
+note: Relationship {
+  |md
+  **Contango**: $F > S$ (normal market)\n
+  **Backwardation**: $F < S$ (convenience yield > interest rate)\n
+  **Formula**: $F = S \cdot e^{(r - \ell)(T - t)}$
+  |
+  near: bottom-center
+}
+```
 
 # 13.3 Seasonality
 
@@ -305,7 +359,7 @@ Now, let's get to the meat of the issue at hand, how can a company use energy fu
 
 Figure 13.8: Henry Hub Natural Gas Futures
 
-Let's examine the case of a natural gas producer who wants to "lock in" the price of their future production in a given month. For sake of simplicity, let's assume that the producer is looking to hedge (by "fixing" or "locking" in the price) 10,000 MMBtu of their September production. To hedge their 10,000 MMBtu they could sell one NYMEX natural gas futures contract. If you had sold this one natural gas futures contract based on the closing price yesterday, contract at they would have hedged 10,000 MMBtu of their September production for 2.712/MMBtu.
+Let's examine the case of a natural gas producer who wants to "lock in" the price of their future production in a given month. For sake of simplicity, let's assume that the producer is looking to hedge (by "fixing" or "locking" in the price) 10,000 MMBtu of their September production. To hedge their 10,000 MMBtu they could sell one NYMEX natural gas futures contract. If you had sold this one natural gas futures contract based on the closing price yesterday, they would have hedged 10,000 MMBtu of their September production for 2.712/MMBtu.
 
 Let's now assume that it is August 29, the expiration date of the September natural gas futures contract. Because the producer does not want to make delivery of the futures contract the producer decides to buy back one September natural gas futures contract at the then, prevailing market price. As an aside, if held to expiration, the seller (short) of a futures contract is obligated to make delivery of the commodity while the buyer (long) of a futures contract is required to take delivery of (receive) the commodity.
 
@@ -315,17 +369,17 @@ On the other hand, if on August 29 the prevailing market price is  \$2.50/MMBtu,
 
 This same methodology also applies to oil and gas producers hedging their crude oil production with NYMEX or Brent Crude oil futures. Likewise, a similar but opposite methodology would apply to a natural gas end-user (consumer) who needs to hedge their exposure to potentially higher (rather than lower in the case of the producer) natural gas prices but rather than selling natural gas futures, as was the case with the producer, the consumer would buy a natural gas futures contract.
 
-Similarly, an end-user who needs to hedge their exposure to gasoline can hedge buy buying gasoline (RBOB) or diesel fuel could do so by purchasing a gasoline or diesel fuel futures contract.
+Similarly, an end-user who needs to hedge their exposure to gasoline can hedge by buying gasoline (RBOB) or diesel fuel futures contracts.
 
 While there are a quite a few details that need to be considered before a company buys or sells futures contracts to hedge energy commodity price risk, the methodology is pretty straightforward: If you need to hedge your exposure against potentially higher energy prices you can do so by buying an energy futures contract, if you need to hedge your exposure to declining energy prices you can do so by selling an futures contract.
 
-# 13.5.2 Index Futures
+## 13.5.2 Index Futures
 
-# Case-Shiller index futures.
+### Case-Shiller Index Futures
 
 The Standard & Poor's CoreLogic Case-Shiller Home Price Indices are repeat-sales house price indices for the United States. There are multiple Case-Shiller home price indices: A national home price index, a 20-city composite index, a 10-city composite index, and twenty individual metro area indices. These indices are calculated and kept monthly by Standard & Poor's, with data points calculated for the time period of January 1987 through the present. The indices kept by Standard & Poor are normalized to have a value of 100 in January 2000. These Indices are based on original work by economists Karl Case and Robert Shiller, in which their team calculated the home price index back to 1890. That index is normalized as such that 1890 has a value of 100. The Case-Shiller Index being kept on Shiller's website is updated quarterly. Due to the different set reference points, and perhaps calculation differences, the index numbers provided in each data set can be very different. For example, in 4th quarter 2013, the Standard and Poor 20 city index point was in the 160's, while the index point for 4th quarter on the Shiller data was in the 130's. Shiller claims in his book Irrational Exuberance that such a long series of home prices does not appear to have been published for any country.
 
-# MSAs
+### MSAs
 
 Investopedia:
 
@@ -347,7 +401,7 @@ For example, the Atlanta-Sandy Springs-Roswell metropolitan statistical area exe
 
 Real estate investors also use MSA data to study housing trends and population movement. In addition, applicants for certain social services may need to prove income levels below a fixed percentage of the median gross income in their metropolitan statistical area to qualify for help, including low-income housing and other forms of support.
 
-# 13.5.3 Swaps
+## 13.5.3 Swaps
 
 We introduced commodity swaps in Chapter ??. In this section, we explore more examples of commodity swaps. Recently, energy (crude oil, natural gas) has dominated the commodities markets.
 
@@ -395,7 +449,7 @@ As the results of both outcomes indicate, by purchasing a ULSD swap for \$1.3166
 
 While this example examined how swaps can be used to hedge diesel fuel price risk, the same methodology can also be used to hedge exposure to various energy commodities such as electricity, gasoline, jet fuel, natural gas, propane, etc. In addition, as previously mentioned, energy producers, refiners, traders and marketers can also utilize swaps to hedge their energy price risk. For example, if you are a crude oil producer looking to hedge your oil production, you could do so by selling crude oil swaps.
 
-# 13.5.4 Basis Swap
+## 13.5.4 Basis Swap
 
 Basis risk is the difference in price difference between a forward (futures) market and a cash (spot) market. In the energy markets there are three primary types of basis risk:
 
@@ -429,15 +483,15 @@ Figure 13.11: Energy Basis Swap Demonstration
 
 While this example focused on hedging jet fuel basis risk, the same methodology would apply to end-user basis risk hedging for nearly every energy commodity i.e. diesel fuel, natural gas, etc. If you would like to learn more about hedging basis risk, check out our previous posts, The Basics of Basis and Basis Risk and Revisiting Energy Basis Risk which includes several additional examples. And if that post still isn't informative enough for you to be able to determine how to analyze and hedge your basis risk, you are to contact us or leave a comment below.
 
-# 13.5.5 Option
+## 13.5.5 Option
 
-There are two primary types of options, call options (also known as a caps) and put options (also knows as floors). A call option provides the buyer of a call option with protection against rising prices. Conversely, a put option provides the buyer of the put option with protection against declining prices.
+There are two primary types of options, call options (also known as caps) and put options (also known as floors). A call option provides the buyer of a call option with protection against rising prices. Conversely, a put option provides the buyer of the put option with protection against declining prices.
 
 Energy consumers often utilize call options to mitigate their exposure to rising energy prices, including but not limited to electricity, diesel fuel, gasoline, heating oil, propane, etc.
 
 Energy producers often utilize put options to mitigate their exposure to declining energy prices, such as crude oil, natural gas and natural gas liquids.
 
-As an example of how an end-user (consumer) utilize a call option, let's assume that you're company has a large fleet and in order to ensure that your gasoline expenses do not exceed your budget, you need to cap the price of your anticipated cost of your gasoline consumption for a specific month. For sake of simplicity, let's assume that you are looking to hedge  $100\%$  of your anticipated, May 2011 gasoline consumption, which equates to 125,000 gallons.
+As an example of how an end-user (consumer) utilizes a call option, let's assume that your company has a large fleet and in order to ensure that your gasoline expenses do not exceed your budget, you need to cap the price of your anticipated cost of your gasoline consumption for a specific month. For sake of simplicity, let's assume that you are looking to hedge  $100\%$  of your anticipated, May 2011 gasoline consumption, which equates to 125,000 gallons.
 
 In order to do accomplish this you could purchase a May 2011, NYMEX RBOB gasoline, average price call option from an energy trading company. Furthermore, let's assume that you wanted to mitigate your exposure above \$3.00 per gallon (excluding basis and taxes). If you had purchased this option last Friday, it would have cost you approximately 13 cents per gallon or \$16,250 (0.1300 X 125,000 gallons).
 
@@ -447,7 +501,7 @@ In the first scenario, let's assume that fuel prices increase and that the avera
 
 In the second scenario, let's assume that fuel prices decrease and that the average price for NYMEX RBOB gasoline futures for each business day in May, was 2.75/gallon. In this scenario, your hedge would be "out-of-the-money" and you would not receive a return on the option. However, given that gasoline futures prices have decreased, so should your actual gasoline costs at the pump. Last but not least, given that you paid 13 cents for the option, your actual net cost per gallon would need to account for the 13 cent premium cost.
 
-As this example shows, purchasing a gasoline call option allows companies which consumes large quantities of gasoline to hedge their exposure against rising gasoline prices.
+As this example shows, purchasing a gasoline call option allows companies that consume large quantities of gasoline to hedge their exposure against rising gasoline prices.
 
 The following chart shows the "payoff" of the \$3.00 gasoline call option described above. As you can see, when gasoline futures are below \$3.00 per gallon, the company's net price is equal to the gasoline futures plus 13 cents (the price of the option). Conversely, when the futures are above 13 cents per gallon, the company's net price remains $3.13 ($3.00 + 0.13).
 
@@ -461,7 +515,7 @@ While it may sound complex, a consumer collar is simply the combination of buyin
 
 As an example, let's consider a NYMEX natural gas costless collar with a \$4.50 ceiling (call option) and a \$3.50 floor (put option). For a natural gas producer is protected against prices declining below \$3.50 while there upside would be limited to \$4.50. In between \$3.50 and \$4.50 the producer would be selling his production at the current market price. Conversely, a natural gas consumer would face the opposite situation, they would be protected against prices rising above \$4.50 while their downside would be limited to \$3.50. Likewise, in between \$3.50 and \$4.50, the consumer would be paying the current market price.
 
-# 13.6 Swing Contract
+## 13.6 Swing Contract
 
 In commodity and energy markets swing options allow the buyer to hedge against futures price fluctuations and to select its preferred delivery strategy within daily or periodic constraints, possibly fixed by observing quoted futures contracts.
 
@@ -491,15 +545,15 @@ Daily withdrawal rate:  $R_{w}$ , i.e. how much can you withdraw on a daily basi
 
 As I mentioned, I tried three different pricing approaches.
 
-NaN. Linear programming
+1. Linear programming
 
 The pricing problem is fully linear problem with local constraints (daily injection/withdrawal) and global constraints (storage start/end level), so can be easily solved with a standard optimizer. I actually found this one in a book about energy risk mgmt.
 
-NaN. Dynamic programming
+2. Dynamic programming
 
 Not much to say here, its very straightforward, no need to do the Monte-Carlo and Logstaff-Schwartz pricing.
 
-NaN. Reinforcement learning (Q-learning algorithm)
+3. Reinforcement learning (Q-learning algorithm)
 
 # Swing Contracts
 
@@ -590,7 +644,7 @@ $$
 $$ where  $\tilde{\mathbb{E}}_t^{(T_i)}$  is the  $T_{i}$ -forward expectation. With non-stochastic  $q_{i}$ , there is a closed-form solution to the price option (Chen (1992)) and LP can still solve the problem. In other words, as long as the optimal quantities are not random, stochastic interest rates do not add too much complexity to the problem. If quantities are random, then, there is no easy solution
 
 
-# 13.7 Water Futures
+## 13.7 Water Futures
 
 Bloomberg News:
 
@@ -613,7 +667,7 @@ About the NQH20 Index: Reflecting water prices
 
 The Nasdaq Veles California Water Index (ticket symbol: NQH2O) tracks the price of water rights leases and sales transactions across the five largest and most actively traded regions in California. Water entitlement transactions from the surface water market and four adjudicated groundwater basins –the Central Basin, the Chino Basin, the Main San Gabriel Basin, and the Mojave Basin Alto Subarea are included in the index. The value of the index reflects the volume-weighted average price of water, at the source, excluding conveyance costs and water losses in the underlying markets after adjusting for idiosyncratic pricing factors specific to each of the eligible markets and transaction types. NQH20 is valued in US dollars per acre foot (the volume of water required to cover one acre of land (43,560 square feet) to a depth of one foot, equivalent to 325,851 gallons)
 
-Contract Specifications
+### Contract Specifications
 
 <table><tr><td>CONTRACT NAME</td><td>Nasdaq Veles California Water Index futures</td></tr><tr><td>PRODUCT CODE</td><td>H2O</td></tr><tr><td>CONTRACT UNIT</td><td>10 acre feet x NGH2O Index</td></tr><tr><td>PRICE QUotation</td><td>US dollars per acre foot</td></tr><tr><td>CONTRACT MONTHS</td><td>Eight consecutive quarterly contracts (Mar, Jun, Sept Dec) plus nearest two serial months</td></tr><tr><td>MINIMUM PRICE FLUCTUATION</td><td>Outrights: \$1.00 per acre foot equal to \$10.00 per contract
 Calendar spreads: \$0.25 per acre foot equal to \$2.50 per contract</td></tr><tr><td>TRADING HOURS AND VENUE</td><td>Globex: Sunday - Friday 5:00 p.m. - 4:00 p.m. CT with a 60-minute break each day beginning at 4:00 p.m.

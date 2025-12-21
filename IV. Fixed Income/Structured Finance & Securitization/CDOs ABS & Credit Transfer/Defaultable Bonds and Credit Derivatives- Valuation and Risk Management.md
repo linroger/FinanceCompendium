@@ -30,6 +30,45 @@ cssclasses: academia
 
 This paper surveys the most common models and methodologies for valuing defaultable bonds and credit derivatives. Structural and reduced-form pricing models are discussed and credit modelling methodologies are compared with respect to their applicability to defaultable asset classes.
 
+```d2
+direction: right
+
+structural_models: Structural Models {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d3"
+}
+
+reduced_form_models: Reduced-Form Models {
+  shape: hexagon
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+firm_value: Firm Value\n& Volatility {
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+market_prices: Market Prices\n& Credit Spreads {
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+default_probability: Default\nProbability {
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+structural_models -> firm_value: Based on
+firm_value -> default_probability
+
+reduced_form_models -> market_prices: Inferred from
+market_prices -> default_probability
+
+structural_models -> reduced_form_models: Pioneered by\nMerton (1974)
+```
+
 ## 1 Introductory remarks
 
 In recent years, market participants witnessed increased activity in secondary corporate, particularly high-yield bond market, structured and synthetic credit products and derivatives. The amount of outstanding corporate debt as of September 30, 2002 was estimated at  \$4 trillion while asset-backs amounted to\$ 1.5 trillion and mortgage-based securities to  \$4.6 trillion. British Bankers Association estimated credit derivatives volumes to be close to\$ 2 trillion at the end of 2002 and expects them to increase to 4.8 trillion by end of 2004.
@@ -120,12 +159,51 @@ The likelihood of a possible cash flow shortfall is estimated based on WARF and 
 - early redemption risk;
 - manager expertise, operational support and compliance.
 
-# 4.2 The Binomial Expansion Method
+### 4.2 The Binomial Expansion Method
 
 The Binomial Expansion Method, originally introduced by Moody's in [30], is based on the Diversity Score concept. This concept employs an orthogonal projection of the space of defaultable assets onto an $D$-dimensional subspace. Here $D$ is the diversity score, the number of independent assets that are homogeneous and uncorrelated, determined by some suitable approximation. The (expected) loss is then calculated as
 
+```d2
+direction: down
+
+portfolio: Original\nPortfolio {
+  style.fill: "#f5f5f5"
+}
+
+diversity_score: Diversity Score\n(D assets) {
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d3"
+}
+
+basis_portfolio: Basis Portfolio\n(D homogeneous assets) {
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+loss_calculation: Loss Calculation {
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+expected_loss: E(Loss) = Σ Pⱼ × Lⱼ {
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+variance: Var(Loss) = Σ Pⱼ × (E(Loss) - Lⱼ)² {
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+portfolio -> diversity_score: Transform to
+diversity_score -> basis_portfolio: Create
+basis_portfolio -> loss_calculation: Apply binomial
+loss_calculation -> expected_loss
+loss_calculation -> variance
+```
+
 $$
-E(Loss) = \sum_{j=0}^{D} P_{j} L_{j}, \tag{1}
+E(Loss) = \sum_{j=0}^{D} P_{j} L_{j} \tag{1}
 $$ where
 
 
@@ -136,23 +214,23 @@ P_{j} = C_{D}^{j} p^{j} (1 - p)^{D - j} \tag{2}
 $$ is the probability of simultaneous $j$ defaults among the $D$ assets comprising the basis portfolio. The variance of loss is computed as
 
 $$
-\operatorname{Var}(Loss) = \sum_{j=0}^{D} P_{j} [E(Loss) - L_{j}]^{2}. \tag{3}
+\operatorname{Var}(Loss) = \sum_{j=0}^{D} P_{j} [E(Loss) - L_{j}]^{2} \tag{3}
 $$
 
 An expansion of this method which incorporates a state space of (discrete) recovery rates:
 
 $$
-E (L o s s) = \sum_ {j = 0} ^ {D} P _ {j} \sum_ {q = 1} ^ {n} \omega_ {q} L _ {j} \left(\alpha_ {q}\right), \tag {4}
+E(Loss) = \sum_{j=0}^{D} P_{j} \sum_{q=1}^{n} \omega_{q} L_{j}(\alpha_{q}) \tag{4}
 $$ where  $\alpha_{i}, i = \overline{1,n}$  are the possible values of the recovery rate corresponding to the default of  $j$ -th asset,  $\omega_{i}, i = \overline{1,n}$  are the corresponding probabilities. The variance of loss is computed as
 
 
 $$
 
-\operatorname {V a r} (\text {L o s s}) = \sum_ {j = 0} ^ {D} P _ {j} \sum_ {q = 1} ^ {n} \left[ E (\text {L o s s}) - L _ {j} \left(\alpha_ {q}\right) \right] ^ {2}. \tag {5}
+\operatorname{Var}(Loss) = \sum_{j=0}^{D} P_{j} \sum_{q=1}^{n} [E(Loss) - L_{j}(\alpha_{q})]^{2} \tag{5}
 
 $$
 
-# 4.3 Moody's LossCalc™
+### 4.3 Moody's LossCalc™
 
 Moody's defines recovery on a defaulted credit as its value approximately one month after default. Recovery rate is further defined as a percentage of par value of the defaulted debt. Loss given default (LGD) is then calculated as
 
@@ -162,22 +240,20 @@ LGD = 1 - \text{Recovery Rate} \tag{6}
 
 $$
 
-L G D = 1 - \text {R e c o v e r y} R a t e \tag {6}
+Moody's employs $\mathrm{LossCalc}^{\mathrm{TM}}$ [32] to predict potential loss in the event of default as
 
 $$
+\text{Potential Credit Loss} = \text{Probability of Default} \times \text{Loss Given Default} \tag{7}
+$$
 
-Moody's employs  $\mathrm{LossCalc}^{\mathrm{TM}}$  [32] to potential loss in the event of default as
-
-Potential Credit Loss  $=$  Probability of Default  $\times$  Loss Given Default (7)
-
-To predict LGD, LossCalc  $\mathbf{\tau}^{\mathrm{TM}}$  uses nine factors which can be grouped as follows:
+To predict LGD, $\mathrm{LossCalc}^{\mathrm{TM}}$ uses nine factors which can be grouped as follows:
 
 - debt-type (loan, bond, preferred stock) and seniority grade (secured, senior unsecured, subordinate etc.):
 - firm-specific capital structure: leverage and seniority standing;
 - industry: moving average of industry recoveries, banking industry indicator;
 - macroeconomic: one-year median default probability calculated using Moody's proprietary models and data, Moody's Bankrupt Bond Index, trailing 12-month speculative grade default rate, changes in the index of Leading Economic Indicators.
 
-# 5 Risk management
+## 5 Risk management
 
 Guo [2] suggested the following factors as the main constituents of an investment manager's risk profile: average NPV P&L;
 
@@ -197,7 +273,7 @@ Table 2: Credit risk models
 <table><tr><td>Name</td><td>Developed by</td><td>Basis and Assumptions</td><td>Advantages</td><td>Disadvantages</td></tr><tr><td>CreditMetrics TM</td><td>J.P. Morgan Chase</td><td>Merton&#x27;s approach [4], credit migration analysis, credit VaR</td><td>isolates the individual marginal risk contributions to the portfolio</td><td>heavily relies on historical data for defaults and credit migration; no market risk, no non-linear instruments</td></tr><tr><td>CreditPortfolio-View TM</td><td>McKinsey</td><td>multifactor model based on macroeconomic considerations</td><td>abstracts from firm-specific historical data</td><td>macroeconomic data may be hard to analyze and interpret</td></tr><tr><td>CreditRisk+ TM</td><td>Credit Suisse Financial Products</td><td>actuarial model: default modelled as Poisson process; default rates are stochastic</td><td>makes no assumptions about the causes of default, easy to implement, few inputs</td><td>no market risk, no non-linear instruments</td></tr><tr><td>CreditPortfolio-Manager TM</td><td>KMV Moody&#x27;s</td><td>actuarial multi-factor model: default rates are functions of macroeconomic variables</td><td>does not rely on historical agency data</td><td>firm value can be hard to estimate</td></tr></table>
 
 - a system of rating credits;
-- assumptions about correlation of probabilities of default (PD) across borrows;
+- assumptions about correlation of probabilities of default (PD) across borrowers;
 - assumptions about loss given default (LGD);
 - assumptions regarding the correlation between PD and LGD
 
@@ -214,19 +290,58 @@ The Basel Committee recommends the following simplifying assumptions when calcul
 - highest-quality borrowers have a correlation of 0.2;
 - high-risk borrowers have a correlation of 0.1.
 
-As pointed out by Altman et al [36], PD and LGD appear to be positively correlated, and if this indeed true, it may amplify the procyclicality of the default-recovery cycle, i.e., deteriorating business conditions lead to the tightening of capital requirements by the banks, which, in turn, adversely affects access to capital and the vicious cycle continues.
+As pointed out by Altman et al [36], PD and LGD appear to be positively correlated, and if this is indeed true, it may amplify the procyclicality of the default-recovery cycle, i.e., deteriorating business conditions lead to the tightening of capital requirements by the banks, which, in turn, adversely affects access to capital and the vicious cycle continues.
 
-# 6 Portfolio management
+## 6 Portfolio management
 
 Credit risk is conventionally decomposed into expected loss (EL) and unexpected loss (UL):
 
+```d2
+direction: right
+
+credit_risk: Credit Risk {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+  style.border-radius: 8
+}
+
+expected_loss: Expected Loss (EL) {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+  style.border-radius: 8
+}
+
+unexpected_loss: Unexpected Loss (UL) {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+  style.border-radius: 8
+}
+
+predictable: Predictable\n(Based on current conditions) {
+  style.fill: "#f5f5f5"
+}
+
+volatility: Volatility\n(Unexpected shocks) {
+  style.fill: "#f5f5f5"
+}
+
+credit_risk -> expected_loss: +
+credit_risk -> unexpected_loss: +
+
+expected_loss -> predictable: Characterized by
+unexpected_loss -> volatility: Characterized by
+```
+
 $$
 
-Credit Risk = Expected Loss + Unexpected Loss. \tag{8}
+\text{Credit Risk} = \text{Expected Loss} + \text{Unexpected Loss} \tag{8}
 
 $$
 
-EL is the expected value of portfolio losses given the current conditions, while UL is the volatility of portfolio losses. Methods for quantifying credit risk fall into two categories ( see [37]):
+EL is the expected value of portfolio losses given the current conditions, while UL is the volatility of portfolio losses. Methods for quantifying credit risk fall into two categories (see [37]):
 
 - loss-based method. The exposure is assumed to be held at maturity., i.e., is either repaid at par or defaults and is recovered. Credit migration has no effect on the value of the portfolio. This method can be used for loan portfolios where no market for the assets exists;
 - NPV-based method. The value of the portfolio is calculated using either through credit spreads or by marking-to-model. This method can be used for corporate bonds or credit derivatives where the market for the assets exists.
@@ -237,7 +352,7 @@ Portfolio models can be used for
 - credit risk concentrations and portfolio optimization;
 - sensitivity analysis and stress testing.
 
-# A.1 Calculation of firm asset value
+### A.1 Calculation of firm asset value
 
 The following calculation is based on the example given by Chance [34]. Let the firm assets be currently worth $A$, its market debt is worth $B$ and its equity is worth $S$. Then
 
@@ -257,20 +372,11 @@ $$ where $C_X(t,T)$ and $P_X(t,T)$ are the (per share) prices at time $t$ of a c
 
 $$
 
-S(t) = P(t, T) + A(t) - F e^{-r T}, \tag{A.3}
+S(t) = P(t, T) + A(t) - F e^{-r T} \tag{A.3}
 
-$$
+$$ where $A(t)$ and $F$ are expressed per share. The value of firm assets calculated this way can be input into a structural model.
 
-C _ {X} (t, T) = P _ {X} (t, T) + S (t) - X e ^ {- r T}, \tag {A.2}
-
-$$ where  $C_X(t,T)$  and  $P_X(t,T)$  are the ( per share ) prices at time  $t$  of a call and put on the firm stock struck at  $X$ ,  $S(t)$  is the price of a share of stock and  $r$  is the risk-free interest rate. Extending our analogy, observe that
-
-$$
-S (t) = P (t, T) + A (t) - F e ^ {- r T}, \tag {A.3}
-$$ where  $A(t)$  and  $F$  are expressed per share. The value of firm assets calculated this way can be input into a structural model.
-
-
-# A.2 An approximation for the default intensity when the recovery rate is known
+### A.2 An approximation for the default intensity when the recovery rate is known
 
 Consider a risky bond that is trading at par unit value at a spread $s$ over the current risk-free rate $r$ and matures at time $T \gg 1$. Under risk-neutral valuation with continuous compounding, its current value (1) can be expressed as (see [15]):
 
@@ -301,7 +407,7 @@ Therefore, if the recovery rate is known together with the bond spread to Treasu
 
 $$
 
-P _ {d} = \lambda \Delta t. \tag {A.8}
+P_{d} = \lambda \Delta t \tag{A.8}
 
 $$
 
@@ -309,13 +415,13 @@ A non-stationary default intensity  $\lambda(t)$  can be computed only if the pr
 
 $$
 
-P _ {d} = \int_ {t} ^ {t + \Delta t} \lambda (t) d t. \tag {A.9}
+P_{d} = \int_{t}^{t + \Delta t} \lambda(t) \, dt \tag{A.9}
 
 $$
 
-Equation (A.7) has important, albeit obvious, implications. First, the default intensity of a credit can be gauged by its spread to Treasury: The higher the spread, the higher the perceived probability of default. Second, in the unlikely event that the spread does not change even though the credit quality has deteriorated, it means that the expectation of the recovery rate has improved ( $1 - D$  has decreased, so  $D$  has increased). Conversely, if an improvement in credit quality does not lead to the narrowing of the spread, it means that the expectation of the recovery rate has fallen.
+Equation (A.7) has important, albeit obvious, implications. First, the default intensity of a credit can be gauged by its spread to Treasury: The higher the spread, the higher the perceived probability of default. Second, in the unlikely event that the spread does not change even though the credit quality has deteriorated, it means that the expectation of the recovery rate has improved ($1 - D$ has decreased, so $D$ has increased). Conversely, if an improvement in credit quality does not lead to the narrowing of the spread, it means that the expectation of the recovery rate has fallen.
 
-# References
+## References
 
 [1] Financial institutions plan to significantly increase CBO/CLO investments, Capital Market Risk Advisors, April 2000 http://www.cmra.com/cgi-bin/CLO-CBO.cgi
 [2] Guo, D., CDO: Securitization of loans and bonds, 2001 http://www.aimhi.com/VC/tcfa/DajiangGuo.pdf

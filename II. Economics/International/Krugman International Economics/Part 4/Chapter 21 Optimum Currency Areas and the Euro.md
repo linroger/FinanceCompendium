@@ -1,77 +1,182 @@
 ---
-aliases:
-- Optimum Currency Areas and the Euro
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 21: Optimum Currency Areas and the Euro'
-linter-yaml-title-alias: 'Chapter 21: Optimum Currency Areas and the Euro'
+title: "Chapter 21 Optimum Currency Areas and the Euro"
+parent_directory: Krugman International Economics
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- 692 european single currency
-- driven european monetary cooperation
+- optimum currency areas
+- european monetary union
+- euro currency system
 secondary_tags:
-- 21 optimum currency
-- single currency evolved 694
-tags_extracted: '2025-12-18T01:47:22.626391'
+- european single currency
+- monetary cooperation drivers
+- brexit implications
+- european monetary system
+- german monetary dominance
+- credibility theory ems
+- market integration initiatives
+- maastricht convergence criteria
+- stability growth pact
+- european central bank
+- eurosystem operations
+- exchange rate mechanism
+cssclasses: academia
 ---
 
-# 21 Optimum Currency Areas and the Euro 692
+# Optimum Currency Areas and the Euro
 
-How the European Single Currency Evolved 694
+```d2
+direction: right
 
-What Has Driven European Monetary Cooperation? 694
+European Monetary Integration: {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
 
-BOX:Brexit 695
+  "1979-1998\nEuropean Monetary System": {
+    style.fill: "#fff3e0"
+  }
 
-The European Monetary System, 1979-1998 698
+  "1999\nEuro Launch": {
+    style.fill: "#e8f5e9"
+  }
 
-German Monetary Dominance and the Credibility Theory of the EMS 699
+  "2002\nEuro Physical Currency": {
+    style.fill: "#e8f5e9"
+  }
 
-Market Integration Initiatives 701
+  "2010-2012\nEuro Crisis": {
+    style.fill: "#ffebee"
+  }
 
-European Economic and Monetary Union 701
+  "European Monetary System" -> "Euro Launch" -> "Euro Physical Currency"
+  "Euro Physical Currency" -> "Euro Crisis"
+}
 
-The Euro and Economic Policy in the Euro Zone 702
+note: "Evolution of European monetary integration from EMS to Euro crisis" {
+  near: bottom-center
+}
+```
 
-The Maastricht Convergence Criteria and the Stability and Growth Pact 703
+## How the European Single Currency Evolved
 
-The European Central Bank and the Eurosystem 704
+## What Has Driven European Monetary Cooperation?
 
-The Revised Exchange Rate Mechanism 704
+### BOX: Brexit
 
-The Theory of Optimum Currency Areas 705
+## The European Monetary System, 1979-1998
 
-Economic Integration and the Benefits of a Fixed Exchange Rate Area:
+## German Monetary Dominance and the Credibility Theory of the EMS
 
-The GG Schedule. 705
+## Market Integration Initiatives
 
-Economic Integration and the Costs of a Fixed Exchange Rate Area:
+## European Economic and Monetary Union
 
-The  $LL$  Schedule 707
+## The Euro and Economic Policy in the Euro Zone
 
-The Decision to Join a Currency Area: Putting the  $GG$  and  $LL$  Schedules
+## The Maastricht Convergence Criteria and the Stability and Growth Pact
 
-Together 709
+## The European Central Bank and the Eurosystem
 
-What Is an Optimum Currency Area? 711
+## The Revised Exchange Rate Mechanism
 
-Other Important Considerations 711
+## The Theory of Optimum Currency Areas
 
-CASE STUDY: Is Europe an Optimum Currency Area? 713
+```d2
+direction: down
 
-The Euro Crisis and the Future of EMU. 716
+Optimum Currency Areas Theory: {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
 
-Origins of the Crisis 716
+  "Benefits of Fixed Exchange Rates\n(GG Schedule)": {
+    style.fill: "#e8f5e9"
+    "↑ Economic Integration" -> "↓ Transaction Costs"
+    "↑ Economic Integration" -> "↑ Trade Volume"
+    "↑ Economic Integration" -> "↑ Price Transparency"
+  }
 
-Self-Fulfilling Government Default and the "Doom Loop" 722
+  "Costs of Fixed Exchange Rates\n(LL Schedule)": {
+    style.fill: "#ffebee"
+    "↑ Economic Integration" -> "↑ Asymmetric Shocks"
+    "↑ Economic Integration" -> "↓ Adjustment Flexibility"
+    "↑ Economic Integration" -> "↑ Unemployment Risk"
+  }
 
-A Broader Crisis and Policy Responses 723
+  "Optimum Currency Area\n(Benefits > Costs)": {
+    style.fill: "#e3f2fd"
+    "High Labor Mobility" -> "Low Adjustment Costs"
+    "Economic Similarity" -> "Symmetric Shocks"
+    "Fiscal Transfers" -> "Automatic Stabilizers"
+  }
 
-ECB Outright Monetary Transactions 725
+  "Benefits of Fixed Exchange Rates" -> "Optimum Currency Area"
+  "Costs of Fixed Exchange Rates" -> "Optimum Currency Area"
+}
+```
 
-Response to the COVID-19 Pandemic 725
+### Economic Integration and the Benefits of a Fixed Exchange Rate Area: The GG Schedule
 
-The Future of EMU. 726
+### Economic Integration and the Costs of a Fixed Exchange Rate Area: The $LL$ Schedule
 
-Summary 727
+### The Decision to Join a Currency Area: Putting the $GG$ and $LL$ Schedules Together
+
+## What Is an Optimum Currency Area?
+
+## Other Important Considerations
+
+### CASE STUDY: Is Europe an Optimum Currency Area?
+
+## The Euro Crisis and the Future of EMU
+
+```d2
+direction: right
+
+Euro Crisis Dynamics: {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+
+  "Crisis Origins": {
+    style.fill: "#fff3e0"
+    "Global Financial Crisis 2008" -> "Housing Bubble Burst"
+    "Housing Bubble Burst" -> "Banking Crisis"
+    "Banking Crisis" -> "Sovereign Debt Crisis"
+  }
+
+  "Doom Loop": {
+    style.fill: "#ffebee"
+    "Banking Crisis" -> "Government Bailouts"
+    "Government Bailouts" -> "Rising Sovereign Debt"
+    "Rising Sovereign Debt" -> "Bank Losses"
+    "Bank Losses" -> "Banking Crisis"
+    style.stroke-dash: 5
+  }
+
+  "Policy Responses": {
+    style.fill: "#e8f5e9"
+    "ECB OMT" -> "Market Stability"
+    "Fiscal Compact" -> "Debt Reduction"
+    "COVID-19 Response" -> "Economic Support"
+  }
+
+  "Crisis Origins" -> "Doom Loop"
+  "Doom Loop" -> "Policy Responses"
+}
+```
+
+### Origins of the Crisis
+
+### Self-Fulfilling Government Default and the "Doom Loop"
+
+### A Broader Crisis and Policy Responses
+
+### ECB Outright Monetary Transactions
+
+### Response to the COVID-19 Pandemic
+
+## The Future of EMU
+
+## Summary

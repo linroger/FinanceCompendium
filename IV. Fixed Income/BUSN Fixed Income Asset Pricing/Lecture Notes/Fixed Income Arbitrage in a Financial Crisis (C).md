@@ -106,9 +106,85 @@ An example of a collateralized loan was a repurchase agreement, or "repo." An in
 
 The difference between the rate at which banks could borrow without collateral and the rate at which banks could borrow if they posted appropriate collateral was an important measure of the credit worthiness of banks. A closely related spread was the Treasury-Eurodollar ("TED") spread, a widely followed measure of confidence in financial intermediaries. The TED spread was the difference between three-month LIBOR rate and the three-month Treasury bill yield; that is, the difference between lending unsecured to a bank and to the U.S. government. Exhibit 3 reproduces the historical TED spreads that Mills could see on his screen. Not surprisingly, since the TED spread was the difference between an uncollateralized risky loan and a safe loan to the US government, the spread had always been positive. Mills could see that the spread widened at times of financial crisis as investors sought the safety of government securities as opposed to unsecured deposits at banks. The TED spread closely tracked the difference between LIBOR and repo rates, since repo contracts are loans secured by government bonds.
 
+```d2
+direction: right
+
+LIBOR: LIBOR Rate {
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+TED_Spread: TED Spread {
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Treasury_Bill: 3M Treasury Bill Yield {
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+Repo_Rate: Repo Rate {
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+LIBOR -> TED_Spread: "Unsecured lending rate"
+Treasury_Bill -> TED_Spread: "Risk-free rate"
+TED_Spread -> Repo_Rate: "Tracks closely (difference = haircut)"
+```
+
+**Figure: TED Spread Components** - The TED spread measures the difference between risky unsecured bank borrowing (LIBOR) and risk-free government borrowing (Treasury bills). During crises, this spread widens as confidence in banks deteriorates.
+
 # A missed opportunity
 
-Mills had been startled by the negative swap spread that had momentarily appeared several days before, because he knew that he could have entered into a set of no-cost contracts that would have generated positive cash flows afterwards. For example, if he had entered into the thirty-year swap as a payer and simultaneously bought a U.S. Treasury of the same maturity and financed it with an overnight repo, he would have been obligated to pay a fixed rate on the swap that was less than the fixed rate yield he was receiving from the Treasury bond, since the swap spread was negative.[7] At the same time, the (uncollateralized) LIBOR rate that he would have been receiving from the variable leg of the swap would have been greater than the rate that he would have been paying on the overnight repo that financed his Treasury bond, since he would have used the bond to collateralize the overnight loan and receive a low, collateralized rate. In short, he would have received money from both the variable side of the trade and the fixed side of his trade, which to Mills seemed like free money. Exhibit 4 displays the flows of securities and money that Mills was pondering.
+Mills had been startled by the negative swap spread that had momentarily appeared several days before, because he knew that he could have entered into a set of no-cost contracts that would have generated positive cash flows afterwards. For example, if he had entered into the thirty-year swap as a payer and simultaneously bought a U.S. Treasury of the same maturity and financed it with an overnight repo, he would have been obligated to pay a fixed rate on the swap that was less than the fixed rate yield he was receiving from the Treasury bond, since the swap spread was negative.<sup>7</sup> At the same time, the (uncollateralized) LIBOR rate that he would have been receiving from the variable leg of the swap would have been greater than the rate that he would have been paying on the overnight repo that financed his Treasury bond, since he would have used the bond to collateralize the overnight loan and receive a low, collateralized rate. In short, he would have received money from both the variable side of the trade and the fixed side of his trade, which to Mills seemed like free money. Exhibit 4 displays the flows of securities and money that Mills was pondering.
+
+```d2
+direction: down
+
+Swap_Payer: Hedge Fund {
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+Swap_Receiver: Counterparty Bank {
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Treasury_Bond: Treasury Bond {
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+Repo_Lender: Repo Lender {
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+Swap_Payer -> Swap_Receiver: "Pay fixed rate\n(4.256%)" {
+  style.stroke: "#1976d2"
+}
+
+Swap_Receiver -> Swap_Payer: "Receive floating\n(LIBOR)" {
+  style.stroke: "#f57c00"
+}
+
+Swap_Payer -> Treasury_Bond: "Buy bond" {
+  style.stroke: "#388e3c"
+}
+
+Treasury_Bond -> Repo_Lender: "Post as collateral" {
+  style.stroke: "#c2185b"
+}
+
+Repo_Lender -> Swap_Payer: "Lend cash\n(repo rate)" {
+  style.stroke: "#c2185b"
+}
+```
+
+**Figure: Negative Swap Spread Arbitrage** - When swap spreads turn negative, hedge funds can construct riskless arbitrage by receiving fixed payments from Treasuries while paying lower fixed rates on swaps, financed by low repo rates. The trade captures the spread differential as "free money."
 
 # Another opportunity
 

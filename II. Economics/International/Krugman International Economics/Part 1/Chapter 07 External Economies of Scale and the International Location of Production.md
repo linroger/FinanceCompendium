@@ -1,9 +1,9 @@
 ---
-title: "Chapter 07: External Economies of Scale and the International Location of Production"
+title: Chapter 07 External Economies of Scale and the International Location of Production
 parent_directory: "Part 1"
-formatted: "2025-12-21 07:00:00 AM"
-formatter_model: "grok-code-fast-1"
-cli_tool: "opencode"
+formatted: 2025-12-21 11:55:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
 primary_tags:
 - external economies scale
 - international trade theory

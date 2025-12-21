@@ -1,25 +1,25 @@
 ---
-aliases:
-- Exchange Rates and the Foreign Exchange Market: An Asset Approach
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 14: Exchange Rates and the Foreign Exchange Market: An Asset Approach'
-linter-yaml-title-alias: 'Chapter 14: Exchange Rates and the Foreign Exchange Market:
-  An Asset Approach'
+title: Chapter 14 Exchange Rates and the Foreign Exchange Market An Asset Approach
+parent_directory: Krugman International Economics
+formatted: 2025-12-21 06:42:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- 382 exchange rates
-- expectations current exchange
+- exchange rates
+- foreign exchange market
+- asset approach
+- interest parity
 secondary_tags:
-- 14 exchange rates foreign
-- exchange market asset approach
-tags_extracted: '2025-12-18T01:47:02.451601'
+- spot rates
+- forward rates
+- covered interest parity
+- carry trade
+cssclasses: academia
 ---
 
-# 14 Exchange Rates and the Foreign Exchange Market: An Asset Approach 381
+# Chapter 14 Exchange Rates and the Foreign Exchange Market: An Asset Approach
 
-Exchange Rates and International Transactions 382
+## Exchange Rates and International Transactions
 
 Domestic and Foreign Prices 382
 

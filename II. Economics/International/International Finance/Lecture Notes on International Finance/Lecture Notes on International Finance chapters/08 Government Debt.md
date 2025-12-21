@@ -526,7 +526,7 @@ The infinite-horizon case has a similar interpretation, though its derivation is
 Proposition 8.6. Assume that the value function satisfies  $\lim_{t\to \infty}\psi (w_t,t) = 0$ . Then, the optimal solution  $\{c_t\}_{t = 0}^{\infty},\{d_t\}_{t = 0}^{\infty}$  to the households' problem implies the Euler equation (8.13) and the transversality condition
 
 $$
-\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] = 0.
+\lim_{t \to \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] = 0.
 $$
 
 The proof is in Appendix A.35. This proposition shows that the households optimally choose not to "leave money on the table" in the infinite horizon, which means to increase their savings  $d_{t}$  in the government bond portfolio at a rate higher than their discount rate  $\delta^{t}u^{\prime}(c_{t})$ . The households do not borrow an infinite amount of money by short-selling the government debt, either, which is ruled out by the no-short-sale constraint. This result emphasizes that the transversality condition is usually imposed by the households' optimal decision, just like the Euler equation (8.13).
@@ -534,7 +534,7 @@ The proof is in Appendix A.35. This proposition shows that the households optima
 Moreover, while this set-up considers only one type of assets in which households can deposit their savings, the extension to multiple assets is straight-forward. Let  $a_{t}$  denote the households' total savings and  $d_{t}$  denote the households' holdings of one asset that we denote as the government debt. Then, our derivation shows that the transversality condition holds at the portfolio level:
 
 $$
-\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) a_{t} \right] = 0.
+\lim_{t \to \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) a_{t} \right] = 0.
 $$
 
 Now, suppose the households' transversality condition for the government debt is violated, i.e.,
@@ -1045,5 +1045,3 @@ A prince, who should enact that a certain proportion of his taxes be paid in a p
 Our discussion shows that the issue of government debt valuation and sustainability is more complicated. Investors are willing to offer extra fiscal capacity to the world's safe asset supplier beyond what is warranted by its fiscal fundamentals and seigniorage revenues. When the safe asset supplier's relative fundamentals deteriorate, this extra fiscal backing is withdrawn by bond investors who then focus only on the country's fundamentals.
 
 3 More broadly, the strategic coordination issues between governments and policymakers enrich the possible outcomes in the international economy. Besides the classical tariff war studied by the international trade literature, recent papers study the strategic interaction along multiple fronts, including monetary policies [Egorov and Mukhin, 2019, Fontanier, 2023], trade and monetary policies [Auray, Devereux, and Eyquem, 2019], trade and containment policies [Acharya, Jiang, Richmond, and von Thadden, 2020], bank regulation [Clayton and Schaab, 2022], and geopolitics [Clayton, Maggiori, and Schreger, 2023]. A common theme is the emphasis on the exchange rate as both a policy instrument and a coordinated outcome.
-
-9

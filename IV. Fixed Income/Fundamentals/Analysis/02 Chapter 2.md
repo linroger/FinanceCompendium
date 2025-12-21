@@ -457,15 +457,10 @@ These LBIOR rates are only up to a year (Figure 2.8). To complete the LIBOR curv
 
 Figure 2.9: EuroDollar Futures
 
-ED futures prices are not forward prices. The former is the risk-neutral expectation of the bond price and the latter is the ratio of two bond prices. Hence to generate LIBOR curve, we must convert the futrues prices to forward prices. There are a number of different ways to do that. The easiest way is to do a simple convexity adjustment.
+ED futures prices are not forward prices. The former is the risk-neutral expectation of the bond price and the latter is the ratio of two bond prices. Hence to generate LIBOR curve, we must convert the futures prices to forward prices. There are a number of different ways to do that. The easiest way is to do a simple convexity adjustment.
 
 $$
-\text{fo rw ar d} = \text{fu tu re s} - \frac{1}{2} \sigma^{2} \tau_{i} \tau_{j}
-$$ where  $\tau_{1} = T_{i} - t$  and  $\tau_{2} = T_{j} - t$  are times to maturity of the futures contract and and the underlying bond respectively. $^{15}$
-
-
-In Chapter 9, we have the following futures rate equation (equation (9.19)):
-
+\text{futures rate} = 100 - \mathrm{QF P} \tag {2.10}
 $$
 
 \text{fu tu re sr at e} = 1 0 0 - \mathrm{QF P} \tag {2.10}
@@ -483,7 +478,7 @@ Recall that the forward rate is:
 
 $$
 
-\Psi \left(t, T_{i}, T_{i} + 1 / 4\right) = \frac{1}{1 + \frac{\text{fo rw ar dr at e}}{4}} \tag {2.11}
+\Psi \left(t, T_{i}, T_{i} + 1 / 4\right) = \frac{1}{1 + \frac{\text{forward rate}}{4}} \tag {2.11}
 
 $$
 
@@ -506,9 +501,9 @@ Because the equation is evaluated on the coupon date of both legs, the fixed leg
 
 <SeeExcel>
 
-# Remark
+## Remark
 
-It is understandable that LIBOR market (interbanks), Eurodollar futures market (CME), and swap market (OTC) are quite different in may ways (market microstructure, participants, locations, regulations, etc.) and hence no one would expect their rates are consistent. As a result, when building a curve using prices from these different markets, it is expected that the curve will not be continuous. As a result of that, various smoothing techniques are used. There is no consensus to which smoothing method is best.
+It is understandable that LIBOR market (interbanks), Eurodollar futures market (CME), and swap market (OTC) are quite different in many ways (market microstructure, participants, locations, regulations, etc.) and hence no one would expect their rates are consistent. As a result, when building a curve using prices from these different markets, it is expected that the curve will not be continuous. As a result of that, various smoothing techniques are used. There is no consensus to which smoothing method is best.
 
 #### 2.6.2 Is Curve
 
@@ -690,15 +685,15 @@ Many models assume a constant volatility value, or flat volatility curve. Yet re
 
 #### 2.8.1 Volatility Smile and Volatility Term Structure in Equities
 
-Volatility is defined as the standard deviation of the log price. In equity, volatility is defined as  $\sqrt{\mathbb{V}_t(\ln S_T) / (T - t)}$  where  $t$  is current time and  $T$  is maturity time of the option. In the Black-Scholes model, this quantity is assumed to be constant,  $\sigma$ . However, empirically, a overwhelming body of evidence suggests that this is not true.
+Volatility is defined as the standard deviation of the log price. In equity, volatility is defined as  $\sqrt{\mathbb{V}_t(\ln S_T) / (T - t)}$  where  $t$  is current time and  $T$  is maturity time of the option. In the Black-Scholes model, this quantity is assumed to be constant,  $\sigma$ . However, empirically, an overwhelming body of evidence suggests that this is not true.
 
-First, the literature has documented that stock returns are fat-tailed. That is, the possibility of extreme large profits and losses are more likely than what normality suggests. This causes the option prices for deep-in and deep-out-of the money to be underpriced by the Black-Scholes model. In other words, The Black-Scholes price is less than the market price using the same volatility as the at-the-money. As a result, we must jag up the volatility for in and out-of money options to match the market prices, causing a volatility smile.[18] See Figure 2.17 below.
+First, the literature has documented that stock returns are fat-tailed. That is, the possibility of extreme large profits and losses are more likely than what normality suggests. This causes the option prices for deep-in and deep-out-of the money to be underpriced by the Black-Scholes model. In other words, the Black-Scholes price is less than the market price using the same volatility as the at-the-money. As a result, we must jack up the volatility for in and out-of money options to match the market prices, causing a volatility smile.[18] See Figure 2.17 below.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/4eb90eb2e18e1d0672c49bbe6965a395c5479c5f57bf6f595e563c9eb81b479c.jpg)
 
 Figure 2.17: Volatility Smile/Skew
 
-Another empirical fact is that volatility is not constant over time. Figure 2.18 shows how volatile S&P 500 index is over time. Individual stocks are even more volati
+Another empirical fact is that volatility is not constant over time. Figure 2.18 shows how volatile S&P 500 index is over time. Individual stocks are even more volatile.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/ab12455670028101e5b93d0b8a4e06754b89ede8e6e56d6a7dd3dd7dd664a3ba.jpg)
 
@@ -713,32 +708,7 @@ $$
 If the volatility  $\sigma(u)$  is not constant (or even random) as the data suggest, then the result of the Black-Scholes will fail terribly. Then,
 
 $$
-\frac{1}{T - t} \int_{t}^{T} \sigma^{2} (u) d u
-$$ will demonstrate a curve (as a function of  $T$ ).
-
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/24cf8ea1b44062ea9d83721530a20c21d19162340a0797ed7e6de9cdc5114823.jpg)
-Figure 2.19: S&P Volatility Term Strucure
-
-Note that the volatility term structure is downward sloping empirically. This is partially known as the put option puzzle. $^{19}$  What it says is that short term put options are unreasonably expensive (calls as well). There are several explanations of such a phenomenon:
-
-- bid-ask spread
-
-Since out-of-money options are low in price, same bid-ask spreads will account for more price biases than more at or in-the-money options.
-
-- hedge
-
-Put options are common hedges (to prevent large losses). Since they are in high demand, their prices are unreasonably high.
-
-Combining volatility smile and term structure, practitioners watch over the entire volatility surface:
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/1337ca577d72b1d325309468bbe2e5ce93de0d6dab2a8b802ef308a10ef42c12.jpg)
-Figure 2.20: S&P Volatility Surface
-
-#### 2.8.2 Volatility Surface in Fixed Income
-
-Similarly, here the volatility is the standard deviation of the long bond price
-
+\text{forward} = \text{futures} - \frac{1}{2} \sigma^{2} \tau_{i}^{1 / 4}
 $$
 
 \sqrt{\mathbb {V} \left[ \frac{\ln P (T , s)}{s - T} \right]}
@@ -755,7 +725,7 @@ $$
 
 Note that at any future time  $T$ , the yield till  $s$  is the same as the spot rate. Hence, the volatility computed here is also known as the "rate volatility" or "rate vol".
 
-Given that the future time  $T$  and the time to maturity  $s^{\vee}T$  are arbitrary, there are a whole matrix of volatilities to specify, known as the volatility cube, as the diagram below depicts.
+Given that the future time  $T$  and the time to maturity  $s - T$  are arbitrary, there are a whole matrix of volatilities to specify, known as the volatility cube, as the diagram below depicts.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/93af7c33680cb88e997c96e1157730049797e4855bd891e2b8da9eabf1af9226.jpg)
 Figure 2.21: Interest Rate Volatility Cube
@@ -804,13 +774,13 @@ From option prices, we can back out the volatilities.
 
 ##### US Treasuries
 
-Available options on US Treasuries are options various interest rates and T bond futures options. Options on various Treasury interest rates (13-week, 5-year, 10-year, and 30-year) $^{20}$  are cash settled contracts but these contracts are not liquid. On the other hand, options on T bond futures are very liquid. However they contain complex delivery options (details are discussed in Chapter 9) and futures themselves are already derivatives. Hence T bond futures options are derivatives on derivatives.
+Available options on US Treasuries are options on various interest rates and T bond futures options. Options on various Treasury interest rates (13-week, 5-year, 10-year, and 30-year) $^{20}$  are cash settled contracts but these contracts are not liquid. On the other hand, options on T bond futures are very liquid. However they contain complex delivery options (details are discussed in Chapter 9) and futures themselves are already derivatives. Hence T bond futures options are derivatives on derivatives.
 
 There are not enough options to construct a volatility surface for Treasuries, as shown in Figure 10.5.
 
 ##### LIBOR
 
-However, the LIBOR market has a large number of options written on swaps (a.k.a. swaptions) which have the described structure by Figure 2.22. Hence, swaptions can provide a complete volatility surface for underlying LIBOR.
+However, the LIBOR market has a large number of options written on swaps (a.k.a. swaptions) which have the described structure shown in Figure 2.22. Hence, swaptions can provide a complete volatility surface for underlying LIBOR.
 
 Actually, besides swaptions, caps and floors and Eurodollar futures options are also LIBOR based options that can provide volatility information. In reality, these volatility numbers are often inconsistent with those from swaptions. While there seems to be arbitrage opportunities, we need to note that there is a liquidity difference (swaptions and caps/floors are traded on over-the-counter and Eurodollar futures options are traded on the exchanges (CME and LIFFE).)
 
@@ -837,7 +807,7 @@ FX forward curve is demonstrated in Figure 2.13. FX options are quoted quite dif
 75 delta
 90 delta
 
-The quotes are in Black volatility and one must translate the quotes to prices in order trade.
+The quotes are in Black volatility and one must translate the quotes to prices in order to trade.
 
 We will discuss the details of FX market in Chapter 6.
 
@@ -849,9 +819,9 @@ Figure 2.28: FX Volatility Curve
 
 ### Lognormal Vol (Black Vol) vs. Normal Vol (Basis Point Vol)
 
-Theoretically speaking, volatility is a result of a chosen model. Identically speaking, we match an option pricing model with the market price and solve for the volatility input as the implied volatility. To obtain a lognormal vol, the model must assume lognormality of the underlying asset. Similarly, to obtain a normal vol, the model must assume normality of the underlying asset, which is quite different from a lognormal model.
+Theoretically speaking, volatility is a result of a chosen model. Specifically speaking, we match an option pricing model with the market price and solve for the volatility input as the implied volatility. To obtain a lognormal vol, the model must assume lognormality of the underlying asset. Similarly, to obtain a normal vol, the model must assume normality of the underlying asset, which is quite different from a lognormal model.
 
-However, a short cut can be obtained via a stochastic process formula:[21]
+However, a shortcut can be obtained via a stochastic process formula:[21]
 
 $$
 

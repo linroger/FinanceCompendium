@@ -469,11 +469,59 @@ Yield curve examples: VZ vs US Treasury
 
 # Credit spreads and treasury benchmarks
 
-- "Treasury benchmark" = US treasury bond with same/similar maturity as the corporate bond  
-- "Spread to benchmark" = corporate bond yield - treasury benchmark yield  
-- "G-Spread" = corporate bond yield - interpolated treasury yield  
-- Credit spreads quantify the risk of credit issuer defaulting to bond maturity  
+- "Treasury benchmark" = US treasury bond with same/similar maturity as the corporate bond
+- "Spread to benchmark" = corporate bond yield - treasury benchmark yield
+- "G-Spread" = corporate bond yield - interpolated treasury yield
+- Credit spreads quantify the risk of credit issuer defaulting to bond maturity
 - Spread to benchmark  $=$  market convention for quoting IG bonds
+
+```d2
+direction: right
+
+# Credit Spread Types
+treasury_curve: Treasury Yield Curve {
+  shape: hexagon
+  style.fill: "#1976D2"
+  style.font-color: white
+}
+
+corporate_bond: Corporate Bond {
+  style.fill: "#F57C00"
+  style.font-color: white
+}
+
+benchmark_spread: Benchmark Spread {
+  style.fill: "#388E3C"
+  style.font-color: white
+}
+
+g_spread: G-Spread {
+  style.fill: "#7B1FA2"
+  style.font-color: white
+}
+
+z_spread: Z-Spread {
+  style.fill: "#C21807"
+  style.font-color: white
+}
+
+treasury_curve -> corporate_bond: "Corporate yield vs Treasury yields"
+
+corporate_bond -> benchmark_spread: "Yield - Treasury benchmark yield\n(Simple spread)"
+corporate_bond -> g_spread: "Yield - Interpolated Treasury yield\n(Interpolated spread)"
+
+treasury_curve -> z_spread: "Bootstrapped zero curve"
+z_spread -> corporate_bond: "Constant spread to all spot rates\n(Zero-volatility spread)"
+
+explanation: Spread Measures Credit Risk {
+  style.fill: "#FFF3E0"
+  style.font-size: 12
+}
+
+explanation -> benchmark_spread: "Market convention for IG bonds"
+explanation -> g_spread: "More precise interpolation"
+explanation -> z_spread: "Used for pricing and risk management"
+```
 
 # Spread curve example: VZ
 

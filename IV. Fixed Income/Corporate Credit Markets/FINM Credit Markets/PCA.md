@@ -16,7 +16,7 @@ secondary_tags:
 cssclasses: academia
 ---
 
-Copyright &copy; 2015 Ondrej Martinsky, All rights reserved
+Copyright © 2015 Ondrej Martinsky, All rights reserved
 
 [www.quantandfinancial.com](http://www.quantandfinancial.com)
 

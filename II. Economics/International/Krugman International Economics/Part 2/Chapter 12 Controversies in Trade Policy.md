@@ -1,58 +1,57 @@
 ---
-aliases:
-- Controversies in Trade Policy
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 12: Controversies in Trade Policy'
-linter-yaml-title-alias: 'Chapter 12: Controversies in Trade Policy'
+title: Chapter 12 Controversies in Trade Policy
+parent_directory: Krugman International Economics
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
 primary_tags:
-- 328 imperfect competition
-- controversies trade policy
+  - trade policy controversies
+  - strategic trade policy
+  - activist trade policy
 secondary_tags:
-- 12 controversies trade policy
-- arguments activist trade policy
-tags_extracted: '2025-12-18T01:46:58.613271'
+  - imperfect competition
+  - labor standards trade
+  - environmental trade issues
+  - globalization low wage labor
+  - pollution havens
+cssclasses: academia
 ---
 
-12 Controversies in Trade Policy 327
+# 12 Controversies in Trade Policy
 
-Sophisticated Arguments for Activist Trade Policy 328
+## Sophisticated Arguments for Activist Trade Policy
 
-Technology and Externalities 328
+### Technology and Externalities
 
-Imperfect Competition and Strategic Trade Policy 331
+### Imperfect Competition and Strategic Trade Policy
 
-BOX: A Warning From Intel's Founder 333
+#### BOX: A Warning From Intel's Founder
 
-CASE STUDY: When the Chips Were Up 334
+#### CASE STUDY: When the Chips Were Up
 
-Globalization and Low-Wage Labor 336
+## Globalization and Low-Wage Labor
 
-The Anti-Globalization Movement 336
+### The Anti-Globalization Movement
 
-Trade and Wages Revisited 337
+### Trade and Wages Revisited
 
-Labor Standards and Trade Negotiations 339
+### Labor Standards and Trade Negotiations
 
-Environmental and Cultural Issues 339
+## Environmental and Cultural Issues
 
-The WTO and National Independence 340
+### The WTO and National Independence
 
-CASE STUDY: A Tragedy in Bangladesh 341
+#### CASE STUDY: A Tragedy in Bangladesh
 
-Globalization and the Environment 342
+### Globalization and the Environment
 
-Globalization, Growth, and Pollution 342
+#### Globalization, Growth, and Pollution
 
-The Problem of "Pollution Havens" 344
+#### The Problem of "Pollution Havens"
 
-The Carbon Tariff Dispute 345
+#### The Carbon Tariff Dispute
 
-Trade Shocks and Their Impact on Communities 346
+### Trade Shocks and Their Impact on Communities
 
-Summary 347
-
-# PART 3 Exchange Rates and Open-Economy Macroeconomics 350
+## Summary
 

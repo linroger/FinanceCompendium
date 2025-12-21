@@ -15,44 +15,95 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# 4 Specific Factors and Income Distribution 77
+# Chapter 04: Specific Factors and Income Distribution
 
-The Specific Factors Model. 78
+## The Specific Factors Model
 
-BOX: What is a Specific Factor? 79
+### What is a Specific Factor?
 
-Assumptions of the Model 79
+## Assumptions of the Model
 
-Production Possibilities 80
+## Production Possibilities
 
-Prices, Wages, and Labor Allocation 83
+## Prices, Wages, and Labor Allocation
 
-Relative Prices and the Distribution of Income 87
+## Relative Prices and the Distribution of Income
 
-International Trade in the Specific Factors Model 89
+## International Trade in the Specific Factors Model
 
-Income Distribution and the Gains from Trade 90
+## Income Distribution and the Gains from Trade
 
-The Political Economy of Trade: A Preliminary View 93
+## The Political Economy of Trade: A Preliminary View
 
-The Politics of Trade Protection 94
+## The Politics of Trade Protection
 
-Trade and Unemployment 95
+## Trade and Unemployment
 
-CASE STUDY: U.S. Manufacturing Employment and Chinese Import Competition 96
+### U.S. Manufacturing Employment and Chinese Import Competition
 
-BOX:The Trump Trade War 98
+### The Trump Trade War
 
-International Labor Mobility 99
+## International Labor Mobility
 
-CASE STUDY: Wage and Social Benefits Convergence: Migrant Mobility in China. 101
+### Wage and Social Benefits Convergence: Migrant Mobility in China
 
-CASE STUDY: Immigration and the U.S. Economy 103
+### Immigration and the U.S. Economy
 
-Summary 105
+## Summary
 
-APPENDIX TO CHAPTER 4: Further Details on Specific Factors 110
+## APPENDIX TO CHAPTER 4: Further Details on Specific Factors
 
-Marginal and Total Product 110
+### Marginal and Total Product
 
-Relative Prices and the Distribution of Income 111
+### Relative Prices and the Distribution of Income
+
+```d2
+specific_factors_model: Specific Factors Model {
+  direction: right
+
+  labor: Labor (Mobile) {
+    shape: circle
+  }
+
+  capital: Capital (Specific to Manufacturing) {
+    shape: square
+  }
+
+  land: Land (Specific to Agriculture) {
+    shape: square
+  }
+
+  manufacturing_sector: Manufacturing Sector {
+    shape: rectangle
+  }
+
+  agriculture_sector: Agriculture Sector {
+    shape: rectangle
+  }
+
+  wages: Wages
+  rents: Rents
+
+  trade: International Trade
+
+  labor -> manufacturing_sector
+  labor -> agriculture_sector
+  capital -> manufacturing_sector
+  land -> agriculture_sector
+
+  manufacturing_sector -> wages
+  agriculture_sector -> wages
+  manufacturing_sector -> rents
+  agriculture_sector -> rents
+
+  trade -> manufacturing_sector
+  trade -> agriculture_sector
+  trade -> wages
+  trade -> rents
+
+  note: The specific factors model shows how trade affects income distribution between labor (mobile) and capital/land owners (sector-specific) {
+    near: bottom-center
+    shape: callout
+  }
+}
+```

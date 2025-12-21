@@ -687,7 +687,7 @@ $$d\bar{f}(t,\tau)=(\sum_{i=1}^k \bar{v}_i(t,\tau)\int_0^\tau v_i(t,s)ds+\frac{\
 
 We simulate by $f(t+dt)=f(t) + d\bar{f}$   where Musiela HJM SDE is $d\bar{f} =  m(t)dt+\sum(v_i*\phi*\sqrt{dt})+\frac{dF}{d\tau}dt$
 
-### today's instantenous forward rates $f(t_0, T)$
+### today's instantaneous forward rates $f(t_0, T)$
 
 ```python
 curve_spot = array(hist_rates[-1,:].flatten())[0]
@@ -756,7 +756,7 @@ title(r'Simulated $f(t,\tau)$ by $\tau$'), show();
 
 ## Pricing of trade using Monte Carlo
 
-### Define integrator for instatenous rates
+### Define integrator for instantaneous rates
 
 Integrating $f(t)$ over $n$ discrete samples:
 
@@ -843,4 +843,45 @@ print("Final value: %f" % pv_convergence_process[-1])
 
 ```python
 
+```
+
+```d2
+hjm_workflow: Heath-Jarrow-Morton Model Workflow {
+  direction: down
+
+  historical_data: Load Historical Forward Rates {
+    shape: stored_data
+  }
+
+  differentiate: Differentiate Historical Rates {
+    shape: step
+  }
+
+  pca: Principal Component Analysis {
+    shape: step
+  }
+
+  volatility: Calculate Discretized Volatility {
+    shape: step
+  }
+
+  fitting: Volatility Function Fitting {
+    shape: step
+  }
+
+  monte_carlo: Monte Carlo Simulation {
+    shape: step
+  }
+
+  pricing: Derivative Pricing {
+    shape: step
+  }
+
+  historical_data -> differentiate -> pca -> volatility -> fitting -> monte_carlo -> pricing
+
+  note: This workflow implements the HJM model for interest rate modeling and derivative pricing {
+    near: bottom-center
+    shape: callout
+  }
+}
 ```

@@ -1,11 +1,26 @@
 ---
-aliases: Exchange Traded Derivatives
-tags:
-key_concepts:
-parent_directory: Analysis
-cssclasses: academia
 title: Chapter 9 - Exchange Traded Derivatives
-linter-yaml-title-alias: Chapter 9 - Exchange Traded Derivatives
+parent_directory: Analysis
+formatted: 2025-12-21 06:31:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- exchange traded derivatives
+- futures contracts
+- bond futures
+- delivery options
+- pricing models
+secondary_tags:
+- treasury futures
+- eurodollar futures
+- options on futures
+- marking to market
+- convexity adjustments
+- quality options
+- timing options
+- ctd bonds
+- conversion factors
+cssclasses: academia
 ---
 
 # Chapter 9

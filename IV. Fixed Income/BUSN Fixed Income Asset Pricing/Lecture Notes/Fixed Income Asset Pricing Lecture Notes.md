@@ -1,7 +1,7 @@
 ---
 title: "Fixed Income Asset Pricing Lecture Notes"
 parent_directory: BUSN Fixed Income Asset Pricing
-formatted: 2025-12-21 11:03:25 AM
+formatted: 2025-12-21 11:45:30 AM
 formatter_model: claude-sonnet-4
 cli_tool: opencode
 primary_tags:
@@ -10,16 +10,31 @@ primary_tags:
    - bond valuation
    - term structure models
    - yield curve analysis
+   - duration and convexity
+   - forward rates
 secondary_tags:
    - treasury securities
    - coupon bonds
    - discount factors
-   - forward rates
    - repurchase agreements
    - floating rate notes
    - yield to maturity
    - day count conventions
    - bond equivalent yield
+   - zero coupon bonds
+   - bootstrapping methodology
+   - nelson siegel model
+   - macaulay duration
+   - modified duration
+   - price value basis point
+   - interest rate risk
+   - spread trades
+   - positive convexity
+   - duration hedging
+   - convexity hedging
+   - factor models
+   - principal component analysis
+   - expectations hypothesis
 cssclasses: academia
 ---
 
@@ -156,7 +171,7 @@ $$
 V = \left(1 + \frac{r}{n}\right)^{n \times T} \longrightarrow e^{r \times T}
 $$
 
-## Discounting
+### Discounting
 
 - Discounting is opposite process from the previous one.  
  - The question is: "what is the amount we have to invest today to have \$1 dollar in the future, given a rate r compounded n times per year?"  
@@ -172,15 +187,13 @@ $$
 Z (T) = \frac{1}{\left(1 + \frac{r}{n}\right)^{n \times T}} \longrightarrow Z (T) = e^{- r T}
 $$
 
-# Discounts and Rates
+## Discounts and Rates
 
-- Note that the compounding frequency is mostly a convention.  
-- The key question is:
+Note that the compounding frequency is mostly a convention. The key question is:
 
-"How much are investors willing to pay today to have \$1 at T".
+"How much are investors willing to pay today to have \$1 at T?"
 
-- Such price,  $Z(T)$ , is always well defined.  
-- Given  $Z(T)$ , we can derive the rate  $r_n$  for any given compounding frequency  $n$ :
+Such price, $Z(T)$, is always well defined. Given $Z(T)$, we can derive the rate $r_n$ for any given compounding frequency $n$:
 
 $$
 r_{n} = n \times \left(\frac{1}{Z (T)^{\frac{1}{n T}}} - 1\right)
@@ -192,20 +205,19 @@ $$
 r = - \frac{1}{T} \log (Z (T))
 $$
 
-# The Term Structure of Interest Rates
+## The Term Structure of Interest Rates
 
 - When we discount future cash flows to the present, different discount rates apply for different maturities.  
 - We denote the discount factor at  $t$  for a dollar to be received at time  $T$  by
 
 $$
-Z (t, T) = e^{- r (t, T) (T - t)}
+Z(t, T) = e^{-r(t, T)(T - t)}
 $$
 
-- $r(t, T) =$  continuously compounded yield at  $t$  for an investment up to  $T$ .  
-- We put two "time" indices:
+$r(t, T)$ is the continuously compounded yield at $t$ for an investment up to $T$. We put two "time" indices:
 
-1. $t =$  calendar time when the discounting is made (e.g. 1/31/2007,etc.)  
-2. $T =$  maturity date.  $\Rightarrow T - t =$  time to maturity
+1. $t$ is the calendar time when the discounting is made (e.g. 1/31/2007, etc.)
+2. $T$ is the maturity date. $\Rightarrow T - t$ is the time to maturity
 
 - Panel A of next figure shows  $Z(t,T)$  for  $t = 1/31/2007, 1/31/2008, \ldots, 3/20/2020$ , and for  $T - t$  ranging from 0 to 30 years  
 - Panel B of next figure shows the corresponding yields  $r(t, T)$
@@ -219,29 +231,25 @@ Panel B. Yield Curves
 
 (Data are from Gürkaynak, Sack, and Wright (2007), updated series.)
 
-# Yield Curves
+## Yield Curves
 
-- Yield curves change a lot over time.  
-- They also have many shapes:
+Yield curves change a lot over time. They also have many shapes:
 - Inverted hump (slightly, 1/31/2007)
-- Flat (e.g. 1/31/2007)  
-- Increasing (e.g. 1/30/2015)  
-Hump (e.g. 1/31/2009)
+- Flat (e.g. 1/31/2007)
+- Increasing (e.g. 1/30/2015)
+- Hump (e.g. 1/31/2009)
 
-* What generates the shape of the term structure of interest rates?  
-* What does it imply for derivative pricing etc?
+What generates the shape of the term structure of interest rates? What does it imply for derivative pricing etc?
 
-- Indeed, there is much variation not only in level but in slope of the yield curve
-- What do these variations tell us about investors' beliefs about future rates?  
-- What do they tell us about risk premia required to hold bonds?
+Indeed, there is much variation not only in level but in slope of the yield curve. What do these variations tell us about investors' beliefs about future rates? What do they tell us about risk premia required to hold bonds?
 
-Zero-Coupon Bond Yields  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/6d7e32d485d241d74263dea6da8cd655b4c5f388ccf60966733d45d791d58340.jpg)  
+Zero-Coupon Bond Yields
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/6d7e32d485d241d74263dea6da8cd655b4c5f388ccf60966733d45d791d58340.jpg)
 (Data: Yields up to 5 years are from CRSP. Yields from 10 to 30 are from Gurkaynak, Sack, and Wright (2007), updated series.)
 
-# Coupon Bonds
+## Coupon Bonds
 
-- What is the price of coupon bond?  
+What is the price of a coupon bond?  
 - A coupon bond is just a sequence of cash payments  $\frac{c}{2}$  (coupons) for dates  $T_{1}, T_{2}, \ldots, T_{n}$  and one big payment of  $100 + \frac{c}{2}$  (principal) at  $T_{n}$  (= maturity of the bond).  
 - If we know the time value of money for each maturity, that is, the discount function  $Z\left( {t,{T}_{i}}\right)$  for all maturities  ${T}_{i}$  's,a simple no arbitrage argument implies
 
@@ -251,11 +259,11 @@ $$
 
 - What is the arbitrage argument?
 
-# Coupon Bonds
+### Coupon Bond Arbitrage
 
-- Suppose that the price of the bond is trading at par (100) but the right-hand side is 105.
+Suppose that the price of the bond is trading at par (100) but the right-hand side is 105.
 
-– Then an arbitrageur can buy the bond (pay 100) and sell the strips (each cash payments) for a total of 105, thereby making \$5 (million). Since there is perfect matching of cash flows in the future, the trade is an arbitrage.
+Then an arbitrageur can buy the bond (pay 100) and sell the strips (each cash payments) for a total of 105, thereby making \$5 (million). Since there is perfect matching of cash flows in the future, the trade is an arbitrage.
 
 - Incidentally, notice that if  $t = 0$  and  $T_{i}$  are exact semi-annual maturities, that is  $T_{1} = .5$ ,  $T_{2} = 1$ ,  $T_{3} = 1.5$  etc., then we have  $2 \times T_{i} = i$  for every  $i = 1,..,n$ , and thus the formula reduces to
 
@@ -263,60 +271,56 @@ $$
 P (0, T_{n}) = \sum_{i = 1}^{n} \frac{c / 2}{(1 + r_{2} (0 , T_{i}) / 2)^{i}} + \frac{100}{(1 + r_{2} (0 , T_{n}) / 2)^{n}}
 $$
 
-# Conventions and Terminology
+## Conventions and Terminology
 
-- It is important to spend a few words on some market conventions and terminology.  
-Accrued Interest:
+It is important to spend a few words on some market conventions and terminology.
 
-- The market prices of bonds quoted in newspapers are clean prices. That is, they are quoted without any accrued interest.  
-- The accrued interest is the amount of interest that has built up since the last coupon payment.
+**Accrued Interest:**
 
-Accrued Interest = Interest Due in the Full Period ×
+The market prices of bonds quoted in newspapers are clean prices. That is, they are quoted without any accrued interest. The accrued interest is the amount of interest that has built up since the last coupon payment.
 
-Number of Days Since Last Coupon Date × Number of Days between Coupon Payments
+Accrued Interest = Interest Due in the Full Period × Number of Days Since Last Coupon Date × Number of Days between Coupon Payments
 
-- The actual payment is called invoice price (or dirty price).
+The actual payment is called invoice price (or dirty price).
 
-# Day Count Conventions
+## Day Count Conventions
 
-- How do we count days? Three main ways
+How do we count days? Three main ways:
 
-1. Actual/Actual: Simply Count the number of calendar days;  
-2. 30/360: Assume there are 30 days in a month and 360 in a year;  
-3. Actual/360: Each month has the right number of days, but there are only 360 days in a year.
+1. Actual/Actual: Simply count the number of calendar days
+2. 30/360: Assume there are 30 days in a month and 360 in a year
+3. Actual/360: Each month has the right number of days, but there are only 360 days in a year
 
-- Which convention it is used depend on the security considered.  
-- Treasuries use Actual/Actual.
+Which convention is used depends on the security considered. Treasuries use Actual/Actual.
 
-# Discount yield and Bond Equivalent Yield
+## Discount Yield and Bond Equivalent Yield
 
 - T-bills are quoted on a discount yield  $d$  basis. That is, the quote reports a yield.  
 - If  $n$  is the number of days to maturity, the price of the T-bill is
 
 $$
-P = 100 \times \left[ 1 - \frac{n}{360} \times d \right]
+P = 100 \times \left[1 - \frac{n}{360} \times d\right]
 $$
 
-- In other words
+In other words:
 
 $$
 d = \frac{100 - P}{100} \times \frac{360}{n}
 $$
 
-- Instead, it should be
+Instead, it should be:
 
 $$
 BEY = \frac{100 - P}{P} \times \frac{365}{n}
 $$
 
-- BEY = Bond Equivalent Yield  
-- Of course, we obtain
+BEY = Bond Equivalent Yield. Of course, we obtain:
 
 $$
 BEY = \frac{365 \times d}{360 - d \times n}
 $$
 
-# Yield-to-Maturity (or internal rate of return)
+## Yield-to-Maturity (or Internal Rate of Return)
 
 - Given price  $P(t,T)$  and cash flows  $c / 2$  at  $T_{i}$ 's for  $i = 1,..,n$ , and  $1 + c / 2$  at  $T_{n}$ , the (semi-annually compounded) yield-to-maturity YTM is defined as that rate  $y$  such that
 
@@ -346,9 +350,9 @@ What's the difference?
 
 What is the most attractive bond?
 
-# Yield-to-Maturity
+### Yield-to-Maturity Example
 
-- Judging from the Yield-to-Maturity, bond 3 looks great.  
+Judging from the Yield-to-Maturity, bond 3 looks great.  
 - However, it is dominated by a combination of 1 and 2, as we can mimic exactly its cash flows and find a (slightly) lower price.
 - Let  $N_{1}$  and  $N_{2}$ , be the number of the first and the second coupon bonds  
 - Then
@@ -365,16 +369,16 @@ $$
 - The value of this portfolio is  $N_{1} \times 98.57 + N_{2} \times 100.34 = 87.95 < 88$ .  
 - The YTM of the portfolio is even bigger: YTM=9.94%.
 
-# Yield to Maturity
+### Why Yield-to-Maturity is Problematic
 
-- Why is this happening?  
+Why is this happening?  
 - The YTM measures the average return on the bond under the assumption that all coupons are reinvested at the same rate  $y$ .  
 - With a non-flat term structure, this is simply not going to happen and using YTM for relative pricing yields bad results.  
-- The low coupon in bond 3 together with the fact that we cannot re-invest at the high rate of  $9.91\%$  for the whole life of the bond yields the implication that the third bond is "no better" than a portfolio of the other two (which have lower YTMs).
+The low coupon in bond 3 together with the fact that we cannot re-invest at the high rate of 9.91% for the whole life of the bond yields the implication that the third bond is "no better" than a portfolio of the other two (which have lower YTMs).
 
-# Floating Rate Notes
+## Floating Rate Notes
 
-- Floating rate notes are securities whose coupon is not fixed, but it depends on realized short-term rates  $r_t$ .
+Floating rate notes are securities whose coupon is not fixed, but it depends on realized short-term rates $r_t$.
   - If  $r_t$  increases  $\Rightarrow$  coupon increases. And vice versa.  
 - The U.S. Treasury started issuing floating rate notes (FRN) in January 2014.  
 - They pay quarterly coupons using the 13-week U.S. T-bill rate as a reference rate, plus a spread determined at the auction of the FRN.  
@@ -656,17 +660,17 @@ $$
 We find:
 
 $$
-Z \left(0, . 5\right) = 9 6. 1 5; Z \left(0, 1\right) = 9 2. 1 9;
+Z \left(0, 0.5\right) = 96.15; Z \left(0, 1\right) = 92.19;
 $$
 
 $$
-Z (0, 1. 5) = \frac{9 9 . 4 5 - . 0 4 2 5 \times (9 6 . 1 5 + 9 2 . 1 9)}{1 . 0 4 2 5} = 8 7. 7 2; \dots
+Z (0, 1.5) = \frac{99.45 - 0.0425 \times (96.15 + 92.19)}{1.0425} = 87.72; \dots
 $$
 
 - Since
 
 $$
-Z (0, T_{i}) = \frac{1 0 0}{\left(1 + \frac{r_{2} (0 , T_{i})}{2}\right)^{i}} \Longleftrightarrow r_{2} (0, T_{i}) = 2 \times \left(\left(\frac{1 0 0}{Z (0 , T_{i})}\right)^{\frac{1}{i}} - 1\right)
+Z (0, T_{i}) = \frac{100}{\left(1 + \frac{r_{2} (0 , T_{i})}{2}\right)^{i}} \Longleftrightarrow r_{2} (0, T_{i}) = 2 \times \left(\left(\frac{100}{Z (0 , T_{i})}\right)^{\frac{1}{i}} - 1\right)
 $$
 
 we obtain
@@ -682,7 +686,7 @@ Unfortunately, this is never the case.
 1. Assume a flexible functional form for  $Z(0,T)$ , such as (Nelson Siegel Model):
 
 $$
-Z (0, T_{j}) = 1 0 0 \times e^{- r (0, T_{j}) \times T_{j}}
+Z (0, T_{j}) = 100 \times e^{- r (0, T_{j}) \times T_{j}}
 $$
 
 $$
@@ -851,7 +855,7 @@ $$
 - Its price is
 
 $$
-P = \sum_{j = 1}^{n} \frac{c / 2}{\left(1 + \frac{y}{2}\right)^{j}} + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{n}} \tag {4}
+P = \sum_{j = 1}^{n} \frac{c / 2}{\left(1 + \frac{y}{2}\right)^{j}} + \frac{100}{\left(1 + \frac{y}{2}\right)^{n}} \tag {4}
 $$
 
 - The Macaulay duration is defined as
@@ -869,7 +873,7 @@ $$
 where
 
 $$
-w_{j} = \frac{1}{P} \left(\frac{c / 2}{\left(1 + \frac{y}{2}\right)^{j}}\right), w_{n} = \frac{1}{P} \left(\frac{c / 2 + 1 0 0}{\left(1 + \frac{y}{2}\right)^{n}}\right)
+w_{j} = \frac{1}{P} \left(\frac{c / 2}{\left(1 + \frac{y}{2}\right)^{j}}\right), w_{n} = \frac{1}{P} \left(\frac{c / 2 + 100}{\left(1 + \frac{y}{2}\right)^{n}}\right)
 $$
 
 # Modified Duration
@@ -894,7 +898,7 @@ $$
 - This is simply defined as
 
 $$
-P V B P = - \frac{d P}{d y} \times 0. 0 0 0 1 = M D \times P \times 0. 0 0 0 1
+PVBP = - \frac{d P}{d y} \times 0.0001 = MD \times P \times 0.0001
 $$
 
 - This is also called the dollar value of .01, or DV01.  
@@ -922,7 +926,7 @@ $$
 - Suppose  $n_{30} = 100$  million (par amount), we can compute the amount of two year notes necessary to hedge the position:
 
 $$
-n_{2} = 1 0 0 \times \frac{1 2 0 0 . 6 4 3}{1 8 7 . 3 6 0 2} = 6 4 1
+n_{2} = 100 \times \frac{1200.643}{187.3602} = 641
 $$
 
 - The trader will go long 641 million (par amount) of the two year bond, and go short 100 million par amount of the 30-year T-Bond.  
@@ -953,7 +957,7 @@ This becomes
 Profits?
 
 $$
-\operatorname{Pr of it} (\text{Lo ss es}) = (\mathrm{A}) + (\mathrm{B}) + (\mathrm{C}) + (\mathrm{D}) = (3, 2 5 1)
+\operatorname{Profit} (\text{Losses}) = (\mathrm{A}) + (\mathrm{B}) + (\mathrm{C}) + (\mathrm{D}) = (3,251)
 $$
 
 - The trader lost money, even if the spread did increase.  
@@ -996,7 +1000,7 @@ Duration plus Convexity Approximation
 Using Equation (5) and given  $D = 20$  and  $C = 20^2 = 400$ , we find
 
 $$
-E \left[ \frac{d P}{P} \right] \approx - 2 0 \times E [ d r ] + \frac{1}{2} \times 4 0 0 \times E [ d r^{2} ] (6)
+E \left[ \frac{d P}{P} \right] \approx - 20 \times E [ dr ] + \frac{1}{2} \times 400 \times E [ dr^{2} ] (6)
 $$
 
 - Predicting variation in interest rates over a short period (daily) is very hard. So,  $E[dr] = 0$  is a good approximation. However, note that  $E[dr^2] = Var(dr) > 0$ .
@@ -1010,7 +1014,7 @@ Data Source: CRSP.
 - From data, we can estimate the daily variance of interest rates of about  $E[dr^2] = 5.5351 \times 10^{-007}$ , implying
 
 $$
-E \left[ \frac{d P}{P} \right] = - 2 0 \times 0 + \frac{1}{2} \times 4 0 0 \times E [ d r^{2} ] = 1. 1 1 \times 1 0^{- 0 4} > 0 \tag {7}
+E \left[ \frac{d P}{P} \right] = - 20 \times 0 + \frac{1}{2} \times 400 \times E [ dr^{2} ] = 1.111 \times 10^{-04} > 0 \tag {7}
 $$
 
 - Although this number seems extremely small, it is a daily expected return.
@@ -1027,7 +1031,7 @@ Annualized expected return from convexity  $= 1.11 \times 10^{-04} \times 252 = 
 - Let the yield curve be flat at the continuously compounded rate of  $4.5\%$ .
 
 $$
-- \Longrightarrow P_{c} (t, T) = \$ 1 0 3. 5 8, D = 8. 0 3, a n d C = 7 3. 8 7.
+- \Longrightarrow P_{c} (t, T) = \$ 103.58, D = 8.03, and C = 73.87.
 $$
 
 - The approximate losses from an increase in  $r$  of  $1\%$  are

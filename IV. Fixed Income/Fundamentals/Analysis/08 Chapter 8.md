@@ -1,18 +1,38 @@
 ---
-aliases: Other Swaps
-tags:
-key_concepts:
+title: Other Swaps
 parent_directory: Analysis
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - variance swap
+  - volatility swap
+  - total return swap
+  - inflation swap
+  - equity swap
+  - commodity swap
+secondary_tags:
+  - forward starting variance swap
+  - variance futures
+  - year-on-year inflation swap
+  - zero coupon inflation swap
+  - equity index swap
+  - commodity price hedging
+  - credit risk transfer
+  - real estate derivatives
+  - inflation risk management
+  - volatility trading
+  - synthetic real estate
+  - property derivatives
+  - swap contract mechanics
+  - variance notional
+  - vega notional
 cssclasses: academia
-title: Chapter 8 - Other Swaps
-linter-yaml-title-alias: Chapter 8 - Other Swaps
 ---
-
-# Chapter 8
 
 # Other Swaps
 
-# 8.1 Variance Swap
+## 8.1 Variance Swap
 
 As its name suggests, a variance swap (or var swap) exchanges one variance measure for another. Usually it is the implied variance swapping for actual variance. Since implied variance reflects an expected variance of the future (for a given tenor), variance swaps can be regarded as expected views versus actual results.
 
@@ -26,6 +46,64 @@ The variance swap, in mathematical terms, is the arithmetic average of the squar
 
 Directional traders use variance trades to speculate on future levels of volatility for an asset, spread traders use them to bet on the difference between realized volatility and implied volatility, and hedge traders use swaps to cover short volatility positions.
 
+```d2
+direction: right
+
+# Types of Swaps Overview
+variance_swap: Variance Swap {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+volatility_swap: Volatility Swap {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+total_return_swap: Total Return Swap {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+}
+
+inflation_swap: Inflation Swap {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+equity_swap: Equity Swap {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+commodity_swap: Commodity Swap {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#e91e63"
+}
+
+variance_swap -> volatility_swap: Related (convexity adjustment)
+variance_swap -> total_return_swap: Different risk transfer
+total_return_swap -> inflation_swap: Similar structure
+inflation_swap -> equity_swap: Cash flow exchange
+equity_swap -> commodity_swap: Underlying asset types
+
+note: |md
+  **Swap Types:**
+  - Variance/Volatility: Pure volatility exposure
+  - Total Return: Credit + market risk transfer
+  - Inflation: Inflation risk hedging
+  - Equity: Stock/index performance
+  - Commodity: Commodity price risk
+| {
+  near: top-center
+}
+```
+
 A variance swap is a pure-play on an underlying asset's volatility. Options also give an investor the possibility to speculate on an asset's volatility. But, options carry directional risk, and their prices depend on many factors, including time, expiration, and implied volatility. Therefore, the equivalent options strategy requires additional risk hedging to complete.
 
 Unlike options that require delta hedging, variance swaps do not require additional hedging. Also, the payoff at maturity to the long holder of the variance swap is always positive when realized volatility is more significant than the strike. The analogy can be made to CDS (which is a swap contract) versus a default protection option.
@@ -35,7 +113,7 @@ Buyers and seller of volatility swaps should know that any significant jumps in 
 According to Bossu and Wasserstein (2016), a term sheet is given in Figure 8.1. The floating leg of the swap pays a historically calculated variance:
 
 $$
-\sigma^{2} = \frac{1 0 , 0 0 0 \times 2 5 2 \times \sum_{i = 1}^{n_{A}} r_{i}^{2}}{n_{E}}
+\sigma^{2} = \frac{10,000 \times 252 \times \sum_{i = 1}^{n_{A}} r_{i}^{2}}{n_{E}}
 $$ where
 
 
@@ -83,7 +161,7 @@ The variance swap payout, expressed in vega notional, is locally linear around t
 
 For a vega notional of €100k, a gain of €500k is expressed as a profit of 5 Vegas (i.e. 5 times the vega notional).
 
-# 8.1.1 Volatility Swap
+### 8.1.1 Volatility Swap
 
 The fair strike of a variance swap is slightly higher than that of a volatility swap. This is to compensate for the fact that variance is convex in volatility, as illustrated in Exhibit 2 in the next page. Identical strikes for the two instruments would otherwise lead to an arbitrage.
 
@@ -118,7 +196,7 @@ $$
 For example, with  $K_{1\mathrm{Y}\mathrm{var}} = 18.5$  and  $K_{1\mathrm{Y}\mathrm{var}} = 19.5$ , the fair strike of a 2-year variance swap starting in 1 year would be:
 
 $$
-\sqrt{\frac{3 \times 1 9 . 5^{2} - 1 \times 1 8 . 5^{2}}{2}} \approx 2 0
+\sqrt{\frac{3 \times 19.5^{2} - 1 \times 18.5^{2}}{2}} \approx 20
 $$
 
 The corresponding replication strategy for a long €h100,000 forward vega notional position (equivalent to 2,500 forward variance units) would be to buy  $3 \times 2,500 / 2 = 3,750$  variance units of the 3-year variance swap and sell  $2,500 / 2 = 1,250$  variance units of the 1-year.

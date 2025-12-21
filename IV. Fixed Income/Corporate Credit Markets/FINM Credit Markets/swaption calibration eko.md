@@ -19,7 +19,7 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# swaption calibration eko
+# Swaption Calibration Eko
 
 ```python
 import matplotlib.pyplot as plt

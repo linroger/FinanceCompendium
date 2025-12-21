@@ -1,34 +1,49 @@
 ---
-aliases: Duration and Convexity
-tags:
-key_concepts:
-parent_directory: Analysis
-cssclasses: academia
 title: Chapter 3 - Duration and Convexity
-linter-yaml-title-alias: Chapter 3 - Duration and Convexity
+parent_directory: Analysis
+formatted: 2025-12-21 06:31:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- duration convexity
+- bond valuation
+- interest rate risk
+- yield curve analysis
+- immunization strategies
+secondary_tags:
+- macaulay duration
+- modified duration
+- effective duration
+- convexity measures
+- yield curve trading
+- barbell strategy
+- key rate duration
+- pv01 dv01
+- weighted average life
+cssclasses: academia
 ---
 
 # Chapter 3
 
-# Duration and Convexity
+## Duration and Convexity
 
-# 3.1 Introduction
+## 3.1 Introduction
 
 Duration and convexity are very close to delta and gamma in option. It is first and second order derivatives of the bond price (or any fixed income security) with respect to a specific interest rate (or a collection of interest rates). Depending on which interest rate(s) chosen, we have different durations and convexities. This lesson introduces various duration and convexity calculations and how to use them. Finally, we shall talk about a very simple idea of immunization.
 
 Recall equation (1.2) in Chapter 1 which will be used in our first part of the chapter as a demonstration. In that equation, the discount periods are integers. There is no yearfraction which is the reality when we compute the duration and convexity of an actual case.
 
-# 3.1.1 Taylor's Series Expansion
+### 3.1.1 Taylor's Series Expansion
 
 In the universe of fixed income, participants believe that the price of a fixed income security (bond, swap, …) is a function of the yield curve. Hence, the change in the price is then a result of the rate change. Taylor's series expansion then provides a nice tool to analyze how the changes of various interest rates affect the price of the fixed income security.
 
 Let  $P$  (later, time indices will be added for accuracy) be the price of a fixed income security and  $y_{i}$  be the  $i$ -th interest rate on the yield curve that affects the price. Then Taylor's series expansion gives:
 
-$$ d P \left(y_{1}, y_{2}, \dots y_{n}, t\right) = \frac{\partial P}{\partial t} d t + \sum_{j = 1}^{n} \frac{\partial P}{\partial y_{j}} d y_{j} + \frac{1}{2} \sum_{i = 1}^{n} \sum_{j = 1}^{n} \frac{\partial^{2} P}{\partial y_{i} \partial y_{j}} d y_{i} d y_{j} + o (d t) \tag {3.1}
+$$ d P \left(y_{1}, y_{2}, \dots y_{n}, t\right) = \frac{\partial P}{\partial t} d t + \sum_{j = 1}^{n} \frac{\partial P}{\partial y_{j}} d y_{j} + \frac{1}{2} \sum_{i = 1}^{n} \sum_{j = 1}^{n} \frac{\partial^{2} P}{\partial y_{i} \partial y_{j}} d y_{i} d y_{j} + o (d t) \tag{3.1}
 $$ where  $o(dt)$  includes terms that are small and  $\lim_{dt\to 0}\frac{o(dt)}{dt} = 0$ . The first term is similar to Theta in option and known as "roll-down" on the yield curve. As time goes by, the life of a fixed income security becomes shorter. If nothing else in the economy changes (hence, the yield curve stays exactly the same), the yield will become less (in an upward sloping situation). The second term is duration with respect to various interest rates, and the third is convexity with respect to various interest rates.
 
 
-# 3.2 Duration
+## 3.2 Duration
 
 We return to equation (1.2) where no yearfraction is considered. We first use the case of annual coupons to demonstrate and then use both annual and semi-annual coupons in the numerical examples.
 
@@ -55,7 +70,7 @@ The MaCaulay duration is defined as the interest rate sensitivity but scaled by 
 
 $$
 
-D_{\mathrm{Ma Ca ul ay}} = - \frac{\partial P}{\partial y} \frac{1 + y}{P} \tag {3.2}
+D_{\mathrm{MaCaulay}} = - \frac{\partial P}{\partial y} \frac{1 + y}{P} \tag{3.2}
 
 $$ which can be shown as:
 
@@ -119,7 +134,7 @@ D_{\mathrm{Ma Ca ul ay}} = \frac{1}{m} \frac{1}{P} \left[ \sum_{i = 1}^{m n} i \
 
 $$
 
-# Modified MaCaulay Duration
+### Modified MaCaulay Duration
 
 The modified MaCaulay duration is simply to multiply the MaCaulay duration by  $1 + y$ .
 
@@ -136,7 +151,7 @@ Assume a  $8\%$ , 10-year, face = \$100,000 coupon bond and its current price = 
 If the coupons are paid annually, then we solve the following equation for the yield (e.g. Excel Solver to solve for the yield so that the price which at the bottom of Table ?? is equal to 105,000):
 
 $$
-1. 0 5 = \sum_{i = 1}^{1 0} \frac{0 . 0 8}{(1 + y)^{i}} + \frac{1 . 0 8}{(1 + y)^{1 0}}
+1.05 = \sum_{i = 1}^{10} \frac{0.08}{(1 + y)^{i}} + \frac{1.08}{(1 + y)^{10}}
 $$ and the answer is  $y = 7.2789\%$ .
 
 The duration under annual coupons is to apply equation (3.7) and set  $m = 1$ . A convenient tabulated form is given in Table ??. The discount factor in the Table is
@@ -148,7 +163,7 @@ Table 3.1: Duration: Annual Coupons
 The MaCaulay duration is simply the sum of  $\mathrm{PV} \times t$  and divided by the current price of the bond:
 
 $$
-\$ 768,488.55 \div \$ 105,000.00 = 7.32 (\text{ye ar s})
+\$ 768,488.55 \div \$ 105,000.00 = 7.32 (\text{years})
 $$
 
 This tabulation method is quite popular as it lays out all the details and very efficient to be used in Excel.
@@ -156,7 +171,7 @@ This tabulation method is quite popular as it lays out all the details and very 
 If the coupons are paid semi-annually, then we solve the following equation for the yield (e.g. Excel Solver):
 
 $$
-1. 0 5 = \sum_{i = 1}^{1 0} \frac{0 . 0 4}{(1 + y / 2)^{i}} + \frac{1 . 0 4}{(1 + y / 2)^{2 0}}
+1.05 = \sum_{i = 1}^{10} \frac{0.04}{(1 + y / 2)^{i}} + \frac{1.04}{(1 + y / 2)^{20}}
 $$ and the answer is  $y = 7.2872\%$ .
 
 
@@ -166,7 +181,7 @@ Again, the MaCaulay duration is simply the sum of  $\mathrm{PV} \times t$  and d
 
 $$
 
-\$ 1,500,666.81 \div \$ 105,000.00 = 14.2921 (\text{ha lf -y ea rs})
+\$ 1,500,666.81 \div \$ 105,000.00 = 14.2921 (\text{half-years})
 
 $$ which is equal to 7.15 years.
 
@@ -196,7 +211,7 @@ From equation (3.2), we know that the MaCaulay duration is:
 
 $$
 
-\begin{array}{l} D_{\mathrm{Ma Ca ul ay}} = - \frac{\partial P}{\partial y} \frac{1 + y}{P} \\ = \left\{ \begin{array}{l} \frac{P (y) - P \left(y^{+}\right)}{y^{+} - y} \frac{1 + y}{P (y)} \\ \frac{P \left(y^{-}\right) - P (y)}{y - y^{-}} \frac{1 + y}{P (y)} \\ \frac{P \left(y^{-}\right) - P \left(y^{+}\right)}{\left(y^{+} - y^{-}\right) / 2} \frac{1 + y}{P (y)} \end{array} \right. \tag {3.9} \\ \end{array}
+\begin{array}{l} D_{\mathrm{Ma Ca ul ay}} = - \frac{\partial P}{\partial y} \frac{1 + y}{P} \\ = \left\{ \begin{array}{l} \frac{P (y) - P \left(y^{+}\right)}{y^{+} - y} \frac{1 + y}{P (y)} \\ \frac{P \left(y^{-}\right) - P (y)}{y - y^{-}} \frac{1 + y}{P (y)} \\ \frac{P \left(y^{-}\right) - P \left(y^{+}\right)}{\left(y^{+} - y^{-}\right) / 2} \frac{1 + y}{P (y)} \end{array} \right. \tag{3.9} \\ \end{array}
 
 $$ where  $y^{+}$  is a (VERY) little bit more than  $y$  and  $y^{-}$  is (VERY) little bit less; furthermore  $P(y)$  is the price at the current yield which is the market price,  $P(y^{+})$  is price discounted at  $y^{+}$  which is less than  $P(y)$ ; and  $P(y^{-})$  is price discounted at  $y^{-}$  which is more than  $P(y)$ .
 
@@ -400,7 +415,7 @@ $$
 Convexity measures the curvature. It is second order derivative. We use the same example as in duration but we need to move the yield both up and down. To achieve better accuracy, the shift size is 0.000002 which is much smaller than 1 bp in the duration example.
 
 $$
-\begin{array}{l} \mathbb {C} = \frac{1}{2 P} \frac{P^{+} - 2 P + P^{-}}{\epsilon^{2}} \\ = \frac{1}{2 P (y)} \frac{P (y - \epsilon) - 2 P (y) + P (y + \epsilon)}{\epsilon^{2}} \tag {3.10} \\ \end{array}
+\begin{array}{l} \mathbb{C} = \frac{1}{2 P} \frac{P^{+} - 2 P + P^{-}}{\epsilon^{2}} \\ = \frac{1}{2 P (y)} \frac{P (y - \epsilon) - 2 P (y) + P (y + \epsilon)}{\epsilon^{2}} \tag{3.10} \\ \end{array}
 $$ where  $\epsilon$  is the shift size.
 
 

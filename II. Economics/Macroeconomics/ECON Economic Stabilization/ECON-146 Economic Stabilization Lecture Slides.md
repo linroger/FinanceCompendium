@@ -1,19 +1,28 @@
 ---
-aliases:
-  - Economic Stabilization Lecture Slides
-tags:
-key_concepts:
-parent_directory: "[[ECON Economic Stabilization]]"
-cssclasses: academia
 title: Module 2 - Economic Stabilization Lecture Slides
-linter-yaml-title-alias: Module 2 - Economic Stabilization Lecture Slides
+parent_directory: ECON Economic Stabilization
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - economic stabilization
+  - monetary policy
+  - aggregate demand
+  - IS curve
+  - aggregate supply
+secondary_tags:
+  - monetary policy rule
+  - wage setting
+  - price setting
+  - AD-AS model
+  - fiscal policy
+  - inflation targeting
+cssclasses: academia
 ---
 
-# Module 2
+# Module 2 - Economic Stabilization Lecture Slides
 
-Second set of slides
-
-# Monetary policy and aggregate demand:
+## Monetary Policy and Aggregate Demand
 
 Traditionally the Fed has changed interest rates (its policy rate which in turn affects other interest rates) to affect aggregate demand.
 
@@ -25,35 +34,35 @@ i. lower rates boost consumption by lowering the cost of borrowing, by increasin
 ii. lower rates (e.g., lower corporate bond rates and lower mortgage rates) boost investment by lowering the cost of borrowing for businesses and for residential construction  
 iii. lower domestic interest rates (relative to those abroad) reduce the exchange value of the dollar and hence boost net exports
 
-# Equilibrium in the market for new goods and services: the IS relation
+## Equilibrium in the Market for New Goods and Services: The IS Relation
 
 Start with the familiar expression for goods market equilibrium:
 
 $$
-Y = C + I + G + N X \quad w h e r e N X = X - M
+Y = C + I + G + NX \quad \text{where } NX = X - M
 $$
 
 Thus,  $\mathrm{Y} - \mathrm{C} - \mathrm{G} - \mathrm{NX} + \mathrm{T} - \mathrm{T} = \mathrm{I}$ . This implies:  $(\mathrm{Y} - \mathrm{C} - \mathrm{T}) + (\mathrm{T} - \mathrm{G}) - \mathrm{NX} = \mathrm{I}$ . Now observe that:
 
 $$
-\begin{array}{l} Y - C - T = \text{Sh h} + \text{Sb us} (\text{ho us ho ld pl us bu si ns sa vi ng}) \\ \mathrm{T} - \mathrm{G} = \text{Sg ov (go ve nn me nt sa vi ng)} \\ - \mathrm{NX} = \text{Sf or (fo rg in es av in g)} \\ \end{array}
+\begin{array}{l} Y - C - T = \text{Shh} + \text{Sbus} (\text{household plus business saving}) \\ T - G = \text{Sgov (government saving)} \\ -NX = \text{Sfor (foreign saving)} \\ \end{array}
 $$
 
 [Note on foreign saving: -NX = M - X = C + I + G - Y. In economic terms, if the U.S. is importing more than it is exporting, it must be that in the U.S. total expenditures on domestically produced plus foreign produced goods (C + I + G) must exceed domestic income (Y). [Recall that Y denotes gross output of domestically produced goods which must equal gross domestic income.] Because U.S. expenditures exceed U.S. income, the U.S. must be borrowing from the rest of the world in order to finance the excess. This means that foreigners are acquiring U.S. IOUs, i.e., foreigners are saving in this form.]
 
 Let total saving  $= \mathrm{S} = \mathrm{Shh} + \mathrm{Sbus} + \mathrm{Sgov} + \mathrm{Sfor}$
 
-# Thus goods market equilibrium is defined by  $\mathbf{S} = \mathbf{I}$
+## Goods Market Equilibrium
 
 This is why textbooks (and us) focus on the  $\mathrm{I} = \mathrm{S}$  or IS relationship/curve as we will see below. It could just as well be called the  $\mathrm{Y} = \mathrm{C} + \mathrm{I} + \mathrm{G} + \mathrm{NX}$  curve.
 
 In math terms, goods market equilibrium is given by:
 
 1. $\mathrm{Y} = \mathrm{C} + \mathrm{I} + \mathrm{G} + \mathrm{X} - \mathrm{M}$
-2. $C = C0 + cy(Y - T) + cye(Y - T)e - cr$  
-3. $\mathrm{I} = \mathrm{IO} + \mathrm{i}\mathrm{y}\mathrm{Y} + \mathrm{i}\mathrm{ye}\mathrm{Ye} - \mathrm{i}\mathrm{r}$  
-4. $\mathrm{NX} = \mathrm{N0}$  - ny Y - nyeYe - ne e
-5. $\mathrm{e} = \mathrm{e}0 + \mathrm{er}(\mathrm{r} - \mathrm{rf})$
+2. $C = C_{0} + c_{y}(Y - T) + c_{ye}(Y - T)^{e} - c_{r}r$
+3. $I = I_{0} + i_{y}Y + i_{ye}Y^{e} - i_{r}r$
+4. $NX = N_{0} - n_{y}Y - n_{ye}Y^{e} - n_{e}e$
+5. $e = e_{0} + e_{r}(r - r_{f})$
 
 All coefficients are taken as a positive constant. Examples:
 
@@ -71,12 +80,12 @@ By substituting equations 2 - 5 into equation 1 and solving the result for  $\ma
 Equation defining the IS curve (see appendix 1 for math details):
 
 $$
-r = \text{(me ss yn eg at iv es lo pe co ef fi ci en t)Y} + \text{(me ss yi nc te rp te rm)}
+r = \text{(messy negative slope coefficient)Y} + \text{(messy intercept term)}
 $$
 
 Conclusion: higher domestic real interest rates reduce aggregate demand; the downward sloping curve in (Y, r) space that captures all combinations of real interest rates and GDP consistent with equilibrium in the market for new goods and services is called the IS curve.
 
-# Here is the reason that the curve is downward sloping:
+## Why the IS Curve is Downward Sloping
 
 ---because  $\mathrm{Y} = \mathrm{C} + \mathrm{I} + \mathrm{G} + \mathrm{NX}$ , an increase in  $\mathrm{Y}$  must be accompanied by an increase in  $\mathrm{C} + \mathrm{I} + \mathrm{G} + \mathrm{NX}$  which requires a lower real interest rate (which boosts C, I, and NX through the "traditional" channels of influence).
 
@@ -94,7 +103,7 @@ vi. A tax cut which boosts current disposable income and consumption.
 # Monetary Policy Rule
 
 $$
-\mathrm{r} = \mathrm{M} (\pi - \pi^{*}, \mathrm{Y} - \mathrm{Yp}) = \mathrm{r}^{*} + \mathrm{r} \pi (\pi - \pi^{*}) + \mathrm{r} \mathrm{y} (\mathrm{Y} - \mathrm{Yp})
+r = M(\pi - \pi^{*}, Y - Y_{p}) = r^{*} + r_{\pi}(\pi - \pi^{*}) + r_{y}(Y - Y_{p})
 $$
 
 1. The Fed is assumed to raise real interest rates when price inflation on goods and services,  $\pi$ , rises relative to its target,  $\pi^{*}$ , and when the output gap (difference between actual and potential GDP) rises. This is called "leansing-against-the-wind" policy.  
@@ -136,7 +145,7 @@ b. The curve shifts up (down) if the target rate of inflation falls (rises).
 
 # Aggregate Demand: IS-MP in  $(\mathrm{Y},\pi)$  space [see appendix for formal math]
 
-AD equation:  $\pi =$  messy intercept term  $^+$  (messy negative slope coefficient)Y
+AD equation: $\pi = \text{messy intercept term} + (\text{messy negative slope coefficient})Y$
 
 1. The curve relating all values of  $Y$  and  $\pi$  consistent with goods market equilibrium subject to the Fed's policy response function is called the AD curve;
 2. Negative Slope: As  $\pi$  rises,  $\mathbf{r}$  rises because of the Fed response; this leads to a reduction in the interest-rate-sensitive components of aggregate demand and hence total aggregate demand (Y). [see figure on next slide]
@@ -151,9 +160,7 @@ vii. Lower value of  $r^*$  (MP shifts down)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1621156d-71b8-499f-b0d8-19e6134636ba/b0eaed09d2a8aff5f04b55781c168bb780583e1728d0ac4bdac9d8788d46c19c.jpg)
 
-# Module 2
-
-Third set of slides
+## Aggregate Supply: Wage and Price Setting
 
 Modeling the supply side of the macro economy is more controversial than the demand side.
 
@@ -173,11 +180,11 @@ iv. expected prices and productivity gains (Pe and Ae) --these matter because wo
 
 This discussion is captured by the following equation:
 
-$\mathbf{W} = \mathrm{AePe}$  f(u, z) where  $\mathrm{df /du <0}$ . Simplify by linearizing the f.) function as follows:  $\mathrm{f(.) =1 -a u +z},$  and thus we get:  $\mathbf{W} = \mathbf{AePe}$ $(1 - a u + z)$
+$W = Ae Pe f(u, z)$ where $\partial f/\partial u < 0$. Simplify by linearizing the f(.) function as follows: $f(.) = 1 - au + z$, and thus we get: $W = Ae Pe (1 - au + z)$
 
 Here, W denotes the nominal wage rate; Pe denotes the expected price level; u denotes the unemployment rate; Ae is the expected level of a measure of labor productivity (discussed in more detail below); z denotes other labor-market factors, like the generosity of unemployment insurance benefits, the level of the minimum wage, and the degree of employment protection.
 
-We define the unemployment rate as  $\mathbf{u} = \mathbf{1} - \mathbf{N} / \mathbf{L}$ , where  $\mathbf{N}$  is employment and  $\mathbf{L}$  is the size of the labor force (assumed exogenous). We define  $z$  in such a way that  $\mathrm{df} / \mathrm{dz} > 0$ ;  $\alpha$  is a positive constant.
+We define the unemployment rate as $u = 1 - N/L$, where $N$ is employment and $L$ is the size of the labor force (assumed exogenous). We define $z$ in such a way that $\partial f/\partial z > 0$; $\alpha$ is a positive constant.
 
 # Price setting by firms:
 
@@ -185,7 +192,7 @@ We define the unemployment rate as  $\mathbf{u} = \mathbf{1} - \mathbf{N} / \mat
 
 Costs depend on the nature of the production function and on the prices of factor inputs.
 
-i. The production function is given by  $\mathrm{Y} = \mathrm{A}\mathrm{F}(\mathrm{N},\mathrm{K})$ , where  $\mathrm{dY /dN} = \mathrm{AdF /dN} > 0$  and  $\mathrm{d2Y /dN2} < 0$ . The latter inequality is the assumption of diminishing marginal productivity of labor.  
+i. The production function is given by $Y = A F(N,K)$, where $\partial Y/\partial N = A \partial F/\partial N > 0$ and $\partial^{2} Y/\partial N^{2} < 0$. The latter inequality is the assumption of diminishing marginal productivity of labor.  
 ii. "K" denotes the services of the stock of physical capital, which is assumed fixed at K0 in short-run analysis.  
 iii. To simplify, labor and physical capital are the only two factors of production, with energy inputs being ignored at this point.  
 iv. "A" is a measure of the level of technology and changes in it are termed "productivity shocks" in part because the marginal product of labor is  $\mathrm{dY} / \mathrm{dN} = \mathrm{AF}(\mathrm{N},\mathrm{K0})$  which obviously depends on "A".
@@ -221,11 +228,11 @@ Combining Wage Setting and Price Setting: Aggregate Supply
 Combining the above key equations, with A and K0 not equal to 1, we get:
 
 $$
-P = (1 + m) W / A K 0 = (1 + m) (A e / A K 0) P e (1 - a u + z) \quad \text{wh er e} u = 1 - Y / A K 0 L
+P = (1 + m) W / A K_{0} = (1 + m) (Ae / A K_{0}) Pe (1 - au + z) \quad \text{where } u = 1 - Y / A K_{0} L
 $$
 
 $$
-\mathrm{P} = (1 + \mathrm{m}) (\mathrm{Ae} / \mathrm{AK 0}) \mathrm{Pe} [ 1 + \mathrm{z} - \alpha + \alpha \mathrm{Y} / \mathrm{AK 0L} ]
+P = (1 + m) (Ae / AK_{0}) Pe [1 + z - \alpha + \alpha Y / AK_{0} L]
 $$
 
 1. Thus an increase in output leads to an increase in the price level and is called an aggregate supply relationship (between output and the price level--below we develop another aggregate supply relationship that connects output to the rate of price inflation).

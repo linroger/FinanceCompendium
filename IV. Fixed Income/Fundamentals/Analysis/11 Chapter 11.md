@@ -1,14 +1,26 @@
 ---
-aliases: Other Credit Derivatives
-tags:
-key_concepts:
+title: "Chapter 11 - Other Credit Derivatives"
 parent_directory: Analysis
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - credit derivatives
+  - default basket contracts
+  - credit default swaps
+  - collateralized debt obligations
+  - credit linked notes
+  - convertible bonds
+secondary_tags:
+  - total return swaps
+  - spread options
+  - principal protected notes
+  - forced conversion
+  - securities lending
+  - commercial mortgage-backed securities
+  - collateralized loan obligations
 cssclasses: academia
-title: Chapter 11 - Other Credit Derivatives
-linter-yaml-title-alias: Chapter 11 - Other Credit Derivatives
 ---
-
-# Chapter 11
 
 # Other Credit Derivatives
 
@@ -23,8 +35,50 @@ Various types of credit derivatives exist, including:
 - credit default swaps (CDS)
 - collateralized debt obligations (CDO)
 - total return swaps
-- credit default swap options credit spread forward
-credit default basket
+- credit default swap options
+- credit spread forward
+- credit default basket
+
+```d2
+direction: right
+
+Credit Derivatives: Credit Derivatives {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+CDS: Credit Default Swaps {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+CDO: Collateralized Debt Obligations {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+CLN: Credit Linked Notes {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+Convertible: Convertible Bonds {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+Default Basket: Default Baskets {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+Credit Derivatives -> CDS: Protects against
+Credit Derivatives -> CDO: Securitizes
+Credit Derivatives -> CLN: Transfers risk
+Credit Derivatives -> Convertible: Hybrid security
+Credit Derivatives -> Default Basket: Basket protection
+```
 
 # 11.2 Default Basket
 
@@ -34,7 +88,7 @@ The default basket contract is a correlation play. If all bonds default independ
 
 Default baskets usually contain only a handful of bonds (if the portfolio is large, then the default basket is not an efficient way to hedge). For example, assume a portfolio of 5 bonds. To gain the perfect default protection, the owner of the portfolio can purchase individual CDS contracts. Say each spread is  $s_1 \sim s_5$ . And the total premium paid is:  $\sum_{i=1}^{n} s_i N_i$  where  $N_i$  is the notional of the  $i$ th bond.
 
-This can be very expensive if bonds are high yield. Hence, investors of such portfolios will seek a cheaper alternative. Realistically, not all bonds will default at the same time. In other words, buying all individual CDS is not cost effective. It would ideal to just buy the protection of the first bond that defaults. The others will likely not default (although their prices might be heavily influenced) and still can be sold back to the market.
+This can be very expensive if bonds are high yield. Hence, investors of such portfolios will seek a cheaper alternative. Realistically, not all bonds will default at the same time. In other words, buying all individual CDS is not cost effective. It would be ideal to just buy the protection of the first bond that defaults. The others will likely not default (although their prices might be heavily influenced) and still can be sold back to the market.
 
 The 1st to default basket contract (FTD) is a CDS contract that pays principal minus recovery on whichever bond that defaults first in the contract period. The probability of this happening, for a given period (say 1 year), is:
 
@@ -51,10 +105,7 @@ $$ which is greater than  $p_{\mathrm{FTD}}$ .
 Hence, we know that buying FTD is much cheaper than buying individual CDSes. Recall the back-of-envelop (quick and dirty approximation) formula for the CDS spread:
 
 $$ s_{i} = p_{i} (1 - R_{i})
-$$ where  $R$  is recovery rate. For the sake of easy exposition (and quite practically true), we assume a constant recovery for all bonds (and usually  $40\%$ ):  $s_i = p_i(1 - R)$ . We
-
-
-use the same concept to compute the spread for the FTD:
+$$ where  $R$  is recovery rate. For the sake of easy exposition (and quite practically true), we assume a constant recovery for all bonds (and usually  $40\%$ ):  $s_i = p_i(1 - R)$ . We use the same concept to compute the spread for the FTD:
 
 $$ s_{\mathrm{FT D}} = p_{\mathrm{FT D}} (1 - R)
 $$
@@ -85,7 +136,7 @@ If  $s_{\mathrm{FTD}} \approx \sum_{i=1}^{n} s_i$ , then the other  $i$ th to de
 
 Differences Between CBOs And Close
 
-It is important to note that while the criteria for CBO and CLO transactions share similarities, loan assets have features that can make the analysis more complicated than that of bond assets. Certain credit, legal, and cash flow analyses of Close differ from those of CBOs due to the following factors:
+It is important to note that while the criteria for CBO and CLO transactions share similarities, loan assets have features that can make the analysis more complicated than that of bond assets. Certain credit, legal, and cash flow analyses of CLOs differ from those of CBOs due to the following factors:
 
 The loan type and loan documentation can affect the degree to which rights and obligations can be transferred from the sponsor to the transferee. For example, a loan may in part be a participation. The lead bank transfers all or part of its interest in a loan (which also may include a pro rata interest in any collateral securing the loan) to one or more participants. Analysis of participations often entails an evaluation of the credit risk of the seller bank, whose insolvency may interrupt payments from the borrower to, ultimately, the issuer, as transferee.
 
@@ -97,17 +148,27 @@ Loan portfolios can be restructured to accommodate the diminished or declining r
 
 Markets for bank loans are less liquid than bond markets. This increases the risk of not being able to purchase eligible loans during the ramp-up and revolving periods, as well as not being able to sell defaulted loans. In addition, disposition of defaulted loans via sale into the market may lower the ultimate recovery relative to disposition via a gradual workout.
 
-This analysis describes Standard & Poor's rating approach to CBOs/Close and the key risk areas, which are the focus here of a brief review. The key areas include sovereign risk, default risk, recovery and loss severity estimation, currency and interest rate hedging, as well as legal risk.
+This analysis describes Standard & Poor's rating approach to CBOs/CLOs and the key risk areas, which are the focus here of a brief review. The key areas include sovereign risk, default risk, recovery and loss severity estimation, currency and interest rate hedging, as well as legal risk.
 
-Sovereign Risk Both the overall credit profile for an obligor and its rating can be impacted and possibly constrained by the sovereign rating of the country in which the obligors are domiciled. Standard & Poor's has modified its "traditional," or single-jurisdictional, CBO/CLO default model to take into account such factors when determining a multi-jurisdictional or emerging market pool's credit profile at a given rating level.
+## Sovereign Risk
 
-Default Risk The issuer credit rating (ICR) is the fundamental tool to assess obligor credit risk in Standard & Poor's default models. However, due to the lack of a well-developed bond market in certain regions, such as Southeast Asia, and even in some mature European markets, unrated credits can become a substantial component of CBO/CLO asset pools. In order to assess credit risk in such collateral pools, analysts can apply alternative measures of obligor default risk, such as credit estimates, for the unrated obligors.
+Both the overall credit profile for an obligor and its rating can be impacted and possibly constrained by the sovereign rating of the country in which the obligors are domiciled. Standard & Poor's has modified its "traditional," or single-jurisdictional, CBO/CLO default model to take into account such factors when determining a multi-jurisdictional or emerging market pool's credit profile at a given rating level.
 
-Recovery and Loss Severity Estimation Accurate and detailed historical data on post-default recoveries on loans and bonds for issuers in emerging market regions generally is sparse or nonexistent. Any analysis of recoveries must factor in, on a country-specific basis, the legal and practical issues involved in realizing such recoveries, and the likely impact on timing of recoveries.
+## Default Risk
 
-Currency and Interest Rate Hedging Local currency denominated CBO/CLO issuance is still not feasible in developing countries due to the lack of a deep investor market, as well as legal and regulatory issues. In the aftermath of various emerging market currency crises, currency hedge providers may not have the desire to position the risk of certain currencies, or may price their products at levels that are not economical for a CBO/CLO. While interest rate risk can often be sized and covered with internal credit enhancement, such as cash reserves or overcollateralization, the economics of this strategy may not be favorable with respect to currency risks.
+The issuer credit rating (ICR) is the fundamental tool to assess obligor credit risk in Standard & Poor's default models. However, due to the lack of a well-developed bond market in certain regions, such as Southeast Asia, and even in some mature European markets, unrated credits can become a substantial component of CBO/CLO asset pools. In order to assess credit risk in such collateral pools, analysts can apply alternative measures of obligor default risk, such as credit estimates, for the unrated obligors.
 
-Legal Risk Evaluation of the legal structure of CBO/CLO transactions is done in light of applicable laws and regulations governing all aspects of the structure. Problems that typically arise relate to the legal transfer/assignment of assets from the seller/originator to the securitization vehicle; bankruptcy remoteness of the issuer or other special-purpose entities; commingling, and set-off risk…
+## Recovery and Loss Severity Estimation
+
+Accurate and detailed historical data on post-default recoveries on loans and bonds for issuers in emerging market regions generally is sparse or nonexistent. Any analysis of recoveries must factor in, on a country-specific basis, the legal and practical issues involved in realizing such recoveries, and the likely impact on timing of recoveries.
+
+## Currency and Interest Rate Hedging
+
+Local currency denominated CBO/CLO issuance is still not feasible in developing countries due to the lack of a deep investor market, as well as legal and regulatory issues. In the aftermath of various emerging market currency crises, currency hedge providers may not have the desire to position the risk of certain currencies, or may price their products at levels that are not economical for a CBO/CLO. While interest rate risk can often be sized and covered with internal credit enhancement, such as cash reserves or overcollateralization, the economics of this strategy may not be favorable with respect to currency risks.
+
+## Legal Risk
+
+Evaluation of the legal structure of CBO/CLO transactions is done in light of applicable laws and regulations governing all aspects of the structure. Problems that typically arise relate to the legal transfer/assignment of assets from the seller/originator to the securitization vehicle; bankruptcy remoteness of the issuer or other special-purpose entities; commingling, and set-off risk…
 
 # 11.4 Spread Option
 
@@ -117,7 +178,7 @@ A spread option is a type of option that derives its value from the difference, 
 
 Note that a spread option is not the same as an options spread. The latter is a strategy typically involving two or more options on the same, single underlying asset.
 
-# 11.5 Principle Protected Notes
+# 11.5 Principal Protected Notes
 
 Investopedia:
 
@@ -137,7 +198,7 @@ Furthermore, investors must hold these notes until maturity in order to receive 
 
 # Limitations
 
-The dark side of principal protected notes was put to light after the collapse of Lehman Brothers and the inception of the 2008 credit crisis. Lehman brothers had issued many of these notes and brokers were pushing it in the portfolios of their clients who had little to no knowledge of these products. The returns on PPNs were more complicated than was presented on the surface to clients. For example, for an investor in one of these notes to earn the return of the index that was linked to the payoff of the note, as well as get the principal back, the small print may state that the index cannot fall  $25\%$  or more from its level at the date of issuance. Neither can it rise more than  $27\%$  above that level. If the index exceeds those levels during the holding period, the investors receive only their principal back.
+The dark side of principal protected notes was brought to light after the collapse of Lehman Brothers and the inception of the 2008 credit crisis. Lehman brothers had issued many of these notes and brokers were pushing it in the portfolios of their clients who had little to no knowledge of these products. The returns on PPNs were more complicated than was presented on the surface to clients. For example, for an investor in one of these notes to earn the return of the index that was linked to the payoff of the note, as well as get the principal back, the small print may state that the index cannot fall  $25\%$  or more from its level at the date of issuance. Neither can it rise more than  $27\%$  above that level. If the index exceeds those levels during the holding period, the investors receive only their principal back.
 
 An investor that does not want to deal with the complications of individual PPN securities may opt for principal protected funds. Principal protected funds are money managed funds that consist mostly of principal protected notes structured to protect an investor's principal. The returns on these funds are taxed as ordinary income rather than capital gains or tax-advantaged dividends. Furthermore, fees that are charged by the fund are used to fund the derivative positions used to guarantee the principal returns and minimize risk.
 
@@ -147,7 +208,7 @@ A CLN is the direct obligation of the issuer but it contains additional credit r
 
 Provided the reference entity experiences no credit event during the life of the CLN the principal will be repaid to the investor on maturity.
 
-During the life of the note the investor will also have received regular interest payments, (coupons).
+During the life of the note the investor will also have received regular interest payments (coupons).
 
 Should the reference entity experience a credit event this triggers redemption of the CLN. But instead of receiving the principal amount originally invested, the investor receives a bond issued by the reference entity. The value of the bond will be worth less than the principal invested.
 
@@ -163,15 +224,88 @@ Figure 11.2: Credit Linked Note
 
 Figure 11.3: Credit Linked Note
 
-USE MORE FROM https://www.barbicanconsulting.co.uk/cln
+```d2
+direction: right
+
+Issuer: Issuer {
+  shape: rectangle
+  style.fill: "#e8f4fd"
+}
+
+Investor: Investor {
+  shape: person
+  style.fill: "#fff3cd"
+}
+
+Reference_Entity: Reference Entity {
+  shape: rectangle
+  style.fill: "#d1ecf1"
+}
+
+Issuer -> Investor: Principal + Interest
+Issuer -> Reference_Entity: Credit Risk Transfer
+
+Investor -> Issuer: Principal Investment
+Reference_Entity -> Investor: Default Risk
+
+No_Default: No Credit Event {
+  style.fill: "#d4edda"
+  shape: oval
+}
+
+Default_Event: Credit Event Occurs {
+  style.fill: "#f8d7da"
+  shape: oval
+}
+
+No_Default -> Investor: Full Principal + Interest
+Default_Event -> Investor: Reference Entity Bond (Reduced Value)
+
+Issuer -> No_Default
+Issuer -> Default_Event
+```
+
+Credit Linked Note Structure: Credit risk is transferred from issuer to investor via reference entity linkage.
 
 # 11.7 Convertible Bonds
 
-Convertible bonds are a mixture of three prominent risks: equity, interest rate, and credit. A convertible bond allows the owner to convert a bond that earns fixed coupons to equity and hence is bond with an exchange option.
+Convertible bonds are a mixture of three prominent risks: equity, interest rate, and credit. A convertible bond allows the owner to convert a bond that earns fixed coupons to equity and hence is a bond with an exchange option.
 
 $$
 \Pi_{\mathrm{CB}} = \max \{S, \xi \Pi \}
 $$ where  $\xi$  is the conversion ratio.
+
+```d2
+direction: right
+
+Stock_Price: Stock Price (S) {
+  shape: oval
+  style.fill: "#e8f4fd"
+}
+
+Conversion_Value: Conversion Value (ξ × Π) {
+  shape: oval
+  style.fill: "#fff3cd"
+}
+
+Bond_Value: Bond Value (Π) {
+  shape: oval
+  style.fill: "#d1ecf1"
+}
+
+Payoff: Convertible Bond Payoff {
+  shape: rectangle
+  style.fill: "#d4edda"
+}
+
+Stock_Price -> Conversion_Value: × Conversion Ratio
+Bond_Value -> Payoff: Minimum Value
+Conversion_Value -> Payoff: If Higher
+
+Stock_Price -> Payoff: Max(S, ξ×Π) Formula
+```
+
+Convertible Bond Payoff: Max of stock price or conversion value, whichever is higher.
 
 
 # 11.7.1 Forced Conversion
@@ -188,7 +322,7 @@ Understanding Forced Conversion
 
 Forced conversions occur with convertible securities. Convertible security investments can turn into another form, such as shares of the underlying stock. Convertible bonds or convertible preferred stock are examples of some common convertible securities.
 
-In the case of convertible bonds, the security pays a coupon payment of a fixed amount at regular intervals until the bond reaches maturity. It carries a specific price at which conversion into stock may happen. In most cases, the holder of convertible securities has the right to determine when and if to convert. The bond's originator can typically turn whenever they choose after the conversion date. The same is not true if the issuer has included a forced conversion call feature into the bond.
+In the case of convertible bonds, the security pays a coupon payment of a fixed amount at regular intervals until the bond reaches maturity. It carries a specific price at which conversion into stock may happen. In most cases, the holder of convertible securities has the right to determine when and if to convert. The bond's originator can typically do so whenever they choose after the conversion date. The same is not true if the issuer has included a forced conversion call feature into the bond.
 
 
 Companies issuing the securities sometimes want the ability to force the investor's hand and make them hold the underlying product. To do this, they will add a call feature that allows the company to redeem the bonds based on specific criteria. Frequently, bonds are callable when they are at or near the conversion price. The calculation of the conversion price is at the time of the issue and is a ratio. This ratio, located in the bond's indenture or the security's prospectus, outlines the situations for making the call. For called securities, the investor will receive the return of capital or common stock in an amount equal to the initial investment.
@@ -217,12 +351,13 @@ Figure 11.5: Added Convexity of Convertible Bond
 
 An outright loan is like a bond where a specified amount of money is borrowed (usually by an individual) and in return periodical interests are paid and at maturity the principal is paid. However, for corporation borrowers, loans are arranged differently.
 
-A line of credit is given to the corporation (say  \$1 million) for a period of time (say 1 year). During this year, the borrower (corporation) can take any amount out, known as draw, up to\$ 1 million. If the borrower has no use of the loan, it can prepay back to the credit line. After a year, usually such loan will be renewed and amount can be increased or decreased.
+A line of credit is given to the corporation (say  \$1 million) for a period of time (say 1 year). During this year, the borrower (corporation) can take any amount out, known as draw, up to $1 million. If the borrower has no use of the loan, it can prepay back to the credit line. After a year, usually such loan will be renewed and amount can be increased or decreased.
 
 The unused line of credit is called "unfunded" and the used is called "funded". At the beginning when the loan (line of credit) is granted, the whole amount is unfunded. To maintain this unfunded loan, the borrower must pay a fee to keep the line of credit alive (otherwise the line of credit will be canceled). After a draw, the amount of draw is called funded. Then the borrower must pay an interest on the funded loan as a straight loan. Certainly, the borrower can cancel the line of credit at any time.
 
-In summary, by paying a fee (for the unfunded part of the loan) or an interest (for the funded part of the loan), the borrower enjoys the following options: option to draw,
+In summary, by paying a fee (for the unfunded part of the loan) or an interest (for the funded part of the loan), the borrower enjoys the following options:
 
+- option to draw
 - option to prepay, and
 - option to term-out (which is modeled differently separately)
 
@@ -247,8 +382,7 @@ Regime III: option to stay
 Table 11.1: Options in a Loan
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/4da07affd0d8d4dad2c0b077b81b2a145bbc22d0edb1d0218160a9105d9e3243.jpg)
-Figure 1: Regime Transition Diagram (modified)
-Figure 11.6: Loan Diagram
+Figure 11.6: Regime Transition Diagram (modified)
 
 # An Example of HELOC
 
@@ -260,7 +394,7 @@ During the draw period you typically can make interest-only payments on what you
 
 # Unfunded as CDS and Funded as Bond
 
-It is quite understandable that the funded part of the loan is a bond. But how should the fee of unfunded be determined? As it turns out, it is equivalent to a CDS. The bank charges a fee to compensate its loss of interests if the borrower either default or terminate the loan early.
+It is quite understandable that the funded part of the loan is a bond. But how should the fee of unfunded be determined? As it turns out, it is equivalent to a CDS. The bank charges a fee to compensate its loss of interest if the borrower either defaults or terminates the loan early.
 
 
 As a result, Figure 11.6 can be viewed as a structure to build a model for the loan. It can be a Markov process with  $\alpha$ 's and  $\beta$ 's as transition probabilities. These probabilities can be then calibrated to benchmark CDS or credit curves.

@@ -1,77 +1,114 @@
 ---
-aliases:
-- Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational
-    Enterprises
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 08: Firms in the Global Economy: Export and Foreign Sourcing Decisions
-  and Multinational Enterprises'
-linter-yaml-title-alias: 'Chapter 08: Firms in the Global Economy: Export and Foreign
-  Sourcing Decisions and Multinational Enterprises'
+title: Chapter 08: Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational Enterprises
+parent_directory: Krugman International Economics
+formatted: 2025-12-21 07:20:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
 primary_tags:
-- competition trade
-- patterns foreign direct investment
+- multinational enterprises
+- global economy firms
 secondary_tags:
-- foreign sourcing decisions multinational
-- firms global economy
-tags_extracted: '2025-12-18T01:46:53.342677'
+- foreign direct investment
+- export sourcing decisions
+- intra industry trade
+- monopolistic competition
+cssclasses: academia
 ---
 
-8 Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational Enterprises 196
+# Chapter 08: Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational Enterprises
 
-The Theory of Imperfect Competition 197
+## The Theory of Imperfect Competition
 
-Monopoly: A Brief Review 198
+### Monopoly: A Brief Review
 
-Monopolistic Competition 200
+### Monopolistic Competition
 
-Monopolistic Competition and Trade 205
+### Monopolistic Competition and Trade
 
-The Effects of Increased Market Size 205
+#### The Effects of Increased Market Size
 
-Gains from an Integrated Market: A Numerical Example 207
+#### Gains from an Integrated Market: A Numerical Example
 
-The Significance of Intra-Industry Trade 210
+#### The Significance of Intra-Industry Trade
 
-CASE STUDY: Automobile Intra-Industry Trade within ASEAN-4: 1998-2002 212
+**CASE STUDY: Automobile Intra-Industry Trade within ASEAN-4: 1998-2002**
 
-Firm Responses to Trade: Winners, Losers, and Industry Performance 213
+## Firm Responses to Trade: Winners, Losers, and Industry Performance
 
-Performance Differences across Producers 214
+### Performance Differences across Producers
 
-The Effects of Increased Market Size 216
+### The Effects of Increased Market Size
 
-Trade Costs and Export Decisions 217
+## Trade Costs and Export Decisions
 
-Dumping 220
+## Dumping
 
-CASE STUDY: Antidumping as Protectionism 221
+**CASE STUDY: Antidumping as Protectionism**
 
-Multinationals and Foreign Direct Investment 222
+## Multinationals and Foreign Direct Investment
 
-Patterns of Foreign Direct Investment Flows around the World 224
+### Patterns of Foreign Direct Investment Flows around the World
 
-CASE STUDY: COVID-19 and Foreign Direct Investment Flows around the World 226
+**CASE STUDY: COVID-19 and Foreign Direct Investment Flows around the World**
 
-Foreign Direct Investment and Foreign Sourcing Decisions 229
+```d2
+fdi_patterns: FDI Patterns Worldwide {
+  direction: right
+  
+  developed_developed: "Developed → Developed" {
+    label: "Horizontal FDI\nMarket seeking"
+  }
+  
+  developed_developing: "Developed → Developing" {
+    label: "Vertical FDI\nCost seeking"
+  }
+  
+  developing_developing: "Developing → Developing" {
+    label: "South-South FDI\nResource/market seeking"
+  }
+  
+  developed_developed -> developed_developing -> developing_developing
+}
+```
 
-The Horizontal FDI Decision 229
+### Foreign Direct Investment and Foreign Sourcing Decisions
 
-The Foreign Sourcing Decision 230
+#### The Horizontal FDI Decision
 
-The Outsourcing Decision: Make or Buy 231
+#### The Foreign Sourcing Decision
 
-BOX: Whose Trade Is It? 232
+#### The Outsourcing Decision: Make or Buy
 
-CASE STUDY: Shipping Jobs Overseas? Offshoring and Labor Market Outcomes in Germany 233
+```d2
+outsourcing_decision: Outsourcing Decision Tree {
+  shape: diamond
+  
+  decision: "Outsource production?" {
+    label: "Cost vs Control Trade-off"
+  }
+  
+  outsource: "Yes: Foreign Sourcing" {
+    shape: rectangle
+    label: "Lower costs\nAccess expertise"
+  }
+  
+  inhouse: "No: In-house Production" {
+    shape: rectangle
+    label: "Quality control\nIP protection"
+  }
+  
+  decision -> outsource: "Cost advantage significant"
+  decision -> inhouse: "Control/quality priority"
+}
+```
 
-Consequences of Multinationals and Foreign Outsourcing 235
+**BOX: Whose Trade Is It?**
 
-Summary 236
+**CASE STUDY: Shipping Jobs Overseas? Offshoring and Labor Market Outcomes in Germany**
 
-APPENDIX TO CHAPTER 8: Determining Marginal Revenue 241
+### Consequences of Multinationals and Foreign Outsourcing
 
-# PART 2 International Trade Policy 242
+## Summary
+
+## APPENDIX TO CHAPTER 8: Determining Marginal Revenue
 

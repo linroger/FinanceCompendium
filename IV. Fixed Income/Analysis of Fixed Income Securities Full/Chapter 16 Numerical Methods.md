@@ -1,9 +1,9 @@
 ---
-title: "Chapter 16: Numerical Models"
-parent_directory: "Analysis of Fixed Income Securities Full"
-formatted: "2025-12-21 06:30:25 AM"
-formatter_model: "claude-sonnet-4-5-20250929"
-cli-tool: "claude-code"
+title: "Chapter 16: Numerical Methods"
+parent_directory: "IV. Fixed Income/Analysis of Fixed Income Securities Full"
+formatted: "2025-12-21 06:40:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "open code"
 primary_tags:
   - numerical methods
   - monte carlo simulation
@@ -23,7 +23,7 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# Chapter 16: Numerical Models
+# Chapter 16: Numerical Methods
 
 ## 16.1 Introduction
 
@@ -61,6 +61,21 @@ In a lattice, we can easily perform backward induction and compare if it is wort
 
 Monte Carlo simulations cannot provide such an expected value. MC simulations can only move forwards and hence cannot be used to price American options – until Longstaff and Schwartz. Longstaff and Schwartz cleverly recognize that the continuation value is nothing more than a conditional expectation given the current stock price:
 
+```d2
+direction: right
+generate_paths: Generate MC paths
+backward_induction: Backward induction from maturity
+regression: Quadratic regression at each time step
+continuation_value: Calculate continuation value
+exercise_value: Calculate exercise value
+optimal_decision: Max(continuation, exercise)
+option_price: Compute option price
+
+generate_paths -> backward_induction -> regression -> continuation_value -> exercise_value -> optimal_decision -> option_price
+```
+
+This diagram illustrates the Longstaff-Schwartz algorithm flow for pricing American options using Monte Carlo simulations.
+
 $$
 \xi(t) = \hat{\mathbb{E}}_{t}[C(t + dt)|S(t)]
 $$
@@ -68,7 +83,7 @@ $$
 where $\xi(t)$ is the conditional value at time $t$, which is the conditional expectation of future option price $C(t + dt)$ conditional on today's stock price $S(t)$. And today's option value is the larger of this continuation value (i.e. no exercise) or exercise value (i.e. exercise): $C(t) = \max\{\xi(t), X(t)\}$ where $X(t)$ is the exercise value. If the option is a put, then $X(t) = K - S(t)$. If it is a call, then $X(t) = S(t) - K$ before any dividend is paid. The process repeats at every time step.
 
 
-Basic statistic knowledge indicates that $\hat{\mathbb{E}}_t[C(t + dt)|S(t)]$ is a function of today's stock price and hence we can write the future option price and today's stock price in a regression form:
+Basic statistical knowledge indicates that  $\hat{\mathbb{E}}_t[C(t + dt)|S(t)]$  is a function of today's stock price and hence we can write the future option price and today's stock price in a regression form:
 
 $$
 \begin{align}
@@ -95,7 +110,7 @@ $$
 and the process repeats.
 
 
-Now, lets study the LS example. Eight sample paths are given for three periods, as shown in Figure 16.1a.
+Now, let's study the LS example. Eight sample paths are given for three periods, as shown in Figure 16.1a.
 
 Stock price paths
 
@@ -401,13 +416,13 @@ $$ p(\text{Yes}|\text{Sunny}) = 0.33 \times \frac{0.64}{0.36} = 0.60
 $$ which has higher probability.
 
 
-# Naive Bayes
+#### Naive Bayes
 
-Naïve Bayes is a classifier. In other words, it limits  $\theta$  to be distinct classes (either  $0/1$  or  $1, 2, 3, \dots, n$ ). Hence we change notation from  $\theta$  to  $C_k$ .
+Naïve Bayes is a classifier. In other words, it limits $\theta$ to be distinct classes (either $0/1$ or $1, 2, 3, \dots, n$). Hence we change notation from $\theta$ to $C_k$.
 
 $$
-\begin{array}{l} p (C_{k} | x_{1}, \dots , x_{n}) = p (C_{k} | \underline {{x}}) \\ = \frac{p (C_{k}) p (\underline {{x}} | C_{k})}{p (\underline {{x}})} \\ \approx p (C_{k}) p (\underline {{x}} | C_{k}) \\ \end{array}
-$$ where the last line indicates that the  $p(\underline{x})$  is purely data and can be ignored.
+\begin{array}{l} p(C_{k}|x_{1}, \dots, x_{n}) = p(C_{k}|\underline{x}) \\ = \frac{p(C_{k}) p(\underline{x}|C_{k})}{p(\underline{x})} \\ \approx p(C_{k}) p(\underline{x}|C_{k}) \\ \end{array}
+$$ where the last line indicates that the $p(\underline{x})$ is purely data and can be ignored.
 
 
 The likelihood function is very familiar and can be estimated with data easily as follows:
@@ -422,16 +437,16 @@ $$
 $$ for all  $k$ . Solving for the simultaneous equations for  $C_k$  yields the estimators (equations) for  $C_k$ . However, in the real world, the distributions are not Gaussian and we must use numerical tools to solve for the classification functions.
 
 
-by Jason Brownlee on December 8, 2014 in Algorithms From Scratch (https://machinelearningma bayes-classifier-scratch-python/)
+by Jason Brownlee on December 8, 2014 in Algorithms From Scratch (https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/)
 
-# Black-Litterman Model https://kaihuahuang.github.io/2019/09/09/Basic-Black-Litterman-Asset-Allocation/
+#### Black-Litterman Model https://kaihuahuang.github.io/2019/09/09/Basic-Black-Litterman-Asset-Allocation/
 
 
 The Black-Litterman asset allocation model, created by Fischer Black and Robert Litterman, is a sophisticated portfolio construction method that overcomes the problem of traditional mean-variance asset allocation.
 
 The Black-Litterman model uses a Bayesian approach to combine the subjective views of an investor regarding the expected returns of one or more assets with the market equilibrium vector of expected returns (the prior distribution) to form a new, mixed estimate of expected returns.
 
-Below is the picture summerizes the whole framework:
+Below is the picture summarizes the whole framework:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/2a7e07ff583b2c9fa1c833337a425c1ad46f81133eb9216328394732140a71a3.jpg)
 Figure 16.7: Black-Litterman Model
@@ -475,14 +490,14 @@ $$ where  $\mathbb{E}[R]$  is return of the market portfolio (a portfolio that i
 (2) After deriving the assets' implied returns, then we can compute the expected return,  $\mathbb{E}[R]$  which is an  $N\times 1$  vector, of the assets under the Black-Litterman model with the following equation.
 
 $$
-\mathbb {E} [ R ] = \left[ (\tau \Sigma)^{- 1} + P^{\prime} \Omega P \right]^{- 1} \left[ (\tau \Sigma)^{- 1} \underline {{\pi}} + P^{\prime} \Omega Q \right]
-$$ where  $\tau$  is a number indicating the uncertainty of the CAPM distribution (It is usually within the range of 0.025-0.05);  $P$  is a matrix with investors views; each row a specific view of the market and each entry of the row represents the weights of each assets ( $K \times N$  matrix);  $Q$  is the expected returns of the portfolios from the views described in matrix ( $K \times 1$  vector);  $\Omega$  is diagonal covariance matrix with entries of the uncertainty within each view ( $K \times K$  matrix) $\Sigma$  and  $\Pi$  as described in previous section.
+\mathbb{E}[R] = \left[(\tau \Sigma)^{-1} + P^{\prime} \Omega P\right]^{-1} \left[(\tau \Sigma)^{-1} \underline{\pi} + P^{\prime} \Omega Q\right]
+$$ where $\tau$ is a number indicating the uncertainty of the CAPM distribution (It is usually within the range of 0.025-0.05); $P$ is a matrix with investors views; each row a specific view of the market and each entry of the row represents the weights of each assets ($K \times N$ matrix); $Q$ is the expected returns of the portfolios from the views described in matrix ($K \times 1$ vector); $\Omega$ is diagonal covariance matrix with entries of the uncertainty within each view ($K \times K$ matrix) $\Sigma$ and $\Pi$ as described in previous section.
 
 
 (3) Once we compute  $\mathbb{E}[R]$ , then we can compute the posterior variance matrix  $M$ , which will be used to compute the new covariance matrix. The new covariance matrix
 
 $$
-M = \left[ (\tau \Sigma)^{- 1} + P^{\prime} \Omega P \right]^{- 1}
+M = \left[(\tau \Sigma)^{-1} + P^{\prime} \Omega P\right]^{-1}
 $$
 
 (4)
@@ -507,12 +522,12 @@ $$ where  $\lambda$  is the risk aversion coefficient.
 
 
 $$
-Q_{t} (k) = (P_{t} \Pi_{t}) (k) + \eta_{k} \sqrt{P_{t} \Sigma_{t} P_{t}^{\prime} (k , k)}
-$$ where  $\eta_{k}$  in  $\{-2, -1, 1, 2\}$  defines "very bearish", "bearish", "bullish" and "very bullish" respectively. To impose views we use two classifiers, one to predict the sign of  $\eta_{k}$  and the other to predict its absolute value. i.e., we use the following two binary level responses to train various classifiers and predict the qualitative view of next period.
+Q_{t}(k) = (P_{t} \Pi_{t})(k) + \eta_{k} \sqrt{P_{t} \Sigma_{t} P_{t}^{\prime}(k, k)}
+$$ where $\eta_{k}$ in $\{-2, -1, 1, 2\}$ defines "very bearish", "bearish", "bullish" and "very bullish" respectively. To impose views we use two classifiers, one to predict the sign of $\eta_{k}$ and the other to predict its absolute value. i.e., we use the following two binary level responses to train various classifiers and predict the qualitative view of next period.
 
 
 $$
-Y_{1} = \left\{ \begin{array}{l l} - 1 & \text{if si gn of ex ce ss re tu rn of th en ex tw ee k 's is ne ga ti ve} \\ 1 & \text{if si gn of ex ce ss re tu rn of th en ex tw ee k 's is po si ti ve} \end{array} \right.
+Y_{1} = \left\{ \begin{array}{l l} - 1 & \text{if sign of excess return of then ext week's is negative} \\ 1 & \text{if sign of excess return of then ext week's is positive} \end{array} \right.
 $$
 
 $$
@@ -520,7 +535,7 @@ Y_{2} = \left\{ \begin{array}{l l} 1 & z_{t} = \frac{r_{t} - \bar {r}_{t , 3}}{\
 $$
 
 $$
-Y = \left\{ \begin{array}{l l} - 2 & \text{ve ry be ar is h} \\ - 1 & \text{be ar is h} \\ 1 & \text{bu ll is h} \\ 2 & \text{ve ry bu ll is h} \end{array} \right.
+Y = \left\{ \begin{array}{l l} - 2 & \text{very bearish} \\ - 1 & \text{bearish} \\ 1 & \text{bullish} \\ 2 & \text{very bullish} \end{array} \right.
 $$
 
 We need to compute  $Y_{1}$ , using Naïve Bayes.
@@ -529,20 +544,20 @@ We need to compute  $Y_{1}$ , using Naïve Bayes.
 
 This is main for credit rating (i.e. classification). But its applications are way beyond that (practically a virgin land)
 
-# Basic Theory
+##### Basic Theory
 
 1. single layer NN (with a sigmoid function) is identical to logistic regression.
 
 2. backpropagation is identical to recursive algorithm
 3. confusion matrix is similar to ROC (accuracy ratio) diagram
 
-# CNN vs. RNN
+##### CNN vs. RNN
 
 Convolutional neural network (CNN) is mainly for image recognition. It is a powerful classification tool. Not to be confused with RNN (recurrent neural network) which is successful in language processing (e.g. Google).
 
 Due to its recurrent nature, RNN has been promoted to study time series - which is a fallacy.
 
-# Deep Learning
+##### Deep Learning
 
 NN is often referred as deep learning, which is not appropriate.
 

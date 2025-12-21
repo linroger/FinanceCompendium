@@ -1,118 +1,112 @@
 ---
-aliases:
-- International Monetary Systems: A Historical Overview
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 19: International Monetary Systems: A Historical Overview'
-linter-yaml-title-alias: 'Chapter 19: International Monetary Systems: A Historical
-  Overview'
+title: "Chapter 19: International Monetary Systems: A Historical Overview"
+parent_directory: Krugman International Economics
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
 primary_tags:
-- standard great depression 606
-- 19 international monetary
+  - international monetary systems
+  - gold standard
+  - bretton woods system
 secondary_tags:
-- monetary systems historical overview
-- international monetary systems
-tags_extracted: '2025-12-18T01:47:16.522659'
+  - historical overview
+  - floating exchange rates
+  - monetary policy autonomy
+cssclasses: academia
 ---
 
-# 19 International Monetary Systems: A Historical Overview 589
+# Chapter 19: International Monetary Systems: A Historical Overview
 
-Macroeconomic Policy Goals in an Open Economy 590
+## Macroeconomic Policy Goals in an Open Economy
 
-Internal Balance: Full Employment and Price Level Stability 591
+## Internal Balance: Full Employment and Price Level Stability
 
-External Balance: The Optimal Level of the Current Account 592
+## External Balance: The Optimal Level of the Current Account
 
-BOX: Can a Country Borrow Forever? The Case of New Zealand. 594
+**BOX: Can a Country Borrow Forever? The Case of New Zealand**
 
-Classifying Monetary Systems: The Open-Economy Monetary Trilemma 598
+## Classifying Monetary Systems: The Open-Economy Monetary Trilemma
 
-International Macroeconomic Policy under the Gold Standard, 1870-1914. 599
+## International Macroeconomic Policy under the Gold Standard, 1870-1914
 
-Origins of the Gold Standard 600
+### Origins of the Gold Standard
 
-External Balance under the Gold Standard 600
+### External Balance under the Gold Standard
 
-The Price-Specie-Flow Mechanism 600
+### The Price-Specie-Flow Mechanism
 
-The Gold Standard "Rules of the Game": Myth and Reality 601
+### The Gold Standard "Rules of the Game": Myth and Reality
 
-Internal Balance under the Gold Standard 602
+### Internal Balance under the Gold Standard
 
-CASE STUDY: The Political Economy of Exchange Rate Regimes: Conflict over
+**CASE STUDY: The Political Economy of Exchange Rate Regimes: Conflict over America's Monetary Standard during the 1890s**
 
-America's Monetary Standard during the 1890s. 603
+## The Interwar Years, 1918-1939
 
-The Interwar Years, 1918-1939 604
+### The Fleeting Return to Gold
 
-The Fleeting Return to Gold 605
+### International Economic Disintegration
 
-International Economic Disintegration 605
+**CASE STUDY: The International Gold Standard and the Great Depression**
 
-CASE STUDY: The International Gold Standard and the Great Depression 606
+## The Bretton Woods System and the International Monetary Fund
 
-The Bretton Woods System and the International Monetary Fund 607
+### Goals and Structure of the IMF
 
-Goals and Structure of the IMF 608
+### Convertibility and the Expansion of Private Financial Flows
 
-Convertibility and the Expansion of Private Financial Flows 609
+### Speculative Capital Flows and Crises
 
-Speculative Capital Flows and Crises 610
+## Analyzing Policy Options for Reaching Internal and External Balance
 
-Analyzing Policy Options for Reaching Internal and External Balance 611
+### Maintaining Internal Balance
 
-Maintaining Internal Balance 612
+### Maintaining External Balance
 
-Maintaining External Balance 613
+### Expenditure-Changing and Expenditure-Switching Policies
 
-Expenditure-Changing and Expenditure-Switching Policies 613
+### The External Balance Problem of the United States under Bretton Woods
 
-The External Balance Problem of the United States under Bretton Woods. 615
+**CASE STUDY: The End of Bretton Woods, Worldwide Inflation, and the Transition to Floating Rates**
 
-CASE STUDY: The End of Bretton Woods, Worldwide Inflation, and the Transition to
+### The Mechanics of Imported Inflation
 
-Floating Rates 616
+## Assessment
 
-The Mechanics of Imported Inflation 617
+### The Case for Floating Exchange Rates
 
-Assessment 619
+#### Monetary Policy Autonomy
 
-The Case for Floating Exchange Rates 619
+#### Symmetry
 
-Monetary Policy Autonomy 619
+#### Exchange Rates as Automatic Stabilizers
 
-Symmetry 621
+#### Exchange Rates and External Balance
 
-Exchange Rates as Automatic Stabilizers 621
+**CASE STUDY: The First Years of Floating Rates, 1973-1990**
 
-Exchange Rates and External Balance 623
+### Macroeconomic Interdependence under a Floating Rate
 
-CASE STUDY: The First Years of Floating Rates, 1973-1990 623
+**CASE STUDY: Transformation and Crisis in the World Economy**
 
-Macroeconomic Interdependence under a Floating Rate 628
+**BOX: The Thorny Problem of Currency Manipulation**
 
-CASE STUDY: Transformation and Crisis in the World Economy 629
+**CASE STUDY: The Dangers of Deflation**
 
-BOX: The Thorny Problem of Currency Manipulation 636
+## What Has Been Learned Since 1973?
 
-CASE STUDY: The Dangers of Deflation 638
+### Monetary Policy Autonomy
 
-What Has Been Learned Since 1973? 640
+### Symmetry
 
-Monetary Policy Autonomy 640
+### The Exchange Rate as an Automatic Stabilizer
 
-Symmetry 640
+### External Balance
 
-The Exchange Rate as an Automatic Stabilizer 642
+### The Problem of Policy Coordination
 
-External Balance 642
+### Are Fixed Exchange Rates Even an Option for Most Countries?
 
-The Problem of Policy Coordination 643
+## Summary
 
-Are Fixed Exchange Rates Even an Option for Most Countries? 643
-
-Summary 644
-
-APPENDIX TO CHAPTER 19: International Policy Coordination Failures 650
+## APPENDIX TO CHAPTER 19: International Policy Coordination Failures

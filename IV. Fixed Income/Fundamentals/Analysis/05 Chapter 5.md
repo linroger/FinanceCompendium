@@ -1,22 +1,31 @@
 ---
-aliases: Interest Rate Swaps
-tags:
-key_concepts:
+title: Chapter 5 Interest Rate Swaps
 parent_directory: Analysis
+formatted: 2025-12-21 6:45 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - interest rate swaps
+  - swap pricing models
+  - comparative advantage
+secondary_tags:
+  - forward rate agreements
+  - zero coupon swaps
+  - no arbitrage pricing
+  - swap valuation
+  - bond portfolio approach
 cssclasses: academia
-title: Chapter 5 - Interest Rate Swaps
-linter-yaml-title-alias: Chapter 5 - Interest Rate Swaps
 ---
 
 # Chapter 5
 
-# Interest Rate Swaps
+## Interest Rate Swaps
 
 There are many swap contracts very popular in the market place (interest rate swaps, currency swaps, asset swaps, residential property index swap, equity swap, total return swap, credit default swaps, …) In this chapter, we shall introduce interest rate swaps and in Lesson 13 we shall discuss credit default swaps.
 
 # 5.1 Introduction
 
-Interest rate swaps are one of the most liquid interest rate derivative contracts in the marketplace. In its December 2014 statistics release, the Bank for International Settlements reported that interest rate swaps were the largest component of the global OTC derivative market, representing  $60\%$ , with the notional amount outstanding in OTC interest rate swaps of \$381 trillion, and the gross market value of \$14 trillion.
+Interest rate swaps are one of the most liquid interest rate derivative contracts in the marketplace. In its December 2014 statistics release, the Bank for International Settlements reported that interest rate swaps were the largest component of the global OTC derivative market, representing $60\%$, with the notional amount outstanding in OTC interest rate swaps of \$381 trillion, and the gross market value of \$14 trillion.
 
 An IRS (interest rate swap) is a fixed versus floating swap contract. Usually both legs of the swap contact have the same notional, hence there is no swap of the notional (as opposed to other swaps, e.g. currency swaps, that swap the final notionals.) As a result, it is strictly a coupon swap.
 
@@ -28,7 +37,7 @@ The comparative advantage analysis (CAA) is a classical international trade theo
 
 # 5.2.1 Basic Idea
 
-We start with an example. Let company A be able to borrow in the fixed rate market at  $10\%$  and in the floating rate market at  $\mathrm{L} + 1\%$ . And also let company B be able to borrow in the fixed rate market at  $12\%$  and in the floating rate market at  $\mathrm{L} + 1.5\%$ . The following table summarizes this situation.
+We start with an example. Let company A be able to borrow in the fixed rate market at $10\%$ and in the floating rate market at $\mathrm{L} + 1\%$. And also let company B be able to borrow in the fixed rate market at $12\%$ and in the floating rate market at $\mathrm{L} + 1.5\%$ . The following table summarizes this situation.
 
 <table><tr><td></td><td>floating</td><td>fixed</td></tr><tr><td>A</td><td>L+100</td><td>0.1</td></tr><tr><td>B</td><td>L+150</td><td>0.12</td></tr><tr><td>diff</td><td>50</td><td>0.02</td></tr></table>
 
@@ -40,7 +49,7 @@ A is better than B in both markets. Yet A is "more better" than B in fixed rate 
 
 Figure 5.1: IRS
 
-A ends up paying  $\mathrm{L} + 50$ , saving  $0.5\%$ ; B ends up paying  $11\%$ , saving  $1\%$ . Total saving  $= 1.5\% =$  difference of differences.
+A ends up paying $\mathrm{L} + 50$, saving $0.5\%$; B ends up paying $11\%$, saving $1\%$. Total saving $= 1.5\% =$ difference of differences.
 
 We can easily alter the arrangement between the two companies, as follows:
 
@@ -126,11 +135,11 @@ $$
 The term structure is such that :one-year rate is  $5\%$  and two-year rate is  $7\%$  (hence the forward rate is  $9\%$ ) discount factors are:
 
 $$
-P_{0, 1} = \frac{1}{1 . 0 5} = 0. 9 5 2 4
+P_{0, 1} = \frac{1}{1.05} = 0.9524
 $$
 
 $$
-P_{0, 2} = \frac{1}{1 . 0 7^{2}} = 0. 8 7 3 4
+P_{0, 2} = \frac{1}{1.07^{2}} = 0.8734
 $$
 
 Hence, the swap rate is:
@@ -410,11 +419,11 @@ Table 5.11: 4Y ZCS
 For a 4-year ZCS, the notional is:
 
 $$
-0. 9 5 2 4 \times 0. 0 4 9 9 8 + 0. 8 9 \times 0. 0 7 0 1 1 +
+0.9524 \times 0.04998 + 0.89 \times 0.07011 +
 $$
 
 $$
-0. 3 0 1 1 = \frac{0 . 8 2 7 8 \times 0 . 0 7 5 1 3 + 0 . 7 6 8 6 \times 0 . 0 7 7 0 2}{0 . 7 6 8 6}
+0.3011 = \frac{0.8278 \times 0.07513 + 0.7686 \times 0.07702}{0.7686}
 $$
 
 Following the same calculation, we can obtain ZCS for all tenors as follows: disc fact fwd ZCS

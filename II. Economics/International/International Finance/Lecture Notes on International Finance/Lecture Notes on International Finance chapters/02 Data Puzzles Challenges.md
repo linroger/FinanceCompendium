@@ -1,7 +1,7 @@
 ---
 title: Puzzles: Challenges to Making Sense of Data
 parent_directory: Lecture Notes on International Finance chapters
-formatted: 2025-12-21 12:00:00 PM
+formatted: 2025-12-21 02:45:00 PM
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:
@@ -55,6 +55,28 @@ which states that the exchange rate variance should be equal to the variance of 
 
 By the Hansen and Jagannathan [1991] bound, we can derive a lower bound on the SDF volatility based on the Sharpe ratio of any risky asset with return  $\tilde{r}$ :
 
+```d2
+direction: right
+
+SDF Bounds: SDF Volatility Bounds {
+  shape: hexagon
+  style.fill: "#e1f5fe"
+}
+
+Stock Sharpe Ratio: Stock Sharpe Ratio 0.6 {
+  style.fill: "#fff3e0"
+}
+
+Lower Bound: SDF ≥ 60% per annum {
+  style.fill: "#e8f5e9"
+}
+
+SDF Bounds -> Stock Sharpe Ratio: implies
+Stock Sharpe Ratio -> Lower Bound: requires
+```
+
+This diagram illustrates how the Sharpe ratio of risky assets constrains the minimum volatility of the SDF.
+
 $$
 \operatorname{st d} \left(m_{t + 1}\right) \geq \exp \left(- r^{f}\right) \left| \frac{\mathbb {E} \left[ \tilde {r} - r^{f} \right]}{\operatorname{st d} (\tilde {r})} \right|.
 $$
@@ -97,11 +119,9 @@ $$
 \mathbb{E}[rx_{t + 1}] = \mathbb{E}[rp_{t}] \stackrel{\mathrm{def}}{=} \mathbb{E}\left[ - \operatorname{cov}_{t}(m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} \operatorname{var}_{t}(\Delta e_{t + 1}) \right].
 $$
 
-Among developed countries, some currencies like Australian dollar and New Zealand dollar have persistently high excess returns
+Among developed countries, some currencies like Australian dollar and New Zealand dollar have persistently high excess returns[^3] against the U.S. dollar, whereas some currencies like Japanese Yen and Swiss Francs have persistently low excess returns against the U.S. dollar.
 
-3 Also see Kollmann [1995], Engel and West [2005].
-
-against the U.S. dollar, whereas some currencies like Japanese Yen and Swiss Francs have persistently low excess returns against the U.S. dollar.
+[^3]: Also see Kollmann [1995], Engel and West [2005].
 
 Moreover, currencies' average returns are also correlated with their interest rates. Low-return currencies like Japanese Yen and Swiss Francs tend to have low interest rates, while high-return currencies like Australian dollar and New Zealand dollar tend to have high interest rates. Let  $rx_{t+1}^{i}$  denote the log excess return of currency  $i$  against the dollar. Then, if we regress the realized currency return on ex-ante interest rates in the cross-section of currencies:
 
@@ -206,9 +226,7 @@ Figure 2.1: U.S. Treasury and Libor CIP Basis. Data source: Jiang, Krishnamurthy
 
 ### 2.A.7 Currency Risk Premia across Horizons
 
-We can also consider the currency returns across multiple horizons, which can be achieved by either rolling over short-term debt positions in home and foreign currencies, or by investing in long-term
-
-debt positions. Lustig, Stathopoulos, and Verdelhan [2019] show that the long-run UIP condition, constructed from long-run exchange rate movements and long-term bond yields, holds in complete markets with stationary exchange rates, because the currency risks are correctly priced in the long-term bond yields.
+We can also consider the currency returns across multiple horizons, which can be achieved by either rolling over short-term debt positions in home and foreign currencies, or by investing in long-term debt positions. Lustig, Stathopoulos, and Verdelhan [2019] show that the long-run UIP condition, constructed from long-run exchange rate movements and long-term bond yields, holds in complete markets with stationary exchange rates, because the currency risks are correctly priced in the long-term bond yields.
 
 Engel [2016] shows that high interest rate currencies not only have higher expected returns in the short term, but also are stronger than can be accounted for by the path of expected real interest differentials. In other words, high interest rates must predict lower currency returns in the long term. Relatedly, Dahlquist and Pénasse [2022], Chernov and Creal [2023] show that the exchange rate level predicts currency returns. Thus, a coherent account of the multi-horizon currency returns involves the interest rate predicting higher currency returns and higher exchange rate levels in the short term, and the elevated exchange rate levels predicting lower currency returns in the medium-to-long term.
 

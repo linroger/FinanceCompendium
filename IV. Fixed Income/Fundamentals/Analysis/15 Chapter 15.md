@@ -1,22 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 15 Credit and Prepayment Models
+parent_directory: Analysis
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - credit risk models
+  - prepayment models
+  - rating agencies
+  - corporate credit analysis
+  - retail credit scoring
+secondary_tags:
+  - structural credit models
+  - reduced form models
+  - fico score
+  - mortality rate
+  - constant default rate
+  - foreclosure process
+  - real estate owned
+  - refinancing incentive
+  - seasoning effect
+  - burnout effect
 cssclasses: academia
-title: Chapter 15
-linter-yaml-title-alias: Chapter 15
 ---
 
-# Chapter 15
+# Chapter 15 Credit and Prepayment Models
 
-# Credit and Prepayment Models
-
-# 15.1 Introduction
+## 15.1 Introduction
 
 Building a reliable and accurate credit risk model is crucial in managing credit risk.
 
-# 15.1.1 Rating Agencies
+### 15.1.1 Rating Agencies
 
 S&P Global Ratings (previously Standard & Poor's) is an American credit rating agency (CRA) and a division of S&P Global that publishes financial research and analysis on stocks, bonds, and commodities. S&P is considered the largest of the Big Three credit-rating agencies, which also include Moody's Investors Service and Fitch Ratings. Its head office is located on 55 Water Street in Lower Manhattan, New York City.
 
@@ -30,9 +44,9 @@ Chicago, Illinois, United States. It provides an array of investment research an
 
 Egan-Jones Ratings Company, also known as EJR, was founded in 1995 and actively rates the credit worthiness of approximately  $2000+$  high yield and high grade U.S. corporate debt issuers. Egan-Jones positions itself as unique among nationally recognized statistical rating organizations (NRSROs) for being wholly investor-supported, a structure designed to minimize the potential for conflicts of interest in assessing credit quality.
 
-# 15.1.2 Credit Bureaus
+### 15.1.2 Credit Bureaus
 
-# Investopedia:
+Investopedia:
 
 People talk a lot about credit bureaus. What do they do? How do they differ? And why are there three of them? (Actually, there are a lot more than that, but it's mainly a certain trio that affects most consumers' lives.) Let's take a closer look at these entities, what they do, and how they do it.
 
@@ -42,17 +56,17 @@ The three credit reporting agencies are TransUnion, Equifax, and Experian.
 
 In order to get the best loan terms available, bring all three credit scores to your loan appointment. Because of their reporting methods, it is common to have a different credit score across all three bureaus.
 
-# 15.2 Corporate Credit
+## 15.2 Corporate Credit
 
 Public corporations (i.e. stocks are publicly traded) are the easiest group to model. Their financial information is publicly available by law and hence they are most transparent. Private firms, on the contrary, are difficult to analyze because of the lack their financial information. As a result, tools for analyzing public firms are much more developed and reliable than those for the private firms.
 
-# 15.2.1 Public Firms
+### 15.2.1 Public Firms
 
 Reduced-form Models
 
 Structural Models
 
-# 15.2.2 Private Firms
+### 15.2.2 Private Firms
 
 Private firms are usually smaller (with few exceptions such as Dell) and less transparent.
 
@@ -64,17 +78,17 @@ $$ where  $x_{i}$ 's are financials of the company and  $y$  is a dummy variable
 
 Could we use Z score for this? Z score is a default prediction model. It classifies firms into two groups: default likely and default unlikely. Yet, Z score is a continuous measure and hence can be used as an indicator for credit quality.
 
-# KMV
+### KMV
 
 In case of private companies, for which stock price data are generally not available, KMV uses essentially the same approach as for quoted firms. However, the market value of assets and asset volatility are estimated from the firm's observed characteristics (e.g. industry mix, size and geographic region) and are based on observations of trends among public firms.
 
 Some firms have no accounting data. Benchmarking is the usual method for private firms. Benchmarking refers to using the credit rating of a publicly traded firm in the same industry with similar products.
 
-# 15.3 Retail Credit
+## 15.3 Retail Credit
 
 Retail credit refers to individuals or small in the neighborhood "mom-and-pop" stores. These borrowers are very diverse and hard to evaluate their credit quality. Hence, individual risks cannot be managed individually but must be managed by diversification (i.e. in large and diverse quantities) or through collateral.
 
-# 15.3.1 FICO
+### 15.3.1 FICO
 
 Wikipedia:
 
@@ -96,7 +110,7 @@ FICO Scores are calculated using many different pieces of credit data in your cr
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/65fd342bf3ae97fbe974fcf8c57905a72cde00b792797029b4ff7ce2e2a31199.jpg)
 Figure 15.2: FICO
 
-# 15.3.2 Mortality Rate
+### 15.3.2 Mortality Rate
 
 Mortality rate is widely used by insurance companies to estimate life expectancy and then set the insurance premiums for life insurance policies. This is also used in ABS and mortgages (on a monthly basis, known as single monthly mortality (SMM) rate which will be discussed in Chapter 12) for prepayment as well as default.
 
@@ -104,50 +118,50 @@ The mortality rate is very similar to the intensity parameter in the Poisson pro
 
 However, in corporate credit, each company has its own mortality rate, but in retail credit, mortality rate is applied to a (hopefully) homogeneous group of individuals or small private firms.
 
-# 15.3.3 Constant Default Rate
+### 15.3.3 Constant Default Rate
 
 The constant default rate (CDR) is the percentage of mortgages within a pool of loans in which the mortgagors (borrowers) have fallen more than 90 days behind in making payments to their lenders. These pools of individual outstanding mortgages are created by financial institutions that combine loans to create mortgage-backed securities (MBS), which they sell to investors.
 
 An "implied" CDR will be discussed in Chapter 12.
 
-# 15.3.4 Pay-As-yoU-Go (PAUG)
+### 15.3.4 Pay-As-You-Go (PAUG)
 
 As mentioned earlier, because of lack of data, retail credit is usually analyzed in pools (hopefully homogeneous). As a result, defaults occur "continuously" in a pool. Unlike a corporation for which default means cease to exist, a default in a pool is much like a small reduction in size. As a result, for a CDS protection (against whole pool), it is not a large lump sum payment but a small fraction of the pool size.
 
 PAUG ("Pay As You Go") refers to application of credit derivatives technology to structured finance products. It works similarly to a credit default swap (CDS) with the reference entity being a structured finance product such as ABS, commercial mortgage-backed security (CMBS), residential mortgage-backed security (RMBS), etc. The trigger events in PAUG can be classified mainly as "credit events" and "floating rate payment events". PAUG is a settlement methodology for CDS on ABS reference entities.
 
-# 15.3.5 Foreclosure
+### 15.3.5 Foreclosure
 
 Wikipedia:
 
 Foreclosure is a legal process in which a lender attempts to recover the balance of a loan from a borrower who has stopped making payments to the lender by forcing the sale of the asset used as the collateral for the loan.
 
-# 15.3.6 Real Estate Owned (REO)
+### 15.3.6 Real Estate Owned (REO)
 
 From Wikipedia,
 
 Real estate owned, or REO, is a term used in the United States to describe a class of property owned by a lender—typically a bank, government agency, or government loan insurer—after an unsuccessful sale at a foreclosure auction. A foreclosing beneficiary will typically set the opening bid at a foreclosure auction for at least the outstanding loan amount. If there are no bidders that are interested, then the beneficiary will legally repossess the property. This is commonly the case when the amount owed on the home is higher than the current market value of the foreclosure property, such as with a mortgage loan made at a high loan-to-value during a real estate bubble. As soon as the beneficiary repossesses the property it is listed on their books as REO and categorized as an asset. (See non-performing asset).
 
-# 15.4 Prepayment Models
+## 15.4 Prepayment Models
 
-Loans and be prepaid. In such a case, banks earn less interests, although the principal is paid back early. There are many reasons why a borrower will prepay before the loan is due. Basically we classify the reasons into two broad caggetories:
+Loans and be prepaid. In such a case, banks earn less interests, although the principal is paid back early. There are many reasons why a borrower will prepay before the loan is due. Basically we classify the reasons into two broad categories:
 
-1.economic reasons
+1. Economic reasons
 2. non-economic reasons
 
 The former mainly refers to refinancing. When interest rates drop (and so does the mortgage rate), the borrower can refinance to lower his/her interest payments.
 
 The latter contains a number of different reasons. The commonly cited ones are:
 
-(a) change of marital status - a newlywed coupon will likely to buy a larger home and a divorced couple will do the opposite and each case will result in selling the existing properties and terminate the mortgage.
-(b) addition (or reduction) of members - couple after having a child will likely to move to suburbs to gain living space and children leaving home will result in downsize and each case will result in selling the existing properties and terminate the mortgage
-(c) relocation – this can be change of jobs which will lead to selling the property and terminate the mortgage.
+(a) change of marital status - a newlywed couple is likely to buy a larger home and a divorced couple will do the opposite and each case will result in selling the existing properties and terminate the mortgage.
+(b) addition (or reduction) of members - couple after having a child are likely to move to suburbs to gain living space and children leaving home will result in downsize and each case will result in selling the existing properties and terminate the mortgage
+(c) relocation – this can be due to change of jobs which will lead to selling the property and terminate the mortgage.
 
-Non-economic reasons cannot be modeled easily using derivative pricing models. Hence large amount of data mining is the common methodology in this area.
+Non-economic reasons cannot be modeled easily using derivative pricing models. Hence a large amount of data mining is the common methodology in this area.
 
-Even refinance which is purely economical cannot be easily modeled. This is because people are generally not sensitive to financial information. Even when rates are lower, without aggressively paying attention, regular people will not know. Another big factor is refinance costs. Refinancing isn't free. Only when savings on interests outweigh the refinance costs, it is beneficial to refinance. As a result, although one can use an interest rate model introduced in Chapter 14, in reality, those models don't work well.
+Even refinance which is purely economic cannot be easily modeled. This is because people are generally not sensitive to financial information. Even when rates are lower, without aggressively paying attention, regular people will not know. Another big factor is refinance costs. Refinancing isn't free. Only when savings on interest outweigh the refinance costs, it is beneficial to refinance. As a result, although one can use an interest rate model introduced in Chapter 14, in reality, those models don't work well.
 
-Accordingly, econometric methods employing large amount of data are the common practice in modeling the prepayment behavior. The key factors that determine prepayment rates are:
+Accordingly, econometric methods employing a large amount of data are the common practice in modeling the prepayment behavior. The key factors that determine prepayment rates are:
 
 (1) refinancing incentive,
 (2) seasonal variations,
@@ -163,7 +177,7 @@ $$
 
 $$
 
-# 15.4.1 Richard and Roll Model
+### 15.4.1 Richard and Roll Model
 
 Mathworks:
 
@@ -179,11 +193,11 @@ The refinancing incentive is a function of the ratio of the coupon-rate of the m
 
 $$
 
-R e f i = . 2 4 0 6 -. 1 3 8 9 \times a r c t a n (5. 9 5 2 * (1. 0 8 9 - \frac{C o u p o n R a t e}{M o r t g a g e R a t e}))
+Refi = 0.2406 - 0.1389 \times \arctan(5.952 * (1.089 - \frac{CouponRate}{MortgageRate}))
 
 $$
 
-# 15.4.2 Andrew Davidson Prepayment Model
+### 15.4.2 Andrew Davidson Prepayment Model
 
 Andrew Davidson is a financial innovator and leader in the development of financial research and analytics. He has worked extensively on mortgage-backed securities product development, valuation and hedging. He is president of Andrew Davidson & Co., Inc., a New York firm specializing in the application of analytical tools to investment management, which he founded in 1992.
 
@@ -199,7 +213,7 @@ Andrew was previously a financial analyst in Exxon's Treasurer's Department. He 
 
 He is co-author of the books Mortgage Valuation Models: Embedded Options, Risk and Uncertainty; Securitization: Structuring and Investment Analysis; and Mortgage-Backed Securities: Investment Analysis and Valuation Techniques. He has contributed to The Handbook of Mortgage-Backed Securities and other publications.
 
-# 15.4.3 QRM Prepayment Model
+### 15.4.3 QRM Prepayment Model
 
 QRM's Mortgage Banking Practice includes the entire secondary marketing process—from pricing, risk reporting, trade management, pool and hedge optimization, to loan delivery. QRM's clients have successfully hedged trillions of dollars of mort- gage originations across a multitude of economic conditions, bringing consistency to the bottom-line.
 
@@ -208,7 +222,7 @@ QRM clients create optimal secondary marketing strategies that produce a predict
 
 QRM clients model virtually every mortgage product or related hedge instrument, including all conforming, jumbo, alt-A, sub-prime, hybrid, reverse, interest-only, and other adjustable rate loan types. As part of that analysis, QRM clients model all possible loan delivery options, including mortgage securities, cash trades, whole loan bids, assignments-of-trades, and CMO securitization. Our Trading Analytics Research group is committed to dissecting new financial instruments and passing the best practice modeling methods on to our clients.
 
-# 15.4.4 BlackRock Prepayment Model
+### 15.4.4 BlackRock Prepayment Model
 
 In 2000, BlackRock launched BlackRock Solutions, the analytics and risk management division of BlackRock, Inc. The division grew from the Aladdin System (which is the enterprise investment system), Green Package (which is the Risk Reporting Service) PAG (portfolio analytics) and AnSer (which is the interactive analytics). BlackRock Solutions (BRS) serves two roles within BlackRock. First, BlackRock Solutions is the in-house investment analytics and "process engineering" department for BlackRock which works with their portfolio management teams, risk and quantitative analysis, business operations and every other part of the firm that touches the investment process. Second, BlackRock Solutions (BRS) and the three primary divisions are services that offered to institutional clients. As of 2013, the platform had nearly 2,000 employees.
 

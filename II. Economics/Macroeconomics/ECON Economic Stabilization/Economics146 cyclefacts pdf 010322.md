@@ -1,12 +1,26 @@
 ---
-aliases:
-  - Business Cycles Introduction, Characteristics, and History
-tags:
-key_concepts:
-parent_directory: "[[ECON Economic Stabilization]]"
+title: Business Cycles: Introduction, Characteristics, and History
+parent_directory: ECON Economic Stabilization
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - business cycles
+  - macroeconomic fluctuations
+  - recession
+  - expansion
+  - economic volatility
+secondary_tags:
+  - NBER
+  - comovement
+  - persistence
+  - leading indicators
+  - lagging indicators
+  - great moderation
+  - cyclical behavior
+  - turning points
+  - aggregate economic activity
 cssclasses: academia
-title: "Business Cycles: Introduction, Characteristics, and History"
-linter-yaml-title-alias: "Business Cycles: Introduction, Characteristics, and History"
 ---
 
 # Business Cycles: Introduction, Characteristics, and History

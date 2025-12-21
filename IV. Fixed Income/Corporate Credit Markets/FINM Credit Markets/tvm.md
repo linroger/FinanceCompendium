@@ -1,11 +1,21 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Time Value of Money
-linter-yaml-title-alias: Time Value of Money
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 07:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
+primary_tags:
+  - time value of money
+  - present value calculation
+  - future value calculation
+  - annuity payments
+secondary_tags:
+  - financial mathematics
+  - loan amortization
+  - internal rate of return
+  - cash flow analysis
+  - discount rates
+cssclasses: academia
 ---
 
 Copyright &copy; 2012 Ondrej Martinsky, All rights reserved
@@ -16,7 +26,42 @@ Copyright &copy; 2012 Ondrej Martinsky, All rights reserved
 
 ## Implementation
 
-scroll below for examples
+```d2
+tvm_concepts: Time Value of Money Concepts {
+  direction: right
+  
+  present_value: "Present Value (PV)" {
+    shape: rectangle
+    label: "Current worth of future cash flows"
+  }
+  
+  future_value: "Future Value (FV)" {
+    shape: rectangle
+    label: "Future worth of current cash flows"
+  }
+  
+  payments: "Periodic Payments (PMT)" {
+    shape: rectangle
+    label: "Annuity or loan payment amounts"
+  }
+  
+  rate: "Interest Rate (r)" {
+    shape: circle
+    label: "Discount/interest rate per period"
+  }
+  
+  periods: "Number of Periods (n)" {
+    shape: circle
+    label: "Total time periods"
+  }
+  
+  present_value -> payments -> future_value
+  rate -> present_value
+  periods -> present_value
+}
+```
+
+### Examples
 
 ```python
 from optimization import newton
@@ -76,7 +121,9 @@ class TVM:
 TVM(n=25*12, r=.04/12, pv=500000, fv=0).calc_pmt()
 ```
 
-    -2639.1842014888507
+```python
+-2639.1842014888507
+```
 
 ## Internal Rate of Return
 
@@ -84,7 +131,9 @@ TVM(n=25*12, r=.04/12, pv=500000, fv=0).calc_pmt()
 TVM(n=10*2, pmt=6/2, pv=-80, fv=100).calc_r()
 ```
 
-    0.045432970406767303
+```python
+0.045432970406767303
+```
 
 ## How much I can borrow ?
 
@@ -92,5 +141,7 @@ TVM(n=10*2, pmt=6/2, pv=-80, fv=100).calc_r()
 TVM(n=25*12, r=.04/12, pmt=-2000, fv=0).calc_pv()
 ```
 
-    378904.96594965487
+```python
+378904.96594965487
+```
 

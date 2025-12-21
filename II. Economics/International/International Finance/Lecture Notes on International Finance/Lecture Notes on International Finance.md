@@ -1,26 +1,31 @@
 ---
 title: Lecture Notes on International Finance
 parent_directory: International Finance
-formatted: 2025-12-21 11:00:00 AM
-formatter_model: grok-code-fast-1
-cli_tool: open code
+formatted: 2025-12-21 06:45:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
 primary_tags:
 - international finance
 - exchange rates
 - currency risk premia
 - international asset pricing
 - global imbalances
+- convenience yields
+- exorbitant privilege
+- long run risks
+- trade network
 secondary_tags:
-- lecture notes
 - bretton woods system
 - real exchange rates
 - euler equations
-- convenience yields
-- incomplete markets
-- monetary policy
-- fiscal policy
-- portfolio choice
-- financial intermediation
+- covered interest parity
+- twin deficits
+- carry trade
+- factor structure
+- currency base factor
+- recursive preferences
+- production networks
+- network profile matrix
 cssclasses: academia
 ---
 ## Zhengyang Jiang
@@ -57,9 +62,7 @@ A pretty impressive summary, right? In the narrower scope of this lecture note, 
 
 First, we would like to understand the determinants of exchange rates and international asset prices. As with generic asset pricing, we would like to understand what drives exchange rates and international asset prices to fluctuate ex-post, what drives some currencies and assets to have higher expected returns ex-ante, and how to characterize the risk-return trade-off. The international asset prices include bond yields across countries, which, as we will see, are closely related to the currency market, as well as international equity prices, though they will receive much shallower coverage in this note.
 
-Second, there is a quantity dimension, which includes capital flows, international portfolio positions and imbalances, as well as imports and exports of various goods. Another key agenda in international macroeconomics and finance is to connect these quantities
-
-to the exchange rates and asset prices. We would like to understand how these quantities evolve between countries, sectors, and agents, and whether they share common drivers with exchange rate fluctuations.
+Second, there is a quantity dimension, which includes capital flows, international portfolio positions and imbalances, as well as imports and exports of various goods. Another key agenda in international macroeconomics and finance is to connect these quantities to the exchange rates and asset prices. We would like to understand how these quantities evolve between countries, sectors, and agents, and whether they share common drivers with exchange rate fluctuations.
 
 Third, we also need to understand the roles played by monetary and fiscal policies in regulating and shaping the asset price and quantity dynamics. Besides the conventional interest rate policies and foreign exchange market interventions, unconventional monetary policies such as large scale asset purchases and sales have become very important and change our understanding of the monetary transmission mechanism. Moreover, the government debt and deficits have risen to unprecedented levels in the post-war history. The fiscal outlooks also shape how investors price the government liabilities including debt and currencies.
 
@@ -139,7 +142,7 @@ HEMINGWAY: Yes, they have more money.
 
 ### 1. A Benchmark Economy
 
-#### Summary
+####### Summary
 
 #### 1.A Model Set-up
 
@@ -313,17 +316,15 @@ which depends on the relative endowments  $(\log y_{t} - \log y_{t}^{*})$ , plus
 
 Any model we consider in this note can be characterized by its stance on the supply of consumption goods and the two wedges. While the goods market issues are equally important for understanding the international macro and financial outcomes, we focus more on the asset market view in this note.
 
-# 2
+## 2 Puzzles: Challenges to Making Sense of Data
 
-# Puzzles: Challenges to Making Sense of Data
-
-# Summary
+###### Summary
 
 - The stochastic properties of the exchange rate movement—cyclicality, volatility, expected return, and comovement—exhibit puzzling patterns that are difficult to explain by the complete-market benchmark model.  
 - Combining bond and currency forward positions generates non-zero risk-free returns. These near-arbitrage spreads also require significant modifications on the benchmark model.  
 - International portfolio quantities and capital flows exhibit strong asymmetry and cyclicality, which also impose important restrictions on how we specify the model.
 
-# 2.A Challenges to Making Sense of Exchange Rates
+### 2.A Challenges to Making Sense of Exchange Rates
 
 The two-country economy we derived in the previous chapter is a direct extension of the standard one-country real business cycle model. When pioneers in this field confront the model's implications with the exchange rate data, many puzzles emerge. Each puzzle sheds light on a dimension of the exchange rate data that is at odds with the benchmark model, and serves as a useful landmark to guide us to think about how to make progress in the theoretical literature.
 
@@ -338,7 +339,7 @@ As this lecture note focuses on the theoretical foundation, we only provide a br
 1 https://www.koijen.net/phd-notes-empirical-asset-pricing.html  
 $^{2}$  https://www.gsb.stanford.edu/faculty-research/faculty/conferences/big-data-initiative-international-macro-finance/videos-codes
 
-# 2.A.1 Volatility Puzzle
+#### 2.A.1 Volatility Puzzle
 
 If we take an unconditional variance on both the left- and right-hand sides of Eq. (1.16), we obtain
 
@@ -499,7 +500,7 @@ Figure 2.1 also plots the Treasury CIP basis. Unlike the Libor CIP basis, the Tr
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/24bf59715ba3b4713233f953b896e387fb82ff4e78eb3bfb77017f6e05fad443.jpg)  
 Figure 2.1: U.S. Treasury and Libor CIP Basis. Data source: Jiang, Krishnamurthy, and Lustig [2021a].
 
-# 2.A.7 Currency Risk Premia across Horizons
+#### 2.A.7 Currency Risk Premia across Horizons
 
 We can also consider the currency returns across multiple horizons, which can be achieved by either rolling over short-term debt positions in home and foreign currencies, or by investing in long-term
 
@@ -507,9 +508,9 @@ debt positions. Lustig, Stathopoulos, and Verdelhan [2019] show that the long-ru
 
 Engel [2016] shows that high interest rate currencies not only have higher expected returns in the short term, but also are stronger than can be accounted for by the path of expected real interest differentials. In other words, high interest rates must predict lower currency returns in the long term. Relatedly, Dahlquist and Pénasse [2022], Chernov and Creal [2023] show that the exchange rate level predicts currency returns. Thus, a coherent account of the multi-horizon currency returns involves the interest rate predicting higher currency returns and higher exchange rate levels in the short term, and the elevated exchange rate levels predicting lower currency returns in the medium-to-long term.
 
-# 2.B Challenges to Making Sense of Quantities and Flows
+### 2.B Challenges to Making Sense of Quantities and Flows
 
-# 2.B.1 Global Imbalances
+#### 2.B.1 Global Imbalances
 
 We start with the U.S. net external imbalances vis-à-vis the rest of the world. We consider the equity-like, riskier asset classes and the debt-like, safer asset classes separately. Let us define the net risky position as the sum of portfolio equity assets and foreign direct investment (FDI) assets minus portfolio equity liabilities and FDI liabilities, and define the net safe position as the reserve assets plus debt assets minus debt liabilities [Gourinchas, Rey, and Sauzet, 2019].
 
@@ -528,7 +529,7 @@ We also sum up the U.S. net risky and safe positions to obtain the U.S. net fore
 
 As we will see in Chapter 7, these imbalances reflect a fundamental asymmetry between the U.S. and the rest of the world. They play an important role in our understanding of the international monetary system, as they are closely tied to the global risk-sharing arrangements and the unique position of the U.S. and the dollar.
 
-# 2.B.2 The Exorbitant Privilege and Duty
+#### 2.B.2 The Exorbitant Privilege and Duty
 
 Changes in the U.S. external imbalances are driven by both the quantity of capital flows into and out of the U.S. and the returns on the existing assets and liabilities. When we examine the latter component, we find that the U.S. tends to earn a higher return on its external assets relative to what it pays to foreigners on its external liabilities. To describe this phenomenon, the French Minister of Finance Valery Giscard d'Estaing coined the term "exorbitant privilege" in 1965 [Gourinchas and Rey, 2007b, Gourinchas, Rey, and Govillot,
 
@@ -566,7 +567,7 @@ $$
 
 An increase in the U.S. net foreign assets can be attributed to either national saving by running a higher trade surplus and saving the income abroad, or earning a higher capital gains or incomes from foreign financial assets. Conversely, holding the NFA constant, a trade deficit can be financed by profits from the portfolio side.
 
-# 2.B.3 Countercyclical Flight To Safety
+#### 2.B.3 Countercyclical Flight To Safety
 
 There is also a quantity aspect to the exorbitant privilege, which can be illustrated by the following hypothetical example that I considered in Jiang, Krishnamurthy, and Lustig [2022a]. There are two investment periods. In period 1 the U.S. Treasury yield is high at  $5\%$ . In period 2 the U.S. Treasury yield is low at  $1\%$ . Table 2.1 illustrates the returns and the holdings of home and foreign investors. The foreign investors buy more Treasuries when the yield is lower in period 2, whereas the home investors buy more Treasuries when the yield is higher in period 1. In a crude way, this assumption captures the foreigners' countercyclical flight to safety provided by the U.S. Treasury market: they buy U.S. Treasuries when they are expensive and offer low returns, and they exit their positions when Treasury bonds are cheap and offer high returns.
 
@@ -584,7 +585,7 @@ This countercyclical flight to U.S. safe assets benefits their issuers such as t
 
 In our fiat currency system, being the hegemon confers a specific ability to issue large amounts of nominally safe liabilities (dollar securities), which are happily absorbed by the rest of the world. Thus, the view is that, in case of a deficit, the United States does not have to take restrictive measures, so that the dollar is not an impartial means of international exchange. This is the essence of the exorbitant privilege.
 
-# 2.B.4 Twin Deficits
+#### 2.B.4 Twin Deficits
 
 The U.S. external imbalances are also closely related with the U.S. government budget deficits. Figure 2.5 plots the U.S. government's
 
@@ -594,7 +595,7 @@ total government debt held by public/GDP ratio and the U.S. external liability/G
 
 This comovement shows that international finance and government finance are closely intertwined. On the one hand, the foreign investors, private and official, have been financing a large portion of the U.S. external liabilities. To understand why this is the case, it is important to understand why they find the U.S. government debt particularly desirable. On the other hand, a large portion of the U.S. government debt has been financed by foreign investors. To evaluate the U.S. fiscal sustainability, it is also important to take a global perspective. We will consider these issues in detail in Chapters 7 and 8.
 
-# 2.B.5 Other Empirical Patterns
+#### 2.B.5 Other Empirical Patterns
 
 There are many more empirical patterns that this note does not have space to cover. For example, home bias is a salient pattern in international asset allocation. Lewis [1999] provides a summary of the literature. More recently, micro-data shed new light on cross-border portfolio positions and global capital allocations. Florez-Orrego, Maggiori, Schreger, Sun, and Tinda [2023] provide a review of this literature.
 
@@ -603,17 +604,13 @@ Figure 2.5: U.S. Public and External Liabilities. The figure plots the U.S. publ
 
 Miranda-Agrippino and Rey [2022] provide a summary of the literature on the global financial cycle, which refers to the strong comovements between exchange rates, asset prices, capital flows, and the U.S. monetary policy. Du and Schreger [2022a] provide a review of the literature on the CIP deviation and frictions in international capital markets. Hassan and Zhang [2021] provide a review of the literature on currency risks and returns.
 
-Part II
+## Part II
 
-# Understanding the
+### Understanding the Exchange Rates
 
-# Exchange Rates
+### 3 Risk Premia and Factor Structure
 
-# 3
-
-# Risk Premia and Factor Structure
-
-# Summary
+#### Summary
 
 - We first investigate the role of currency risk premium  $rp_{t}$ , which drives both the currency expected return:
 
@@ -994,7 +991,7 @@ $$
 \psi^{i} = \frac{cov (\Delta e_{t + 1}^{i / \S} , r_{t}^{i} - r_{t}^{\S})}{var (r_{t}^{i} - r_{t}^{\S})} = \frac{\chi \left(\frac{1}{2} \gamma - \chi\right) (var (z_{t}^{i}) + var (z_{t}^{\S})) + \zeta \left(\frac{1}{2} - \zeta\right) (\delta^{i} - \delta^{\S})^{2} var (z_{t}^{w})}{(\chi - \frac{1}{2} \gamma)^{2} (var (z_{t}^{i}) + var (z_{t}^{\S})) + (\zeta - \frac{1}{2})^{2} (\delta^{i} - \delta^{\S})^{2} var (z_{t}^{w})} > 0.
 $$
 
-# 3.A.5 Currency Base Factor
+#### 3.A.5 Currency Base Factor
 
 Another convenient construct to measure risk exposures and currency risk premia is the currency base factor [Lustig and Richmond, 2020, Aloosh and Bekaert, 2021]. For country  $i$ , its currency base factor is defined as the average of its bilateral exchange rate movement against foreign currencies<sup>2</sup>:
 
@@ -1040,7 +1037,7 @@ $$
 
 The proof is presented in Appendix A.5. We note that the only foreign country  $j$ -specific variable in this expression is its exposure to the systematic risk,  $\delta^j$ . In particular, its idiosyncratic risk  $z_t^j$  does not show up in this expression, because the currency base factor  $\Delta \overline{e}_{t+1}^i$  is not exposed to any individual foreign country's idiosyncratic shock. Hence, for a given home currency  $i$ , the regression coefficient  $\varphi^{i/j}$  measures the difference in the systematic risk exposure between countries  $i$  and  $j$ , i.e.,  $\left(\sqrt{\delta^i} - \sqrt{\delta^j}\right)$ .
 
-# 3.A.6 Other Works
+#### 3.A.6 Other Works
 
 This no-arbitrage approach provides a useful framework to account for the time-series and the cross-sectional variations in exchange rate movements and currency risk premia using global and idiosyncratic SDF shocks in complete markets. As such, it could be applied to all complete-market models that we study in this chapter.
 
@@ -1078,11 +1075,11 @@ $$
 
 In this way, we can jointly model exchange rates and asset prices using the same set of observable variables [Chernov and Creal, 2023]. We will discuss this class of affine models in detail in Section 8.E.
 
-# 3.B Currency Risk Premia in the Time Series
+### 3.B Currency Risk Premia in the Time Series
 
 The no-arbitrage approach offers us an accounting framework to break down the variations that come from country-specific and global shocks. Using the Euler equations, it imposes discipline on how these shocks give rise to variations in exchange rates and currency risk premia, and helps us organize the exchange rate puzzles. However, it does not answer where these shocks come from. We need additional structures to understand the origins of these shocks. In this section and the next section, we consider two models that offer such structures. One model is based on the long-run risks and focuses on the time-series variations in currency risk premia, and the other model is based on the trade network and focuses on the cross-sectional variations in currency risk premia.
 
-# 3.B.1 Households
+#### 3.B.1 Households
 
 There are two countries, home and foreign. The households have the Epstein and Zin [1989] recursive preferences. For the home households,
 
@@ -1158,7 +1155,7 @@ wealth-consumption ratio is increasing in the long-run growth and decreasing in 
 
 Table 3.1: Model Parameter Values
 
-# 3.B.2 Macro Synthesis
+#### 3.B.2 Macro Synthesis
 
 It is worth noting that this model does not start with endowment or production processes and household optimization that generate endogenous consumption processes. Instead, the consumption processes are assumed to be exogenous. Subsequent works such as Colacito and Croce [2013], Colacito, Croce, Ho, and Howard [2018b] embed the long-run risk in the endowment or production processes instead of the consumption processes. While these alternative settings bring the model closer to the baseline model we considered in Section 1.A, it also makes the model more difficult to solve and
 
@@ -1970,7 +1967,7 @@ We notice that this risk premium does not depend on the transitory component of 
 
 # Convenience Yields
 
-# Summary
+#### Summary
 
 - We deviate from the complete-market benchmark and introduce the bond convenience yield  $\lambda_{t}^{*}$  as a wedge in the households' Euler equations for holding the home bond:
 
@@ -2736,7 +2733,7 @@ In fact, the left-hand side is finite whereas the right-hand side can be infinit
 
 # Incomplete Markets
 
-# Summary
+#### Summary
 
 - Incomplete markets also lead to a wedge between the exchange rate movement and the SDF differential:
 
@@ -3676,7 +3673,7 @@ In this way, this specific setting shows a clear distinction between incomplete-
 
 # Monetary and Fiscal Policies
 
-# Summary
+#### Summary
 
 - We develop a stylized model in the New Keynesian tradition. In this model, when prices are flexible, monetary and fiscal policies have no real effects: they do not affect consumption and real exchange rate. They only affect inflation, which affects the nominal interest rate and the nominal exchange rate.  
 - When prices are sticky, monetary and fiscal policies have real effects: they influence the real interest rate, which affects consumption and the real exchange rate.  
@@ -4621,7 +4618,7 @@ Finally, these theoretical arguments are also relevant for understanding currenc
 
 # Global Imbalances and the Exorbitant Privilege
 
-# Summary
+#### Summary
 
 - The architecture of the international monetary system has important implications for exchange rate and capital flow dynamics, and reserve assets are at its cornerstone.  
 - We examine two complementary views of the architecture: the insurance provision view emphasizes the U.S.' role as the world's insurance provider, and the safe asset view emphasizes the foreign demand for dollar safe assets. Both views emphasize the centrality of the U.S. in the global financial markets, but they have different implications for the U.S. external imbalances and the dollar exchange rate.  
@@ -5207,7 +5204,7 @@ yield and the risk premium terms, we can expect the variations in the exchange r
 
 # Government Debt
 
-# Summary
+#### Summary
 
 - If we look backward, the market value of government debt is determined by past debt, primary surpluses, and debt returns:
 
@@ -6255,7 +6252,7 @@ Our discussion shows that the issue of government debt valuation and sustainabil
 
 # Portfolio Choice and Asset Demand
 
-# Summary
+#### Summary
 
 - International portfolio choices underlie each country's external imbalance and capital flow dynamics. A country's net foreign assets are directly a consequence of portfolio choices:
 
@@ -6962,7 +6959,7 @@ sectors, such as banks, mutual funds, insurance companies and pension funds, and
 
 # Market Segmentation and Financial Intermediation
 
-# Summary
+#### Summary
 
 - We consider two forms of asset market segmentation and financial intermediation.  
 - First, asset markets can be segmented between countries. Local households may not be able to directly hold foreign assets, and they rely on financiers to intermediate the cross-border capital flows. The financiers face financial constraints, which connect the portfolio imbalances they have to absorb to the risk premium they charge on foreign assets and currencies for providing this intermediation service.  

@@ -1,36 +1,32 @@
 ---
-parent_directory: null
-title: Lecture 1
-tags: null
-aliases: null
-parent_folder: Lecture Notes Advanced Financial Analysis and Valuation
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: Lecture 1
+title: "Chinese Economy Lecture Notes Full"
+parent_directory: PPHA Chinese Economy
+formatted: 2025-12-21 06:50:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- expropriating foreign capital
-- lecture chinese economy introduction
-- economies started earlier
+  - chinese economy
+  - economic growth
+  - poverty alleviation
+  - historical perspective
 secondary_tags:
-- economy introduction shaoda
-- vs china gdp 1978
-- logic lessons china growth
-- china history late 20th
-- year imply china
-- 2030 china 1952
-tags_extracted: '2025-12-18T01:49:47.096117'
+  - gdp comparison
+  - urbanization
+  - international trade
+  - great divergence
+  - central planning
+cssclasses: academia
 ---
 
 # Lecture 1
 
-# The Chinese Economy: Introduction
+## The Chinese Economy: Introduction
 
 Shaoda Wang
 
 University of Chicago
 
-# Why China?
+## Why China?
 
 "It may well be that when the history of the late 20th century is written in a hundred years, the most significant event will be the revolutionary change in China."
 
@@ -43,7 +39,7 @@ In 1978, the Chinese GDP was  $6\%$  of the US GDP;
 
 In 2020, the Chinese GDP became more than  $70\%$  of the US GDP; The IMF projects China to surpass the US in nominal GDP by 2030
 
-# China (1952) vs. India (1950)
+## China (1952) vs. India (1950)
 
 <table><tr><td></td><td>China 1952</td><td>India 1950</td></tr><tr><td>GDP per capita ($)</td><td>50</td><td>60</td></tr><tr><td>Population (million)</td><td>573</td><td>358</td></tr><tr><td>Industrial output (pc)</td><td></td><td></td></tr><tr><td>Coal (kg)</td><td>96</td><td>97</td></tr><tr><td>Steel (kg)</td><td>2</td><td>4</td></tr><tr><td>Electricity (kw)</td><td>0.005</td><td>0.04</td></tr><tr><td>Cotton spindles</td><td>0.01</td><td>0.03</td></tr><tr><td>Railroads (km)</td><td>20,746</td><td>72,000</td></tr></table>
 
@@ -52,7 +48,7 @@ India vs China by GDP
 
 This is not to take anything away from India, which also had impressive growth since the 1990s. But given that the two countries are comparable in size, and India even had an edge in the 1950s, comparing the two demonstrates why China's economic transformation is often referred to as the "China miracle."
 
-# Shanghai: Then vs. Now
+## Shanghai: Then vs. Now
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/79888a59472bf9cd3e3b4c487545d55010da896abe5555cfd49442eaf3edbd8c.jpg)
 
@@ -60,7 +56,7 @@ This is not to take anything away from India, which also had impressive growth s
 
 Urbanization rate: from 17.9% in 1978 to 60.6% in 2020.
 
-# Shanghai is not even an extreme example…
+## Shanghai is not even an extreme example…
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/0407195054f1d64f4681d81e818014cf493d4893f6444edfb4b2c33311cbeed7.jpg)
 
@@ -78,7 +74,7 @@ HUAWEI
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/48e1c490588663b80148b704fcdf7b13841fbeede41a7b353adab86ed986f31f.jpg)
 
-# Poverty Alleviation
+## Poverty Alleviation
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/3a8edcb3ad6b9095385ad775aef342596bb2db60f5eeb28c8899163f98f5ec14.jpg)
 
@@ -86,12 +82,12 @@ In 1980, about  $90\%$  of the population lived in poverty (< $\$ 2$ /day), amon
 
 After four decades of development and high-powered poverty alleviation programs, poverty rate is below  $1\%$ . More than 800 million people lifted out of poverty!
 
-# Poverty Alleviation
+## Poverty Alleviation
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/476441d2f7ec4b9671748f5e9dc54c5cee6b7dc4afc346b9aaca7421b397a484.jpg)  
 Number of Poor People (millions), Poverty Line  $\vDash$  \$1.9PPP
 
-# Integration into the world
+## Integration into the world
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/9b5445d42119621a5c6ea3b1b381a96c33924a63614cb8a7e17f3a3aa8a6285a.jpg)
 
@@ -99,7 +95,7 @@ In 2000, only  $20\%$  of the countries shared more trade with China than the US
 
 In 2020,  $74 \%$ of the countries shared more trade with China than the US.
 
-# International Friends and Enemies
+## International Friends and Enemies
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/1a40ac950348e4ee80baaea11188035d333603896c8b05333e40899da7d2070c.jpg)  
 Top panel: welfare exposure to China's productivity growth by country, 1980 and 2010
@@ -111,32 +107,32 @@ Bottom panel: voting similarity  $(\mathcal{K})$  to China in the United Nation'
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/9c1edc4ab192a7f31029ca612fb5523444f55e001d6603b595e022f8a952fec6.jpg)
 
-# Historical Perspective
+## Historical Perspective
 
-- So incredible economic transformation happened in China since 1978.  
-- But HOW?  
-- And WHY?  
+- So incredible economic transformation happened in China since 1978.
+- But HOW?
+- And WHY?
 - To understand what happened since 1978, we need to first understand how we got there
 - Why was China poor before 1978?
 
-# Historical Perspective
+## Historical Perspective
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/93cf6b9c596743bb6259bda3d993a24b8f7fb9b89ff703aff93e3be79fee44dc.jpg)
 
 - Angus Maddison, a distinguished British economic historian, predicted in the early 1990s that China's GDP (ppp adjusted) would surpass that of the US by 2015
 
-# Big Picture
+## Big Picture
 
-# 2,000 YEARS OF ECONOMIC HISTORY IN ONE CHART
+### 2,000 YEARS OF ECONOMIC HISTORY IN ONE CHART
 
 All major powers compared by GDP from the year 1 AD
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/08b9ba5d956b81caad41337a9cad64a88742cb47c6b6eeb7a08a2d311c4a95d3.jpg)  
 SHARE OF GDP (WORLD POWERS)
 
-# Big Picture
+## Big Picture
 
-# 2,000 YEARS OF ECONOMIC HISTORY IN ONE CHART
+### 2,000 YEARS OF ECONOMIC HISTORY IN ONE CHART
 
 All major powers compared by GDP from the year 1 AD
 
@@ -145,7 +141,7 @@ SHARE OF GDP (WORLD POWERS)
 
 Q1: What caused the start of China's decline?
 
-# The Great Divergence
+## The Great Divergence
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/9b34a0996384dc874a97c1ceb4c9806f4c57bd7f12dfb3d243d8d8235f0407ef.jpg)
 

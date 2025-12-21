@@ -1,18 +1,26 @@
 ---
-aliases: Foreign Currency Swap
-tags:
-key_concepts:
-parent_directory: Analysis
+title: "Chapter 6 - Foreign Currency Swap"
+parent_directory: "Analysis"
+formatted: 2025-12-21 06:41:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - foreign currency swaps
+  - interest rate parity
+  - purchasing power parity
+  - triangular arbitrage
+secondary_tags:
+  - fx forwards
+  - fx futures
+  - quanto risk premium
+  - exchange rate determination
+  - currency arbitrage
 cssclasses: academia
-title: Chapter 6 - Foreign Currency Swap
-linter-yaml-title-alias: Chapter 6 - Foreign Currency Swap
 ---
 
-# Chapter 6
+# Chapter 6: Foreign Currency Swap
 
-# Foreign Currency Swap
-
-# 6.1 Introduction
+## 6.1 Introduction
 
 From a macro perspective, exchange rates are regarded as a symbol of a nation's economic and political strengths. From a micro perspective, exchange rates play a central role in multi-national conglomerates in terms of their profits and investments, and diversification.
 
@@ -66,9 +74,13 @@ Purchasing power parity (PPP) is a measurement of prices in different countries 
 
 To understand PPP, we can use a classical comparative advantage example (similar to the one used in FX swap later in this chapter and in IRS in Chapter 5). There are two nations and each nation lives one person. This person produces fruit domestically. The American (A) produces apples and the Brazilian (B) produces oranges.
 
-<table><tr><td>A</td><td>B</td><td></td></tr><tr><td>apples</td><td>oranges</td><td>product</td></tr><tr><td>100</td><td>200</td><td>capacity</td></tr><tr><td>1 dollar</td><td>1 real</td><td>per product</td></tr></table>
+| A | B |  |
+|---|---|---|
+| apples | oranges | product |
+| 100 | 200 | capacity |
+| 1 dollar | 1 real | per product |
 
-Table 6.1: PPP Explained
+**Table 6.1: PPP Explained**
 
 If A (America) consumes half of its production and trades half of its production (i.e. 50 apples) with B (Brazil) for half of its production (i.e. 100 oranges), then the exchange rate between the two countries is 1:2. If the American pays 1 per apple and the Brazilian pays 1 real per orange, then the exchange rate between dollar and real is 1:2 (dollar more expensive). If the Brazilian spends only half real for an orange, then the exchange rate between dollar and real is 1:1. Hence, directly we can see the exchange rate is a factor of money supply.
 
@@ -169,6 +181,53 @@ $$
 
 Such limitations provide arbitrage opportunities (i.e. violation of these limitations present profit opportunities).
 
+```d2
+direction: right
+
+# Triangular Arbitrage Visualization
+usd_node: USD {
+  shape: circle
+  style.fill: "#1976d2"
+  style.stroke: "#0d47a1"
+}
+
+gbp_node: GBP (£) {
+  shape: circle
+  style.fill: "#388e3c"
+  style.stroke: "#1b5e20"
+}
+
+jpy_node: JPY (¥) {
+  shape: circle
+  style.fill: "#f57c00"
+  style.stroke: "#e65100"
+}
+
+usd_node -> gbp_node: Exchange Rate Y
+gbp_node -> jpy_node: Exchange Rate X
+jpy_node -> usd_node: Exchange Rate Υ
+
+arbitrage_check: Arbitrage Check {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+arbitrage_check -> usd_node: If X ≠ Υ/Y
+arbitrage_check -> gbp_node: Profit opportunity
+arbitrage_check -> jpy_node: No-arbitrage when X = Υ/Y
+
+note: |md
+  **Triangular Arbitrage:**
+  - Three currency exchange rates must satisfy X = Υ/Y
+  - Violation creates profit opportunities
+  - Correlations constrain volatility relationships
+  - Matrix must be positive semi-definite
+| {
+  near: top-center
+}
+```
+
 # 6.2.3 Exchange Rate and Imports/Exports
 
 Investopedia:
@@ -195,9 +254,15 @@ Exports are essential for developing nations to build up their foreign reserves.
 
 IRP explains the relationship between the spot exchange rate and the forward exchange rate. IRP states that the difference between the two is the interest rate differential between the two countries. The following table explains. Todya's exchange rate is 1:100 (or 0.01 per yen) and the interest rates in the US and Japan are 5\% and 2\% respectively.
 
-<table><tr><td>today (yen)</td><td>maturity (in 1 year)</td></tr><tr><td>exchange rate is 1:100 (quote: \$0.01 per yen)</td><td></td></tr><tr><td>1-year US rate is 5\%</td><td></td></tr><tr><td>1-year JP rate is 2\%</td><td></td></tr><tr><td>strategy 1: use US\$1 to buy 100 yen (earn 2\%)</td><td>102 yen</td></tr><tr><td>strategy 2: invest US\$1 domestically (earn 5\%)</td><td>\$1.05</td></tr></table>
+| today (yen) | maturity (in 1 year) |
+|-------------|----------------------|
+| exchange rate is 1:100 (quote: $0.01 per yen) |  |
+| 1-year US rate is 5% |  |
+| 1-year JP rate is 2% |  |
+| strategy 1: use US$1 to buy 100 yen (earn 2%) | 102 yen |
+| strategy 2: invest US$1 domestically (earn 5%) | $1.05 |
 
-Table 6.2: IRP Explained
+**Table 6.2: IRP Explained**
 
 So, forward exchange rate must be  $102 / 1.05 = 97.14$ , i.e. 1:97.14 (quote: 0.0103) or arbitrage should take place.
 
@@ -210,7 +275,11 @@ R_{U S} = \frac{\frac{1}{X_{0}} R_{J P}}{X_{1}}
 $$
 
 $$
-1. 0 5 = \frac{\frac{1}{0 . 0 1} \times 1 . 0 2}{X_{1}}
+1.05 = \frac{\frac{1}{0.01} \times 1.02}{X_{1}}
+$$
+
+$$
+X_{1} = X_{0} \frac{R_{US}}{R_{JP}} = \frac{1}{0.01} \times \frac{1.05}{1.02} = 0.0103
 $$
 
 $$

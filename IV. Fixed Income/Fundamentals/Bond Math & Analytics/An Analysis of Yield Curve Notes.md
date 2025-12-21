@@ -1,20 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: An Analysis of Yield Curve Notes
+parent_directory: Bond Math & Analytics
+formatted: 2025-12-21 08:10:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
+primary_tags:
+  - yield curve notes
+  - floating rate securities
+  - interest rate risk management
+secondary_tags:
+  - bond valuation models
+  - immunization strategies
+  - variable rate notes
+  - financial innovation
+  - liability management
+  - interest rate derivatives
 cssclasses: academia
-title: American Finance Association
-linter-yaml-title-alias: American Finance Association
 ---
-
-# American Finance Association
-
-An Analysis of Yield Curve Notes
 
 # An Analysis of Yield Curve Notes
 
-# ABSTRACT
+## ABSTRACT
 
 This paper analyzes a new type of security, the yield curve note, which pays interest at a rate that varies inversely with short-term interest rates. A valuation model for yield curve notes is presented, the parameters of the model are estimated empirically, and the estimated model is used to explore, in simulation, the price behavior and risk characteristics of yield curve notes in comparison with fixed-rate notes. The risk of a yield curve note is approximately twice as great as a fixed-rate note with the same maturity. The unique risk characteristics of yield curve notes make them useful (as liabilities) in immunization strategies for financial institutions. Their usefulness in this regard may be the chief rationale for their development.
 
@@ -26,11 +32,11 @@ This paper presents a preliminary analysis of several aspects of yield curve not
 
 The next section briefly describes the terms of some of the initial issues of yield curve notes. Section II presents a continuous-time valuation model for default-free yield curve notes. In Section III, the parameters of the model are estimated empirically. In Section IV, yield curve notes and fixed-rate notes are compared in simulation. Section V discusses the use of yield curve notes in immunization strategies. Finally, Section VI summarizes the analysis.
 
-# I. Initial Issues of Yield Curve Notes
+## I. Initial Issues of Yield Curve Notes
 
 Descriptions of several initial issues of yield curve notes are provided in Table I.2 All of the issues have five or seven years to maturity and are not subject to redemption prior to maturity. Initial and subsequent interest rates on each issue are computed, at the beginning of each interest period, as the difference between an interest constant and the current six-month London interbank offered rate (LIBOR). Coupon interest is paid and adjusted semiannually for each issue, and, if for any period LIBOR is greater than or equal to the interest constant, no interest is paid for that period.
 
-# II. A Model for Analysis
+## II. A Model for Analysis
 
 This section presents a continuous-time valuation model for default-free securities including both fixed-rate notes and yield curve notes. Since this model may be embedded in the general-equilibrium framework developed by Cox, Ingersoll, and Ross [5], it is consistent with a rational-expectations equilibrium.
 
@@ -40,17 +46,17 @@ The following assumptions are required for the analysis:
 
 (A2) There are no taxes.
 
-(A3) The instantaneous default-free rate of interest,  $r(t)$ , follows the diffusion process
+(A3) The instantaneous default-free rate of interest, $r(t)$, follows the diffusion process
 
-$$ d r = \beta (\mu - r) d t + \sigma r d z, \tag {1}
-$$ where  $\beta, \mu,$  and  $\sigma$  are parameters and  $dz$  is a standard Wiener process.
+$$ dr = \beta(\mu - r)dt + \sigma r dz, \tag{1}
+$$ where $\beta, \mu,$ and $\sigma$ are parameters and $dz$ is a standard Wiener process.
 
 
-(A4) The price of any default-free security,  $P(r, t)$ , is a twice-continuously differentiable function of  $r$ .
+(A4) The price of any default-free security, $P(r, t)$, is a twice-continuously differentiable function of $r$.
 
  Information about these issues was obtained from prospectuses and offering circulars graciously provided by Morgan Stanley & Co., Inc., Salomon Brothers, Inc., Fannie Mae, and Sallie Mae.
 3 The focus of the analysis is the effects of interest rate uncertainty on the value and riskiness of yield curve notes, so default risk is ignored. The effects of default risk can be analyzed, however, with a model developed along the lines of Cox, Ingersoll, and Ross [4].
-4 This assumption implies that the market for default-free bonds is governed by a single-state variable uniquely defined by  $r$ . While the analysis therefore has obvious limitations, it is nevertheless important to focus on the influence of the short-term interest rate on the prices of yield curve notes. See Cox, Ingersoll, and Ross [5] for multiple-state-variable pricing of bonds.
+4 This assumption implies that the market for default-free bonds is governed by a single-state variable uniquely defined by $r$. While the analysis therefore has obvious limitations, it is nevertheless important to focus on the influence of the short-term interest rate on the prices of yield curve notes. See Cox, Ingersoll, and Ross [5] for multiple-state-variable pricing of bonds.
 
 Table I Descriptions of Initial Issues of Yield Curve Notes
 
@@ -102,7 +108,7 @@ $$
 
 Fixed-rate notes are distinguished from yield curve notes (with the same maturity) only by their coupon payment stream,  $c(r, t)$ . Fixed-rate notes make continuous coupon payments at a constant rate  $c(r, t) = s$ , while yield curve notes pay  $c(r, t) = \max(k - r, 0)$ , where  $k$  is a constant.
 
-# III. Parameter Estimation
+## III. Parameter Estimation
 
 The parameters of the process (1) are estimated using a generalized version of Christie's [2] maximum likelihood procedure. The procedure is described in the Appendix and provides simultaneous estimates, and asymptotic standard errors, of the parameters  $\beta$ ,  $\mu$ , and  $\sigma^2$ . The data used for this purpose are the yields on U.S. Treasury bills with approximately ninety days to maturity, observed on the last trading day of each month of the eight-year (ninety-six-month) period from June 1977 through June 1985. These data are obtained from the CRSP Government Bond File.
 
@@ -110,11 +116,11 @@ The resulting annualized parameter estimates (with standard errors in parenthese
 
 All three parameter estimates are significant at the 0.05 level, based on one-tailed tests. The value of  $\hat{\beta}$  indicates that  $r$  is expected to revert halfway to  $\mu$  in about one year. The estimated standard deviation of  $r$  is 303 basis points per annum (when  $r = \hat{\mu}$ ).
 
-# IV. Price Behavior and Risk Characteristics of Yield Curve Notes
+## IV. Price Behavior and Risk Characteristics of Yield Curve Notes
 
 In this section, the process-parameter estimates obtained in the previous section are placed in the valuation model presented in Section II, and the comparative price behaviors and risk characteristics of fixed-rate and yield curve notes are explored in simulation. Throughout the analysis, the coupon rate on all fixed-rate notes is  $s = \hat{\mu} = 0.1053$ . For all yield curve notes, the constant from which coupon rates are calculated is  $k = 2\hat{\mu} = 0.2106$ , so that, for these notes,  $c = \max(0.2106 - r, 0)$ .
 
-# A. Price Behavior of Yield Curve Notes
+### A. Price Behavior of Yield Curve Notes
 
 Model prices of \$100 par value fixed-rate notes,  $P^{f}(r_{0}, \tau)$ , and yield curve notes,  $P^{y}(r_{0}, \tau)$ , are shown in Figures 1 and 2 for various maturities  $\tau$  and initial interest rates,  $r_{0}$ . Prices for  $\lambda = 0.00$  and  $\lambda = -0.08$  are shown in Figures 1 and 2, respectively. The first point of interest in both figures is that, as expected, the price of the yield curve note is generally greater (less) than the price of the fixed-rate note with the same maturity when  $r_{0} < (\geq) \hat{\mu}$ , primarily because present (and expected future) coupon payments are greater (smaller) for the yield curve note when  $r_{0} < (\geq) \hat{\mu}$ .
 
@@ -125,7 +131,7 @@ Note also that in both figures, and for any given maturity, the deviation from p
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/05232a5e-ac9a-40d5-9712-8894f7ae14ad/2e3b794151f51af239a1afde5008816131c656276d5fd59fd9d5a568bda671b2.jpg)
 Figure 1. Prices (per \$100 par) of Fixed-Rate Notes ( $P^{f}(r_{0}, \tau))$  and Yield Curve Notes ( $P^{y}(r_{0}, \tau)$ ) by Maturity for Various Initial Rates  $r_{0}$  and for  $\lambda = 0.00$
 
-# B. Risk Characteristics of Yield Curve Notes
+### B. Risk Characteristics of Yield Curve Notes
 
 It is clear from the above discussion that yield curve notes are generally more risky than fixed-rate notes with the same maturity. This result is illustrated in Figure 3. Shown are the instantaneous return standard deviations,  $-\hat{\sigma} rP_r / P$ , of yield curve notes and fixed-rate notes for various maturities  $\tau$  and for  $r_0 = \hat{\mu}$ .
 
@@ -141,7 +147,7 @@ Next, note that, for any given maturity, the risk of the yield curve note is app
 Figure 3. Interest Rate Risks (Instantaneous Return Standard Deviations) of Fixed-Rate Notes and Yield Curve Notes by Maturity
 
 
-# V. Immunization Using Yield Curve Notes
+## V. Immunization Using Yield Curve Notes
 
 This section illustrates the use of yield curve notes in a simulated immunization strategy for a financial institution. A simple structure is assumed for the institution's assets and liabilities in order to focus on the relevant aspects of the problem. Specifically, the institution's assets consist of a portfolio of default-free fixed-rate loans with various maturities, and its liabilities consist of two types. Type I liabilities are default-free short-term fixed-rate securities. For type II liabilities, the institution may choose between fixed-rate notes and yield curve notes.
 
@@ -182,11 +188,11 @@ about 3.5 years to maturity has approximately this level of risk. Thus, this ill
 
 In general, whether type II liabilities can provide full immunization and, if so, what maturity is required to do so depends on (a) the maturity composition of the assets, (b) the fraction of total liabilities that are type I liabilities, and (c) whether the type II liabilities are fixed-rate notes or yield curve notes. For the asset composition used in the above example, fully immunizing maturities for both fixed-rate notes and yield curve notes are computed for various values of  $F$ , the fraction of total liabilities that are type I liabilities. The results are displayed in Figure 4. Note that fixed-rate notes can provide full immunization only for  $F \leq 0.30$ , while yield curve notes can provide full immunization for all  $F \leq 0.74$ .
 
-# VI. Summary
+## VI. Summary
 
 This paper presents a valuation model for default-free yield curve notes, a new type of security issued by financial institutions. The parameters of the model are estimated empirically, and the estimated model is used to explore, in simulation, the price behavior and risk characteristics of yield curve notes in comparison with fixed-rate notes. The simulations indicate that the interest rate risk of a yield curve note is approximately twice as great as that of a fixed-rate note with identical maturity. Simulation also shows that the unique risk characteristics of yield curve notes make them useful (as liabilities) in immunization strategies for financial institutions facing substantial interest rate risk. Their usefulness in this regard may be the chief rationale for their development.
 
-# Appendix: Maximum Likelihood Estimation of the Parameters of the Assumed Process of  $r$
+## Appendix: Maximum Likelihood Estimation of the Parameters of the Assumed Process of  $r$
 
 Assume that
 
@@ -218,7 +224,7 @@ That is, there are three nonlinear equations in the three unknowns. The mathemat
 
 The procedure for obtaining an estimated variance-covariance matrix  $\hat{\Sigma}$  of the parameter estimates is described by Kendall and Stuart [6]. The first step is to develop a  $3\times 3$  matrix,  $L^{\prime \prime}(\beta ,\mu ,\sigma^{2})$ , of the second partial derivatives of (A2) with respect to the various parameters. Then substitute the final estimated values  $\hat{\beta},\hat{\mu}$ , and  $\hat{\sigma}^2$  to obtain  $L^{\prime \prime}(\hat{\beta},\hat{\mu},\hat{\sigma}^{2})$ . Finally,  $\hat{\Sigma}$  is the inverse of  $-L^{\prime \prime}(\hat{\beta},\hat{\mu},\hat{\sigma}^{2})$ .
 
-# REFERENCES
+## REFERENCES
 
 1. G. O. Bierwag. "Immunization, Duration, and the Term Structure of Interest Rates." Journal of Financial and Quantitative Analysis 12 (December 1977), 725-42.
 2. A. A. Christie. "The Stochastic Behavior of Common Stock Variances: Value, Leverage and Interest Rate Effects." Journal of Financial Economics 10 (December 1982), 407-32.

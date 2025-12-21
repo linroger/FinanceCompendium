@@ -1,30 +1,46 @@
 ---
-aliases: Spreads
-tags:
-key_concepts:
-parent_directory: Analysis
-cssclasses: academia
 title: Chapter 4 - Spreads
-linter-yaml-title-alias: Chapter 4 - Spreads
+parent_directory: Analysis
+formatted: 2025-12-21 10:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - credit spreads
+  - option adjusted spreads
+  - yield spreads
+  - liquidity spreads
+secondary_tags:
+  - static OAS
+  - z spread
+  - libor spreads
+  - floating rate corporate bonds
+  - cds spreads
+  - jarrow-turnbull model
+  - spread duration
+  - discount margin
+  - futures basis
+  - fx basis
+  - cds bond basis
+  - gamma and vega
+formatted: 2025-12-21 11:00:00 AM
+cssclasses: academia
 ---
 
-# Chapter 4
+# Chapter 4 - Spreads
 
-# Spreads
-
-# 4.1 Introduction
+## 4.1 Introduction
 
 Spreads carry important information about risks of securities. There are many reasons to cause a spread. The most popular one is credit spread which refers to likelihoods of default. Besides default, other reasons include liquidity, noise trading, market segmentation, among numerous others.
 
 A spread could be used to explain a particular source of risk, such as credit or liquidity. It could also be used to explain market imperfections such as noise trading and market segmentation.
 
-# 4.2 Option Adjusted Spread (OAS)
+## 4.2 Option Adjusted Spread (OAS)
 
 OAS has a very long history in the fixed income markets. In the early days, it was regarded as a credit spread (i.e. default likelihood). Over time, as the markets grew more sophisticated, people realized that credit spreads can be separately evaluated and regarded OAS as the value of various optionalities embedded in fixed income securities. Then as more and more models can price optionalities accurately, OAS has become a trading index signaling profit potentials.
 
 # 4.2.1 Static OAS
 
-Given that OAS is the most ancient spread, we begin our chapter with OAS. Our first example is a static OAS. Assume a 5-year corporate bond that pays  $4\%$  coupon (semi-annaul) with 100 face value. The corporate bond is priced at par (assuming at issuance).
+Given that OAS is the most ancient spread, we begin our chapter with OAS. Our first example is a static OAS. Assume a 5-year corporate bond that pays $4\%$ coupon (semi-annual) with 100 face value. The corporate bond is priced at par (assuming at issuance).
 
 The zero curve has been bootstrapped out to be the following table:
 
@@ -32,28 +48,28 @@ The zero curve has been bootstrapped out to be the following table:
 
 Table 4.1: Zero Curve
 
-A bench marked 5-year Treasury issue is paying  $3.5\%$  and is priced at par:
+A benchmark 5-year Treasury issue is paying $3.5\%$ and is priced at par:
 
 $$
-\begin{array}{l} 1 0 0 = \sum_{i = 1}^{1 0} \frac{c_{i}}{\left(1 + r_{i}\right)^{i}} \\ = \frac{1.75}{(1 + 1.2408 \% / 2)} + \frac{1.75}{(1 + 1.9340 \% / 2)^{2}} + \dots + \frac{101.75}{(1 + 3.5434 \% / 2)^{10}} \\ \end{array}
+\begin{array}{l} 100 = \sum_{i=1}^{10} \frac{c_{i}}{(1 + r_{i})^{i}} \\ = \frac{1.75}{(1 + 1.2408\% / 2)} + \frac{1.75}{(1 + 1.9340\% / 2)^{2}} + \dots + \frac{101.75}{(1 + 3.5434\% / 2)^{10}} \\ \end{array}
 $$
 
 This is reasonable as Treasuries do not suffer default risk and hence their coupons should be less than the corresponding corporate bonds. The OAS of the corporate bond can be computed as:
 
 $$
-\begin{array}{l} 1 0 0 = \sum_{i = 1}^{1 0} \frac{c_{i}}{(1 + (r_{i} + s) / 2)^{i}} \\ = \frac{2}{(1 + (1 . 2 4 0 8 \% + s) / 2)} + \frac{2}{(1 + (1 . 9 3 4 0 \% + s) / 2)^{2}} + \dots + \frac{1 0 2}{(1 + (3 . 5 4 3 4 \% + s) / 2)^{1 0}} \\ \end{array}
-$$ and then we can solve for the spread as  $0.5062\%$ , or 50.62 basis points.
+\begin{array}{l} 100 = \sum_{i=1}^{10} \frac{c_{i}}{(1 + (r_{i} + s)/2)^{i}} \\ = \frac{2}{(1 + (1.2408\% + s)/2)} + \frac{2}{(1 + (1.9340\% + s)/2)^{2}} + \dots + \frac{102}{(1 + (3.5434\% + s)/2)^{10}} \\ \end{array}
+$$ and then we can solve for the spread as $0.5062\%$, or 50.62 basis points.
 
 
-The second static example is embedded optionality. For example, some Treasury bonds (longer than 10 years to maturity) can be called. And hence for these callable Treasuries, they must offer higher coupons. As a result, the analysis is identical to that of the corporate bond. Using the same example and assume a callable Treasury pays a  $4\%$  coupon, we can calculate the OAS to be 50.62 basis points.
+The second static example is embedded optionality. For example, some Treasury bonds (longer than 10 years to maturity) can be called. And hence for these callable Treasuries, they must offer higher coupons. As a result, the analysis is identical to that of the corporate bond. Using the same example and assume a callable Treasury pays a $4\%$ coupon, we can calculate the OAS to be 50.62 basis points.
 
 As we can see now, static OAS is just to fill the gap between the zero Treasury yield curve and price of the target bond. It does not distinguish where the spread comes from - either it is a credit risk or a call option.
 
 We should note that it is possible for OAS to be negative. For example, an embedded put option can generate a negative OAS.
 
-Finally, we should note that today's OAS is different what is discussed here. Today's OAS is computed after considering all possible optionalities (e.g. put and call) and risks (e.g. credit and liquidity). Apparently these optionalities and risks must be evaluated via models. Hence, today's OAS is a trading indicator. In other words, after considering all optionalities and risks, if there is a positive OAS, then it indicates that the bond is too cheap (buy indication). Otherwise (a negative OAS), then the bond is too expensive (sell (or short-sell) indication.
+Finally, we should note that today's OAS is different from what is discussed here. Today's OAS is computed after considering all possible optionalities (e.g. put and call) and risks (e.g. credit and liquidity). Apparently these optionalities and risks must be evaluated via models. Hence, today's OAS is a trading indicator. In other words, after considering all optionalities and risks, if there is a positive OAS, then it indicates that the bond is too cheap (buy indication). Otherwise (a negative OAS), then the bond is too expensive (sell (or short-sell) indication.
 
-# 4.2.2 With Model
+### 4.2.2 With Model
 
 We use the Ho-Lee model for interest rate risk, Jarrow-Turnbull model for credit, and Chen model for liquidity. These models are reviewed in Chapter ??. For those who are not familiar with these models, please review Chapter ?? first.
 
@@ -86,28 +102,22 @@ Z spread is to set the volatility of a model to 0. In the HL case, it is  $\delt
 
 For the callable bond, the OAS becomes  $2.26\%$  and the optionality has no value (since no volatility). This is the same OAS as the  $8.5\%$  straight bond.
 
-One may question that if  $Z$  spread is the same as static OAS then why would
-
-<table><tr><td>0</td><td>1</td><td>4.9979</td><td></td><td></td><td></td><td>5.2545</td><td>0.9501</td><td></td></tr><tr><td></td><td>2</td><td>5.9998</td><td></td><td></td><td></td><td>6.2564</td><td>0.8857</td><td></td></tr><tr><td></td><td>3</td><td>6.5021</td><td></td><td></td><td></td><td>6.7587</td><td>0.8218</td><td></td></tr><tr><td></td><td>4</td><td>6.8009</td><td></td><td></td><td></td><td>7.0575</td><td>0.7613</td><td></td></tr><tr><td>1</td><td>2</td><td>14.1453</td><td>2.7308</td><td></td><td></td><td>14.4019</td><td>2.9874</td><td></td></tr><tr><td></td><td>3</td><td>14.5620</td><td>3.1058</td><td></td><td></td><td>14.8185</td><td>3.3623</td><td></td></tr><tr><td></td><td>4</td><td>14.8649</td><td>3.3784</td><td></td><td></td><td>15.1214</td><td>3.6349</td><td></td></tr><tr><td>2</td><td>3</td><td>22.6455</td><td>10.3809</td><td>-0.6572</td><td></td><td>22.9020</td><td>10.6375</td><td>-0.4006</td></tr><tr><td></td><td>4</td><td>23.0680</td><td>10.7612</td><td>-0.3149</td><td></td><td>23.3246</td><td>11.0178</td><td>-0.0583</td></tr><tr><td>3</td><td>4</td><td>31.7248</td><td>18.5523</td><td>6.6971</td><td>-3.9726</td><td>31.9814</td><td>18.8089</td><td>6.9537</td></tr></table>
-
-Table 4.4: Yields (in \%)
-
-<table><tr><td>0</td><td>1</td><td>0.950078</td><td></td><td></td><td></td></tr><tr><td></td><td>2</td><td>0.885707</td><td></td><td></td><td></td></tr><tr><td></td><td>3</td><td>0.821846</td><td></td><td></td><td></td></tr><tr><td></td><td>4</td><td>0.761258</td><td></td><td></td><td></td></tr><tr><td>1</td><td>2</td><td>0.874111</td><td>0.970993</td><td></td><td></td></tr><tr><td></td><td>3</td><td>0.758536</td><td>0.935999</td><td></td><td></td></tr><tr><td></td><td>4</td><td>0.655438</td><td>0.898424</td><td></td><td></td></tr><tr><td>2</td><td>3</td><td>0.813656</td><td>0.903853</td><td>1.004022</td><td></td></tr><tr><td></td><td>4</td><td>0.657507</td><td>0.811362</td><td>1.001168</td><td></td></tr><tr><td>3</td><td>4</td><td>0.757683</td><td>0.841688</td><td>0.934984</td><td>1.038595</td></tr></table> anyone want to build a model for Z spread. The answer lies in technology convenience. Usually a bank will have a large portfolio of bonds, some with and some without optionalities. It is a lot easier to set the volatility to 0 to obtain the static OAS than building a separate system for just static OAS. Also note that the static OAS discussed previously usually is applied to flat yield curve. For non-flat market yield curve, it is a lot easier to just set the volatility to 0.
+One may question that if Z spread is the same as static OAS then why would anyone want to build a model for Z spread. The answer lies in technology convenience. Usually a bank will have a large portfolio of bonds, some with and some without optionalities. It is a lot easier to set the volatility to 0 to obtain the static OAS than building a separate system for just static OAS. Also note that the static OAS discussed previously usually is applied to flat yield curve. For non-flat market yield curve, it is a lot easier to just set the volatility to 0.
 
 Table 4.5: Discount Factors
 
 
-# 4.3 LIBOR Spread
+## 4.3 LIBOR Spread
 
 LIBOR is introduced in Chapter 2. The LIBOR rates that are quoted are: 1-week, 1-month, 2-month, 3-month, 6-month, and 1-year.
 
-Note that LIBOR are regarded as risk-free rate in this case. However, we know that it is not in that these are lending (offer) rates among commercial banks in London. Nevertheless, for the sake of convenience, they are adopted as risk-free. Another argument (historically only) is that A-rated banks borrow funds at LIBOR and as a result to those banks, LIBOR is risk-free.
+Note that LIBOR is regarded as a risk-free rate in this case. However, we know that it is not in that these are lending (offer) rates among commercial banks in London. Nevertheless, for the sake of convenience, they are adopted as risk-free. Another argument (historically only) is that A-rated banks borrow funds at LIBOR and as a result to those banks, LIBOR is risk-free.
 
 A LIBOR spread refers to corporate bonds that pay floating coupons indexed to LIBOR, that is LIBOR and an added spread, symbolized as  $L + s$ . As an index for the floating coupons, LIBOR here is commonly referred to as the 3-month LIBOR.
 
-The spread is purely meant as a credit spread, i.e. an extra coupon compensating a default likelihood. This is because upon default, investors will not receive the principal back (known as loss given default, or LGD) and hence at normal times the coupon a a bit higher.
+The spread is purely meant as a credit spread, i.e. an extra coupon compensating a default likelihood. This is because upon default, investors will not receive the principal back (known as loss given default, or LGD) and hence at normal times the coupon is a bit higher.
 
-# 4.3.1 Floating Rate Corporate Bond
+### 4.3.1 Floating Rate Corporate Bond
 
 A floating rate corporate bond, or often called a corporate floater, pays an extra amount over LIBOR as in equation (2.14), which we restate under semi-annual coupons as follows:
 
@@ -125,51 +135,49 @@ $$
 
 $$
 
-Obviously, this is because the numerator and the denominator do not match anymore. Unlike fixed rate bonds, floaters do not have known coupons at trade date. As a result, it is not possible to compute the yield. To remedy this problem, industry use forward rates (introduced in Chapter 1) to compute the yield.
+Obviously, this is because the numerator and the denominator do not match anymore. Unlike fixed rate bonds, floaters do not have known coupons at trade date. As a result, it is not possible to compute the yield. To remedy this problem, industry uses forward rates (introduced in Chapter 1) to compute the yield.
 
 The diagram clearly depicts how each future LIBOR can be replaced with the proper forward as follows:
 
 $L_{1} = f(0,1 / 4,1 / 2)$
-$L_{2} = f(0,3 / 4,1)$
-
-中
+$L_{2} = f(0,3/4,1)$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/8698b153db27dc4371cbdac7ee687be05aa8fd13ea666877048f46cb811e96ef.jpg)
 Figure 4.1: Corporate Floater Example
 
 $$
 
-\bullet L_{2 n} = f \left(0, 2 n -^{1 / 4}, 2 n\right)
+\bullet L_{2n} = f\left(0, 2n - 1/4, 2n\right)
 
 $$
 
 $$
 
-P = \frac{\frac{f (0 , 1 / 4 , 1 / 2) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)} + \frac{\frac{f (0 , 1 / 2 , 3 / 4) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)^{2}} + \dots + \frac{1 + \frac{f (0 , 2 n - 1 / 4 , 2 n) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)^{2 n}} \tag {4.3}
+P = \frac{\frac{f(0, 1/4, 1/2) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)} + \frac{\frac{f(0, 1/2, 3/4) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)^{2}} + \dots + \frac{1 + \frac{f(0, 2n - 1/4, 2n) + s_{0}}{2}}{\left(1 + \frac{y}{2}\right)^{2n}} \tag{4.3}
 
 $$ where  $f(t,T_i,T_j)$  is the discrete forward rate between  $T_{i}$  and  $T_{j}$  observed today  $t$ . See the example: <See Excel>
 
 <table><tr><td></td><td>LIBOR</td><td>fwd rate</td><td>coupon</td><td>disc fact</td><td>PV</td><td>disc fact</td><td>PV</td></tr><tr><td>0.25</td><td>1.2408\%</td><td>2.6271\%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>0.5</td><td>1.9340\%</td><td></td><td>0.016886</td><td>0.986758</td><td>0.016662</td><td>0.977389</td><td>0.016504</td></tr><tr><td>0.75</td><td>2.3394\%</td><td>3.4901\%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>2.6271\%</td><td></td><td>0.021201</td><td>0.967065</td><td>0.020502</td><td>0.955289</td><td>0.020253</td></tr><tr><td>1.25</td><td>2.8502\%</td><td>3.9442\%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1.5</td><td>3.0326\%</td><td></td><td>0.023471</td><td>0.945342</td><td>0.022188</td><td>0.933688</td><td>0.021914</td></tr><tr><td>1.75</td><td>3.1867\%</td><td>4.2550\%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>3.3202\%</td><td></td><td>0.025025</td><td>0.922574</td><td>0.023087</td><td>0.912576</td><td>0.022837</td></tr><tr><td>2.25</td><td>3.4380\%</td><td>4.4916\%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2.5</td><td>3.5434\%</td><td></td><td>0.026208</td><td>0.899246</td><td>0.023568</td><td>0.891942</td><td>0.023376</td></tr><tr><td>2.75</td><td>3.6363\%</td><td>4.6025\%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>3.7168\%</td><td></td><td>0.026763</td><td>0.875876</td><td>0.023441</td><td>0.871774</td><td>0.023331</td></tr><tr><td>3.25</td><td>3.7849\%</td><td>4.5643\%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3.5</td><td>3.8406\%</td><td></td><td>0.026572</td><td>0.85312</td><td>0.022669</td><td>0.852062</td><td>0.022641</td></tr><tr><td>3.75</td><td>3.8839\%</td><td>4.3771\%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>3.9147\%</td><td></td><td>1.025635</td><td>0.831566</td><td>0.852883</td><td>0.832795</td><td>0.854144</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>1.005000</td><td></td><td>1.005000</td></tr></table>
 
-Table 4.6: Example (  $y = {4.6269}\%$  )
+Table 4.6: Example ($y = 4.6269\%$)
 
-# 4.3.2 Relationship with CDS
+### 4.3.2 Relationship with CDS
 
 LIBOR spreads are often compared to CDS spreads. If these two securities have the same payment frequency, then it is said that they must be equal to avoid arbitrage.
 
-<table><tr><td>0</td><td colspan="2">i</td><td>…</td><td colspan="2">n</td></tr><tr><td>sell risk-free floater</td><td>default-(1+a1)</td><td>no default-L1</td><td>…</td><td>default-(1+a1)</td><td>no default-(1+Ln)</td></tr><tr><td>buy risky floater</td><td>R+a2</td><td>L1+s0</td><td></td><td>R+a2</td><td>1+Ln+s0</td></tr><tr><td>buy CDS</td><td>1-R+a3</td><td>-s0</td><td></td><td>1-R+a3</td><td>-s0</td></tr><tr><td></td><td>0</td><td>0</td><td>…</td><td>0</td><td>0</td></tr></table> where  $a$  is accrued interest. The analysis shows that if the frequency of CDS is matched with that of corporate, then it must be true that CDS spread and LIBOR spread are same.
+<table><tr><td>0</td><td colspan="2">i</td><td>…</td><td colspan="2">n</td></tr><tr><td>sell risk-free floater</td><td>default-(1+a1)</td><td>no default-L1</td><td>…</td><td>default-(1+a1)</td><td>no default-(1+Ln)</td></tr><tr><td>buy risky floater</td><td>R+a2</td><td>L1+s0</td><td></td><td>R+a2</td><td>1+Ln+s0</td></tr><tr><td>buy CDS</td><td>1-R+a3</td><td>-s0</td><td></td><td>1-R+a3</td><td>-s0</td></tr><tr><td></td><td>0</td><td>0</td><td>…</td><td>0</td><td>0</td></tr></table> where  $a$  is accrued interest. The analysis shows that if the frequency of CDS is matched with that of corporate, then it must be true that CDS spread and LIBOR spread are the same.
 
 Table 4.7: Arbitrage between Corporate Floater and CDS
 
 However, CDS pays quarterly and corporate floaters pay semi-annually, and hence their spreads are not equal.
 
-# 4.4 Yield Spread
+## 4.4 Yield Spread
 
-Yield spread is commonly referred to fixed rate corporate bonds. Unlike corporate floaters that are indexed to LIBOR, fixed rate corporate bonds are indexed to Treasuries. As a result, the extra yield in excess to the corresponding Treasury is called the yield spread.
+Yield spread is commonly referred to as fixed rate corporate bonds. Unlike corporate floaters that are indexed to LIBOR, fixed rate corporate bonds are indexed to Treasuries. As a result, the extra yield in excess to the corresponding Treasury is called the yield spread.
 
-# 4.4.1 Fixed Rate Corporate Bond
+### 4.4.1 Fixed Rate Corporate Bond
 
-Yield spread of a corporate fixed contains credit and liquidity. In this subsection, we discuss the credit part using the Jarrow-Turnbull model and in a later subsection, we discuss the liquidity part using the Chen model. Here, we focus on credit part only. The Jarrow-Turnbull model is described by Figure 4.2.
+Yield spread of a fixed-rate corporate bond contains credit and liquidity. In this subsection, we discuss the credit part using the Jarrow-Turnbull model and in a later subsection, we discuss the liquidity part using the Chen model. Here, we focus on credit part only. The Jarrow-Turnbull model is described by Figure 4.2.
 
 Each coupon is weighted by the corresponding survival probability  $Q(t, T_i)$  and then discounted by the risk-free discount factor  $P(t, T_i)$ :
 
@@ -178,13 +186,13 @@ Each coupon is weighted by the corresponding survival probability  $Q(t, T_i)$  
 Figure 4.2: Jarrow-Turnbull Model
 
 $$
-\begin{array}{l} \Pi^{*} (t, \underline {{T}}; c) = \sum_{i = 1}^{2 n} \frac{c^{*}}{2} P (t, T_{i}) Q (t, T_{i}) + P (t, T_{2 n}) Q (t, T_{2 n}) \\ + \sum_{i = 1}^{2 n} R_{i} P (t, T_{i}) [ Q (t, T_{i}) - Q (t, T_{i - 1}) ] \\ \end{array}
+\begin{array}{l} \Pi^{*}(t, \underline{T}; c) = \sum_{i=1}^{2n} \frac{c^{*}}{2} P(t, T_{i}) Q(t, T_{i}) + P(t, T_{2n}) Q(t, T_{2n}) \\ + \sum_{i=1}^{2n} R_{i} P(t, T_{i}) [ Q(t, T_{i}) - Q(t, T_{i-1}) ] \\ \end{array}
 $$ where  $\Pi^{*}$  and  $c^*$  are corporate bond price and coupon rate respectively, and (intensity  $\lambda$ ):
 
 
 $$
 
-Q (t, T_{i}) = Q (t, T_{i - 1}) e^{- \lambda_{i} (T_{i} - T_{i - 1})}
+Q(t, T_{i}) = Q(t, T_{i-1}) e^{-\lambda_{i} (T_{i} - T_{i-1})}
 
 $$ and then the spread is:
 
@@ -195,25 +203,25 @@ $$
 The notation is parallel to that of risk-free but with an asterisk in superscript. The yield of this bond is:
 
 $$
-\Pi^{*} = 1 = \sum_{i = 1}^{2 n} \frac{c^{*} / 2}{(1 + y^{*} / 2)^{i}} + \frac{1}{(1 + y^{*} / 2)^{n}}
+\Pi^{*} = 1 = \sum_{i=1}^{2n} \frac{c^{*}/2}{(1 + y^{*}/2)^{i}} + \frac{1}{(1 + y^{*}/2)^{n}}
 $$
 
 $$
-\Pi = 1 = \sum_{i = 1}^{2 n} \frac{c / 2}{(1 + y / 2)^{i}} + \frac{1}{(1 + y / 2)^{n}}
+\Pi = 1 = \sum_{i=1}^{2n} \frac{c/2}{(1 + y/2)^{i}} + \frac{1}{(1 + y/2)^{n}}
 $$
 
 If the risk-free rate is flat and the default intensity is flat, and recovery is 0, then:
 
 $$
-P (t, T) = e^{- r (T - t)}
+P(t, T) = e^{-r (T - t)}
 $$
 
 $$
-Q (t, T) = e^{- \lambda (T - t)}
+Q(t, T) = e^{-\lambda (T - t)}
 $$ and  $\lambda$  is the spread.
 
 
-Take two corporate bonds as an example: one 5-year,  $6\%$  (semi-annual  $3\%$ ) and the other 10-year,  $7\%$  (semi-annual  $3.5\%$ ). Also assume piece-wise flat  $\lambda$  and recovery rate of 0.4. Both bonds are issued at par value. Solve for the two  $\lambda$ 's as in the following table.
+Take two corporate bonds as an example: one 5-year, $6\%$ (semi-annual $3\%$) and the other 10-year, $7\%$ (semi-annual $3.5\%$). Also assume piecewise flat $\lambda$ and recovery rate of 0.4. Both bonds are issued at par value. Solve for the two $\lambda$'s as in the following table.
 
 <SeeExcel>
 
@@ -221,18 +229,18 @@ Take two corporate bonds as an example: one 5-year,  $6\%$  (semi-annual  $3\%$ 
 
 Table 4.8: Yield Spread
 
-Column F is the coupon present value (including principal) and column E is recovery value. The total is  $100\%$ . Similarly, columns H and I are survival and recovery values respectively and also sum to  $100\%$ . Hence  $\lambda = 0.0149$  and  $\lambda = 0.0330$  are the two intensity values in the Poisson process.
+Column F is the coupon present value (including principal) and column E is recovery value. The total is $100\%$. Similarly, columns H and I are survival and recovery values respectively and also sum to $100\%$. Hence $\lambda = 0.0149$ and $\lambda = 0.0330$ are the two intensity values in the Poisson process.
 
 Note that as default likelihoods go up, the survival value goes down but the recovery value goes up. Hence there is a tradeoff between the two values. See Figure 4.3. The net result is going down. This is because the sensitivity of the survival value with respect to intensity is higher than that of the default value.
 
-The yields of the two bonds are  $6\%$  and  $7\%$  respectively because they are both priced at par (otherwise, we need to solve for the yields using the semi-annual formula in Chapter 1). And hence the yield spreads are  $1\%$  and  $2\%$  respectively.
+The yields of the two bonds are $6\%$ and $7\%$ respectively because they are both priced at par (otherwise, we need to solve for the yields using the semi-annual formula in Chapter 1). And hence the yield spreads are $1\%$ and $2\%$ respectively.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/7d6d57008c6e605e2c416cb77d8a4eff936413e5b89a7ed15c300cf9bf8fdf4c.jpg)
 Figure 4.3: Survival and Recovery (Default) Value
 
-# 4.4.2 Par Spread
+### 4.4.2 Par Spread
 
-The above example is par spread since the bonds are evaluated at issuance so at par. On any trading day, bond prices are above (premium) or below (discount) par. And we need to use yearfraction to discount.
+The above example is par spread since the bonds are evaluated at issuance so at par. On any trading day, bond prices are above (premium) or below (discount) par. And we need to use year fraction to discount.
 
 <SeeExcel>
 
@@ -242,9 +250,11 @@ In this example, the spread is not a par spread. However, market participants wo
 
 To do that, we need to artificially reduce or raise the coupon (which is equal to yield as we are solving for a par bond), till the bond price is at par. Then the difference between this artificial yield and the par risk-free yield is the par spread.
 
-The results are  $4.8775\%$  and  $9.8352\%$  for the 5-year and 1-year bonds respectively.
+The results are $4.8775\%$ and $9.8352\%$ for the 5-year and 10-year bonds respectively.
 
-# 4.4.3 Spread Duration and Spread 01 spread duration can be defined as the same way as interest rate duration introduced in Chapter 3 as:
+### 4.4.3 Spread Duration and Spread 01
+
+Spread duration can be defined as the same way as interest rate duration introduced in Chapter 3 as:
 
 
 <table><tr><td>t</td><td>P</td><td>lam</td><td>Q</td><td>-dQ</td><td>0.06</td><td>0.4</td><td>0.07</td><td>0.4</td></tr><tr><td>0.333333</td><td>0.9835</td><td>0.0269</td><td>0.9911</td><td>0.0089</td><td>0.029241</td><td>0.0035</td><td>0.034115</td><td>0.0035</td></tr><tr><td>0.833333</td><td>0.9592</td><td>0.0269</td><td>0.9779</td><td>0.0132</td><td>0.028138</td><td>0.0051</td><td>0.032828</td><td>0.0051</td></tr><tr><td>1.333333</td><td>0.9355</td><td>0.0269</td><td>0.9648</td><td>0.0131</td><td>0.027077</td><td>0.0049</td><td>0.03159</td><td>0.0049</td></tr><tr><td>1.833333</td><td>0.9124</td><td>0.0269</td><td>0.9519</td><td>0.0129</td><td>0.026056</td><td>0.0047</td><td>0.030399</td><td>0.0047</td></tr><tr><td>2.333333</td><td>0.8899</td><td>0.0269</td><td>0.9392</td><td>0.0127</td><td>0.025074</td><td>0.0045</td><td>0.029253</td><td>0.0045</td></tr><tr><td>2.833333</td><td>0.8679</td><td>0.0269</td><td>0.9267</td><td>0.0125</td><td>0.024128</td><td>0.0044</td><td>0.02815</td><td>0.0044</td></tr><tr><td>3.333333</td><td>0.8465</td><td>0.0269</td><td>0.9143</td><td>0.0124</td><td>0.023219</td><td>0.0042</td><td>0.027088</td><td>0.0042</td></tr><tr><td>3.833333</td><td>0.8256</td><td>0.0269</td><td>0.9021</td><td>0.0122</td><td>0.022343</td><td>0.0040</td><td>0.026067</td><td>0.0040</td></tr><tr><td>4.333333</td><td>0.8052</td><td>0.0269</td><td>0.8901</td><td>0.0120</td><td>0.021501</td><td>0.0039</td><td>0.025084</td><td>0.0039</td></tr><tr><td>4.833333</td><td>0.7853</td><td>0.0269</td><td>0.8782</td><td>0.0119</td><td>0.710354</td><td>0.0037</td><td>0.024138</td><td>0.0037</td></tr><tr><td>5.333333</td><td>0.7659</td><td>0.0754</td><td>0.8457</td><td>0.0325</td><td></td><td></td><td>0.022671</td><td>0.0100</td></tr><tr><td>5.833333</td><td>0.7470</td><td>0.0754</td><td>0.8144</td><td>0.0313</td><td></td><td></td><td>0.021293</td><td>0.0094</td></tr><tr><td>6.333333</td><td>0.7286</td><td>0.0754</td><td>0.7842</td><td>0.0301</td><td></td><td></td><td>0.019998</td><td>0.0088</td></tr><tr><td>6.833333</td><td>0.7106</td><td>0.0754</td><td>0.7552</td><td>0.0290</td><td></td><td></td><td>0.018782</td><td>0.0083</td></tr><tr><td>7.333333</td><td>0.6930</td><td>0.0754</td><td>0.7273</td><td>0.0280</td><td></td><td></td><td>0.017641</td><td>0.0077</td></tr><tr><td>7.833333</td><td>0.6759</td><td>0.0754</td><td>0.7003</td><td>0.0269</td><td></td><td></td><td>0.016568</td><td>0.0073</td></tr><tr><td>8.333333</td><td>0.6592</td><td>0.0754</td><td>0.6744</td><td>0.0259</td><td></td><td></td><td>0.015561</td><td>0.0068</td></tr><tr><td>8.833333</td><td>0.6430</td><td>0.0754</td><td>0.6494</td><td>0.0250</td><td></td><td></td><td>0.014615</td><td>0.0064</td></tr><tr><td>9.333333</td><td>0.6271</td><td>0.0754</td><td>0.6254</td><td>0.0240</td><td></td><td></td><td>0.013727</td><td>0.0060</td></tr><tr><td>9.833333</td><td>0.6116</td><td>0.0754</td><td>0.6023</td><td>0.0232</td><td></td><td></td><td>0.381237</td><td>0.0057</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>0.937132</td><td>0.042867</td><td>0.830805</td><td>0.119195</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>0.98</td><td></td><td>0.95</td></tr></table>
@@ -253,13 +263,13 @@ Table 4.9: Par Spread Example
 
 $$
 
-\Pi^{*} = \sum_{i = 1}^{2 n} \frac{C_{i}}{(1 + \frac{y + s_{0}}{2})^{i}}
+\Pi^{*} = \sum_{i=1}^{2n} \frac{C_{i}}{(1 + \frac{y + s_{0}}{2})^{i}}
 
 $$
 
 $$
 
-D^{*} = - \frac{d \Pi^{*}}{d s} \frac{1}{\Pi^{*}} = \frac{1}{\Pi^{*}} \frac{1}{2 (1 + \frac{y + s_{0}}{2})} \sum_{i = 1}^{2 n} i \frac{c_{i}}{(1 + \frac{y + s_{0}}{2})^{i}}
+D^{*} = -\frac{d \Pi^{*}}{d s} \frac{1}{\Pi^{*}} = \frac{1}{\Pi^{*}} \frac{1}{2 (1 + \frac{y + s_{0}}{2})} \sum_{i=1}^{2n} i \frac{c_{i}}{(1 + \frac{y + s_{0}}{2})^{i}}
 
 $$
 
@@ -267,24 +277,24 @@ Hence, it is extremely similar to the duration of the interest rate. This indica
 
 The spread 01 is similar to the DV01 in interest rate. We can perturb only one spread in the market or the entire spread curve. Again, the magnitudes are similar to the DV01s in interest rate.
 
-# 4.4.4 Spread Convexity and Spread 10/Spread 25
+### 4.4.4 Spread Convexity and Spread 10/Spread 25
 
-Often banks compute large shocks in the spread. This is to design to capture some convexity effect. This is because gammas often times are difficult to compute, especially in a complex portfolio. This is also seen when vega is used to replace gamma.
+Often banks compute large shocks in the spread. This is designed to capture some convexity effect. This is because gammas often are difficult to compute, especially in a complex portfolio. This is also seen when vega is used to replace gamma.
 
-It captures 1 to  $2\%$  in addition to duration. However, large shock sizes can be problematic in situations where spreads are small (then 25 basis shocks will lead to negative spreads).
+It captures 1 to $2\%$ in addition to duration. However, large shock sizes can be problematic in situations where spreads are small (then 25 basis point shocks will lead to negative spreads).
 
 
-# 4.5 Liquidity Spread
+## 4.5 Liquidity Spread
 
-# 4.5.1 Bid/Ask Spread
+### 4.5.1 Bid/Ask Spread
 
-The most known liquidity spread is the bid-ask (or bid-offer) spread. Market makers (especially in OTC markets) provide liquidity (help transactions) to the market and then charge b/a spreads as their profit. The higher is the liquidity in the market (i.e. stiffer competition), the narrower is the b/a spread.
+The most known liquidity spread is the bid-ask (or bid-offer) spread. Market makers (especially in OTC markets) provide liquidity (help transactions) to the market and then charge b/a spreads as their profit. The higher the liquidity in the market (i.e. stiffer competition), the narrower the b/a spread.
 
-Unfortunately, OTC markets consist of mostly a handful institution traders and they buy and sell in large quantities. Also note that many fixed income securities have large denominations. Hence, the b/a spreads are always wide.
+Unfortunately, OTC markets consist of mostly a handful of institutional traders and they buy and sell in large quantities. Also note that many fixed income securities have large denominations. Hence, the b/a spreads are always wide.
 
 The dealer's revenue comes from investors who are willing to pay  $K_{a} - S$  or  $S - K_{b}$  as a price for immediacy where  $S$  is the true (informed) price,  $K_{a}$  and  $K_{b}$  are ask and bid.
 
-The objective of a dealer is to choose the b/a spread which maximizes his/er expected profit:
+The objective of a dealer is to choose the b/a spread which maximizes his/her expected profit:
 
 $$
 
@@ -306,7 +316,7 @@ Figure 4.4: Order Flow
 
 Table 4.10: Percentage difference between Mid-implied and Ask-implied Liquidity Spreads
 
-# 4.5.2 Liquidity Gap
+### 4.5.2 Liquidity Gap
 
 This is analogous to the b/a spread analysis. Lack of demand will bring the price down and lack of supply will bring the price up. A former model is provided by
 
@@ -317,24 +327,24 @@ Chen (2014).
 Figure 4.5: Demand Squeeze
 
 $$
-\begin{array}{l} X^{*} (t) = e^{- r (T - t)} \left\{K N (- h_{-}) - V (t) e^{\mu (T - t)} N (- h_{+}) - \frac{e^{\mu (T - t)} - e^{r (T - t)}}{e^{\mu (T - t)} \left(e^{\sigma^{2} (T - t)} - 1\right)} \times \right. \\ \frac{e^{\mu (T - t)}}{\left(e^{\mu^{2} (T - t)}\right)} \left\{K [ N (h_{-}) - N (h_{+}) ] + V (t) e^{\mu (T - t)} \left[ N (- h_{+}) - e^{\sigma^{2} (T - t)} N (- h_{+} - \sigma \sqrt{T - t}) \right] \right\} \\ \end{array}
+\begin{array}{l} X^{*}(t) = e^{-r (T - t)} \left\{K N(-h_{-}) - V(t) e^{\mu (T - t)} N(-h_{+}) - \frac{e^{\mu (T - t)} - e^{r (T - t)}}{e^{\mu (T - t)} \left(e^{\sigma^{2} (T - t)} - 1\right)} \times \right. \\ \frac{e^{\mu (T - t)}}{\left(e^{\mu^{2} (T - t)}\right)} \left\{K [ N(h_{-}) - N(h_{+}) ] + V(t) e^{\mu (T - t)} \left[ N(-h_{+}) - e^{\sigma^{2} (T - t)} N(-h_{+} - \sigma \sqrt{T - t}) \right] \right\} \\ \end{array}
 $$ where
 
 
-$$ h_{\pm} = \frac{\ln V (t) - \ln K + (\mu \pm 1 / 2 \sigma^{2}) (T - t)}{\sigma \sqrt{T - t}}
+$$ h_{\pm} = \frac{\ln V(t) - \ln K + (\mu \pm 1/2 \sigma^{2})(T - t)}{\sigma \sqrt{T - t}}
 $$
 
 To compare, we present the liquid price (put option) as follows:
 
 $$
-X (t) = K e^{- r (T - t)} N (- d_{-}) - V (t) N (- d_{+})
+X(t) = K e^{-r (T - t)} N(-d_{-}) - V(t) N(-d_{+})
 $$ where
 
 
-$$ d_{\pm} = \frac{\ln V (t) - \ln K + (r \pm 1 / 2 \sigma^{2}) (T - t)}{\sigma \sqrt{T - t}}
+$$ d_{\pm} = \frac{\ln V(t) - \ln K + (r \pm 1/2 \sigma^{2})(T - t)}{\sigma \sqrt{T - t}}
 $$
 
-# 4.6 Discount Margin
+## 4.6 Discount Margin
 
 Investopedia:
 
@@ -342,7 +352,7 @@ Investopedia:
 
 Figure 4.6: Liquidity Discount
 
-"A discount margin (DM) is the average expected return of a floating-rate security (typically a bond) that's earned in addition to the index underlying, or reference rate of, the security. The size of the discount margin depends on the price of the floatingor variable-rate security. The return of floating-rate securities changes over time, so the discount margin is an estimate based on the security's expected pattern between issue and maturity.
+"A discount margin (DM) is the average expected return of a floating-rate security (typically a bond) that's earned in addition to the index underlying, or reference rate of, the security. The size of the discount margin depends on the price of the floating or variable-rate security. The return of floating-rate securities changes over time, so the discount margin is an estimate based on the security's expected pattern between issue and maturity.
 
 Another way to view the discount margin is to think of it as the spread that, when added to the bond's current reference rate, will equate the bond's cash flows to its current price."
 
@@ -379,16 +389,16 @@ All coupon payments are unknown, with the exception of the first, and must be es
 The current price,  $P$ , equals the summation of the following fraction for all time periods from the beginning time period to maturity:
 
 $$
-P = \sum_{i = 1}^{n} \frac{c (i)}{\left(1 + \frac{I (1) + \mathrm{DM}}{1 0 0} \frac{d (1) - d (s)}{3 6 0}\right) \prod_{j = 2}^{i} \left(1 + \frac{I (j) + \mathrm{DM}}{1 0 0} \frac{d (j)}{3 6 0}\right)},
+P = \sum_{i=1}^{n} \frac{c(i)}{\left(1 + \frac{I(1) + \mathrm{DM}}{100} \frac{d(1) - d(s)}{360}\right) \prod_{j=2}^{i} \left(1 + \frac{I(j) + \mathrm{DM}}{100} \frac{d(j)}{360}\right)},
 $$
 
-It is easily seen that if  $I(i) = L(i)$  which is LIBOR, then  $c(i)$  could be  $(L(i) + s_0) \times 100$  and DM is very close to  $s_0$  which is LIBOR spread at current time 0.
+It is easily seen that if $I(i) = L(i)$ which is LIBOR, then $c(i)$ could be $(L(i) + s_0) \times 100$ and DM is very close to $s_0$ which is LIBOR spreads at current time 0.
 
-# 4.7 Basis
+## 4.7 Basis
 
-Basis can be regarded as a spread, although it is mostly caused by market imperfections. Since such bases exist and they directly impact P&L's, they must be understood (modeled) and managed.
+Basis can be regarded as a spread, although it is mostly caused by market imperfections. Since such bases exist and they directly impact P&Ls, they must be understood (modeled) and managed.
 
-# 4.7.1 Futures Basis
+### 4.7.1 Futures Basis
 
 Futures basis is the difference between two futures prices with different maturities. The following is an example from CME. There are three maturities in the example. Because futures prices will converge to the spot price at the maturity, it is quite popular for futures traders to speculate on the changes in spot.
 
@@ -424,17 +434,17 @@ Due to LIBOR scandal, the industry has moved to Is discounting (see Chapter 2 To
 
 Finally, we review the related risk measures to convexity. As we know, convexity is similar to gamma which is second order differentiation with respect to the underlying asset, and hence the similarity is obvious. Vega is the first order differentiation with respect to the volatility of the underlying asset. How on earth vega is related to convexity?
 
-Lets look at the Taylor's series expansion of equation (3.1) in Chapter 3:
+Let's look at the Taylor's series expansion of equation (3.1) in Chapter 3:
 
-$$ d P = \frac{\partial P}{\partial \underline {{y}}} d \underline {{y}} + \frac{\partial^{2} P}{\partial \underline {{y}}^{2}} d \underline {{y}}^{2} + \frac{\partial P}{\partial \underline {{v}}} d \underline {{v}} + \frac{\partial P}{\partial t} d t + o (d t)
-$$ where  $\underline{y}$  represents the whole yield curve (i.e. vector of yields) and  $\underline{v}$  represents the whole volatility curve. The first term is clearly the effective duration (i.e. price impact on whole yield curve shift). The second term is the convexity on the whole yield curve. The last term is the vega which the price impact of the volatility curve shift.
+$$ dP = \frac{\partial P}{\partial \underline{y}} d\underline{y} + \frac{\partial^{2} P}{\partial \underline{y}^{2}} d\underline{y}^{2} + \frac{\partial P}{\partial \underline{v}} d\underline{v} + \frac{\partial P}{\partial t} dt + o(dt)
+$$ where  $\underline{y}$  represents the whole yield curve (i.e. vector of yields) and  $\underline{v}$  represents the whole volatility curve. The first term is clearly the effective duration (i.e. price impact on whole yield curve shift). The second term is the convexity on the whole yield curve. The last term is the vega which is the price impact of the volatility curve shift.
 
 
-In the fixed income world, the P&L is explained by four major factors: delta, gamma, vega, and theta. Note that theta is not a random effect. It is completely deterministic and known as the roll down effect (introduced in Chapter 2). Delta is similar to duration and is kept neutral when trading. Gamma and vega are similar to convexity that need to be maximized (see immunizaton in Chapter 3).
+In the fixed income world, the P&L is explained by four major factors: delta, gamma, vega, and theta. Note that theta is not a random effect. It is completely deterministic and known as the roll down effect (introduced in Chapter 2). Delta is similar to duration and is kept neutral when trading. Gamma and vega are similar to convexity that need to be maximized (see immunization in Chapter 3).
 
 # 4.8.1 Supplementary Effect
 
-Theoretically speaking, vega is the first order risk  $(\partial V / \partial \sigma)$  but since the volatility is not a traded asset, and also the only way to retrieve the market volatility information is through options, it is regarded as the second order risk, similar to gamma. Hence, often it is used to replace gamma.
+Theoretically speaking, vega is the first order risk $(\partial V / \partial \sigma)$ but since the volatility is not a traded asset, and also the only way to retrieve the market volatility information is through options, it is regarded as the second order risk, similar to gamma. Hence, often it is used to replace gamma.
 
 But vega is much easier to compute since it is technically a first order differentiation.
 

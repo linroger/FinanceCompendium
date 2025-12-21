@@ -166,7 +166,7 @@ $$
 
 which can be interpreted as the financiers' price of risk,  $\omega$ , multiplied with the quantity of risk they absorb,  $var_{t+j}(\Delta e_{t+j+1}) d_{t+j}^*$ . The home currency is stronger (i.e.,  $e_t$  is higher) when the financiers have to absorb a large amount of the foreign bond (i.e.,  $d_{t+j}^*$  is large) and requires a higher compensation to hold the foreign currency, which can be triggered by a negative  $\psi_t$  shock.
 
-# 10.A.4 Market Clearing Conditions
+### 10.A.4 Market Clearing Conditions
 
 Since the consumption  $c_{t}$ , the investment  $z_{t}$ , and the intermediate input  $x_{t}$  are all denominated in the home consumption bundle, it is more convenient to first figure out the total amounts of home goods (i.e.,  $y_{H,t}$ ) and foreign goods (i.e.,  $y_{F,t}$ ) that the home households and firms acquire for these objectives. These home and foreign goods are aggregated by the same CES function and satisfy the following resource constraint:
 
@@ -330,7 +330,7 @@ $$
 b_{H, t} = - \exp (- e_{t}) b_{F, t}^{*}. \tag {10.8}
 $$
 
-# 10.B Comparing Segmented Markets with Convenience Yields
+## 10.B Comparing Segmented Markets with Convenience Yields
 
 The market segmentation mechanism we develop in the previous section is in fact very similar to the convenience yield model that we considered in Section 7.C. In the model with market segmentation, the households' and the intermediaries' (log-linearized) Euler equations (10.5)-(10.7) imply the following risk-sharing condition:
 
@@ -376,7 +376,7 @@ $$
 
 Both Eq. (10.9) in the segmented market model and Eq. (10.11) in the convenience yield model introduce a wedge to the risk-sharing condition, which breaks the tight link between the exchange rate and the households' marginal utilities. The difference is that, in the model with market segmentation, the wedge is driven by the portfolio imbalances born by the financiers, whereas in the model with convenience yields, the wedge is driven by the households' demand for safe assets.
 
-# 10.B.1 Comparing the Impulse Responses
+### 10.B.1 Comparing the Impulse Responses
 
 To facilitate the comparison between the segmented market model and the convenience yield model, we use similar economic set-up and parameter choices. The two models have identical equilibrium conditions characterizing the goods market clearing, consumption and labor choices, production and investment decisions, and factor prices as listed in Section 10.A.5.
 
@@ -517,7 +517,7 @@ deficits are funded by the seigniorage revenue. As such, the segmented market mo
 
 Finally, different microfoundations of the exchange rate wedge can have different policy implications. Under the segmented market view, the government can stabilize the exchange rate by affecting the financiers' balance sheets or their expectation of the currency risk [Itskhoki and Mukhin, 2023]. Under the convenience yield view, exchange rate intervention can take the form of regulating the supply of safe assets, which can be done by either fiscal or monetary policies [Jiang, Krishnamurthy, and Lustig, 2020a].
 
-# 10.B.2 The Cyclicality of the Wedge
+### 10.B.2 The Cyclicality of the Wedge
 
 Given the similarity between the segmented market model and the convenience yield model, how do we think about them? We make three points. First, they both suggest that the wedge in the Euler equations for cross-country bond holdings is an important ingredient to understand exchange rate dynamics. This wedge can have different microfoundations, but they have similar effects that disentangle the exchange rate movement from the households' marginal utilities.
 

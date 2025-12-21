@@ -1,71 +1,111 @@
 ---
 aliases:
 - Financial Globalization: Opportunity and Crisis
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
+parent_directory: Krugman International Economics
 cssclasses: academia
 title: 'Chapter 20: Financial Globalization: Opportunity and Crisis'
-linter-yaml-title-alias: 'Chapter 20: Financial Globalization: Opportunity and Crisis'
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- trade 654 risk aversion
-- 653 international capital market
+  - financial globalization
+  - international capital markets
+  - global financial crisis
+  - banking regulation
 secondary_tags:
-- financial globalization opportunity crisis
-- 20 financial globalization
-tags_extracted: '2025-12-18T01:47:19.432359'
+  - risk aversion
+  - portfolio diversification
+  - shadow banking system
+  - moral hazard
+  - too big to fail
+  - financial trilemma
+  - regulatory cooperation
+  - foreign exchange instability
+  - international asset trade
+  - capital market efficiency
 ---
 
-# 20 Financial Globalization: Opportunity and Crisis 653
+# Chapter 20: Financial Globalization: Opportunity and Crisis
 
-The International Capital Market and the Gains from Trade 654
+## The International Capital Market and the Gains from Trade
 
-Three Types of Gain from Trade 654
+### Three Types of Gain from Trade
 
-Risk Aversion 656
+```d2
+direction: right
+gains: Three Types of Gain from Trade {
+  consumption: Consumption Gains {
+    shape: rectangle
+    style.fill: "#e8f5e9"
+  }
+  production: Production Gains {
+    shape: rectangle
+    style.fill: "#e3f2fd"
+  }
+  risk: Risk Sharing Gains {
+    shape: rectangle
+    style.fill: "#fff3e0"
+  }
+}
+```
 
-Portfolio Diversification as a Motive for International Asset Trade 656
+### Risk Aversion
 
-The Menu of International Assets: Debt versus Equity 657
+### Portfolio Diversification as a Motive for International Asset Trade
 
-International Banking and the International Capital Market 658
+### The Menu of International Assets: Debt versus Equity
 
-The Structure of the International Capital Market 658
+## International Banking and the International Capital Market
 
-Offshore Banking and Offshore Currency Trading 659
+### The Structure of the International Capital Market
 
-The Shadow Banking System 661
+### Offshore Banking and Offshore Currency Trading
 
-Banking and Financial Fragility 661
+### The Shadow Banking System
 
-The Problem of Bank Failure 661
+## Banking and Financial Fragility
 
-Government Safeguards against Financial Instability 664
+### The Problem of Bank Failure
 
-Moral Hazard and the Problem of "Too Big to Fail" 667
+### Government Safeguards against Financial Instability
 
-BOX: Does the IMF Create Moral Hazard? 667
+### Moral Hazard and the Problem of "Too Big to Fail"
 
-The Challenge of Regulating International Banking 669
+#### BOX: Does the IMF Create Moral Hazard?
 
-The Financial Trilemma 669
+### The Challenge of Regulating International Banking
 
-International Regulatory Cooperation through 2007. 671
+### The Financial Trilemma
 
-CASE STUDY: The Global Financial Crisis of 2007-2009 672
+```d2
+trilemma: Financial Trilemma {
+  shape: triangle
+  monetary_policy: Monetary Policy Independence
+  exchange_rate: Exchange Rate Stability
+  capital_flows: Free Capital Flows
 
-BOX: Foreign Exchange Instability and Central Bank Swap Lines 675
+  monetary_policy -> exchange_rate: Cannot have all three
+  monetary_policy -> capital_flows: Cannot have all three
+  exchange_rate -> capital_flows: Cannot have all three
+}
+```
 
-International Regulatory Initiatives after the Global Financial Crisis 677
+### International Regulatory Cooperation through 2007
 
-Metrics for International Capital Market Performance 679
+#### CASE STUDY: The Global Financial Crisis of 2007-2009
 
-The Extent of International Portfolio Equity Diversification 680
+#### BOX: Foreign Exchange Instability and Central Bank Swap Lines
 
-The Extent of Intertemporal Trade 680
+### International Regulatory Initiatives after the Global Financial Crisis
 
-The Efficiency of International Asset-Price Arbitrage 682
+## Metrics for International Capital Market Performance
 
-The Efficiency of the Foreign Exchange Market 683
+### The Extent of International Portfolio Equity Diversification
 
-Summary 687
+### The Extent of Intertemporal Trade
+
+### The Efficiency of International Asset-Price Arbitrage
+
+### The Efficiency of the Foreign Exchange Market
+
+## Summary

@@ -1,9 +1,9 @@
 ---
 title: Hull Options, Futures, and Other Derivatives - Chapters
 parent_directory: chapters
-formatted: 2025-12-21 05:10:00 AM
+formatted: 2025-12-21 06:55:00 AM
 formatter_model: claude-sonnet-4-5-20250929
-cli_tool: opencode
+cli_tool: claude-code
 primary_tags:
   - hull options futures
   - chapter organization
@@ -64,3 +64,39 @@ Original file: `Options, Futures, and Other Derivatives.md`
 - `00_Front_Matter.md` - Book front matter (title, TOC, etc.)
 - `01-37_*.md` - Individual chapter files
 - Chapter files are named with number prefix for easy sorting and navigation
+
+```d2
+direction: right
+Book Structure {
+  Front Matter -> Futures -> Options -> Advanced Topics
+
+  Futures: Futures Markets {
+    "Chapter 2: Futures Markets"
+    "Chapter 3: Hedging Strategies"
+    "Chapter 4: Interest Rates"
+    "Chapter 5: Forward/Futures Prices"
+    "Chapter 6: Interest Rate Futures"
+    "Chapter 7: Swaps"
+    "Chapter 8: Securitization"
+    "Chapter 9: XVAs"
+  }
+
+  Options: Options Markets {
+    "Chapter 10: Options Mechanics"
+    "Chapter 11: Stock Options"
+    "Chapter 12: Trading Strategies"
+    "Chapter 13: Binomial Trees"
+    "Chapter 14: Wiener Processes"
+    "Chapter 15: Black-Scholes"
+    "Chapter 16: Employee Options"
+    "Chapter 17: Indices/Currencies"
+    "Chapter 18: Futures Options"
+  }
+
+  Advanced Topics: Advanced Derivatives {
+    "Stochastic Calculus"
+    "Pricing Models"
+    "Risk Management"
+  }
+}
+```

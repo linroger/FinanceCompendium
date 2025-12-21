@@ -7,23 +7,20 @@ cli-tool: "opencode"
 primary_tags:
   - monetary fiscal policies
   - exchange rate dynamics
+  - sticky prices effects
   - real interest rates
   - government surpluses
-  - sticky prices effects
 secondary_tags:
   - new keynesian model
-  - nominal rigidities
-  - aggregate demand
+  - nominal interest rate
+  - real exchange rate
   - inflation expectations
   - fiscal dominance
-  - monetary dominance
-  - taylor rule
+  - aggregate demand
+  - labor supply elasticity
   - government budget constraint
-  - complete markets
+  - nominal rigidities
   - producer currency pricing
-  - local currency pricing
-  - observational equivalence
-  - active passive policies
 cssclasses: academia
 ---
 

@@ -1,78 +1,104 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '22 Developing Countries: Growth, Crisis, and Reform 732'
-linter-yaml-title-alias: '22 Developing Countries: Growth, Crisis, and Reform 732'
+title: Chapter 22 Developing Countries: Growth, Crisis, and Reform
+parent_directory: Part 4
+formatted: 2025-12-21 06:50:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- east asian economic
-- financial inflows developing countries
+- developing countries economic growth
+- financial crises in emerging markets
+- international capital flows
 secondary_tags:
-- developing countries growth crisis
-- lessons developing country crises
-tags_extracted: '2025-12-18T01:47:24.083729'
+- debt sustainability
+- asian economic miracle
+- structural reforms
+- commodity price cycles
+cssclasses: academia
 ---
 
-# 22 Developing Countries: Growth, Crisis, and Reform 732
+# Chapter 22 Developing Countries: Growth, Crisis, and Reform
 
-Income, Wealth, and Growth in the World Economy 733
+## Income, Wealth, and Growth in the World Economy
 
-The Gap between Rich and Poor 733
+## The Gap between Rich and Poor
 
-Has the World Income Gap Narrowed Over Time? 734
+## Has the World Income Gap Narrowed Over Time?
 
-The Importance of Developing Countries for Global Growth 736
+## The Importance of Developing Countries for Global Growth
 
-Structural Features of Developing Countries 737
+## Structural Features of Developing Countries
 
-BOX: The Commodity Super Cycle 739
+## BOX: The Commodity Super Cycle
 
-Developing-Country Borrowing and Debt 742
+## Developing-Country Borrowing and Debt
 
-The Economics of Financial Inflows to Developing Countries 743
+## The Economics of Financial Inflows to Developing Countries
 
-The Problem of Default 744
+## The Problem of Default
 
-Alternative Forms of Financial Inflow 746
+## Alternative Forms of Financial Inflow
 
-The Problem of "Original Sin" 747
+## The Problem of "Original Sin"
 
-The Debt Crisis of the 1980s 749
+## The Debt Crisis of the 1980s
 
-Reforms, Capital Inflows, and the Return of Crisis 750
+## Reforms, Capital Inflows, and the Return of Crisis
 
-East Asia: Success and Crisis 754
+## East Asia: Success and Crisis
 
-The East Asian Economic Miracle 754
+## The East Asian Economic Miracle
 
-BOX: Why Have Developing Countries Accumulated High Levels of International
+## BOX: Why Have Developing Countries Accumulated High Levels of International Reserves?
 
-Reserves? 755
+## Asian Weaknesses
 
-Asian Weaknesses 756
+## BOX: What Did East Asia Do Right?
 
-BOX: What Did East Asia Do Right? 758
+## The Asian Financial Crisis
 
-The Asian Financial Crisis 758
+## Lessons of Developing-Country Crises
 
-Lessons of Developing-Country Crises 759
+## Reforming the World's Financial "Architecture"
 
-Reforming the World's Financial "Architecture" 761
+## Capital Mobility and the Trilemma of the Exchange Rate Regime
 
-Capital Mobility and the Trilemma of the Exchange Rate Regime 762
+## "Prophylactic" Measures
 
-"Prophylactic" Measures 763
+## Coping with Crisis
 
-Coping with Crisis 764
+## BOX: Emerging Markets and Global Financial Cycles
 
-BOX: Emerging Markets and Global Financial Cycles 765
+## Understanding Global Capital Flows and the Global Distribution of Income: Is Geography Destiny?
 
-Understanding Global Capital Flows and the Global Distribution of Income:
+## BOX: Capital Paradoxes
 
-Is Geography Destiny? 768
+## Summary
 
-BOX: Capital Paradoxes 769
+```d2
+direction: down
+Developing Countries Dynamics {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
 
-Summary 773
+  Growth Factors {
+    Commodity Cycles
+    Structural Features
+    Capital Inflows
+  }
+
+  Challenges {
+    Debt Problems
+    Financial Crises
+    "Original Sin"
+  }
+
+  Reforms {
+    Financial Architecture
+    Prophylactic Measures
+    Crisis Management
+  }
+
+  Growth Factors -> Challenges -> Reforms
+}
+```

@@ -1,13 +1,25 @@
 ---
-parent_directory:
 title: Ricardian Model
-tags:
-aliases:
-parent_folder: International Trade, Banking, and Capital Markets
-subfolder:
-key_concepts:
+parent_directory: PPHA International Trade, Banking, and Capital Markets
+formatted: 2025-12-21 07:05:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - ricardian model
+  - comparative advantage
+  - absolute advantage
+  - terms of trade
+secondary_tags:
+  - opportunity cost
+  - labor productivity
+  - production possibilities frontier
+  - international trade equilibrium
+  - prebisch-singer hypothesis
+  - marginal productivity of labor
+  - wage determination
+  - export supply curve
+  - import demand curve
 cssclasses: academia
-linter-yaml-title-alias: Ricardian Model
 ---
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/d1c69f70-6e5b-441b-bb64-b401969f2102/8fd23b4db8051947d01ea84d79234aceabdd66a9bd465777202dbd0267b0c9b4.jpg)
@@ -24,24 +36,24 @@ September 29, 2022
 
 # Ricardian Model
 
-Developed by David Ricardo in early 1800's  
+Developed by David Ricardo in early 1800's
 
 - Despite the date – it's all about technology
 
-○ Comparative Advantage  
-○ Absolute Advantage
+- Comparative Advantage
+- Absolute Advantage
 
 Resources
 
-$\mathrm{O}$  Labor  
-$\mathrm{O}$  Capital
+- Labor
+- Capital
 
-# Ricardian Model
+## Ricardian Model
 
 - Factors of Production
 
-○ General term  
-$\circ$  Includes:
+- General term
+- Includes:
 
 Labor  
 Equipment and Machinery  
@@ -49,22 +61,22 @@ Land
 Buildings  
 Minerals
 
-# Ricardian Model
+## Ricardian Model
 
 - Previously belief was that country must hold absolute advantage to make trade worthwhile
 
-Lowest production cost in the world  
-○ Implies best technology, lowest wages, unique natural resources
+Lowest production cost in the world
+- Implies best technology, lowest wages, unique natural resources
 
-- Ricardo demonstrates that only comparative advantage  
-$\circ$  Required for mutually beneficial trade  
+- Ricardo demonstrates that only comparative advantage
+- Required for mutually beneficial trade
 - Labor only mobile resource – capital indirectly considered
 
-# Ricardian Model
+## Ricardian Model
 
 - Ricardo's goal was to demonstrate the benefits of free trade
 
-○ Opposed then prominent mercantilists
+- Opposed then prominent mercantilists
 
 - Counterintuitive idea: even if cost of production for all goods a country produced higher than trading partners, still benefit by exporting the good that country produces most efficiently
 
@@ -76,7 +88,7 @@ $\circ$  Required for mutually beneficial trade
 Laborers equally skilled and available to either industry  
 - Two industries, perfect competition
 
-○ Wheat farming  
+- Wheat farming  
 $\mathrm{O}$  Cloth production
 
 # Example
@@ -85,7 +97,7 @@ $\mathrm{O}$  Cloth production
 - Home labor supply  $L = 25$  
 Home MPL
 
-○ Wheat:  $\mathrm{MPL}_{\mathrm{w}} = 4$  bushels (bu)  
+- Wheat:  $\mathrm{MPL}_{\mathrm{w}} = 4$  bushels (bu)  
 $\mathrm{O}$  Cloth:  $\mathrm{MPL}_{\mathrm{C}} = 2$  yards (yds)
 
 - MPLs constant - linear Production Possibilities Frontier (PPF)
@@ -106,7 +118,7 @@ $\mathrm{O}$  Cloth:  $\mathrm{MPL}_{\mathrm{C}} = 2$  yards (yds)
 - All laborers may choose which industry to work in:
 
 What does this say about the wage rate?  
-○ What is the value of a unit of work to company?
+- What is the value of a unit of work to company?
 
 # Home Equilibrium
 
@@ -117,7 +129,7 @@ $$
 where  $P_W$  and  $P_C$  are the prices of wheat and cloth,  $MPL_W$  and  $MPL_C$  are the marginal productivities of labor for wheat and cloth, and  $\omega$  is the wage rate
 
 $$
-R e a r r a n g i n g, w e o b t a i n \frac{P_{W}}{P_{C}} = \frac{M P L_{C}}{M P L_{W}}
+Rearranging, we obtain \frac{P_{W}}{P_{C}} = \frac{M P L_{C}}{M P L_{W}}
 $$
 
 the relative price of two goods is inversely proportional to the relative marginal productivity of labor
@@ -157,7 +169,7 @@ $\circ$  Cloth:  $\mathrm{MPL}_{\mathrm{C}}^{*} = 1 \mathrm{yd}$
 # Home and Foreign Comparative Advantage
 
 What is Foreign's opportunity cost of cloth?  
-○ Of wheat?  
+- Of wheat?  
 
 - What is Home's opportunity cost of cloth?  
 Of wheat?
@@ -195,7 +207,7 @@ Gains from trade for both countries
 Each country
 
 Consumes more  
-○ Specializes entirely in production of one good
+- Specializes entirely in production of one good
 
 Home - wheat  
 Foreign - cloth
@@ -214,7 +226,7 @@ Trade patterns determined by comparative advantage
 Determine wages at Home and Foreign  
 - Nominal versus real
 
-○ Nominal in currency terms  
+- Nominal in currency terms  
 Real "how much can I buy?"
 
 # More on Wages
@@ -222,12 +234,12 @@ Real "how much can I buy?"
 - $\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}} = 2 / 3$  
 Real wage determination:
 
-○ Home
+- Home
 
 - $\mathrm{MPL}_{\mathrm{W}} = 4$  bu. of wheat  
 - $\left(\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}}\right) \mathrm{XMPL}_{\mathrm{W}} = (2 / 3) \times 4 = 8 / 3$  yds. of cloth
 
-○ Foreign
+- Foreign
 
 - $M P L_{C} = 1$  yd. of cloth  
 - $\left(\mathrm{P}_{\mathrm{C}}^{*} / \mathrm{P}_{\mathrm{W}}^{*}\right) \mathrm{XMPL}_{\mathrm{C}}^{*} = (3 / 2) \times 1 = 3 / 2$  bu. of wheat
@@ -237,8 +249,8 @@ Real wage determination:
 - Productivity measured by value-added per hour  
 - Greater productivity generally implies higher wages
 
-○ Relationship varies greatly  
-○ Will discuss reasons why in a couple of weeks
+- Relationship varies greatly  
+- Will discuss reasons why in a couple of weeks
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/d1c69f70-6e5b-441b-bb64-b401969f2102/021dbfa597d7c51ffbc5b8c10ddf28271dbf5c9b63c2032b6861a12294b269e4.jpg)  
 FIGURE 2-7 Labor Productivity and Real Wages, 2012 Labor productivity is measured by real value-added per hour of work and can be compared with the real wages paid in manufacturing in various countries. The general ranking of countries in terms of labor productivity—from highest to lowest—is the same as the ranking in terms of wages: countries with higher labor productivity generally pay higher wages, just as the Ricardian model predicts.
@@ -248,8 +260,8 @@ FIGURE 2-7 Labor Productivity and Real Wages, 2012 Labor productivity is measure
 - Demonstrate how the world price is determined  
 Supply and demand
 
-○ Home export supply  
-○ Foreign import demand
+- Home export supply  
+- Foreign import demand
 
 - Construct Home export supply curve
 
@@ -271,14 +283,14 @@ Why is the curve horizontal at  $12$ ?
 
 - Wheat production and export supply is a function of  $\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}}$
 
-○ 1/2 or lower no incentive to export
+- 1/2 or lower no incentive to export
 
 Production may occur anywhere along PPF  
 
 - Indifferent to trade
 
-○ 1/2 to 1 increasing exports to Foreign  
-○ 1 or greater, Foreign indifferent to imports
+- 1/2 to 1 increasing exports to Foreign  
+- 1 or greater, Foreign indifferent to imports
 
 - If  $\mathrm{P_W} / \mathrm{P_C} > 1$  or  $< 1/2$  implies one country is much larger causing the large country to be indifferent to trade
 
@@ -302,7 +314,7 @@ Production may occur anywhere along PPF
 - Refers to the price of a country's exports divided by the price of its imports
 
 $\circ$  Rise in export prices raises terms of trade  
-○ Decline in import prices raises terms of trade
+- Decline in import prices raises terms of trade
 
 - Generally, viewed as positive for country if terms of trade increase  
 - Why might this be incorrect?
@@ -322,11 +334,11 @@ $\mathrm{O}$  Reasoning:
 
 Real-world data do not show it to be a good generalization
 
-○ Technological improvements lead to rapidly decreasing prices for manufactured goods  
+- Technological improvements lead to rapidly decreasing prices for manufactured goods  
 $\circ$  Terms of trade for industrialized countries declines  
 
 - Cartels, or limited locations for production, restrict supplies of some commodities  
-○ Population growth and increasing wages in developing countries has increased food demand
+- Population growth and increasing wages in developing countries has increased food demand
 
 # Decreasing Relative Prices
 
@@ -370,5 +382,36 @@ Export
 
 Continuing margin squeeze on its European smelters. Renamed zinc production at Grenoble's European operations fell by 47,500 tonnes year-on-year to 350,900 tonnes in the first six months of 2022.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/d1c69f70-6e5b-441b-bb64-b401969f2102/baceb3a5449346021cd41ee685e91ce10af0c95583b19c804d02011a103c39ff.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/d1c69f70-6e5b-441b-bb64-b401969f2102/baceb3a5449346021cd41ee685e91ce10af0c95583b19c804d02011a103c39ff.jpg)
 Source:tradingeconomics.com.Accessed August 14,2022
+
+```d2
+direction: right
+Ricardian Model Overview {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#2e7d32"
+
+  Assumptions {
+    "Labor as only factor"
+    "Constant MPL"
+    "Perfect competition"
+    "Two goods, two countries"
+  }
+
+  Key Concepts {
+    "Comparative Advantage"
+    "Absolute Advantage"
+    "Terms of Trade"
+    "Gains from Trade"
+  }
+
+  Implications {
+    "Specialization"
+    "Higher consumption"
+    "Wage determination"
+  }
+
+  Assumptions -> Key Concepts -> Implications
+}
+```

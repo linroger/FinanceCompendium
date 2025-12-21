@@ -1,18 +1,29 @@
 ---
-aliases: Credit Default Swap
-tags:
-key_concepts:
-parent_directory: Analysis
+title: Chapter 7: Credit Default Swap
+parent_directory: IV. Fixed Income/Fundamentals/Analysis
+formatted: 2025-12-21 02:10:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - credit default swaps
+  - credit derivatives
+  - risk transfer instruments
+secondary_tags:
+  - cds pricing
+  - default probability
+  - recovery rates
+  - structural models
+  - reduced form models
+  - capital structure arbitrage
+  - distressed debt
 cssclasses: academia
-title: Chapter 7 - Credit Default Swap
-linter-yaml-title-alias: Chapter 7 - Credit Default Swap
 ---
 
-# Chapter 7
+# Chapter 7: Credit Default Swap
 
-# Credit Default Swap
+## Credit Default Swap
 
-# 7.1 Introduction
+#### 7.1 Introduction
 
 Credit default swap (CDS) is one of the greatest Wall Street innovations in history. For the first time, investors can transfer unwanted credit risk at a price. Conversely, for those who seek yield enhancements, it provides an additional vehicle.
 
@@ -25,9 +36,9 @@ According to ISDA, a credit event can be one of the following:
 3. repudiation/moratorium.
 4. default
 
-There are two main budling blocks for the evaluation of CDS: probability of default (PD) and loss given default (LGD) which is also known as 1 minus recovery. There are two streams of models for the evaluation of CDS: reduced form models and structural models. The former assumes sudden defaults and the latter assumes gradual defaults. As a result, reduced form models assume a Poisson jump process for defaults and structural models assume firm value falling below a default threshold.
+There are two main building blocks for the evaluation of CDS: probability of default (PD) and loss given default (LGD) which is also known as 1 minus recovery. There are two streams of models for the evaluation of CDS: reduced form models and structural models. The former assumes sudden defaults and the latter assumes gradual defaults. As a result, reduced form models assume a Poisson jump process for defaults and structural models assume firm value falling below a default threshold.
 
-# 7.2 The Contract
+#### 7.2 The Contract
 
 It is a swap (follows swap convention) and yet it does not quite follow the swap conventions. Its floating leg is one payment and furthermore probabilistic. Its fixed leg is quarterly (not semi-annually). Figure 7.1 demonstrates the payments of the two legs of a CDS contract.
 
@@ -37,9 +48,10 @@ The fixed leg payments are similar to a standard fixed-floating swap. The floati
 
 Figure 7.1: Two Legs of CDS
 
-# 7.2.1 CDS spread
+####### 7.2.1 CDS spread
 
-$$ s (t, T_{n}) = \frac{\sum_{i = 1}^{n} P (t , T_{i}) [ Q (t , T_{i - 1}) - Q (t , T_{i}) ]}{\sum_{i = 1}^{n} P (t , T_{i}) Q (t , T_{i})} \tag {7.1}
+$$
+s (t, T_{n}) = \frac{\sum_{i = 1}^{n} P (t , T_{i}) [ Q (t , T_{i - 1}) - Q (t , T_{i}) ]}{\sum_{i = 1}^{n} P (t , T_{i}) Q (t , T_{i})} \tag {7.1}
 $$
 
 # 7.2.2 CDS as a Perfect Hedge to Corporate Floaters
@@ -91,7 +103,7 @@ There are two running spreads: 100 basis points and 500 basis points for high gr
 Due to running spread, the upfront can be negative.
 
 $$
-\begin{array}{l} V_{\mathrm{pr ot}} = V_{\mathrm{pr em}} \\ (1 - R) \sum_{i = 1}^{4 n} P (t, T_{i}) [ Q (t, T_{i - 1}) - Q (t, T_{i}) ] \\ = \frac{s}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \\ = \left\{ \begin{array}{l} U_{\mathrm{HG}} + \frac{0 . 0 1}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \\ U_{\mathrm{HY}} + \frac{0 . 0 5}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \end{array} \right. \\ \end{array}
+\begin{array}{l} V_{\mathrm{prot}} = V_{\mathrm{prem}} \\ (1 - R) \sum_{i = 1}^{4 n} P (t, T_{i}) [ Q (t, T_{i - 1}) - Q (t, T_{i}) ] \\ = \frac{s}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \\ = \left\{ \begin{array}{l} U_{\mathrm{HG}} + \frac{0.01}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \\ U_{\mathrm{HY}} + \frac{0.05}{4} \sum_{i = 1}^{4 n} P (t, T_{i}) Q (t, T_{i}) \end{array} \right. \\ \end{array}
 $$
 
 Running spread is not informative as it is a contractual spread. Hence it is still customary in the industry to compute the par spread as before.
@@ -243,6 +255,63 @@ $$
 \xi = \frac{E}{E + D}
 $$ and  $N[\cdot ]$  is normal probability,  $\sigma$  is the asset volatility,  $\lambda$  is the volatility parameter for the stochastic barrier,  $E$  is the equity value and  $D$  is the "target" debt value. Hence, it is logical to view  $\xi$  as the leverage ratio. With the survival probability function, we can proceed with CDS valuation. Using equation (7.1), we can solve for the asset value and volatility.
 
+
+```d2
+direction: right
+
+# Credit Default Swap Structure Visualization
+protection_buyer: Protection Buyer {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+protection_seller: Protection Seller {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+
+fixed_leg: Fixed Leg (Premium) {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+floating_leg: Floating Leg (Contingent) {
+  shape: oval
+  style.fill: "#f3e5f5"
+}
+
+reference_entity: Reference Entity {
+  shape: circle
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+}
+
+credit_event: Credit Event {
+  shape: diamond
+  style.fill: "#fce4ec"
+}
+
+protection_buyer -> protection_seller: Pays premium
+protection_seller -> protection_buyer: Pays upon default
+protection_buyer -> fixed_leg
+fixed_leg -> protection_seller
+protection_seller -> floating_leg
+floating_leg -> protection_buyer
+reference_entity -> credit_event: Default triggers
+credit_event -> floating_leg: Activates payment
+
+note: |md
+  **CDS Mechanics:**
+  - Protection buyer pays periodic premium
+  - Upon credit event, seller compensates buyer
+  - Reference entity is the underlying obligor
+  - Spread reflects default probability and recovery
+| {
+  near: top-center
+}
+```
 
 Use data to do a long HW
 

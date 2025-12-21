@@ -1,18 +1,32 @@
 ---
-aliases: Interest Rate Models
-tags:
-key_concepts:
+title: "Chapter 14 - Interest Rate Models"
 parent_directory: Analysis
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - interest rate models
+  - term structure models
+  - vasicek model
+  - cox-ingersoll-ross model
+  - ho-lee model
+secondary_tags:
+  - black-derman-toy model
+  - heath-jarrow-morton model
+  - libor market model
+  - shifted libor market model
+  - binomial interest rate models
+  - risk neutral pricing
+  - no arbitrage models
+  - forward rate models
+  - bond pricing models
+  - interest rate derivatives
 cssclasses: academia
-title: Chapter 14 - Interest Rate Models
-linter-yaml-title-alias: Chapter 14 - Interest Rate Models
 ---
 
-# Chapter 14
+# Chapter 14 - Interest Rate Models
 
-# Interest Rate Models
-
-# 14.1 Introduction
+## 14.1 Introduction
 
 In this chapter, we review the most popular and important models for the term structure of interest rates and their derivatives. We begin with the classical Vasicek and Cox-Ingersoll models which are known as "equilibrium" or "factor-based" models. These models formulate the fundamental risk factors (via stochastic processes) that drive the term structure (of zero coupon bonds). These models have closed-form solutions to basic interest rate derivative prices such as options and futures.
 
@@ -24,7 +38,7 @@ The Vasicek model assumes a Gaussian, mean-reverting (Ornstein-Uhlenbeck) proces
 
 $$
 \begin{array}{l} d r = \alpha (\mu - r) d t + \sigma d W \\ = \alpha (\hat {\mu} - r) d t + \sigma d \hat {W} \tag {14.1} \\ \end{array}
-$$ where, as shown in the previous chapter that  $\hat{\mu} = \mu -\frac{\sigma\lambda}{\alpha}$
+$$ where, as shown in the previous chapter that $\hat{\mu} = \mu - \frac{\sigma\lambda}{\alpha}$
 
 
 The Vasicek model for the discount factor (zero coupon bond price):
@@ -121,19 +135,27 @@ In the HL model, the next period's up term structure and down term structure are
 
 
 $$
-0. 9 7 3 4 = \underbrace {P (1 , 2 , 1)}_{\mathrm{up}} = \frac{P (0 , 2 , 0)}{P (0 , 1 , 0)} u (1) = \frac{0 . 8 9 0 0}{0 . 9 5 2 4} \times 1. 0 4 1 6 6 7
+0.9734 = \underbrace{P(1,2,1)}_{\mathrm{up}} = \frac{P(0,2,0)}{P(0,1,0)} u(1) = \frac{0.8900}{0.9524} \times 1.041667
 $$
 
 $$
-0. 8 7 6 1 = \underbrace {P (1 , 2 , 0)}_{\text{do wn}} = \frac{P (0 , 2 , 0)}{P (0 , 1 , 0)} d (1) = \frac{0 . 8 9 0 0}{0 . 9 5 2 4} \times 0. 9 3 7 5
+\begin{array}{l} 0.934481 = \frac{0.8900}{0.9524} \\ 0.869173 = \frac{0.8278}{0.9524} \\ 0.807014 = \frac{0.7686}{0.9524} \\ \end{array}
 $$
 
 $$
-0. 9 4 0 7 = \underbrace {P (1 , 3 , 1)}_{\text{up}} = \frac{P (0 , 3 , 0)}{P (0 , 1 , 0)} u (2) = \frac{0 . 8 2 7 8}{0 . 9 5 2 4} \times 1. 0 8 2 2 5 1
+0.9407 = \underbrace{P(1,3,1)}_{\text{up}} = \frac{P(0,3,0)}{P(0,1,0)} u(2) = \frac{0.8278}{0.9524} \times 1.082251
 $$
 
 $$
-0. 7 6 1 9 = \underbrace {P (1 , 3 , 0)}_{\mathrm{do wn}} = \frac{P (0 , 3 , 0)}{P (0 , 1 , 0)} d (2) = \frac{0 . 8 2 7 8}{0 . 9 5 2 4} \times 0. 8 7 6 6 2 3
+0.7619 = \underbrace{P(1,3,0)}_{\mathrm{down}} = \frac{P(0,3,0)}{P(0,1,0)} d(2) = \frac{0.8278}{0.9524} \times 0.876623
+$$
+
+$$
+0.9051 = \underbrace{P(1,4,1)}_{\mathrm{up}} = \frac{P(0,4,0)}{P(0,1,0)} u(3) = \frac{0.8278}{0.9524} \times 1.121579
+$$
+
+$$
+0.6598 = \underbrace{P(1,4,0)}_{\mathrm{down}} = \frac{P(0,4,0)}{P(0,1,0)} d(3) = \frac{0.7686}{0.9524} \times 0.817631
 $$
 
 $$
@@ -141,7 +163,7 @@ $$
 $$
 
 $$
-0. 6 5 9 8 = \underbrace {P (1 , 4 , 0)}_{\text{do wn}} = \frac{P (0 , 4 , 0)}{P (0 , 1 , 0)} d (3) = \frac{0 . 7 6 8 6}{0 . 9 5 2 4} \times 0. 8 1 7 6 3 1
+0.8761 = \underbrace{P(1,2,0)}_{\text{down}} = \frac{P(0,2,0)}{P(0,1,0)} d(1) = \frac{0.8900}{0.9524} \times 0.9375
 $$
 
 Put in the table,
@@ -151,36 +173,36 @@ Put in the table,
 Now we have two term structures of the next year (time 1). The task continues to time 2. For each term structure in time 1, we shall compute two term structures in time 2 (up and down) by applying the same principle. The up and down term structures of the left are:
 
 $$
-0. 9 0 6 0 = P (2, 3, 1) = \frac{P (1 , 3 , 0)}{P (1 , 2 , 0)} u (1) = \frac{0 . 7 6 1 9}{0 . 8 7 6 1} \times 1. 0 4 1 6 6 7
+0.9060 = P(2,3,1) = \frac{P(1,3,0)}{P(1,2,0)} u(1) = \frac{0.7619}{0.8761} \times 1.041667
 $$
 
 $$
-0. 8 1 5 4 = P (2, 3, 0) = \frac{P (1 , 3 , 0)}{P (1 , 2 , 0)} d (1) = \frac{0 . 7 6 1 9}{0 . 8 7 6 1} \times 0. 9 3 7 5
+0.8154 = P(2,3,0) = \frac{P(1,3,0)}{P(1,2,0)} d(1) = \frac{0.7619}{0.8761} \times 0.9375
 $$
 
 $$
-0. 8 1 5 1 = P (2, 4, 1) = \frac{P (1 , 4 , 0)}{P (1 , 2 , 0)} u (2) = \frac{0 . 6 5 9 8}{0 . 8 7 6 1} \times 1. 0 8 2 2 5 1
+0.8151 = P(2,4,1) = \frac{P(1,4,0)}{P(1,2,0)} u(2) = \frac{0.6598}{0.8761} \times 1.082251
 $$
 
 $$
-0. 6 6 0 3 = P (2, 4, 0) = \frac{P (1 , 4 , 0)}{P (1 , 2 , 0)} d (2) = \frac{0 . 6 5 9 8}{0 . 8 7 6 1} \times 0. 8 7 6 6 2 3
+0.6603 = P(2,4,0) = \frac{P(1,4,0)}{P(1,2,0)} d(2) = \frac{0.6598}{0.8761} \times 0.876623
 $$ and of the right are:
 
 
 $$
-1. 0 0 6 6 = P (2, 3, 2) = \frac{P (1 , 3 , 1)}{P (1 , 2 , 1)} u (1) = \frac{0 . 9 4 0 7}{0 . 9 7 3 4} \times 1. 0 4 1 6 6 7
+1.0066 = P(2,3,2) = \frac{P(1,3,1)}{P(1,2,1)} u(1) = \frac{0.9407}{0.9734} \times 1.041667
 $$
 
 $$
-2. 9 0 6 0 = P (2, 3, 1) = \frac{P (1 , 3 , 1)}{P (1 , 2 , 1)} d (1) = \frac{0 . 9 4 0 7}{0 . 9 7 3 4} \times 0. 9 3 7 5
+0.9060 = P(2,3,1) = \frac{P(1,3,1)}{P(1,2,1)} d(1) = \frac{0.9407}{0.9734} \times 0.9375
 $$
 
 $$
-3. 0 0 6 3 = P (2, 4, 2) = \frac{P (1 , 4 , 1)}{P (1 , 2 , 1)} u (2) = \frac{0 . 9 0 5 1}{0 . 9 7 3 4} \times 1. 0 8 2 2 5 1
+1.0063 = P(2,4,2) = \frac{P(1,4,1)}{P(1,2,1)} u(2) = \frac{0.9051}{0.9734} \times 1.082251
 $$
 
 $$
-4. 8 1 5 1 = P (2, 4, 1) = \frac{P (1 , 4 , 1)}{P (1 , 2 , 1)} d (2) = \frac{0 . 9 0 5 1}{0 . 9 7 3 4} \times 0. 8 7 6 6 2 3
+0.8151 = P(2,4,1) = \frac{P(1,4,1)}{P(1,2,1)} d(2) = \frac{0.9051}{0.9734} \times 0.876623
 $$ and put in table,
 
 
@@ -188,9 +210,7 @@ $$ and put in table,
 
 It can be seen that from the left (applying  $u(k)$ ) we arrive at  $P(2,3,1) = 0.9060$  which is the same from the right (applying  $d(k)$ ). This also applies to  $P(2,4,1) = 0.8151$ . This is known as the re-combination assumption. Note that this assumption must be maintained or the binomial model will grow exponentially.
 
-While simple, in this example we see something peculiar about the HL model here. Note that in the last column (state 2) the bond prices are both greater than  $1 (1.0066 \text{ and } 1.0063)$ . This is peculiar because these are zero-coupon bonds whose prices must be strictly less than 1. Prices greater than 1 implies that interest rates are negative. In other words, for the one-year bond (maturity time 3), we must pay
-
-\$1.0066 now and receive\$ 1 in a year. And for the two-year bond, we must pay  \$1.0063 and receive the principal\$ 1 back in two years.
+While simple, in this example we see something peculiar about the HL model here. Note that in the last column (state 2) the bond prices are both greater than  $1 (1.0066 \text{ and } 1.0063)$ . This is peculiar because these are zero-coupon bonds whose prices must be strictly less than 1. Prices greater than 1 implies that interest rates are negative. In other words, for the one-year bond (maturity time 3), we must pay \$1.0066 now and receive \$1 in a year. And for the two-year bond, we must pay \$1.0063 and receive the principal \$1 back in two years.
 
 In an arbitrage-free world, this is impossible. One would rather keep cash than buying zero-coupon bonds and these bonds will find no buyers. Hence such prices are not realistic and do not exist in the real world. Unfortunately this is the assumption adopted by the HL model. The HL model adopt normally distributed interest rates, just like the Vasicek model and interest rates can reach negative values.
 
@@ -208,7 +228,7 @@ Once the model of the interest rates is completed, we can then evaluate derivati
 
 The material in this section is taken from Analysis of Fixed Income (where it has the most updated version). Like the Ho-Lee model, the Black-Derman-Toy (BDT) model is a binomial model.
 
-# 14.4.1 Tree (Log Normal)
+### 14.4.1 Tree (Log Normal)
 
 Standard binomial model in equity looks as follows (where a chosen interest rate  $r$ , usually the instantaneous rate, is treated like a "stock"): where  $r_0$  is the current (time 0) interest rate and  $r_{ij}$  represents the interest rate at time period  $i$  and state  $j$ , and
 
@@ -222,7 +242,7 @@ $$
 
 $$
 
-# 14.4.2 Modified Tree (since  $ud = 1$ )
+### 14.4.2 Modified Tree (since $ud = 1$)
 
 In order to fit to the current yield curve, the standard binomial tree needs to be modified. The key change is to allow for the flexibility in each period in setting a "mean rate",  $\bar{r}_i$ . In the standard binomial tree, the up and down are perturbations around  $r_0$ . In the modified binomial model that can fit to the current yield curve,  $r_0$  is replaced by a series of other values:  $\bar{r}_1, \bar{r}_2, \dots, \bar{r}_n$  in various periods, as Figure 14.2 shows.
 
@@ -269,7 +289,7 @@ $$ that is
 
 
 $$
-5. 8 1 1 6 = \frac{1}{2} \left(\frac{1}{1 + r_{1 1}} + \frac{1}{1 + r_{1 0}}\right) \times 0. 9 0 9 1
+0.8116 = \frac{1}{2} \left(\frac{1}{1 + r_{11}} + \frac{1}{1 + r_{10}}\right) \times 0.9091
 $$
 
 Two unknowns cannot be solved with one equation. The other equation we need comes from the volatility. In the standard binomial model, we get:
@@ -286,19 +306,19 @@ The lattice is now extended to include one more period, as demonstrated as follo
 
 $$
 
-D (0, 1) = 0. 9 0 9 1 \xrightarrow {r_{0} = 10 \%} D (1, 1) = 1
+D(0,1) = 0.9091 \xrightarrow{r_{0} = 10\%} D(1,1) = 1
 
 $$
 
 $$
 
-\begin{array}{c} D (1, 2, 1) = . 8 7 4 7 \xrightarrow {r_{1 1} = 1 4 . 3 2 \%} D (2, 2, 1) = 1 \\ D (0, 2) = 0. 8 1 1 6 \\ \hline \end{array}
+\begin{array}{c} D(1,2,1) = 0.8747 \xrightarrow{r_{11} = 14.32\%} D(2,2,1) = 1 \\ D(0,2) = 0.8116 \\ \hline \end{array}
 
 $$
 
 $$
 
-D (0, 3) = 0. 7 1 1 8 \begin{array}{c c} D (1, 3, 1) = ? & D (2, 3, 2) =? \xrightarrow {r_{2 2} = \overline {{r}} u^{2}} D (3, 3, 2) = 1 \\ D (1, 3, 0) = ? & D (2, 3, 1) =? \xrightarrow {r_{2 1} = \overline {{r}}} D (3, 3, 1) = 1 \\ & D (2, 3, 0) =? \xrightarrow {r_{2 0} = \overline {{r}} \frac{1}{u^{2}}} D (3, 3, 0) = 1 \end{array}
+D(0,3) = 0.7118 \begin{array}{c c} D(1,3,1) = ? & D(2,3,2) =? \xrightarrow{r_{22} = \bar{r} u^{2}} D(3,3,2) = 1 \\ D(1,3,0) = ? & D(2,3,1) =? \xrightarrow{r_{21} = \bar{r}} D(3,3,1) = 1 \\ & D(2,3,0) =? \xrightarrow{r_{20} = \bar{r} / u^{2}} D(3,3,0) = 1 \end{array}
 
 $$
 
@@ -308,27 +328,27 @@ To solve for the third period, we need the following two equations:
 
 $$
 
-D (0, 3) = \frac{1}{2} [ D (1, 3, 1) + D (1, 3, 0) ] D (0, 1) = 0. 7 1 1 8 \tag {14.9}
+D(0,3) = \frac{1}{2} [D(1,3,1) + D(1,3,0)] D(0,1) = 0.7118 \tag{14.9}
 
 $$ and
 
 
 $$
 
-\sigma = \frac{1}{2} \ln \left[ \frac{\sqrt{\frac{1}{D (1 , 3 , 1)}} - 1}{\sqrt{\frac{1}{D (1 , 3 , 0)}} - 1} \right] = 0. 1 8 \tag {14.10}
+\sigma = \frac{1}{2} \ln \left[ \frac{\sqrt{\frac{1}{D(1,3,1)}} - 1}{\sqrt{\frac{1}{D(1,3,0)}} - 1} \right] = 0.18 \tag{14.10}
 
 $$ where
 
 
 $$
 
-D (1, 3, 1) = 1 /_{2} \{D (2, 3, 2) + D (2, 3, 1) \} D (1, 2, 1)
+D(1,3,1) = \frac{1}{2} \{D(2,3,2) + D(2,3,1)\} D(1,2,1)
 
 $$
 
 $$
 
-D (1, 3, 0) = 1 /_{2} \{D (2, 3, 1) + D (2, 3, 0) \} D (1, 2, 0)
+D(1,3,0) = \frac{1}{2} \{D(2,3,1) + D(2,3,0)\} D(1,2,0)
 
 $$ and in turn,
 
@@ -359,7 +379,7 @@ $$
 $$ r_{44} = 25.52 \%; r_{43} = 19.48 \%; r_{42} = 14.86 \%; r_{41} = 11.34 \%; r_{40} = 8.65 \%
 $$
 
-# 14.4.3 The Continuous Time Limit
+### 14.4.3 The Continuous Time Limit
 
 As in the H-Lee model, we can work out the continuous time limit of the Black-Derman-Toy model as follows:
 
@@ -367,7 +387,7 @@ $$ d \ln r = \left(\theta (t) + \frac{\sigma^{\prime} (t)}{\sigma (t)} \ln r\rig
 $$ where  $\theta(t)$  is a time-dependent function (as in the Ho-Lee model) that is used to fit the yield curve. Furthermore, unlike the Ho-Lee model, the volatility function  $\sigma(t)$  is also time dependent, which is of course to fit the volatility curve.
 
 
-# 14.4.4 Black-Karasinski Model
+### 14.4.4 Black-Karasinski Model
 
 The Black-Karasinski (BK) model is an extension to the BDT model. The BK model is to include mean reversion in the drift term:
 
@@ -376,7 +396,7 @@ $$
 
 This can be readily compared to the Hull-White model (shown separately in the next subsection) that is extensions of the Vasicek (normal) and the CIR (square-root) models.
 
-# 14.5 Hull-White Model
+## 14.5 Hull-White Model
 
 The Hull-White model is to make fixed parameters in the Vasicek (first equation) and the CIR model (second equation) time dependent.
 
@@ -388,7 +408,7 @@ $$
 
 From the Hull-White model and the BK model, we can see that by making the parameters time dependent functions, we can then fit the yield curve (by using the reverting level  $\theta(t)$ ) and the volatility curve (by using either  $\kappa(t)$  or  $\sigma(t)$  or both - note that both are important contributors to the volatility in that fast/slow mean reversion results in low/high volatility.)
 
-# 14.6 Heath-Jarrow-Morton Model
+## 14.6 Heath-Jarrow-Morton Model
 
 The Heath-Jarrow-Morton (HJM) model is not a model but a class of models. The major contribution of the HJM model is its discovery of, now known as, "drift adjustment". Basically, Heath, Jarrow and Morton discovered that the drift term of the forward rate process cannot be arbitrarily determined but a function of the volatility curve. This is drastically different from the short rate process (such as CIR and Vasicek) where the short rate drift can be freely determined. Financial industry finds this to be extremely convenient and it needs a model to be able to calibrate to both yield and volatility curves. The HJM model provides such convenience, that it can fit both curves easily simultaneously.
 
@@ -429,10 +449,6 @@ $$
 
 As a result,
 
-$$
-\begin{array}{l} d f (t, T) = - \frac{\partial}{\partial T} d \ln P (t, T) \\ = - \frac{\partial}{\partial T} \left[ \left(r - \frac{v (t , T)^{2}}{2}\right) d t + v (t, T) d \hat {W} \right] \tag {14.19} \\ = v (t, T) \frac{\partial v (t , T)}{\partial T} d t - \frac{\partial v (t , T)}{\partial T} d \hat {W} \\ \end{array}
-$$
-
 This proves that the drift term of the forward rate dynamics do not depend on anything but the volatility function. The drift term in the above equation is known as the "drift adjustment".
 
 Usually, people would like to write (14.19) as follows:
@@ -452,7 +468,7 @@ $$
 
 Note that equation (14.21) describes the evolution of the entire forward curve (i.e. for all  $T$ ) and each forward rate is a martingale under its corresponding forward measure  $\tilde{W}^{(T)}$ .
 
-# 14.6.1 Example 1 - Ho-Lee Model
+### 14.6.1 Example 1 - Ho-Lee Model
 
 The Ho-Lee model has the following continuous time short rate process (under the risk-neutral measure) as follows (same as  $(\ref{eq:1})$ ):
 
@@ -480,7 +496,7 @@ $$
 
 This result clearly demonstrates that the Ho-Lee model will generate exploding short rates. That is  $\hat{\mathbb{E}}[r(T)] \to \infty$  as  $T \to \infty$ .
 
-# 14.6.2 Example 2 - Vasicek Model
+### 14.6.2 Example 2 - Vasicek Model
 
 Note that  $-\ln P(t,T) = rF(t,T) + G(t,T)$  and  $\frac{\partial F(t,T)}{\partial t} = \alpha F(t,T) - 1$ . As a result:
 
@@ -545,7 +561,7 @@ $$ r (T) = f (t, T) + \frac{\sigma^{2}}{2} F^{2} (t, T) + \sigma \sqrt{\frac{1 -
 $$ where  $z$  is a standard Normal variable. In simulations, for any given future time  $T > t$ , we can simulate standard normal random variables and then linearly transform it to obtain the instantaneous short rate.
 
 
-# 14.6.3 Example 3 - Cox-Ingersoll-Ross Model
+### 14.6.3 Example 3 - Cox-Ingersoll-Ross Model
 
 Note that  $A(t,T)$  and  $B(t,T)$  satisfy the following ordinary differential equations:
 
@@ -593,7 +609,7 @@ $$ which is a martingale. This equation and equation (14.29) verify that continu
 
 Given that forward measure is maturity dependent  $(T)$ , each forward rate (with maturity  $T$ ) is a martingale under its own measure. This is quite different from the risk-neutral measure that "one measure fits all".
 
-# 14.7 LMM (LIBOR Market Model) and Shifted LMM
+## 14.7 LMM (LIBOR Market Model) and Shifted LMM
 
 Besides the HJM model, another popular model that takes market prices as given is the LIBOR market model (LMM). The LMM can take European option prices (e.g. extracted from caps and floors or swaptions) directly as given, which makes it much easier to use than the HJM model. This advantage is a consequence of the LMM modeling discrete forward rates as opposed to continuous forward rates as in the HJM model.
 
@@ -763,7 +779,7 @@ $$
 
 This result is drastically different from and easier than the LMM where the drift adjustment contains a set of correlations across measures (then a freezing condition is imposed to turn the drift adjustment into deterministic).
 
-# 14.7.1 Calibration to Caps
+### 14.7.1 Calibration to Caps
 
 The reason why the LMM gains such popularity is its ease in calibrating to cap prices. Caps (and floors) are traded OTC (over the counter) and quoted by Black's volatility. With the Black formula, one can easily covert the volatility quote into the premium. The LMM provides a theoretical valuation for such a market practice.
 
@@ -815,11 +831,11 @@ $$
 
 $$ under the log-normal assumption. This equation is a more general form than the similar equation in Chapter ?? (equation (10.5)) where the Vasicek model is assumed. Here, we only need the forward volatility,  $\xi(u, T_j, T_{j+1})$ , to be deterministic (please compare equation (10.6) in Chapter ?? and equation (14.66) here).
 
-# 14.7.2 Swap and Swaption Valuation
+### 14.7.2 Swap and Swaption Valuation
 
 Unlike caps, swaptions are quoted by premium. Nevertheless, it is still customary for traders to think of their hedges in terms of the log-normal volatility. In other words, Greeks are still calculated by the Black model. As a result, it is equivalent to assuming the swap rate to follow a log-normal distribution. As a result, for this line of reasoning to be mathematically valid, we must also have "some measure" under which the swap rate is a martingale (and hopefully follows a log-normal distribution). A swap measure is therefore defined (see Jamshidian (1989)).
 
-# The Swap Measure
+### The Swap Measure
 
 A vanilla interest rate swap contract can be decomposed into a series of forward contracts. Hence, a swap rate, under no arbitrage, can be expressed as a weighted average of forward rates as follows (details are given in Chapter ??):
 
@@ -876,7 +892,7 @@ $$
 
 $$ where the last approximation holds as  $n\to \infty$ . Combining equations (14.73) and (14.74), we can see that  $\tilde{\mathbb{E}}_t^\Sigma [w(s)] = w(t)$  only if  $n\rightarrow \infty$ . In other words, the swap measure is exact only under either infinity maturity or continuous frequency.
 
-# Swaption
+### Swaption
 
 Similar to cap valuation, here we demonstrate that the correct swaption valuation is to recognize the swaption contract is a put option on a coupon bond (as opposed to a call option on the swap rate). We first note that the value of a swap at any point in time after time  $t$  is (say  $u$ ) is:
 
@@ -895,9 +911,9 @@ In a single factor affine framework, we can employ Jamshidian's theorem (1989) w
 
 It is well-known in the interest rate world that the cap/floor and swaption markets do not provide consistent log-normal quotes. In other words, using cap quotes (based on Black volatility), one cannot consistently price swaptions. There have been various proposals (such as Brigo and Mercurio, (2006)) that try to reconcile the two markets. However, these are mainly approximations that lack of a coherent underlying model. See Chen, Hsieh, Huang, and Huang (2019), for detailed discussions.
 
-# 14.8 Appendix
+## 14.8 Appendix
 
-# 14.8.1 Stock Option Pricing When the Interest Rate Follows the Ho-Lee Model
+### 14.8.1 Stock Option Pricing When the Interest Rate Follows the Ho-Lee Model
 
 In this appendix, we show the equity option pricing model when the interest rate follows the Ho-Lee model. This is a continuation of an Appendix in Chapter ?? In an Appendix of Chapter ??, we show the equity option pricing model when the interest rate follows the Vasicek model. The Vasicek model is an "equilibrium" model but the Ho-Lee model is a no-arbitrage model. We demonstrate the link between the "equilibrium" version of the Ho-Lee model in this Chapter. Now, we shall use this version to derive the equity option model.
 
@@ -940,7 +956,7 @@ $$
 $$ d_{2} = d_{1} - V (t, T)
 $$
 
-# 14.8.2 Proofs of Lemmas
+### 14.8.2 Proofs of Lemmas
 
 We prove that  $\Psi(t, T_i, T_j)$  is  $T_i$ -martingale. For  $t < s \leqslant T_j$ .
 

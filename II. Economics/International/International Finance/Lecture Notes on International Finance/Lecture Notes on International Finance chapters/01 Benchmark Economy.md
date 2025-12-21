@@ -1,24 +1,29 @@
 ---
 title: "A Benchmark Economy"
 parent_directory: "Lecture Notes on International Finance chapters"
-formatted: 2025-12-21 06:30:25 PM
+formatted: 2025-12-21 06:45:30 PM
 formatter_model: claude-sonnet-4
 cli-tool: claude-code
 primary_tags:
-- joint normality foreign
-- implies consumption ratio foreign
-- home bias consumption markets
-- consumption saving intertemporally example
-secondary_tags:
-- households optimal international risk
-- equilibrium exchange rate economy
+- benchmark economy
 - international real business cycles
-- benchmark economy summary
-- foreign consumption bundles period
-- foreign households determined equilibrium
-- empirically developed countries currencies
-- households implied exchange rate
-- euler equations households trade
+- exchange rate dynamics
+- complete market solution
+- optimal risk sharing
+- exchange rate accounting
+secondary_tags:
+- currency return
+- cobb douglas aggregation
+- stochastic discount factor
+- euler equations
+- asset market view
+- goods market view
+- currency risk premium
+- forward looking exchange rate
+- international risk sharing
+- market clearing conditions
+- pareto weight
+- home bias consumption
 cssclasses: academia
 ---
 
@@ -47,7 +52,7 @@ $$
 and that the exchange rate level is determined by the expectation of future interest rates and currency risk premia:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r p_{t + j} \right] + \bar {e}.
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r p_{t + j} \right] + \bar {e}.
 $$
 
 - When markets are complete, we can further simplify the exchange rate movement and currency expected return as
@@ -57,10 +62,49 @@ $$
 $$
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1} ] = \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) - \frac{1}{2} v a r_{t} (m_{t + 1}).
+\mathbb{E}_{t} [ r x_{t + 1} ] = \frac{1}{2} \operatorname{var}_{t} (m_{t + 1}^{*}) - \frac{1}{2} \operatorname{var}_{t} (m_{t + 1}).
 $$
 
 We start with a benchmark economy with international trade in goods and bonds, which is the basis for extensions in later chapters. We characterize the dynamics of the exchange rate and the currency return in this model, and, in doing so, showcase some standard techniques.
+
+```d2
+direction: right
+
+home: Home Country {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+
+  endowment: Endowment\n$y_t$ home goods
+  households: Households\nCobb-Douglas utility\n$c_t = (c_{H,t})^α (c_{F,t})^{1-α}$
+  bonds: Risk-free bonds\nHome ($b_H$) & Foreign ($b_F$)
+}
+
+foreign: Foreign Country {
+  shape: hexagon
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+
+  endowment: Endowment\n$y_t^*$ foreign goods
+  households: Households\nCobb-Douglas utility\n$c_t^* = (c_{F,t}^*)^α (c_{H,t}^*)^{1-α}$
+  bonds: Risk-free bonds\nForeign ($b_F^*$) & Home ($b_H^*$)
+}
+
+markets: Markets {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+
+  goods: Goods Market\nHome & Foreign goods\nMarket clearing
+  assets: Asset Market\nRisk-free bonds\nExchange rate $e_t$
+}
+
+home -> markets: Trade goods & bonds
+foreign -> markets: Trade goods & bonds
+markets -> home: Consumption bundles
+markets -> foreign: Consumption bundles
+```
+**Figure 1.0: Benchmark Economy Structure**\n\nThis diagram illustrates the two-country endowment economy with international trade in goods and risk-free bonds. Households in both countries consume Cobb-Douglas aggregates of home and foreign goods, and can trade one-period risk-free bonds denominated in their respective consumption bundles.
 
 ## 1.A Model Set-up
 
@@ -79,7 +123,7 @@ which means that  $c_{H,t}$  units of the home goods and  $c_{F,t}$  units of th
 The expected lifetime utility for home households is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t}) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t}) \right],
 $$
 
 where  $u(c_{t})$  is a generic utility function that takes the home households' aggregate consumption  $c_{t}$  as the argument, and  $\delta$  is the subjective discount factor. We usually impose some regularity conditions on the utility function, so that it is twice continuously differentiable, increasing in  $c_{t}$ , and concave.
@@ -199,7 +243,7 @@ $$
 Substitute this equation into the Lagrangian:
 
 $$
-\begin{array}{l} \mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u \left(\left(c_{H, t}\right)^{\alpha} \left(c_{F, t}\right)^{1 - \alpha}\right) \right. \\ \left. + \sum_{t = 1}^{\infty} \zeta_{t} (p_{t} y_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) - p_{t} c_{H, t} - \exp (- e_{t}) p_{t}^{*} c_{F, t} - b_{H, t} - b_{F, t} \exp (- e_{t})) \right]. \\ \end{array}
+\begin{array}{l} \mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u \left(\left(c_{H, t}\right)^{\alpha} \left(c_{F, t}\right)^{1 - \alpha}\right) \right. \\ \left. + \sum_{t = 1}^{\infty} \zeta_{t} (p_{t} y_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) - p_{t} c_{H, t} - \exp (- e_{t}) p_{t}^{*} c_{F, t} - b_{H, t} - b_{F, t} \exp (- e_{t})) \right]. \\ \end{array}
 $$
 
 The first-order conditions w.r.t.  $c_{H,t}$ ,  $c_{F,t}$  are
@@ -297,17 +341,17 @@ $$
 The Lagrangian is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u \left(c_{t}^{*}\right) + \sum_{t = 1}^{\infty} \zeta_{t}^{*} \left(p_{t}^{*} y_{t}^{*} + \exp \left(r_{t - 1} + e_{t}\right) b_{H, t - 1}^{*} + b_{F, t - 1}^{*} \exp \left(r_{t - 1}^{*}\right) - c_{t}^{*} - b_{H, t}^{*} \exp (e_{t}) - b_{F, t}^{*}\right) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u \left(c_{t}^{*}\right) + \sum_{t = 1}^{\infty} \zeta_{t}^{*} \left(p_{t}^{*} y_{t}^{*} + \exp \left(r_{t - 1} + e_{t}\right) b_{H, t - 1}^{*} + b_{F, t - 1}^{*} \exp \left(r_{t - 1}^{*}\right) - c_{t}^{*} - b_{H, t}^{*} \exp (e_{t}) - b_{F, t}^{*}\right) \right].
 $$
 
 The intertemporal solution implies
 
 $$
-1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1}^{*})}{u^{\prime} (c_{t}^{*})} \exp (r_{t} + \Delta e_{t + 1}) \right],
+1 = \mathbb{E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1}^{*})}{u^{\prime} (c_{t}^{*})} \exp (r_{t} + \Delta e_{t + 1}) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1}^{*})}{u^{\prime} (c_{t}^{*})} \exp (r_{t}^{*}) \right],
+1 = \mathbb{E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1}^{*})}{u^{\prime} (c_{t}^{*})} \exp (r_{t}^{*}) \right],
 $$
 
 and the within-period solution implies
@@ -429,19 +473,19 @@ $$
 and 4 Euler equations,
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}\right) \exp \left(r_{t}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}\right) \exp \left(r_{t}\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1}) \exp (- \Delta e_{t + 1} + r_{t}^{*}) ],
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1}) \exp (- \Delta e_{t + 1} + r_{t}^{*}) ],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*}) \exp (r_{t}^{*}) \right],
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*}) \exp (r_{t}^{*}) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(\Delta e_{t + 1} + r_{t}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(\Delta e_{t + 1} + r_{t}\right) \right].
 $$
 
 ## 1.B Exchange Rate Accounting
@@ -449,25 +493,25 @@ $$
 Among the equilibrium conditions we derive in the last section, particularly relevant for asset pricing are the four Euler equations:
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \tag {1.6}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \tag {1.6}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {1.7}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {1.7}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \tag {1.8}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \tag {1.8}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right]. \tag {1.9}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right]. \tag {1.9}
 $$
 
 For the discussion in this section, we assume the random variables are jointly normally distributed. It is possible to extend this analysis to the non-normal case using co-entropy instead of covariance. Under joint normality, the foreign households' Euler equations can be expressed as
 
 $$
-\begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) + c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
+\begin{array}{l} 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} \operatorname{var}_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} \operatorname{var}_{t} (m_{t + 1}^{*}) + \mathbb{E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} \operatorname{var}_{t} (\Delta e_{t + 1}) + \operatorname{cov}_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
 $$
 
 ### 1.B.1 Accounting for the Currency Expected Return
@@ -485,7 +529,7 @@ Then, the Euler equations imply the following result:
 Proposition 1.1. The home currency's expected log excess return is determined by the covariance between the log foreign SDF and log exchange rate movement minus a Jensen's term:
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right). \tag {1.10}
+\mathbb{E}_{t} \left[ r x_{t + 1} \right] = - \operatorname{cov}_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right). \tag {1.10}
 $$
 
 We interpret the right-hand side of Eq. (1.10) as the currency risk premium in log, since the covariance term describes how the exchange rate comoves with the foreign investors' SDF. If the covariance is positive, the home currency tends to appreciate when the foreign households' marginal utility is high. Then, the home currency is a good hedge from the perspective of the foreign households and should earn a low risk premium.
@@ -493,7 +537,7 @@ We interpret the right-hand side of Eq. (1.10) as the currency risk premium in l
 The right-hand side of Eq. (1.10) also has a variance term  $-\frac{1}{2} var_t(\Delta e_{t+1})$  that we refer to as the Jensen's term. To understand this term, it is useful to consider the risk premium expression for the level of the currency return:
 
 $$
-\log \mathbb {E}_{t} [ \exp (r x_{t + 1}) ] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right). \tag {1.11}
+\log \mathbb{E}_{t} [ \exp (r x_{t + 1}) ] = - \operatorname{cov}_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right). \tag {1.11}
 $$
 
 Compared with the currency risk premium in log defined in Eq. (1.10), the currency risk premium in level conveniently has no Jensen's term. Empirically, for developed countries' currencies, the exchange rate volatility is roughly  $10\%$  per annum. This magnitude implies a
@@ -503,11 +547,11 @@ Jensen's term of  $-\frac{1}{2} var_t(\Delta e_{t+1}) = -0.5\%$ , which is an or
 We can also derive the currency risk premium from the home households' perspective:
 
 $$
-\mathbb {E}_{t} \left[ - r x_{t + 1} \right] = - c o v_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right),
+\mathbb{E}_{t} \left[ - r x_{t + 1} \right] = - \operatorname{cov}_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{var}_{t} \left(\Delta e_{t + 1}\right),
 $$
 
 $$
-\log \mathbb {E}_{t} [ \exp (- r x_{t + 1}) ] = - c o v_{t} (m_{t + 1}, - \Delta e_{t + 1}),
+\log \mathbb{E}_{t} [ \exp (- r x_{t + 1}) ] = - \operatorname{cov}_{t} (m_{t + 1}, - \Delta e_{t + 1}),
 $$
 
 which implies that the foreign currency has to offer a higher risk premium if it tends to depreciate when the home SDF is high.
@@ -515,7 +559,7 @@ which implies that the foreign currency has to offer a higher risk premium if it
 If we combine the expected return expressions from the home and foreign households' perspectives, we obtain the following expression:
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = - \mathbb {E}_{t} \left[ - r x_{t + 1} \right]
+\mathbb{E}_{t} \left[ r x_{t + 1} \right] = - \mathbb{E}_{t} \left[ - r x_{t + 1} \right]
 $$
 
 $$
@@ -529,13 +573,13 @@ Recall that all these restrictions are derived from the Euler equations for hold
 Let us denote the home currency's risk premium (including the Jensen's term) as
 
 $$
-r p_{t} \stackrel {\mathrm{de f}} {=} \mathbb {E}_{t} [ r x_{t + 1} ] = - c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}),
+r p_{t} \stackrel {\mathrm{de f}} {=} \mathbb{E}_{t} [ r x_{t + 1} ] = - \operatorname{cov}_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} \operatorname{var}_{t} (\Delta e_{t + 1}),
 $$
 
 which implies
 
 $$
-e_{t} - \mathbb {E}_{t} \left[ e_{t + 1} \right] = r_{t} - r_{t}^{*} - r p_{t}. \tag {1.13}
+e_{t} - \mathbb{E}_{t} \left[ e_{t + 1} \right] = r_{t} - r_{t}^{*} - r p_{t}. \tag {1.13}
 $$
 
 If we regard the next period's expected exchange rate level  $\mathbb{E}_t[e_{t + 1}]$  as a reference point, then, Eq. (1.13) implies that the deviation of the current exchange rate from this reference point is determined by the interest rate differential and the currency risk premium. The home currency is stronger relative to the reference point if the home interest rate is higher than the foreign interest rate and if the home currency's risk premium is low.
@@ -551,13 +595,13 @@ Using this as a more natural reference point for the exchange rate level, we can
 Proposition 1.2. The exchange rate level is equal to the sum of expected future interest rate differentials, the sum of expected future currency risk premia, and the long-run exchange rate level:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r p_{t + j} \right] + \bar {e}. \tag {1.14}
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r p_{t + j} \right] + \bar {e}. \tag {1.14}
 $$
 
 This formula shows that, if the home currency is currently stronger than its long-run mean, it is either because the home currency is offering a higher interest rate than the foreign currency, or because it has a lower risk premium. This decomposition of the exchange rate level is similar to the Campbell and Shiller [1988] decomposition of the equity price-dividend ratio into a cash flow component, a discount rate component, and a vanishing transversality component, i.e.,
 
 $$
-p d_{t} = \sum_{j = 1}^{\infty} \kappa^{j - 1} \mathbb {E}_{t} [ \Delta \log d_{t + j} ] - \sum_{j = 1}^{\infty} \kappa^{j - 1} \mathbb {E}_{t} [ r_{t + j} ] + \lim_{j \to \infty} \kappa^{j} \mathbb {E}_{t} [ p d_{t + j} ].
+p d_{t} = \sum_{j = 1}^{\infty} \kappa^{j - 1} \mathbb{E}_{t} [ \Delta \log d_{t + j} ] - \sum_{j = 1}^{\infty} \kappa^{j - 1} \mathbb{E}_{t} [ r_{t + j} ] + \lim_{j \to \infty} \kappa^{j} \mathbb{E}_{t} [ p d_{t + j} ].
 $$
 
 In the exchange rate formula (1.14), the interest rate term  $\sum_{j=0}^{\infty} \mathbb{E}_t[r_{t+j} - r_{t+j}^*]$  can be interpreted as the cash flow component: if the home bond earns a higher interest rate, then, the investors are indeed expecting higher cash flows from holding it, and should therefore impute a higher valuation to the home currency. Since the exchange rate is the relative price between the home and foreign countries, the interest rate differential  $r_{t+j} - r_{t+j}^*$  enters the formula to capture the relative magnitude of the cash flows. Likewise, the risk premium term  $\sum_{j=0}^{\infty} \mathbb{E}_t[rp_{t+j}]$  can be interpreted as the discount rate component: if the home currency is risky and therefore earns a higher risk premium, then, the investors should use a higher discount rate for the home currency and impute a lower valuation. Finally, the long-run exchange rate level  $\bar{e}$  can be interpreted as the transversality component. The key difference between the exchange rate formula (1.14) and the equity pricing formula above is that there is no discounting by  $\kappa$  in the exchange rate formula, which follows from the fact that no approximation was made in deriving the exchange rate formula.
@@ -565,21 +609,21 @@ In the exchange rate formula (1.14), the interest rate term  $\sum_{j=0}^{\infty
 Moreover, it is simple to go one step further to decompose the exchange rate innovation:
 
 $$
-(\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ e_{t} ] = \sum_{j = 0}^{\infty} (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ r_{t + j} - r_{t + j}^{*} ] - \sum_{j = 0}^{\infty} (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ r p_{t + j} ],
+(\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ e_{t} ] = \sum_{j = 0}^{\infty} (\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ r_{t + j} - r_{t + j}^{*} ] - \sum_{j = 0}^{\infty} (\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ r p_{t + j} ],
 $$
 
 which offers a decomposition formula for the volatility of the unexpected exchange rate movement.
 
 This discussion makes it clear that the exchange rate is a forward-looking variable, which incorporates information about future interest rates and risk premia. As a result, if some macro or financial variables capture variations in interest rates or risk premia, the exchange rate should be able to predict these variables [Engel and West, 2005].
 
-# 1.C Complete-Market Solution
+## 1.C Complete-Market Solution
 
 When the markets are complete, households in both countries can trade any Arrow-Debreu securities (a.k.a. contingent claims). Then, the households' budget constraints, such as Eq. (1.1), should be revised to reflect these investment opportunities.
 
 There is a more convenient approach to solving this case. By the First Welfare Theorem, the equilibrium outcome is observationally equivalent to the equilibrium outcome under a social planner, who maximizes a weighted sum of the households' welfare [Negishi, 1960]:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) \right],
 $$
 
 where the weight  $\pi$  is known as the Pareto weight and is endogenously determined by the households' initial wealth. $^{1}$
@@ -599,7 +643,7 @@ $$
 The social planner's Lagrangian is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) + \sum_{t = 1}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*}) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) + \sum_{t = 1}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*}) \right],
 $$
 
 which implies the following first-order conditions
@@ -670,7 +714,7 @@ We illustrate the equilibrium allocation in a simple numerical example. Suppose 
 
 The international risk-sharing can be further illustrated by the international transfer in equilibrium. Figure 1.2 plots the net international transfers of home and foreign households as fractions of their respective endowments. When the home households receive a low endowment  $y_{t}$ , the social planner transfers resources from the foreign country to the home country to balance their marginal utilities. As a result, the home households receive a net transfer paid out by the foreign households.
 
-# 1.C.1 Implied Exchange Rate Dynamics
+### 1.C.1 Implied Exchange Rate Dynamics
 
 Using the households' optimality conditions that we derived under the competitive equilibrium, we can back out the prices from quantities. In particular, the optimal risk-sharing rule Eq. (1.15) implies a
 
@@ -699,7 +743,7 @@ home currency becomes stronger in real terms. Intuitively, this is when the home
 Moreover, the expected excess return on the home currency can be expressed as
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right) = \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right) - \frac{1}{2} v a r_{t} \left(m_{t + 1}\right), \tag {1.17}
+\mathbb{E}_{t} \left[ r x_{t + 1} \right] = - \operatorname{cov}_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{var}_{t} \left(\Delta e_{t + 1}\right) = \frac{1}{2} \operatorname{var}_{t} \left(m_{t + 1}^{*}\right) - \frac{1}{2} \operatorname{var}_{t} \left(m_{t + 1}\right), \tag {1.17}
 $$
 
 which implies that the home currency's risk premium is decreasing in home SDF volatility and increasing in foreign SDF volatility. As a result, to generate reasonable variations in either conditional or unconditional currency expected returns, the variances of the SDFs play a central role.
@@ -708,7 +752,7 @@ Figure 1.3 plots the equilibrium real exchange rate  $e_t$ , which measures the 
 
 Another way to understand this relationship is via international risk-sharing: because of the home bias in consumption, the home households' consumption loads more on the home endowment. When the home endowment is low, the home households' marginal utility is higher than the foreign households', and, through the optimal international risk-sharing terms described by Eq. (1.16), requires a real appreciation of home currency to equilibrate their demand for financial assets.
 
-# 1.C.2 Special Case: Log Utility
+### 1.C.2 Special Case: Log Utility
 
 We consider a special case in which home and foreign households have the log utility, i.e.  $u(c) = \log (c)$ . In this case, the parameter  $k$  is a constant,
 
@@ -755,16 +799,16 @@ $$
 
 This exchange rate expression again highlights the result in Figure 1.3. Under the social planner's optimal allocation scheme, the home households' allocation is exposed to both home and foreign endowment shocks, with a higher exposure to the home endowment shock. As a result, a negative home endowment shock raises the home households' marginal utility relative to the foreign households', and leads to a real appreciation of the home currency.
 
-# 1.D Asset Market and Goods Market Views of Exchange Rates
+## 1.D Asset Market and Goods Market Views of Exchange Rates
 
 In this section, we re-examine the two sets of equilibrium conditions that characterize the exchange rate.
 
-# 1.D.1 The Asset Market View
+### 1.D.1 The Asset Market View
 
 First, the Euler equations from the intertemporal solutions, reproduced below,
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right], \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right], \\ \end{array}
 $$
 
 impose restrictions on the exchange rate dynamics. By relating the exchange rate movement to the SDFs and interest rates, they represent the asset market view of exchange rates. As we discussed in Section 1.B, these restrictions also characterize the exchange rate level and the currency expected return.
@@ -781,7 +825,7 @@ the households trade off marginal utilities across time. Specifically, the hypot
 
 Under this view, to make sense of the exchange rate dynamics, our task is to understand the underlying economic structures, preferences, and frictions that give rise to the SDF movements as well as possible deviations from the perfect risk-sharing condition.
 
-# 1.D.2 The Goods Market View
+### 1.D.2 The Goods Market View
 
 Next, we consider the within-period consumption choices, reproduced below,
 
@@ -815,7 +859,7 @@ $$
 
 The proof is presented in Appendix A.2. This proposition shows that, holding the endowments fixed, a strong home currency in real terms (i.e., higher  $e_{t}$ ) leads to a higher home consumption relative to foreign consumption, because the home endowment offers the home households stronger purchasing power.
 
-# 1.D.3 Harmonizing the Two Views
+### 1.D.3 Harmonizing the Two Views
 
 These two views play fundamental roles in understanding the exchange rate dynamics. A fully specified model needs to take a stance on both aspects. For example, the model we develop in Section 1.A assumes frictionless trading in both financial assets and goods. A more sophisticated model can enrich the asset markets, by introducing richer preferences and shocks to the SDFs as we will discuss in Chapter 3, by introducing deviations from the Euler equations (1.6) to (1.9) as we will discuss in Chapters 4 and 10, or by introducing incomplete asset market spanning as we will discuss in Chapter 5.
 
@@ -849,5 +893,41 @@ which depends on the relative endowments  $(\log y_{t} - \log y_{t}^{*})$ , plus
 
 Any model we consider in this note can be characterized by its stance on the supply of consumption goods and the two wedges. While the goods market issues are equally important for understanding the international macro and financial outcomes, we focus more on the asset market view in this note.
 
-# 2
+```d2
+direction: down
+
+exchange_rate: Exchange Rate $e_t$ {
+  shape: circle
+  style.fill: "#fff9c4"
+  style.stroke: "#f57f17"
+}
+
+asset_market: Asset Market View {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#2e7d32"
+
+  euler: Euler Equations\n$\mathbb{E}_t[\exp(m_{t+1} + r_t)] = 1$\n$\mathbb{E}_t[\exp(m_{t+1} - \Delta e_{t+1} + r_t^*)] = 1$
+  sdf: SDFs\n$m_{t+1} = \delta \frac{u'(c_{t+1})}{u'(c_t)}$\n$m_{t+1}^* = \delta \frac{u'(c_{t+1}^*)}{u'(c_t^*)}$
+  risk_premium: Currency Risk Premium\n$rx_{t+1} = \Delta e_{t+1} + r_t - r_t^*$
+}
+
+goods_market: Goods Market View {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+
+  consumption: Within-Period Choices\n$\frac{p_t}{p_t^* \exp(-e_t)} = \frac{α}{1-α} \frac{c_{F,t}}{c_{H,t}}$\n$\frac{p_t^*}{p_t \exp(e_t)} = \frac{α}{1-α} \frac{c_{H,t}^*}{c_{F,t}^*}$
+  market_clearing: Goods Market Clearing\n$y_t = c_{H,t} + c_{H,t}^*$\n$y_t^* = c_{F,t} + c_{F,t}^*$
+  terms_of_trade: Terms of Trade\n$\exp(tot_t) = \frac{p_t}{p_t^* \exp(-e_t)}$
+}
+
+asset_market -> exchange_rate: Determines $e_t$ dynamics
+goods_market -> exchange_rate: Determines $e_t$ level
+exchange_rate -> asset_market: Affects currency returns
+exchange_rate -> goods_market: Affects consumption allocation
+```
+**Figure 1.4: Asset Market vs Goods Market Views of Exchange Rates**\n\nThis diagram shows the dual perspectives on exchange rate determination. The asset market view (green) focuses on intertemporal trade-offs through Euler equations and SDFs, determining exchange rate dynamics and currency risk premia. The goods market view (pink) focuses on within-period consumption choices and market clearing, determining the exchange rate level through terms of trade.
+
+
 

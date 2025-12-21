@@ -1,18 +1,35 @@
 ---
 aliases: OTC Derivatives
-tags:
-key_concepts:
 parent_directory: Analysis
 cssclasses: academia
 title: Chapter 10 - OTC Derivatives
-linter-yaml-title-alias: Chapter 10 - OTC Derivatives
+formatted: 2025-12-21 06:45:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - OTC Derivatives
+  - Interest Rate Options
+  - Caps and Floors
+  - Swaptions
+  - Equity-Linked Notes
+secondary_tags:
+  - LIBOR Derivatives
+  - Bond Put Options
+  - Forward Rate Agreements
+  - Swap Rate Volatility
+  - Credit-Linked Notes
+  - Convertible Bonds
+  - Jamshidian Valuation
+  - Volatility Calibration
+  - Term Structure Models
+  - No-Arbitrage Pricing
 ---
 
 # Chapter 10
 
-# OTC Derivatives
+## OTC Derivatives
 
-# 10.1 Introduction
+#### 10.1 Introduction
 
 Interest rate derivatives traded over the counter are voluminous and complex (equity-linked notes, credit-linked notes, various return swaps and index swaps). Yet the most prominent are swaptions and caps/floors. These are LIBOR based products. We focus on these two products in this chapter
 
@@ -22,7 +39,7 @@ Caps and floors are often stripped out and transacted independently of their und
 
 Besides caps and floors, swaptions are another liquid LIBOR derivatives. These are options on swaps. Like caps and floors, swaptions can be independently traded or embedded in swaps as option to enter or option to cancel.
 
-# 10.2 Caps/Floors/Collars
+#### 10.2 Caps/Floors/Collars
 
 A cap is a collection of European rate call options (or called caplets); it is quite easy to price. The difficulty is that the floating rate is not a traded asset but an index so the usual Black-Scholes does not apply (note that many financial firms use the Black-Scholes model anyway ignoring the fact that interest rates are not traded assets.) Luckily, with a simple transformation, we can turn the rate call to a bond put which is possible to use a known term structure model (such as CIR or Vasicek). Similarly, floor is a collection of rate puts that should be turned into a series of bond calls.
 
@@ -39,7 +56,8 @@ Example. Yield curve:  $R_{01} = 5\%$ , and  $R_{02} = 6\%$ , hence  $f_{12} = 7
 $$ d = \frac{\ln f_{12} - \ln R_{X} + V / 2}{\sqrt{V}} = \frac{\ln 7 \% - \ln 5 \% + 0.36 / 2}{0.6} = 0.86
 $$
 
-$$ d - \sqrt{V} = 0. 2 6
+d - \sqrt{V} = 0.26
+
 $$
 
 $$
@@ -59,14 +77,14 @@ X = \frac{1}{1 + \tau R_{X}}
 
 $$
 
-$$ d = \frac{\ln F - \ln X + V / 2}{\sqrt{V}} = \frac{0 . 9 3 2 4 - 0 . 9 5 2 4 + 0 . 3 6 / 2}{0 . 6} = 0. 3 5
+$$ d = \frac{\ln F - \ln X + V / 2}{\sqrt{V}} = \frac{0.9324 - 0.9524 + 0.36 / 2}{0.6} = 0.35
 $$
 
-$$ d - \sqrt{V} = - 0. 2 5
+$$ d - \sqrt{V} = - 0.25
 $$
 
 $$
-C = \frac{1}{1 . 0 5} 1. 0 5 [ 0. 9 5 2 4 N (0. 2 5) - 0. 9 3 2 4 N (- 0. 3 5) ] = 0. 2 3
+C = \frac{1}{1 . 0 5} 1. 0 5 [ 0. 9 5 2 4 N (0.25) - 0. 9 3 2 4 N (- 0.35) ] = 0.23
 $$
 
 A cap is a limitation on the borrower that at each payment date he cannot charge the market rate if the market rate is higher than the contractual cap rate. Hence, we can write the cap payoff as a series of rate call to be received at the end of period  $j$ .
@@ -154,7 +172,7 @@ $$ s_{f} = \frac{\sum_{j = 1}^{n} \zeta_{j}}{\tau \sum_{j = 1}^{n} P (t , T_{j})
 $$ where  $\pi_j$  is the caplet value and  $\zeta_j$  is the floorlet value. For a floater to both have cap and floor, which is called a "collar", the two spreads should be netted out to be  $s_c - s_f$ .
 
 
-# 10.3 Swaptions
+#### 10.3 Swaptions
 
 As briefly discussed in Chapter 5, swaptions (payer and receiver) are options to enter and cancel a swap. The payer option (option to enter) is a call and the receiver option (option to cancel) is a put.
 
@@ -240,7 +258,7 @@ $$ for  $k = j + 1,\dots ,n$
 
 The proof is given in the Appendix. For in- and out-of-money options, this solution does not hold and yet a mild modification of the assumption (i.e. by adding an affine assumption), we can still break a swaption into a series of zero coupon bond options. The details are given in the Appendix.
 
-# 10.3.1 Cap (Floor) as a Special Case of Payer (Receiver) Swaption
+##### 10.3.1 Cap (Floor) as a Special Case of Payer (Receiver) Swaption
 
 We can see a caplet is a variation of a  $j \times 1$  swaption (i.e. with a different strike price). Hence, by comparing (10.10) and (10.18), we can see that caps and swaptions can be consistently priced via a series of put options  $(\chi_{j,k})$  which is in turn dependent on the function.
 
@@ -258,7 +276,7 @@ $$
 
 Note that  $T_{j + 1}$  may not equal  $T_{j} + \tau$ .
 
-# 10.3.2 Function  $\xi(t, \cdot, \cdot)$  and a Piece-wise Flat Approximation
+##### 10.3.2 Function  $\xi(t, \cdot, \cdot)$  and a Piece-wise Flat Approximation
 
 In this section, we present the main result of the paper, which is to demonstrate how the two markets can be evaluated consistently, using the methodology introduced in this paper. We can see that both swaptions (10.17) and caps (25) under our model are functions of zero-coupon bond put options that have the Black-Scholes type solution with the volatility function  $\xi(t,\cdot,\cdot)$ .
 
@@ -341,7 +359,7 @@ As we can see, our model is flexible enough to accommodate any number of swaptio
 In the following numerical example, we demonstrate how calibration is implemented and perfect repricing can be achieved. We use a simple example where swpations are quoted annually. We use maturities up to 4 years only, as a demonstration of the algorithm. The term structure is given as:
 
 $$
-\begin{array}{l} \begin{array}{c c} \mathrm{i} & \mathrm{P} (0, \mathrm{i}) \\ \hline \end{array} \quad \mathrm{y} (0, \mathrm{i}) \\ \begin{array}{c c c} 1 & 0. 9 8 0 7 & 0. 0 1 8 \end{array} \\ \begin{array}{c c c} 2 & 0. 9 4 9 4 & 0. 0 2 7 \end{array} \\ \begin{array}{c c c} 3 & 0. 9 1 6 0 & 0. 0 3 2 3 \end{array} \\ \begin{array}{c c c} 4 & 0. 8 8 2 9 & 0. 0 3 6 1 \end{array} \\ \end{array}
+\begin{array}{l} \begin{array}{c c} \mathrm{i} & \mathrm{P} (0, \mathrm{i}) \\ \hline \end{array} \quad \mathrm{y} (0, \mathrm{i}) \\ \begin{array}{c c c} 1 & 0.9807 & 0.018 \end{array} \\ \begin{array}{c c c} 2 & 0.9494 & 0.027 \end{array} \\ \begin{array}{c c c} 3 & 0.9160 & 0.0323 \end{array} \\ \begin{array}{c c c} 4 & 0.8829 & 0.0361 \end{array} \\ \end{array}
 $$ and the swaption quotes are:
 
 
@@ -366,7 +384,7 @@ $$
 (which is also a cap). From equation (10.21) we solve for
 
 $$
-K_{2} = \Psi (t, T_{1}, T_{2}) = \frac{0 . 9 4 9 4}{0 . 9 8 0 7} = 0. 9 6 8 1
+K_{2} = \Psi (t, T_{1}, T_{2}) = \frac{0.9494}{0.9807} = 0.9681
 $$
 
 Then by (10.19):
@@ -378,7 +396,7 @@ $$ we solve for  $w_{2} = 0.0330$  and the option value is  $P(0,1)\times \chi_{
 
 Using this put option value, we can solve for the implied volatility in equation (10.18) as
 
-$$ v_{j, k} = v_{1, 2} = 0. 0 5 8 2 3 3
+$$ v_{j, k} = v_{1, 2} = 0.058233
 $$
 
 According to equation (10.20),  $\xi_{0,1,2} = v_{1,2} = 0.058233$ .
@@ -398,7 +416,7 @@ $$
 From equation (10.21) we solve for
 
 $$
-K_{3} = \Psi (t, T_{1}, T_{3}) = \frac{0 . 9 1 6 0}{0 . 9 8 0 7} = 0. 9 3 4 0
+K_{3} = \Psi (t, T_{1}, T_{3}) = \frac{0 . 9 1 6 0}{0.9807} = 0.9340
 $$ and
 
 
@@ -448,14 +466,14 @@ These are Black volatility quotes and need to be converted to prices. We note th
 
 Figure 10.5: Swaption Volatility Surface; March 15, 2017
 
-# 10.4 Other Derivatives
+#### 10.4 Other Derivatives
 
 There are a large number of OTC fixed income derivatives. In fact, most of the fixed income derivatives are traded over the counter. Besides the swaps and swap-tions introduced in previous and this chapters, there are three notable categories of contracts:
 
 1. Equity-linked contracts
 2. Credit-linked contracts
 
-# 10.4.1 Equity-linked Notes
+##### 10.4.1 Equity-linked Notes
 
 Investopedia:
 
@@ -469,13 +487,13 @@ In practice, an equity-linked note will have a participation rate, which is the 
 
 Equity-linked notes can also use different structures and features. Some will use an averaging formula to smooth out returns on the equity-linked portion or a periodic cap that limits the ELN's upside by realizing returns at a particular level on a regular basis. There are also types of equity-linked notes that use dynamic hedging instead of options, deploying leverage to increase returns from the underlying equity. Overall, equity-linked notes can be a powerful tool for investors who want to protect their principle while still having the potential upside of an equity investment.
 
-# Labor Force Participation Rate
+##### Labor Force Participation Rate
 
 The labor force participation rate is a measure of an economy's active workforce. The formula for the number is the sum of all workers who are employed or actively seeking employment divided by the total noninstitutionalized, civilian working-age population.
 
 The U.S. labor participation rate stood at  $61.4\%$  as of July 2020, according to the federal Bureau of Labor Statistics, which publishes updates monthly.1 The monthly figures have hovered around  $63\%$  since 2013, after a sharp decline in the wake of the Great Recession. It remains to be seen what the effect will be of 10 million newly unemployed Americans in just two weeks thanks to the Covid-19 pandemic.
 
-# Convertible Bonds
+##### Convertible Bonds
 
 An overwhelming majority of corporate bonds are traded over the counter (a small portion are traded on NYSE and regional exchanges). Many of the corporate bonds embed an option to convert to stock. This is a cheap method for the companies to pay lower interests (and use conversion as a reward).
 
@@ -483,7 +501,7 @@ As a result, convertible bonds are a hybrid product of both equity and interest 
 
 Convertible bonds will be discussed in details in Chapter 11.
 
-# 10.4.2 Credit-linked Notes
+##### 10.4.2 Credit-linked Notes
 
 A typical credit-linked note functions similarly to a bond in that payments are made semi-annually, but with a credit default swap attached. Under this structure, the coupon, or price of the note, is linked to the performance of a reference asset. It offers borrowers a hedge against credit risk and gives investors a higher yield on the note for accepting exposure to a specified credit event.
 

@@ -1,13 +1,27 @@
 ---
-parent_directory:
-title: Banking and International Capital Markets
-tags:
-aliases:
-parent_folder: International Trade, Banking, and Capital Markets
-subfolder:
-key_concepts:
+title: International Trade, Banking, and Capital Markets Lecture Notes
+parent_directory: PPHA International Trade, Banking, and Capital Markets
+formatted: 2025-12-21 06:50:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - international trade
+  - capital markets
+  - exchange rates
+  - trade balance
+  - globalization
+secondary_tags:
+  - trade terms
+  - tariffs and quotas
+  - bretton woods
+  - gold standard
+  - foreign direct investment
+  - migration economics
+  - sterilization bonds
+  - lender of last resort
+  - east asian financial crisis
+  - gravity model
 cssclasses: academia
-linter-yaml-title-alias: Banking and International Capital Markets
 ---
 
 International Trade Banking and Capital Markets:
@@ -25,7 +39,7 @@ September 27, 2022
 - Why does investment capital flow across borders?  
 What are the implications of governments' actions for international capital markets?
 
-# Trade Terms
+## Trade Terms
 
 - Exports – what a country sells to other countries  
 - Imports – what a country buys from other countries  
@@ -33,10 +47,10 @@ What are the implications of governments' actions for international capital mark
 Trade Balance
 
 - Surplus - exports exceed imports  
-○ Deficit – imports exceed exports  
-○ Balanced trade – exports equals imports
+- Deficit – imports exceed exports  
+- Balanced trade – exports equals imports
 
-# Trade Terms
+## Trade Terms
 
 - Bilateral Trade - trade between two countries  
 - Multilateral Trade – trade between a country and rest of world  
@@ -45,9 +59,9 @@ Trade policy instruments
 Tariffs – taxes on imported products  
 
 - Quotas – limits set on amount of a product imported from a country – sometimes "voluntary"  
-○ Sanctions – bans importation of products from a country – e.g., Russian products banned after Ukraine invasion
+- Sanctions – bans importation of products from a country – e.g., Russian products banned after Ukraine invasion
 
-# Trade Terms
+## Trade Terms
 
 - Initial models presented in course
 
@@ -57,21 +71,21 @@ No financing available
 - Subsequently discuss intermediate goods and services trade
 
 $\circ$  Introduce multilateral trade  
-○ Value-added at each stage – iPhone example from text
+- Value-added at each stage – iPhone example from text
 
 - New methods of delivery – Offshoring
 
-# Trade and Macroeconomics
+## Trade and Macroeconomics
 
 - If you've taken introductory macroeconomics, you've seen this equation:
 
 $$
-\begin{array}{l} Y = C + I + G + E X - I M, w h e r e, \\ Y = G D P, C = C o n s u m p t i o n, I = I n v e s t m e n t, \\ G = G o v e r n m e n t S p e n d i n g, \\ E X = E x p o r t s a n d I M = I m p o r t s \\ \end{array}
+\begin{array}{l} Y = C + I + G + E X - I M, where, \\ Y = G D P, C = Consumption, I = Investment, \\ G = Government Spending, \\ E X = Exports and I M = Imports \\ \end{array}
 $$
 
 $EX - IM$  is known as the trade balance, if  $EX - IM < 0$  the trade balance is in deficit, if  $EX - IM >$  the trade balance is in surplus
 
-# Determining the Trade Balance
+## Determining the Trade Balance
 
 - Rearrange the identity above, and solve for  $EX - IM$
 
@@ -109,7 +123,7 @@ The barriers to trade
 
 - Trade is thousands of years old, but:
 - Has only constituted a meaningful part of national and global income in past 150 years  
-○ Intermediate goods trade became significant only in past 30 years
+- Intermediate goods trade became significant only in past 30 years
 
 # Global Goods Trade Relative to Global Income<sup>1</sup>
 
@@ -133,10 +147,10 @@ Source: World Bank website, accessed July 12, 2022. https://data.worldbank.org
 - Goods trade as a percentage of global income: 1820 – 2%; 1913 – 22%; 2008 – approximately 50%  
 - Why do trade flows increase over time relative to global income?
 
-○ A) Reductions in transportation costs  
-○ B) Reductions in tariffs  
+- A) Reductions in transportation costs  
+- B) Reductions in tariffs  
 C) "Common" currency  
-○ D) Convergence of income among countries
+- D) Convergence of income among countries
 
 # Global Goods Trade Relative to Global Income
 
@@ -148,14 +162,14 @@ $\mathrm{O}$  Examine potential frictions simultaneously
 
 Attempt to determine relative impact
 
-○ Previous studies have focused on one factor at a time
+- Previous studies have focused on one factor at a time
 
 # Estevadeordal, Frantz, and Taylor
 
 # - Traditional Narrative
 
-○ From 1800 to 1914 trade volume increases 20 times and approximately 10 times versus global income  
-○ First Golden Age of Trade – 1870 – 1913
+- From 1800 to 1914 trade volume increases 20 times and approximately 10 times versus global income  
+- First Golden Age of Trade – 1870 – 1913
 
 Acceleration in rate of growth after 1870  
 Dramatic decrease in transportation costs
@@ -168,8 +182,8 @@ Tariffs low - minimal role
 
 Post 1914 – 1939 "bust" during interwar period
 
-○ Traditionally attributed to increased tariffs and protectionism  
-○ Little quantitative support for this explanation  
+- Traditionally attributed to increased tariffs and protectionism  
+- Little quantitative support for this explanation  
 
 - However, transportation costs rose dramatically during this period
 - Technology changes  
@@ -184,9 +198,9 @@ Substantial portion explained by "common currency"
 
 - Rise and fall of the gold standard
 
-○ Tariffs small role early –important during interwar period  
-○ Transport costs – fall and rise – important in rise and decline of trade  
-○ Income convergence – unimportant after 1870
+- Tariffs small role early –important during interwar period  
+- Transport costs – fall and rise – important in rise and decline of trade  
+- Income convergence – unimportant after 1870
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f402bce7-6e9a-46ab-ab95-a0c842df354f/54eecb5f9d9d33c78c4307e8f868c098b7d3b9b264418c0ae17717abf8eba29a.jpg)  
 (a) Gold Standard Adherence
@@ -211,8 +225,8 @@ Notes: See text. The transport costs counterfactual shown here includes only "ma
 
 - Lessons for today:
 
-○ Transportation frictions not always decreasing  
-○ Currency frictions matter substantially  
+- Transportation frictions not always decreasing  
+- Currency frictions matter substantially  
 
 - Commercial policies important
 
@@ -232,7 +246,7 @@ $\mathrm{O}$  Bretton Woods Agreement (1944)
 - Ended in 1973
 
 Shipping containers (1956)  
-○ Information and Communication Technology (1980 to present)  
+- Information and Communication Technology (1980 to present)  
 O Ended with Financial Crisis
 
 # Global Goods and Services Trade Today
@@ -251,7 +265,7 @@ Substantial rebound from Covid depressed 2020 trade
 - Measurement difficult  
 - Increasing importance
 
-○ Software as a Service  
+- Software as a Service  
 $\mathrm{O}$  Call-centers  
 $\circ$  Consulting, Financial and Legal
 
@@ -299,25 +313,25 @@ $\circ$  Workers with or without family members
 - Increasingly offshoring substitutes for direct migration  
 - European migration: East to West
 
-○ Schengen Area – 26 countries  
-○ Syrian refuge crisis  
+- Schengen Area – 26 countries  
+- Syrian refuge crisis  
 $\mathrm{O}$  Brexit
 
 US and Mexico
 
-○ Maquiladoras
+- Maquiladoras
 
 # Foreign Direct Investment
 
 Vertical
 
-○ Invest in some portion of business functions  
-○ Often labor cost driven
+- Invest in some portion of business functions  
+- Often labor cost driven
 
 Horizontal
 
 O Adding complete business in another country  
-○ Believe business model appeals to potential customers
+- Believe business model appeals to potential customers
 
 - Risk management
 
@@ -326,8 +340,8 @@ O Adding complete business in another country
 # Principal Models
 
 $\circ$  Ricardian - Technology  
-○ Specific Factors – Capital resources immobile  
-○ Heckscher-Ohlin – Capital resources mobile (offshoring)  
+- Specific Factors – Capital resources immobile  
+- Heckscher-Ohlin – Capital resources mobile (offshoring)  
 
 - Gravity - Frictional costs (transportation, tariffs and currency stability)
 
@@ -370,20 +384,20 @@ Central bank supplies Peso 100 million to banking sector
 - Maintain constant money supply – no increase in demand for currency
 
 $\circ$  Requires reduction in reserves of \$100 million  
-○ Domestic holdings increase to Peso 600 million  
+- Domestic holdings increase to Peso 600 million  
 $\circ$  Backing ratio declines to  $40 \%$
 
 # Illiquidity and Bank Runs
 
 A second type of crisis occurs when
 
-○ Depositors demand currency (Pesos) instead of holding bank deposits  
+- Depositors demand currency (Pesos) instead of holding bank deposits  
 
 - Increases the demand for money in the economy
 - Bank assets are largely illiquid – cannot be quickly sold
 
-○ Hold only a fraction of cash which depositors have placed  
-○ Leads to possibility of a "bank run"
+- Hold only a fraction of cash which depositors have placed  
+- Leads to possibility of a "bank run"
 
 # Lender of Last Resort Impact on Central Bank
 
@@ -395,7 +409,7 @@ A second type of crisis occurs when
 - Central bank role as lender of last resort
 
 $\bigcirc$  Against good collateral  
-○ May be prevented by need to maintain peg
+- May be prevented by need to maintain peg
 
 - Initial monetary base Peso 1000 million
 
@@ -431,7 +445,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 # - Early 1995
 
 Banking crisis: bad loans and lower financial asset prices  
-○ Bank runs: illiquidity and insolvency  
+- Bank runs: illiquidity and insolvency  
 Central bank lends broadly to banks  
 
 - Domestic credit increases by Peso 5 billion  
@@ -446,20 +460,20 @@ $\circ$  Risk of breaking peg increases dramatically
 
 - After damage from Mexican crisis
 
-○ IMF takes more lenient view of Argentina's situation
+- IMF takes more lenient view of Argentina's situation
 
 Lends to government  
 
 - Government in turn provides dollars to central bank
 
-○ Fund set up to recapitalize insolvent banks
+- Fund set up to recapitalize insolvent banks
 
 # Argentina 1995-1997
 
 # - Late 1996
 
-○ Domestic economy picks up  
-○ Domestic credit back to Peso 4 billion  
+- Domestic economy picks up  
+- Domestic credit back to Peso 4 billion  
 $\circ$  Sterilization largely reversed
 
 # May 1997
@@ -480,8 +494,8 @@ GENERAL CENTRAL BANK BALANCE (MILLIONS OF PESOS)
 
 Home currency liabilities issued to domestic investors
 
-○ Central bank issues domestic debt – does not add to domestic money supply  
-○ Money supply is now net foreign plus net domestic assets  
+- Central bank issues domestic debt – does not add to domestic money supply  
+- Money supply is now net foreign plus net domestic assets  
 $\circ$  Sterilization bond issuance reduces risks of:
 
 - Increased domestic credit  
@@ -552,9 +566,9 @@ Capital markets
 
 - Look at lessons learned and their applicability to subsequent financial crises and current areas of concern
 
-○ Similarities to the global financial crisis, but also many differences  
-○ Applicability to current concerns about certain Euro member countries  
-○ Comparison to current concerns regarding China
+- Similarities to the global financial crisis, but also many differences  
+- Applicability to current concerns about certain Euro member countries  
+- Comparison to current concerns regarding China
 
 - US and European financial systems touted as models that would avert financial crises; disproven a decade later
 
@@ -565,7 +579,7 @@ Capital markets
 $\bigcirc$  Much of this growth was led by growing exports  
 
 - Specialized in apparel/shoes requiring high labor content  
-○ Five countries involved:
+- Five countries involved:
 
 - Indonesia  
 Malaysia  
@@ -687,8 +701,8 @@ November 29, 2022
 
 - Despite the advantages of floating rate regimes, many countries adopt fixed exchange rates. Must allow convertibility into the other currency or no real value
 
-○ "Peg" currency to one or more major floating currencies  
-○ Two key success criteria:
+- "Peg" currency to one or more major floating currencies  
+- Two key success criteria:
 
 Degree of economic integration  
 
@@ -709,15 +723,15 @@ $\bigcirc$  Reduces risk of Inflation Tax
 - Form of seigniorage
 - Historically, these advantages do not turn out to be valuable
 
-○ Political issues often trump; leads to poor outcomes
+- Political issues often trump; leads to poor outcomes
 
 # Fixed Exchange Rate Pegs
 
 - Floating rates may move substantially over time  
-○ Adjustment process is market driven  
+- Adjustment process is market driven  
 - Fixed exchange rates move all at once  
 $\bigcirc$  Pent up conditions create a crisis  
-○ Sudden stop of capital inflows  
+- Sudden stop of capital inflows  
 $\circ$  Substantial,  $10 \%$ or more, depreciation  
 - ERM mechanism early 1990's
 
@@ -739,9 +753,9 @@ Deviation from normal rate of economic growth  $(\%)$  per year
 
 - Emerging markets often experience much more extreme capital movements
 
-○ Poorer fundamental understanding by investors and lenders  
+- Poorer fundamental understanding by investors and lenders  
 Substantial portion short-term borrowings  
-○ Money pulled quickly when situation becomes uncertain
+- Money pulled quickly when situation becomes uncertain
 
 - Industrialized countries
 - Usually involves labor competitiveness
@@ -751,19 +765,19 @@ Substantial portion short-term borrowings
 # Banking
 
 Banks allowed to borrow from foreign lenders  
-○ Inability to convert and obtain required currencies  
+- Inability to convert and obtain required currencies  
 $\circ$  Depositor runs
 
 # - Sovereign and Private debt defaults
 
-○ Federal and regional entities borrowings  
+- Federal and regional entities borrowings  
 Large private sector borrowers not allowed to convert
 
 # Fixed Exchange Rate Mechanics
 
 # - Assumptions
 
-○ Small, open economy (Home); currency: Peso  
+- Small, open economy (Home); currency: Peso  
 Central bank with two assets:
 
 - Domestic, peso denominated bonds  
@@ -777,12 +791,12 @@ $\circ \operatorname{Peg}$  is credible if  $i = i^{*}$
 
 # - Assumptions
 
-○ Home output = income (exogenous)  
+- Home output = income (exogenous)  
 
 - Designate  $Y$  
-○ Foreign price level:  $P^{*} = 1$  is stable  
-○ Home price level is sticky; fixed at  $P = 1$  
-○ Home's demand for real money balances  $M / P$
+- Foreign price level:  $P^{*} = 1$  is stable  
+- Home price level is sticky; fixed at  $P = 1$  
+- Home's demand for real money balances  $M / P$
 
 Determined by  $Y$  
 
@@ -805,7 +819,7 @@ $\mathrm{O}$  Holding of dollar bonds
 - The following equalities must hold:
 
 $$
-M = B + R a n d \Delta M = \Delta B + \Delta R
+M = B + R and \Delta M = \Delta B + \Delta R
 $$
 
 SIMPLIFIED CENTRAL BANK BALANCE SHEET (MILLIONS OF PESOS)  
@@ -908,14 +922,14 @@ Feenstra/Taylor, International Economics, 5e © 2021 Worth Publishers
 
 - Credibility
 
-○ Market belief in the country's willingness to maintain peg  
+- Market belief in the country's willingness to maintain peg  
 
 - Euro has substantial credibility despite issues given political will behind common market
 
 Contagion
 
-○ Risk that similarly situated countries face same risks as a country currently experiences a crisis  
-○ "Hot money" – better safe than sorry
+- Risk that similarly situated countries face same risks as a country currently experiences a crisis  
+- "Hot money" – better safe than sorry
 
 # Argentina 1993-1997
 
@@ -930,7 +944,7 @@ Feenstra/Taylor, International Economics, 5e © 2021 Worth Publishers
 - Argentina suffered from hyperinflation 1989-1990
 
 $\mathrm{O}$  Prices tripled monthly  
-○ New president hires Harvard educated economist
+- New president hires Harvard educated economist
 
 Replaces Austral with Peso  
 
@@ -942,7 +956,7 @@ Replaces Austral with Peso
 1992
 
 $\mathrm{O}$  Inflation falls to US levels  
-○ Federal government ran GDP surplus
+- Federal government ran GDP surplus
 
 Real GDP grew  $6 \%$ plus from 1991 to 1997
 
@@ -955,7 +969,7 @@ Central bank added reserves from 1993-1995
 
 - Argentina increases reserves prior to Mexican "Tequila Crisis"
 
-○ Mexican financial crisis begins December 1994  
+- Mexican financial crisis begins December 1994  
 $\circ$  Contagion risk spreads to Argentina
 
 - Domestic rates rise  
@@ -973,7 +987,7 @@ O Managed well by central bank
 
 However, increased country and currency risk pushed  $i$  to levels which
 
-○ Damaged domestic economy  
+- Damaged domestic economy  
 O Caused foreign lending to dry up
 
 - Central bank steps in to support commercial banks
@@ -982,8 +996,8 @@ O Caused foreign lending to dry up
 
 - Examine case where domestic policy change is made
 
-○ Open market operations  
-○ Direct financing of fiscal expansion
+- Open market operations  
+- Direct financing of fiscal expansion
 
 - Domestic credit increases
 
@@ -1178,24 +1192,24 @@ e e 202
 - Once Bretton Woods was abandoned
 
 Exchange rates were more volatile than anticipated  
-○ Link to fundamental variables which changed little
+- Link to fundamental variables which changed little
 
 Similar behavior seen in stock markets globally
 
 - Dornbusch model (presented above) small country assumption violated:
 
-○ Change in policy does not affect other countries  
-○ Domestic goods imperfect substitutes for imports
+- Change in policy does not affect other countries  
+- Domestic goods imperfect substitutes for imports
 
 # Armington Assumption
 
 - Interaction between trade theory and foreign exchange
 
-○ Simple trade models solely based on comparative advantage – all countries capable of producing the same basket of goods
+- Simple trade models solely based on comparative advantage – all countries capable of producing the same basket of goods
 
 - Armington proposed goods may be differentiated
 
-○ To point where domestic goods are a poor substitute for foreign goods  
+- To point where domestic goods are a poor substitute for foreign goods  
 $\circ$  This leads to changes in relative prices domestically and may lead to incomplete price flexibility pursuant to PPP
 
 # A Very Brief History of Floating Exchange Rates
@@ -1220,7 +1234,7 @@ Leads to uncertainty
 Numerous nuances in between extremes of:
 
 $\mathrm{O}$  Freely floating  
-○ Tightly fixed (hard pegs and narrow bands)
+- Tightly fixed (hard pegs and narrow bands)
 
 - Ignoring capital controls for now  
 - Government intervenes as needed to keep rate at  $\overline{E}$
@@ -1251,7 +1265,7 @@ $Y_{DEN}, \overline{P}_{DEN}$  are exogenous by assumption and  $i_{\epsilon}$  
 - Short-run theory still correct, but
 
 $\circ$  Monetary authority chooses  $\bar{E}, \text{so} i = i^{e}$  by UIP  
-○ Exchange rate now model input and money supply the output
+- Exchange rate now model input and money supply the output
 
 # Denmark and the Eurozone
 
@@ -1299,7 +1313,7 @@ $\circ$  Monetary Policy Autonomy
 
 - Monetary Trilemma – Policy Choices
 
-○ No Monetary Policy Autonomy  
+- No Monetary Policy Autonomy  
 Fixed Exchange Rate  
 Capital Mobility
 
@@ -1361,9 +1375,9 @@ $\circ$  Currently visible in the Eurozone
 
 Chart below shows imbalances between Germany and Italy
 
-○ Similar chart regardless of which northern and southern countries are compared  
-○ Northern countries benefited from joining the Eurozone through currency rate adjustment  
-○ Southern countries borrowed heavily from northern neighbors  
+- Similar chart regardless of which northern and southern countries are compared  
+- Northern countries benefited from joining the Eurozone through currency rate adjustment  
+- Southern countries borrowed heavily from northern neighbors  
 
 - It is unclear how the balances will eventually be resolved
 
@@ -1526,7 +1540,7 @@ $\circ$  Nominal interest rate,  $i$ , equals the world real interest rate,  $r^
 - Short-run assumptions:
 
 $\mathrm{O}$  Price level is sticky;  $P = \bar{P} -$  fixed  
-○ Nominal interest rate,  $i$ , is fully flexible and adjusts to bring money market to equilibrium
+- Nominal interest rate,  $i$ , is fully flexible and adjusts to bring money market to equilibrium
 
 # Short-run Money Market Equilibrium Model
 
@@ -1597,7 +1611,7 @@ $\mathrm{O}$  Leverage and forced liquidations
 - Discount rate "risk free"  
 - Absence of counterfactual case
 
-○ Fed had done less or nothing
+- Fed had done less or nothing
 
 # US Interest Rate Markets During Financial Crisis 2008-9
 
@@ -1637,7 +1651,7 @@ Home market in equilibrium at point 1, where  $i_{\mathbb{S}} = i_{\mathbb{S}}^{
 - FR (Foreign Return) is the expected dollar rate of return as a function of the exchange rate
 
 $$
-i_{\S}^{1} = i_{\epsilon}^{1} + \frac{E_{\S / \epsilon}^{e} - E_{\S / \epsilon}^{1}}{E_{\S / \epsilon}^{1}}, w h e r e i_{\epsilon} a n d E_{\S / \epsilon}^{e} a r e e x o g e n o u s
+i_{\S}^{1} = i_{\epsilon}^{1} + \frac{E_{\S / \epsilon}^{e} - E_{\S / \epsilon}^{1}}{E_{\S / \epsilon}^{1}}, where i_{\epsilon} and E_{\S / \epsilon}^{e} a r e e x o g e n o u s
 $$
 
 # Asset Approach to Exchange Rates
@@ -1659,7 +1673,7 @@ $\circ$  Capital controls imply no requirement for DR to equal FR
 - All exogenous variables remain unchanged  
 - Initially Home market equilibrium at point 1
 
-○ Temporary increase in Home money supply,  $MS_{1}$  to  $MS_{2}$  
+- Temporary increase in Home money supply,  $MS_{1}$  to  $MS_{2}$  
 $\circ$  Prices remain fixed at  $\bar{P}_{US}^{1}$
 
 Real money supply increases to  $M S_{2} / \bar {P}_{U S}^{1}$  and equilibrium moves to point 2 at  $i _{\S}^{2}$
@@ -1675,7 +1689,7 @@ Real money supply increases to  $M S_{2} / \bar {P}_{U S}^{1}$  and equilibrium 
 - All exogenous variables remain unchanged  
 - Initially Home market equilibrium at point 1 and remains there
 
-○ Temporary increase in Eurozone money supply  
+- Temporary increase in Eurozone money supply  
 $\circ$  Eurozone prices remain fixed at  $\bar{P}_{EU}^{1}$
 
 Real Eurozone money supply increases, shifting FR curve downward
@@ -1707,7 +1721,7 @@ Feenstra/Taylor, International Economics, Se © 2021 Worth Publishers
 
 - Origin of the crisis and "resolution"
 
-○ Policy Context
+- Policy Context
 
 Lender of last resort  
 
@@ -1747,7 +1761,7 @@ O Viewed as guide to long-term decision making
 
 # - Caveats
 
-○ Everything is never equal  
+- Everything is never equal  
 $\circ$  Assumes prices are flexible and PPP holds
 
 # Uses of Monetary Models
@@ -1755,7 +1769,7 @@ $\circ$  Assumes prices are flexible and PPP holds
 - Two examples:
 
 One-time unanticipated increase in US money supply  
-○ Unanticipated increase in the growth rate of US money supply
+- Unanticipated increase in the growth rate of US money supply
 
 - No changes to Eurozone economy
 
@@ -1823,7 +1837,7 @@ Economists define as  $50\%$  per month – often defined in the Press as  $1000
 - Typically caused by policies such as:
 - Extreme austerity  
 - Borrowing in foreign currency – supporting projects of little value  
-○ Theft, corruption by federal government
+- Theft, corruption by federal government
 
 - Issues with drawing too many conclusions from graph above
 
@@ -1838,8 +1852,8 @@ Real money balances  $M / P$  at peak inflation relative to real money balances 
 - Government cannot print money fast enough
 
 $\mathrm{O}$  Literally in the pre-1990's  
-○ Money in pocket may lose  $1 / 2$  its value in days or hours  
-○ No one wants to hold nominal money balances – spend immediately to meet demand for goods
+- Money in pocket may lose  $1 / 2$  its value in days or hours  
+- No one wants to hold nominal money balances – spend immediately to meet demand for goods
 
 - Banks won't lend in such environments – no commercial bank money creation
 
@@ -1863,15 +1877,15 @@ Costs to holding money:
 
 - Ceteris paribus,
 
-○ An increase in nominal production increases the value and number of transactions and therefore money demand  
-○ An increase in nominal interest rates will decrease the demand for money
+- An increase in nominal production increases the value and number of transactions and therefore money demand  
+- An increase in nominal interest rates will decrease the demand for money
 
 $$
 \begin{array}{c} M^{d} = L (i) \cdot P Y, n o w L i s a d e c r e a s i n g f u n c t i o n \\ \text{of no mi na li nt er es tr at es .} \end{array}
 $$
 
 $$
-\begin{array}{l} {R e a l m o n e y d e m a n d, \frac{M^{d}}{P} = L (i) \cdot Y i s a f u n c t i o n} \\ {\mathrm{of no mi na li nt er es tr at es an dr ea li nc om e .}} \end{array}
+\begin{array}{l} {R e a l m o n e y d e m and, \frac{M^{d}}{P} = L (i) \cdot Y i s a f u n c t i o n} \\ {\mathrm{of no mi na li nt er es tr at es an dr ea li nc om e .}} \end{array}
 $$
 
 # Demand for Money Drivers
@@ -1888,7 +1902,7 @@ Feenstra/Taylor, International Economics, 5e © 2021 Worth Publishers
 - Equilibrium where supply equals demand:
 
 $$
-\frac{M}{P} = L (i) \cdot Y, w h e r e M i s t h e n o m i n a l m o n e y s u p p l y
+\frac{M}{P} = L (i) \cdot Y, where M i s t h e n o m i n a l m o n e y s u p p l y
 $$
 
 - Under the quantity theory  $L$  was a constant
@@ -1914,7 +1928,7 @@ $$
 
 - Change with insertion of superscript  $e$ :
 
-○ Implies market participants
+- Implies market participants
 
 - Develop expectations based on Keynes' general theory  
 - Look at economic indicators to determine expected rate of inflation
@@ -1944,7 +1958,7 @@ $$
 
 - Implies that, all else equal:
 
-○ A rise or fall in the expected inflation rate in a country leads to an equal rise or fall in nominal interest rates  
+- A rise or fall in the expected inflation rate in a country leads to an equal rise or fall in nominal interest rates  
 Example:
 
 Expected inflation rate in US is  $2 \%$ annually  
@@ -1972,7 +1986,7 @@ $$
 - The long run implications of the law of one price and purchasing power parity are:
 
 $$
-\begin{array}{l} i_{\S} = r_{U S}^{e} + \pi_{U S}^{e} = r^{*} + \pi_{U S}^{e} a n d i_{\epsilon} = r_{E U R}^{e} + \pi_{E U R}^{e} \\ \begin{array}{r} = r^{*} + \pi_{E U R}^{e}, t h e r e f o r e, r^{*} t h e g l o b a l r e a l r a t e o f r e t u r n, \\ p l u s e a c h c o u n t r y^{\prime} s i n f l a t i o n r a t e e q u a l s \\ i t s d o m e s t i c i n t e r e s t r a t e \end{array} \\ \end{array}
+\begin{array}{l} i_{\S} = r_{U S}^{e} + \pi_{U S}^{e} = r^{*} + \pi_{U S}^{e} and i_{\epsilon} = r_{E U R}^{e} + \pi_{E U R}^{e} \\ \begin{array}{r} = r^{*} + \pi_{E U R}^{e}, t h e r e f o r e, r^{*} t h e g l o b a l r e a l r a t e o f r e t u r n, \\ p l u s e a c h c o u n t r y^{\prime} s i n f l a t i o n r a t e e q u a l s \\ i t s d o m e s t i c i n t e r e s t r a t e \end{array} \\ \end{array}
 $$
 
 - What we see in the world differs substantially from this
@@ -2006,7 +2020,7 @@ $$
 
 - The US Federal Reserve announces :
 
-○ A one-time unanticipated change in money supply growth rate by  $10\%$ . No change in real income in US and Eurozone
+- A one-time unanticipated change in money supply growth rate by  $10\%$ . No change in real income in US and Eurozone
 
 M/P constant due to constant real income  
 Euro money supply and price levels constant  
@@ -2058,13 +2072,13 @@ $$
 \pi_{H}^{e} = i_{H} - r^{*}
 $$
 
-○ Money Supply – often means to achieve inflation target
+- Money Supply – often means to achieve inflation target
 
 $$
 \pi_{H} = \mu_{H} - g_{H}
 $$
 
-○ Exchange Rate – fixed, crawling or target regimes
+- Exchange Rate – fixed, crawling or target regimes
 
 $$
 \pi_{H} = \frac{\Delta E_{H / F}}{E_{H / F}} + \pi_{F}
@@ -2099,7 +2113,7 @@ November 8, 2022
 
 - Often utilized in policy discussions
 
-○ Provides good long-run framework (several years)  
+- Provides good long-run framework (several years)  
 $\circ$  No value in short-term analysis of exchange rates
 
 - Leads to understanding of central bank policies
@@ -2173,7 +2187,7 @@ $E_{\frac{\mathbb{E}}{\epsilon}} = \mathbb{S}1.0550$
 - Purchasing Power Parity (PPP) holds that exchange rates reflect the same real price for an identical basket of all goods  
 - PPP represents the idea that LOOP holds for all goods (and services) available in two countries
 
-○ That is, the real price of all goods (typically expressed as a basket of finished goods) is identical
+- That is, the real price of all goods (typically expressed as a basket of finished goods) is identical
 
 # Purchasing Power Parity (PPP)
 
@@ -2195,13 +2209,13 @@ there is no arbitrage opportunity for the basket - this is known as absolute PPP
 
 - Nominal versus real variables
 
-○ Nominal – contractual price, e.g., buy \$5,000,000 versus Yen at ¥135.50/$  
-○ Real – number of baskets of common goods you can buy in Japan versus the US with \$5,000,000 or ¥677,500,000
+- Nominal – contractual price, e.g., buy \$5,000,000 versus Yen at ¥135.50/$  
+- Real – number of baskets of common goods you can buy in Japan versus the US with \$5,000,000 or ¥677,500,000
 
 - When comparing the US and the Eurozone, the real exchange rate is:
 
 $$
-q_{U S / E U R} = \frac{E_{\mathbb {S} / \mathbb {E}} P_{E U R}}{P_{U S}} w h e r e q_{U S / E U R} t h e n u m b e r o f
+q_{U S / E U R} = \frac{E_{\mathbb {S} / \mathbb {E}} P_{E U R}}{P_{U S}} where q_{U S / E U R} t h e n u m b e r o f
 $$
 
 US baskets required to purchase one Eurozone basket
@@ -2211,7 +2225,7 @@ US baskets required to purchase one Eurozone basket
 Real exchange rate appreciation or depreciation due to either:
 
 $\circ$  A change in the nominal exchange rate or  
-○ A change in relative price of the goods basket
+- A change in relative price of the goods basket
 
 - Absolute PPP states: real exchange rate is equal to 1
 
@@ -2223,7 +2237,7 @@ $$
 
 - iPhone example above:
 
-○ If the price of the iPhone in Germany and the US was identical to relative price of a basket of goods in each country, then the Euro would be  $18.7\%$  overvalued versus USD
+- If the price of the iPhone in Germany and the US was identical to relative price of a basket of goods in each country, then the Euro would be  $18.7\%$  overvalued versus USD
 
 The USD would be
 
@@ -2246,7 +2260,7 @@ $$
 - Comparisons of GDP, for example, "at purchasing power parity" are derived from the above  
 - GDP comparisons are not derived using actual (nominal) exchange rates
 
-○Do not reflect the current relative prices of goods
+-Do not reflect the current relative prices of goods
 
 # Relationship between Inflation and Depreciation 1975-2005
 
@@ -2267,7 +2281,7 @@ If prices rise at Home, the Home currency depreciates
 - Look at changes in various measures:
 
 $\mathrm{O}$  Rate of inflation  
-○ Relative PPP  
+- Relative PPP  
 Real versus nominal exchange rates
 
 - Now examine the rate of change of the exchange rate versus the rate of depreciation or appreciation:
@@ -2299,8 +2313,8 @@ $$
 - Relative PPP states the relationship between changes in inflation rates and exchange rates  
 - This relationship is derived from the Absolute PPP relationship
 
-○ If Absolute PPP is true, then relative PPP is true  
-○ Relative PPP being true does not imply that Absolute PPP is true
+- If Absolute PPP is true, then relative PPP is true  
+- Relative PPP being true does not imply that Absolute PPP is true
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f402bce7-6e9a-46ab-ab95-a0c842df354f/f8ba118e76f5f97891cdf3b70a7b765b2aa4f9209fa262dc77dcdb5043242094.jpg)  
 Relative PPP and Exchange Rates
@@ -2314,7 +2328,7 @@ $\bigcirc$  Expectations
 
 - Transaction Costs
 
-○ Transportation  
+- Transportation  
 $\circ$  Tariffs, subsidies, other restrictions
 
 - Nontraded Goods
@@ -2328,7 +2342,7 @@ $\circ$  Patents, copyrights, other legal protections
 - Price supports or other benefits to indigenous companies
 - Price Stickiness
 - Most prices do not change instantaneously  
-○ Wages – do not adjust immediately
+- Wages – do not adjust immediately
 
 - Source of central banks' inflation targeting goals
 
@@ -2356,7 +2370,7 @@ Source: www.economist.com, accessed May 7, 2022.
 - Three principal functions
 
 $\mathrm{O}$  Store of value  
-○Unit of account  
+-Unit of account  
 Medium of exchange
 
 - Many forms of "shadow" money
@@ -2377,8 +2391,8 @@ Source: ibid
 - Only M0 controlled directly by central bank  
 - Commercial bank money M1+ controlled by
 
-○ Commercial banks' ability to make profits through money creation  
-○ Central bank and ministry of finance regulation  
+- Commercial banks' ability to make profits through money creation  
+- Central bank and ministry of finance regulation  
 Key tools
 
 - Reserve requirements  
@@ -2419,7 +2433,7 @@ $$
 Rearranging the above, can express price levels in the US and Eurozone as follows:
 
 $$
-P_{U S} = \frac{M_{U S}}{\overline {{L}}_{U S} Y_{U S}} a n d P_{E U R} = \frac{M_{E U R}}{\overline {{L}}_{E U R} Y_{E U R}}
+P_{U S} = \frac{M_{U S}}{\overline {{L}}_{U S} Y_{U S}} and P_{E U R} = \frac{M_{E U R}}{\overline {{L}}_{E U R} Y_{E U R}}
 $$
 
 - Money is another commodity – Quantity Theory
@@ -2439,7 +2453,7 @@ $$
 - Our simple model implies the following:
 
 $$
-D e f i n e \mu_{U S, t} = (M_{U S, t + 1} - M_{U S, t}) / M_{U S, t} a n d
+D e f i n e \mu_{U S, t} = (M_{U S, t + 1} - M_{U S, t}) / M_{U S, t} and
 $$
 
 $$
@@ -2485,14 +2499,14 @@ $g_{US,t} = 2.0\%$
 - $g_{EUR,t} = 1.0\%$
 
 $\circ$  The current spot rate is:  $E_{\mathbb{S} / \mathbb{E},t} = \$ 1.0550 / Euro$  
-○ What is the expected Euro-Dollar exchange rate in one year?
+- What is the expected Euro-Dollar exchange rate in one year?
 
 # Money Supply Growth, Inflation and Depreciation
 
 Using our formula
 
 $$
-\begin{array}{l} \frac{\Delta E_{\mathbb {S} / \epsilon , t}}{E_{\mathbb {S} / \epsilon , t}} = \left(\mu_{U S, t} - \mu_{E U R, t}\right) - (g_{U S, t} - g_{E U R, t}) \\ \frac{\Delta E_{\$ / \epsilon , t}}{E_{\$ / \epsilon , t}} = (7.0 \% - 8.0 \%) - (2.0 \% - 1.0 \%) \\ \frac{\Delta E_{\$ / \epsilon , t}}{E_{\$ / \epsilon , t}} = - 1.0 \% - 1.0 \% = - 2 \%, \\ a n d 1. 0 5 5 0 * -. 0 2 = -. 0 2 1 1. \\ \end{array}
+\begin{array}{l} \frac{\Delta E_{\mathbb {S} / \epsilon , t}}{E_{\mathbb {S} / \epsilon , t}} = \left(\mu_{U S, t} - \mu_{E U R, t}\right) - (g_{U S, t} - g_{E U R, t}) \\ \frac{\Delta E_{\$ / \epsilon , t}}{E_{\$ / \epsilon , t}} = (7.0 \% - 8.0 \%) - (2.0 \% - 1.0 \%) \\ \frac{\Delta E_{\$ / \epsilon , t}}{E_{\$ / \epsilon , t}} = - 1.0 \% - 1.0 \% = - 2 \%, \\ and 1. 0 5 5 0 * -. 0 2 = -. 0 2 1 1. \\ \end{array}
 $$
 
 Therefore the expected exchange rate is \(1.0339
@@ -2514,8 +2528,8 @@ November 3, 2022
 - Assume instead that we do not need to pay our supplier until September 21, 2022. However we are concerned that the Euro will appreciate versus the US dollar, so buy Euros June 17  
 - After we conclude the spot foreign exchange trade:
 
-○ Enter into a two month forward FX "swap"  
-○ Move the settlement date to September 21
+- Enter into a two month forward FX "swap"  
+- Move the settlement date to September 21
 
 # Forward Foreign Exchange Swap (Bank New York Perspective)
 
@@ -2531,12 +2545,12 @@ November 3, 2022
 - The amount is determined by the "forward points"
 
 $\circ$  Forward points represent the interest rate differential for the time period involved  
-○ Will go into the theory in a few minutes
+- Will go into the theory in a few minutes
 
 - Calculate using available market rates for forward points
 
-○ Add or subtract?  
-○ Bid or Ask?
+- Add or subtract?  
+- Bid or Ask?
 
 # Forward Points
 
@@ -2559,11 +2573,11 @@ $\circ$  Interest Rates:
 US three month: 2.10%  
 Eurozone three month: -0.182%
 
-○ If earn interest differential, pay the points
+- If earn interest differential, pay the points
 
 - To compensate other party for lost interest differential
 
-○ If lose interest differential, receive the points
+- If lose interest differential, receive the points
 
 As compensation for lost interest differential
 
@@ -2571,7 +2585,7 @@ As compensation for lost interest differential
 
 - Bid or Offer?
 
-○ You are the customer, the bank is providing you a service
+- You are the customer, the bank is providing you a service
 
 - So you have pay the more expensive price
 
@@ -2585,7 +2599,7 @@ Pays the Bid price if earning the interest rate differential
 US rates are higher than Eurozone rates
 
 Bank New York earns  $2.10\% - (-0.182\%)$ for the period from the spot date to the forward settlement date  
-○ Therefore it must pay the points to Bank Frankfort the points (and the customer must pay Bank New York)  
+- Therefore it must pay the points to Bank Frankfort the points (and the customer must pay Bank New York)  
 $\circ$  We add the points
 
 - We must pay the Ask (higher) points: 66.411
@@ -2652,7 +2666,7 @@ Three Month Forward Points: 65.866 - 66.411
 
 - Three Month LIBOR: 2.10%  
 Three Month Euribor: -0.182%  
-○ Number of Days: 92  
+- Number of Days: 92  
 Days in Year: 360
 
 # Steps to Calculate Covered Interest Parity
@@ -2673,7 +2687,7 @@ Forward Points = 1.046073 - 1.0400 = .006073
 
 - The difference results from timing
 
-○ Forward points are dynamic throughout the day
+- Forward points are dynamic throughout the day
 
 - Interest rates are changing constantly in both countries
 
@@ -2716,7 +2730,7 @@ Central Banks
 
 - Capital Controls
 - Constraints on currency convertibility  
-○ Flight capital  
+- Flight capital  
 Official Market rate
 
 - Black (Parallel) Markets often exist
@@ -2739,7 +2753,7 @@ Over \$6 trillion per day in trades
 - Effectively no arbitrage opportunities allowed
 
 $\mathrm{O}$  Price making extremely efficient  
-○ Multi-million dollar investment to participate
+- Multi-million dollar investment to participate
 
 # Bank Foreign Exchange Risk Management
 
@@ -2755,9 +2769,9 @@ What do you think Bank America does next?
 
 - Caterpillar must do one of four things:
 
-○ "Take" the offer (which is what we know it intends to do, but Bank America does not)  
-○ "Hit" the bid (sell € 100 million)  
-○ Ask for the price to be requoted  
+- "Take" the offer (which is what we know it intends to do, but Bank America does not)  
+- "Hit" the bid (sell € 100 million)  
+- Ask for the price to be requoted  
 $\circ$  Say it has no interest at this time
 
 # Bank Foreign Exchange Risk Management
@@ -2784,7 +2798,7 @@ Spot Foreign Exchange Transaction (October 28, 2020 for settlement October 30, 2
 
 - Caterpillar needs Euros to hedge revenue or expense risk or make a payment due in Euros
 
-○ May come back later to Bank America to roll Euros forward to another date through a forward swap
+- May come back later to Bank America to roll Euros forward to another date through a forward swap
 
 - Bank America will have position limits:
 
@@ -2806,7 +2820,7 @@ Caterpillar will have asked more than one bank for a two-way spot price before d
 # Bank Foreign Exchange Risk Management
 
 - Bank America will likely reduce or eliminate the risk taken on  
-○ Will it buy or sell Euros in the interbank market?  
+- Will it buy or sell Euros in the interbank market?  
 - Some banks it goes to may have also just quoted Caterpillar  
 - Various banks quote as follows on € 10 million each:
 
@@ -2826,7 +2840,7 @@ O Numerous other trades may cascade through the market
 
 - Until all financial institutions end up with desired positions
 
-○ Short-term equilibrium regarding this trade achieved
+- Short-term equilibrium regarding this trade achieved
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f402bce7-6e9a-46ab-ab95-a0c842df354f/02d9f4f193351afd190ede6aa8fa7fbc7ad80b59eea6035139cb181c87b47e22.jpg)
 
@@ -2845,7 +2859,7 @@ November 1, 2022
 - Foreign exchange is the buying of one currency in exchange for selling another  
 - We do not normally think about purchase and sale transactions in these terms
 
-○ No different than buying a car and selling your cash (or taking out an auto loan) to pay for it  
+- No different than buying a car and selling your cash (or taking out an auto loan) to pay for it  
 
 - We give up the opportunity to invest that cash or have to pay interest to borrow it
 
@@ -2853,10 +2867,10 @@ November 1, 2022
 
 - Currencies may be quoted in terms of:
 
-○ Number of units of home currency per unit of foreign currency  
+- Number of units of home currency per unit of foreign currency  
 
 - Known as "Direct" or "American" terms  
-○ Number of units of foreign currency per unit of home currency  
+- Number of units of foreign currency per unit of home currency  
 - Known as "Indirect" or "European" terms
 - Base currency is spoken first, e.g. "Euro-Dollar" while the currency pair is quoted in dollars per euro
 
@@ -2865,7 +2879,7 @@ November 1, 2022
 - American terms quotation originated in US futures markets
 
 Currencies quoted in terms of USD per Yen, e.g., one Yen equals  $\$ 0.007380$  
-○ Easier to calculate profits and losses by standardizing quoting in terms of US dollars
+- Easier to calculate profits and losses by standardizing quoting in terms of US dollars
 
 - American terms also called "Direct" terms
 
@@ -2885,7 +2899,7 @@ $\circ$  Fewer numbers to right of the decimal point
 
 - When a currency's price versus another declines
 
-○ Currency is said to depreciate  
+- Currency is said to depreciate  
 
  - Example: the USD rate moves from ¥135.50 to ¥136.00 the Yen has depreciated by ¥0.50  
 $\circ$  Conversely, the USD has appreciated an equal amount  
@@ -2921,7 +2935,7 @@ Depreciated \(1.2\%\) against the \(\$ 1
 
 - Often used to create composite view
 
-○Places bilateral exchange rates in perspective  
+-Places bilateral exchange rates in perspective  
 $\circ$  Used in policy discussions and decisions
 
 $$
@@ -2951,9 +2965,9 @@ FRED
 - Weaken as global recover appears imminent  
 - Strengthens late 2021
 
-○ US rates rise relative to other countries  
+- US rates rise relative to other countries  
 Inflation becomes a concern  
-○ Supply chain issues persist  
+- Supply chain issues persist  
 
 - Global recovery less imminent
 
@@ -2969,7 +2983,7 @@ Example: Euro - Dollar
 
 # - Two types:
 
-# ○ Fixed:
+# - Fixed:
 
 - Against another currency  
 - Typically, major floating currency  
@@ -2986,7 +3000,7 @@ Example: Euro - Dollar
 
 - Current examples of differing regimes
 
-○ US Dollar against most industrialized countries
+- US Dollar against most industrialized countries
 
 - Considered freely-floating  
 - Trades trillions of dollars per day against other currencies  
@@ -2994,7 +3008,7 @@ Example: Euro - Dollar
 - Pricing of many commodities  
 - Many currencies' "peg"
 
-○ Danish krone versus Euro
+- Danish krone versus Euro
 
 Denmark part of European Union  
 Not a member of the Euro Currency group
@@ -3003,7 +3017,7 @@ Not a member of the Euro Currency group
 
 Emerging markets currencies
 
-○ Fixed or managed (dirty) float
+- Fixed or managed (dirty) float
 
 May lead to currency crisis
 
@@ -3014,14 +3028,14 @@ Crawling peg
 
 - Aim for steady, managed, depreciation
 
-○ "Dollarization" – unilateral adoption of another currency
+- "Dollarization" – unilateral adoption of another currency
 
 # Currency Regimes
 
 - Currency (monetary) union
 
 $\mathrm{O}$  Euro  
-○ CFA and CFP – former French colonies in Africa and Asia-Pacific region
+- CFA and CFP – former French colonies in Africa and Asia-Pacific region
 
 - Currency Board
 - Currency is backed by  $100\%$  foreign reserves  
@@ -3091,8 +3105,8 @@ $\circ \mathbb{S}2,000,000$  in your bank account with Bank New York
 
 # - Arbitrage
 
-○ Text uses the term "riskless arbitrage" – redundant  
-○ Arbitrage is the buying and selling of a financial instrument (or good) at different prices simultaneously, providing a riskless profit
+- Text uses the term "riskless arbitrage" – redundant  
+- Arbitrage is the buying and selling of a financial instrument (or good) at different prices simultaneously, providing a riskless profit
 
 - Markets eliminate arbitrage opportunities
 
@@ -3111,7 +3125,7 @@ $\mathrm{O}$  Now only available for fractions of a second, if at all
 What should you do?
 
 Buy Yen at ¥135.85 and sell Yen at ¥135.90  
-○ Earn risk free profit of (¥.05 X ¥1,000,000,000)/ ¥135.90 = ¥367,917.59 or \$2,707.27
+- Earn risk free profit of (¥.05 X ¥1,000,000,000)/ ¥135.90 = ¥367,917.59 or \$2,707.27
 
 Unfortunately, you will never find this opportunity
 
@@ -3142,7 +3156,7 @@ What should you do?
 
 Sell Euro versus USD at  $1.0400/$ Euro  
 Buy Euro versus Yen at ¥145.55/Euro  
-○ Sell USD versus Yen at ¥140.00/USD
+- Sell USD versus Yen at ¥140.00/USD
 
 - Effective buy rate for Euros is:
 
@@ -3155,7 +3169,7 @@ $$
 Example:
 
 $$
-\begin{array}{l} B u y \mathbb {S} 1 0, 0 0 0, 0 0 0 \times \frac{\text{Eu ro}}{\mathbb {S} 1 . 0 4 0 0} = - \mathbb {E} 9, 6 1 5, 3 8 4. 6 1, \\ B u y \in 9, 6 1 5, 3 8 4. 6 1 \times \frac{\yen 1 4 5 . 5 5}{E u r o} = - \yen 1, 3 9 9, 5 1 9, 2 3 0 a n d \\ B u y \yen 1,399,519,230 \times \frac{U S D}{1 4 0 . 0 0} = - \yen 9,9 9 6,5 6 5. 9 3 \\ \end{array}
+\begin{array}{l} B u y \mathbb {S} 1 0, 0 0 0, 0 0 0 \times \frac{\text{Eu ro}}{\mathbb {S} 1 . 0 4 0 0} = - \mathbb {E} 9, 6 1 5, 3 8 4. 6 1, \\ B u y \in 9, 6 1 5, 3 8 4. 6 1 \times \frac{\yen 1 4 5 . 5 5}{E u r o} = - \yen 1, 3 9 9, 5 1 9, 2 3 0 and \\ B u y \yen 1,399,519,230 \times \frac{U S D}{1 4 0 . 0 0} = - \yen 9,9 9 6,5 6 5. 9 3 \\ \end{array}
 $$
 
 Sold  \$10,000,000 worth of Euros at\$ 1.04/Euro; repurchased Euros for  $9,996,565.93/€9,615,384.61 = \frac{$ 1.0396}{Euro}  
@@ -3209,8 +3223,8 @@ October 27, 2022
 - Within supply chain data difficult to obtain  
 - Differentiate workers between:
 
-○ Production (low-skilled)  
-○ Nonproduction (high-skilled)
+- Production (low-skilled)  
+- Nonproduction (high-skilled)
 
 - Impact on relative wages and employment
 
@@ -3234,7 +3248,7 @@ Marketing and sales usage
 
 - 1982 through 1992 – Feenstra and Hanson (1996, 1997) studied imported intermediates
 
-○ Consistent with 1980's data, predicted offshoring would increase:
+- Consistent with 1980's data, predicted offshoring would increase:
 
 - Relative demand for high-skilled labor to low-skilled labor in importing and exporting country  
 - Relative wage of high-skilled labor to low-skilled labor in importing and exporting country
@@ -3244,8 +3258,8 @@ Marketing and sales usage
 
 - By 1992 it's a different story
 - Skilled workers continue to see wages rise  
-○ Skilled workers' proportion of the workforce declines  
-○ Offshoring and robotics initially reduced relative number of production jobs
+- Skilled workers' proportion of the workforce declines  
+- Offshoring and robotics initially reduced relative number of production jobs
 
 Now reduces many nonproduction positions  
 Nonproduction labor replaced by software for routine tasks – increasingly integrated systems
@@ -3255,7 +3269,7 @@ Nonproduction labor replaced by software for routine tasks – increasingly inte
 - Late 1990's through 2012
 
 $\circ$  Nonproduction relative wage and proportion of labor force increase resumes  
-○ Relative wages of skilled workers hit by early 2000's recession but resumes relative growth thereafter
+- Relative wages of skilled workers hit by early 2000's recession but resumes relative growth thereafter
 
 - Imports relative to GDP resume growth
 
@@ -3272,13 +3286,13 @@ Relative Wages and Employment
 
 - Heckscher-Ohlin model would lead to expectation of period beginning in 1982 to lead to:
 
-○ Decrease in relative demand for nonproduction workers
+- Decrease in relative demand for nonproduction workers
 
 - Observed increase due to rightward shift in relative demand curve within industries, propelled by:
 
 $\mathrm{O}$  Offshoring
 
-○Skill-based technology change
+-Skill-based technology change
 
 Robotics  
 Computers
@@ -3317,8 +3331,8 @@ FIGURE 7-9
 
 - Build on model presented last lecture
 
-○ Demonstrate gains to firms and consumers from offshoring  
-○ Impact on labor more complex
+- Demonstrate gains to firms and consumers from offshoring  
+- Impact on labor more complex
 
 - Have seen that relative wages rise for high-skilled labor in both importing and exporting country
 
@@ -3326,9 +3340,9 @@ FIGURE 7-9
 
 - Two countries, two processes, two types of workers
 
-○ Home and Foreign  
-○ R&D and components  
-○ High-skilled and low-skilled
+- Home and Foreign  
+- R&D and components  
+- High-skilled and low-skilled
 
 - Both types of labor required for each process  
 Different relative mix
@@ -3354,13 +3368,13 @@ $\circ P_{c}$  and  $P_{R}$ , internal prices for components and R&D
 
 - Assume that compared to Home:
 
-○ Foreign plant manufactures components at lower cost, or  
-○ R&D exported from Home to Foreign plant lowers cost
+- Foreign plant manufactures components at lower cost, or  
+- R&D exported from Home to Foreign plant lowers cost
 
 - Either implies:  ${\left( \frac{{P}_{C}}{{P}_{R}}\right) }^{W1} < {\left( \frac{{P}_{C}}{{P}_{R}}\right) }^{A}$  
 - As with trade in finished goods under Heckscher-Ohlin
 
-○ Value to both countries through trade in intermediates  
+- Value to both countries through trade in intermediates  
 $\bigcirc$  Through relative wage differentials or capital costs
 
 # Firm R&D-Component Trade-off: Trade
@@ -3370,10 +3384,10 @@ $\bigcirc$  Through relative wage differentials or capital costs
 # Fm R&D-Component Trade-off: Trade
 
 Since,  $\left(\frac{P_C}{P_R}\right)^{W1} < \left(\frac{P_C}{P_R}\right)^A$  
-○ Home firm will import components, export R&D  
+- Home firm will import components, export R&D  
 Home firm production equilibrium moves to B  
 $\mathrm{O}$  Produces greater R&D for export  
-○ Imports components on X axis equal to  $Q_{C} - Q_{B}$  
+- Imports components on X axis equal to  $Q_{C} - Q_{B}$  
 
 - Output increases from  $Y_{0}$  to  $Y_{1}$  
 Home gains from offshoring
@@ -3382,16 +3396,16 @@ Home gains from offshoring
 
 - Two cases:
 
-○ Foreign improves productivity in good it exports  
-○ Foreign improves productivity in good Home exports
+- Foreign improves productivity in good it exports  
+- Foreign improves productivity in good Home exports
 
 - First case lowers component prices
 
-○ Home's terms of trade rise
+- Home's terms of trade rise
 
 Second case lowers R&D prices
 
-○ Home's terms of trade decline – still better than autarky
+- Home's terms of trade decline – still better than autarky
 
 # Fall in Price of Components
 
@@ -3405,8 +3419,8 @@ Q'
 
 - Assume,  $P_{C}$  falls s.t.,  $\left(\frac{P_{C}}{P_{R}}\right)^{W2} < \left(\frac{P_{C}}{P_{R}}\right)^{W1}$ .
 
-○ Home firm increases component imports and decreases R&D exports  
-○ Home firm production equilibrium moves from B to B'
+- Home firm increases component imports and decreases R&D exports  
+- Home firm production equilibrium moves from B to B'
 
 - Imports components on X axis equal to:
 
@@ -3426,8 +3440,8 @@ s 1n m L202 56' s' oouooue eonrnnnne rnrnnnne
 
 - Assume,  $P_{R}$  falls s.t.,  $\left(\frac{P_{C}}{P_{R}}\right)^{W3} > \left(\frac{P_{C}}{P_{R}}\right)^{W1}$ .
 
-○ Home firm decrease component imports and R&D exports  
-○ Home firm production equilibrium moves from B to B"
+- Home firm decrease component imports and R&D exports  
+- Home firm production equilibrium moves from B to B"
 
 - Imports components on X axis equal to:
 
@@ -3474,7 +3488,7 @@ October 25, 2022
 
 - Foreign outsourcing or offshoring
 
-○ Often used interchangeably  
+- Often used interchangeably  
 
 - Offshoring also more specifically refers to retaining ownership while moving operations overseas  
 - Outsourcing used when referring to moving production of components to other firms
@@ -3490,7 +3504,7 @@ Costs of moving:
 Ideas  
 People
 
-○ Three "unbundlings"
+- Three "unbundlings"
 
 - Reduction of (finished) goods trade costs  
 - Reduction of communications costs  
@@ -3500,7 +3514,7 @@ People
 
 - Offshoring enabled by the ICT revolution
 
-○ Information and communication technology  
+- Information and communication technology  
 $\mathrm{O}$  Propelled by
 
 - Rapid increases in computer processing power – Moore's Law  
@@ -3511,7 +3525,7 @@ Network effects of communication – Metcalfe's Law
 
 # - Additional enablers
 
-○ Air cargo  
+- Air cargo  
 Logistics management techniques  
 $\circ$  Incremental value-added supply chains  
 Trade in "tasks" versus components
@@ -3521,8 +3535,8 @@ Trade in "tasks" versus components
 - Involves only a portion of activities required to produce final good  
 - Similar effects to immigration
 
-○ Import less expensive labor  
-○ No physical movement of people required
+- Import less expensive labor  
+- No physical movement of people required
 
 - Regions or countries specialize in specific tasks or activities in value chain  
 - Led in US and other industrialized countries to job polarization
@@ -3531,14 +3545,14 @@ Trade in "tasks" versus components
 
 - Discuss winners and losers from offshoring
 
-○ Among countries  
-○ Among different worker skill-levels
+- Among countries  
+- Among different worker skill-levels
 
 - Discuss recent countertrends
 
 $\circ$  Coronavirus  
 O Ukraine/Russia war  
-○ China/US tensions
+- China/US tensions
 
 # Offshoring Model
 
@@ -3552,7 +3566,7 @@ O Ukraine/Russia war
 
 - Relative wage of low-skilled workers to high-skilled workers in certain countries is lower than in others
 
-○ Use Home and Foreign example
+- Use Home and Foreign example
 
 Home: low - skilled wage,  $W_{L}$ , high - skilled,  $W_{H}$  
 
@@ -3572,7 +3586,7 @@ $$
 
 $\circ$  Define  $z \in (0,1)$  as measure of tasks (subassemblies) in a process ordered by low to high skilled labor requirement  
 $\circ$  Profit maximization assumption - minimize cost, c  
-○ Countries specialize in different inputs or tasks
+- Countries specialize in different inputs or tasks
 
 # Initial Offshore Decision Cost Curve
 
@@ -3584,10 +3598,10 @@ Figure 4
 - Now Home desires to offshore more inputs or tasks
 
 $\circ$  New investment flows into Foreign  
-○ Alternatively, technology progresses relatively quickly in Foreign
+- Alternatively, technology progresses relatively quickly in Foreign
 
 - Either or both create lower Foreign rental rate  
-○ Investment or technological progress shift c/c* up  
+- Investment or technological progress shift c/c* up  
 - Activities undertaken by Foreign increase from  $z'$  to  $z''$
 
 # Post-investment Cost Curve Shift
@@ -3634,7 +3648,7 @@ Trade barriers reduced
 
 - Technology reduces communication and transportation costs
 
-○ Home initially moved its least-skilled activities to Foreign
+- Home initially moved its least-skilled activities to Foreign
 
 - Remaining Home activities now more skilled on average  
 - Given Foreign lower non-labor costs, Home may move higher skill tasks to Foreign
@@ -3645,14 +3659,14 @@ Trade barriers reduced
 
 - Given Home's lower non-labor costs
 
-○ Home moves to more complex activities, from A to B  
-○Skill levels of activities increase in both countries
+- Home moves to more complex activities, from A to B  
+-Skill levels of activities increase in both countries
 
 # Impact on Labor Markets
 
 - Foreign labor demand and relative wage level
 
-○ Increased relative need for high-skilled labor
+- Increased relative need for high-skilled labor
 
 - Shifts demand curve to the right, equilibrium moves from  $A^{*}$  to  $B^{*}$  
 Increases both
@@ -3665,7 +3679,7 @@ Increases both
 
 Home labor demand and relative wage level
 
-○ Increased relative need for high-skilled labor
+- Increased relative need for high-skilled labor
 
 - Shifts demand curve to the right, equilibrium moves from A to B  
 Increases both
@@ -3726,8 +3740,8 @@ FIGURE 47: Smile curve by nation, 1995 to 2005 versus 1985 to 1995.
 
 - The impact on industrialized nations due to:
 
-○ Increasing segmentation of production tasks  
-○ "Servicification" of manufacturing  
+- Increasing segmentation of production tasks  
+- "Servicification" of manufacturing  
 Japan saw largest decline in manufacturing value-added
 
 - Primary refers to commodities
@@ -3763,7 +3777,7 @@ $\bigcirc$  Production processes increasingly fragmented
 - Sending to near (or far) low-wage nations  
 - Many sole or limited number of suppliers
 
-○ Industrial know-how often sent with production
+- Industrial know-how often sent with production
 
 - Recent changes in globalization changing its impact
 
@@ -3774,13 +3788,13 @@ Operating at finer resolution the previously
 
 - National comparative advantage only applies narrowly
 
-○ Not meaningful in many finished product areas  
+- Not meaningful in many finished product areas  
 $\bigcirc$  Global companies compete more narrowly within each country in which they operate
 
 - Who wins? and Who loses? no longer nationally defined
 
 Determined by skillsets  
-○ Knowledge advantages
+- Knowledge advantages
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f402bce7-6e9a-46ab-ab95-a0c842df354f/77adc9811d1101cf595c38ac9b314cf190d13e0bb91eaae6ad55aff99948a82d.jpg)
 
@@ -3803,18 +3817,18 @@ $\circ$  Constant returns to scale
 - There are increasing returns to scale in many businesses  
 - Two types of increasing returns to scale
 - External: depends on size of industry, not size of individual firm  
-○ Internal: depends on size of each firm, economies of scale are within a firm's own production function
+- Internal: depends on size of each firm, economies of scale are within a firm's own production function
 
 # External and Internal Economies of Scale
 
 - External economies of scale dependent on:
 
-○ Unit costs a function of size of industry, not the individual company  
+- Unit costs a function of size of industry, not the individual company  
 
 - Example: injection molding
 - Internal economies of scale dependent on:
 
-○ Unit costs which are a function of firm size  
+- Unit costs which are a function of firm size  
 
 - Examples: automotive; computer chip manufacture; retail banking; search and social networking software
 
@@ -3823,24 +3837,24 @@ $\circ$  Constant returns to scale
 - If goods are undifferentiated may lead to true monopoly  
 - Many goods and services are differentiated
 
-○ Leads to form of imperfect competition known as Monopolistic Competition
+- Leads to form of imperfect competition known as Monopolistic Competition
 
 - Monopolistic Competition
 
 $\circ$  Several firms produce differentiated versions of same product  
-○ Industry has increasing returns to scale
+- Industry has increasing returns to scale
 
 # Remember from Microeconomics
 
 - Perfect (Pure) Competition
 
 Each firm prices where marginal revenue = marginal cost  
-○ No firm large enough to move the market price; each firm faces a horizontal demand curve
+- No firm large enough to move the market price; each firm faces a horizontal demand curve
 
 - Monopoly
 
 $\circ$  Price every unit where marginal revenue  $=$  marginal cost  
-○ Marginal revenue always below the industry demand curve; monopolist faces downward sloping demand curve
+- Marginal revenue always below the industry demand curve; monopolist faces downward sloping demand curve
 
 # Perfect Competition Equilibrium
 
@@ -3869,12 +3883,12 @@ Source: Goolsbee, Levitt and Syverson. Microeconomics,  $2^{\mathrm{nd}}$  Editi
 
 - To increase sales the monopolist must lower price
 
-○ Faces downward sloping demand curve  
-○ No upward sloping industry supply curve since no competitors
+- Faces downward sloping demand curve  
+- No upward sloping industry supply curve since no competitors
 
 - Monopolist continues to sell and lower price until profits are maximized
 - Until marginal revenue = marginal cost  
-○ To sell an additional unit at this point will reduce profits
+- To sell an additional unit at this point will reduce profits
 
 # Monopoly: Efficiency Losses versus Perfect Competition
 
@@ -3910,8 +3924,8 @@ $\circ$  Captures more than  $1 / 2$  of market, but not all, sells  $\mathrm{Q}
 
 Differentiated products flatten the demand curve for each firm
 
-○ Only one firm lowers price  
-○Consumer price elasticity increases  
+- Only one firm lowers price  
+-Consumer price elasticity increases  
 Higher price product retains some share
 
 Industry quantity increases  
@@ -3924,7 +3938,7 @@ Industry quantity increases
 
 - Goods produced by all firms are similar but differentiated from other firms  
 $\circ$  Several firms compete in the industry  
-○ Technology used by firms provides increasing returns to scale (economies of scale)  
+- Technology used by firms provides increasing returns to scale (economies of scale)  
 Firms enter and exit freely
 
 Long-run industry profits fall to zero  
@@ -3973,7 +3987,7 @@ $\circ$  Increasing number of product variations (near substitutes)
 Demand becomes increasingly elastic
 
 $\circ$  New firms enter until the monopoly profit becomes zero  
-○ Similar to perfect competition, but fewer firms due to internal economies of scale
+- Similar to perfect competition, but fewer firms due to internal economies of scale
 
 # Long-run Monopolistic Competition in Autarky
 
@@ -4015,8 +4029,8 @@ $\circ$  Increasing returns to scale provide reason for international trade
 - Start with long-run equilibrium without trade, point A  
 - Allow trade between Home and Foreign
 
-○ Number of consumers and firms double  
-○ Demand facing each firm same as before
+- Number of consumers and firms double  
+- Demand facing each firm same as before
 
 Number of product variations double  
 
@@ -4085,7 +4099,7 @@ Example: Automobiles
 $\circ$  Known as Intra-industry Trade
 
 $$
-I n d e x o f I n t r a - i n d u s t r y t r a d e = \frac{M i n i m u m o f i m p o r t s a n d e x p o r t s}{\frac{1}{2} (i m p o r t s + e x p o r t s)}
+I n d e x o f I n t r a - i n d u s t r y t r a d e = \frac{M i n i m u m o f i m p o r t s and e x p o r t s}{\frac{1}{2} (i m p o r t s + e x p o r t s)}
 $$
 
 # US Intra-industry Trade (2018)
@@ -4106,7 +4120,7 @@ The Armington hypothesis – differentiated products
 - The gravity equation
 
 $$
-T r a d e = B \frac{(G D P_{1} \cdot G D P_{2})}{d i s t^{n}}, w h e r e B i s a c o n s t a n t,
+T r a d e = B \frac{(G D P_{1} \cdot G D P_{2})}{d i s t^{n}}, where B i s a c o n s t a n t,
 $$
 
 $GDP_{i}$  is the gross domestic product of country  $i$  and dist is the distance between two countries to the nth power. B represents a summary of all other factors.
@@ -4115,7 +4129,7 @@ $GDP_{i}$  is the gross domestic product of country  $i$  and dist is the distan
 
 - $B$  includes tariffs, transportation costs, differences in tastes and the effects of border, currency and income differences
 
-○ A version of this model was used in the Estevadeoral, Frantz and Taylor article presented in the first lecture to look at the reasons for the growth and decline in trade from 1870 to 1939
+- A version of this model was used in the Estevadeoral, Frantz and Taylor article presented in the first lecture to look at the reasons for the growth and decline in trade from 1870 to 1939
 
 $\circ$  Esteveadeoral et al. found significant "common currency" effects in addition to transport costs and lesser effects from tariffs and income convergence
 
@@ -4155,8 +4169,8 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 - Text figure shows trade between 10 Canadian provinces and 30 US states, and among the 10 Canadian provinces  
 - The values of  $B$  are 93 for US/Canada trade and 1300 for intra-Canadian province trade. This implies:
 
-○ Intra-province trade is 14 times cross-border trade  
-○ There are substantial border effects despite relatively low tariffs. Factors not mentioned in the text that may influence this difference include:
+- Intra-province trade is 14 times cross-border trade  
+- There are substantial border effects despite relatively low tariffs. Factors not mentioned in the text that may influence this difference include:
 
 - Range products provided by Canada is relatively small  
 - Products provided by US very competitive globally
@@ -4172,7 +4186,7 @@ Gains as a portion of GDP relatively small
 - Allows for planning  
 - Avoids chaos – Post Brexit UK
 
-○ Text example – 2003 NAFTA costs and benefits:
+- Text example – 2003 NAFTA costs and benefits:
 
 - Consumer price reductions of \$11 billion annually  
 - Adjustment costs -- \$5.4 billion (lost wages)  
@@ -4198,7 +4212,7 @@ $\mathrm{O}$  Relative prices assumed constant
 
 Wages rise from  $W$  to  $W'$
 
-○ Workers move to manufacturing industry  
+- Workers move to manufacturing industry  
 $\mathrm{OP F}$  moves to the right
 
 Manufacturing output increases  
@@ -4237,7 +4251,7 @@ $\circ$  Offsetting effects
 
 - To resolve effect on  $R_{K}$ , examine revenue less wages
 
-○ If wages increase, return on capital must decrease
+- If wages increase, return on capital must decrease
 
 All else equal
 
@@ -4257,8 +4271,8 @@ Real wages must increase to compensate workers for their increased productivity 
 
 - Assume Heckscher-Ohlin world, except:
 
-○ Labor fixed in each country – no migration  
-○ Capital allowed to move between countries and may move between sectors
+- Labor fixed in each country – no migration  
+- Capital allowed to move between countries and may move between sectors
 
 - Computer manufacture capital intensive
 
@@ -4294,7 +4308,7 @@ Since  $\frac{K}{L}$  constant for both industries, allocation of labor moves fr
 
 - An increase in foreign direct investment,  $\Delta K$ , leads to additional domestic capital allocation equal to  $K^{\prime} - K$  and to labor allocation equal to  $L^{\prime} - L$
 
-○ Each industry maintains its original, optimal labor to capital ratio
+- Each industry maintains its original, optimal labor to capital ratio
 
 - Effect on output is in accordance with Rybczynski's theorem
 
@@ -4315,13 +4329,13 @@ Singapore long encouraged inward-bound FDI
 
 - Part A: create nationwide production function
 
-○ Capital-labor ratio grew 5% annually – 1970 to 1990  
+- Capital-labor ratio grew 5% annually – 1970 to 1990  
 $\mathrm{O}$  Marginal product of
 
 Capital fell  $3.4\%$  
 Labor grew  $1.6\%$
 
-○ Consistent with short-run specific-factors model
+- Consistent with short-run specific-factors model
 
 - Rents fell  
 Wages rose
@@ -4356,7 +4370,7 @@ $\mathrm{O}$  Implies labor productivity growth
 
 - Despite advantages, most countries:
 
-○ Impose some limits on FDI  
+- Impose some limits on FDI  
 Substantial limits on immigration
 
 Penalties on employers of illegal immigrants  
@@ -4372,14 +4386,14 @@ Gains from Migration
 
 - Use specific-factors model
 
-○ Pre-migration
+- Pre-migration
 
 Home  $\bar{L}$  workers  
 Foreign  $\bar{L}^{*}$  workers  
 
 - Foreign has more workers than Home
 
-○Allow workers to migrate from Foreign to Home
+-Allow workers to migrate from Foreign to Home
 
 Home worker wages decline from W to W'  
 
@@ -4391,8 +4405,8 @@ Equilibrium at B
 - All workers paid  $W'$  in equilibrium  
 Gains for Home
 
-○ All workers except the last create marginal product > W'  
-○ Domestic workers paid less than previously
+- All workers except the last create marginal product > W'  
+- Domestic workers paid less than previously
 
 Gains for Foreign
 
@@ -4407,7 +4421,7 @@ $$
 
 - ABA* represents global welfare gain  
 Gains go to different groups in each country  
-○ Distribution often a political issue  
+- Distribution often a political issue  
 - Point B – equilibrium with full employment  
 O Reached only in the long run
 
@@ -4423,8 +4437,8 @@ Data from: World Development Indicators, The World Bank.
 
 - Studies show the net gains to be small, but positive
 
-○ US: 0.1% to 0.4% of GDP depending on competition with indigenous labor  
-○ Labor loses income; capital and land owners benefit
+- US: 0.1% to 0.4% of GDP depending on competition with indigenous labor  
+- Labor loses income; capital and land owners benefit
 
 - Borjas study: Capital +2%; labor -1.9% of GDP
 - Other studies show larger gains
@@ -4446,8 +4460,8 @@ Economics, Vol. 3A (Amsterdam: North Holland), pp. 1697-1760.
 
 - George Borjas' assessment of models of immigration:
 
-○ The elasticity of labor with regard to wages does not come from empirical research  
-○ Derived from assumption of Cobb-Douglas production function with following inputs:
+- The elasticity of labor with regard to wages does not come from empirical research  
+- Derived from assumption of Cobb-Douglas production function with following inputs:
 
 - Labor income is  $70 \%$ of national income. This forces the elasticity of wages to be  $-.3$  
 Immigrants  $15 \%$ of labor force  
@@ -4457,11 +4471,11 @@ Conclusion based on these assumptions: immigration surplus increases GDP by  $0.
 
 - Updating his US study's numbers, if wage elasticity is -.3:
 
-○ Native-born workers lose approximately 2.7% of GDP
+- Native-born workers lose approximately 2.7% of GDP
 
 - Negative \$402 billion
 
-○ Native-owned capital gains approximately 2.9% of GDP
+- Native-owned capital gains approximately 2.9% of GDP
 
 Positive \$437 billion
 
@@ -4473,14 +4487,14 @@ $\circ$  Net \$35 billion gain in a \$15 trillion US economy
 
 - Use specific-factors model
 
-○ Pre-Foreign Direct Investment
+- Pre-Foreign Direct Investment
 
 Home  $\overline{K}$  capital  
 Foreign  $\overline{K}^{*}$ capital  
 
 - Foreign has less capital than Home
 
-○Allow foreign direct investment from Home to Foreign
+-Allow foreign direct investment from Home to Foreign
 
 Home rental rate increases from R to R'  
 
@@ -4492,12 +4506,12 @@ Equilibrium at B
 - All capital earns  $R'$  in equilibrium  
 Gains for Home
 
-○ FDI earns increased R' on all capital ≥ MPK  
+- FDI earns increased R' on all capital ≥ MPK  
 $\mathrm{O}$  Workers' pay falls due to decreased MPL
 
 Gains for Foreign
 
-○ FDI increases MPL of Foreign workers; lowers MPK  
+- FDI increases MPL of Foreign workers; lowers MPK  
 $\circ$  Workers' pay rises due to increased MPL
 
 # Gains from Foreign Direct Investment
@@ -4508,8 +4522,8 @@ $\circ$  Workers' pay rises due to increased MPL
 
 - Damgaard, Elkjaer, and Johannesen argue in a forthcoming paper:
 
-○ "Phantom" FDI now constitutes  $38 \%$ of the total  
-○ Driven by tax advantages and use of financial engineering
+- "Phantom" FDI now constitutes  $38 \%$ of the total  
+- Driven by tax advantages and use of financial engineering
 
 - Movement of intellectual property to minimize global taxes  
 - Distorts GDP statistics – Ireland's  $26\%$  growth in 2015
@@ -4519,7 +4533,7 @@ $\circ$  Workers' pay rises due to increased MPL
 - Having discussed benefits of international trade, immigration and investment  
 - Once important caveat: Immiserizing Growth
 
-○ Economic growth that reduces a country's welfare  
+- Economic growth that reduces a country's welfare  
 $\circ$  Links terms of trade and growth
 
 # Immiserizing Growth
@@ -4530,18 +4544,18 @@ Figure 11.1
 # Immiserizing Growth
 
 - Two goods:  $y_{1}$ , principally export;  $y_{2}$ , principally import  
-○ Initial production point B and consumption point C  
+- Initial production point B and consumption point C  
 - Country grows, by increasing exports and PPF shifts left  
-○ New production point B', consumption at C'  
+- New production point B', consumption at C'  
 - If accompanied by a reduction in terms of trade  
-○ Consumption falls to C" and production to B"  
-○ Further fall in terms of trade: worse off than autarky
+- Consumption falls to C" and production to B"  
+- Further fall in terms of trade: worse off than autarky
 
 # Immiserizing Growth
 
 - Conditions for immiserizing growth – Bhagwati (1958)
 
-○ Foreign demand for imports is inelastic or  
+- Foreign demand for imports is inelastic or  
 Growth reduces output of the importable good at constant relative price level
 
 - Inelastic demand by foreign country for imports
@@ -4561,7 +4575,7 @@ $\mathrm{O}$  Rate of exportable output exceeds the rate of technological change
 - Exportable industry attracts resources from economy
 - Importable good demand must shrink
 
-○ Rybczynski-like effect
+- Rybczynski-like effect
 
 - Important implications in emerging economies and wealth distribution
 
@@ -4661,13 +4675,13 @@ Output of agriculture,  $Q_{A}$
 
 - Assume Heckscher-Ohlin world, except:
 
-○ Allow labor to move between countries  
+- Allow labor to move between countries  
 Capital remains fixed in each country  
 
 - Shoe manufacturing labor intensive; computer manufacturing capital intensive
 
 $$
-\begin{array}{l} \frac{L_{S}}{K_{S}} > \frac{L_{C}}{K_{C}} e q u i v a l e n t l y, \frac{K_{C}}{L_{C}} > \frac{K_{S}}{L_{S}} \\ K_{C} + K_{S} = \overline {{K}} a n d L_{C} + L_{S} = \overline {{L}} \\ \end{array}
+\begin{array}{l} \frac{L_{S}}{K_{S}} > \frac{L_{C}}{K_{C}} e q u i v a l e n t l y, \frac{K_{C}}{L_{C}} > \frac{K_{S}}{L_{S}} \\ K_{C} + K_{S} = \overline {{K}} and L_{C} + L_{S} = \overline {{L}} \\ \end{array}
 $$
 
 # Long-run Effects of Immigration – Pre-immigration
@@ -4678,10 +4692,10 @@ $$
 
 # - Box diagram
 
-○ Shows allocation of labor and capital by industry  
+- Shows allocation of labor and capital by industry  
 $\circ$  Axes rotated  $180^{\circ}$  for one sector to create box  
-○  $0_{5} \mathrm{~A}$  allocation of capital and labor to shoe industry  
-○  $0_{\mathrm{C}} \mathrm{A}$  allocation to computer industry
+-  $0_{5} \mathrm{~A}$  allocation of capital and labor to shoe industry  
+-  $0_{\mathrm{C}} \mathrm{A}$  allocation to computer industry
 
 Less capital per worker in shoe industry,  $\frac{0_C K}{0_C L} > \frac{0_S K}{0_S L}$
 
@@ -4693,32 +4707,32 @@ Less capital per worker in shoe industry,  $\frac{0_C K}{0_C L} > \frac{0_S K}{0
 
 Real wage and rental rate determined by marginal products
 
-○ Home's higher K/L implies lower MPK and rental rate and greater MPL and wage rate compared with Foreign
+- Home's higher K/L implies lower MPK and rental rate and greater MPL and wage rate compared with Foreign
 
 - Add immigrant labor to the Home economy,  $\overline{L}^{\prime} = \overline{L} +\Delta L$
 
 $\mathrm{O}$  Lengthens the labor axis by  $\Delta L$  
-○ Labor is not allocated to both sectors as it was with specific-factors model
+- Labor is not allocated to both sectors as it was with specific-factors model
 
 # Labor Increase at Home Impact on Wages, Rentals and Output
 
 - Outputs adjust to allocate incremental labor to labor intensive industry (shoes)
 
 $\bigcirc$  Capital-labor ratios constant  
-○ Labor and capital leave computer industry
+- Labor and capital leave computer industry
 
 - Workers – same amount of capital as prior to immigration
 
-○ Additional labor fully employed  
+- Additional labor fully employed  
 $\circ$  Capital-labor ratios unchanged in each industry
 
 # Labor Increase at Home Impact on Wages, Rentals and Output
 
 - w/r remains the same  
-○ No change in marginal productivities – unlike short-term  
+- No change in marginal productivities – unlike short-term  
 - Factors of production available increase for shoes – decrease for computers  
 - Shoe output increases  
-○ Computer output decreases  
+- Computer output decreases  
 - Relative prices remain constant
 
 # Labor Increase at Home – Impact on Wages and Rentals
@@ -4730,12 +4744,12 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
 - In the long-run, an increase in one factor results in the country increasing output in the industry using that factor intensively and decreasing output of the other industry
 
-○ Under assumptions of Heckscher-Ohlin model  
+- Under assumptions of Heckscher-Ohlin model  
 
 - Holds for any factor
 - Results in Factor Price Insensitivity theorem
 
-○ Factor prices unchanged as economy shifts output to industry utilizing increased factor intensively
+- Factor prices unchanged as economy shifts output to industry utilizing increased factor intensively
 
 # Rybczynski Theorem – Home Viewpoint
 
@@ -4750,15 +4764,15 @@ $\circ$  Represented larger impact on low-skilled labor market
 
 David Card (1990) study – natural experiment
 
-○ No long-term impact on wages in the region  
-○ No discernible impact on unemployment rate
+- No long-term impact on wages in the region  
+- No discernible impact on unemployment rate
 
 # Mariel Boat Lift Impact
 
 - Rybczynski theorem predicts that in the Miami area:
 
 Low-skill labor industries will expand  
-○ High-skill labor industries will contract
+- High-skill labor industries will contract
 
 Real value-added in apparel industry increases after lift - remains above trend in Miami for well over a decade after the Miami boat lift  
 Real value-added by skilled workers in skill intensive industries declines after lift and remains below trend
@@ -4776,13 +4790,13 @@ aee aee
 
 - Competing hypothesis for no relative decline in low-skill wages
 
-○ "Skill-based technological change"
+- "Skill-based technological change"
 
 - Computers adopted more slowly in Miami than US overall
 
 Firms may have employed low-skill workers longer in place of computers
 
-○ Only  $20 \%$ of Mariel immigrants in manufacturing
+- Only  $20 \%$ of Mariel immigrants in manufacturing
 
 - Skill-based technology change inconclusive here
 
@@ -4791,8 +4805,8 @@ Firms may have employed low-skill workers longer in place of computers
 - The number of foreign-born people doubled in the US between 1980 and 2005 to  $13\%$  
 - Relative impact on wages a function of
 
-○ Whether the immigrants were competitive with or complementary to domestic workers  
-○ There was a change in availability of capital in a given industry or position
+- Whether the immigrants were competitive with or complementary to domestic workers  
+- There was a change in availability of capital in a given industry or position
 
 - Competition appears greatest at lowest end of educational spectrum
 
@@ -4858,7 +4872,7 @@ $\bigcirc$  Increase output
 
 - Long-run, both industries
 
-○ Maintain previous L/K  
+- Maintain previous L/K  
 Output of one industry increases  
 Output of second industry decreases
 
@@ -4917,7 +4931,7 @@ FIGURE 10. TRADE WITH NO-FPE, GRAVITY DEMAND SPECIFICATION, AND ADJUSTED ROW (T7
 
 - Begin with Heckscher-Ohlin assumptions
 - Increasingly relax assumptions  
-○ Achieve good fit versus observed trade data
+- Achieve good fit versus observed trade data
 
 Data from 10 OECD countries
 
@@ -4948,8 +4962,8 @@ Factor endowments
 
 - Differing endowments – tradable goods specialization based on relative factor endowments
 
-○ Non-tradable goods produced with different factor proportions  
-○ If utilize industry factor proportions results in understatement of traded goods factor proportions
+- Non-tradable goods produced with different factor proportions  
+- If utilize industry factor proportions results in understatement of traded goods factor proportions
 
 - Exports of capital abundant countries typically:
 
@@ -4961,7 +4975,7 @@ $\circ$  Exhibit greater capital intensity than total production
 
 - Exports of labor abundant countries
 
-○ Labor usage less than predicted
+- Labor usage less than predicted
 
 - Averages-in domestic production of non-tradable goods  
 - Globally inexpensive labor irrelevant for domestic production
@@ -4980,11 +4994,11 @@ FIGURE 3. PRODUCTION WITH COMMON TECHNOLOGY (AVERAGE) (P2)
 
 - No Price Factor Equalization (No-FPE) accounts for substantial endowment differences by country
 
-○ Places countries in different cones of production for tradable goods
+- Places countries in different cones of production for tradable goods
 
 FPE breaks down
 
-○ Non-tradable goods produced with different factor input ratios
+- Non-tradable goods produced with different factor input ratios
 
 - Trade frictions – difficulty with direct measurement
 
@@ -4995,7 +5009,7 @@ $\circ$  Gravity based demand specification based on distance
 - Adjusted Rest of World (ROW)  
 - Original assumption – ROW technology projected from OECD data onto ROW endowments
 
-○ Likelihood of substantial error – ROW predicted to be a much larger trader in both capital than labor than observed
+- Likelihood of substantial error – ROW predicted to be a much larger trader in both capital than labor than observed
 
 - Adjusted ROW forces technology to match endowments and outputs
 
@@ -5013,7 +5027,7 @@ $\circ$  This dependent on the relative endowments of capital and labor
 - Assume perfect competition, constant returns to scale
 
 $\circ$  Revenue = Cost  
-○ Choose an isoquant, s.t., each industry revenue = 1  
+- Choose an isoquant, s.t., each industry revenue = 1  
 Therefore  $p_{i}y_{i} = 1$
 
 # Learner Diagram
@@ -5027,12 +5041,12 @@ $$
 i.e., the value of labor and capital equals revenue We can determine factor prices where
 
 $$
-L_{i} = 0 \Rightarrow K_{i} = 1 / r, a n d K_{i} = 0 \Rightarrow L_{i} = 1 / w
+L_{i} = 0 \Rightarrow K_{i} = 1 / r, and K_{i} = 0 \Rightarrow L_{i} = 1 / w
 $$
 
 - This demonstrates that factor prices are insensitive to endowments
 
-○ Creates a "cone" of industries in which a country may be competitive  
+- Creates a "cone" of industries in which a country may be competitive  
 $\circ$  Proves the "factor price insensitivity" lemma
 
 # Trade Specialization $^{3}$  (2008) (Schott Figure 1)
@@ -5048,7 +5062,7 @@ Figure 1: Interand Intra-National Specialization in a Multiple Cone Equilibrium
 
 - Heckscher-Ohlin makes predictions regarding:
 
-○ Relative proportion of high skilled labor growth  
+- Relative proportion of high skilled labor growth  
 
 - Export prices received versus per capita GDP
 
@@ -5057,21 +5071,21 @@ As exports grow and become more sophisticated
 - Production outside cone results in negative profits
 
 Drives out industries outside of cone  
-○ Implies little or no overlap between goods and services for countries in different cones
+- Implies little or no overlap between goods and services for countries in different cones
 
 # Schott China Study
 
 - Product-level data used to decompose exports from China
 
-○ China cannot be viewed as a single entity
+- China cannot be viewed as a single entity
 
 Shanghai - well-educated, well paid labor base  
 Guizhou – low paid, relatively uneducated labor base
 
 - This data explains how and why China:
 
-○ Produces increasingly technologically and capital-intensive products  
-○ Competes with OECD nations, despite relative labor abundance
+- Produces increasingly technologically and capital-intensive products  
+- Competes with OECD nations, despite relative labor abundance
 
 # Schott, Table 3<sup>4</sup>
 
@@ -5086,7 +5100,7 @@ Table 3: Inter-Regional Relative Endowment Disparities within China
 - Examines China's export mix and pricing relative to other regions  
 - Regarding mix, Schott finds the following:
 - Exports similar to OECD countries  
-○ Mix substantially more OECD-like than similarly endowed countries  
+- Mix substantially more OECD-like than similarly endowed countries  
 These similarities increase over time
 
 # China's Export Mix and Pricing
@@ -5120,8 +5134,8 @@ Table 16: Mean OECD/China Manufacturing Unit Value Ratios
 
 - Schott provides regression results demonstrating:
 
-○ All countries show a statistically significant positive relationship among export prices, per capita GDP and skilled labor abundance  
-○ Chinese products sell at a significant discount to other countries in terms of per capita GDP and skilled labor abundance
+- All countries show a statistically significant positive relationship among export prices, per capita GDP and skilled labor abundance  
+- Chinese products sell at a significant discount to other countries in terms of per capita GDP and skilled labor abundance
 
 # Trade Effects on Factor Prices
 
@@ -5132,7 +5146,7 @@ Table 16: Mean OECD/China Manufacturing Unit Value Ratios
 - Fixed amounts of capital and labor in each country:
 
 $$
-\overline {{L}} = L_{C} + L_{s} a n d \overline {{K}} = K_{C} + K_{s}
+\overline {{L}} = L_{C} + L_{s} and \overline {{K}} = K_{C} + K_{s}
 $$
 
 # Equilibrium Conditions
@@ -5171,7 +5185,7 @@ Economy-wide relative supply of labor to capital is fixed
 - Shifts relative demand curve from  $\mathsf{RD}_1$  to  $\mathsf{RD}_2$
 
 $\mathrm{O}$  Relative wages fall from  $(\mathrm{W} / \mathrm{R})_{1}$  to  $(\mathrm{W} / \mathrm{R})_{2}$  
-○ Both industries hire more labor relative to capital
+- Both industries hire more labor relative to capital
 
 # Relative Computer Price Increase Effect on Wage/Rental
 
@@ -5185,7 +5199,7 @@ $$
 \frac{\overline {{L}}}{\overline {{K}}} = \frac{(L_{C} + L_{S})}{\overline {{K}}} = \frac{L_{C}}{K_{C}} \uparrow \cdot \frac{K_{C}}{\overline {{K}}} \uparrow + \frac{L_{S}}{K_{S}} \uparrow \cdot \frac{K_{S}}{\overline {{K}}} \downarrow
 $$
 
-○ Labor is relatively less expensive, both industries utilize relatively more
+- Labor is relatively less expensive, both industries utilize relatively more
 
 - Relatively lower marginal productivity implies relatively lower wage rate  
 - Labor released from shoe manufacturing equals labor acquired by capital-intensive computer manufacturing  
@@ -5203,13 +5217,13 @@ m o r e l a b o r p e r u n i t o f c a p i t a l,
 $$
 
 $$
-R = P_{C} \cdot M P K_{C} a n d R = P_{S} \cdot M P K_{S},
+R = P_{C} \cdot M P K_{C} and R = P_{S} \cdot M P K_{S},
 $$
 
 therefore with  $R$  equalized once capital has moved,
 
 $$
-M P K_{C} = \frac{R}{P_{C}} \uparrow a n d M P K_{S} = \frac{R}{P_{S}} \uparrow
+M P K_{C} = \frac{R}{P_{C}} \uparrow and M P K_{S} = \frac{R}{P_{S}} \uparrow
 $$
 
 Real return on capital increases in both industries
@@ -5220,13 +5234,13 @@ Real return on capital increases in both industries
 - Conversely, Marginal Product of Labor declines
 
 $$
-W = P_{C} \cdot M P L_{C} a n d W = P_{S} \cdot M P L_{S},
+W = P_{C} \cdot M P L_{C} and W = P_{S} \cdot M P L_{S},
 $$
 
 therefore with  $W$  equalized once labor has moved,
 
 $$
-M P L_{C} = \frac{W}{P_{C}} \downarrow a n d M P L_{S} = \frac{W}{P_{S}} \downarrow
+M P L_{C} = \frac{W}{P_{C}} \downarrow and M P L_{S} = \frac{W}{P_{S}} \downarrow
 $$
 
 Real wages decrease in both industries
@@ -5240,12 +5254,12 @@ Real wages decrease in both industries
 - Home has 50 units of labor and 20 units of capital
 
 $$
-\frac{L_{S}}{K_{S}} = \frac{3}{1} a n d \frac{L_{C}}{K_{C}} = \frac{2}{1}. I n i t i a l l y,
+\frac{L_{S}}{K_{S}} = \frac{3}{1} and \frac{L_{C}}{K_{C}} = \frac{2}{1}. I n i t i a l l y,
 $$
 
 30 units of labor and 10 of capital in the shoe industry and 20 units of labor and 10 of capital in the computer industry
 
-○ Relative increase in price of computers relative to shoes
+- Relative increase in price of computers relative to shoes
 
 - Leads to computer industry growth, making capital relatively more valuable than labor  
 ■ w/r declines, shoe industry sheds labor at a lower rate than 3 to 1, say, 2.5 to 1. Why?  
@@ -5256,7 +5270,7 @@ Since K/L constant for the economy, capital and labor shed by shoe industry must
 - For example, 5 units of labor and 2 of capital move from Shoe to Computer industry
 
 $$
-\frac{L_{S}}{K_{S}} = \frac{2 5}{8} = \frac{3 . 1 3}{1} a n d \frac{L_{C}}{K_{C}} = \frac{2 5}{1 2} = \frac{2 . 0 8}{1},
+\frac{L_{S}}{K_{S}} = \frac{2 5}{8} = \frac{3 . 1 3}{1} and \frac{L_{C}}{K_{C}} = \frac{2 5}{1 2} = \frac{2 . 0 8}{1},
 $$
 
 $$
@@ -5301,8 +5315,8 @@ $$
 
 - Short-term, Specific-factors Model assumptions hold
 
-○ Specific factor in the importing industry losses  
-○ Specific factor in the exporting industry gains
+- Specific factor in the importing industry losses  
+- Specific factor in the exporting industry gains
 
 - H-O assumptions hold long-run: production factors
 
@@ -5331,15 +5345,15 @@ $\circ$  Introduces mobile capital factors of production
 $\bigcirc$  Capital factors may move to other sectors in the long-run
 
 - Capital may be substituted for labor and labor for capital  
-○ Labor competes against capital in addition to utilizing it  
+- Labor competes against capital in addition to utilizing it  
 - Once real-world adjustments made, fits data well
 
 # Heckscher-Ohlin Theory
 
 - Comparative advantage influenced by
 
-○ Relative abundance of factors  
-○ Technology choice
+- Relative abundance of factors  
+- Technology choice
 
 - Comparative advantage in these drives international trade  
 - Intensity of factor use
@@ -5353,25 +5367,25 @@ $\mathrm{O}$  Control rate of MPL decline
 End of long period of substantial international trade growth  
 - Dramatic improvements in transportation, "mobilizing" capital goods
 
-○ Capability to move large machines within country/internationally  
-○ Evened out technology differences between countries
+- Capability to move large machines within country/internationally  
+- Evened out technology differences between countries
 
 # Origins of Heckscher-Ohlin Model
 
 - Debate between Heckscher and Knut Wicksell
 
-○ Wicksell influenced by Malthus and concerns about economic equity  
-○ Heckscher focused on the effects of relative abundance of factors of production
+- Wicksell influenced by Malthus and concerns about economic equity  
+- Heckscher focused on the effects of relative abundance of factors of production
 
 - Mass emigration from Sweden to US 1871 to 1890 due to:
 
-○ Abundance of labor and scarcity of productive land and limited manufacturing led to  $44 \%$ population decrease
+- Abundance of labor and scarcity of productive land and limited manufacturing led to  $44 \%$ population decrease
 
 # Origins of Heckscher-Ohlin Model
 
 - During 1918-1920 Wicksell and Heckscher corresponded on the impact of increasing wood prices on Swedish labor
 
-○ Wicksell believed would lead to another wave of emigration
+- Wicksell believed would lead to another wave of emigration
 
 - Limited number of wealthy owners of forests who would choose to export raw lumber leading to labor emigration
 
@@ -5390,7 +5404,7 @@ $\circ$  Factors:
 Labor  
 Capital
 
-○ Industries:
+- Industries:
 
 Shoes  
 Computers
@@ -5404,7 +5418,7 @@ Foreign
 
 - Factor Endowments:
 
-○ Home:
+- Home:
 
 $$
 \overline {{K}} = K_{S} + K_{C}
@@ -5436,7 +5450,7 @@ $$
 \frac{L_{S}}{K_{S}} > \frac{L_{C}}{K_{C}}
 $$
 
-○ Home is Capital abundant – Foreign is labor abundant
+- Home is Capital abundant – Foreign is labor abundant
 
 $$
 \frac{\overline {{L}}^{*}}{\overline {{K}}^{*}} > \frac{\overline {{L}}}{\overline {{K}}}
@@ -5449,9 +5463,9 @@ $$
 # Heckscher-Ohlin Assumptions
 
 - Only final outputs freely tradeable between countries  
-○ Labor and capital cannot move between countries  
+- Labor and capital cannot move between countries  
 - Technologies are identical in both countries  
-○ Opposite of Ricardian assumption  
+- Opposite of Ricardian assumption  
 - Needs to be relaxed to fit real-world data  
 - Consumer tastes are identical in both countries
 
@@ -5529,7 +5543,7 @@ $$
 
 - Reach equilibrium when:
 
-○ Relative price of computers Home exports reaches the relative price where Foreign is willing it import such that,
+- Relative price of computers Home exports reaches the relative price where Foreign is willing it import such that,
 
 $$
 Q_{C 2} - Q_{C 3} = Q_{C 3}^{*} - Q_{C 2}^{*}
@@ -5547,8 +5561,8 @@ $$
 
 - Given restrictive assumptions:
 
-○ Relative factor endowments determine the pattern of trade between Home and Foreign  
-○ Each country exports the abundant factor available in its economy
+- Relative factor endowments determine the pattern of trade between Home and Foreign  
+- Each country exports the abundant factor available in its economy
 
 Home - capital  
 Foreign - labor
@@ -5570,10 +5584,10 @@ Foreign - labor
 - Leontief's study of post WWII American exports and imports  
 - Despite substantial comparative advantage in terms of capital
 
-○ US exported products with a significant labor component
+- US exported products with a significant labor component
 
 - Capital to labor ratio lower for US exports than US imports in 1947 – assumed foreign firms used US technology  
-○ Contradicted predictions of the Heckscher-Ohlin model
+- Contradicted predictions of the Heckscher-Ohlin model
 
 # Leontief's Findings<sup>1</sup>
 
@@ -5590,8 +5604,8 @@ US exports substantially exceeded imports during this period
 - Leontief ignores abundance of land as a factor of production  
 - No distinction between
 
-○ High-skilled and low-skilled labor  
-○ US exporting highly skilled labor?
+- High-skilled and low-skilled labor  
+- US exporting highly skilled labor?
 
 Distortions due to 1947 – two years after the end of WWII  
 US not actively engaged in free trade
@@ -5601,7 +5615,7 @@ US not actively engaged in free trade
 - Leamer used an extension of the Heckscher-Ohlin theorem developed by Jaroslav Vanek (known as HOV)  
 HOV states the following:
 
-○ If a country's endowment of a factor relative to the world endowment of that factor exceeds the country's share of world GDP, the country is abundant in that factor
+- If a country's endowment of a factor relative to the world endowment of that factor exceeds the country's share of world GDP, the country is abundant in that factor
 
 - Relies on the assumptions that all tastes are identical and homothetic which implies that relative consumption is proportional to GDP
 
@@ -5621,7 +5635,7 @@ where  $F_{k}^{i}$  and  $F_{l}^{i}$  are the factor contents of trade
 
 - Replicated Leamer (1980) methodology on 27 countries
 
-○ H-O hypothesis describes "relation among three separately observable phenomena":
+- H-O hypothesis describes "relation among three separately observable phenomena":
 
 Trade  
 Factor input requirements  
@@ -5670,11 +5684,11 @@ $\circ$  Accounts for productivity differences
 - Effective factor endowment:
 
 $\circ =$  actual factor endowment X measure of productivity  
-○ May be direct or indirect, e.g., capital spending per person
+- May be direct or indirect, e.g., capital spending per person
 
 - Comparing effective factor endowment to global GDP share determines
 
-○ Whether the effective factor endowment is scarce or abundant
+- Whether the effective factor endowment is scarce or abundant
 
 - Many more adjustments required to fit real world
 
@@ -5714,8 +5728,8 @@ $\bigcirc$  Earnings of other factors were not considered
 
 - Specific (fixed) factors model examines productivity and returns of specific-factors in addition to labor
 
-○ Specific-factors not allowed to move from sector to sector  
-○ Labor still fully mobile between sectors in each country
+- Specific-factors not allowed to move from sector to sector  
+- Labor still fully mobile between sectors in each country
 
 We will see this implies diminishing marginal returns of labor as production in one sector increases  
 This creates winners and losers in each country
@@ -5731,7 +5745,7 @@ This creates winners and losers in each country
 - Ricardian model assumed constant marginal productivity of labor  
 - Considering immobility of specific factors, marginal productivity will decrease
 
-○ Machine shared among 11 workers versus 10  
+- Machine shared among 11 workers versus 10  
 $\mathrm{O} 100$  acres of farmland worked by three versus two tractors
 
 # Production Possibilities Frontier
@@ -5745,7 +5759,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 - Under Specific-factor, PPF becomes bow shaped
 
 $\circ$  Slope at any point  $= -M P L_{A} / M P L_{M}$  
-○ When moving toward increased quantities of manufactures
+- When moving toward increased quantities of manufactures
 
 - $MPL_{M}$  decreases  
 - $MPL_{A}$  increases
@@ -5795,8 +5809,8 @@ $$
 
 - When international trade opens, manufactures' prices will:
 
-○ Increase relative to agricultural prices for Home  
-○ Decrease relative to agricultural prices for Foreign
+- Increase relative to agricultural prices for Home  
+- Decrease relative to agricultural prices for Foreign
 
 - Relative prices converge to the world price line
 
@@ -5804,13 +5818,13 @@ $$
 
 Home gains from the steeper relative price curve
 
-○ Manufacturing and agricultural quantities produced move from A to B  
+- Manufacturing and agricultural quantities produced move from A to B  
 $\circ$  Indifference curve from  $U_{1}$  to  $U_{2}$  
 Consumption from A to C
 
 Home overall gains from trade
 
-○ Individual workers and industries may lose
+- Individual workers and industries may lose
 
 # Home Labor Earnings
 
@@ -5821,7 +5835,7 @@ $$
 Each industry hires until,
 
 $$
-W = P_{M} \times M P L_{M} a n d W = P_{A} \times M P L_{A},
+W = P_{M} \times M P L_{M} and W = P_{A} \times M P L_{A},
 $$
 
 labor market equilibrium occurs when labor is allocated at point  $A$  where the two labor demand curves meet.
@@ -5885,7 +5899,7 @@ $\circ$  Calculate labor payments and deduct from revenues, remainder represents
 - Calculate revenues and deduct payments to labor:
 
 $$
-\begin{array}{l} P a y m e n t s t o c a p i t a l o w n e r s = P_{M} \times Q_{M} - W \times L_{M} \\ P a y m e n t s t o l a n d o w n e r s = P_{A} \times Q_{A} - W \times L_{A} \\ \end{array}
+\begin{array}{l} P a y m e n t s t o c a p i t a l o w n e r s = P_{M} \times Q_{M} - W \times L_{M} \\ P a y m e n t s t o l and o w n e r s = P_{A} \times Q_{A} - W \times L_{A} \\ \end{array}
 $$
 
 - Returns on capital and land are:
@@ -5905,7 +5919,7 @@ $$
 - Either method may be used depending on available data  
 - $R_{K}$  and  $R_{T}$  are rental rates on capital and land respectively
 - Rental is periodic return, does not matter whether capital or land is actually rented or owned  
-○ If owned think of as return on investment
+- If owned think of as return on investment
 
 # Changes in Return on Capital and Land
 
@@ -5916,7 +5930,7 @@ Result:
 $\circ$  Price increase increases quantity of labor used in manufacturing  
 
 - Raises marginal product of manufacturing specific factor  
-○ Reduces marginal product of agricultural specific factor
+- Reduces marginal product of agricultural specific factor
 
 # Changes in Return on Capital and Land
 
@@ -6043,8 +6057,8 @@ Real workers unable to transition seamlessly
 US provides TAA to help workers transition
 
 $\circ$  Inflexibility of wages may lead to increased unemployment  
-○ Unemployment may last more than one year  
-○ TAA provides
+- Unemployment may last more than one year  
+- TAA provides
 
 Additional unemployment insurance payments  
 Health insurance  
@@ -6055,8 +6069,8 @@ Health insurance
 
 - Displaced manufacturing labor often moves to service sector
 
-○ Often long time before finding a positions  
-○ Often face lower wages
+- Often long time before finding a positions  
+- Often face lower wages
 
 # Changes in World Manufacturing Shares<sup>1</sup>
 
@@ -6092,8 +6106,8 @@ Developed by David Ricardo in early 1800's
 
 - Despite the date – it's all about technology
 
-○ Comparative Advantage  
-○ Absolute Advantage
+- Comparative Advantage  
+- Absolute Advantage
 
 Resources
 
@@ -6104,7 +6118,7 @@ $\mathrm{O}$  Capital
 
 - Factors of Production
 
-○ General term  
+- General term  
 $\circ$  Includes:
 
 Labor  
@@ -6118,7 +6132,7 @@ Minerals
 - Previously belief was that country must hold absolute advantage to make trade worthwhile
 
 Lowest production cost in the world  
-○ Implies best technology, lowest wages, unique natural resources
+- Implies best technology, lowest wages, unique natural resources
 
 - Ricardo demonstrates that only comparative advantage  
 $\circ$  Required for mutually beneficial trade  
@@ -6128,7 +6142,7 @@ $\circ$  Required for mutually beneficial trade
 
 - Ricardo's goal was to demonstrate the benefits of free trade
 
-○ Opposed then prominent mercantilists
+- Opposed then prominent mercantilists
 
 - Counterintuitive idea: even if cost of production for all goods a country produced higher than trading partners, still benefit by exporting the good that country produces most efficiently
 
@@ -6140,7 +6154,7 @@ $\circ$  Required for mutually beneficial trade
 Laborers equally skilled and available to either industry  
 - Two industries, perfect competition
 
-○ Wheat farming  
+- Wheat farming  
 $\mathrm{O}$  Cloth production
 
 # Example
@@ -6149,7 +6163,7 @@ $\mathrm{O}$  Cloth production
 - Home labor supply  $L = 25$  
 Home MPL
 
-○ Wheat:  $\mathrm{MPL}_{\mathrm{w}} = 4$  bushels (bu)  
+- Wheat:  $\mathrm{MPL}_{\mathrm{w}} = 4$  bushels (bu)  
 $\mathrm{O}$  Cloth:  $\mathrm{MPL}_{\mathrm{C}} = 2$  yards (yds)
 
 - MPLs constant - linear Production Possibilities Frontier (PPF)
@@ -6170,7 +6184,7 @@ $\mathrm{O}$  Cloth:  $\mathrm{MPL}_{\mathrm{C}} = 2$  yards (yds)
 - All laborers may choose which industry to work in:
 
 What does this say about the wage rate?  
-○ What is the value of a unit of work to company?
+- What is the value of a unit of work to company?
 
 # Home Equilibrium
 
@@ -6224,7 +6238,7 @@ What is Foreign's opportunity cost of cloth?
 Of wheat?  
 
 - What is Home's opportunity cost of cloth?  
-○ Of wheat?
+- Of wheat?
 
 # Home and Foreign Comparative Advantage
 
@@ -6259,7 +6273,7 @@ Gains from trade for both countries
 Each country
 
 Consumes more  
-○ Specializes entirely in production of one good
+- Specializes entirely in production of one good
 
 Home - wheat  
 Foreign - cloth
@@ -6278,7 +6292,7 @@ Trade patterns determined by comparative advantage
 Determine wages at Home and Foreign  
 - Nominal versus real
 
-○ Nominal in currency terms  
+- Nominal in currency terms  
 Real "how much can I buy?"
 
 # More on Wages
@@ -6286,12 +6300,12 @@ Real "how much can I buy?"
 - $\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}} = 2 / 3$  
 Real wage determination:
 
-○ Home
+- Home
 
 - $\mathrm{MPL}_{\mathrm{W}} = 4$  bu. of wheat  
 $\left(\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}}\right) \mathrm{XMPL}_{\mathrm{W}} = (2 / 3) \times 4 = 8 / 3$  yds. of cloth
 
-○ Foreign
+- Foreign
 
 - $M P L_{C} = 1$  yd. of cloth  
 - $\left(\mathrm{P}_{\mathrm{C}}^{*} / \mathrm{P}_{\mathrm{W}}^{*}\right) \mathrm{XMPL}_{\mathrm{C}}^{*} = (3 / 2) \times 1 = 3 / 2$ bu. of wheat
@@ -6301,8 +6315,8 @@ $\left(\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}}\right) \mathrm{XMPL}_{\
 - Productivity measured by value-added per hour  
 - Greater productivity generally implies higher wages
 
-○ Relationship varies greatly  
-○ Will discuss reasons why in a couple of weeks
+- Relationship varies greatly  
+- Will discuss reasons why in a couple of weeks
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f402bce7-6e9a-46ab-ab95-a0c842df354f/9bb25ff76426aacc65592c09a66e009a05c53abb35637dd637acb9e6c6a517ff.jpg)  
 FIGURE 2-7 Labor Productivity and Real Wages, 2012 Labor productivity is measured by real value-added per hour of work and can be compared with the real wages paid in manufacturing in various countries. The general ranking of countries in terms of labor productivity—from highest to lowest—is the same as the ranking in terms of wages: countries with higher labor productivity generally pay higher wages, just as the Ricardian model predicts.
@@ -6312,8 +6326,8 @@ FIGURE 2-7 Labor Productivity and Real Wages, 2012 Labor productivity is measure
 - Demonstrate how the world price is determined  
 Supply and demand
 
-○ Home export supply  
-○ Foreign import demand
+- Home export supply  
+- Foreign import demand
 
 - Construct Home export supply curve
 
@@ -6335,14 +6349,14 @@ Why is the curve horizontal at  $12$ ?
 
 - Wheat production and export supply is a function of  $\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}}$
 
-○ 1/2 or lower no incentive to export
+- 1/2 or lower no incentive to export
 
 Production may occur anywhere along PPF  
 
 - Indifferent to trade
 
-○ 1/2 to 1 increasing exports to Foreign  
-○ 1 or greater, Foreign indifferent to imports
+- 1/2 to 1 increasing exports to Foreign  
+- 1 or greater, Foreign indifferent to imports
 
 - If  $\mathrm{P_W} / \mathrm{P_C} > 1$  or  $< 1/2$  implies one country is much larger causing the large country to be indifferent to trade
 
@@ -6386,11 +6400,11 @@ $\mathrm{O}$  Reasoning:
 
 Real-world data do not show it to be a good generalization
 
-○ Technological improvements lead to rapidly decreasing prices for manufactured goods  
+- Technological improvements lead to rapidly decreasing prices for manufactured goods  
 $\circ$  Terms of trade for industrialized countries declines  
 
 - Cartels, or limited locations for production, restrict supplies of some commodities  
-○ Population growth and increasing wages in developing countries has increased food demand
+- Population growth and increasing wages in developing countries has increased food demand
 
 # Decreasing Relative Prices
 

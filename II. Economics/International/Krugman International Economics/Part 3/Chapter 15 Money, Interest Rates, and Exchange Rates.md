@@ -1,82 +1,83 @@
 ---
-aliases:
-- Money, Interest Rates, and Exchange Rates
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 15: Money, Interest Rates, and Exchange Rates'
-linter-yaml-title-alias: 'Chapter 15: Money, Interest Rates, and Exchange Rates'
+title: Chapter 15 Money Interest Rates and Exchange Rates
+parent_directory: Krugman International Economics
+formatted: 2025-12-21 03:15:00 PM
+formatter_model: claude-opus-4-5-20251101
+cli_tool: claude-code
 primary_tags:
-- money market
-- money supply demand 423
+  - money supply demand
+  - interest rates exchange rates
+  - monetary policy
+  - exchange rate determination
 secondary_tags:
-- money supply exchange rate
-- rates 417 money defined
-tags_extracted: '2025-12-18T01:47:04.809201'
+  - money market equilibrium
+  - liquidity preference
+  - purchasing power parity
+  - exchange rate overshooting
+cssclasses: academia
 ---
 
-# 15 Money, Interest Rates, and Exchange Rates 417
+# Chapter 15: Money, Interest Rates, and Exchange Rates
 
-Money Defined: A Brief Review 418
+## Money Defined: A Brief Review
 
-Money as a Medium of Exchange 418
+### Money as a Medium of Exchange
 
-Money as a Unit of Account 418
+### Money as a Unit of Account
 
-Money as a Store of Value 419
+### Money as a Store of Value
 
-What Is Money? 419
+### What Is Money?
 
-How the Money Supply Is Determined 419
+### How the Money Supply Is Determined
 
-# The Demand for Money by Individuals 420
+## The Demand for Money by Individuals
 
-Expected Return 420
+### Expected Return
 
-Risk. 421
+### Risk
 
-Liquidity 421
+### Liquidity
 
-# Aggregate Money Demand 421
+## Aggregate Money Demand
 
-# The Equilibrium Interest Rate: The Interaction of Money Supply and Demand 423
+## The Equilibrium Interest Rate: The Interaction of Money Supply and Demand
 
-Equilibrium in the Money Market 424
+### Equilibrium in the Money Market
 
-Interest Rates and the Money Supply 425
+### Interest Rates and the Money Supply
 
-Output and the Interest Rate 426
+### Output and the Interest Rate
 
-# The Money Supply and the Exchange Rate in the Short Run 427
+## The Money Supply and the Exchange Rate in the Short Run
 
-Linking Money, the Interest Rate, and the Exchange Rate 427
+### Linking Money, the Interest Rate, and the Exchange Rate
 
-U.S. Money Supply and the Dollar/Euro Exchange Rate 430
+### U.S. Money Supply and the Dollar/Euro Exchange Rate
 
-Europe's Money Supply and the Dollar/Euro Exchange Rate 430
+### Europe's Money Supply and the Dollar/Euro Exchange Rate
 
-# Money, the Price Level, and the Exchange Rate in the Long Run 433
+## Money, the Price Level, and the Exchange Rate in the Long Run
 
-Money and Money Prices 433
+### Money and Money Prices
 
-The Long-Run Effects of Money Supply Changes 434
+### The Long-Run Effects of Money Supply Changes
 
-Empirical Evidence on Money Supplies and Price Levels 435
+### Empirical Evidence on Money Supplies and Price Levels
 
-Money and the Exchange Rate in the Long Run 436
+### Money and the Exchange Rate in the Long Run
 
-# Inflation and Exchange Rate Dynamics 437
+## Inflation and Exchange Rate Dynamics
 
-Short-Run Price Rigidity versus Long-Run Price Flexibility 437
+### Short-Run Price Rigidity versus Long-Run Price Flexibility
 
-# BOX: Money Supply Growth and Hyperinflation in Zimbabwe 439
+#### BOX: Money Supply Growth and Hyperinflation in Zimbabwe
 
-# Permanent Money Supply Changes and the Exchange Rate 442
+## Permanent Money Supply Changes and the Exchange Rate
 
-Exchange Rate Overshooting 443
+### Exchange Rate Overshooting
 
-# CASE STUDY: Inflation Targeting and Exchange Rate in Emerging Countries 445
+#### CASE STUDY: Inflation Targeting and Exchange Rate in Emerging Countries
 
-# Summary 448
+## Summary
 

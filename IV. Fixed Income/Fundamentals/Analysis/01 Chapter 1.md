@@ -1,5 +1,9 @@
 ---
 title: Chapter 01 - Fixed Income Securities Fundamentals
+parent_directory: Analysis
+formatted: 2025-12-21 08:40:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
 primary_tags:
   - fixed income securities
   - interest rate derivatives
@@ -48,7 +52,7 @@ We should be aware that many interest rate derivatives now are also derivatives 
 
 #### 1.1.2 Trading Conventions
 
-One thing very unique about fixed income securities markets is the trading and quoting conventions. Fixed income securities have the most complex trading and quoting conventions than any other securities. Lets try several examples here. Most fixed income securities are quoted on the thirty second basis. For example, a bond quoted at 100.16 does not mean the bond will be bought and sold at 100 dollars and 16 cents. But rather, the bond will be bought and sold at $100 + 16/32$, which is 100 dollars and 50 cents. One tick in fixed income securities is 1/32. Stocks used to have ticks too of 1/8 and 1/16 but they do not have that anymore.
+One thing very unique about fixed income securities markets is the trading and quoting conventions. Fixed income securities have the most complex trading and quoting conventions than any other securities. Lets try several examples here. Most fixed income securities are quoted on the thirty second basis. For example, a bond quoted at 100.16 does not mean the bond will be bought and sold at 100 dollars and 16 cents. But rather, the bond will be bought and sold at $100 + \frac{16}{32}$, which is 100 dollars and 50 cents. One tick in fixed income securities is 1/32. Stocks used to have ticks too of 1/8 and 1/16 but they do not have that anymore.
 
 Another interesting trading convention is dirty price versus clean price. Bonds are quoted by the clean price but transacted by the dirty price. The difference is the accrued interest. Investors who buy and sell bonds need to compute the accrued interest by themselves and the add to the clean price to get the dirty price.
 

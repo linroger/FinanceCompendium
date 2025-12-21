@@ -20,46 +20,46 @@ cssclasses: academia
 
 # The Standard Trade Model
 
-A Standard Model of a Trading Economy 150
+## A Standard Model of a Trading Economy
 
-Production Possibilities and Relative Supply 150
+### Production Possibilities and Relative Supply
 
-Relative Prices and Demand. 151
+### Relative Prices and Demand
 
-The Welfare Effect of Changes in the Terms of Trade 154
+## The Welfare Effect of Changes in the Terms of Trade
 
-BOX: U.S. Consumer Gains from Chinese Imports 155
+**BOX: U.S. Consumer Gains from Chinese Imports**
 
-Determining Relative Prices 155
+## Determining Relative Prices
 
-Economic Growth: A Shift of the RS Curve 157
+## Economic Growth: A Shift of the RS Curve
 
-Growth and the Production Possibility Frontier 157
+### Growth and the Production Possibility Frontier
 
-World Relative Supply and the Terms of Trade 159
+### World Relative Supply and the Terms of Trade
 
-International Effects of Growth 159
+### International Effects of Growth
 
-CASE STUDY: Has the Growth of Newly Industrialized Economies Hurt Advanced Nations? 161
+**CASE STUDY: Has the Growth of Newly Industrialized Economies Hurt Advanced Nations?**
 
-BOX: The Exposure of Developing Countries to Terms of Trade Shocks and the COVID-19 Pandemic 163
+**BOX: The Exposure of Developing Countries to Terms of Trade Shocks and the COVID-19 Pandemic**
 
-Tariffs and Export Subsidies: Simultaneous Shifts in  $RS$  and  $RD$  163
+## Tariffs and Export Subsidies: Simultaneous Shifts in $RS$ and $RD$
 
-Relative Demand and Supply Effects of a Tariff 164
+### Relative Demand and Supply Effects of a Tariff
 
-Effects of an Export Subsidy 165
+### Effects of an Export Subsidy
 
-Implications of Terms of Trade Effects: Who Gains and Who Loses? 165
+### Implications of Terms of Trade Effects: Who Gains and Who Loses?
 
-International Borrowing and Lending 167
+## International Borrowing and Lending
 
-Intertemporal Production Possibilities and Trade 167
+### Intertemporal Production Possibilities and Trade
 
-The Real Interest Rate 168
+### The Real Interest Rate
 
-Intertemporal Comparative Advantage 169
+### Intertemporal Comparative Advantage
 
-Summary 170
+## Summary
 
-APPENDIX TO CHAPTER 6: More on Intertemporal Trade 174
+## APPENDIX TO CHAPTER 6: More on Intertemporal Trade

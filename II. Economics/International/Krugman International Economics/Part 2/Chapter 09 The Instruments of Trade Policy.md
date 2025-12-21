@@ -1,71 +1,105 @@
 ---
-aliases:
-- The Instruments of Trade Policy
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 09: The Instruments of Trade Policy'
-linter-yaml-title-alias: 'Chapter 09: The Instruments of Trade Policy'
+title: Chapter 09 The Instruments of Trade Policy
+parent_directory: Krugman International Economics
+formatted: 2025-12-21 07:40:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
 primary_tags:
 - trade policy instruments
-- effects tariff
+- tariff analysis
+- import quotas
+- export subsidies
 secondary_tags:
-- effects trade policy summary
-- trade policy
-tags_extracted: '2025-12-18T01:46:55.260495'
+- consumer surplus
+- producer surplus
+- trade protection
+- trade barriers
+cssclasses: academia
 ---
 
 # Chapter 09 The Instruments of Trade Policy
 
-9 The Instruments of Trade Policy 242
+## 9 The Instruments of Trade Policy
 
-Basic Tariff Analysis 242
+### Basic Tariff Analysis
 
-Supply, Demand, and Trade in a Single Industry 243
+#### Supply, Demand, and Trade in a Single Industry
 
-Effects of a Tariff 245
+#### Effects of a Tariff
 
-Measuring the Amount of Protection 246
+#### Measuring the Amount of Protection
 
-Costs and Benefits of a Tariff 248
+#### Costs and Benefits of a Tariff
 
-Consumer and Producer Surplus 248
+#### Consumer and Producer Surplus
 
-Measuring the Costs and Benefits 250
+#### Measuring the Costs and Benefits
 
-CASE STUDY: Winners and Losers of the Trump Trade War 253
+#### CASE STUDY: Winners and Losers of the Trump Trade War
 
-BOX: Tariffs and Retaliation 257
+#### BOX: Tariffs and Retaliation
 
-Other Instruments of Trade Policy 258
+### Other Instruments of Trade Policy
 
-Export Subsidies: Theory 258
+```d2
+trade_instruments: Trade Policy Instruments {
+  direction: down
+  
+  tariffs: "Tariffs" {
+    shape: rectangle
+    label: "Taxes on imports\nIncrease price for consumers"
+  }
+  
+  quotas: "Import Quotas" {
+    shape: rectangle
+    label: "Quantity limits on imports\nCreate scarcity"
+  }
+  
+  subsidies: "Export Subsidies" {
+    shape: rectangle
+    label: "Payments to exporters\nLower export prices"
+  }
+  
+  restraints: "Voluntary Export Restraints" {
+    shape: rectangle
+    label: "Self-imposed export limits\nAvoid formal quotas"
+  }
+  
+  content_req: "Local Content Requirements" {
+    shape: rectangle
+    label: "Mandate domestic content\nProtection through regulation"
+  }
+  
+  tariffs -> quotas -> subsidies -> restraints -> content_req
+}
+```
 
-BOX: The Unfriendly Skies: Settling the Longest Running Trade Dispute 259
+#### Export Subsidies: Theory
 
-Import Quotas: Theory 259
+#### BOX: The Unfriendly Skies: Settling the Longest Running Trade Dispute
 
-CASE STUDY: Tariff-Rate Quota Origin and its Application in Practice with Oilseeds 260
+#### Import Quotas: Theory
 
-Voluntary Export Restraints. 264
+#### CASE STUDY: Tariff-Rate Quota Origin and its Application in Practice with Oilseeds
 
-Local Content Requirements 265
+#### Voluntary Export Restraints
 
-BOX: Healthcare Protection with Local Content Requirements 266
+#### Local Content Requirements
 
-Other Trade Policy Instruments 267
+#### BOX: Healthcare Protection with Local Content Requirements
 
-The Effects of Trade Policy: A Summary 267
+#### Other Trade Policy Instruments
 
-Summary 268
+### The Effects of Trade Policy: A Summary
 
-APPENDIX TO CHAPTER 9: Tariffs and Import Quotas in the Presence of Monopoly. 272
+## Summary
 
-The Model with Free Trade 272
+## APPENDIX TO CHAPTER 9: Tariffs and Import Quotas in the Presence of Monopoly
 
-The Model with a Tariff 273
+### The Model with Free Trade
 
-The Model with an Import Quota 274
+### The Model with a Tariff
 
-Comparing a Tariff and a Quota 274
+### The Model with an Import Quota
+
+### Comparing a Tariff and a Quota

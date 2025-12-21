@@ -1,60 +1,59 @@
 ---
-parent_directory:
-title: Movement of Labor and Capital Between
-tags:
-aliases:
-parent_folder: International Trade, Banking, and Capital Markets
-subfolder:
-key_concepts:
+title: Movement of Labor and Capital Between Countries I
+parent_directory: PPHA International Trade, Banking, and Capital Markets
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- labor migration
+- capital investment
+- foreign direct investment
+- immigration effects
+- factor price insensitivity
+secondary_tags:
+- rybczynski theorem
+- heckscher-ohlin model
+- mariel boat lift
+- sovereign wealth funds
+- wage convergence
+- capital flows
+- factor mobility
+- economic integration
 cssclasses: academia
-linter-yaml-title-alias: Movement of Labor and Capital Between
 ---
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/11fe0b74-1763-4c5e-aae4-ab9bd5885d53/adb28c9e341f31ed8622fbfcfa809c7d99572b8e3ac3535cbb9a15b7a597b259.jpg)
+**Instructor:** Dave Schabes  
+**Date:** October 13, 2022
 
-Autumn
+## Migration and Capital Investment
 
-2022
-
-# Movement of Labor and Capital Between
-
-# Countries I
-
-Dave Schabes
-
-October 13, 2022
-
-# Migration and Capital Investment
-
-- Begin with Specific Factors model – short-run consequences  
-- Subsequently Heckscher-Ohlin model – long-run consequences  
-- Impact on wages  
+- Begin with Specific Factors model – short-run consequences
+- Subsequently Heckscher-Ohlin model – long-run consequences
+- Impact on wages
 - Turn to Foreign Direct Investment (FDI)
 
-Capital movement across countries
+Capital movement across countries and resulting gains and losses due to migration and FDI.
 
-Gains and losses due to migration and FDI
+## Short-run Effects
 
-# Short-run Effects
-
-- Two sectors Manufacturing and Agriculture  
+- Two sectors: Manufacturing and Agriculture
 - Single labor pool:
 
 $$
-L_{A} + L_{M} = \overline {{L}}
+L_A + L_M = \overline{L}
 $$
 
 Wages in each sector:
 
 $$
-W = P_{A} \cdot M P L_{A}
+W = P_A \cdot MPL_A
 $$
 
 $$
-W = P_{M} \cdot M P L_{M}
+W = P_M \cdot MPL_M
 $$
 
-- Equilibrium occurs when  $W$  is the same in both sectors
+- Equilibrium occurs when $W$ is the same in both sectors
 
 # No-trade Home Market Labor Equilibrium
 
@@ -82,7 +81,7 @@ Wages decline for all workers
 - Views of capital-owners versus domestic unions  
 - Short-run both industries' output rises
 
-$\circ$  Labor increase does not affect world relative prices
+- Labor increase does not affect world relative prices
 
 # New World Immigration and Wage Convergence
 
@@ -97,17 +96,19 @@ Output of agriculture,  $Q_{A}$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/11fe0b74-1763-4c5e-aae4-ab9bd5885d53/0bcd4df8a5adfade57493a8d6dcbb06f57f30024c81665b870c5fcbd826c7929.jpg)
 
-# Long-run Effects of Immigration
+## Long-run Effects of Immigration
 
 - Assume Heckscher-Ohlin world, except:
+  - Allow labor to move between countries
+  - Capital remains fixed in each country
 
-○ Allow labor to move between countries  
-Capital remains fixed in each country  
-
-- Shoe manufacturing labor intensive; computer manufacturing capital intensive
+- Shoe manufacturing is labor intensive; computer manufacturing is capital intensive
 
 $$
-\begin{array}{l} \frac{L_{S}}{K_{S}} > \frac{L_{C}}{K_{C}} e q u i v a l e n t l y, \frac{K_{C}}{L_{C}} > \frac{K_{S}}{L_{S}} \\ K_{C} + K_{S} = \overline {{K}} a n d L_{C} + L_{S} = \overline {{L}} \\ \end{array}
+\begin{align}
+\frac{L_S}{K_S} > \frac{L_C}{K_C} \quad \text{equivalently,} \quad \frac{K_C}{L_C} > \frac{K_S}{L_S} \\
+K_C + K_S = \overline{K} \quad \text{and} \quad L_C + L_S = \overline{L}
+\end{align}
 $$
 
 # Long-run Effects of Immigration – Pre-immigration

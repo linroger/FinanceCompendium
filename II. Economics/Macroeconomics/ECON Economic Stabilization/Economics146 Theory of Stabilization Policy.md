@@ -1,12 +1,24 @@
 ---
-aliases:
-  - Theory of Stabilization Policy
-tags:
-key_concepts:
-parent_directory: "[[ECON Economic Stabilization]]"
-cssclasses: academia
 title: Theory of Stabilization Policy
-linter-yaml-title-alias: Theory of Stabilization Policy
+parent_directory: ECON Economic Stabilization
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - stabilization policy
+  - fiscal policy
+  - monetary policy
+  - countercyclical policy
+  - Lucas critique
+secondary_tags:
+  - Milton Friedman
+  - policy timing
+  - policy magnitude
+  - business cycle stabilization
+  - utility gains from stabilization
+  - aggregate demand management
+  - macroeconomic fluctuations
+cssclasses: academia
 ---
 
 # Theory of Stabilization Policy

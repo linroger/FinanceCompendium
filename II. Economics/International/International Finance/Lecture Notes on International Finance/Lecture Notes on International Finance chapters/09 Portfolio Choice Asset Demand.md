@@ -508,13 +508,13 @@ Yet in other cases, the asset supply can be fully elastic, which means that the 
 This demand system model also has a simple expression for demand elasticity. The log demand by issuer  $\iota$  is given by
 
 $$
-\log q_{t}^{\text{de ma nd}} (\iota) = \log \left(a_{t} x_{t} (\iota) / p_{t} (\iota)\right),
+\log q_{t}^{\text{demand}}(\iota) = \log \left(a_{t} x_{t}(\iota) / p_{t}(\iota)\right)
 $$
 
 which implies that the demand elasticity is<sup>3</sup>
 
 $$
-- \frac{\partial \log q_{t}^{\text{de ma nd}} (\iota)}{\partial \log p_{t} (\iota)} = 1 - \frac{\partial \log x_{t} (\iota)}{\partial \log p_{t} (\iota)} = 1 - (1 - x_{t} (\iota)) \alpha .
+- \frac{\partial \log q_{t}^{\text{demand}}(\iota)}{\partial \log p_{t}(\iota)} = 1 - \frac{\partial \log x_{t}(\iota)}{\partial \log p_{t}(\iota)} = 1 - (1 - x_{t}(\iota)) \alpha
 $$
 
 To interpret this result, note that we expect  $\alpha < 0$  as demand is decreasing in price. Then, the demand elasticity is increasing in the magnitude  $|\alpha|$ , a higher value of which means that the households' demand is more sensitive to the price. Magnitude-wise, suppose this asset is only  $1\%$  of the total market cap, and  $\alpha = -1$ , so that a  $1\%$  increase in asset price roughly leads to a  $1\%$  reduction in investor demand. Then, the demand elasticity is 1.99, which is already at the higher end of the distribution of empirical estimates.
@@ -522,7 +522,7 @@ To interpret this result, note that we expect  $\alpha < 0$  as demand is decrea
 The demand elasticity is also decreasing in the portfolio share  $x_{t}(\iota)$ , which means an asset with a larger size has fewer alternatives to substitute with. This is a desirable feature of the asset demand system, because reserve assets in high demand such as the U.S. Treasury
 
 $$
-{ }^{ 3 } \text{ ~T he ~d er iv at io n ~i ss im pl e : ~ } \frac{ \partial \log x_{ t } ( i ) } { \partial \log p_{ t } ( i ) } =
+^{3} \text{ The derivation is simple: } \frac{\partial \log x_{t}(i)}{\partial \log p_{t}(i)} =
 $$
 
 $$
@@ -612,9 +612,7 @@ Third, Gabaix and Koijen [2020] propose a granular instrumental variable approac
 
 In this section, we consider a two-tier demand system that Koijen and Yogo [2020], Jiang, Richmond, and Zhang [2022c,d] use to study the international financial market. We consider a simplified case in which there are only two countries and two asset classes.
 
-In this model, we assume that the investors make two sequen-
-
-tial decisions. First, they allocate their wealth across different asset classes indexed by  $\ell$ , which we refer to as short-term bonds ( $\ell = 1$ ) and equities ( $\ell = 2$ ) in this note. Second, within each asset class, they allocate their wealth across different issuer countries indexed by  $\iota$ . As such, investor country  $n$ 's demand for the asset in class  $\ell$ , issuer country  $\iota$  has a nested-logit structure:
+In this model, we assume that the investors make two sequential decisions. First, they allocate their wealth across different asset classes indexed by  $\ell$ , which we refer to as short-term bonds ( $\ell = 1$ ) and equities ( $\ell = 2$ ) in this note. Second, within each asset class, they allocate their wealth across different issuer countries indexed by  $\iota$ . As such, investor country  $n$ 's demand for the asset in class  $\ell$ , issuer country  $\iota$  has a nested-logit structure:
 
 $$
 x_{n, t} (\iota , \ell) = x_{n, t} (\ell) \cdot x_{n, t} (\iota | \ell),
@@ -625,13 +623,13 @@ where  $x_{n,t}(\ell)$  denotes the portfolio share of the entire asset class  $
 The allocation within the asset class is similar to the one we considered in the baseline case:
 
 $$
-x_{n, t} (\iota | \ell) = \frac{\exp \left(\delta_{n , t} (\iota , \ell)\right)}{1 + \sum_{k} \exp \left(\delta_{n , t} (k , \ell)\right)},
+x_{n,t}(\iota|\ell) = \frac{\exp(\delta_{n,t}(\iota,\ell))}{1 + \sum_{k} \exp(\delta_{n,t}(k,\ell))}
 $$
 
 where
 
 $$
-\delta_{n, t} (\iota , \ell) = \alpha \log \left(p_{t} (\iota , \ell) \exp \left(e_{t} (n) - e_{t} (\iota)\right)\right) + \kappa_{n, t} (\iota , \ell)
+\delta_{n,t}(\iota,\ell) = \alpha \log \left(p_{t}(\iota,\ell) \exp(e_{t}(n) - e_{t}(\iota))\right) + \kappa_{n,t}(\iota,\ell)
 $$
 
 captures the desirability of this asset  $(\iota, \ell)$ . We refer to the currency of the home country as the dollar. We use  $p_t(\iota, \ell)$  to denote the asset price in the local currency units, and  $e_t(\iota)$  to denote the log exchange rate of the local currency per dollar. Then,  $p_t(\iota, \ell) \exp(e_t(n) - e_t(\iota))$  captures the price of the asset from the issuer country  $\iota$  in the units of the local currency in the investor country  $n$ . For simplicity, we ignore the asset-specific characteristics  $\Xi_t(\iota)$ . We allow the latent demand  $\kappa_{n,t}(\iota, \ell)$  to be specific to the investor  $n$ .
@@ -639,7 +637,7 @@ captures the desirability of this asset  $(\iota, \ell)$ . We refer to the curre
 The allocation across asset classes is modeled as
 
 $$
-x_{n, t} (\ell) = \frac{\left(1 + \sum_{k} \exp \left(\delta_{n , t} (k , \ell)\right)\right)^{\lambda} \exp \left(\psi_{\ell} + \xi_{n , t} (\ell)\right)}{\sum_{m} \left(1 + \sum_{k} \exp \left(\delta_{n , t} (k , m)\right)\right)^{\lambda} \exp \left(\psi_{m} + \xi_{n , t} (m)\right)},
+x_{n,t}(\ell) = \frac{\left(1 + \sum_{k} \exp(\delta_{n,t}(k,\ell))\right)^{\lambda} \exp(\psi_{\ell} + \xi_{n,t}(\ell))}{\sum_{m} \left(1 + \sum_{k} \exp(\delta_{n,t}(k,m))\right)^{\lambda} \exp(\psi_{m} + \xi_{n,t}(m))}
 $$
 
 where  $\psi_{\ell} + \xi_{n,t}(\ell)$  captures the investor's preference for asset class  $\ell$ , which is similar to the latent demand term  $\kappa_{n,t}(\iota, \ell)$  for a specific issuer country  $\iota$ . In empirical specifications, the  $\kappa_{n,t}(\iota, \ell)$  across the asset classes are identified only up to a constant, which requires us to normalize this term to be zero for one asset class. The other term  $(\sum_{k} \exp(\delta_{n,t}(k, \ell)))^{\lambda}$  is known as the inclusive value, which captures the desirability of the assets within this asset class including their prices and latent demand terms. For microfoundation and more discussions of this inclusive value term, please refer to industrial organization textbooks such as Train [2009].
@@ -723,6 +721,4 @@ We can use the portfolio choices, asset-level desirabilities, and the law of mot
 In this section, we considered a simple two-country, two-asset class demand system model to study the effects of the demand shocks on the exchange rate and the asset prices. The reality is much richer. For example, one feature we omit in our model is the currency denomination of the assets, which exhibits important heterogeneity across issuers and across investors [Maggiori, Neiman, and Schreger, 2020]. Moreover, the investor base could be further decomposed by different
 
 sectors, such as banks, mutual funds, insurance companies and pension funds, and so on [Fang, Hardy, and Lewis, 2022, Faia, Salomao, and Veghazy, 2022, Bergant, Milesi-Ferretti, and Schmitz, 2023, Zhou, 2023]. For example, our modeling of the bilateral holdings abstracts away from the roles of financial intermediaries, which may act more than just a pass-through.
-
-# 10
 
