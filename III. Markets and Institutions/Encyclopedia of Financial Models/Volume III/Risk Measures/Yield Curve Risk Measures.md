@@ -1,3 +1,21 @@
+---
+title: "Yield Curve Risk Measures"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Risk Measures"
+formatted: "2025-12-21 08:00:00 AM"
+formatter_model: "claude-sonnet-4-5-20251001"
+cli-tool: "claude-code"
+primary_tags:
+  - yield curve risk
+  - duration measures
+  - bond portfolio sensitivity
+secondary_tags:
+  - key rate duration
+  - slope elasticity
+  - cash flow distribution
+  - yield curve reshaping
+  - principal component analysis
+cssclasses: academia
+---
 
 # Yield Curve Risk Measures
 

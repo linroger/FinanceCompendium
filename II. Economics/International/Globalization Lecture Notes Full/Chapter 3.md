@@ -46,7 +46,7 @@ LO3 Apply the principle of comparative advantage to the case of many industries,
 
 L04 List components of the gravity equation of trade and describe how they relate to Ricardian trade theory.
 
-# 3.1 Two Sectors, the Terms of Trade and Productivity Changes
+## 3.1 Two Sectors, the Terms of Trade and Productivity Changes
 
 The Ricardian trade model equips us with the tools to analyze what consequences the Great Doubling may have for the world economy. The principle of comparative advantage predicts the direction of trade flows and the pattern of specialization. Free markets provide the right price incentives to each country's producers so that they will indeed specialize in the goods in which they have the lower opportunity cost of producing.
 
@@ -510,7 +510,7 @@ One way to see how well geographic distance in the gravity equation predicts tra
 
 Another way we can use the gravity equation to predict trade flows is by plotting trade flows against the gravity-variable combination  $\mathrm{GDP}_{Si} \cdot \mathrm{GDP}_{Di} / d_{SD}$ . Panel (b) of Figure 3.10 shows this plot. Notice how closely the points fall near the straight line drawn from them, which means there is a clearly positive relationship between the flows and the gravity-variable combination.[12]
 
-# Ricardian Trade Theory and the Gravity Equation
+## Ricardian Trade Theory and the Gravity Equation
 
 One problem with the gravity equation is that it does not answer the question why do countries globalize, which is one of the guiding themes of this textbook. The Ricardian trade model can help the gravity equation get some serious theoretical support. To see how, we need to bring geographic trade barriers into our model. When an exporter prices her good for foreign customers, she looks at the freight factor, which measures the proportional increase in the final price of a delivered good due to transportation costs. If a good costs one dollar to make, and freight adds ten percent, then the goods final price at delivery is one dollar and ten cents and the freight factor is 1.1. In terms of our pricing formula for good  $i$ , its producer price prior to leaving the source country  $S$  (Home) is  $P_{Si} = a_i w$ . The final price at delivery to the destination country  $D$  is  $P_{Di} = d_{SD} P_{Si}$ , where
 

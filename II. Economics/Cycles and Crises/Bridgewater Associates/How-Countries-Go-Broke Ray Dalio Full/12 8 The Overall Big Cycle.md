@@ -22,11 +22,11 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# 12 8 The Overall Big Cycle
+# 12.8 The Overall Big Cycle
 
 If I had to pick the most important chapter in the book, this would be it. That is because it deals with the biggest and most important forces that are dramatically changing the world order, and it shows how and why these forces have repeatedly driven history through its big cycles. Having seen so many of these cycles, watching what is happening is like watching a movie that I have seen many times before—just a contemporary version in which the clothes that the people are wearing and the technologies that they are using are more modern. I hope to show you what I see. Also, by showing what happened in the past and why it happened, we can understand how previously unimaginable developments are now happening and could happen in the future.
 
-### Why We Can't Look at the Debt Cycle in Isolation
+## Why We Can't Look at the Debt Cycle in Isolation
 
 While this book is mostly focused on understanding what's going on with debt/credit/money/economic cycles, we can't look at this dynamic in isolation and make sense of it because how these cycles transpire is influenced by other big forces. Similarly, to understand what is happening in other areas, we need to understand the debt/credit/money/economic force as it has big effects on developments in most areas. Together, five big forces produce the Overall Big Cycle that leads to radical changes in monetary, domestic, and/or world orders.
 

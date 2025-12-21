@@ -273,7 +273,7 @@ Thus, for any $\VaR$, (profits, returns, log returns,) you'll typically see
 
 We could use log returns, but it would require a different formula for $\VaR$ profits, and these would no longer be normally distributed.
 
-$$\pnlVaRqtau = \port_t\left[\exp\left\{\tau\mu + \zscore_q\sqrt{\sigma}\right\}-1\right]$$
+$$\pnlVaRqtau = \port_t\left[\exp\left\{\tau\mu + \zscore_\quant\sqrt{\sigma}\right\}-1\right]$$
 
 # Conditional Value-at-Risk (CVaR)
 
@@ -297,7 +297,7 @@ $$\rCVaRqtau_t =\;  \mu_{\tau,t} - \frac{\pdfz(\zscore_\quant)}{\quant}\sigma_{\
 
 ### Technical Point
 
-We get the closed-form solution for $\CVaR$ from an well-known result about the **truncated normal** distribution. That is to say, the conditional expectation of a normal distribution.
+We get the closed-form solution for $\CVaR$ from a well-known result about the **truncated normal** distribution. That is to say, the conditional expectation of a normal distribution.
 
 * Consider a standard normal, $\zscore$
 * Let $\pdfz$ denote the **pdf** of the standard normal.

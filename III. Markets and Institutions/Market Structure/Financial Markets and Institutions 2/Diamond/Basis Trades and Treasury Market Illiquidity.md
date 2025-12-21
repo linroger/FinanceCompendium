@@ -29,9 +29,7 @@ _By Daniel Barth and Jay Kahn_ [1]
 
 ### The Treasury futures basis trade seeks to exploit the price difference between cash Treasury securities and Treasury futures. This brief summarizes evidence on the size and extent of basis trading by hedge funds and assesses the possibility that the trade's exposure to financing and liquidity risks contributed to Treasury market illiquidity in March 2020. This brief also highlights the potential for the trade to lead to further illiquidity. While we find that Treasury illiquidity in March placed stress on Treasury basis trades, the evidence casts doubt on the theory that stress in these trades amplified Treasury market illiquidity. Intervention by the Federal Reserve in the Treasury and repo markets may have limited spillovers that could affect financial stability.
 
-# Basis trading is a form of near-arbitrage between the cash and futures prices of Treasury securities — a usually small difference known as the basis. If this difference is bigger than the cost of buying the Treasury and financing that purchase in the repurchase agreement (repo) market, then the trade is profitable. Traders rely on repo markets for financing to achieve high leverage for these trades. In early March 2020, stress in Treasury
-markets led to large basis trade losses for some relative
-value hedge funds. Basis trades tie together Treasury
+# Basis trading is a form of near-arbitrage between the cash and futures prices of Treasury securities — a usually small difference known as the basis. If this difference is bigger than the cost of buying the Treasury and financing that purchase in the repurchase agreement (repo) market, then the trade is profitable. Traders rely on repo markets for financing to achieve high leverage for these trades. In early March 2020, stress in Treasury markets led to large basis trade losses for some relative value hedge funds. Basis trades tie together Treasury
 markets, futures markets, and repo markets, all three of
 which are crucial to price discovery and liquidity provision in the financial system. While the return on the
 basis trade is virtually guaranteed over the long term,

@@ -122,7 +122,7 @@ Besides being sometimes incapable of recognizing the diversification effect, ano
 Nonetheless, VaR is not a useless concept to be abandoned altogether. For example, it can be used in risk reporting only as a characteristic of the portfolio return (payoff) distribution since it has a straightforward interpretation. The criticism of VaR is focused on its wide application by practitioners as a true risk measure, which, in view of the deficiencies described above, is not well grounded and should be reconsidered.
 
 
-# COMPUTING PORTFOLIO VaR IN PRACTICE
+## COMPUTING PORTFOLIO VaR IN PRACTICE
 
 In this section, we provide three approaches for portfolio VaR calculation that are used in practice. We assume that the portfolio contains common stocks, which is only to make the description easier to grasp; this is not a restriction of any of the approaches.
 
