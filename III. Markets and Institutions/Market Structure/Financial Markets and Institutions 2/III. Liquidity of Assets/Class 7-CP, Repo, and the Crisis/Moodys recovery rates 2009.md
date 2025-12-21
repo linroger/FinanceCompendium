@@ -1,13 +1,22 @@
 ---
-parent_directory:
-title: Special Comment
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+title: "Special Comment"
+parent_directory: "Class 7-CP, Repo, and the Crisis"
+formatted: 2025-12-21 04:50:00 PM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: claude-code
+primary_tags:
+  - corporate default rates
+  - recovery rates analysis
+  - financial crisis impact
+  - credit rating performance
+secondary_tags:
+  - moody's rating methodology
+  - speculative grade defaults
+  - distressed exchanges
+  - credit loss rates
+  - ultimate recovery database
+  - credit transition model
 cssclasses: academia
-linter-yaml-title-alias: Special Comment
 ---
 
 # Special Comment
@@ -50,7 +59,7 @@ February 2009
 
 # Corporate Default and Recovery Rates, 1920-2008
 
-# Summary
+## Summary
 
 This report comprises Moody's twenty-second annual default study in which we update statistics on the default, loss, and rating transition experience of corporate bond and loan issuers for 2008, as well as for the historical period since 1920. Briefly, we find that:
 
@@ -62,24 +71,24 @@ Moody's global speculative-grade default rate ended 2008 at  $4.1\%$ , more than
 - Measured on a dollar volume basis, Moody's global speculative-grade bond default rate ended 2008 at  $5.8\%$ , up from 2007's year-end level of  $0.6\%$ . Among all Moody's-rated issuers, the volume-weighted default rate increased from  $0.1\%$  in 2007 to  $2.2\%$  in 2008.  
 Moody's global speculative-grade default rate forecasting model predicts that the speculative-grade default rate will jump sharply to  $16.4\%$  in the fourth quarter of 2009, a level that, if it materializes, would exceed the peaks reached in 1991 and 2001.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-Rating downgrades in 2008 surpassed rating upgrades for the first time since 2003. The upgrade-to-downgrade ratio fell significantly from 2.0 in 2007 to 0.3 in 2008.  
+Rating downgrades in 2008 surpassed rating upgrades for the first time since 2003. The upgrade-to-downgrade ratio fell significantly from 2.0 in 2007 to 0.3 in 2008.
 
 - Measured using post-default trading prices, the average recovery rate for senior unsecured bonds dropped from  $53.3\%$  in 2007 to  $33.8\%$  in 2008.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/ddb31d78974b36c2eb9c32f792a736686a7de20d2b00641c44b260ac8216157a.jpg)  
 Global Speculative-Grade Default Rate Peaks
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Introduction
+## Introduction
 
 Moody's credit ratings facilitate the efficient functioning of capital markets by providing independent opinions on the creditworthiness of debt obligations issued by corporate issuers around the world. One of the primary purposes of Moody's corporate default study is to communicate the historical performance of Moody's ratings as predictors of default and loss severity for corporate issuers. In addition to providing useful data for investors and regulators, Moody's default studies also contribute to the transparency of the rating process and directly address the meaning of Moody's long-term debt ratings scale.
 
 In the following three sections, we first summarize corporate default experience and credit trends in 2008 and discuss Moody's forecast for speculative-grade corporate defaults and recovery rates in 2009. This is followed by a review of rating accuracy metrics. We then present historical statistics on corporate defaults, ratings transitions, ratings performance metrics, and recovery rates. This year's default study contains several revisions to the historical data relative to previous years' reports, which are described in detail in a separate section at the end of the study. Finally, this report includes several detailed sections describing the methodologies used to generate the statistics as well as a guide to their reading and interpretation.
 
-# 2008 – Financial Crisis Leads to Record Default Volumes
+## 2008 – Financial Crisis Leads to Record Default Volumes
 
 The global financial crisis reached a fevered pitch in 2008 with the failure of a number of large financial institutions, including the largest defaulter in history - the bankruptcy of Lehman Brothers Holdings Inc. Combined with defaults by other large financial institutions, including Washington Mutual and three large Icelandic banks, dollar default volumes easily set record highs. However, the damage was not limited to financial institutions as the financial crisis pushed the US and other developed economies into recession, and severely limited non-financial issuers' ability to access the debt markets. In fact, the high-yield debt markets were essentially closed for much of 2008 and high yield spreads reached record levels of roughly 2,000 basis points in the fourth quarter. As a result, defaults by non-financial issuers climbed sharply as the year proceeded with many distressed issuers unable to refinance maturing debt or obtain forbearance from covenant violations.
 
@@ -94,9 +103,9 @@ Among the 101 defaulters in 2008, more than half were by issuers in the broad Ca
 
 A unique characteristic of initial default events in 2008 was the high incidence of distressed exchanges. With debt markets essentially closed for high yield issuers, and the scarcity of DIP financing making bankruptcy a less attractive option, distressed issuers with unsustainable capital structures or liquidity problems had few options other than to offer debt exchanges, effectively implementing out-of-court restructurings that constitute events of default under Moody's definition of default. Of the 101 defaulters in 2008,  $23\%$ , or 23, were distressed exchanges, which is more than double the historical average of  $10\%$  of total initial default events. Exhibit 2 breaks down the 101 defaults in 2008 by initial default type and broad industry.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-Exhibit 2  
+Exhibit 2
 
 <table><tr><td colspan="6">Industry and Initial Default Type for 2008 Defaults</td></tr><tr><td>Broad Industry</td><td>Percent of Issuer Counts</td><td>Percent of Dollar Volume</td><td>Initial Default Type</td><td>Percent of Issuer Counts</td><td>Percent of Dollar Volume</td></tr><tr><td>Banking</td><td>8.9%</td><td>25.4%</td><td>Bankruptcy</td><td>45.5%</td><td>81.7%</td></tr><tr><td>Capital industries</td><td>29.7%</td><td>5.2%</td><td>Distressed Exchange</td><td>22.8%</td><td>13.2%</td></tr><tr><td>Consumer Industries</td><td>22.8%</td><td>5.1%</td><td>Payment Default</td><td>31.7%</td><td>5.2%</td></tr><tr><td>Energy &amp; Environment</td><td>6.9%</td><td>2.0%</td><td>2008 Total</td><td>101</td><td>\$281.2 bil</td></tr><tr><td>FIRE</td><td>9.9%</td><td>53.8%</td><td></td><td></td><td></td></tr><tr><td>Media &amp; Publishing</td><td>8.9%</td><td>6.7%</td><td></td><td></td><td></td></tr><tr><td>Retail &amp; Distribution</td><td>4.0%</td><td>0.7%</td><td></td><td></td><td></td></tr><tr><td>Technology</td><td>5.0%</td><td>0.8%</td><td></td><td></td><td></td></tr><tr><td>Transportation</td><td>4.0%</td><td>0.4%</td><td></td><td></td><td></td></tr><tr><td>Utilities</td><td>0.0%</td><td>0.0%</td><td></td><td></td><td></td></tr><tr><td>2008 Total</td><td>101</td><td>\$281.2 bil</td><td></td><td></td><td></td></tr></table>
 
@@ -105,7 +114,7 @@ As a result of rapidly increasing defaults in 2008, the trailing twelve-month is
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/12f6dd1bfed555ac6e0fe897d10db8166652eb2fdf6d95c6f01ac7013da3d99f.jpg)  
 Exhibit 3
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Consistent with rapidly weakening credit quality and increasing numbers of defaults, the upgrade-to-downgrade ratio for corporate issuers fell sharply in 2008. Specifically, there were 992 downgrades and 268 upgrades in 2008, sending the upgrade-to-downgrade ratio to 0.3 compared with 2.0 in  $2007^{3}$ . Exhibit 4 shows the annual upgrade-to-downgrade ratio for Moody's-rated corporate issuers between 1970 and 2008, indicating that the 2008 decline in the ratio was the largest in the past 39 years. Since 1970, the upgrade-to-downgrade ratio has averaged at 0.8.
 
@@ -114,7 +123,7 @@ Exhibit 4
 
 Historically, as shown by Moody's research, default rates and recovery rates are negatively correlated. In 2008, this negative correlation reared its head again as rising default rates coincided with declining recovery rates. As shown in Exhibit 5, and as measured by post-30 day trading prices, average recovery rates for bonds and loans in all lien positions dropped in 2008 from 2007. For example, in 2008, senior unsecured bonds recovered an average of  $33.8\%$  on an issuer-weighted basis, well below 2007's  $53.3\%$ . Measured on a value-weighted basis, the decline was even more pronounced as the average senior unsecured bond recovery rate fell to  $26.2\%$  in 2008, from a level of  $56.9\%$  a year earlier. And relative to historical averages, recovery rates of all debts, with the exception of senior secured bonds, were below average in 2008 when measured on an issuer-weighted basis.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 5  
 
@@ -126,7 +135,7 @@ Exhibit 5
 
 Value-weighted recovery rates were noticeably lower than issuer-weighted recovery rates in 2008 as larger defaulters experienced lower recovery rates relative to those of smaller defaulters. And, as shown in Exhibit 6, the recovery rates for large financial institutions in 2008 were especially low with Lehman Brothers recovering  $9\%$  on its senior unsecured bonds and the three Icelandic banks recovering less than  $5\%$  on their senior unsecured bonds. Washington Mutual Bank and Washington Mutual, however, recovered an average of  $42\%$  and the GMAC's distressed debt exchange led the pack with a relatively high recovery rate at about  $70\%$ .
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 6  
 
@@ -142,13 +151,13 @@ Exhibit 7
 
 1. Issuer-weighted. Based on 30-day post-default market prices.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 The recovery data discussed above is based on debt trading prices 30 days after the default date. An alternative recovery measure is based on ultimate recoveries, or the value creditors realize at the resolution of a default event. For example, for issuers filing for bankruptcy, the ultimate recoveries are the present values of the cash and/or securities that creditors actually receive when these issuers exit bankruptcy, typically 1-2 years following their initial default dates.<sup>4</sup>
 
 In Exhibit 8, we present data on ultimate recovery rates for North American companies in Moody's Ultimate Recovery Database.5 Last year, Moody's added 20 firms that either emerged from bankruptcy or resolved their default events in 2008. The average "firm-wide" recovery rate for these 20 firms was  $63.0\%$ , below 2007's  $68.7\%$  level, but still well above the long-term average of  $53.4\%$  since 1987. As shown in Exhibit 8, the individual debts at these 20 firms, in most cases, enjoyed higher recoveries in 2008 compared to historical averages. However, among the 10 of the 20 companies that defaulted in 2008 and also had their default events resolved in the same year, debt holders of all priorities, except senior unsecured bonds, experienced weaker recovery rates compared to their 1987-2008 historical averages. Since there is a substantial time lag between an issuer's default date and when its ultimate recovery is known, these data are consistent with there also being a lag in the observed cyclicality of ultimate recovery rates and default rates.
 
-# Exhibit 8
+## Exhibit 8
 
 Average Corporate Debt Recovery Rates Measured by Ultimate Recoveries, 1987-2008<sup>1</sup>  
 
@@ -161,7 +170,7 @@ As highlighted above, Moody's and other academic researchers have found that ann
 
 Corporate Default and Recovery Rates, 1920-2008
 
-# Exhibit 9
+## Exhibit 9
 
 Correlation between Default and Recovery Rates
 
@@ -173,16 +182,16 @@ Panel B Default Rates vs. Ultimate Recoveries, 1987-2008
 
 Moody's credit ratings are opinions of relative expected credit losses upon default, which are functions of both the probability of default and severity of default (LGD). Exhibit 10 shows annual credit loss rates from 1982 to 2008 for Moody's-rated corporate issuers. In 2008, the rising default rate, coupled with a higher loss severity rate, led to an increase in the credit loss rate among Moody's-rated issuers to  $1.2\%$ , compared to  $0.2\%$  in 2007. The average annual credit loss rate since 1982 is  $0.9\%$  (see underlying data in Exhibit 29).
 
-# Exhibit 10
+## Exhibit 10
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/52b0a3a0deff8f5a8ed60f4b5f56565ed06bf711e4f7e4fe92e925a580917b73.jpg)  
 Annual Credit Loss Rates, 1982-2008
 
 Corporate Default and Recovery Rates, 1920-2008
 
-# Default and Recovery Outlook for 2009
+## Default and Recovery Outlook for 2009
 
-# Default Rate Forecasts
+## Default Rate Forecasts
 
 The ongoing banking crisis and global economic downturn make it almost certain that default rates will continue to climb sharply during 2009. The only outstanding questions are to what levels they will rise and how quickly. Because the impact of the current economic downturn on corporate debt issuers is likely to be more severe than for the two most recent credit cycles of the early 1990s and 2000s, Moody's expects that the speculative-grade default rate will exceed the peaks of  $11.9\%$  and  $10.4\%$  reached in those cycles, respectively. Indeed, the speculative-grade default rate could exceed the  $15.4\%$  record level set in 1933, when the speculative-grade market was solely a fallen angel market comprised exclusively of downgraded investment-grade issuers.
 
@@ -195,7 +204,7 @@ Exhibit 11
 
 The high level of the high yield bond spread, which is a primary driver underlying the model's forecasts for rising default rates in 2009, began increasing in the second half of 2007 and reached a peak of approximately 2,000 basis points in the fourth quarter of 2008. Coincident with this increase in the high yield spread, Moody's Distressed Issuer index, which shows the percentage of speculative-grade issuers with debts trading at spreads to Treasuries greater than 1,000 basis points, also climbed sharply and now stands at  $52.6\%$  of speculative-grade issuers. Exhibit 12 shows the historical correlation between speculative-grade default rates,
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 high yield spreads, and Moody's Distressed Issuer index. The historical data suggest that movements in the high-yield spread often coincide with changes in the level of the speculative-grade default rate. During the last two credit cycles of 1990-91 and 2001-02, high yield bond spreads peaked at roughly 1,000 basis points, and were associated with peak speculative-grade default rates of roughly  $10 - 12\%$ . If this historical relationship were to hold up in this cycle, the recent peak of 2,000 basis points in the high yield spread suggests that speculative-grade default rates could approach  $20\%$ .
 
@@ -207,7 +216,7 @@ The current high default rate forecast also stems from deteriorating credit qual
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/8292b7889058f2af550c2ddee8deb0149ee60f9bbe4c4e3a8447a7a4c3dc6cc7.jpg)  
 Exhibit 13
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 In addition to deteriorating credit quality, refunding risks are projected to increase over the next several years as more than one-half of current U.S. speculative-grade issuers have debts maturing in the next three years. As shown in Exhibit 14, measured by dollar volume, a total of  \$190 billion in debt is coming due over the next three years, which more than doubles the refunding needs of\$ 86 billion between 2008 and 2010<sup>9</sup>. This increase in issuers' refunding needs stems from maturing debt that was originated during the refinancing boom years of 2004-2007. Among Caa-C issuers, almost one-half have at least some debt maturing from 2009 to 2011.
 
@@ -221,7 +230,7 @@ Exhibit 15 shows the baseline one-year default rate forecasts across industries 
 
 # Corporate Default and Recovery Rates, 1920-2008
 
-# Exhibit 15
+## Exhibit 15
 
 One-Year Corporate Default Rate Forecasts by Industry  
 
@@ -233,7 +242,7 @@ One-Year Corporate Default Rate Forecasts by Industry
 
 Besides forecasting default rates, the CTM can also forecast probabilities of upgrade and downgrade rates for all or any sub-group of Moody's-rated issuers. The CTM is currently forecasting that rating downgrades will continue to outnumber rating upgrades in 2009. The upgrade-to-downgrade ratio is anticipated to decline further to 0.2 in 2009 from 0.3 in 2008. Among investment-grade companies,  $5.8\%$  of issuers are expected to have their ratings downgraded to Ba1 or below in the coming twelve months. On the other hand, only  $1.6\%$  of speculative-grade issuers are expected to become rising stars in 2009.
 
-# Recovery Outlook
+## Recovery Outlook
 
 As recovery rates are negatively correlated with default rates, Moody's expects recovery rates to decline in 2009 as default rates continue to increase. Moreover, recoveries are likely to be below historical averages as a result of strong loan issuance in recent years $^{10}$ . The increasing share of loans in issuers' liability structures implies less protection for loan investors because it entails a corresponding reduction in the share of total debt junior to the loans—which serves as a first-loss cushion for the loans in the event of default. For unsecured bond holders, the increasing loan shares imply more debt senior to the bonds and, therefore, lower recovery rates on those bonds. Based on Moody's current LGD assessments, the average expected recovery rate across all U.S. first lien loans is  $68\%$ , which compares with a historical average of  $87\%$  from Moody's ultimate recovery database. For senior unsecured bonds, the average expected recovery rate is  $33\%$ , which is also lower than historical average of  $40\%$  (see Exhibit 16). In light of the current economic slowdown, we also present the LGD outlook under regularand stress-downturn scenarios where firm-wide recovery rates average  $45\%$  and  $35\%$ , respectively. In the previous two credit cycles of 1991 and 2001, firm-wide recovery rates averaged roughly  $45\%$ . However, the current downturn, and its impact on firm-wide recovery rates, could certainly be more severe than those associated with the previous two credit cycles.
 
@@ -242,7 +251,7 @@ As recovery rates are negatively correlated with default rates, Moody's expects 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/c2714e6caa4f96173018784763ebdf9126902ab50bdd9ba4d24c81b68ab6ba18.jpg)  
 Exhibit 16
 
-# Rating Accuracy Metrics
+## Rating Accuracy Metrics
 
 Moody's ratings have historically proven to be effective predictors of default. This is illustrated in Exhibit 17, which plots the average and median ratings of roughly 1,300 corporate issuers that defaulted from 1983 to 2008. The chart shows that Moody's-rated issuers have, on average, been downgraded to the Ba3 level as early as five years prior to default. Among issuers that defaulted in 2008, the average rating is Ba2 five years prior to default, which is slightly higher than its comparable historical average. In the year prior to default, 2008 defaulters' ratings were downgraded to B2 on average, which is comparable to historical average since 1983.
 
@@ -253,11 +262,11 @@ Exhibit 17
 
 As a valuable tool to measure credit risk, ratings are expected to differentiate strong credits from weaker ones. In other words, an effective rating system should not only assign low ratings to issuers that ultimately default but also assign high ratings to those that are remote to default. A metric designed to measure this aspect of ratings performance is the cumulative accuracy profile (CAP) plot as shown in Exhibit 18. A rating system that possessed no predictive information about default risk would lie on the  $45^{\circ}$  line; the further the CAP curve
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 bows toward the northwest corner, the better it is at identifying defaults in the riskiest rating categories. Exhibit 18 shows that the CAP curve for 2008 lies below the one for the 1983-2008 period, which indicates a worse performance in 2008 relative to the historical average. The drop in rating performance in 2008 is largely the result of several investment-grade defaults in the banking and financial sectors, including Lehman Brothers, Washington Mutual and three Icelandic banks.
 
-# Exhibit 18
+## Exhibit 18
 
 One-year Cumulative Accuracy Profile, 2008 vs.  
 1983-2008 pooled average  
@@ -272,9 +281,9 @@ Another way to measure rating performance is the accuracy ratio, which is derive
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/0c25058d987f8b894aa5bf37cdfaa6902e55f91e39ebec552850f9343b1138d7.jpg)  
 One and Five-Year Accuracy Ratios by Cohort Year, 1983-2008
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Data Tables and Charts
+## Data Tables and Charts
 
 Exhibit 20
 
@@ -282,7 +291,7 @@ Moody's-Rated 2008 Corporate Bond and Loan Defaults
 
 <table><tr><td>Company</td><td>Country</td><td>Initial Default Type</td><td>Bonds1</td><td>Loans1</td><td>In Jan 1 Cohort2</td></tr><tr><td>3217920 Nova Scotia Company</td><td>Canada</td><td>Distressed exchange</td><td></td><td>\$369</td><td>Yes</td></tr><tr><td>3D-GOLD Jewellery Holdings Limited</td><td>Hong Kong</td><td>Missed interest payment</td><td>\$170</td><td></td><td>Yes</td></tr><tr><td>Abitibi-Consolidated Company of Canada</td><td>Canada</td><td>Distressed exchange</td><td>\$138</td><td></td><td>Yes</td></tr><tr><td>Abitibi-Consolidated Inc.</td><td>Canada</td><td>Distressed exchange</td><td>\$317</td><td></td><td>Yes</td></tr><tr><td>ACIH, Inc.</td><td>United States</td><td>Missed interest payment</td><td>\$174</td><td></td><td>Yes</td></tr><tr><td>Ainsworth Lumber Company Limited</td><td>Canada</td><td>Distressed exchange</td><td>\$824</td><td></td><td>Yes</td></tr><tr><td>American Color Graphics, Inc.</td><td>United States</td><td>Suspension of payments</td><td></td><td>\$90</td><td>No3</td></tr><tr><td>American Media Operations, Inc.</td><td>United States</td><td>Missed interest payment</td><td>\$415</td><td></td><td>Yes</td></tr><tr><td>Ashton Woods USA, LLC</td><td>United States</td><td>Missed interest payment</td><td>\$125</td><td></td><td>Yes</td></tr><tr><td>Atlantis Plastics, Inc.</td><td>United States</td><td>Missed interest payment</td><td></td><td>\$216</td><td>Yes</td></tr><tr><td>Autocam Corporation</td><td>United States</td><td>Distressed exchange</td><td></td><td>\$30</td><td>Yes</td></tr><tr><td>Baseline Oil &amp; Gas Corp</td><td>United States</td><td>Missed pri&amp;int payments</td><td>\$115</td><td></td><td>Yes</td></tr><tr><td>Belvedere S.A.</td><td>France</td><td>Chapter 11</td><td>\$729</td><td></td><td>Yes</td></tr><tr><td>Big West Oil, LLC</td><td>United States</td><td>Chapter 11</td><td></td><td>\$600</td><td>Yes</td></tr><tr><td>BLB Management Services, Inc.</td><td>United States</td><td>Missed interest payment</td><td></td><td>\$565</td><td>Yes</td></tr><tr><td>Britannia Bulk Plc</td><td>United Kingdom</td><td>Placed under administration</td><td></td><td>\$170</td><td>Yes</td></tr><tr><td>Buffets, Inc.</td><td>United States</td><td>Chapter 11</td><td>$300</td><td>$640</td><td>Yes</td></tr><tr><td>Cap Cana, S.A.</td><td>Dominican Republic</td><td>Missed pri&amp;int payments</td><td></td><td>\$100</td><td>Yes</td></tr><tr><td>Chesapeake Corporation</td><td>United States</td><td>Missed interest payment</td><td>$295</td><td>$250</td><td>Yes</td></tr><tr><td>Constar International, Inc.</td><td>United States</td><td>Prepackaged Chapter 11</td><td>$395</td><td>$75</td><td>Yes</td></tr><tr><td>Controladora Comercial Mexicana S.A.B. de C.V</td><td>Mexico</td><td>Bankruptcy</td><td>\$455</td><td></td><td>Yes</td></tr><tr><td>Downey Financial Corp.</td><td>United States</td><td>Chapter 7</td><td>\$200</td><td></td><td>Yes</td></tr><tr><td>Finlay Fine Jewelry Corporation</td><td>United States</td><td>Distressed exchange</td><td>\$140</td><td></td><td>Yes</td></tr><tr><td>Fremont General Corporation</td><td>United States</td><td>Missed interest payment</td><td>\$166</td><td></td><td>Yes</td></tr><tr><td>French Lick Resorts &amp; Casino, LLC</td><td>United States</td><td>Distressed exchange</td><td>\$128</td><td></td><td>Yes</td></tr><tr><td>Gainey Corporation</td><td>United States</td><td>Missed interest payment</td><td></td><td>\$235</td><td>Yes</td></tr><tr><td>General Growth Properties</td><td>United States</td><td>Missed pri&amp;int payments</td><td></td><td>\$900</td><td>Yes</td></tr><tr><td>General Motors Acceptance Corp. of Canada Ltd</td><td>Canada</td><td>Distressed exchange</td><td>\$265</td><td></td><td>Yes</td></tr><tr><td>Ginn-LA CS Borrower, LLC</td><td>United States</td><td>Missed pri&amp;int payments</td><td></td><td>\$651</td><td>Yes</td></tr><tr><td>Glittir banki hf</td><td>Iceland</td><td>Seized by regulators</td><td>$13,365</td><td>$5,408</td><td>Yes</td></tr><tr><td>GMAC International Finance B.V.</td><td>Netherlands</td><td>Distressed exchange</td><td>\$51</td><td></td><td>Yes</td></tr><tr><td>GMAC LLC</td><td>United States</td><td>Distressed exchange</td><td>\$17,190</td><td></td><td>Yes</td></tr><tr><td>Greatwide Logistics Services, Inc.</td><td>United States</td><td>Missed pri&amp;int payments</td><td></td><td>\$487</td><td>Yes</td></tr><tr><td>Greektown Holdings, LLC</td><td>United States</td><td>Chapter 11</td><td>$185</td><td>$262</td><td>Yes</td></tr><tr><td>Harrah&#x27;s Entertainment, Inc.</td><td>United States</td><td>Distressed exchange</td><td>\$1,142</td><td></td><td>No4</td></tr><tr><td>Harrah&#x27;s Operating Company, Inc.</td><td>United States</td><td>Distressed exchange</td><td>\$1,082</td><td></td><td>Yes</td></tr><tr><td>Hawaiian Telcom Communications, Inc.</td><td>United States</td><td>Chapter 11</td><td>$500</td><td>$575</td><td>Yes</td></tr><tr><td>Herbst Gaming, Inc.</td><td>United States</td><td>Missed interest payment</td><td>$330</td><td>$847</td><td>Yes</td></tr><tr><td>Hines Nurseries</td><td>United States</td><td>Chapter 11</td><td>$175</td><td>$40</td><td>Yes</td></tr><tr><td>HRP Myrtle Beach Operations, LLC</td><td>United States</td><td>Chapter 11</td><td>$255</td><td>$15</td><td>Yes</td></tr><tr><td>IAP Worldwide Services, Inc.</td><td>United States</td><td>Distressed exchange</td><td></td><td>\$496</td><td>Yes</td></tr><tr><td>Interep National Radio Sales, Inc.</td><td>United States</td><td>Prepackaged Chapter 11</td><td>$100</td><td>$100</td><td>Yes</td></tr><tr><td>IT Holding S.p.A</td><td>Italy</td><td>Missed pri&amp;int payments</td><td></td><td>\$12</td><td>Yes</td></tr><tr><td>JHT Holdings</td><td>United States</td><td>Prepackaged Chapter 11</td><td></td><td>\$130</td><td>Yes</td></tr><tr><td>Journal Register Co.</td><td>United States</td><td>Missed interest payment</td><td></td><td>\$673</td><td>Yes</td></tr><tr><td>Kaupthing Bank hf</td><td>Iceland</td><td>Seized by regulators</td><td>$18,282</td><td>$1,781</td><td>Yes</td></tr><tr><td>Kimball Hill, Inc.</td><td>United States</td><td>Chapter 11</td><td>$203</td><td>$150</td><td>Yes</td></tr><tr><td>Kremikovtzi AD</td><td>Bulgaria</td><td>Missed interest payment</td><td>\$504</td><td></td><td>Yes</td></tr><tr><td>Landsbanki Islands hf</td><td>Iceland</td><td>Seized by regulators</td><td>$11,015</td><td>$1,146</td><td>Yes</td></tr><tr><td>Lazy Days&#x27; R.V. Center, Inc.</td><td>United States</td><td>Missed interest payment</td><td>\$139</td><td></td><td>Yes</td></tr><tr><td>LBREP/L SunCal Master I, LLC</td><td>United States</td><td>Chapter 11</td><td></td><td>\$395</td><td>Yes</td></tr><tr><td>Legends Gaming, LLC</td><td>United States</td><td>Chapter 11</td><td></td><td>\$222</td><td>Yes</td></tr><tr><td>Lehman Brothers Bankhaus AG</td><td>Germany</td><td>Payment moratorium</td><td>\$80</td><td></td><td>Yes</td></tr><tr><td>Lehman Brothers Holdings, Inc.</td><td>United States</td><td>Chapter 11</td><td>$118,164</td><td>$2,000</td><td>Yes</td></tr><tr><td>Lehman Brothers Holdings, Plc</td><td>United Kingdom</td><td>Placed under administration</td><td>\$10</td><td></td><td>Yes</td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Moody's-Rated 2008 Corporate Bond and Loan Defaults  
 
@@ -293,7 +302,7 @@ Moody's-Rated 2008 Corporate Bond and Loan Defaults
 3. Primus Telecom Group and American Color Graphic initially defaulted in 2007. They are not counted as 2008 defaulters. However, some of their debts did not default until 2008 and these debts are included in 2008's default totals.  
 4. The ratings for PRC and Quebecor World (USA) were withdrawn before January 1st, 2008 while Harrah's Entertainment's initial rating was assigned in February 2008.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 21  
 
@@ -305,7 +314,7 @@ Exhibit 22
 
 1. Includes bond and loan issuers rated as of January 1 of each year.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 23  
 
@@ -313,7 +322,7 @@ Exhibit 23
 
 1. Millions USD; includes bond and loan issuers rated as of January 1 of each year.
 
-Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 24  
 
@@ -322,9 +331,9 @@ Exhibit 24
 1. Includes bond and loan issuers rated as of January 1 of each year.  
 2. Millions of USD
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Exhibit 25
+## Exhibit 25
 
 2008 Defaulted Corporate Bond and Loan Recoveries<sup>1</sup>  
 
@@ -336,7 +345,7 @@ Sec.</td><td>Sr.
 Unsec.</td><td>Sr. 
 Sub.</td><td>Sub.</td></tr><tr><td>3D-GOLD Jewellery Holdings Limited</td><td>Payment default</td><td></td><td></td><td></td><td>7.00%</td><td></td><td></td><td></td></tr><tr><td>Abitibi-Consolidated Company of Canada</td><td>Distressed exchange</td><td></td><td></td><td></td><td>70.00%</td><td></td><td></td><td></td></tr><tr><td>Abitibi-Consolidated Inc.</td><td>Distressed exchange</td><td></td><td></td><td></td><td>60.75%</td><td></td><td></td><td></td></tr><tr><td>ACIH, Inc.</td><td>Payment default</td><td></td><td></td><td></td><td>20.00%</td><td></td><td></td><td></td></tr><tr><td>Ainsworth Lumber Company Limited</td><td>Distressed exchange</td><td></td><td></td><td></td><td>41.00%</td><td></td><td></td><td></td></tr><tr><td>American Media Operations, Inc.</td><td>Payment default</td><td></td><td></td><td></td><td></td><td>20.00%</td><td></td><td></td></tr><tr><td>Ashton Woods USA, LLC</td><td>Payment default</td><td></td><td></td><td></td><td></td><td>20.00%</td><td></td><td></td></tr><tr><td>Atherogenics, Inc.</td><td>Payment default</td><td></td><td></td><td></td><td>11.50%</td><td></td><td></td><td></td></tr><tr><td>Atlantis Plastics, Inc.</td><td>Payment default</td><td>54.63%</td><td>41.00%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Baseline Oil &amp; Gas Corp</td><td>Payment default</td><td></td><td></td><td></td><td>101.00%</td><td></td><td></td><td></td></tr><tr><td>Big West Oil, LLC</td><td>Bankruptcy</td><td>47.50%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Birch Mountain Resources Ltd.</td><td>Payment default</td><td></td><td></td><td></td><td></td><td></td><td>10.00%</td><td></td></tr><tr><td>Buffets, Inc.</td><td>Bankruptcy</td><td>55.63%</td><td></td><td></td><td>3.50%</td><td></td><td></td><td></td></tr><tr><td>Constar International, Inc.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>62.00%</td><td>3.00%</td><td></td><td></td></tr><tr><td>Controladora Comercial Mexicana S.A.B. de C.V</td><td>Bankruptcy</td><td></td><td></td><td></td><td>32.23%</td><td></td><td></td><td></td></tr><tr><td>Corporacion Durango S.A. de C.V.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>26.00%</td><td></td><td></td><td></td></tr><tr><td>Downey Financial Corp.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>0.53%</td><td></td><td></td><td></td></tr><tr><td>Finlay Fine Jewelry Corporation</td><td>Distressed exchange</td><td></td><td></td><td></td><td>7.00%</td><td></td><td></td><td></td></tr><tr><td>Fleetwood Enterprises Inc.</td><td>Distressed exchange</td><td></td><td></td><td></td><td></td><td>72.25%</td><td></td><td></td></tr><tr><td>Franklin Bank Corp.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>0.01%</td><td></td><td></td><td></td></tr><tr><td>Fremont General Corporation</td><td>Payment default</td><td></td><td></td><td></td><td>46.00%</td><td></td><td></td><td></td></tr><tr><td>French Lick Resorts &amp; Casino, LLC</td><td>Distressed exchange</td><td></td><td></td><td></td><td>75.00%</td><td></td><td></td><td></td></tr><tr><td>Gainey Corporation</td><td>Payment default</td><td>51.65%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>General Motors Acceptance Corp. of Canada Ltd</td><td>Distressed exchange</td><td></td><td></td><td></td><td>70.71%</td><td></td><td></td><td></td></tr><tr><td>Glittir banki hf</td><td>Bankruptcy</td><td></td><td></td><td></td><td>3.00%</td><td>1.00%</td><td></td><td></td></tr><tr><td>GMAC International Finance B.V.</td><td>Distressed exchange</td><td></td><td></td><td></td><td>85.50%</td><td></td><td></td><td></td></tr><tr><td>GMAC LLC</td><td>Distressed exchange</td><td></td><td></td><td></td><td>69.87%</td><td></td><td></td><td></td></tr><tr><td>Greatwide Logistics Services, Inc.</td><td>Payment default</td><td>82.80%</td><td>61.10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Greettown Holdings, LLC</td><td>Bankruptcy</td><td>96.59%</td><td></td><td></td><td>74.00%</td><td></td><td></td><td></td></tr><tr><td>Harrah&#x27;s Entertainment, Inc.</td><td>Distressed exchange</td><td></td><td></td><td></td><td>29.38%</td><td>56.25%</td><td></td><td></td></tr><tr><td>Harrah&#x27;s Operating Company, Inc.</td><td>Distressed exchange</td><td></td><td></td><td></td><td>20.75%</td><td></td><td></td><td></td></tr><tr><td>Hawaiian Telcom Communications, Inc.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>6.25%</td><td>0.50%</td><td></td><td></td></tr><tr><td>Herbst Gaming, Inc.</td><td>Payment default</td><td>27.22%</td><td></td><td></td><td></td><td>11.00%</td><td></td><td></td></tr><tr><td>Hines Nurseries</td><td>Bankruptcy</td><td></td><td></td><td></td><td>56.25%</td><td></td><td></td><td></td></tr><tr><td>HRP Myrtle Beach Holdings, LLC</td><td>Bankruptcy</td><td></td><td></td><td></td><td>0.50%</td><td></td><td></td><td></td></tr><tr><td>HRP Myrtle Beach Operations, LLC</td><td>Bankruptcy</td><td></td><td></td><td></td><td>31.75%</td><td></td><td></td><td></td></tr><tr><td>IAP Worldwide Services, Inc.</td><td>Distressed exchange</td><td>82.67%</td><td>72.17%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Interep National Radio Sales, Inc.</td><td>Bankruptcy</td><td></td><td></td><td></td><td></td><td>76.00%</td><td></td><td></td></tr><tr><td>Internet Corporation</td><td>Bankruptcy</td><td>85.17%</td><td>65.00%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>JHT Holdings</td><td>Bankruptcy</td><td>48.10%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Journal Register Co.</td><td>Payment default</td><td>35.00%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Kaupthing Bank hf</td><td>Bankruptcy</td><td></td><td></td><td></td><td>4.00%</td><td>1.00%</td><td></td><td></td></tr><tr><td>Kimball Hill, Inc.</td><td>Bankruptcy</td><td></td><td></td><td></td><td></td><td>3.38%</td><td></td><td></td></tr><tr><td>Kremikovtzi AD</td><td>Payment default</td><td></td><td></td><td></td><td>61.00%</td><td></td><td></td><td></td></tr><tr><td>Landsbanki Islands hf</td><td>Bankruptcy</td><td></td><td></td><td></td><td>3.00%</td><td></td><td></td><td></td></tr><tr><td>LandSource Communities</td><td>Bankruptcy</td><td>71.79%</td><td>17.50%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Lazy Days&#x27; R.V. Center, Inc.</td><td>Payment default</td><td></td><td></td><td></td><td>11.00%</td><td></td><td></td><td></td></tr><tr><td>Legends Gaming, LLC</td><td>Bankruptcy</td><td>64.63%</td><td>40.00%</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 2008 Defaulted Corporate Bond and Loan Recoveries<sup>1</sup>  
 
@@ -350,7 +359,7 @@ Sub.</td><td>Sub.</td></tr><tr><td>Lehman Brothers Holdings, Inc.</td><td>Bankru
 
 1. Based on 30-day post default
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 26  
 
@@ -359,7 +368,7 @@ Exhibit 26
 1. Issuer-weighted, based on 30-day post-default market prices.  
 2. Second-lien loans excluded.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 27  
 
@@ -374,7 +383,7 @@ Exhibit 28
 
 1. Based on average default rates and senior unsecured bond recoveries measured on issuer-weighted basis.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 29
 
@@ -386,7 +395,7 @@ Average Annual Credit Loss Rates by Letter Rating, 1982-2008
 
 Corporate Default and Recovery Rates, 1920-2008
 
-# Exhibit 30
+## Exhibit 30
 
 2008 One-Year Letter Rating Migration Rates<sup>1</sup>  
 
@@ -746,7 +755,7 @@ Cohort formed 1/1/2008
 
 # Corporate Default and Recovery Rates, 1920-2008
 
-# Guide to Data Tables and Charts
+## Guide to Data Tables and Charts
 
 In this section we briefly describe the interpretation of some of the Exhibits contained in this report. Methodological details are discussed in separate sections below.
 
@@ -764,21 +773,21 @@ Exhibit 47 shows the cumulative issuer-weighted historical default rates of coho
 
 Corporate Default and Recovery Rates, 1920-2008
 
-# Methodology and Data Sources
+## Methodology and Data Sources
 
-# Methodology Changes in this Year's Report
+## Methodology Changes in this Year's Report
 
 The historical data contained in Moody's 2009 global default study includes a number of revisions relative to previous years' publications. Moody's occasionally discovers historical defaults, leading to minor revisions of the historical data. As always, the data contained in the most recently published Moody's default study supersedes the data published in previous reports.
 
-# Change in Senior Rating Algorithm
+## Change in Senior Rating Algorithm
 
 In January 2009, we applied a smoothing procedure in the senior rating algorithm to estimate every issuer's senior unsecured ratings. This enhancement aims to eliminate artificial rating changes that are not the result of a change in an issuer's credit quality, but due to a switch of reference debt on which the estimated senior unsecured rating is derived. The implementation of the smoothing procedure is particularly important when Moody's introduced new debt ratings, refined its rating scale, or adjusted its notching practices. For example, the introduction of issuer ratings on October 25 1999 results in numerous artificial rating changes if the smoothing procedure is not in place. At other times, the impact of the smoothing is modest. For instance, only  $3\%$  of Moody's-rated issuers have a different estimated senior unsecured rating (mostly by one notch) as of January 1, 2009 due to the introduction of the smoothing procedure.
 
-# Removal of Special Purpose Vehicles
+## Removal of Special Purpose Vehicles
 
 In January 2009, we removed a substantial number of special purpose vehicles from Hartford Financial Services Group, Inc., Principal Financial Group, Inc., and Protective Life Corporation. These SPVs are noninsurance conduits and mostly Aa3 or A1 credits. None of them had defaulted.
 
-# Moody's Definition of Default
+## Moody's Definition of Default
 
 Moody's definition of default includes three types of credit events:
 
@@ -788,7 +797,7 @@ Moody's definition of default includes three types of credit events:
 
 The definition of a default is intended to capture events that change the relationship between debt holders and the debt issuer from the relationship which was originally contracted, and which subjects the bondholder to an economic loss. Technical defaults (covenant violations, etc.) are not included in Moody's definition of default. Secondary and tertiary defaults are reported only after the initial default event is believed to have been cured. This is to ensure that multiple defaults related to a single episode of credit distress are not over-counted.
 
-# Rating Migration Calculations
+## Rating Migration Calculations
 
 A rating migration matrix completely summarizes changes in credit ratings over a given time horizon. The cells of the matrix are discrete-time estimates of rating migration probabilities. They show rate of rating change measured at two points in time; e.g. the start and end of one year. When calculating credit rating migration rates, Moody's treats rating changes, rating withdrawals, and defaults as mutually exclusive states. For example, an issuer that is downgraded on the day of default is counted only as a default, not a downgrade or a downgrade and default. Similarly, an issuer whose rating is withdrawn on the day of default is counted as a default, not a withdrawal.
 
@@ -806,7 +815,7 @@ $$
 \bar {p}_{i j} (T) = \frac{\sum_{y \in Y} n_{i j}^{y} (T)}{\sum_{y \in Y} n_{i}^{y} (0)}
 $$
 
-# Default Rate Calculations
+## Default Rate Calculations
 
 Moody's method for calculating cumulative default rates is a discrete-time approximation of the nonparametric continuous-time hazard rate approach. $^{12}$  Cumulative default rates are calculated from marginal default rates, which represent the probability that an issuer that has survived in the sample through a particular date will default over the next time interval (typically, one year) following that date.
 
@@ -852,7 +861,7 @@ $$
 
 Using this method, all issuers whose ratings are withdrawn are removed. In effect, data for issuers whose ratings are withdrawn is completely discarded. This method generally yields higher default rate estimates than the hazard rate method. Hence, Moody's hazard rate-derived default rate estimates lay between unadjusted migration matrix-derived default rates and withdrawal-adjusted migration matrix-derived default rates.
 
-# Recovery Rate Calculations
+## Recovery Rate Calculations
 
 Moody's estimates defaulted debt recovery rates using market bid prices observed roughly 30 days after the date of default. Recovery rates are measured as the ratio of price to par value. Using post-default prices to measure recovery (or its complement, loss severity) parallels common practice in the credit default swaps market. Moreover, recovery rates measured in this way are most relevant for cash bond investors who liquidate their holdings shortly after default as often required by their portfolio governance rules or their own investment objectives. For investors holding defaulted securities until ultimate resolution, prices observed shortly after default are generally accepted as the market's estimate of discounted expected ultimate recovery rates.
 
@@ -862,7 +871,7 @@ The alternative approach of directly measuring ultimate realized recoveries pres
 
 # Corporate Default and Recovery Rates, 1920-2008
 
-# Credit Loss Rate Calculations
+## Credit Loss Rate Calculations
 
 Moody's credit ratings are opinions of relative expected credit losses. Credit losses are therefore a function of both probability of default (PD) as well as the severity of default (LGD). The expected credit loss rate for rating category  $i$  is calculated as the product of the  $T$ -horizon average issuer-weighted default rate and the  $T$ -horizon average issuer-weighted senior unsecured loss severity rate (where  $r(T)$  is the average senior unsecured recovery rate at horizon  $T$ ):
 
@@ -870,13 +879,13 @@ $$
 l_{i} (T) = \bar {D}_{i} (T) \times (1 - \bar {r}_{i} (T))
 $$
 
-# CAP Curve and Accuracy Ratio
+## CAP Curve and Accuracy Ratio
 
 In addition to assigning low ratings to issuers that ultimately default, the effectiveness of a rating system depends on its ability to assign high credit ratings to issuers that do not default. In other words, an efficient rating system is able to separate the low credit risks from the high credit risks. A metric designed to measure this aspect of ratings performance is the cumulative accuracy profile (CAP) plot. $^{14}$  The CAP plot graphs the cumulative proportion of defaults from a portfolio (the y-axis) against the proportion of issuers exposed to the risk of default (the x-axis), sorted by riskiness. A rating system that randomly identified defaults from non-defaults would plot a line directly on the 45-degree line. The more powerful the discriminatory power of the rating system, the further the CAP curve bows toward the top left corner.
 
 CAP curves are powerful tools for visualizing rating performance, but can be unwieldy from making comparisons over many time periods. A summary measure of rating accuracy that can be derived from the CAP curve is the accuracy ratio (AR). The accuracy ratio is the ratio of the area between the CAP curve and the 45-degree line to the total area above the 45-degree line. A rating system that perfectly differentiates defaults from non-defaults would score an AR of  $100\%$ , while a rating system that had zero predictive ability would score  $50\%$ .[15]
 
-# Data Sources
+## Data Sources
 
 Moody's bases the results of this study on its proprietary database of ratings and defaults for corporate bond and loan issuers. Municipal and sub-sovereign debt issuers, structured finance securities, private placements, and issuers with only short-term debt ratings are excluded unless otherwise noted. In total, Moody's data covers the credit experiences of over 18,000 corporate issuers that sold long-term public debt at some time between 1920 and 2008. As of January 1, 2008 approximately 6,000 corporate issuers held a Moody's long-term bond, loan, or corporate family rating.
 

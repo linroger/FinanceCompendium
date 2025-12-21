@@ -245,6 +245,10 @@
   },
   "active": "f415a2f46a27c8d6",
   "lastOpenFiles": [
+    "docs/handoff/beads-db-analysis/handoff.md",
+    "docs/handoff/beads-db-analysis",
+    "docs/handoff",
+    "docs",
     "V. Equities and Alternatives/Equities/Investments BKM/Part 7 - Applied Portfolio Management/Chapter 26 - Alternative Assets.md",
     "V. Equities and Alternatives/Equities/Investments BKM/verify_concept_check_images.py",
     "V. Equities and Alternatives/Equities/Investments BKM/remove_concept_check_images.py",
@@ -257,9 +261,6 @@
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/stop.json",
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/chat.json",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/5. MeanVariance-CAPM.md",
-    "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/pre_tool_use.json",
-    "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/post_tool_use.json",
-    "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/subagent_stop.json",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Greeks MasterSlides (1).md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Generate RVars (1).md",
@@ -280,7 +281,6 @@
     "I. Foundations/Machine Learning/Algorithms for Optimization.md",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 02 Mathematical Induction And so on.md",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Appendix A Definitions and Theorems.md",
-    "styleguide/subagent-formatting-instructions.md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]

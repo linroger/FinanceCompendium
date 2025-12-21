@@ -1,31 +1,32 @@
 ---
 title: Chapter 01 - The Investment Environment
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction
-formatted: 2025-12-21 12:31:00 PM
+formatted: 2025-12-21 12:55:00 PM
 formatter_model: claude-sonnet-4
 cli-tool: claude-code
 primary_tags:
-   - investment environment
-   - financial assets
-   - risk return tradeoff
-   - financial markets
-   - investment process
+    - investment environment
+    - financial assets
+    - financial markets
+    - risk return tradeoff
+    - systemic risk
+    - dodd frank act
+    - financial crisis 2008
 secondary_tags:
-   - real assets
-   - fixed income securities
-   - equity investments
-   - derivative securities
-   - asset allocation
-   - portfolio construction
-   - financial intermediaries
-   - investment banking
-   - market efficiency
-   - systemic risk
-   - financial crisis 2008
-   - securitization
-   - credit risk
-   - regulatory oversight
-   - market participants
+    - real assets
+    - fixed income securities
+    - equity investments
+    - derivative securities
+    - asset allocation
+    - portfolio construction
+    - financial intermediaries
+    - investment banking
+    - market efficiency
+    - securitization
+    - credit risk
+    - regulatory oversight
+    - market participants
+    - text outline
 cssclasses: academia
 ---
 
@@ -572,6 +573,42 @@ In Part Three, we investigate the implications of portfolio theory for the equil
 Parts Four through Six cover security analysis and valuation. Part Four is devoted to debt markets and Part Five to equity markets. Part Six covers derivative assets such as options and futures contracts.
 
 Part Seven is an introduction to active investment management. It shows how different investors' objectives and constraints can lead to a variety of investment policies. This part discusses the role of investment management in nearly efficient markets and considers how one should evaluate the performance of managers who pursue active strategies. It also shows how the principles of portfolio construction can be extended to the international setting and examines the hedge fund industry.
+
+```d2
+direction: down
+
+Part 1: {
+  label: "Introduction to Markets & Instruments"
+}
+
+Part 2: {
+  label: "Risk, Return & Portfolio Theory"
+}
+
+Part 3: {
+  label: "Equilibrium Risk-Return Models"
+}
+
+Part 4: {
+  label: "Debt Markets & Analysis"
+}
+
+Part 5: {
+  label: "Equity Markets & Valuation"
+}
+
+Part 6: {
+  label: "Derivative Assets"
+}
+
+Part 7: {
+  label: "Active Investment Management"
+}
+
+Part 1 -> Part 2 -> Part 3 -> Part 4
+Part 1 -> Part 5
+Part 1 -> Part 6 -> Part 7
+```
 
 1. Real assets create wealth. Financial assets represent claims to parts or all of that wealth. Financial assets determine how the ownership of real assets is distributed among investors.
 2. Financial assets can be categorized as fixed income, equity, or derivative instruments. Top-down portfolio construction techniques start with the asset allocation decision—the allocation of funds across broad asset classes—and then progress to more specific security-selection decisions.

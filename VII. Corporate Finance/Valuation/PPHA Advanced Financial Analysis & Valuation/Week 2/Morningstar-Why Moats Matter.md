@@ -133,9 +133,7 @@ Wiley
 
 Finding great businesses at great prices is the holy grail of investing. Yet surprisingly few investors focus on uncovering businesses with the potential to compound in value over time. Why is this? For one thing, uncovering the next Coca-Cola or Johnson & Johnson is hard—these great businesses are much more identifiable after they have been pumping out fantastic returns for years. Further, many assume that the greatness of these businesses must already be well-understood by the market, and therefore trade at prices that already reflect all the benefits of owning them. But that's not always the case—not by a long shot. In this book, we lay out a framework for finding great businesses, and show you how to know when they're trading at a discount to intrinsic value. These concepts form the cornerstone of Morningstar's approach to stock investing.
 
-At Morningstar, we've always viewed investing in the most fundamental sense: We want to hold shares in great businesses for long periods of time. How can you tell a great business from a poor one? A great business is one that can fend off competition and earn high returns on capital for many years to come. Clearly, anyone can look at the historical returns a business has earned to see whether it has benefited from a competitive advantage in the past—but our goal is to find businesses with the potential to keep generating excess returns in the future. To do that, we need to understand how the business
-
-generates cash flow. We do this by examining the competitive landscape of the industry and focusing on how a given company competes within that industry. We're looking for companies that have economic moats—structural advantages that protect them from competitors, just as physical moats protected castles from enemies. Through our research, we've determined that economic moats generally stem from at least one of five sources of competitive advantage—cost advantage, intangible assets, switching costs, efficient scale, and network effect—each of which we explore in great depth throughout this book.
+At Morningstar, we've always viewed investing in the most fundamental sense: We want to hold shares in great businesses for long periods of time. How can you tell a great business from a poor one? A great business is one that can fend off competition and earn high returns on capital for many years to come. Clearly, anyone can look at the historical returns a business has earned to see whether it has benefited from a competitive advantage in the past—but our goal is to find businesses with the potential to keep generating excess returns in the future. To do that, we need to understand how the business generates cash flow. We do this by examining the competitive landscape of the industry and focusing on how a given company competes within that industry. We're looking for companies that have economic moats—structural advantages that protect them from competitors, just as physical moats protected castles from enemies. Through our research, we've determined that economic moats generally stem from at least one of five sources of competitive advantage—cost advantage, intangible assets, switching costs, efficient scale, and network effect—each of which we explore in great depth throughout this book.
 
 Even better than finding a great business is finding one at a great price. The stock market affords virtually unlimited opportunities to track prices and buy or sell securities at any hour of the day or night. But looking past that noise and understanding the value of a business' underlying cash flows is the key to successful long-term investing. When you focus on a company's fundamental value relative to its stock price, and not where the stock price sits today versus a month ago, a day ago, or five minutes ago, you start to think like an owner, not a trader. And thinking like an owner will make you a better investor. We walk you through our approach to valuing businesses, which focuses on estimating the cash we expect a business to generate in the future, and discounting that to the present in order to arrive at a fair value estimate for the business.
 
@@ -293,269 +291,9 @@ Note that our moat-rating methodology is absolute, not relative. We're simply lo
 
 Now we're ready to dig into the moat sources one by one. For each of the five sources we provide lists of critical questions that you can ask yourself when determining whether a particular company has a narrow or wide economic moat. If you've read even a handful of 10-K annual reports, you know that most companies present a list of competitive advantages that sound moatworthy, such as patents, brands, cost advantages, and strong customer relationships. The questions we have assembled are designed to help ferret out whether a company truly benefits from one of the moat sources. Further, in our years of reading 10-Ks, we've found it rare for companies to explicitly mention advantages such as switching costs, network effect, or efficient scale. So, finding companies with these sources requires an extra level of analysis, and these key questions are meant to help you uncover companies with these powerful sources. For each source, we provide a few examples, so you can see how these play out in the real world.
 
-# Intangible Assets
-
-Intangible assets is a broad category that includes brands, patents, and regulatory licenses.
-
-Brands A brand creates an economic moat around a company's profits if it increases the customer's willingness to pay or increases customer captivity. A moatworthy brand manifests itself as pricing power or repeat business that translates into sustainable economic profits.
-
-### Key Questions: Brands
-
-1. How do you quantify the strength of the brand? What is the pricing power that the brand conveys? What is the premium that the company can charge relative to competitors? High name recognition doesn't always translate into pricing power. Just think of airlines such as United or American—you're probably very aware of these brands, but that doesn't mean you're willing to pay more for a United or American ticket. Most likely you'll make your purchasing decision based solely on cost after factoring in class, mileage credits, and baggage fees, and we see this reflected in the poor returns these airlines generate. As a result, most airlines lack sustainable competitive advantages.  
-2. Is the premium offset by higher costs? Some companies do indeed charge higher prices than their competitors, but that merely reflects a higher cost of production. For a brand to be moatworthy, it must confer pricing power that at least offsets any difference in costs.  
-3. How do the company's margins compare with competitors that don't have strong brands? If you don't have specific data on prices and costs, you can look at a company's profit margins relative to its peers for signs of pricing power.  
-4. What gives you confidence that the brand strength, the premium pricing, and the higher operating margins are sustainable
-
-for 10-20 years? Brands come and go, and sustainability is the most important factor when determining economic moats. After all, history is littered with examples of well-recognized brands that didn't lead to sustainable returns, such as Crocs, Nokia, and Palm. Although it's hard to predict which brands will remain powerful decades into the future, companies that continuously plow money into innovation and marketing are more likely to have powerful brands in the future. Further, lifelong brands arguably have more longevity potential than companies with high-turnover client bases. For example, once a consumer develops a taste for, say, Coke over Pepsi, that's a preference that will likely hold, and Coca-Cola can rely on having the same customer for decades. However, new parents deciding on infant formula develop a brand preference that lasts only during the early childrearing years, and therefore formula companies such as Mead Johnson must constantly acquire cohorts of new parents.
-
-Walt Disney Walt Disney is a good example of a company that has built a moat based on the intangible asset of brand. In fact, strong brands support robust and sustainable economic profits at both of Walt Disney's key businesses: cable networks and Disney-branded businesses (parks, filmed entertainment, and consumer products). On the cable side of the business, strong networks like ESPN earn rich subscriber fees and profits. These profits allow the company to spend on long-term programming rights with the major professional sports leagues and college athletic conferences, which reinforces ESPN's position as the leader in its category. The strength of this brand has allowed the company to expand the franchise and has resulted in several sister channels and the most popular website dedicated to sports content. In the Disney-branded businesses, the company exploits strong characters and franchises across multiple platforms. Disney has been creating high-quality family entertainment for decades and has become a brand that children seek and parents trust. Disney's theme parks and resorts are difficult for competitors to replicate, especially considering the tie-ins with its
-
-other business lines. A Disney character franchise typically starts with a theatrical release, but can be further exploited through DVD sales, licensing to television networks, sequels, merchandising, and theme park attractions. Each new successful franchise becomes a valuable addition to Disney's large library of content, which can be monetized for decades.
-
-Starbucks Starbucks remains the dominant player in specialty coffee, and its brand commands premium pricing for what is truly a commodity. Coffee is a globally fungible commodity (in other words, it is easily replaced by another identical product) that is traded on liquid exchanges with complete price transparency. Still, Starbucks' customers are willing to fork over extra dollars for a cup with a green mermaid, thanks to the experience Starbucks has created as part of its brand. As a result, we expect Starbucks to generate handsome economic profits in the coming decades, with ROICs in excess of  $20\%$  over the long term.
-
-BMW Bayerische Motoren Werke AG earns our narrow moat rating, thanks to the strength and global recognition of its brands, its technological leadership in powertrain, its ability to command premium pricing from consumers that regularly rate its vehicles as some of the best to own, and its ability to consistently generate excess returns. Even though the venerable Rolls-Royce and BMW brand names command premium pricing, consumers can easily switch to other brands, like Bentley or Audi, and a seemingly bulletproof brand image can tarnish quickly. However, thanks to an ingrained culture that obsesses over the details that the company's customers demand, we think BMW will continue to successfully manage its brand images—ranging from premium-priced BMW motorcycles and Cooper MINI passenger cars, to luxury BMW passenger cars and crossovers, to ultraluxury Rolls-Royce cars—leading to economic value creation for investors. The company's returns exceeded its cost of capital in 10 of the past 11 years, an outstanding performance for an automotive manufacturer and a phenomenon that we expect will endure.
-
-Patents Sometimes patents are a source of sustainable competitive advantage for a company, although not all patents lead to narrow or wide economic moat ratings. If patents protect a company's main products, and there are no viable
-
-alternatives, then the company may have pricing power for a sustained period while other industry players are legally barred from competing.
-
-### Key Questions: Patents
-
-1. What is the expiration schedule for the company's patent portfolio? Because a narrow or wide economic moat rating depends on a company's ability to produce economic profits for a decade or more, patents that expire within the next several years certainly don't confer a moat by themselves.  
-2. How diverse is the company's patent portfolio? A company with a wider breadth of patented products is more likely to have a narrow or wide moat because the diversity leads to higher chances that the company will generate economic profits for a decade or more. A company with a history of successful research and development investment in its patent portfolio is more likely to maintain a patent-related competitive advantage than one without such a track record.  
-3. What is the market potential of patentable products in the pipeline and the probability of their success? Since we need to assess a company's economic-profit-generating potential 10-20 years in the future, we need to analyze the earning potential of products that haven't even come to market yet.  
-4. Once products come off patent, how easy will it be for competitors to enter the market? Sometimes, even when a product comes off patent, competitors will hesitate to enter the market because of the difficulty involved in replicating the offering. For example, generic pressure for biologic drug manufacturers isn't as severe as for traditional pharmaceuticals because of manufacturing difficulties and the costs of clinical trials and product marketing.  
-5. What are the potential substitutes for the patented product? Even a patented product won't garner moatworthy pricing power (Continued)
-
-# (Continued)
-
-if effective substitutes are readily available. In markets where patents can more easily be innovated around, such as in the technology or industrials sectors, patents become a less important driver of moats.
-
-6. How strong is intellectual property protection in the relevant markets? If patents don't actually keep competitors at bay because of lax intellectual property protections in the markets a company serves, then pricing power is diminished and patents alone are unlikely to convey a sustainable competitive advantage.
-
-Sanofi Like other highly successful pharmaceutical companies, Sanofi benefits from patent protection that keeps competitors at bay for several years while the company charges prices that enable returns on invested capital significantly above its cost of capital. Also, Sanofi's unique entrenched position in the insulin market further reduces the threat of generic competition even after patents expire thanks to the high up-front costs needed to achieve the economies of scale for low-cost insulin production. Sanofi's existing product line boasts several top-tier drugs, including long-acting insulin Lantus. The drug's ability to work well for an entire day sets Lantus apart from other insulins. Given the complexity in marketing and manufacturing insulin, we don't expect major generic competition following the drug's 2015 patent loss. The company's leadership in the insulin and rare-disease biologic markets exposes Sanofi to less-pronounced generic threats; we believe eventual generic competition will not destroy branded sales to the same extent that we see with generic small molecules, given the marketing and manufacturing complexity associated with biologic drugs. Further, Sanofi has compiled a robust group of late-stage pipeline products that complement its existing lineup and should help mitigate patent losses.
-
-iRobot A patent portfolio worth mentioning belongs to iRobot, maker of Roomba (the robotic vacuum cleaner) as well as military and police robots. The company has a perceived product advantage that is backed by strong patent
-
-protection. Outside Korea, where players such as Samsung and LG have found success with their own high-end products, iRobot has not faced meaningful competition in its home robot division, even as the company has sold more than 6 million Roombas worldwide. We attribute this success to a continued strong patent portfolio; the only competing products have been too expensive, of lower quality, or poorly managed, preventing them from denting iRobot's competitive position.
-
-Monsanto Having created the agricultural biotechnology market where it now competes, Monsanto has a wide economic moat. The company's portfolio of patented traits—seed characteristics that improve farmers' profitability—forms the basis of its moat, much in the same way patent-protected drugs form the moat foundation for a pharmaceutical firm. Monsanto's proprietary seeds use the traits it develops, but the firm also licenses traits for use by others. This strategy has led to dominant market share, and Monsanto enjoys premium pricing for its patented traits. Monsanto uses the cash flows generated from its current product lineup to invest in research and development for next-generation offerings. The company consistently pours  $10\%$  of sales into R&D each year. Monsanto is also a very attractive partner for agricultural biotech companies without their own extensive seed platforms. Further, the company owns an industry-leading germplasm (a seed bank for conventional and molecular hybrid breeding) and a global breeding operation that are difficult to replicate. Signs of Monsanto's dominance in genetically modified, or GM, seeds are readily apparent, including rivals' accusations of controlling an unfair monopoly and the fact that some competitors choose to license the firm's technology instead of going head-to-head with Monsanto. For example, Syngenta and DuPont have chosen to license Roundup Ready 2 Yield for their second-generation soybean offerings instead of investing the dollars to develop their own platforms. We think Monsanto will earn returns on invested capital above the firm's cost of capital for quite some time.
-
-Regulations Government regulations are another intangible asset that can lead to sustainable competitive advantages if the rules make it difficult or even impossible for competitors to enter the market. Regulations are especially favorable if a company can operate like a monopoly but isn't regulated like one with regard to pricing.
-
-### Key Questions: Regulations
-
-1. Are there offsets to the favorable regulation, such as price controls or service mandates? Regulatory barriers to entry aren't moatworthy if they come with the burden of price controls or service mandates that prevent economic profit generation. For example, even though Aéroports de Paris has a geographic monopoly on airports serving the number-one tourist destination in the world, the government-regulated rates that ADP can charge for certain services have been too low to allow for economic profit generation.  
-2. If regulatory barriers to entry are the key argument, consider the threat of substitutes. If a company provides a good or service in a particular country and is shielded from competition within the country, consider whether potential customers can meet their needs with goods or services provided by companies from other countries.  
-3. What is the most likely outcome for future regulations? Even if government regulations result in distorted market conditions that differ materially from what would prevail in a more lax regime, we need to base our expectations for future economic profits on the regulatory environment that will most likely prevail.  
-4. How material are the risks of adverse regulatory changes? Our narrow and wide moat ratings require a high degree of confidence in future economic profits. If there's a material chance that regulations will change in a way that depresses future economic profits, this could prevent a company from obtaining our narrow or wide moat rating, depending on the probability and impact of any regulatory change.
-
-Grupo Televisa Grupo Televisa is a good example of a company with a wide economic moat that stems from favorable government regulation. The company generates half of its operating income from its television broadcasting business,
-
-where through a licensing arrangement with the Mexican government, Televisa owns and operates many of the leading television networks in the country. If advertisers want to reach Mexican viewers en masse, Televisa is essentially the only way to go. Building on this sustainable competitive advantage in broadcasting, Televisa has amassed a programming empire, and added ownership stakes in cable and satellite TV distribution that give Televisa more than half of Mexico's pay TV market.
-
-Las Vegas Sands and Wynn Resorts Casino operators with Asian facilities, such as Las Vegas Sands and Wynn Resorts, benefit from regulatory barriers to entry, giving Asian casino operators much wider economic moats than their U.S. counterparts. The China market is an oligopoly, with only six licenses granted, and legalized gambling limited to the tiny, densely populated region of Macau; Singapore is a duopoly, with only two licenses. It is extremely unlikely that the Chinese central government will authorize casinos in another province of China, as this would require a change to the Chinese constitution, and Beijing doesn't want gambling to bring societal ills to other provinces in mainland China. Advertising casinos in mainland China is illegal, and Beijing has cracked down hard on illegal gambling. Casino licensing in Macau is quite different than in the United States, in that the companies that receive licenses to operate in Macau are able to open more than one casino, with the limitation that new casinos require government approval and licensed operators must pay an additional fee to the government for each new casino. In the U.S., license holders generally do not have the right to open multiple casinos, and a new license is required for each new casino.
+## Intangible Assets
 
 ## Cost Advantage
-
-Companies can dig economic moats around their businesses by having sustainably lower costs than their competitors. A favorable cost position can stem from process advantages, a superior location, scale, or access to a unique asset. Process advantages are interesting, but we award economic moat ratings to companies with this edge only if the process can't or won't be easily replicated by competitors. An advantageous location can also give a company a cost edge, and this leg up can be sustainable given the difficulty of duplication. Meanwhile, companies that enjoy economies of scale have lower average costs than their competitors with smaller capacities.
-
-### Key Questions: Cost Advantage
-
-1. Does the company benefit from economies of scale? Specifically, which costs are fixed and can therefore be leveraged? What quantitative evidence do we have that this company benefits from lower per-unit costs than a competitor with smaller volumes? Many companies claim that they benefit from economies of scale, but it's important to look for proof that a company with larger volumes indeed has lower per-unit costs than a smaller competitor.  
-2. Does the company benefit from economies of scope? Which costs are spread over a variety of products? What quantitative evidence demonstrates how this company benefits from lower per-unit costs than a competitor that produces a smaller variety of products? Some companies can leverage significant R&D expenses and process knowledge over a variety of products meeting diverse client needs. Once again, it's crucial to focus on finding actual quantitative support that this results in lower per-unit costs.  
- 3. Does this company benefit from low transportation costs? What is the cost of transportation relative to total costs or the price of the product? What is the transportation cost for relevant competitors? Transportation costs can really alter a company's competitive positioning, especially for goods that have a low value/weight ratio. To illustrate, transportation costs matter very little when shipping gold, where an immense amount of value can sit comfortably in the palm of your hand. In contrast, an entire ton of construction aggregates costs only \$10. In situations like that, producers located closest to potential customers have a great cost advantage over far-flung competitors.  
-4. Does this company own or control geological deposits with advantageous characteristics? How rare or prevalent are deposits of high quality? In the energy and basic materials sectors, owning an advantaged geological deposit can be a formidable competitive advantage, because humans—even with substantial
-
-capital and time—can't replicate what Mother Nature took millions of years to form.
-
-5. Does this company have a unique production process that results in a cost advantage? Quantify the cost advantage that comes from this process. Can this process be replicated? A process-based cost advantage is ultimately replicable, but we do find that some companies can operate for decades with a cost advantage due to a superior production process. Keep an eye out for potential new entrants. While incumbent competitors may be stuck with the inferior production process that they've already built, it's easier for new industry entrants to use a superior production process because they're starting from scratch.  
-6. Does this company have bargaining power with suppliers that results in a cost advantage? What percentage of the company's total costs benefits from this bargaining power? What type of discount does this bargaining power result in? Many companies claim that they're big and powerful enough to extract discounts from their suppliers, but we need to see quantitative proof that this results in a material cost advantage before awarding a narrow or wide economic moat rating on this basis alone. For bargaining power to result in a sustainable competitive advantage, we wouldn't want to see any looming threat of supplier consolidation.  
-7. Does this company have advantaged access to raw materials? What percentage of total costs does the raw material amount to? What does the cost advantage amount to, relative to industry competitors that don't have advantaged access to raw materials? Why can't other industry players get access to these low-cost raw materials? What is the outlook for supply, demand, and prices for the raw material? For example, some companies benefit from having access to low-cost energy. Before considering a narrow or wide moat rating on this basis, though, we need to make sure that the cost advantage is sustainable. Regional changes in supply and demand, or substitution, can cause raw-materials-based advantages to be fleeting.
-
-Managed Care Organizations Managed care organizations, or MCOs, provide a good illustration of the economies-of-scale version of the cost advantage source. These firms provide health insurance services to their members (individuals, groups, or the government). One of the most valuable effects of having a large membership base is that the MCO can significantly scale its selling, general, and administrative, or SG&A, costs. Expenses such as corporate costs, IT infrastructure investments, depreciation of fixed assets, certain selling expenses, payment processing, and customer service expenses are largely fixed, and therefore having more members lowers the average cost per member. The major MCOs that we believe possess economic moats—UnitedHealth, WellPoint, and Aetna—are able to operate at a lower level of SG&A per member than smaller MCOs that don't have moats.
-
-Furthermore, an MCO with a large membership base also has a better ability to control overall medical costs by negotiating advantageous pricing with its providers (hospitals and doctors). To obtain profitable pricing, companies need to either have a large geographic reach to provide demand at multiple nationwide sites or have the local density to control a large portion of demand in a specific geography. Basically, a provider will give better pricing to payers that control more demand. This dynamic is a product of a few factors. First, a procedure usually becomes cheaper to execute for a provider each additional time it is done. Therefore, a provider can cut pricing for a payer with a large membership base and still preserve its gross margins. Second, since a payer that controls a large portion of demand also potentially controls a large portion of a provider's gross profits, the provider will be more apt to provide discounted pricing.
-
-Railroads North American Class I Railroads—CSX, Norfolk Southern, BNSF, Union Pacific, Canadian National, Canadian Pacific, and Kansas City Southern—earn wide economic moats in part from sustainable low-cost advantages. Barges, ships, aircraft, and trucks also haul freight, but railroads are the low-cost option by far where no waterway connects the origin and destination, especially for freight with a low value/weight ratio. Moreover, railroads claim quadruple the fuel efficiency of trucking per ton-mile of freight and make more effective use of manpower despite the need for train-yard personnel, in part because of greater railcar capacity and longer trains. Even for goods that can be shipped by truck, we estimate that railroads charge  $10\% - 30\%$  less than trucking containers on
-
-the same lane. And we have confidence in the sustainability of these railroads' economic profits because they've been investing heavily in their cost advantages. They're making increasingly effective use of two of their most expensive inputs: labor and fuel. Regarding the former, railroads are producing more ton-miles per employee than in the past. This is due in part to larger cars, combined with increased speed, reduced downtime at terminals, and more effective work rules and practices. Concerning the latter, the Association of American Railroads reports that in 2012 U.S. railroads moved a ton of freight on average 476 miles per gallon of fuel, up from 414 ton-miles per gallon in 2005 and double the 235 level of 1980. This was accomplished via larger cars, more-fuel-efficient locomotives, idle-reduction technology, throttle position selection guidance software that learns a route to optimize fuel and safety, distributed power to reduce required horsepower, rail lubrication, and locomotive engineer training and incentives.
-
-## Switching Costs
-
-Switching costs are the expenses—whether in time, hassle, money, or risk—a customer would incur to change from one producer or provider to another. Customers facing high switching costs won't necessarily make a switch even if a competitor is offering a lower price or a better-performing product or service. The improvement in performance or price must be large enough to offset the cost of switching. High switching costs are especially prevalent and powerful when there is a high cost of failure, or the cost of the specific product or service in question is fairly insignificant relative to the customer's total operating costs.
-
-### Key Questions: Switching Costs
-
-1. What are the costs and benefits of switching? Comparing the costs of switching with the price differences among available alternatives is the best way to prove that a company benefits from switching costs.  
-2. Are customers' existing assets and processes linked to a particular provider's offering? How material would training (Continued)
-
-# (Continued)
-
-needs be if a customer switched providers? How much lead time is necessary for a customer to switch? How significant would the business disruption be if a customer switched providers? Answers to these questions help paint the picture of what switching entails. Sometimes it's hard to quantify switching costs, but high degrees of asset specificity, significant training needs, long lead times, and high potential for business disruption all help create customer switching costs.
-
-3. What are renewal rates for this company? High customer switching costs typically manifest themselves in high renewal rates for existing clients.
-
-Apple Apple is a good example of a company whose customers would suffer switching costs if they changed products. There are a variety of switching costs around the iOS platform that should allow the company to retain a good portion of its current user base without having to compete on price alone. Apple iOS users who purchase movies, TV shows, and applications from the iTunes store are unable to transmit these media to Android or other portable devices (while music is transferrable). iCloud adds another layer of switching costs by synchronizing media, photos, notes, and other items across all Apple devices. We believe an owner of an iOS device—say, an iPad—is less likely to switch from an iPhone to an Android phone if it means that the individual will be unable to sync or access a portion of his or her content. Additional Apple devices, such as the Mac and potentially an iWatch, could raise these switching costs even further.
-
-BlackRock Asset managers such as BlackRock also benefit from switching costs. While the costs for investors might not be explicitly large, the perceived benefits of switching from one money manager to another are at times so uncertain that many investors take the path of least resistance and stay where they are. As a result, money that flows into asset-management firms tends to stay there—borne out by an average net annual redemption rate of only  $30\%$  for long-term mutual funds, which excludes the impact of money market funds, during the past 5-, 10-, 15-, 20-, and 25-year time frames. "Asset stickiness," or the
-
-degree to which money stays with an asset manager over time, plays a vital role in determining which companies in the asset management industry have the widest economic moats.
-
-Looking more closely at BlackRock, which we feel has the widest moat in the asset management industry, we find that the company benefits from a diverse product portfolio, which is equally split among active and passive investment strategies. This effectively makes the firm agnostic to shifts among asset classes and investment strategies, limiting the impact that market swings can have on its overall level of managed assets. With much of BlackRock's AUM sourced from institutional clients, which tend to be more long-term-oriented than retail investors, the company has also been able to tap into a far stickier set of assets than many of its peers. While BlackRock may not be a household name, it is well known and well respected in the institutional channel, especially in fixed income, where it effectively forms an oligopoly with PIMCO and Legg Mason. BlackRock's ownership of iShares, the leading provider of exchange-traded funds, or ETFs, on a global basis, has endeared it to institutional investors, and should provide the firm with strong brand recognition in the retail advisor channel—in our view, the stickiest part of the retail channel. These attributes have all combined to build a wide economic moat around BlackRock's operations.
-
-Rockwell Automation Rockwell Automation has a wide economic moat thanks to a high degree of customer switching costs for its Logix automation control platform. Changing automation vendors is a decision not made lightly by a manufacturer; the organizational disruption caused by the change creates a number of potential costs for the customer, making sticking with the status quo the lower-friction choice. Think of the controller as the brains of the manufacturing floor. Any surgery involving it is delicate and approached with extreme care by the manufacturer. As a result, an automation firm such as Rockwell has a heavy incumbency advantage, building meaningful barriers to successful entry.
-
-## Network Effect
-
-The network effect occurs when the value of a particular good or service increases for both new and existing users as more customers use that good or service. The network effect is a virtuous cycle that allows strong companies to become even stronger.
-
-### Key Questions: Network Effect
-
-1. Explain how the value of the good or service increases as more customers and suppliers join the network. Try to provide quantitative proof that value (in real terms) increases faster than the rate of customer or supplier additions (with metrics like sales per user or sales per branch). With companies that truly benefit from the network effect, there's usually a clear, logical story for how value increases with additional customers and suppliers. Quantitative proof helps solidify the argument.  
-2. How does the company monetize its network? Many Internet companies have powerful network effects in the sense that the value of the service increases with additional users. Unfortunately, companies aren't always able to charge enough for the services they provide. Ability to sufficiently monetize the network through subscriptions, advertising, or charges provides a return to investors and ensures the company has money to reinvest in its network. Sufficient monetization of the network is a requirement for a narrow or wide moat.  
-3. Given that the offering's value increases as the network grows, do the company's suppliers and customers have strong bargaining power? How much value does the company have to share with its suppliers and customers? Sometimes suppliers or customers have bargaining power because the company needs them to increase the value of the network. If the company is in a weak bargaining position, it may be unable to sufficiently monetize its network.
-
-Expedia and Priceline Major online travel agents, or OTAs, such as Expedia and Priceline are examples of companies whose economic profits are protected by the network effect. Both travel suppliers and consumers gravitate toward the big OTA platforms that consistently consolidate the largest collection of travel inventories and distribute them efficiently. Huge transaction volumes measured in billions of dollars each year run through the Expedia and Priceline families of
-
-booking sites. That's made these platforms a highly coveted distribution channel from the perspective of travel suppliers that are eager to list their services. In turn, this increases the appeal of the booking sites to travelers, thus setting off the virtuous cycle.
-
-Tencent Tencent is among the most influential and profitable Internet firms in China, with a dominant position in instant messaging, online gaming, and social networking. By providing a high-quality online experience that has helped Chinese Internet users stay connected, informed, and entertained for more than a decade, Tencent has won the loyalty of several hundred million subscribers. Tracing its roots to an instant messaging service, Tencent has expanded into a massive and sticky online platform for 500 million Chinese Internet users during the past decade. Adding to its hugely popular QQ instant messaging service, which has more than  $80\%$  of share in terms of IM user time according to third-party researcher iResearch, Tencent has built its social networking and social media platforms to an impressive scale during the past few years. Tencent boasts more than 500 million accounts (though it's possible to have multiple accounts per user) both on the Qzone platform and on its Twitter-like microblog site, and it signed up more than 400 million users on mobile app WeChat, launched only two years ago. There are likely overlaps among the subscriber groups, but the numbers still serve to illustrate a network effect that Tencent's peers would be hard-pressed to match. Although Internet users can easily set up accounts on competing platforms, we think none of the rivals is close to the scale of Tencent. Leveraging its massive user base and site traffic, Tencent has been able to grab top shares in both online gaming and brand advertising despite being a latecomer to these markets.
-
-Core Labs Core Labs provides the analytical firepower and tools needed to deeply study the geological structure and fluid dynamics of an oilfield reservoir. Core's efforts revolve around analyzing well cores and how hydrocarbons move through the reservoir, so it can suggest ways to improve recovery rates in a mature oilfield by a few hundred basis points. As compensation for its work, Core extracts just a fraction of its value to the operator through its fees, and the customer may be able to realize billions of dollars in incremental profits.
-
-Core Labs is unique among its oil services peers thanks to its reservoir studies program. Companies pay a nominal fee to participate in an industry
-
-consortium—where more than 100 companies may participate—focused on how to best produce a certain reservoir. These studies are an important way for Core to strengthen relationships with a key group of customers while generating a significant network effect. By joining the studies, companies gain valuable knowledge relatively quickly and cheaply, while Core receives important data that the oil and gas firms have paid hundreds of millions, if not billions of dollars, to obtain. The network effect occurs because the more companies join the consortium, the more information Core can offer everyone, and the more value the offering has. Core's data analysis then provides the consortium with the needed information to properly allocate drilling capital. As reservoir dynamics change, the consortium studies naturally support further analysis of the reservoir and additional purchases of the associated services and equipment from Core. Oil and gas companies seeking the best techniques to exploit a given reservoir and thus generate the highest possible returns are compelled to take advantage of Core's position as a knowledge leader, by joining Core's studies and becoming regular users of Core's services.
-
-Dassault Dassault Systèmes is a market-leading provider of 3-D computer-aided design, or CAD, and product lifecycle management, or PLM, software. Dassault's solutions allow its clients to design, collaborate, manufacture, and maintain products in a timely and cost-efficient manner. The company's flagship CAD product, SolidWorks, and leading PLM product, CATIA, are the driving forces behind the company's success (roughly  $60\%$  of group revenue), and a current roster of clients such as Boeing, BMW, Nokia, Nestle, and General Electric highlights the quality of the company's solutions. Dassault has an extensive education program that trains users from an early stage, high school and college, to be proficient in the company's tools, which creates a growing network of employees and employers that prefer Dassault products. This growing network of users provides the firm with a positive network effect, as students want to be trained on the software that most potential employers use, and employers want to use the software that most students know.
-
-## Efficient Scale
-
-Efficient scale describes a dynamic in which a market of limited size is effectively served by one company or a small handful of companies. The incumbents
-
-generate economic profits, but a potential competitor is discouraged from entering because doing so would cause returns in the market to fall well below the cost of capital.
-
-This phenomenon especially makes sense when a new entrant would have to sink a lot of capital. To cover its entry costs, it would want a sufficient share of the market, but if the market opportunity is limited, a fight for market share would cause prices to fall and hurt returns for all players in the industry. This barrier to entry relies on new entrants being rational. Knowing this, existing players often set prices that are high enough to generate sufficient returns on invested capital, but low enough to disincentivize prospective entrants.
-
-Efficient scale differs from cost advantage, because the incumbent firm's cost advantage isn't necessarily difficult for a potential rival to replicate. It's just that the other potential players have no incentive to enter the market, even if they could ultimately achieve the same cost profile that incumbents have. Further, in cases where a specific or niche market is being served by a single firm, it doesn't make sense to say that the company has a low-cost advantage, because there's no basis for comparison.
-
-Often, an efficient-scale business has a high degree of shortor medium-term pricing power. However, the company frequently chooses not to exercise this power to the fullest extent, even though doing so would maximize its current profitability. The business exercises restraint because it does not want to incent a rival to enter its market, which could destroy the economic rents for both players. The ability to exercise pricing power intelligently to influence the size of the "economic pie" in a way to both make sufficient profits and deter rivals is a distinguishing characteristic of efficient-scale businesses.
-
-### Key Questions: Efficient Scale
-
-1. Define the limits of the market. Is the addressable market finite or are the boundaries blurry? What is the size of the market, and what is the capacity of existing industry players? How many companies serve the industry? Markets that lend themselves to the efficient-scale phenomenon are clearly defined and served by only a handful of players or fewer.
-
-#### (Continued)
-
-2. What is the cost of entering the market? How much market share would a new entrant have to grab in order to recoup the cost of entry? These questions help assess the economics facing potential entrants.  
-3. Have potential competitors tried to enter the market and ultimately failed? Evidence of failed entries can solidify an efficient-scale-based argument for a narrow or wide economic moat.
-
-Pipelines Pipelines are arguably the best illustration of the efficient-scale classification, because these wide-moat companies don't benefit much from other sources of economic moat, yet they frequently demonstrate an ability to earn economic profits year after year. Suppose there's a need to move 250,000 barrels per day, or bpd, of crude oil from producing basin A to refining center B, and a pipeline exists that has the capacity to move 275,000 bpd along this route. There is no incentive for competitors to enter; the pipeline is efficiently scaled to the market. Pipelines have the added benefit of not needing to rely on potential entrants to be rational. The pipeline industry is heavily regulated because of environmental and safety concerns and eminent-domain considerations. In addition, regulators prevent the building of new pipelines unless there is a demonstrated economic need to do so. Because of the monopoly status of many pipelines, regulators also control rates but generally allow pipeline companies to earn an adequate return on their capital. This reflects the capital intensity of the business, as well as the regulated rates. However, remember that in our economic moat framework, it's the sustainability of excess economic profits that matters, not the size of the spread between ROIC and WACC. Because pipeline companies generally secure long-term contracts from their customers, and because there is little risk of technological disruption, these economic profits are very likely sustainable.
-
-Mexican Airports Mexican airports provide another good example of companies that benefit from the efficient-scale phenomenon. These companies own the rights to operate geographic monopolies of airports in Mexico, allowing them
-
-to extract high economic profits from their customers. These monopolies resulted from the Mexican government's decision to privatize the country's main airports in 1998. As a result, Grupo Aeroportuario del Pacifico, Grupo Aeroportuario del Sureste, Grupo Aeroportuario del Centro Norte, and a privately owned firm were granted concessions to operate the airports for 50 years, significantly limiting competition. In return, the companies comply with the regulation of fees charged to airlines and passengers and make necessary infrastructure investments. To comply with the granted concessions, the private airport operators must submit a master development program, or MDP, every five years to the Ministry of Communication and Transportation for review and approval. The MDP contains proposed capital spending on each airport for the next five-year and subsequent 10-year periods. The Ministry then uses the MDP and other factors to arrive at the maximum rate that operators will be allowed to charge departing passengers. Beyond the intangible asset of the government concession, Mexican airports benefit from the efficient-scale phenomenon because many cities can support only one major airport.
-
-## Notes
-
-1. At Morningstar, we calculate ROIC as earnings before interest (EBI) divided by invested capital, where EBI is operating income (excluding charges) plus amortization less cash taxes and invested capital is operating assets less operating liabilities. WACC is defined as (cost of debt)  $\times$  (weight of debt) + (cost of equity)  $\times$  (weight of equity).
-
-## Why Moat Trends Matter
-
-Contributed by Stephen Ellis, a member of Morningstar's Economic Moat Committee and head of Financial Services equity research at Morningstar
-
-By now you have a good working knowledge of economic moats and what it takes for companies to build them. But there's another important facet of moats that we haven't much touched on—the direction they're heading. Moat ratings, while forward looking, are static, and don't indicate whether a company's competitive position is improving or declining. That's why in 2009, we introduced moat trend ratings to supplement our economic moat ratings. The trend ratings convey the direction firms are heading, in terms of their competitive advantages. We believe this is a very important additional piece of information. Moat ratings can tell you the width of a company's current moat, but trend ratings tell you if that moat is holding up well, is getting even stronger, or is in danger of being filled in by a rampaging horde of invaders.
-
-Trend ratings recognize that corporations evolve and that moats grow, mature, and eventually die. In other words, economic moats have a life cycle. As such, whenever we assign a moat rating, we also assign a trend rating: positive when competitive advantages are improving, negative when they're
-
-declining, and stable when we don't see much movement one way or the other. In mid-2013, about  $16\%$  of the companies we cover had negative trends, while just  $8\%$  showed positive trends. This means that positive trend ratings are even rarer than our hard-to-attain wide moat ratings, which we've awarded to about  $13\%$  of our coverage universe.
-
-Given that our time horizon when assessing moats is 10 to 20 years, focusing more attention on how the competitive environment is currently changing is a useful enhancement to our overall moat methodology. We want to minimize situations where we've mischaracterized a competitive threat as not serious, only to find the need to downgrade a firm's moat after it has been overtaken by attackers. As analysts and investors, we're now explicitly charged with assessing the expected future changes in a firm's competitive advantages, and separating competitive threats that are merely temporary in nature from more dangerous and permanent changes in the overall environment. In short, we think adding moat trends to our toolbox can provide a more complete picture of a firm's competitiveness.
-
-Figure 3.1 shows how positive and negative moat trends are distributed across Morningstar's current coverage universe by sector.
-
-When evaluating moat trends, we start by looking at the same five sources of moat that we use when determining moat ratings (intangible assets, cost advantage, switching costs, network effect, and efficient scale). For example, if a company's moat is based on a low-cost base of manufacturing plants
-
-Figure 3.1 Moat Trends by Sector  $(\%)$  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/0a9dba92-72e7-40e0-b78e-81d5d1300799/4c7e75f293b9ae9ad7ffd6f1e89f396370468d708806cbe5cd79a32d23132faf.jpg)  
-SOURCE: Morningstar Equity Research.
-
-and it's expanding its capacity, we want to know if it's widening the cost gap between itself and its competitors. Or perhaps a company with an existing low-cost advantage is in the midst of developing network effect as an additional moat source. Factors like these strengthen the case for a positive moat trend rating.
-
-# Moat Trends and Fundamental Performance
-
-When we look at data extracted from our analysts' discounted cash flow models for positiveand negative-trend companies, in Table 3.1, we find that positive-trend firms tend to grow more quickly, produce more profits, and
-
-Table 3.1 Median Metrics: Growth, Profitability, Valuation  
-
-<table><tr><td></td><td>S&amp;P 500 (%)</td><td>Positive Trends (%)</td><td>Negative Trends (%)</td></tr><tr><td>Trailing 3-Year EPS</td><td></td><td></td><td></td></tr><tr><td>CAGR</td><td>11.9</td><td>14.7</td><td>2.1</td></tr><tr><td>Projected 5-Year EPS CAGR</td><td>9.4</td><td>13.6</td><td>7.3</td></tr><tr><td>Trailing 3-Year Revenue Growth</td><td>7.9</td><td>12.8</td><td>4.8</td></tr><tr><td>Projected 5-Year Revenue Growth</td><td>5.2</td><td>9.2</td><td>3.8</td></tr><tr><td>Projected 5-Year EBIT Growth</td><td>7.8</td><td>12.7</td><td>6.8</td></tr><tr><td>Trailing 3-Year Operating Margin</td><td>15.7</td><td>15.9</td><td>11.9</td></tr><tr><td>Projected 5-Year Operating Margin</td><td>17.4</td><td>19.4</td><td>13.2</td></tr><tr><td>Trailing 3-Year Average ROIC</td><td>13.0</td><td>10.9</td><td>11.4</td></tr><tr><td>Projected 5-Year Average ROIC</td><td>12.6</td><td>12.4</td><td>9.8</td></tr><tr><td>Forward Debt/EBITDA</td><td>1.72</td><td>1.5</td><td>1.45</td></tr><tr><td>Forward EBITDA/Interest Expense</td><td>11.7</td><td>11.8</td><td>8.4</td></tr><tr><td>Forward P/E</td><td>16.0</td><td>17.8</td><td>13.8</td></tr></table>
-
-SOURCE: Morningstar Equity Research.
-
-generate higher returns on invested capital than firms included in the S&P 500. On the other hand, negative-trend firms generally show weaker metrics than both positive-trend firms and the S&P 500 firms. This makes sense, given our focus on competitive advantages. The weaker firms are usually losing market share, unable to raise prices to offset their costs, or being undercut by competitors. In contrast, the positive-trend firms tend to show stronger metrics because their improving competitive picture—perhaps including market-share gains or increased economies of scale—is leading to higher growth rates and improved profitability.
-
-# Five Key Considerations for Moat Trends
-
-It is possible to have a wide economic moat rating and a positive trend, as well as a no-moat rating and a negative trend.
-
-Companies with no-moat and negative trend ratings aren't necessarily in imminent danger of bankruptcy, but we do believe these firms' strategic and competitive positions are already weak and becoming worse over time. We also see wide-moat companies with positive trends that are still strengthening their moats. A wide-moat company already has great competitive advantages, and if these advantages are becoming even stronger or if the company is developing additional moat sources, we may award it a positive moat rating.
-
-Moat and trend ratings are independent.
-
-We evaluate moat and trend ratings independently. We view the trend rating as an indicator of how the firm's competitive advantages are evolving within its given moat band. For example, a positive trend rating on a narrow-moat company indicates that the company's competitive advantages are improving, but the qualitative and quantitative characteristics of the firm's moat might not be strong enough to warrant a wide moat. Also, when a moat rating changes, we still evaluate the trend rating separately. For instance, if we have a narrow-moat company with a negative trend, we could decide to downgrade it to no moat but the trend could remain negative.
-
-As you can see in Figure 3.2, while we view economic moat ratings on a three-part spectrum, there are gradients within each bucket. Some wide-moat companies have stronger, more durable competitive advantages than other
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/0a9dba92-72e7-40e0-b78e-81d5d1300799/686c50b995ac3905a87fef58fedc304f343abe6cdde470aba87132712a00a111.jpg)  
-Figure 3.2 Independence of Economic Moat and Moat Trend Ratings  
-Source: Morningstar Equity Research.
-
-wide-moat companies. You could say that these wide-moat companies are at the widest end of the wide category, and on the spectrum below, a stronger wide-moat company would sit to the right of a weaker wide-moat company. However, we don't use the trend rating to indicate a company's position on the spectrum below. The stronger, wider-moat company may have a negative trend rating, while the weaker wide-moat company may have a positive trend rating. Each company is starting from a different position of strength, and the competitive advantages are heading in different directions.
-
-Changes in ROIC do not necessarily affect our evaluation of moat trends.
-
-Although rising ROICs are often associated with positive moat trends, this certainly doesn't have to be the case. ROICs can go up for many non-moat-related reasons. For example, product cycles and cyclicality will have a major effect on ROICs. Business mix changes may also alter ROICs without changing the moat dynamic. It's even possible to have a negative moat trend and rising ROICs, for a while at least. For example, if a business without many growth prospects stops or slows down its investments (thereby "harvesting" its moat), it may very well experience rising returns for a number of years as its invested capital base declines in relation to profitability and asset turnover.
-
-By the same token, falling ROICs aren't automatically a sign that the trend is negative. ROICs can decline for a number of reasons—some of them actually good. When a firm makes a significant investment that will ultimately strengthen its economic moat, ROICs may decline. Perhaps it's spending heavily on advertising or R&D to strengthen its intangible assets, or it might be building a major new factory that will eventually lower its costs. In both cases, the project is not generating earnings today, which depresses ROICs, but the firm is making the right long-term moves to sustain its competitive advantages. Thinking about moat trends extends beyond ROICs.
-
-# Moat trends are not necessarily related to growth.
-
-High revenue growth or a sharp decline in revenue doesn't indicate whether a firm has a positive or negative trend. Perhaps a company's revenue is on the rise because it's operating in a very high-growth market, but competition is intense and there are very few barriers to entry, threatening its ability to continue growing. Alternatively, revenue could temporarily decline if a business is undergoing a cyclical downturn, or if a customer delays an order of new components. It's important to look at how the firm's moat sources are changing over time rather than simple revenue growth to properly assess its competitive position.
-
-# Business-mix shift does not affect our trend ratings.
-
-There are two schools of thought around how to take shifts in a company's business mix into consideration when evaluating moat trends. The first maintains that a company with a business mix that is shifting toward moatier segments over time deserves a positive trend. The second holds that business mix doesn't have an effect on the trend rating (though it is still important for determining economic moat ratings) because a shifting business mix merely indicates the presence of a higher-growth segment with a moat, rather than actual improvements or deteriorations in competitive positioning for the separate businesses on a stand-alone basis. We believe the second approach is more valid because it focuses attention on how the firm's competitive advantages are changing rather than on simple growth rates. It's consistent with our overall methodology, which emphasizes moats, to put a greater emphasis on improving or deteriorating competitive advantages rather than simple growth or decline. In addition, if we see a management team making poor capital-allocation decisions—perhaps acquiring a large company that doesn't have a moat, thereby "diworsifying" its previously wide-moat business—we can downgrade the moat to narrow, given the new business mix, or a give the company a Poor stewardship rating. (See the next chapter for more on our stewardship ratings. We find that management's capital-allocation decisions can have such a big impact on a company's competitive positioning and economic profit potential that assessing the leadership team's stewardship of shareholder capital is an important aspect of our research process.)
-
-Probably the best way to learn how to evaluate moat trend is to look at some real-life scenarios and see how we've analyzed various situations and determined moat trends. Because the starting point for evaluating any moat trend should be determining which moat source is affected, we've grouped these case studies by moat source.
-
-# Intangibles
-
-Intangible moat sources include patents, brands, research and development strength, and regulatory environment, as well as other items that are, by definition, hard to quantify. Moats based around intangibles are common within the healthcare sector because of its reliance on patents, but the industry is currently a bit split in terms of positive and negative trends. On the one hand, you have a firm like pharmaceutical giant AstraZeneca, which has suffered through a long period of declining R&D productivity that began in the 2000s after the industry experienced a surge of innovation in the 1980s and 1990s. Simply put, AstraZeneca is struggling to develop new and innovative drugs to replace its drugs coming off patent, while the FDA is being more careful about which drugs it approves, making it even harder for AstraZeneca to replace declining drugs with newer ones.
-
-But while big pharma has struggled with R&D productivity over the past decade, biotechnology firms have been remarkably productive, and many of them enjoy positive moat trends today. A key common factor for these positive trends is a proprietary R&D platform, which allows biotech firms such as Regeneron and Seattle Genetics to screen for and select molecules or antibodies that have a higher chance of being successful. In other words, there's knowledge sharing going on at each of these companies, which makes them far more productive than their peers from a research and technology perspective and gives them positive trend ratings.
-
-These biotechs are each leveraging a single development platform into multiple solutions, and with each additional application found, we think the intangible moat source strengthens. For example, Seattle Genetics has developed an antibody-drug conjugate, or ADC, technology platform. With ADCs, antibodies are directly linked to potent chemotherapeutics, making treatment more targeted and effective. The antibodies themselves (such as Herceptin for
-
-breast cancer), which already have substantial killing power, can bind to a cancer cell and effectively transport cancer chemotherapeutics into the cancer cell where its payload is released. The end result is that nasty side effects are less common, as the antibody sticks to the cancer cells and more of the cancer drug is delivered to the sick cells. These ADCs have been described as floating sea mines or miniature drug bombs. Today, Seattle Genetics has one of the more powerful technology platforms for screening and selecting the most effective floating linkers (or mines) for its own drugs, and its linkers are commonly used for next-generation cancer drugs developed through partner collaborations. In short, as the firm's experience with its platform increases, its linkers become part of more drugs and the company improves its ability to charge higher royalties to its partners. Given these factors, we think Seattle Genetics' intangibles-based moat should continue to widen. Figure 3.3 shows its position in antibody drug conjugates, relative to its peers.
-
-Procter & Gamble, by contrast, is an illuminating case study on how even some of the most powerful brands on the planet can lose cachet in the eyes of consumers. Over the past decade, P&G's ability to innovate has slowed, while its competitors have rapidly closed the gap. In an industry where a single point of market share is a huge deal, P&G has struggled across several markets. For example, Gillette has lost share in the razor and blades market since 2005, and P&G's beauty care brands, Pantene and Olay, have also struggled. Perhaps the most high-profile example of P&G's challenges is in the laundry area. P&G
-
-Figure 3.3 Top 10 Sponsors of Ongoing Clinical Trials of Antibody Drug Conjugates  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/0a9dba92-72e7-40e0-b78e-81d5d1300799/f82281467297eda2dd26958fc9e3f7f8bda5e70911c97014a3f4771d533aa882.jpg)  
-Data as of October 2012.  
-SOURCE: TrialTrove.
-
-lost roughly 70 basis points of value share in the liquid laundry detergent market between 2007 and 2012 in North America, while its domestic unit share declined to less than  $56\%$  by the end of calendar year 2012. P&G was forced to reduce prices to regain share, and the timely introduction of the Tide Pods in early 2012 after eight years of research also helped it garner a larger share of the overall market. Tide Pods are now a \$500 million business in the \$7.5 billion U.S. liquid laundry detergent category.
-
-Despite the Pods' success, we still think P&G faces a negative trend for several reasons. First, the company is no longer outspending peers in terms of research investment as a percentage of sales. As a result, the Tide Pods are P&G's first new major innovation in more than a decade. Second, when CEO A.G. Lafley took over P&G in 2000, he decentralized R&D efforts, tying results more closely to short-term profit goals. As a result, new product introductions in the 2000s were cut in half as the research focus shifted toward reformulating existing products versus delivering category game-changers. Former CEO Bob McDonald had worked to centralize research efforts, but he was too aggressive in chasing emerging markets while intense competition in North America hurt the firm, particularly as consumers in the wake of the Great Recession became more value conscious and less enamored by P&G's often premium-priced products. Now, with McDonald ousted, the firm is back under CEO Lafley's hand, and with P&G's earlier announcement of a \$10 billion spending reduction plan, we worry again that the firm could cut R&D and ultimately innovation, to P&G's long-term competitive detriment. Third, we believe the competitive environment has simply grown far more intense over the past decade, and it will continue to do so going forward. For example, Unilever can easily roll out products in 60 countries today in the same time it once took to launch a product in 10 countries, which is an ability that once belonged to P&G alone. Even within the pod laundry category, we note that a 72-count package of Tide Pods at Wal-Mart is priced at an  $80\%$  premium versus the same-size package of Pods by All (owned by Germany's Henkel) and more than double the cost of Purex UltraPacks (owned by Sun Products). The fact that two major competitors were able to launch competing pod products so quickly despite eight years of work by P&G is troubling and speaks to the limited and shrinking R&D advantage P&G has over its peers, as illustrated by Figure 3.4. For all of these reasons, we believe P&G's ability to charge premium prices will continue to erode going forward if consumers don't perceive the value differential as compelling.
-
-Figure 3.4 Procter & Gamble R&D Spending vs. Peers, 2003-2012 (as a Percentage of Revenue)  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/0a9dba92-72e7-40e0-b78e-81d5d1300799/4dfdd6bfbabac8c5e561df6ede23c4c605bf813e2b658be2296c020cc022bf73.jpg)  
-SOURCE: Company reports.
-
-# Cost Advantage
 
 Everyone knows the package-shipping duo of UPS and FedEx. Both firms enjoy massive scale advantages thanks to large transportation networks of aircraft and trucks, distribution hubs, and the use of technology to deliver millions of packages on time to businesses and consumers around the world every day. The cost for effectively competing with these giants in the domestic U.S. market, where they still derive more than  $75\%$  of sales, can be measured in the billions. Just ask rival DHL, which lost nearly \$10 billion over a fruitless decade as it tried and failed to compete in the U.S. market in the 2000s before retreating. Meanwhile, FedEx has been gaining market share over UPS in U.S. ground operations for more than a decade, as Figure 3.5 shows, earning it a positive moat trend.
 
@@ -585,7 +323,7 @@ SOURCE: Morningstar estimates, company reports.
 
 barrel, Saudi Arabia enjoys foreign exchange reserves worth more than  \$700 billion, and Saudi Aramco (the country's national oil company) plans to spend more than\$ 200 billion in the next decade on oil and gas projects and investment in oilfield technology such as nanotechnology. The cash windfall has also allowed national oil companies to pursue assets outside of their own borders, competing with the majors in many cases, but also demanding better contract terms. The shift in bargaining power means countries with reserves can demand and obtain contracts with the oil and gas majors that essentially let the countries claim 99% of the revenues generated from the agreement over time, as with Iraq. The best avenues left for growth for the Western majors and international oil companies are areas that the national oil companies do not control, such as deep-water oil in the Gulf of Mexico, Australian LNG, and the Canadian oil sands, where obtaining oil costs far more than the \$10 a barrel it costs to do so in Saudi Arabia. As a result of all of these factors, we believe the major oil companies' competitive advantages are declining and their moat trends are negative.
 
-# Switching Costs
+## Switching Costs
 
 The tech sector is particularly challenging territory for evaluating moats and trends, but it also offers some of the clearest examples of the power of switching costs. For corporations, switching among different software providers can
 
@@ -608,7 +346,7 @@ Figure 3.7 Five-Year Total Cost of Ownership (%) Source: Salesforce.com, IDC.
 
 SaaS shifts software to a variable-cost model based on usage and changing corporate needs, versus a fixed annual license fee. Salesforce.com and its peers have seen success primarily with customer relationship management, or CRM, applications recently, but new SaaS modules are also on the market for human resources, accounting, and supply chain planning, among other uses. In other words, over time the entire enterprise resource-planning software will be available through the cloud and likely through a single vendor. Given the ease of installation, the conversion of a fixed cost into a variable cost, and the much lower operating expenses due to not needing IT professionals, we see SAP's ERP on-premise software gradually being displaced within corporations by the more flexible SaaS solution. It remains to be seen if SAP can successfully reinvent itself by offering SaaS versions of its legacy on-premise applications.
 
-# Network Effect
+## Network Effect
 
 The network effect, in our view, is one of the most powerful moat sources a company can have. This is the primary force behind the economic moats for U.S. e-commerce powerhouses Amazon and eBay. Basically, a marketplace becomes more valuable as it increases in size because the value of the services provided increases as the user base expands. Facebook, with its one billion-plus monthly users, is another great example of the network effect in action.
 
@@ -634,7 +372,7 @@ Source: Nasdaq, NYSE.
 
 exchanges have battled back with new and faster trading systems, we don't expect the competitive environment to improve. Traders will likely shift order flow between electronic networks (both public and privately owned dark pools, which offer institutional investors nonexchange sources of liquidity where trades are concealed from the public) to obtain the best execution and prices, putting constant pricing pressure on the exchanges to cut prices to maintain enough liquidity.
 
-# Efficient Scale
+## Efficient Scale
 
 Our newest moat source, efficient scale, was introduced only in late 2011. Recall that efficient scale refers to situations where companies are effectively serving a very limited market size, and potential competitors have little incentive to enter the market because by doing so, they would lower the industry's returns to below the cost of capital. Although this moat source hasn't been part of our framework for long, we have identified several situations where we believe the efficient-scale advantage for a firm is changing in positive or negative way.
 
@@ -644,7 +382,7 @@ thousands globally versus the millions that are treated for, say, high cholester
 
 The Orphan Drug Act essentially meant that drug companies would be granted lucrative regulatory benefits in exchange for developing drugs for orphaned diseases, making it economically feasible to pursue these patient populations. Drugs currently qualify for orphan status if the U.S. patient population is fewer than 200,000 patients. Benefits for drug companies include a seven-year period of market exclusivity, tax incentives, grants for drug development, and fast-track approvals. The legislation is widely believed to be a success, with more than 1,000 drugs granted orphan status in the past few decades, versus just 38 drugs prior to the act being passed.
 
-From a moat-focused perspective, orphan drugs are very attractive, as the markets are typically best served by just a single firm. Morningstar covers several orphan-drug companies, including Alexion and BioMarin Pharmaceutical, both of which have narrow moats. It's not hard to see why. Alexion's Soliris is the only drug approved to treat paroxysmal nocturnal hemoglobinuria, a disease that destroys red blood cells and causes anemia, fatigue, and blood clots, killing half of its sufferers within 15 years. In addition to developing the drug, Alexion has worked hard to identify and reach out to a population of just 8,000 to 10,000 patients and educate doctors about the treatment. For its efforts, Alexion is charging  $400,000 to$ 500,000 per year for Soliris. BioMarin has a portfolio of drugs for various diseases, including Aldurazyme, which treats mucopolysaccharidosis I, or MPS I. MPS I sufferers do not produce enough of one of the 11 enzymes required to break down sugar chains into molecules, and suffer from bone, organ, and brain damage as a result. Again, only about 3,000 people suffer from this disease, and BioMarin charges \$200,000 annually for the drug, making it about a \$200 million product line. In addition to the
+From a moat-focused perspective, orphan drugs are very attractive, as the markets are typically best served by just a single firm. Morningstar covers several orphan-drug companies, including Alexion and BioMarin Pharmaceutical, both of which have narrow moats. It's not hard to see why. Alexion's Soliris is the only drug approved to treat paroxysmal nocturnal hemoglobinuria, a disease that destroys red blood cells and causes anemia, fatigue, and blood clots, killing half of its sufferers within 15 years. In addition to developing the drug, Alexion has worked hard to identify and reach out to a population of just 8,000 to 10,000 patients and educate doctors about the treatment. For its efforts, Alexion is charging  $400,000 to $500,000 per year for Soliris. BioMarin has a portfolio of drugs for various diseases, including Aldurazyme, which treats mucopolysaccharidosis I, or MPS I. MPS I sufferers do not produce enough of one of the 11 enzymes required to break down sugar chains into molecules, and suffer from bone, organ, and brain damage as a result. Again, only about 3,000 people suffer from this disease, and BioMarin charges \$200,000 annually for the drug, making it about a \$200 million product line. In addition to the
 
 exclusivity period granted by the Orphan Drug Act, these drugs tend to be very difficult to manufacture, making it even less likely that a new entrant will want to pursue these small markets.
 
@@ -1073,7 +811,7 @@ Figure 6.1 Market Fair Value
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/0a9dba92-72e7-40e0-b78e-81d5d1300799/a09de6279df20bd4b9476137aaca1d7bbf76cce3a1114a4a4af0bef61718ca90.jpg)  
 SOURCE: Morningstar.
 
-# Valuation Concepts
+## Valuation Concepts
 
 Before we explain how we use the DCF approach to establish the fair value of a stock, let's talk about valuation more generally. A common and simple valuation approach often used in the stock market is multiples-based analysis. In the same way that savers seek out high deposit rates, stock investors often look for high yields. One of the most commonly used approaches is the earnings yield—or, more accurately, its inverse, the price/earnings, or P/E, ratio. Other multiples such as price/sales, price/cash flow, and price/book value are also often used. The P/E valuation approach involves identifying a fair P/E multiple for a stock and then buying when the multiple is below this level and selling when the multiple is above it. This metric is relatively easy to calculate, requiring only the current share price and next year's earnings forecast, but there are many drawbacks to this and other multiples techniques.
 
@@ -1083,7 +821,7 @@ In contrast to the simplicity of multiples, discounted cash-flow analysis requir
 
 that prevents you from receiving the cash in the future. The greater the risk of the cash not being received, the larger your discount rate should be—that is, the less cash you'd be willing to give up today in exchange for the future payment.
 
-# Cost of Capital and Returns on Capital
+## Cost of Capital and Returns on Capital
 
 Put simply, the aim of investment is to generate risk-adjusted returns that exceed the cost of capital required to fund the investment. When evaluating returns generated by a business, we prefer to consider the underlying return by excluding nonoperating charges or income, and by excluding the benefits of financial leverage. To do this, we start with operating income (earnings before interest and taxes, or EBIT), then back out the effects of nonoperating charges or income and subtract cash taxes to arrive at earnings before interest, or EBI. That is our numerator, or the "return" part of the equation. To calculate the relevant capital invested in the business, we only consider capital that's required to generate profits. To exclude the benefits of financial leverage, we include invested capital from both equityholders and debtholders. Invested capital, or IC, is the denominator in our equation. This excludes assets owned by the business but not required to generate profits. We believe these metrics give the most realistic indication of investment return or return on invested capital, or ROIC. As we have discussed earlier, we often look for returns on invested capital and returns on new invested capital, or RONIC, to exceed a company's weighted average cost of capital, or WACC, as quantitative evidence of a moat. When we talk about returns we therefore mean:
 
@@ -1095,7 +833,7 @@ Sometimes we include various other balance-sheet items, such as deferred tax ass
 
 As all businesses require capital to operate, the cost of capital must be overcome in order to generate excess returns. We determine a WACC that incorporates the cost of both debt and equity, with weights of each dependent on the expected capital structure of the business. The WACC, which is also used as the discount rate in a discounted cash-flow model, incorporates the return required by both stockholders (the cost of equity, or COE) and bondholders (the cost of debt, or COD).
 
-# Morningstar's Valuation Approach
+## Morningstar's Valuation Approach
 
 At Morningstar, we build DCF models for each of the companies in our coverage universe using a standard template. In practice, most DCF models have detailed cash-flow forecasts for five to 10 years, with this period typically referred to as the explicit forecast period. Beyond this, there is often little value in continuing detailed cash-flow forecasts as accuracy diminishes. As an alternative, some form of lump sum is generally used, typically referred to as the perpetuity or terminal value, and based on the final year's cash-flow forecast contained in the explicit period. To calculate a reasonable terminal value, it is important to reach a midcycle cash-flow forecast by the end of the explicit forecast. This type of model can be referred to as a two-stage DCF.
 
@@ -1111,7 +849,7 @@ Figure 6.2 Graphical Illustration of Example Cash-Flow Profile Source: Morningst
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/0a9dba92-72e7-40e0-b78e-81d5d1300799/30c4abdb9f129f0fd7c4a6ec6f497ec2d2c01c77a0add5f7aaf164bd0c4ea2ea.jpg)  
 Figure 6.3 Graphical Illustration of Example RONIC and WACC Profile Source: Morningstar.
 
-# Example: Calculating ROIC
+## Example: Calculating ROIC
 
 To illustrate the calculation of ROIC, let's use a company Morningstar considers to have a wide economic moat: Patterson, a distributor of dental, veterinary, and medical supplies. Patterson's wide moat is based on a cost advantage—the company is one of only a few national dental and animal health distributors with the scale to effectively leverage investments in warehouses, logistics networks, and customer and supplier relationships. Table 6.1 displays Patterson's balance sheet for fiscal 2012 and 2013 (Patterson's fiscal year ends in April).
 
@@ -1178,7 +916,7 @@ Because Patterson's ROIC of  $16.2\%$  exceeds its WACC of  $7.6\%$ , the compan
 
 Note that the adjustments you choose can have a significant impact on this analysis. For example, if we had included average goodwill of \(817 million in Patterson's invested capital, this would have reduced ROIC to \(10.4\%\) (though this is still comfortably above Patterson's estimated cost of capital).
 
-# Forecasting Future Free Cash Flows
+## Forecasting Future Free Cash Flows
 
 The most challenging aspect of estimating a company's fair value is predicting future cash flows. Experienced investors know that finding investing opportunities boils down to having a better forecast for future cash flows than the market does. All of the favorite theoretical arguments about discount rate and terminal value methodologies fade into the background, and what matters most is having better foresight about a company's future profits and cash flows than other investors do. Moreover, because the final year of the explicit forecast period is the basis for terminal value in any DCF methodology—not just Morningstar's—forecasting "normal" or "midcycle" earnings and cash flows is of utmost importance. Therefore, this is where we spend quite a bit of time. And we believe the focus on long-term competitive dynamics that underpins our moat and trend ratings also supports our valuation work by prioritizing our research efforts where
 
@@ -1226,7 +964,7 @@ Many factors influence a company's valuation, but one of the most important is t
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/0a9dba92-72e7-40e0-b78e-81d5d1300799/87b16c5324d0a9ee504d13dcc94f562f2f2a3b55a850084705cee9e816108746.jpg)  
 Figure 6.5 Scenario Analysis Source: Morningstar.
 
-# The Morningstar Rating™ for Stocks
+## The Morningstar Rating™ for Stocks
 
 Next let's explore how we move from these fair value estimates to the Morningstar Rating™ for stocks, which essentially summarizes our view on a stock's investment attractiveness given the current stock price, our fair value estimate, and our level of uncertainty. We define our ratings so you understand exactly how we intend for them to be used (and how we use them ourselves). Figure 6.6 conveys where we are in the research process—the home stretch.
 
@@ -1235,7 +973,7 @@ If you've worked with DCF models before, you know they can be highly sensitive a
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/0a9dba92-72e7-40e0-b78e-81d5d1300799/458c51db7df08d2feb935c8cadf976b739e410b910537e7d36ad58619090a636.jpg)  
 Figure 6.6 The Morningstar RatingTM for Stocks Source: Morningstar.
 
-# Fair Value Uncertainty and Cost of Equity
+## Fair Value Uncertainty and Cost of Equity
 
 So what exactly do we mean by uncertainty? We're basically asking, "How likely is it that I'm wrong in my estimates of the intrinsic value of the security I'm analyzing?" Our approach, after more than a decade of iteration and research, is to use five buckets of uncertainty: low, medium, high, very high, and extreme, each with a corresponding margin of safety. Every company that we cover receives an uncertainty rating, and we require a specified margin of safety around our fair value estimate before we'll pound the table on a buying opportunity and rate it 5 stars. A 1-star rating indicates that we think a company is significantly overvalued and we'd consider selling it if we happened to own it. As you might expect, the margin of safety we require increases as valuation predictability decreases. Put another way, as valuation uncertainty increases, so does the prudent margin of safety. Figure 6.7 demonstrates our system.
 
@@ -1279,7 +1017,7 @@ In summary, discounted cash-flow analysis can be a great tool for estimating the
 
 1. For those familiar with the Morningstar Rating™ for funds, you can see that the Morningstar Rating™ for stocks differs in that our stock ratings reflect our prediction for future returns, while our fund ratings are based on historical performance compared to similar funds.
 
-# Do Moat Ratings Predict Stock Returns?
+## Do Moat Ratings Predict Stock Returns?
 
 Contributed by Warren Miller, head of quantitative research at Morningstar
 
@@ -1378,7 +1116,7 @@ Portfolio Strategies
 
 Now that we've walked through how we estimate a company's moat rating and fair value, we would like to share a few real-world examples of how to put these principles into action. We start with the Wide Moat Focus Index, as it represents the most systematic application of these methods.
 
-# Wide Moat Focus Index
+## Wide Moat Focus Index
 
 This index reflects the ideas we have articulated so far in this book, that both quality and valuation matter in stock investing. Wide Moat Focus is a rules-based index that holds the 20 cheapest wide-moat stocks, as determined by Morningstar analysts' economic moat ratings and fair value estimates. Wide Moat Focus considers only moat ratings and valuation, without regard to moat trend, stewardship, or uncertainty. To construct the index, we begin with a pool of all U.S.-based and U.S.-traded stocks with wide moat ratings (excluding
 
@@ -1407,7 +1145,7 @@ Figure 8.1 Moat Upgrades and Downgrades as a Percentage of Our Total
 Coverage Universe  
 SOURCE: Morningstar estimates.
 
-# The Tortoise and Hare Portfolios
+## The Tortoise and Hare Portfolios
 
 Another example of putting these principles into action comes from our Morningstar® StockInvestor™ newsletter. As part of this newsletter, we run two real-money portfolios, the Tortoise and the Hare, both of which have significantly outperformed the S&P 500 benchmark since their inception on June 18, 2001. For current performance figures, see http://msi.morningstar.com.
 
@@ -1415,7 +1153,7 @@ The Tortoise Portfolio includes our more conservative recommendations. These hol
 
 The Hare Portfolio includes our more aggressive picks. These companies tend to be faster-growing, with both higher risk and higher return potential than the firms in the Tortoise. All holdings have economic moats, though we're more willing to consider companies with narrow moats and positive moat trends in the Hare (that is, companies that are on their way toward building wide moats in the future). The Hare's performance has been more closely correlated with—though substantially better than—the overall market.
 
-# StockInvestor's Stock Selection Criteria
+### StockInvestor's Stock Selection Criteria
 
 When picking stocks for the Tortoise and Hare Portfolios, we seek companies that:
 
@@ -1427,7 +1165,7 @@ When picking stocks for the Tortoise and Hare Portfolios, we seek companies that
 
 In other words, we consider all of the aspects of the research methodology described throughout this book when choosing stocks for the Tortoise and Hare.
 
-# Portfolio Management Strategy
+## Portfolio Management Strategy
 
 Picking good stocks is only part of what it takes to be a successful investor. Portfolio management strategy is also important, and at Morningstar, we follow a few key principles.
 
@@ -1496,7 +1234,7 @@ By definition, basic materials companies deal in commodities, which isn't the mo
 
 Given these dynamics, the key to gaining a competitive advantage and building a moat is the ability to produce commodities at lower cost than competitors. Ownership of world-class mineral deposits, access to low-cost feedstocks (for example, crude oil) and highly efficient production methods are the most common pathways to lower costs. Some companies have also created moats by building strong research and development, or R&D, pipelines or entwining themselves in their customers' businesses to create high switching costs. Unfortunately, though, many of these advantages are geologically finite or can eventually be replicated by competitors, so although some companies have secured enough of an advantage to establish narrow economic moats, wide moats are rare in the basic materials space, as Figure 9.1 shows.
 
-# Commodity Manufacturers
+## Commodity Manufacturers
 
 Commodity manufacturers—including companies that make steel, aluminum, and paper—produce intermediate or finished goods that serve as major components in end products such as infrastructure, buildings, automobiles, and household items. Using raw material that is mined, recycled, or harvested, these companies refine, smelt, or process to mass-produce essential
 
@@ -1520,7 +1258,7 @@ Key considerations for evaluating commodity manufacturers:
 - Does the firm benefit from technology or geographic exposure that could be easily replicated?  
 - Does the firm have significant legacy costs or trouble managing its balance sheet? Although these will not typically affect the moat, they could reduce the company's financial flexibility and impair its ability to adequately invest in its business. Notice whether the company's capital expenditures are falling short, either relative to its depreciation expense or compared with its peers.
 
-# Commodity Processors
+## Commodity Processors
 
 Commodity processors, such as chemicals companies and farm products firms, take inputs from natural resource extractors or other commodity processors and transform those inputs into outputs that serve as either building blocks or finished products in a variety of industries. Processors closer to natural-resource extractors in the value chain often produce basic building blocks, while processors further removed produce specialized products to exacting customer specifications.
 
@@ -1550,7 +1288,7 @@ Key considerations to remember when analyzing commodity processors:
 - Do the company's specialized products or distribution model create switching costs? Look for consistent pricing power related to switching costs as well as the amount of interaction between the commodity processor and the customer, or a potential geographic advantage.  
 - What is the mix of moatworthy businesses within a company? Often large commodity processors will have several disparate segments with some holding sustainable competitive advantages and others not.
 
-# Metals and Mining
+## Metals and Mining
 
 In the metals and mining industry, competitive advantage generally comes down to geology. World-class deposits are unique assets, and favorable geology typically translates to a favorable position relative to other producers in the industry.
 
@@ -1585,7 +1323,7 @@ Source: Morningstar.
 
 prices and an expansive breadth of products attract millions of customers, which in turn attract third-party merchants to the online retailers' marketplaces. Additionally, customer reviews and product recommendations increase in relevance as more customers and products are added to the platform, strengthening the network effect.
 
-# Beverages
+## Beverages
 
 In the beverage industry—which includes makers of soft drinks, beer, wine, and spirits—generating consistent excess returns requires strong brands supported by vast distribution networks. Large beverage companies benefit from a virtuous cycle: The largest brands can also most efficiently invest in marketing programs, bottling facilities, and supply-chain operations, spurring further growth and profits. This virtuous cycle has allowed soft-drink giant Coca-Cola, beer juggernaut Anheuser-Busch, and spirits leader Diageo to sell premium-priced drinks through the most efficiently run distribution networks, capturing leading market shares in the process. These large firms also enjoy buying power, purchasing needed supplies at better rates than their smaller peers can.
 
@@ -1600,7 +1338,7 @@ Key considerations for evaluating beverage companies:
 - Is the brand likely to lose, maintain, or increase market share over the coming years? Eroding share could signal heightened competition and diminished pricing power.  
 - Healthy margins and return on invested capital may indicate that the firm possesses a cost advantage in the form of a more efficient distribution network, bottling facilities, and supply chain operations.
 
-# Consumer Products
+## Consumer Products
 
 Within the diverse consumer products industry—which includes companies that manufacture, market, and distribute a variety of food, household, and personal care products—strong brand portfolios and low-cost operating platforms are the main sources of economic moats. It takes ample time and resources to achieve the economies of scale that dominant consumer product firms possess, creating high barriers to entry for new participants. This scale ultimately leads to lower production and distribution costs per unit relative to smaller peers.
 
@@ -1619,7 +1357,7 @@ Key considerations for evaluating consumer product companies:
 
 more-mature developed markets. Acquisitions should not prevent companies from earning ROICs in excess of weighted average cost of capital, or WACC, after goodwill has been taken into consideration.
 
-# Tobacco
+## Tobacco
 
 For better or worse, tobacco companies enjoy big profits and wide economic moats that don't seem in danger of eroding any time soon (what's good for investors isn't always good for consumers).
 
@@ -1636,7 +1374,7 @@ capital industrywide. Will tobacco alternatives, such as e-cigarettes, be disrup
 
 - Will changes in governmental regulation and taxation drastically alter the industry or result in increased price competition? Governments could cause shocks to the tobacco sector either by drastic increases in excise taxes, or implementation of new regulations (such as plain packaging or banning menthol). Depending on the governmental actions taken, tobacco companies may see a deterioration of their competitive positioning and an increased prevalence of bootleg or counterfeit products.
 
-# Restaurants
+## Restaurants
 
 The massive restaurant industry, which generates nearly \$2 trillion in annual revenue, can be split into quick-service restaurants, where patrons pay at a counter and receive their meals, and casual-dining restaurants, where seated customers place orders with servers.
 
@@ -1657,7 +1395,7 @@ Key considerations for evaluating restaurant companies:
 - Has the restaurant concept been successfully replicated across multiple markets? If the restaurant operator continues to increase unit counts across multiple markets while also improving underlying margins, this may suggest intangible-asset or scale-related cost advantages worthy of a moat.  
 - Is the restaurant franchise system cohesive? For a restaurant franchisor that collects royalties on franchisee sales, the intangible-asset moat source depends on the overall health of its franchisees. Signals of a strong franchise system include a company's willingness to provide franchisees with capital for remodeling projects and new equipment, low franchisee bankruptcy rates, and robust franchisor cash flow.
 
-# Retail Defensive
+## Retail Defensive
 
 Defensive retailers are companies involved with purchasing, warehousing, transporting, stocking, marketing, and selling a variety of branded and unbranded consumer products (usually nonexclusive consumer staples), mainly through retail store networks. Some firms manufacture their own products and several offer additional products and services, ranging from gasoline and pharmaceuticals to banking services.
 
@@ -1676,7 +1414,7 @@ Key considerations for evaluating retail defensive companies:
 - What is the risk of a new entrant, alternative channel, or innovative format stealing considerable market share? Firms with an established multichannel presence are more insulated from competitive threats posed by new and more-efficient channels. Retailers without an online presence, category dominance, or a low-cost warehouse format are often disadvantaged.  
 - How does the company's store base and customer demographic compare or overlap with those of competitors? Firms that have large target customer demographic overlap with large competitors could face fierce price competition.
 
-# Specialty Retail
+## Specialty Retail
 
 Specialty retail—which includes a broad range of retail categories including auto parts, books, consumer electronics, home furnishings, home improvement supplies, office supplies, online retailers, pet supplies, and sporting goods—is one of the most challenging consumer industries for developing moats. Specialty retailers generally lack the clout with suppliers or scale advantages to compete with large retailers like Wal-Mart, Costco, or Amazon on a price leadership basis, forcing players to explore other ways to differentiate their products or shopping experiences. Because there are virtually no switching costs in the specialty retail category, the only way a merchant can establish a moat is by offering something that keeps consumers shopping at its stores or websites rather than those of competitors. Many specialty retailers tout technical expertise or installation services as a source of differentiation, though we've found that these rarely provide consumers enough incentive to pay higher prices. There are a few exceptions (pet grooming and boarding services or do-it-yourself automotive parts in the U.S., for instance), but the majority of specialty retailers do not have any sustainable competitive advantages.
 
@@ -1692,7 +1430,7 @@ Key considerations for evaluating specialty retailers:
 - How concentrated is the retail category? For those retailers that have a specialized product assortment that is difficult for mass merchants to replicate, market share data and industry consolidation trends can signal intangible-asset and cost-advantage moat sources. Larger players in more concentrated retail categories (home improvement, auto parts) tend to have meaningful scale advantages relative to retailers in fragmented categories (sporting goods).
 - If the company is an online retailer, does it possess a network effect? Online retailers sometimes exhibit a network effect, where the value of the network to the online retailer and its third-party fulfillment partners grows as the number of people who use the network increases. Though each geography brings its own set of characteristics and regulations, we tend to see a network effect when approximately  $15\%$  or more of the local population are active users of the online retailer.<sup>1</sup>
 
-# Lodging
+## Lodging
 
 In the lodging industry, there are three types of companies, each with a different revenue model: (1) Hotel franchisors generate fees from franchisees in their
 
@@ -1734,7 +1472,7 @@ or E&P, companies and refiners have been able to establish narrow moats, primari
 
 Wide moats in the energy sector occur most often among midstream oil and gas pipeline companies, which usually build their moats through efficient scale. Both regulation and economics tend to limit competition for existing pipelines, and while competition for new pipeline projects can be fierce, it also tends to be rational, with long-term contracts designed to project a modest, but steady, return on capital for years.
 
-# Oil and Gas Drilling
+## Oil and Gas Drilling
 
 Oil and gas drillers, which provide rigs, crews, and the associated drilling services to oil and gas firms on a day-rate contract basis, generally do not have moats. Drillers operate in a very tough environment where price drives decision making among customers, although intangibles such as quality of service, operational and technical expertise, equipment suitability and availability, reputation, and the driller's safety record are also considered. Demand for drilling rigs depends on customer expectations around commodity prices in the near future and the expected economics of their projects, while supply is a function of
 
@@ -1774,7 +1512,7 @@ A few other considerations to keep in mind when evaluating E&P companies:
 - What is the company's reserve life in years? This may also be called an  $R / P$  ratio because it's calculated by taking total reserves and dividing by annual production. It's one indication of sustainability.  
 - When looking at returns on invested capital, we usually include goodwill in the denominator. Resource acquisition costs must be considered when determining a company's ability to generate economic profits for shareholders.
 
-# Oil and Gas Midstream
+## Oil and Gas Midstream
 
 Midstream oil and gas companies are those involved with processing, transporting, and storing natural gas, natural gas liquids, crude oil, and refined products. There are multiple ways for these midstream companies to build moats, but efficient scale is the dominant source. Although the competition is fierce among midstream firms for new projects, once a pipeline is in service, it typically enjoys excess returns. A long-haul pipeline is an inherently moaty asset, thanks to regulatory oversight and market dynamics, which tend to deter the construction of competing pipelines unless a clear economic case can be made for a new line. Even then, the incumbent pipeline has an advantage because it's typically more affordable for a firm to add capacity through pumps or compression or add a parallel line using the same rights-of-way as the existing pipe than it is for a competitor to secure rights-of-way and construct a new line. Midstream firms typically seek to lock in project economics through long-term contracts with shippers before ever breaking ground on a new project, ensuring that, at a minimum, project and capital costs are recouped, with potential for excess returns over time.
 
@@ -1790,7 +1528,7 @@ Key considerations to keep in mind for midstream oil and gas firms:
 - How well do the assets of a midstream firm complement each other? Does the firm integrate across the midstream value chain; is it able to collect rents at each link in which it operates?  
 - Where is incremental capital spending being directed? Can the firm deploy capital on projects that increase throughput across multiple assets? Does a firm's investment bolster its competitive position in a given region or basin, or provide strategic entry into a new market or geography?
 
-# Refining
+## Refining
 
 Refiners are in the business of converting crude oil ("feedstock" in industry parlance) into usable products such as gasoline, diesel, and jet fuel. It's a highly
 
@@ -1810,7 +1548,7 @@ Key questions to ask when evaluating refiners:
 - Will substantial investment be required for the advantage? By investing in upgrading capacity to process cheaper, lower-quality crude, a refiner's returns will be increasingly dependent on sustained discounts on heavy, sour crude. Without a sufficient uplift in realized margins from the quality discounts, the investment may not earn economic returns. Consequently, a refiner may not be able to generate excess returns to earn a moat.  
 - Is the refiner's access or cost advantage sustainable? A moat rests on the ability to deliver sustainable excess returns. If a refiner's cost advantage is not sustainable, then a moat is unlikely. Also, market forces may quickly negate any advantage, meaning sustainability may require something that disrupts the market from operating efficiently, such as government regulation.
 
-# Oil and Gas Integrateds
+## Oil and Gas Integrateds
 
 For integrated oil and gas companies, which essentially combine the E&P and refining processes, the main source of moat is a resource base that is low cost or economically advantaged (referred to as the upstream part of the process). To
 
@@ -1833,7 +1571,7 @@ Key considerations for evaluating integrateds:
 - Is a company utilizing downstream knowledge to optimize its upstream, and vice versa?  
 - Are refining and chemicals facilities adjacent to each other? Such configurations allow a company to optimize feedstock slates to maximize value.
 
-# Engineering Services
+## Engineering Services
 
 Engineering services firms perform and provide the required services and equipment needed to extract commodities from geological deposits. These companies provide the expertise, services, and equipment necessary to solve complex problems in often-challenging operating environments in an efficient and cost-effective manner.
 
@@ -1868,7 +1606,7 @@ Figure 12.1 Economic Moat Characteristics of the Financial Services Sector Sourc
 
 Elsewhere in the sector, economic moats are easier to find. The transactional nature of the financial industry occasionally lends itself to the establishment of powerful network effects. Successful credit card companies and financial exchanges have established moats, thanks to their networks of card-holders, merchants, and traders. We've identified several wide-moat firms in these arenas, and as Figure 12.1 shows, cost advantage is the most prevalent moat source in the overall sector.
 
-# Banks
+## Banks
 
 Banks serve as financial intermediaries, transforming the raw materials of deposits and other liabilities into productive assets, usually loans and securities. Banks make money through the spread between their borrowing costs and the yields on their balance-sheet assets, which is a function of the interest-rate and credit risks they assume. They can also make money from charging customers fees for various products and services.
 
@@ -1897,7 +1635,7 @@ Key considerations for banks:
 - Under what regulatory regime does the firm operate?  
 - How much excess spread (return on equity  $<$  minus  $>$  cost of equity) is the firm expected to generate?
 
-# Capital Markets
+## Capital Markets
 
 Capital-market firms, such as investment banks and brokerages, primarily assist in creating and trading financial securities. They may charge a fee when acting as an agent for a client, or seek to earn a profit when acting as a principal.
 
@@ -1925,7 +1663,7 @@ Key considerations for capital-market firms:
 - Does the company rely on financial leverage to earn above-average returns on capital?  
 - To what extent does revenue depend on strong principal investment gains or proprietary trading?
 
-# Credit Services
+## Credit Services
 
 As beneficiaries of powerful network effects, credit services firms (think MasterCard or Visa) often possess narrow or wide economic moats. For these companies, which are essentially in the business of connecting payers and payees, a strong network effect depends on widespread acceptance and usage of a payment network. Each additional user creates value for others—a network widely adopted by payers benefits payees who accept it, while a network widely accepted by payees is an attractive alternative for payers.
 
@@ -1945,7 +1683,7 @@ Key considerations for credit services firms:
 - What investments (capital expenditures, marketing, incentives) are required to generate additional transaction volume?  
 - Does the payment system lend to customers or provide other services?
 
-# Financial Exchanges
+## Financial Exchanges
 
 Cost advantages afforded by economies of scale, network effects, and intangible assets are important sources of competitive advantage for financial exchanges—venues for buying and selling financial products such as stocks,
 
@@ -1960,7 +1698,7 @@ Key considerations for financial exchanges:
 - Is the exchange a monopoly, and if not, what are the trends in market share and pricing?  
 - Do clients have an economic interest in supporting new initiatives?
 
-# Insurance
+## Insurance
 
 Insurers help their customers by converting risk into a known cost. By aggregating exposures, insurers can, ideally, forecast claims with some accuracy and earn a good return without excessive risk. Although the types of risks insurers
 
@@ -1999,7 +1737,7 @@ Percentage of Companies per Rating
 Prevalence of Moat Sources (%)  
 Figure 13.1 Economic Moat Characteristics of the Healthcare Sector Source: Morningstar.
 
-# Pharmaceuticals
+## Pharmaceuticals
 
 Large pharmaceutical companies are in the business of creating, developing, patenting, and marketing drugs worldwide. Often generating robust cash flows from patent-protected drug sales, pharmaceutical firms are usually well positioned to redeploy capital in creating new drugs to launch into their established distribution networks. As a result, all of the major drug manufacturers we cover have moats—most of them wide.
 
@@ -2024,7 +1762,7 @@ Key considerations when researching large pharmaceuticals:
 - What percentage of sales is derived from hard-to-make drugs? Biologics and vaccines not only have patent protection, but the difficulty in manufacturing, marketing, and gaining regulatory approval for these drugs also creates additional barriers to entry for competitors.  
 - If the company operates outside the traditional drug businesses, how strong are its competitive advantages in those areas? For example, animal-health drugs, consumer products, vaccines, generics, and emerging markets potentially contain barriers to entry that are unique from human pharmaceutical drugs.
 
-# Biotechnology
+## Biotechnology
 
 Biotechnology firms are typically smaller, more innovative, riskier versions of big pharmaceutical firms. They generally seek to discover new therapies using biologic rather than chemical processes, though today's pharmaceutical firms frequently employ both methods. Biotechs tend to fall into three categories: established, emerging, and speculative, with moats residing mainly in the first two.
 
@@ -2047,7 +1785,7 @@ Key considerations for biotech companies:
 - How attractive is the therapeutic area? Assess the size of the marketplace, as well as the regulatory and reimbursement landscape, and identify the likely number of current and future competitors. Determine whether barriers to entry are low or high based on the therapeutic area's attributes.  
 - How productive is the firm's R&D? Are R&D investments sufficient to maintain the firm's competitive advantages? Assess the productivity and strength of its development platform and its ability to produce new candidates.
 
-# Medical Devices
+## Medical Devices
 
 Medical-device companies make temporary and permanently implantable hardware for the human body, such as pacemakers and artificial hips, and we believe economic moats are plentiful in the industry. As with other healthcare firms, intellectual property, regulatory requirements, switching costs, and physician relationships all keep new entrants at bay in this sector. These barriers are usually enough to maintain medical-device moats, but established competitors can also use their cash-rich balance sheets to scoop up new entrants that become viable threats to their oligopolistic industry structure.
 
@@ -2067,7 +1805,7 @@ we like to look at returns on invested capital, or ROICs, that include goodwill,
 
 - What does the reimbursement picture look like? For some device makers, establishing reimbursement is critical to product success. The Centers for Medicare and Medicaid serve as a bellwether that often sets the benchmark for private payers. Well-designed trials and favorable clinical outcomes that significantly exceed existing therapies are critical to gaining the cooperation of payers.
 
-# Medical Instruments and Supplies
+## Medical Instruments and Supplies
 
 Medical instruments and supplies companies make instrumentation used for hospital procedures as well as basic supplies used by both healthcare providers and individual customers. The most common moat source for the instruments and supplies industry has been high switching costs. Surgeons require training on specific, complicated instruments, making them hesitant to switch to less familiar products even if they are cheaper. Barriers to entry are also generally high given the sizable initial investment required to build manufacturing and distribution infrastructure. Having a sizable scale and scope advantage gives larger entrenched players the ability to maintain pricing power and market share in more commoditized product lines, while making new rising players with valuable products into acquisition targets. R&D expertise can also strengthen a moat, as superior features or proven effectiveness versus competitors allows firms to maintain their competitive positioning and flex their pricing muscle.
 
@@ -2082,7 +1820,7 @@ Other considerations for medical instruments and supplies companies:
 - Technological superiority by itself is almost never a sustainable source of a moat, but coupled with other factors, such as a razor/razor-blade operating model or massive distribution infrastructure, it becomes powerful. The marketplace for devices targeting unmet needs could be particularly lucrative, as the regulatory and reimbursement environment tends to be fairly favorable, allowing greater and more durable excess returns.  
 - Instrument makers frequently supplement internal R&D efforts with acquisitions, both to enter new therapeutic areas and to fend off new competitors. Capitalizing R&D or adjusting goodwill for acquisitions is important when comparing returns on capital for companies across the space.
 
-# Diagnostics and Research
+## Diagnostics and Research
 
 The diagnostics and research industry includes firms that sell products or services that aid in the drug-development or diagnostic process. This includes equipment and consumables manufacturers and distributors, clinical research organizations, and diagnostic laboratories.
 
@@ -2115,7 +1853,7 @@ with the complex workings of government customers. Switching costs also matter a
 
 The mostiest subindustry in this sector is diversified industrials—holding companies that can build moat by leveraging core competencies across multiple platforms. Least moaty is the trucking industry, where it's difficult to gain competitive advantage through cost advantages, network effect, switching costs, or intangibles such as brand. Figure 14.1 gives a look at the distribution of moat ratings and sources in the industrials sector.
 
-# Railroads
+## Railroads
 
 Railroads haul coal, chemicals, grain, intermodal containers, automobiles, lumber, crude oil, and other commodities. Railroads in North America, unlike those in many other regions, generally own the real estate or rights-of-way, track, and terminals over which they operate, as well as the engines and cars.
 
@@ -2134,7 +1872,7 @@ Other important considerations for railroads:
 - Capital investment dwarfs depreciation. We believe deferred tax liabilities will persist because of different depreciation methods used in filing SEC reports and taxes, so we project that cash tax will be in line with historical cash tax rates and lower than income-statement tax rates.  
 - Unfunded government mandates like precision train control could cost the railroads billions of dollars, and yield no economic benefit. This cash flow would otherwise benefit investors.
 
-# Airport Operators
+## Airport Operators
 
 Although most airports around the world are owned by government authorities, private operators often manage all the workings of the airport—everything from runway maintenance to food service and more. Most of these private companies are granted operating rights that last multiple decades.
 
@@ -2151,7 +1889,7 @@ Key considerations for airports and air services:
 - How much capital investment is required, and do operators have the power to raise prices to cover increases in fixed and variable costs?  
 - Does the operator have the opportunity to grow through acquisitions in other geographically advantaged areas?
 
-# Aerospace and Defense
+## Aerospace and Defense
 
 Aerospace and defense firms design, engineer, manufacture, and manage supply chains for the production and sale of advanced equipment including fighter and cargo aircraft, land vehicles, water-based destroyers and submarines, and missiles and munitions. Worldwide customers are often governments but also include commercial clients.
 
@@ -2169,7 +1907,7 @@ industrial base? Can they withstand lower switching costs and more competitive b
 
 - Can a new commercial aircraft manufacturer attain regulatory approval from governments in various jurisdictions? Can it effectively manage the multitude of suppliers needed to build the plane? Healthy returns on capital in the aerospace industry are driven by negative working capital as customers make payments ahead of aircraft delivery, and shouldn't be used as a sole metric to support presence of a moat.
 
-# Trucking and Marine Shipping
+## Trucking and Marine Shipping
 
 Truckload carriers move full trailer loads for individual shippers, while less-than-truckload, or LTL, firms consolidate and move smaller loads from multiple customers. In the marine segment, inland tank-barge providers move bulk liquid cargo throughout the domestic U.S. inland waterway system, while the large steamship lines concentrate on shipping containerized ocean freight.
 
@@ -2188,7 +1926,7 @@ Key considerations for trucking and marine shipping:
 - In the domestic inland tank-barging business, significant network scale can bestow superior operating efficiencies in terms of lower costs (fewer empty miles) and better service (widespread availability of specialized equipment). U.S. domestic marine shippers are also protected from foreign operators via government regulation (per the Merchant Marine Act of 1920, also known as the Jones Act).  
 - Marine port operators are often able to build moats through efficient scale, as few regions globally can justify the presence of several competitors.
 
-# Waste Management
+## Waste Management
 
 Integrated waste-management companies establish collection routes around a network of physical assets, such as landfills, incinerators, and recycling centers.
 
@@ -2212,7 +1950,7 @@ Other considerations for waste management:
 - Although a high degree of operating leverage implies that operating profitability has some economic sensitivity, the necessity of waste handling provides some assurance for a basic level of demand throughout the economic cycle.  
 - In highly populated areas where land is at a premium, recycling may grow in favor. However, landfill alternatives rarely achieve critical mass without some form of governmental support.
 
-# Heavy Equipment
+## Heavy Equipment
 
 Heavy Equipment firms manufacture value-added finished products for on-road trucking, construction, agriculture, and mining end markets. It is not uncommon for these companies to outsource some or all of their necessary metal fabrication and componentry (such as tires and electronics), and sales are typically either direct to end users or through third-party distribution.
 
@@ -2233,7 +1971,7 @@ profitability over the entire cycle. Some firms earn more than half of their rev
 
 - We recommend capitalizing R&D expenses in return on invested capital, or ROIC, calculations, as they are core investments in the business. In addition, we don't like to see prolonged cuts in this line item for cost-saving purposes.
 
-# Diversified Industrials
+## Diversified Industrials
 
 For diversified industrial firms, which combine multiple business lines spanning industries, geographies, or customer markets under a single parent company, the key to building a durable moat is having a central, leverageable core competency that can drive higher profits. This often happens when disparate businesses with similar technological underpinnings can leverage their investments in technology across multiple platforms, delivering new product developments at a lower average cost than pure-play competitors can. General Electric does this with its jet engines, gas turbines, and wind turbines; 3M has a pool of internally developed patents that it can transfer across product lines. More importantly, having integrated segments allows the firm to develop multiple distinct touch points with the customer, often tightening the customer relationship, leading to high switching costs. Over time, relationships are difficult to penetrate from the outside as the incumbent knows the customer well, and has developed a range of integrated products to address specific customer needs. As a result, customer retention rates and consumable revenues are key indicators for the strength of the moat in this category.
 
@@ -2257,7 +1995,7 @@ Figure 15.1 Economic Moat Characteristics of the Technology Sector Source: Morni
 
 and semiconductor companies. The rest of the sector splits fairly evenly among no-moat and narrow-moat firms, with many of the narrow moats stemming from high customer switching costs and intangible assets, as well as other moat sources, as Figure 15.1 illustrates.
 
-# Consumer Technology
+## Consumer Technology
 
 The consumer technology industry is home to some of the world's best-known brands, including Apple, Panasonic, Samsung, and many others. These firms are in the business of offering some combination of hardware, software, services, and content to a vast audience of users.
 
@@ -2275,7 +2013,7 @@ Key considerations when studying consumer technology companies:
 - Think about how a company's products can be replicated by substitutes. Can a user perform similar functions with a different or more integrated product, or would a user have to own multiple devices or platforms to perform all of the necessary functions or have a similar user experience?  
 - When looking at returns on invested capital, does a company benefit from outsourced manufacturing and a low fixed cost base?
 
-# Enterprise Hardware Systems
+## Enterprise Hardware Systems
 
 Enterprise hardware systems vendors sell equipment used to support IT and business operations, including computers, printers, phone systems, servers, data storage, and networking equipment.
 
@@ -2292,7 +2030,7 @@ Key considerations for enterprise hardware systems:
 - Stronger companies are typically on the "short list" of approved vendors, have deep reseller relationships, and have a strong direct salesforce and long-term relationships with key decision-makers. Is the vendor a trusted supplier to large enterprises?  
 - Most enterprise hardware systems vendors are active acquirers with significant excess cash balances, so it's appropriate to adjust return on invested capital (ROIC) calculations by subtracting excess cash from invested capital and including acquired goodwill.
 
-# IT Services
+## IT Services
 
 Despite a highly competitive and fragmented market, a number of large IT services firms have earned economic moats due to switching costs and intangible assets. Given the intimate and often mission-critical nature of work performed by IT service providers, such as technology consulting, systems integration, and
 
@@ -2311,7 +2049,7 @@ Key considerations for enterprise services companies:
 - Where in the value chain does the company play? Can it offer the high-value consulting and integration services, while keeping up with new and emerging technology trends? Or are they facing commoditization in lower-end outsourcing services? Look to the company's profitability and return-based metrics for insight on its ability to charge premium prices.  
 - Even if a company meets the qualitative criteria for an economic moat—such as switching costs and intangible assets—it's important to have confidence in the firm's ability to generate positive economic profits. For IT services firms, repeated execution issues may prevent the company from turning out positive economic profits.
 
-# Semiconductors
+## Semiconductors
 
 This category includes companies in the semiconductor supply chain, from suppliers of manufacturing equipment and raw materials, to firms that design and manufacture chip devices. The central driver of the semiconductor industry is its ability to innovate so that computing power increases while the costs of that computing power rapidly decrease—commonly referred to as Moore's Law.
 
@@ -2336,7 +2074,7 @@ competitor to come out with a product that is competitive from a technological a
 - Investors should analyze returns on capital and profitability over entire business cycles, which typically last three to five years. The semiconductor industry is highly cyclical, so excess returns during business upturns may not necessarily mean that a firm can generate excess returns on average over an entire cycle.  
 - What are the reinvestment needs of chipmakers in terms of ongoing R&D and capital expenditures? Analog chipmakers, in particular, benefit from stable pricing but also do not rely on cutting-edge manufacturing techniques that require hefty ongoing investments.
 
-# Software
+## Software
 
 Software firms create, sell, and maintain programs written for mainframes, servers, computers, and other computing devices, to help run the device or help the user accomplish a task. Software can be sold as a product (license) or as a service (Software as a Service, or SaaS). Software companies tend to fall into two main categories: infrastructure and application.
 
@@ -2362,7 +2100,7 @@ require extensive implementation or customization? Is it more expensive in capit
 - Economies of scale are an important consideration, as many software companies begin providing their software products as services. Cloud-based computing, infrastructure as a service, and platform as a service each require significant initial and ongoing capital outlays for building and operating data centers. These costs may be prohibitive for smaller participants and those lacking a customer base large enough to offset the startup costs.  
 - Does the firm own patents, intellectual property, or brands that give its products an advantage in the marketplace?
 
-# Telecom Services
+## Telecom Services
 
 Telecommunication carriers provide services such as wireless telephony, fixed-line telephony, short message services, and Internet data access. Most large companies offer customers all services. Many telephone carriers were once government agencies or privately owned, state-regulated monopolies. Rapidly maturing markets and the competition to retain customers demonstrate the importance of economic moats in this sector.
 
@@ -2397,7 +2135,7 @@ Prevalence of Moat Sources (%)
 
 competitive advantages and economic moats less likely. Only firms with clear cost advantages—often those focused on nuclear energy rather than fossil fuels or renewable energy—have a shot at creating moats. See Figure 16.1 for an illustration of the moat ratings and sources found in the utilities sector.
 
-# Regulated and Diversified Utilities
+## Regulated and Diversified Utilities
 
 For regulated utilities, efficient scale is clearly the primary source of moat. State and federal regulators typically grant utilities exclusive rights to operate as service-territory monopolies. In exchange for these rights, regulators set prices at levels that aim to minimize customer costs while still allowing fair returns for the utilities' capital providers.
 
@@ -2415,7 +2153,7 @@ Key considerations to keep in mind when analyzing regulated utilities:
 - Is the utility earning near its regulatory allowed return? A wide divergence between the allowed returns that regulators use to set utilities' rates and the utilities' earned returns typically leads to rate increases or rate cuts to bring earned returns in line with allowed returns.
 - A diversified utility's nonregulated assets might strengthen or weaken its moat. For nonregulated energy businesses, look primarily for cost advantages or barriers to entry. The more capital a utility deploys in nonregulated assets, the wider cost advantages it must achieve to earn economic profits.
 
-# Independent Power Producers
+## Independent Power Producers
 
 Independent power producers generally have a hard time establishing sustainable competitive advantages because they are price takers that operate in commodity energy markets. IPPs' returns on capital depend on the relationship between commodity fuel costs, market competition, and regional energy demand, limiting opportunities to establish long-term economic moats. That said, low-cost nuclear, coal, and renewable-energy power producers have the best chance to establish competitive advantages if they operate in markets with higher-cost competitors. Even so, keep in mind that low-cost generation sources typically require large capital investments and must earn high returns for many years to produce economic profits. Barriers to entry can be another near-term source of competitive advantage for IPPs, given the large sums of time and money it usually takes to win regulatory approvals, find a suitable site, and complete construction on a new power plant.
 

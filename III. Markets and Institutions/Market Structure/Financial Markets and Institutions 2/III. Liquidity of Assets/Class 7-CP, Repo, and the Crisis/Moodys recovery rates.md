@@ -1,11 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Special Comment"
+parent_directory: "Class 7-CP, Repo, and the Crisis"
+formatted: 2025-12-21 04:55:00 PM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: claude-code
+primary_tags:
+  - corporate default rates
+  - recovery rates analysis
+  - financial crisis impact
+  - credit rating performance
+  - moody's rating methodology
+  - speculative grade defaults
+  - distressed exchanges
+  - credit loss rates
+  - ultimate recovery database
+  - credit transition model
+secondary_tags:
+  - recovery rate outlook
+  - default rate forecasts
+  - rating accuracy metrics
 cssclasses: academia
-title: Special Comment
-linter-yaml-title-alias: Special Comment
 ---
 
 # Special Comment
@@ -48,7 +62,7 @@ February 2009
 
 # Corporate Default and Recovery Rates, 1920-2008
 
-# Summary
+## Summary
 
 This report comprises Moody's twenty-second annual default study in which we update statistics on the default, loss, and rating transition experience of corporate bond and loan issuers for 2008, as well as for the historical period since 1920. Briefly, we find that:
 
@@ -60,24 +74,24 @@ Moody's global speculative-grade default rate ended 2008 at  $4.1\%$ , more than
 - Measured on a dollar volume basis, Moody's global speculative-grade bond default rate ended 2008 at  $5.8\%$ , up from 2007's year-end level of  $0.6\%$ . Among all Moody's-rated issuers, the volume-weighted default rate increased from  $0.1\%$  in 2007 to  $2.2\%$  in 2008.  
 Moody's global speculative-grade default rate forecasting model predicts that the speculative-grade default rate will jump sharply to  $16.4\%$  in the fourth quarter of 2009, a level that, if it materializes, would exceed the peaks reached in 1991 and 2001.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-Rating downgrades in 2008 surpassed rating upgrades for the first time since 2003. The upgrade-to-downgrade ratio fell significantly from 2.0 in 2007 to 0.3 in 2008.  
+Rating downgrades in 2008 surpassed rating upgrades for the first time since 2003. The upgrade-to-downgrade ratio fell significantly from 2.0 in 2007 to 0.3 in 2008.
 
 - Measured using post-default trading prices, the average recovery rate for senior unsecured bonds dropped from  $53.3\%$  in 2007 to  $33.8\%$  in 2008.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/ddb31d78974b36c2eb9c32f792a736686a7de20d2b00641c44b260ac8216157a.jpg)  
 Global Speculative-Grade Default Rate Peaks
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Introduction
+## Introduction
 
 Moody's credit ratings facilitate the efficient functioning of capital markets by providing independent opinions on the creditworthiness of debt obligations issued by corporate issuers around the world. One of the primary purposes of Moody's corporate default study is to communicate the historical performance of Moody's ratings as predictors of default and loss severity for corporate issuers. In addition to providing useful data for investors and regulators, Moody's default studies also contribute to the transparency of the rating process and directly address the meaning of Moody's long-term debt ratings scale.
 
 In the following three sections, we first summarize corporate default experience and credit trends in 2008 and discuss Moody's forecast for speculative-grade corporate defaults and recovery rates in 2009. This is followed by a review of rating accuracy metrics. We then present historical statistics on corporate defaults, ratings transitions, ratings performance metrics, and recovery rates. This year's default study contains several revisions to the historical data relative to previous years' reports, which are described in detail in a separate section at the end of the study. Finally, this report includes several detailed sections describing the methodologies used to generate the statistics as well as a guide to their reading and interpretation.
 
-# 2008 – Financial Crisis Leads to Record Default Volumes
+## 2008 – Financial Crisis Leads to Record Default Volumes
 
 The global financial crisis reached a fevered pitch in 2008 with the failure of a number of large financial institutions, including the largest defaulter in history - the bankruptcy of Lehman Brothers Holdings Inc. Combined with defaults by other large financial institutions, including Washington Mutual and three large Icelandic banks, dollar default volumes easily set record highs. However, the damage was not limited to financial institutions as the financial crisis pushed the US and other developed economies into recession, and severely limited non-financial issuers' ability to access the debt markets. In fact, the high-yield debt markets were essentially closed for much of 2008 and high yield spreads reached record levels of roughly 2,000 basis points in the fourth quarter. As a result, defaults by non-financial issuers climbed sharply as the year proceeded with many distressed issuers unable to refinance maturing debt or obtain forbearance from covenant violations.
 
