@@ -1,28 +1,28 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Global Imbalances and the Exorbitant Privilege
-linter-yaml-title-alias: Global Imbalances and the Exorbitant Privilege
+title: "Global Imbalances and the Exorbitant Privilege"
+parent_directory: "Lecture Notes on International Finance chapters"
+formatted: "2025-12-21 06:35:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- capital flow dynamics reserve
-- asymmetry international financial vs
-- accounts open allow risk
+  - "global imbalances"
+  - "exorbitant privilege"
+  - "reserve currency paradox"
 secondary_tags:
-- global imbalances exorbitant privilege
-- global financial markets
-- equilibrium allocations exchange rate
-- monetary core periphery structure
-- exchange rate insurance view
-- centrality global financial
-tags_extracted: '2025-12-18T01:44:51.673994'
+  - "international financial system"
+  - "capital flows dynamics"
+  - "exchange rate insurance"
+  - "safe asset view"
+  - "core periphery structure"
+  - "wealth transfers"
+  - "convenience yield"
+  - "flight to safety"
+cssclasses: academia
 ---
 
 # Global Imbalances and the Exorbitant Privilege
 
-# Summary
+## Summary
 
 - The architecture of the international monetary system has important implications for exchange rate and capital flow dynamics, and reserve assets are at its cornerstone.  
 - We examine two complementary views of the architecture: the insurance provision view emphasizes the U.S.' role as the world's insurance provider, and the safe asset view emphasizes the foreign demand for dollar safe assets. Both views emphasize the centrality of the U.S. in the global financial markets, but they have different implications for the U.S. external imbalances and the dollar exchange rate.  
@@ -32,13 +32,49 @@ Starting from this chapter, we will shift our focus from the exchange rates to i
 
 A prototype financial system involves households who save and consume, firms or entrepreneurs who produce, and financiers who intermediate the funds between the households and the firms. These financiers can be the banks or many types of shadow banks. They provide funds to the firms by investing in their risky projects, and they provide saving vehicles to the households by taking safe deposits. In doing so, these financiers engage in the safety, liquidity, and maturity transformations.
 
-This summary of financial system also applies at the global level, with the U.S. playing the central role as the financier who intermediates capital flows to the rest of the world and earns a premium from the intermediation process. Other countries, playing the roles of the households and the firms, invest at and get funding from the inter-
-
-mediary. This core-periphery structure is a key feature of the modern international monetary system.
+This summary of financial system also applies at the global level, with the U.S. playing the central role as the financier who intermediates capital flows to the rest of the world and earns a premium from the intermediation process. Other countries, playing the roles of the households and the firms, invest at and get funding from the intermediary. This core-periphery structure is a key feature of the modern international monetary system.
 
 This core-periphery structure gives rise to two salient patterns in the data: global imbalances and exorbitant privilege. We have had a discussion of these patterns in Chapter 2. In this chapter, we consider two complementary ways to model these patterns.
 
-# 7.A The Insurance Provision View
+```d2
+direction: right
+
+US_Core: US (Core) {
+  shape: circle
+  style.fill: "#4CAF50"
+  style.stroke: "#2E7D32"
+}
+
+Rest_of_World: Rest of World (Periphery) {
+  shape: hexagon
+  style.fill: "#2196F3"
+  style.stroke: "#0D47A1"
+}
+
+US_Core -> Rest_of_World: Capital Flows & Intermediation {
+  style.stroke: "#FF9800"
+  style.stroke-width: 3
+}
+
+Rest_of_World -> US_Core: Safe Assets & Reserves {
+  style.stroke: "#9C27B0"
+  style.stroke-width: 3
+}
+
+Global_Imbalances: Global Imbalances {
+  shape: diamond
+  style.fill: "#FFC107"
+  near: bottom-center
+}
+
+Exorbitant_Privilege: Exorbitant Privilege {
+  shape: diamond
+  style.fill: "#FF5722"
+  near: top-center
+}
+```
+
+## 7.A The Insurance Provision View
 
 First, we consider the insurance provision view as in Gourinchas and Rey [2007b, 2022]. We adapt their model to follow the baseline setup in Section 1. A more closely. There are two countries, home and foreign. Each country produces a unique type of good, which is endowed to the domestic households. The home households' utility function is
 
@@ -58,14 +94,12 @@ with  $\gamma^{*} > \gamma$ . As in Section 4, we interpret the home country as 
 
 The macro synthesis of this model is nearly identical to the baseline model in Section 1.A with complete markets. The only difference is that the home and foreign households have different risk aversion.
 
-# 7.A.1 Social Planner's Solution
+#### 7.A.1 Social Planner's Solution
 
-We assume the markets are complete, which allows us to solve the equilibrium using the social planner approach. More precisely, we solve the equilibrium outcome under a social planner, who maxi-
-
-mizes a weighted sum of the households' welfare:
+We assume the markets are complete, which allows us to solve the equilibrium using the social planner approach. More precisely, we solve the equilibrium outcome under a social planner, who maximizes a weighted sum of the households' welfare:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(\pi u \left(c_{t}\right) + (1 - \pi) u \left(c_{t}^{*}\right)\right) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(\pi u \left(c_{t}\right) + (1 - \pi) u \left(c_{t}^{*}\right)\right) \right].
 $$
 
 The social planner tells the home and foreign households how much to consume, subject to the resource constraints
@@ -81,7 +115,7 @@ $$
 The social planner's Lagrangian is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} \left(\pi \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} + (1 - \pi) \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}} + \sum_{t = 1}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*})\right) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} \left(\pi \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} + (1 - \pi) \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}} + \sum_{t = 1}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*})\right) \right],
 $$
 
 which implies the following first-order conditions
@@ -117,6 +151,60 @@ allocations  $c_t$  and  $c_t^*$  for home and foreign households as we vary the
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/5414711016f2637d28882918734d6a58b3f894806042895a5f3c420bf5373199.jpg)  
 Figure 7.1: Equilibrium Consumption Allocation under the Insurance View.
 
+```d2
+direction: down
+
+High_Endowment: High Endowment States {
+  shape: rectangle
+  style.fill: "#4CAF50"
+}
+
+Low_Endowment: Low Endowment States {
+  shape: rectangle
+  style.fill: "#F44336"
+}
+
+US: US (Insurer) {
+  shape: circle
+  style.fill: "#2196F3"
+}
+
+ROW: Rest of World (Insured) {
+  shape: circle
+  style.fill: "#FF9800"
+}
+
+High_Endowment -> US: Higher Consumption Share {
+  style.stroke: "#4CAF50"
+  style.stroke-width: 2
+}
+
+High_Endowment -> ROW: Lower Consumption Share {
+  style.stroke: "#F44336"
+  style.stroke-width: 2
+}
+
+Low_Endowment -> US: Lower Consumption Share {
+  style.stroke: "#F44336"
+  style.stroke-width: 2
+}
+
+Low_Endowment -> ROW: Higher Consumption Share {
+  style.stroke: "#4CAF50"
+  style.stroke-width: 2
+}
+
+US -> ROW: Insurance Premium in Good Times {
+  style.stroke: "#9C27B0"
+  style.stroke-dash: 5
+}
+
+ROW -> US: Insurance Payout in Bad Times {
+  style.stroke: "#9C27B0"
+  style.stroke-dash: 5
+}
+```
+
 We can frame the same pattern in terms of international transfer, which we plot in Figure 7.2. The home country's net transfer is defined as the value of its endowment minus the value of its consumption, normalized by the value of its endowment. In this model, the only reason why the home households' endowment and consumption are different is because the home households transfer resources to the foreign households according to the risk-sharing agreement. The net home transfer to the foreign country is positive when the endowments are low, and negative when the endowments are high. In other words, the home country earns profits in good times as a compensation for its insurance provision, and bears the losses in bad times as the insurance pays off. The foreign country's net transfer has the opposite pattern, as it is the recipient of the international insurance.
 
 Unconditionally, because the agents are willing to pay more for pay-offs in bad states, the U.S. receives a higher insurance premium in good times than it pays off in bad times, making a net profit from its insurance provision. This profit funds a persistent trade deficit on
@@ -130,18 +218,18 @@ Figure 7.3 plots the equilibrium real exchange rate  $e_t$ , which measures the 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/ac5c56c33bae1932f587f895e0708302631c3675ad2d41a6f8f2c1f86011387b.jpg)  
 Figure 7.3: Equilibrium Exchange Rate under the Insurance View.
 
-# 7.A.2 Decentralized Competitive Equilibrium
+#### 7.A.2 Decentralized Competitive Equilibrium
 
 The social planner approach allows us to derive the equilibrium allocations and prices in complete markets. We are also interested in how the households trade to implement this equilibrium. In this subsection, we convert the problem to a continuous-time setting in order to derive the portfolio choice in the decentralized competitive equilibrium. Time is finite with horizon  $T$ . The representative home households maximize
 
 $$
-\mathbb {E}_{t} \left[ \int_{0}^{T} \delta^{t} \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} d t \right],
+\mathbb{E}_{t} \left[ \int_{0}^{T} \delta^{t} \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} d t \right],
 $$
 
 and the representative foreign households maximize
 
 $$
-\mathbb {E}_{t} \left[ \int_{0}^{T} \delta^{t} \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}} d t \right].
+\mathbb{E}_{t} \left[ \int_{0}^{T} \delta^{t} \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}} d t \right],
 $$
 
 For simplicity, we assume that the home and foreign endowments are identical, i.e.,  $y_{t} = y_{t}^{*}$ , reflecting a common global cycle. We assume
@@ -247,7 +335,7 @@ This countercyclical behavior of asset return volatility and risk premium also p
 
 Section 3.A.
 
-# 7.A.3 The Cyclicality of Bond Holdings
+### 7.A.3 The Cyclicality of Bond Holdings
 
 Finally, we plot the equilibrium U.S. bond holdings by foreign households. Unconditionally, the foreign households' holdings are always positive, which again reflects the leveraged nature of the U.S. portfolios. Conditionally, while the foreign households' portfolio share in the U.S. bond increases when the endowment level declines, their dollar-denominated wealth declines even faster. The dollar value of their bond holdings, which are equal to their product, thus decline in bad times under our model specification. In addition to the dollar exchange rate's cyclicality, this procyclical bond holding is another implication that is inconsistent with the flight-to-safety pattern in data.
 
@@ -262,7 +350,7 @@ investors' risk aversion goes up in bad times, which increases the risk price an
 
 An alternative approach is to introduce frictions in the model. In Section 7.C, we will consider a reduced-form way of capturing these frictions by introducing a countercyclical convenience yield for the U.S. bond. In this case, non-pecuniary benefits of safe assets lead to greater demand for the U.S. bond after the negative shocks have already happened.
 
-# 7.B The Reserve Currency Paradox
+## 7.B The Reserve Currency Paradox
 
 The insurance provision view provides a powerful tool for understanding the asymmetry in portfolio holdings and asset returns between the U.S. and the rest of the world. It offers a rational, risk-based explanation for why the U.S. enjoys the exorbitant privilege.
 
@@ -270,7 +358,7 @@ However, this view in its most basic form leads to a counterfactual prediction. 
 
 In the data, the dollar tends to appreciate during global downturns. Maggiori [2017] notes this inconsistency and names it the Reserve Currency Paradox. Below, we provide two complementary ways of thinking about this paradox. In doing so, we set the stage for an alternative view of the global imbalances that we develop in the next section.
 
-# 7.B.1 Demand vs. Supply Shocks
+### 7.B.1 Demand vs. Supply Shocks
 
 In Maggiori [2017]'s original analysis of the reserve currency paradox, he provides a simple resolution by introducing a state-dependent trade cost. If the cost of shipping goods internationally is higher during recessions, the U.S. economy effectively becomes more closed and the U.S. households' demand for the U.S. goods increases relative to their demand for foreign goods, leading to real dollar appreciation.
 
@@ -280,7 +368,7 @@ sloping demand for the U.S. goods, the U.S. goods have to become cheaper and gen
 
 Other types of demand shocks could also reverse the dollar exchange rate's cyclicality. Consider, for example, the bond convenience yields we studied in Chapter 4, which capture demand shocks for assets instead of goods. In particular, the foreigners' demand for U.S. safe assets increases in bad times, which leads to dollar appreciation. Similarly, by introducing time-varying risk aversion as another type of demand shock, Gourinchas and Rey [2022] also generates dollar appreciation in bad times in a slight extension of the baseline model.
 
-# 7.B.2 Net Foreign Assets vs. Total Wealth
+### 7.B.2 Net Foreign Assets vs. Total Wealth
 
 The insurance provision view emphasizes the international transfer of wealth from the U.S. to the rest of the world that occurs during global recessions. Figure 7.8 plots the U.S. net foreign assets (NFA) normalized by the U.S. consumption in our model. The U.S. NFA is defined as the U.S. holdings of foreign equity minus foreign holdings of U.S. equity and bond:
 
@@ -305,7 +393,7 @@ which states that the U.S. wealth is equal to the value of U.S.-issued assets ad
 
 One essential feature of this model that leads to the reserve currency paradox is the procyclical U.S. wealth share: as the foreign households are relatively wealthier in bad times, they tend to consume more and tilt their consumption towards the foreign goods, which requires the U.S. goods to become cheaper. However, does the U.S. wealth share have to be procyclical? In the next section, we will examine a complementary view under which the U.S.-issued assets are better hedged against bad states of the world. As a result, while the U.S. NFA  $nfa_{t}$  still declines in bad times, the U.S. domestic assets  $s_{H,t}$  depreciate less and offset the procyclical nature of the U.S. NFA, leading to a countercyclical U.S. wealth share.
 
-# 7.C The Safe Asset View
+## 7.C The Safe Asset View
 
 Next, we consider a complementary safe asset view, which emphasizes the U.S.' role as the sole supplier of the world's safe assets. The key difference from the insurance provision view is that investors derive non-pecuniary benefits from holding dollar safe assets such as the U.S. Treasury bonds, which leads to a convenience yield. This convenience yield enters the standard Euler equation as a wedge, which, as we saw in Chapter 4, makes progress in explaining the exchange rate dynamics. Building on the analysis in Chapter 4, our hypothesis here is that this ingredient also helps us understand the global imbalances and international transfers.
 

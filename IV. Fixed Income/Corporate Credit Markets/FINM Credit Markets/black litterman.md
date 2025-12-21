@@ -1,11 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Portfolio Optimization and Black-Litterman
-linter-yaml-title-alias: Portfolio Optimization and Black-Litterman
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 07:30:00 AM
+formatter_model: claude-sonnet-4-5
+cli_tool: claude-code
+primary_tags:
+  - black litterman model
+  - portfolio optimization
+  - market equilibrium
+secondary_tags:
+  - investor views
+  - asset allocation
+  - mean variance optimization
+  - equilibrium returns
+  - covariance matrix
+  - risk aversion
+  - efficient frontier
+  - reverse optimization
+  - view uncertainty
+  - portfolio weights
+cssclasses: academia
 ---
 
 Copyright &copy; 2013 Ondrej Martinsky, All rights reserved

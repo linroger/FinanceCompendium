@@ -1,9 +1,22 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: Decompounded Options Eko
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 06:34:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - decompounded options
+  - cms pricing
+  - option payoffs
+  - convexity adjustments
+secondary_tags:
+  - sabr model
+  - black76 pricing
+  - numerical integration
+  - forward swap rates
+  - discount factors
+  - interest rate derivatives
 cssclasses: academia
-title: decompounded options eko
 ---
 
 # decompounded options eko
@@ -219,7 +232,7 @@ sabr_nu_interp = interpolate.interp2d(
 
 ## 1. PV of Decompounded Option Payoff
 
-$CMS\ 10y^{1/p} - 0.04^{1/q}$ at time T = 5y, where p = 4 and q = 2
+$CMS\ 10y^{1/p}-0.04^{1/q}$ at time T = 5y, where p = 4 and q = 2
 
 ```python
 def g_0(K: float) -> float:
@@ -323,7 +336,7 @@ compute_options_payoff_1(
 
 ## 2. PV of payoff
 
-$(CMS\ 10y^{1/p} - 0.04^{1/q})^+$ at time T = 5y, where p = 4 and q = 2
+$(CMS\ 10y^{1/p}-0.04^{1/q})^+ $ at time T = 5y, where p = 4 and q = 2
 
 ```python
 def compute_options_payoff_2(
@@ -384,4 +397,59 @@ compute_options_payoff_2(
 ```
 
     1.0509369659896817
+
+## Decompounded Options Process Flow
+
+```d2
+direction: right
+
+decompound_calc: Decompounded Option Calculation {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+cms_rate: CMS Rate Extraction {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+power_transform: Power Transformation {
+  shape: diamond
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+strike_comparison: Strike Comparison {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+}
+
+option_pricing: Black-76 Pricing {
+  shape: rectangle
+  style.fill: "#fce4ec"
+}
+
+payoff_integration: Numerical Integration {
+  shape: oval
+  style.fill: "#f3e5f5"
+}
+
+decompound_calc -> cms_rate: Compute forward CMS rate
+cms_rate -> power_transform: Apply 1/p and 1/q powers
+power_transform -> strike_comparison: Compare with strike levels
+strike_comparison -> option_pricing: Price using SABR volatility
+option_pricing -> payoff_integration: Integrate over strike space
+payoff_integration -> decompound_calc: Output PV of payoff
+```
+
+## Key Concepts in Decompounded Options
+
+Decompounded options transform standard interest rate options through power functions, creating non-linear payoffs that depend on fractional powers of CMS rates. The pricing involves:
+
+1. **Power Transformation**: Applying fractional powers to CMS rates (e.g., $CMS^{1/4}$)
+2. **Strike Level Comparison**: Comparing transformed rates against predefined strike levels
+3. **Convexity Adjustment**: Accounting for the non-linear relationship between forward and spot rates
+4. **Numerical Integration**: Computing option prices through integration over the volatility surface
+5. **SABR Calibration**: Using stochastic volatility models for accurate pricing
 

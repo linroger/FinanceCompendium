@@ -1,14 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Factor Investing and Fama-French model"
+parent_directory: "IV. Fixed Income/Corporate Credit Markets/FINM Credit Markets"
+formatted: "2025-12-21 06:35:25 AM"
+formatter_model: "grok-code-fast-1"
+cli-tool: "opencode"
+primary_tags:
+  - fama french model
+  - factor investing
+  - asset pricing
+  - equity factors
+secondary_tags:
+  - market factor
+  - size factor
+  - value factor
+  - profitability factor
+  - investment factor
+  - risk factors
+  - portfolio analysis
 cssclasses: academia
-title: Factor Investing and Fama-French model
-linter-yaml-title-alias: Factor Investing and Fama-French model
 ---
 
-# Factor Investing and Fama-French model
+## Factor Investing and Fama-French model
 
 **Copyright &copy; 2020 Ondrej Martinsky, All rights reserved**
 
@@ -36,19 +48,16 @@ def create_ma_radios(value):
     return wx.RadioButtons(value=value, options=famafrench.lookup_ma.keys(), description='Roll Avg')
 ```
 
-# Fama French
+## Fama French
 
 $ r = R_f + b_m \cdot \text{MER} + b_s \cdot \text{SMB} + b_v \cdot \text{HML} + b_p \cdot \text{RMW} + b_i \cdot \text{CMA} $
 
-$r$ is expected portfolio return \
+$r$ is expected portfolio return  
 $b_m$, $b_s$, $b_v$, $b_p$, $b_i$ are factor sensitivities
 
-# Factors Analysis
+## Factors Analysis
 
-$\text{MER}$ is excess return of a broad market over the risk-free rate ($R_m - R_f$) (**market factor**) \
-$\text{SMB}$ is the average return on the *small* stock portfolios minus *big* stock portfolios (**size factor**) \
-$\text{HML}$ is the average return on *high* book value portfolios minus *low* book value (**value factor**)  \
-$\text{RMW}$ is the average return on *robust* minus *weak* operating profitability portfolios (**profitability factor**) \
+$\text{MER}$ is excess return of a broad market over the risk-free rate ($R_m - R_f$) (**market factor**) $\text{SMB}$ is the average return on the *small* stock portfolios minus *big* stock portfolios (**size factor**) $\text{HML}$ is the average return on *high* book value portfolios minus *low* book value (**value factor**) $\text{RMW}$ is the average return on *robust* minus *weak* operating profitability portfolios (**profitability factor**)
 $\text{CMA}$ Conservative minus aggressive investments, proxied by the y/y growth in company asset value (**investment factor**)
 
 Definitions: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_5_factors_2x3.html
@@ -402,7 +411,7 @@ display(wx.HBox([wx_ff, wx_ma]), wx_out1, wx_out2)
 
     Output()
 
-# Portfolio Analysis
+## Portfolio Analysis
 
 ```python
 def create_factor_radios():

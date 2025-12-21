@@ -1,19 +1,19 @@
 ---
-title: "Chapter 01 Introduction"
-parent_directory: "Krugman International Economics"
-formatted: 2025-12-21 01:15:00 PM
-formatter_model: claude-sonnet-4-5-20251001
-cli_tool: claude-code
+title: Chapter 01 Introduction
+parent_directory: Krugman International Economics
+formatted: 2025-12-21 07:30:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-   - international economics
-   - trade theory
-   - international trade
+- international economics
+- trade theory
+- international trade
 secondary_tags:
-   - gains from trade
-   - balance of payments
-   - exchange rate determination
-   - international policy coordination
-   - international capital market
+- gains from trade
+- balance of payments
+- exchange rate determination
+- international policy coordination
+- international capital market
 cssclasses: academia
 ---
 

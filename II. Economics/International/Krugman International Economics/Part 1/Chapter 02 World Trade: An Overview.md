@@ -1,32 +1,39 @@
 ---
-aliases:
-  - World Trade: An Overview
-tags:
-key_concepts:
-parent_directory: "[[Krugman International Economics]]"
+title: Chapter 02 World Trade An Overview
+parent_directory: Part 1
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+- world trade patterns
+- gravity model economics
+- international trade barriers
+secondary_tags:
+- trade impediments
+- service offshoring
+- global trade evolution
+- trade gravity equation
 cssclasses: academia
-title: "Chapter 02: World Trade: An Overview"
-linter-yaml-title-alias: "Chapter 02: World Trade: An Overview"
 ---
 
-# 2 World Trade: An Overview 36
+# World Trade An Overview
 
-Who Trades with Whom? 36
+## Who Trades with Whom?
 
-Size Matters: The Gravity Model 37
+## Size Matters The Gravity Model
 
-Using the Gravity Model: Looking for Anomalies 39
+## Using the Gravity Model Looking for Anomalies
 
-Impediments to Trade: Distance, Barriers, and Borders 40
+## Impediments to Trade Distance Barriers and Borders
 
-The Changing Pattern of World Trade 42
+## The Changing Pattern of World Trade
 
-Has the World Gotten Smaller? 42
+## Has the World Gotten Smaller?
 
-What Do We Trade? 44
+## What Do We Trade?
 
-Service Offshoring 46
+## Service Offshoring
 
-Do Old Rules Still Apply? 47
+## Do Old Rules Still Apply?
 
-Summary 48
+## Summary

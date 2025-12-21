@@ -1,11 +1,21 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Solving Linear Equations using LU Decomposition
-linter-yaml-title-alias: Solving Linear Equations using LU Decomposition
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 06:40:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - lu decomposition
+  - linear equations
+  - gaussian elimination
+  - matrix factorization
+secondary_tags:
+  - numerical linear algebra
+  - system solving
+  - lower triangular matrix
+  - upper triangular matrix
+  - pivoting
+cssclasses: academia
 ---
 
 [www.quantandfinancial.com](http://www.quantandfinancial.com)

@@ -1,27 +1,23 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Government Debt
-linter-yaml-title-alias: Government Debt
+parent_directory: Lecture Notes on International Finance
+formatted: 2025-12-21 06:31:25 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- market value government debt
-- government bond portfolio transversality
-- government debt portfolio equation
-- understanding asset prices
+- government debt valuation
+- fiscal sustainability analysis
+- debt portfolio transversality
+- forward-looking valuation
 secondary_tags:
-- government debt valuation sustainability
-- yield implies government finance
-- debt determines value based
-- government debt important reserve
-- assets government debt fact
-- surpluses future debt risk
-- explanation public debt
-- returns government bonds maturity
-- nominal risk free debt
-tags_extracted: '2025-12-18T01:44:58.214507'
+- backward-looking accounting
+- intertemporal budget constraint
+- convenience yields
+- public debt valuation puzzle
+- reserve asset status
+- risk-sharing arrangements
+- sovereign default risk
+cssclasses: academia
 ---
 
 # Government Debt
@@ -45,9 +41,7 @@ $$
 
 In the last chapter, we saw two accounts of the international monetary system that both regard safe assets as the key ingredient. One view emphasizes the international risk-sharing arrangement that is implemented by the U.S. supplying safe assets and taking a levered position on riskier claims, whereas the other view focuses on the foreigners' countercyclical demand for safe assets. In reality, most safe assets are government debt. In fact, when the U.S. establishes its status as the world's reserve asset supplier, it is conceivable that the U.S. government debt first becomes an important reserve asset before other dollar-denominated private debt caught up in their status.
 
-In this chapter, we study the valuation of government debt and issues related to fiscal sustainability in greater details. We build on Chapters 4, 6, and 7, in which we introduced one-period risk-free
-
-government bonds. For example, in Chapter 6, the government budget condition in nominal terms can be expressed as
+In this chapter, we study the valuation of government debt and issues related to fiscal sustainability in greater details. We build on Chapters 4, 6, and 7, in which we introduced one-period risk-free government bonds. For example, in Chapter 6, the government budget condition in nominal terms can be expressed as
 
 $$
 Q_{t} = S_{t} + Q_{t + 1} \exp (- i_{t}),
@@ -65,13 +59,7 @@ with the previous special case of one-period nominal risk-free bond attained whe
 
 Before we formally analyze this general case, let us consider a simple personal loan example. Suppose I borrow  \$100,000 today at the annual interest rate of \(5\%$  to purchase a house. The loan duration is 10 years, with constant payment each year. A simple calculation shows that the constant payment is \)12,950 each year. Table 8.1 reports the detailed loan schedule.
 
-Now, suppose I stand at the beginning of year 6. I have made 5 loan payments in the past, and my outstanding balance is  \$56,069. This number has two interpretations. The first interpretation is based on backward-looking accounting: this outstanding balance of\$ 56,069 is a result of me repaying the loan in the past 5 years. In each year, after I pay back the interest that is equal to 5% times the outstanding loan balance, the remaining amount of my payment (i.e., the principal payment in the last column) contributes to the reduction of my outstanding loan amount over time. In other words, my outstand-
-
-<table><tr><td>Year</td><td>Balance</td><td>Payment</td><td>Interest payment</td><td>Principal payment</td></tr><tr><td>1</td><td>$100,000</td><td>$12,950</td><td>$5,000</td><td>$7,950</td></tr><tr><td>2</td><td>$92,050</td><td>$12,950</td><td>$4,602</td><td>$8,348</td></tr><tr><td>3</td><td>$83,702</td><td>$12,950</td><td>$4,185</td><td>$8,765</td></tr><tr><td>4</td><td>$74,936</td><td>$12,950</td><td>$3,747</td><td>$9,204</td></tr><tr><td>5</td><td>$65,733</td><td>$12,950</td><td>$3,287</td><td>$9,664</td></tr><tr><td>6</td><td>$56,069</td><td>$12,950</td><td>$2,803</td><td>$10,147</td></tr><tr><td>7</td><td>$45,922</td><td>$12,950</td><td>$2,296</td><td>$10,654</td></tr><tr><td>8</td><td>$35,267</td><td>$12,950</td><td>$1,763</td><td>$11,187</td></tr><tr><td>9</td><td>$24,080</td><td>$12,950</td><td>$1,204</td><td>$11,746</td></tr><tr><td>10</td><td>$12,334</td><td>$12,950</td><td>$617</td><td>$12,334</td></tr></table>
-
-Table 8.1: Personal Loan Example
-
-ing balance of  \$56,069 in year 6 is equal to the initial loan amount of\$ 100,000 minus the sum of the first 5 principal payments.
+Now, suppose I stand at the beginning of year 6. I have made 5 loan payments in the past, and my outstanding balance is  \$56,069. This number has two interpretations. The first interpretation is based on backward-looking accounting: this outstanding balance of \$56,069 is a result of me repaying the loan in the past 5 years. In each year, after I pay back the interest that is equal to 5\% times the outstanding loan balance, the remaining amount of my payment (i.e., the principal payment in the last column) contributes to the reduction of my outstanding loan amount over time. In other words, my outstanding balance of \$56,069 in year 6 is equal to the initial loan amount of \$100,000 minus the sum of the first 5 principal payments.
 
 The second interpretation is based on forward-looking valuation: my outstanding balance of  \$56,069 at the beginning of year 6 also reflects the present value of my remaining payments in the future. From the bank's perspective, my personal loan is valued at\$ 56,069 because this value describes the present value of the remaining 5 payments discounted at the interest rate of 5%. This discount rate, by the way, does not have to equal to the risk-free rate if the bank believes that I may default on the loan. In this way, my outstanding loan balance in a given year can be interpreted both as the result of past borrowing and payments, and as the discounted present value of future promised payments.
 
@@ -191,7 +179,7 @@ $$
 D_{t - 1} \exp \left(R_{t}^{D}\right) = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.7}
 $$
 
-The proof is given in Appendix A.31. Eq. (8.6) and (8.7) are equivalent ways to express the same intertemporal government budget condition. Eq. (8.6) equates the end-of-period market value of the government debt after issuances and repayments,  $D_{t}$ , to the ex-dividend present value of future surpluses and the transversality term, whereas Eq. (8.7) equates the beginning-of-period market value of the government debt,  $D_{t-1}\exp(R_t^D)$ , to the cum-dividend present value of future surpluses and the transversality term. Our results can be expressed in either convention we use. To avoid confusion, we stick to the first expression in this section.
+The proof is given in Appendix A.31. Eq. (8.6) and (8.7) are equivalent ways to express the same intertemporal government budget condition. Eq. (8.6) equates the end-of-period market value of the government debt after issuances and repayments,  $D_{t}$ , to the ex-dividend present value of future surpluses and the transversality term, whereas Eq. (8.7) equates the beginning-of-period market value of the government debt, $D_{t-1}\exp(R_t^D)$, to the cum-dividend present value of future surpluses and the transversality term. Our results can be expressed in either convention we use. To avoid confusion, we stick to the first expression in this section.
 
 If the transversality condition holds, i.e.,
 
@@ -322,11 +310,11 @@ $$
 $$
 
 $$
-\beta_{t}^{T} = \frac{c o v_{t} (\exp (R_{t + 1}^{T}) , \exp (R_{t + 1}^{M}))}{v a r_{t} (\exp (R_{t + 1}^{M}))},
+\beta_{t}^{T} = \frac{cov_{t} (\exp (R_{t + 1}^{T}) , \exp (R_{t + 1}^{M}))}{var_{t} (\exp (R_{t + 1}^{M}))},
 $$
 
 $$
-\beta_{t}^{G} = \frac{c o v_{t} (\exp (R_{t + 1}^{G}) , \exp (R_{t + 1}^{M}))}{v a r_{t} (\exp (R_{t + 1}^{M}))}.
+\beta_{t}^{G} = \frac{cov_{t} (\exp (R_{t + 1}^{G}) , \exp (R_{t + 1}^{M}))}{var_{t} (\exp (R_{t + 1}^{M}))}.
 $$
 
 Then, we obtain the following result characterizing these claims' expected returns and systematic risk exposures [Jiang, Lustig, Van Nieuwerburgh, and Xiaolan, 2020b].
@@ -349,9 +337,7 @@ $$
 \frac{D + E}{D} \beta_{t}^{A} = \beta_{t}^{D} + \frac{E}{D} \beta_{t}^{E},
 $$
 
-where  $D$  is the market value of debt and  $E$  is the ex-dividend market value of equity. Similarly, the government holds the claim to tax revenues and splits up these cash flows to debtholders and recipients of government spending. As a result, the return beta and the risk
-
-premium on the tax claim are equal to the weighted average of those on the government debt and the spending claim.
+where  $D$  is the market value of debt and  $E$  is the ex-dividend market value of equity. Similarly, the government holds the claim to tax revenues and splits up these cash flows to debtholders and recipients of government spending. As a result, the return beta and the risk premium on the tax claim are equal to the weighted average of those on the government debt and the spending claim.
 
 This result implies a very tight constraint on how the government insures taxpayers and debtholders. To simplify the argument, we assume that the taxpayers both pay tax and receive the government spending as a transfer.
 
@@ -433,9 +419,7 @@ $$
 D_{t} = \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h).
 $$
 
-Let us first consider the determination of these individual government bonds' values. We continue to assume that the government bonds are denominated in local currencies, promise nominal payments, and could potentially default. As the government bonds are
-
-defaultable, their yields are not necessarily the same as the nominal risk-free rates, which we denote by  $i_t(h)$ . Let us use  $i_t^{Treas}(h)$  to denote the yield of the government debt with maturity  $h$ , which satisfies
+Let us first consider the determination of these individual government bonds' values. We continue to assume that the government bonds are denominated in local currencies, promise nominal payments, and could potentially default. As the government bonds are defaultable, their yields are not necessarily the same as the nominal risk-free rates, which we denote by  $i_t(h)$ . Let us use  $i_t^{Treas}(h)$  to denote the yield of the government debt with maturity  $h$ , which satisfies
 
 $$
 i_{t}^{\text{Tr ea s}} (h) \stackrel {{\text{de f}}} {{=}} - \frac{1}{h} \log P_{t} (h).
@@ -516,7 +500,7 @@ $$
 The first-order condition (Euler equation) w.r.t.  $d_{t - 1}$  is given by
 
 $$
-u^{\prime} \left(c_{t - 1}\right) = \mathbb {E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) \exp \left(r_{t}^{d}\right) \right]. \tag {8.13}
+u^{\prime} \left(c_{t - 1}\right) = \mathbb{E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) \exp \left(r_{t}^{d}\right) \right]. \tag {8.13}
 $$
 
 The households are also subject to a no-short-sale constraint  $d_t \geq 0$  for all  $t$ . In general, we need a lower bound on the households' asset position, which is not necessarily zero, so that the households cannot borrow an infinite amount of money for consumption.
@@ -524,7 +508,7 @@ The households are also subject to a no-short-sale constraint  $d_t \geq 0$  for
 We define the households' value function in period  $o$  as
 
 $$
-\psi (w_{t}, t) = \max  \mathbb {E}_{0} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}) \right],
+\psi (w_{t}, t) = \max  \mathbb{E}_{0} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}) \right],
 $$
 
 which can be shown to be concave and differentiable [Benveniste and Scheinkman, 1979, Brock, 1982].
@@ -534,7 +518,7 @@ Given this set-up, let us first consider the special case in which the household
 leaving money on the table, as the remaining wealth will be wasted. Moreover, the no-short-sale constraint also implies that the households cannot finish with negative wealth. Therefore, we can express the finite-period transversality condition as
 
 $$
-\mathbb {E}_{0} \left[ \delta^{T} u^{\prime} (c_{T}) d_{T} \right] = 0.
+\mathbb{E}_{0} \left[ \delta^{T} u^{\prime} (c_{T}) d_{T} \right] = 0.
 $$
 
 The infinite-horizon case has a similar interpretation, though its derivation is more complicated. The following proposition shows that the transversality condition is a necessary condition for the optimality of households' decisions.
@@ -697,9 +681,7 @@ In this case, discounting growing surpluses and future debt at the risk-free rat
 
 However, this is not a free lunch: the beta constraint characterized by Proposition 8.4 still binds: in order to keep debt risk-free, the government needs to raise taxes or lower spending in high marginal utility states.
 
-In other words, the average deficits reflect an insurance premium that the government earns by extracting countercyclical cash flows from the taxpayers. This risk-based view is very different from the
-
-Blanchard [2019] interpretation of  $r < g$ . From our perspective, it is precisely the positive covariance between the marginal utility and the government surpluses that creates the fiscal backing to manufacture risk-free debt. The  $r < g$  condition is neither necessary nor sufficient to gauge fiscal backing.
+In other words, the average deficits reflect an insurance premium that the government earns by extracting countercyclical cash flows from the taxpayers. This risk-based view is very different from the Blanchard [2019] interpretation of  $r < g$ . From our perspective, it is precisely the positive covariance between the marginal utility and the government surpluses that creates the fiscal backing to manufacture risk-free debt. The  $r < g$  condition is neither necessary nor sufficient to gauge fiscal backing.
 
 # 8.E The Public Debt Valuation Puzzle
 
@@ -711,9 +693,7 @@ $$
 
 A fundamental question in finance and macroeconomics is whether the present values of government surpluses on the right-hand side of this equation matches the market value of government debt on the left-hand side. To evaluate the present values on the right-hand side of this equation, we need to know (i) the expected future tax revenues and government spending and (ii) the appropriate discount rates that we assign to these fiscal cash flows. To figure out the expected fiscal cash flows, the data since WW-II suggest that the U.S. on average has similar levels of tax revenue and government spending as fractions of the GDP. If we zoom into the past 15 years, government spending surpassed tax revenue by a large margin. Feeling optimistic, let us assume the U.S. fiscal cash flows will revert to the historical norm over time, which maintains roughly equal tax revenues and government spending on average.
 
-To figure out the appropriate discount rates, we note that the standard risk-free rates are not the right ones to use. Riskier cash flows need to be discounted at higher rates, and the riskiness is determined by how the cash flows comove with the SDF  $M_{t,t+k}$ . Consider the stock market for example. As corporate revenues decline dramatically in high marginal utility states, investors regard stocks as risky assets and therefore require a high compensation to hold them. This is why stocks tend to have higher returns than risk-free bonds over a long enough time period, and why, for the purpose of valuation, corporate cash flows are discounted at much higher rates than the standard interest rates. The data since WW-II suggest that the U.S. tax revenue also exhibits a cyclical behavior, which warrants high discount rates. In comparison, the U.S. government spending is counter-cyclical: it tends to increase during recessions, as unemployment benefits and other welfare payments tend to be higher in the downturns. The government may also decide to spend more on public projects to stimulate the economy. As recessions represent high
-
-marginal utility states, the U.S. government spending deserves lower discount rates.
+To figure out the appropriate discount rates, we note that the standard risk-free rates are not the right ones to use. Riskier cash flows need to be discounted at higher rates, and the riskiness is determined by how the cash flows comove with the SDF  $M_{t,t+k}$ . Consider the stock market for example. As corporate revenues decline dramatically in high marginal utility states, investors regard stocks as risky assets and therefore require a high compensation to hold them. This is why stocks tend to have higher returns than risk-free bonds over a long enough time period, and why, for the purpose of valuation, corporate cash flows are discounted at much higher rates than the standard interest rates. The data since WW-II suggest that the U.S. tax revenue also exhibits a cyclical behavior, which warrants high discount rates. In comparison, the U.S. government spending is counter-cyclical: it tends to increase during recessions, as unemployment benefits and other welfare payments tend to be higher in the downturns. The government may also decide to spend more on public projects to stimulate the economy. As recessions represent high marginal utility states, the U.S. government spending deserves lower discount rates.
 
 To put everything together, Eq. (8.14) computes the difference between the expected tax revenue and government spending, discounted at their appropriate discount rates. These cash flows have similar levels on average, but the tax revenue has higher discount rates than the government spending. Then, the present value of the tax cash flows should be lower than that of the spending cash flows, implying a negative present value of government surpluses [Jiang, Lustig, Van Nieuwerburgh, and Xiaolan, 2019]. This negative valuation of government surpluses on the right-hand side of Eq. (8.14) is at odds with the observed positive market value of government debt on the left-hand side of Eq. (8.14). This gap suggests that the U.S. government may not have enough fiscal backing for its outstanding government debt. We call it the U.S. public debt valuation puzzle.
 
@@ -907,9 +887,7 @@ $$
 
 which is also the product of the risk loadings  $B_{trans}^{\prime}\Sigma^{\frac{1}{2}}$  and the market prices of risk  $\Lambda_0$ , plus a second-order Jensen's term. Note that Eq. (8.16) is a special case of Eq. (8.15), obtained when the cash flow does not grow, i.e., by setting  $e_{\Delta d} + e_x + e_\pi = 0$ .
 
-Figure 8.1 plots the term structures of risk premia for the spending, tax, equity dividend, and GDP claims, and the long-term nominal bonds. The parameterization is taken from the homoscedastic
-
-SDF model in Jiang, Lustig, Van Nieuwerburgh, and Xiaolan [2019]. In the short run, because the spending claim is countercyclical while the tax and the equity dividend claims are procyclical, the spending claim has a negative risk premium while the tax and the equity dividend claims have positive risk premia. In the long run, because the spending, the tax, and the equity dividend cash flows are all cointegrated with the GDP, they inherit the same risk premium from the permanent component of the GDP, which converges to about  $4\%$  in the limit. In comparison, the nominal bond's payoff is not cointegrated with the GDP, which is why the long-term nominal bonds have a different risk premium close to  $2\%$  in the limit.
+Figure 8.1 plots the term structures of risk premia for the spending, tax, equity dividend, and GDP claims, and the long-term nominal bonds. The parameterization is taken from the homoscedastic SDF model in Jiang, Lustig, Van Nieuwerburgh, and Xiaolan [2019]. In the short run, because the spending claim is countercyclical while the tax and the equity dividend claims are procyclical, the spending claim has a negative risk premium while the tax and the equity dividend claims have positive risk premia. In the long run, because the spending, the tax, and the equity dividend cash flows are all cointegrated with the GDP, they inherit the same risk premium from the permanent component of the GDP, which converges to about  $4\%$  in the limit. In comparison, the nominal bond's payoff is not cointegrated with the GDP, which is why the long-term nominal bonds have a different risk premium close to  $2\%$  in the limit.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/1fefd839bb035b9ea2fa8535202786dae26b3246fcd46ee0b064df6c57247467.jpg)  
 Figure 8.1: The Term Structures of Risk Premia.
@@ -943,7 +921,7 @@ which is a linearized version of the intertemporal government budget condition (
 This relationship holds both ex-ante and ex-post. Without taking expectations, we can express this result as a variance decomposition exercise:
 
 $$
-v a r (v_{t}) = c o v \left(v_{t}, \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right)\right) + c o v (v_{t}, \kappa^{T} v_{t + T}),
+var(v_{t}) = cov\left(v_{t}, \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right)\right) + cov(v_{t}, \kappa^{T} v_{t + T}),
 $$
 
 which states that the debt/GDP ratio varies only because it predicts future surpluses, future returns, or the future debt/GDP ratio.
@@ -1056,9 +1034,7 @@ Another way to gauge the fiscal capacity is to understand the timing of the fisc
 
 We also note that this public debt valuation puzzle is not necessarily a universal phenomenon. Chen, Jiang, Lustig, Van Nieuwerburgh, and Xiaolan [2022] study historical fiscal data in the U.S., the U.K., and the Netherlands. Prior to the U.S., the U.K. and the Dutch were the dominant reserve asset issuers. We learn some common lessons from their rises and falls: there is usually a unique hegemon who dominates the supply of reserve assets. The hegemon enjoys a convenience yield on its debt, and issues more debt than is warranted by its fiscal backing. However, these exorbitant privileges do not last forever: when the hegemon's fiscal fundamentals deteriorate, investors eventually withdraw the extra debt capacity, and debt market crash ensues.
 
-This observation raises the bar for any explanation of the public debt valuation puzzle, because it needs to answer not only why this
-
-extra fiscal capacity accrues to the U.S. or other global hegemons in the past, and not to other countries. In this sense, these results call for an international perspective on fiscal sustainability issues.
+This observation raises the bar for any explanation of the public debt valuation puzzle, because it needs to answer not only why this extra fiscal capacity accrues to the U.S. or other global hegemons in the past, and not to other countries. In this sense, these results call for an international perspective on fiscal sustainability issues.
 
 On the other hand, this observation connects the public debt valuation puzzle to the literature on the coordination on reserve assets [Farhi and Maggiori, 2018, He, Krishnamurthy, and Milbradt, 2019, Gopinath and Stein, 2021, Coppola, Krishnamurthy, and Xu, 2023]. This literature points out that there is strategic complementarity in different investors' investment decisions. The reserve asset that is commonly chosen by the investors, which usually coincides with the hegemon in the economic and political spheres, could enjoy not only a convenience yield in the price dimension, but also the ability to issue more debt beyond its fiscal backing in the quantity dimension. That said, the coordinated outcome could be broken when the investors become concerned about the hegemon's fiscal position, as we have seen in the case of the Dutch and the U.K. Moreover, this literature also explores the strategic decisions of one or more reserve asset issuers, who take their market power into consideration when deciding how much debt to issue [Choi, Kirpalani, and Perez, 2022, Jiang and Richmond, 2023a]. Their endogenous issuance decisions also affect the valuation of the reserve assets.
 

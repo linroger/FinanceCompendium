@@ -1,63 +1,71 @@
 ---
-parent_directory: Lecture Notes
-title: "Teaching Notes 1: Introduction to Fixed Income Securities"
-tags:
-aliases:
-  - Introduction to Fixed Income Securities
-  - Teaching Notes 1
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+title: "Fixed Income Asset Pricing Lecture Notes"
+parent_directory: BUSN Fixed Income Asset Pricing
+formatted: 2025-12-21 11:03:25 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+   - fixed income securities
+   - interest rate theory
+   - bond valuation
+   - term structure models
+   - yield curve analysis
+secondary_tags:
+   - treasury securities
+   - coupon bonds
+   - discount factors
+   - forward rates
+   - repurchase agreements
+   - floating rate notes
+   - yield to maturity
+   - day count conventions
+   - bond equivalent yield
 cssclasses: academia
-linter-yaml-title-alias: "Teaching Notes 1: Introduction to Fixed Income Securities"
 ---
 
-# Teaching Notes 1
+# Fixed Income Asset Pricing Lecture Notes
 
-Introduction to Fixed Income Securities<sup>1</sup>
+## Introduction to Fixed Income Securities
 
-# John Heaton
-
-The University of Chicago
-
-Booth School of Business
-
+**John Heaton**  
+The University of Chicago  
+Booth School of Business  
 NBER
 
-# Introduction
+## Introduction
 
-- Several changes to fixed-income markets took place in the aftermath of the crisis
+Several changes to fixed-income markets took place in the aftermath of the crisis:
 
 1. Many countries increased debt to "stimulate" the economy.
+   - Lower tax revenues due to the economic downturn and higher government spending $\Rightarrow$ large increase in government debt.
 
-- Lower tax revenues due to the economic downturn and higher government spending  $\Rightarrow$  large increase in government debt.
+2. The huge mortgage-backed securities market had several changes:
+   - Fannie Mae and Freddie Mac went into conservatorship.
+   - Many mortgage companies disappeared.
+   - New regulation has been enacted.
 
-2. The huge mortgage-backed securities market had several changes
+3. Aggressive monetary policy has had large impact on Treasury bonds:
+   - Federal Reserve slashed Fed Funds rate to zero.
+   - Federal Reserve moved to "unconventional monetary policy".
 
-— Fannie Mae and Freddie Mac went into conservatorship. Many mortgage companies disappeared. New regulation has been enacted.
+4. Massive regulatory changes in derivative markets:
+   - Central counterparties (CCP).
+   - Impact on pricing of derivatives.
 
-3. Aggressive monetary policy has had large impact on Treasury bonds
+5. Dramatic change in behavior of Treasury bonds:
+   - From positive beta to negative beta securities.
+   - Negative rates in many countries.
 
-Federal Reserve slashed Fed Funds rate to zero  
-— Federal Reserve moved to "unconventional monetary policy"
+## The Outstanding Amount of U.S. Debt
 
-4. Massive regulatory changes in derivative markets
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/0be5d131b366059eb745d6142ce69fbfddf1933d119fd0e86a80023b5ebf90d8.jpg)
 
-- Central counterparties (CCP)  
-- Impact on pricing of derivatives.
-
-5. Dramatic change in behavior of Treasury bonds
-
-- From positive beta to negative beta securities  
-- Negative rates in many
-
-# The Outstanding Amount U.S. Debt
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/0be5d131b366059eb745d6142ce69fbfddf1933d119fd0e86a80023b5ebf90d8.jpg)  
 Panel A. Billions of US Dollars
 
-Panel B. Percentage of US GDP  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/7604e39114d0bca5772e0475270168501e61725e9a7fea3d2ed5b805d4164494.jpg)  
+Panel B. Percentage of US GDP
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/7604e39114d0bca5772e0475270168501e61725e9a7fea3d2ed5b805d4164494.jpg)
+
 (Source: SIFMA and FRED at Federal Reserve of St. Louis.)
 
 # Federal Funds and U.S. Treasury Yields
@@ -110,45 +118,45 @@ Holdings</td><td></td></tr><tr><td></td><td>Dollar</td><td>Percent</td><td>Dolla
 
 Source: U.S. Treasury web site. https://www.treasurydirect.gov
 
-# Interest Rates and Compounding Frequency
+## Interest Rates and Compounding Frequency
 
-- The concept of interest rates is ubiquitous to fixed income securities.  
-- Problem: An interest rate is not well defined without a compounding frequency. 
-  - Example: A \$100 investment at 10% interest rate over 10 years has payoffs:
+The concept of interest rates is ubiquitous to fixed income securities. The problem is that an interest rate is not well defined without a compounding frequency.
 
-$$
-\text{An nu al co mp ou nd in g :} \quad \\( 1 0 0 \times (1. 1)^{1 0} \quad = \\) 2 5 9. 3 7
-$$
+**Example:** A \$100 investment at 10% interest rate over 10 years has payoffs:
 
 $$
-\text{Se mi -a nn ua lc om po un di ng :} \quad \$ 1 0 0 \times (1. 0 5)^{2 0} = \$ 2 6 5. 3 3
+\text{Annual compounding:} \quad \$100 \times (1.1)^{10} = \$259.37
 $$
 
 $$
-\text{Qu ar te rl yc om po un di ng :} \quad \$ 1 0 0 \times (1. 0 2 5)^{4 0} = \$ 2 6 8. 5 1
+\text{Semi-annual compounding:} \quad \$100 \times (1.05)^{20} = \$265.33
 $$
 
 $$
-\text{Da ll yc om po un di ng}: \mathbb {S} 1 0 0 \times \left(1 + \frac{0 . 1}{3 6 5}\right)^{1 0 \times 3 6 5} = \mathbb {S} 2 7 1. 7 9
+\text{Quarterly compounding:} \quad \$100 \times (1.025)^{40} = \$268.51
 $$
 
 $$
-\text{Co nt in uo us co mp ou nd in g :} \quad \$ 1 0 0 \times e^{0. 1 \times 1 0} = \$ 2 7 1. 8 2
+\text{Daily compounding:} \quad \$100 \times \left(1 + \frac{0.1}{365}\right)^{10 \times 365} = \$271.79
 $$
 
-- The general formula to compound  $n$  times over the horizon  $T$  is
+$$
+\text{Continuous compounding:} \quad \$100 \times e^{0.1 \times 10} = \$271.82
+$$
+
+The general formula to compound $n$ times over the horizon $T$ is:
 
 $$
 V = \left(1 + \frac{r}{n}\right)^{n \times T}
 $$
 
-- For  $n$  large, we converge to continuous compounding
+For $n$ large, we converge to continuous compounding:
 
 $$
 V = \left(1 + \frac{r}{n}\right)^{n \times T} \longrightarrow e^{r \times T}
 $$
 
-# Discounting
+## Discounting
 
 - Discounting is opposite process from the previous one.  
  - The question is: "what is the amount we have to invest today to have \$1 dollar in the future, given a rate r compounded n times per year?"  
@@ -238,7 +246,7 @@ Zero-Coupon Bond Yields
 - If we know the time value of money for each maturity, that is, the discount function  $Z\left( {t,{T}_{i}}\right)$  for all maturities  ${T}_{i}$  's,a simple no arbitrage argument implies
 
 $$
-\begin{array}{l} P (t, T_{n}) = c / 2 \times Z (t, T_{1}) + c / 2 \times Z (t, T_{2}) + \ldots + (1 0 0 + c / 2) Z (t, T_{n}) \\ = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + r_{2} (t , T_{i}) / 2\right)^{2 \times (T_{i} - t)}} + \frac{1 0 0}{\left(1 + r_{2} (t , T_{n}) / 2\right)^{2 \times (T_{n} - t)}} \\ \end{array}
+\begin{array}{l} P (t, T_{n}) = c / 2 \times Z (t, T_{1}) + c / 2 \times Z (t, T_{2}) + \ldots + (100 + c / 2) Z (t, T_{n}) \\ = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + r_{2} (t , T_{i}) / 2\right)^{2 \times (T_{i} - t)}} + \frac{100}{\left(1 + r_{2} (t , T_{n}) / 2\right)^{2 \times (T_{n} - t)}} \\ \end{array}
 $$
 
 - What is the arbitrage argument?
@@ -252,7 +260,7 @@ $$
 - Incidentally, notice that if  $t = 0$  and  $T_{i}$  are exact semi-annual maturities, that is  $T_{1} = .5$ ,  $T_{2} = 1$ ,  $T_{3} = 1.5$  etc., then we have  $2 \times T_{i} = i$  for every  $i = 1,..,n$ , and thus the formula reduces to
 
 $$
-P (0, T_{n}) = \sum_{i = 1}^{n} \frac{c / 2}{(1 + r_{2} (0 , T_{i}) / 2)^{i}} + \frac{1 0 0}{(1 + r_{2} (0 , T_{n}) / 2)^{n}}
+P (0, T_{n}) = \sum_{i = 1}^{n} \frac{c / 2}{(1 + r_{2} (0 , T_{i}) / 2)^{i}} + \frac{100}{(1 + r_{2} (0 , T_{n}) / 2)^{n}}
 $$
 
 # Conventions and Terminology
@@ -286,26 +294,26 @@ Number of Days Since Last Coupon Date × Number of Days between Coupon Payments
 - If  $n$  is the number of days to maturity, the price of the T-bill is
 
 $$
-P = 1 0 0 \times \left[ 1 - \frac{n}{3 6 0} \times d \right]
+P = 100 \times \left[ 1 - \frac{n}{360} \times d \right]
 $$
 
 - In other words
 
 $$
-d = \frac{1 0 0 - P}{1 0 0} \times \frac{3 6 0}{n}
+d = \frac{100 - P}{100} \times \frac{360}{n}
 $$
 
 - Instead, it should be
 
 $$
-B E Y = \frac{1 0 0 - P}{P} \times \frac{3 6 5}{n}
+BEY = \frac{100 - P}{P} \times \frac{365}{n}
 $$
 
 - BEY = Bond Equivalent Yield  
 - Of course, we obtain
 
 $$
-B E Y = \frac{3 6 5 \times d}{3 6 0 - d \times n}
+BEY = \frac{365 \times d}{360 - d \times n}
 $$
 
 # Yield-to-Maturity (or internal rate of return)
@@ -313,13 +321,13 @@ $$
 - Given price  $P(t,T)$  and cash flows  $c / 2$  at  $T_{i}$ 's for  $i = 1,..,n$ , and  $1 + c / 2$  at  $T_{n}$ , the (semi-annually compounded) yield-to-maturity YTM is defined as that rate  $y$  such that
 
 $$
-P \left(t, T_{n}\right) = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + \frac{y}{2}\right)^{2 \times \left(T_{i} - t\right)}} + \frac{1 0 0}{\left(1 + \frac{y}{2}\right)^{2 \times \left(T_{n} - t\right)}} \tag {1}
+P \left(t, T_{n}\right) = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + \frac{y}{2}\right)^{2 \times \left(T_{i} - t\right)}} + \frac{100}{\left(1 + \frac{y}{2}\right)^{2 \times \left(T_{n} - t\right)}} \tag {1}
 $$
 
 - Recall that given the spot curve  $r_2(t, T_i)$ , we also had
 
 $$
-P \left(t, T_{n}\right) = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + r_{2} \left(t , T_{i}\right) / 2\right)^{2 \times (T_{i} - t)}} + \frac{1 0 0}{\left(1 + r_{2} \left(t , T_{n}\right) / 2\right)^{2 \times (T_{n} - t)}}
+P \left(t, T_{n}\right) = \sum_{i = 1}^{n} \frac{c / 2}{\left(1 + r_{2} \left(t , T_{i}\right) / 2\right)^{2 \times (T_{i} - t)}} + \frac{100}{\left(1 + r_{2} \left(t , T_{n}\right) / 2\right)^{2 \times (T_{n} - t)}}
 $$
 
 What's the difference?
@@ -346,11 +354,11 @@ What is the most attractive bond?
 - Then
 
 $$
-N_{1} \times 9 + N_{2} \times 1 0 = 3
+N_{1} \times 9 + N_{2} \times 10 = 3
 $$
 
 $$
-N_{1} \times 1 0 9 + N_{2} \times 1 1 0 = 1 0 3
+N_{1} \times 109 + N_{2} \times 110 = 103
 $$
 
 - Solving the system  $\Longrightarrow$  the portfolio long  $N_{1} = 7$  units in bond 1 and short of  $N_{2} = -6$  units bond 2 mimics exactly the cash flows of bond 3.  
@@ -456,7 +464,7 @@ $$
 Hence, the return on capital to the trader is
 
 $$
-\text{Re tu rn} = \frac{P_{T} - P_{t} - \text{re po ra te} \times \frac{n}{3 6 0} \times \left(P_{t} - \text{ha ir cu t}\right)}{\text{ha ir cu t}}
+\text{Return} = \frac{P_{T} - P_{t} - \text{repo rate} \times \frac{n}{360} \times \left(P_{t} - \text{haircut}\right)}{\text{haircut}}
 $$
 
 # Repurchase Agreements
@@ -510,13 +518,13 @@ $$
 2. Invest in a 6-months zero coupon bond and enter (today) into a forward contract to invest the proceeds at  $T_{1} = 0.5$  until  $T_{2} = 1$  for a rate  $f_{2}(0,0.5,1)$ . At maturity we have
 
 $$
-\$ 10 m \times (1 + r_{2} (0, 0. 5) / 2) \times (1 + f_{2} (0, 0. 5, 1) / 2)
+\$10m \times (1 + r_{2} (0, 0.5) / 2) \times (1 + f_{2} (0, 0.5, 1) / 2)
 $$
 
 - By no arbitrage (and if credit risk is negligible) we must have
 
 $$
-\$ 10 m \times \left(1 + \frac{r_{2} (0 , 1)}{2}\right)^{2} = \$ 10 m \times \left(1 + \frac{r_{2} (0 , 0 . 5)}{2}\right) \times \left(1 + \frac{f_{2} (0 , 0 . 5 , 1)}{2}\right)
+\$10m \times \left(1 + \frac{r_{2} (0 , 1)}{2}\right)^{2} = \$10m \times \left(1 + \frac{r_{2} (0 , 0.5)}{2}\right) \times \left(1 + \frac{f_{2} (0 , 0.5 , 1)}{2}\right)
 $$
 
 # Forward Rates
@@ -524,13 +532,13 @@ $$
 or
 
 $$
-1 + \frac{f_{2} (0 , 0 . 5 , 1)}{2} = \frac{(1 + r_{2} (0 , 1) / 2)^{2}}{(1 + r_{2} (0 , 0 . 5) / 2)}
+1 + \frac{f_{2} (0 , 0.5 , 1)}{2} = \frac{(1 + r_{2} (0 , 1) / 2)^{2}}{(1 + r_{2} (0 , 0.5) / 2)}
 $$
 
 - by using the price of bonds we have
 
 $$
-1 + \frac{f_{2} (0 , 0 . 5 , 1)}{2} = \frac{Z (0 , 0 . 5)}{Z (0 , 1)}
+1 + \frac{f_{2} (0 , 0.5 , 1)}{2} = \frac{Z (0 , 0.5)}{Z (0 , 1)}
 $$
 
 # Forward Rates
@@ -540,13 +548,13 @@ $$
 1. Invest in a  $T_{2}$ -zero coupon bond, obtaining at maturity
 
 $$
-\frac{\mathbb {S} 1 0 \mathrm{m}}{Z (0 , T_{2})}
+\frac{\$10m}{Z (0 , T_{2})}
 $$
 
 2. Invest in a  $T_{1}$ -zero coupon bond and enter (today) into a forward contract to invest the proceeds at  $T_{1}$  until  $T_{2}$  at the  $n$ -times compounded forward rate  $f_{n}(0, T_{1}, T_{2})$ . At maturity we have
 
 $$
-\frac{\mathbb {S} 1 0 \mathrm{m}}{Z (0 , T_{1})} \times \left(1 + \frac{f_{n} \left(0 , T_{1} , T_{2}\right)}{n}\right)^{n \left(T_{2} - T_{1}\right)}
+\frac{\$10m}{Z (0 , T_{1})} \times \left(1 + \frac{f_{n} \left(0 , T_{1} , T_{2}\right)}{n}\right)^{n \left(T_{2} - T_{1}\right)}
 $$
 
 - We then obtain
@@ -624,15 +632,15 @@ $$
 - Inverting (5), we obtain
 
 $$
-Z \left(0, 0. 5\right) = \frac{P^{1} \left(0 , 0 . 5\right)}{1 + c^{1} / 2}
+Z \left(0, 0.5\right) = \frac{P^{1} \left(0 , 0.5\right)}{1 + c^{1} / 2}
 $$
 
 $$
-Z (0, 1) = \frac{P^{2} (0 , 1) - c^{2} / 2 \times Z (0 , . 5)}{1 + c^{2} / 2}
+Z (0, 1) = \frac{P^{2} (0 , 1) - c^{2} / 2 \times Z (0 , 0.5)}{1 + c^{2} / 2}
 $$
 
 $$
-Z (0, 1. 5) = \frac{P^{3} (0 , 1 . 5) - c^{3} / 2 \times (Z (0 , . 5) + Z (0 , 1))}{1 + c^{3} / 2}
+Z (0, 1.5) = \frac{P^{3} (0 , 1.5) - c^{3} / 2 \times (Z (0 , 0.5) + Z (0 , 1))}{1 + c^{3} / 2}
 $$
 
 In general, for every  $i$ :

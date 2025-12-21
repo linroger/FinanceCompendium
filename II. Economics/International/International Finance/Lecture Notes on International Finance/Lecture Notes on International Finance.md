@@ -1,42 +1,29 @@
 ---
-title: Lecture Notes On International Finance
-tags: null
-aliases: null
-parent_folder: Global-Markets
-subfolder: null
-key_concepts: null
-cssclasses: academia
+title: Lecture Notes on International Finance
+parent_directory: International Finance
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
 primary_tags:
-- covariance term currency pairs
-- differential currency risk premium
-- factor structure currency returns
-- return government market timing
-- studying international portfolio dynamics
-- smith correlation active households
-- exchange rates random walks
+- international finance
+- exchange rates
+- currency risk premia
+- international asset pricing
+- global imbalances
 secondary_tags:
-- lecture notes international finance
-- response triffin critique bretton
-- consumption real exchange rates
-- modeling currency risk premia
-- euler equations exchange rate
-- risk premium affects currency
-- relationship rates currency risk
-- movement volatile currency risk
-- fiscal capacity understand timing
-- asset pricing euler equations
-- currency exposure factor
-- collapse bretton woods paradoxically
-- normality foreign households euler
-- risk premium home currency
-- identical risk premia foreign
-- exchange rate movement common
-- currency excess return model
-- comovement shows international finance
-- premium decomposition exchange rate
-tags_extracted: '2025-12-18T01:46:40.862753'
+- lecture notes
+- bretton woods system
+- real exchange rates
+- euler equations
+- convenience yields
+- incomplete markets
+- monetary policy
+- fiscal policy
+- portfolio choice
+- financial intermediation
+cssclasses: academia
 ---
-# Zhengyang Jiang
+## Zhengyang Jiang
 
 Kellogg School of Management, Northwestern University, and NBER
 
@@ -54,141 +41,9 @@ For the latest version, please visit https://sites.google.com/site/jayzedwye/res
 
 For comments and questions, please contact me at zhengyang.jiang@kellogg.northwestern.edu.
 
-# Contents
 
-o Preface 6
 
-I Introduction 13
-
-1 A Benchmark Economy 14
-
-1.A Model Set-up 15  
-1.B Exchange Rate Accounting 21  
-1.C Complete-Market Solution 25  
-1.D Asset Market and Goods Market Views of Exchange Rates 31
-
-2 Puzzles: Challenges to Making Sense of Data 35
-
-2.A Challenges to Making Sense of Exchange Rates 35  
-2.B Challenges to Making Sense of Quantities and Flows 42
-
-II Understanding the Exchange Rates 50
-
-3 Risk Premia and Factor Structure 51
-
-3.A The No-Arbitrage Approach 52  
-3.B Currency Risk Premia in the Time Series 64  
-3.C Currency Risk Premia in the Cross-Section 69  
-3.D Currency Risk Premia in the Long Run 78
-
-4 ConvenienceYields 88
-
-4.A An Illustrative Model 90  
-4.B Exchange Rate Accounting 94  
-4.C Measuring the Convenience Yields 100  
-4.D Connecting the Short Term with the Long Term 104  
-4.E Discussions (TODO) 107
-
-5 Incomplete Markets 108
-
-5.A An Illustrative Model 109  
-5.B The No-Arbitrage Approach 120  
-5.C Multi-Currency Dynamics and International Spill-Over 127  
-5.D Incomplete Markets vs. Convenience Yields (TODO) 131
-
-6 Monetary and Fiscal Policies 132
-
-6.A Introducing the Nominal Layer 133  
-6.B Model Set-Up 135  
-6.C Characterizations under Flexible Prices 142  
-6.D Characterizations under Sticky Prices 146  
-6.E Comparing Monetary and Fiscal Policies 154
-
-III Understanding the Quantities and Flows 159
-
-7 Global Imbalances and the Exorbitant Privilege 160
-
-7.A The Insurance Provision View 161  
-7.B The Reserve Currency Paradox 170  
-7.C The Safe Asset View 172  
-7.D The Stability of the International Monetary System 181
-
-8 Government Debt 185
-
-8.A Backward-Looking Accounting 187
-
-8.B Forward-Looking Valuation 190  
-8.C The Transversality Condition 200  
-8.D An Example Economy 204  
-8.E The Public Debt Valuation Puzzle 207
-
-# 9 Portfolio Choice and Asset Demand 219
-
-9.A Net Foreign Assets Accounting 220  
-9.B The Mean-Variance Approach 227  
-9.C Applications of the Mean-Variance Approach (TODO) 230  
-9.D The Demand System Approach 230  
-9.E Application to International Portfolio Allocation 236
-
-# 10 Market Segmentation and Financial Intermediation 241
-
-10.A A Model of International Financial Intermediation 241  
-10.B Comparing Segmented Markets with Convenience Yields 248  
-10.C A Model of Domestic Financial Intermediation 259
-
-# A Proof of Selected Results 269
-
-A.1 Proposition 1.3 in Section 1.C 269  
-A.2 Proposition 1.4 in Section 1.D 270  
-A.3 Proposition 3.1 in Section 3.A 271  
-A.4 Proposition 3.2 in Section 3.A 271  
-A.5 Proposition 3.3 in Section 3.A 272  
-A.6 Proposition 3.4 in Section 3.B 273  
-A.7 Proposition 3.5 in Section 3.B 275  
-A.8 Proposition 3.6 in Section 3.C 276  
-A.9 Proposition 3.7 in Section 3.C 278  
-A.10 Proposition 3.8 in Section 3.C 278  
-A.11 Proposition 3.9 in Section 3.D 279  
-A.12 Proposition 3.11 in Section 3.D. 280  
-A.13 Proposition 4.3 in Section 4.B 281
-
-A.14 Lemma 5.1 in Section 5.A 282  
-A.15 Proposition 5.1 in Section 5.A 284  
-A.16 Lemma 5.2 in Section 5.A 286  
-A.17 Proposition 5.2 in Section 5.A 290  
-A.18 Proposition 5.3 in Section 5.A 293  
-A.19 Proposition 5.4 in Section 5.B 296  
-A.20 Proposition 5.5 in Section 5.B 297  
-A.21 Proposition 5.6 in Section 5.B 297  
-A.22 Proposition 5.7 in Section 5.C. 298  
-A.23 Proposition 5.8 in Section 5.C. 298  
-A.24 Proposition 6.2 and 6.3 in Section 6.C  
-A.25 Proposition 6.4 in Section 6.D 303  
-A.26 Proposition 6.5 in Section 6.D 304  
-A.27 Proposition 6.6 in Section 6.D 305  
-A.28 Proposition 7.1 in Section 7.A 307  
-A.29 Proposition 7.2 in Section 7.C 308  
-A.30 Proposition 8.1 in Section 8.A 309  
-A.31 Proposition 8.2 in Section 8.B 310  
-A.32 Proposition 8.3 in Section 8.B 311  
-A.33 Proposition 8.4 in Section 8.B 313  
-A.34 Proposition 8.5 in Section 8.B 314  
-A.35 Proposition 8.6 in Section 8.C 314  
-A.36 Proposition 8.7 in Section 8.C 316  
-A.37 Proposition 8.8 in Section 8.E 317  
-A.38 Proposition 8.9 in Section 8.E 318  
-A.39 Proposition 9.1 in Section 9.A 320  
-A.40 Proposition 9.2 in Section 9.B 320  
-A.41 Proposition 9.3 in Section 9.B 322  
-A.42 Proposition 10.1 in Section 10.A 322  
-A.43 Proposition 10.2 in Section 10.B 323  
-A.44 Proposition 10.3 in Section 10.C 323  
-A.45 Proposition 10.4 in Section 10.C 325  
-Bibliography 327
-
-# 0
-
-# Preface
+## Preface
 
 What is international macroeconomics and finance? Here is an answer I found by asking ChatGPT.
 
@@ -278,57 +133,17 @@ FITZGERALD: The rich are different from us.
 
 HEMINGWAY: Yes, they have more money.
 
-# Part I
+## Part I
 
-# Introduction
+### Introduction
 
-1
+### 1. A Benchmark Economy
 
-# A Benchmark Economy
+#### Summary
 
-# Summary
+#### 1.A Model Set-up
 
-- We develop a benchmark two-country model of international real business cycles. Restrictions on the exchange rate  $e_t$  are imposed by both goods market conditions:
-
-$$
-\frac{p_{t}}{p_{t}^{*} \exp (- e_{t})} = \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}} = \frac{1 - \alpha}{\alpha} \frac{c_{F , t}^{*}}{c_{H , t}^{*}},
-$$
-
-and asset market conditions:
-
-$$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right] = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right].
-$$
-
-- Trading in the risk-free bond market implies that the currency's expected return is determined by its risk premium:
-
-$$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right),
-$$
-
-and that the exchange rate level is determined by the expectation of future interest rates and currency risk premia:
-
-$$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r p_{t + j} \right] + \bar {e}.
-$$
-
-- When markets are complete, we can further simplify the exchange rate movement and currency expected return as
-
-$$
-\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*},
-$$
-
-$$
-\mathbb {E}_{t} [ r x_{t + 1} ] = \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) - \frac{1}{2} v a r_{t} (m_{t + 1}).
-$$
-
-We start with a benchmark economy with international trade in goods and bonds, which is the basis for extensions in later chapters. We characterize the dynamics of the exchange rate and the currency return in this model, and, in doing so, showcase some standard tech-
-
-niques.
-
-# 1.A Model Set-up
-
-# 1.A.1 Households
+#### 1.A.1 Households
 
 We consider an endowment economy with two countries, home and foreign. Each country has a continuum of identical households. Equivalently, we can think of a representative household in each country. Each country has a unique type of goods, labeled as home goods and foreign goods. The home households receive an endowment of  $y_{t}$  units of the home goods, and the foreign households receive an endowment of  $y_{t}^{*}$  units of the foreign goods.
 
@@ -343,7 +158,7 @@ which means that  $c_{H,t}$  units of the home goods and  $c_{F,t}$  units of th
 The expected lifetime utility for home households is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t}) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t}) \right],
 $$
 
 where  $u(c_{t})$  is a generic utility function that takes the home households' aggregate consumption  $c_{t}$  as the argument, and  $\delta$  is the subjective discount factor. We usually impose some regularity conditions on the utility function, so that it is twice continuously differentiable, increasing in  $c_{t}$ , and concave.
@@ -364,630 +179,47 @@ where  $y_{t}$  denotes the endowment of the home goods,  $p_{t}$  denotes the p
 
 We can introduce other tradable assets such as equities and long-term bonds by extending this budget constraint. A particularly useful case is when the households can trade the complete set of contingent claims. We will consider this complete-market case in Section 1.C.
 
-# 1.A.2 Intertemporal Solution
+#### 1.A.2 Intertemporal Solution
 
-We write the home households' Lagrangian as
+#### 1.A.3 Within-Period Solution
 
-$$
-\mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u (c_{t}) + \sum_{t = 1}^{\infty} \zeta_{t} \left(p_{t} y_{t} + b_{H, t - 1} \exp \left(r_{t - 1}\right) + b_{F, t - 1} \exp \left(r_{t - 1}^{*} - e_{t}\right) - c_{t} - b_{H, t} - b_{F, t} \exp (- e_{t})\right) \right].
-$$
-
-The first-order conditions w.r.t.  $c_{t},b_{H,t}$  , and  $b_{F,t}$  are
-
-$$
-\delta^{t} u^{\prime} \left(c_{t}\right) - \zeta_{t} = 0,
-$$
-
-$$
-\mathbb {E}_{t} \left[ - \zeta_{t} + \zeta_{t + 1} \exp (r_{t}) \right] = 0,
-$$
-
-$$
-\mathbb {E}_{t} \left[ - \zeta_{t} \exp (- e_{t}) + \zeta_{t + 1} \exp \left(r_{t}^{*} - e_{t + 1}\right) \right] = 0.
-$$
-
-These equations imply the following Euler equations:
-
-$$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1})}{u^{\prime} (c_{t})} \exp (r_{t}) \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ \end{array}
-$$
-
-which describe how the households trade off consumption and saving intertemporally. For example, we can express the first Euler equation as
-
-$$
-u^{\prime} \left(c_{t}\right) = \mathbb {E}_{t} \left[ \delta u^{\prime} \left(c_{t + 1}\right) \exp \left(r_{t}\right) \right].
-$$
-
-The left-hand side represents the increase in utility from consuming a small amount of the home consumption bundle in period  $t$ , which is  $u'(c_t)$  in the limit. The right-hand side represents the expected increase in the utility from saving this additional consumption bundle in home bonds, earning interests and receiving  $\exp(r_t)$  in period  $t + 1$ , and deriving  $u'(c_{t+1})$  utils from each additional unit of consumption in period  $t + 1$ . The households discount these future utils by the subjective discount rate  $\delta$ , and equalize the left- and right-hand sides so that they are indifferent between these two options.
-
-We denote the marginal utility growth as
-
-$$
-\exp (m_{t + 1}) \stackrel {\text{de f}} {=} \delta \frac{u^{\prime} (c_{t + 1})}{u^{\prime} (c_{t})},
-$$
-
-which is commonly referred to as the stochastic discount factor (SDF) or the pricing kernel in the asset pricing literature. In this note, we will focus on the relationship between the SDF and the exchange rate. That said, if the same households can also trade the claim to the endowment, then, the same SDF also prices the endowment claim. Let  $m_{t,t+k} \stackrel{\mathrm{def}}{=} \sum_{j=1}^{k} m_{t+j}$  denote the cumulative SDF from period  $t$  to  $t + k$ . Then, the price of the home country's endowment claim is
-
-$$
-p_{t}^{m} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) p_{t + k} y_{t + k} \right].
-$$
-
-Similarly, if the claim to the households' consumption stream is trad- able, we can also price the households' wealth as
-
-$$
-p_{t}^{w} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) c_{t + k} \right].
-$$
-
-# 1.A.3 Within-Period Solution
-
-Let  $p_t^*$  denote the price of the foreign goods in the unit of the foreign consumption bundle. Using the home consumption bundle as the
-
-numérique, the price of the home consumption bundle is 1. Then, the law of one price implies
-
-$$
-1 \cdot \left(c_{H, t}\right)^{\alpha} \left(c_{F, t}\right)^{1 - \alpha} = 1 \cdot c_{t} = p_{t} c_{H, t} + p_{t}^{*} c_{F, t} \exp (- e_{t}). \tag {1.2}
-$$
-
-Substitute this equation into the Lagrangian:
-
-$$
-\begin{array}{l} \mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u \left(\left(c_{H, t}\right)^{\alpha} \left(c_{F, t}\right)^{1 - \alpha}\right) \right. \\ \left. + \sum_{t = 1}^{\infty} \zeta_{t} (p_{t} y_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) - p_{t} c_{H, t} - \exp (- e_{t}) p_{t}^{*} c_{F, t} - b_{H, t} - b_{F, t} \exp (- e_{t})) \right]. \\ \end{array}
-$$
-
-The first-order conditions w.r.t.  $c_{H,t}$ ,  $c_{F,t}$  are
-
-$$
-\delta^{t} u^{\prime} (c_{t}) \alpha (\frac{c_{F , t}}{c_{H , t}})^{1 - \alpha} - \zeta_{t} p_{t} = 0,
-$$
-
-$$
-\delta^{t} u^{\prime} (c_{t}) (1 - \alpha) (\frac{c_{H , t}}{c_{F , t}})^{\alpha} - \zeta_{t} p_{t}^{*} \exp (- e_{t}) = 0,
-$$
-
-which implies that the consumption ratio  $c_{F,t} / c_{H,t}$  between foreign and home goods is a function of the relative prices:
-
-$$
-\frac{p_{t}}{p_{t}^{*} \exp (- e_{t})} = \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}}. \tag {1.3}
-$$
-
-Moreover, plug this solution into (1.2), we obtain
-
-$$
-c_{t} = p_{t} c_{H, t} + \frac{1 - \alpha}{\alpha} p_{t} c_{H, t} = \frac{1}{\alpha} p_{t} c_{H, t},
-$$
-
-$$
-c_{t} = \frac{\alpha}{1 - \alpha} p_{t}^{*} c_{F, t} \exp (- e_{t}) + p_{t}^{*} c_{F, t} \exp (- e_{t}) = \frac{1}{1 - \alpha} p_{t}^{*} c_{F, t} \exp (- e_{t}),
-$$
-
-which implies that the expenditure shares for home and foreign goods are constant under the Cobb-Douglas aggregator and a general utility function:
-
-$$
-p_{t} c_{H, t} = \alpha c_{t}, \tag {1.4}
-$$
-
-$$
-p_{t}^{*} c_{F, t} \exp (- e_{t}) = (1 - \alpha) c_{t}. \tag {1.5}
-$$
-
-Moreover, plug in  $(c_{H,t})^{\alpha}(c_{F,t})^{1 - \alpha} = c_t$ , we can express the goods' prices (i.e.,  $p_t$  and  $p_t^*\exp (-e_t))$  in the unit of the home consumption bundle as functions of the relative consumption weights:
-
-$$
-p_{t} = \alpha \left(\frac{c_{F , t}}{c_{H , t}}\right)^{1 - \alpha}, \qquad p_{t}^{*} \exp (- e_{t}) = (1 - \alpha) \left(\frac{c_{H , t}}{c_{F , t}}\right)^{\alpha}.
-$$
-
-A commonly used notion is the terms of trade, defined as the ratio between the price index of exported goods and the price index of imported goods from the perspective of a given country. In our setting, the home country exports home goods and imports foreign
-
-goods. As such, the terms of trade are simply the ratio of prices between home and foreign goods:
-
-$$
-\exp (t o t_{t}) \stackrel {\text{de f}} {=} \frac{p_{t}}{p_{t}^{*} \exp (- e_{t})},
-$$
-
-which allows us to express goods' prices in the unit of the home consumption bundle as
-
-$$
-p_{t} = \alpha \left(\frac{1 - \alpha}{\alpha} \exp (t o t_{t})\right)^{1 - \alpha}, \qquad p_{t}^{*} \exp (- e_{t}) = (1 - \alpha) \left(\frac{1 - \alpha}{\alpha} \exp (t o t_{t})\right)^{- \alpha}.
-$$
-
-Likewise, we can derive the same problem from the foreign households' perspective, and obtain
-
-$$
-p_{t}^{*} = \alpha \left(\frac{1 - \alpha}{\alpha} \exp (- t o t_{t})\right)^{1 - \alpha}, \qquad p_{t} \exp (e_{t}) = (1 - \alpha) \left(\frac{1 - \alpha}{\alpha} \exp (- t o t_{t})\right)^{- \alpha},
-$$
-
-which implies that the real exchange rate and the terms of trade are tightly connected:
-
-$$
-e_{t} = (2 \alpha - 1) t o t_{t}.
-$$
-
-So, we can simplify Eq. (1.3) to
-
-$$
-\exp \left(\frac{e_{t}}{2 \alpha - 1}\right) = \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}}.
-$$
-
-That is, within a period, the households choose between consuming home and foreign goods by comparing the relative prices as captured by the real exchange rate  $e_t$  and the relative consumption weights  $\alpha$  and  $1 - \alpha$ .
-
-# 1.A.4 Foreign Country
-
-For foreign households, symmetrically, we define the foreign consumption bundle as
-
-$$
-c_{t}^{*} = (c_{F}^{*})^{\alpha} (c_{H}^{*})^{1 - \alpha}.
-$$
-
-Given  $\alpha > 1/2$ , the foreign consumption bundle leans towards the foreign goods, whereas the home consumption bundle leans towards the home goods.
-
-The foreign households' budget constraint is
-
-$$
-p_{t}^{*} y_{t}^{*} + b_{H, t - 1}^{*} \exp (r_{t - 1} + e_{t}) + b_{F, t - 1}^{*} \exp (r_{t - 1}^{*}) = c_{t}^{*} + b_{H, t}^{*} \exp (e_{t}) + b_{F, t}^{*}
-$$
-
-The Lagrangian is
-
-$$
-\mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u \left(c_{t}^{*}\right) + \sum_{t = 1}^{\infty} \zeta_{t}^{*} \left(p_{t}^{*} y_{t}^{*} + \exp \left(r_{t - 1} + e_{t}\right) b_{H, t - 1}^{*} + b_{F, t - 1}^{*} \exp \left(r_{t - 1}^{*}\right) - c_{t}^{*} - b_{H, t}^{*} \exp (e_{t}) - b_{F, t}^{*}\right) \right].
-$$
-
-The intertemporal solution implies
-
-$$
-1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1}^{*})}{u^{\prime} (c_{t}^{*})} \exp (r_{t} + \Delta e_{t + 1}) \right],
-$$
-
-$$
-1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1}^{*})}{u^{\prime} (c_{t}^{*})} \exp (r_{t}^{*}) \right],
-$$
-
-and the within-period solution implies
-
-$$
-\frac{p_{t} \exp (e_{t})}{p_{t}^{*}} = \frac{1 - \alpha}{\alpha} \frac{c_{F , t}^{*}}{c_{H , t}^{*}},
-$$
-
-$$
-p_{t} \exp (e_{t}) = (1 - \alpha) \left(\frac{c_{F , t}^{*}}{c_{H , t}^{*}}\right)^{\alpha},
-$$
-
-$$
-p_{t}^{*} = \alpha \left(\frac{c_{H , t}^{*}}{c_{F , t}^{*}}\right)^{1 - \alpha}.
-$$
-
-# 1.A.5 Market Clearing
-
-In the goods market, the endowment is equal to the sum of home and foreign consumption:
-
-$$
-y_{t} = c_{H, t} + c_{H, t}^{*},
-$$
-
-$$
-y_{t}^{*} = c_{F, t} + c_{F, t}^{*}.
-$$
-
-In the bonds market, the bonds are in zero net supply:
-
-$$
-0 = b_{H, t} + b_{H, t}^{*},
-$$
-
-$$
-0 = b_{F, t} + b_{F, t}^{*}.
-$$
-
-# 1.A.6 Macro Synthesis
-
-Throughout this book, we study the competitive equilibrium defined in the usual fashion: all households maximize their utilities taking goods prices, asset prices, and exchange rates as given, and the markets for goods and assets are cleared.
-
-The only exogenous variables are the endowments:
-
-$$
-(y_{t}, y_{t}^{*})_{t = 0}^{\infty}.
-$$
-
-There are 15 endogenous variables in each period  $t$ :
-
-$$
-(c_{t}, c_{H, t}, c_{F, t}, b_{H, t}, b_{F, t}, p_{t}, c_{t}^{*}, c_{H, t}^{*}, c_{F, t}^{*}, b_{H, t}^{*}, b_{F, t}^{*}, p_{t}^{*}, r_{t}, r_{t}^{*}, e_{t})_{t = 0}^{\infty},
-$$
-
-plus two auxiliary variables  $\exp(m_{t+1})$  and  $\exp(m_{t+1}^*)$  that denote the home and foreign SDFs:
-
-$$
-\exp (m_{t + 1}) \stackrel {\mathrm{de f}} {=} \delta \frac{u^{\prime} (c_{t + 1})}{u^{\prime} (c_{t})},
-$$
-
-$$
-\exp (m_{t + 1}^{*}) \stackrel {\mathrm{de f}} {=} \delta \frac{u^{\prime} (c_{t + 1}^{*})}{u^{\prime} (c_{t}^{*})}.
-$$
-
-The model implies the following 16 equations in each period, one of which is redundant because the market clearing conditions add up to the sum of households' budget constraints. These 16 equations include 2 consumption aggregation equations,
-
-$$
-c_{t} = (c_{H, t})^{\alpha} (c_{F, t})^{1 - \alpha},
-$$
-
-$$
-c_{t}^{*} = (c_{F, t}^{*})^{\alpha} (c_{H, t}^{*})^{1 - \alpha},
-$$
-
-4 household budget constraints,
-
-$$
-p_{t} y_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) = c_{t} + b_{H, t} + b_{F, t} \exp (- e_{t}),
-$$
-
-$$
-c_{t} = p_{t} c_{H, t} + p_{t}^{*} c_{F, t} \exp (- e_{t}),
-$$
-
-$$
-p_{t}^{*} y_{t}^{*} + b_{H, t - 1}^{*} \exp (r_{t - 1} + e_{t}) + b_{F, t - 1}^{*} \exp (r_{t - 1}^{*}) = c_{t}^{*} + b_{H, t}^{*} \exp (e_{t}) + b_{F, t}^{*},
-$$
-
-$$
-c_{t}^{*} = p_{t} c_{H, t}^{*} \exp (e_{t}) + p_{t}^{*} c_{F, t}^{*},
-$$
-
-2 equations describing the households' within-period consumption choices,
-
-$$
-\frac{p_{t}}{p_{t}^{*} \exp (- e_{t})} = \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}} = \frac{1 - \alpha}{\alpha} \frac{c_{F , t}^{*}}{c_{H , t}^{*}},
-$$
-
-2 goods market clearing conditions,
-
-$$
-y_{t} = c_{H, t} + c_{H, t}^{*},
-$$
-
-$$
-y_{t}^{*} = c_{F, t} + c_{F, t}^{*},
-$$
-
-2 bond market clearing conditions,
-
-$$
-0 = b_{H, t} + b_{H, t}^{*},
-$$
-
-$$
-0 = b_{F, t} + b_{F, t}^{*},
-$$
-
-and 4 Euler equations,
-
-$$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}\right) \exp \left(r_{t}\right) \right],
-$$
-
-$$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1}) \exp (- \Delta e_{t + 1} + r_{t}^{*}) ],
-$$
-
-$$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*}) \exp (r_{t}^{*}) \right],
-$$
-
-$$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(\Delta e_{t + 1} + r_{t}\right) \right].
-$$
-
-# 1.B Exchange Rate Accounting
+#### 1.B Exchange Rate Accounting
 
 Among the equilibrium conditions we derive in the last section, particularly relevant for asset pricing are the four Euler equations:
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \tag {1.6}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \tag {1.6}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {1.7}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {1.7}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \tag {1.8}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \tag {1.8}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right]. \tag {1.9}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right]. \tag {1.9}
 $$
 
 For the discussion in this section, we assume the random variables are jointly normally distributed. It is possible to extend this analysis to the non-normal case using co-entropy instead of covariance. Under joint normality, the foreign households' Euler equations can be expressed as
 
 $$
-\begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) + c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
+\begin{array}{l} 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + \mathbb{E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} var_{t} (\Delta e_{t + 1}) + cov_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
 $$
 
-# 1.B.1 Accounting for the Currency Expected Return
+#### 1.B.1 Accounting for the Currency Expected Return
 
-To capture the relative performance of the home and foreign currencies, we define the log excess return of the home currency against the foreign currency as
+#### 1.B.2 Accounting for the Exchange Rate Level
 
-$$
-r x_{t + 1} = \Delta e_{t + 1} + r_{t} - r_{t}^{*}.
-$$
-
-This excess return captures the return of the strategy that takes a long position on the home bond and a short position on the foreign bond, which is exposed to the bilateral exchange rate movement.
-
-Then, the Euler equations imply the following result:
-
-Proposition 1.1. The home currency's expected log excess return is determined by the covariance between the log foreign SDF and log exchange rate movement minus a Jensen's term:
-
-$$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right). \tag {1.10}
-$$
-
-We interpret the right-hand side of Eq. (1.10) as the currency risk premium in log, since the covariance term describes how the exchange rate comoves with the foreign investors' SDF. If the covariance is positive, the home currency tends to appreciate when the foreign households' marginal utility is high. Then, the home currency is a good hedge from the perspective of the foreign households and should earn a low risk premium.
-
-The right-hand side of Eq. (1.10) also has a variance term  $-\frac{1}{2} var_t(\Delta e_{t+1})$  that we refer to as the Jensen's term. To understand this term, it is useful to consider the risk premium expression for the level of the currency return:
-
-$$
-\log \mathbb {E}_{t} [ \exp (r x_{t + 1}) ] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right). \tag {1.11}
-$$
-
-Compared with the currency risk premium in log defined in Eq. (1.10), the currency risk premium in level conveniently has no Jensen's term. Empirically, for developed countries' currencies, the exchange rate volatility is roughly  $10\%$  per annum. This magnitude implies a
-
-Jensen's term of  $-\frac{1}{2} var_t(\Delta e_{t+1}) = -0.5\%$ , which is an order of magnitude smaller than the covariance term for many currency pairs we usually consider.
-
-We can also derive the currency risk premium from the home households' perspective:
-
-$$
-\mathbb {E}_{t} \left[ - r x_{t + 1} \right] = - c o v_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right),
-$$
-
-$$
-\log \mathbb {E}_{t} [ \exp (- r x_{t + 1}) ] = - c o v_{t} (m_{t + 1}, - \Delta e_{t + 1}),
-$$
-
-which implies that the foreign currency has to offer a higher risk premium if it tends to depreciate when the home SDF is high.
-
-If we combine the expected return expressions from the home and foreign households' perspectives, we obtain the following expression:
-
-$$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = - \mathbb {E}_{t} \left[ - r x_{t + 1} \right]
-$$
-
-$$
-- \operatorname{co v}_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{co v}_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) + \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right). \tag {1.12}
-$$
-
-Recall that all these restrictions are derived from the Euler equations for holding the risk-free bonds. So, allowing the households to freely trade in the risk-free bond markets imposes restrictions not only between the currency expected return and the covariance between the SDF and the exchange rate movement from each country's perspective, but also between the home and the foreign perspectives. Specifically, the home and foreign investors need to agree on the equilibrium currency risk premium after the second-order adjustment by the Jensen's term.
-
-# 1.B.2 Accounting for the Exchange Rate Level
-
-Let us denote the home currency's risk premium (including the Jensen's term) as
-
-$$
-r p_{t} \stackrel {\mathrm{de f}} {=} \mathbb {E}_{t} [ r x_{t + 1} ] = - c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}),
-$$
-
-which implies
-
-$$
-e_{t} - \mathbb {E}_{t} \left[ e_{t + 1} \right] = r_{t} - r_{t}^{*} - r p_{t}. \tag {1.13}
-$$
-
-If we regard the next period's expected exchange rate level  $\mathbb{E}_t[e_{t + 1}]$  as a reference point, then, Eq. (1.13) implies that the deviation of the current exchange rate from this reference point is determined by the interest rate differential and the currency risk premium. The home currency is stronger relative to the reference point if the home interest rate is higher than the foreign interest rate and if the home currency's risk premium is low.
-
-We can generalize this intuition under the assumption that the real exchange rate is stationary. In this case, there exists a long-run exchange rate level,
-
-$$
-\bar{e}\stackrel {\mathrm{def}}{=}\lim_{j\to \infty}\mathbb{E}_{t}[e_{t + j}].
-$$
-
-Using this as a more natural reference point for the exchange rate level, we can decompose today's exchange rate level in the following way [Campbell and Clarida, 1987, Froot and Ramadorai, 2005]:
-
-Proposition 1.2. The exchange rate level is equal to the sum of expected future interest rate differentials, the sum of expected future currency risk premia, and the long-run exchange rate level:
-
-$$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r p_{t + j} \right] + \bar {e}. \tag {1.14}
-$$
-
-This formula shows that, if the home currency is currently stronger than its long-run mean, it is either because the home currency is offering a higher interest rate than the foreign currency, or because it has a lower risk premium. This decomposition of the exchange rate level is similar to the Campbell and Shiller [1988] decomposition of the equity price-dividend ratio into a cash flow component, a discount rate component, and a vanishing transversality component, i.e.,
-
-$$
-p d_{t} = \sum_{j = 1}^{\infty} \kappa^{j - 1} \mathbb {E}_{t} [ \Delta \log d_{t + j} ] - \sum_{j = 1}^{\infty} \kappa^{j - 1} \mathbb {E}_{t} [ r_{t + j} ] + \lim_{j \to \infty} \kappa^{j} \mathbb {E}_{t} [ p d_{t + j} ].
-$$
-
-In the exchange rate formula (1.14), the interest rate term  $\sum_{j=0}^{\infty} \mathbb{E}_t[r_{t+j} - r_{t+j}^*]$  can be interpreted as the cash flow component: if the home bond earns a higher interest rate, then, the investors are indeed expecting higher cash flows from holding it, and should therefore impute a higher valuation to the home currency. Since the exchange rate is the relative price between the home and foreign countries, the interest rate differential  $r_{t+j} - r_{t+j}^*$  enters the formula to capture the relative magnitude of the cash flows. Likewise, the risk premium term  $\sum_{j=0}^{\infty} \mathbb{E}_t[rp_{t+j}]$  can be interpreted as the discount rate component: if the home currency is risky and therefore earns a higher risk premium, then, the investors should use a higher discount rate for the home currency and impute a lower valuation. Finally, the long-run exchange rate level  $\bar{e}$  can be interpreted as the transversality component. The key difference between the exchange rate formula (1.14) and the equity pricing formula above is that there is no discounting by  $\kappa$  in the exchange rate formula, which follows from the fact that no approximation was made in deriving the exchange rate formula.
-
-Moreover, it is simple to go one step further to decompose the exchange rate innovation:
-
-$$
-(\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ e_{t} ] = \sum_{j = 0}^{\infty} (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ r_{t + j} - r_{t + j}^{*} ] - \sum_{j = 0}^{\infty} (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ r p_{t + j} ],
-$$
-
-which offers a decomposition formula for the volatility of the unexpected exchange rate movement.
-
-This discussion makes it clear that the exchange rate is a forward-looking variable, which incorporates information about future interest rates and risk premia. As a result, if some macro or financial variables capture variations in interest rates or risk premia, the exchange rate should be able to predict these variables [Engel and West, 2005].
-
-# 1.C Complete-Market Solution
-
-When the markets are complete, households in both countries can trade any Arrow-Debreu securities (a.k.a. contingent claims). Then, the households' budget constraints, such as Eq. (1.1), should be revised to reflect these investment opportunities.
-
-There is a more convenient approach to solving this case. By the First Welfare Theorem, the equilibrium outcome is observationally equivalent to the equilibrium outcome under a social planner, who maximizes a weighted sum of the households' welfare [Negishi, 1960]:
-
-$$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) \right],
-$$
-
-where the weight  $\pi$  is known as the Pareto weight and is endogenously determined by the households' initial wealth. $^{1}$
-
-The social planner tells the home and foreign households how much to consume, subject to the resource constraints
-
-$$
-y_{t} = c_{H, t} + c_{H, t}^{*},
-$$
-
-$$
-y_{t}^{*} = c_{F, t} + c_{F, t}^{*}.
-$$
-
-1 The allocation problem in the competitive economy can be formulated as a fictitious social planner's optimization problem even when the markets are incomplete [Cuoco and He, 1994]. In this case, the Pareto weight  $\pi$  is stochastic and related to different agents' marginal utilities. We will consider one such setting in Chapter 5.
-
-The social planner's Lagrangian is
-
-$$
-\mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) + \sum_{t = 1}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*}) \right],
-$$
-
-which implies the following first-order conditions
-
-$$
-\text{w .r .t .} c_{H, t}: \delta^{t} \pi u^{\prime} (c_{t}) \alpha \left(\frac{c_{F , t}}{c_{H , t}}\right)^{1 - \alpha} = \zeta_{H, t},
-$$
-
-$$
-\begin{array}{l} \text{w .r .t .} c_{H, t}^{*}: \delta^{t} (1 - \pi) u^{\prime} (c_{t}^{*}) (1 - \alpha) \left(\frac{c_{F , t}^{*}}{c_{H , t}^{*}}\right)^{\alpha} \\ = \zeta_{H, t}, \end{array}
-$$
-
-$$
-\begin{array}{l} \text{w .r .t .} c_{F, t}: \quad \delta^{t} \pi u^{\prime} (c_{t}) (1 - \alpha) \left(\frac{c_{H , t}}{c_{F , t}}\right)^{\alpha} \\ = \zeta_{F, t}, \end{array}
-$$
-
-$$
-\begin{array}{l} \text{w .r .t .} c_{F, t}^{*}: \delta^{t} (1 - \pi) u^{\prime} (c_{t}^{*}) \alpha \left(\frac{c_{H , t}^{*}}{c_{F , t}^{*}}\right)^{1 - \alpha} \\ = \zeta_{F, t}. \end{array}
-$$
-
-Plug in the within-period solution in Section 1.A, and we obtain the following equilibrium condition:
-
-$$
-\pi u^{\prime} \left(c_{t}\right) = (1 - \pi) u^{\prime} \left(c_{t}^{*}\right) \exp \left(e_{t}\right), \tag {1.15}
-$$
-
-which describes the social planner's optimal risk-sharing rule: it sets the allocation so that the home households' marginal utility, weighed by its Pareto weight  $\pi$ , is equal to the foreign households' marginal utility, weighed by its Pareto weight  $(1 - \pi)$  and adjusted by the real exchange rate  $\exp(e_t)$ . The real exchange rate converts the marginal utility from the foreign consumption unit to the home consumption unit.
-
-This equilibrium condition implies a linear allocation rule.
-
-Proposition 1.3. Equilibrium consumption is a linear function of endowments. Specifically, for some value  $k_{t}$ , the consumption of home and foreign goods is
-
-$$
-c_{H, t} = \frac{\alpha k_{t}}{(1 - \alpha) + \alpha k_{t}} y_{t}, \quad c_{H, t}^{*} = \frac{1 - \alpha}{(1 - \alpha) + \alpha k_{t}} y_{t},
-$$
-
-$$
-c_{F, t} = \frac{(1 - \alpha) k_{t}}{\alpha + (1 - \alpha) k_{t}} y_{t}^{*}, \qquad \qquad c_{F, t}^{*} = \frac{\alpha}{\alpha + (1 - \alpha) k_{t}} y_{t}^{*},
-$$
-
-and the aggregate consumption is
-
-$$
-c_{t} = \frac{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{((1 - \alpha) + \alpha k_{t})^{\alpha} (\alpha + (1 - \alpha) k_{t})^{1 - \alpha}} k_{t} y_{t}^{\alpha} (y_{t}^{*})^{1 - \alpha},
-$$
-
-$$
-c_{t}^{*} = \frac{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{((1 - \alpha) + \alpha k_{t})^{1 - \alpha} (\alpha + (1 - \alpha) k_{t})^{\alpha}} y_{t}^{1 - \alpha} (y_{t}^{*})^{\alpha},
-$$
-
-where  $k_{t}$  can be solved via the following implicit equation:
-
-$$
-\frac{\pi}{1 - \pi} \frac{u^{\prime} (c_{t})}{u^{\prime} (c_{t}^{*})} \frac{\alpha}{1 - \alpha} \left(\frac{c_{F , t}}{c_{H , t}}\right)^{1 - \alpha} \left(\frac{c_{H , t}^{*}}{c_{F , t}^{*}}\right)^{\alpha} = 1.
-$$
-
-The proof is presented in Appendix A.1. This optimal risk-sharing rule implies that the equilibrium allocation of home and foreign
-
-goods to home and foreign households is driven by two considerations. First, when the home bias in consumption  $\alpha$  is greater, more home goods are allocated to home households and more foreign goods are allocated to foreign households. Second, an endogenous, stochastic variable  $k_{t}$  further adjusts the shares of the aggregate endowment of home and foreign goods that are allocated to the home households as opposed to the foreign households. When  $k_{t}$  is higher, the home households consume more home and foreign goods relative to the foreign households:
-
-$$
-\frac{c_{H , t}}{c_{H , t}^{*}} = \frac{\alpha}{1 - \alpha} k_{t}, \qquad \frac{c_{F , t}}{c_{F , t}^{*}} = \frac{1 - \alpha}{\alpha} k_{t}.
-$$
-
-Once we solve  $k_{t}$ , we can solve the equilibrium allocations without solving for the goods' and the assets' prices in the competitive equilibrium.
-
-We illustrate the equilibrium allocation in a simple numerical example. Suppose the home and foreign households have identical CRRA preferences:  $u(c) = c^{1 - \gamma} / (1 - \gamma)$ , with  $\gamma = 2, \alpha = 0.7$ , and  $\pi = 0.5$ . The endowment  $y_{t}$  is stochastic and  $y_{t}^{*}$  is fixed at 2. Figure 1.1 traces out the equilibrium consumption allocations  $c_{t}$  and  $c_{t}^{*}$  for the home and foreign households as we vary  $y_{t}$ . We can see that, as the home endowments become higher, both countries' consumption increases. The fact that the foreign households' consumption responds to the home endowment shocks reflects international risk-sharing. Moreover, the home country's consumption increases more than the foreign country's consumption: the hypothetical social planner assigns a greater share of the increase in the quantity of home goods to the home households because they derive more utility from consuming home goods due to home bias.
-
-The international risk-sharing can be further illustrated by the international transfer in equilibrium. Figure 1.2 plots the net international transfers of home and foreign households as fractions of their respective endowments. When the home households receive a low endowment  $y_{t}$ , the social planner transfers resources from the foreign country to the home country to balance their marginal utilities. As a result, the home households receive a net transfer paid out by the foreign households.
-
-# 1.C.1 Implied Exchange Rate Dynamics
-
-Using the households' optimality conditions that we derived under the competitive equilibrium, we can back out the prices from quantities. In particular, the optimal risk-sharing rule Eq. (1.15) implies a
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/305ea4c8f3eb67bf8285fb5fa5cfaee1aedfafd5261e58dcebc6fca7a4cfb990.jpg)  
-Figure 1.1: Equilibrium Consumption Allocation.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/6430fe20998057eb569efc269abd2ba539d163f39afd1e199be69d08780b647d.jpg)  
-Figure 1.2: Equilibrium International Transfer.
+#### 1.C Complete-Market Solution
 
-relationship between the real exchange rate and marginal utilities:
-
-$$
-e_{t} = \log u^{\prime} (c_{t}) - \log u^{\prime} (c_{t}^{*}) + \log \frac{\pi}{1 - \pi},
-$$
-
-which can be written as
-
-$$
-\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*}. \tag {1.16}
-$$
-
-This condition indicates that the bilateral exchange rate movement is solely determined by the difference between the two countries' marginal utility growth when the markets are complete. Specifically, when the home households have a higher marginal utility growth  $m_{t+1}$ , which usually indicates a recession in the home country, the
-
-home currency becomes stronger in real terms. Intuitively, this is when the home households become less willing to hold the foreign currency.
-
-Moreover, the expected excess return on the home currency can be expressed as
-
-$$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right) = \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right) - \frac{1}{2} v a r_{t} \left(m_{t + 1}\right), \tag {1.17}
-$$
-
-which implies that the home currency's risk premium is decreasing in home SDF volatility and increasing in foreign SDF volatility. As a result, to generate reasonable variations in either conditional or unconditional currency expected returns, the variances of the SDFs play a central role.
-
-Figure 1.3 plots the equilibrium real exchange rate  $e_t$ , which measures the strength of the home currency, as we vary the home endowment  $y_t$ . In states with a low home endowment, the home goods are relatively scarce, leading to stronger terms of trade and a real appreciation of the home currency. This expenditure switching effect arises in a large class of international models, which describes how supply shocks affect the exchange rate determination. As we will see in later sections, this supply effect may be offset by demand shocks.
-
-Another way to understand this relationship is via international risk-sharing: because of the home bias in consumption, the home households' consumption loads more on the home endowment. When the home endowment is low, the home households' marginal utility is higher than the foreign households', and, through the optimal international risk-sharing terms described by Eq. (1.16), requires a real appreciation of home currency to equilibrate their demand for financial assets.
-
-# 1.C.2 Special Case: Log Utility
-
-We consider a special case in which home and foreign households have the log utility, i.e.  $u(c) = \log (c)$ . In this case, the parameter  $k$  is a constant,
-
-$$
-k_{t} = k = \frac{\pi}{1 - \pi},
-$$
-
-and Proposition 1.3 implies a simple rule for consumption allocations:
-
-$$
-c_{H, t} = \frac{\alpha \pi}{\alpha \pi + (1 - \alpha) (1 - \pi)} y_{t}, \quad c_{H, t}^{*} = \frac{(1 - \alpha) (1 - \pi)}{\alpha \pi + (1 - \alpha) (1 - \pi)} y_{t},
-$$
-
-$$
-c_{F, t} = \frac{(1 - \alpha) \pi}{(1 - \alpha) \pi + \alpha (1 - \pi)} y_{t}^{*}, \qquad c_{F, t}^{*} = \frac{\alpha (1 - \pi)}{(1 - \alpha) \pi + \alpha (1 - \pi)} y_{t}^{*}.
-$$
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/966a235ed2c2ccdd6011a9b8ce7a64282ec95f2c66648adbb358e4834579f1b3.jpg)  
-Figure 1.3: Equilibrium Exchange Rate.
-
-This allocation rule has an intuitive interpretation: home and foreign households agree to split the endowments according to their Pareto weights  $\pi$  and  $1 - \pi$  and their home bias  $\alpha$ . If the home households have a higher Pareto weight (i.e.,  $\pi > 0.5$ ), then, the home households always receive more allocations. Moreover, regardless of the Pareto weights, home households always receive more home goods, and foreign households always receive more foreign goods due to their home bias in consumption (i.e.,  $\alpha > 0.5$ ). As such, while this allocation rule allows the households in both countries to share their risks internationally,[2] they may still have different exposures to the home and foreign endowment shocks due to their home bias in consumption.
-
-Since the markets are complete, this allocation can be implemented by a number of financial contracts. For example, the home households hold  $\frac{\alpha\pi}{\alpha\pi + (1 - \alpha)(1 - \pi)}$  unit of the home endowment claim and  $\frac{(1 - \alpha)\pi}{(1 - \alpha)\pi + \alpha(1 - \pi)}$  unit of the foreign endowment claim, and the foreign households hold the remaining fractions. In the symmetric case of  $\pi = 1/2$  and  $\alpha > 1/2$ , the home households hold more than half of the home endowment claim, and less than half of the foreign endowment claim. Therefore, home bias in consumption preference begets home bias in international portfolios. We will discuss the implementation of the complete-market allocation and the corresponding portfolio shares in an example with richer preferences in Section 7.A.
-
-Given these equilibrium consumption allocations, the home and
-
-2 While this statement is true in general, in this case of log preference, the terms-of-trade responses alone provide perfect insurance against output shocks. As a result, the allocation under financial autarky is not far worse off. See [Cole and Obstfeld, 1991] for a detailed discussion.
-
-foreign SDFs can be expressed as
-
-$$
-m_{t + 1} = \log \delta - \Delta \log c_{t + 1} = \log \delta - \alpha \Delta \log y_{t + 1} - (1 - \alpha) \Delta \log y_{t + 1}^{*},
-$$
-
-$$
-m_{t + 1}^{*} = \log \delta - \Delta \log c_{t + 1}^{*} = \log \delta - (1 - \alpha) \Delta \log y_{t + 1} - \alpha \Delta \log y_{t + 1}^{*},
-$$
-
-and the exchange rate movement is driven by the fundamental shocks to the endowments:
-
-$$
-\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} = (2 \alpha - 1) (\Delta \log y_{t + 1}^{*} - \Delta \log y_{t + 1}).
-$$
+#### 1.C.1 Implied Exchange Rate Dynamics
 
-This exchange rate expression again highlights the result in Figure 1.3. Under the social planner's optimal allocation scheme, the home households' allocation is exposed to both home and foreign endowment shocks, with a higher exposure to the home endowment shock. As a result, a negative home endowment shock raises the home households' marginal utility relative to the foreign households', and leads to a real appreciation of the home currency.
+#### 1.C.2 Special Case: Log Utility
 
-# 1.D Asset Market and Goods Market Views of Exchange Rates
+#### 1.D Asset Market and Goods Market Views of Exchange Rates
 
 In this section, we re-examine the two sets of equilibrium conditions that characterize the exchange rate.
 
@@ -996,7 +228,7 @@ In this section, we re-examine the two sets of equilibrium conditions that chara
 First, the Euler equations from the intertemporal solutions, reproduced below,
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right], \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right], \\ \end{array}
 $$
 
 impose restrictions on the exchange rate dynamics. By relating the exchange rate movement to the SDFs and interest rates, they represent the asset market view of exchange rates. As we discussed in Section 1.B, these restrictions also characterize the exchange rate level and the currency expected return.
@@ -1111,7 +343,7 @@ $^{2}$  https://www.gsb.stanford.edu/faculty-research/faculty/conferences/big-da
 If we take an unconditional variance on both the left- and right-hand sides of Eq. (1.16), we obtain
 
 $$
-v a r (\Delta e_{t + 1}) = v a r (m_{t + 1} - m_{t + 1}^{*}) = v a r (m_{t + 1}) + v a r (m_{t + 1}^{*}) - 2 c o v (m_{t + 1}, m_{t + 1}^{*}),
+var (\Delta e_{t + 1}) = var (m_{t + 1} - m_{t + 1}^{*}) = var (m_{t + 1}) + var (m_{t + 1}^{*}) - 2 cov (m_{t + 1}, m_{t + 1}^{*}),
 $$
 
 which states that the exchange rate variance should be equal to the variance of the SDF differential, which can be decomposed to the sum of SDF variances minus two times the SDF covariance.
@@ -1119,7 +351,7 @@ which states that the exchange rate variance should be equal to the variance of 
 By the Hansen and Jagannathan [1991] bound, we can derive a lower bound on the SDF volatility based on the Sharpe ratio of any risky asset with return  $\tilde{r}$ :
 
 $$
-\operatorname{st d} \left(m_{t + 1}\right) \geq \exp \left(- r^{f}\right) \left| \frac{\mathbb {E} \left[ \tilde {r} - r^{f} \right]}{\operatorname{st d} (\tilde {r})} \right|.
+\operatorname{st d} \left(m_{t + 1}\right) \geq \exp \left(- r^{f}\right) \left| \frac{\mathbb{E} \left[ \tilde {r} - r^{f} \right]}{\operatorname{st d} (\tilde {r})} \right|.
 $$
 
 For example, if the stock market has a Sharpe ratio of 0.6 per annum, then, the SDF's volatility must be at least roughly  $60\%$  per annum. There may be other trading strategies that produce higher Sharpe ratios, implying an even higher SDF volatility.
@@ -1157,7 +389,7 @@ Attempts to theoretically resolve this disconnect between exchange rates and eco
 Besides exchange rate volatility and correlation with economic fundamentals, currency returns also have several salient patterns. Consider first the unconditional expected returns in the cross-section of currencies. According to the derivation in Section 1.B,
 
 $$
-\mathbb {E} [ r x_{t + 1} ] = \mathbb {E} [ r p_{t} ] \stackrel {\mathrm{de f}} {=} \mathbb {E} \left[ - c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) \right].
+\mathbb{E} [ r x_{t + 1} ] = \mathbb{E} [ r p_{t} ] \stackrel {\mathrm{de f}} {=} \mathbb{E} \left[ - cov_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} var_{t} (\Delta e_{t + 1}) \right].
 $$
 
 Among developed countries, some currencies like Australian dollar and New Zealand dollar have persistently high excess returns
@@ -1199,13 +431,13 @@ $$
 and the slope coefficient  $\beta$  tends to be positive. This result is often framed as the violation of the uncovered interest rate parity (UIP), which holds when the interest rate differential does not predict the currency return:
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1}^{i} ] = 0 \cdot (r_{t}^{i} - r_{t}^{\$}).
+\mathbb{E}_{t} [ r x_{t + 1}^{i} ] = 0 \cdot (r_{t}^{i} - r_{t}^{\$}).
 $$
 
 Equivalently, since the expected excess return is equal to the exchange rate movement plus the interest rate differential, the UIP also implies that the interest rate differential will be exactly offset by the exchange rate movement:
 
 $$
-\mathbb {E}_{t} \bigl [ \Delta e_{t + 1}^{i} \bigr ] = - 1 \cdot \bigl (r_{t}^{i} - r_{t}^{\$} \bigr).
+\mathbb{E}_{t} \bigl [ \Delta e_{t + 1}^{i} \bigr ] = - 1 \cdot \bigl (r_{t}^{i} - r_{t}^{\$} \bigr).
 $$
 
 As such, it is equivalent to test whether the interest rate differential predicts future exchange rate movement or whether it predicts future currency excess return.
@@ -1229,7 +461,7 @@ $$
 The slope coefficient  $\beta^i$  measures the currency's exposure to the factor. To the extent that the factor proxies for systematic risks, investors require a higher compensation if the currency has a higher risk exposure. Then, we expect to find a positive association between the currency's expected excess return and its factor loading:
 
 $$
-\mathbb {E} [ r x_{t + 1}^{i} ] \propto \beta^{i}.
+\mathbb{E} [ r x_{t + 1}^{i} ] \propto \beta^{i}.
 $$
 
 This alignment of risk exposures and risk premia, central to all asset pricing, is also confirmed in the currency market.
@@ -1386,13 +618,13 @@ Part II
 - We first investigate the role of currency risk premium  $rp_{t}$ , which drives both the currency expected return:
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1} ] = r p_{t} \stackrel {\mathrm{de f}} {=} - c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}),
+\mathbb{E}_{t} [ r x_{t + 1} ] = r p_{t} \stackrel {\mathrm{de f}} {=} - cov_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} var_{t} (\Delta e_{t + 1}),
 $$
 
 and the exchange rate level:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r p_{t + j} \right] + \bar {e}.
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r p_{t + j} \right] + \bar {e}.
 $$
 
 - The currency risk premium is related to the currency's loadings on the risk factors, which give rise to a factor structure in currency returns:
@@ -1402,7 +634,7 @@ $$
 $$
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1}^{i} \right] = \beta_{t}^{i} \mathbb {E}_{t} \left[ f_{t + 1} \right].
+\mathbb{E}_{t} \left[ r x_{t + 1}^{i} \right] = \beta_{t}^{i} \mathbb{E}_{t} \left[ f_{t + 1} \right].
 $$
 
 We first adopt a no-arbitrage approach to organize the currency risk premium and the corresponding factor structure.
@@ -1423,13 +655,13 @@ In this chapter, we consider specific models that account for the time-series an
 Before we start, it is useful to understand what happens in the absence of the risk premium. Then, Eq. (1.13) implies that the exchange rate movement is determined entirely by the current interest rate differential,
 
 $$
-\mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] = r_{t}^{*} - r_{t},
+\mathbb{E}_{t} \left[ \Delta e_{t + 1} \right] = r_{t}^{*} - r_{t},
 $$
 
 and, equivalently, the expected currency excess return is zero,
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1} ] = 0.
+\mathbb{E}_{t} [ r x_{t + 1} ] = 0.
 $$
 
 These conditions are known as the Uncovered Interest Rate Parity. As we discussed in Section 2, these predictions are rejected by the data. Instead, currency expected returns have large variations both in the time series and in the cross-section.
@@ -1437,7 +669,7 @@ These conditions are known as the Uncovered Interest Rate Parity. As we discusse
 Alvarez, Atkeson, and Kehoe [2007] lay out a related calculation. Eq. (1.13) implies that the interest rate differential is equal to the expected exchange rate movement plus the risk premium term:
 
 $$
-r_{t} - r_{t}^{*} = \mathbb {E}_{t} [ - \Delta e_{t + 1} ] + r p_{t},
+r_{t} - r_{t}^{*} = \mathbb{E}_{t} [ - \Delta e_{t + 1} ] + r p_{t},
 $$
 
 Empirically, there are large variations in the interest rate differential, but the exchange rate appears to be a near random-walk process, which means the exchange rate movement is largely unexpected. As a result, the risk premium term  $r p_{t}$  must have significant variations. This means, to the extent that monetary policies drive a significant fraction of the variations in the interest rates, it must operate not through the first-order moments (i.e., the expected exchange rate movement), but through the second-order moments (i.e., the risk premium).
@@ -1491,13 +723,13 @@ $$
 First, the innovation in the currency excess return is given by
 
 $$
-r x_{t + 1}^{i / \S} - \mathbb {E}_{t} [ r x_{t + 1}^{i / \S} ] = - \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \sqrt{\gamma} \left(\sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right).
+r x_{t + 1}^{i / \S} - \mathbb{E}_{t} [ r x_{t + 1}^{i / \S} ] = - \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \sqrt{\gamma} \left(\sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right).
 $$
 
 Since the currency excess return is equal to the exchange rate movement plus the interest rate differential, which is known ex-ante, the innovation in the currency excess return is also equal to the innovation in the exchange rate movement:
 
 $$
-r x_{t + 1}^{i / \S} - \mathbb {E}_{t} [ r x_{t + 1}^{i / \S} ] = \Delta e_{t + 1}^{i / \S} - \mathbb {E}_{t} [ \Delta e_{t + 1}^{i / \S} ].
+r x_{t + 1}^{i / \S} - \mathbb{E}_{t} [ r x_{t + 1}^{i / \S} ] = \Delta e_{t + 1}^{i / \S} - \mathbb{E}_{t} [ \Delta e_{t + 1}^{i / \S} ].
 $$
 
 Thus, the conditional variance of the exchange rate movement in log can be expressed as
@@ -1511,7 +743,7 @@ which shows that the variance  $z_{t}^{w}$  of the global shock and the variance
 Next, we consider the currency risk premium. Plugging the SDF dynamics into Eq. (1.17), we obtain
 
 $$
-\begin{array}{l} r p_{t}^{i / \S} \stackrel {\text{de f}} {=} \mathbb {E}_{t} \left[ r x_{t + 1}^{i / \S} \right] = \frac{1}{2} v a r_{t} \left(m_{t + 1}^{\S}\right) - \frac{1}{2} v a r_{t} \left(m_{t + 1}^{i}\right) \tag {3.4} \\ = \frac{1}{2} \left(\delta^{\mathrm{S}} - \delta^{i}\right) z_{t}^{w} + \frac{1}{2} \gamma \left(z_{t}^{\mathrm{S}} - z_{t}^{i}\right). \\ \end{array}
+\begin{array}{l} r p_{t}^{i / \S} \stackrel {\text{de f}} {=} \mathbb{E}_{t} \left[ r x_{t + 1}^{i / \S} \right] = \frac{1}{2} var_{t} \left(m_{t + 1}^{\S}\right) - \frac{1}{2} var_{t} \left(m_{t + 1}^{i}\right) \tag {3.4} \\ = \frac{1}{2} \left(\delta^{\mathrm{S}} - \delta^{i}\right) z_{t}^{w} + \frac{1}{2} \gamma \left(z_{t}^{\mathrm{S}} - z_{t}^{i}\right). \\ \end{array}
 $$
 
 The first term is easy to interpret: if two countries have different loadings on the global shock, i.e.,  $|\delta^{\mathbb{S}} - \delta^{i}| > 0$ , then, their bilateral exchange rate movement is exposed to the global shock and requires a higher magnitude of risk premium.
@@ -1521,13 +753,13 @@ The second term is increasing in the difference between the volatilities of the 
 To answer this question, let us first consider the currency risk premium in level:
 
 $$
-\mathbb {E}_{t} \left[ \exp \left(r x_{t + 1}^{i / \S}\right) \right] \stackrel {\text{de f}} {=} \mathbb {E}_{t} \left[ 1 + \frac{\exp \left(e_{t + 1}^{i / \S} + r_{t}^{i}\right) - \exp \left(r_{t}^{\S}\right)}{\exp \left(r_{t}^{\S}\right)} \right],
+\mathbb{E}_{t} \left[ \exp \left(r x_{t + 1}^{i / \S}\right) \right] \stackrel {\text{de f}} {=} \mathbb{E}_{t} \left[ 1 + \frac{\exp \left(e_{t + 1}^{i / \S} + r_{t}^{i}\right) - \exp \left(r_{t}^{\S}\right)}{\exp \left(r_{t}^{\S}\right)} \right],
 $$
 
 which captures the expected profit of a trading strategy that takes a long position on the foreign bond and a short position on the U.S. bond. By Eq. (1.11),
 
 $$
-\begin{array}{l} \mathbb {E}_{t} [ \exp (r x_{t + 1}^{i / \$}) ] = \exp (- c o v_{t} (m_{t + 1}^{\$}, \Delta e_{t + 1}^{i / \$})) \\ = \exp \left(\sqrt{\delta^{\S}} \left(\sqrt{\delta^{\S}} - \sqrt{\bar {\delta}^{i}}\right) z_{t}^{w} + \gamma z_{t}^{\S}\right), \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} [ \exp (r x_{t + 1}^{i / \$}) ] = \exp (- cov_{t} (m_{t + 1}^{\$}, \Delta e_{t + 1}^{i / \$})) \\ = \exp \left(\sqrt{\delta^{\S}} \left(\sqrt{\delta^{\S}} - \sqrt{\bar {\delta}^{i}}\right) z_{t}^{w} + \gamma z_{t}^{\S}\right), \\ \end{array}
 $$
 
 which does not contain the  $z_{t}^{i}$  term. The term  $\sqrt{\delta^{\mathbb{S}}} (\sqrt{\delta^{\mathbb{S}}} - \sqrt{\delta^{i}})z_{t}^{w}$  comes from the U.S. SDF's and the exchange rate movement's loadings on the global shock  $\varepsilon_{t + 1}^{w}$ , and the term  $\gamma z_{t}^{\mathbb{S}}$  comes from their loadings on the U.S.-specific shock  $\varepsilon_{t + 1}^{\mathbb{S}}$ . As the global shock and the U.S.-specific shock both affect the U.S. SDF, they are priced risk factors from the U.S. perspective. $^{1}$
@@ -1535,19 +767,19 @@ which does not contain the  $z_{t}^{i}$  term. The term  $\sqrt{\delta^{\mathbb{
 Now, let us revisit the currency risk premium in log, which is related to the levels by
 
 $$
-r p_{t}^{i / \S} = \log \mathbb {E}_{t} [ \exp (r x_{t + 1}^{i / \S}) ] - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}^{i / \S}).
+r p_{t}^{i / \S} = \log \mathbb{E}_{t} [ \exp (r x_{t + 1}^{i / \S}) ] - \frac{1}{2} var_{t} (\Delta e_{t + 1}^{i / \S}).
 $$
 
 Similarly, if we take the foreign perspective,
 
 $$
-r p_{t}^{\$ / i} = \log \mathbb {E}_{t} [ \exp (r x_{t + 1}^{\$ / i}) ] - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}^{i / \$}).
+r p_{t}^{\$ / i} = \log \mathbb{E}_{t} [ \exp (r x_{t + 1}^{\$ / i}) ] - \frac{1}{2} var_{t} (\Delta e_{t + 1}^{i / \$}).
 $$
 
 Combine these two expressions and use the definition that implies the log risk premia are symmetric, i.e.,  $r p_{t}^{i / \mathbb{S}} = -r p_{t}^{\mathbb{S} / i}$ . We have
 
 $$
-r p_{t}^{i / \S} = \frac{1}{2} (\log \mathbb {E}_{t} [ \exp (r x_{t + 1}^{i / \S}) ] - \log \mathbb {E}_{t} [ \exp (r x_{t + 1}^{\S / i}) ]).
+r p_{t}^{i / \S} = \frac{1}{2} (\log \mathbb{E}_{t} [ \exp (r x_{t + 1}^{i / \S}) ] - \log \mathbb{E}_{t} [ \exp (r x_{t + 1}^{\S / i}) ]).
 $$
 
 Therefore, the log risk premium can be thought of as an average between the level risk premia from the U.S. and the foreign perspectives, which care about the U.S.-specific and the foreign-specific risks, respectively.
@@ -1555,7 +787,7 @@ Therefore, the log risk premium can be thought of as an average between the leve
 It is also worth noting that the currency risk premia in level are not symmetric:
 
 $$
-\log \mathbb {E}_{t} [ \exp (r x_{t + 1}^{i / \mathbb {S}}) ] \neq - \log \mathbb {E}_{t} [ \exp (r x_{t + 1}^{\mathbb {S} / i}) ],
+\log \mathbb{E}_{t} [ \exp (r x_{t + 1}^{i / \mathbb {S}}) ] \neq - \log \mathbb{E}_{t} [ \exp (r x_{t + 1}^{\mathbb {S} / i}) ],
 $$
 
 which leads to the following result commonly known as the Siegel's paradox. For example, assume  $r_t^{\S} = r_t^i = 0$  and  $\mathbb{E}_t[\Delta e_{t+1}^{i/\S}] = 0$ . Then, the currency risk premium in log is zero:  $rp_t^{i/\S} = -rp_t^{\S/i} = 0$ . However, given that the exchange rate is volatile, Jensen's inequality
@@ -1565,7 +797,7 @@ That said, the bilateral exchange rates between different foreign currencies and
 implies that the expected currency excess return in level is above 1 from both the U.S. and the foreign perspectives:
 
 $$
-\mathbb {E}_{t} [ \exp (r x_{t + 1}^{i / \S}) ] > \exp (\mathbb {E}_{t} [ r x_{t + 1}^{i / \S} ]) = 1 \text{an d} \mathbb {E}_{t} [ \exp (r x_{t + 1}^{\S / i}) ] > \exp (\mathbb {E}_{t} [ r x_{t + 1}^{\S / i} ]) = 1.
+\mathbb{E}_{t} [ \exp (r x_{t + 1}^{i / \S}) ] > \exp (\mathbb{E}_{t} [ r x_{t + 1}^{i / \S} ]) = 1 \text{an d} \mathbb{E}_{t} [ \exp (r x_{t + 1}^{\S / i}) ] > \exp (\mathbb{E}_{t} [ r x_{t + 1}^{\S / i} ]) = 1.
 $$
 
 Because of this property, we use the currency risk premium in log for most parts of this paper.
@@ -1583,13 +815,13 @@ This no-arbitrage framework also provides a simple characterization of the inter
 duced below,
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{i} + r_{t}^{i}) \right],
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{i} + r_{t}^{i}) \right],
 $$
 
 and under joint normality, the interest rate in country  $i$  can be expressed as
 
 $$
-r_{t}^{i} = - \mathbb {E}_{t} [ m_{t + 1}^{i} ] - \frac{1}{2} v a r_{t} (m_{t + 1}^{i}) = \mu_{t}^{i} - \frac{1}{2} \delta^{i} z_{t}^{w} - \frac{1}{2} \gamma z_{t}^{i}.
+r_{t}^{i} = - \mathbb{E}_{t} [ m_{t + 1}^{i} ] - \frac{1}{2} var_{t} (m_{t + 1}^{i}) = \mu_{t}^{i} - \frac{1}{2} \delta^{i} z_{t}^{w} - \frac{1}{2} \gamma z_{t}^{i}.
 $$
 
 In this expression, the quadratic terms  $-\frac{1}{2}\delta^i z_t^w -\frac{1}{2}\gamma z_t^i$  are decreasing in the volatility of the SDF. In other words, when the households' marginal utility growth is more volatile, they will impute a higher value to the risk-free asset and accept a lower risk-free interest rate. This effect is usually referred to as the precautionary saving motive.
@@ -1637,7 +869,7 @@ where  $N_{H}$  and  $N_{L}$  denote the number of currencies in each portfolio.
 This carry trade factor has three notable properties. First, the innovation to the carry trade factor is a scaled version of the global shock:
 
 $$
-h m l_{t + 1} - \mathbb {E}_{t} \left[ h m l_{t + 1} \right] = \left(\overline {{\sqrt{\delta_{t}^{L}}}} - \overline {{\sqrt{\delta_{t}^{H}}}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w}.
+h m l_{t + 1} - \mathbb{E}_{t} \left[ h m l_{t + 1} \right] = \left(\overline {{\sqrt{\delta_{t}^{L}}}} - \overline {{\sqrt{\delta_{t}^{H}}}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w}.
 $$
 
 If we assume that the idiosyncratic volatility  $z_{t}^{i}$  is independent across countries and has the same time-series dynamics (for example, AR(1)), then, Eq. (3.5) implies that higher interest rate currencies tend to have lower  $\delta^{i}$ , and vice versa. Then,  $\sqrt{\delta_t^L} - \sqrt{\delta_t^H} > 0$ , which implies that the carry trade factor  $hml_{t+1}$  has a positive loading on the global shock.
@@ -1645,7 +877,7 @@ If we assume that the idiosyncratic volatility  $z_{t}^{i}$  is independent acro
 Second, by being exposed to the global shock, the carry trade factor earns a positive risk premium on average:
 
 $$
-\mathbb {E}_{t} \left[ h m l_{t + 1} \right] = \frac{1}{2} \left(\overline {{\delta_{t}^{L}}} - \overline {{\delta_{t}^{H}}}\right) z_{t}^{w} > 0.
+\mathbb{E}_{t} \left[ h m l_{t + 1} \right] = \frac{1}{2} \left(\overline {{\delta_{t}^{L}}} - \overline {{\delta_{t}^{H}}}\right) z_{t}^{w} > 0.
 $$
 
 In other words, the currency trading strategy that buys high interest rate currencies and sells low interest rate currencies earns a positive risk premium on average.
@@ -1659,7 +891,7 @@ $$
 with  $\beta_t^i$  defined as
 
 $$
-\beta_{t}^{i} \stackrel {\text{de f}} {=} \frac{\operatorname{co v}_{t} (r x_{t + 1}^{i / \mathbb {S}}, h m l_{t + 1})}{v a r_{t} (h m l_{t + 1})}.
+\beta_{t}^{i} \stackrel {\text{de f}} {=} \frac{\operatorname{co v}_{t} (r x_{t + 1}^{i / \mathbb {S}}, h m l_{t + 1})}{var_{t} (h m l_{t + 1})}.
 $$
 
 We have the following result:
@@ -1681,7 +913,7 @@ $$
 and that the risk exposure determines the asset's risk premium, i.e.,
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1}^{i} ] = \beta_{t}^{i} \cdot \mathbb {E}_{t} [ f_{t + 1} ],
+\mathbb{E}_{t} [ r x_{t + 1}^{i} ] = \beta_{t}^{i} \cdot \mathbb{E}_{t} [ f_{t + 1} ],
 $$
 
 assuming that the factors are tradable. In the context of the currency market, the carry trade captures a risk factor:  $f_{t + 1} = hml_{t + 1}$ . The carry trade beta  $\beta_t^i$  captures the risk exposure of currency  $i$ , and it relates to the currency's risk premium via Eq. (3.4), which is increasing in  $\beta_t^i$ .
@@ -1715,7 +947,7 @@ $$
 Proposition 3.2. The slope coefficient from the regression of the currency excess return on the interest rate differential is given by
 
 $$
-\varphi^{i} = \frac{\frac{1}{2} \gamma (\frac{1}{2} \gamma - \chi) (v a r (z_{t}^{i}) + v a r (z_{t}^{\$})) + \frac{1}{4} (\delta^{\$} - \delta^{i})^{2} v a r (z_{t}^{w})}{(\chi - \frac{1}{2} \gamma)^{2} (v a r (z_{t}^{i}) + v a r (z_{t}^{\$})) + \frac{1}{4} (\delta^{\$} - \delta^{i})^{2} v a r (z_{t}^{w})},
+\varphi^{i} = \frac{\frac{1}{2} \gamma (\frac{1}{2} \gamma - \chi) (var (z_{t}^{i}) + var (z_{t}^{\$})) + \frac{1}{4} (\delta^{\$} - \delta^{i})^{2} var (z_{t}^{w})}{(\chi - \frac{1}{2} \gamma)^{2} (var (z_{t}^{i}) + var (z_{t}^{\$})) + \frac{1}{4} (\delta^{\$} - \delta^{i})^{2} var (z_{t}^{w})},
 $$
 
 which is positive if  $\frac{1}{2}\gamma -\chi >0$
@@ -1731,7 +963,7 @@ $$
 Its slope coefficient is given by
 
 $$
-\psi^{i} \stackrel {{\text{de f}}} {{=}} \frac{c o v (\Delta e_{t + 1}^{i / \S} , r_{t}^{i} - r_{t}^{\S})}{v a r (r_{t}^{i} - r_{t}^{\S})} = \frac{\chi (\frac{1}{2} \gamma - \chi) (v a r (z_{t}^{i}) + v a r (z_{t}^{\S}))}{(\chi - \frac{1}{2} \gamma)^{2} (v a r (z_{t}^{i}) + v a r (z_{t}^{\S})) + \frac{1}{4} (\delta^{\S} - \delta^{i})^{2} v a r (z_{t}^{w})},
+\psi^{i} \stackrel {{\text{de f}}} {{=}} \frac{cov (\Delta e_{t + 1}^{i / \S} , r_{t}^{i} - r_{t}^{\S})}{var (r_{t}^{i} - r_{t}^{\S})} = \frac{\chi (\frac{1}{2} \gamma - \chi) (var (z_{t}^{i}) + var (z_{t}^{\S}))}{(\chi - \frac{1}{2} \gamma)^{2} (var (z_{t}^{i}) + var (z_{t}^{\S})) + \frac{1}{4} (\delta^{\S} - \delta^{i})^{2} var (z_{t}^{w})},
 $$
 
 which is also positive if  $\frac{1}{2}\gamma - \chi > 0$  and  $\chi > 0$ . In other words, when  $\chi > 0$ , the interest rate differential does not fully reflect the currency risk premium that is driven by the idiosyncratic SDF volatility in this model, so that the expected exchange rate movement also co-moves with the risk premium.
@@ -1745,7 +977,7 @@ $$
 for  $0 < \zeta < 1/2$ . In this case, while the currency risk premium loads on  $\frac{1}{2}\left(\delta^{\S} - \delta^{i}\right)$  times the global shock's volatility  $z_{t}^{w}$ , i.e.,
 
 $$
-r p_{t}^{i / \S} \stackrel {\mathrm{de f}} {=} \mathbb {E}_{t} \left[ r x_{t + 1}^{i / \S} \right] = \frac{1}{2} \left(\delta^{\S} - \delta^{i}\right) z_{t}^{w} + \frac{1}{2} \gamma \left(z_{t}^{\S} - z_{t}^{i}\right),
+r p_{t}^{i / \S} \stackrel {\mathrm{de f}} {=} \mathbb{E}_{t} \left[ r x_{t + 1}^{i / \S} \right] = \frac{1}{2} \left(\delta^{\S} - \delta^{i}\right) z_{t}^{w} + \frac{1}{2} \gamma \left(z_{t}^{\S} - z_{t}^{i}\right),
 $$
 
 the interest rate differential only loads on (ζ - 1/2) (δi - δ$) times the global shock's volatility ztw:
@@ -1759,7 +991,7 @@ which does not fully reflect this global component of the currency risk premium.
 As a result, the expected exchange rate movement also loads on the global SDF volatility  $z_{t}^{w}$ . This might be a more realistic specification since the global SDF volatility also induces exchange rate predictability by the interest rate differential:
 
 $$
-\psi^{i} = \frac{c o v (\Delta e_{t + 1}^{i / \S} , r_{t}^{i} - r_{t}^{\S})}{v a r (r_{t}^{i} - r_{t}^{\S})} = \frac{\chi \left(\frac{1}{2} \gamma - \chi\right) (v a r (z_{t}^{i}) + v a r (z_{t}^{\S})) + \zeta \left(\frac{1}{2} - \zeta\right) (\delta^{i} - \delta^{\S})^{2} v a r (z_{t}^{w})}{(\chi - \frac{1}{2} \gamma)^{2} (v a r (z_{t}^{i}) + v a r (z_{t}^{\S})) + (\zeta - \frac{1}{2})^{2} (\delta^{i} - \delta^{\S})^{2} v a r (z_{t}^{w})} > 0.
+\psi^{i} = \frac{cov (\Delta e_{t + 1}^{i / \S} , r_{t}^{i} - r_{t}^{\S})}{var (r_{t}^{i} - r_{t}^{\S})} = \frac{\chi \left(\frac{1}{2} \gamma - \chi\right) (var (z_{t}^{i}) + var (z_{t}^{\S})) + \zeta \left(\frac{1}{2} - \zeta\right) (\delta^{i} - \delta^{\S})^{2} var (z_{t}^{w})}{(\chi - \frac{1}{2} \gamma)^{2} (var (z_{t}^{i}) + var (z_{t}^{\S})) + (\zeta - \frac{1}{2})^{2} (\delta^{i} - \delta^{\S})^{2} var (z_{t}^{w})} > 0.
 $$
 
 # 3.A.5 Currency Base Factor
@@ -1787,7 +1019,7 @@ which measures currency  $i$ 's exposures to the global shock  $\varepsilon_{t+1
 For example, the conditional and the unconditional variances of the currency base factor can be expressed as
 
 $$
-\begin{array}{l} v a r_{t} (\Delta \bar {e}_{t + 1}^{i}) = \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} z_{t}^{w} + \gamma z_{t}^{i}, \\ v a r (\Delta \overline {{e}}_{t + 1}^{i}) = \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} \theta^{w} + \gamma \theta , \\ \end{array}
+\begin{array}{l} var_{t} (\Delta \bar {e}_{t + 1}^{i}) = \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} z_{t}^{w} + \gamma z_{t}^{i}, \\ var (\Delta \overline {{e}}_{t + 1}^{i}) = \chi^{2} var (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} \theta^{w} + \gamma \theta , \\ \end{array}
 $$
 
 which uncovers this currency's idiosyncratic variance  $z_{t}^{i}$  and its exposure to the global shock  $\delta^i$ .
@@ -1855,7 +1087,7 @@ The no-arbitrage approach offers us an accounting framework to break down the va
 There are two countries, home and foreign. The households have the Epstein and Zin [1989] recursive preferences. For the home households,
 
 $$
-v_{t} = \left\{(1 - \delta) \left(c_{t}\right)^{1 - \frac{1}{\psi}} + \delta \mathbb {E}_{t} \left[ \left(v_{t + 1}\right)^{1 - \gamma} \right]^{\frac{1 - \frac{1}{\psi}}{1 - \gamma}} \right\}^{\frac{1}{1 - \frac{1}{\psi}}}, \tag {3.6}
+v_{t} = \left\{(1 - \delta) \left(c_{t}\right)^{1 - \frac{1}{\psi}} + \delta \mathbb{E}_{t} \left[ \left(v_{t + 1}\right)^{1 - \gamma} \right]^{\frac{1 - \frac{1}{\psi}}{1 - \gamma}} \right\}^{\frac{1}{1 - \frac{1}{\psi}}}, \tag {3.6}
 $$
 
 where  $\gamma$  is the coefficient of risk aversion and  $\psi$  is the intertemporal elasticity of substitution, and  $\delta$  is the coefficient of time-preference.  $C_t$  is consumption at time  $t$ . It is convenient to define  $\theta = \frac{1 - \gamma}{1 - \frac{1}{\psi}}$  and
@@ -1913,7 +1145,7 @@ $$
 and the log SDF can be expressed as
 
 $$
-\begin{array}{l} m_{t + 1} - \mathbb {E}_{t} [ m_{t + 1} ] = - \gamma \sigma_{t} \varepsilon_{g, t + 1} + (\theta - 1) W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + (\theta - 1) W_{\sigma} \omega \varepsilon_{w, t + 1}, \\ \mathbb {E}_{t} [ m_{t + 1} ] = \theta \log \delta + (\theta - 1) r_{0}^{c} - \frac{\theta}{\psi} \mu_{g} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t} + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{2} - \sigma^{2}). \\ \end{array}
+\begin{array}{l} m_{t + 1} - \mathbb{E}_{t} [ m_{t + 1} ] = - \gamma \sigma_{t} \varepsilon_{g, t + 1} + (\theta - 1) W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + (\theta - 1) W_{\sigma} \omega \varepsilon_{w, t + 1}, \\ \mathbb{E}_{t} [ m_{t + 1} ] = \theta \log \delta + (\theta - 1) r_{0}^{c} - \frac{\theta}{\psi} \mu_{g} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t} + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{2} - \sigma^{2}). \\ \end{array}
 $$
 
 The proof is presented in Appendix A.6. To interpret this result, we provide a simple calibration of the model following Bansal and Shaliastovich [2007]. The parameter values are reported in Table 3.1. The only modification is that we assume the correlation between long-run and short-run consumption shocks, i.e.,  $cov_{t}(\varepsilon_{g,t + 1},\varepsilon_{x,t + 1}) = \nu$ , to be negative.
@@ -1955,7 +1187,7 @@ m_{t + 1} = \theta \log \delta - \frac{\theta}{\psi} \Delta c_{t + 1} + (\theta 
 $$
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + r_{t + 1}^{c}) ],
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1} + r_{t + 1}^{c}) ],
 $$
 
 and 3 for the Foreign country in period  $t$
@@ -1969,7 +1201,7 @@ m_{t + 1}^{*} = \theta \log \delta - \frac{\theta}{\psi} \Delta c_{t + 1}^{*} + 
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t + 1}^{c *}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t + 1}^{c *}\right) \right],
 $$
 
 Moreover, we assume that the markets are complete, so we have one more equation that relates the exchange rate movement to the SDFs:
@@ -1991,19 +1223,19 @@ $$
 the currency risk premium is
 
 $$
-\begin{array}{l} r p_{t} \stackrel {{d e f}} {{=}} \mathbb {E}_{t} [ r x_{t + 1} ] = \frac{1}{2} (v a r_{t} (m_{t + 1}^{*}) - v a r_{t} (m_{t + 1})) \\ = \frac{1}{2} \left[ \gamma^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \right] (\sigma_{t}^{* 2} - \sigma_{t}^{2}), \\ \end{array}
+\begin{array}{l} r p_{t} \stackrel {{d e f}} {{=}} \mathbb{E}_{t} [ r x_{t + 1} ] = \frac{1}{2} (var_{t} (m_{t + 1}^{*}) - var_{t} (m_{t + 1})) \\ = \frac{1}{2} \left[ \gamma^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \right] (\sigma_{t}^{* 2} - \sigma_{t}^{2}), \\ \end{array}
 $$
 
 the interest rate differential is
 
 $$
-\begin{array}{l} r_{t} - r_{t}^{*} = \left(- \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1})\right) - \left(- \mathbb {E}_{t} [ m_{t + 1}^{*} ] - \frac{1}{2} v a r_{t} (m_{t + 1}^{*})\right) \\ = \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} \left(x_{t}^{*} - x_{t}\right) \\ + \left\{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) + \frac{1}{2} \gamma^{2} + \frac{1}{2} (\theta - 1)^{2} W_{x}^{2} \varphi^{2} - \nu \gamma (\theta - 1) W_{x} \varphi \right\} (\sigma_{t}^{* 2} - \sigma_{t}^{2}), \\ \end{array}
+\begin{array}{l} r_{t} - r_{t}^{*} = \left(- \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1})\right) - \left(- \mathbb{E}_{t} [ m_{t + 1}^{*} ] - \frac{1}{2} var_{t} (m_{t + 1}^{*})\right) \\ = \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} \left(x_{t}^{*} - x_{t}\right) \\ + \left\{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) + \frac{1}{2} \gamma^{2} + \frac{1}{2} (\theta - 1)^{2} W_{x}^{2} \varphi^{2} - \nu \gamma (\theta - 1) W_{x} \varphi \right\} (\sigma_{t}^{* 2} - \sigma_{t}^{2}), \\ \end{array}
 $$
 
 and the Backus-Smith coefficient is
 
 $$
-\begin{array}{l} \beta_{t}^{B S} = \frac{\operatorname{co v}_{t} \left(\Delta e_{t + 1} , \Delta c_{t + 1}^{*} - \Delta c_{t + 1}\right)}{\operatorname{va r}_{t} \left(\Delta c_{t + 1}^{*} - \Delta c_{t + 1}\right)} \\ = \gamma + \nu \frac{\varphi_{e} (1 - \theta) W_{x}}{v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} \left(\sigma_{t}^{2} + \sigma_{t}^{* 2}\right). \\ \end{array}
+\begin{array}{l} \beta_{t}^{B S} = \frac{\operatorname{co v}_{t} \left(\Delta e_{t + 1} , \Delta c_{t + 1}^{*} - \Delta c_{t + 1}\right)}{\operatorname{va r}_{t} \left(\Delta c_{t + 1}^{*} - \Delta c_{t + 1}\right)} \\ = \gamma + \nu \frac{\varphi_{e} (1 - \theta) W_{x}}{var_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} \left(\sigma_{t}^{2} + \sigma_{t}^{* 2}\right). \\ \end{array}
 $$
 
 The proof is presented in Appendix A.7. When the markets are complete, we have a simple mapping from the SDF shocks to exchange rate movements. Specifically, as negative home short-run and long-run consumption shocks and positive home volatility shocks raise the marginal utilities of home households, they lead to home currency appreciation. In comparison, the home currency's risk premium only depends on the second-order moments, and it is decreasing in home consumption volatility and increasing in foreign consumption volatility.
@@ -2013,7 +1245,7 @@ The interest rate differential also loads negatively on home consumption volatil
 Finally, the correlation between long-run and short-run consumption shocks  $\nu$  plays a key role in the Backus-Smith coefficient. Consider the following benchmark: suppose the consumption growth process has no long-run growth or stochastic volatility:  $\Delta c = \mu_g + \sigma_g\varepsilon_{g,t + 1}$ . Then, the Backus-Smith coefficient is
 
 $$
-\beta_{t}^{B S} = \frac{- (\theta (1 - \frac{1}{\psi}) - 1) \sigma_{g}^{2} v a r_{t} ((\varepsilon_{g , t + 1}^{*} - \varepsilon_{g , t + 1})))}{\sigma_{g}^{2} v a r_{t} ((\varepsilon_{g , t + 1}^{*} - \varepsilon_{g , t + 1}))} = \gamma ,
+\beta_{t}^{B S} = \frac{- (\theta (1 - \frac{1}{\psi}) - 1) \sigma_{g}^{2} var_{t} ((\varepsilon_{g , t + 1}^{*} - \varepsilon_{g , t + 1})))}{\sigma_{g}^{2} var_{t} ((\varepsilon_{g , t + 1}^{*} - \varepsilon_{g , t + 1}))} = \gamma ,
 $$
 
 which is always positive.
@@ -2219,17 +1451,17 @@ which measures the pairwise similarity of the shocks which drive countries' quan
 Proposition 3.7. (a) Closer countries have more correlated active household consumption growth:
 
 $$
-c o v \left(\Delta \log \bar {c}_{t}^{i}, \Delta \log \bar {c}_{t}^{j}\right) = \mathcal {C} (i, j).
+cov \left(\Delta \log \bar {c}_{t}^{i}, \Delta \log \bar {c}_{t}^{j}\right) = \mathcal {C} (i, j).
 $$
 
 (b) Closer countries have more correlated currency base factors and less volatile bilateral real exchange rate movements:
 
 $$
-c o v \left(\Delta \bar {e}_{t}^{i}, \Delta \bar {e}_{t}^{j}\right) = \mathcal {C} (i, j) - \overline {{\mathcal {C}}} (i) - \overline {{\mathcal {C}}} (j) + \kappa^{e},
+cov \left(\Delta \bar {e}_{t}^{i}, \Delta \bar {e}_{t}^{j}\right) = \mathcal {C} (i, j) - \overline {{\mathcal {C}}} (i) - \overline {{\mathcal {C}}} (j) + \kappa^{e},
 $$
 
 $$
-v a r (\Delta e_{t}^{i / j}) = - 2 \mathcal {C} (i, j) + \mathcal {C} (i, i) + \mathcal {C} (j, j),
+var (\Delta e_{t}^{i / j}) = - 2 \mathcal {C} (i, j) + \mathcal {C} (i, i) + \mathcal {C} (j, j),
 $$
 
 where  $\kappa^e$  is a constant:
@@ -2261,13 +1493,13 @@ We set the U.S. dollar as the base currency.
 Proposition 3.8. Currency  $i$ 's expected excess return is
 
 $$
-\begin{array}{l} r p_{t}^{i / \$} \stackrel {{d e f}} {{=}} \mathbb {E}_{t} \left[ r x_{t + 1}^{i / \$} \right] = \frac{1}{2} (v a r_{t} (m_{t + 1}^{\$}) - v a r_{t} (m_{t + 1}^{i})) \\ = \frac{1}{2} \left(\mathcal {C} (\mathrm{\$}, \mathrm{\$}) - \mathcal {C} (i, i)\right), \\ \end{array}
+\begin{array}{l} r p_{t}^{i / \$} \stackrel {{d e f}} {{=}} \mathbb{E}_{t} \left[ r x_{t + 1}^{i / \$} \right] = \frac{1}{2} (var_{t} (m_{t + 1}^{\$}) - var_{t} (m_{t + 1}^{i})) \\ = \frac{1}{2} \left(\mathcal {C} (\mathrm{\$}, \mathrm{\$}) - \mathcal {C} (i, i)\right), \\ \end{array}
 $$
 
 and its interest rate is
 
 $$
-\begin{array}{l} r_{t}^{i} = - \mathbb {E}_{t} \left[ m_{t + 1}^{i} \right] - \frac{1}{2} v a r_{t} \left(m_{t + 1}^{i}\right) \\ = - \log \delta - \frac{1}{2} \mathcal {C} (i, i) \\ \end{array}
+\begin{array}{l} r_{t}^{i} = - \mathbb{E}_{t} \left[ m_{t + 1}^{i} \right] - \frac{1}{2} var_{t} \left(m_{t + 1}^{i}\right) \\ = - \log \delta - \frac{1}{2} \mathcal {C} (i, i) \\ \end{array}
 $$
 
 The proof is presented in Appendix A.10. This result shows that, fixing the base currency, a currency  $i$ 's risk premium is decreasing in its closeness to itself, i.e.,  $\mathcal{C}(i,i)$ . Following Richmond [2019], we may call this object country  $i$ 's trade centrality. The trade centrality summarizes how this country's position and relation to other countries in the trade network affects its currency risk premium. A country with a large  $\mathcal{C}(i,i)$  is a central country and has a low currency risk premium, whereas a country with a small  $\mathcal{C}(i,i)$  is a peripheral country and has a high currency risk premium.
@@ -2355,7 +1587,7 @@ $$
 Then, the Lagrangian implies the following Euler equations
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta^{h} \frac{u^{\prime} (c_{t + h})}{u^{\prime} (c_{t})} \exp (r_{t} (h) h) \right], \\ 1 = \mathbb {E}_{t} \left[ \delta^{h} \frac{u^{\prime} (c_{t + h}^{*})}{u^{\prime} (c_{t}^{*})} \exp (- \Delta e_{t, t + h} + r_{t} (h) h) \right], \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \delta^{h} \frac{u^{\prime} (c_{t + h})}{u^{\prime} (c_{t})} \exp (r_{t} (h) h) \right], \\ 1 = \mathbb{E}_{t} \left[ \delta^{h} \frac{u^{\prime} (c_{t + h}^{*})}{u^{\prime} (c_{t}^{*})} \exp (- \Delta e_{t, t + h} + r_{t} (h) h) \right], \\ \end{array}
 $$
 
 where  $\Delta e_{t,t + h} \stackrel{\mathrm{def}}{=} e_{t + h} - e_t$  denotes the  $h$ -period log exchange rate movement.
@@ -2369,7 +1601,7 @@ $$
 then, the Euler equations can be written as
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} [ \exp (m_{t, t + h}) \exp (r_{t} (h) h) ], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t, t + h}^{*}\right) \exp \left(- \Delta e_{t, t + h} + r_{t} (h) h\right) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} [ \exp (m_{t, t + h}) \exp (r_{t} (h) h) ], \\ 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + h}^{*}\right) \exp \left(- \Delta e_{t, t + h} + r_{t} (h) h\right) \right]. \\ \end{array}
 $$
 
 It is useful to compare two different multi-horizon currency trading strategies from period 0 to period  $h$ . In the first strategy, the home households buy the foreign one-period bond and sell the home one-period bond in each period  $t$ . The cumulative log return from this strategy is
@@ -2485,7 +1717,7 @@ $$
 The permanent component of the marginal utility is a martingale by construction:
 
 $$
-\exp \left(m c_{t}^{P}\right) = \lim_{h \rightarrow \infty} \frac{p_{t} (h)}{\tilde {\delta}^{t + h}} \exp \left(m c_{t}\right) = \lim_{h \rightarrow \infty} \frac{\mathbb {E}_{t} \left[ \exp \left(m c_{t + h}\right)\right]}{\tilde {\delta}^{t + h}},
+\exp \left(m c_{t}^{P}\right) = \lim_{h \rightarrow \infty} \frac{p_{t} (h)}{\tilde {\delta}^{t + h}} \exp \left(m c_{t}\right) = \lim_{h \rightarrow \infty} \frac{\mathbb{E}_{t} \left[ \exp \left(m c_{t + h}\right)\right]}{\tilde {\delta}^{t + h}},
 $$
 
 where we used  $p_t(h) = \mathbb{E}_t[\exp (m_{t,t + h})] = \mathbb{E}_t[\exp (mc_{t + h} - mc_t)]$ .
@@ -2495,7 +1727,7 @@ The marginal utility components  $mc_{t}^{T}$  and  $mc_{t}^{P}$  we considered 
 In this economy, the bond price satisfies
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t, t + h}) p_{t} (h) ].
+1 = \mathbb{E}_{t} [ \exp (m_{t, t + h}) p_{t} (h) ].
 $$
 
 Evaluating this conditional expectation and take the horizon  $h$  to infinity, we obtain the following proposition about the long-term yield.
@@ -2603,7 +1835,7 @@ $$
 We can think of Eq. (3.21) as the long-run uncovered interest rate parity (long-run UIP) condition. This condition is related to the one-period UIP condition:
 
 $$
-e_{t} - \mathbb {E}_{t} [ e_{t + 1} ] = r_{t} - r_{t}^{*}.
+e_{t} - \mathbb{E}_{t} [ e_{t + 1} ] = r_{t} - r_{t}^{*}.
 $$
 
 In Section 1.B Eq. (1.13), we show that the one-period UIP condition fails, and an additional risk premium term  $rp_{t}$  is required on the right-hand side. In comparison, Eq. (3.21) shows that, when the exchange rate is stationary, the uncertainty in the exchange rate level over the infinite horizon vanishes from the pricing perspective, leading to zero risk premium. As a result, the exchange rate's deviation from the long-run mean is only determined by the long-term bond yield differential.
@@ -2611,19 +1843,19 @@ In Section 1.B Eq. (1.13), we show that the one-period UIP condition fails, and 
 Moreover, if we compare this result with the exchange rate accounting formula in Proposition 1.2, reproduced below,
 
 $$
-e_{t} - \bar {e} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ],
+e_{t} - \bar {e} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ],
 $$
 
 we can see that the infinite-horizon bond yield incorporates information about both the future short rates and the future currency risk premia, i.e.,
 
 $$
-\lim_{h \rightarrow \infty} h \left(r_{t} (h) - r_{t}^{*} (h)\right) = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r p_{t + j} \right].
+\lim_{h \rightarrow \infty} h \left(r_{t} (h) - r_{t}^{*} (h)\right) = \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r p_{t + j} \right].
 $$
 
 If we further decompose the infinite-horizon bond yield into an expected short rate component and a yield spread component, the bond yield spread differential is related to the currency risk premium:
 
 $$
-\lim_{h \to \infty} \left(h r_{t} (h) - \sum_{j = 0}^{h - 1} \mathbb {E}_{t} [ r_{t + j} ]\right) - \lim_{h \to \infty} \left(h r_{t}^{*} (h) - \sum_{j = 0}^{h - 1} \mathbb {E}_{t} [ r_{t + j}^{*} ]\right) = - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ].
+\lim_{h \to \infty} \left(h r_{t} (h) - \sum_{j = 0}^{h - 1} \mathbb{E}_{t} [ r_{t + j} ]\right) - \lim_{h \to \infty} \left(h r_{t}^{*} (h) - \sum_{j = 0}^{h - 1} \mathbb{E}_{t} [ r_{t + j}^{*} ]\right) = - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ].
 $$
 
 In this equation, the left-hand side is the cumulative excess return of holding the home bond until maturity minus that of holding the foreign bond, and the right-hand side is the currency risk premium derived from rolling over one-period bond positions across countries. This equation shows that these two risk premium measures in the bond market and in the currency market are closely related, provided that markets are complete and the exchange rate is stationary.
@@ -2659,17 +1891,17 @@ $$
 Conjecture that
 
 $$
-\mathbb {E}_{t} [ M_{t, t + h}^{*} ] = \exp (h (a_{h} + b_{h} e_{t}))
+\mathbb{E}_{t} [ M_{t, t + h}^{*} ] = \exp (h (a_{h} + b_{h} e_{t}))
 $$
 
 with the boundary condition  $a_0 = b_0 = 0$ . By iteration,
 
 $$
-\begin{array}{l} \mathbb {E}_{t} \left[ M_{t, t + h}^{*} \right] = \mathbb {E}_{t} \left[ \exp (- \mu + \phi e_{t}) \mathbb {E}_{t + 1} \left[ M_{t + 1, t + h}^{*} \right] \right. \\ = \mathbb {E}_{t} [ \exp (- \mu + \phi e_{t}) \exp ((h - 1) (a_{h - 1} + b_{h - 1} e_{t + 1})) ] \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} \left[ M_{t, t + h}^{*} \right] = \mathbb{E}_{t} \left[ \exp (- \mu + \phi e_{t}) \mathbb{E}_{t + 1} \left[ M_{t + 1, t + h}^{*} \right] \right. \\ = \mathbb{E}_{t} [ \exp (- \mu + \phi e_{t}) \exp ((h - 1) (a_{h - 1} + b_{h - 1} e_{t + 1})) ] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \exp \left(h \left(a_{h} + b_{h} e_{t}\right)\right) = \mathbb {E}_{t} \left[ \exp \left(- \mu + \phi e_{t} + (h - 1) a_{h - 1} + (h - 1) b_{h - 1} (1 - \phi) e_{t} - (h - 1) b_{h - 1} \sigma \varepsilon_{t + 1} \right] \right. \\ = \exp (- \mu + (h - 1) a_{h - 1} + \frac{1}{2} (h - 1)^{2} b_{h - 1}^{2} \sigma^{2} + ((h - 1) (1 - \phi) b_{h - 1} + \phi) e_{t}) \\ \end{array}
+\begin{array}{l} \exp \left(h \left(a_{h} + b_{h} e_{t}\right)\right) = \mathbb{E}_{t} \left[ \exp \left(- \mu + \phi e_{t} + (h - 1) a_{h - 1} + (h - 1) b_{h - 1} (1 - \phi) e_{t} - (h - 1) b_{h - 1} \sigma \varepsilon_{t + 1} \right] \right. \\ = \exp (- \mu + (h - 1) a_{h - 1} + \frac{1}{2} (h - 1)^{2} b_{h - 1}^{2} \sigma^{2} + ((h - 1) (1 - \phi) b_{h - 1} + \phi) e_{t}) \\ \end{array}
 $$
 
 which implies
@@ -2695,7 +1927,7 @@ That is, the foreign long-term yield  $r_t^*(h)$  converges to the home long-ter
 Let us return to the one-country setting with the SDF specification according to Eq. (3.14) and (3.15). Let  $p_t^y(h)$  denote the price of the endowment  $y_{t + h}$  in period  $t$ , which is equal to its present value:
 
 $$
-p_{t}^{y} (h) = \mathbb {E}_{t} [ \exp (m_{t, t + h}) y_{t + h} ].
+p_{t}^{y} (h) = \mathbb{E}_{t} [ \exp (m_{t, t + h}) y_{t + h} ].
 $$
 
 We choose to study the claim to endowment because its cash flow in log is cointegrated with the permanent component of the log SDF after removing a deterministic trend. Note that
@@ -2715,13 +1947,13 @@ The risk premia of the endowment strip and the long-term bond is defined as the 
 Proposition 3.11. The risk premium of the  $h$ -period risk-free bond is
 
 $$
-\begin{array}{l} r x_{t} (h) \stackrel {\text{de f}} {=} \mathbb {E}_{t} \left[ \log \frac{p_{t - 1} (h - 1)}{p_{t} (h)} - r_{t} \right] \\ = \left(\frac{1}{2} - \frac{1}{2} \phi^{2 (h - 1)}\right) \sigma_{T}^{2} + (1 - \phi^{h - 1}) \sigma_{T P}. \\ \end{array}
+\begin{array}{l} r x_{t} (h) \stackrel {\text{de f}} {=} \mathbb{E}_{t} \left[ \log \frac{p_{t - 1} (h - 1)}{p_{t} (h)} - r_{t} \right] \\ = \left(\frac{1}{2} - \frac{1}{2} \phi^{2 (h - 1)}\right) \sigma_{T}^{2} + (1 - \phi^{h - 1}) \sigma_{T P}. \\ \end{array}
 $$
 
 The risk premium of the claim to the  $h$ -period endowment claim is
 
 $$
-\begin{array}{l} r x_{t}^{y} (h) \stackrel {\text{de f}} {=} \mathbb {E}_{t} \left[ \log \frac{p_{t + 1}^{y} (h - 1)}{p_{t}^{y} (h)} - r_{t} \right] \\ = \frac{2 \gamma - 1}{2 \gamma^{2}} \sigma_{P}^{2} + \left[ \frac{1}{2} - \frac{1}{2} \phi^{2 (h - 1)} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T}^{2} + \left[ 1 - \phi^{h - 1} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T P}. \\ \end{array}
+\begin{array}{l} r x_{t}^{y} (h) \stackrel {\text{de f}} {=} \mathbb{E}_{t} \left[ \log \frac{p_{t + 1}^{y} (h - 1)}{p_{t}^{y} (h)} - r_{t} \right] \\ = \frac{2 \gamma - 1}{2 \gamma^{2}} \sigma_{P}^{2} + \left[ \frac{1}{2} - \frac{1}{2} \phi^{2 (h - 1)} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T}^{2} + \left[ 1 - \phi^{h - 1} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T P}. \\ \end{array}
 $$
 
 As  $h\to \infty$  , these risk premia converge to
@@ -2743,19 +1975,19 @@ We notice that this risk premium does not depend on the transitory component of 
 - We deviate from the complete-market benchmark and introduce the bond convenience yield  $\lambda_{t}^{*}$  as a wedge in the households' Euler equations for holding the home bond:
 
 $$
-\exp (- \lambda_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right].
+\exp (- \lambda_{t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right].
 $$
 
 - This wedge affects both the currency expected return:
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = r p_{t} - \lambda_{t}^{*},
+\mathbb{E}_{t} \left[ r x_{t + 1} \right] = r p_{t} - \lambda_{t}^{*},
 $$
 
 and the exchange rate level:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e}.
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e}.
 $$
 
 - Under additional assumptions about the liquidity benefits of the currency forward, the convenient yield can be measured from the Treasury CIP deviation  $x_{t}^{Treas}$ :
@@ -2773,7 +2005,7 @@ more expensive than TIPS [Fleckenstein, Longstaff, and Lustig, 2014], corporate 
 To model these convenience yields, let  $r_t$  denote the log Treasury yield in the home country, and let  $\rho_t$  denote the log yield of a benchmark risk-free bond that does not contain any non-pecuniary benefits. Both rates are one-period. The benchmark risk-free rate exactly satisfies the households' Euler equation:
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + \rho_{t}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + \rho_{t}\right) \right].
 $$
 
 As the Treasury is more expensive, the Treasury yield is lower than the benchmark risk-free rate:
@@ -2785,13 +2017,13 @@ $$
 which implies that the Euler equation fails for the Treasury yield:
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1} + \rho_{t}) \right] > \mathbb {E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right].
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1} + \rho_{t}) \right] > \mathbb{E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right].
 $$
 
 In other words, the Treasury yield gives rise to a wedge in the Euler equation. To capture this wedge, it is useful to conceptualize a convenience yield  $\lambda_t > 0$ , such that
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} [ \exp (m_{t + 1} + r_{t}) ]. \tag {4.1}
+\exp (- \lambda_{t}) = \mathbb{E}_{t} [ \exp (m_{t + 1} + r_{t}) ]. \tag {4.1}
 $$
 
 This convenience yield describes the amount of risk-adjusted expected return that the households are willing to give up in order to hold the Treasury debt. This equation will be central to organize our discussion in this chapter.
@@ -2803,7 +2035,7 @@ Before we proceed to set up the model, we note that the convenience yield is con
 a risk premium does not generate a wedge in the Euler equation. Consider, for example, a risky return  $\tilde{r}_{t+1}$  that does not carry a convenience yield. While this asset can earn an expected return that reflects its cyclical properties, it must satisfy the standard Euler equation,
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \big (m_{t + 1} + \tilde {r}_{t + 1} \big) \right].
+1 = \mathbb{E}_{t} \left[ \exp \big (m_{t + 1} + \tilde {r}_{t + 1} \big) \right].
 $$
 
 All models we considered in Chapter 3 fall into this category, although they differ in the specification of the SDF  $m_{t+1}$  that determines the risk premium.
@@ -2817,7 +2049,7 @@ We assume that home bond generates non-pecuniary utilities when it is held by ei
 Specifically, recall that  $b_{H,t}$  is the market value of the bond and  $r_t$  is the risk-free rate. The home investors' utility is derived over consumption and the market value of home bond holdings:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (b_{H, t}; \theta_{t})) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (b_{H, t}; \theta_{t})) \right],
 $$
 
 where  $\theta_{t}$  captures a time-varying demand shifter for U.S. bonds. We assume that the utility is increasing in the consumption and the holding in the U.S. bonds, i.e.  $u'(c_t) > 0$  and  $v'(b_{H,t};\theta_t) > 0$ . In this way, the U.S. risk-free bond carries a convenience yield, which captures its non-pecuniary benefits to U.S. and foreign investors. We assume that the marginal utility for holding U.S. bonds is decreasing in quantity, i.e.,  $v''(b) < 0$ , so that the convenience yield is decreasing in the quantity held.
@@ -2841,7 +2073,7 @@ In this way, we set up a simple structure that generates a positive supply of ri
 The Lagrangian is
 
 $$
-\begin{array}{l} \mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (u (c_{t}) + v (b_{H, t}; \theta_{t})) \right. \\ \left. + \sum_{t = 1}^{\infty} \zeta_{t} (p_{t} y_{t} + \bar {b}_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) - c_{t} - \bar {b}_{t - 1} \exp (r_{t - 1}) - b_{H, t} - b_{F, t} \exp (- e_{t})) \right]. \\ \end{array}
+\begin{array}{l} \mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (u (c_{t}) + v (b_{H, t}; \theta_{t})) \right. \\ \left. + \sum_{t = 1}^{\infty} \zeta_{t} (p_{t} y_{t} + \bar {b}_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) - c_{t} - \bar {b}_{t - 1} \exp (r_{t - 1}) - b_{H, t} - b_{F, t} \exp (- e_{t})) \right]. \\ \end{array}
 $$
 
 The first-order conditions w.r.t.  $c_{t}, b_{H,t}$  and  $b_{F,t}$  are
@@ -2851,17 +2083,17 @@ $$
 $$
 
 $$
-\mathbb {E}_{t} \left[ \delta^{t} v^{\prime} \left(b_{H, t}; \theta_{t}\right) - \zeta_{t} + \zeta_{t + 1} \exp (r_{t}) \right] = 0,
+\mathbb{E}_{t} \left[ \delta^{t} v^{\prime} \left(b_{H, t}; \theta_{t}\right) - \zeta_{t} + \zeta_{t + 1} \exp (r_{t}) \right] = 0,
 $$
 
 $$
-\mathbb {E}_{t} \left[ - \zeta_{t} \exp (- e_{t}) + \zeta_{t + 1} \exp \left(r_{t}^{*} - e_{t + 1}\right) \right] = 0.
+\mathbb{E}_{t} \left[ - \zeta_{t} \exp (- e_{t}) + \zeta_{t + 1} \exp \left(r_{t}^{*} - e_{t + 1}\right) \right] = 0.
 $$
 
 The implied Euler equations for home households are
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(r_{t}\right) + \frac{v^{\prime} \left(b_{H , t} ; \theta_{t}\right)}{u^{\prime} \left(c_{t}\right)} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(r_{t}\right) + \frac{v^{\prime} \left(b_{H , t} ; \theta_{t}\right)}{u^{\prime} \left(c_{t}\right)} \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right]. \\ \end{array}
 $$
 
 If we define the home households' convenience yield as
@@ -2875,11 +2107,11 @@ which is determined by the ratio between the marginal utility of bond holding an
 Then, we can express the Euler equations as
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
+\exp (- \lambda_{t}) = \mathbb{E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right].
 $$
 
 In doing so, we offer a more structural interpretation for the convenience yields that we defined in Eq. (4.1).
@@ -2887,7 +2119,7 @@ In doing so, we offer a more structural interpretation for the convenience yield
 Similarly, we modify the foreign utility as
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u^{*} (c_{t}) + v (b_{H, t}^{*}; \theta_{t}^{*})) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u^{*} (c_{t}) + v (b_{H, t}^{*}; \theta_{t}^{*})) \right],
 $$
 
 where the market value  $b_{H,t}^{*}$  of foreign households' bond holding is also in the home (real) currency units. We define the foreign households' convenience yield as
@@ -2899,11 +2131,11 @@ $$
 Then, the foreign households' Euler equations are
 
 $$
-\exp \left(- \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t} + \Delta e_{t + 1}\right) \right],
+\exp \left(- \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t} + \Delta e_{t + 1}\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right].
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right].
 $$
 
 # 4.A.3 Market Clearing
@@ -2973,11 +2205,11 @@ $$
 $$
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \exp (r_{t}) \right],
+\exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}) \exp (r_{t}) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}\right) \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}\right) \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right],
 $$
 
 For the Foreign country in period  $t$ ,
@@ -2999,11 +2231,11 @@ $$
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(r_{t}^{*}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(r_{t}^{*}\right) \right],
 $$
 
 $$
-\exp \left(- \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(\Delta e_{t + 1} + r_{t}\right) \right].
+\exp \left(- \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(\Delta e_{t + 1} + r_{t}\right) \right].
 $$
 
 The within-period problem is the same as in the benchmark model. The prices and exchange rates can be pinned down by:
@@ -3019,37 +2251,37 @@ Compared to the macro synthesis in the baseline model in Section 1.A, the main d
 Next, we repeat the exchange rate accounting exercise in this model with bond convenience yields. The derivation is taken from Jiang, Krishnamurthy, and Lustig [2021a], Jiang, Krishnamurthy, Lustig, and Sun [2021b]. The model with bond convenience yields shows that the four Euler equations for bond holdings now contain additional convenience yield terms:
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \tag {4.4}
+\exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \tag {4.4}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {4.5}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {4.5}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \tag {4.6}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \tag {4.6}
 $$
 
 $$
-\exp \left(- \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right]. \tag {4.7}
+\exp \left(- \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right]. \tag {4.7}
 $$
 
 We can also express these Euler equations (4.4)-(4.7) as
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + \left(r_{t} + \lambda_{t}\right)\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + \left(r_{t} + \lambda_{t}\right)\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right],
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \big (m_{t + 1}^{*} + \Delta e_{t + 1} + \big (r_{t} + \lambda_{t}^{*} \big) \big) \right],
+1 = \mathbb{E}_{t} \left[ \exp \big (m_{t + 1}^{*} + \Delta e_{t + 1} + \big (r_{t} + \lambda_{t}^{*} \big) \big) \right],
 $$
 
 which look like the original Euler equations (1.6)-(1.9) that we derived in Section 1.B for risk-free bonds without convenience yields. However, a key difference makes these two cases not observationally equivalent: the home and foreign investors may have different convenience yields  $\lambda_{t}$  and  $\lambda_t^*$ . In this case, the home investors effectively perceive a home risk-free rate without convenience yield equal to  $\rho_{t} = r_{t} + \lambda_{t}$ , whereas the foreign investors effectively perceive a different home risk-free rate without convenience yield equal to  $\tilde{\rho}_{t} = r_{t} + \lambda_{t}^{*}$ . Therefore, we cannot map the setting with bond convenience yields back to the baseline model without bond convenience yields by modifying the bond yields.
@@ -3063,7 +2295,7 @@ Suppose that at time  $t$ , there is an exogenous increase in  $\lambda_t^*$ , i
 First, consider the home households' Euler equation for holding domestic bonds, Eq. (4.4), reproduced below,
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right].
+\exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right].
 $$
 
 Since the home households' SDF and convenience yield are assumed to be unaffected, this Euler equation implies that the dollar risk-free rate  $r_t$  does not change.
@@ -3071,7 +2303,7 @@ Since the home households' SDF and convenience yield are assumed to be unaffecte
 Second, from the foreign households' Euler equation for holding home bonds, Eq. (4.7), reproduced below,
 
 $$
-\exp (- \lambda_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t} + \Delta e_{t + 1}) \right],
+\exp (- \lambda_{t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t} + \Delta e_{t + 1}) \right],
 $$
 
 an increase in their convenience yield  $\lambda_t^*$  lowers their risk-neutral expected return on holding home risk-free bonds. Since the dollar risk-free rate does not change, the exchange rate has to adjust to equilibrate this Euler equation. In particular, the dollar needs to appreciate today and create an expected depreciation to generate the lower expected return.
@@ -3079,7 +2311,7 @@ an increase in their convenience yield  $\lambda_t^*$  lowers their risk-neutral
 Lastly, if we examine the home households' Euler equation for holding foreign bonds, Eq. (4.5), reproduced below,
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \big (m_{t + 1} + r_{t}^{*} - \Delta e_{t + 1}) \right],
+1 = \mathbb{E}_{t} \left[ \exp \big (m_{t + 1} + r_{t}^{*} - \Delta e_{t + 1}) \right],
 $$
 
 we learn that the dollar exchange rate movement also raises the expected return on purchasing foreign currency bonds from the home perspective. Since the home households do not derive a convenience yield on foreign bonds that can adjust, all adjustment must happen in the dollar's currency risk premium. In our equilibrium, this happens via endogenous changes in the cyclicality and volatility of the dollar. Thus, these four Euler equations require endogenous responses in both first moments (i.e., exchange rate level and expected return) as well as second moments (i.e., currency cyclicality and volatility) in response to the shock to the convenience yield. As such, although the convenience yield and the risk premium are conceptually different, they could be correlated in practice.
@@ -3091,7 +2323,7 @@ For the discussion in this section, we assume the random variables are jointly n
 est rate expression:
 
 $$
-r_{t} = - \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1}) - \lambda_{t},
+r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1}) - \lambda_{t},
 $$
 
 which now contains the convenience yield term  $\lambda_{t}$ . When the home households' convenience yield is higher, the home bonds' interest rate is lower.
@@ -3099,7 +2331,7 @@ which now contains the convenience yield term  $\lambda_{t}$ . When the home hou
 Next, the foreign households' Euler equations can be expressed as
 
 $$
-\begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ - \lambda_{t}^{*} = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) + c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
+\begin{array}{l} 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ - \lambda_{t}^{*} = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + \mathbb{E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} var_{t} (\Delta e_{t + 1}) + cov_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
 $$
 
 Recall that the expected log excess return of the home currency against the foreign currency is defined as
@@ -3113,7 +2345,7 @@ Then, the Euler equations imply the following result:
 Proposition 4.1. The home currency's expected log excess return is determined jointly by the home currency's risk premium and the home bond's convenience yield:
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = r p_{t} - \lambda_{t}^{*}, \tag {4.8}
+\mathbb{E}_{t} \left[ r x_{t + 1} \right] = r p_{t} - \lambda_{t}^{*}, \tag {4.8}
 $$
 
 where  $r p_{t} \stackrel{\text{def}}{=} -\text{cov}_{t}(m_{t+1}^{*}, \Delta e_{t+1}) - \frac{1}{2}\text{var}_{t}(\Delta e_{t+1})$  is the currency risk premium.
@@ -3123,7 +2355,7 @@ If we compare this result to the benchmark case in Proposition 1.10, we note tha
 Similarly, there is an expression from the home households' perspective:
 
 $$
-\mathbb {E}_{t} [ - r x_{t + 1} ] = - c o v_{t} (m_{t + 1}, - \Delta e_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) + \lambda_{t}.
+\mathbb{E}_{t} [ - r x_{t + 1} ] = - cov_{t} (m_{t + 1}, - \Delta e_{t + 1}) - \frac{1}{2} var_{t} (\Delta e_{t + 1}) + \lambda_{t}.
 $$
 
 Combined together, these expressions imply that the home and foreign investors need to agree on the combination of the equilibrium
@@ -3131,7 +2363,7 @@ Combined together, these expressions imply that the home and foreign investors n
 currency risk premium and the convenience yield from their different perspectives:
 
 $$
-- c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}^{*} = c o v_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) + \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}, \tag {4.9}
+- cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}^{*} = cov_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) + \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}, \tag {4.9}
 $$
 
 which is a direct extension of Eq. (1.12) which does not consider convenience yields.
@@ -3143,7 +2375,7 @@ Moreover, assuming the real exchange rate is stationary, then, we obtain a more 
 Proposition 4.2. The exchange rate level is equal to the sum of expected future interest rate differentials, the sum of expected future convenience yields, the sum of expected future currency risk premia, and the long-run exchange rate level:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e}.
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e}.
 $$
 
 In other words, if today's home currency is stronger than its long-run mean, it is either because the home currency is offering a higher interest rate than the foreign currency, or it has a higher convenience yield, or because it has a lower risk premium (i.e., a lower discount rate).
@@ -3151,7 +2383,7 @@ In other words, if today's home currency is stronger than its long-run mean, it 
 Similar to the exchange rate accounting in Section 1.B, we can also use this formula to decompose the exchange rate innovation:
 
 $$
-(\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ e_{t} ] = \sum_{j = 0}^{\infty} (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ \lambda_{t + j}^{*} ] - (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ],
+(\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ e_{t} ] = \sum_{j = 0}^{\infty} (\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} (\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ \lambda_{t + j}^{*} ] - (\mathbb{E}_{t} - \mathbb{E}_{t - 1}) \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ],
 $$
 
 which likewise contains a convenience yield component.
@@ -3159,11 +2391,11 @@ which likewise contains a convenience yield component.
 Moreover, consider the risk-free rates  $\rho_{t}$  and  $\rho_{t}^{*}$  without convenience yields, which satisfy the standard Euler equations:
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + \rho_{t}) ],
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1} + \rho_{t}) ],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \rho_{t}^{*}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \rho_{t}^{*}\right) \right].
 $$
 
 We can relate these two risk-free rates to the bond yields  $r_t$  and  $r_t^*$  by
@@ -3183,7 +2415,7 @@ $\rho_{t}$  by exactly  $\lambda_{t}$ . In comparison, the foreign bond does not
 Then, we can reorganize the terms in Proposition 4.2 and show
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \rho_{t + j} - \rho_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} - \lambda_{t + j} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e},
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \rho_{t + j} - \rho_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} - \lambda_{t + j} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e},
 $$
 
 which implies that the variations in the exchange rate level are driven by the variations in the risk-free rate differentials (which carry no convenience yields), in the currency risk premia, and in the difference between the convenience yields that home and foreign households derive from holding the home bond.
@@ -3191,7 +2423,7 @@ which implies that the variations in the exchange rate level are driven by the v
 This expression shows why it is natural to focus on the case in which home and foreign households derive different convenience yields, i.e.,  $\lambda_t \neq \lambda_t^*$ . If the home and foreign households have the identical convenience yield, i.e.,  $\lambda_t = \lambda_t^*$ , then, the exchange rate level is determined only by the risk-free rate differentials and the currency risk premia, both of which are driven by the SDFs via
 
 $$
-\begin{array}{l} \rho_{t} - \rho_{t}^{*} = - \log \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}\right) \right] + \log \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \right], \\ r p_{t} = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
+\begin{array}{l} \rho_{t} - \rho_{t}^{*} = - \log \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}\right) \right] + \log \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \right], \\ r p_{t} = - cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} var_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
 $$
 
 In other words, only the home and foreign households' convenience yield differential, rather than their convenience yield levels, matters for the exchange rate level.
@@ -3233,13 +2465,13 @@ As such, incomplete markets are an essential ingredient to make the convenience 
 The introduction of the convenience yield also broadens how we think about the relationship between the interest rate in a country and its currency strength. Under the uncovered interest rate parity (UIP) condition, a higher interest rate is associated with a stronger currency. We can see this from Proposition 4.2, which predicts a positive relationship between the currency value  $e_t$  of the home country and its interest rate  $r_t$ , holding other things constant:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e}.
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e}.
 $$
 
 However, when we introduce the convenience yield, the relationship between the interest rate and the currency value becomes more complicated. By the home households' Euler equation, the home interest rate level is determined by the home households' SDF and convenience yield:
 
 $$
-r_{t} = - \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1}) - \lambda_{t}.
+r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1}) - \lambda_{t}.
 $$
 
 In the complete-market world, convenience yields may still affect exchange rates indirectly via their effect on relative marginal utilities, for example, by affecting the natural rate in the home country [Caballero, Farhi, and Gourinchas, 2021, Kekre and Lenel, 2021].
@@ -3249,13 +2481,13 @@ Holding other things constant, a higher convenience yield  $\lambda_{t}$  lowers
 This discussion shows that the yield-exchange rate relationship depends on the types of shocks we are considering [Jiang, Krishnamurthy, Lustig, and Sun, 2021b]. When we consider a monetary shock  $\varepsilon_t^m$  whose primary effect is to raise the home interest rate, we expect a positive yield-exchange rate relationship:
 
 $$
-c o v_{t} \left(e_{t}, r_{t} \mid \varepsilon_{t}^{m}\right) \stackrel {\text{de f}} {=} c o v_{t} \left(p r o j \left[ e_{t} \mid \varepsilon_{t}^{m} \right], p r o j \left[ r_{t} \mid \varepsilon_{t}^{m} \right]\right) > 0.
+cov_{t} \left(e_{t}, r_{t} \mid \varepsilon_{t}^{m}\right) \stackrel {\text{de f}} {=} cov_{t} \left(p r o j \left[ e_{t} \mid \varepsilon_{t}^{m} \right], p r o j \left[ r_{t} \mid \varepsilon_{t}^{m} \right]\right) > 0.
 $$
 
 When we consider a demand shock  $\varepsilon_t^d$  whose primary effect is to raise the convenience yield, which lowers the bond yield while strengthening the currency, we expect a negative yield-exchange rate relationship:
 
 $$
-c o v_{t} (e_{t}, r_{t} | \varepsilon_{t}^{d}) \stackrel {\mathrm{de f}} {=} c o v_{t} (p r o j [ e_{t} | \varepsilon_{t}^{d} ], p r o j [ r_{t} | \varepsilon_{t}^{d} ]) <   0.
+cov_{t} (e_{t}, r_{t} | \varepsilon_{t}^{d}) \stackrel {\mathrm{de f}} {=} cov_{t} (p r o j [ e_{t} | \varepsilon_{t}^{d} ], p r o j [ r_{t} | \varepsilon_{t}^{d} ]) <   0.
 $$
 
 The overall relationship between the interest rate and the exchange rate depends on the relative strength of these two effects.
@@ -3275,13 +2507,13 @@ Then, in period  $t + 1$ , the investor has  $\exp (e_t + r_t^*)$  units of fore
 If this synthetic dollar bond does not carry a convenience yield, then, its Euler equation can be expressed as
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} - f_{t} + e_{t} + r_{t}^{*}) ]
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1} - f_{t} + e_{t} + r_{t}^{*}) ]
 $$
 
 from the home households' perspective, and
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right]
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right]
 $$
 
 from the foreign households' perspective.
@@ -3309,7 +2541,7 @@ We obtain a more realistic case by assuming that the synthetic dollar bond also 
 the convenience yield derived from the synthetic dollar bond is a fraction  $\beta^{*}$  of the convenience yield derived from the actual dollar bond from foreign households' perspective:
 
 $$
-\exp \left(- \beta^{*} \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right].
+\exp \left(- \beta^{*} \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right].
 $$
 
 If this synthetic dollar bond is representative of other non-Treasury dollar safe assets, a point we will next discuss in 4.C.1, then, conceptually we can say that for the convenience yield on the U.S. Treasury,  $\beta^{*}$  of it is about the dollar and  $1 - \beta^{*}$  of it is specifically about the U.S. Treasury. Indeed, combining with the derivation in Section 4.B, we obtain
@@ -3323,7 +2555,7 @@ which states that the Treasury basis captures the fraction of the convenience yi
 Similarly, from the home households' perspective, we assume that the convenience yield derived from the synthetic dollar bond is a fraction  $\beta$  of the convenience yield derived from the actual dollar bond:
 
 $$
-\exp (- \beta \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right],
+\exp (- \beta \lambda_{t}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right],
 $$
 
 which implies
@@ -3359,7 +2591,7 @@ $$
 Unlike the Treasury basis, the Libor basis was very close to zero before the Global Financial Crisis, and widened afterwards [Du, Tepper, and Verdelhan, 2018b]. This pattern suggests that the dollar Libor and the synthetic position based on the foreign Libor and the currency forward have a similar level of convenience yields before the crisis, i.e.,
 
 $$
-\begin{array}{l} \exp (- \beta^{*} \lambda_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} - l i b o r_{t}) \right], \\ = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + l i b o r_{t}^{*}\right) \right]. \\ \end{array}
+\begin{array}{l} \exp (- \beta^{*} \lambda_{t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} - l i b o r_{t}) \right], \\ = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + l i b o r_{t}^{*}\right) \right]. \\ \end{array}
 $$
 
 This is not a coincidence if there are investment banks who are indifferent between the two positions and actively arbitrage any spread between the Libor market and the currency forward market. As such, both the dollar Libor and the synthetic dollar bond earn the same, non-zero convenience yield  $\beta^{*}\lambda_{t}^{*}$ , so that their spread, i.e., the Libor basis  $x_{t}^{Libor}$ , is zero.
@@ -3367,11 +2599,11 @@ This is not a coincidence if there are investment banks who are indifferent betw
 After the crisis, likely due to regulatory constraints, the dollar Libor now contains a higher level of convenience yield, and banks face higher costs to arbitrage this spread.2 As a result, the dollar Libor has a higher level of convenience yield than the synthetic dollar bond, leading to a negative Libor basis:
 
 $$
-\exp (- \gamma^{*} \lambda_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} - l i b o r_{t}) \right],
+\exp (- \gamma^{*} \lambda_{t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} - l i b o r_{t}) \right],
 $$
 
 $$
-\exp \left(- \beta^{*} \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + l i b o r_{t}^{*}\right) \right];
+\exp \left(- \beta^{*} \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + l i b o r_{t}^{*}\right) \right];
 $$
 
 with  $\gamma^{*} > \beta^{*}$
@@ -3403,7 +2635,7 @@ The convenience yields accrue to bonds that are safe and liquid, which is why we
 We start with the model developed in Section 4.A, and additionally allow the households to trade long-term bonds. Specifically, let  $q_{t}(h)$  denote the book value of the home households' holding of the bond with maturity  $h$  and let  $p_{t}(h)$  denote the price of the bond with maturity  $h$ . All bonds are risk-free. We still assume that the investors derive utility only from holding the 1-period bond:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (q_{t} (1) p_{t} (1); \theta_{t})) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (q_{t} (1) p_{t} (1); \theta_{t})) \right].
 $$
 
 However, because the long-term Treasury bonds will eventually become short-term bonds as they mature, if the investors do not differentiate between on-the-run and off-the-run bonds, then, the convenience yield on the short-term bonds will also affect the pricing of the long-term bonds.
@@ -3413,25 +2645,25 @@ Similar to the model in Section 4.A, we can derive the households'
 Euler equation for holding the 1-period bond as
 
 $$
-\exp (- \lambda_{t}) \stackrel {\mathrm{de f}} {=} 1 - \frac{v^{\prime} (q_{t} (1) ; \theta_{t})}{u^{\prime} (c_{t})} = \mathbb {E}_{t} \left[ \exp (m_{t, t + 1}) \frac{1}{p_{t} (1)} \right],
+\exp (- \lambda_{t}) \stackrel {\mathrm{de f}} {=} 1 - \frac{v^{\prime} (q_{t} (1) ; \theta_{t})}{u^{\prime} (c_{t})} = \mathbb{E}_{t} \left[ \exp (m_{t, t + 1}) \frac{1}{p_{t} (1)} \right],
 $$
 
 where the convenience yield  $\lambda_{t}$  reflects the marginal utility derived from the convenience benefits of the 1-period bond. Rearranging terms, we obtain
 
 $$
-p_{t} (1) = \mathbb {E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \right] \exp (\lambda_{t}).
+p_{t} (1) = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \right] \exp (\lambda_{t}).
 $$
 
 Now, consider the 2-period bond. We can write the households' Euler equation for this bond as
 
 $$
-p_{t} (2) = \mathbb {E}_{t} \left[ \exp (m_{t, t + 1}) p_{t + 1} (1) \right],
+p_{t} (2) = \mathbb{E}_{t} \left[ \exp (m_{t, t + 1}) p_{t + 1} (1) \right],
 $$
 
 which does not contain a convenience yield term since the 2-period bond does not offer any immediate convenience benefits. However, if we substitute the 1-period bond price into the equation, we obtain
 
 $$
-p_{t} (2) = \mathbb {E}_{t} \left[ \exp \left(m_{t, t + 1} + \lambda_{t + 1}\right) \mathbb {E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right],
+p_{t} (2) = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + 1} + \lambda_{t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right],
 $$
 
 which implies that the bond price today reflects the expectation of the bond's convenience yield when it becomes 1-period bond in the next period. In this way, the convenience yield that only accrues to the short-term bond can affect the entire term structure of bond prices.
@@ -3439,7 +2671,7 @@ which implies that the bond price today reflects the expectation of the bond's c
 Moreover, the next period's convenience yield  $\lambda_{t+1}$  is priced by the SDF  $m_{t,t+1}$  in the sense that their covariance also matters. We can rewrite the 2-period bond price as
 
 $$
-\begin{array}{l} p_{t} (2) = \mathbb {E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \mathbb {E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right] \mathbb {E}_{t} \left[ \exp \left(\lambda_{t + 1}\right) \right] \\ + c o v_{t} \left(\exp \left(m_{t, t + 1}\right) \mathbb {E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right], \exp \left(\lambda_{t + 1}\right)\right). \\ \end{array}
+\begin{array}{l} p_{t} (2) = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right] \mathbb{E}_{t} \left[ \exp \left(\lambda_{t + 1}\right) \right] \\ + cov_{t} \left(\exp \left(m_{t, t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right], \exp \left(\lambda_{t + 1}\right)\right). \\ \end{array}
 $$
 
 On the right-hand side, the first term shows that a higher expected convenience yield increases the price of the 2-period bond today, and the second term shows that a more counter-cyclical convenience yield can additionally raise the bond price by lowering its risk premium.
@@ -3451,7 +2683,7 @@ More realistically, we can additionally assume that the investors derive utility
 can generalize the function  $v$  as
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (\sum_{h = 1}^{H} w_{t} (h) q_{t} (h) p_{t} (h); \theta_{t})) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (\sum_{h = 1}^{H} w_{t} (h) q_{t} (h) p_{t} (h); \theta_{t})) \right],
 $$
 
 where the weight  $w_{t}(h)$  describes the relative amount of convenience generated by the bond with maturity  $h$ . For example, if the nonpecuniary utility is generated by the bonds' plegeability in the repo market, then,  $w_{t}(h)$  describes the different hair cuts on the bonds with different maturities.
@@ -3533,13 +2765,13 @@ In this section, we first develop a full general equilibrium model with incomple
 risk-free bonds are tradable, the original Euler equation (1.6) holds, i.e.,
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
 $$
 
 which does not require us to introduce additional Euler equation wedges as we did in our discussion of convenience yields in Chapter 4, i.e.,
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right].
+\exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right].
 $$
 
 In this sense, the incomplete-market wedge  $\eta$  in Eq. (5.1) is conceptually distinct from the Euler equation wedge  $\lambda_{t}$ . We will further develop these model ingredients throughout this section.
@@ -3565,7 +2797,7 @@ $$
 The home households' utility is given by
 
 $$
-\mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) u (c_{t}) d t \right],
+\mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) u (c_{t}) d t \right],
 $$
 
 where  $u(c_{t}) = \gamma_{t}\log (c_{t})$  and the aggregate consumption is again a Cobb-Douglas aggregation of the home and foreign goods:  $c_{t} = (c_{H,t})^{\alpha}(c_{F,t})^{(1 - \alpha)}$ . Relative to the baseline model, here we additionally have a stochastic term  $\gamma_{t}$  which captures demand shocks. We assume that  $\gamma_{t}$  follows
@@ -3579,7 +2811,7 @@ which guarantees that  $\gamma_{t}$  is a strictly positive adapted stochastic p
 The foreign households' utility is given by
 
 $$
-\mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) u^{*} (c_{t}^{*}) d t \right],
+\mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) u^{*} (c_{t}^{*}) d t \right],
 $$
 
 where  $u^{*}(c_{t}^{*}) = \gamma^{*}\log (c_{t}^{*})$  and  $c_{t}^{*} = (c_{F,t}^{*})^{\alpha}(c_{H,t}^{*})^{(1 - \alpha)}$ . We assume that there are no time-varying demand shocks for foreign household, i.e.  $\gamma^{*}$  is constant.
@@ -3707,19 +2939,19 @@ $$
 and 4 Euler equations,
 
 $$
-0 = \mathbb {E}_{t} \left[ d \exp \left(m_{t} + \int_{0}^{t} r_{u}\right) \right],
+0 = \mathbb{E}_{t} \left[ d \exp \left(m_{t} + \int_{0}^{t} r_{u}\right) \right],
 $$
 
 $$
-0 = \mathbb {E}_{t} \left[ d \exp \left(m_{t} - e_{t} + \int_{0}^{t} r_{u}^{*}\right) \right],
+0 = \mathbb{E}_{t} \left[ d \exp \left(m_{t} - e_{t} + \int_{0}^{t} r_{u}^{*}\right) \right],
 $$
 
 $$
-0 = \mathbb {E}_{t} \left[ d \exp \left(m_{t}^{*} + \int_{0}^{t} r_{u}^{*}\right) \right],
+0 = \mathbb{E}_{t} \left[ d \exp \left(m_{t}^{*} + \int_{0}^{t} r_{u}^{*}\right) \right],
 $$
 
 $$
-0 = \mathbb {E}_{t} \left[ d \exp \left(m_{t}^{*} + e_{t} + \int_{0}^{t} r_{u}\right) \right],
+0 = \mathbb{E}_{t} \left[ d \exp \left(m_{t}^{*} + e_{t} + \int_{0}^{t} r_{u}\right) \right],
 $$
 
 where the consumption-based SDFs are defined as
@@ -3737,7 +2969,7 @@ $$
 The home household's portfolio choice problem is
 
 $$
-\max_{c_{t}, x_{t}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma_{t} \log c_{t} d t \right]
+\max_{c_{t}, x_{t}} \mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma_{t} \log c_{t} d t \right]
 $$
 
 $$
@@ -3753,7 +2985,7 @@ $$
 where the exchange rate  $e_t$  is unaffected by the decision of the competitive households, we can express foreign household's portfolio choice problem as
 
 $$
-\max_{\tilde {c}_{t}^{*}, x_{t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log \tilde {c}_{t}^{*} d t \right]
+\max_{\tilde {c}_{t}^{*}, x_{t}^{*}} \mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log \tilde {c}_{t}^{*} d t \right]
 $$
 
 $$
@@ -3765,11 +2997,11 @@ In this way, under the log preference, the optimization problems are formally eq
 Next, to deal with the market incompleteness, we follow He and Pearson [1991] to convert the above home household's dynamic portfolio choice problem to a static variational problem:
 
 $$
-\max_{c_{t}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma_{t} \log c_{t} d t \right] \tag {5.2}
+\max_{c_{t}} \mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma_{t} \log c_{t} d t \right] \tag {5.2}
 $$
 
 $$
-\begin{array}{r l} \text{s .t .} & \mathbb {E} \left[ \int_{0}^{T} \exp (m_{\nu , t}) (c_{t} - p_{t} y_{t}) d t \right] \leq W_{0}, \end{array}
+\begin{array}{r l} \text{s .t .} & \mathbb{E} \left[ \int_{0}^{T} \exp (m_{\nu , t}) (c_{t} - p_{t} y_{t}) d t \right] \leq W_{0}, \end{array}
 $$
 
 where  $\exp(m_{\nu,t})$  denotes an appropriate home SDF. In incomplete markets, multiple SDFs are consistent with no arbitrage, giving rise to an infinite number of the static budget constraint. To characterize this family of SDFs, let  $\lambda_t$  denote the home country market price of risk,
@@ -3803,11 +3035,11 @@ When we have three non-redundant risky assets, the markets are complete, and the
 Similarly, for foreign households, the static problem is
 
 $$
-\max_{\tilde {c}_{t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log \tilde {c}_{t}^{*} d t \right] \tag {5.3}
+\max_{\tilde {c}_{t}^{*}} \mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log \tilde {c}_{t}^{*} d t \right] \tag {5.3}
 $$
 
 $$
-\begin{array}{l l} \text{s .t .} & \mathbb {E} \left[ \int_{0}^{T} \exp (m_{\tilde {\nu}, t}) (\tilde {c}_{t}^{*} - p_{t}^{*} \exp (- e_{t}) y_{t}^{*}) d t \right] \leq \tilde {W}_{0}^{*}, \end{array}
+\begin{array}{l l} \text{s .t .} & \mathbb{E} \left[ \int_{0}^{T} \exp (m_{\tilde {\nu}, t}) (\tilde {c}_{t}^{*} - p_{t}^{*} \exp (- e_{t}) y_{t}^{*}) d t \right] \leq \tilde {W}_{0}^{*}, \end{array}
 $$
 
 where
@@ -3875,7 +3107,7 @@ In the presence of incomplete markets, the equilibrium allocation is Pareto opti
 maximizes its utility subject to the resource constraints:
 
 $$
-\begin{array}{l} \max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{t}) + \pi_{t} u^{*} (c_{t}^{*})) d t \right] \\ \begin{array}{r l} \mathbf {s}. \mathbf {t}. & c_{H, t} + c_{H, t}^{*} = y_{t}, c_{F, t} + c_{F, t}^{*} = y_{t}^{*}, \end{array} \\ \end{array}
+\begin{array}{l} \max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{t}) + \pi_{t} u^{*} (c_{t}^{*})) d t \right] \\ \begin{array}{r l} \mathbf {s}. \mathbf {t}. & c_{H, t} + c_{H, t}^{*} = y_{t}, c_{F, t} + c_{F, t}^{*} = y_{t}^{*}, \end{array} \\ \end{array}
 $$
 
 where the Pareto weight  $\pi_t$  is stochastic. It can be shown that  $\pi_t$  is simply the ratio of the marginal utilities of either good of the two countries' households, which reflects the relative importance the planner assigns to the foreign households relative to the home households.
@@ -4013,7 +3245,7 @@ When the markets are complete, the model we consider reduces to a special case o
 maximizes the following objective function with a constant Pareto weight:
 
 $$
-\max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \quad \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{t}) + \pi u^{*} (c_{t}^{*})) d t \right]
+\max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \quad \mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{t}) + \pi u^{*} (c_{t}^{*})) d t \right]
 $$
 
 $$
@@ -4111,13 +3343,13 @@ $$
 To explain the restrictions implied by the Euler equations, we plug in  $\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}$  to the Euler equation (1.9), reproduced below,
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right],
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right],
 $$
 
 to obtain
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + \eta_{t + 1} + r_{t}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + \eta_{t + 1} + r_{t}\right) \right].
 $$
 
 In this equation,  $m_{t+1} + \eta_{t+1}$  expresses the foreign households' SDF in the home numétaire, which prices the home risk-free rate.
@@ -4125,13 +3357,13 @@ In this equation,  $m_{t+1} + \eta_{t+1}$  expresses the foreign households' SDF
 Together with the Euler equation (1.6), reproduced below,
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right],
 $$
 
 and assuming joint normality, they impose a restriction on the joint distribution of  $m_{t+1}$  and  $\eta_{t+1}$ :
 
 $$
-\mathbb {E}_{t} \left[ \eta_{t + 1} \right] + \frac{1}{2} v a r_{t} \left(\eta_{t + 1}\right) + c o v_{t} \left(m_{t + 1}, \eta_{t + 1}\right) = 0. \tag {5.10}
+\mathbb{E}_{t} \left[ \eta_{t + 1} \right] + \frac{1}{2} var_{t} \left(\eta_{t + 1}\right) + cov_{t} \left(m_{t + 1}, \eta_{t + 1}\right) = 0. \tag {5.10}
 $$
 
 In the language of closed-economy incomplete-market models, we can say that incomplete markets allow multiple SDFs to be consistent with the asset market equilibrium, and  $m_{t+1}$  and  $m_{t+1} + \eta_{t+1}$  are both valid SDFs. However,  $m_{t+1}$  and  $m_{t+1} + \eta_{t+1}$  cannot be arbitrary. The fact that they both price the home risk-free bond implies a restriction, which is what we derived in Eq. (5.10).
@@ -4139,13 +3371,13 @@ In the language of closed-economy incomplete-market models, we can say that inco
 Similarly, home and foreign SDFs satisfy the following Euler equations,
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} - \eta_{t + 1} + r_{t}^{*}\right) \right], \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} - \eta_{t + 1} + r_{t}^{*}\right) \right], \\ \end{array}
 $$
 
 which imply a restriction on the joint distribution of  $m_{t + 1}^{*}$  and  $\eta_{t + 1}$ :
 
 $$
-\mathbb {E}_{t} \left[ \eta_{t + 1} \right] - \frac{1}{2} \operatorname{va r}_{t} \left(\eta_{t + 1}\right) + \operatorname{co v}_{t} \left(m_{t + 1}^{*}, \eta_{t + 1}\right) = 0. \tag {5.11}
+\mathbb{E}_{t} \left[ \eta_{t + 1} \right] - \frac{1}{2} \operatorname{va r}_{t} \left(\eta_{t + 1}\right) + \operatorname{co v}_{t} \left(m_{t + 1}^{*}, \eta_{t + 1}\right) = 0. \tag {5.11}
 $$
 
 The restrictions (5.10) and (5.11) imply
@@ -4159,13 +3391,13 @@ This is the key implication of the Euler equations. The incomplete-market wedge 
 Rearranging (5.12), we obtain
 
 $$
-c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) = - v a r_{t} \left(\eta_{t + 1}\right);
+cov_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) = - var_{t} \left(\eta_{t + 1}\right);
 $$
 
 that is, in order for the incomplete-market wedge  $\eta_{t+1}$  to be orthogonal to the exchange rate movement  $\Delta e_{t+1}$ , it has to be negatively correlated with the SDF differential  $m_{t+1} - m_{t+1}^*$ . Then, the exchange rate variance becomes
 
 $$
-\begin{array}{l} v a r_{t} (\Delta e_{t + 1}) = v a r_{t} (m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}) = v a r_{t} (m_{t + 1} - m_{t + 1}^{*}) + v a r_{t} (\eta_{t + 1}) + 2 c o v_{t} (m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}) \\ = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - v a r_{t} \left(\eta_{t + 1}\right). \\ \end{array}
+\begin{array}{l} var_{t} (\Delta e_{t + 1}) = var_{t} (m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}) = var_{t} (m_{t + 1} - m_{t + 1}^{*}) + var_{t} (\eta_{t + 1}) + 2 cov_{t} (m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}) \\ = var_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - var_{t} \left(\eta_{t + 1}\right). \\ \end{array}
 $$
 
 In other words, since the incomplete-market wedge  $\eta_{t + 1}$  is negatively correlated with the SDF differential  $m_{t + 1} - m_{t + 1}^{*}$ , it reduces the exchange rate volatility relative to the volatility of the SDF differential.
@@ -4187,17 +3419,17 @@ $$
 (c) The conditional currency risk premium can be expressed as
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1} ] = \frac{1}{2} (v a r_{t} (m_{t + 1}^{*}) - v a r_{t} (m_{t + 1})) + \mathbb {E}_{t} [ \eta_{t + 1} ].
+\mathbb{E}_{t} [ r x_{t + 1} ] = \frac{1}{2} (var_{t} (m_{t + 1}^{*}) - var_{t} (m_{t + 1})) + \mathbb{E}_{t} [ \eta_{t + 1} ].
 $$
 
 The proof is presented in Appendix A.19. When the markets are complete,  $\eta_{t + 1} = 0$ , and the above results reduce to the complete-market solution we considered in Section 1.C, reproduced below:
 
 $$
-v a r_{t} (\Delta e_{t + 1}) = v a r_{t} (m_{t + 1} - m_{t + 1}^{*}),
+var_{t} (\Delta e_{t + 1}) = var_{t} (m_{t + 1} - m_{t + 1}^{*}),
 $$
 
 $$
-\begin{array}{l} c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right), \\ \mathbb {E}_{t} [ r x_{t + 1} ] = \frac{1}{2} (v a r_{t} (m_{t + 1}^{*}) - v a r_{t} (m_{t + 1})). \\ \end{array}
+\begin{array}{l} cov_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right), \\ \mathbb{E}_{t} [ r x_{t + 1} ] = \frac{1}{2} (var_{t} (m_{t + 1}^{*}) - var_{t} (m_{t + 1})). \\ \end{array}
 $$
 
 Relative to this complete-market benchmark, the presence of the incomplete-market wedge  $\eta_{t+1}$  always reduces the exchange rate volatility  $var_t(\Delta e_{t+1})$  relative to the variance of the SDF differential  $var_t(m_{t+1} - m_{t+1}^*)$ . This result shows that market incompleteness is a useful ingredient for resolving the exchange rate puzzles, as we expect the SDF volatility to be much higher than the exchange rate volatility, while the cross-country SDF correlation is not high enough to reduce  $var_t(m_{t+1} - m_{t+1}^*)$  [Brandt, Cochrane, and Santa-Clara, 2006]. In the presence of a volatile incomplete-market wedge  $\eta_{t+1}$ , the exchange rate volatility can be much lower than the SDF volatility.
@@ -4209,7 +3441,7 @@ Finally, in incomplete markets, the exchange rate cyclicality is still equal to 
 Lustig and Verdelhan [2019] further point out a trade-off between resolving the exchange rate volatility puzzle and the currency risk premium puzzle. The Euler equations impose restrictions on the joint dynamics of the exchange rate movement, the SDF, and  $\eta_{t+1}$ . When we rely on a volatile  $\eta_{t+1}$  to reduce the exchange rate volatility and cyclicality, we also shrink the currency risk premium. To see this dilemma, recall from Proposition 1.1, which is valid in complete and incomplete markets, that the currency risk premium can be expressed as
 
 $$
-\log \mathbb {E}_{t} [ \exp (r x_{t + 1}) ] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right).
+\log \mathbb{E}_{t} [ \exp (r x_{t + 1}) ] = - cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right).
 $$
 
 When a volatile  $\eta_{t + 1}$  term lowers the exchange rate volatility and the covariance between the SDF and the exchange rate movement, it also
@@ -4237,15 +3469,15 @@ $$
 We identify the coefficients  $x_{t}, y_{t}, z_{t}$ , and  $w_{t}$  by assuming that the covariance between the SDFs and the residual  $\varepsilon_{t+1}$  is zero, i.e.,  $cov_{t}(m_{t+1}, \varepsilon_{t+1}) = cov_{t}(m_{t+1}^{*}, \varepsilon_{t+1}) = 0$ , which uniquely pins down
 
 $$
-y_{t} = \frac{c o v_{t} (\Delta e_{t + 1} , m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) c o v_{t} (m_{t + 1} , m_{t + 1}^{*})}{v a r_{t} (m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
+y_{t} = \frac{cov_{t} (\Delta e_{t + 1} , m_{t + 1}) var_{t} (m_{t + 1}^{*}) - cov_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) cov_{t} (m_{t + 1} , m_{t + 1}^{*})}{var_{t} (m_{t + 1}) var_{t} (m_{t + 1}^{*}) - cov_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
 $$
 
 $$
-z_{t} = \frac{c o v_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) v a r_{t} (m_{t + 1}) - c o v_{t} (\Delta e_{t + 1} , m_{t + 1}) c o v_{t} (m_{t + 1} , m_{t + 1}^{*})}{v a r_{t} (m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
+z_{t} = \frac{cov_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) var_{t} (m_{t + 1}) - cov_{t} (\Delta e_{t + 1} , m_{t + 1}) cov_{t} (m_{t + 1} , m_{t + 1}^{*})}{var_{t} (m_{t + 1}) var_{t} (m_{t + 1}^{*}) - cov_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
 $$
 
 $$
-x_{t} = \mathbb {E}_{t} [ \Delta e_{t + 1} ] - y_{t} \mathbb {E}_{t} [ m_{t + 1} ] - z_{t} \mathbb {E}_{t} [ m_{t + 1}^{*} ],
+x_{t} = \mathbb{E}_{t} [ \Delta e_{t + 1} ] - y_{t} \mathbb{E}_{t} [ m_{t + 1} ] - z_{t} \mathbb{E}_{t} [ m_{t + 1}^{*} ],
 $$
 
 $$
@@ -4269,13 +3501,13 @@ $$
 (b) The conditional exchange rate cyclicality can be expressed as
 
 $$
-c o v_{t} (m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}) = c o v_{t} (y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} - m_{t + 1}^{*}).
+cov_{t} (m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}) = cov_{t} (y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} - m_{t + 1}^{*}).
 $$
 
 (c) Using the Euler equations (1.6)-(1.9), the conditional currency risk premium can be expressed as
 
 $$
-r p_{t} \stackrel {{d e f}} {{=}} \mathbb {E}_{t} [ r x_{t + 1} ] = - \frac{1}{2} c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right).
+r p_{t} \stackrel {{d e f}} {{=}} \mathbb{E}_{t} [ r x_{t + 1} ] = - \frac{1}{2} cov_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right).
 $$
 
 The proof is in Appendix A.20. As a special case, when markets are complete,  $y_{t} = 1$ ,  $z_{t} = -1$  and  $\varepsilon_{t+1} = 0$ . These exchange rate moments simplify to
@@ -4285,7 +3517,7 @@ $$
 $$
 
 $$
-\begin{array}{l} c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}^{c m}\right) = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right), \\ r p_{t}^{c m} = - \frac{1}{2} c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right) = \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right) - \frac{1}{2} v a r_{t} \left(m_{t + 1}\right), \\ \end{array}
+\begin{array}{l} cov_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}^{c m}\right) = var_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right), \\ r p_{t}^{c m} = - \frac{1}{2} cov_{t} \left(m_{t + 1} - m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right) = \frac{1}{2} var_{t} \left(m_{t + 1}^{*}\right) - \frac{1}{2} var_{t} \left(m_{t + 1}\right), \\ \end{array}
 $$
 
 which recovers the complete-market solution in Section 1.C.
@@ -4309,7 +3541,7 @@ Then, using the Euler equations (1.6)-(1.9), we can derive the following bound o
 Proposition 5.6. The Euler equations impose the following constraints on the pass-through coefficients  $y_{t}$  and  $z_{t}$ :
 
 $$
-y_{t} (y_{t} - 1) v a r_{t} (m_{t + 1}) + z_{t} (z_{t} + 1) v a r_{t} (m_{t + 1}^{*}) +
+y_{t} (y_{t} - 1) var_{t} (m_{t + 1}) + z_{t} (z_{t} + 1) var_{t} (m_{t + 1}^{*}) +
 $$
 
 $$
@@ -4358,13 +3590,13 @@ As a result, the three bilateral exchange rates are not mutually independent. Gi
 When the markets are incomplete, the simple mapping from the SDFs to the bilateral exchange rates no longer holds. It is no longer sufficient to only study the dynamics between the home country and each foreign country. To see this point, consider the Euler equations (1.6)-(1.9) for holding the home and foreign risk-free bonds. Rewriting Eq. (1.12) for countries 0 and 1, we obtain
 
 $$
-c o v_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)} - \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 1}\right) = 0. \tag {5.18}
+cov_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)} - \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 1}\right) = 0. \tag {5.18}
 $$
 
 Similarly, for countries 0 and 2, we obtain
 
 $$
-c o v_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)} - \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 2}\right) = 0. \tag {5.19}
+cov_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)} - \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 2}\right) = 0. \tag {5.19}
 $$
 
 These equations arise in a large class of two-country models in which risk-free bonds are traded. They are also part of Proposition 5.4 which characterizes the exchange rate cyclicality.
@@ -4372,7 +3604,7 @@ These equations arise in a large class of two-country models in which risk-free 
 Next, we consider the Euler equations for risk-free bonds between countries 1 and 2, which are
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{(1)} + r_{t}^{(1)}) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{(1)} - \Delta e_{t + 1}^{1 / 2} + r_{t}^{(2)}) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{(2)} + r_{t}^{(2)}) \right], \\ 1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{(2)} + \Delta e_{t + 1}^{1 / 2} + r_{t}^{(1)}) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{(1)} + r_{t}^{(1)}) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{(1)} - \Delta e_{t + 1}^{1 / 2} + r_{t}^{(2)}) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{(2)} + r_{t}^{(2)}) \right], \\ 1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{(2)} + \Delta e_{t + 1}^{1 / 2} + r_{t}^{(1)}) \right]. \\ \end{array}
 $$
 
 The following proposition shows that these equations give rise to additional restrictions on the exchange rate dynamics [Jiang, 2023b].
@@ -4380,7 +3612,7 @@ The following proposition shows that these equations give rise to additional res
 Proposition 5.7. The Euler equations for risk-free bonds between countries 1 and 2 imply
 
 $$
-c o v_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)} - \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2}\right) + c o v_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)} - \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1}\right) = 0. \tag {5.20}
+cov_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)} - \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2}\right) + cov_{t} \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)} - \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1}\right) = 0. \tag {5.20}
 $$
 
 The proof is presented in Appendix A.22. This proposition shows that, while the bilateral exchange rate movements  $\Delta e_{t+1}^{0/1}$  and  $\Delta e_{t+1}^{0/2}$
@@ -4396,7 +3628,7 @@ What do these additional restrictions imply for the exchange rate dynamics? To a
 Let us consider a three-country extension of the Pavlova and Rigobon [2012] model we considered in Section 5.A. Again, we consider three countries labeled as 0, 1 and 2. Each country  $i$  has a unique variety of local goods, and a representative agent with log preference scaled by a demand shock  $\gamma_t^{(i)}$ :
 
 $$
-\mathbb {E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \log c_{t}^{(i)} \right],
+\mathbb{E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \log c_{t}^{(i)} \right],
 $$
 
 and the aggregate consumption is a Cobb-Douglas aggregate of the three countries' local goods. Specifically, let  $c_{j,t}^{(i)}$  denote country  $i$ 's agent's consumption of country  $j$ 's goods, then,
@@ -4488,13 +3720,13 @@ In our derivation, we will also use the lower case  $p_t(h)$  to denote the pric
 If an asset with real return  $\tilde{r}_{t+1}$ , its nominal return is  $\tilde{r}_{t+1} + \pi_{t+1}$ . We can price this asset either by
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + \tilde {r}_{t + 1}) ],
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1} + \tilde {r}_{t + 1}) ],
 $$
 
 or equivalently by
 
 $$
-1 = \mathbb {E}_{t} [ \exp (M_{t + 1} + \tilde {r}_{t + 1} + \pi_{t + 1}) ].
+1 = \mathbb{E}_{t} [ \exp (M_{t + 1} + \tilde {r}_{t + 1} + \pi_{t + 1}) ].
 $$
 
 # 6.A.1 Exchange Rate Accounting
@@ -4502,25 +3734,25 @@ $$
 Next, let us relate these concepts to the exchange rate accounting exercises in Section 1.B and 4.B. Starting from the Euler equation for the nominal bond return, we have
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1} + i_{t}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(M_{t + 1} + i_{t}\right) \right],
 $$
 
 which implies
 
 $$
-\exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \right] = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \pi_{t + 1}\right) \right].
+\exp (- i_{t}) = \mathbb{E}_{t} \left[ \exp (M_{t + 1}) \right] = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \pi_{t + 1}\right) \right].
 $$
 
 Assuming joint normality, we can express the nominal interest rate as
 
 $$
-\begin{array}{l} i_{t} = - \mathbb {E}_{t} \left[ m_{t + 1} \right] - \frac{1}{2} v a r_{t} \left(m_{t + 1}\right) + \mathbb {E}_{t} \left[ \pi_{t + 1} \right] - \frac{1}{2} v a r_{t} \left(\pi_{t + 1}\right) + c o v_{t} \left(m_{t + 1}, \pi_{t + 1}\right) \\ = r_{t} + \mathbb {E}_{t} \left[ \pi_{t + 1} \right] + i r p_{t}, \tag {6.2} \\ \end{array}
+\begin{array}{l} i_{t} = - \mathbb{E}_{t} \left[ m_{t + 1} \right] - \frac{1}{2} var_{t} \left(m_{t + 1}\right) + \mathbb{E}_{t} \left[ \pi_{t + 1} \right] - \frac{1}{2} var_{t} \left(\pi_{t + 1}\right) + cov_{t} \left(m_{t + 1}, \pi_{t + 1}\right) \\ = r_{t} + \mathbb{E}_{t} \left[ \pi_{t + 1} \right] + i r p_{t}, \tag {6.2} \\ \end{array}
 $$
 
 where
 
 $$
-i r p_{t} \stackrel {\text{de f}} {=} c o v_{t} \left(m_{t + 1}, \pi_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\pi_{t + 1}\right)
+i r p_{t} \stackrel {\text{de f}} {=} cov_{t} \left(m_{t + 1}, \pi_{t + 1}\right) - \frac{1}{2} var_{t} \left(\pi_{t + 1}\right)
 $$
 
 denotes the inflation risk premium. This expression shows that the nominal interest rate  $i_t$  can be decomposed into the real interest rate  $r_t$ , the expected inflation rate  $\mathbb{E}_t[\pi_{t+1}]$ , and the inflation risk premium  $irp_t$ .
@@ -4536,13 +3768,13 @@ Then, we obtain the nominal version of Proposition 1.1, which states that, in th
 Proposition 6.1. The home currency's expected log excess return is determined by the covariance between the log foreign SDF and log exchange rate movement minus a Jensen's term:
 
 $$
-R P_{t} \stackrel {\text{de f}} {=} \mathbb {E}_{t} [ R X_{t + 1} ] = - c o v_{t} (M_{t + 1}^{*}, \Delta \mathcal {E}_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta \mathcal {E}_{t + 1}).
+R P_{t} \stackrel {\text{de f}} {=} \mathbb{E}_{t} [ R X_{t + 1} ] = - cov_{t} (M_{t + 1}^{*}, \Delta \mathcal {E}_{t + 1}) - \frac{1}{2} var_{t} (\Delta \mathcal {E}_{t + 1}).
 $$
 
 However, I hesitate to generalize the real exchange rate decomposition in Proposition 1.2 to the nominal case, because it relies on exchange rate stationarity. Specifically, assuming that the nominal exchange rate is stationary, we can express its level as
 
 $$
-\mathcal {E}_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ i_{t + j} - i_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ R P_{t + j} \right] + \bar {\mathcal {E}}. \tag {6.3}
+\mathcal {E}_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ i_{t + j} - i_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ R P_{t + j} \right] + \bar {\mathcal {E}}. \tag {6.3}
 $$
 
 What prevents this formula from describing a realistic situation is that the price level is usually considered to be non-stationary. For example, suppose the real exchange rate and the foreign inflation are fixed, and the U.S. experiences a persistent increase in inflation, which raises the price level  $P_{t}$  today and increases the expected future inflation. Holding the real rate constant, the latter effect also raises the U.S. nominal interest rate  $i_{t+j}$  in the future. Then, from  $\exp(e_{t}) = \exp(\mathcal{E}_{t})P_{t} / P_{t}^{*}$ , we should expect the home inflation to depreciate the home currency in nominal terms, i.e.,  $\mathcal{E}_{t}$  declines. On the other hand, Eq. (6.3) implies that a higher expected path of the home nominal interest rate  $i_{t+j}$  should imply a stronger home currency in nominal terms, i.e.,  $\mathcal{E}_{t}$  increases, which leads to a contradiction.
@@ -4564,7 +3796,7 @@ and foreign firms are indexed by  $f \in [0,1]$ . Each firm produces a unique va
 The lifetime expected utility of home household  $j$  is
 
 $$
-\mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} u_{t} (j) \stackrel {{\mathrm{de f}}} {{=}} \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \frac{\ell_{t} (j)^{1 + \nu}}{1 + \nu}\right),
+\mathbb{E}_{0} \sum_{t = 0}^{\infty} \delta^{t} u_{t} (j) \stackrel {{\mathrm{de f}}} {{=}} \mathbb{E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \frac{\ell_{t} (j)^{1 + \nu}}{1 + \nu}\right),
 $$
 
 where  $\ell_t(j)$  is the labor effort, and  $\nu > 0$  is the labor curvature coefficient.  $c_t(j)$  is the consumption composed of a Cobb-Douglas basket of home and foreign bundles:
@@ -4620,7 +3852,7 @@ $$
 The home household's Lagrangian is
 
 $$
-\begin{array}{l} \mathcal {L} (j) = \max  \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \frac{\ell_{t} (j)^{1 + \nu}}{1 + \nu}\right) \\ - \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \zeta_{t} (j) \left\{\sum_{\sigma_{t + 1}} \Omega_{t} \left(\sigma_{t + 1}, j\right) \Theta \left(\sigma_{t + 1} \mid \sigma_{t}\right) + \exp \left(- \mathcal {E}_{t}\right) \sum_{\sigma_{t + 1}} \Omega_{t}^{*} \left(\sigma_{t + 1}, j\right) \Theta^{*} \left(\sigma_{t + 1} \mid \sigma_{t}\right) \right. \\ \left. - W_{t} \ell_{t} (j) - D_{t} (j) + P_{t} \tau_{t} (j) + P_{t} c_{t} (j) - \Omega_{t - 1} (\sigma_{t}, j) - \exp \left(- \mathcal {E}_{t}\right) \Omega_{t - 1}^{*} (\sigma_{t}, j) \right\} \\ \end{array}
+\begin{array}{l} \mathcal {L} (j) = \max  \mathbb{E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \frac{\ell_{t} (j)^{1 + \nu}}{1 + \nu}\right) \\ - \mathbb{E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \zeta_{t} (j) \left\{\sum_{\sigma_{t + 1}} \Omega_{t} \left(\sigma_{t + 1}, j\right) \Theta \left(\sigma_{t + 1} \mid \sigma_{t}\right) + \exp \left(- \mathcal {E}_{t}\right) \sum_{\sigma_{t + 1}} \Omega_{t}^{*} \left(\sigma_{t + 1}, j\right) \Theta^{*} \left(\sigma_{t + 1} \mid \sigma_{t}\right) \right. \\ \left. - W_{t} \ell_{t} (j) - D_{t} (j) + P_{t} \tau_{t} (j) + P_{t} c_{t} (j) - \Omega_{t - 1} (\sigma_{t}, j) - \exp \left(- \mathcal {E}_{t}\right) \Omega_{t - 1}^{*} (\sigma_{t}, j) \right\} \\ \end{array}
 $$
 
 The first-order conditions imply
@@ -4728,19 +3960,19 @@ Let  $s_t \stackrel{\mathrm{def}}{=} \tau_t - g_t$  denote the home real governm
 Iterate forward the Home government's intertemporal budget condition,
 
 $$
-\frac{Q_{t}}{P_{t}} = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] + \lim_{T \rightarrow \infty} \mathbb {E}_{t} \left[ \exp (m_{t, t + T}) \frac{Q_{t + T}}{P_{t + T}} \right].
+\frac{Q_{t}}{P_{t}} = \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] + \lim_{T \rightarrow \infty} \mathbb{E}_{t} \left[ \exp (m_{t, t + T}) \frac{Q_{t + T}}{P_{t + T}} \right].
 $$
 
 The transversality condition requires that the terminal value in the intertemporal budget condition vanishes:
 
 $$
-\lim_{T \rightarrow \infty} \mathbb {E}_{t} \left[ \exp (m_{t, t + T}) \frac{Q_{t + T}}{P_{t + T}} \right] = 0,
+\lim_{T \rightarrow \infty} \mathbb{E}_{t} \left[ \exp (m_{t, t + T}) \frac{Q_{t + T}}{P_{t + T}} \right] = 0,
 $$
 
 which is equivalent to requiring that the present value of government surpluses grows slower than the real discount rate:
 
 $$
-\lim_{T \to \infty} \mathbb {E}_{t} \left[ \exp (m_{t, t + T}) \left(\sum_{k = 0}^{\infty} \exp (m_{t + T, t + T + k}) s_{t + T + k}\right) \right] = 0.
+\lim_{T \to \infty} \mathbb{E}_{t} \left[ \exp (m_{t, t + T}) \left(\sum_{k = 0}^{\infty} \exp (m_{t + T, t + T + k}) s_{t + T + k}\right) \right] = 0.
 $$
 
 We will further discuss this transversality condition in Section 8.C.
@@ -4748,7 +3980,7 @@ We will further discuss this transversality condition in Section 8.C.
 Under this transversality condition, the government's intertemporal budget condition becomes
 
 $$
-\frac{Q_{t}}{P_{t}} = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(m_{t, t + k}\right) s_{t + k} \right]. \tag {6.6}
+\frac{Q_{t}}{P_{t}} = \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(m_{t, t + k}\right) s_{t + k} \right]. \tag {6.6}
 $$
 
 This equation states that the real value of government debt is equal to the real present value of government surpluses. In particular, if  $Q_{t} / P_{t}$  is greater than or smaller than the present value of government surpluses, an arbitrage opportunity will exist.
@@ -4760,7 +3992,7 @@ We assume that each country's monetary authority controls its local one-period n
 From the intertemporal Euler equation,
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} [ \exp (M_{t + 1}) \exp (i_{t}) ] = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \exp (i_{t}) \right] \\ \exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right], \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} [ \exp (M_{t + 1}) \exp (i_{t}) ] = \mathbb{E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \exp (i_{t}) \right] \\ \exp (- i_{t}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right], \\ \end{array}
 $$
 
 the nominal interest rate  $i_t$  pins down the expected inflation under the risk-neutral expectation. A higher nominal interest rate generates a higher expected inflation.
@@ -4774,7 +4006,7 @@ $$
 When the monetary authority raises the nominal interest rate  $i_{t}$ , if the fiscal policy  $(\tau_{t}, g_{t})$  and the current price level  $(P_{t})$  remain the same, then, the government has to issue a higher nominal amount of debt  $Q_{t+1}$ . This higher nominal amount of debt then raises the price level  $P_{t+1}$  in the next period via
 
 $$
-\frac{Q_{t + 1}}{P_{t + 1}} = \mathbb {E}_{t + 1} \left[ \sum_{k = 0}^{\infty} \exp (m_{t + 1, t + 1 + k}) s_{t + 1 + k} \right].
+\frac{Q_{t + 1}}{P_{t + 1}} = \mathbb{E}_{t + 1} \left[ \sum_{k = 0}^{\infty} \exp (m_{t + 1, t + 1 + k}) s_{t + 1 + k} \right].
 $$
 
 Equivalently, let  $q_{t} \stackrel{\mathrm{def}}{=} Q_{t} / P_{t}$  and recall  $\pi_{t} \stackrel{\mathrm{def}}{=} \Delta \log P_{t}$ . Then, we can express the government budget condition Eq. (6.5) in real terms as
@@ -4866,11 +4098,11 @@ $$
 2 equations relating the price levels to the government surpluses
 
 $$
-\frac{1}{P_{t}} = \frac{1}{Q_{t}} \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \delta^{k} \frac{c_{t}}{c_{t + k}} s_{t + k} \right], \tag {6.9}
+\frac{1}{P_{t}} = \frac{1}{Q_{t}} \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \delta^{k} \frac{c_{t}}{c_{t + k}} s_{t + k} \right], \tag {6.9}
 $$
 
 $$
-\frac{1}{P_{t}^{*}} = \frac{1}{Q_{t}^{*}} \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \delta^{k} \frac{c_{t}^{*}}{c_{t + k}^{*}} s_{t + k}^{*} \right], \tag {6.10}
+\frac{1}{P_{t}^{*}} = \frac{1}{Q_{t}^{*}} \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \delta^{k} \frac{c_{t}^{*}}{c_{t + k}^{*}} s_{t + k}^{*} \right], \tag {6.10}
 $$
 
 and 1 equation for the nominal exchange rate,
@@ -4924,7 +4156,7 @@ which implies that the aggregate price level is always set at the markup multipl
 We first consider a simplification of the model by setting  $\nu = 0$ . In this case, the disutility from work is linear in the labor provided:
 
 $$
-\mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} u_{t} (j) \stackrel {{\mathrm{de f}}} {{=}} \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \ell_{t} (j)\right).
+\mathbb{E}_{0} \sum_{t = 0}^{\infty} \delta^{t} u_{t} (j) \stackrel {{\mathrm{de f}}} {{=}} \mathbb{E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \ell_{t} (j)\right).
 $$
 
 As we will see below, this simplifying assumption implies that labor adjusts fully in response to government spending shocks. Let  $\bar{\ell} \stackrel{\mathrm{def}}{=} (\rho - 1) / (\rho \kappa)$  denote the natural rate of employment, which prevails in an economy without nominal rigidities and government spending. The following result characterizes the equilibrium allocation and exchange rate in the model.
@@ -4950,13 +4182,13 @@ $$
 the equilibrium price level is
 
 $$
-P_{t} = \frac{Q_{t}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}, \qquad P_{t}^{*} = \frac{Q_{t}^{*}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}^{*}) s_{t + k}^{*} \right]},
+P_{t} = \frac{Q_{t}}{\mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}, \qquad P_{t}^{*} = \frac{Q_{t}^{*}}{\mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}^{*}) s_{t + k}^{*} \right]},
 $$
 
 and the (risk-neutral) expected inflation satisfies
 
 $$
-\exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right].
+\exp (- i_{t}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right].
 $$
 
 The proof is presented in Appendix A.24. This proposition shows that, if  $\nu = 0$  and prices are flexible, neither monetary nor fiscal policies affect the equilibrium consumption or the real exchange rate; the price level adjusts to fully absorb the monetary and fiscal shocks. To be more precise, consumption is only determined by the stochastic productivity levels  $z_{t}$  and  $z_{t}^{*}$ . Due to home bias (i.e.,  $\alpha > 1/2$ ), the home households' consumption is more sensitive to the home productivity level and the foreign households' consumption is more sensitive to the foreign productivity level. This result is similar to the result we obtained in the complete-market endowment economy in Section 1.C, which implies that consumption is a linear combination of home and foreign endowments.
@@ -4964,13 +4196,13 @@ The proof is presented in Appendix A.24. This proposition shows that, if  $\nu =
 In terms of the monetary policy, this proposition shows that a higher nominal interest rate  $i_{t}$  leads to a higher expected inflation  $\pi_{t+1}$ , but it does not affect the real rate  $r_{t}$ , since the real rate only depends on the consumption dynamics:
 
 $$
-\exp (- r_{t}) = \mathbb {E}_{t} [ \exp (m_{t + 1}) ] = \mathbb {E}_{t} \left[ \delta \frac{c_{t}}{c_{t + 1}} \right].
+\exp (- r_{t}) = \mathbb{E}_{t} [ \exp (m_{t + 1}) ] = \mathbb{E}_{t} \left[ \delta \frac{c_{t}}{c_{t + 1}} \right].
 $$
 
 In terms of the fiscal policy, this proposition shows that neither tax  $\tau_{t}$  nor spending  $g_{t}$  affect consumption. For given productivity levels, a higher real government spending  $g_{t}$  incentivizes the households to work more and produce just enough goods to fund the government spending, while keeping their consumption level constant. A higher real tax  $\tau_{t}$ , on the other hand, does not affect the equilibrium labor and output—that is, whether the government chooses to fund its spending by raising tax or issuing new debt is irrelevant to real allocations. Both tax and spending do affect the price level, via the intertemporal government budget condition Eq. (6.6):
 
 $$
-P_{t} = \frac{Q_{t}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}.
+P_{t} = \frac{Q_{t}}{\mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}.
 $$
 
 In particular, a higher tax or a lower spending leads to a higher government surplus, which lowers the price level.
@@ -5006,13 +4238,13 @@ $$
 the equilibrium price level is
 
 $$
-P_{t} = \frac{Q_{t}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}, \qquad P_{t}^{*} = \frac{Q_{t}^{*}}{\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}^{*}) s_{t + k}^{*} \right]}
+P_{t} = \frac{Q_{t}}{\mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}) s_{t + k} \right]}, \qquad P_{t}^{*} = \frac{Q_{t}^{*}}{\mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t , t + k}^{*}) s_{t + k}^{*} \right]}
 $$
 
 and the (risk-neutral) expected inflation satisfies
 
 $$
-\exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right].
+\exp (- i_{t}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}) \frac{P_{t}}{P_{t + 1}} \right].
 $$
 
 The proof is presented in Appendix A.24. This proposition shows that the real consumption and the real exchange rate depend on not only the productivity shocks  $z_{t}$  and  $z_{t}^{*}$ , but also government spending-to-consumption ratios  $g_{t} / c_{t}$  and  $g_{t}^{*} / c_{t}^{*}$ . As such, while the monetary shocks still have no effects on real variables, fiscal spending shocks do.
@@ -5028,13 +4260,13 @@ In this way, the flexible-price model predicts that a higher government spending
 If prices are sticky, some or all firms cannot adjust their prices after the shocks are realized in each period. In this section, we consider a simple form of nominal rigidities: firms have to set prices one period in advance. Under this assumption, the firms' profit maximization problem only concerns one period. Take the home firm  $h$  as an example,
 
 $$
-\max_{p_{t} (h), p_{t}^{*} (h)} \mathbb {E}_{t - 1} [ \exp (M_{t - 1, t}) D_{t} (h) ].
+\max_{p_{t} (h), p_{t}^{*} (h)} \mathbb{E}_{t - 1} [ \exp (M_{t - 1, t}) D_{t} (h) ].
 $$
 
 Based on information available at time  $t - 1$ , the price at home  $p_t(h)$  is set to maximize the expected profit from the home market:
 
 $$
-\max_{p_{t} (h)} \mathbb {E}_{t - 1} \left[ \exp (M_{t - 1, t}) (p_{t} (h) - M C_{t}) \left(\frac{p_{t} (h)}{P_{H , t}}\right)^{- \rho} c_{H, t} \right].
+\max_{p_{t} (h)} \mathbb{E}_{t - 1} \left[ \exp (M_{t - 1, t}) (p_{t} (h) - M C_{t}) \left(\frac{p_{t} (h)}{P_{H , t}}\right)^{- \rho} c_{H, t} \right].
 $$
 
 The future profit is discounted by the domestic households' SDF  $\exp (M_{t - 1,t})$ , as they are the shareholders whose interests the firms maximize.
@@ -5042,13 +4274,13 @@ The future profit is discounted by the domestic households' SDF  $\exp (M_{t - 1
 The first-order condition is
 
 $$
-0 = \mathbb {E}_{t - 1} \left[ \delta \frac{P_{t - 1} c_{t - 1}}{P_{t} c_{t}} \left((1 - \rho) p_{t} (h)^{- \rho} + \rho M C_{t} p_{t} (h)^{- \rho - 1}\right) \left(\frac{1}{P_{H , t}}\right)^{- \rho} \alpha \frac{P_{t}}{P_{H , t}} c_{t} \right],
+0 = \mathbb{E}_{t - 1} \left[ \delta \frac{P_{t - 1} c_{t - 1}}{P_{t} c_{t}} \left((1 - \rho) p_{t} (h)^{- \rho} + \rho M C_{t} p_{t} (h)^{- \rho - 1}\right) \left(\frac{1}{P_{H , t}}\right)^{- \rho} \alpha \frac{P_{t}}{P_{H , t}} c_{t} \right],
 $$
 
 which, under symmetry  $p_t(h) = P_{H,t}$ , implies
 
 $$
-P_{H, t} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ M C_{t} \right].
+P_{H, t} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} \left[ M C_{t} \right].
 $$
 
 If we compare this pricing strategy with Eq. (6.11) obtained under flexible prices, we can see that the optimal price is now set to match the expected marginal cost. This is because the firms cannot adjust their prices after the shocks are realized, and the best they can do is to be correct "on average."
@@ -5056,23 +4288,23 @@ If we compare this pricing strategy with Eq. (6.11) obtained under flexible pric
 The home firms also need to set their sale price in the foreign market. Our derivation below focuses on the case of Producer Currency Pricing, under which case exports are priced and invoiced in the domestic (producer's) currency. Then, the price of the home firms' production sold in the foreign country is set according to
 
 $$
-\max_{\exp (- \mathcal {E}_{t}) p_{t}^{*} (h)} \mathbb {E}_{t - 1} \left[ \exp (M_{t - 1, t}) (\exp (- \mathcal {E}_{t}) p_{t}^{*} (h) - M C_{t}) \left(\frac{p_{t}^{*} (h)}{P_{H , t}^{*}}\right)^{- \rho} c_{H, t}^{*} \right],
+\max_{\exp (- \mathcal {E}_{t}) p_{t}^{*} (h)} \mathbb{E}_{t - 1} \left[ \exp (M_{t - 1, t}) (\exp (- \mathcal {E}_{t}) p_{t}^{*} (h) - M C_{t}) \left(\frac{p_{t}^{*} (h)}{P_{H , t}^{*}}\right)^{- \rho} c_{H, t}^{*} \right],
 $$
 
 which implies
 
 $$
-\exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} [ M C_{t} ].
+\exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} [ M C_{t} ].
 $$
 
 So, the entire price block can be described as
 
 $$
-P_{H, t} = \exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} [ M C_{t} ], \tag {6.13}
+P_{H, t} = \exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} [ M C_{t} ], \tag {6.13}
 $$
 
 $$
-P_{F, t}^{*} = \exp (\mathcal {E}_{t}) P_{F, t} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ M C_{t}^{*} \right]. \tag {6.14}
+P_{F, t}^{*} = \exp (\mathcal {E}_{t}) P_{F, t} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} \left[ M C_{t}^{*} \right]. \tag {6.14}
 $$
 
 In other words, under Producer Currency Pricing, the local-currency price of the local consumption bundle (e.g.,  $P_{H,t}$ ) is fixed and the local-currency price of the foreign consumption bundle (e.g.,  $P_{F,t}$ ) comoves with the exchange rate.
@@ -5080,19 +4312,19 @@ In other words, under Producer Currency Pricing, the local-currency price of the
 Alternatively, some models assume Local Currency Pricing, under which case exports are priced and invoiced in the foreign (importers') currency. Then, the price of the home firms' production sold in the foreign country is set according to
 
 $$
-\max_{p_{t}^{*} (h)} \mathbb {E}_{t - 1} \left[ \exp (M_{t - 1, t}) (\exp (- \mathcal {E}_{t}) p_{t}^{*} (h) - M C_{t}) \left(\frac{p_{t}^{*} (h)}{P_{H , t}^{*}}\right)^{- \rho} c_{H, t}^{*} \right].
+\max_{p_{t}^{*} (h)} \mathbb{E}_{t - 1} \left[ \exp (M_{t - 1, t}) (\exp (- \mathcal {E}_{t}) p_{t}^{*} (h) - M C_{t}) \left(\frac{p_{t}^{*} (h)}{P_{H , t}^{*}}\right)^{- \rho} c_{H, t}^{*} \right].
 $$
 
 The first order condition is
 
 $$
-0 = \mathbb {E}_{t - 1} \left[ \delta \frac{P_{t - 1} c_{t - 1}}{P_{t} c_{t}} ((1 - \rho) \exp (- \mathcal {E}_{t}) p_{t} (h)^{- \rho} + \rho M C_{t} p_{t} (h)^{- \rho - 1}) \left(\frac{1}{P_{H , t}}\right)^{- \rho} \alpha \frac{P_{t}^{*}}{P_{H , t}^{*}} c_{t}^{*} \right].
+0 = \mathbb{E}_{t - 1} \left[ \delta \frac{P_{t - 1} c_{t - 1}}{P_{t} c_{t}} ((1 - \rho) \exp (- \mathcal {E}_{t}) p_{t} (h)^{- \rho} + \rho M C_{t} p_{t} (h)^{- \rho - 1}) \left(\frac{1}{P_{H , t}}\right)^{- \rho} \alpha \frac{P_{t}^{*}}{P_{H , t}^{*}} c_{t}^{*} \right].
 $$
 
 Note that  $P_{t - 1}c_{t - 1} = \exp (-\mathcal{E}_t)P_{H,t}^* c_t^*$ . This implies
 
 $$
-P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ M C_{t} \exp (\mathcal {E}_{t}) \right].
+P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} \left[ M C_{t} \exp (\mathcal {E}_{t}) \right].
 $$
 
 Compared to the case of Producer Currency Pricing, in this case the exchange rate  $\mathcal{E}_t$  goes into the expectation operator, which is consistent with the assumption that the price is fixed at the consumers' (i.e.
@@ -5106,7 +4338,7 @@ The sticky prices imply slow adjustments in the price level. As a result, moveme
 Proposition 6.4. The equilibrium consumption can be solved by
 
 $$
-\begin{array}{l} c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(P_{t} c_{t}\right)^{\alpha} \left(P_{t}^{*} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb {E}_{t - 1} \left[ P_{t}^{*} c_{t}^{*} \left(\ell_{t}^{*}\right)^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}, \\ c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{1 - \alpha} (P_{t}^{*} c_{t}^{*})^{\alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}, \\ \end{array}
+\begin{array}{l} c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(P_{t} c_{t}\right)^{\alpha} \left(P_{t}^{*} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb{E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb{E}_{t - 1} \left[ P_{t}^{*} c_{t}^{*} \left(\ell_{t}^{*}\right)^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}, \\ c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{1 - \alpha} (P_{t}^{*} c_{t}^{*})^{\alpha}}{(\mathbb{E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb{E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}, \\ \end{array}
 $$
 
 which implies
@@ -5130,7 +4362,7 @@ Next, we consider monetary and fiscal policies separately and trace out exactly 
 Let us first consider the home country's monetary policy. Unlike the case of flexible prices, in which the nominal interest rate policy has no real effects, sticky prices transmit nominal interest rate shocks to real interest rates and affect the households' consumption and investment decisions. Given Eq. (6.2), reproduced below,
 
 $$
-i_{t} = r_{t} + \mathbb {E}_{t} [ \pi_{t + 1} ] + i r p_{t},
+i_{t} = r_{t} + \mathbb{E}_{t} [ \pi_{t + 1} ] + i r p_{t},
 $$
 
 the nominal interest rate  $i_t$  is equal to the real interest rate plus the expected inflation plus the inflation risk premium. When the prices are sticky, expected inflation and inflation risk premium do not respond fully to an increase in the nominal interest rate. As a result, the real interest rate  $r_t$  responds as well.
@@ -5138,13 +4370,13 @@ the nominal interest rate  $i_t$  is equal to the real interest rate plus the ex
 Specifically in our setting, the Euler equation
 
 $$
-1 = \mathbb {E}_{t} [ \exp (M_{t + 1} + i_{t}) ]
+1 = \mathbb{E}_{t} [ \exp (M_{t + 1} + i_{t}) ]
 $$
 
 implies the following intertemporal relationship between the nominal interest rate and the current and future aggregate demand:
 
 $$
-\frac{1}{P_{t} c_{t}} = \exp \left(i_{t}\right) \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]. \tag {6.15}
+\frac{1}{P_{t} c_{t}} = \exp \left(i_{t}\right) \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]. \tag {6.15}
 $$
 
 We consider the case in which the expected inverse future aggregate demand  $\mathbb{E}_t\left[\delta \frac{1}{P_{t + 1}c_{t + 1}}\right]$  is constant, which we will show is without loss of generality in this model. Then, Eq. (6.15) implies that the nominal interest rate  $i_t$  directly affects today's aggregate demand  $P_{t}c_{t}$ . If the monetary authority in the home country raises the nominal interest rate by  $1\%$ , today's aggregate demand  $P_{t}c_{t}$  will shrink by  $1\%$ . Similarly, a higher nominal interest rate in the foreign country lowers the foreign aggregate demand. Plugging in this relationship to Proposition 6.4, we obtain the following result [Corsetti and Pesenti, 2007]:
@@ -5170,7 +4402,7 @@ $$
 and the equilibrium price levels are
 
 $$
-\log P_{t} = - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] + (1 - \alpha) \left(i_{t}^{*} - i_{t}\right).
+\log P_{t} = - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] + (1 - \alpha) \left(i_{t}^{*} - i_{t}\right).
 $$
 
 The proof is presented in Appendix A.26. This proposition has an intuitive interpretation. When the home country's monetary authority raises the nominal interest rate, it depresses the aggregate demand and lowers the equilibrium consumption in the home country. Due to international risk-sharing through complete markets, the consumption loads on both home and foreign nominal interest rates. That said, the effect of the home nominal interest rate on home consumption is still stronger due to the home bias in the goods market (i.e.,  $\alpha > 1/2$ ).
@@ -5178,7 +4410,7 @@ The proof is presented in Appendix A.26. This proposition has an intuitive inter
 Moreover, since prices are sticky, a higher nominal interest rate also leads to a higher real interest rate. By the following Euler equation,
 
 $$
-r_{t} = - \log \delta - \log \mathbb {E}_{t} \left[ c_{t} / c_{t + 1} \right],
+r_{t} = - \log \delta - \log \mathbb{E}_{t} \left[ c_{t} / c_{t + 1} \right],
 $$
 
 the real interest rate is inversely related to the expected consumption growth. So, the increase in the real interest rate is also consistent with an increase in the expected consumption growth, which is made possible by a decline in today's consumption.
@@ -5188,11 +4420,11 @@ Finally, as the home consumption declines when the home country's monetary autho
 Some readers might wonder where the productivity shocks  $z_{t}$  and  $z_{t}^{*}$  go in the equilibrium consumption and the real exchange rate. In this specific model, monetary and fiscal policies are strong enough to fully counter the effects of productivity shocks. Specifically, there exist nominal interest rates
 
 $$
-i_{t} = - \log \delta - \left(\log z_{t} - \mathbb {E}_{t - 1} \left[ \log z_{t} \right]\right),
+i_{t} = - \log \delta - \left(\log z_{t} - \mathbb{E}_{t - 1} \left[ \log z_{t} \right]\right),
 $$
 
 $$
-i_{t}^{*} = - \log \delta - (\log z_{t}^{*} - \mathbb {E}_{t - 1} [ \log z_{t}^{*} ]),
+i_{t}^{*} = - \log \delta - (\log z_{t}^{*} - \mathbb{E}_{t - 1} [ \log z_{t}^{*} ]),
 $$
 
 such that our sticky-price model replicates the equilibrium consumption and real exchange rate under the flexible-price case. As such, we can think of these nominal interest rates as the natural nominal rates that would prevail in the absence of monetary and fiscal policies. If the monetary authority sets the nominal interest rate above the natural rate, then, they depress the aggregate demand and lower the equilibrium consumption below the flexible-price level, and vice versa.
@@ -5204,13 +4436,13 @@ A similar argument can be applied to the fiscal policy, which we study in the ne
 Next, let us shift our focus on the home country's fiscal policy. Given the definition of the real SDF, i.e.,  $\exp(m_{t,t+k}) = \delta^k c_t / c_{t+k}$ , it is useful to express the present value of government surpluses as the current surplus plus the sum of discounted expected future surpluses.
 
 $$
-\mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] = s_{t} + c_{t} \cdot \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \delta^{k} \frac{s_{t + k}}{c_{t + k}} \right].
+\mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] = s_{t} + c_{t} \cdot \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \delta^{k} \frac{s_{t + k}}{c_{t + k}} \right].
 $$
 
 Note that the  $k$ -period real rate is equal to
 
 $$
-r_{t} (k) = - \log \mathbb {E}_{t} \left[ \delta c_{t} / c_{t + k} \right] = - \log \left(c_{t} \mathbb {E}_{t} \left[ \delta / c_{t + k} \right]\right).
+r_{t} (k) = - \log \mathbb{E}_{t} \left[ \delta c_{t} / c_{t + k} \right] = - \log \left(c_{t} \mathbb{E}_{t} \left[ \delta / c_{t + k} \right]\right).
 $$
 
 All else equal, a higher current consumption  $c_{t}$  implies a lower real discount rate and increases the present value of future government surpluses. As a result, the present value of current and future surpluses  $\mathbb{E}_t\left[\sum_{k = 0}^{\infty}\exp (m_{t,t + k})s_{t + k}\right]$  is increasing in the current consumption  $c_{t}$ .
@@ -5250,7 +4482,7 @@ $$
 the equilibrium real interest rate is
 
 $$
-r_{t} = - \log \delta - \log \mathbb {E}_{t} \left[ 1 / c_{t + 1} \right] - \kappa_{c} + \frac{\left((1 - \alpha) \bar {s} / A + \alpha \bar {c}\right)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t} + \frac{(1 - \alpha) (\bar {c} + \bar {s} / A)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t}^{*},
+r_{t} = - \log \delta - \log \mathbb{E}_{t} \left[ 1 / c_{t + 1} \right] - \kappa_{c} + \frac{\left((1 - \alpha) \bar {s} / A + \alpha \bar {c}\right)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t} + \frac{(1 - \alpha) (\bar {c} + \bar {s} / A)}{\bar {c} (A \bar {c} + (1 - \alpha) 2 \bar {s})} s_{t}^{*},
 $$
 
 the equilibrium real exchange rate is
@@ -5268,7 +4500,7 @@ $$
 The proof is presented in Appendix A.27. This proposition shows that the government surplus  $s_t$  also has real effects: by Eq. (6.6), reproduced below,
 
 $$
-\frac{Q_{t}}{P_{t}} = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] = s_{t} + \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right], \tag {6.18}
+\frac{Q_{t}}{P_{t}} = \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] = s_{t} + \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right], \tag {6.18}
 $$
 
 when the current surplus  $s_t$  increases, the present value of government surpluses on the right-hand side of this equation will increase.
@@ -5280,13 +4512,13 @@ In this way, a higher U.S. surplus increases the U.S. real interest rate and, by
 We can also think about the exchange rate response to the fiscal shock from the foreign households' perspective. Using the foreign numérique, we can rewrite Eq. (6.18) as
 
 $$
-\exp (e_{t}) \frac{Q_{t}}{P_{t}} = \exp (e_{t}) s_{t} + \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}^{*}) \exp (e_{t + k}) s_{t + k} \right].
+\exp (e_{t}) \frac{Q_{t}}{P_{t}} = \exp (e_{t}) s_{t} + \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}^{*}) \exp (e_{t + k}) s_{t + k} \right].
 $$
 
 Rearranging terms, we obtain
 
 $$
-\exp (e_{t}) \left(\frac{Q_{t}}{P_{t}} - s_{t}\right) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(m_{t, t + k}^{*}\right) \exp (e_{t + k}) s_{t + k} \right].
+\exp (e_{t}) \left(\frac{Q_{t}}{P_{t}} - s_{t}\right) = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(m_{t, t + k}^{*}\right) \exp (e_{t + k}) s_{t + k} \right].
 $$
 
 For this thought experiment, let us assume that the home country is very small so that its fiscal shock does not affect the foreign SDF  $m_{t,t+k}^{*}$ , and that the shock is transitory so that the future surpluses  $s_{t+k}$  and the future real exchange rate  $e_{t+k}$  are unaffected. Then, to equilibrate this equation in response to an increase in the current surplus  $s_t$ , the current real exchange rate  $e_t$  has to appreciate. In this sense, the real exchange rate behaves like the asset price for the claim to government surpluses, which has to adjust when the fiscal cash flows change. We can also use this logic to show that the U.S. real exchange rate has to appreciate when the expected future surpluses  $\mathbb{E}_t[s_{t+k}]$  increase [Jiang, 2022].
@@ -5306,13 +4538,13 @@ Moreover, our model assumes that the government only issues one-period debt. If 
 Eq. (6.15) can be expressed as
 
 $$
-\frac{s_{t} + c_{t} A}{Q_{t} c_{t}} = \exp (i_{t}) \mathbb {E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{Q_{t + 1} c_{t + 1}} \right].
+\frac{s_{t} + c_{t} A}{Q_{t} c_{t}} = \exp (i_{t}) \mathbb{E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{Q_{t + 1} c_{t + 1}} \right].
 $$
 
 Note that the nominal quantity of government debt  $Q_{t + 1}$  is chosen by the government in period  $t$ , so it is known in period  $t$ . Then, we can express the home nominal interest rate as
 
 $$
-i_{t} = \log \left(\frac{s_{t} + c_{t} A}{c_{t}}\right) - \log \mathbb {E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{c_{t + 1}} \right] + \Delta \log Q_{t + 1}. \tag {6.19}
+i_{t} = \log \left(\frac{s_{t} + c_{t} A}{c_{t}}\right) - \log \mathbb{E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{c_{t + 1}} \right] + \Delta \log Q_{t + 1}. \tag {6.19}
 $$
 
 Since the consumption and government surplus shocks are i.i.d. across periods,  $\mathbb{E}_t\left[\delta \frac{s_{t + 1} + c_{t + 1}A}{c_{t + 1}}\right]$  is a constant. Then, for any given nominal debt growth  $Q_{t + 1} / Q_t$ , the nominal interest rate  $i_t$  directly affects the real consumption  $c_t$ .
@@ -5320,7 +4552,7 @@ Since the consumption and government surplus shocks are i.i.d. across periods,  
 Similarly, we can express the foreign nominal interest rate as
 
 $$
-i_{t}^{*} = \log \left(\frac{s_{t}^{*} + c_{t}^{*} A^{*}}{c_{t}^{*}}\right) - \log \mathbb {E}_{t} \left[ \delta \frac{s_{t + 1}^{*} + c_{t + 1}^{*} A^{*}}{c_{t + 1}^{*}} \right] + \Delta \log Q_{t + 1}^{*}.
+i_{t}^{*} = \log \left(\frac{s_{t}^{*} + c_{t}^{*} A^{*}}{c_{t}^{*}}\right) - \log \mathbb{E}_{t} \left[ \delta \frac{s_{t + 1}^{*} + c_{t + 1}^{*} A^{*}}{c_{t + 1}^{*}} \right] + \Delta \log Q_{t + 1}^{*}.
 $$
 
 Along with
@@ -5346,13 +4578,13 @@ Finally, throughout our discussion above, we have left out one degree of freedom
 has no real effects. Given Eq. (6.19), reproduced below,
 
 $$
-i_{t} = \log \left(\frac{s_{t} + c_{t} A}{c_{t}}\right) - \log \mathbb {E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{c_{t + 1}} \right] + \Delta \log Q_{t + 1},
+i_{t} = \log \left(\frac{s_{t} + c_{t} A}{c_{t}}\right) - \log \mathbb{E}_{t} \left[ \delta \frac{s_{t + 1} + c_{t + 1} A}{c_{t + 1}} \right] + \Delta \log Q_{t + 1},
 $$
 
 and given
 
 $$
-\begin{array}{l} \pi_{t + 1} = \log Q_{t + 1} - \log \mathbb {E}_{t + 1} \left[ \sum_{k = 0}^{\infty} \exp (m_{t + 1, t + 1 + k}) s_{t + 1 + k} \right] + \log \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] \\ = \log Q_{t + 1} - \log \left(s_{t + 1} + c_{t + 1} A\right) + \log \left(s_{t} + c_{t} A\right), \\ \end{array}
+\begin{array}{l} \pi_{t + 1} = \log Q_{t + 1} - \log \mathbb{E}_{t + 1} \left[ \sum_{k = 0}^{\infty} \exp (m_{t + 1, t + 1 + k}) s_{t + 1 + k} \right] + \log \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] \\ = \log Q_{t + 1} - \log \left(s_{t + 1} + c_{t + 1} A\right) + \log \left(s_{t} + c_{t} A\right), \\ \end{array}
 $$
 
 we can see that a higher nominal government debt growth  $\Delta \log Q_{t + 1}$  leads to a higher nominal interest rate by the same magnitude. It does not affect the real consumption  $c_{t}$  and hence the real rate  $r_t$ . Rather, it moves one-to-one with the inflation  $\pi_{t + 1}$ . Since  $\Delta \log Q_{t + 1}$  is known in period  $t$ , a higher nominal debt growth creates expected inflation.
@@ -5432,7 +4664,7 @@ We assume the markets are complete, which allows us to solve the equilibrium usi
 mizes a weighted sum of the households' welfare:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(\pi u \left(c_{t}\right) + (1 - \pi) u \left(c_{t}^{*}\right)\right) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(\pi u \left(c_{t}\right) + (1 - \pi) u \left(c_{t}^{*}\right)\right) \right].
 $$
 
 The social planner tells the home and foreign households how much to consume, subject to the resource constraints
@@ -5448,7 +4680,7 @@ $$
 The social planner's Lagrangian is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} \left(\pi \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} + (1 - \pi) \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}} + \sum_{t = 1}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*})\right) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} \left(\pi \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} + (1 - \pi) \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}} + \sum_{t = 1}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*})\right) \right],
 $$
 
 which implies the following first-order conditions
@@ -5502,13 +4734,13 @@ Figure 7.3: Equilibrium Exchange Rate under the Insurance View.
 The social planner approach allows us to derive the equilibrium allocations and prices in complete markets. We are also interested in how the households trade to implement this equilibrium. In this subsection, we convert the problem to a continuous-time setting in order to derive the portfolio choice in the decentralized competitive equilibrium. Time is finite with horizon  $T$ . The representative home households maximize
 
 $$
-\mathbb {E}_{t} \left[ \int_{0}^{T} \delta^{t} \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} d t \right],
+\mathbb{E}_{t} \left[ \int_{0}^{T} \delta^{t} \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} d t \right],
 $$
 
 and the representative foreign households maximize
 
 $$
-\mathbb {E}_{t} \left[ \int_{0}^{T} \delta^{t} \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}} d t \right].
+\mathbb{E}_{t} \left[ \int_{0}^{T} \delta^{t} \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}} d t \right].
 $$
 
 For simplicity, we assume that the home and foreign endowments are identical, i.e.,  $y_{t} = y_{t}^{*}$ , reflecting a common global cycle. We assume
@@ -5526,7 +4758,7 @@ $$
 The social planner's problem in continuous time is
 
 $$
-\mathbb {E}_{0} \left[ \int_{0}^{T} \delta^{t} \left(\pi \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} + (1 - \pi) \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}}\right) d t \right]
+\mathbb{E}_{0} \left[ \int_{0}^{T} \delta^{t} \left(\pi \frac{1}{1 - \gamma} (c_{t})^{1 - \gamma} + (1 - \pi) \frac{1}{1 - \gamma^{*}} (c_{t}^{*})^{1 - \gamma^{*}}\right) d t \right]
 $$
 
 subject to  $c_{H,t} + c_{H,t}^{*} = y_{t}$  and  $c_{F,t} + c_{F,t}^{*} = y_{t}^{*}$ . As we discussed in Proposition 1.3 in Section 1.C, we can solve for the consumption  $c_{t}, c_{t}^{*}$  and the exchange rate  $e_{t}$  as functions of  $k_{t}$ , which in turn depends on  $y_{t} = y_{t}^{*}$ .
@@ -5540,13 +4772,13 @@ $$
 which allows us to evaluate the wealth claims in local numériaires as the present values of the consumption streams
 
 $$
-a_{t} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{k})}{\exp (m_{t})} c_{k} d k \right], \quad a_{t}^{*} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{k}^{*})}{\exp (m_{t}^{*})} c_{k}^{*} d k \right]. \tag {7.1}
+a_{t} = \mathbb{E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{k})}{\exp (m_{t})} c_{k} d k \right], \quad a_{t}^{*} = \mathbb{E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{k}^{*})}{\exp (m_{t}^{*})} c_{k}^{*} d k \right]. \tag {7.1}
 $$
 
 Similarly, we can evaluate the world equity claim in the home numérique as the present value of the endowment streams
 
 $$
-s_{t} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{k})}{\exp (m_{t})} \left(p_{k} y_{k} + \frac{p_{k}^{*}}{\exp (e_{k})} y_{k}^{*}\right) d k \right].
+s_{t} = \mathbb{E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{k})}{\exp (m_{t})} \left(p_{k} y_{k} + \frac{p_{k}^{*}}{\exp (e_{k})} y_{k}^{*}\right) d k \right].
 $$
 
 Thanks to our simplifying assumption  $y_{t} = y_{t}^{*}$ , the equilibrium asset prices  $a_{t}, a_{t}^{*}$ , and  $s_{t}$  are all functions of  $y_{t}$ . For example, if  $a_{t} = f(\log y_{t})$ , then, we can express the wealth dynamics as
@@ -5685,7 +4917,7 @@ issues an exogenously specified amount of risk-free bond, which is held by the h
 The home households' utility is derived over consumption and the market value of home and foreign bond holdings:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(\frac{1}{1 - \gamma} c_{t}^{1 - \gamma} + \frac{1}{1 - \sigma} \omega_{H, t} b_{H, t}^{1 - \sigma} + \frac{1}{1 - \sigma} \omega_{F, t} b_{F, t}^{1 - \sigma}\right) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(\frac{1}{1 - \gamma} c_{t}^{1 - \gamma} + \frac{1}{1 - \sigma} \omega_{H, t} b_{H, t}^{1 - \sigma} + \frac{1}{1 - \sigma} \omega_{F, t} b_{F, t}^{1 - \sigma}\right) \right],
 $$
 
 subject to the budget constraint
@@ -5697,13 +4929,13 @@ $$
 The home households' consumption is a basket of home and foreign goods:  $c_{t} = (c_{H,t})^{\alpha}(c_{F,t})^{1 - \alpha}$ . Following the same derivation in Section 4.A, we obtain the following Euler equations:
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) + \frac{\omega_{H , t} b_{H , t}^{- \sigma}}{c_{t}^{- \gamma}} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (- \Delta e_{t + 1} + r_{t}^{*}) + \frac{\omega_{F , t} b_{F , t}^{- \sigma}}{c_{t}^{- \gamma}} \exp (e_{t}) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) + \frac{\omega_{H , t} b_{H , t}^{- \sigma}}{c_{t}^{- \gamma}} \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (- \Delta e_{t + 1} + r_{t}^{*}) + \frac{\omega_{F , t} b_{F , t}^{- \sigma}}{c_{t}^{- \gamma}} \exp (e_{t}) \right]. \\ \end{array}
 $$
 
 Similarly, the foreign households' utility is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(\frac{1}{1 - \gamma} \left(c_{t}^{*}\right)^{1 - \gamma} + \frac{1}{1 - \sigma} \omega_{H, t}^{*} \left(b_{H, t}^{*}\right)^{1 - \sigma} + \left(\bar {c}^{*}\right)^{- \gamma} \theta_{H, t}^{*} b_{H, t}^{*} + \frac{1}{1 - \sigma} \omega_{F, t}^{*} \left(b_{F, t}^{*}\right)^{1 - \sigma}\right) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(\frac{1}{1 - \gamma} \left(c_{t}^{*}\right)^{1 - \gamma} + \frac{1}{1 - \sigma} \omega_{H, t}^{*} \left(b_{H, t}^{*}\right)^{1 - \sigma} + \left(\bar {c}^{*}\right)^{- \gamma} \theta_{H, t}^{*} b_{H, t}^{*} + \frac{1}{1 - \sigma} \omega_{F, t}^{*} \left(b_{F, t}^{*}\right)^{1 - \sigma}\right) \right],
 $$
 
 subject to the budget constraint
@@ -5715,7 +4947,7 @@ $$
 Likewise, we obtain the following Euler equations for the foreign households:
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) + \frac{\omega_{F}^{*} (b_{F , t}^{*})^{- \sigma}}{(c_{t}^{*})^{- \gamma}} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) + \frac{\omega_{H}^{*} (b_{H , t}^{*})^{- \sigma} + (\bar {c}^{*})^{- \gamma} \theta_{H , t}^{*}}{(c_{t}^{*})^{- \gamma}} \exp (- e_{t}) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) + \frac{\omega_{F}^{*} (b_{F , t}^{*})^{- \sigma}}{(c_{t}^{*})^{- \gamma}} \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) + \frac{\omega_{H}^{*} (b_{H , t}^{*})^{- \sigma} + (\bar {c}^{*})^{- \gamma} \theta_{H , t}^{*}}{(c_{t}^{*})^{- \gamma}} \exp (- e_{t}) \right]. \\ \end{array}
 $$
 
 We have chosen a parsimonious specification of the safe asset demand. The terms  $\omega_{H}^{*}(b_{H,t}^{*})^{-\sigma}$  and  $\omega_{F}^{*}(b_{F,t}^{*})^{-\sigma}$  capture the downward-sloping demand for each type of bonds, which helps us pin down the equilibrium quantities of bonds held by home and foreign households. The additional term  $(\bar{c}^{*})^{-\gamma}\theta_{H,t}^{*}$  captures a demand shifter, which reflects the foreign households' time-varying and countercyclical demand for dollar safe assets. In general, we could have inserted this demand shifter for the home households and for the foreign bond as well, but one demand shifter is sufficient to capture the key features of the model, which we will study in more detail below.
@@ -5779,7 +5011,7 @@ $$
 and 4 Euler equations
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) + \frac{\omega_{H} b_{H , t}^{- \sigma}}{c_{t}^{- \gamma}} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (- \Delta e_{t + 1} + r_{t}^{*}) + \frac{\omega_{F} b_{F , t}^{- \sigma}}{c_{t}^{- \gamma}} \exp (e_{t}) \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) + \frac{\omega_{F}^{*} (b_{F , t}^{*})^{- \sigma}}{(c_{t}^{*})^{- \gamma}} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) + \frac{\omega_{H}^{*} (b_{H , t}^{*})^{- \sigma} + (\bar {c}^{*})^{- \gamma} \theta_{H , t}^{*}}{(c_{t}^{*})^{- \gamma}} \exp (- e_{t}) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) + \frac{\omega_{H} b_{H , t}^{- \sigma}}{c_{t}^{- \gamma}} \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (- \Delta e_{t + 1} + r_{t}^{*}) + \frac{\omega_{F} b_{F , t}^{- \sigma}}{c_{t}^{- \gamma}} \exp (e_{t}) \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) + \frac{\omega_{F}^{*} (b_{F , t}^{*})^{- \sigma}}{(c_{t}^{*})^{- \gamma}} \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) + \frac{\omega_{H}^{*} (b_{H , t}^{*})^{- \sigma} + (\bar {c}^{*})^{- \gamma} \theta_{H , t}^{*}}{(c_{t}^{*})^{- \gamma}} \exp (- e_{t}) \right]. \\ \end{array}
 $$
 
 # 7.C.2 Model Characterization
@@ -5787,7 +5019,7 @@ $$
 Log-linearizing the Euler equations yields
 
 $$
-- \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) = \mathbb {E}_{t} \left[ m_{t + 1}^{*} - m_{t + 1} \right] + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] = \mathbb {E}_{t} \left[ \gamma \left(\Delta \log c_{t + 1} - \Delta \log c_{t + 1}^{*}\right) \right] + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right].
+- \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) = \mathbb{E}_{t} \left[ m_{t + 1}^{*} - m_{t + 1} \right] + \mathbb{E}_{t} \left[ \Delta e_{t + 1} \right] = \mathbb{E}_{t} \left[ \gamma \left(\Delta \log c_{t + 1} - \Delta \log c_{t + 1}^{*}\right) \right] + \mathbb{E}_{t} \left[ \Delta e_{t + 1} \right].
 $$
 
 Let  $\bar{e} \stackrel{\mathrm{def}}{=} \lim_{t \to \infty} e_t$  denote the long-term exchange rate level, which is well defined in a stationary economy. Iterating this equation forward, we obtain the following result.
@@ -5795,7 +5027,7 @@ Let  $\bar{e} \stackrel{\mathrm{def}}{=} \lim_{t \to \infty} e_t$  denote the lo
 Proposition 7.2. The exchange rate level is equal to the expected consumption growth differential and the expected convenience yield differential:
 
 $$
-\begin{array}{l} e_{t} - \bar {e} = \sum_{j = 1}^{\infty} \mathbb {E}_{t} \left[ \gamma \left(\Delta \log c_{t + j} - \Delta \log c_{t + j}^{*}\right) \right] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ \lambda_{H, t + j}^{*} - \lambda_{H, t + j} \right] \\ = - \gamma \left(\log \frac{c_{t}}{\bar {c}} - \log \frac{c_{t}^{*}}{\bar {c}^{*}}\right) + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ \lambda_{H, t + j}^{*} - \lambda_{H, t + j} \right], \tag {7.4} \\ \end{array}
+\begin{array}{l} e_{t} - \bar {e} = \sum_{j = 1}^{\infty} \mathbb{E}_{t} \left[ \gamma \left(\Delta \log c_{t + j} - \Delta \log c_{t + j}^{*}\right) \right] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ \lambda_{H, t + j}^{*} - \lambda_{H, t + j} \right] \\ = - \gamma \left(\log \frac{c_{t}}{\bar {c}} - \log \frac{c_{t}^{*}}{\bar {c}^{*}}\right) + \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ \lambda_{H, t + j}^{*} - \lambda_{H, t + j} \right], \tag {7.4} \\ \end{array}
 $$
 
 where the convenience yield differential on the U.S. bond is approximately
@@ -5861,13 +5093,13 @@ In the model we considered under the insurance provision view, we interpret a gl
 Figure 7.9 reports the impulse responses to a shock to  $\theta_{H,t}^{*}$ . We assume that this shock dissipates slowly with an autocorrelation of 0.9. Upon the arrival of the shock, we see an increase in the foreign households' convenience yield  $\lambda_{H,t}^{*}$  on the dollar risk-free bond, defined as
 
 $$
-\exp (- \lambda_{H, t}^{*}) = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) \right].
+\exp (- \lambda_{H, t}^{*}) = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) \right].
 $$
 
 Through the exchange rate formula we derived in Proposition 4.2, Section 4.B, generalized below,
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{H, t + j}^{*} - \lambda_{F, t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e},
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{H, t + j}^{*} - \lambda_{F, t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e},
 $$
 
 the increase in the convenience yield on the dollar bond appreciates the dollar. It is worth noting that the dollar appreciation requires us to break the complete-market condition (1.16), reproduced below,
@@ -5906,7 +5138,7 @@ This increase in U.S. relative consumption reflects a seigniorage revenue that t
 also expected to last, leading to an increase in the expected future seigniorage revenues. This increase in the expected future seigniorage revenues is reflected in the U.S. households' wealth  $a_{t}$ , which is defined as the present value of their consumption streams:
 
 $$
-a_{t} = \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} \frac{c_{s}^{- \gamma}}{c_{t}^{- \gamma}} c_{s} \right].
+a_{t} = \mathbb{E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} \frac{c_{s}^{- \gamma}}{c_{t}^{- \gamma}} c_{s} \right].
 $$
 
 This wealth effect is the key distinguishing feature of the safe asset view, as it disentangles the response in the U.S. wealth  $a_{t}$  from the response in the U.S. net foreign assets  $nfa_{t}$ . On the one hand, the U.S. buys some foreign bonds from the foreign country and sells some dollar bonds to the foreign country. In a flight-to-dollar episode, the dollar appreciates and the U.S. suffers a loss on its external portfolio, leading to a decline in the U.S. NFA. On the other hand, the U.S. receives a higher seigniorage revenue from issuing the dollar bonds, which increases the U.S. wealth despite its loss on the external portfolio.
@@ -5964,7 +5196,7 @@ This global financial cycle challenges how we think about the independence of mo
 The global financial cycle shows that the policy space is more constrained, leading to an impossible duo [Rey, 2015, Miranda-Agrippino and Rey, 2015]: with free capital mobility, floating exchange rates do not guarantee monetary policy independence because asset prices and capital flows still respond to global factors. In light of our exchange rate accounting formula in Proposition 4.2, reproduced below,
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e},
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e},
 $$
 
 the traditional impossible trinity view can be thought of as focusing on the interest rate term, i.e.,  $r_{t+j} - r_{t+j}^*$ . Ignoring the convenience
@@ -5986,7 +5218,7 @@ $$
 - If we look forward, the market value of government debt is backed by the present value of future primary surpluses:
 
 $$
-D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right].
+D_{t} = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb{E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right].
 $$
 
 - This forward-looking valuation equation also implies a trade-off in the risk dimension. The government has to choose between insuring the debtholders and insuring the taxpayers.  
@@ -6127,7 +5359,7 @@ This time, we iterate forward these equations, and derive the following intertem
 Proposition 8.2. Even when the government debt is defaultable, the market value of government debt is equal to the present value of future government surpluses plus a transversality term:
 
 $$
-D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.6}
+D_{t} = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb{E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.6}
 $$
 
 Using the one-period budget constraint (8.1) again, we can also express
@@ -6137,7 +5369,7 @@ It is a simple extension to consider partial default, which we do not consider i
 this intertemporal government budget condition as
 
 $$
-D_{t - 1} \exp \left(R_{t}^{D}\right) = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.7}
+D_{t - 1} \exp \left(R_{t}^{D}\right) = \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb{E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.7}
 $$
 
 The proof is given in Appendix A.31. Eq. (8.6) and (8.7) are equivalent ways to express the same intertemporal government budget condition. Eq. (8.6) equates the end-of-period market value of the government debt after issuances and repayments,  $D_{t}$ , to the ex-dividend present value of future surpluses and the transversality term, whereas Eq. (8.7) equates the beginning-of-period market value of the government debt,  $D_{t-1}\exp(R_t^D)$ , to the cum-dividend present value of future surpluses and the transversality term. Our results can be expressed in either convention we use. To avoid confusion, we stick to the first expression in this section.
@@ -6145,7 +5377,7 @@ The proof is given in Appendix A.31. Eq. (8.6) and (8.7) are equivalent ways to 
 If the transversality condition holds, i.e.,
 
 $$
-\lim_{k \rightarrow \infty} \mathbb {E}_{t} [ \exp (M_{t, t + k}) D_{t + k} ] = 0, \tag {8.8}
+\lim_{k \rightarrow \infty} \mathbb{E}_{t} [ \exp (M_{t, t + k}) D_{t + k} ] = 0, \tag {8.8}
 $$
 
 then, we can express this intertemporal government budget condition (8.6) as
@@ -6157,11 +5389,11 @@ $$
 where  $D_{t}$  on the left-hand side is the market value of debt at the end of period  $t$ , and  $P_{t}^{T}$  and  $P_{t}^{G}$  on the right-hand side denote the present value of current and future tax revenues and government spending:
 
 $$
-P_{t}^{T} \stackrel {\text{de f}} {=} \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) T_{t + k} \right],
+P_{t}^{T} \stackrel {\text{de f}} {=} \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) T_{t + k} \right],
 $$
 
 $$
-P_{t}^{G} \stackrel {\mathrm{de f}} {=} \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) G_{t + k} \right].
+P_{t}^{G} \stackrel {\mathrm{de f}} {=} \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) G_{t + k} \right].
 $$
 
 We refer to the present value of future government surpluses  $P_{t}^{T} - P_{t}^{G}$  as the fiscal backing. When the transversality condition holds, the fiscal backing determines the market valuation of the aggregate government debt portfolio.
@@ -6173,7 +5405,7 @@ We offer three economic interpretations of this forward-looking relationship. Fi
 In fact, for investors who can trade government debt, they should agree on the valuation of government debt even when they have different SDFs. For investors  $i$  and  $j$  with SDFs  $M_{t,t+k}^{i}$  and  $M_{t,t+k}^{j}$ , respectively, we have
 
 $$
-\mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}^{i}\right) \left(T_{t + k} - G_{t + k}\right) \right] = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}^{j}\right) \left(T_{t + k} - G_{t + k}\right) \right]. \tag {8.10}
+\mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}^{i}\right) \left(T_{t + k} - G_{t + k}\right) \right] = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}^{j}\right) \left(T_{t + k} - G_{t + k}\right) \right]. \tag {8.10}
 $$
 
 If this equality does not hold, these two investors should trade with each other using the government debt portfolio.
@@ -6181,7 +5413,7 @@ If this equality does not hold, these two investors should trade with each other
 Second, this result implies that, in order to back up  $D_{t}$  dollars' worth of debt, the government needs to generate a positive present value from its future primary surpluses. Conversely, when the present value of primary surpluses increases in period  $t$ , the government debt appreciates in value and generates a higher return  $R_{t}^{D}$ . That is, Eq. (8.9) implies
 
 $$
-D_{t - 1} \left(\mathbb {E}_{t} - \mathbb {E}_{t - 1}\right) \left[ \exp \left(R_{t}^{D}\right) \right] = \left(\mathbb {E}_{t} - \mathbb {E}_{t - 1}\right) \left[ \left(P_{t}^{T} + T_{t}\right) - \left(P_{t}^{G} + G_{t}\right) \right],
+D_{t - 1} \left(\mathbb{E}_{t} - \mathbb{E}_{t - 1}\right) \left[ \exp \left(R_{t}^{D}\right) \right] = \left(\mathbb{E}_{t} - \mathbb{E}_{t - 1}\right) \left[ \left(P_{t}^{T} + T_{t}\right) - \left(P_{t}^{G} + G_{t}\right) \right],
 $$
 
 where  $\exp(R_t^D)$  denotes the holding return of the aggregate government bond portfolio:
@@ -6193,7 +5425,7 @@ $$
 Third, if the transversality condition holds, we can express Eq. (8.6) as
 
 $$
-D_{t} = \sum_{k = 1}^{\infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) \right] \mathbb {E}_{t} \left[ S_{t + k} \right] + \sum_{k = 1}^{\infty} c o v_{t} \left(\exp \left(M_{t, t + k}\right), S_{t + k}\right),
+D_{t} = \sum_{k = 1}^{\infty} \mathbb{E}_{t} \left[ \exp \left(M_{t, t + k}\right) \right] \mathbb{E}_{t} \left[ S_{t + k} \right] + \sum_{k = 1}^{\infty} cov_{t} \left(\exp \left(M_{t, t + k}\right), S_{t + k}\right),
 $$
 
 which implies that the fiscal backing can be created either by running a higher government surpluses on average (i.e., higher  $\mathbb{E}_t[S_{t+k}]$ ), or by making government surpluses more countercyclical (i.e., higher  $cov_t(\exp(M_{t,t+k}), S_{t+k}))$ . The latter channel creates fiscal backing by conditionally generating higher cash flows in high marginal utility
@@ -6205,7 +5437,7 @@ Finally, we make two more technical observations. First, if the transversality c
 Second, the intertemporal government budget condition can also be expressed in real terms. For example, we can rewrite Eq. (8.6) be expressed as
 
 $$
-d_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} [ \exp (m_{t, t + k}) d_{t + k} ],
+d_{t} = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) s_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb{E}_{t} [ \exp (m_{t, t + k}) d_{t + k} ],
 $$
 
 where  $d_{t}$  and  $s_{t}$  are the real market value of government debt and the real primary surplus, and  $m_{t,t+k}$  is the real SDF which is related to the nominal SDF via Eq. (6.1).
@@ -6215,7 +5447,7 @@ where  $d_{t}$  and  $s_{t}$  are the real market value of government debt and t
 We can further generalize this result with convenience yields. The convenience yield  $\lambda_t(h)$  is the expected returns on government bonds of maturity  $h$  that investors are willing to forgo. As in Chapter 4, the convenience yield is a wedge in the standard Euler equation:
 
 $$
-\exp (- \lambda_{t} (h)) = \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \frac{P_{t + 1} (h - 1)}{P_{t} (h)} \right].
+\exp (- \lambda_{t} (h)) = \mathbb{E}_{t} \left[ \exp (M_{t + 1}) \frac{P_{t + 1} (h - 1)}{P_{t} (h)} \right].
 $$
 
 The presence of the convenience yield implies that the government can finance its debt at a lower interest rate or a higher bond price, which increases the amount it can raise from debt issuance. This additional revenue from debt issuance is a form of seigniorage revenue, which we formally define as the bond market value  $Q_{t}(h)P_{t}(h)$  times the Euler equation wedge  $1 - \exp (-\lambda_{t}(h))$ , summed across all maturities  $h$ :
@@ -6239,7 +5471,7 @@ This seigniorage revenue contributes to the government's income in addition to t
 Proposition 8.3. When there is convenience yield on government debt and possible government default, the market value of government debt is equal to the present value of future government surpluses and future seigniorage revenues plus a transversality term:
 
 $$
-D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(M_{t, t + k}\right) K_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.11}
+D_{t} = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp \left(M_{t, t + k}\right) K_{t + k} \right] + \lim_{k \rightarrow \infty} \mathbb{E}_{t} \left[ \exp \left(M_{t, t + k}\right) D_{t + k} \right]. \tag {8.11}
 $$
 
 The proof is given in Appendix A.32. In this formula, while the sum of government surpluses starts from period  $t + 1$  to back up the debt outstanding at the end of period  $t$ , the sum of the seigniorage revenues starts from period  $t$ . This is because the seigniorage revenue  $K_{t}$  results from the fact that the government can pay back its debt in period  $t + 1$  with a lower interest, which is tied to  $\lambda_{t}(h)$ , the convenience yield in period  $t$ . Since these additional proceeds are due to investors' willingness to accept lower returns to hold the government debt in exchange for its liquidity and safety, we can also interpret the seigniorage revenue term as the valuation of the government debt's service flows. When the service flows become more valuable, the value of government debt appreciates and results in a higher return  $R_{t}^{D}$ .
@@ -6271,11 +5503,11 @@ $$
 $$
 
 $$
-\beta_{t}^{T} = \frac{c o v_{t} (\exp (R_{t + 1}^{T}) , \exp (R_{t + 1}^{M}))}{v a r_{t} (\exp (R_{t + 1}^{M}))},
+\beta_{t}^{T} = \frac{cov_{t} (\exp (R_{t + 1}^{T}) , \exp (R_{t + 1}^{M}))}{var_{t} (\exp (R_{t + 1}^{M}))},
 $$
 
 $$
-\beta_{t}^{G} = \frac{c o v_{t} (\exp (R_{t + 1}^{G}) , \exp (R_{t + 1}^{M}))}{v a r_{t} (\exp (R_{t + 1}^{M}))}.
+\beta_{t}^{G} = \frac{cov_{t} (\exp (R_{t + 1}^{G}) , \exp (R_{t + 1}^{M}))}{var_{t} (\exp (R_{t + 1}^{M}))}.
 $$
 
 Then, we obtain the following result characterizing these claims' expected returns and systematic risk exposures [Jiang, Lustig, Van Nieuwerburgh, and Xiaolan, 2020b].
@@ -6283,7 +5515,7 @@ Then, we obtain the following result characterizing these claims' expected retur
 Proposition 8.4. (a) The expected returns on the aggregate government debt portfolio, the claim to tax revenues, and the claim to government spending satisfy
 
 $$
-\frac{D_{t} + P_{t}^{G}}{D_{t}} \mathbb {E}_{t} \left[ \exp (R_{t + 1}^{T}) \right] = \mathbb {E}_{t} \left[ \exp (R_{t + 1}^{D}) \right] + \frac{P_{t}^{G}}{D_{t}} \mathbb {E}_{t} \left[ \exp (R_{t + 1}^{G}) \right].
+\frac{D_{t} + P_{t}^{G}}{D_{t}} \mathbb{E}_{t} \left[ \exp (R_{t + 1}^{T}) \right] = \mathbb{E}_{t} \left[ \exp (R_{t + 1}^{D}) \right] + \frac{P_{t}^{G}}{D_{t}} \mathbb{E}_{t} \left[ \exp (R_{t + 1}^{G}) \right].
 $$
 
 (b) The betas of the aggregate government debt portfolio, the claim to tax revenues, and the claim to government spending satisfy
@@ -6347,7 +5579,7 @@ On the left-hand side, the debt return is adjusted by a factor of  $K_{t} / (P_{
 Proposition 8.5. (a) The expected returns on the aggregate government debt portfolio, the claims to tax revenues, government spending, and seigniorage revenues satisfy
 
 $$
-\begin{array}{l} \mathbb {E}_{t} \left[ \exp \left(R_{t + 1}^{D}\right) \right] \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) = \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb {E}_{t} \left[ \exp \left(R_{t + 1}^{T}\right) \right] + \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb {E}_{t} \left[ \exp \left(R_{t + 1}^{K}\right) \right] \\ - \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb {E}_{t} \left[ \exp \left(R_{t + 1}^{G}\right) \right]. \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} \left[ \exp \left(R_{t + 1}^{D}\right) \right] \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) = \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb{E}_{t} \left[ \exp \left(R_{t + 1}^{T}\right) \right] + \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb{E}_{t} \left[ \exp \left(R_{t + 1}^{K}\right) \right] \\ - \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \mathbb{E}_{t} \left[ \exp \left(R_{t + 1}^{G}\right) \right]. \\ \end{array}
 $$
 
 (b) The betas of the aggregate government debt portfolio and the claims to tax revenues, government spending, and seigniorage revenues satisfy
@@ -6399,25 +5631,25 @@ $$
 where the risk-free component reflects the benchmark discount rate implied from the SDF:
 
 $$
-\rho_{t} (h) \stackrel {\mathrm{de f}} {=} - \frac{1}{h} \log \mathbb {E}_{t} [ \exp (M_{t, t + h}) ],
+\rho_{t} (h) \stackrel {\mathrm{de f}} {=} - \frac{1}{h} \log \mathbb{E}_{t} [ \exp (M_{t, t + h}) ],
 $$
 
 the default spread component captures the risk-neutral expectation of sovereign default,
 
 $$
-\delta_{t} (h) \stackrel {\mathrm{de f}} {=} - \frac{1}{h} \left(\log \mathbb {E}_{t} \left[ \exp (M_{t, t + h}) \prod_{j = 1}^{h} (1 - \chi_{t + j}^{i}) \right] - \log \mathbb {E}_{t} [ \exp (M_{t, t + h}) ]\right),
+\delta_{t} (h) \stackrel {\mathrm{de f}} {=} - \frac{1}{h} \left(\log \mathbb{E}_{t} \left[ \exp (M_{t, t + h}) \prod_{j = 1}^{h} (1 - \chi_{t + j}^{i}) \right] - \log \mathbb{E}_{t} [ \exp (M_{t, t + h}) ]\right),
 $$
 
 and the convenience yield component captures the wedge between the bond yield and the yield of a hypothetical bond with the same default spread but no Euler equation wedge [Jiang, Lustig, Van Nieuwerburgh, and Xiaolan, 2020c]:
 
 $$
-c_{t} (h) \stackrel {\text{de f}} {=} \frac{1}{h} \left(\log \mathbb {E}_{t} \left[ \exp \left(M_{t, t + h}\right) \prod_{j = 1}^{h} \left(1 - \chi_{t + j}^{i}\right) \exp \left(\lambda_{t + j - 1} (h - j + 1)\right) \right] - \log \mathbb {E}_{t} \left[ \exp \left(M_{t, t + h}\right) \prod_{j = 1}^{h} \left(1 - \chi_{t + j}^{i}\right) \right]\right).
+c_{t} (h) \stackrel {\text{de f}} {=} \frac{1}{h} \left(\log \mathbb{E}_{t} \left[ \exp \left(M_{t, t + h}\right) \prod_{j = 1}^{h} \left(1 - \chi_{t + j}^{i}\right) \exp \left(\lambda_{t + j - 1} (h - j + 1)\right) \right] - \log \mathbb{E}_{t} \left[ \exp \left(M_{t, t + h}\right) \prod_{j = 1}^{h} \left(1 - \chi_{t + j}^{i}\right) \right]\right).
 $$
 
 Moreover, while the risk-free rate is risk-free in local currency units, it could carry a currency risk premium. For the case of  $h = 1$ , according to Section 1.B applied to nominal exchange rates  $\mathcal{E}_t$  and interest rates  $\rho_t$  and  $\rho_t^*$ , under joint normality,
 
 $$
-\rho_{t} = \rho_{t}^{*} - \mathbb {E}_{t} [ \Delta \mathcal {E}_{t + 1} ] - \frac{1}{2} v a r_{t} (\Delta \mathcal {E}_{t + 1}) - c o v_{t} (M_{t + 1}^{*}, \Delta \mathcal {E}_{t + 1}),
+\rho_{t} = \rho_{t}^{*} - \mathbb{E}_{t} [ \Delta \mathcal {E}_{t + 1} ] - \frac{1}{2} var_{t} (\Delta \mathcal {E}_{t + 1}) - cov_{t} (M_{t + 1}^{*}, \Delta \mathcal {E}_{t + 1}),
 $$
 
 which implies that the nominal home risk-free rate  $\rho_{t}$  relative to a foreign benchmark  $\rho_{t}^{*}$  is decreasing in the home currency's expected nominal appreciation  $\mathbb{E}_t[\Delta \mathcal{E}_{t + 1}]$ , and increasing in the home currency's risk premium  $RP_{t} = -cov_{t}(M_{t + 1}^{*},\Delta \mathcal{E}_{t + 1}) - \frac{1}{2} var_{t}(\Delta \mathcal{E}_{t + 1})$ .<sup>2</sup> As such, government bonds compensate investors for not only credit risk but also exchange rate risk.
@@ -6433,7 +5665,7 @@ the intertemporal government budget condition in Propositions 8.2 and 8.3 impose
 All of our results above rely on the transversality condition (8.8), reproduced below:
 
 $$
-\lim_{k \to \infty} \mathbb {E}_{t} \left[ \exp (M_{t, t + k}) D_{t + k} \right] = 0,
+\lim_{k \to \infty} \mathbb{E}_{t} \left[ \exp (M_{t, t + k}) D_{t + k} \right] = 0,
 $$
 
 which states that the discounted value of future government debt has to converge to zero. If this condition does not hold, then, the market value of debt could exceed the present value of government surpluses, and the gap could potentially be infinite. In this section, we provide two perspectives on this condition.
@@ -6451,7 +5683,7 @@ of debt strip also converges to zero, and the transversality condition holds.
 The transversality condition is a necessary condition for the optimality of (long-lasting) households' decisions. To derive this result, we consider a set-up similar to the home country in Chapter 1, in which the households maximize expected lifetime utility:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t}) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t}) \right].
 $$
 
 Proving the transversality condition in a general way is technically difficult. Here we consider a much narrower class of utility functions, which is adapted from Brock [1982]: the utility function  $u(c)$  is not only monotone increasing in  $c$  and concave, but also bounded from below. Without loss of generality, we can normalize the utility level and assume  $u(c) \geq 0$ . For simplicity in exposition, we also assume that the price level is fixed, so that the nominal risk-free debt is also risk-free in real terms. For interested readers, Ekeland and Scheinkman [1986] provides a more general characterization.
@@ -6465,7 +5697,7 @@ $$
 The first-order condition (Euler equation) w.r.t.  $d_{t - 1}$  is given by
 
 $$
-u^{\prime} \left(c_{t - 1}\right) = \mathbb {E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) \exp \left(r_{t}^{d}\right) \right]. \tag {8.13}
+u^{\prime} \left(c_{t - 1}\right) = \mathbb{E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) \exp \left(r_{t}^{d}\right) \right]. \tag {8.13}
 $$
 
 The households are also subject to a no-short-sale constraint  $d_t \geq 0$  for all  $t$ . In general, we need a lower bound on the households' asset position, which is not necessarily zero, so that the households cannot borrow an infinite amount of money for consumption.
@@ -6473,7 +5705,7 @@ The households are also subject to a no-short-sale constraint  $d_t \geq 0$  for
 We define the households' value function in period  $o$  as
 
 $$
-\psi (w_{t}, t) = \max  \mathbb {E}_{0} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}) \right],
+\psi (w_{t}, t) = \max  \mathbb{E}_{0} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}) \right],
 $$
 
 which can be shown to be concave and differentiable [Benveniste and Scheinkman, 1979, Brock, 1982].
@@ -6483,7 +5715,7 @@ Given this set-up, let us first consider the special case in which the household
 leaving money on the table, as the remaining wealth will be wasted. Moreover, the no-short-sale constraint also implies that the households cannot finish with negative wealth. Therefore, we can express the finite-period transversality condition as
 
 $$
-\mathbb {E}_{0} \left[ \delta^{T} u^{\prime} (c_{T}) d_{T} \right] = 0.
+\mathbb{E}_{0} \left[ \delta^{T} u^{\prime} (c_{T}) d_{T} \right] = 0.
 $$
 
 The infinite-horizon case has a similar interpretation, though its derivation is more complicated. The following proposition shows that the transversality condition is a necessary condition for the optimality of households' decisions.
@@ -6491,7 +5723,7 @@ The infinite-horizon case has a similar interpretation, though its derivation is
 Proposition 8.6. Assume that the value function satisfies  $\lim_{t\to \infty}\psi (w_t,t) = 0$ . Then, the optimal solution  $\{c_t\}_{t = 0}^{\infty},\{d_t\}_{t = 0}^{\infty}$  to the households' problem implies the Euler equation (8.13) and the transversality condition
 
 $$
-\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] = 0.
+\lim_{t \to \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] = 0.
 $$
 
 The proof is in Appendix A.35. This proposition shows that the households optimally choose not to "leave money on the table" in the infinite horizon, which means to increase their savings  $d_{t}$  in the government bond portfolio at a rate higher than their discount rate  $\delta^{t}u^{\prime}(c_{t})$ . The households do not borrow an infinite amount of money by short-selling the government debt, either, which is ruled out by the no-short-sale constraint. This result emphasizes that the transversality condition is usually imposed by the households' optimal decision, just like the Euler equation (8.13).
@@ -6499,19 +5731,19 @@ The proof is in Appendix A.35. This proposition shows that the households optima
 Moreover, while this set-up considers only one type of assets in which households can deposit their savings, the extension to multiple assets is straight-forward. Let  $a_{t}$  denote the households' total savings and  $d_{t}$  denote the households' holdings of one asset that we denote as the government debt. Then, our derivation shows that the transversality condition holds at the portfolio level:
 
 $$
-\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) a_{t} \right] = 0.
+\lim_{t \to \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) a_{t} \right] = 0.
 $$
 
 Now, suppose the households' transversality condition for the government debt is violated, i.e.,
 
 $$
-\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] > 0.
+\lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] > 0.
 $$
 
 This implies that the households' holdings in other assets are negative in the infinite horizon, i.e.,
 
 $$
-\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) (a_{t} - d_{t}) \right] <   0,
+\lim_{t \to \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) (a_{t} - d_{t}) \right] <   0,
 $$
 
 which violates the no-short-sale constraint. So, the transversality condition also holds at the level of individual assets.
@@ -6519,7 +5751,7 @@ which violates the no-short-sale constraint. So, the transversality condition al
 Does the presence of bond convenience yields affects the transversality condition? Following Section 4.A, we assume that the households also derive utility directly from holding the government bonds. The utility function is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u \left(c_{t}\right) + v_{t} \left(d_{t}\right)\right) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u \left(c_{t}\right) + v_{t} \left(d_{t}\right)\right) \right].
 $$
 
 We use  $\lambda_{t}$  to denote the convenience yields at time  $t$ , which, as we see in Section 4.A, is determined by the ratio between the marginal utility of bond holding and the marginal utility of consumption:
@@ -6531,13 +5763,13 @@ $$
 Proposition 8.7. In the presence of the bond convenience yield, the optimal solution  $\{c_t\}_{t=0}^{\infty}$ ,  $\{d_t\}_{t=0}^{\infty}$  to the households' problem implies the Euler equation (8.13) and the transversality condition
 
 $$
-\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \exp (- \lambda_{t}) \right] = 0.
+\lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \exp (- \lambda_{t}) \right] = 0.
 $$
 
 When the convenience yield  $\lambda_{t}$  is bounded, we recover the original transversality condition:
 
 $$
-\lim_{t \to \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] = 0.
+\lim_{t \to \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t} \right] = 0.
 $$
 
 The proof is in Appendix A.36. When the bond convenience yield  $\lambda_{t}$  is bounded, we recover the original transversality condition in the presence of the bond convenience yield. In other words, while the bond convenience yield can increase the fiscal backing of the government debt as we show in Proposition 8.3, it does not affect the transversality condition.
@@ -6573,7 +5805,7 @@ which implies that a lower GDP growth leads to a higher marginal utility. By the
 Given these specifications, the present value of a GDP strip  $k$  periods from now is
 
 $$
-\mathbb {E}_{t} [ \exp (M_{t, t + k}) Y_{t + k} ] = \exp \left(k (X - i + \frac{1}{2} \sigma^{2} - \gamma \sigma)\right) Y_{t},
+\mathbb{E}_{t} [ \exp (M_{t, t + k}) Y_{t + k} ] = \exp \left(k (X - i + \frac{1}{2} \sigma^{2} - \gamma \sigma)\right) Y_{t},
 $$
 
 which converges to zero as  $k \to \infty$  if the discount rate is higher than the GDP growth rate, i.e.,
@@ -6599,13 +5831,13 @@ This result implies that  $\partial (S_t / Y_t) / \partial \varepsilon_t < 0$ . 
 We can evaluate the transversality condition in this fully specified model. In particular, we can show that if the risk premium is high enough to guarantee a finite valuation on the GDP claim, then, the transversality condition holds:
 
 $$
-\lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp (M_{t, t + k}) D_{t + k} \right] = \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \bar {\delta} \exp (M_{t, t + k}) Y_{t + k} \right] = 0.
+\lim_{k \rightarrow \infty} \mathbb{E}_{t} \left[ \exp (M_{t, t + k}) D_{t + k} \right] = \lim_{k \rightarrow \infty} \mathbb{E}_{t} \left[ \bar {\delta} \exp (M_{t, t + k}) Y_{t + k} \right] = 0.
 $$
 
 Given the transversality condition holds, the government debt value is the sum of the values of the surplus strips:
 
 $$
-D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) S_{t + k} \right] = \bar {\delta} Y_{t},
+D_{t} = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) S_{t + k} \right] = \bar {\delta} Y_{t},
 $$
 
 which confirms the assumption that the debt/GDP ratio is a constant.
@@ -6615,13 +5847,13 @@ which confirms the assumption that the debt/GDP ratio is a constant.
 How do we reconcile the observation that the government surplus  $S_{t}$  and the market value of government debt  $D_{t}$  are both stochastic with the observation that the debt is risk-free? When the transversality condition is satisfied, the debt return innovation reflects news about the present discounted value of future government surpluses:
 
 $$
-D_{t} \left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \exp \left(R_{t + 1}^{D}\right) = \left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \left[ \sum_{j = 1}^{\infty} \exp \left(M_{t + 1, t + j}\right) S_{t + j} \right].
+D_{t} \left(\mathbb{E}_{t + 1} - \mathbb{E}_{t}\right) \exp \left(R_{t + 1}^{D}\right) = \left(\mathbb{E}_{t + 1} - \mathbb{E}_{t}\right) \left[ \sum_{j = 1}^{\infty} \exp \left(M_{t + 1, t + j}\right) S_{t + j} \right].
 $$
 
 When the debt is risk-free, there is no uncertainty about the debt return:  $(\mathbb{E}_{t + 1} - \mathbb{E}_t)\exp (R_{t + 1}^D) = 0$ . Then, there is no news about the present value of current and future surpluses; technically, we can say that the present value of current and future surpluses in period  $t + 1$  is measurable in period  $t$ :
 
 $$
-\left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \left[ \sum_{j = 1}^{\infty} \exp (M_{t + 1, t + j}) S_{t + j} \right] = \left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \left[ D_{t + 1} + S_{t + 1} \right] = 0.
+\left(\mathbb{E}_{t + 1} - \mathbb{E}_{t}\right) \left[ \sum_{j = 1}^{\infty} \exp (M_{t + 1, t + j}) S_{t + j} \right] = \left(\mathbb{E}_{t + 1} - \mathbb{E}_{t}\right) \left[ D_{t + 1} + S_{t + 1} \right] = 0.
 $$
 
 In other words, the government surplus  $S_{t+1}$  is engineered such that it exactly offsets the variation in the market value of government debt  $D_{t+1}$ , which allows the debt to offer a constant risk-free return. However, as both government debt strip  $D_{t+1}$  and surpluses  $S_{t+1}$  are stochastic, their discount rates need to reflect their risk premia. In particular, as both government surplus and the debt strip is cointegrated with the GDP, the long-term surplus claim or debt claim has the same risk premium as the GDP risk premium.
@@ -6631,7 +5863,7 @@ In other words, the government surplus  $S_{t+1}$  is engineered such that it ex
 A particularly interesting case in this model is when the risk-free rate is lower than the average GDP growth rate. In our notation,  $i < X$ . In this case, if the Jensen's term  $\frac{1}{2}\sigma^2$  is small enough so that  $i + \frac{1}{2}\sigma^2 < X$ , then, the government can sustain deficits on average:
 
 $$
-\mathbb {E} \left[ \frac{S_{t}}{Y_{t}} \right] = - \bar {\delta} \left(1 - \exp \left\{- X + i + \frac{1}{2} \sigma^{2} \right\}\right) <   0.
+\mathbb{E} \left[ \frac{S_{t}}{Y_{t}} \right] = - \bar {\delta} \left(1 - \exp \left\{- X + i + \frac{1}{2} \sigma^{2} \right\}\right) <   0.
 $$
 
 That said, when the fundamental shock is negative enough  $(X - i < -\sigma \varepsilon_{t})$ , the government still needs to run a primary surplus.
@@ -6655,7 +5887,7 @@ Blanchard [2019] interpretation of  $r < g$ . From our perspective, it is precis
 When the transversality condition (8.8) holds, the intertemporal government budget condition (8.6) can be expressed as
 
 $$
-D_{t} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) T_{t + k} \right] - \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) G_{t + k} \right]. \tag {8.14}
+D_{t} = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) T_{t + k} \right] - \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp \left(M_{t, t + k}\right) G_{t + k} \right]. \tag {8.14}
 $$
 
 A fundamental question in finance and macroeconomics is whether the present values of government surpluses on the right-hand side of this equation matches the market value of government debt on the left-hand side. To evaluate the present values on the right-hand side of this equation, we need to know (i) the expected future tax revenues and government spending and (ii) the appropriate discount rates that we assign to these fiscal cash flows. To figure out the expected fiscal cash flows, the data since WW-II suggest that the U.S. on average has similar levels of tax revenue and government spending as fractions of the GDP. If we zoom into the past 15 years, government spending surpassed tax revenue by a large margin. Feeling optimistic, let us assume the U.S. fiscal cash flows will revert to the historical norm over time, which maintains roughly equal tax revenues and government spending on average.
@@ -6675,7 +5907,7 @@ So far, we have been working with a very general argument that is consistent wit
 To evaluate the present value of government surpluses, i.e.,
 
 $$
-\mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) (T_{t + k} - G_{t + k}) \right],
+\mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (M_{t, t + k}) (T_{t + k} - G_{t + k}) \right],
 $$
 
 we need to model the joint dynamics of the SDF  $M_{t,t + k}$  and the fiscal cash flows  $T_{t + k}$  and  $G_{t + k}$ . Jiang, Lustig, Van Nieuwerburgh, and Xiaolan [2019] adopts the affine term structure framework, which
@@ -6717,7 +5949,7 @@ Similarly, let  $e_{\Delta d}, e_x$ , and  $e_{\pi}$  denote vectors that select
 Let  $Div_{t}$  denote the stock dividend strip. The value of the dividend strip of horizon  $h$  is defined as
 
 $$
-P_{t}^{m} (h) = \mathbb {E}_{t} [ \exp (M_{t, t + h}) D i v_{t + h} ],
+P_{t}^{m} (h) = \mathbb{E}_{t} [ \exp (M_{t, t + h}) D i v_{t + h} ],
 $$
 
 and let  $pd_t^m (h)$  denote the price-dividend ratio of the stock market:
@@ -6819,7 +6051,7 @@ $$
 $$
 
 $$
-\lim_{h \to \infty} \mathbb {E}_{t} [ \log P_{t + 1} (h - 1) - \log P_{t} (h) ] = i_{0} (1) - \frac{1}{2} B_{t r a n s}^{\prime} \Sigma B_{t r a n s} + B_{t r a n s}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B_{t r a n s}^{\prime} (\Psi - I) z_{t},
+\lim_{h \to \infty} \mathbb{E}_{t} [ \log P_{t + 1} (h - 1) - \log P_{t} (h) ] = i_{0} (1) - \frac{1}{2} B_{t r a n s}^{\prime} \Sigma B_{t r a n s} + B_{t r a n s}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B_{t r a n s}^{\prime} (\Psi - I) z_{t},
 $$
 
 where
@@ -6831,7 +6063,7 @@ $$
 (b) In the infinite horizon, the expected returns on the dividend, tax, and spending strips are
 
 $$
-\lim_{h \to \infty} \mathbb {E}_{t} [ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) ] = i_{0} (1) - \frac{1}{2} B_{p e r m}^{\prime} \Sigma B_{p e r m} + B_{p e r m}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B_{p e r m}^{\prime} (\Psi - I) z_{t} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} z_{t},
+\lim_{h \to \infty} \mathbb{E}_{t} [ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) ] = i_{0} (1) - \frac{1}{2} B_{p e r m}^{\prime} \Sigma B_{p e r m} + B_{p e r m}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B_{p e r m}^{\prime} (\Psi - I) z_{t} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} z_{t},
 $$
 
 where
@@ -6843,7 +6075,7 @@ $$
 The proof is in Appendix A.38. In the language of the permanent and transitory SDF components that we discussed in Section 3.D, the SDF we consider here has a permanent component. In the infinite-horizon limit, it prices the cash flows that contain this permanent risk, including the GDP strip, the stock dividend strip, the tax strip, and the spending strip in a coherent fashion, by assigning the same risk premia to these cash flows. The unconditional expected returns of these strips are given by
 
 $$
-\lim_{h \rightarrow \infty} \mathbb {E} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] - i_{0} (1) = B_{\text{pe rm}}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} - \frac{1}{2} B_{\text{pe rm}}^{\prime} \Sigma B_{\text{pe rm}}, \tag {8.15}
+\lim_{h \rightarrow \infty} \mathbb{E} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] - i_{0} (1) = B_{\text{pe rm}}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} - \frac{1}{2} B_{\text{pe rm}}^{\prime} \Sigma B_{\text{pe rm}}, \tag {8.15}
 $$
 
 which is the product of the risk loadings  $B_{perm}^{\prime}\Sigma^{\frac{1}{2}}$  and the market prices of risk  $\Lambda_0$ , plus a second-order Jensen's term.
@@ -6851,7 +6083,7 @@ which is the product of the risk loadings  $B_{perm}^{\prime}\Sigma^{\frac{1}{2}
 In contrast, this SDF prices the cash flows that do not have the permanent risk, such as the nominal bond, differently. The unconditional bond risk premia are given by
 
 $$
-\lim_{h \rightarrow \infty} \mathbb {E} \left[ \log P_{t + 1} (h - 1) - \log P_{t} (h) \right] - i_{0} (1) = B_{\text{tr an s}}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} - \frac{1}{2} B_{\text{tr an s}}^{\prime} \Sigma B_{\text{tr an s}}, \tag {8.16}
+\lim_{h \rightarrow \infty} \mathbb{E} \left[ \log P_{t + 1} (h - 1) - \log P_{t} (h) \right] - i_{0} (1) = B_{\text{tr an s}}^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} - \frac{1}{2} B_{\text{tr an s}}^{\prime} \Sigma B_{\text{tr an s}}, \tag {8.16}
 $$
 
 which is also the product of the risk loadings  $B_{trans}^{\prime}\Sigma^{\frac{1}{2}}$  and the market prices of risk  $\Lambda_0$ , plus a second-order Jensen's term. Note that Eq. (8.16) is a special case of Eq. (8.15), obtained when the cash flow does not grow, i.e., by setting  $e_{\Delta d} + e_x + e_\pi = 0$ .
@@ -6884,7 +6116,7 @@ but it allows us to deal with the possibility that the primary surplus  $s_t$  c
 By iterating this equation forward  $T$  times and taking expectations, we obtain
 
 $$
-v_{t} = \mathbb {E}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \mathbb {E}_{t} [ \kappa^{T} v_{t + T} ],
+v_{t} = \mathbb{E}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \mathbb{E}_{t} [ \kappa^{T} v_{t + T} ],
 $$
 
 which is a linearized version of the intertemporal government budget condition (8.6). It provides a way to evaluate the government debt as a fraction of GDP, i.e.,  $v_{t}$ , based on the expectations of future surpluses  $s_{t+j}$ , future adjusted debt returns  $\widetilde{r}_{t+j}$ , and future debt/GDP level  $v_{t+T}$ .
@@ -6892,7 +6124,7 @@ which is a linearized version of the intertemporal government budget condition (
 This relationship holds both ex-ante and ex-post. Without taking expectations, we can express this result as a variance decomposition exercise:
 
 $$
-v a r (v_{t}) = c o v \left(v_{t}, \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right)\right) + c o v (v_{t}, \kappa^{T} v_{t + T}),
+var (v_{t}) = cov \left(v_{t}, \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right)\right) + cov (v_{t}, \kappa^{T} v_{t + T}),
 $$
 
 which states that the debt/GDP ratio varies only because it predicts future surpluses, future returns, or the future debt/GDP ratio.
@@ -6900,7 +6132,7 @@ which states that the debt/GDP ratio varies only because it predicts future surp
 If we assume that the transversality condition holds, which in this context means  $\lim_{T\to \infty}\mathbb{E}_t[\kappa^T v_{t + T}] = 0$ , then, we obtain
 
 $$
-v_{t} = \mathbb {E}_{t} \left[ \sum_{j = 1}^{\infty} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right].
+v_{t} = \mathbb{E}_{t} \left[ \sum_{j = 1}^{\infty} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right].
 $$
 
 To implement this model, we could use statistical tools (such as the VAR model or the local projection method) to construct conditional expectations of  $s_{t+j}$  and  $\widetilde{r}_{t+j}$  and build the debt/GDP value from these expectations.
@@ -6914,13 +6146,13 @@ explained by the variations in the future debt/GDP ratio 10 years later instead 
 One explanation for the result in Jiang, Lustig, Van Nieuwerburgh, and Xiaolan [2021c] is biased beliefs. While the econometrician does not expect higher surpluses or lower returns when the debt/GDP ratio rises, bond investors may. More precisely, note that the same linearized decomposition works under the subjective measure, too:
 
 $$
-\begin{array}{l} v_{t} = \mathbb {F}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \mathbb {F}_{t} [ \kappa^{T} v_{t + T} ] \\ = \mathbb {E}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \left(\mathbb {F}_{t} [ \kappa^{T} v_{t + T} ] + (\mathbb {F}_{t} - \mathbb {E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right]\right). \\ \end{array}
+\begin{array}{l} v_{t} = \mathbb {F}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \mathbb {F}_{t} [ \kappa^{T} v_{t + T} ] \\ = \mathbb{E}_{t} \left[ \sum_{j = 1}^{T} \kappa^{j - 1} \left(s_{t + j} - \widetilde {r}_{t + j}\right) \right] + \left(\mathbb {F}_{t} [ \kappa^{T} v_{t + T} ] + (\mathbb {F}_{t} - \mathbb{E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right]\right). \\ \end{array}
 $$
 
 Then, the transversality term  $\mathbb{E}_t[\kappa^T v_{t + T}]$  under the objective measure can be expressed as
 
 $$
-\mathbb {E}_{t} [ \kappa^{T} v_{t + T} ] = \mathbb {E}_{t} [ \kappa^{T} v_{t + T} ] + (\mathbb {F}_{t} - \mathbb {E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right],
+\mathbb{E}_{t} [ \kappa^{T} v_{t + T} ] = \mathbb{E}_{t} [ \kappa^{T} v_{t + T} ] + (\mathbb {F}_{t} - \mathbb{E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right],
 $$
 
 and the second term  $(\mathbb{F}_t - \mathbb{E}_t)\left[\sum_{j = 1}^T\kappa^{j - 1}(s_{t + j} - \widetilde{r}_{t + j})\right]$  on the right-hand side represents the investors' forecast error. In other words, what the econometrician perceives as transversality condition violation can be explained by the investors' subjective belief errors.
@@ -6928,7 +6160,7 @@ and the second term  $(\mathbb{F}_t - \mathbb{E}_t)\left[\sum_{j = 1}^T\kappa^{j
 Specifically, if the investors systematically over-predict surpluses or under-predict returns when the debt/GDP ratio increases, this forecast error term can impute a unit root in the debt/GDP ratio under the econometrician's measure  $\mathbb{E}$ . At the same time, under the investors' subjective beliefs measure  $\mathbb{F}$ , the debt/GDP ratio may remain stationary. In this case, we obtain
 
 $$
-\lim_{T \to \infty} \mathbb {E}_{t} [ \kappa^{T} v_{t + T} ] = \lim_{T \to \infty} (\mathbb {F}_{t} - \mathbb {E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right].
+\lim_{T \to \infty} \mathbb{E}_{t} [ \kappa^{T} v_{t + T} ] = \lim_{T \to \infty} (\mathbb {F}_{t} - \mathbb{E}_{t}) \left[ \sum_{j = 1}^{T} \kappa^{j - 1} (s_{t + j} - \widetilde {r}_{t + j}) \right].
 $$
 
 Let us consider a concrete example that gives a full specification of the debt dynamics under the two measures. For simplicity, we abstract away from variations in growth-adjusted returns by setting  $\widetilde{r}_{t+j} = 0$  under both measures and let  $\kappa = 1$  which is consistent with the primary surplus being zero on average.
@@ -6936,19 +6168,19 @@ Let us consider a concrete example that gives a full specification of the debt d
 We assume that, under the econometrician's objective measure  $\mathbb{E}$ , the surplus process is stationary and follows an i.i.d. process:
 
 $$
-s_{t} = \varepsilon_{t}^{\mathbb {E}},
+s_{t} = \varepsilon_{t}^{\mathbb{E}},
 $$
 
 which implies that the debt/output ratio is a random walk:
 
 $$
-v_{t} = v_{t - 1} - \varepsilon_{t}^{\mathbb {E}}.
+v_{t} = v_{t - 1} - \varepsilon_{t}^{\mathbb{E}}.
 $$
 
 Therefore, under the econometrician's measure  $\mathbb{E}$ , the debt/output ratio satisfies
 
 $$
-v_{t} = \mathbb {E}_{t} \sum_{j = 1}^{T} \left(s_{t + j} - \widetilde {r}_{t + j}\right) + \mathbb {E}_{t} v_{t + T} = \mathbb {E}_{t} v_{t + T},
+v_{t} = \mathbb{E}_{t} \sum_{j = 1}^{T} \left(s_{t + j} - \widetilde {r}_{t + j}\right) + \mathbb{E}_{t} v_{t + T} = \mathbb{E}_{t} v_{t + T},
 $$
 
 which is a unit root process. More precisely, if we repeat the regressions in our baseline result, we would find that the variation in the debt/output ratio is  $100\%$  attributable to the transversality term  $\mathbb{E}_t[v_{t + T}]$ , and  $0\%$  to the variations in the surplus and return processes due to the i.i.d. assumption.
@@ -6992,7 +6224,7 @@ we obtain that the variation in the debt/output ratio is  $100\%$  attributable 
 These equations constitute a full specification of the debt dynamics under the two measures, which is mean-reverting according to the investors and has a unit root according to the econometrician. We can rearrange the equations and obtain
 
 $$
-v_{t} = \mathbb {E}_{t} v_{t + T} = 0 + (\mathbb {F}_{t} - \mathbb {E}_{t}) \sum_{j = 1}^{T} (s_{t + j} - \widetilde {r}_{t + j}),
+v_{t} = \mathbb{E}_{t} v_{t + T} = 0 + (\mathbb {F}_{t} - \mathbb{E}_{t}) \sum_{j = 1}^{T} (s_{t + j} - \widetilde {r}_{t + j}),
 $$
 
 which implies that the valuation of government debt is fully driven by the investors' belief bias  $(\mathbb{F}_t - \mathbb{E}_t)$ , which provides an economic interpretation of the transversality term  $\mathbb{E}_t[v_{t + T}]$  under the econometrician's measure.
@@ -7046,7 +6278,7 @@ $$
 - The standard asset pricing literature models portfolio choices as the mean-variance trade-off plus additional dynamic hedging terms:
 
 $$
-x_{t} = \gamma^{- 1} \Sigma_{t}^{- 1} \mathbb {E}_{t} \left[ r_{t + 1} \right] + \text{dy na mi ch ed gi ng te rm s}.
+x_{t} = \gamma^{- 1} \Sigma_{t}^{- 1} \mathbb{E}_{t} \left[ r_{t + 1} \right] + \text{dy na mi ch ed gi ng te rm s}.
 $$
 
 - Alternatively, the demand system approach models portfolio choices based on asset prices, characteristics, and latent demand terms:
@@ -7316,7 +6548,7 @@ So, the consumption is equal to labor income plus dividend payouts minus net fin
 This set-up follows the standard Merton [1969] portfolio problem with multiple assets. For tractability, we assume households have power utility and a finite horizon  $T$ . This set-up is otherwise similar to the domestic economy considered in Chapter 1, which is populated by a representative household. The household maximizes expected lifetime utility:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{T} \delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{T} \delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} \right].
 $$
 
 The household can trade a set of financial assets. Let  $w_{t}$  denote the wealth before consumption, and let  $a_{t}$  denote its total asset under management after consumption. Risky assets are indexed by  $\iota \in \{1,2,\dots,N\}$ , and there is an asset that is risk-free in real terms. Let  $x_{t}(\iota)$  denote the households' portfolio share on the asset  $\iota$ , and let  $\exp (r_{t + 1}(\iota))$  denote the asset's real return. Let  $\exp (r_t^f)$  denote the risk-free asset's real return. Then, the portfolio-level return can be expressed as
@@ -7340,13 +6572,13 @@ $$
 Let  $z_{t}$  denote the vector of state variables that determine the distribution of returns. We define the value function as
 
 $$
-\psi_{t} \left(w_{t}, z_{t}\right) \stackrel {{\text{de f}}} {{=}} \max_{\left\{c_{s}, x_{s} \right\}_{s = t}^{T}} \mathbb {E}_{t} \left[ \sum_{s = t}^{T} \delta^{s} \frac{c_{s}^{1 - \gamma}}{1 - \gamma} \right],
+\psi_{t} \left(w_{t}, z_{t}\right) \stackrel {{\text{de f}}} {{=}} \max_{\left\{c_{s}, x_{s} \right\}_{s = t}^{T}} \mathbb{E}_{t} \left[ \sum_{s = t}^{T} \delta^{s} \frac{c_{s}^{1 - \gamma}}{1 - \gamma} \right],
 $$
 
 which can be expressed in the following recursive form
 
 $$
-\psi_{t} \left(w_{t}, z_{t}\right) = \max_{c_{t}, x_{t}} \delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \mathbb {E}_{t} \left[ \psi_{t + 1} \left(w_{t + 1}, z_{t + 1}\right) \right].
+\psi_{t} \left(w_{t}, z_{t}\right) = \max_{c_{t}, x_{t}} \delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \mathbb{E}_{t} \left[ \psi_{t + 1} \left(w_{t + 1}, z_{t + 1}\right) \right].
 $$
 
 This is a generic set up of a portfolio choice model. See Back [2010] for more details, or Duffie [2010] for a continuous-time formulation. To fully solve this model, we need to rely on specific assumptions of investor preferences and asset return dynamics. When the investors have power utility, we obtain the following characterizations for portfolio demand.
@@ -7362,7 +6594,7 @@ where the function  $f_{t}(z_{t})$  depends on the state variable and satisfies 
 (b) The optimal portfolio allocation satisfies
 
 $$
-x_{t} = \arg \max_{x_{t}} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\exp \left(\left(1 - \gamma\right) r_{t + 1}^{p}\right)}{1 - \gamma} \right], \tag {9.9}
+x_{t} = \arg \max_{x_{t}} \mathbb{E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\exp \left(\left(1 - \gamma\right) r_{t + 1}^{p}\right)}{1 - \gamma} \right], \tag {9.9}
 $$
 
 where the log portfolio return  $r_{t+1}^p$  depends on the portfolio choice  $x_t$ .
@@ -7384,7 +6616,7 @@ With this approximation formula, we can now solve the portfolio choice problem w
 Proposition 9.3. When the asset returns are i.i.d. and normally distributed, the optimal portfolio choice is
 
 $$
-x_{t} = \gamma^{- 1} \Sigma_{t}^{- 1} \left(\mathbb {E} \left[ r_{t + 1} \right] + \frac{1}{2} \sigma_{t}^{2} - r_{t}^{f}\right). \tag {9.10}
+x_{t} = \gamma^{- 1} \Sigma_{t}^{- 1} \left(\mathbb{E} \left[ r_{t + 1} \right] + \frac{1}{2} \sigma_{t}^{2} - r_{t}^{f}\right). \tag {9.10}
 $$
 
 The proof is in Appendix A.41. This formula (9.10) recovers the classical mean-variance trade-off in portfolio choice theory. In the numerator,  $\mathbb{E}[r_{t + 1}] - r_t^f$  denotes the assets' expected excess returns in log, and  $\frac{1}{2}\sigma_t^2$  captures the Jensen's term adjustment, so that the
@@ -7396,7 +6628,7 @@ sum  $\mathbb{E}[r_{t + 1}] + \frac{1}{2}\sigma_t^2 - r_t^f$  captures the asset
 When the state variable  $z_{t}$  is time-varying, the problem becomes more difficult in general. Here we discuss two special cases. First, Campbell and Viceira [2002] consider a case in which the risk-free rate is time-varying but the risky assets' variances and risk premia are constant. In this case, the optimal portfolio choice is
 
 $$
-x_{t} = \frac{1}{\gamma} \Sigma_{t}^{- 1} \left(\mathbb {E}_{t} r_{t + 1} - r_{t}^{f} + \frac{1}{2} \sigma_{t}^{2}\right) + \left(1 - \frac{1}{\gamma}\right) \Sigma_{t}^{- 1} c o v_{t} \left(r_{t + 1}, - \left(\mathbb {E}_{t + 1} - \mathbb {E}_{t}\right) \sum_{j = 1}^{\infty} \rho^{j} r_{t + j}^{f}\right). \tag {9.11}
+x_{t} = \frac{1}{\gamma} \Sigma_{t}^{- 1} \left(\mathbb{E}_{t} r_{t + 1} - r_{t}^{f} + \frac{1}{2} \sigma_{t}^{2}\right) + \left(1 - \frac{1}{\gamma}\right) \Sigma_{t}^{- 1} cov_{t} \left(r_{t + 1}, - \left(\mathbb{E}_{t + 1} - \mathbb{E}_{t}\right) \sum_{j = 1}^{\infty} \rho^{j} r_{t + j}^{f}\right). \tag {9.11}
 $$
 
 This solution contains two terms. The first term is similar to the solution under i.i.d. returns derived above, which depends on the assets' excess returns and variance-covariance matrix. The second term is commonly known as the hedging term, as the investors buy certain assets to hedge shocks to future investment opportunities. In this case, since risk premia are constant, variations in future investment opportunities are only driven by variations in the risk-free rate. Specifically, a surprise reduction in expected future risk-free rates represents a negative shock to future investment opportunities. When the risk aversion coefficient  $\gamma > 1$ , investors would like to load up more on assets that offer higher returns when expected future risk-free rates go down.
@@ -7404,7 +6636,7 @@ This solution contains two terms. The first term is similar to the solution unde
 Second, if the investors have log utility, then, Eq. (9.9) can be simplified to
 
 $$
-x_{t} = \arg \max_{x_{t}} \mathbb {E}_{t} \left[ r_{t + 1}^{p} \right] \approx \arg \max_{x_{t}} x_{t}^{\prime} \left(\mathbb {E}_{t} \left[ r_{t + 1} \right] - r_{t}^{f} + \frac{1}{2} \sigma_{t}^{2}\right) - \frac{1}{2} x_{t}^{\prime} \Sigma_{t} x_{t},
+x_{t} = \arg \max_{x_{t}} \mathbb{E}_{t} \left[ r_{t + 1}^{p} \right] \approx \arg \max_{x_{t}} x_{t}^{\prime} \left(\mathbb{E}_{t} \left[ r_{t + 1} \right] - r_{t}^{f} + \frac{1}{2} \sigma_{t}^{2}\right) - \frac{1}{2} x_{t}^{\prime} \Sigma_{t} x_{t},
 $$
 
 which does not depend on the state variable. In this sense, investors with log utility are myopic, as they choose portfolios like one-period investors. They do not pay attention to how different assets' returns respond to shocks to future investment opportunities. These investors also have a predetermined wealth-consumption ratio, which is a constant when the horizon  $T$  is infinite.
@@ -7747,7 +6979,7 @@ The households' preferences are similar to those we considered in Section 6.B. H
 consumption and work. The home households' expected lifetime utility is
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} c_{t}^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \ell_{t}^{1 + 1 / \nu} \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} c_{t}^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \ell_{t}^{1 + 1 / \nu} \right].
 $$
 
 Here we consider a more general aggregation function for consumption goods. The home households' consumption bundle is composed of home and foreign goods:
@@ -7777,7 +7009,7 @@ where  $d$  denotes the depreciation rate and  $\frac{\kappa}{2}\frac{(\Delta k_
 Similarly, the foreign households maximize their expected lifetime utility:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} \left(c_{t}^{*}\right)^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \left(\ell_{t}^{*}\right)^{1 + 1 / \nu} \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} \left(c_{t}^{*}\right)^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \left(\ell_{t}^{*}\right)^{1 + 1 / \nu} \right],
 $$
 
 where their consumption bundle is defined as
@@ -7837,13 +7069,13 @@ $$
 The financiers are myopic and maximize the CARA utility of their return:
 
 $$
-\mathbb {E}_{0} \left[ - \frac{1}{\omega} \exp (- \omega (1 - \exp (r x_{t + 1})) d_{t}^{*}) \right],
+\mathbb{E}_{0} \left[ - \frac{1}{\omega} \exp (- \omega (1 - \exp (r x_{t + 1})) d_{t}^{*}) \right],
 $$
 
 where  $rx_{t + 1} \stackrel{\mathrm{def}}{=} \Delta e_{t + 1} + r_t - r_t^*$  is the home currency's expected excess return in log. Itskhoki and Mukhin [2021] consider the continuous-time limit of this problem, in which the optimal solution is given by
 
 $$
-d_{t}^{*} = - \frac{\mathbb {E}_{t} [ r x_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1})}{\omega v a r_{t} (\Delta e_{t + 1})}, \tag {10.3}
+d_{t}^{*} = - \frac{\mathbb{E}_{t} [ r x_{t + 1} ] + \frac{1}{2} var_{t} (\Delta e_{t + 1})}{\omega var_{t} (\Delta e_{t + 1})}, \tag {10.3}
 $$
 
 This solution is identical to the myopic investors' optimal portfolio choice we derived in Section 9.3. Eq. (10.3) connects the currency's expected excess return to the financiers' portfolio position. These financiers absorb excess positive or negative positions in the bond market, and they charge a risk premium for providing this service. In particular, if they have a positive position in the home bond and a negative position in the foreign bond (i.e.,  $d_t^* < 0$ ), they demand a higher expected return on the home bond to earn a positive expected return on their portfolio. Conversely, if they have a negative position in the home bond and a positive position in the foreign bond (i.e.,  $d_t^* > 0$ ), they demand a higher expected return on the foreign bond to earn a positive expected return on their portfolio. In this way, their optimality condition (10.3) implies a tight link between their portfolio position and the currency's expected return.
@@ -7855,7 +7087,7 @@ Using the financiers' optimality condition and the market clearing conditions th
 Proposition 10.1. After log-linearization, the currency expected excess return is given by
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1} ] \stackrel {d e f} {=} \mathbb {E}_{t} [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}}.
+\mathbb{E}_{t} [ r x_{t + 1} ] \stackrel {d e f} {=} \mathbb{E}_{t} [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}}.
 $$
 
 The proof is in Appendix A.42. This proposition relates the required excess return to hold the home currency to the equilibrium quantity of imbalances absorbed that the financiers need to absorb,
@@ -7865,13 +7097,13 @@ which, by market clearing, is further determined by the bond demand of the noise
 Moreover, we can derive an exchange rate accounting formula similar to Proposition 4.2. In this log-linearized model, as we ignore the second-order terms, we effectively attribute all currency expected excess returns to the Euler equation wedge as opposed to the currency risk premium. We obtain
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ w_{t + j} \right] + \bar {e}, \tag {10.4}
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ w_{t + j} \right] + \bar {e}, \tag {10.4}
 $$
 
 where the wedge  $w_{t+j}$  is equal to
 
 $$
-w_{t + j} = \omega \cdot v a r_{t + j} (\Delta e_{t + j + 1}) d_{t + j}^{*},
+w_{t + j} = \omega \cdot var_{t + j} (\Delta e_{t + j + 1}) d_{t + j}^{*},
 $$
 
 which can be interpreted as the financiers' price of risk,  $\omega$ , multiplied with the quantity of risk they absorb,  $var_{t+j}(\Delta e_{t+j+1}) d_{t+j}^*$ . The home currency is stronger (i.e.,  $e_t$  is higher) when the financiers have to absorb a large amount of the foreign bond (i.e.,  $d_{t+j}^*$  is large) and requires a higher compensation to hold the foreign currency, which can be triggered by a negative  $\psi_t$  shock.
@@ -8003,25 +7235,25 @@ z_{t} = k_{t + 1} - (1 - d) k_{t} + \frac{\kappa}{2} \frac{(\Delta k_{t + 1})^{2
 $$
 
 $$
-\begin{array}{l} 1 + \kappa \frac{\Delta k_{t + 1}}{k_{t}} = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \left(q_{t + 1} + 1 - d + \kappa \frac{\Delta k_{t + 2}}{k_{t + 1}} + \frac{\kappa}{2} \left(\frac{\Delta k_{t + 2}}{k_{t + 1}}\right)^{2}\right) \right], \\ z_{t}^{*} = k_{t + 1}^{*} - (1 - d)^{*} k_{t} + \frac{\kappa}{2} \frac{(\Delta k_{t + 1}^{*})^{2}}{k_{t}^{*}}, \\ \end{array}
+\begin{array}{l} 1 + \kappa \frac{\Delta k_{t + 1}}{k_{t}} = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \left(q_{t + 1} + 1 - d + \kappa \frac{\Delta k_{t + 2}}{k_{t + 1}} + \frac{\kappa}{2} \left(\frac{\Delta k_{t + 2}}{k_{t + 1}}\right)^{2}\right) \right], \\ z_{t}^{*} = k_{t + 1}^{*} - (1 - d)^{*} k_{t} + \frac{\kappa}{2} \frac{(\Delta k_{t + 1}^{*})^{2}}{k_{t}^{*}}, \\ \end{array}
 $$
 
 $$
-1 + \kappa \frac{\Delta k_{t + 1}^{*}}{k_{t}^{*}} = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \left(q_{t + 1}^{*} + 1 - d + \kappa \frac{\Delta k_{t + 2}^{*}}{k_{t + 1}^{*}} + \frac{\kappa}{2} \left(\frac{\Delta k_{t + 2}^{*}}{k_{t + 1}^{*}}\right)^{2}\right) \right],
+1 + \kappa \frac{\Delta k_{t + 1}^{*}}{k_{t}^{*}} = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \left(q_{t + 1}^{*} + 1 - d + \kappa \frac{\Delta k_{t + 2}^{*}}{k_{t + 1}^{*}} + \frac{\kappa}{2} \left(\frac{\Delta k_{t + 2}^{*}}{k_{t + 1}^{*}}\right)^{2}\right) \right],
 $$
 
 3 Euler equations for households and the intermediary,
 
 $$
-1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) \right], \tag {10.5}
+1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) \right], \tag {10.5}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp \left(r_{t}^{*}\right) \right], \tag {10.6}
+1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp \left(r_{t}^{*}\right) \right], \tag {10.6}
 $$
 
 $$
-\mathbb {E}_{t} \left[ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \right] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp \left(r_{t}\right)}{\bar {Y}}, \tag {10.7}
+\mathbb{E}_{t} \left[ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \right] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp \left(r_{t}\right)}{\bar {Y}}, \tag {10.7}
 $$
 
 2 budget constraints for households,
@@ -8045,7 +7277,7 @@ $$
 The market segmentation mechanism we develop in the previous section is in fact very similar to the convenience yield model that we considered in Section 7.C. In the model with market segmentation, the households' and the intermediaries' (log-linearized) Euler equations (10.5)-(10.7) imply the following risk-sharing condition:
 
 $$
-\chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}} = \mathbb {E}_{t} [ \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right) ], \tag {10.9}
+\chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}} = \mathbb{E}_{t} [ \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right) ], \tag {10.9}
 $$
 
 which deviates from the complete-market case  $0 = \Delta e_{t + 1} - (m_{t + 1} - m_{t + 1}^{*})$  in Section 1.C by introducing a wedge on the left-hand side and by introducing the expectation operator so that the condition only holds on average.
@@ -8053,19 +7285,19 @@ which deviates from the complete-market case  $0 = \Delta e_{t + 1} - (m_{t + 1}
 If we replace these equations with the following Euler equations from the model with convenience yields:
 
 $$
-\exp (- \lambda_{H, t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right],
+\exp (- \lambda_{H, t}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right],
 $$
 
 $$
-\exp \left(- \lambda_{F, t}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {10.10}
+\exp \left(- \lambda_{F, t}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {10.10}
 $$
 
 $$
-\exp (- \lambda_{F, t}^{*}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right],
+\exp (- \lambda_{F, t}^{*}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right],
 $$
 
 $$
-\exp (- \lambda_{H, t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right],
+\exp (- \lambda_{H, t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right],
 $$
 
 change the bond market clearing condition to include the government's supply:
@@ -8081,7 +7313,7 @@ $$
 and modify the households' budget conditions accordingly to include both home and foreign bonds, we are very close to recovering the convenience yield model. More precisely, we can log-linearize the above equations in the convenience yield model, and obtain
 
 $$
-- \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) = - \left(\lambda_{F, t}^{*} - \lambda_{F, t}\right) = \mathbb {E}_{t} \left[ \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right) \right]. \tag {10.11}
+- \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) = - \left(\lambda_{F, t}^{*} - \lambda_{F, t}\right) = \mathbb{E}_{t} \left[ \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right) \right]. \tag {10.11}
 $$
 
 Both Eq. (10.9) in the segmented market model and Eq. (10.11) in the convenience yield model introduce a wedge to the risk-sharing condition, which breaks the tight link between the exchange rate and the households' marginal utilities. The difference is that, in the model with market segmentation, the wedge is driven by the portfolio imbalances born by the financiers, whereas in the model with convenience yields, the wedge is driven by the households' demand for safe assets.
@@ -8093,21 +7325,21 @@ To facilitate the comparison between the segmented market model and the convenie
 Their only difference is in the asset market. The Euler equations (10.5) to (10.7) in the segmented market model, reproduced below,
 
 $$
-1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) \right],
+1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) \right],
+1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) \right],
 $$
 
 $$
-\mathbb {E}_{t} \big [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \big ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}},
+\mathbb{E}_{t} \big [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \big ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}},
 $$
 
 are replaced by the Euler equations with convenience yields:
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) + \frac{\omega_{H} b_{H , t}^{- \sigma}}{c_{t}^{- \gamma}} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) + \frac{\omega_{F} b_{F , t}^{- \sigma}}{c_{t}^{- \gamma}} \exp (e_{t}) \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) + \frac{\omega_{F}^{*} (b_{F , t}^{*})^{- \sigma}}{(c_{t}^{*})^{- \gamma}} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) + \frac{\omega_{H}^{*} (b_{H , t}^{*})^{- \sigma} + (\bar {c}^{*})^{- \gamma} \theta_{H , t}^{*}}{(c_{t}^{*})^{- \gamma}} \exp (- e_{t}) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (r_{t}) + \frac{\omega_{H} b_{H , t}^{- \sigma}}{c_{t}^{- \gamma}} \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) + \frac{\omega_{F} b_{F , t}^{- \sigma}}{c_{t}^{- \gamma}} \exp (e_{t}) \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (r_{t}^{*}) + \frac{\omega_{F}^{*} (b_{F , t}^{*})^{- \sigma}}{(c_{t}^{*})^{- \gamma}} \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) + \frac{\omega_{H}^{*} (b_{H , t}^{*})^{- \sigma} + (\bar {c}^{*})^{- \gamma} \theta_{H , t}^{*}}{(c_{t}^{*})^{- \gamma}} \exp (- e_{t}) \right]. \\ \end{array}
 $$
 
 This set of equations, based on Jiang [2023a] that we discussed in Section 7.C, is a simple specification of the general case described by Eq. (10.10). It allows households to freely trade both home and foreign bonds, but introduces the convenience yield wedges in their bond valuations.
@@ -8145,11 +7377,11 @@ Table 10.1: Parameter Values.
 wedges  $\lambda_{F,t}^{SM}$  and  $\lambda_{H,t}^{SM,*}$  as
 
 $$
-\exp (- \lambda_{F, t}^{S M}) = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (- \Delta e_{t + 1} + r_{t}^{*}) \right],
+\exp (- \lambda_{F, t}^{S M}) = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}}{c_{t}}\right)^{- \gamma} \exp (- \Delta e_{t + 1} + r_{t}^{*}) \right],
 $$
 
 $$
-\exp (- \lambda_{H, t}^{S M, *}) = \mathbb {E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) \right],
+\exp (- \lambda_{H, t}^{S M, *}) = \mathbb{E}_{t} \left[ \delta \left(\frac{c_{t + 1}^{*}}{c_{t}^{*}}\right)^{- \gamma} \exp (\Delta e_{t + 1} + r_{t}) \right],
 $$
 
 and the other two wedges for domestic bond holdings,  $\lambda_{H,t}^{SM}$  and  $\lambda_{F,t}^{SM,*}$ , are always zero because the agents can freely trade their local
@@ -8236,7 +7468,7 @@ Second, the convenience yield mechanism provides an economic interpretation for 
 Third, is the bond convenience yield on the dollar bond all there is to the wedge-based view of the exchange rate dynamics? Let us return to the Euler equations (10.10) with slightly different labeling:
 
 $$
-\begin{array}{l} \exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \\ \exp (- \xi_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ \exp (- \xi_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right], \\ \exp \left(- \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right], \\ \end{array}
+\begin{array}{l} \exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \\ \exp (- \xi_{t}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ \exp (- \xi_{t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right], \\ \exp \left(- \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right], \\ \end{array}
 $$
 
 which emphasizes that  $\lambda_{t}$  and  $\lambda_{t}^{*}$  are the non-pecuniary utilities that home and foreign households derive from the U.S. bond, whereas  $\xi_{t}$  and  $\xi_{t}^{*}$  are the non-pecuniary utilities that home and foreign households derive from the foreign bond. Assuming joint normality, Jiang, Krishnamurthy, and Lustig [2023a] show the following result.
@@ -8244,7 +7476,7 @@ which emphasizes that  $\lambda_{t}$  and  $\lambda_{t}^{*}$  are the non-pecuni
 Proposition 10.2. The exchange rate's conditional cyclicality can be expressed as
 
 $$
-c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = v a r_{t} \left(\Delta e_{t + 1}\right) + \left(\lambda_{t}^{*} - \lambda_{t}\right) - \left(\xi_{t}^{*} - \xi_{t}\right). \tag {10.12}
+cov_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = var_{t} \left(\Delta e_{t + 1}\right) + \left(\lambda_{t}^{*} - \lambda_{t}\right) - \left(\xi_{t}^{*} - \xi_{t}\right). \tag {10.12}
 $$
 
 The proof is presented in Appendix A.43. What is remarkable about this result is that the wedges  $\lambda_{t},\lambda_{t}^{*},\xi_{t},\xi_{t}^{*}$  enter the determination of the exchange rate cyclicity in their levels as opposed to their covariances with the SDFs, so that even a constant wedge can affect the exchange rate cyclicity. This is because the presence of the wedges endogenously requires the exchange rate cyclicity to adjust to be consistent with the Euler equations.
@@ -8266,7 +7498,7 @@ $$
 which could lower the exchange rate cyclicality and even make it negative, so that the foreign currency depreciates when the foreign marginal utility is high. This condition can be interpreted as the U.S. households finding it very undesirable to hold the foreign bond, which can result from a strong home bias. In fact, we can rewrite Eq. (10.12) as
 
 $$
-c o v_{t} \left(m_{t, t + 1} - m_{t, t + 1}^{*}, \Delta s_{t + 1}\right) = v a r_{t} \left(\Delta s_{t + 1}\right) + \left(\lambda_{t}^{*} + \xi_{t}\right) - \left(\xi_{t}^{*} + \lambda_{t}\right),
+cov_{t} \left(m_{t, t + 1} - m_{t, t + 1}^{*}, \Delta s_{t + 1}\right) = var_{t} \left(\Delta s_{t + 1}\right) + \left(\lambda_{t}^{*} + \xi_{t}\right) - \left(\xi_{t}^{*} + \lambda_{t}\right),
 $$
 
 where  $(\lambda_t^* + \xi_t)$  are the Euler equation wedge for cross-country investments from the perspectives of both households, and  $(\xi_t^* + \lambda_t)$  are the Euler equation wedge for domestic investments from the perspectives of both households. A stronger home bias in the form of a negative convenience yield for cross-country investments in either country can make the exchange rate more pro-cyclical with respect to the local business cycles.
@@ -8310,7 +7542,7 @@ We again consider two countries: home and foreign. There is a unit mass of house
 Active households can trade a complete set of state-contingent claims in international markets. They behave like the households in the complete-market version of the baseline model in Section 1.C. Let  $\phi \in (0,1)$  denote the fraction of these households in each country. We use  $(a)$  to denote the active households. The active households in the home country maximize their expected lifetime utility
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t} (a)) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t} (a)) \right],
 $$
 
 and their consumption is a Cobb-Douglas aggregate of home and foreign goods:
@@ -8322,7 +7554,7 @@ $$
 Inactive households have identical preferences. We use  $(i)$  to denote the inactive households. They maximize their expected lifetime utility
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t} (i)) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} u (c_{t} (i)) \right],
 $$
 
 and their consumption is a Cobb-Douglas aggregate of home and foreign goods:
@@ -8354,7 +7586,7 @@ The active and inactive households in the foreign country are similarly specifie
 Because the active households have access to the complete markets, the First Welfare Theorem holds for them. We can again use the social planner approach to derive the equilibrium allocation. Specifically, the social planner maximizes a weighted sum of the active households' welfare:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (\pi u (c_{t}) + (1 - \pi) u (c_{t}^{*})) \right].
 $$
 
 If we only consider the active agents from home and foreign countries, the transfer to the inactive households takes away resources available to them. Effectively, the resources that the social planner allocates between the active households in home and foreign countries are equal to the total endowment minus the transfer. Thus, we can
@@ -8374,7 +7606,7 @@ where we moved the inactive households' consumption to the left-hand side in ord
 The social planner's Lagrangian is
 
 $$
-\begin{array}{l} \mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (\pi u (c_{t} (a)) + (1 - \pi) u (c_{t}^{*} (a))) \right. \\ + \sum_{t = 1}^{\infty} \zeta_{H, t} \left(y_{t} - \phi \left(c_{H, t} (a) + c_{H, t}^{*} (a)\right) - (1 - \phi) \left(c_{H, t} (i) + c_{H, t}^{*} (i)\right)\right) \\ \left. + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - \phi (c_{F, t} (a) + c_{F, t}^{*} (a)) - (1 - \phi) (c_{F, t} (i) + c_{F, t}^{*} (i))) \right], \\ \end{array}
+\begin{array}{l} \mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (\pi u (c_{t} (a)) + (1 - \pi) u (c_{t}^{*} (a))) \right. \\ + \sum_{t = 1}^{\infty} \zeta_{H, t} \left(y_{t} - \phi \left(c_{H, t} (a) + c_{H, t}^{*} (a)\right) - (1 - \phi) \left(c_{H, t} (i) + c_{H, t}^{*} (i)\right)\right) \\ \left. + \sum_{t = 1}^{\infty} \zeta_{F, t} (y_{t}^{*} - \phi (c_{F, t} (a) + c_{F, t}^{*} (a)) - (1 - \phi) (c_{F, t} (i) + c_{F, t}^{*} (i))) \right], \\ \end{array}
 $$
 
 which implies the following standard first-order conditions
@@ -8579,11 +7811,11 @@ $$
 $$
 
 $$
-\sigma_{y}^{2} \stackrel {\text{de f}} {=} v a r_{t} (\hat {y}_{t + 1}) = v a r_{t} (\hat {y}_{t + 1}^{*}),
+\sigma_{y}^{2} \stackrel {\text{de f}} {=} var_{t} (\hat {y}_{t + 1}) = var_{t} (\hat {y}_{t + 1}^{*}),
 $$
 
 $$
-\sigma_{\tau}^{2} \stackrel {\text{de f}} {=} v a r_{t} \left(\hat {\tau}_{t + 1}\right) = v a r_{t} \left(\hat {\tau}_{t + 1}^{*}\right).
+\sigma_{\tau}^{2} \stackrel {\text{de f}} {=} var_{t} \left(\hat {\tau}_{t + 1}\right) = var_{t} \left(\hat {\tau}_{t + 1}^{*}\right).
 $$
 
 Then, we obtain the following result:
@@ -8725,19 +7957,19 @@ where we plug in  $\bar{p}\bar{y} = \bar{c}$
 Proof. Plug in
 
 $$
-r x_{t + 1}^{i / \S} - \mathbb {E}_{t} \left[ r x_{t + 1}^{i / \S} \right] = - \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right)
+r x_{t + 1}^{i / \S} - \mathbb{E}_{t} \left[ r x_{t + 1}^{i / \S} \right] = - \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right)
 $$
 
 in the expression of  $hml_{t+1}$  yields
 
 $$
-\begin{array}{l} h m l_{t + 1} - \mathbb {E}_{t} \left[ h m l_{t + 1} \right] = - \frac{1}{N_{H}} \sum_{i \in H} \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \frac{1}{N_{H}} \sum_{i \in H} \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right) \\ + \frac{1}{N_{L}} \sum_{i \in L} \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} + \frac{1}{N_{L}} \sum_{i \in L} \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right) \\ = \left(\sqrt{\delta_{t}^{L}} - \sqrt{\delta_{t}^{H}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \frac{1}{N_{H}} \sum_{i \in H} \sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} + \frac{1}{N_{L}} \sum_{i \in L} \sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} \\ = \left(\overline {{\sqrt{\delta_{t}^{L}}}} - \overline {{\sqrt{\delta_{t}^{H}}}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} \\ \end{array}
+\begin{array}{l} h m l_{t + 1} - \mathbb{E}_{t} \left[ h m l_{t + 1} \right] = - \frac{1}{N_{H}} \sum_{i \in H} \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \frac{1}{N_{H}} \sum_{i \in H} \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right) \\ + \frac{1}{N_{L}} \sum_{i \in L} \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} + \frac{1}{N_{L}} \sum_{i \in L} \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right) \\ = \left(\sqrt{\delta_{t}^{L}} - \sqrt{\delta_{t}^{H}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} - \frac{1}{N_{H}} \sum_{i \in H} \sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} + \frac{1}{N_{L}} \sum_{i \in L} \sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} \\ = \left(\overline {{\sqrt{\delta_{t}^{L}}}} - \overline {{\sqrt{\delta_{t}^{H}}}}\right) \sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w} \\ \end{array}
 $$
 
 The country-specific shock terms,  $\frac{1}{N_H}\sum_{i\in H}\sqrt{\gamma z_t^i}\varepsilon_{t + 1}^i$  and  $\frac{1}{N_L}\sum_{i\in L}\sqrt{\gamma z_t^i}\varepsilon_{t + 1}^i$  averages out according to the law of large numbers. Hence,
 
 $$
-r x_{t + 1}^{i / \S} = r p_{t}^{i / \S} + \frac{\sqrt{\delta^{\S}} - \sqrt{\delta^{i}}}{\sqrt{\delta_{t}^{L}} - \sqrt{\delta_{t}^{H}}} \left(h m l_{t + 1} - \mathbb {E}_{t} \left[ h m l_{t + 1} \right]\right) - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right)
+r x_{t + 1}^{i / \S} = r p_{t}^{i / \S} + \frac{\sqrt{\delta^{\S}} - \sqrt{\delta^{i}}}{\sqrt{\delta_{t}^{L}} - \sqrt{\delta_{t}^{H}}} \left(h m l_{t + 1} - \mathbb{E}_{t} \left[ h m l_{t + 1} \right]\right) - \left(\sqrt{\gamma z_{t}^{i}} \varepsilon_{t + 1}^{i} - \sqrt{\gamma z_{t}^{\S}} \varepsilon_{t + 1}^{\S}\right)
 $$
 
 which shows that  $\beta_t^i$  is the carry trade loading on  $hml_{t+1}$
@@ -8761,21 +7993,21 @@ $$
 Note that  $z_{t}^{w}$  is uncorrelated  $z_{t}^{i}$  and  $z_{t}^{\S}$ . Hence,
 
 $$
-v a r (r_{t}^{i} - r_{t}^{\$}) = \left(\chi - \frac{1}{2} \gamma\right)^{2} v a r (z_{t}^{i} - z_{t}^{\$}) + \frac{1}{4} \left(\delta^{i} - \delta^{\$}\right)^{2} v a r (z_{t}^{w})
+var (r_{t}^{i} - r_{t}^{\$}) = \left(\chi - \frac{1}{2} \gamma\right)^{2} var (z_{t}^{i} - z_{t}^{\$}) + \frac{1}{4} \left(\delta^{i} - \delta^{\$}\right)^{2} var (z_{t}^{w})
 $$
 
 $$
-c o v (\Delta e_{t + 1}^{i / \S}, r_{t}^{i} - r_{t}^{\S}) = - \chi \left(\chi - \frac{1}{2} \gamma\right) v a r (z_{t}^{i} - z_{t}^{\S})
+cov (\Delta e_{t + 1}^{i / \S}, r_{t}^{i} - r_{t}^{\S}) = - \chi \left(\chi - \frac{1}{2} \gamma\right) var (z_{t}^{i} - z_{t}^{\S})
 $$
 
 $$
-\begin{array}{l} c o v (r x_{t + 1}^{i / \S}, r_{t}^{i} - r_{t}^{\S}) = c o v (\Delta e_{t + 1}^{i / \S} + r_{t}^{i} - r_{t}^{\S}, r_{t}^{i} - r_{t}^{\S}) \\ = c o v \left(\Delta e_{t + 1}^{i / \$}, r_{t}^{i} - r_{t}^{\$}\right) + v a r \left(r_{t}^{i} - r_{t}^{\$}\right) \\ \end{array}
+\begin{array}{l} cov (r x_{t + 1}^{i / \S}, r_{t}^{i} - r_{t}^{\S}) = cov (\Delta e_{t + 1}^{i / \S} + r_{t}^{i} - r_{t}^{\S}, r_{t}^{i} - r_{t}^{\S}) \\ = cov \left(\Delta e_{t + 1}^{i / \$}, r_{t}^{i} - r_{t}^{\$}\right) + var \left(r_{t}^{i} - r_{t}^{\$}\right) \\ \end{array}
 $$
 
 Assuming  $z_{t}^{i}$  and  $z_{t}^{\S}$  are also independent,
 
 $$
-v a r (z_{t}^{i} - z_{t}^{\$}) = v a r (z_{t}^{i}) + v a r (z_{t}^{\$}).
+var (z_{t}^{i} - z_{t}^{\$}) = var (z_{t}^{i}) + var (z_{t}^{\$}).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/c2fac57952de4a345af836758ee9dd61b7045ca08656353bb60497221e4454ed.jpg)
@@ -8791,19 +8023,19 @@ $$
 Note that  $z_{t}^{i}, z_{t}^{j}, z_{t}^{w}, \varepsilon_{t+1}^{i}, \varepsilon_{t+1}^{j}, \varepsilon_{t+1}^{w}$  are independent for  $i \neq j$ . By the law of large numbers,
 
 $$
-c o v (z_{t}^{i} - \overline {{z}}_{t}, z_{t}^{i} - z_{t}^{j}) = v a r (z_{t}^{i}) - \frac{1}{N} v a r (z_{t}^{i}) + \frac{1}{N} v a r (z_{t}^{j}) = v a r (z_{t}^{i})
+cov (z_{t}^{i} - \overline {{z}}_{t}, z_{t}^{i} - z_{t}^{j}) = var (z_{t}^{i}) - \frac{1}{N} var (z_{t}^{i}) + \frac{1}{N} var (z_{t}^{j}) = var (z_{t}^{i})
 $$
 
 $$
-v a r \left(z_{t}^{i} - \bar {z}_{t}\right) = v a r \left(z_{t}^{i}\right) - \frac{2}{N} v a r \left(z_{t}^{i}\right) + \frac{1}{N^{2}} \sum_{j = 1}^{N} v a r \left(z_{t}^{j}\right) = v a r \left(z_{t}^{i}\right)
+var \left(z_{t}^{i} - \bar {z}_{t}\right) = var \left(z_{t}^{i}\right) - \frac{2}{N} var \left(z_{t}^{i}\right) + \frac{1}{N^{2}} \sum_{j = 1}^{N} var \left(z_{t}^{j}\right) = var \left(z_{t}^{i}\right)
 $$
 
 $$
-c o v (\sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i}, z_{t}^{i}) = \mathbb {E} \left[ z_{t}^{i} \sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i} \right] - \mathbb {E} \left[ z_{t}^{i} \right] \mathbb {E} \left[ \sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i} \right] = 0
+cov (\sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i}, z_{t}^{i}) = \mathbb{E} \left[ z_{t}^{i} \sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i} \right] - \mathbb{E} \left[ z_{t}^{i} \right] \mathbb{E} \left[ \sqrt{z_{t}^{i}} \varepsilon_{t + 1}^{i} \right] = 0
 $$
 
 $$
-\begin{array}{l} \operatorname{va r} \left(\sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w}\right) = \mathbb {E} \left[ z_{t}^{w} \left(\varepsilon_{t + 1}^{w}\right)^{2} \right] - \left(\mathbb {E} \left[ \sqrt{z_{t}^{w}} \left(\varepsilon_{t + 1}^{w}\right) \right]\right)^{2} \\ = \mathbb {E} \left[ z_{t}^{w} \right] \mathbb {E} \left[ \left(\varepsilon_{t + 1}^{w}\right)^{2} \right] \\ = \theta^{w} \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(\sqrt{z_{t}^{w}} \varepsilon_{t + 1}^{w}\right) = \mathbb{E} \left[ z_{t}^{w} \left(\varepsilon_{t + 1}^{w}\right)^{2} \right] - \left(\mathbb{E} \left[ \sqrt{z_{t}^{w}} \left(\varepsilon_{t + 1}^{w}\right) \right]\right)^{2} \\ = \mathbb{E} \left[ z_{t}^{w} \right] \mathbb{E} \left[ \left(\varepsilon_{t + 1}^{w}\right)^{2} \right] \\ = \theta^{w} \\ \end{array}
 $$
 
 $$
@@ -8813,19 +8045,19 @@ $$
 Hence,
 
 $$
-c o v (\Delta e_{t + 1}^{i / j}, \Delta \bar {e}_{t + 1}^{i}) = \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right) \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right) \theta^{w} + \gamma \theta
+cov (\Delta e_{t + 1}^{i / j}, \Delta \bar {e}_{t + 1}^{i}) = \chi^{2} var (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right) \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right) \theta^{w} + \gamma \theta
 $$
 
 $$
-v a r (\Delta \overline {{e}}_{t + 1}^{i}) = \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} \theta^{w} + \gamma \theta
+var (\Delta \overline {{e}}_{t + 1}^{i}) = \chi^{2} var (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} \theta^{w} + \gamma \theta
 $$
 
 $$
-\begin{array}{l} v a r \left(\Delta e_{t + 1}^{i / j}\right) = \chi^{2} \left(v a r \left(z_{t}^{i}\right) + v a r \left(z_{t}^{j}\right)\right) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right)^{2} \theta^{w} + 2 \gamma \theta \\ \varphi = \frac{c o v (\Delta e_{t + 1}^{i / j} , \Delta \vec{e}_{t + 1}^{i})}{v a r (\Delta \vec{e}_{t + 1}^{i})} \\ = 1 - \frac{\left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right) \left(\sqrt{\delta^{j}} - \overline {{\sqrt{\delta}}}\right) \theta^{w}}{\chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} \theta^{w} + \gamma \theta}, \\ \end{array}
+\begin{array}{l} var \left(\Delta e_{t + 1}^{i / j}\right) = \chi^{2} \left(var \left(z_{t}^{i}\right) + var \left(z_{t}^{j}\right)\right) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right)^{2} \theta^{w} + 2 \gamma \theta \\ \varphi = \frac{cov (\Delta e_{t + 1}^{i / j} , \Delta \vec{e}_{t + 1}^{i})}{var (\Delta \vec{e}_{t + 1}^{i})} \\ = 1 - \frac{\left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right) \left(\sqrt{\delta^{j}} - \overline {{\sqrt{\delta}}}\right) \theta^{w}}{\chi^{2} var (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \overline {{\sqrt{\delta}}}\right)^{2} \theta^{w} + \gamma \theta}, \\ \end{array}
 $$
 
 $$
-\begin{array}{l} R^{2} = \frac{\varphi^{2} v a r (\Delta \overline {{e}}_{t + 1}^{i})}{v a r (\Delta e_{t + 1}^{i / j})} \\ = \frac{\left[ \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right) \left(\sqrt{\delta^{i}} - \sqrt{\delta}\right) \theta^{w} + \gamma \theta \right]^{2}}{\left[ \chi^{2} v a r (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta}\right)^{2} \theta^{w} + \gamma \theta \right] \left[ \chi^{2} (v a r (z_{t}^{i}) + v a r (z_{t}^{j})) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right)^{2} \theta^{w} + 2 \gamma \theta \right]}. \\ \end{array}
+\begin{array}{l} R^{2} = \frac{\varphi^{2} var (\Delta \overline {{e}}_{t + 1}^{i})}{var (\Delta e_{t + 1}^{i / j})} \\ = \frac{\left[ \chi^{2} var (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right) \left(\sqrt{\delta^{i}} - \sqrt{\delta}\right) \theta^{w} + \gamma \theta \right]^{2}}{\left[ \chi^{2} var (z_{t}^{i}) + \left(\sqrt{\delta^{i}} - \sqrt{\delta}\right)^{2} \theta^{w} + \gamma \theta \right] \left[ \chi^{2} (var (z_{t}^{i}) + var (z_{t}^{j})) + \left(\sqrt{\delta^{i}} - \sqrt{\delta^{j}}\right)^{2} \theta^{w} + 2 \gamma \theta \right]}. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/480f8e941764dd4d0cdc01e9c1e98be1b7bbe9531b7f230e8bffbdf607fdb35e.jpg)
@@ -8835,7 +8067,7 @@ $$
 Proof. The Euler equation for the consumption claim implies
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t + 1}^{c}\right) \right], \\ 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \mathbb {E}_{t} [ r_{t + 1}^{c} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + \frac{1}{2} v a r_{t} (r_{t + 1}^{c}) + c o v_{t} (m_{t + 1}, r_{t + 1}^{c}). \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t + 1}^{c}\right) \right], \\ 0 = \mathbb{E}_{t} [ m_{t + 1} ] + \mathbb{E}_{t} [ r_{t + 1}^{c} ] + \frac{1}{2} var_{t} (m_{t + 1}) + \frac{1}{2} var_{t} (r_{t + 1}^{c}) + cov_{t} (m_{t + 1}, r_{t + 1}^{c}). \\ \end{array}
 $$
 
 Define  $r_0^c = \kappa_0^c + \mu_g + \mu_{wc}(1 - \kappa_1^c)$ . The log-linearization of the log total wealth return around the long-run average wealth consumption ratio can be expressed as
@@ -8847,15 +8079,15 @@ $$
 which implies
 
 $$
-\mathbb {E}_{t} \left[ r_{t + 1}^{c} \right] = r_{0}^{c} + \left[ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) \right] x_{t} + W_{\sigma} \left(\sigma_{t}^{2} - \sigma^{2}\right) \left(\phi - \kappa_{1}^{c}\right)
+\mathbb{E}_{t} \left[ r_{t + 1}^{c} \right] = r_{0}^{c} + \left[ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) \right] x_{t} + W_{\sigma} \left(\sigma_{t}^{2} - \sigma^{2}\right) \left(\phi - \kappa_{1}^{c}\right)
 $$
 
 $$
-r_{t + 1}^{c} - \mathbb {E}_{t} \left[ r_{t + 1}^{c} \right] = \sigma_{t} \varepsilon_{g, t + 1} + W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1}
+r_{t + 1}^{c} - \mathbb{E}_{t} \left[ r_{t + 1}^{c} \right] = \sigma_{t} \varepsilon_{g, t + 1} + W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1}
 $$
 
 $$
-\begin{array}{l} \operatorname{va r}_{t} \left(r_{t + 1}^{c}\right) = \mathbb {E}_{t} \left[ \left(\sigma_{t} \varepsilon_{g, t + 1} + W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1}\right)^{2} \right] \\ = \mathbb {E}_{t} \left[ \sigma_{t}^{2} \varepsilon_{g, t + 1}^{2} + 2 \sigma_{t} \varepsilon_{g, t + 1} W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + 2 \sigma_{t} \varepsilon_{g, t + 1} W_{\sigma} \omega \varepsilon_{w, t + 1} + W_{x}^{2} \sigma_{t}^{2} \varphi_{e} \varepsilon_{x, t + 1}^{2} \right. \\ \left. + 2 W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} W_{\sigma} \omega \varepsilon_{w, t + 1} + W_{\sigma}^{2} \omega^{2} \varepsilon_{w, t + 1}^{2} \right] \\ = \sigma_{t}^{2} + W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + W_{\sigma}^{2} \omega^{2} + 2 \nu W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
+\begin{array}{l} \operatorname{va r}_{t} \left(r_{t + 1}^{c}\right) = \mathbb{E}_{t} \left[ \left(\sigma_{t} \varepsilon_{g, t + 1} + W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1}\right)^{2} \right] \\ = \mathbb{E}_{t} \left[ \sigma_{t}^{2} \varepsilon_{g, t + 1}^{2} + 2 \sigma_{t} \varepsilon_{g, t + 1} W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + 2 \sigma_{t} \varepsilon_{g, t + 1} W_{\sigma} \omega \varepsilon_{w, t + 1} + W_{x}^{2} \sigma_{t}^{2} \varphi_{e} \varepsilon_{x, t + 1}^{2} \right. \\ \left. + 2 W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} W_{\sigma} \omega \varepsilon_{w, t + 1} + W_{\sigma}^{2} \omega^{2} \varepsilon_{w, t + 1}^{2} \right] \\ = \sigma_{t}^{2} + W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + W_{\sigma}^{2} \omega^{2} + 2 \nu W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 Define  $\mu_{s} = \theta \log \delta + (\theta - 1)r_{0}^{c} - \frac{\theta}{\psi}\mu_{g}$ . Recall that  $\theta(1 - 1/\psi) = 1 - \gamma$ . Then,
@@ -8867,11 +8099,11 @@ $$
 which implies
 
 $$
-\begin{array}{l} m_{t + 1} - \mathbb {E}_{t} [ m_{t + 1} ] = - \gamma \sigma_{t} \varepsilon_{g, t + 1} + (\theta - 1) \left\{W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \right\} \\ \mathbb {E}_{t} [ m_{t + 1} ] = \mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t} + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{2} - \sigma^{2}) \\ \operatorname{va r}_{t} \left(m_{t + 1}\right) = \mathbb {E}_{t} \left[ \left(- \gamma \sigma_{t} \varepsilon_{g, t + 1} + (\theta - 1) \left\{W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \right\}\right)^{2} \right] \\ = \gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} \left\{W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + W_{\sigma}^{2} \omega^{2} \right\} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
+\begin{array}{l} m_{t + 1} - \mathbb{E}_{t} [ m_{t + 1} ] = - \gamma \sigma_{t} \varepsilon_{g, t + 1} + (\theta - 1) \left\{W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \right\} \\ \mathbb{E}_{t} [ m_{t + 1} ] = \mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t} + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{2} - \sigma^{2}) \\ \operatorname{va r}_{t} \left(m_{t + 1}\right) = \mathbb{E}_{t} \left[ \left(- \gamma \sigma_{t} \varepsilon_{g, t + 1} + (\theta - 1) \left\{W_{x} \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1} + W_{\sigma} \omega \varepsilon_{w, t + 1} \right\}\right)^{2} \right] \\ = \gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} \left\{W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + W_{\sigma}^{2} \omega^{2} \right\} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} c o v_{t} \left(m_{t + 1}, r_{t + 1}^{c}\right) = \mathbb {E}_{t} \left[ \left(r_{t + 1}^{c} - \mathbb {E}_{t} \left[ r_{0}^{c} \right]\right) \left(m_{t + 1} - \mathbb {E}_{t} \left[ m_{t + 1} \right]\right) \right] \\ = - \gamma \sigma_{t}^{2} + W_{x}^{2} \varphi_{e}^{2} (\theta - 1) \sigma_{t}^{2} + W_{\sigma}^{2} (\theta - 1) \omega^{2} + \nu (- \gamma + \theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
+\begin{array}{l} cov_{t} \left(m_{t + 1}, r_{t + 1}^{c}\right) = \mathbb{E}_{t} \left[ \left(r_{t + 1}^{c} - \mathbb{E}_{t} \left[ r_{0}^{c} \right]\right) \left(m_{t + 1} - \mathbb{E}_{t} \left[ m_{t + 1} \right]\right) \right] \\ = - \gamma \sigma_{t}^{2} + W_{x}^{2} \varphi_{e}^{2} (\theta - 1) \sigma_{t}^{2} + W_{\sigma}^{2} (\theta - 1) \omega^{2} + \nu (- \gamma + \theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 Now plugging all the components into the Euler equation,
@@ -8931,17 +8163,17 @@ $$
 and the currency risk premium is
 
 $$
-\begin{array}{l} \mathbb {E}_{t} \left[ r x_{t + 1} \right] = \frac{1}{2} \left(v a r_{t} \left(m_{t + 1}^{*}\right) - v a r_{t} \left(m_{t + 1}\right)\right) \\ = \frac{1}{2} \left[ \gamma^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{* 2} \right] \\ - \frac{1}{2} \left[ \gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \right] \\ = \frac{1}{2} \left[ \gamma^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \right] \left(\sigma_{t}^{* 2} - \sigma_{t}^{2}\right) \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} \left[ r x_{t + 1} \right] = \frac{1}{2} \left(var_{t} \left(m_{t + 1}^{*}\right) - var_{t} \left(m_{t + 1}\right)\right) \\ = \frac{1}{2} \left[ \gamma^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{* 2} \right] \\ - \frac{1}{2} \left[ \gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \right] \\ = \frac{1}{2} \left[ \gamma^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} - 2 \nu \gamma (\theta - 1) W_{x} \varphi_{e} \right] \left(\sigma_{t}^{* 2} - \sigma_{t}^{2}\right) \\ \end{array}
 $$
 
 Also, from the Euler equations for risk-free bonds,
 
 $$
-\begin{array}{l} r_{t} = - \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1}) \\ = - \left\{\mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) \left[ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) \right] \right\} x_{t} + \left\{W_{\sigma} \left(\phi - \kappa_{1}^{c}\right) (\theta - 1) \right\} \left(\sigma_{t}^{2} - \sigma^{2}\right) \right\} \\ - \frac{1}{2} \left\{\gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} \right\} + \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
+\begin{array}{l} r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1}) \\ = - \left\{\mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) \left[ 1 + W_{x} \left(\rho - \kappa_{1}^{c}\right) \right] \right\} x_{t} + \left\{W_{\sigma} \left(\phi - \kappa_{1}^{c}\right) (\theta - 1) \right\} \left(\sigma_{t}^{2} - \sigma^{2}\right) \right\} \\ - \frac{1}{2} \left\{\gamma^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} \right\} + \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{2} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r_{t}^{*} = - \mathbb {E}_{t} \left[ m_{t + 1}^{*} \right] - \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right) \\ = - \left\{\mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t}^{*} + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{* 2} - \sigma^{2}) \right\} \\ - \frac{1}{2} \left\{\gamma^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} \right\} + \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{* 2} \\ \end{array}
+\begin{array}{l} r_{t}^{*} = - \mathbb{E}_{t} \left[ m_{t + 1}^{*} \right] - \frac{1}{2} var_{t} \left(m_{t + 1}^{*}\right) \\ = - \left\{\mu_{s} + \left\{- \frac{\theta}{\psi} + (\theta - 1) [ 1 + W_{x} (\rho - \kappa_{1}^{c}) ] \right\} x_{t}^{*} + \{W_{\sigma} (\phi - \kappa_{1}^{c}) (\theta - 1) \} (\sigma_{t}^{* 2} - \sigma^{2}) \right\} \\ - \frac{1}{2} \left\{\gamma^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{x}^{2} \varphi_{e}^{2} \sigma_{t}^{* 2} + (\theta - 1)^{2} W_{\sigma}^{2} \omega^{2} \right\} + \nu \gamma (\theta - 1) W_{x} \varphi_{e} \sigma_{t}^{* 2} \\ \end{array}
 $$
 
 also compute the interest rate differential as
@@ -8953,17 +8185,17 @@ $$
 From here, we assume the following for the derivations below:
 
 $$
-\begin{array}{l} c o v_{t} \left(\varepsilon_{g, t + 1}^{*}, \varepsilon_{g, t + 1}\right) \neq 0 \\ c o v_{t} \left(\varepsilon_{x, t + 1}^{*}, \varepsilon_{x, t + 1}\right) \neq 0 \\ c o v_{t} \left(\sigma_{t}^{*}, \sigma_{t}\right) \neq 0 \\ \end{array}
+\begin{array}{l} cov_{t} \left(\varepsilon_{g, t + 1}^{*}, \varepsilon_{g, t + 1}\right) \neq 0 \\ cov_{t} \left(\varepsilon_{x, t + 1}^{*}, \varepsilon_{x, t + 1}\right) \neq 0 \\ cov_{t} \left(\sigma_{t}^{*}, \sigma_{t}\right) \neq 0 \\ \end{array}
 $$
 
 Finally, the Backus-Smith coefficient:
 
 $$
-\begin{array}{l} \beta_{t}^{B S} = \frac{c o v_{t} (\Delta e_{t + 1} , \Delta c_{t + 1}^{*} - \Delta c_{t + 1})}{v a r_{t} (\Delta c_{t + 1}^{*} - \Delta c_{t + 1})} \\ = \frac{1}{v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} \left[ c o v_{t} \left(\gamma \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right), \sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) \right. \\ \left. - c o v_{t} \left(\left(\theta - 1\right) W_{x} \left(\sigma_{t}^{*} \varphi_{e} \varepsilon_{x, t + 1}^{*} - \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1}\right) + \left(\theta - 1\right) W_{\sigma} \omega \left(\varepsilon_{w, t + 1}^{*} - \varepsilon_{w, t + 1}\right), \sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) \right] \\ = \gamma - \frac{(\theta - 1) W_{x}}{v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} c o v_{t} \left(\left(\sigma_{t}^{*} \varphi_{e} \varepsilon_{x, t + 1}^{*} - \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1}\right), \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right)\right) \\ = \gamma - \frac{\nu \varphi_{e} (\theta - 1) W_{x}}{v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} \left(\sigma_{t}^{2} + \sigma_{t}^{* 2}\right) \\ \end{array}
+\begin{array}{l} \beta_{t}^{B S} = \frac{cov_{t} (\Delta e_{t + 1} , \Delta c_{t + 1}^{*} - \Delta c_{t + 1})}{var_{t} (\Delta c_{t + 1}^{*} - \Delta c_{t + 1})} \\ = \frac{1}{var_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} \left[ cov_{t} \left(\gamma \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right), \sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) \right. \\ \left. - cov_{t} \left(\left(\theta - 1\right) W_{x} \left(\sigma_{t}^{*} \varphi_{e} \varepsilon_{x, t + 1}^{*} - \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1}\right) + \left(\theta - 1\right) W_{\sigma} \omega \left(\varepsilon_{w, t + 1}^{*} - \varepsilon_{w, t + 1}\right), \sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) \right] \\ = \gamma - \frac{(\theta - 1) W_{x}}{var_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} cov_{t} \left(\left(\sigma_{t}^{*} \varphi_{e} \varepsilon_{x, t + 1}^{*} - \sigma_{t} \varphi_{e} \varepsilon_{x, t + 1}\right), \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right)\right) \\ = \gamma - \frac{\nu \varphi_{e} (\theta - 1) W_{x}}{var_{t} \left(\sigma_{t}^{*} \varepsilon_{g , t + 1}^{*} - \sigma_{t} \varepsilon_{g , t + 1}\right)} \left(\sigma_{t}^{2} + \sigma_{t}^{* 2}\right) \\ \end{array}
 $$
 
 $$
-w h e r e v a r_{t} \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) = \sigma_{t}^{2} + \sigma_{t}^{* 2} - 2 \sigma_{t} \sigma_{t}^{*} c o v_{t} \left(\varepsilon_{g, t + 1}, \varepsilon_{g, t + 1}^{*}\right).
+w h e r e var_{t} \left(\sigma_{t}^{*} \varepsilon_{g, t + 1}^{*} - \sigma_{t} \varepsilon_{g, t + 1}\right) = \sigma_{t}^{2} + \sigma_{t}^{* 2} - 2 \sigma_{t} \sigma_{t}^{*} cov_{t} \left(\varepsilon_{g, t + 1}, \varepsilon_{g, t + 1}^{*}\right).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/619daaca061cd7502a4354b976e7f35d6e6df9798eacb20018b4540dd863c862.jpg)
@@ -9045,13 +8277,13 @@ $$
 Proof. The covariance of consumption growth follows directly from Eq. (3.12):
 
 $$
-c o v \big (\Delta \log \bar {c}_{t}^{i}, \Delta \log \bar {c}_{t}^{j} \big) = \mathcal {C} (i, j).
+cov \big (\Delta \log \bar {c}_{t}^{i}, \Delta \log \bar {c}_{t}^{j} \big) = \mathcal {C} (i, j).
 $$
 
 The moments of exchange rates follow from the covariance of consumption growth. In particular, the covariance between the changes in currency base factors is
 
 $$
-\begin{array}{l} c o v \left(\Delta \bar {e}_{t + 1}^{i}, \Delta \bar {e}_{t + 1}^{j}\right) = c o v \left(\frac{1}{N} \sum_{k = 1}^{N} \Delta \bar {c}_{t + 1}^{k} - \Delta \bar {c}_{t + 1}^{i}, \frac{1}{N} \sum_{k = 1}^{N} \Delta \bar {c}_{t + 1}^{k} - \Delta \bar {c}_{t + 1}^{j}\right) \\ = \mathcal {C} (i, j) - \overline {{\mathcal {C}}} (i) - \overline {{\mathcal {C}}} (j) + \kappa^{e}. \\ \end{array}
+\begin{array}{l} cov \left(\Delta \bar {e}_{t + 1}^{i}, \Delta \bar {e}_{t + 1}^{j}\right) = cov \left(\frac{1}{N} \sum_{k = 1}^{N} \Delta \bar {c}_{t + 1}^{k} - \Delta \bar {c}_{t + 1}^{i}, \frac{1}{N} \sum_{k = 1}^{N} \Delta \bar {c}_{t + 1}^{k} - \Delta \bar {c}_{t + 1}^{j}\right) \\ = \mathcal {C} (i, j) - \overline {{\mathcal {C}}} (i) - \overline {{\mathcal {C}}} (j) + \kappa^{e}. \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/e759b3990b6f75c7c646db645eb3c84f6cc02ad36dcb8cfd83a6535269c8226f.jpg)
@@ -9067,11 +8299,11 @@ $$
 As shown in Section 1.B, the log interest rate and currency risk premium are given by:
 
 $$
-\begin{array}{l} r_{t}^{i} = - \mathbb {E}_{t} \left[ m_{t + 1}^{i} \right] - \frac{1}{2} v a r_{t} \left(m_{t + 1}^{i}\right) \\ = - \log \delta - H \mathbb {E}_{t} [ \Delta \log a_{t + 1} ] + H \frac{\theta}{H^{\prime} \pi} (I - W^{\prime})^{- 1} \mathbb {E}_{t} [ \Delta d_{t + 1} ] - \frac{1}{2} v a r_{t} (\Delta \log \bar {c}_{t + 1}^{i}) \\ = - \log \delta - \frac{1}{2} \mathcal {C} (i, i) \\ \end{array}
+\begin{array}{l} r_{t}^{i} = - \mathbb{E}_{t} \left[ m_{t + 1}^{i} \right] - \frac{1}{2} var_{t} \left(m_{t + 1}^{i}\right) \\ = - \log \delta - H \mathbb{E}_{t} [ \Delta \log a_{t + 1} ] + H \frac{\theta}{H^{\prime} \pi} (I - W^{\prime})^{- 1} \mathbb{E}_{t} [ \Delta d_{t + 1} ] - \frac{1}{2} var_{t} (\Delta \log \bar {c}_{t + 1}^{i}) \\ = - \log \delta - \frac{1}{2} \mathcal {C} (i, i) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} r p_{t}^{i / \$} \stackrel {{\mathrm{de f}}} {{=}} \mathbb {E}_{t} \left[ r x_{t + 1}^{i / \$} \right] \\ = \mathbb {E}_{t} \left[ - e_{t + 1}^{i / \S} \right] + r_{t}^{i} - r_{t}^{\S} \\ = - \frac{1}{2} v a r_{t} \left(m_{t + 1}^{i}\right) + \frac{1}{2} v a r_{t} \left(m_{t + 1}^{\S}\right) \\ = \frac{1}{2} \left(\mathcal {C} (\mathrm{\$}, \mathrm{\$}) - \mathcal {C} (i, i)\right) \\ \end{array}
+\begin{array}{l} r p_{t}^{i / \$} \stackrel {{\mathrm{de f}}} {{=}} \mathbb{E}_{t} \left[ r x_{t + 1}^{i / \$} \right] \\ = \mathbb{E}_{t} \left[ - e_{t + 1}^{i / \S} \right] + r_{t}^{i} - r_{t}^{\S} \\ = - \frac{1}{2} var_{t} \left(m_{t + 1}^{i}\right) + \frac{1}{2} var_{t} \left(m_{t + 1}^{\S}\right) \\ = \frac{1}{2} \left(\mathcal {C} (\mathrm{\$}, \mathrm{\$}) - \mathcal {C} (i, i)\right) \\ \end{array}
 $$
 
 where we set  $\mathbb{E}_t[\Delta \log a_{t + 1}] = \mathbb{E}_t[\Delta d_{t + 1}] = 0$
@@ -9083,7 +8315,7 @@ where we set  $\mathbb{E}_t[\Delta \log a_{t + 1}] = \mathbb{E}_t[\Delta d_{t + 
 Proof. The long term bond return and price are given by
 
 $$
-\begin{array}{l} \exp (- r_{t} (h) h) = p_{t} (h) = \mathbb {E}_{t} [ \exp (m_{t, t + h}^{P} + m_{t, t + h}^{T}) ] \\ = \mathbb {E}_{t} [ \exp (m c_{t + h}^{P} - m c_{t}^{P} + m c_{t + h}^{T} - m c_{t}^{T}) ] \\ = \mathbb {E}_{t} \left[ \exp \left(\sum_{k = 1}^{h} \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + k}^{P}\right) \right. \right. \\ \left. \left. + \sum_{k = 1}^{h} \phi^{h - k} \bar {m c}^{T} + \sum_{k = 1}^{h} \phi^{h - k} (t + k) \log \beta + (\phi^{h} - 1) m c_{t}^{T} + \sum_{k = 1}^{h} \left(\phi^{h - k} \sigma_{T} \varepsilon_{t + k}^{T}\right)\right) \right] \\ = \exp \left(\frac{1 - \phi^{h}}{1 - \phi} \overline {{m c}}^{T} + \left(\frac{t + h - \phi^{h} (t + 1)}{1 - \phi} - \frac{\phi - \phi^{h}}{(1 - \phi)^{2}}\right) \log \beta + (\phi^{h} - 1) m c_{t}^{T} \right. \\ \left. + \frac{1 - \phi^{2 h}}{2 - 2 \phi^{2}} \sigma_{T}^{2} + \frac{1 - \phi^{h}}{1 - \phi} \sigma_{T P}\right). \\ \end{array}
+\begin{array}{l} \exp (- r_{t} (h) h) = p_{t} (h) = \mathbb{E}_{t} [ \exp (m_{t, t + h}^{P} + m_{t, t + h}^{T}) ] \\ = \mathbb{E}_{t} [ \exp (m c_{t + h}^{P} - m c_{t}^{P} + m c_{t + h}^{T} - m c_{t}^{T}) ] \\ = \mathbb{E}_{t} \left[ \exp \left(\sum_{k = 1}^{h} \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + k}^{P}\right) \right. \right. \\ \left. \left. + \sum_{k = 1}^{h} \phi^{h - k} \bar {m c}^{T} + \sum_{k = 1}^{h} \phi^{h - k} (t + k) \log \beta + (\phi^{h} - 1) m c_{t}^{T} + \sum_{k = 1}^{h} \left(\phi^{h - k} \sigma_{T} \varepsilon_{t + k}^{T}\right)\right) \right] \\ = \exp \left(\frac{1 - \phi^{h}}{1 - \phi} \overline {{m c}}^{T} + \left(\frac{t + h - \phi^{h} (t + 1)}{1 - \phi} - \frac{\phi - \phi^{h}}{(1 - \phi)^{2}}\right) \log \beta + (\phi^{h} - 1) m c_{t}^{T} \right. \\ \left. + \frac{1 - \phi^{2 h}}{2 - 2 \phi^{2}} \sigma_{T}^{2} + \frac{1 - \phi^{h}}{1 - \phi} \sigma_{T P}\right). \\ \end{array}
 $$
 
 Hence,
@@ -9127,37 +8359,37 @@ plugging  $mc_{t}^{T}$  into the bond return immediately yields Eq. (3.19).
 Proof. The one-period risk free rate is given by
 
 $$
-\begin{array}{l} \exp (- r_{t}) = \mathbb {E}_{t} [ \exp (m_{t, t + 1} ] \\ = \mathbb {E}_{t} [ \exp (m c_{t + 1}^{P} - m c_{t}^{P} + m c_{t + 1}^{T} - m c_{t}^{T}) ] \\ = \mathbb {E}_{t} \left[ \exp \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + 1}^{P} + \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \sigma_{T} \varepsilon_{t + 1}^{T}\right) \right] \\ = \exp \left(\overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}\right), \\ - r_{t} = \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}. \\ \end{array}
+\begin{array}{l} \exp (- r_{t}) = \mathbb{E}_{t} [ \exp (m_{t, t + 1} ] \\ = \mathbb{E}_{t} [ \exp (m c_{t + 1}^{P} - m c_{t}^{P} + m c_{t + 1}^{T} - m c_{t}^{T}) ] \\ = \mathbb{E}_{t} \left[ \exp \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + 1}^{P} + \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \sigma_{T} \varepsilon_{t + 1}^{T}\right) \right] \\ = \exp \left(\overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}\right), \\ - r_{t} = \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}. \\ \end{array}
 $$
 
 For long-term bond, the risk premium is
 
 $$
-\begin{array}{l} \mathbb {E}_{t} \left[ \log p_{t - 1} (h - 1) - \log p_{t} (h) - r_{t} \right] \\ = - \phi^{h - 1} \overline {{m c}}^{T} + \left(\frac{(t + 1) \phi^{h} - (t + 2) \phi^{h - 1}}{1 - \phi} + \frac{\phi^{h - 1}}{1 - \phi}\right) \log \beta \\ + (\phi^{h - 1} - 1) \left(\overline {{m c^{T}}} + \phi m c_{t}^{T} + (t + 1) \log \beta\right) - (\phi^{h} - 1) m c_{t}^{T} - \frac{1}{2} \phi^{2 (h - 1)} \sigma_{T}^{2} - \phi^{h - 1} \sigma_{T P} \\ + \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P} \\ = \left(\frac{1}{2} - \frac{1}{2} \phi^{2 (h - 1)}\right) \sigma_{T}^{2} + (1 - \phi^{h - 1}) \sigma_{T P} \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} \left[ \log p_{t - 1} (h - 1) - \log p_{t} (h) - r_{t} \right] \\ = - \phi^{h - 1} \overline {{m c}}^{T} + \left(\frac{(t + 1) \phi^{h} - (t + 2) \phi^{h - 1}}{1 - \phi} + \frac{\phi^{h - 1}}{1 - \phi}\right) \log \beta \\ + (\phi^{h - 1} - 1) \left(\overline {{m c^{T}}} + \phi m c_{t}^{T} + (t + 1) \log \beta\right) - (\phi^{h} - 1) m c_{t}^{T} - \frac{1}{2} \phi^{2 (h - 1)} \sigma_{T}^{2} - \phi^{h - 1} \sigma_{T P} \\ + \overline {{m c}}^{T} + (\phi - 1) m c_{t}^{T} + (t + 1) \log \beta + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P} \\ = \left(\frac{1}{2} - \frac{1}{2} \phi^{2 (h - 1)}\right) \sigma_{T}^{2} + (1 - \phi^{h - 1}) \sigma_{T P} \\ \end{array}
 $$
 
 Taking  $h \to \infty$  yields
 
 $$
-\lim_{h \rightarrow \infty} \mathbb {E}_{t} [ \log p_{t - 1} (h - 1) - \log p_{t} (h) - r_{t} ] = \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}.
+\lim_{h \rightarrow \infty} \mathbb{E}_{t} [ \log p_{t - 1} (h - 1) - \log p_{t} (h) - r_{t} ] = \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}.
 $$
 
 The price of gdp claim at time  $t$  is given by
 
 $$
-\begin{array}{l} p_{t}^{y} (h) = \mathbb {E}_{t} [ \exp (m_{t, t + h} + \log y_{t + h}) ] \\ = \mathbb {E}_{t} \left[ \exp \left(m c_{t + h}^{P} - m c_{t}^{P} + m c_{t + h}^{T} - m c_{t}^{T} + \log y_{t + h}\right) \right] \\ = \mathbb {E}_{t} \left[ \exp \left(\sum_{k = 1}^{h} \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + k}^{P}\right) \right. \right. \\ + \sum_{k = 1}^{h} \phi^{h - k} \bar {m c}^{T} + \sum_{k = 1}^{h} \phi^{h - k} (t + k) \log \beta + (\phi^{h} - 1) m c_{t}^{T} + \sum_{k = 1}^{h} \left(\phi^{h - k} \sigma_{T} \varepsilon_{t + k}^{T}\right) \\ \left. \left. + \log y_{t}^{P} + h \mu + \sum_{k = 1}^{h} v_{P} \varepsilon_{t + k}^{P} + \phi^{h} \log y_{t}^{T} + \sum_{k = 1}^{h} \phi^{h - k} v_{T} \varepsilon_{t + k}^{T}\right) \right] \\ = \exp \left(\frac{1 - \phi^{h}}{1 - \phi} \overline {{m c}}^{T} + \left(\frac{t + h - (t + 1) \phi^{h}}{1 - \phi} - \frac{\phi - \phi^{h}}{(1 - \phi)^{2}}\right) \log \beta + (\phi^{h} - 1) m c_{t}^{T} \right. \\ + \log y_{t}^{P} + h \mu + \phi^{h} \log y_{t}^{T} + \frac{1 - 2 \gamma}{2 \gamma^{2}} h \sigma_{P}^{2} + \frac{1 - \phi^{2 h}}{2 (1 - \phi^{2})} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T}^{2} + \frac{1 - \phi^{h}}{1 - \phi} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T P}), \\ \end{array}
+\begin{array}{l} p_{t}^{y} (h) = \mathbb{E}_{t} [ \exp (m_{t, t + h} + \log y_{t + h}) ] \\ = \mathbb{E}_{t} \left[ \exp \left(m c_{t + h}^{P} - m c_{t}^{P} + m c_{t + h}^{T} - m c_{t}^{T} + \log y_{t + h}\right) \right] \\ = \mathbb{E}_{t} \left[ \exp \left(\sum_{k = 1}^{h} \left(- \frac{1}{2} \sigma_{P}^{2} + \sigma_{P} \varepsilon_{t + k}^{P}\right) \right. \right. \\ + \sum_{k = 1}^{h} \phi^{h - k} \bar {m c}^{T} + \sum_{k = 1}^{h} \phi^{h - k} (t + k) \log \beta + (\phi^{h} - 1) m c_{t}^{T} + \sum_{k = 1}^{h} \left(\phi^{h - k} \sigma_{T} \varepsilon_{t + k}^{T}\right) \\ \left. \left. + \log y_{t}^{P} + h \mu + \sum_{k = 1}^{h} v_{P} \varepsilon_{t + k}^{P} + \phi^{h} \log y_{t}^{T} + \sum_{k = 1}^{h} \phi^{h - k} v_{T} \varepsilon_{t + k}^{T}\right) \right] \\ = \exp \left(\frac{1 - \phi^{h}}{1 - \phi} \overline {{m c}}^{T} + \left(\frac{t + h - (t + 1) \phi^{h}}{1 - \phi} - \frac{\phi - \phi^{h}}{(1 - \phi)^{2}}\right) \log \beta + (\phi^{h} - 1) m c_{t}^{T} \right. \\ + \log y_{t}^{P} + h \mu + \phi^{h} \log y_{t}^{T} + \frac{1 - 2 \gamma}{2 \gamma^{2}} h \sigma_{P}^{2} + \frac{1 - \phi^{2 h}}{2 (1 - \phi^{2})} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T}^{2} + \frac{1 - \phi^{h}}{1 - \phi} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T P}), \\ \end{array}
 $$
 
 where we plugged in  $\nu_{P} = -(1 / \gamma)\sigma_{P},\nu_{T} = -(1 / \gamma)\sigma_{T}$  . Hence,
 
 $$
-\begin{array}{l} \mathbb {E}_{t} [ \log p_{t + 1}^{y} (h - 1) - \log p_{t}^{y} (h) - r_{t} ] \\ = - \phi^{h - 1} \overline {{m c}}^{T} + \left(\frac{(t + 1) \phi^{h} - (t + 2) \phi^{h - 1}}{1 - \phi} + \frac{\phi^{h - 1}}{1 - \phi}\right) \log \beta + (\phi^{h - 1} - 1) (\overline {{m c}}^{T} + \phi m c_{t}^{T} + (t + 1) \beta) - (\phi^{h} - 1) m c_{t}^{T} \\ - \frac{1 - 2 \gamma}{2 \gamma^{2}} \sigma_{P}^{2} - \frac{\phi^{2 (h - 1)}}{2} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T}^{2} - \phi^{h - 1} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T P} - r_{t} \\ = \frac{2 \gamma - 1}{2 \gamma^{2}} \sigma_{P}^{2} + \left[ \frac{1}{2} - \frac{\phi^{2 (h - 1)}}{2} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T}^{2} + \left[ 1 - \phi^{h - 1} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T P}. \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} [ \log p_{t + 1}^{y} (h - 1) - \log p_{t}^{y} (h) - r_{t} ] \\ = - \phi^{h - 1} \overline {{m c}}^{T} + \left(\frac{(t + 1) \phi^{h} - (t + 2) \phi^{h - 1}}{1 - \phi} + \frac{\phi^{h - 1}}{1 - \phi}\right) \log \beta + (\phi^{h - 1} - 1) (\overline {{m c}}^{T} + \phi m c_{t}^{T} + (t + 1) \beta) - (\phi^{h} - 1) m c_{t}^{T} \\ - \frac{1 - 2 \gamma}{2 \gamma^{2}} \sigma_{P}^{2} - \frac{\phi^{2 (h - 1)}}{2} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T}^{2} - \phi^{h - 1} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \sigma_{T P} - r_{t} \\ = \frac{2 \gamma - 1}{2 \gamma^{2}} \sigma_{P}^{2} + \left[ \frac{1}{2} - \frac{\phi^{2 (h - 1)}}{2} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T}^{2} + \left[ 1 - \phi^{h - 1} \left(\frac{\gamma - 1}{\gamma}\right)^{2} \right] \sigma_{T P}. \\ \end{array}
 $$
 
 Taking  $h\to \infty$  yields
 
 $$
-\lim_{h \to \infty} \mathbb {E}_{t} [ \log p_{t + 1}^{y} (h - 1) - \log p_{t}^{y} (h) - r_{t} ] = \frac{2 \gamma - 1}{2 \gamma^{2}} \sigma_{P}^{2} + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}.
+\lim_{h \to \infty} \mathbb{E}_{t} [ \log p_{t + 1}^{y} (h - 1) - \log p_{t}^{y} (h) - r_{t} ] = \frac{2 \gamma - 1}{2 \gamma^{2}} \sigma_{P}^{2} + \frac{1}{2} \sigma_{T}^{2} + \sigma_{T P}.
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/8341716b1a389cb7253bf2baf495caa73407ca3239d3a1f254c30ca922ea1023.jpg)
@@ -9185,7 +8417,7 @@ $$
 Write the Lagrangian of social planner's problem as follows
 
 $$
-\begin{array}{l} \mathcal {L} = \pi \mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u (c_{t}) + v (b_{H, t}; \theta_{t})\right) \right] + (1 - \pi) \mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u (c_{t}^{*}) + v (b_{H, t}^{*}; \theta_{t}^{*})\right) \right] \\ + \mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*}) \right] + \mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \xi_{H, t} (\bar {b}_{t} - b_{H, t} - b_{H, t}^{*}) \right]. \\ \end{array}
+\begin{array}{l} \mathcal {L} = \pi \mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u (c_{t}) + v (b_{H, t}; \theta_{t})\right) \right] + (1 - \pi) \mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \left(u (c_{t}^{*}) + v (b_{H, t}^{*}; \theta_{t}^{*})\right) \right] \\ + \mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \zeta_{H, t} (y_{t} - c_{H, t} - c_{H, t}^{*}) + \zeta_{F, t} (y_{t}^{*} - c_{F, t} - c_{F, t}^{*}) \right] + \mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \xi_{H, t} (\bar {b}_{t} - b_{H, t} - b_{H, t}^{*}) \right]. \\ \end{array}
 $$
 
 The first order conditions w.r.t. 6 endogenous variables are
@@ -9249,7 +8481,7 @@ $$
 where the Lagrange multiplier  $\zeta_H$  is such that the budget constraint evaluated at the optimal consumption expenditure,  $c_{t}$ , is satisfied with equality:
 
 $$
-\mathbb {E} \left[ \int_{0}^{T} \exp \left(m_{\nu_{H}, t}\right) \left(c_{t} - p_{t} y_{t}\right) d t \right] = w_{0}.
+\mathbb{E} \left[ \int_{0}^{T} \exp \left(m_{\nu_{H}, t}\right) \left(c_{t} - p_{t} y_{t}\right) d t \right] = w_{0}.
 $$
 
 The home country SDF based on home household's consumption is then
@@ -9275,7 +8507,7 @@ with  $\nu^{*} \in \mathbb{R}^{3}$  satisfying  $\sigma_{t}\nu_{t}^{*} = 0$  for
 Then, we can write foreign household's static variational portfolio choice problem in their local numétaire:
 
 $$
-\begin{array}{l} \max_{c_{t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log c_{t}^{*} d t \right] \\ \text{s .t .} \quad \mathbb {E} \left[ \int_{0}^{T} \exp \left(m_{\nu^{*}, t}^{*}\right) \left(c_{t}^{*} - p_{t}^{*} y_{t}^{*}\right) d t \right] \leq w_{0}^{*}. \\ \end{array}
+\begin{array}{l} \max_{c_{t}^{*}} \mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) \gamma^{*} \log c_{t}^{*} d t \right] \\ \text{s .t .} \quad \mathbb{E} \left[ \int_{0}^{T} \exp \left(m_{\nu^{*}, t}^{*}\right) \left(c_{t}^{*} - p_{t}^{*} y_{t}^{*}\right) d t \right] \leq w_{0}^{*}. \\ \end{array}
 $$
 
 The first-order condition for the foreign household's portfolio choice problem is:
@@ -9287,7 +8519,7 @@ $$
 where  $\exp(m_{\nu_F^*,t}^*)$  denotes the foreign country state price density that bounds all the budget constraints, and the Lagrangian multiplier  $\zeta_F$  is such that the budget constraint evaluated at the optimal consumption expenditure  $c_t^*$  is satisfied with equality
 
 $$
-\mathbb {E} \left[ \int_{0}^{T} \exp \left(m_{\nu_{F}^{*}, t}^{*}\right) \left(c_{t}^{*} - p_{t}^{*} y_{t}^{*}\right) d t \right] = w_{0}^{*}.
+\mathbb{E} \left[ \int_{0}^{T} \exp \left(m_{\nu_{F}^{*}, t}^{*}\right) \left(c_{t}^{*} - p_{t}^{*} y_{t}^{*}\right) d t \right] = w_{0}^{*}.
 $$
 
 Then, the foreign country SDF based on foreign household's consumption is:
@@ -9303,13 +8535,13 @@ $$
 Proof. (1) By no arbitrage, home household's wealth in the home numérique at time  $t$  is:
 
 $$
-w_{t} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{\nu_{H} , u})}{\exp (m_{\nu_{H} , t})} \left(c_{u} - p_{u} y_{u}\right) d u \right].
+w_{t} = \mathbb{E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{\nu_{H} , u})}{\exp (m_{\nu_{H} , t})} \left(c_{u} - p_{u} y_{u}\right) d u \right].
 $$
 
 Define
 
 $$
-s_{t} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{\nu_{H} , u})}{\exp (m_{\nu_{H} , t})} p_{u} y_{u} d u \right].
+s_{t} = \mathbb{E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{\nu_{H} , u})}{\exp (m_{\nu_{H} , t})} p_{u} y_{u} d u \right].
 $$
 
 Assume the law of motion of  $s_t$  is given by
@@ -9321,7 +8553,7 @@ $$
 Making use of (A.7) in Lemma 5.1, we have
 
 $$
-w_{t} + s_{t} = \frac{1}{\exp (m_{\nu_{H} , t})} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \frac{\gamma_{u}}{\zeta_{H}} d u \right] = \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac{\gamma_{t}}{\zeta_{H} \exp (m_{\nu_{H} , t})}.
+w_{t} + s_{t} = \frac{1}{\exp (m_{\nu_{H} , t})} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \frac{\gamma_{u}}{\zeta_{H}} d u \right] = \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac{\gamma_{t}}{\zeta_{H} \exp (m_{\nu_{H} , t})}.
 $$
 
 Note that  $w_{t}$  can be interpreted as the "bond wealth" and the total wealth is  $w_{t}$  plus the value of future endowment flow, which together finance the future consumption. To find the optimal portfolios, we apply Ito's Lemma to (A.9).
@@ -9387,7 +8619,7 @@ $$
 Making use of (A.12), we have
 
 $$
-\tilde {w}_{t}^{*} + \bar {s}_{t}^{*} = \frac{1}{\exp (m_{\tilde {\nu}_{F} , t})} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \frac{\gamma^{*}}{\tilde {\zeta}_{F}} d u \right] = \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac{\gamma^{*}}{\tilde {\zeta}_{F} \exp (m_{\tilde {\nu}_{F} , t})}.
+\tilde {w}_{t}^{*} + \bar {s}_{t}^{*} = \frac{1}{\exp (m_{\tilde {\nu}_{F} , t})} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \frac{\gamma^{*}}{\tilde {\zeta}_{F}} d u \right] = \frac{\exp (- \delta t) - \exp (- \delta T)}{\delta} \frac{\gamma^{*}}{\tilde {\zeta}_{F} \exp (m_{\tilde {\nu}_{F} , t})}.
 $$
 
 To find the optimal portfolios, we apply Ito's Lemma to (A.13),
@@ -9423,7 +8655,7 @@ $$
 Proof. The representative agent's utility evaluated at the aggregate output is given by
 
 $$
-U (y_{t}, y_{t}^{*}; \pi_{t}) = \max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{H, t}, c_{F, t}) + \pi_{t} u^{*} (c_{H, t}^{*}, c_{F, t}^{*})) d t \right]
+U (y_{t}, y_{t}^{*}; \pi_{t}) = \max_{c_{H, t}, c_{F, t}, c_{H, t}^{*}, c_{F, t}^{*}} \mathbb{E} \left[ \int_{0}^{T} \exp (- \delta t) (u (c_{H, t}, c_{F, t}) + \pi_{t} u^{*} (c_{H, t}^{*}, c_{F, t}^{*})) d t \right]
 $$
 
 s.t.  $c_{H,t} + c_{H,t}^{*} = y_{t},$
@@ -9475,7 +8707,7 @@ $$
 Therefore, by the expression of the state-price-density in A.16, the price of the home stock in the home numétaire is
 
 $$
-\begin{array}{l} s_{t} = \frac{1}{\exp \left(m_{\nu_{H} , t}\right)} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp \left(m_{\nu_{H}, u}\right) p_{u} y_{u} d u \right] \tag {A.17} \\ = \frac{\exp (\delta t) p_{t} y_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\gamma_{u} \alpha + \pi_{u} \gamma^{*} (1 - \alpha)\right) d u \right] \\ = \frac{\exp (\delta t) p_{t} y_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \left[ \frac{1}{\delta} \left(\exp (- \delta t) - \exp (- \delta T)\right) \gamma_{t} \alpha + \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \pi_{u} \gamma^{*} (1 - \alpha) d u \right] \right] \\ = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t} y_{t} + \frac{\exp (\delta t) p_{t} y_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right], \\ \end{array}
+\begin{array}{l} s_{t} = \frac{1}{\exp \left(m_{\nu_{H} , t}\right)} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp \left(m_{\nu_{H}, u}\right) p_{u} y_{u} d u \right] \tag {A.17} \\ = \frac{\exp (\delta t) p_{t} y_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\gamma_{u} \alpha + \pi_{u} \gamma^{*} (1 - \alpha)\right) d u \right] \\ = \frac{\exp (\delta t) p_{t} y_{t}}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \left[ \frac{1}{\delta} \left(\exp (- \delta t) - \exp (- \delta T)\right) \gamma_{t} \alpha + \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \pi_{u} \gamma^{*} (1 - \alpha) d u \right] \right] \\ = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t} y_{t} + \frac{\exp (\delta t) p_{t} y_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right], \\ \end{array}
 $$
 
 where we used the fact that  $\gamma_{t}$  is a martingale.
@@ -9489,13 +8721,13 @@ $$
 Analogously, plugging in the expression of the state-price-density in (A.18), we find the price of the foreign stock in the home numérique to be
 
 $$
-\begin{array}{l} \tilde {s}_{t}^{*} = \frac{1}{\exp (m_{\nu_{H} , t})} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (m_{\nu_{H}, u}) p_{u}^{*} \exp (- e_{u}) y_{u}^{*} d u \right] \tag {A.19} \\ = \frac{\exp (\delta t) p_{t}^{*} \exp (- e_{t}) y_{t}^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\gamma_{u} (1 - \alpha) + \pi_{u} \gamma^{*} \alpha\right) d u \right] \\ = \frac{\exp (\delta t) p_{t}^{*} \exp (- e_{t}) y_{t}^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \left[ \frac{1}{\delta} \left(\exp (- \delta t) - \exp (- \delta T)\right) \gamma_{t} (1 - \alpha) + \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \pi_{u} \gamma^{*} \alpha d u \right] \right] \\ = \exp (- e_{t}) \left[ \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*} + \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right] \right]. \\ \end{array}
+\begin{array}{l} \tilde {s}_{t}^{*} = \frac{1}{\exp (m_{\nu_{H} , t})} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (m_{\nu_{H}, u}) p_{u}^{*} \exp (- e_{u}) y_{u}^{*} d u \right] \tag {A.19} \\ = \frac{\exp (\delta t) p_{t}^{*} \exp (- e_{t}) y_{t}^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\gamma_{u} (1 - \alpha) + \pi_{u} \gamma^{*} \alpha\right) d u \right] \\ = \frac{\exp (\delta t) p_{t}^{*} \exp (- e_{t}) y_{t}^{*}}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \left[ \frac{1}{\delta} \left(\exp (- \delta t) - \exp (- \delta T)\right) \gamma_{t} (1 - \alpha) + \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \pi_{u} \gamma^{*} \alpha d u \right] \right] \\ = \exp (- e_{t}) \left[ \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*} + \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right] \right]. \\ \end{array}
 $$
 
 Therefore, the foreign stock price in the foreign numétaire is:
 
 $$
-s_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*} + \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\pi_{u} - \pi_{t}\right) d u \right]. \tag {A.20}
+s_{t}^{*} = \frac{1 - \exp (- \delta (T - t))}{\delta} p_{t}^{*} y_{t}^{*} + \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\pi_{u} - \pi_{t}\right) d u \right]. \tag {A.20}
 $$
 
 There are two ways to proceed in evaluating the above conditional expectations. The first is to assume that  $\pi$  is a martingale and then verify that it is indeed the case in equilibrium. However, lowe can only prove that it is a local martingale. In special cases, we can impose some other regularity conditions on the preference shifts to guarantee that  $\pi_t$  is a martingale but, in general, it is not an immediate result. An alternative approach is to use the following, less direct, argument based on market clearing. Plug the first-order conditions
@@ -9539,13 +8771,13 @@ $$
 with (A.17) and (A.19), we have
 
 $$
-\left[ \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} + \frac{\exp (\delta t) p_{t} y_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \right] \mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right] = 0,
+\left[ \frac{\exp (\delta t) p_{t}^{*} y_{t}^{*} \gamma^{*} \alpha}{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha} + \frac{\exp (\delta t) p_{t} y_{t} \gamma^{*} (1 - \alpha)}{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)} \right] \mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) (\pi_{u} - \pi_{t}) d u \right] = 0,
 $$
 
 Since the coefficient term  $\left[\frac{\exp(\delta t)p_t^*y_t^*\gamma^*\alpha}{\gamma_t(1 - \alpha) + \pi_t\gamma^*\alpha} +\frac{\exp(\delta t)p_ty_t\gamma^*(1 - \alpha)}{\gamma_t\alpha + \pi_t\gamma^*(1 - \alpha)}\right]$  is non-zero for each  $t$ , it has to be
 
 $$
-\mathbb {E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\pi_{u} - \pi_{t}\right) d u \right] = 0 \tag {A.21}
+\mathbb{E}_{t} \left[ \int_{t}^{T} \exp (- \delta u) \left(\pi_{u} - \pi_{t}\right) d u \right] = 0 \tag {A.21}
 $$
 
 Then, we can conclude that the home stock price in the home numéraire is:
@@ -9917,41 +9149,41 @@ $$
 Proof. First, we plug in  $\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}$  to reproduce the Euler equations (1.6)-(1.9) as follows
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} - \eta_{t + 1} + r_{t}^{*}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} - \eta_{t + 1} + r_{t}^{*}\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + \eta_{t + 1} + r_{t}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + \eta_{t + 1} + r_{t}\right) \right].
 $$
 
 By joint normality, we obtain
 
 $$
-\begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + r_{t}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + r_{t} + \mathbb {E}_{t} [ \eta_{t + 1} ] + \frac{1}{2} v a r_{t} (\eta_{t + 1}) + c o v_{t} (m_{t + 1}, \eta_{t + 1}), \\ 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*} - \mathbb {E}_{t} [ \eta_{t + 1} ] + \frac{1}{2} v a r_{t} (\eta_{t + 1}) - c o v_{t} (m_{t + 1}^{*}, \eta_{t + 1}), \\ \end{array}
+\begin{array}{l} 0 = \mathbb{E}_{t} [ m_{t + 1} ] + \frac{1}{2} var_{t} (m_{t + 1}) + r_{t}, \\ 0 = \mathbb{E}_{t} [ m_{t + 1} ] + \frac{1}{2} var_{t} (m_{t + 1}) + r_{t} + \mathbb{E}_{t} [ \eta_{t + 1} ] + \frac{1}{2} var_{t} (\eta_{t + 1}) + cov_{t} (m_{t + 1}, \eta_{t + 1}), \\ 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + r_{t}^{*} - \mathbb{E}_{t} [ \eta_{t + 1} ] + \frac{1}{2} var_{t} (\eta_{t + 1}) - cov_{t} (m_{t + 1}^{*}, \eta_{t + 1}), \\ \end{array}
 $$
 
 which implies
 
 $$
-c o v_{t} \left(m_{t + 1}, \eta_{t + 1}\right) = - \mathbb {E}_{t} \left[ \eta_{t + 1} \right] - \frac{1}{2} v a r_{t} \left(\eta_{t + 1}\right),
+cov_{t} \left(m_{t + 1}, \eta_{t + 1}\right) = - \mathbb{E}_{t} \left[ \eta_{t + 1} \right] - \frac{1}{2} var_{t} \left(\eta_{t + 1}\right),
 $$
 
 $$
-c o v_{t} \left(m_{t + 1}^{*}, \eta_{t + 1}\right) = - \mathbb {E}_{t} \left[ \eta_{t + 1} \right] + \frac{1}{2} v a r_{t} \left(\eta_{t + 1}\right),
+cov_{t} \left(m_{t + 1}^{*}, \eta_{t + 1}\right) = - \mathbb{E}_{t} \left[ \eta_{t + 1} \right] + \frac{1}{2} var_{t} \left(\eta_{t + 1}\right),
 $$
 
 and hence
 
 $$
-c o v_{t} (m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}) = - v a r_{t} (\eta_{t + 1}).
+cov_{t} (m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}) = - var_{t} (\eta_{t + 1}).
 $$
 
 Recall
@@ -9963,17 +9195,17 @@ $$
 which gives the following moments
 
 $$
-\begin{array}{l} v a r_{t} \left(\Delta e_{t + 1}\right) = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) + v a r_{t} \left(\eta_{t + 1}\right) + 2 c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) \\ = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - v a r_{t} \left(\eta_{t + 1}\right), \\ \end{array}
+\begin{array}{l} var_{t} \left(\Delta e_{t + 1}\right) = var_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) + var_{t} \left(\eta_{t + 1}\right) + 2 cov_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) \\ = var_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - var_{t} \left(\eta_{t + 1}\right), \\ \end{array}
 $$
 
 $$
-\begin{array}{l} c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) + c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) \\ = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - v a r_{t} \left(\eta_{t + 1}\right) \\ = v a r_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
+\begin{array}{l} cov_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) + cov_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) \\ = var_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - var_{t} \left(\eta_{t + 1}\right) \\ = var_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
 $$
 
 The excess return is given by
 
 $$
-\begin{array}{l} \mathbb {E}_{t} \left[ r x_{t + 1} \right] = - r_{t}^{*} + r_{t} + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] \\ = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) - \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1}) + \mathbb {E}_{t} [ m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1} ] \\ = \frac{1}{2} \left(v a r_{t} \left(m_{t + 1}^{*}\right) - v a r_{t} \left(m_{t + 1}\right)\right) + \mathbb {E}_{t} \left[ \eta_{t + 1} \right]. \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} \left[ r x_{t + 1} \right] = - r_{t}^{*} + r_{t} + \mathbb{E}_{t} \left[ \Delta e_{t + 1} \right] \\ = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1}) + \mathbb{E}_{t} [ m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1} ] \\ = \frac{1}{2} \left(var_{t} \left(m_{t + 1}^{*}\right) - var_{t} \left(m_{t + 1}\right)\right) + \mathbb{E}_{t} \left[ \eta_{t + 1} \right]. \\ \end{array}
 $$
 
 □
@@ -9983,37 +9215,37 @@ $$
 Proof. By construction,  $cov_{t}(m_{t + 1},w_{t}\varepsilon_{t + 1}) = cov_{t}(m_{t + 1}^{*},w_{t}\varepsilon_{t + 1}) = 0$ . Hence,
 
 $$
-\begin{array}{l} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}\right) \\ = v a r_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}\right) + v a r_{t} \left(w_{t} \varepsilon_{t + 1}\right), \\ \end{array}
+\begin{array}{l} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}\right) \\ = var_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}\right) + var_{t} \left(w_{t} \varepsilon_{t + 1}\right), \\ \end{array}
 $$
 
 which implies (a). Similarly,
 
 $$
-\begin{array}{l} c o v_{t} \big (\Delta e_{t + 1}, m_{t + 1} - m_{t + 1}^{*} \big) = c o v_{t} \big (x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, m_{t + 1} - m_{t + 1}^{*} \big) \\ = c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} - m_{t + 1}^{*}\right), \\ \end{array}
+\begin{array}{l} cov_{t} \big (\Delta e_{t + 1}, m_{t + 1} - m_{t + 1}^{*} \big) = cov_{t} \big (x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, m_{t + 1} - m_{t + 1}^{*} \big) \\ = cov_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} - m_{t + 1}^{*}\right), \\ \end{array}
 $$
 
 which implies (b). Define  $rp_{t} = \mathbb{E}_{t}[\Delta e_{t + 1} + r_{t}^{*} - r_{t}]$ . Euler equations (1.6) and (1.7) yield
 
 $$
-\begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + r_{t}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) - \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) - c o v_{t} (m_{t + 1}, \Delta e_{t + 1}) + r_{t}^{*}, \\ \end{array}
+\begin{array}{l} 0 = \mathbb{E}_{t} [ m_{t + 1} ] + \frac{1}{2} var_{t} (m_{t + 1}) + r_{t}, \\ 0 = \mathbb{E}_{t} [ m_{t + 1} ] + \frac{1}{2} var_{t} (m_{t + 1}) - \mathbb{E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} var_{t} (\Delta e_{t + 1}) - cov_{t} (m_{t + 1}, \Delta e_{t + 1}) + r_{t}^{*}, \\ \end{array}
 $$
 
 which implies
 
 $$
-r p_{t} = - c o v_{t} \left(m_{t + 1}, \Delta e_{t + 1}\right) + \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right).
+r p_{t} = - cov_{t} \left(m_{t + 1}, \Delta e_{t + 1}\right) + \frac{1}{2} var_{t} \left(\Delta e_{t + 1}\right).
 $$
 
 Similarly, Eq. (1.8) and (1.9) imply
 
 $$
-r p_{t} = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right).
+r p_{t} = - cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} var_{t} \left(\Delta e_{t + 1}\right).
 $$
 
 Adding together to cancel  $\frac{1}{2} var_{t}(\Delta e_{t + 1})$  and obtain (c)
 
 $$
-\begin{array}{l} r p_{t} = - \frac{1}{2} c o v_{t} \left(m_{t + 1}, \Delta e_{t + 1}\right) - \frac{1}{2} c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) \\ = - \frac{1}{2} c o v_{t} \left(m_{t + 1} + m_{t + 1}^{*}, \Delta e_{t + 1}\right) \\ = - \frac{1}{2} c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right). \\ \end{array}
+\begin{array}{l} r p_{t} = - \frac{1}{2} cov_{t} \left(m_{t + 1}, \Delta e_{t + 1}\right) - \frac{1}{2} cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) \\ = - \frac{1}{2} cov_{t} \left(m_{t + 1} + m_{t + 1}^{*}, \Delta e_{t + 1}\right) \\ = - \frac{1}{2} cov_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} + m_{t + 1}^{*}\right). \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/f26f06f3e3c949ec8654a2ada617b298b0c60935115e7cfabad7467875e13aa4.jpg)
@@ -10023,7 +9255,7 @@ $$
 Proof. The Euler equation Eq. (5.18) implies
 
 $$
-\begin{array}{l} 0 = \operatorname{co v}_{t} \left(\Delta e_{t + 1}, \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right)\right) \\ = c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, \left(y_{t} - 1\right) m_{t + 1} + \left(z_{t} + 1\right) m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}\right) \\ = y_{t} \left(y_{t} - 1\right) \operatorname{va r}_{t} \left(m_{t + 1}\right) + z_{t} \left(z_{t} + 1\right) \operatorname{va r}_{t} \left(m_{t + 1}^{*}\right) \\ + \left[ y_{t} (z_{t} + 1) + z_{t} (y_{t} - 1) \right] c o v_{t} \left(m_{t + 1}, m_{t + 1}^{*}\right) + w_{t}^{2}, \\ \end{array}
+\begin{array}{l} 0 = \operatorname{co v}_{t} \left(\Delta e_{t + 1}, \Delta e_{t + 1} - \left(m_{t + 1} - m_{t + 1}^{*}\right)\right) \\ = cov_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, \left(y_{t} - 1\right) m_{t + 1} + \left(z_{t} + 1\right) m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}\right) \\ = y_{t} \left(y_{t} - 1\right) \operatorname{va r}_{t} \left(m_{t + 1}\right) + z_{t} \left(z_{t} + 1\right) \operatorname{va r}_{t} \left(m_{t + 1}^{*}\right) \\ + \left[ y_{t} (z_{t} + 1) + z_{t} (y_{t} - 1) \right] cov_{t} \left(m_{t + 1}, m_{t + 1}^{*}\right) + w_{t}^{2}, \\ \end{array}
 $$
 
 where we use the fact that by construction,  $cov_{t}(w_{t}\varepsilon_{t + 1},m_{t + 1}) = cov_{t}(w_{t}\varepsilon_{t + 1},m_{t + 1}^{*}) = 0$ .  $w_{t}^{2} \geq 0$  leads to constraint Eq. (5.15).
@@ -10031,7 +9263,7 @@ where we use the fact that by construction,  $cov_{t}(w_{t}\varepsilon_{t + 1},m
 The Euler equation Eq. (5.18) also implies
 
 $$
-\begin{array}{l} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{co v}_{t} \left(\Delta e_{t + 1}, m_{t + 1} - m_{t + 1}^{*}\right) \\ = c o v_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, m_{t + 1} - m_{t + 1}^{*}\right) \\ = y_{t} \operatorname{va r}_{t} \left(m_{t + 1}\right) - z_{t} \operatorname{va r}_{t} \left(m_{t + 1}^{*}\right) + \left(z_{t} - y_{t}\right) \operatorname{co v}_{t} \left(m_{t + 1}. m_{t + 1}^{*}\right), \\ \end{array}
+\begin{array}{l} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{co v}_{t} \left(\Delta e_{t + 1}, m_{t + 1} - m_{t + 1}^{*}\right) \\ = cov_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, m_{t + 1} - m_{t + 1}^{*}\right) \\ = y_{t} \operatorname{va r}_{t} \left(m_{t + 1}\right) - z_{t} \operatorname{va r}_{t} \left(m_{t + 1}^{*}\right) + \left(z_{t} - y_{t}\right) \operatorname{co v}_{t} \left(m_{t + 1}. m_{t + 1}^{*}\right), \\ \end{array}
 $$
 
 which leads to constraint Eq. (5.16).
@@ -10043,13 +9275,13 @@ which leads to constraint Eq. (5.16).
 Proof. Recast the Euler equation between country 1 and 2 to obtain
 
 $$
-\begin{array}{l} 0 = c o v_{t} \left[ \Delta e_{t + 1}^{1 / 2}, \Delta e_{t + 1}^{1 / 2} - \left(m_{t + 1}^{(1)} - m_{t + 1}^{(2)}\right) \right] \\ = c o v_{t} \left[ \Delta e_{t + 1}^{0 / 2} - \Delta e_{t + 1}^{0 / 1}, \left(\Delta e_{t + 1}^{0 / 2} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)}\right)\right) - \left(\Delta e_{t + 1}^{0 / 1} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)}\right)\right) \right] \\ = c o v_{t} \left[ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 1} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)}\right) \right] + c o v_{t} \left[ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 2} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)}\right) \right] \\ - c o v_{t} [ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1} - (m_{t + 1}^{(0)} - m_{t + 1}^{(1)}) ] - c o v_{t} [ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2} - (m_{t + 1}^{(0)} - m_{t + 1}^{(2)}) ], \\ \end{array}
+\begin{array}{l} 0 = cov_{t} \left[ \Delta e_{t + 1}^{1 / 2}, \Delta e_{t + 1}^{1 / 2} - \left(m_{t + 1}^{(1)} - m_{t + 1}^{(2)}\right) \right] \\ = cov_{t} \left[ \Delta e_{t + 1}^{0 / 2} - \Delta e_{t + 1}^{0 / 1}, \left(\Delta e_{t + 1}^{0 / 2} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)}\right)\right) - \left(\Delta e_{t + 1}^{0 / 1} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)}\right)\right) \right] \\ = cov_{t} \left[ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 1} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(1)}\right) \right] + cov_{t} \left[ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 2} - \left(m_{t + 1}^{(0)} - m_{t + 1}^{(2)}\right) \right] \\ - cov_{t} [ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1} - (m_{t + 1}^{(0)} - m_{t + 1}^{(1)}) ] - cov_{t} [ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2} - (m_{t + 1}^{(0)} - m_{t + 1}^{(2)}) ], \\ \end{array}
 $$
 
 where the first two terms are zero from the Euler equations (5.18) and (5.19). Hence,
 
 $$
-0 = c o v_{t} [ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1} - (m_{t + 1}^{(0)} - m_{t + 1}^{(1)}) ] + c o v_{t} [ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2} - (m_{t + 1}^{(0)} - m_{t + 1}^{(2)}) ].
+0 = cov_{t} [ \Delta e_{t + 1}^{0 / 2}, \Delta e_{t + 1}^{0 / 1} - (m_{t + 1}^{(0)} - m_{t + 1}^{(1)}) ] + cov_{t} [ \Delta e_{t + 1}^{0 / 1}, \Delta e_{t + 1}^{0 / 2} - (m_{t + 1}^{(0)} - m_{t + 1}^{(2)}) ].
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/29104820a47c871c03dbb7b61bb442366c6d3e72cb8d05c548a3577eeeec4e06.jpg)
@@ -10059,7 +9291,7 @@ $$
 Proof. Assume the equity claims (i.e., endowment claims) and risk-free bonds are tradable. Assume the endowment and demand shock processes are exogenous and adapted to the filtration that is generated by some  $d$ -dimensional Brownian motion  $Z_{t}$ . The set of tradable assets does not span all the Brownian shocks. In each country  $i$ , the households' problem is given by
 
 $$
-\max_{c_{0, t}^{(i)}, c_{1, t}^{(i)}, c_{2, t}^{(i)}} \quad \mathbb {E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \left(\alpha \log c_{i, t}^{(i)} + \sum_{j \neq i} \frac{1 - \alpha}{2} \log c_{j , t}^{(i)}\right) d t \right]
+\max_{c_{0, t}^{(i)}, c_{1, t}^{(i)}, c_{2, t}^{(i)}} \quad \mathbb{E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \left(\alpha \log c_{i, t}^{(i)} + \sum_{j \neq i} \frac{1 - \alpha}{2} \log c_{j , t}^{(i)}\right) d t \right]
 $$
 
 subject to the following dynamic budget constraint
@@ -10075,13 +9307,13 @@ denotes the bilateral exchange rate, which takes a higher value if currency in c
 Following He and Pearson [1991], Cuoco and He [1994] and Pavlova and Rigobon [2012], we can solve the system by transforming the dynamic budget constraints to a static one, which is given by
 
 $$
-\mathbb {E} \left[ \int_{0}^{T} \exp \left(m_{t}^{(i)}\right) c_{t}^{(i)} \right] \leq w_{0}^{(i)}, \tag {A.28}
+\mathbb{E} \left[ \int_{0}^{T} \exp \left(m_{t}^{(i)}\right) c_{t}^{(i)} \right] \leq w_{0}^{(i)}, \tag {A.28}
 $$
 
 where  $\exp(m_t^{(i)})$  is the state price density in country  $i$ . The households' Lagrangian is given by
 
 $$
-\mathcal {L} = \mathbb {E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \log c_{t}^{(i)} d t + \zeta^{(i)} \left(w_{0}^{(i)} - \int_{0}^{T} \exp (m_{t}^{(i)}) c_{t}^{(i)} d t\right) \right],
+\mathcal {L} = \mathbb{E} \left[ \int_{0}^{T} \exp (- \rho t) \gamma_{t}^{(i)} \log c_{t}^{(i)} d t + \zeta^{(i)} \left(w_{0}^{(i)} - \int_{0}^{T} \exp (m_{t}^{(i)}) c_{t}^{(i)} d t\right) \right],
 $$
 
 which yields the following first-order condition
@@ -10095,7 +9327,7 @@ with the normalization  $\exp(m_0^{(i)}) = 1$ . When markets are incomplete, the
 The households' wealth in period  $t$  is given by
 
 $$
-\begin{array}{l} w_{t}^{(i)} = \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{u}^{(i)})}{\exp (m_{t}^{(i)})} c_{u}^{(i)} d u \right] = \frac{\zeta^{(i)}}{\exp (- \rho_{t}) \gamma_{t}^{(i)}} c_{t}^{(i)} \mathbb {E}_{t} \left[ \int_{t}^{T} \frac{\exp (- \rho u) \gamma_{u}^{(i)}}{\zeta^{(i)} c_{u}^{(i)}} c_{u}^{(i)} d u \right] \\ = \frac{1 - \exp (- \rho (T - t))}{\rho} c_{t}^{(i)}, \tag {A.30} \\ \end{array}
+\begin{array}{l} w_{t}^{(i)} = \mathbb{E}_{t} \left[ \int_{t}^{T} \frac{\exp (m_{u}^{(i)})}{\exp (m_{t}^{(i)})} c_{u}^{(i)} d u \right] = \frac{\zeta^{(i)}}{\exp (- \rho_{t}) \gamma_{t}^{(i)}} c_{t}^{(i)} \mathbb{E}_{t} \left[ \int_{t}^{T} \frac{\exp (- \rho u) \gamma_{u}^{(i)}}{\zeta^{(i)} c_{u}^{(i)}} c_{u}^{(i)} d u \right] \\ = \frac{1 - \exp (- \rho (T - t))}{\rho} c_{t}^{(i)}, \tag {A.30} \\ \end{array}
 $$
 
 where the demand shocks  $\gamma_t^{(i)}$  are assumed to be martingales. Going back to households' problem, the within-period first-order conditions yields
@@ -10107,7 +9339,7 @@ $$
 Next, the equilibrium allocation is not necessarily Pareto optimal with incomplete markets. However, as shown in Cuoco and He [1994] and Pavlova and Rigobon [2012], we can still solve the social planner's problem with stochastic weights  $\pi_t^{(i)}$ ,
 
 $$
-\begin{array}{l} \max_{c^{(i) j, t}} \mathbb {E} \left[ \int_{0}^{T} \exp (- \rho t) \sum_{i \in \{0, 1, 2 \}} \pi_{t}^{(i)} \gamma_{t}^{(i)} \sum_{j \in \{0, 1, 2 \}} \left(1_{\{i = j \}} \alpha + 1_{\{i \neq j \}} \frac{1 - \alpha}{2}\right) \log c_{j, t}^{(i)} d t \right], \\ s. t. \quad \sum_{i \in \{0, 1, 2 \}} c_{j, t}^{(i)} = y_{t}^{(j)}, \quad j \in \{0, 1, 2 \}. \\ \end{array}
+\begin{array}{l} \max_{c^{(i) j, t}} \mathbb{E} \left[ \int_{0}^{T} \exp (- \rho t) \sum_{i \in \{0, 1, 2 \}} \pi_{t}^{(i)} \gamma_{t}^{(i)} \sum_{j \in \{0, 1, 2 \}} \left(1_{\{i = j \}} \alpha + 1_{\{i \neq j \}} \frac{1 - \alpha}{2}\right) \log c_{j, t}^{(i)} d t \right], \\ s. t. \quad \sum_{i \in \{0, 1, 2 \}} c_{j, t}^{(i)} = y_{t}^{(j)}, \quad j \in \{0, 1, 2 \}. \\ \end{array}
 $$
 
 The first-order conditions imply
@@ -10267,11 +9499,11 @@ Plug in  $\nu = 0$  to get Proposition 6.2.
 Proof. When prices are sticky, the model is closed by the following equations for prices:
 
 $$
-P_{H, t} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ \frac{W_{t}}{z_{t}} \right] \quad \exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ \frac{W_{t}}{z_{t}} \right] \tag {A.33}
+P_{H, t} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} \left[ \frac{W_{t}}{z_{t}} \right] \quad \exp (- \mathcal {E}_{t}) P_{H, t}^{*} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} \left[ \frac{W_{t}}{z_{t}} \right] \tag {A.33}
 $$
 
 $$
-\exp \left(\mathcal {E}_{t}\right) P_{F, t} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ \frac{W_{t}^{*}}{z_{t}^{*}} \right] \quad P_{F, t}^{*} = \frac{\rho}{\rho - 1} \mathbb {E}_{t - 1} \left[ \frac{W_{t}^{*}}{z_{t}^{*}} \right] \tag {A.34}
+\exp \left(\mathcal {E}_{t}\right) P_{F, t} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} \left[ \frac{W_{t}^{*}}{z_{t}^{*}} \right] \quad P_{F, t}^{*} = \frac{\rho}{\rho - 1} \mathbb{E}_{t - 1} \left[ \frac{W_{t}^{*}}{z_{t}^{*}} \right] \tag {A.34}
 $$
 
 Just as in the flexible price case,
@@ -10283,43 +9515,43 @@ $$
 Also use Eq. (A.33),
 
 $$
-\ell_{t} = \frac{P_{t} c_{t}}{P_{H , t} z_{t}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right) = \frac{P_{t} c_{t} / z_{t}}{\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)
+\ell_{t} = \frac{P_{t} c_{t}}{P_{H , t} z_{t}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right) = \frac{P_{t} c_{t} / z_{t}}{\mathbb{E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)
 $$
 
 Use Eq. (A.35) again,
 
 $$
-\begin{array}{l} c_{t} = z_{t} \ell_{t} \cdot \frac{P_{H , t}}{P_{t}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)^{- 1} = \frac{P_{H , t}}{\frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} P_{H , t}^{\alpha} P_{F , t}^{1 - \alpha}} \frac{P_{t} c_{t}}{\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} \\ = \frac{P_{t} c_{t}}{\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} (\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) \frac{P_{H , t}^{1 - \alpha}}{P_{F , t}^{1 - \alpha}} \\ \end{array}
+\begin{array}{l} c_{t} = z_{t} \ell_{t} \cdot \frac{P_{H , t}}{P_{t}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)^{- 1} = \frac{P_{H , t}}{\frac{1}{\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}} P_{H , t}^{\alpha} P_{F , t}^{1 - \alpha}} \frac{P_{t} c_{t}}{\mathbb{E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} \\ = \frac{P_{t} c_{t}}{\mathbb{E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]} \bar {\ell} (\alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) \frac{P_{H , t}^{1 - \alpha}}{P_{F , t}^{1 - \alpha}} \\ \end{array}
 $$
 
 Use the price setting Eq. (A.33) and (A.34),
 
 $$
-\frac{P_{H , t}}{P_{F , t}} = \frac{1}{\exp (- \mathcal {E}_{t})} \frac{\mathbb {E}_{t - 1} [ W_{t} / z_{t} ]}{\mathbb {E}_{t - 1} [ W_{t}^{*} / z_{t}^{*} ]} = \frac{P_{t}^{*} c_{t}^{*}}{P_{t} c_{t}} \frac{\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ]}{\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{\nu})^{\nu} / z_{t}^{*} ]}
+\frac{P_{H , t}}{P_{F , t}} = \frac{1}{\exp (- \mathcal {E}_{t})} \frac{\mathbb{E}_{t - 1} [ W_{t} / z_{t} ]}{\mathbb{E}_{t - 1} [ W_{t}^{*} / z_{t}^{*} ]} = \frac{P_{t}^{*} c_{t}^{*}}{P_{t} c_{t}} \frac{\mathbb{E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ]}{\mathbb{E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{\nu})^{\nu} / z_{t}^{*} ]}
 $$
 
 Then
 
 $$
-c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{\alpha} (P_{t}^{*} c_{t}^{*})^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{\alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{1 - \alpha}}
+c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{\alpha} (P_{t}^{*} c_{t}^{*})^{1 - \alpha}}{(\mathbb{E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{\alpha} (\mathbb{E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{1 - \alpha}}
 $$
 
 So the equilibrium price levels and consumption can be solved by
 
 $$
-c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(P_{t} c_{t}\right)^{\alpha} \left(P_{t}^{*} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb {E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb {E}_{t - 1} \left[ P_{t}^{*} c_{t}^{*} \left(\ell_{t}^{*}\right)^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}
+c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(P_{t} c_{t}\right)^{\alpha} \left(P_{t}^{*} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb{E}_{t - 1} \left[ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb{E}_{t - 1} \left[ P_{t}^{*} c_{t}^{*} \left(\ell_{t}^{*}\right)^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}
 $$
 
 $$
-c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{1 - \alpha} (P_{t}^{*} c_{t}^{*})^{\alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}
+c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(P_{t} c_{t})^{1 - \alpha} (P_{t}^{*} c_{t}^{*})^{\alpha}}{(\mathbb{E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb{E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}
 $$
 
 $$
-P_{t} = \frac{Q_{t}}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]},
+P_{t} = \frac{Q_{t}}{s_{t} + c_{t} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]},
 $$
 
 $$
-P_{t}^{*} = \frac{Q_{t}^{*}}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]}.
+P_{t}^{*} = \frac{Q_{t}^{*}}{s_{t}^{*} + c_{t}^{*} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]}.
 $$
 
 which implies
@@ -10331,11 +9563,11 @@ $$
 where
 
 $$
-\kappa_{t - 1}^{c} = \log \left(\frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{\alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{1 - \alpha}}\right)
+\kappa_{t - 1}^{c} = \log \left(\frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb{E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{\alpha} (\mathbb{E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{1 - \alpha}}\right)
 $$
 
 $$
-\kappa_{t - 1}^{c} = \log \left(\frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}\right)
+\kappa_{t - 1}^{c} = \log \left(\frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb{E}_{t - 1} [ P_{t} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb{E}_{t - 1} [ P_{t}^{*} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}\right)
 $$
 
 $$
@@ -10347,25 +9579,25 @@ $$
 Proof. Plug in Eq. (6.15) into Proposition 6.4 to get
 
 $$
-\begin{array}{l} \log c_{t} = \kappa_{t - 1}^{c} - \alpha \left(i_{t} + \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]\right) - (1 - \alpha) \left(i_{t}^{*} + \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right]\right) \\ = \tilde {\kappa}_{t - 1}^{c} - \alpha i_{t} - (1 - \alpha) i_{t}^{*} \\ \end{array}
+\begin{array}{l} \log c_{t} = \kappa_{t - 1}^{c} - \alpha \left(i_{t} + \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]\right) - (1 - \alpha) \left(i_{t}^{*} + \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right]\right) \\ = \tilde {\kappa}_{t - 1}^{c} - \alpha i_{t} - (1 - \alpha) i_{t}^{*} \\ \end{array}
 $$
 
 similarly,
 
 $$
-\begin{array}{l} \log c_{t}^{*} = \kappa_{t - 1}^{c^{*}} - \alpha \left(i_{t}^{*} + \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right]\right) - (1 - \alpha) \left(i_{t} + \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]\right) \\ = \tilde {\kappa}_{t - 1}^{c^{*}} - \alpha i_{t}^{*} - (1 - \alpha) i_{t} \\ \end{array}
+\begin{array}{l} \log c_{t}^{*} = \kappa_{t - 1}^{c^{*}} - \alpha \left(i_{t}^{*} + \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right]\right) - (1 - \alpha) \left(i_{t} + \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right]\right) \\ = \tilde {\kappa}_{t - 1}^{c^{*}} - \alpha i_{t}^{*} - (1 - \alpha) i_{t} \\ \end{array}
 $$
 
 where
 
 $$
-\begin{array}{l} \tilde {\kappa}_{t - 1}^{c} = \kappa_{t - 1}^{c} - \alpha \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] - (1 - \alpha) \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right] \\ \tilde {\kappa}_{t - 1}^{c^{*}} = \kappa_{t - 1}^{c^{*}} - \alpha \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right] - (1 - \alpha) \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] \\ \end{array}
+\begin{array}{l} \tilde {\kappa}_{t - 1}^{c} = \kappa_{t - 1}^{c} - \alpha \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] - (1 - \alpha) \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right] \\ \tilde {\kappa}_{t - 1}^{c^{*}} = \kappa_{t - 1}^{c^{*}} - \alpha \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1}^{*} c_{t + 1}^{*}} \right] - (1 - \alpha) \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] \\ \end{array}
 $$
 
 Recall the real Euler equation:
 
 $$
-\begin{array}{l} r_{t} = - \log \delta - \log \mathbb {E}_{t} \left[ c_{t} / c_{t + 1} \right] \\ = - \log \delta - \log c_{t} - \log \mathbb {E}_{t} \left[ 1 / c_{t + 1} \right] \\ \end{array}
+\begin{array}{l} r_{t} = - \log \delta - \log \mathbb{E}_{t} \left[ c_{t} / c_{t + 1} \right] \\ = - \log \delta - \log c_{t} - \log \mathbb{E}_{t} \left[ 1 / c_{t + 1} \right] \\ \end{array}
 $$
 
 Plugging log consumption into the equation above yields:
@@ -10377,7 +9609,7 @@ $$
 where
 
 $$
-\bar {r} = - \log \delta - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb {E}_{t} \left[ 1 / c_{t + 1} \right]
+\bar {r} = - \log \delta - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb{E}_{t} \left[ 1 / c_{t + 1} \right]
 $$
 
 the equilibrium log real exchange rate is
@@ -10389,7 +9621,7 @@ $$
 and the equilibrium price levels can be pinned down by plugging consumption into Eq. (6.15)
 
 $$
-\begin{array}{l} \log P_{t} = - \log c_{t} - i_{t} - \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] \\ = - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb {E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] + (1 - \alpha) (i_{t}^{*} - i_{t}) \\ \end{array}
+\begin{array}{l} \log P_{t} = - \log c_{t} - i_{t} - \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] \\ = - \tilde {\kappa}_{t - 1}^{c} - \log \mathbb{E}_{t} \left[ \delta \frac{1}{P_{t + 1} c_{t + 1}} \right] + (1 - \alpha) (i_{t}^{*} - i_{t}) \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/f3c3afc2c7461954d3b8130b93a15a48ea556dc33544804131f22b2f36348f3f.jpg)
@@ -10399,7 +9631,7 @@ $$
 Proof. From Proposition 6.4, plug the last two equations into the two above:
 
 $$
-\begin{array}{l} c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t}\right)^{\alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}} \right]} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb {E}_{t - 1} [ \frac{1}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t} \ell_{t}^{\nu} / z_{t} ]\right)^{\alpha} \left(\mathbb {E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}} \right]} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ]\right)^{1 - \alpha}} \\ c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t}\right)^{1 - \alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]} c_{t}^{*}\right)^{\alpha}}{\left(\mathbb {E}_{t - 1} [ \frac{1}{s_{t} + c_{t} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t} \ell_{t}^{\nu} / z_{t} ]\right)^{1 - \alpha} \left(\mathbb {E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb {E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ]\right)^{\alpha}}. \\ \end{array}
+\begin{array}{l} c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t}\right)^{\alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}} \right]} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb{E}_{t - 1} [ \frac{1}{s_{t} + c_{t} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t} \ell_{t}^{\nu} / z_{t} ]\right)^{\alpha} \left(\mathbb{E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}} \right]} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ]\right)^{1 - \alpha}} \\ c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t}\right)^{1 - \alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]} c_{t}^{*}\right)^{\alpha}}{\left(\mathbb{E}_{t - 1} [ \frac{1}{s_{t} + c_{t} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}}{c_{k}} \right]} c_{t} \ell_{t}^{\nu} / z_{t} ]\right)^{1 - \alpha} \left(\mathbb{E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} \mathbb{E}_{t} \left[ \sum_{k = t + 1}^{\infty} \beta^{k - t} \frac{s_{k}^{*}}{c_{k}^{*}} \right]} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ]\right)^{\alpha}}. \\ \end{array}
 $$
 
 We conjecture that  $c_t$  and  $c_t^*$  are functions of  $s_t$  and  $s_t^*$  only. Then, by the i.i.d. assumption of the government surpluses, the expectation terms  $\mathbb{E}_t\left[\sum_{k = t + 1}^{\infty}\beta^{k - t}\frac{s_k}{c_k}\right]$  and  $\mathbb{E}_t\left[\sum_{k = t + 1}^{\infty}\beta^{k - t}\frac{s_k^*}{c_k^*}\right]$  are constants,
@@ -10407,11 +9639,11 @@ We conjecture that  $c_t$  and  $c_t^*$  are functions of  $s_t$  and  $s_t^*$  
 denoted as  $A$  and  $A^{*}$ . The equations become
 
 $$
-c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} A} c_{t}\right)^{\alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb {E}_{t - 1} \left[ \frac{1}{s_{t} + c_{t} A} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb {E}_{t - 1} \left[ \frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}
+c_{t} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{\left(\frac{1}{s_{t} + c_{t} A} c_{t}\right)^{\alpha} \left(\frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*}\right)^{1 - \alpha}}{\left(\mathbb{E}_{t - 1} \left[ \frac{1}{s_{t} + c_{t} A} c_{t} \ell_{t}^{\nu} / z_{t} \right]\right)^{\alpha} \left(\mathbb{E}_{t - 1} \left[ \frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} \right]\right)^{1 - \alpha}}
 $$
 
 $$
-c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(\frac{1}{s_{t} + c_{t} A} c_{t})^{1 - \alpha} (\frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*})^{\alpha}}{(\mathbb {E}_{t - 1} [ \frac{1}{s_{t} + c_{t} A} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}.
+c_{t}^{*} = \bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha} \frac{(\frac{1}{s_{t} + c_{t} A} c_{t})^{1 - \alpha} (\frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*})^{\alpha}}{(\mathbb{E}_{t - 1} [ \frac{1}{s_{t} + c_{t} A} c_{t} \ell_{t}^{\nu} / z_{t} ])^{1 - \alpha} (\mathbb{E}_{t - 1} [ \frac{1}{s_{t}^{*} + c_{t}^{*} A^{*}} c_{t}^{*} (\ell_{t}^{*})^{\nu} / z_{t}^{*} ])^{\alpha}}.
 $$
 
 By the i.i.d. assumption of  $s_t, s_t^*, z_t$ , and  $z_t^*$ , the expectation terms  $\mathbb{E}_{t-1} \left[ \frac{1}{s_t + c_t A} c_t \ell_t^\nu / z_t \right]$  and  $\mathbb{E}_{t-1} \left[ \frac{1}{s_t^* + c_t^* A^*} c_t^* (\ell_t^*)^\nu / z_t^* \right]$  do not vary across periods. The two equations above can be used to solve  $c_t$  and  $c_t^*$  as functions of  $s_t$  and  $s_t^*$ , which confirms the conjecture.
@@ -10419,11 +9651,11 @@ By the i.i.d. assumption of  $s_t, s_t^*, z_t$ , and  $z_t^*$ , the expectation 
 Take log,
 
 $$
-\log c_{t} = \log \frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ \frac{c_{t}}{s_{t} + c_{t} A} \frac{\ell_{t}^{\nu}}{z_{t}} ])^{\alpha} (\mathbb {E}_{t - 1} [ \frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{(\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ])^{1 - \alpha}} + \alpha \log (\frac{c_{t}}{s_{t} + c_{t} A}) + (1 - \alpha) \log (\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}})
+\log c_{t} = \log \frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb{E}_{t - 1} [ \frac{c_{t}}{s_{t} + c_{t} A} \frac{\ell_{t}^{\nu}}{z_{t}} ])^{\alpha} (\mathbb{E}_{t - 1} [ \frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{(\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ])^{1 - \alpha}} + \alpha \log (\frac{c_{t}}{s_{t} + c_{t} A}) + (1 - \alpha) \log (\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}})
 $$
 
 $$
-\log c_{t}^{*} = \log \frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb {E}_{t - 1} [ \frac{c_{t}}{s_{t} + c_{t} A} \frac{\ell_{t}^{\nu}}{z_{t}} ])^{1 - \alpha} (\mathbb {E}_{t - 1} [ \frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{(\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ])^{\alpha}} + (1 - \alpha) \log (\frac{c_{t}}{s_{t} + c_{t} A}) + \alpha \log (\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}})
+\log c_{t}^{*} = \log \frac{\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}}{(\mathbb{E}_{t - 1} [ \frac{c_{t}}{s_{t} + c_{t} A} \frac{\ell_{t}^{\nu}}{z_{t}} ])^{1 - \alpha} (\mathbb{E}_{t - 1} [ \frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{(\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ])^{\alpha}} + (1 - \alpha) \log (\frac{c_{t}}{s_{t} + c_{t} A}) + \alpha \log (\frac{c_{t}^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}})
 $$
 
 Take first-order approximation around  $s_t = \bar{s}$  and  $c_t = \bar{c}$ ,
@@ -10449,11 +9681,11 @@ $$
 where
 
 $$
-\begin{array}{l} \kappa_{2} = \log (\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) - \alpha \log (\mathbb {E}_{t - 1} [ \frac{\bar {s} + \bar {c} A}{s_{t} + c_{t} A} \frac{c_{t} \ell_{t}^{\nu}}{z_{t}} ]) - (1 - \alpha) \log (\mathbb {E}_{t - 1} [ \frac{\bar {s} + \bar {c} A^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{c_{t}^{*} (\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ]) \\ + \alpha \frac{\bar {s}}{\bar {s} + \bar {c} A} + (1 - \alpha) \frac{\bar {s}}{\bar {s} + \bar {c} A^{*}} + \alpha \frac{\bar {c} A}{\bar {s} + \bar {c} A} \log \bar {c} + (1 - \alpha) \frac{\bar {c} A^{*}}{\bar {s} + \bar {c} A^{*}} \log \bar {c} \\ \end{array}
+\begin{array}{l} \kappa_{2} = \log (\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) - \alpha \log (\mathbb{E}_{t - 1} [ \frac{\bar {s} + \bar {c} A}{s_{t} + c_{t} A} \frac{c_{t} \ell_{t}^{\nu}}{z_{t}} ]) - (1 - \alpha) \log (\mathbb{E}_{t - 1} [ \frac{\bar {s} + \bar {c} A^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{c_{t}^{*} (\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ]) \\ + \alpha \frac{\bar {s}}{\bar {s} + \bar {c} A} + (1 - \alpha) \frac{\bar {s}}{\bar {s} + \bar {c} A^{*}} + \alpha \frac{\bar {c} A}{\bar {s} + \bar {c} A} \log \bar {c} + (1 - \alpha) \frac{\bar {c} A^{*}}{\bar {s} + \bar {c} A^{*}} \log \bar {c} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \kappa_{2}^{*} = \log (\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) - (1 - \alpha) \log (\mathbb {E}_{t - 1} [ \frac{\bar {s} + \bar {c} A}{s_{t} + c_{t} A} \frac{c_{t} \ell_{t}^{\nu}}{z_{t}} ]) - \alpha \log (\mathbb {E}_{t - 1} [ \frac{\bar {s} + \bar {c} A^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{c_{t}^{*} (\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ]) \\ + \alpha \frac{\bar {s}}{\bar {s} + \bar {c} A^{*}} + (1 - \alpha) \frac{\bar {s}}{\bar {s} + \bar {c} A} + \alpha \frac{\bar {c} A^{*}}{\bar {s} + \bar {c} A^{*}} \log \bar {c} + (1 - \alpha) \frac{\bar {c} A}{\bar {s} + \bar {c} A} \log \bar {c} \\ \end{array}
+\begin{array}{l} \kappa_{2}^{*} = \log (\bar {\ell} \alpha^{\alpha} (1 - \alpha)^{1 - \alpha}) - (1 - \alpha) \log (\mathbb{E}_{t - 1} [ \frac{\bar {s} + \bar {c} A}{s_{t} + c_{t} A} \frac{c_{t} \ell_{t}^{\nu}}{z_{t}} ]) - \alpha \log (\mathbb{E}_{t - 1} [ \frac{\bar {s} + \bar {c} A^{*}}{s_{t}^{*} + c_{t}^{*} A^{*}} \frac{c_{t}^{*} (\ell_{t}^{*})^{\nu}}{z_{t}^{*}} ]) \\ + \alpha \frac{\bar {s}}{\bar {s} + \bar {c} A^{*}} + (1 - \alpha) \frac{\bar {s}}{\bar {s} + \bar {c} A} + \alpha \frac{\bar {c} A^{*}}{\bar {s} + \bar {c} A^{*}} \log \bar {c} + (1 - \alpha) \frac{\bar {c} A}{\bar {s} + \bar {c} A} \log \bar {c} \\ \end{array}
 $$
 
 The solution is
@@ -10475,13 +9707,13 @@ $$
 Recall the real Euler equation:
 
 $$
-\begin{array}{l} r_{t} = - \log \delta - \log \mathbb {E}_{t} \left[ c_{t} / c_{t + 1} \right] \\ = - \log \delta - \log c_{t} - \log \mathbb {E}_{t} [ 1 / c_{t + 1} ] \\ \end{array}
+\begin{array}{l} r_{t} = - \log \delta - \log \mathbb{E}_{t} \left[ c_{t} / c_{t + 1} \right] \\ = - \log \delta - \log c_{t} - \log \mathbb{E}_{t} [ 1 / c_{t + 1} ] \\ \end{array}
 $$
 
 Plugging log consumption into the equation above yields:
 
 $$
-r_{t} = - \log \delta - \log \mathbb {E}_{t} [ 1 / c_{t + 1} ] - \kappa_{c} + \frac{\left((1 - \alpha) \bar {s} + \alpha A^{*} \bar {c}\right)}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)} s_{t} + \frac{(1 - \alpha) \left(A \bar {c} + \bar {s}\right)}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)} s_{t}^{*}
+r_{t} = - \log \delta - \log \mathbb{E}_{t} [ 1 / c_{t + 1} ] - \kappa_{c} + \frac{\left((1 - \alpha) \bar {s} + \alpha A^{*} \bar {c}\right)}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)} s_{t} + \frac{(1 - \alpha) \left(A \bar {c} + \bar {s}\right)}{\bar {c} \left(A A^{*} \bar {c} + (1 - \alpha) \bar {s} \left(A + A^{*}\right)\right)} s_{t}^{*}
 $$
 
 The log real exchange rate  $-e_t = \log c_t - \log c_t^*$ . The log price level is
@@ -10537,37 +9769,37 @@ $$
 Proof. Linearize the Euler equation to get
 
 $$
-\begin{array}{l} \exp (- \bar {\lambda}_{H, t}) (- \lambda_{H, t} + \bar {\lambda}_{H} + 1) = \mathbb {E}_{t} \left[ \delta \left(\frac{\bar {c}}{\bar {c}}\right)^{- \gamma} \exp (\bar {r}) (1 - \gamma \Delta \log c_{t + 1} + r_{t} - \bar {r}) \right] \\ \Rightarrow - \lambda_{H, t} + \bar {\lambda}_{H} = \mathbb {E}_{t} \left[ - \gamma \Delta \log c_{t + 1} + r_{t} - \bar {r} \right], \\ \end{array}
+\begin{array}{l} \exp (- \bar {\lambda}_{H, t}) (- \lambda_{H, t} + \bar {\lambda}_{H} + 1) = \mathbb{E}_{t} \left[ \delta \left(\frac{\bar {c}}{\bar {c}}\right)^{- \gamma} \exp (\bar {r}) (1 - \gamma \Delta \log c_{t + 1} + r_{t} - \bar {r}) \right] \\ \Rightarrow - \lambda_{H, t} + \bar {\lambda}_{H} = \mathbb{E}_{t} \left[ - \gamma \Delta \log c_{t + 1} + r_{t} - \bar {r} \right], \\ \end{array}
 $$
 
 where  $-\bar{\lambda}_H = \log \delta +\bar{r}$  , which implies
 
 $$
-- \lambda_{H, t} = \mathbb {E}_{t} [ - \gamma \Delta \log c_{t + 1} + r_{t} + \log \delta ].
+- \lambda_{H, t} = \mathbb{E}_{t} [ - \gamma \Delta \log c_{t + 1} + r_{t} + \log \delta ].
 $$
 
 Similarly,
 
 $$
-- \lambda_{H, t}^{*} = \mathbb {E}_{t} \left[ - \gamma \Delta \log c_{t + 1}^{*} + \Delta e_{t + 1} + r_{t} + \log \delta \right],
+- \lambda_{H, t}^{*} = \mathbb{E}_{t} \left[ - \gamma \Delta \log c_{t + 1}^{*} + \Delta e_{t + 1} + r_{t} + \log \delta \right],
 $$
 
 which implies
 
 $$
-\begin{array}{l} - \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) = \mathbb {E}_{t} \left[ m_{t + 1}^{*} - m_{t + 1} \right] + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] = \mathbb {E}_{t} \left[ \gamma \left(\Delta \log c_{t + 1} - \Delta \log c_{t + 1}^{*}\right) \right] + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] \\ \Rightarrow e_{t} = \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) + \mathbb {E}_{t} \left[ \gamma \left(\Delta \log c_{t + 1} - \Delta \log c_{t + 1}^{*}\right) \right] + e_{t + 1}. \\ \end{array}
+\begin{array}{l} - \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) = \mathbb{E}_{t} \left[ m_{t + 1}^{*} - m_{t + 1} \right] + \mathbb{E}_{t} \left[ \Delta e_{t + 1} \right] = \mathbb{E}_{t} \left[ \gamma \left(\Delta \log c_{t + 1} - \Delta \log c_{t + 1}^{*}\right) \right] + \mathbb{E}_{t} \left[ \Delta e_{t + 1} \right] \\ \Rightarrow e_{t} = \left(\lambda_{H, t}^{*} - \lambda_{H, t}\right) + \mathbb{E}_{t} \left[ \gamma \left(\Delta \log c_{t + 1} - \Delta \log c_{t + 1}^{*}\right) \right] + e_{t + 1}. \\ \end{array}
 $$
 
 Iterate forward to get
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \left(\lambda_{H, t + j}^{*} - \lambda_{H, t + j}\right) + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ \gamma \left(\Delta \log c_{t + j + 1} - \Delta \log c_{t + j + 1}^{*}\right)\right] + \lim_{j \rightarrow \infty} e_{t + j + 1}.
+e_{t} = \sum_{j = 0}^{\infty} \left(\lambda_{H, t + j}^{*} - \lambda_{H, t + j}\right) + \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ \gamma \left(\Delta \log c_{t + j + 1} - \Delta \log c_{t + j + 1}^{*}\right)\right] + \lim_{j \rightarrow \infty} e_{t + j + 1}.
 $$
 
 Let  $\lim_{j\to \infty}e_{t + j + 1} = \bar{e}$ . Plugging  $\Delta c_{t + 1} = \log c_{t + 1} - \log c_t$  yields
 
 $$
-\begin{array}{l} e_{t} - \bar {e} = \sum_{j = 0}^{\infty} \left(\lambda_{H, t + j}^{*} - \lambda_{H, t + j}\right) + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ \gamma \left(\log c_{t + j + 1} - \log c_{t + j} - \log c_{t + j + 1}^{*} + \log c_{t + j}^{*}\right) \right] \\ = \sum_{j = 0}^{\infty} (\lambda_{H, t + j}^{*} - \lambda_{H, t + j}) - \gamma (\log c_{t} - \log c_{t}^{*}) + \gamma (\log \bar {c} - \log \bar {c}^{*}) \\ \end{array}
+\begin{array}{l} e_{t} - \bar {e} = \sum_{j = 0}^{\infty} \left(\lambda_{H, t + j}^{*} - \lambda_{H, t + j}\right) + \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ \gamma \left(\log c_{t + j + 1} - \log c_{t + j} - \log c_{t + j + 1}^{*} + \log c_{t + j}^{*}\right) \right] \\ = \sum_{j = 0}^{\infty} (\lambda_{H, t + j}^{*} - \lambda_{H, t + j}) - \gamma (\log c_{t} - \log c_{t}^{*}) + \gamma (\log \bar {c} - \log \bar {c}^{*}) \\ \end{array}
 $$
 
 where we let  $\bar{c} = \lim_{j\to \infty}c_{t + j + 1},\bar{c}^{*} = \lim_{j\to \infty}c_{t + j + 1}^{*}$ . This yields Eq.
@@ -10637,7 +9869,7 @@ $$
 multiply both sides by nominal SDF  $\exp (M_{t + 1})$  and take expectations conditional on time  $t$ :
 
 $$
-\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \tag {A.36}
+\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb{E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \tag {A.36}
 $$
 
 where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})] = P_t(1)$ , and  $\mathbb{E}_t[\exp (M_{t + 1})P_{t + 1}(h - 1)] = P_t(h)$ .
@@ -10645,19 +9877,19 @@ where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})] = P_t(
 Similarly, the time  $t + 2$  constraints imply:
 
 $$
-\sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) = \mathbb {E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) S_{t + 2} \right] + \mathbb {E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right]
+\sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) = \mathbb{E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) S_{t + 2} \right] + \mathbb{E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right]
 $$
 
 Plug in Eq. (A.36) to get:
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \exp (M_{t + 1}) S_{t + 1} \right] + \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \exp (M_{t + 1, t + 2}) S_{t + 2} \right] \\ + \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \exp (M_{t + 1, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ = \mathbb {E}_{t} \left[ \sum_{k = 1}^{2} \exp (M_{t, t + k}) S_{t, t + k} \right] + \mathbb {E}_{t} \left[ \exp (M_{t, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} \left[ \exp (M_{t + 1}) S_{t + 1} \right] + \mathbb{E}_{t} \left[ \exp (M_{t + 1}) \exp (M_{t + 1, t + 2}) S_{t + 2} \right] \\ + \mathbb{E}_{t} \left[ \exp (M_{t + 1}) \exp (M_{t + 1, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ = \mathbb{E}_{t} \left[ \sum_{k = 1}^{2} \exp (M_{t, t + k}) S_{t, t + k} \right] + \mathbb{E}_{t} \left[ \exp (M_{t, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ \end{array}
 $$
 
 iterate forward to time  $t + n$  to get:
 
 $$
-\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{n} \exp \left(M_{t, t + k}\right) S_{t, t + k} \right] + \mathbb {E}_{t} \left[ \exp \left(M_{t, t + n}\right) \sum_{h = 1}^{H} Q_{t + n} (h) P_{t + n} (h) \right] \tag {A.37}
+\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} \left[ \sum_{k = 1}^{n} \exp \left(M_{t, t + k}\right) S_{t, t + k} \right] + \mathbb{E}_{t} \left[ \exp \left(M_{t, t + n}\right) \sum_{h = 1}^{H} Q_{t + n} (h) P_{t + n} (h) \right] \tag {A.37}
 $$
 
 More specifically, assume that the equation above is true for  $n = \ell$ .
@@ -10665,7 +9897,7 @@ More specifically, assume that the equation above is true for  $n = \ell$ .
 For  $n = \ell + 1$ , the constraints in time  $t + \ell + 1$  imply:
 
 $$
-\sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) = \mathbb {E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) S_{t + \ell + 1} \right] + \mathbb {E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right]
+\sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) = \mathbb{E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) S_{t + \ell + 1} \right] + \mathbb{E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right]
 $$
 
 it's easy to show that the expression is also true for  $n = \ell + 1$  by plugging the equation above in Eq. (A.37) (while letting  $n = \ell$ ). Let  $n \to \infty$  and plug in budget constraint Eq. (8.5) to get Eq. (8.6).
@@ -10691,7 +9923,7 @@ $$
 multiply both sides by nominal SDF  $\exp (M_{t + 1})$  and take expectations conditional on time  $t$ :
 
 $$
-\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right]
+\sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb{E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right]
 $$
 
 where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})(1 - \chi_{t + 1})] = P_t(1)$ , and  $\mathbb{E}_t[\exp (M_{t + 1})P_{t + 1}(h - 1)(1 - \chi_{t + 1})] = P_t(h)$ .
@@ -10711,7 +9943,7 @@ $$
 multiply both sides by nominal SDF  $\exp (M_{t + 1})$  and take expectations conditional on time  $t$ :
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) e^{- \lambda_{t} (h)} = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \\ \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} [ \exp (M_{t + 1}) S_{t + 1} ] + \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) \left(1 - e^{- \lambda_{t} (h)}\right) \\ + \mathbb {E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \tag {A.38} \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) e^{- \lambda_{t} (h)} = \mathbb{E}_{t} \left[ \exp \left(M_{t + 1}\right) S_{t + 1} \right] + \mathbb{E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \\ \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} [ \exp (M_{t + 1}) S_{t + 1} ] + \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) \left(1 - e^{- \lambda_{t} (h)}\right) \\ + \mathbb{E}_{t} \left[ \exp \left(M_{t + 1}\right) \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \right] \tag {A.38} \\ \end{array}
 $$
 
 where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})(1 - \chi_{t + 1})] = P_t(1)e^{-\lambda_t(1)}$ , and  $\mathbb{E}_t[\exp (M_{t + 1})P_{t + 1}(h - 1)(1 - \chi_{t + 1})] = P_t(h)e^{-\lambda_t(h)}$ .
@@ -10719,43 +9951,43 @@ where we use the asset pricing equations  $\mathbb{E}_t[\exp (M_{t + 1})(1 - \ch
 Similarly, consider the time  $t + 2$  budget constraint. Multiply both sides by nominal SDF  $\exp (M_{t + 1,t + 2})$  and take expectations conditional on time  $t + 1$ :
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) = \mathbb {E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) S_{t + 2} \right] + \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \left(1 - e^{- \lambda_{t + 1} (h)}\right) \\ + \mathbb {E}_{t + 1} \left[ \exp (M_{t + 1, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) = \mathbb{E}_{t + 1} \left[ \exp \left(M_{t + 1, t + 2}\right) S_{t + 2} \right] + \sum_{h = 1}^{H} Q_{t + 1} (h) P_{t + 1} (h) \left(1 - e^{- \lambda_{t + 1} (h)}\right) \\ + \mathbb{E}_{t + 1} \left[ \exp (M_{t + 1, t + 2}) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right] \\ \end{array}
 $$
 
 plug it into the RHS of Eq. (A.38) to get:
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{2} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{1} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp \left(M_{t, t + 2}\right) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right]. \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} \left[ \sum_{k = 1}^{2} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb{E}_{t} \left[ \sum_{k = 0}^{1} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb{E}_{t} \left[ \exp \left(M_{t, t + 2}\right) \sum_{h = 1}^{H} Q_{t + 2} (h) P_{t + 2} (h) \right]. \\ \end{array}
 $$
 
 To iterate forward, assume that
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{n} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{n - 1} \exp \left(M_{t, t + k}\right) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp \left(M_{t, t + n}\right) \sum_{h = 1}^{H} Q_{t + n} (h) P_{t + n} (h) \right] \tag {A.39} \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} \left[ \sum_{k = 1}^{n} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb{E}_{t} \left[ \sum_{k = 0}^{n - 1} \exp \left(M_{t, t + k}\right) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb{E}_{t} \left[ \exp \left(M_{t, t + n}\right) \sum_{h = 1}^{H} Q_{t + n} (h) P_{t + n} (h) \right] \tag {A.39} \\ \end{array}
 $$
 
 is true for  $n = \ell$ . For  $n = \ell + 1$ , consider the time  $t + \ell + 1$  budget constraint. Similarly, multiply both sides by nominal S  $\exp(M_{t + \ell, t + \ell + 1})$  and take expectations conditional on time  $t +$
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) = \mathbb {E}_{t + \ell} [ \exp (M_{t + \ell , t + \ell + 1}) S_{t + \ell + 1} ] + \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) \left(1 - e^{- \lambda_{t + \ell} (h)}\right) \\ + \mathbb {E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) = \mathbb{E}_{t + \ell} [ \exp (M_{t + \ell , t + \ell + 1}) S_{t + \ell + 1} ] + \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) \left(1 - e^{- \lambda_{t + \ell} (h)}\right) \\ + \mathbb{E}_{t + \ell} \left[ \exp \left(M_{t + \ell , t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \\ \end{array}
 $$
 
 plug it into the RHS of Eq. (A.39) to get:
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\ell} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{\ell - 1} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp (M_{t, t + \ell}) \mathbb {E}_{t + \ell} \left[ \exp (M_{t + \ell , t + \ell + 1}) S_{t + \ell + 1} \right] \right] + \mathbb {E}_{t} \left[ \exp (M_{t, t + \ell}) \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) \left(1 - e^{- \lambda_{t + \ell} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp (M_{t, t + \ell}) \mathbb {E}_{t + \ell} \left[ \exp (M_{t + \ell , t + \ell + 1}) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\ell} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb{E}_{t} \left[ \sum_{k = 0}^{\ell - 1} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb{E}_{t} \left[ \exp (M_{t, t + \ell}) \mathbb{E}_{t + \ell} \left[ \exp (M_{t + \ell , t + \ell + 1}) S_{t + \ell + 1} \right] \right] + \mathbb{E}_{t} \left[ \exp (M_{t, t + \ell}) \sum_{h = 1}^{H} Q_{t + \ell} (h) P_{t + \ell} (h) \left(1 - e^{- \lambda_{t + \ell} (h)}\right) \right] \\ + \mathbb{E}_{t} \left[ \exp (M_{t, t + \ell}) \mathbb{E}_{t + \ell} \left[ \exp (M_{t + \ell , t + \ell + 1}) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \right] \\ \end{array}
 $$
 
 Rearrange the RHS to get:
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\ell + 1} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{\ell} \exp \left(M_{t, t + k}\right) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb {E}_{t} \left[ \exp \left(M_{t, t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t} (h) P_{t} (h) = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\ell + 1} \exp \left(M_{t, t + k}\right) S_{t + k} \right] + \mathbb{E}_{t} \left[ \sum_{k = 0}^{\ell} \exp \left(M_{t, t + k}\right) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \left(1 - e^{- \lambda_{t + k} (h)}\right) \right] \\ + \mathbb{E}_{t} \left[ \exp \left(M_{t, t + \ell + 1}\right) \sum_{h = 1}^{H} Q_{t + \ell + 1} (h) P_{t + \ell + 1} (h) \right] \\ \end{array}
 $$
 
 Hence, we can iterate the equation from  $n = \ell$  to  $n = \ell + 1$  for any  $\ell \geq 1$  and prove Eq. (A.39). Recall the time  $t$  budget condition when default does not happen in Eq. (8.5). Plugging  $\sum_{h=1}^{H} Q_t(h) P_t(h)$  into the RHS and letting  $n \to \infty$  yields the result:
 
 $$
-\begin{array}{l} \sum_{h = 1}^{H} Q_{t - 1} (h) P_{t} (h - 1) = \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb {E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) (1 - e^{- \lambda_{t + k} (h)}) \right] \\ + \lim_{k \rightarrow \infty} \mathbb {E}_{t} \left[ \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \right] \\ \end{array}
+\begin{array}{l} \sum_{h = 1}^{H} Q_{t - 1} (h) P_{t} (h - 1) = \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (M_{t, t + k}) S_{t + k} \right] + \mathbb{E}_{t} \left[ \sum_{k = 0}^{\infty} \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) (1 - e^{- \lambda_{t + k} (h)}) \right] \\ + \lim_{k \rightarrow \infty} \mathbb{E}_{t} \left[ \exp (M_{t, t + k}) \sum_{h = 1}^{H} Q_{t + k} (h) P_{t + k} (h) \right] \\ \end{array}
 $$
 
 note that we replace letter  $n$  to  $k$  for simplicity.
@@ -10773,7 +10005,7 @@ $$
 Divide both sides by  $D_{t}$  and take expectations to get part (a). Similarly,
 
 $$
-\begin{array}{l} D_{t} \beta_{t}^{D} = \frac{\operatorname{co v}_{t} \left(D_{t} \exp \left(R_{t + 1}^{D}\right) , \exp \left(R_{t + 1}^{M}\right)\right)}{\operatorname{va r}_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = \frac{c o v_{t} \left(P_{t + 1}^{T} + T_{t + 1} - P_{t + 1}^{G} - G_{t + 1} , \exp \left(R_{t + 1}^{M}\right)\right)}{v a r_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = \frac{c o v_{t} \left(P_{t}^{T} \exp \left(R_{t + 1}^{T}\right) - P_{t}^{G} \exp \left(R_{t + 1}^{G}\right) , \exp \left(R_{t + 1}^{M}\right)\right)}{v a r_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = P_{t}^{T} \beta_{t}^{T} - P_{t}^{G} \beta_{t}^{G} \\ \end{array}
+\begin{array}{l} D_{t} \beta_{t}^{D} = \frac{\operatorname{co v}_{t} \left(D_{t} \exp \left(R_{t + 1}^{D}\right) , \exp \left(R_{t + 1}^{M}\right)\right)}{\operatorname{va r}_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = \frac{cov_{t} \left(P_{t + 1}^{T} + T_{t + 1} - P_{t + 1}^{G} - G_{t + 1} , \exp \left(R_{t + 1}^{M}\right)\right)}{var_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = \frac{cov_{t} \left(P_{t}^{T} \exp \left(R_{t + 1}^{T}\right) - P_{t}^{G} \exp \left(R_{t + 1}^{G}\right) , \exp \left(R_{t + 1}^{M}\right)\right)}{var_{t} \left(\exp \left(R_{t + 1}^{M}\right) - \exp \left(R_{t}\right)\right)} \\ = P_{t}^{T} \beta_{t}^{T} - P_{t}^{G} \beta_{t}^{G} \\ \end{array}
 $$
 
 Again, divide both sides by  $D_{t}$  to get part (b).
@@ -10791,7 +10023,7 @@ $$
 Taking conditional expectation  $\mathbb{E}_t$  for both sides yields part (a). To get part (b), take conditional covariance with market return  $\exp(R_{t+1}^M)$  and divide by its variance for both sides
 
 $$
-\begin{array}{l} \frac{c o v_{t} \left(\exp \left(R_{t + 1}^{D} , \exp \left(R_{t + 1}^{M}\right)\right)\right)}{v a r_{t} \left(\exp \left(R_{t + 1}^{M}\right)\right)} \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) \\ = \frac{c o v_{t} \left(\exp \left(R_{t + 1}^{T} , \exp \left(R_{t + 1}^{M}\right)\right)\right)}{v a r_{t} \left(\exp \left(R_{t + 1}^{M}\right)\right)} \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \\ + \frac{c o v_{t} (\exp (R_{t + 1}^{K} , \exp (R_{t + 1}^{M})))}{v a r_{t} (\exp (R_{t + 1}^{M}))} \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \\ - \frac{c o v_{t} (\exp (R_{t + 1}^{G} , \exp (R_{t + 1}^{M})))}{v a r_{t} (\exp (R_{t + 1}^{M}))} \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}, \\ \end{array}
+\begin{array}{l} \frac{cov_{t} \left(\exp \left(R_{t + 1}^{D} , \exp \left(R_{t + 1}^{M}\right)\right)\right)}{var_{t} \left(\exp \left(R_{t + 1}^{M}\right)\right)} \left(1 + \frac{K_{t}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}\right) \\ = \frac{cov_{t} \left(\exp \left(R_{t + 1}^{T} , \exp \left(R_{t + 1}^{M}\right)\right)\right)}{var_{t} \left(\exp \left(R_{t + 1}^{M}\right)\right)} \frac{P_{t}^{T}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \\ + \frac{cov_{t} (\exp (R_{t + 1}^{K} , \exp (R_{t + 1}^{M})))}{var_{t} (\exp (R_{t + 1}^{M}))} \frac{P_{t}^{K}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}} \\ - \frac{cov_{t} (\exp (R_{t + 1}^{G} , \exp (R_{t + 1}^{M})))}{var_{t} (\exp (R_{t + 1}^{M}))} \frac{P_{t}^{G}}{P_{t}^{T} + P_{t}^{K} - P_{t}^{G}}, \\ \end{array}
 $$
 
 which implies
@@ -10813,7 +10045,7 @@ Lemma A.1.  $\psi^{\prime}(w_{t},t) = \delta^{t}u^{\prime}(c_{t})$
 Proof. Let  $\left(\{c_{s}\}_{s=t}^{\infty},\{d_{s}\}_{s=t}^{\infty}\right)$  be the optimal solution from  $w_{t}$ . Let  $\Delta w > 0$ , define a feasible process  $\left(\{c_{s}^{*}\}_{s=t},\{d_{s}^{*}\}_{s=t}\right)$  from  $w_{t} + \Delta w$ , such that  $c_{t}^{*} = c_{t} + \Delta w, d_{t}^{*} = d_{t}, c_{s}^{*} = c_{s}, d_{s}^{*} = d_{s}, s = t+1,t+2,\ldots$ . It is clear that
 
 $$
-\begin{array}{l} \psi (w_{t} + \Delta w, t) \geq \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] \\ \Rightarrow \psi (w_{t} + \Delta w, t) - \psi (w_{t}, t) \geq \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] - \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}\right) \right] \\ = \mathbb {E}_{t} \left[ \delta^{t} u \left(c_{t} + \Delta w\right) - \delta^{t} u \left(c_{t}\right) \right] \\ = \delta^{t} u^{\prime} (c_{t}) \Delta w + o (\Delta w) \\ \end{array}
+\begin{array}{l} \psi (w_{t} + \Delta w, t) \geq \mathbb{E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] \\ \Rightarrow \psi (w_{t} + \Delta w, t) - \psi (w_{t}, t) \geq \mathbb{E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] - \mathbb{E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}\right) \right] \\ = \mathbb{E}_{t} \left[ \delta^{t} u \left(c_{t} + \Delta w\right) - \delta^{t} u \left(c_{t}\right) \right] \\ = \delta^{t} u^{\prime} (c_{t}) \Delta w + o (\Delta w) \\ \end{array}
 $$
 
 Hence,
@@ -10825,7 +10057,7 @@ $$
 This implies that  $\psi'(w_t, t) \geq \delta^t u'(c_t)$ . Now, take  $\Delta w$  sufficiently small such that  $0 < \Delta w < c_t$ . Define a feasible process  $(\{c_s^*\}_{s=t}^\infty, \{d_s^*\}_{s=t}^\infty)$  from  $w_t - \Delta w$ , such that  $c_t^* = c_t - \Delta w$ ,  $d_t^* = d_t$ ,  $c_s^* = c_s$ ,  $d_s^* = d_s$ ,  $s = t + 1, t + 2, \ldots$ . Similarly,
 
 $$
-\begin{array}{l} \psi (w_{t} - \Delta w, t) \geq \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] \\ \Rightarrow \psi (w_{t} - \Delta w, t) - \psi (w_{t}, t) \geq \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}^{*}) \right] - \mathbb {E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}) \right] \\ = \mathbb {E}_{t} \left[ \delta^{t} u \left(c_{t} - \Delta w\right) - \delta^{t} u \left(c_{t}\right) \right] \\ = \delta^{t} u^{\prime} (c_{t}) (- \Delta w) + o (\Delta w) \\ \end{array}
+\begin{array}{l} \psi (w_{t} - \Delta w, t) \geq \mathbb{E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u \left(c_{s}^{*}\right) \right] \\ \Rightarrow \psi (w_{t} - \Delta w, t) - \psi (w_{t}, t) \geq \mathbb{E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}^{*}) \right] - \mathbb{E}_{t} \left[ \sum_{s = t}^{\infty} \delta^{s} u (c_{s}) \right] \\ = \mathbb{E}_{t} \left[ \delta^{t} u \left(c_{t} - \Delta w\right) - \delta^{t} u \left(c_{t}\right) \right] \\ = \delta^{t} u^{\prime} (c_{t}) (- \Delta w) + o (\Delta w) \\ \end{array}
 $$
 
 Hence,
@@ -10845,41 +10077,41 @@ $$
 By Envelope theorem, i.e.,  $\psi'(w_t, t) = \delta^t u'(c_t)$ , then the assumptions  $\lim_{t \to \infty} \psi(w_t, t) = 0$  and  $u'(c_t) \geq 0$  implies
 
 $$
-\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) w_{t} \right] = 0
+\lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) w_{t} \right] = 0
 $$
 
 $$
-\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right)\left(y_{t} + d_{t - 1} \exp \left(r_{t}^{d}\right)\right)\right] = 0.
+\lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right)\left(y_{t} + d_{t - 1} \exp \left(r_{t}^{d}\right)\right)\right] = 0.
 $$
 
 Since  $y_{t}, u^{\prime}(c_{t}) \geq 0$ , and by the short-sale constraint,  $d_{t-1} \geq 0$  then,
 
 $$
-0 \leq \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right) \right] \leq \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) \left(y_{t} + d_{t - 1} \exp \left(r_{t}^{d}\right)\right) \right]
+0 \leq \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right) \right] \leq \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) \left(y_{t} + d_{t - 1} \exp \left(r_{t}^{d}\right)\right) \right]
 $$
 
 $$
-0 \leq \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{d}) \right] \leq \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) \left(y_{t} + d_{t - 1} \exp (r_{t}^{d})\right)\right] = 0
+0 \leq \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{d}) \right] \leq \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} (c_{t}) \left(y_{t} + d_{t - 1} \exp (r_{t}^{d})\right)\right] = 0
 $$
 
 $$
-\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right)\right] = 0
+\lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right)\right] = 0
 $$
 
 Lastly, by the Euler equation (8.13),
 
 $$
-u^{\prime} \left(c_{t - 1}\right) d_{t - 1} = \mathbb {E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right) \right]
+u^{\prime} \left(c_{t - 1}\right) d_{t - 1} = \mathbb{E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right) \right]
 $$
 
 $$
-\mathbb {E}_{0} \left[ u^{\prime} (c_{t - 1}) d_{t - 1} \right] = \mathbb {E}_{0} \left[ \delta u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{d}) \right].
+\mathbb{E}_{0} \left[ u^{\prime} (c_{t - 1}) d_{t - 1} \right] = \mathbb{E}_{0} \left[ \delta u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{d}) \right].
 $$
 
 then
 
 $$
-0 = \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right)\right] = \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t - 1} u^{\prime} \left(c_{t - 1}\right) d_{t - 1} \right],
+0 = \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t - 1} \exp \left(r_{t}^{d}\right)\right] = \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t - 1} u^{\prime} \left(c_{t - 1}\right) d_{t - 1} \right],
 $$
 
 which implies the transversality condition.
@@ -10891,7 +10123,7 @@ which implies the transversality condition.
 Proof. First, We derive the Euler equation with utility from holding the bonds. The Lagrangian is:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v_{t} (d_{t})) + \sum_{t = 0}^{\infty} \zeta_{t} (y_{t} + d_{t - 1} \exp (r_{t}^{D}) - c_{t} - d_{t}) \right]
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v_{t} (d_{t})) + \sum_{t = 0}^{\infty} \zeta_{t} (y_{t} + d_{t - 1} \exp (r_{t}^{D}) - c_{t} - d_{t}) \right]
 $$
 
 The first order conditions are given by
@@ -10901,25 +10133,25 @@ $$
 $$
 
 $$
-\delta^{t} v_{t}^{\prime} (d_{t}) - \zeta_{t} + \mathbb {E}_{t} [ \zeta_{t + 1} \exp (r_{t + 1}^{D}) ] = 0
+\delta^{t} v_{t}^{\prime} (d_{t}) - \zeta_{t} + \mathbb{E}_{t} [ \zeta_{t + 1} \exp (r_{t + 1}^{D}) ] = 0
 $$
 
 which imply the Euler equation
 
 $$
-v_{t}^{\prime} (d_{t}) - u^{\prime} (c_{t}) + \mathbb {E}_{t} [ \delta u^{\prime} (c_{t + 1}) \exp (r_{t + 1}^{D}) ] = 0
+v_{t}^{\prime} (d_{t}) - u^{\prime} (c_{t}) + \mathbb{E}_{t} [ \delta u^{\prime} (c_{t + 1}) \exp (r_{t + 1}^{D}) ] = 0
 $$
 
 hence,
 
 $$
-\mathbb {E}_{t} \left[ \frac{\delta u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(r_{t + 1}^{D}\right) \right] = 1 - \frac{v_{t}^{\prime} \left(d_{t}\right)}{u^{\prime} \left(c_{t}\right)}
+\mathbb{E}_{t} \left[ \frac{\delta u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(r_{t + 1}^{D}\right) \right] = 1 - \frac{v_{t}^{\prime} \left(d_{t}\right)}{u^{\prime} \left(c_{t}\right)}
 $$
 
 we denote the RHS as  $\exp(-\lambda_t)$ . Similarly, we define the households' value function as
 
 $$
-\psi (w_{t}, t) = \max \mathbb {E}_{0} \left[ \sum_{s = t}^{\infty} \delta^{s} \left(u (c_{s}) + v_{t} (d_{t})\right) \right]
+\psi (w_{t}, t) = \max \mathbb{E}_{0} \left[ \sum_{s = t}^{\infty} \delta^{s} \left(u (c_{s}) + v_{t} (d_{t})\right) \right]
 $$
 
 we can show in the same way in lemma A.1 that
@@ -10937,23 +10169,23 @@ $$
 hence,
 
 $$
-\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) w_{t} \right] = 0
+\lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) w_{t} \right] = 0
 $$
 
 $$
-\lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right)\left(y_{t} + d_{t - 1} \exp \left(r_{t}^{D}\right)\right)\right] = 0
+\lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right)\left(y_{t} + d_{t - 1} \exp \left(r_{t}^{D}\right)\right)\right] = 0
 $$
 
 since  $y_{t}, d_{t}, u^{\prime}(c_{t})$  are all non-negative, plugging in the Euler equation to get:
 
 $$
-\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb {E}_{0} [ \delta^{t} u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{D}) ] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t - 1} d_{t - 1} \mathbb {E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) \exp \left(r_{t}^{D}\right)\right]\right] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t - 1} d_{t - 1} \left(u^{\prime} \left(c_{t - 1}\right) - v_{t}^{\prime} \left(d_{t - 1}\right)\right)\right] = 0 \\ \end{array}
+\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb{E}_{0} [ \delta^{t} u^{\prime} (c_{t}) d_{t - 1} \exp (r_{t}^{D}) ] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t - 1} d_{t - 1} \mathbb{E}_{t - 1} \left[ \delta u^{\prime} \left(c_{t}\right) \exp \left(r_{t}^{D}\right)\right]\right] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t - 1} d_{t - 1} \left(u^{\prime} \left(c_{t - 1}\right) - v_{t}^{\prime} \left(d_{t - 1}\right)\right)\right] = 0 \\ \end{array}
 $$
 
 replacing time subscripts to  $t$  to get:
 
 $$
-\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} \left(u^{\prime} \left(c_{t}\right) - v_{t}^{\prime} \left(d_{t}\right)\right) d_{t} \right] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \right] = 0 \\ \end{array}
+\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} \left(u^{\prime} \left(c_{t}\right) - v_{t}^{\prime} \left(d_{t}\right)\right) d_{t} \right] = 0 \\ \Rightarrow \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \right] = 0 \\ \end{array}
 $$
 
 the expression of  $\exp (-\lambda_t)$  is given above.
@@ -10961,7 +10193,7 @@ the expression of  $\exp (-\lambda_t)$  is given above.
 To obtain the original transversality condition, assume that  $\lambda_{t}$  is bounded above by  $\bar{\lambda}$
 
 $$
-\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \right] = \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \exp (\lambda_{t}) \right] \\ \leq \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp \left(- \lambda_{t}\right) \exp (\bar {\lambda}) \right] \\ = \exp (\bar {\lambda}) \lim_{t \rightarrow \infty} \mathbb {E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \right] \\ = 0 \\ \end{array}
+\begin{array}{l} \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \right] = \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \exp (\lambda_{t}) \right] \\ \leq \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp \left(- \lambda_{t}\right) \exp (\bar {\lambda}) \right] \\ = \exp (\bar {\lambda}) \lim_{t \rightarrow \infty} \mathbb{E}_{0} \left[ \delta^{t} u^{\prime} \left(c_{t}\right) d_{t} \exp (- \lambda_{t}) \right] \\ = 0 \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/d531ef2151ae91236587183cbe67d465f1d0aa06d278626b57b9f3580790d51f.jpg)
@@ -10977,7 +10209,7 @@ $$
 The Euler equation implies
 
 $$
-\exp (\log P_{t - 1} (h + 1)) = \mathbb {E}_{t - 1} [ \exp (M_{t} + \log P_{t} (h)) ]
+\exp (\log P_{t - 1} (h + 1)) = \mathbb{E}_{t - 1} [ \exp (M_{t} + \log P_{t} (h)) ]
 $$
 
 $$
@@ -10995,7 +10227,7 @@ with the initial condition given by  $A(0) = 0$  and  $B(0) = \vec{0}$ .
 (b) Denote the time  $t$  log price-dividend ratio on the stock dividend strip that pays  $Div_{t + h}$  at time  $t + h$  as  $pd_t^m (h)$ . The Euler equation is
 
 $$
-\exp (p d_{t - 1}^{m} (h + 1)) = \mathbb {E}_{t} [ \exp (M_{t} + p d_{t}^{m} (h) + \Delta \log D i v_{t}) ],
+\exp (p d_{t - 1}^{m} (h + 1)) = \mathbb{E}_{t} [ \exp (M_{t} + p d_{t}^{m} (h) + \Delta \log D i v_{t}) ],
 $$
 
 where  $\Delta \log Div_t = \Delta \log d_t + x_t + \pi_t$ , i.e., the log nominal dividend growth is the sum of the log growth of dividend-GDP ratio, log growth of real GDP and inflation. Conjecture that
@@ -11055,13 +10287,13 @@ The expected return of holding the long-term bond from time  $t$  to
 $t + 1$  is
 
 $$
-\begin{array}{l} \mathbb {E}_{t} \left[ \log P_{t + 1} (h - 1) - \log P_{t} (h) \right] = A (h - 1) + B (h - 1)^{\prime} \Psi z_{t} - A (h) - B (h)^{\prime} z_{t} \\ = i_{0} (1) - \frac{1}{2} B (h - 1)^{\prime} \Sigma B (h - 1) + B (h - 1)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} \\ + B (h - 1)^{\prime} \Psi z_{t} - B (h)^{\prime} z_{t}. \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} \left[ \log P_{t + 1} (h - 1) - \log P_{t} (h) \right] = A (h - 1) + B (h - 1)^{\prime} \Psi z_{t} - A (h) - B (h)^{\prime} z_{t} \\ = i_{0} (1) - \frac{1}{2} B (h - 1)^{\prime} \Sigma B (h - 1) + B (h - 1)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} \\ + B (h - 1)^{\prime} \Psi z_{t} - B (h)^{\prime} z_{t}. \\ \end{array}
 $$
 
 Letting  $h\to \infty$  yields
 
 $$
-\begin{array}{l} \lim_{h \to \infty} \mathbb {E}_{t} [ \log P_{t + 1} (h - 1) - \log P_{t} (h) ] = i_{0} (1) - \frac{1}{2} B (\infty)^{\prime} \Sigma B (\infty) + B (\infty)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B (\infty)^{\prime} (\Psi - I) z_{t}, \\ \lim_{h \rightarrow \infty} i_{t} (h) = i_{0} (1) - \frac{1}{2} B (\infty)^{\prime} \Sigma B (\infty) + B (\infty)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}. \\ \end{array}
+\begin{array}{l} \lim_{h \to \infty} \mathbb{E}_{t} [ \log P_{t + 1} (h - 1) - \log P_{t} (h) ] = i_{0} (1) - \frac{1}{2} B (\infty)^{\prime} \Sigma B (\infty) + B (\infty)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B (\infty)^{\prime} (\Psi - I) z_{t}, \\ \lim_{h \rightarrow \infty} i_{t} (h) = i_{0} (1) - \frac{1}{2} B (\infty)^{\prime} \Sigma B (\infty) + B (\infty)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0}. \\ \end{array}
 $$
 
 (b) Recall that
@@ -11077,13 +10309,13 @@ $$
 Note that  $\log P_t^m (h) = pd_t^m (h) + \log Div_t$ . Similarly,
 
 $$
-\begin{array}{l} \mathbb {E}_{t} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] \\ = \mathbb {E}_{t} \left[ p d_{t + 1}^{m} (h - 1) - p d_{t}^{m} (h) + \log D i v_{t + 1} - \log D i v_{t} \right] \\ = A^{m} (h - 1) + B^{m} (h - 1)^{\prime} \Psi z_{t} - A^{m} (h) - B^{m} (h)^{\prime} z_{t} + \left(e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi z_{t} \\ = i_{0} (1) - \frac{1}{2} \left(B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi}\right) \\ + (B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B^{m} (h - 1)^{\prime} \Psi z_{t} - B^{m} (h)^{\prime} z_{t} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Psi z_{t}. \\ \end{array}
+\begin{array}{l} \mathbb{E}_{t} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] \\ = \mathbb{E}_{t} \left[ p d_{t + 1}^{m} (h - 1) - p d_{t}^{m} (h) + \log D i v_{t + 1} - \log D i v_{t} \right] \\ = A^{m} (h - 1) + B^{m} (h - 1)^{\prime} \Psi z_{t} - A^{m} (h) - B^{m} (h)^{\prime} z_{t} + \left(e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi z_{t} \\ = i_{0} (1) - \frac{1}{2} \left(B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi}\right) \\ + (B^{m} (h - 1) + e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B^{m} (h - 1)^{\prime} \Psi z_{t} - B^{m} (h)^{\prime} z_{t} + (e_{\Delta d} + e_{x} + e_{\pi})^{\prime} \Psi z_{t}. \\ \end{array}
 $$
 
 Let  $h\to \infty$  to obtain
 
 $$
-\begin{array}{l} \lim_{h \to \infty} \mathbb {E}_{t} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] \\ = i_{0} (1) - \frac{1}{2} \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right) \\ + \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B^{m} (\infty)^{\prime} (\Psi - I) z_{t} + \left(e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi z_{t}, \\ \end{array}
+\begin{array}{l} \lim_{h \to \infty} \mathbb{E}_{t} \left[ \log P_{t + 1}^{m} (h - 1) - \log P_{t}^{m} (h) \right] \\ = i_{0} (1) - \frac{1}{2} \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right) \\ + \left(B^{m} (\infty) + e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Sigma^{\frac{1}{2}} \Lambda_{0} + B^{m} (\infty)^{\prime} (\Psi - I) z_{t} + \left(e_{\Delta d} + e_{x} + e_{\pi}\right)^{\prime} \Psi z_{t}, \\ \end{array}
 $$
 
 where  $B^{m}(\infty)^{\prime}$  is given by
@@ -11151,19 +10383,19 @@ $$
 Plug the conjectured expression of  $\psi_{t + 1}(w_{t + 1},z_{t + 1})$  into the recursive form of  $\psi_t(w_t,z_t)$  to get
 
 $$
-\begin{array}{l} \psi_{t} \left(w_{t}, z_{t}\right) = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \mathbb {E}_{t} \left[ \delta^{t + 1} f_{t + 1} \left(z_{t + 1}\right) \frac{w_{t + 1}^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \mathbb {E}_{t} \left[ \delta^{t + 1} f_{t + 1} \left(z_{t + 1}\right) \frac{\left(\left(w_{t} - c_{t}\right) x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \delta^{t + 1} \left(w_{t} - c_{t}\right)^{1 - \gamma} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \delta^{t} w_{t}^{1 - \gamma} \max_{w c_{t}, x_{t}} \left\{\frac{w c_{t}^{\gamma - 1}}{1 - \gamma} + \delta \left(1 - \frac{1}{w c_{t}}\right)^{1 - \gamma} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ \end{array}
+\begin{array}{l} \psi_{t} \left(w_{t}, z_{t}\right) = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \mathbb{E}_{t} \left[ \delta^{t + 1} f_{t + 1} \left(z_{t + 1}\right) \frac{w_{t + 1}^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \mathbb{E}_{t} \left[ \delta^{t + 1} f_{t + 1} \left(z_{t + 1}\right) \frac{\left(\left(w_{t} - c_{t}\right) x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \max_{c_{t}, x_{t}} \left\{\delta^{t} \frac{c_{t}^{1 - \gamma}}{1 - \gamma} + \delta^{t + 1} \left(w_{t} - c_{t}\right)^{1 - \gamma} \mathbb{E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ = \delta^{t} w_{t}^{1 - \gamma} \max_{w c_{t}, x_{t}} \left\{\frac{w c_{t}^{\gamma - 1}}{1 - \gamma} + \delta \left(1 - \frac{1}{w c_{t}}\right)^{1 - \gamma} \mathbb{E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right] \right\} \\ \end{array}
 $$
 
 since  $\delta (1 - \frac{1}{wc_t})^{1 - \gamma}$  is always positive and  $x_{t}$  only enters into the expectation term in the objective function, the optimal portfolio can be solved for independently of the optimal consumption, i.e.
 
 $$
-x_{t} = \arg \max_{x_{t}} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right]
+x_{t} = \arg \max_{x_{t}} \mathbb{E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right]
 $$
 
 which gives Eq. (9.9). For now, denote
 
 $$
-g_{t} \left(z_{t}\right) = \max_{x_{t}} \mathbb {E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right]
+g_{t} \left(z_{t}\right) = \max_{x_{t}} \mathbb{E}_{t} \left[ f_{t + 1} \left(z_{t + 1}\right) \frac{\left(x_{t}^{\prime} \exp \left(r_{t + 1}\right)\right)^{1 - \gamma}}{1 - \gamma} \right]
 $$
 
 such that  $1 = x_{t}^{\prime}1$ . Plug  $g_{t}(z_{t})$  back into  $\psi_t(w_t,z_t)$  to get
@@ -11205,25 +10437,25 @@ note that  $f_{T}(z_{T}) = wc_{T} = 1$ , which fulfills the boundary condition.
 Proof. When the asset returns are i.i.d., the optimal portfolio choice is given by
 
 $$
-\begin{array}{l} x_{t} = \arg \max_{x_{t}} \mathbb {E} \left[ \exp \left((1 - \gamma) r_{t + 1}^{p}\right) \right] \\ = \arg \max_{x_{t}} \exp (\mathbb {E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} v a r ((1 - \gamma) r_{t + 1}^{p})) \\ = \arg \max_{x_{t}} \mathbb {E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} \operatorname{va r} ((1 - \gamma) r_{t + 1}^{p}) \\ \end{array}
+\begin{array}{l} x_{t} = \arg \max_{x_{t}} \mathbb{E} \left[ \exp \left((1 - \gamma) r_{t + 1}^{p}\right) \right] \\ = \arg \max_{x_{t}} \exp (\mathbb{E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} var ((1 - \gamma) r_{t + 1}^{p})) \\ = \arg \max_{x_{t}} \mathbb{E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} \operatorname{va r} ((1 - \gamma) r_{t + 1}^{p}) \\ \end{array}
 $$
 
 plug  $r_{t + 1}^p$  in to get
 
 $$
-\mathbb {E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} v a r ((1 - \gamma) r_{t + 1}^{p}) = (1 - \gamma) \left(x_{t}^{\prime} (\mathbb {E}_{t} [ r_{t + 1} - r_{t}^{f} ] + \frac{1}{2} \sigma_{t}^{2}) + r_{t}^{f} - \frac{1}{2} x_{t}^{\prime} \Sigma_{t} x_{t}\right) + \frac{1}{2} (1 - \gamma)^{2} x_{t}^{\prime} \Sigma_{t} x_{t}
+\mathbb{E} \left[ (1 - \gamma) r_{t + 1}^{p} \right] + \frac{1}{2} var ((1 - \gamma) r_{t + 1}^{p}) = (1 - \gamma) \left(x_{t}^{\prime} (\mathbb{E}_{t} [ r_{t + 1} - r_{t}^{f} ] + \frac{1}{2} \sigma_{t}^{2}) + r_{t}^{f} - \frac{1}{2} x_{t}^{\prime} \Sigma_{t} x_{t}\right) + \frac{1}{2} (1 - \gamma)^{2} x_{t}^{\prime} \Sigma_{t} x_{t}
 $$
 
 the first order condition w.r.t.  $x_{t}$  is given by
 
 $$
-\mathbb {E}_{t} \left[ r_{t + 1} - r_{t}^{f} \right] + \frac{1}{2} \sigma_{t}^{2} - \gamma \Sigma x_{t} = 0
+\mathbb{E}_{t} \left[ r_{t + 1} - r_{t}^{f} \right] + \frac{1}{2} \sigma_{t}^{2} - \gamma \Sigma x_{t} = 0
 $$
 
 Hence,
 
 $$
-x_{t} = \gamma^{- 1} \Sigma_{t}^{- 1} \left(\mathbb {E} \left[ r_{t + 1} - r_{t}^{f} \right] + \frac{1}{2} \sigma_{t}^{2}\right).
+x_{t} = \gamma^{- 1} \Sigma_{t}^{- 1} \left(\mathbb{E} \left[ r_{t + 1} - r_{t}^{f} \right] + \frac{1}{2} \sigma_{t}^{2}\right).
 $$
 
 note that  $\Sigma_t$  must be reversible, otherwise we can synthesize another risk-free assets with the risky assets.
@@ -11235,7 +10467,7 @@ note that  $\Sigma_t$  must be reversible, otherwise we can synthesize another r
 Proof. The bond market clearing condition requires that
 
 $$
-\exp (r_{t}^{*}) b_{F, t}^{*} + \exp (r_{t}) n (\exp (\psi_{t}) - 1) - m \frac{\mathbb {E}_{t} [ r x_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1})}{\omega v a r_{t} (\Delta e_{t + 1})} = 0
+\exp (r_{t}^{*}) b_{F, t}^{*} + \exp (r_{t}) n (\exp (\psi_{t}) - 1) - m \frac{\mathbb{E}_{t} [ r x_{t + 1} ] + \frac{1}{2} var_{t} (\Delta e_{t + 1})}{\omega var_{t} (\Delta e_{t + 1})} = 0
 $$
 
 As shocks become small, the variance term becomes second-order and drops out. Below, we log-linearize the equation around steady states  $\exp (\bar{r}) = \exp (\bar{r}^{*}) = \delta^{-1}$ ,  $\bar{\psi} = 0$ ,  $\bar{b}_H = \bar{b}_F = 0$ ,  $\bar{e} = 0$  and some  $\bar{y}$ . Note that both noise traders and intermediaries are holding zero-cost
@@ -11243,7 +10475,7 @@ As shocks become small, the variance term becomes second-order and drops out. Be
 portofolios, hence  $b_{H,t} + \exp (-e_t)b_{F,t} = 0$
 
 $$
-\begin{array}{l} \frac{\mathbb {E}_{t} \left[ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \right]}{\omega v a r_{t} \left(\Delta e_{t + 1}\right) / m} = \exp (\bar {r}) n \psi_{t} - \exp (\bar {e} + \bar {r}^{*} - \bar {r}) b_{H, t} \exp (r_{t}) \\ \Rightarrow \mathbb {E}_{t} [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}}, \\ \end{array}
+\begin{array}{l} \frac{\mathbb{E}_{t} \left[ \Delta e_{t + 1} + r_{t} - r_{t}^{*} \right]}{\omega var_{t} \left(\Delta e_{t + 1}\right) / m} = \exp (\bar {r}) n \psi_{t} - \exp (\bar {e} + \bar {r}^{*} - \bar {r}) b_{H, t} \exp (r_{t}) \\ \Rightarrow \mathbb{E}_{t} [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}}, \\ \end{array}
 $$
 
 where  $\chi_{1} = n\omega var_{t}(\Delta e_{t + 1}) / m\delta ,\chi_{2} = \omega var_{t}(\Delta e_{t + 1})\bar{Y} /m$
@@ -11255,13 +10487,13 @@ where  $\chi_{1} = n\omega var_{t}(\Delta e_{t + 1}) / m\delta ,\chi_{2} = \omeg
 Proof. Assuming log-normality, the 4 Euler equations can be written as
 
 $$
-\begin{array}{l} - \lambda_{t} = \mathbb {E}_{t} [ m_{t + 1} ] + r_{t} + \frac{1}{2} v a r_{t} (m_{t + 1}), \\ - \xi_{t} = \mathbb {E}_{t} [ m_{t + 1} ] + r_{t}^{*} - \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (m_{t + 1}) + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) - c o v_{t} (m_{t + 1}, \Delta e_{t + 1}), \\ - \xi_{t}^{*} = \mathbb {E}_{t} \left[ m_{t + 1}^{*} \right] + r_{t}^{*} + \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right), \\ - \lambda_{t}^{*} = \mathbb {E}_{t} \left[ m_{t + 1}^{*} \right] + r_{t} + \mathbb {E}_{t} \left[ \Delta e_{t + 1} \right] + \frac{1}{2} v a r_{t} \left(m_{t + 1}^{*}\right) + \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right) + c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right). \\ \end{array}
+\begin{array}{l} - \lambda_{t} = \mathbb{E}_{t} [ m_{t + 1} ] + r_{t} + \frac{1}{2} var_{t} (m_{t + 1}), \\ - \xi_{t} = \mathbb{E}_{t} [ m_{t + 1} ] + r_{t}^{*} - \mathbb{E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} var_{t} (m_{t + 1}) + \frac{1}{2} var_{t} (\Delta e_{t + 1}) - cov_{t} (m_{t + 1}, \Delta e_{t + 1}), \\ - \xi_{t}^{*} = \mathbb{E}_{t} \left[ m_{t + 1}^{*} \right] + r_{t}^{*} + \frac{1}{2} var_{t} \left(m_{t + 1}^{*}\right), \\ - \lambda_{t}^{*} = \mathbb{E}_{t} \left[ m_{t + 1}^{*} \right] + r_{t} + \mathbb{E}_{t} \left[ \Delta e_{t + 1} \right] + \frac{1}{2} var_{t} \left(m_{t + 1}^{*}\right) + \frac{1}{2} var_{t} \left(\Delta e_{t + 1}\right) + cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right). \\ \end{array}
 $$
 
 Adding up the first and third equation and subtracting the second and the fourth yields
 
 $$
-c o v_{t} \big (m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1} \big) = v a r_{t} \big (\Delta e_{t + 1} \big) + \big (\lambda_{t}^{*} - \lambda_{t} \big) - \big (\xi_{t}^{*} - \xi_{t} \big).
+cov_{t} \big (m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1} \big) = var_{t} \big (\Delta e_{t + 1} \big) + \big (\lambda_{t}^{*} - \lambda_{t} \big) - \big (\xi_{t}^{*} - \xi_{t} \big).
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/a82adcbb592d113b946bca8fb2732a1162f65e84ea20ca84add8e99203ccb6b0.jpg)
@@ -11409,7 +10641,7 @@ $$
 And the covariance is given by
 
 $$
-\begin{array}{l} c o v_{t} (\hat {e}_{t + 1}, \hat {e}_{t + 1}^{*} - \hat {e}_{t + 1}) = \frac{\gamma}{\phi} \left(v a r (\hat {y}_{t + 1} - \hat {y}_{t + 1}^{*}) - (1 - \phi) c o v_{t} (\hat {\tau}_{t + 1} - \hat {\tau}_{t + 1}^{*}, \hat {y}_{t + 1} - \hat {y}_{t + 1}^{*})\right) \\ = \frac{\gamma}{\phi} \left(2 \sigma_{y}^{2} - 2 (1 - \phi) \rho \sigma_{y} \sigma_{\tau}\right), \\ \end{array}
+\begin{array}{l} cov_{t} (\hat {e}_{t + 1}, \hat {e}_{t + 1}^{*} - \hat {e}_{t + 1}) = \frac{\gamma}{\phi} \left(var (\hat {y}_{t + 1} - \hat {y}_{t + 1}^{*}) - (1 - \phi) cov_{t} (\hat {\tau}_{t + 1} - \hat {\tau}_{t + 1}^{*}, \hat {y}_{t + 1} - \hat {y}_{t + 1}^{*})\right) \\ = \frac{\gamma}{\phi} \left(2 \sigma_{y}^{2} - 2 (1 - \phi) \rho \sigma_{y} \sigma_{\tau}\right), \\ \end{array}
 $$
 
 $$
@@ -11423,11 +10655,11 @@ $$
 $$
 
 $$
-\sigma_{y}^{2} = v a r_{t} (\hat {y}_{t + 1}) = v a r_{t} (\hat {y}_{t + 1}^{*}),
+\sigma_{y}^{2} = var_{t} (\hat {y}_{t + 1}) = var_{t} (\hat {y}_{t + 1}^{*}),
 $$
 
 $$
-\sigma_{\tau}^{2} = v a r_{t} \left(\hat {\tau}_{t + 1}\right) = v a r_{t} \left(\hat {\tau}_{t + 1}^{*}\right).
+\sigma_{\tau}^{2} = var_{t} \left(\hat {\tau}_{t + 1}\right) = var_{t} \left(\hat {\tau}_{t + 1}^{*}\right).
 $$
 
 However, note that the Backus-Smith correlation is still 1 for active households' consumption. To see this, recall that the exchange rate is given by

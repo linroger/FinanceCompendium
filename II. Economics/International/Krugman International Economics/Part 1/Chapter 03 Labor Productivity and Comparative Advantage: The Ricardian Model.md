@@ -1,64 +1,60 @@
 ---
-aliases:
-- Labor Productivity and Comparative Advantage: The Ricardian Model
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 03: Labor Productivity and Comparative Advantage: The Ricardian Model'
-linter-yaml-title-alias: 'Chapter 03: Labor Productivity and Comparative Advantage:
-  The Ricardian Model'
+title: Labor Productivity and Comparative Advantage: The Ricardian Model
+parent_directory: Part 1
+formatted: 2025-12-21 12:15:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
 - productivity comparative advantage ricardian
 - determining relative price trade
 secondary_tags:
 - labor productivity comparative advantage
 - comparative advantage ricardian model
-tags_extracted: '2025-12-18T01:46:44.185556'
+cssclasses: academia
 ---
 
-# 3 Labor Productivity and Comparative Advantage: The Ricardian Model 50
+# Labor Productivity and Comparative Advantage: The Ricardian Model
 
-The Concept of Comparative Advantage 51
+## The Concept of Comparative Advantage
 
-A One-Factor Economy 52
+## A One-Factor Economy
 
-Production Possibilities 53
+## Production Possibilities
 
-Relative Prices and Supply. 54
+## Relative Prices and Supply
 
-Trade in a One-Factor World 55
+## Trade in a One-Factor World
 
-Determining the Relative Price after Trade 56
+## Determining the Relative Price after Trade
 
-BOX: Comparative Advantage in Practice: The Case of Usain Bolt. 59
+**BOX: Comparative Advantage in Practice: The Case of Usain Bolt**
 
-The Gains from Trade 60
+## The Gains from Trade
 
-A Note on Relative Wages 61
+## A Note on Relative Wages
 
-BOX: Economic Isolation and Autarky Over Time and Over Space 62
+**BOX: Economic Isolation and Autarky Over Time and Over Space**
 
-Misconceptions about Comparative Advantage 63
+## Misconceptions about Comparative Advantage
 
-Productivity and Competitiveness 63
+## Productivity and Competitiveness
 
-BOX: Do Wages Reflect Productivity? 64
+**BOX: Do Wages Reflect Productivity?**
 
-The Pauper Labor Argument 65
+## The Pauper Labor Argument
 
-Exploitation 65
+## Exploitation
 
-Comparative Advantage with Many Goods 66
+## Comparative Advantage with Many Goods
 
-Setting Up the Model 66
+## Setting Up the Model
 
-Relative Wages and Specialization 66
+## Relative Wages and Specialization
 
-Determining the Relative Wage in the Multigood Model 68
+## Determining the Relative Wage in the Multigood Model
 
-Adding Transport Costs and Nontraded Goods 70
+## Adding Transport Costs and Nontraded Goods
 
-Empirical Evidence on the Ricardian Model 71
+## Empirical Evidence on the Ricardian Model
 
-Summary 73
+## Summary

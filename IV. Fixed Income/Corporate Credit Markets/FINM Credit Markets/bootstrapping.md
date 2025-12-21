@@ -1,11 +1,20 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Treasury Yield Curve Bootstrapping
-linter-yaml-title-alias: Treasury Yield Curve Bootstrapping
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - treasury yield curve
+  - bootstrapping methodology
+  - spot rate calculation
+secondary_tags:
+  - gilt bonds
+  - yield curve construction
+  - interpolation methods
+  - bond pricing
+  - financial mathematics
+cssclasses: academia
 ---
 
 Copyright &copy; 2012 Ondrej Martinsky, All rights reserved
@@ -24,7 +33,7 @@ Copyright &copy; 2012 Ondrej Martinsky, All rights reserved
 | y | Yield to maturity (interpolated)
 | s | Bootstrapped spot rate
 
-# Load data
+## Load data
 
 ```python
 %pylab
@@ -502,17 +511,17 @@ bonds
 </table>
 </div>
 
-# Import Time value of money calculator
+## Import Time value of money calculator
 
 ```python
 import tvm
 ```
 
-# Calculate yield curve
+## Calculate yield curve
 
-Calculated YTMs doesn't necessarily correspond to those quoted in data file (source: Bondscape.net), due to accrued interest and a fact that coupon payment are bound to some specific calendar date, not necessarily, one semiannually.
+Calculated YTMs don't necessarily correspond to those quoted in data file (source: Bondscape.net), due to accrued interest and a fact that coupon payments are bound to some specific calendar date, not necessarily one semiannually.
 
-_Please note that source data from BondScape.net already contains Gross Redemption Yield, which is not used for the sake of this example (but corresponds to the yield calculated using time-value-of-money calculator_
+_Please note that source data from BondScape.net already contains Gross Redemption Yield, which is not used for the sake of this example (but corresponds to the yield calculated using time-value-of-money calculator)
 
 ```python
 tr, yr = [], []
@@ -526,7 +535,7 @@ for i, bond in bonds.iterrows():
     yr.append(ytm)
 ```
 
-# Interpolation
+## Interpolation
 
 Interpolate on-the-run yield curve to get yields on node dates (1Y, 2Y, …), so they can be used in bootstrapping
 
@@ -540,11 +549,13 @@ for i in t:
         y.append(value)
 ```
 
-# Bootstrapping
+## Bootstrapping
 
 To bootstrap the yield curve, we will be building upon a fact that all bonds priced at par have coupon rate equal to the yield-to-maturity, as denoted in the following equation:
 
-$$ \frac{C}{\left ( 1+r \right )^1} + \frac{C}{\left ( 1+r \right )^2}+…+\frac{1+C}{\left ( 1+r \right )^n} = 100 $$
+$$
+\frac{C}{\left ( 1+r \right )^1} + \frac{C}{\left ( 1+r \right )^2}+…+\frac{1+C}{\left ( 1+r \right )^n} = 100
+$$
 
 ```python
 s = []  # output array for spot rates
@@ -556,7 +567,82 @@ for i in range(0, len(t)):  # calculate i-th spot rate
     s.append(value)
 ```
 
-# Display
+```d2
+direction: right
+
+## Bootstrapping Process Flow
+start: Start with Market Data {
+  shape: circle
+  style.fill: "#4CAF50"
+  style.font-color: white
+}
+
+market_bonds: Bond Prices & YTM {
+  style.fill: "#2196F3"
+  style.font-color: white
+}
+
+interpolation: Interpolate Yields {
+  style.fill: "#FF9800"
+  style.font-color: white
+}
+
+bootstrap: Bootstrap Spot Rates {
+  style.fill: "#9C27B0"
+  style.font-color: white
+}
+
+spot_curve: Spot Rate Curve {
+  style.fill: "#607D8B"
+  style.font-color: white
+}
+
+end: Complete Yield Curve {
+  shape: circle
+  style.fill: "#4CAF50"
+  style.font-color: white
+}
+
+start -> market_bonds: "Collect bond data"
+market_bonds -> interpolation: "Calculate YTM for each maturity"
+interpolation -> bootstrap: "Interpolate to regular intervals"
+bootstrap -> spot_curve: "Iterative calculation using par bond formula"
+spot_curve -> end: "Ready for pricing and risk management"
+```
+
+```d2
+## Par Bond Bootstrapping Formula Visualization
+direction: down
+
+par_bond_equation: Par Bond Price = 100 {
+  style.fill: "#E3F2FD"
+}
+
+coupon_payments: Coupon Payments {
+  style.fill: "#F3E5F5"
+}
+
+face_value: Face Value Payment {
+  style.fill: "#FFF3E0"
+}
+
+spot_rates: Spot Rates (s₁, s₂, ..., sₙ) {
+  style.fill: "#E8F5E9"
+}
+
+yield_curve: Bootstrapped Yield Curve {
+  style.fill: "#FFF8E1"
+  shape: hexagon
+}
+
+par_bond_equation -> coupon_payments: "Sum of discounted coupons"
+par_bond_equation -> face_value: "Plus discounted face value"
+coupon_payments -> spot_rates: "Each discounted by spot rate"
+face_value -> spot_rates: "Discounted by final spot rate"
+spot_rates -> yield_curve: "Solve for spot rates iteratively"
+```
+
+## Display
 
 ```python
 xlabel('Time to maturity'), ylabel('Yield to maturity'), grid(True)

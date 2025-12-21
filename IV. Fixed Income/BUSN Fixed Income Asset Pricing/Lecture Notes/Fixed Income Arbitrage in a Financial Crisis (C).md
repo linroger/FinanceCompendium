@@ -1,15 +1,47 @@
 ---
+title: Fixed Income Arbitrage in a Financial Crisis (C): TED Spread and Swap Spread in November 2008
 parent_directory: Lecture Notes
-title: "Fixed Income Arbitrage in a Financial Crisis (C): TED Spread and Swap Spread in November 2008"
-tags:
-aliases:
-  - Fixed Income Arbitrage in a Financial Crisis (C)
-  - TED Spread and Swap Spread
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+   - fixed income arbitrage
+   - swap spread dynamics
+   - ted spread analysis
+   - financial crisis trading
+   - interest rate derivatives
+   - treasury bond valuation
+   - libor rate impacts
+   - collateralized lending
+   - repo financing mechanisms
+   - risk neutral strategies
+secondary_tags:
+   - crisis market volatility
+   - lehman brothers collapse
+   - federal reserve intervention
+   - troubled asset relief program
+   - mortgage market avoidance
+   - treasury relative value trades
+   - yield curve steepening
+   - interbank lending confidence
+   - bank solvency concerns
+   - swap contract structures
+   - floating rate benchmarks
+   - repurchase agreements
+   - credit worthiness measures
+   - arbitrage opportunity identification
+   - dv01 sensitivity analysis
+   - margin call requirements
+   - haircut financing risks
+   - balance sheet management
+   - duration matching strategies
+   - notional principal calculations
+   - basis point calculations
+   - interest rate risk hedging
+   - market normalization expectations
+   - leverage position management
+   - prime broker relationships
 cssclasses: academia
-linter-yaml-title-alias: "Fixed Income Arbitrage in a Financial Crisis (C): TED Spread and Swap Spread in November 2008"
 ---
 
 RYANT TALIAFERRO
@@ -22,13 +54,13 @@ On November 4, 2008, Albert Mills<sup>1</sup> was looking intently at his Bloomb
 
 Mills was convinced that these low spreads were a consequence of ongoing turmoil in fixed income and other financial markets, and he was sure that when prices normalized, the thirty-year swap spread would return to historical values in the 30s, 40s, or 50s. Consequently, he felt that the current low spreads presented a profitable trading opportunity for Kentish Town Capital (KTC), a hedge fund that Mills recently had joined.
 
-After accumulating 9 years of experience as a fixed-income strategist and trader at Morgan Stanley, Mills had received a call from his former colleague James Franey, who had founded a new investment management company. The two had known each other well in their former roles, and Franey had thought that Mills would bring valuable experience in interest rate derivates to the new fund. Franey had opened the fund by raising an initial  \$300 million, and he had invited Mills to join and have direct responsibility for\$ 75 million.
+After accumulating 9 years of experience as a fixed-income strategist and trader at Morgan Stanley, Mills had received a call from his former colleague James Franey, who had founded a new investment management company. The two had known each other well in their former roles, and Franey had thought that Mills would bring valuable experience in interest rate derivatives to the new fund. Franey had opened the fund by raising an initial \$300 million, and he had invited Mills to join and have direct responsibility for \$75 million.
 
 Building on Franey's background and experience, KTC's focus was on fixed income relative value strategies, which exploit pricing differences between otherwise similar bonds or related securities. Looking back on KTC's two year history, Mills realized that joining a new fund on the cusp of a great financial crisis and significant market volatility could have been highly problematic. However, Franey's and Mills' experience at Morgan Stanley had been gained predominantly in Treasury and interest rate derivatives trading, and they had not developed a full understanding of the technicalities of mortgage securities. As a consequence KTC had stayed away from those products and had taken no risk in mortgage markets.
 
 Instead, KTC had invested in traditional fixed income and Treasury relative value trades, which in the ensuing turmoil had performed well. By November 2008 the firm was significantly ahead of many competitors that had encountered serious trouble in mortgage markets. Whether it was luck or smarts or a bit of both, Mills felt that if he and his colleagues could continue to make appropriate decisions, they were well positioned to take advantage of one of the most unusual market environments in history.
 
-# The environment
+## The Environment
 
 Like many market participants, Mills had first became aware of serious troubles in the financial markets in August of 2007, when LIBOR, the rate at which large financial institutions lent to each other on an uncollateralized basis, had begun to drift up after having been flat for a full year. This uptick in interbank lending rates had surprised many, and Mills had believed it reflected deteriorating confidence in banks' solvency, especially since it had occurred at about the time that the Bank of England had begun taking steps to support Northern Rock, a large U.K. commercial bank.
 
@@ -38,9 +70,7 @@ In early September, Fannie Mae and Freddie Mac, two large U.S. government agenci
 
 After Lehman's collapse, volatility had intensified as Lehman's former counterparties had struggled to replace positions that had existed with Lehman. While these counterparties—including all the major investment and commercial banks—had not necessarily suffered any instantaneous losses on these positions when Lehman collapsed, since most had held collateral from Lehman against the aggregate value of their trades, on the night of September 14, 2008 they had suddenly become exposed to the market risks that the Lehman contracts had offset. As these financial institutions had struggled to replace their Lehman positions in vast waves of "risk replacement," trades had hit the market in large chunks and prices had fluctuated wildly.
 
-As these events had unfolded, particularly in the days after the Lehman collapse, Mills had sensed an increasing mood of panic. Volatility had spiked dramatically in all asset classes, and the stress on market participants, who were trying desperately to react to wildly changing prices, had been
-
-overwhelming. Simultaneously, as the money market had disintegrated, the risk aversion of market participants had risen to extraordinary levels.
+As these events had unfolded, particularly in the days after the Lehman collapse, Mills had sensed an increasing mood of panic. Volatility had spiked dramatically in all asset classes, and the stress on market participants, who were trying desperately to react to wildly changing prices, had been overwhelming. Simultaneously, as the money market had disintegrated, the risk aversion of market participants had risen to extraordinary levels.
 
 Early in the crisis, as conditions had begun to deteriorate, Franey and Mills had anticipated that the yield curve would steepen as the Fed cut short-term rates. They had been right, and the "steepener" trades, in which KTC owned short-dated treasuries and sold short longer-dated treasuries in duration-matched amounts, had performed well. However, after the Lehman bankruptcy, many investors, KTC included, had closed positions as quickly as possible and had been content to hold Treasury bills and little else. Prime brokers, KTC's included, had increased collateral requirements to such an extent that it had become nearly impossible to hold positions in anything but Treasuries anyway. For a few weeks, Mills had had no ability to exploit even the most lucrative opportunity, and in fact had been thankful that he had actually been able to reduce his portfolio and simply hold Treasury bills.
 
@@ -50,15 +80,13 @@ Because of the fund's bet on a steepening yield curve, KTC had done well in spit
 
 # Swap spread
 
-The swap spread that Mills was studying was the difference between two interest rates, the rate on the fixed leg of a fixed-floating swap and the yield on a Treasury bond of comparable maturity. The swap was a thirty-year swap, so the relevant Treasury bond was a  $4.5\%$  coupon bond due May 15, 2038. On November 4, this bond had a yield of  $4.193\%$ .<sup>3</sup> On the same day, the fixed leg of a fixed-floating swap had a rate of  $4.2560\%$ ,<sup>4</sup> just  $6.255$  basis points more than the yield on the Treasury. It was this low 6.25 spread that had caught Mills' attention.
+The swap spread that Mills was studying was the difference between two interest rates, the rate on the fixed leg of a fixed-floating swap and the yield on a Treasury bond of comparable maturity. The swap was a thirty-year swap, so the relevant Treasury bond was a $4.5\%$ coupon bond due May 15, 2038. On November 4, this bond had a yield of $4.193\%$.<sup>3</sup> On the same day, the fixed leg of a fixed-floating swap had a rate of $4.2560\%$,<sup>4</sup> just $6.255$ basis points more than the yield on the Treasury. It was this low 6.25 spread that had caught Mills' attention.
 
-# Swap
+## Swap
 
-Fixed-floating swaps were the most common and important interest rate derivative contract. In such a contract, two parties agreed to exchange payments at specified intervals for a specified period of time called the term of the swap. One party, the payer, agreed to pay to the other, the receiver, a specified fixed interest rate on a specified principal amount called the notional. For example, if the notional was  \$1 billion and the swap's fixed rate was \(5\%$  annual, then the payer would pay the receiver \)25 million ( $= 5\% / 2 \times$ 1 billion) every six months for the term of the swap.
+Fixed-floating swaps were the most common and important interest rate derivative contract. In such a contract, two parties agreed to exchange payments at specified intervals for a specified period of time called the term of the swap. One party, the payer, agreed to pay to the other, the receiver, a specified fixed interest rate on a specified principal amount called the notional. For example, if the notional was \$1 billion and the swap's fixed rate was $5\%$ annual, then the payer would pay the receiver $25 million $(= 5\% / 2 \times 1$ billion) every six months for the term of the swap.
 
-In exchange, the receiver would pay to the payer a floating rate payment based on the most recent short-term interest rate on the same notional. For example, if the three-month interest rate had been
-
-1% annual in the most recent quarter, the receiver would pay \(2.5 million (\)1/4 x \$1 billion)\(^6\) to the payer on the quarterly payment date. (The payment frequency on the fixed and floating legs of the swaps often differed depending on market standards. For example, the standard for U.S. dollar swaps was semi-annual on the fixed side and quarterly payments linked to three-month LIBOR on the floating side.) Succeeding payments might be bigger or smaller, depending on whether the short-term interest rate increased or decreased. Payments made by both parties on the same days would be netted, so that money flowed only one direction. The \)1 billion would not change hands, but would be used only as a reference point to determine the size of the quarterly or semi-annual payments.
+In exchange, the receiver would pay to the payer a floating rate payment based on the most recent short-term interest rate on the same notional. For example, if the three-month interest rate had been 1% annual in the most recent quarter, the receiver would pay $2.5 million $(1/4 \times \$1$ billion)$^6$ to the payer on the quarterly payment date. (The payment frequency on the fixed and floating legs of the swaps often differed depending on market standards. For example, the standard for U.S. dollar swaps was semi-annual on the fixed side and quarterly payments linked to three-month LIBOR on the floating side.) Succeeding payments might be bigger or smaller, depending on whether the short-term interest rate increased or decreased. Payments made by both parties on the same days would be netted, so that money flowed only one direction. The \$1 billion would not change hands, but would be used only as a reference point to determine the size of the quarterly or semi-annual payments.
 
 Fixed-floating swaps were invented in the early 1980s and since had grown into a vast and frequently used contract. (Exhibit 2 plots the growth of the interest rate swap market.) An example of a common use was to enable a company that had borrowed money from a bank at a variable rate to substitute a fixed stream of payments for its variable bank loan payments. Banks often preferred to lend at variable rates, since they tended to have financing obligations, such as deposit accounts or obligations to other banks, that themselves earned variable interest rates; meanwhile, companies often preferred the predictability of a fixed payment obligation.
 
@@ -94,13 +122,11 @@ Mills knew that if at the same time he entered into the thirty-year swap he also
 
 To put on the trade, Mills would enter into a thirty-year swap as the fixed-rate payer on a certain notional amount, for example \$1 billion. He could enter into this contract without paying any money to his prime broker,[9] though he would take on the obligation to make the semi-annual net payments and also the obligation to post cash margin if the swap moved against him, that is, if the market thirty-year swap rate fell.
 
-At the same time, he would purchase the May 2038 Treasury bond in an amount that had a DV01 equivalent to the swap, so that his position would be neutral with respect to changes in the market interest rate. Mills saw that the price of the May 2038 Treasury was \(105.17^{10}\) (per \(\$100\) face amount), and it had a Val01 of \(0.1746\).[11] The Val01 measure reflected the change in price that would result if interest rates increased by 1 basis point. The swap in notional \(1 billion had DV01 of \(\$1.7\) million, so Mills would need to buy face amount \(0.97\) billion (\(=\)1.7 million/\(0.1746 x \)100) of the thirty-year Treasury to neutralize his swap's DV01 exposure to the market interest rate. At a price of \(105.17 + \)2.13 accrual,[12] the \$0.97 billion face would cost him about \$1.04 billion (\(=\)0.97 billion x (105.17 + 2.13)/100), which he would borrow.
+At the same time, he would purchase the May 2038 Treasury bond in an amount that had a DV01 equivalent to the swap, so that his position would be neutral with respect to changes in the market interest rate. Mills saw that the price of the May 2038 Treasury was $105.17^{10}$ (per \$100 face amount), and it had a DV01 of $0.1746$.<sup>11</sup> The DV01 measure reflected the change in price that would result if interest rates increased by 1 basis point. The swap in notional \$1 billion had DV01 of \$1.7 million, so Mills would need to buy face amount $0.97$ billion $(= 1.7$ million/$(0.1746 \times 100))$ of the thirty-year Treasury to neutralize his swap's DV01 exposure to the market interest rate. At a price of $105.17 + 2.13$ accrual,<sup>12</sup> the \$0.97 billion face would cost him about \$1.04 billion $(= 0.97$ billion $\times (105.17 + 2.13)/100)$, which he would borrow.
 
-Mills would borrow to purchase the Treasury bonds, and he would use the bonds as collateral to secure overnight repo financing at a collateralized rate. However, he would not be allowed to finance his entire purchase. Instead, his prime broker would only lend  $98\%$  of the value of his purchase, and Mills would have to fund the remaining  $2\%$  (the "haircut") with KTC's own capital. Therefore, for each  $\$1$  billion notional of the thirty-year swap, KTC would have to use about  $\$21$  million ( $=$ 1.04 billion ×  $2\%$ ) of its own capital to support the leveraged purchase of thirty-year Treasury bonds with offsetting DV01.
+Mills would borrow to purchase the Treasury bonds, and he would use the bonds as collateral to secure overnight repo financing at a collateralized rate. However, he would not be allowed to finance his entire purchase. Instead, his prime broker would only lend $98\%$ of the value of his purchase, and Mills would have to fund the remaining $2\%$ (the "haircut") with KTC's own capital. Therefore, for each \$1 billion notional of the thirty-year swap, KTC would have to use about \$21 million $(= 1.04$ billion $\times 2\%)$ of its own capital to support the leveraged purchase of thirty-year Treasury bonds with offsetting DV01.
 
-Mills knew that the repo financing arrangement introduced additional risks. If the value of the Treasury bonds fell, KTC's prime broker would require KTC to post sufficient capital to make up for
-
-the change in value or to sell some of the bonds (at a loss) to reduce KTC's leverage in the position. Moreover, if at any time KTC's prime broker felt that the credit worthiness of either KTC or the U.S. government had changed for the worse, it could increase the haircut on the repo. If the haircut increased, KTC would have to post more cash margin or reduce leverage by selling some of the bonds. Of course, KTC's position in the swap was offsetting, so KTC would be protected from systemic changes in interest rates; nevertheless it would remain exposed to adverse changes in the swap spread. As a final component of the financing arrangement, KTC's broker dealer would charge KTC interest on the repo loan for as long as it was outstanding. At the time, this rate was  $0.15\%$  annual[13].
+Mills knew that the repo financing arrangement introduced additional risks. If the value of the Treasury bonds fell, KTC's prime broker would require KTC to post sufficient capital to make up for the change in value or to sell some of the bonds (at a loss) to reduce KTC's leverage in the position. Moreover, if at any time KTC's prime broker felt that the credit worthiness of either KTC or the U.S. government had changed for the worse, it could increase the haircut on the repo. If the haircut increased, KTC would have to post more cash margin or reduce leverage by selling some of the bonds. Of course, KTC's position in the swap was offsetting, so KTC would be protected from systemic changes in interest rates; nevertheless it would remain exposed to adverse changes in the swap spread. As a final component of the financing arrangement, KTC's broker dealer would charge KTC interest on the repo loan for as long as it was outstanding. At the time, this rate was $0.15\%$ annual.<sup>13</sup>
 
 # Decision
 
@@ -117,8 +143,8 @@ Exhibit 1 Thirty-year U.S. dollar fixed-for-floating swap spread, for the period
 Source: Bloomberg, accessed December 2010.  
 a Bloomberg: USSP30<Curncy>GY<GO>.
 
-Exhibit 2 Outstanding notional volume of interest rate swaps, 1987 - 2007.  
-Outstanding notional (\( trillions)  
+Exhibit 2 Outstanding notional volume of interest rate swaps, 1987 - 2007.
+Outstanding notional (trillions)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/a98344f4-7d73-4200-a57e-3e4b16d83bbc/39df7de2852cc3692beab2196b1b03e1d3abf2f69d90045a3eb58e5cb97539f8.jpg)  
 Source: Created by casewriter using data from Bank for International Settlements.
 

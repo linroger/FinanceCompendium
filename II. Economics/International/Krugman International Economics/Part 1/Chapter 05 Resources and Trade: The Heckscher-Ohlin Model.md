@@ -1,22 +1,21 @@
 ---
-aliases:
-- Resources and Trade: The Heckscher-Ohlin Model
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 05: Resources and Trade: The Heckscher-Ohlin Model'
-linter-yaml-title-alias: 'Chapter 05: Resources and Trade: The Heckscher-Ohlin Model'
+title: "Chapter 05: Resources and Trade: The Heckscher-Ohlin Model"
+parent_directory: "Part 1"
+formatted: "2025-12-21 06:35:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- evidence heckscher ohlin model
-- trade income inequality
+- heckscher ohlin model
+- factor endowments trade
+- income distribution trade
 secondary_tags:
-- resources trade
-- international trade factor economies
-tags_extracted: '2025-12-18T01:46:47.987134'
+- factor price equalization
+- trade factor content
+- north south trade
+cssclasses: academia
 ---
 
-# 5 Resources and Trade: The Heckscher-Ohlin Model 113
+# 5 Resources and Trade: The Heckscher-Ohlin Model
 
 Model of a Two-Factor Economy 114
 

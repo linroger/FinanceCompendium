@@ -1,11 +1,9 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Proof of Selected Results
-linter-yaml-title-alias: Proof of Selected Results
+parent_directory: Lecture Notes on International Finance chapters
+formatted: 2025-12-21 06:35:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
 - countries journal finance
 - proof assuming complete markets
@@ -25,29 +23,29 @@ secondary_tags:
 - euler equations risk free
 - bias equities consumption journal
 - theorem econometrica 87
-tags_extracted: '2025-12-18T01:45:42.402990'
+cssclasses: academia
 ---
 
 # Proof of Selected Results
 
-# A.1 Proposition 1.3 in Section 1.C
+## A.1 Proposition 1.3 in Section 1.C
 
 Proof. Recall the first-order conditions
 
 $$
-\begin{array}{l} \text{w .r .t .} c_{H, t}: \quad \delta^{t} \pi u^{\prime} (c_{t}) \alpha \left(\frac{c_{F , t}}{c_{H , t}}\right)^{1 - \alpha} = \zeta_{H, t} \\ \begin{array}{l l} \text{w .r .t .} c_{H, t}^{*}: & \delta^{t} (1 - \pi) u^{\prime} (c_{t}^{*}) (1 - \alpha) \left(\frac{c_{F , t}^{*}}{c_{H , t}^{*}}\right)^{\alpha} = \zeta_{H, t} \end{array} \\ \text{w .r .t .} c_{F, t}: \quad \delta^{t} \pi u^{\prime} (c_{t}) (1 - \alpha) \left(\frac{c_{H , t}}{c_{F , t}}\right)^{\alpha} = \zeta_{F, t} \\ \text{w .r .t .} c_{F, t}^{*}: \quad \delta^{t} (1 - \pi) u^{\prime} \left(c_{t}^{*}\right) \alpha \left(\frac{c_{H , t}^{*}}{c_{F , t}^{*}}\right)^{1 - \alpha} = \zeta_{F, t} \\ \end{array}
+\begin{array}{l} \text{w.r.t. } c_{H, t}: \quad \delta^{t} \pi u^{\prime} (c_{t}) \alpha \left(\frac{c_{F,t}}{c_{H,t}}\right)^{1 - \alpha} = \zeta_{H, t} \\ \begin{array}{l l} \text{w.r.t. } c_{H, t}^{*}: & \delta^{t} (1 - \pi) u^{\prime} (c_{t}^{*}) (1 - \alpha) \left(\frac{c_{F,t}^{*}}{c_{H,t}^{*}}\right)^{\alpha} = \zeta_{H, t} \end{array} \\ \text{w.r.t. } c_{F, t}: \quad \delta^{t} \pi u^{\prime} (c_{t}) (1 - \alpha) \left(\frac{c_{H,t}}{c_{F,t}}\right)^{\alpha} = \zeta_{F, t} \\ \text{w.r.t. } c_{F, t}^{*}: \quad \delta^{t} (1 - \pi) u^{\prime} \left(c_{t}^{*}\right) \alpha \left(\frac{c_{H,t}^{*}}{c_{F,t}^{*}}\right)^{1 - \alpha} = \zeta_{F, t} \\ \end{array}
 $$
 
 multiply the first and the last first-order conditions and divide it by the product of the second and third first-order conditions to get
 
 $$
-\begin{array}{l} \frac{c_{F , t}}{c_{F , t}^{*}} \frac{c_{H , t}^{*}}{c_{H , t}} \frac{\alpha^{2}}{(1 - \alpha)^{2}} = 1 \\ \Rightarrow \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{F , t}^{*}} = \frac{1 - \alpha}{\alpha} \frac{c_{H , t}}{c_{H , t}^{*}} \\ \end{array}
+\begin{array}{l} \frac{c_{F,t}}{c_{F,t}^{*}} \frac{c_{H,t}^{*}}{c_{H,t}} \frac{\alpha^{2}}{(1 - \alpha)^{2}} = 1 \\ \Rightarrow \frac{\alpha}{1 - \alpha} \frac{c_{F,t}}{c_{F,t}^{*}} = \frac{1 - \alpha}{\alpha} \frac{c_{H,t}}{c_{H,t}^{*}} \\ \end{array}
 $$
 
 Let
 
 $$
-\begin{array}{l} k_{t} \stackrel {\text{de f}} {=} \frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{F , t}^{*}} = \frac{1 - \alpha}{\alpha} \frac{c_{H , t}}{c_{H , t}^{*}} \\ \Rightarrow c_{H, t} = \frac{\alpha}{1 - \alpha} k_{t} c_{H, t}^{*}, \quad c_{F, t} = \frac{1 - \alpha}{\alpha} k_{t} c_{F, t}^{*} \\ \end{array}
+\begin{array}{l} k_{t} \stackrel {\text{de f}} {=} \frac{\alpha}{1 - \alpha} \frac{c_{F,t}}{c_{F,t}^{*}} = \frac{1 - \alpha}{\alpha} \frac{c_{H,t}}{c_{H,t}^{*}} \\ \Rightarrow c_{H, t} = \frac{\alpha}{1 - \alpha} k_{t} c_{H, t}^{*}, \quad c_{F, t} = \frac{1 - \alpha}{\alpha} k_{t} c_{F, t}^{*} \\ \end{array}
 $$
 
 Plugging the equations above into the market clearing conditions yields
@@ -59,16 +57,16 @@ $$
 Divide the first first-order condition by the second to get
 
 $$
-\frac{\pi}{1 - \pi} \frac{u^{\prime} (c_{t})}{u^{\prime} (c_{t}^{*})} \frac{\alpha}{1 - \alpha} \left(\frac{c_{F , t}}{c_{H , t}}\right)^{1 - \alpha} \left(\frac{c_{H , t}^{*}}{c_{F , t}^{*}}\right)^{\alpha} = 1.
+\frac{\pi}{1 - \pi} \frac{u^{\prime} (c_{t})}{u^{\prime} (c_{t}^{*})} \frac{\alpha}{1 - \alpha} \left(\frac{c_{F,t}}{c_{H,t}}\right)^{1 - \alpha} \left(\frac{c_{H,t}^{*}}{c_{F,t}^{*}}\right)^{\alpha} = 1.
 $$
 
-where  $c_{H,t}, c_{F,t}, c_{H,t}^{*}$  and  $c_{F,t}^{*}$  are functions of  $k_{t}$ . Hence, we can solve
+where $c_{H,t}$, $c_{F,t}$, $c_{H,t}^{*}$ and $c_{F,t}^{*}$ are functions of $k_{t}$. Hence, we can solve
 
 $k_{t}$  via the implicit equation above.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/476a78eff9254374dc2295a2740987f5e06c2c33fb23bded0c010aa770899980.jpg)
 
-# A.2 Proposition 1.4 in Section 1.D
+## A.2 Proposition 1.4 in Section 1.D
 
 Proof. Under symmetric steady state,  $\bar{y}^{*} = \bar{y}$ ,  $\bar{e} = 0$ ,  $\bar{c}_{H} = \bar{c}_{F}^{*}$ ,  $\bar{c}_{F} = \bar{c}_{H}^{*}$  and
 
@@ -76,9 +74,7 @@ $$
 \begin{array}{l} \bar {c}_{H} + \bar {c}_{H}^{*} = \bar {y}, \quad \bar {c}_{F} + \bar {c}_{F}^{*} = \bar {y}^{*}, \\ \bar {p} \bar {c}_{H} = \alpha \bar {c}, \quad \bar {p}^{*} \bar {c}_{F}^{*} = \alpha \bar {c}^{*}, \\ \end{array}
 $$
 
-which implies  $\bar{c}_H = \bar{c}_F^* = \alpha \bar{y},\bar{c}_H^* = \bar{c}_F = (1 - \alpha)\bar{y},\bar{c} = \bar{c}^* =$
-
-$\alpha^{\alpha}(1 - \alpha)^{1 - \alpha}\bar{y}$  and  $\bar{p} = \bar{p}^{*} = \alpha^{\alpha}(1 - \alpha)^{1 - \alpha}$ . The goods market clearing
+which implies $\bar{c}_H = \bar{c}_F^* = \alpha \bar{y},\bar{c}_H^* = \bar{c}_F = (1 - \alpha)\bar{y},\bar{c} = \bar{c}^* = \alpha^{\alpha}(1 - \alpha)^{1 - \alpha}\bar{y}$ and $\bar{p} = \bar{p}^{*} = \alpha^{\alpha}(1 - \alpha)^{1 - \alpha}$. The goods market clearing
 
 conditions plus the equilibrium conditions (1.4) and (1.5) imply
 
@@ -92,7 +88,7 @@ $$
 \begin{array}{l} \bar {p} \bar {y} (\log p_{t} - \log \bar {p} + \log y_{t} - \log \bar {y}) = \alpha \bar {c} (\log c_{t} - \log \bar {c}) + (1 - \alpha) \bar {c}^{*} \exp (- \bar {e}) (\log c_{t}^{*} - \log \bar {c}^{*} - e_{t} + \bar {e}) \\ \bar {p}^{*} \bar {y}^{*} (\log p_{t}^{*} - \log \bar {p}^{*} + \log y_{t}^{*} - \log \bar {y}) = \alpha \bar {c}^{*} (\log c_{t}^{*} - \log \bar {c}^{*}) + (1 - \alpha) \bar {c} \exp (\bar {e}) (\log c_{t} - \log \bar {c} + e_{t} - \bar {e}) \\ \end{array}
 $$
 
-subtracting the second equation from the first and plugging in steady
+Subtracting the second equation from the first and plugging in steady
 
 states yields
 
@@ -110,7 +106,7 @@ $$
 
 where we plug in  $\bar{p}\bar{y} = \bar{c}$
 
-# A.3 Proposition 3.1 in Section 3.A
+## A.3 Proposition 3.1 in Section 3.A
 
 Proof. Plug in
 
@@ -134,7 +130,7 @@ which shows that  $\beta_t^i$  is the carry trade loading on  $hml_{t+1}$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/39c09f7c63fc89d1bb8ce287a4242e3d88555015caca4afa1a3530b73c3c1ff5.jpg)
 
-# A.4 Proposition 3.2 in Section 3.A
+## A.4 Proposition 3.2 in Section 3.A
 
 Proof. Recall that
 
@@ -170,7 +166,7 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/c2fac57952de4a345af836758ee9dd61b7045ca08656353bb60497221e4454ed.jpg)
 
-# A.5 Proposition 3.3 in Section 3.A
+## A.5 Proposition 3.3 in Section 3.A
 
 Proof. Recall that
 
@@ -512,7 +508,7 @@ $$
 
 plugging  $mc_{t}^{T}$  into the bond return immediately yields Eq. (3.19).
 
-# A.12 Proposition 3.11 in Section 3.D.
+## A.12 Proposition 3.11 in Section 3.D.
 
 Proof. The one-period risk free rate is given by
 
@@ -552,24 +548,24 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/8341716b1a389cb7253bf2baf495caa73407ca3239d3a1f254c30ca922ea1023.jpg)
 
-# A.13 Proposition 4.3 in Section 4.B
+## A.13 Proposition 4.3 in Section 4.B
 
 Proof. Recall the within-in period solutions
 
 $$
-p_{t} = \alpha \frac{c_{t}}{c_{H , t}}, \qquad p_{t}^{*} \exp (- e_{t}) = (1 - \alpha) \frac{c_{t}}{c_{F , t}}
+p_{t} = \alpha \frac{c_{t}}{c_{H,t}}, \qquad p_{t}^{*} \exp (- e_{t}) = (1 - \alpha) \frac{c_{t}}{c_{F,t}}
 $$
 
 and
 
 $$
-p_{t}^{*} = \alpha \frac{c_{t}^{*}}{c_{F , t}^{*}}, \qquad p_{t} \exp (e_{t}) = (1 - \alpha) \frac{c_{t}^{*}}{c_{H , t}^{*}},
+p_{t}^{*} = \alpha \frac{c_{t}^{*}}{c_{F,t}^{*}}, \qquad p_{t} \exp (e_{t}) = (1 - \alpha) \frac{c_{t}^{*}}{c_{H,t}^{*}},
 $$
 
 which combined characterize the exchange rate as
 
 $$
-\exp (e_{t}) = \frac{(1 - \alpha) c_{t}^{*} / c_{H , t}^{*}}{\alpha c_{t} / c_{H , t}} = \frac{\alpha c_{t}^{*} / c_{F , t}}{(1 - \alpha) c_{t} / c_{F , t}}.
+\exp (e_{t}) = \frac{(1 - \alpha) c_{t}^{*} / c_{H,t}^{*}}{\alpha c_{t} / c_{H,t}} = \frac{\alpha c_{t}^{*} / c_{F,t}}{(1 - \alpha) c_{t} / c_{F,t}}.
 $$
 
 Write the Lagrangian of social planner's problem as follows
@@ -581,19 +577,19 @@ $$
 The first order conditions w.r.t. 6 endogenous variables are
 
 $$
-\text{w .r .t .} c_{H, t}: \quad \pi \delta^{t} u^{\prime} (c_{t}) \alpha \frac{c_{t}}{c_{H , t}} = \zeta_{H, t}
+\text{w.r.t. } c_{H, t}: \quad \pi \delta^{t} u^{\prime} (c_{t}) \alpha \frac{c_{t}}{c_{H,t}} = \zeta_{H, t}
 $$
 
 $$
-\mathrm{w .r .t .} c_{H, t}^{*}: (1 - \pi) \delta^{t} u^{\prime} \left(c_{t}^{*}\right) (1 - \alpha) \frac{c_{t}^{*}}{c_{H , t}^{*}} = \zeta_{H, t}
+\text{w.r.t.} c_{H, t}^{*}: (1 - \pi) \delta^{t} u^{\prime} \left(c_{t}^{*}\right) (1 - \alpha) \frac{c_{t}^{*}}{c_{H,t}^{*}} = \zeta_{H, t}
 $$
 
 $$
-\mathrm{w .r .t .} c_{F, t}: \quad \pi \delta^{t} u^{\prime} (c_{t}) (1 - \alpha) \frac{c_{t}}{c_{F , t}} = \zeta_{F, t}
+\text{w.r.t.} c_{F, t}: \quad \pi \delta^{t} u^{\prime} (c_{t}) (1 - \alpha) \frac{c_{t}}{c_{F,t}} = \zeta_{F, t}
 $$
 
 $$
-\mathrm{w .r .t .} c_{F, t}^{*}: (1 - \pi) \delta^{t} u^{\prime} (c_{t}^{*}) \alpha \frac{c_{t}^{*}}{c_{F , t}^{*}} = \zeta_{F, t}
+\text{w.r.t.} c_{F, t}^{*}: (1 - \pi) \delta^{t} u^{\prime} (c_{t}^{*}) \alpha \frac{c_{t}^{*}}{c_{F,t}^{*}} = \zeta_{F, t}
 $$
 
 $$
@@ -628,7 +624,7 @@ $$
 
 Hence,  $\lambda_{t} = \lambda_{t}^{*}$ . Finally, the last two first-order conditions imply  $\pi v^{\prime}(b_{H,t};\theta_t) = (1 - \pi)v^{\prime}(b_{H,t}^{*};\theta_{t}^{*})$ . This concludes the proof.
 
-# A.14 Lemma 5.1 in Section 5.A
+## A.14 Lemma 5.1 in Section 5.A
 
 Proof. (1) The first-order condition for the home household's portfolio choice problem (5.2) is:
 
@@ -688,7 +684,7 @@ $$
 
 □
 
-# A.15 Proposition 5.1 in Section 5.A
+## A.15 Proposition 5.1 in Section 5.A
 
 Proof. (1) By no arbitrage, home household's wealth in the home numérique at time  $t$  is:
 
@@ -808,7 +804,7 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/7731248339100ccd98a635f9c6ea1888ed07dc1401e0dd402fd23e1ef9252e61.jpg)
 
-# A.16 Lemma 5.2 in Section 5.A
+## A.16 Lemma 5.2 in Section 5.A
 
 Proof. The representative agent's utility evaluated at the aggregate output is given by
 
@@ -831,11 +827,11 @@ $$
 From the first-order conditions of the home and foreign households, we have
 
 $$
-\nabla u \left(c_{H, t}, c_{F, t}\right) = \left(\frac{\gamma_{t} \alpha}{c_{H , t}}, \frac{\gamma_{t} (1 - \alpha)}{c_{F , t}}\right),
+\nabla u \left(c_{H, t}, c_{F, t}\right) = \left(\frac{\gamma_{t} \alpha}{c_{H,t}}, \frac{\gamma_{t} (1 - \alpha)}{c_{F,t}}\right),
 $$
 
 $$
-\nabla u^{*} (c_{H, t}^{*}, c_{F, t}^{*}) = \left(\frac{\gamma^{*} (1 - \alpha)}{c_{H , t}^{*}}, \frac{\gamma^{*} \alpha}{c_{F , t}^{*}}\right).
+\nabla u^{*} (c_{H, t}^{*}, c_{F, t}^{*}) = \left(\frac{\gamma^{*} (1 - \alpha)}{c_{H,t}^{*}}, \frac{\gamma^{*} \alpha}{c_{F,t}^{*}}\right).
 $$
 
 Besides, by our previous results:
@@ -859,7 +855,7 @@ $$
 We substitute the solutions of  $c_{H,t}, c_{F,t}, c_{H,t}^{*}, c_{F,t}^{*}$  into the above gradients of  $\nabla u\left(c_{H,t}, c_{H,t}^{*}\right)$  to get the state price density that bound all the budget constraints of the home consumers.
 
 $$
-\begin{array}{l} \exp (m_{\nu_{H}, t}) = \frac{\exp (m_{\nu_{H} , t})}{\exp (m_{\nu_{H} , 0})} = \exp (- \delta t) \frac{\gamma_{t} c_{0}}{\gamma_{0} c_{t}} = \exp (- \delta t) \frac{p_{0} c_{H , 0} \gamma_{t}}{p_{t} c_{H , t} \gamma_{0}} \\ = \exp (- \delta t) \frac{p_{0} y_{0}}{p_{t} y_{t}} \frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi_{0} \gamma^{*} (1 - \alpha)} \tag {A.16} \\ \end{array}
+\begin{array}{l} \exp (m_{\nu_{H}, t}) = \frac{\exp (m_{\nu_{H} , t})}{\exp (m_{\nu_{H} , 0})} = \exp (- \delta t) \frac{\gamma_{t} c_{0}}{\gamma_{0} c_{t}} = \exp (- \delta t) \frac{p_{0} c_{H , 0} \gamma_{t}}{p_{t} c_{H,t} \gamma_{0}} \\ = \exp (- \delta t) \frac{p_{0} y_{0}}{p_{t} y_{t}} \frac{\gamma_{t} \alpha + \pi_{t} \gamma^{*} (1 - \alpha)}{\gamma_{0} \alpha + \pi_{0} \gamma^{*} (1 - \alpha)} \tag {A.16} \\ \end{array}
 $$
 
 Therefore, by the expression of the state-price-density in A.16, the price of the home stock in the home numétaire is
@@ -873,7 +869,7 @@ where we used the fact that  $\gamma_{t}$  is a martingale.
 Similarly, we can then derive the home country state price density that bounds all the budget constraints of the foreign consumers as:
 
 $$
-\begin{array}{l} \exp (m_{\tilde {v}_{F}, t}) = \frac{\exp (m_{\tilde {v}_{F} , t})}{\exp (m_{\tilde {v}_{F} , 0})} = \exp (- \delta t) \frac{\tilde {c}_{0}^{*}}{\tilde {c}_{t}^{*}} = \exp (- \delta t) \frac{p_{0}^{*} \exp (- e_{0}) c_{F , 0}^{*}}{p_{t}^{*} \exp (- e_{t}) c_{F , t}^{*}} \\ = \exp (- \delta t) \frac{p_{0}^{*} \exp (- e_{0}) y_{0}^{*}}{p_{t}^{*} \exp (- e_{t}) y_{t}^{*}} \frac{\pi_{0}}{\pi_{t}} \frac{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi_{0} \gamma^{*} \alpha}. \tag {A.18} \\ \end{array}
+\begin{array}{l} \exp (m_{\tilde {v}_{F}, t}) = \frac{\exp (m_{\tilde {v}_{F} , t})}{\exp (m_{\tilde {v}_{F} , 0})} = \exp (- \delta t) \frac{\tilde {c}_{0}^{*}}{\tilde {c}_{t}^{*}} = \exp (- \delta t) \frac{p_{0}^{*} \exp (- e_{0}) c_{F , 0}^{*}}{p_{t}^{*} \exp (- e_{t}) c_{F,t}^{*}} \\ = \exp (- \delta t) \frac{p_{0}^{*} \exp (- e_{0}) y_{0}^{*}}{p_{t}^{*} \exp (- e_{t}) y_{t}^{*}} \frac{\pi_{0}}{\pi_{t}} \frac{\gamma_{t} (1 - \alpha) + \pi_{t} \gamma^{*} \alpha}{\gamma_{0} (1 - \alpha) + \pi_{0} \gamma^{*} \alpha}. \tag {A.18} \\ \end{array}
 $$
 
 Analogously, plugging in the expression of the state-price-density in (A.18), we find the price of the foreign stock in the home numérique to be
@@ -1893,7 +1889,7 @@ Setting  $A = A^{*}$  yields the expressions in the proposition.
 Proof. Divide the first condition by the third, and the second by the fourth to get:
 
 $$
-\frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}} = \frac{1 - \alpha}{\alpha} \frac{c_{F , t}^{*}}{c_{H , t}^{*}} = \frac{\mu_{H , t}}{\mu_{F . t}} \stackrel {\mathrm{de f}} {=} \exp (t o t_{t})
+\frac{\alpha}{1 - \alpha} \frac{c_{F,t}}{c_{H,t}} = \frac{1 - \alpha}{\alpha} \frac{c_{F,t}^{*}}{c_{H,t}^{*}} = \frac{\mu_{H , t}}{\mu_{F . t}} \stackrel {\mathrm{de f}} {=} \exp (t o t_{t})
 $$
 
 plugging in  $\exp(tot_t)$  into the aggregation rule of home and foreign goods yields:
@@ -1911,7 +1907,7 @@ $$
 Note that we have shown in Section 1.A that:
 
 $$
-\frac{\alpha}{1 - \alpha} \frac{c_{F , t}}{c_{H , t}} = \frac{p_{t}}{p_{t}^{*} \exp (- e_{t})}
+\frac{\alpha}{1 - \alpha} \frac{c_{F,t}}{c_{H,t}} = \frac{p_{t}}{p_{t}^{*} \exp (- e_{t})}
 $$
 
 which implies that  $\exp (tot_{t})$  is actually the relative price between two goods. Dividing the first condition by the second one to pin down the expression of  $\exp (tot_{t})$ :

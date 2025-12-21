@@ -1,53 +1,53 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Risk Premia and Factor Structure
-linter-yaml-title-alias: Risk Premia and Factor Structure
+title: "03 Risk Premia Factor Structure"
+parent_directory: "Lecture Notes on International Finance chapters"
+formatted: "2025-12-21 07:35:00 AM"
+formatter_model: "claude-3-5-sonnet-20241022"
+cli-tool: "claude-code"
 primary_tags:
-- premium holds countries time
-- risk premia rate dynamics
-- risk premia foreign perspectives
-- fama regression coefficient defined
+  - currency risk premia
+  - factor structure models
+  - no arbitrage pricing
+  - carry trade strategies
+  - forward premium puzzle
 secondary_tags:
-- factor structure currency returns
-- modeling currency risk premia
-- currency risk premium corresponding
-- currency risk premium volatile
-- differential currency risk
-- currency loadings risk factors
-- exchange rate variance countries
-- risk premia country higher
-- currency returns adopt arbitrage
-tags_extracted: '2025-12-18T01:44:20.172513'
+  - exchange rate dynamics
+  - stochastic discount factors
+  - interest rate differentials
+  - global risk factors
+  - currency base factors
+  - time series variations
+  - cross sectional variations
+  - long run risks
+  - trade network models
+  - consumption based models
+cssclasses: academia
 ---
 
 # Risk Premia and Factor Structure
 
-# Summary
+## Summary
 
 - We first investigate the role of currency risk premium  $rp_{t}$ , which drives both the currency expected return:
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1} ] = r p_{t} \stackrel {\mathrm{de f}} {=} - c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}),
+\mathbb{E}_{t}[rx_{t+1}] = rp_{t} \stackrel{\mathrm{def}}{=} - \cov_{t}(m_{t+1}^{*}, \Delta e_{t+1}) - \frac{1}{2} \var_{t}(\Delta e_{t+1}),
 $$
 
 and the exchange rate level:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r p_{t + j} \right] + \bar {e}.
+e_{t} = \sum_{j=0}^{\infty} \mathbb{E}_{t}[r_{t+j} - r_{t+j}^{*}] - \sum_{j=0}^{\infty} \mathbb{E}_{t}[rp_{t+j}] + \bar{e}.
 $$
 
 - The currency risk premium is related to the currency's loadings on the risk factors, which give rise to a factor structure in currency returns:
 
 $$
-\Delta e_{t + 1}^{i} = \alpha^{i} + \beta^{i} f_{t + 1} + \varepsilon_{t + 1}^{i},
+\Delta e_{t+1}^{i} = \alpha^{i} + \beta^{i} f_{t+1} + \varepsilon_{t+1}^{i},
 $$
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1}^{i} \right] = \beta_{t}^{i} \mathbb {E}_{t} \left[ f_{t + 1} \right].
+\mathbb{E}_{t}[rx_{t+1}^{i}] = \beta_{t}^{i} \mathbb{E}_{t}[f_{t+1}].
 $$
 
 We first adopt a no-arbitrage approach to organize the currency risk premium and the corresponding factor structure.
@@ -59,9 +59,7 @@ $$
 e_{t} - \bar {e} = \lim_{h \rightarrow \infty} h \left(r_{t} (h) - r_{t}^{*} (h)\right).
 $$
 
-To make sense of the exchange rate puzzles and other salient patterns in international financial markets, we first enrich the risk premium in the baseline model. To be clear, as long as the households' utility function  $u(c)$  is non-linear, the currency risk premium is al-
-
-ready present in the baseline model in Chapter 1. As the exchange rate accounting in Section 1.B shows, the currency risk premium  $rp_{t}$  affects both the currency expected return and the exchange rate level.
+To make sense of the exchange rate puzzles and other salient patterns in international financial markets, we first enrich the risk premium in the baseline model. To be clear, as long as the households' utility function $u(c)$ is non-linear, the currency risk premium is already present in the baseline model in Chapter 1. As the exchange rate accounting in Section 1.B shows, the currency risk premium  $rp_{t}$  affects both the currency expected return and the exchange rate level.
 
 In this chapter, we consider specific models that account for the time-series and the cross-sectional variations in the currency risk premium, and understand the properties of the implied exchange rate dynamics. As an initial step, all models presented in this chapter assume complete markets.
 
@@ -87,7 +85,7 @@ $$
 
 Empirically, there are large variations in the interest rate differential, but the exchange rate appears to be a near random-walk process, which means the exchange rate movement is largely unexpected. As a result, the risk premium term  $r p_{t}$  must have significant variations. This means, to the extent that monetary policies drive a significant fraction of the variations in the interest rates, it must operate not through the first-order moments (i.e., the expected exchange rate movement), but through the second-order moments (i.e., the risk premium).
 
-# 3.A The No-Arbitrage Approach
+## 3.A The No-Arbitrage Approach
 
 Our first approach to modeling the currency risk premia starts directly from the SDFs. Because this approach only relies on investors' ability to correctly price the assets based on the covariances between asset returns and their SDFs, it is known as the no-arbitrage approach. This approach asks the following question: what properties
 
@@ -125,7 +123,7 @@ $$
 
 As a result, when either the global shock or the country-specific shock is negative, the SDF becomes not only higher (indicating a higher marginal utility) and drives the exchange rate movement, it also becomes more volatile and affects the currency risk premium.
 
-# 3.A.1 Currency Return Dynamics
+## 3.A.1 Currency Return Dynamics
 
 Let us characterize the log currency excess return in this set-up, which is defined as
 
@@ -221,7 +219,7 @@ Second, as for the country-specific shocks, even though they are idiosyncratic f
 
 Third, if two countries have high and identical idiosyncratic volatilities, i.e.,  $z_{t}^{i} = z_{t}^{\S} \gg 0$ , then, their bilateral exchange rate movement is volatile, while the currency risk premium can remain low. Conversely, we can generate a high currency risk premium without a volatile exchange rate movement. To do so, notice that the global risk loadings enter the exchange rate variance expression (3.3) as  $\left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right)^{2}$ , whereas they enter the currency risk premium expression (3.4) as  $\delta^{\S} - \delta^{i} = \left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right)\left(\sqrt{\delta^{i}} + \sqrt{\delta^{\S}}\right)$ . Then, high loadings on the global shock, i.e.,  $\delta^{\S} \approx \delta^{i} \gg 0$ , can generate a high currency risk premium without a volatile exchange rate movement. For example, if  $\delta^{\S} = 10$  and  $\delta^{i} = 9$ ,  $\left(\sqrt{\delta^{i}} - \sqrt{\delta^{\S}}\right)^{2} = 0.03$  implies a low exchange rate volatility, whereas  $\delta^{\S} - \delta^{i} = 1$  implies a high currency risk premium. As such, this no-arbitrage framework provides a flexible way to match different patterns in exchange rate volatilities and currency risk premia.
 
-# 3.A.2 Interest Rate Dynamics
+## 3.A.2 Interest Rate Dynamics
 
 This no-arbitrage framework also provides a simple characterization of the interest rate dynamics. From the Euler equation (1.6), repro
 
@@ -257,7 +255,7 @@ which implies that the interest rate differential also comoves with the global a
 
 This positive relationship between the interest rate differential and the currency risk premium holds both across countries and over time. We next explore these two dimensions in detail.
 
-# 3.A.3 Carry Trade and Cross-Sectional Variations in Currency Risk Premium
+## 3.A.3 Carry Trade and Cross-Sectional Variations in Currency Risk Premium
 
 To begin with, let us write down the log currency risk premium from Eq. (3.4) and the interest rate differential from Eq. (3.5):
 
@@ -331,7 +329,7 @@ $$
 
 assuming that the factors are tradable. In the context of the currency market, the carry trade captures a risk factor:  $f_{t + 1} = hml_{t + 1}$ . The carry trade beta  $\beta_t^i$  captures the risk exposure of currency  $i$ , and it relates to the currency's risk premium via Eq. (3.4), which is increasing in  $\beta_t^i$ .
 
-# 3.A.4 Forward Premium Puzzle and Time-Series Variations in Currency Risk Premium
+## 3.A.4 Forward Premium Puzzle and Time-Series Variations in Currency Risk Premium
 
 Let us return to the expressions for the log currency risk premium and the interest rate differential between the dollar and a given for-
 
@@ -407,7 +405,7 @@ $$
 \psi^{i} = \frac{c o v (\Delta e_{t + 1}^{i / \S} , r_{t}^{i} - r_{t}^{\S})}{v a r (r_{t}^{i} - r_{t}^{\S})} = \frac{\chi \left(\frac{1}{2} \gamma - \chi\right) (v a r (z_{t}^{i}) + v a r (z_{t}^{\S})) + \zeta \left(\frac{1}{2} - \zeta\right) (\delta^{i} - \delta^{\S})^{2} v a r (z_{t}^{w})}{(\chi - \frac{1}{2} \gamma)^{2} (v a r (z_{t}^{i}) + v a r (z_{t}^{\S})) + (\zeta - \frac{1}{2})^{2} (\delta^{i} - \delta^{\S})^{2} v a r (z_{t}^{w})} > 0.
 $$
 
-# 3.A.5 Currency Base Factor
+## 3.A.5 Currency Base Factor
 
 Another convenient construct to measure risk exposures and currency risk premia is the currency base factor [Lustig and Richmond, 2020, Aloosh and Bekaert, 2021]. For country  $i$ , its currency base factor is defined as the average of its bilateral exchange rate movement against foreign currencies<sup>2</sup>:
 
@@ -453,7 +451,7 @@ $$
 
 The proof is presented in Appendix A.5. We note that the only foreign country  $j$ -specific variable in this expression is its exposure to the systematic risk,  $\delta^j$ . In particular, its idiosyncratic risk  $z_t^j$  does not show up in this expression, because the currency base factor  $\Delta \overline{e}_{t+1}^i$  is not exposed to any individual foreign country's idiosyncratic shock. Hence, for a given home currency  $i$ , the regression coefficient  $\varphi^{i/j}$  measures the difference in the systematic risk exposure between countries  $i$  and  $j$ , i.e.,  $\left(\sqrt{\delta^i} - \sqrt{\delta^j}\right)$ .
 
-# 3.A.6 Other Works
+## 3.A.6 Other Works
 
 This no-arbitrage approach provides a useful framework to account for the time-series and the cross-sectional variations in exchange rate movements and currency risk premia using global and idiosyncratic SDF shocks in complete markets. As such, it could be applied to all complete-market models that we study in this chapter.
 
@@ -491,11 +489,11 @@ $$
 
 In this way, we can jointly model exchange rates and asset prices using the same set of observable variables [Chernov and Creal, 2023]. We will discuss this class of affine models in detail in Section 8.E.
 
-# 3.B Currency Risk Premia in the Time Series
+## 3.B Currency Risk Premia in the Time Series
 
 The no-arbitrage approach offers us an accounting framework to break down the variations that come from country-specific and global shocks. Using the Euler equations, it imposes discipline on how these shocks give rise to variations in exchange rates and currency risk premia, and helps us organize the exchange rate puzzles. However, it does not answer where these shocks come from. We need additional structures to understand the origins of these shocks. In this section and the next section, we consider two models that offer such structures. One model is based on the long-run risks and focuses on the time-series variations in currency risk premia, and the other model is based on the trade network and focuses on the cross-sectional variations in currency risk premia.
 
-# 3.B.1 Households
+## 3.B.1 Households
 
 There are two countries, home and foreign. The households have the Epstein and Zin [1989] recursive preferences. For the home households,
 
@@ -920,7 +918,7 @@ The proof is presented in Appendix A.10. This result shows that, fixing the base
 We consider the following numerical example to understand what centrality captures. There are 4 countries. We assume the home bias in consumption tends to 1 in the limit, i.e.,  $V \rightarrow I$ , and that the combined supply and demand shocks are i.i.d. across countries,  $Var\left[\varepsilon^{S} - \frac{\theta}{H^{\prime}\pi}(I - W^{\prime})^{-1}\varepsilon^{D}\right] = Var[\varepsilon] = I$ . These simplifying assumptions allow us to focus on the production trade network  $W$ , which is given by
 
 $$
-W = (1 - \theta) \left[ \begin{array}{c c c c} 1 & 0 & 0 & 0 \\ 0. 2 5 & 0. 7 5 & 0 & 0 \\ 0. 5 & 0 & 0. 5 & 0 \\ 0. 7 5 & 0 & 0 & 0. 2 5 \end{array} \right],
+W = (1 - \theta) \left[ \begin{array}{c c c c} 1 & 0 & 0 & 0 \\ 0.25 & 0.75 & 0 & 0 \\ 0.5 & 0 & 0.5 & 0 \\ 0.75 & 0 & 0 & 0.25 \end{array} \right],
 $$
 
 with  $\theta = 0.5$
@@ -928,7 +926,7 @@ with  $\theta = 0.5$
 In this trade network, countries 2, 3, and 4 rely on country 1's export as intermediate input. The dependency is increasing from country 2 to 4. The implied centrality measure is
 
 $$
-\left[ \begin{array}{c} \mathcal {C} (1, 1) \\ \mathcal {C} (2, 2) \\ \mathcal {C} (3, 3) \\ \mathcal {C} (4, 4) \end{array} \right] = \left[ \begin{array}{c} 4. 0 0 \\ 2. 7 2 \\ 2. 2 2 \\ 2. 0 4 \end{array} \right],
+\left[ \begin{array}{c} \mathcal {C} (1, 1) \\ \mathcal {C} (2, 2) \\ \mathcal {C} (3, 3) \\ \mathcal {C} (4, 4) \end{array} \right] = \left[ \begin{array}{c} 4.00 \\ 2.72 \\ 2.22 \\ 2.04 \end{array} \right],
 $$
 
 which implies that country 1 is the most central country because it provides essential production input to all other countries, and country 4 is the most peripheral country because it is very reliant on country 1's export. Accordingly, country 1's shock is the most systematic and as a result it has the lowest currency risk premium.
@@ -936,13 +934,13 @@ which implies that country 1 is the most central country because it provides ess
 This simple network structure also gives rise to a factor structure in exchange rate movements. Let  $\varepsilon_{t+1}^{(i)}$  denote the combined supply and demand shock in country  $i$ . Then, the bilateral exchange rate movements also load on these shocks:
 
 $$
-\begin{array}{l} \Delta e_{t + 1}^{1 / 2} = - 1. 6 0 \varepsilon_{t + 1}^{(1)} + 1. 6 0 \varepsilon_{t + 1}^{(2)}, \\ \Delta e_{t + 1}^{1 / 3} = - 1. 3 3 \varepsilon_{t + 1}^{(1)} + 1. 3 3 \varepsilon_{t + 1}^{(3)}, \\ \Delta e_{t + 1}^{1 / 4} = - 1. 1 4 \varepsilon_{t + 1}^{(1)} + 1. 1 4 \varepsilon_{t + 1}^{(4)}, \\ \end{array}
+\begin{array}{l} \Delta e_{t + 1}^{1 / 2} = - 1.60 \varepsilon_{t + 1}^{(1)} + 1.60 \varepsilon_{t + 1}^{(2)}, \\ \Delta e_{t + 1}^{1 / 3} = - 1.33 \varepsilon_{t + 1}^{(1)} + 1.33 \varepsilon_{t + 1}^{(3)}, \\ \Delta e_{t + 1}^{1 / 4} = - 1.14 \varepsilon_{t + 1}^{(1)} + 1.14 \varepsilon_{t + 1}^{(4)}, \\ \end{array}
 $$
 
 and the central country's shock  $\varepsilon_{t+1}^{(1)}$  becomes the common factor in the cross-section of exchange rates. In fact, even when we consider the bilateral pair between countries 2 and 3 that does not involve the central country 1,  $\varepsilon_{t+1}^{(1)}$  still shows up:
 
 $$
-\Delta e_{t + 1}^{2 / 3} = 0. 2 7 \varepsilon_{t + 1}^{(1)} - 1. 6 0 \varepsilon_{t + 1}^{(2)} + 1. 3 3 \varepsilon_{t + 1}^{(3)}.
+\Delta e_{t + 1}^{2 / 3} = 0.27 \varepsilon_{t + 1}^{(1)} - 1.60 \varepsilon_{t + 1}^{(2)} + 1.33 \varepsilon_{t + 1}^{(3)}.
 $$
 
 In comparison, all other (peripheral) countries' consumption load on this common factor, and have no further pairwise comovements beyond that induced by their exposure to the common factor. The shocks  $\varepsilon_{t+1}^{(2)}, \varepsilon_{t+1}^{(3)}$ , and  $\varepsilon_{t+1}^{(4)}$  are idiosyncratic in the sense that only one country is exposed to each of them.
@@ -1379,5 +1377,5 @@ The proof is presented in Appendix A.12. By comparing the infinite-horizon risk 
 
 We notice that this risk premium does not depend on the transitory component of the SDF as well as the transitory component of the cash flow. In fact, for any cash flow stream that is cointegrated with the endowment, the risk premium on its infinite-horizon strip is also equal to  $\lim_{h\to \infty}rx_t^y (h)$ . Similarly, for any cash flow stream that is stationary, the risk premium on its infinite-horizon strip is equal to that of the infinite-horizon bond. We will use this result when considering the government's fiscal cash flows in Chapter 8.
 
-# 4
+
 

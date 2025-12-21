@@ -1,34 +1,59 @@
+---
+title: "Chapter 16: Numerical Models"
+parent_directory: "Analysis of Fixed Income Securities Full"
+formatted: "2025-12-21 06:30:25 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli-tool: "claude-code"
+primary_tags:
+  - numerical methods
+  - monte carlo simulation
+  - lattice models
+  - american option pricing
+  - machine learning finance
+secondary_tags:
+  - longstaff-schwartz model
+  - particle swarm optimization
+  - q learning
+  - black-litterman model
+  - neural networks
+  - genetic algorithm
+  - binomial model
+  - finite difference
+  - bayesian learning
+cssclasses: academia
+---
+
 # Chapter 16: Numerical Models
 
-# 16.1 Introduction
+## 16.1 Introduction
 
 Since fixed income derivatives are in general complex, they do not have easy closed-form solutions. The majority of them require numerical methods to obtain their prices.
 
-# 16.2 Lattice
+## 16.2 Lattice
 
 Lattice models are most efficient to evaluate American style derivatives.
 
-# 16.2.1 Binomial
+### 16.2.1 Binomial
 
 For fixed-income derivatives, given the complexity of the yield curve and volatility surface, the equity binomial model (CRR) does not suffice.
 
 1. Ho-Lee (normal)
 2. Black-Derman-Toy (log-normal)
 
-# 16.2.2 Finite Difference
+### 16.2.2 Finite Difference
 
 This is also known as the trinomial model.
 
 1. explicit
 2. implicit
 
-# 16.3 Monte Carlo
+## 16.3 Monte Carlo
 
 Monte Carlo is known to solve European option problems (while lattice is for American options). Yet, there are two methods that use MC to solve American option values – the Longstaff-Schwartz regression model and exogenous boundary method.
 
 These methods, especially the LS model, are particularly important for interest rate derivatives in that many interest rate derivative contracts are very complex and must use Monte Carlo simulations to capture their complexities (e.g. path dependency). It is not possible to build a lattice model (i.e. backward induction) to evaluate these exotic interest rate derivatives.
 
-# 16.3.1 Longstaff-Schwartz
+### 16.3.1 Longstaff-Schwartz
 
 The Longstaff and Schwartz adopt a clever idea (later on shown to be connected to machine learning) to overcome the problem of the MC that cannot solve for American option values. The idea is amazingly simple (and yet powerful).
 
@@ -37,29 +62,37 @@ In a lattice, we can easily perform backward induction and compare if it is wort
 Monte Carlo simulations cannot provide such an expected value. MC simulations can only move forwards and hence cannot be used to price American options – until Longstaff and Schwartz. Longstaff and Schwartz cleverly recognize that the continuation value is nothing more than a conditional expectation given the current stock price:
 
 $$
-\xi (t) = \hat {\mathbb {E}}_{t} [ C (t + d t) | S (t) ]
-$$ where  $\xi(t)$  is the conditional value at time  $t$ , which is the conditional expectation of future option price  $C(t + dt)$  conditional on today's stock price  $S(t)$ . And today's option value is the larger of this continuation value (i.e. no exercise) or exercise value (i.e. exercise): $C(t) = \max\{\xi(t), X(t)\}$ where $X(t)$ is the exercise value. If the option is a put, then  $X(t) = K - S(t)$ . If it is a call, then  $X(t) = S(t) - K$  before any dividend is paid. The process repeats at every time step.
+\xi(t) = \hat{\mathbb{E}}_{t}[C(t + dt)|S(t)]
+$$
+
+where $\xi(t)$ is the conditional value at time $t$, which is the conditional expectation of future option price $C(t + dt)$ conditional on today's stock price $S(t)$. And today's option value is the larger of this continuation value (i.e. no exercise) or exercise value (i.e. exercise): $C(t) = \max\{\xi(t), X(t)\}$ where $X(t)$ is the exercise value. If the option is a put, then $X(t) = K - S(t)$. If it is a call, then $X(t) = S(t) - K$ before any dividend is paid. The process repeats at every time step.
 
 
-Basic statistic knowledge indicates that  $\hat{\mathbb{E}}_t[C(t + dt)|S(t)]$  is a function of today's stock price and hence we can write the future option price and today's stock price in a regression form:
+Basic statistic knowledge indicates that $\hat{\mathbb{E}}_t[C(t + dt)|S(t)]$ is a function of today's stock price and hence we can write the future option price and today's stock price in a regression form:
 
 $$
 \begin{align}
-C(t + dt) &= \hat{\mathbb{E}}_t[C(t + dt) | S(t)] + e(t + dt) \\
+C(t + dt) &= \hat{\mathbb{E}}_t[C(t + dt)|S(t)] + e(t + dt) \\
 &= f(S(t)) + e(t + dt) \\
 &= b_0 + b_1 S(t) + b_2 S(t)^2 + e(t + dt)
 \end{align}
-$$ where  $e(t + dt)$  is the error term which is assumed to follow i.i.d with 0 mean. Longstaff and Schwartz propose a polynomial function for  $f(S)$ . As a result, at each time step, the LS regression is run and coefficients can be used to calculate the conditional value:
+$$
+
+where $e(t + dt)$ is the error term which is assumed to follow i.i.d with 0 mean. Longstaff and Schwartz propose a polynomial function for $f(S)$. As a result, at each time step, the LS regression is run and coefficients can be used to calculate the conditional value:
 
 
 $$
-\xi (t) = b_{0} + b_{1} S (t) + b_{2} S (t)^{2}
-$$ which is then compared to the exercise value  $X(t)$  to arrive at the option value:
+\xi(t) = b_{0} + b_{1} S(t) + b_{2} S(t)^{2}
+$$
+
+which is then compared to the exercise value $X(t)$ to arrive at the option value:
 
 
 $$
-C (t) = \max  \{\xi (t), X (t) \}
-$$ and the process repeats.
+C(t) = \max\{\xi(t), X(t)\}
+$$
+
+and the process repeats.
 
 
 Now, lets study the LS example. Eight sample paths are given for three periods, as shown in Figure 16.1a.
@@ -97,11 +130,13 @@ Figure 16.1: Sample Paths and Terminal Payoff (LS)
 
 Given the stock values at maturity $(t = 3)$, Figure 16.1b presents the put option values at strike price of 1.1.
 
-Then we move backwards to  $t = 2$ . At  $t = 2$ , we must first compute the continuation value  $\xi(2)$ . This is achieved by a quadratic regression:
+Then we move backwards to $t = 2$. At $t = 2$, we must first compute the continuation value $\xi(2)$. This is achieved by a quadratic regression:
 
 $$
-\xi (1) = - 1. 0 7 + 2. 9 8 3 \times S (2) - 1. 8 1 3 \times S (2)^{2}
-$$ which is presented in Figure 16.2a. Then, the continuation results are presented in Figure 16.2b. Comparing the continuation values with the exercise values, we achieve the option values at  $t = 2$  shown in Figure 16.2c.
+\xi(1) = -1.07 + 2.983 \times S(2) - 1.813 \times S(2)^{2}
+$$
+
+which is presented in Figure 16.2a. Then, the continuation results are presented in Figure 16.2b. Comparing the continuation values with the exercise values, we achieve the option values at $t = 2$ shown in Figure 16.2c.
 
 
 Regression at time 2
@@ -156,7 +191,7 @@ Figure 16.3: Results at  $t = 1$
 
 See Excel
 
-# 16.3.2 Free-Bondary PDE
+### 16.3.2 Free-Boundary PDE
 
 In an alternative (relatively unsuccessful) attempt, researchers have tried to solve American-style derivatives by using an explicit exercise boundary. The approach is built upon the nice property that option prices of any kind are solutions to a class of differential equations which can be solved as a "free boundary problem". In other words, as long as the exercise boundary of an option is known, its price is no more than a simple integration along the exercise boundary. Unfortunately, not only is the exercise boundary of an American-style derivative unknown, but it is recursive (i.e. the boundary value at the current time depends on the boundary value at the immediately later time - resulting a recursively dependent structure of boundary values). In other words, the boundary function can only be achieved via a lattice model (e.g. binomial model). In doing so, the option is guaranteed to be exercised optimally and the valuation can hence be at the maximum. As Carr (1998), among others, points out, if we solve an American-style derivative premium as a free-boundary problem, then we can use an explicit boundary function and the American-style derivative premium is simply an integration of payoff function (e.g. put) over the boundary.
 
@@ -164,10 +199,10 @@ In an alternative (relatively unsuccessful) attempt, researchers have tried to s
 $$ \xi(t) = \hat{\mathbb{E}}_t\left[e^{-r\tau} \max\{X(\tau), 0\}\right] $$ where  $X(\tau)$  is the exercise value at the stopping time  $\tau$ . If it is a put option without dividends which is the case in this paper, then  $X(\tau) = K - S(\tau)$ . On the boundary,  $S(\tau) = B(\tau)$  and hence  $X(\tau) = K - B(\tau)$  where  $B(\tau)$  is the boundary function given exogenously. The way the boundary function works is that it serves as a stopping time. Once the stock price at time  $t$  hits the boundary  $B(t)$ , the process stops and the option will be exercised and paid and hence the American-style derivative can be evaluated as a barrier option.
 
 
-The easiest way to perform the integration is through Monte Carlo simulations. As the derivative price  $\xi(t)$  is given as an expected value:
+The easiest way to perform the integration is through Monte Carlo simulations. As the derivative price $\xi(t)$ is given as an expected value:
 
 $$
-\xi (t) = \frac{1}{N} \sum_{j = 1}^{N} e^{- r \tau_{j}} \max \{K - B (\tau_{j}), 0 \}
+\xi(t) = \frac{1}{N} \sum_{j=1}^{N} e^{-r \tau_{j}} \max\{K - B(\tau_{j}), 0\}
 $$
 
 We note that the recursively determined boundary function (via a lattice model) maximizes the option value, any other exogenously specified boundary function will only be "sub-optimal", that is, generating a lower value than the lattice model. This sub-optimal argument is convenient in that now we can simply try a large number of boundary functions and use the one that generates the highest option value as a good approximation.
@@ -190,17 +225,17 @@ So far the literature has not reached any consensus and the boundary seems to be
 
 We can use the flat boundary to introduce this solution.
 
-# 16.4 AI/ML Tools
+## 16.4 AI/ML Tools
 
 Artificial intelligence and machine learning knowledge has been gradually introduced into the finance and banking industry in recent years. Many business schools have incorporated such knowledge into their curricula and yet very few can clearly articulate the strengths and weaknesses of various applications of this knowledge and worse how to pick and choose the best tools.
 
 The most criticisms about AI/ML in finance are their non-transparency. These are complex tools and hard to explain how or why they work.
 
-# 16.4.1 What is AI? ML? and BD?
+### 16.4.1 What is AI? ML? and BD?
 
 Artificial intelligence (AI), machine learning (ML), and big data (BD) have recently been adopted into FinTech and been the fastest growing area in finance, both in private industry and academia. While these three areas are frequently used in combinations in developing valuable applications, these three areas are fundamentally different and deserve separate research.
 
-Strictly speaking, AI is a combination of computation (artificial) and biology (intelligence) which is quite different in nature from ML which is based upon statis tical methodologies. In the past, statistics have predominantly been presented in a parametric fashion, mainly due to insufficient computation power and lack of data. This has been changed recently and non-parametric statistics with powerful computation capabilities fuel the growth of machine learning. As non-parametric statistics require a large amount of data, ML and BD (such as NLP, or natural language processing) have been combined in revolutionizing the financial world. Together, they facilitate the progress of AI.
+Strictly speaking, AI is a combination of computation (artificial) and biology (intelligence) which is quite different in nature from ML which is based upon statistical methodologies. In the past, statistics have predominantly been presented in a parametric fashion, mainly due to insufficient computation power and lack of data. This has been changed recently and non-parametric statistics with powerful computation capabilities fuel the growth of machine learning. As non-parametric statistics require a large amount of data, ML and BD (such as NLP, or natural language processing) have been combined in revolutionizing the financial world. Together, they facilitate the progress of AI.
 
 
 AI has four major branches:
@@ -211,7 +246,7 @@ AI has four major branches:
 
 These AI theories are behavioral models in that they "artificialize" natural intelligence (specified in parentheses above) which reflects biological behaviors. As a result, they are different from ML methodologies. The connection (and hence confusion) of these two is due to the fact that these AI models can be efficiently used to find optimal solutions (e.g. PSO) which then are similar to ML models. Indeed, from the perspective of computation, one can hardly differentiate one tool from the other and in many instances these two distinctly different theories are used in combination.
 
-Machine learning (ML) is very close to non-parametric statistics. In statistics, in the past parametric forms were preferred due to lack of computation power. Now with new technolongies in comutation, both software (parallell computing) and hardware (GPU, graphic processing units), we expand the statistics into non-parametric areas that allow more flexible, complex models.
+Machine learning (ML) is very close to non-parametric statistics. In statistics, in the past parametric forms were preferred due to lack of computation power. Now with new technologies in computation, both software (parallel computing) and hardware (GPU, graphic processing units), we expand the statistics into non-parametric areas that allow more flexible, complex models.
 
 ML has many overlaps with statistics (or econometrics):
 
@@ -226,7 +261,7 @@ NPL
 - visualization
 - database technology etc.
 
-# 16.4.2 Particle Swarm Optimization
+### 16.4.2 Particle Swarm Optimization
 
 In theory, swarm intelligence is effective for optimization problems in a high-dimensional space. PSO is such an application. The original version of PSO was first proposed by Eberhart and Kennedy (1995) who modify the behavioral model of swarm into an objective-seeking algorithm. Similar to Renold's, their model "artificializes" the group behavior of a flock of birds seeking food. Via bird-to-bird chirping (peer-to-peer communication), all birds fly to the loudest sound of chirping. Subsequently, Eberhart and Shi (1998) improve the model by adding an inertia term (symbolized as  $w$  later as we introduce the model) and it has become the standard PSO algorithm used today. Setting a proper value of the inertia term is to seek the balance between exploitation and exploration. A larger value of the inertia term gives more weight to exploration (as the bird is more likely to fly on its own) and a smaller value of the inertia term gives more weight to exploitation (as the bird intends more to fly toward other birds).
 
@@ -239,14 +274,14 @@ In the case of the lake, we may find the grid search to be more accurate and tim
 
 Currently there have been some limited number of applications of PSO in finance, mostly in portfolio selection. In this paper, we use it for the first time in the literature to locate the exercise boundary of American-style derivatives (specifically, put option, option on min/max, and Asian option).
 
-The PSO algorithm can be formally defined as follows. For  $i = 1, \dots, n$  particles and each particle is a vector of dimensions, we have:
+The PSO algorithm can be formally defined as follows. For $i = 1, \dots, n$ particles and each particle is a vector of dimensions, we have:
 
 $$
 \begin{cases}
 \vec{v}_{i,j}(t+1) = w(t)\vec{v}_{i,j}(t) + r_1c_1(\vec{p}_{i,j}(t) - \vec{x}_i(t)) + r_2c_2(\vec{g}(t) - \vec{x}_{i,j}(t)) \\
 \vec{x}_{i,j}(t+1) = \vec{x}_{i,j}(t) + \vec{v}_{i,j}(t+1)
 \end{cases}
-$$ where  $\vec{v}_{i,j}(t)$  is velocity of the  $i$ th particle in the  $j$ th dimension at time  $t$ ;  $\vec{x}_{i,j}(t)$  is position of the  $i$ th particle in the  $j$ th dimension at time  $t$ ;  $w(t)$  is a "weight" (less than 1) which decides how the current velocity will be carried over to the next period (and usually it is set as  $w(t) = \alpha w(t - 1)$  and  $\alpha < 1$  to introduce diminishing velocity); and finally  $r_1, r_2 \sim u(0,1)$  follow a uniform distribution.
+$$ where $\vec{v}_{i,j}(t)$ is velocity of the $i$th particle in the $j$th dimension at time $t$; $\vec{x}_{i,j}(t)$ is position of the $i$th particle in the $j$th dimension at time $t$; $w(t)$ is a "weight" (less than 1) which decides how the current velocity will be carried over to the next period (and usually it is set as $w(t) = \alpha w(t - 1)$ and $\alpha < 1$ to introduce diminishing velocity); and finally $r_1, r_2 \sim u(0,1)$ follow a uniform distribution.
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/2bda2ed570870e882f00d1b3f25eb3e154482711e36ae46861cd527f78b7b556.jpg)
@@ -260,13 +295,13 @@ Application 2: American Option Pricing
 
 See paper
 
-# Other Applications
+#### Other Applications
 
 Anything problem that has high-dimensions (e.g. American option exercise boundary and portfolio weights) can benefit from PSO. This is the area where traditional numerical algorithms (e.g. SciPy or Excel Solver) do not do a good job.
 
 The swing contract of natural gas described in the next sub-section is a good example.
 
-# 16.4.3 Q Learning - Swing Contract
+### 16.4.3 Q Learning - Swing Contract
 
 According to: https://amunategui.github.io/reinforcement-learning/index.html:
 
@@ -289,12 +324,12 @@ When  $\alpha = 1$ , then above equation simplifies to:
 
 $$ \underbrace{Q(s_t, a_t)}_{\text{newvalue}} \gets R_t + \gamma \cdot \max_a Q(s_{t+1}, a) $$
 
-# An Example - Finding Optimal Route
+#### An Example - Finding Optimal Route
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/b74fe213c4908b6b3b9c13e9761dfe05f077a54afaa93b29f6ad43218c3b9f7b.jpg)
 Figure 16.5: Finding Optimal Route
 
-# An Application - Natural Gas Swing Contract
+#### An Application - Natural Gas Swing Contract
 
 A swing contract is an option contract that allows the buyer to buy at each day a flexible quantity (but up to daily and global limits) of natural gas at a strike price for a period of time.
 
@@ -306,7 +341,7 @@ $$
 \max_{\underline {{N}} \in \mathbb {N}} \left\{\sum_{i = 1}^{n_{f}} N_{i} \Phi (T_{i}, T_{i} + 1 \mathrm{d}) \right\}
 $$
 
-# 16.4.4 Bayesian Learning - Black-Litterman Model
+### 16.4.4 Bayesian Learning - Black-Litterman Model
 
 The basic probability theory states that:
 
@@ -356,13 +391,13 @@ Figure 16.6: Simple Example of Bayesian Learning
 
 In this example,
 
-$$ p (\mathrm{Su nn y} | \mathrm{Ye s}) = \frac{p (\mathrm{Su nn y} \& \mathrm{Ye s})}{p (\mathrm{Ye s})} = \frac{3}{9} = 0. 3 3
+$$ p(\mathrm{Sunny}|\mathrm{Yes}) = \frac{p(\mathrm{Sunny} \& \mathrm{Yes})}{p(\mathrm{Yes})} = \frac{3}{9} = 0.33
 $$
 
-$$ p (\text{Su nn y}) = \frac{5}{1 4} = 0. 3 6; p (\text{Ye s}) = \frac{9}{1 4} = 0. 6 4
+$$ p(\text{Sunny}) = \frac{5}{14} = 0.36; p(\text{Yes}) = \frac{9}{14} = 0.64
 $$
 
-$$ p (\text{Ye s} | \text{Su nn y}) = 0. 3 3 \times \frac{0 . 6 4}{0 . 3 6} = 0. 6 0
+$$ p(\text{Yes}|\text{Sunny}) = 0.33 \times \frac{0.64}{0.36} = 0.60
 $$ which has higher probability.
 
 
@@ -490,7 +525,7 @@ $$
 
 We need to compute  $Y_{1}$ , using Naïve Bayes.
 
-# 16.4.5 Neural Networks - Credit Ratings
+### 16.4.5 Neural Networks - Credit Ratings
 
 This is main for credit rating (i.e. classification). But its applications are way beyond that (practically a virgin land)
 
@@ -511,13 +546,13 @@ Due to its recurrent nature, RNN has been promoted to study time series - which 
 
 NN is often referred as deep learning, which is not appropriate.
 
-# 16.4.6 Genetic Algorithm
+### 16.4.6 Genetic Algorithm
 
 It is a tool for seeking the optimal solution, again in a high dimensional space search. To a certain degree, it is very similar to PSO (no surprise!) in that they both aim at solving a high dimensional problem.
 
 Yet, GA is more algorithmic (i.e. programming intensive) than PSO which is only linear algebra. It would be interesting to compare the two and see which is better at which.
 
-# 16.4.7 Other Classification ML Tools
+### 16.4.7 Other Classification ML Tools
 
 There are a bunch:
 
@@ -528,7 +563,7 @@ There are a bunch:
 5. support vector machine
 6. etc...
 
-# 16.4.8 Issues of Overfitting
+### 16.4.8 Issues of Overfitting
 
 One major problem with ML tools is the failure to detect convergence. Except for very few (e.g. Q learning), ML tools are hard to see if the result has reached even the local optimum. As it turns out, if you continue to run the algorithm but it has already reached the global optimum, it will then drift away from the optimal solution.
 
@@ -545,32 +580,3 @@ On the other hand, in econometrics, there is a likelihood ratio test (but the mo
 
 In sum, this is an exploding area (although quite a while in technology areas) in finance. Welcome to join the once in a lifetime opportunity!
 
-# Index
-
-Black-Derman-Toymodel,304 cmdl,333
-
-
-constant maturity Treasury, 33 convexity, 69
-
-
-convexity adjustment, 47 credit default swap, 161
-
-
-duration, 69
-
-FX forward, 142
-
-Heath-Jarrow-Morton model, 309
-
-Ho-Lee model, 299 interest rate parity, 141
-
-
-IRP, 141
-
-PPP, 137 purchasing power parity, 137
-
-
-Qlearning,353 spread, 91
-
-
-T bond futures, 188

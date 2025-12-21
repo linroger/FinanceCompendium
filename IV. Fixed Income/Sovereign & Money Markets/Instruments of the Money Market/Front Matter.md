@@ -1,9 +1,9 @@
 ---
-title: "Front Matter - Instruments of the Money Market"
+title: Front Matter
 parent_directory: Instruments of the Money Market
-formatted: 2025-12-21 12:35:00 PM
-formatter_agent: claude-sonnet-4-5-20250929
-cli_tool: claude-code
+formatted: 2025-12-21 02:40:00 PM
+formatter_agent: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
    - money market instruments
    - federal reserve publications
@@ -17,6 +17,8 @@ secondary_tags:
    - bankers acceptances
 cssclasses: academia
 ---
+
+# Front Matter
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/0cd11d7f9eeb4e7688c490e26c36baa9cbaa38c0f5b74d29941102ad6688888c.jpg)
 

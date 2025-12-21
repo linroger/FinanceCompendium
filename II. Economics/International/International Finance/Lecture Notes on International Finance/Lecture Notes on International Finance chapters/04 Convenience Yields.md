@@ -1,45 +1,45 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Convenience Yields
-linter-yaml-title-alias: Convenience Yields
+title: "Convenience Yields"
+parent_directory: "Lecture Notes on International Finance chapters"
+formatted: 2025-12-21 06:35:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
-- yields reflect currencies non
-- currency risk premium
-- types rate spreads key
+  - convenience yields
+  - bond convenience yields
+  - currency risk premium
+  - exchange rate determination
 secondary_tags:
-- treasury convenience yield
-- bond convenience yield wedge
-- currency returns bond convenience
-- convenience yield currency risk
-- treasury yield home country
-- wedge exchange rate
-tags_extracted: '2025-12-18T01:44:30.823415'
+  - treasury convenience yield
+  - uncovered interest parity
+  - euler equations
+  - synthetic dollar bonds
+  - term structure
+  - market segmentation
+  - long-run UIP condition
+cssclasses: academia
 ---
 
 # Convenience Yields
 
-# Summary
+## Summary
 
 - We deviate from the complete-market benchmark and introduce the bond convenience yield  $\lambda_{t}^{*}$  as a wedge in the households' Euler equations for holding the home bond:
 
 $$
-\exp (- \lambda_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}) \right].
+\exp(-\lambda_{t}^{*}) = \mathbb{E}_{t}[\exp(m_{t+1}^{*} + \Delta e_{t+1} + r_{t})].
 $$
 
 - This wedge affects both the currency expected return:
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = r p_{t} - \lambda_{t}^{*},
+\mathbb{E}_{t} \left[ r x_{t + 1} \right] = r p_{t} - \lambda_{t}^{*},
 $$
 
 and the exchange rate level:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e}.
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e}.
 $$
 
 - Under additional assumptions about the liquidity benefits of the currency forward, the convenient yield can be measured from the Treasury CIP deviation  $x_{t}^{Treas}$ :
@@ -50,44 +50,40 @@ $$
 
 In this chapter, we consider an additional ingredient that drives currency returns: the bond convenience yields, which reflect the currencies' non-pecuniary qualities including liquidity, safety, and the ability to pledge as collateral.
 
-This ingredient is motivated by the near-arbitrage spreads observed in the data, which show that certain currencies and assets earn different returns despite having similar payoffs. For example, a large literature has found that the yields on U.S. Treasury debt are traded below other benchmark interest rates [Longstaff, 2004, Krishnamurthy and Vissing-Jorgensen, 2012, Nagel, 2016, Van Binsbergen, Diamond, and Grotteria, 2022]. The U.S. Treasury also appears
-
-more expensive than TIPS [Fleckenstein, Longstaff, and Lustig, 2014], corporate bonds [Bai and Collin-Dufresne, 2019], foreign sovereign bonds [Du, Im, and Schreger, 2018a, Jiang, Krishnamurthy, and Lustig, 2018, 2021a, Koijen and Yogo, 2020], and duration-matched stocks [Van Binsbergen, 2020]. We refer to the lower yield earned by the U.S. Treasury as the convenience yield. Moreover, the convenience yield is not specific to the U.S. Treasury, as other safe assets such as high-grade dollar corporate bonds and bank deposits also appear to earn lower yields [Liao, 2020, Gutierrez, Ivashina, and Salomao, 2021].
+This ingredient is motivated by the near-arbitrage spreads observed in the data, which show that certain currencies and assets earn different returns despite having similar payoffs. For example, a large literature has found that the yields on U.S. Treasury debt are traded below other benchmark interest rates [Longstaff, 2004, Krishnamurthy and Vissing-Jorgensen, 2012, Nagel, 2016, Van Binsbergen, Diamond, and Grotteria, 2022]. The U.S. Treasury also appears more expensive than TIPS [Fleckenstein, Longstaff, and Lustig, 2014], corporate bonds [Bai and Collin-Dufresne, 2019], foreign sovereign bonds [Du, Im, and Schreger, 2018a, Jiang, Krishnamurthy, and Lustig, 2018, 2021a, Koijen and Yogo, 2020], and duration-matched stocks [Van Binsbergen, 2020]. We refer to the lower yield earned by the U.S. Treasury as the convenience yield. Moreover, the convenience yield is not specific to the U.S. Treasury, as other safe assets such as high-grade dollar corporate bonds and bank deposits also appear to earn lower yields [Liao, 2020, Gutierrez, Ivashina, and Salomao, 2021].
 
 To model these convenience yields, let  $r_t$  denote the log Treasury yield in the home country, and let  $\rho_t$  denote the log yield of a benchmark risk-free bond that does not contain any non-pecuniary benefits. Both rates are one-period. The benchmark risk-free rate exactly satisfies the households' Euler equation:
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + \rho_{t}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + \rho_{t}\right) \right].
 $$
 
 As the Treasury is more expensive, the Treasury yield is lower than the benchmark risk-free rate:
 
 $$
-r_{t} <   \rho_{t},
+r_t < \rho_t,
 $$
 
 which implies that the Euler equation fails for the Treasury yield:
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1} + \rho_{t}) \right] > \mathbb {E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right].
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1} + \rho_{t}) \right] > \mathbb{E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right].
 $$
 
 In other words, the Treasury yield gives rise to a wedge in the Euler equation. To capture this wedge, it is useful to conceptualize a convenience yield  $\lambda_t > 0$ , such that
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} [ \exp (m_{t + 1} + r_{t}) ]. \tag {4.1}
+\exp (- \lambda_{t}) = \mathbb{E}_{t} [ \exp (m_{t + 1} + r_{t}) ]. \tag{4.1}
 $$
 
 This convenience yield describes the amount of risk-adjusted expected return that the households are willing to give up in order to hold the Treasury debt. This equation will be central to organize our discussion in this chapter.
 
 What drives this convenience yield or, equivalently, the households' willingness to give up some pecuniary return to hold the convenience asset? In the next section, we consider a setting in which this convenience yield arises because the households derive utility directly from holding the Treasury debt. While this modeling device is still too stylized to shed light on the underlying mechanism, it provides a useful starting point and illustrates some relevant properties of the convenience yield. We discuss more elaborate microfoundations proposed in the literature in Section 4.E.
 
-Before we proceed to set up the model, we note that the convenience yield is conceptually distinct from a risk premium, because
-
-a risk premium does not generate a wedge in the Euler equation. Consider, for example, a risky return  $\tilde{r}_{t+1}$  that does not carry a convenience yield. While this asset can earn an expected return that reflects its cyclical properties, it must satisfy the standard Euler equation,
+Before we proceed to set up the model, we note that the convenience yield is conceptually distinct from a risk premium, because a risk premium does not generate a wedge in the Euler equation. Consider, for example, a risky return  $\tilde{r}_{t+1}$  that does not carry a convenience yield. While this asset can earn an expected return that reflects its cyclical properties, it must satisfy the standard Euler equation,
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \big (m_{t + 1} + \tilde {r}_{t + 1} \big) \right].
+1 = \mathbb{E}_{t} \left[ \exp \big(m_{t + 1} + \tilde{r}_{t + 1} \big) \right].
 $$
 
 All models we considered in Chapter 3 fall into this category, although they differ in the specification of the SDF  $m_{t+1}$  that determines the risk premium.
@@ -101,19 +97,17 @@ We assume that home bond generates non-pecuniary utilities when it is held by ei
 Specifically, recall that  $b_{H,t}$  is the market value of the bond and  $r_t$  is the risk-free rate. The home investors' utility is derived over consumption and the market value of home bond holdings:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (b_{H, t}; \theta_{t})) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (b_{H, t}; \theta_{t})) \right],
 $$
 
 where  $\theta_{t}$  captures a time-varying demand shifter for U.S. bonds. We assume that the utility is increasing in the consumption and the holding in the U.S. bonds, i.e.  $u'(c_t) > 0$  and  $v'(b_{H,t};\theta_t) > 0$ . In this way, the U.S. risk-free bond carries a convenience yield, which captures its non-pecuniary benefits to U.S. and foreign investors. We assume that the marginal utility for holding U.S. bonds is decreasing in quantity, i.e.,  $v''(b) < 0$ , so that the convenience yield is decreasing in the quantity held.
 
 # 4.A.1 Issuer of the Safe Asset
 
-We assume that households face the same endowment processes and the same financial markets as in Section 1.A. The only difference is the presence of a government in each country, which plays the role of the safe asset issuer. Specifically, we assume that the home country's
-
-government borrows a one-period risk-free bond with par value  $\bar{b}_t$  in period  $t$ , and pays it back in period  $t + 1$ . The government pays the proceeds from the bond issuance as a transfer to the domestic households in period  $t$ , and raises tax from the domestic households to pay off the debt in period  $t + 1$ . The household budget in period  $t$  is
+We assume that households face the same endowment processes and the same financial markets as in Section 1.A. The only difference is the presence of a government in each country, which plays the role of the safe asset issuer. Specifically, we assume that the home country's government borrows a one-period risk-free bond with par value  $\bar{b}_t$  in period  $t$ , and pays it back in period  $t + 1$ . The government pays the proceeds from the bond issuance as a transfer to the domestic households in period  $t$ , and raises tax from the domestic households to pay off the debt in period  $t + 1$ . The household budget in period  $t$  is
 
 $$
-p_{t} y_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) + \bar {b}_{t} = c_{t} + b_{H, t} + b_{F, t} \exp (- e_{t}) + \bar {b}_{t - 1} \exp (r_{t - 1}),
+p_{t} y_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) + \bar{b}_{t} = c_{t} + b_{H, t} + b_{F, t} \exp (- e_{t}) + \bar{b}_{t - 1} \exp (r_{t - 1}),
 $$
 
 where  $\bar{b}_t$  on the left-hand side is the proceeds from the home government's debt issuance in period  $t$ , which is transferred to the home households, and  $\bar{b}_{t-1} \exp(r_{t-1})$  on the right-hand side is the home government's debt repayment for its borrowing in period  $t-1$ , which is financed by a tax on the home households.
@@ -125,7 +119,7 @@ In this way, we set up a simple structure that generates a positive supply of ri
 The Lagrangian is
 
 $$
-\begin{array}{l} \mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (u (c_{t}) + v (b_{H, t}; \theta_{t})) \right. \\ \left. + \sum_{t = 1}^{\infty} \zeta_{t} (p_{t} y_{t} + \bar {b}_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) - c_{t} - \bar {b}_{t - 1} \exp (r_{t - 1}) - b_{H, t} - b_{F, t} \exp (- e_{t})) \right]. \\ \end{array}
+\begin{array}{l} \mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} (u (c_{t}) + v (b_{H, t}; \theta_{t})) \right. \\ \left. + \sum_{t = 1}^{\infty} \zeta_{t} (p_{t} y_{t} + \bar{b}_{t} + b_{H, t - 1} \exp (r_{t - 1}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) - c_{t} - \bar{b}_{t - 1} \exp (r_{t - 1}) - b_{H, t} - b_{F, t} \exp (- e_{t})) \right]. \\ \end{array}
 $$
 
 The first-order conditions w.r.t.  $c_{t}, b_{H,t}$  and  $b_{F,t}$  are
@@ -135,23 +129,23 @@ $$
 $$
 
 $$
-\mathbb {E}_{t} \left[ \delta^{t} v^{\prime} \left(b_{H, t}; \theta_{t}\right) - \zeta_{t} + \zeta_{t + 1} \exp (r_{t}) \right] = 0,
+\mathbb{E}_{t} \left[ \delta^{t} v^{\prime} \left(b_{H, t}; \theta_{t}\right) - \zeta_{t} + \zeta_{t + 1} \exp (r_{t}) \right] = 0,
 $$
 
 $$
-\mathbb {E}_{t} \left[ - \zeta_{t} \exp (- e_{t}) + \zeta_{t + 1} \exp \left(r_{t}^{*} - e_{t + 1}\right) \right] = 0.
+\mathbb{E}_{t} \left[ - \zeta_{t} \exp (- e_{t}) + \zeta_{t + 1} \exp \left(r_{t}^{*} - e_{t + 1}\right) \right] = 0.
 $$
 
 The implied Euler equations for home households are
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(r_{t}\right) + \frac{v^{\prime} \left(b_{H , t} ; \theta_{t}\right)}{u^{\prime} \left(c_{t}\right)} \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right]. \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(r_{t}\right) + \frac{v^{\prime} \left(b_{H , t} ; \theta_{t}\right)}{u^{\prime} \left(c_{t}\right)} \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right]. \\ \end{array}
 $$
 
 If we define the home households' convenience yield as
 
 $$
-\exp \left(- \lambda_{t}\right) \stackrel {\text{de f}} {=} 1 - \frac{v^{\prime} \left(b_{H , t} ; \theta_{t}\right)}{u^{\prime} \left(c_{t}\right)}, \tag {4.2}
+\exp \left(- \lambda_{t}\right) \stackrel {\text{de f}} {=} 1 - \frac{v^{\prime} \left(b_{H , t} ; \theta_{t}\right)}{u^{\prime} \left(c_{t}\right)}, \tag{4.2}
 $$
 
 which is determined by the ratio between the marginal utility of bond holding and the marginal utility of consumption. This equilibrium convenience yield  $\lambda_{t}$  is driven by both demand shocks captured by  $\theta_{t}$  and supply shocks which affect the equilibrium bond holdings  $b_{H,t}$ .
@@ -159,11 +153,11 @@ which is determined by the ratio between the marginal utility of bond holding an
 Then, we can express the Euler equations as
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
+\exp (- \lambda_{t}) = \mathbb{E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right].
 $$
 
 In doing so, we offer a more structural interpretation for the convenience yields that we defined in Eq. (4.1).
@@ -171,23 +165,23 @@ In doing so, we offer a more structural interpretation for the convenience yield
 Similarly, we modify the foreign utility as
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u^{*} (c_{t}) + v (b_{H, t}^{*}; \theta_{t}^{*})) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u^{*} (c_{t}) + v (b_{H, t}^{*}; \theta_{t}^{*})) \right],
 $$
 
 where the market value  $b_{H,t}^{*}$  of foreign households' bond holding is also in the home (real) currency units. We define the foreign households' convenience yield as
 
 $$
-\exp \left(- \lambda_{t}^{*}\right) = 1 - \frac{v^{\prime} \left(b_{H , t}^{*} ; \theta_{t}^{*}\right) \exp \left(- e_{t}\right)}{u^{\prime} \left(c_{t}^{*}\right)}. \tag {4.3}
+\exp \left(- \lambda_{t}^{*}\right) = 1 - \frac{v^{\prime} \left(b_{H , t}^{*} ; \theta_{t}^{*}\right) \exp \left(- e_{t}\right)}{u^{\prime} \left(c_{t}^{*}\right)}. \tag{4.3}
 $$
 
 Then, the foreign households' Euler equations are
 
 $$
-\exp \left(- \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t} + \Delta e_{t + 1}\right) \right],
+\exp \left(- \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t} + \Delta e_{t + 1}\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right].
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right].
 $$
 
 # 4.A.3 Market Clearing
@@ -217,7 +211,7 @@ $$
 The exogenous variables now include the endowments and the safe-asset demand shifters:
 
 $$
-\left(y_{t}, y_{t}^{*}, \bar {b}_{t}, \bar {b}_{t}^{*}, \theta_{t}, \theta_{t}^{*}\right)_{t = 0}^{\infty}
+\left(y_{t}, y_{t}^{*}, \bar{b}_{t}, \bar{b}_{t}^{*}, \theta_{t}, \theta_{t}^{*}\right)_{t = 0}^{\infty}
 $$
 
 There are 13 endogenous variables in each period  $t$ :
@@ -241,7 +235,7 @@ denote the convenience yields that home and foreign households impute to the hom
 The model implies the following 14 equations in each period, one of which is redundant since the market clearing adds up to the sum of households' budget constraints. For the Home country in period  $t$ ,
 
 $$
-p_{t} y_{t} + \bar {b}_{t} + b_{H, t - 1} \exp (r_{t}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) = (c_{H, t})^{\alpha} (c_{F, t})^{1 - \alpha} + \bar {b}_{t - 1} \exp (r_{t - 1}) + b_{H, t} + b_{F, t} \exp (- e_{t}),
+p_{t} y_{t} + \bar{b}_{t} + b_{H, t - 1} \exp (r_{t}) + b_{F, t - 1} \exp (r_{t - 1}^{*} - e_{t}) = (c_{H, t})^{\alpha} (c_{F, t})^{1 - \alpha} + \bar{b}_{t - 1} \exp (r_{t - 1}) + b_{H, t} + b_{F, t} \exp (- e_{t}),
 $$
 
 $$
@@ -253,21 +247,21 @@ y_{t} = c_{H, t} + c_{H, t^{\prime}}^{*}
 $$
 
 $$
-\bar {b}_{t} = b_{H, t} + b_{H, t}^{*},
+\bar{b}_{t} = b_{H, t} + b_{H, t}^{*},
 $$
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}) \exp (r_{t}) \right],
+\exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}) \exp (r_{t}) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}\right) \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}\right) \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right],
 $$
 
 For the Foreign country in period  $t$ ,
 
 $$
-p_{t}^{*} y_{t}^{*} + \bar {b}_{t}^{*} + \exp (r_{t - 1} + e_{t}) b_{H, t - 1}^{*} + b_{F, t - 1}^{*} \exp (r_{t - 1}^{*}) = (c_{F, t}^{*})^{\alpha} (c_{H, t}^{*})^{1 - \alpha} + \bar {b}_{t - 1}^{*} \exp (r_{t - 1}^{*}) + \exp (e_{t}) b_{H, t}^{*} + b_{F, t}^{*},
+p_{t}^{*} y_{t}^{*} + \bar{b}_{t}^{*} + \exp (r_{t - 1} + e_{t}) b_{H, t - 1}^{*} + b_{F, t - 1}^{*} \exp (r_{t - 1}^{*}) = (c_{F, t}^{*})^{\alpha} (c_{H, t}^{*})^{1 - \alpha} + \bar{b}_{t - 1}^{*} \exp (r_{t - 1}^{*}) + \exp (e_{t}) b_{H, t}^{*} + b_{F, t}^{*},
 $$
 
 $$
@@ -279,15 +273,15 @@ y_{t}^{*} = c_{F, t} + c_{F, t}^{*},
 $$
 
 $$
-\bar {b}_{t}^{*} = b_{F, t} + b_{F, t}^{*},
+\bar{b}_{t}^{*} = b_{F, t} + b_{F, t}^{*},
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(r_{t}^{*}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(r_{t}^{*}\right) \right],
 $$
 
 $$
-\exp \left(- \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(\Delta e_{t + 1} + r_{t}\right) \right].
+\exp \left(- \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(\Delta e_{t + 1} + r_{t}\right) \right].
 $$
 
 The within-period problem is the same as in the benchmark model. The prices and exchange rates can be pinned down by:
@@ -303,37 +297,37 @@ Compared to the macro synthesis in the baseline model in Section 1.A, the main d
 Next, we repeat the exchange rate accounting exercise in this model with bond convenience yields. The derivation is taken from Jiang, Krishnamurthy, and Lustig [2021a], Jiang, Krishnamurthy, Lustig, and Sun [2021b]. The model with bond convenience yields shows that the four Euler equations for bond holdings now contain additional convenience yield terms:
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \tag {4.4}
+\exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right], \tag{4.4}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag {4.5}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right], \tag{4.5}
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \tag {4.6}
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + r_{t}^{*}\right) \right], \tag{4.6}
 $$
 
 $$
-\exp \left(- \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right]. \tag {4.7}
+\exp \left(- \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right]. \tag{4.7}
 $$
 
 We can also express these Euler equations (4.4)-(4.7) as
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + \left(r_{t} + \lambda_{t}\right)\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + \left(r_{t} + \lambda_{t}\right)\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right],
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right],
+1 = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t}^{*}) \right],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \big (m_{t + 1}^{*} + \Delta e_{t + 1} + \big (r_{t} + \lambda_{t}^{*} \big) \big) \right],
+1 = \mathbb{E}_{t} \left[ \exp \big(m_{t + 1}^{*} + \Delta e_{t + 1} + \big(r_{t} + \lambda_{t}^{*} \big) \big) \right],
 $$
 
 which look like the original Euler equations (1.6)-(1.9) that we derived in Section 1.B for risk-free bonds without convenience yields. However, a key difference makes these two cases not observationally equivalent: the home and foreign investors may have different convenience yields  $\lambda_{t}$  and  $\lambda_t^*$ . In this case, the home investors effectively perceive a home risk-free rate without convenience yield equal to  $\rho_{t} = r_{t} + \lambda_{t}$ , whereas the foreign investors effectively perceive a different home risk-free rate without convenience yield equal to  $\tilde{\rho}_{t} = r_{t} + \lambda_{t}^{*}$ . Therefore, we cannot map the setting with bond convenience yields back to the baseline model without bond convenience yields by modifying the bond yields.
@@ -347,7 +341,7 @@ Suppose that at time  $t$ , there is an exogenous increase in  $\lambda_t^*$ , i
 First, consider the home households' Euler equation for holding domestic bonds, Eq. (4.4), reproduced below,
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right].
+\exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1} + r_{t}) \right].
 $$
 
 Since the home households' SDF and convenience yield are assumed to be unaffected, this Euler equation implies that the dollar risk-free rate  $r_t$  does not change.
@@ -355,7 +349,7 @@ Since the home households' SDF and convenience yield are assumed to be unaffecte
 Second, from the foreign households' Euler equation for holding home bonds, Eq. (4.7), reproduced below,
 
 $$
-\exp (- \lambda_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t} + \Delta e_{t + 1}) \right],
+\exp (- \lambda_{t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + r_{t} + \Delta e_{t + 1}) \right],
 $$
 
 an increase in their convenience yield  $\lambda_t^*$  lowers their risk-neutral expected return on holding home risk-free bonds. Since the dollar risk-free rate does not change, the exchange rate has to adjust to equilibrate this Euler equation. In particular, the dollar needs to appreciate today and create an expected depreciation to generate the lower expected return.
@@ -363,19 +357,17 @@ an increase in their convenience yield  $\lambda_t^*$  lowers their risk-neutral
 Lastly, if we examine the home households' Euler equation for holding foreign bonds, Eq. (4.5), reproduced below,
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \big (m_{t + 1} + r_{t}^{*} - \Delta e_{t + 1}) \right],
+1 = \mathbb{E}_{t} \left[ \exp \big(m_{t + 1} + r_{t}^{*} - \Delta e_{t + 1}) \right],
 $$
 
 we learn that the dollar exchange rate movement also raises the expected return on purchasing foreign currency bonds from the home perspective. Since the home households do not derive a convenience yield on foreign bonds that can adjust, all adjustment must happen in the dollar's currency risk premium. In our equilibrium, this happens via endogenous changes in the cyclicality and volatility of the dollar. Thus, these four Euler equations require endogenous responses in both first moments (i.e., exchange rate level and expected return) as well as second moments (i.e., currency cyclicality and volatility) in response to the shock to the convenience yield. As such, although the convenience yield and the risk premium are conceptually different, they could be correlated in practice.
 
 # 4.B.2 Accounting for the Currency Expected Return
 
-For the discussion in this section, we assume the random variables are jointly normally distributed. First, we can derive the home inter
-
-est rate expression:
+For the discussion in this section, we assume the random variables are jointly normally distributed. First, we can derive the home interest rate expression:
 
 $$
-r_{t} = - \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1}) - \lambda_{t},
+r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1}) - \lambda_{t},
 $$
 
 which now contains the convenience yield term  $\lambda_{t}$ . When the home households' convenience yield is higher, the home bonds' interest rate is lower.
@@ -383,7 +375,7 @@ which now contains the convenience yield term  $\lambda_{t}$ . When the home hou
 Next, the foreign households' Euler equations can be expressed as
 
 $$
-\begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ - \lambda_{t}^{*} = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) + c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
+\begin{array}{l} 0 = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ - \lambda_{t}^{*} = \mathbb{E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} var_{t} (m_{t + 1}^{*}) + \mathbb{E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} var_{t} (\Delta e_{t + 1}) + cov_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
 $$
 
 Recall that the expected log excess return of the home currency against the foreign currency is defined as
@@ -397,7 +389,7 @@ Then, the Euler equations imply the following result:
 Proposition 4.1. The home currency's expected log excess return is determined jointly by the home currency's risk premium and the home bond's convenience yield:
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = r p_{t} - \lambda_{t}^{*}, \tag {4.8}
+\mathbb{E}_{t} \left[ r x_{t + 1} \right] = r p_{t} - \lambda_{t}^{*}, \tag{4.8}
 $$
 
 where  $r p_{t} \stackrel{\text{def}}{=} -\text{cov}_{t}(m_{t+1}^{*}, \Delta e_{t+1}) - \frac{1}{2}\text{var}_{t}(\Delta e_{t+1})$  is the currency risk premium.
@@ -407,15 +399,13 @@ If we compare this result to the benchmark case in Proposition 1.10, we note tha
 Similarly, there is an expression from the home households' perspective:
 
 $$
-\mathbb {E}_{t} [ - r x_{t + 1} ] = - c o v_{t} (m_{t + 1}, - \Delta e_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) + \lambda_{t}.
+\mathbb{E}_{t} [ - r x_{t + 1} ] = - cov_{t} (m_{t + 1}, - \Delta e_{t + 1}) - \frac{1}{2} var_{t} (\Delta e_{t + 1}) + \lambda_{t}.
 $$
 
-Combined together, these expressions imply that the home and foreign investors need to agree on the combination of the equilibrium
-
-currency risk premium and the convenience yield from their different perspectives:
+Combined together, these expressions imply that the home and foreign investors need to agree on the combination of the equilibrium currency risk premium and the convenience yield from their different perspectives:
 
 $$
-- c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}^{*} = c o v_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) + \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}, \tag {4.9}
+- cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}^{*} = cov_{t} \left(m_{t + 1}, - \Delta e_{t + 1}\right) + \frac{1}{2} \operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) - \lambda_{t}, \tag{4.9}
 $$
 
 which is a direct extension of Eq. (1.12) which does not consider convenience yields.
@@ -427,7 +417,7 @@ Moreover, assuming the real exchange rate is stationary, then, we obtain a more 
 Proposition 4.2. The exchange rate level is equal to the sum of expected future interest rate differentials, the sum of expected future convenience yields, the sum of expected future currency risk premia, and the long-run exchange rate level:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e}.
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e}.
 $$
 
 In other words, if today's home currency is stronger than its long-run mean, it is either because the home currency is offering a higher interest rate than the foreign currency, or it has a higher convenience yield, or because it has a lower risk premium (i.e., a lower discount rate).
@@ -435,7 +425,7 @@ In other words, if today's home currency is stronger than its long-run mean, it 
 Similar to the exchange rate accounting in Section 1.B, we can also use this formula to decompose the exchange rate innovation:
 
 $$
-(\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ e_{t} ] = \sum_{j = 0}^{\infty} (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) [ \lambda_{t + j}^{*} ] - (\mathbb {E}_{t} - \mathbb {E}_{t - 1}) \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ],
+(\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ e_{t} ] = \sum_{j = 0}^{\infty} (\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} (\mathbb{E}_{t} - \mathbb{E}_{t - 1}) [ \lambda_{t + j}^{*} ] - (\mathbb{E}_{t} - \mathbb{E}_{t - 1}) \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ],
 $$
 
 which likewise contains a convenience yield component.
@@ -443,11 +433,11 @@ which likewise contains a convenience yield component.
 Moreover, consider the risk-free rates  $\rho_{t}$  and  $\rho_{t}^{*}$  without convenience yields, which satisfy the standard Euler equations:
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + \rho_{t}) ],
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1} + \rho_{t}) ],
 $$
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \rho_{t}^{*}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \rho_{t}^{*}\right) \right].
 $$
 
 We can relate these two risk-free rates to the bond yields  $r_t$  and  $r_t^*$  by
@@ -467,7 +457,7 @@ $\rho_{t}$  by exactly  $\lambda_{t}$ . In comparison, the foreign bond does not
 Then, we can reorganize the terms in Proposition 4.2 and show
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \rho_{t + j} - \rho_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} - \lambda_{t + j} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e},
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \rho_{t + j} - \rho_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} - \lambda_{t + j} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e},
 $$
 
 which implies that the variations in the exchange rate level are driven by the variations in the risk-free rate differentials (which carry no convenience yields), in the currency risk premia, and in the difference between the convenience yields that home and foreign households derive from holding the home bond.
@@ -475,7 +465,7 @@ which implies that the variations in the exchange rate level are driven by the v
 This expression shows why it is natural to focus on the case in which home and foreign households derive different convenience yields, i.e.,  $\lambda_t \neq \lambda_t^*$ . If the home and foreign households have the identical convenience yield, i.e.,  $\lambda_t = \lambda_t^*$ , then, the exchange rate level is determined only by the risk-free rate differentials and the currency risk premia, both of which are driven by the SDFs via
 
 $$
-\begin{array}{l} \rho_{t} - \rho_{t}^{*} = - \log \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}\right) \right] + \log \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \right], \\ r p_{t} = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
+\begin{array}{l} \rho_{t} - \rho_{t}^{*} = - \log \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}\right) \right] + \log \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \right], \\ r p_{t} = - cov_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} var_{t} \left(\Delta e_{t + 1}\right). \\ \end{array}
 $$
 
 In other words, only the home and foreign households' convenience yield differential, rather than their convenience yield levels, matters for the exchange rate level.
@@ -517,13 +507,13 @@ As such, incomplete markets are an essential ingredient to make the convenience 
 The introduction of the convenience yield also broadens how we think about the relationship between the interest rate in a country and its currency strength. Under the uncovered interest rate parity (UIP) condition, a higher interest rate is associated with a stronger currency. We can see this from Proposition 4.2, which predicts a positive relationship between the currency value  $e_t$  of the home country and its interest rate  $r_t$ , holding other things constant:
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb {E}_{t} [ r p_{t + j} ] + \bar {e}.
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r_{t + j} - r_{t + j}^{*} ] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ \lambda_{t + j}^{*} ] - \sum_{j = 0}^{\infty} \mathbb{E}_{t} [ r p_{t + j} ] + \bar {e}.
 $$
 
 However, when we introduce the convenience yield, the relationship between the interest rate and the currency value becomes more complicated. By the home households' Euler equation, the home interest rate level is determined by the home households' SDF and convenience yield:
 
 $$
-r_{t} = - \mathbb {E}_{t} [ m_{t + 1} ] - \frac{1}{2} v a r_{t} (m_{t + 1}) - \lambda_{t}.
+r_{t} = - \mathbb{E}_{t} [ m_{t + 1} ] - \frac{1}{2} var_{t} (m_{t + 1}) - \lambda_{t}.
 $$
 
 In the complete-market world, convenience yields may still affect exchange rates indirectly via their effect on relative marginal utilities, for example, by affecting the natural rate in the home country [Caballero, Farhi, and Gourinchas, 2021, Kekre and Lenel, 2021].
@@ -533,13 +523,13 @@ Holding other things constant, a higher convenience yield  $\lambda_{t}$  lowers
 This discussion shows that the yield-exchange rate relationship depends on the types of shocks we are considering [Jiang, Krishnamurthy, Lustig, and Sun, 2021b]. When we consider a monetary shock  $\varepsilon_t^m$  whose primary effect is to raise the home interest rate, we expect a positive yield-exchange rate relationship:
 
 $$
-c o v_{t} \left(e_{t}, r_{t} \mid \varepsilon_{t}^{m}\right) \stackrel {\text{de f}} {=} c o v_{t} \left(p r o j \left[ e_{t} \mid \varepsilon_{t}^{m} \right], p r o j \left[ r_{t} \mid \varepsilon_{t}^{m} \right]\right) > 0.
+cov_{t} \left(e_{t}, r_{t} \mid \varepsilon_{t}^{m}\right) \stackrel {\text{de f}} {=} cov_{t} \left(proj \left[ e_{t} \mid \varepsilon_{t}^{m} \right], proj \left[ r_{t} \mid \varepsilon_{t}^{m} \right]\right) > 0.
 $$
 
 When we consider a demand shock  $\varepsilon_t^d$  whose primary effect is to raise the convenience yield, which lowers the bond yield while strengthening the currency, we expect a negative yield-exchange rate relationship:
 
 $$
-c o v_{t} (e_{t}, r_{t} | \varepsilon_{t}^{d}) \stackrel {\mathrm{de f}} {=} c o v_{t} (p r o j [ e_{t} | \varepsilon_{t}^{d} ], p r o j [ r_{t} | \varepsilon_{t}^{d} ]) <   0.
+cov_{t} (e_{t}, r_{t} | \varepsilon_{t}^{d}) \stackrel {\mathrm{de f}} {=} cov_{t} (p r o j [ e_{t} | \varepsilon_{t}^{d} ], p r o j [ r_{t} | \varepsilon_{t}^{d} ]) <   0.
 $$
 
 The overall relationship between the interest rate and the exchange rate depends on the relative strength of these two effects.
@@ -559,13 +549,13 @@ Then, in period  $t + 1$ , the investor has  $\exp (e_t + r_t^*)$  units of fore
 If this synthetic dollar bond does not carry a convenience yield, then, its Euler equation can be expressed as
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} - f_{t} + e_{t} + r_{t}^{*}) ]
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1} - f_{t} + e_{t} + r_{t}^{*}) ]
 $$
 
 from the home households' perspective, and
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right]
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right]
 $$
 
 from the foreign households' perspective.
@@ -593,7 +583,7 @@ We obtain a more realistic case by assuming that the synthetic dollar bond also 
 the convenience yield derived from the synthetic dollar bond is a fraction  $\beta^{*}$  of the convenience yield derived from the actual dollar bond from foreign households' perspective:
 
 $$
-\exp \left(- \beta^{*} \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right].
+\exp \left(- \beta^{*} \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right].
 $$
 
 If this synthetic dollar bond is representative of other non-Treasury dollar safe assets, a point we will next discuss in 4.C.1, then, conceptually we can say that for the convenience yield on the U.S. Treasury,  $\beta^{*}$  of it is about the dollar and  $1 - \beta^{*}$  of it is specifically about the U.S. Treasury. Indeed, combining with the derivation in Section 4.B, we obtain
@@ -607,7 +597,7 @@ which states that the Treasury basis captures the fraction of the convenience yi
 Similarly, from the home households' perspective, we assume that the convenience yield derived from the synthetic dollar bond is a fraction  $\beta$  of the convenience yield derived from the actual dollar bond:
 
 $$
-\exp (- \beta \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right],
+\exp (- \beta \lambda_{t}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - f_{t} + e_{t} + r_{t}^{*}\right) \right],
 $$
 
 which implies
@@ -643,7 +633,7 @@ $$
 Unlike the Treasury basis, the Libor basis was very close to zero before the Global Financial Crisis, and widened afterwards [Du, Tepper, and Verdelhan, 2018b]. This pattern suggests that the dollar Libor and the synthetic position based on the foreign Libor and the currency forward have a similar level of convenience yields before the crisis, i.e.,
 
 $$
-\begin{array}{l} \exp (- \beta^{*} \lambda_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} - l i b o r_{t}) \right], \\ = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + l i b o r_{t}^{*}\right) \right]. \\ \end{array}
+\begin{array}{l} \exp (- \beta^{*} \lambda_{t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} - l i b o r_{t}) \right], \\ = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + l i b o r_{t}^{*}\right) \right]. \\ \end{array}
 $$
 
 This is not a coincidence if there are investment banks who are indifferent between the two positions and actively arbitrage any spread between the Libor market and the currency forward market. As such, both the dollar Libor and the synthetic dollar bond earn the same, non-zero convenience yield  $\beta^{*}\lambda_{t}^{*}$ , so that their spread, i.e., the Libor basis  $x_{t}^{Libor}$ , is zero.
@@ -651,11 +641,11 @@ This is not a coincidence if there are investment banks who are indifferent betw
 After the crisis, likely due to regulatory constraints, the dollar Libor now contains a higher level of convenience yield, and banks face higher costs to arbitrage this spread.2 As a result, the dollar Libor has a higher level of convenience yield than the synthetic dollar bond, leading to a negative Libor basis:
 
 $$
-\exp (- \gamma^{*} \lambda_{t}^{*}) = \mathbb {E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} - l i b o r_{t}) \right],
+\exp (- \gamma^{*} \lambda_{t}^{*}) = \mathbb{E}_{t} \left[ \exp (m_{t + 1}^{*} + \Delta e_{t + 1} - l i b o r_{t}) \right],
 $$
 
 $$
-\exp \left(- \beta^{*} \lambda_{t}^{*}\right) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + l i b o r_{t}^{*}\right) \right];
+\exp \left(- \beta^{*} \lambda_{t}^{*}\right) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} - f_{t} + e_{t} + l i b o r_{t}^{*}\right) \right];
 $$
 
 with  $\gamma^{*} > \beta^{*}$
@@ -687,7 +677,7 @@ The convenience yields accrue to bonds that are safe and liquid, which is why we
 We start with the model developed in Section 4.A, and additionally allow the households to trade long-term bonds. Specifically, let  $q_{t}(h)$  denote the book value of the home households' holding of the bond with maturity  $h$  and let  $p_{t}(h)$  denote the price of the bond with maturity  $h$ . All bonds are risk-free. We still assume that the investors derive utility only from holding the 1-period bond:
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (q_{t} (1) p_{t} (1); \theta_{t})) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (q_{t} (1) p_{t} (1); \theta_{t})) \right].
 $$
 
 However, because the long-term Treasury bonds will eventually become short-term bonds as they mature, if the investors do not differentiate between on-the-run and off-the-run bonds, then, the convenience yield on the short-term bonds will also affect the pricing of the long-term bonds.
@@ -697,25 +687,25 @@ Similar to the model in Section 4.A, we can derive the households'
 Euler equation for holding the 1-period bond as
 
 $$
-\exp (- \lambda_{t}) \stackrel {\mathrm{de f}} {=} 1 - \frac{v^{\prime} (q_{t} (1) ; \theta_{t})}{u^{\prime} (c_{t})} = \mathbb {E}_{t} \left[ \exp (m_{t, t + 1}) \frac{1}{p_{t} (1)} \right],
+\exp (- \lambda_{t}) \stackrel {\mathrm{de f}} {=} 1 - \frac{v^{\prime} (q_{t} (1) ; \theta_{t})}{u^{\prime} (c_{t})} = \mathbb{E}_{t} \left[ \exp (m_{t, t + 1}) \frac{1}{p_{t} (1)} \right],
 $$
 
 where the convenience yield  $\lambda_{t}$  reflects the marginal utility derived from the convenience benefits of the 1-period bond. Rearranging terms, we obtain
 
 $$
-p_{t} (1) = \mathbb {E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \right] \exp (\lambda_{t}).
+p_{t} (1) = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \right] \exp (\lambda_{t}).
 $$
 
 Now, consider the 2-period bond. We can write the households' Euler equation for this bond as
 
 $$
-p_{t} (2) = \mathbb {E}_{t} \left[ \exp (m_{t, t + 1}) p_{t + 1} (1) \right],
+p_{t} (2) = \mathbb{E}_{t} \left[ \exp (m_{t, t + 1}) p_{t + 1} (1) \right],
 $$
 
 which does not contain a convenience yield term since the 2-period bond does not offer any immediate convenience benefits. However, if we substitute the 1-period bond price into the equation, we obtain
 
 $$
-p_{t} (2) = \mathbb {E}_{t} \left[ \exp \left(m_{t, t + 1} + \lambda_{t + 1}\right) \mathbb {E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right],
+p_{t} (2) = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + 1} + \lambda_{t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right],
 $$
 
 which implies that the bond price today reflects the expectation of the bond's convenience yield when it becomes 1-period bond in the next period. In this way, the convenience yield that only accrues to the short-term bond can affect the entire term structure of bond prices.
@@ -723,7 +713,7 @@ which implies that the bond price today reflects the expectation of the bond's c
 Moreover, the next period's convenience yield  $\lambda_{t+1}$  is priced by the SDF  $m_{t,t+1}$  in the sense that their covariance also matters. We can rewrite the 2-period bond price as
 
 $$
-\begin{array}{l} p_{t} (2) = \mathbb {E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \mathbb {E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right] \mathbb {E}_{t} \left[ \exp \left(\lambda_{t + 1}\right) \right] \\ + c o v_{t} \left(\exp \left(m_{t, t + 1}\right) \mathbb {E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right], \exp \left(\lambda_{t + 1}\right)\right). \\ \end{array}
+\begin{array}{l} p_{t} (2) = \mathbb{E}_{t} \left[ \exp \left(m_{t, t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right] \right] \mathbb{E}_{t} \left[ \exp \left(\lambda_{t + 1}\right) \right] \\ + cov_{t} \left(\exp \left(m_{t, t + 1}\right) \mathbb{E}_{t + 1} \left[ \exp \left(m_{t + 1, t + 2}\right) \right], \exp \left(\lambda_{t + 1}\right)\right). \\ \end{array}
 $$
 
 On the right-hand side, the first term shows that a higher expected convenience yield increases the price of the 2-period bond today, and the second term shows that a more counter-cyclical convenience yield can additionally raise the bond price by lowering its risk premium.
@@ -735,7 +725,7 @@ More realistically, we can additionally assume that the investors derive utility
 can generalize the function  $v$  as
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (\sum_{h = 1}^{H} w_{t} (h) q_{t} (h) p_{t} (h); \theta_{t})) \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} (u (c_{t}) + v (\sum_{h = 1}^{H} w_{t} (h) q_{t} (h) p_{t} (h); \theta_{t})) \right],
 $$
 
 where the weight  $w_{t}(h)$  describes the relative amount of convenience generated by the bond with maturity  $h$ . For example, if the nonpecuniary utility is generated by the bonds' plegeability in the repo market, then,  $w_{t}(h)$  describes the different hair cuts on the bonds with different maturities.

@@ -1,26 +1,26 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '0'
-linter-yaml-title-alias: '0'
+title: "Preface"
+parent_directory: "Lecture Notes on International Finance chapters"
+formatted: 2025-12-21 02:35:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- course macroeconomics asset pricing
-- international macroeconomics finance connect
-- exchange rates capital
+- international macroeconomics finance
+- exchange rates determinants
+- capital flows imbalances
+- monetary fiscal policies
+- international monetary system
 secondary_tags:
-- preface international macroeconomics finance
-- issues international macroeconomics finance
-- international macroeconomics finance like
-- macroeconomics finance include trade
-- international macroeconomics finance subfield
-- levels issues international macroeconomics
-tags_extracted: '2025-12-18T01:43:40.765205'
+- fiscal deficits exchange rates
+- global financial crises
+- bretton woods breakdown
+- eurozone sovereign yields
+- treasury market flows
+- flight to safety
+- quantitative easing
+- core periphery structure
+cssclasses: academia
 ---
-
-# 0
 
 # Preface
 
@@ -36,13 +36,20 @@ A pretty impressive summary, right? In the narrower scope of this lecture note, 
 
 First, we would like to understand the determinants of exchange rates and international asset prices. As with generic asset pricing, we would like to understand what drives exchange rates and international asset prices to fluctuate ex-post, what drives some currencies and assets to have higher expected returns ex-ante, and how to characterize the risk-return trade-off. The international asset prices include bond yields across countries, which, as we will see, are closely related to the currency market, as well as international equity prices, though they will receive much shallower coverage in this note.
 
-Second, there is a quantity dimension, which includes capital flows, international portfolio positions and imbalances, as well as imports and exports of various goods. Another key agenda in international macroeconomics and finance is to connect these quantities
-
-to the exchange rates and asset prices. We would like to understand how these quantities evolve between countries, sectors, and agents, and whether they share common drivers with exchange rate fluctuations.
+Second, there is a quantity dimension, which includes capital flows, international portfolio positions and imbalances, as well as imports and exports of various goods. Another key agenda in international macroeconomics and finance is to connect these quantities to the exchange rates and asset prices. We would like to understand how these quantities evolve between countries, sectors, and agents, and whether they share common drivers with exchange rate fluctuations.
 
 Third, we also need to understand the roles played by monetary and fiscal policies in regulating and shaping the asset price and quantity dynamics. Besides the conventional interest rate policies and foreign exchange market interventions, unconventional monetary policies such as large scale asset purchases and sales have become very important and change our understanding of the monetary transmission mechanism. Moreover, the government debt and deficits have risen to unprecedented levels in the post-war history. The fiscal outlooks also shape how investors price the government liabilities including debt and currencies.
 
 Finally, from a global perspective, we need to understand what constitutes the international monetary system, what makes it stable or unstable, where it comes from, and how it is going to evolve. Of particular interest is the asymmetric core-periphery structure suggested by exchange rates, capital flows and imbalances data. We would like to understand what enables the U.S. to currently occupy the central position, and how its centrality is shaping the financial markets.
+
+```d2
+direction: right
+determinants: Determinants of Exchange Rates and International Asset Prices
+quantities: Quantity Dimension - Capital Flows, Imbalances, and Trade
+policies: Roles of Monetary and Fiscal Policies
+system: International Monetary System and Core-Periphery Structure
+determinants -> quantities -> policies -> system
+```
 
 A good understanding of these four levels of issues in international macroeconomics and finance helps us understand the world and design better policies and institutions. Pioneers in this field have thought about these issues throughout history. To motivate the issues that we study, let us consider some of my favorite historical episodes that bear economic significance for this research field.
 
@@ -50,9 +57,7 @@ First, consider the exchange rate fluctuations during the interbellum years. The
 
 These large fiscal deficits were accompanied by dramatic currency depreciation. The right panel of Figure 1 plots these countries' nominal exchange rates against the U.S. dollar. All three currencies went off their pegs to the gold. In the cross-section, consistent with the U.K. running the smallest fiscal deficits, the U.K. pound depreciated the least. The French franc depreciated more than the U.K. pound, and the German mark depreciated the most. In the time series, after Germany introduced the new currency, the Reichsmark, in 1924, the exchange rate stabilized as the fiscal deficits were reduced.
 
-These cross-sectional and time-series patterns suggest a strong
-
-link between fiscal deficits and exchange rates. We will discuss this link in detail in Chapter 6. This period also witnessed the rise of the U.S. dollar as the dominant international currency and the transfer of international financial center from the U.K. to the U.S. We will discuss the financial hegemon and the architecture of the international monetary system in Chapter 7.
+These cross-sectional and time-series patterns suggest a strong link between fiscal deficits and exchange rates. We will discuss this link in detail in Chapter 6. This period also witnessed the rise of the U.S. dollar as the dominant international currency and the transfer of international financial center from the U.K. to the U.S. We will discuss the financial hegemon and the architecture of the international monetary system in Chapter 7.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/90ea3ac34f93d142d5ea5e55e5b55e4524e15ec6cd022e9f25b29caeb756403e.jpg)
 
@@ -60,7 +65,7 @@ link between fiscal deficits and exchange rates. We will discuss this link in de
 
 Figure 1: Fiscal Surpluses and Exchange Rates in the Interbellum Years. Source: Mitchell [2007].
 
-Second, consider the dollar exchange rate after the break-down of the Bretton Woods system in 1973. Before 1973, many foreign currencies were pegged to the U.S. dollar at fixed exchange rates, which was in turn pegged to gold. As this system broke down, the exchange rates became floating. Figure 2 plots the trade-weighted real dollar index, which measures the strength of the U.S. dollar in real terms against a basket of foreign currencies weighted by their trade shares. We observe several periods of large and persistent dollar appreciation and depreciation. For example, the dollar depreciated by over  $25\%$  in the 70s after it was depegged from the gold, followed by appreciation by almost  $50\%$  in the early 80s aided by higher U.S. interest rates. Then, concerned about the dollar's strength, the U.S. and other major countries reached the Plaza Accord in 1985. They intervened the foreign exchange market to orchestrate dollar depreciation against the French franc, the German mark, the Japanese yen and, the British pound. The dollar appreciated again in the mid-90s, followed by dollar depreciation in early 2000s due to increased risk appetite for investing abroad. This run of dollar depreciation and capital outflows came to an end when the global financial crisis hit in 2008, which led to a flight to safety and dollar appreciation. The dollar depreciated after the panic subsided. Finally, the dollar experienced a decade-long appreciation since early 2010s, which lasted till this day.
+Second, consider the dollar exchange rate after the break-down of the Bretton Woods system in 1973. Before 1973, many foreign currencies were pegged to the U.S. dollar at fixed exchange rates, which was in turn pegged to gold. As this system broke down, the exchange rates became floating. Figure 2 plots the trade-weighted real dollar index, which measures the strength of the U.S. dollar in real terms against a basket of foreign currencies weighted by their trade shares. We observe several periods of large and persistent dollar appreciation and depreciation. For example, the dollar depreciated by over $25\%$ in the 70s after it was depegged from the gold, followed by appreciation by almost $50\%$ in the early 80s aided by higher U.S. interest rates. Then, concerned about the dollar's strength, the U.S. and other major countries reached the Plaza Accord in 1985. They intervened the foreign exchange market to orchestrate dollar depreciation against the French franc, the German mark, the Japanese yen and, the British pound. The dollar appreciated again in the mid-90s, followed by dollar depreciation in early 2000s due to increased risk appetite for investing abroad. This run of dollar depreciation and capital outflows came to an end when the global financial crisis hit in 2008, which led to a flight to safety and dollar appreciation. The dollar depreciated after the panic subsided. Finally, the dollar experienced a decade-long appreciation since early 2010s, which lasted till this day.
 
 While this is far from a complete account of the dollar's exchange rate movement, it begs two obvious questions. First, is there a systematic pattern in the dollar's exchange rate in relation to global crisis? Second, are there regime shifts in the main drivers of the dollar exchange rate? We will discuss these questions throughout this note.
 
@@ -68,29 +73,17 @@ While this is far from a complete account of the dollar's exchange rate movement
 
 Figure 2: The U.S. Real Exchange Rate. Source: FRED.
 
-Third, consider the evolution of sovereign bond yields in the Eurozone, which share the same currency denomination. Figure 3 plots the sovereign yields in different Eurozone countries, which shows three distinct regimes. First, before the global financial crisis in 2008, the yields were almost identical. Second, after the crisis, the yields diverged sharply as the European sovereign debt crisis unfolded. For example, Germany's and France's bond yields remained as low as  $2\%$  in early 2010s, whereas Italy's and Portugal's bond yields rose above  $10\%$ . Third, the yields converged again after 2015, possibly aided by the ECB bond purchase programs this time.
+Third, consider the evolution of sovereign bond yields in the Eurozone, which share the same currency denomination. Figure 3 plots the sovereign yields in different Eurozone countries, which shows three distinct regimes. First, before the global financial crisis in 2008, the yields were almost identical. Second, after the crisis, the yields diverged sharply as the European sovereign debt crisis unfolded. For example, Germany's and France's bond yields remained as low as $2\%$ in early 2010s, whereas Italy's and Portugal's bond yields rose above $10\%$. Third, the yields converged again after 2015, possibly aided by the ECB bond purchase programs this time.
 
 It turns out that these yield differentials are driven not only by the default spreads, which reflect the fact that different sovereign debt has different default probabilities and hence carries different risk premia, but also by the convenience yields, which we will discuss in Chapter 4. Moreover, the monetary and fiscal policies played important roles in shaping these yield differentials. We will discuss these issues in Chapter 6.
 
-Finally, consider the net flows to the U.S. Treasury market. Figure 4 plots the annualized net flows into U.S. Treasury notes and bonds, and decomposes the flows into three components: domestic
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/51399a93ba5135edb4e0e6fb56f6b7eeafb80369df574075e8ba35a5467463a2.jpg)
-
-Figure 3: 5-Year Bond Yields in Eurozone. Source: Jiang, Lustig, Van Nieuwerburgh, and Xiaolan [2020c].
-
-investors, the Fed, and the rest of the world (ROW). We observe three different regimes. First, from the mid 1970s until the mid 1990s, the U.S. domestic agents, including the financial sector such as banks, insurance companies, pensions and the household sector, absorbed a significant fraction of the new debt issuance. They were the major players in the Treasury market, whereas the flows and the positions of the Fed and the ROW were relatively small.
+Finally, consider the net flows to the U.S. Treasury market. Figure 4 plots the annualized net flows into U.S. Treasury notes and bonds, and decomposes the flows into three components: domestic investors, the Fed, and the rest of the world (ROW). We observe three different regimes. First, from the mid 1970s until the mid 1990s, the U.S. domestic agents, including the financial sector such as banks, insurance companies, pensions and the household sector, absorbed a significant fraction of the new debt issuance. They were the major players in the Treasury market, whereas the flows and the positions of the Fed and the ROW were relatively small.
 
 There was a distinct shift in the mid-to-late 1990s, when the ROW became the main Treasury buyers while the domestic investors became net sellers. In this second regime through 2015, the ROW was by far the most important buyer of U.S. Treasuries. Their inflows were particularly pronounced during the global financial crisis, which is consistent with the flight to safety observed in safe dollar bond prices. The Fed also started playing a more active role since the global financial crisis, as it undertook quantitative easing and expanded its balance sheet.
 
 Since 2015, we have entered a third regime characterized by weaker demand from the ROW. In fact, contrary to its countercyclical purchases of the U.S. Treasuries in previous decades, it became a net seller in the Treasury market during the Covid-19 crisis. In comparison, the Fed became a much more active buyer during the Covid-19 crisis. Bond purchases from the ROW re-emerged after the Covid-19 crisis, albeit smaller in magnitude than prior to 2015. In Chapters 7 and 9, we will discuss different approaches to understanding the cross-border asset allocations and the implications for the capital flows and exchange rates.
 
-The goal of this note is to develop a coherent theoretical framework for understanding all these phenomena in international macroe
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/52defffcc30782e4f5cc7d5b61014ffb8c7d480744b22a89a4318a14a07b2548.jpg)
-
-Figure 4: Net Flows to U.S. Treasury Notes and Bonds Normalized by U.S. GDP. Source: Jiang, Krishnamurthy, and Lustig [2022a].
-
-conomics and finance. That said, I do not mean to give the impression that all is known. Instead, much remains to be understood, and a lot is left out by this note. I hope this note offers curious readers a starting point for further exploration.
+The goal of this note is to develop a coherent theoretical framework for understanding all these phenomena in international macroeconomics and finance. That said, I do not mean to give the impression that all is known. Instead, much remains to be understood, and a lot is left out by this note. I hope this note offers curious readers a starting point for further exploration.
 
 This note is organized by three parts: (1) introduction, (2) understanding exchange rates, and (3) understanding quantities and flows. In introduction, I start by building a benchmark two-country model of international business cycles that is a natural generalization of the standard closed-economy real business cycle model. This benchmark model offers a clear starting point, although it falls short in terms of explaining many stylized facts in the exchange rate and quantity data. Then, the part on exchange rates develops a series of extensions and modifications of the benchmark model that can help us understand the exchange rate dynamics. Building on this part, the part on quantities and flows further develops frameworks that can help us speak to the quantity dynamics.
 

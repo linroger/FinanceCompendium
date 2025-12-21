@@ -1,38 +1,34 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'Puzzles: Challenges to Making Sense of Data'
-linter-yaml-title-alias: 'Puzzles: Challenges to Making Sense of Data'
+title: Puzzles: Challenges to Making Sense of Data
+parent_directory: Lecture Notes on International Finance chapters
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- realized currency
-- comovement shows international finance
-- exchange rate movement cyclicality
-- understand government debt
+  - exchange rate puzzles
+  - currency risk premium
+  - international imbalances
+  - covered interest parity
 secondary_tags:
-- exchange rate data puzzles
-- exchange rate movement sdfs
-- international risk sharing puzzle
-- movement volatility developed economies
-- volatility puzzle unconditional variance
-- conduct decomposition currency risk
-- volatility exchange rate
-- puzzle models risk
-- return comovement exhibit puzzling
-tags_extracted: '2025-12-18T01:44:14.951689'
+  - volatility puzzle
+  - exchange rate disconnect
+  - currency comovement
+  - exorbitant privilege
+  - global financial cycle
+  - uncovered interest parity
+  - flight to safety
+cssclasses: academia
 ---
 
 # Puzzles: Challenges to Making Sense of Data
 
-# Summary
+## Summary
 
 - The stochastic properties of the exchange rate movement—cyclicality, volatility, expected return, and comovement—exhibit puzzling patterns that are difficult to explain by the complete-market benchmark model.  
 - Combining bond and currency forward positions generates non-zero risk-free returns. These near-arbitrage spreads also require significant modifications on the benchmark model.  
 - International portfolio quantities and capital flows exhibit strong asymmetry and cyclicality, which also impose important restrictions on how we specify the model.
 
-# 2.A Challenges to Making Sense of Exchange Rates
+## 2.A Challenges to Making Sense of Exchange Rates
 
 The two-country economy we derived in the previous chapter is a direct extension of the standard one-country real business cycle model. When pioneers in this field confront the model's implications with the exchange rate data, many puzzles emerge. Each puzzle sheds light on a dimension of the exchange rate data that is at odds with the benchmark model, and serves as a useful landmark to guide us to think about how to make progress in the theoretical literature.
 
@@ -44,15 +40,15 @@ $$
 
 As this lecture note focuses on the theoretical foundation, we only provide a brief overview of the empirical puzzles. For more comprehensive reviews of the empirical literature, see the lecture notes by Ralph Koijen and Stijn Van Nieuwerburgh<sup>1</sup> and the lecture notes from Stanford Big-Data Initiative in International Macro-Finance.<sup>2</sup>
 
-1 https://www.koijen.net/phd-notes-empirical-asset-pricing.html  
-$^{2}$  https://www.gsb.stanford.edu/faculty-research/faculty/conferences/big-data-initiative-international-macro-finance/videos-codes
+[^1]: https://www.koijen.net/phd-notes-empirical-asset-pricing.html  
+[^2]: https://www.gsb.stanford.edu/faculty-research/faculty/conferences/big-data-initiative-international-macro-finance/videos-codes
 
-# 2.A.1 Volatility Puzzle
+### 2.A.1 Volatility Puzzle
 
-If we take an unconditional variance on both the leftand right-hand sides of Eq. (1.16), we obtain
+If we take an unconditional variance on both the left- and right-hand sides of Eq. (1.16), we obtain
 
 $$
-v a r (\Delta e_{t + 1}) = v a r (m_{t + 1} - m_{t + 1}^{*}) = v a r (m_{t + 1}) + v a r (m_{t + 1}^{*}) - 2 c o v (m_{t + 1}, m_{t + 1}^{*}),
+\operatorname{var}(\Delta e_{t + 1}) = \operatorname{var}(m_{t + 1} - m_{t + 1}^{*}) = \operatorname{var}(m_{t + 1}) + \operatorname{var}(m_{t + 1}^{*}) - 2 \operatorname{cov}(m_{t + 1}, m_{t + 1}^{*}),
 $$
 
 which states that the exchange rate variance should be equal to the variance of the SDF differential, which can be decomposed to the sum of SDF variances minus two times the SDF covariance.
@@ -69,7 +65,7 @@ Brandt, Cochrane, and Santa-Clara [2006] compares the implied SDF volatility wit
 
 This puzzle triggers two responses in the subsequent literature. First, many papers stay within the complete-market benchmark but posit mechanisms that generate a high correlation between home and foreign SDFs. Chapter 3 develops this idea in detail. Second, other papers deviate from the complete-market benchmark and study alternative settings in which Eq. (1.16) do not hold. Chapters 4 and 5 develop some of these ideas in detail.
 
-# 2.A.2 Exchange Rate Disconnect
+### 2.A.2 Exchange Rate Disconnect
 
 Use the definition of the SDFs in Section 1.A, we can rewrite Eq. (1.16) as
 
@@ -93,12 +89,12 @@ In addition to consumption and fundamental variables, the exchange rate movement
 
 Attempts to theoretically resolve this disconnect between exchange rates and economic fundamentals again fall under the two categories above. First, within the complete-market benchmark, we can posit mechanisms that generate volatile exchange rates while keeping their correlation with economic fundamentals low. This can be done by considering richer preferences or additional (and usually unobservable) drivers of the SDFs, or both. Second, we consider deviations from the complete-market benchmark, which generate wedges in the Euler equations that disentangle the exchange rates from the economic fundamentals that ought to drive the SDFs.
 
-# 2.A.3 Currency Risk Premium in the Cross-section
+### 2.A.3 Currency Risk Premium in the Cross-section
 
 Besides exchange rate volatility and correlation with economic fundamentals, currency returns also have several salient patterns. Consider first the unconditional expected returns in the cross-section of currencies. According to the derivation in Section 1.B,
 
 $$
-\mathbb {E} [ r x_{t + 1} ] = \mathbb {E} [ r p_{t} ] \stackrel {\mathrm{de f}} {=} \mathbb {E} \left[ - c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) \right].
+\mathbb{E}[rx_{t + 1}] = \mathbb{E}[rp_{t}] \stackrel{\mathrm{def}}{=} \mathbb{E}\left[ - \operatorname{cov}_{t}(m_{t + 1}^{*}, \Delta e_{t + 1}) - \frac{1}{2} \operatorname{var}_{t}(\Delta e_{t + 1}) \right].
 $$
 
 Among developed countries, some currencies like Australian dollar and New Zealand dollar have persistently high excess returns
@@ -115,7 +111,7 @@ $$
 
 the slope coefficient  $\beta_{t}$  tends to be positive. As a result, if we sort currencies into portfolios based on their interest rates and buy high interest rate currencies against low interest rate currencies, which may produce more stable differences in currency risk premia [Lustig and Verdelhan, 2007], we obtain a carry trade portfolio that offers high average returns.
 
-# 2.A.4 Currency Risk Premium in the Time Series
+### 2.A.4 Currency Risk Premium in the Time Series
 
 The positive association between interest rates and currency returns applies to not only the cross-section of currencies but also the time series of a specific currency pair. Fama [1984] first shows this result using the forward premium, which is the difference between the currency forward rate and the spot exchange rate. A forward contract allows investors to lock in the foreign exchange rate at a fixed rate  $f_{t}^{i}$  in the next period. Fama [1984] regresses the currency excess return on the ex-ante forward premium in the times series of currency  $i$  against the U.S. dollar:
 
@@ -155,7 +151,7 @@ A model that seeks to tackle the risk premium puzzles should be able to explain 
 
 The simplest model that the data do not reject features a cross-sectional asymmetry that makes some currencies pay permanently higher expected returns than others, and larger time series variation in expected returns on the U.S. dollar than on other currencies.
 
-# 2.A.5 Exchange Rate Comovements
+### 2.A.5 Exchange Rate Comovements
 
 While the exchange rate movements are disconnected from the economic fundamentals, they are highly correlated across countries and exhibit a factor structure. According to Verdelhan [2018], two common factors, carry and dollar, account for  $18\%$  to  $80\%$  of the monthly exchange rate movements.
 
@@ -175,7 +171,7 @@ $$
 
 This alignment of risk exposures and risk premia, central to all asset pricing, is also confirmed in the currency market.
 
-# 2.A.6 Covered Interest Rate Parity Violation and Convenience Yields
+### 2.A.6 Covered Interest Rate Parity Violation and Convenience Yields
 
 The exchange rate puzzles above are all related to the stochastic properties of exchange rates. A more recent literature examines returns from currency market strategies that have no risks, at least in theory. The fact that these risk-free strategies earn non-zero returns suggests violations of the no-arbitrage condition, and could therefore shed light on the frictions and preferences faced by the investors in the international financial markets.
 
@@ -208,7 +204,7 @@ Figure 2.1 also plots the Treasury CIP basis. Unlike the Libor CIP basis, the Tr
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/24bf59715ba3b4713233f953b896e387fb82ff4e78eb3bfb77017f6e05fad443.jpg)  
 Figure 2.1: U.S. Treasury and Libor CIP Basis. Data source: Jiang, Krishnamurthy, and Lustig [2021a].
 
-# 2.A.7 Currency Risk Premia across Horizons
+### 2.A.7 Currency Risk Premia across Horizons
 
 We can also consider the currency returns across multiple horizons, which can be achieved by either rolling over short-term debt positions in home and foreign currencies, or by investing in long-term
 
@@ -216,9 +212,9 @@ debt positions. Lustig, Stathopoulos, and Verdelhan [2019] show that the long-ru
 
 Engel [2016] shows that high interest rate currencies not only have higher expected returns in the short term, but also are stronger than can be accounted for by the path of expected real interest differentials. In other words, high interest rates must predict lower currency returns in the long term. Relatedly, Dahlquist and Pénasse [2022], Chernov and Creal [2023] show that the exchange rate level predicts currency returns. Thus, a coherent account of the multi-horizon currency returns involves the interest rate predicting higher currency returns and higher exchange rate levels in the short term, and the elevated exchange rate levels predicting lower currency returns in the medium-to-long term.
 
-# 2.B Challenges to Making Sense of Quantities and Flows
+## 2.B Challenges to Making Sense of Quantities and Flows
 
-# 2.B.1 Global Imbalances
+### 2.B.1 Global Imbalances
 
 We start with the U.S. net external imbalances vis-à-vis the rest of the world. We consider the equity-like, riskier asset classes and the debt-like, safer asset classes separately. Let us define the net risky position as the sum of portfolio equity assets and foreign direct investment (FDI) assets minus portfolio equity liabilities and FDI liabilities, and define the net safe position as the reserve assets plus debt assets minus debt liabilities [Gourinchas, Rey, and Sauzet, 2019].
 
@@ -237,7 +233,7 @@ We also sum up the U.S. net risky and safe positions to obtain the U.S. net fore
 
 As we will see in Chapter 7, these imbalances reflect a fundamental asymmetry between the U.S. and the rest of the world. They play an important role in our understanding of the international monetary system, as they are closely tied to the global risk-sharing arrangements and the unique position of the U.S. and the dollar.
 
-# 2.B.2 The Exorbitant Privilege and Duty
+### 2.B.2 The Exorbitant Privilege and Duty
 
 Changes in the U.S. external imbalances are driven by both the quantity of capital flows into and out of the U.S. and the returns on the existing assets and liabilities. When we examine the latter component, we find that the U.S. tends to earn a higher return on its external assets relative to what it pays to foreigners on its external liabilities. To describe this phenomenon, the French Minister of Finance Valery Giscard d'Estaing coined the term "exorbitant privilege" in 1965 [Gourinchas and Rey, 2007b, Gourinchas, Rey, and Govillot,
 
@@ -275,7 +271,7 @@ $$
 
 An increase in the U.S. net foreign assets can be attributed to either national saving by running a higher trade surplus and saving the income abroad, or earning a higher capital gains or incomes from foreign financial assets. Conversely, holding the NFA constant, a trade deficit can be financed by profits from the portfolio side.
 
-# 2.B.3 Countercyclical Flight To Safety
+### 2.B.3 Countercyclical Flight To Safety
 
 There is also a quantity aspect to the exorbitant privilege, which can be illustrated by the following hypothetical example that I considered in Jiang, Krishnamurthy, and Lustig [2022a]. There are two investment periods. In period 1 the U.S. Treasury yield is high at  $5\%$ . In period 2 the U.S. Treasury yield is low at  $1\%$ . Table 2.1 illustrates the returns and the holdings of home and foreign investors. The foreign investors buy more Treasuries when the yield is lower in period 2, whereas the home investors buy more Treasuries when the yield is higher in period 1. In a crude way, this assumption captures the foreigners' countercyclical flight to safety provided by the U.S. Treasury market: they buy U.S. Treasuries when they are expensive and offer low returns, and they exit their positions when Treasury bonds are cheap and offer high returns.
 
@@ -293,7 +289,7 @@ This countercyclical flight to U.S. safe assets benefits their issuers such as t
 
 In our fiat currency system, being the hegemon confers a specific ability to issue large amounts of nominally safe liabilities (dollar securities), which are happily absorbed by the rest of the world. Thus, the view is that, in case of a deficit, the United States does not have to take restrictive measures, so that the dollar is not an impartial means of international exchange. This is the essence of the exorbitant privilege.
 
-# 2.B.4 Twin Deficits
+### 2.B.4 Twin Deficits
 
 The U.S. external imbalances are also closely related with the U.S. government budget deficits. Figure 2.5 plots the U.S. government's
 
@@ -303,7 +299,7 @@ total government debt held by public/GDP ratio and the U.S. external liability/G
 
 This comovement shows that international finance and government finance are closely intertwined. On the one hand, the foreign investors, private and official, have been financing a large portion of the U.S. external liabilities. To understand why this is the case, it is important to understand why they find the U.S. government debt particularly desirable. On the other hand, a large portion of the U.S. government debt has been financed by foreign investors. To evaluate the U.S. fiscal sustainability, it is also important to take a global perspective. We will consider these issues in detail in Chapters 7 and 8.
 
-# 2.B.5 Other Empirical Patterns
+### 2.B.5 Other Empirical Patterns
 
 There are many more empirical patterns that this note does not have space to cover. For example, home bias is a salient pattern in international asset allocation. Lewis [1999] provides a summary of the literature. More recently, micro-data shed new light on cross-border portfolio positions and global capital allocations. Florez-Orrego, Maggiori, Schreger, Sun, and Tinda [2023] provide a review of this literature.
 
@@ -311,12 +307,3 @@ There are many more empirical patterns that this note does not have space to cov
 Figure 2.5: U.S. Public and External Liabilities. The figure plots the U.S. public liability/GDP ratio and the U.S. external liability/GDP ratio. The shaded areas represent NBER recessions. Data source: FRED and Lane and Milesi-Ferretti [2007].
 
 Miranda-Agrippino and Rey [2022] provide a summary of the literature on the global financial cycle, which refers to the strong comovements between exchange rates, asset prices, capital flows, and the U.S. monetary policy. Du and Schreger [2022a] provide a review of the literature on the CIP deviation and frictions in international capital markets. Hassan and Zhang [2021] provide a review of the literature on currency risks and returns.
-
-Part II
-
-# Understanding the
-
-# Exchange Rates
-
-# 3
-

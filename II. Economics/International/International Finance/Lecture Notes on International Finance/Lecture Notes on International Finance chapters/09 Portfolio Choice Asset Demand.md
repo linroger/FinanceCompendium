@@ -1,74 +1,69 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Portfolio Choice and Asset Demand
-linter-yaml-title-alias: Portfolio Choice and Asset Demand
+title: "Portfolio Choice and Asset Demand"
+parent_directory: "Lecture Notes on International Finance chapters"
+formatted: "2025-12-21 07:15:00 AM"
+formatter_model: "claude-sonnet-4-5"
+cli-tool: "claude-code"
 primary_tags:
-- rebalancing trading variations asset
-- wealth dynamics international nfa
-- portfolio choices capital flows
-- international portfolio dynamics
+  - "portfolio choice theory"
+  - "asset demand systems"
+  - "international portfolio allocation"
+  - "net foreign assets dynamics"
 secondary_tags:
-- portfolio choice asset demand
-- country asset class demand
-- trade portfolio choice theory
-- countries choose portfolios portfolios
-- household portfolio net foreign
-- capital flow dynamics country
-- foreign assets difference
-- allocation decisions aggregate international
-- trade balance aggregate financial
-tags_extracted: '2025-12-18T01:45:10.716586'
+  - "mean variance optimization"
+  - "demand system approach"
+  - "portfolio rebalancing"
+  - "capital flow determinants"
+  - "international wealth transfers"
+  - "balance of payments"
+  - "financial savings"
+  - "asset pricing models"
+cssclasses: academia
 ---
 
 # Portfolio Choice and Asset Demand
 
-# Summary
+## Summary
 
 - International portfolio choices underlie each country's external imbalance and capital flow dynamics. A country's net foreign assets are directly a consequence of portfolio choices:
 
 $$
-n f a_{t} \stackrel {\mathrm{de f}} {=} a_{t} \sum_{\iota} x_{F, t} (\iota) - a_{t}^{*} \sum_{\iota} x_{H, t}^{*} (\iota),
+nfa_{t} \stackrel{\mathrm{def}}{=} a_{t} \sum_{\iota} x_{F,t}(\iota) - a_{t}^{*} \sum_{\iota} x_{H,t}^{*}(\iota)
 $$
 
 the capital flows depend on how the portfolio choices evolve:
 
 $$
-c f_{t} \stackrel {\mathrm{de f}} {=} \sum_{\iota} \left(a_{t} x_{F, t} (\iota) - a_{t - 1} x_{F, t - 1} (\iota) \frac{p_{t}^{*} (\iota)}{p_{t - 1}^{*} (\iota)}\right) - \sum_{\iota} \left(a_{t}^{*} x_{H, t}^{*} (\iota) - a_{t - 1}^{*} x_{H, t - 1}^{*} (\iota) \frac{p_{t} (\iota)}{p_{t - 1} (\iota)}\right),
+cf_{t} \stackrel{\mathrm{def}}{=} \sum_{\iota} \left(a_{t} x_{F,t}(\iota) - a_{t-1} x_{F,t-1}(\iota) \frac{p_{t}^{*}(\iota)}{p_{t-1}^{*}(\iota)}\right) - \sum_{\iota} \left(a_{t}^{*} x_{H,t}^{*}(\iota) - a_{t-1}^{*} x_{H,t-1}^{*}(\iota) \frac{p_{t}(\iota)}{p_{t-1}(\iota)}\right)
 $$
 
 and the profits from the chosen portfolios determine how a country's external wealth evolves:
 
 $$
-n f a_{t} - n f a_{t - 1} = t b_{t} + i b_{t} + c g_{t}.
+nfa_{t} - nfa_{t-1} = tb_{t} + ib_{t} + cg_{t}
 $$
 
 - The standard asset pricing literature models portfolio choices as the mean-variance trade-off plus additional dynamic hedging terms:
 
 $$
-x_{t} = \gamma^{- 1} \Sigma_{t}^{- 1} \mathbb {E}_{t} \left[ r_{t + 1} \right] + \text{dy na mi ch ed gi ng te rm s}.
+x_{t} = \gamma^{-1} \Sigma_{t}^{-1} \mathbb{E}_{t} \left[ r_{t+1} \right] + \text{dynamic hedging terms}
 $$
 
 - Alternatively, the demand system approach models portfolio choices based on asset prices, characteristics, and latent demand terms:
 
 $$
-x_{t} = \frac{\exp (\alpha \log p_{t} + \beta \Xi_{t} + \kappa_{t})}{1 + \sum_{k} \exp (\alpha \log p_{t} + \beta \Xi_{t} + \kappa_{t})}.
+x_{t} = \frac{\exp(\alpha \log p_{t} + \beta \Xi_{t} + \kappa_{t})}{1 + \sum_{k} \exp(\alpha \log p_{t} + \beta \Xi_{t} + \kappa_{t})}
 $$
 
 Central in any account of the international monetary system is how the investors in different countries choose their portfolios, how their portfolios differ in ex-ante characteristics and in ex-post returns, and how the capital flows due to investment rebalancing and pay-outs allocate resources across countries. Answers to these questions inform us about how the international monetary system is organized,
 
-which countries play a central role, and the benefits and costs of being at the central location.
+which countries play a central role, and the benefits and costs of being at the central location. In this chapter, we relate the households' equilibrium portfolio choices on the finance side to important quantities on the macro side such as net foreign assets and balance of payments. Then, we discuss two complementary approaches to modeling portfolio choices. One is the traditional mean-variance approach, which is also central in the standard asset pricing literature. The other is the demand system approach, which results from more recent developments. We will also discuss specifications and applications of these approaches adapted for studying international portfolio dynamics.
 
-In this chapter, we relate the households' equilibrium portfolio choices on the finance side to important quantities on the macro side such as net foreign assets and balance of payments. Then, we discuss two complementary approaches to modeling portfolio choices. One is the traditional mean-variance approach, which is also central in the standard asset pricing literature. The other is the demand system approach, which results from more recent developments. We will also discuss specifications and applications of these approaches adapted for studying international portfolio dynamics.
-
-# 9.A Net Foreign Assets Accounting
+## 9.A Net Foreign Assets Accounting
 
 To begin with, we relate the portfolio allocation decisions to aggregate international macro variables such as net foreign assets (NFA) and balance of payments. Our setting again nests the benchmark model in Section 1.A with one extension: home and foreign households can trade more assets than just the risk-free bonds. Let  $\iota \in \{1,\dots,I\}$  index the different assets issued by either country, which we refer to asset classes. These asset classes include the risk-free bond, but they may also include typical asset classes such as equity and long-term debt. We work out the NFA accounting between two countries, and our approach follows Jiang, Richmond, and Zhang [2022c] which considers a more general multi-country setting. For discussions and decompositions of the external adjustments, also see Gourinchas and Rey [2007a], Ghironi, Lee, and Rebucci [2015].
 
-# 9.A.1 Household Portfolio and Net Foreign Assets
+### 9.A.1 Household Portfolio and Net Foreign Assets
 
 Let us start with some definitions on the asset pricing side. We use  $x_{H,t}(\iota)$  and  $x_{F,t}(\iota)$  to denote the home households' portfolio shares allocated to home and foreign assets, which satisfy
 
@@ -130,7 +125,7 @@ The NFA definition (9.1), wealth law of motion (9.2), and market clearing (9.3) 
 
 1 Throughout the note, we use  $r_t$  to denote returns in log. Here it is easier to deviate from this notational convention and instead use  $\rho_t$  and  $d_t$  to denote components of returns in level.
 
-# 9.A.2 Balance of Payments
+### 9.A.2 Balance of Payments
 
 Having specified the asset market space, we next turn to its connection to the quantity side. In international macroeconomics, it is common to use the following balance of payments identity to organize the law of motion for the net foreign assets:
 
@@ -158,7 +153,7 @@ The sum of income balance and capital gains (i.e.,  $ib_{t} + cg_{t}$ ) captures
 
 In international macroeconomics, it is also common to bundle together the trade balance and the income balance into the current account:  $ca_{t} \stackrel{\text{def}}{=} tb_{t} + ib_{t}$ , which describes the net earnings of the home country from its international trade and investments. As capital gains  $cg_{t}$  capture important variations in cross-border wealth transfers from financial markets in the data, we find it more convenient to conceptually bundle the income balance and the capital gains as total financial transfers.
 
-# 9.A.3 Capital Flows
+### 9.A.3 Capital Flows
 
 Cross-border capital flows are also related to disaggregated bilateral portfolio choices. The market value of net position changes in the
 
@@ -204,7 +199,7 @@ $$
 
 which states another form of the balance of payments identity. This identity again shows that imbalances on the trade side need to be consistent with the adjustments on the financial side. Specifically, a trade surplus corresponds to a net purchase of foreign assets by home households, which results in a financial outflow.
 
-# 9.A.4 Market Clearing and Financial Savings
+### 9.A.4 Market Clearing and Financial Savings
 
 We next consider market clearing, which connects the assets' market values to the households' financial wealth. In the financial autarky case,  $nfa = tb = ib = cg = 0$ , and we have the domestic market clearing conditions:
 
@@ -262,7 +257,7 @@ Finally, we can understand the general case by again understanding that  $(\sum_
 
 Conversely, once we understand how the asset market players in different countries make their saving and issuance decisions, we should also expect adjustments on the trade side. In particular, for the U.S. which runs persistent trade deficits, this approach offers an account of the financial drivers that fund the trade deficits.
 
-# 9.A.5 Relation to National Consumption
+### 9.A.5 Relation to National Consumption
 
 Finally, we make a connection to consumption decisions in the national accounts. We assume that the aggregate output  $y_{t}$  is split into payoff to the financial assets and labor income  $w_{t}^{\ell}$ , i.e.,
 
@@ -314,7 +309,7 @@ $$
 
 So, the consumption is equal to labor income plus dividend payouts minus net financial savings  $f_{t}$ . Suppose the home households do not buy or sell any of their financial assets, i.e.,  $f_{t} = 0$ , then, the consumption is equal to labor income plus dividend payouts. In contrast, if the home households decide to save more by purchasing additional financial assets, they will have a lower consumption.
 
-# 9.B The Mean-Variance Approach
+## 9.B The Mean-Variance Approach
 
 This set-up follows the standard Merton [1969] portfolio problem with multiple assets. For tractability, we assume households have power utility and a finite horizon  $T$ . This set-up is otherwise similar to the domestic economy considered in Chapter 1, which is populated by a representative household. The household maximizes expected lifetime utility:
 
@@ -372,7 +367,7 @@ where the log portfolio return  $r_{t+1}^p$  depends on the portfolio choice  $x
 
 The proof is in Appendix A.40. Eq. (9.9) implies that, when the investors maximize their expected portfolio return  $r_{t+1}^p$ , they also pay attention to the expected evolution of the state variable  $z_{t+1}$ . Consequently, the optimal portfolio choice  $x_t$  depends on the expected future state.
 
-# 9.B.1 The Case of Constant Investment Opportunity
+### 9.B.1 The Case of Constant Investment Opportunity
 
 To derive closed-form solutions, the literature uses either continuous-time math or linearization to further simplify the problem. A popular choice is to approximate the portfolio return via log-linearization as proposed by Campbell and Viceira [2002], which approximates the log portfolio return by
 
@@ -394,7 +389,7 @@ The proof is in Appendix A.41. This formula (9.10) recovers the classical mean-v
 
 sum  $\mathbb{E}[r_{t + 1}] + \frac{1}{2}\sigma_t^2 - r_t^f$  captures the assets' expected excess returns in level, which is exact when returns are normally distributed or in continuous time. In the denominator,  $\Sigma_t$  is the covariance matrix of asset returns and  $\gamma$  is the risk aversion coefficient. Therefore, the optimal portfolio favors assets that have high expected excess returns and low variance and covariance with other assets.
 
-# 9.B.2 Special Cases with Time-varying Investment Opportunity
+### 9.B.2 Special Cases with Time-varying Investment Opportunity
 
 When the state variable  $z_{t}$  is time-varying, the problem becomes more difficult in general. Here we discuss two special cases. First, Campbell and Viceira [2002] consider a case in which the risk-free rate is time-varying but the risky assets' variances and risk premia are constant. In this case, the optimal portfolio choice is
 
@@ -416,9 +411,9 @@ Moreover, with log utility (i.e.,  $\gamma = 1$ ), Eq. (9.11) in the first speci
 
 in future interest rates, and the myopic investors only focus on the mean-variance trade-off.
 
-# 9.C Applications of the Mean-Variance Approach (TODO)
+## 9.C Applications of the Mean-Variance Approach (TODO)
 
-# 9.D The Demand System Approach
+## 9.D The Demand System Approach
 
 Eq. (9.10) offers an intuitive way to think about the portfolio allocation problem as a mean-variance trade-off. While this approach has been powerful and universal, several challenges stand out. First, estimating the expectation and the variance-covariance matrix of asset returns is empirically challenging. As the assets' risk characteristics and investors' risk appetite are time-varying, the moments estimated from the past return data do not necessarily represent the distribution of future returns.
 
@@ -426,7 +421,7 @@ Second, investor demand for different assets and asset classes appears to be les
 
 In response to these challenges, Koijen and Yogo [2019] turn to a complementary approach based on demand systems. Instead of deriving the optimal portfolio choice from the mean-variance trade-off, their starting point is that the households allocate their wealth based on the assets' characteristics. In this section, we study the most basic demand system model based on logit demand functions.
 
-# 9.D.1 Logit Demand
+### 9.D.1 Logit Demand
 
 Let  $\delta_t(i)$  denote the desirability of asset  $i$ :
 
@@ -472,7 +467,7 @@ Alternatively, Koijen and Yogo [2019] propose a mapping from the standard mean-v
 
 The characteristics-based demand could have other micro-foundations as well, such as private information, heterogeneous beliefs [Pellegrino, Spolaore, and Wacziarg, 2021], institutional constraints, and non-pecuniary preferences for certain traits such as ESG, the demand for reserve assets as we studied in Section 7, and behavioral factors.2
 
-# 9.D.2 Closing the Model with the Supply Side
+### 9.D.2 Closing the Model with the Supply Side
 
 To close the model, we need to take a stance on the total amount of funds the households have for investments. Let us denote this total asset under management by  $a_{t}$ . In some models,  $a_{t}$  is exogenously determined; in other models,  $a_{t}$  depends on previous investment outcomes. For example, it makes sense to use the same law of motion for the asset under management as in the traditional portfolio model in Section 9.B:
 
@@ -508,7 +503,7 @@ On the left-hand side,  $p - c'(q(p))$  is the issuer's mark-up defined as the a
 
 Yet in other cases, the asset supply can be fully elastic, which means that the issuer can supply an arbitrary quantity of the asset at a given price. For example, this could apply to open-end money market funds whose underlying holdings are liquid and safe assets with a deep market. In this case, when there is a shock to investor demand, the market clears by quantity adjustment instead of by price adjustment.
 
-# 9.D.3 Demand Elasticity
+### 9.D.3 Demand Elasticity
 
 This demand system model also has a simple expression for demand elasticity. The log demand by issuer  $\iota$  is given by
 
@@ -552,7 +547,7 @@ $$
 - \frac{\partial \log q_{t}^{\text{de ma nd}} (\iota)}{\partial \log p_{t} (\iota)} = \sum_{n} \frac{a_{n , t} x_{n , t} (\iota)}{\sum_{m} a_{m , t} x_{m , t} (\iota)} \left(- \frac{\partial \log q_{n , t}^{\text{de ma nd}} (\iota)}{\partial \log p_{t} (\iota)}\right).
 $$
 
-# 9.D.4 What If There Is No Outside Asset?
+### 9.D.4 What If There Is No Outside Asset?
 
 The outside asset plays an important role in pinning down the equilibrium solution in this asset demand system. While this point is more general, let us consider a simple case in which there is one investor, one inside asset, and no outside asset. Then, regardless of the desirability of the asset, the portfolio share allocated towards this asset is always  $x_{t} = 1$ . We also assume that the asset quantity is  $q_{t} = 1$  and the asset pays no dividend. Then, the market clearing condition implies:
 
@@ -603,7 +598,7 @@ because the investor can substitute towards the outside asset if the inside asse
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/b65b63e81e37048ec03bc3614f2b539fc024fe1722276d2918fc3d69c4b37a9d.jpg)  
 Figure 9.1: Market Clearing for the Book Quantity of the Asset.
 
-# 9.D.5 Identifying the Elasticity
+### 9.D.5 Identifying the Elasticity
 
 Finally, while this note deals with the theoretical issues of the asset demand system, it is worth noting that its empirical estimation and identification are also at the forefront of this literature. Here, we provide a brief discussion of the identification strategies used in the literature.
 
@@ -613,7 +608,7 @@ Second, the literature has used the non-price characteristics of competing asset
 
 Third, Gabaix and Koijen [2020] propose a granular instrumental variable approach that exploits the idiosyncratic shocks from large players, which presents a new strategy for demand system settings.
 
-# 9.E Application to International Portfolio Allocation
+## 9.E Application to International Portfolio Allocation
 
 In this section, we consider a two-tier demand system that Koijen and Yogo [2020], Jiang, Richmond, and Zhang [2022c,d] use to study the international financial market. We consider a simplified case in which there are only two countries and two asset classes.
 
@@ -673,7 +668,7 @@ $$
 
 We take the saving  $s_{n,t}$ , the asset quantity  $q_{t}(\iota, \ell)$ , and the latent demand  $\kappa_{n,t}(\iota, \ell)$  as exogenously given. The portfolio choices  $x_{n,t}(\iota, \ell)$ , the market clearing conditions, and the wealth law of motion jointly determine the equilibrium asset prices, exchange rates, and capital flows.
 
-# 9.E.1 Macro Synthesis
+### 9.E.1 Macro Synthesis
 
 We study the competitive equilibrium in which the portfolio choices follow the logit demand, the wealth follows the given law of motion, and the markets for all inside assets clear.
 
@@ -721,9 +716,9 @@ $$
 
 We can use the portfolio choices, asset-level desirabilities, and the law of motion of wealth to solve for the endogenous variables  $x_{n,t}(\iota ,\ell), \delta_{n,t}(\iota ,\ell)$ , and  $a_{n,t}$ . With  $N = 2$  countries and  $L = 2$  asset classes,  $NL + (N - 1) = 5$  endogenous asset prices and exchange rates remain to be solved, but only  $NL = 4$  market clearing conditions are available. Therefore, our system is underdetermined. In a traditional macro model, we have additional restrictions on the exchange rate from the goods market clearing. While this is an interesting component to incorporate into the asset demand system, here we use different assumptions to close the model. We will consider three different settings in our numeric exercise, highlighting the difference between fixed and flexible exchange rate regimes as well as the difference between symmetric and asymmetric settings between the U.S. and the foreign country. In each of these settings, we have exactly the same number of restrictions as the number of endogenous asset prices and exchange rates.
 
-# 9.E.2 Calibration and Results (TODO)
+### 9.E.2 Calibration and Results (TODO)
 
-# 9.E.3 Other Works
+### 9.E.3 Other Works
 
 In this section, we considered a simple two-country, two-asset class demand system model to study the effects of the demand shocks on the exchange rate and the asset prices. The reality is much richer. For example, one feature we omit in our model is the currency denomination of the assets, which exhibits important heterogeneity across issuers and across investors [Maggiori, Neiman, and Schreger, 2020]. Moreover, the investor base could be further decomposed by different
 

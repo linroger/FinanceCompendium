@@ -1,40 +1,39 @@
 ---
-aliases: Mathematical Postscripts
-tags: null
-key_concepts: null
-parent_directory: '[[International Economics  Theory and Policy]]'
-cssclasses: academia
 title: Mathematical Postscripts
-linter-yaml-title-alias: Mathematical Postscripts
+parent_directory: International Economics Theory and Policy
+formatted: 2025-12-21 02:40:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- factor prices cost production
-- labor unit output curvature
 - mathematical postscripts
-- cost capital labor inputs
+- factor proportions model
+- international trade equations
+- goods prices factors
 secondary_tags:
-- equations factor proportions model
-- labor factor price equations
-- production explained chapter mathematical
-- capital labor factors production
-- infinitesimal change capital labor
-- effect relative quantities capital
-- diversification postscript develops model
-- coefficients chosen minimize capital
-- production cost equation 5p
-tags_extracted: '2025-12-18T00:48:46.223614'
+- cost minimization production
+- input coefficients capital labor
+- factor price equations
+- quantity equations outputs
+- hat algebra economics
+- trading world economy
+- production possibility frontier
+- income prices utility
+- terms trade improvement
+- supply demand equilibrium
+cssclasses: academia
 ---
 
 # Mathematical Postscripts
 
-# The Factor-Proportions Model
+## The Factor-Proportions Model
 
 In this postscript we set out a formal mathematical treatment for the factor-proportions model of production explained in Chapter 5. The mathematical treatment is useful in deepening your understanding of the model.
 
-# Factor Prices and Costs
+### Factor Prices and Costs
 
-Consider the production of some good that requires capital and labor as factors of production. Provided the good is produced with constant returns to scale, the technology of production may be summarized in terms of the unit isoquant (II in Figure 5P-1), a curve showing all the combinations of capital and labor that can be used to produce one unit of the good. Curve II shows that there is a trade-off between the quantity of capital used per unit of output,  $a_{K}$ , and the quantity of labor per unit of output,  $a_{L}$ . The curvature of the unit isoquant reflects the assumption that it becomes increasingly difficult to substitute capital for labor as the capital-labor ratio increases, and vice versa.
+Consider the production of some good that requires capital and labor as factors of production. Provided the good is produced with constant returns to scale, the technology of production may be summarized in terms of the unit isoquant (II in Figure 5P-1), a curve showing all the combinations of capital and labor that can be used to produce one unit of the good. Curve II shows that there is a trade-off between the quantity of capital used per unit of output, $a_{K}$, and the quantity of labor per unit of output, $a_{L}$. The curvature of the unit isoquant reflects the assumption that it becomes increasingly difficult to substitute capital for labor as the capital-labor ratio increases, and vice versa.
 
-In a competitive market economy, producers will choose the capital-labor ratio in production that minimizes their cost. Such a cost-minimizing production choice is shown in Figure 5P-1 as point  $E$ , the point at which the unit isoquant  $II$  is tangent to a line whose slope is equal to minus the ratio of the price of labor,  $w$ , to the price of capital,  $r$ .
+In a competitive market economy, producers will choose the capital-labor ratio in production that minimizes their cost. Such a cost-minimizing production choice is shown in Figure 5P-1 as point $E$, the point at which the unit isoquant $II$ is tangent to a line whose slope is equal to minus the ratio of the price of labor, $w$, to the price of capital, $r$.
 
 The actual cost of production is equal to the sum of the cost of capital and labor inputs,
 
@@ -42,9 +41,9 @@ $$
 c = a_{K} r + a_{L} w, \tag {5P-1}
 $$
 
-where the input coefficients,  $a_{K}$  and  $a_{L}$ , have been chosen to minimize  $c$ .
+where the input coefficients, $a_{K}$ and $a_{L}$, have been chosen to minimize $c$.
 
-Because the capital-labor ratio has been chosen to minimize costs, it follows that a change in that ratio cannot reduce costs. Costs cannot be reduced by increasing  $a_{K}$  while reducing  $a_{L}$ , nor conversely. It follows that an infinitesimal change in the capital-labor ratio from the cost-minimizing choice must have no effect on cost. Let  $da_{K}, da_{L}$  be small changes from the optimal input choices. Then
+Because the capital-labor ratio has been chosen to minimize costs, it follows that a change in that ratio cannot reduce costs. Costs cannot be reduced by increasing $a_{K}$ while reducing $a_{L}$, nor conversely. It follows that an infinitesimal change in the capital-labor ratio from the cost-minimizing choice must have no effect on cost. Let $da_{K}, da_{L}$ be small changes from the optimal input choices. Then
 
 $$
 r d a_{K} + w d a_{L} = 0 \tag {5P-2}
@@ -60,9 +59,7 @@ $$
 \frac{a_{K}}{a_{L}} = \Phi \left(\frac{w}{r}\right). \tag {5P-3}
 $$
 
-# FIGURE 5P-1
-
-# Efficient Production
+**FIGURE 5P-1: Efficient Production**
 
 The cost-minimizing capital-labor ratio depends on factor prices.
 
@@ -100,7 +97,7 @@ $$
 
 This is an example of "hat algebra," an extremely useful way to express mathematical relationships in international economics.
 
-# The Basic Equations in the Factor-Proportions Model
+## The Basic Equations in the Factor-Proportions Model
 
 Suppose a country produces two goods, cloth  $C$  and food  $F$ , using two factors of production, capital and labor. Assume that food production is capital-intensive. The price of each good must equal its production cost:
 
@@ -180,7 +177,7 @@ $$
 
 That is, the real price of capital rises in terms of both goods, while the real price of labor falls in terms of both goods. In particular, if the price of  $F$  were to rise with no change in the price of  $C$ , the wage rate would actually fall.
 
-# Factor Supplies and Outputs
+### Factor Supplies and Outputs
 
 As long as goods prices may be taken as given, equations (5P-12) and (5P-13) can be solved, using the fact that  $\alpha_{KC} = 1 - \alpha_{KF}$  and  $\alpha_{LC} = 1 - \alpha_{LF}$ , to express the change in output of each good as the outcome of changes in factor supplies:
 
@@ -212,11 +209,11 @@ $$
 
 In particular, if  $K$  rises with  $L$  remaining constant, output of  $F$  will rise by a greater proportion than  $K$ , while output of  $C$  will actually fall.
 
-# The Trading World Economy
+## The Trading World Economy
 
-# Supply, Demand, and Equilibrium
+### Supply, Demand, and Equilibrium
 
-# World Equilibrium
+#### World Equilibrium
 
 Although for graphical purposes it is easiest to express world equilibrium as an equality between relative supply and relative demand, for a mathematical treatment, it is preferable to use an alternative formulation. This approach focuses on the conditions of equality between supply and demand of either one of the two goods, cloth and food. It does not matter which good is chosen because equilibrium in the cloth market implies equilibrium in the food market and vice versa.
 
@@ -244,7 +241,7 @@ That is, the market for food must be in equilibrium as well. Clearly the convers
 
 It is therefore sufficient to focus on the market for cloth to determine the equilibrium relative price.
 
-# Production and Income
+### Production and Income
 
 Each country has a production possibility frontier along which it can trade off between producing cloth and producing food. The economy chooses the point on the frontier that maximizes the value of output at the given relative price of cloth. This value may be written
 

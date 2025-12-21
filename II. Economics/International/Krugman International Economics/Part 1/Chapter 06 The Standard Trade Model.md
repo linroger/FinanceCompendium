@@ -1,22 +1,24 @@
 ---
-aliases:
-- The Standard Trade Model
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 06: The Standard Trade Model'
-linter-yaml-title-alias: 'Chapter 06: The Standard Trade Model'
+title: Chapter 06 The Standard Trade Model
+parent_directory: Part 1
+formatted: 2025-12-21 06:37:30 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
 - standard trade model
-- world relative
+- world relative supply
+- terms of trade
 secondary_tags:
-- 149 standard model trading
-- production possibilities trade
-tags_extracted: '2025-12-18T01:46:49.867142'
+- production possibilities frontier
+- relative demand curve
+- economic growth effects
+- tariff analysis
+- export subsidies
+- intertemporal trade
+cssclasses: academia
 ---
 
-# 6 The Standard Trade Model 149
+# The Standard Trade Model
 
 A Standard Model of a Trading Economy 150
 

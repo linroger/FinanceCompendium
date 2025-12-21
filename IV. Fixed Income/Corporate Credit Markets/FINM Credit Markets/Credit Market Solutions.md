@@ -1,18 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Credit Market Solutions
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+   - credit market analysis
+   - treasury bond pricing
+   - corporate bond valuation
+secondary_tags:
+   - bond symbology
+   - yield curve construction
+   - quantitative finance
+   - fixed income securities
 cssclasses: academia
-title: "*Merged Jupyter Notebook*"
-linter-yaml-title-alias: "*Merged Jupyter Notebook*"
 ---
 
-# *Merged Jupyter Notebook*
+# Credit Market Solutions
 
 <hr><font color="green"><h1>from file: 1UChicago_FINM_35700_CreditMarkets_Spring2024_Solution_1</h1></font>
 
-# Solution to Homework 1
+## Solution to Homework 1
 
 ## FINM 35700 - Spring 2024
 
@@ -1007,7 +1015,7 @@ display(corp_symbology_vz)
 </table>
 </div>
 
-# Problem 2: Explore EOD market prices and yields
+### Problem 2: Explore EOD market prices and yields
 
 ## a. Load and explore treasury market prices and yields
 
@@ -1460,7 +1468,7 @@ sns.lineplot(data=govt_agg_otr, x='TTM', y='midYield', label='US Treasury', mark
 
 ![png](output_27_1.png)
 
-# Problem 3: Underlying treasury benchmarks and credit spreads
+## Problem 3: Underlying treasury benchmarks and credit spreads
 
 ## a. Add underlying benchmark bond mid yields
 
@@ -1891,7 +1899,7 @@ sns.lineplot(data=corp_merged, x='TTM', y='g_spread', hue='ticker', marker='o').
 
 ![png](output_36_1.png)
 
-# Problem 4: Explore sections 1 to 5 in the QuantLib example notebook
+## Problem 4: Explore sections 1 to 5 in the QuantLib example notebook
 
 Explore sections 1 to 5 in the example notebook and identify concepts discussed in the first lecture. Collect open questions for the upcoming TA Review session on the analytics library.
 
@@ -2231,7 +2239,7 @@ display(fixed_rate_bond_cashflows)
 
 <hr><font color="green"><h1>from file: 2UChicago_FINM_35700_CreditMarkets_Spring2024_Examples_QuantLib_Basics</h1></font>
 
-# Credit Markets
+## Credit Markets
 ## FINM 35700 - Spring 2024
 
 ### UChicago Financial Mathematics
@@ -2239,7 +2247,7 @@ display(fixed_rate_bond_cashflows)
 * Alex Popovici
 * alex.popovici@uchicago.edu
 
-# Basic Usage of QuantLib analytics library
+## Basic Usage of QuantLib analytics library
 ## More details at: https://quantlib-python-docs.readthedocs.io/en/latest/
 
 - 1\. Objects and Handles

@@ -1,55 +1,39 @@
 ---
-aliases:
-- External Economies of Scale and the International Location of Production
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 07: External Economies of Scale and the International Location of
-  Production'
-linter-yaml-title-alias: 'Chapter 07: External Economies of Scale and the International
-  Location of Production'
+title: "Chapter 07: External Economies of Scale and the International Location of Production"
+parent_directory: "Part 1"
+formatted: "2025-12-21 07:00:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- international location production external
-- production external economies
+- external economies scale
+- international trade theory
+- location production
 secondary_tags:
-- location production external economies
-- chapter 07 external economies
-tags_extracted: '2025-12-18T01:46:50.783274'
+- economies scale
+- market structure
+- specialized suppliers
+- labor market pooling
+- knowledge spillovers
+cssclasses: academia
 ---
 
-# Chapter 07 External Economies of Scale and the International Location of Production
+# Chapter 07: External Economies of Scale and the International Location of Production
 
-7 External Economies of Scale and the International Location of Production 177
+## Chapter Outline
 
-Economies of Scale and International Trade: An Overview 178
-
-Economies of Scale and Market Structure 179
-
-The Theory of External Economies 180
-
-Specialized Suppliers. 180
-
-Labor Market Pooling 181
-
-Knowledge Spillovers. 182
-
-External Economies and Market Equilibrium 183
-
-External Economies and International Trade. 184
-
-External Economies, Output, and Prices 184
-
-External Economies and the Pattern of Trade 185
-
-Trade and Welfare with External Economies 187
-
-BOX: Holding the World Together 188
-
-Dynamic Increasing Returns 189
-
-Interregional Trade and Economic Geography 190
-
-BOX:The City and the Street 192
-
-Summary 193
+- Economies of Scale and International Trade: An Overview
+- Economies of Scale and Market Structure
+- The Theory of External Economies
+  - Specialized Suppliers
+  - Labor Market Pooling
+  - Knowledge Spillovers
+- External Economies and Market Equilibrium
+- External Economies and International Trade
+  - External Economies, Output, and Prices
+  - External Economies and the Pattern of Trade
+  - Trade and Welfare with External Economies
+- BOX: Holding the World Together
+- Dynamic Increasing Returns
+- Interregional Trade and Economic Geography
+- BOX: The City and the Street
+- Summary

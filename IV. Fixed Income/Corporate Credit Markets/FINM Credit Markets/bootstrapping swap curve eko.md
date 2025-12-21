@@ -1,12 +1,27 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: Bootstrapping Swap Curve Eko
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - "bootstrapping swap curves"
+  - "OIS discount factors"
+  - "LIBOR bootstrapping"
+  - "forward swap rates"
+secondary_tags:
+  - "interest rate swaps"
+  - "discount factor calculation"
+  - "overnight index swaps"
+  - "swap rate bootstrapping"
+  - "fixed income pricing"
+  - "yield curve construction"
+  - "interest rate derivatives"
+  - "risk neutral pricing"
 cssclasses: academia
-title: bootstrapping swap curve eko
 ---
 
-# bootstrapping swap curve eko
+# Bootstrapping Swap Curve Eko
 
 ```python
 from typing import Callable
@@ -58,7 +73,7 @@ def interpolate_discount_factor_between_tenor(
 file_directory = "../data/IR data.xlsx"
 ```
 
-## 1. Is Curve Fitting
+## 1. OIS Curve Fitting
 
 ```python
 class OISBootstrapping:
@@ -1060,8 +1075,4 @@ df_swap_curve = pd.merge(
 ```python
 df_forward_swap_rates.to_csv("./output/part_1_swap_rates.csv")
 df_swap_curve.to_csv("./output/part_1_bootstrapped_discount_factors.csv")
-```
-
-```python
-
 ```

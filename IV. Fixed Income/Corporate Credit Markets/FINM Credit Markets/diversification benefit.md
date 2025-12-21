@@ -1,18 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Diversification Benefit in Mean-Variance Portfolio Optimization
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 11:45:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+- portfolio diversification
+- mean variance optimization
+- correlation impact
+secondary_tags:
+- expected return
+- standard deviation
+- risk reduction
+- asset allocation
+- portfolio theory
 cssclasses: academia
-title: Diversification benefit in mean-variance portfolio optimization
-linter-yaml-title-alias: Diversification benefit in mean-variance portfolio optimization
 ---
 
 Copyright &copy; 2013 Ondrej Martinsky, All rights reserved
 
 [www.quantandfinancial.com](http://www.quantandfinancial.com)
 
-# Diversification benefit in mean-variance portfolio optimization
+# Diversification Benefit in Mean-Variance Portfolio Optimization
 
 ```python
 %pylab
@@ -49,7 +58,3 @@ legend();
 ```
 
 ![png](output_3_0.png)
-
-```python
-
-```

@@ -1,55 +1,49 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Market Segmentation and Financial Intermediation
-linter-yaml-title-alias: Market Segmentation and Financial Intermediation
+parent_directory: Lecture Notes on International Finance
+formatted: 2025-12-21 06:31:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- investment relative marginal product
-- exchange rate active households
-- model separates exchange rate
-- market segmentation financial intermediary
-- financial markets consumption
+- market segmentation models
+- financial intermediation
+- exchange rate dynamics
+- international capital flows
+- asset market segmentation
 secondary_tags:
-- asset markets segmented countries
-- model domestic financial intermediation
-- exchange rate volatility financiers
-- aggregate risk foreign
-- lower exchange rate volatility
-- volatility international capital flows
-- consumption pricing financial assets
-- segmentation financial intermediation studied
-- assumptions exchange rate aggregate
-- consumption incentivizing foreign households
-- convenience yield model foreign
-- model market segmentation households
-tags_extracted: '2025-12-18T01:45:17.353516'
+- noise traders
+- financiers constraints
+- convenience yields
+- Euler equation wedges
+- domestic financial markets
+- active inactive households
+- Backus-Smith puzzle
+- exchange rate volatility
+- risk premium
+- portfolio imbalances
+cssclasses: academia
 ---
 
 # Market Segmentation and Financial Intermediation
 
-# Summary
+## Summary
 
 - We consider two forms of asset market segmentation and financial intermediation.  
 - First, asset markets can be segmented between countries. Local households may not be able to directly hold foreign assets, and they rely on financiers to intermediate the cross-border capital flows. The financiers face financial constraints, which connect the portfolio imbalances they have to absorb to the risk premium they charge on foreign assets and currencies for providing this intermediation service.  
 - Second, asset markets can be segmented within a country. Some households may not have access to the financial markets, which disconnects the aggregate consumption from the pricing of financial assets and exchange rates.
 
-# 10.A A Model of International Financial Intermediation
+## 10.A A Model of International Financial Intermediation
 
 In this section, we consider an international real business cycle (IRBC) model in which home and foreign households cannot trade any assets directly with each other, and specialized financiers are required to intermediate the cross-border capital flows. This model is adapted from Itskhoki and Mukhin [2021], whose key mechanism builds on Jeanne and Rose [2002], Gabaix and Maggiori [2015]. This model extends our baseline model in Chapter 1 in two ways. First, it replaces the endowment economy with a production economy, with standard features such as capital accumulation. Second, and more importantly, it models segmented markets and financial intermediation.
 
-# 10.A.1 Households
+### 10.A.1 Households
 
 The households' preferences are similar to those we considered in Section 6.B. Home and foreign households have preferences over
 
 consumption and work. The home households' expected lifetime utility is
-
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} c_{t}^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \ell_{t}^{1 + 1 / \nu} \right].
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} c_{t}^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \ell_{t}^{1 + 1 / \nu} \right].
 $$
-
 Here we consider a more general aggregation function for consumption goods. The home households' consumption bundle is composed of home and foreign goods:
 
 $$
@@ -75,11 +69,9 @@ $$
 where  $d$  denotes the depreciation rate and  $\frac{\kappa}{2}\frac{(\Delta k_{t+1})^2}{k_t}$  denotes the quadratic adjustment cost.
 
 Similarly, the foreign households maximize their expected lifetime utility:
-
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} \left(c_{t}^{*}\right)^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \left(\ell_{t}^{*}\right)^{1 + 1 / \nu} \right],
+\mathbb{E}_{0} \left[ \sum_{t = 0}^{\infty} \delta^{t} \frac{1}{1 - \gamma} \left(c_{t}^{*}\right)^{1 - \gamma} - \frac{1}{1 + 1 / \nu} \left(\ell_{t}^{*}\right)^{1 + 1 / \nu} \right],
 $$
-
 where their consumption bundle is defined as
 
 $$
@@ -92,7 +84,7 @@ $$
 \left(w_{t}^{*} \ell_{t}^{*} + q_{t}^{*} k_{t}^{*}\right) + \exp \left(r_{t - 1}^{*}\right) b_{F, t - 1}^{*} = c_{t}^{*} + z_{t}^{*} + b_{F, t}^{*}.
 $$
 
-# 10.A.2 Firms
+### 10.A.2 Firms
 
 We consider very simple firms in this model. In the home country, the firms use capital  $k_{t}$ , labor  $\ell_{t}$ , and intermediate input which is  $x_{t}$  units of the home consumption bundle to produce  $y_{t}$  units of the home goods:
 
@@ -106,7 +98,7 @@ $$
 \begin{array}{l} \ell_{t} w_{t} = (1 - \vartheta) (1 - \phi) p_{t} y_{t}, \\ k_{t} q_{t} = \vartheta (1 - \phi) p_{t} y_{t}, \\ x_{t} = \phi p_{t} y_{t}. \\ \end{array}
 $$
 
-# 10.A.3 Segmented Markets and Financial Intermediation
+### 10.A.3 Segmented Markets and Financial Intermediation
 
 As noted in the beginning of this section, market segmentation and the financial intermediary are the key departure from the standard IRBC models. Itskhoki and Mukhin [2021] consider two additional classes of agents: the financiers and the noise traders.
 
@@ -135,15 +127,13 @@ $$
 $$
 
 The financiers are myopic and maximize the CARA utility of their return:
-
 $$
-\mathbb {E}_{0} \left[ - \frac{1}{\omega} \exp (- \omega (1 - \exp (r x_{t + 1})) d_{t}^{*}) \right],
+\mathbb{E}_{0} \left[ - \frac{1}{\omega} \exp (- \omega (1 - \exp (r x_{t + 1})) d_{t}^{*}) \right],
 $$
-
 where  $rx_{t + 1} \stackrel{\mathrm{def}}{=} \Delta e_{t + 1} + r_t - r_t^*$  is the home currency's expected excess return in log. Itskhoki and Mukhin [2021] consider the continuous-time limit of this problem, in which the optimal solution is given by
 
 $$
-d_{t}^{*} = - \frac{\mathbb {E}_{t} [ r x_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1})}{\omega v a r_{t} (\Delta e_{t + 1})}, \tag {10.3}
+d_{t}^{*} = - \frac{\mathbb{E}_{t} [ r x_{t + 1} ] + \frac{1}{2} \var_{t} (\Delta e_{t + 1})}{\omega \var_{t} (\Delta e_{t + 1})}, \tag{10.3}
 $$
 
 This solution is identical to the myopic investors' optimal portfolio choice we derived in Section 9.3. Eq. (10.3) connects the currency's expected excess return to the financiers' portfolio position. These financiers absorb excess positive or negative positions in the bond market, and they charge a risk premium for providing this service. In particular, if they have a positive position in the home bond and a negative position in the foreign bond (i.e.,  $d_t^* < 0$ ), they demand a higher expected return on the home bond to earn a positive expected return on their portfolio. Conversely, if they have a negative position in the home bond and a positive position in the foreign bond (i.e.,  $d_t^* > 0$ ), they demand a higher expected return on the foreign bond to earn a positive expected return on their portfolio. In this way, their optimality condition (10.3) implies a tight link between their portfolio position and the currency's expected return.
@@ -155,7 +145,7 @@ Using the financiers' optimality condition and the market clearing conditions th
 Proposition 10.1. After log-linearization, the currency expected excess return is given by
 
 $$
-\mathbb {E}_{t} [ r x_{t + 1} ] \stackrel {d e f} {=} \mathbb {E}_{t} [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}}.
+\mathbb{E}_{t} [ r x_{t + 1} ] \stackrel{\mathrm{def}}{=} \mathbb{E}_{t} [ \Delta e_{t + 1} + r_{t} - r_{t}^{*} ] = \chi_{1} \psi_{t} - \chi_{2} \frac{b_{H , t} \exp (r_{t})}{\bar {Y}}.
 $$
 
 The proof is in Appendix A.42. This proposition relates the required excess return to hold the home currency to the equilibrium quantity of imbalances absorbed that the financiers need to absorb,
@@ -165,7 +155,7 @@ which, by market clearing, is further determined by the bond demand of the noise
 Moreover, we can derive an exchange rate accounting formula similar to Proposition 4.2. In this log-linearized model, as we ignore the second-order terms, we effectively attribute all currency expected excess returns to the Euler equation wedge as opposed to the currency risk premium. We obtain
 
 $$
-e_{t} = \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] + \sum_{j = 0}^{\infty} \mathbb {E}_{t} \left[ w_{t + j} \right] + \bar {e}, \tag {10.4}
+e_{t} = \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ r_{t + j} - r_{t + j}^{*} \right] + \sum_{j = 0}^{\infty} \mathbb{E}_{t} \left[ w_{t + j} \right] + \bar {e}, \tag{10.4}
 $$
 
 where the wedge  $w_{t+j}$  is equal to

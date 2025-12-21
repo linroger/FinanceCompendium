@@ -1,31 +1,30 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Monetary and Fiscal Policies
-linter-yaml-title-alias: Monetary and Fiscal Policies
+title: "Monetary and Fiscal Policies"
+parent_directory: "Lecture Notes on International Finance chapters"
+formatted: "2025-12-21 06:45:00 PM"
+formatter_model: "grok-code-fast-1"
+cli-tool: "opencode"
 primary_tags:
-- policies macro monetary literature
-- exchange rate monetary fiscal
-- real exchange rate equilibrium
-- policies affect equilibrium consumption
-- equilibrium consumption nominal rates
+  - monetary fiscal policies
+  - exchange rate dynamics
+  - real interest rates
+  - government surpluses
+  - sticky prices effects
 secondary_tags:
-- model monetary fiscal policies
-- effects monetary policy let
-- nominal rate policy
-- real effects fiscal policy
-- government surpluses equilibrium consumption
-- fiscal policies affect exchange
-- consumption dynamics terms fiscal
-- expenditures real effects monetary
-- effects productivity shocks equilibrium
-- exchange rate dynamics channels
-- consumption flexible price
-- yield monetary policies refer
-tags_extracted: '2025-12-18T01:44:49.131655'
+  - new keynesian model
+  - nominal rigidities
+  - aggregate demand
+  - inflation expectations
+  - fiscal dominance
+  - monetary dominance
+  - taylor rule
+  - government budget constraint
+  - complete markets
+  - producer currency pricing
+  - local currency pricing
+  - observational equivalence
+  - active passive policies
+cssclasses: academia
 ---
 
 # Monetary and Fiscal Policies
@@ -39,9 +38,7 @@ tags_extracted: '2025-12-18T01:44:49.131655'
 
 The monetary policies refer to the actions taken by the central bank, which is the Federal Reserve in the U.S. The policy tool includes setting interest rates, controlling the money supply, and conducting other quantity-based operations such as security purchases and sales. The fiscal policies refer to the government's taxation and spending decisions, and the corresponding debt issuance and retirement.
 
-These monetary and fiscal policies play important roles in shaping the exchange rate dynamics. Studying their effects on the exchange rate marks the birthplace of the international macro literature [Mundell, 1963, Fleming, 1962, Dornbusch, 1976, Frankel, 1979]. In this chapter, we develop a stylized but unified model of monetary and fiscal policies to capture the baseline channels, in which monetary and fiscal policies affect the exchange rate dynamics by shaping the real risk-free rates. It represents a standard way of modeling these policies in the macro and monetary literature. However, given
-
-our discussion in the beginning of Chapter 3, it is likely that monetary and fiscal policies also affect the exchange rates through the risk premium and the convenience yield channels. We return to this issue at the end of this chapter.
+These monetary and fiscal policies play important roles in shaping the exchange rate dynamics. Studying their effects on the exchange rate marks the birthplace of the international macro literature [Mundell, 1963, Fleming, 1962, Dornbusch, 1976, Frankel, 1979]. In this chapter, we develop a stylized but unified model of monetary and fiscal policies to capture the baseline channels, in which monetary and fiscal policies affect the exchange rate dynamics by shaping the real risk-free rates. It represents a standard way of modeling these policies in the macro and monetary literature. However, given our discussion in the beginning of Chapter 3, it is likely that monetary and fiscal policies also affect the exchange rates through the risk premium and the convenience yield channels. We return to this issue at the end of this chapter.
 
 # 6.A Introducing the Nominal Layer
 
@@ -50,7 +47,7 @@ In this chapter, we will consider a model with the nominal layer for the first t
 Let  $P_{t}$  denote the price index in the home country, which measures the price of the home consumption bundle in the unit of the local currency. For example, if one unit of the U.S. home consumption bundle costs 100 dollars, then the U.S. price level  $P_{t} = 100$ . Inflation is defined as the change in the price level:
 
 $$
-\pi_{t} \stackrel {\text{de f}} {=} \Delta \log P_{t}.
+\pi_{t} \stackrel{\text{de f}}{=} \Delta \log P_{t}.
 $$
 
 Recall that  $c_{t}$  is the real consumption. We use  $C_{t} = P_{t}c_{t}$  to denote the nominal consumption. In the same example, if the U.S. households consume 10 units of the home consumption bundle, then the real consumption is  $c_{t} = 10$  units of the consumption bundle and the nominal consumption is  $C_{t} = 10 \times 100 = 1000$  dollars. More generally, we use uppercase letters to denote nominal prices and quantities, and we use lowercase letters to denote real prices and quantities. The nominal interest rate  $i_{t}$  and the inflation rate  $\pi_{t}$  are the exceptions to this notation, as it is common to express them in lowercase. $^{1}$
@@ -58,7 +55,7 @@ Recall that  $c_{t}$  is the real consumption. We use  $C_{t} = P_{t}c_{t}$  to 
 Recall that the log real exchange rate  $e_t$  measures the conversion ratio between the home and foreign countries' consumption baskets, and a higher value means that the home consumption basket is more expensive. We similarly define the nominal exchange rate  $\exp(\mathcal{E}_t)$  as the conversion ratio between the home and foreign currencies. It is related to the real exchange rate  $e_t$  and the price levels  $P_t$  and  $P_t^*$  via
 
 $$
-\exp (e_{t}) = \exp (\mathcal {E}_{t}) \frac{P_{t}}{P_{t}^{*}}.
+\exp(e_{t}) = \exp(\mathcal{E}_{t}) \frac{P_{t}}{P_{t}^{*}}.
 $$
 
 If we fix the real exchange rate  $e_t$ , a higher home inflation  $P_t$  is associated with a lower nominal value of the home currency  $\mathcal{E}_t$ .
@@ -66,7 +63,7 @@ If we fix the real exchange rate  $e_t$ , a higher home inflation  $P_t$  is ass
 Finally, we use the nominal SDF to discount nominal returns and nominal cash flows. The home nominal SDF  $M_{t+1}$  is defined as
 
 $$
-M_{t + 1} \stackrel {\text{de f}} {=} m_{t + 1} - \pi_{t + 1}. \tag {6.1}
+M_{t+1} \stackrel{\text{de f}}{=} m_{t+1} - \pi_{t+1}. \tag{6.1}
 $$
 
 In our derivation, we will also use the lower case  $p_t(h)$  to denote the price of a specific variety of goods, which helps to distinguish it from the aggregate price index  $P_t$ .
@@ -74,13 +71,13 @@ In our derivation, we will also use the lower case  $p_t(h)$  to denote the pric
 If an asset with real return  $\tilde{r}_{t+1}$ , its nominal return is  $\tilde{r}_{t+1} + \pi_{t+1}$ . We can price this asset either by
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + \tilde {r}_{t + 1}) ],
+1 = \mathbb{E}_{t}[\exp(m_{t+1} + \tilde{r}_{t+1})],
 $$
 
 or equivalently by
 
 $$
-1 = \mathbb {E}_{t} [ \exp (M_{t + 1} + \tilde {r}_{t + 1} + \pi_{t + 1}) ].
+1 = \mathbb{E}_{t}[\exp(M_{t+1} + \tilde{r}_{t+1} + \pi_{t+1})].
 $$
 
 # 6.A.1 Exchange Rate Accounting
@@ -88,25 +85,28 @@ $$
 Next, let us relate these concepts to the exchange rate accounting exercises in Section 1.B and 4.B. Starting from the Euler equation for the nominal bond return, we have
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(M_{t + 1} + i_{t}\right) \right],
+1 = \mathbb{E}_{t}[\exp(M_{t+1} + i_{t})],
 $$
 
 which implies
 
 $$
-\exp (- i_{t}) = \mathbb {E}_{t} \left[ \exp (M_{t + 1}) \right] = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \pi_{t + 1}\right) \right].
+\exp(-i_{t}) = \mathbb{E}_{t}[\exp(M_{t+1})] = \mathbb{E}_{t}[\exp(m_{t+1} - \pi_{t+1})].
 $$
 
 Assuming joint normality, we can express the nominal interest rate as
 
 $$
-\begin{array}{l} i_{t} = - \mathbb {E}_{t} \left[ m_{t + 1} \right] - \frac{1}{2} v a r_{t} \left(m_{t + 1}\right) + \mathbb {E}_{t} \left[ \pi_{t + 1} \right] - \frac{1}{2} v a r_{t} \left(\pi_{t + 1}\right) + c o v_{t} \left(m_{t + 1}, \pi_{t + 1}\right) \\ = r_{t} + \mathbb {E}_{t} \left[ \pi_{t + 1} \right] + i r p_{t}, \tag {6.2} \\ \end{array}
+\begin{array}{l}
+i_{t} = -\mathbb{E}_{t}[m_{t+1}] - \frac{1}{2}\var_{t}(m_{t+1}) + \mathbb{E}_{t}[\pi_{t+1}] - \frac{1}{2}\var_{t}(\pi_{t+1}) + \cov_{t}(m_{t+1}, \pi_{t+1}) \\
+= r_{t} + \mathbb{E}_{t}[\pi_{t+1}] + irp_{t}, \tag{6.2} \\
+\end{array}
 $$
 
 where
 
 $$
-i r p_{t} \stackrel {\text{de f}} {=} c o v_{t} \left(m_{t + 1}, \pi_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\pi_{t + 1}\right)
+irp_{t} \stackrel{\text{de f}}{=} \cov_{t}(m_{t+1}, \pi_{t+1}) - \frac{1}{2}\var_{t}(\pi_{t+1})
 $$
 
 denotes the inflation risk premium. This expression shows that the nominal interest rate  $i_t$  can be decomposed into the real interest rate  $r_t$ , the expected inflation rate  $\mathbb{E}_t[\pi_{t+1}]$ , and the inflation risk premium  $irp_t$ .
@@ -191,9 +191,7 @@ $$
 c_{H, t} = \alpha \frac{P_{t}}{P_{H , t}} c_{t}, \quad c_{F, t} = (1 - \alpha) \frac{P_{t}}{P_{F , t}} c_{t}.
 $$
 
-Having specified the household preferences and the within-period solution, we now turn to the households' budget constraint and their
-
-intertemporal solution. Home household  $j$  owns the portfolio of home firms and provides labor to the firms. It earns a nominal wage  $W_{t}$  and receives a nominal dividend  $D_{t}(j)$  from the firms. It also pays tax  $\tau_{t}(j)$  to the government and purchases consumption  $c_{t}(j)$ , both denoted in real terms.
+Having specified the household preferences and the within-period solution, we now turn to the households' budget constraint and their intertemporal solution. Home household  $j$  owns the portfolio of home firms and provides labor to the firms. It earns a nominal wage  $W_{t}$  and receives a nominal dividend  $D_{t}(j)$  from the firms. It also pays tax  $\tau_{t}(j)$  to the government and purchases consumption  $c_{t}(j)$ , both denoted in real terms.
 
 The financial markets are complete. Let  $\sigma_{t}$  denote the state of the economy at time  $t$ . Let  $\Theta (\sigma_{t + 1}|\sigma_t)$  denote the time- $t$  home-currency price for one unit of home currency delivered at time  $t + 1$  contingent on the state being  $\sigma_{t + 1}$ . At time  $t$ , home household  $j$  holds  $\Omega_{t}(\sigma_{t + 1},j)$  unit of the Arrow-Debreu security that pays off in state  $\sigma_{t + 1}$ .  $\Theta^{*}(\sigma_{t + 1}|\sigma_{t})$  is similarly defined as the time- $t$  foreign-currency price for one unit of foreign currency delivered at time  $t + 1$  contingent on the state being  $\sigma_{t + 1}$ , and  $\Omega_{t}^{*}(\sigma_{t + 1},j)$  is the quantity of this security held by home household  $j$ .
 
@@ -510,7 +508,7 @@ which implies that the aggregate price level is always set at the markup multipl
 We first consider a simplification of the model by setting  $\nu = 0$ . In this case, the disutility from work is linear in the labor provided:
 
 $$
-\mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} u_{t} (j) \stackrel {{\mathrm{de f}}} {{=}} \mathbb {E}_{0} \sum_{t = 0}^{\infty} \delta^{t} \left(\log c_{t} (j) - \kappa \ell_{t} (j)\right).
+\mathbb{E}_{0} \sum_{t=0}^{\infty} \delta^{t} u_{t}(j) \stackrel{\mathrm{def}}{=} \mathbb{E}_{0} \sum_{t=0}^{\infty} \delta^{t} (\log c_{t}(j) - \kappa \ell_{t}(j)).
 $$
 
 As we will see below, this simplifying assumption implies that labor adjusts fully in response to government spending shocks. Let  $\bar{\ell} \stackrel{\mathrm{def}}{=} (\rho - 1) / (\rho \kappa)$  denote the natural rate of employment, which prevails in an economy without nominal rigidities and government spending. The following result characterizes the equilibrium allocation and exchange rate in the model.
@@ -518,19 +516,19 @@ As we will see below, this simplifying assumption implies that labor adjusts ful
 Proposition 6.2. If  $\nu = 0$ , the equilibrium labor is
 
 $$
-\ell_{t} = \bar {\ell} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right), \qquad \ell_{t}^{*} = \bar {\ell} \left(1 + \alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1 - \alpha) \frac{g_{t}}{c_{t}}\right),
+\ell_{t} = \bar{\ell} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right), \quad \ell_{t}^{*} = \bar{\ell} \left(1 + \alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1 - \alpha) \frac{g_{t}}{c_{t}}\right),
 $$
 
 the equilibrium consumption is
 
 $$
-\log c_{t} - \log \bar {c} = \alpha \log z_{t} + (1 - \alpha) \log z_{t}^{*}, \quad \log c_{t}^{*} - \log \bar {c} = \alpha \log z_{t}^{*} + (1 - \alpha) \log z_{t},
+\log c_{t} - \log \bar{c} = \alpha \log z_{t} + (1 - \alpha) \log z_{t}^{*}, \quad \log c_{t}^{*} - \log \bar{c} = \alpha \log z_{t}^{*} + (1 - \alpha) \log z_{t},
 $$
 
 the equilibrium real exchange rate is
 
 $$
-e_{t} = - \log c_{t} + \log c_{t}^{*} = - (2 \alpha - 1) (\log z_{t} - \log z_{t}^{*}),
+e_{t} = -\log c_{t} + \log c_{t}^{*} = -(2\alpha - 1)(\log z_{t} - \log z_{t}^{*}),
 $$
 
 the equilibrium price level is
@@ -570,7 +568,7 @@ Now, we consider the general case with  $\nu > 0$ . The following result charact
 Proposition 6.3. For a general  $\nu$ , the equilibrium labor is
 
 $$
-\ell_{t} = \bar {\ell}^{\frac{1}{1 + \nu}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1 - \alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)^{\frac{1}{1 + \nu}}, \qquad \ell_{t}^{*} = \bar {\ell}^{\frac{1}{1 + \nu}} \left(1 + \alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1 - \alpha) \frac{g_{t}}{c_{t}}\right)^{\frac{1}{1 + \nu}},
+\ell_{t} = \bar{\ell}^{\frac{1}{1+\nu}} \left(1 + \alpha \frac{g_{t}}{c_{t}} + (1-\alpha) \frac{g_{t}^{*}}{c_{t}^{*}}\right)^{\frac{1}{1+\nu}}, \quad \ell_{t}^{*} = \bar{\ell}^{\frac{1}{1+\nu}} \left(1 + \alpha \frac{g_{t}^{*}}{c_{t}^{*}} + (1-\alpha) \frac{g_{t}}{c_{t}}\right)^{\frac{1}{1+\nu}},
 $$
 
 the equilibrium consumption is

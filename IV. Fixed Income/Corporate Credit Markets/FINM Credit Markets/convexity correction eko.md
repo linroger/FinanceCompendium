@@ -1,12 +1,25 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: Convexity Correction Eko
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 06:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - convexity correction
+  - cms pricing
+  - sabr model
+  - swap derivatives
+secondary_tags:
+  - black76 model
+  - forward swap rates
+  - option pricing
+  - numerical integration
+  - discount factors
+  - interest rate models
 cssclasses: academia
-title: convexity correction eko
 ---
 
-# convexity correction eko
+# Convexity Correction Eko
 
 ```python
 import matplotlib.pyplot as plt
@@ -375,15 +388,6 @@ def compute_pv_cms(
 ```
 
 ```python
-def h_2(K: float, m: float, N: float) -> float:
-    return (
-        IRR_0(K, m, N) * g_2(K)
-        - IRR_2(K, m, N) * g_0(K)
-        - 2.0 * IRR_1(K, m, N) * g_1(K)
-    ) / IRR_0(K, m, N) ** 2 + 2.0 * IRR_1(K, m, N) ** 2 * g_0(K) / IRR_0(K, m, N) ** 3
-```
-
-```python
 CMS_PV = [
     # {
     #     "name": "CMS10y semi-annual over the next 2 years",
@@ -481,3 +485,51 @@ for expiry in np.unique(df_cms_rates["Expiry"].values):
 ```python
 
 ```
+
+## Convexity Correction Visualization
+
+```d2
+direction: right
+
+convexity_process: Convexity Adjustment Process {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+forward_rate: Forward Rate Calculation {
+  shape: oval
+  style.fill: "#fff3e0"
+}
+
+sabr_vol: SABR Volatility Surface {
+  shape: diamond
+  style.fill: "#f3e5f5"
+}
+
+option_pricing: Black-76 Option Pricing {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+}
+
+cms_rate: CMS Rate Computation {
+  shape: rectangle
+  style.fill: "#fce4ec"
+}
+
+convexity_process -> forward_rate: Compute forward swap rates
+forward_rate -> sabr_vol: Interpolate SABR parameters
+sabr_vol -> option_pricing: Apply volatility to options
+option_pricing -> cms_rate: Integrate convexity adjustment
+cms_rate -> convexity_process: Output adjusted CMS rate
+```
+
+## Key Concepts in Convexity Correction
+
+Convexity correction accounts for the non-linear relationship between forward rates and swap rates in interest rate derivatives pricing. The process involves:
+
+1. **Forward Rate Extraction**: Computing forward LIBOR rates from discount factors
+2. **SABR Calibration**: Using SABR model for volatility surface representation
+3. **Option Pricing**: Applying Black-76 model to price caplets/floorlets
+4. **Numerical Integration**: Integrating over strike space to compute convexity adjustment
+5. **CMS Rate Calculation**: Adjusting standard swap rates for convexity effects

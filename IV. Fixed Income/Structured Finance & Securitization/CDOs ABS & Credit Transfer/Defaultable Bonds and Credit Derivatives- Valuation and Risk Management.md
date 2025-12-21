@@ -1,22 +1,36 @@
 ---
-aliases:
-  - Defaultable Bonds and Credit Derivatives
-  - Credit Derivatives Valuation
-tags:
-key_concepts:
-parent_directory: CDOs ABS & Credit Transfer
-cssclasses: academia
 title: "Defaultable Bonds and Credit Derivatives: Valuation and Risk Management"
-linter-yaml-title-alias: "Defaultable Bonds and Credit Derivatives: Valuation and Risk Management"
+parent_directory: CDOs ABS & Credit Transfer
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+   - credit derivatives valuation
+   - structural models
+   - reduced form models
+   - default risk modeling
+   - credit portfolio management
+secondary_tags:
+   - merton model
+   - black scholes approach
+   - credit default swaps
+   - loss given default
+   - recovery rate estimation
+   - binomial expansion method
+   - diversity score
+   - credit risk metrics
+   - portfolio optimization
+   - risk neutral pricing
+cssclasses: academia
 ---
 
 # Defaultable Bonds and Credit Derivatives: Valuation and Risk Management
 
-# Abstract
+## Abstract
 
 This paper surveys the most common models and methodologies for valuing defaultable bonds and credit derivatives. Structural and reduced-form pricing models are discussed and credit modelling methodologies are compared with respect to their applicability to defaultable asset classes.
 
-# 1 Introductory remarks
+## 1 Introductory remarks
 
 In recent years, market participants witnessed increased activity in secondary corporate, particularly high-yield bond market, structured and synthetic credit products and derivatives. The amount of outstanding corporate debt as of September 30, 2002 was estimated at  \$4 trillion while asset-backs amounted to\$ 1.5 trillion and mortgage-based securities to  \$4.6 trillion. British Bankers Association estimated credit derivatives volumes to be close to\$ 2 trillion at the end of 2002 and expects them to increase to 4.8 trillion by end of 2004.
 
@@ -28,13 +42,14 @@ Table 1: Advantages of securitized credit products
 
 Incorporating defaultable securities into the investor's portfolio, however, implies the acceptance of an elevated level of risk. The need to manage such investments has stimulated rapid development of quantitative modelling tools for the purposes of portfolio optimization and risk management.
 
-# 2 Sources of risk
+## 2 Sources of risk
 
 A portfolio of defaultable securities is subject to a multitude of risks, e.g., (see [2]):
 
 - investment and reinvestment risk;
 - interest rate risk;
-- asset/liability mismatch; credit risk:
+- asset/liability mismatch
+- credit risk
 - default risk;
 - credit migration risk;
 - recovery rate risk;
@@ -44,15 +59,15 @@ A portfolio of defaultable securities is subject to a multitude of risks, e.g., 
 
 While some of these risks are not easily, if at all, quantifiable, a consistent mathematical model can improve the manager's ability to manage overall portfolio risk and correctly position himself in anticipation of market events.
 
-# 3 Valuation
+## 3 Valuation
 
 Analytical models for valuing defaultable securities fall into two main categories (see [7], [6]): structural and reduced form. Practitioners often use statistical models based on agency ratings or macroeconomic factors.
 
-# 3.1 Structural models
+### 3.1 Structural models
 
 Structural models rely on assumptions about the value of the firm and the volatility of its assets. The former must be deduced from accounting data which is subject to manipulation, while the latter may only be estimated from historical data with questionable applicability to the future. Structural approach was pioneered by Merton [4] and is currently used in Moody's KMV framework.
 
-Merton's model is an extension of the Black-Scholes approach [3] makes the following assumptions:
+Merton's model is an extension of the Black-Scholes approach [3] and makes the following assumptions:
 
 - the firm's liabilities are of the same type (e.g., bonds);
 - the firm's debt is zero coupon with no embedded options;
@@ -64,27 +79,27 @@ Merton's model has a closed-form solution. The model's idealized assumptions wer
 
 In the context of securitized and synthetic credit products, Hull and White [24] developed a model for valuing plain vanilla and binary credit default swaps (CDS) on the assumption of constant interest rates, known recovery rates and claim amounts. The model appears to underestimate the observed yield spread to Treasury, which is consistent with neglecting risks other than default. Taking their idea one step further, the authors incorporate default correlations into their original model to value basket CDS's [25].
 
-# 3.2 Reduced form models
+### 3.2 Reduced form models
 
 Reduced form models are based on the "no arbitrage" argument by assuming that the probability of default is implicit in the observed credit spread of the security under consideration. As pointed out in [9], however, the observed credit spread incorporates the prices of liquidity risk, tax and regulatory constraints. It may therefore be treated as an upper bound on the price of a credit put.
 
-Schönbucher [13] did away with the restrictive liquidation clause and introduced the notion of multiple defaults on the same debt. Duffie and Singleton [16] replace the short-term interest rate with the default-adjusted rate as the discount rate. The authors apply this framework to the pricing of callable corporate bonds and a credit spread put. Zhou [14] attempted to reconcile the differences between structural and reduced-form models by introducing a jump-diffusion model which allowed for a sudden jump in the firm value. This, in turn, lead to a more realistic term structure of credit spreads. Nielsen and Ronn [15] developed a two-factor stochastic model of default with the risk-free rate and risky yield spread as factors.
+Schönbucher [13] did away with the restrictive liquidation clause and introduced the notion of multiple defaults on the same debt. Duffie and Singleton [16] replace the short-term interest rate with the default-adjusted rate as the discount rate. The authors apply this framework to the pricing of callable corporate bonds and a credit spread put. Zhou [14] attempted to reconcile the differences between structural and reduced-form models by introducing a jump-diffusion model which allowed for a sudden jump in the firm value. This, in turn, led to a more realistic term structure of credit spreads. Nielsen and Ronn [15] developed a two-factor stochastic model of default with the risk-free rate and risky yield spread as factors.
 
-Jarrow [27] devised an algorithm which incorporated firm equity prices into the reduced-form framework. The algorithm provides for an explicit estimation of the default intensity and liquidity premium. Jarrow and Yu [18] introduced the concept of counterparty risk, i.e., the risk that the default of the firm's counterparty may affect the firm's own default probability. The authors showed how a CDS can be mispriced when the default correlation between primary and secondary default entities is ignored. Jarrow and Yildirim [18] developed a model for valuing a CDS in the presence of correlation between market and credit risk. The model incorporates stochastic interest rates, an interest rate-dependent default intensity function and a constant recovery rate. Yu [20] estimated the default risk premium by decomposing the expected return on a defaultable bond into three parts: em default-free component, risk premium due to macroeconomic factors (state variables) and survival bias, i.e., the difference between risk-neutral and physical mean-loss rates.
+Jarrow [27] devised an algorithm which incorporated firm equity prices into the reduced-form framework. The algorithm provides for an explicit estimation of the default intensity and liquidity premium. Jarrow and Yu [18] introduced the concept of counterparty risk, i.e., the risk that the default of the firm's counterparty may affect the firm's own default probability. The authors showed how a CDS can be mispriced when the default correlation between primary and secondary default entities is ignored. Jarrow and Yildirim [18] developed a model for valuing a CDS in the presence of correlation between market and credit risk. The model incorporates stochastic interest rates, an interest rate-dependent default intensity function and a constant recovery rate. Yu [20] estimated the default risk premium by decomposing the expected return on a defaultable bond into three parts: a default-free component, risk premium due to macroeconomic factors (state variables) and survival bias, i.e., the difference between risk-neutral and physical mean-loss rates.
 
 Reduced-form models proved especially useful when pricing securitized and synthetic credit products. Duffie and Gårleanu [23] proposed a comprehensive CDO valuation model incorporating multi-issuer default, sectoral, regional, global and recovery risks and diversity scores. Results were presented for uniform and fast prioritization schemes. Laurent and Gregory [31] developed an algorithm for pricing basket CDS's and CDO's based on the copula approach.
 
-# 3.3 Statistical models
+### 3.3 Statistical models
 
 Hurst [28] contended that the market is often an accurate predictor of the default rate. The author attempted to forecast the default rate using GDP projections and default development patterns and outlays a methodology for valuing a CDO. Unfortunately, the paper's prediction of the default rate in 2001 and 2002 fell far short from the actual figure.
 
-# 4 Credit modelling techniques employed by credit agencies
+## 4 Credit modelling techniques employed by credit agencies
 
 Credit agencies use predominantly statistical models for default probability estimation. These models are based on rating systems developed by the agency to gauge the probability of default of any given pool of assets.
 
-# 4.1 The Moody's approach to rating CDO's
+### 4.1 The Moody's approach to rating CDO's
 
-A concise explanation of this methodology can be found in [33]. The ratings are based on the concept of diversity score. The actual portfolio is replaced with a (smaller) collection of assets with (an approximately) the same return distribution. Each instrument in this idealized portfolio has the same par value, rating, average coupon and maturity. The number of assets in the model portfolio is the diversity score. It reflects correlations in default rates and the distribution of asset size in the actual portfolio. When possible, assets should be grouped into industries and the within-industry diversity scores should be added together. Whenever such grouping is not possible ( structured instruments ), explicit assumptions have to be made about default correlations between assets. A model portfolio can then be constructed by matching the first two moments of the return distribution of the actual portfolio.
+A concise explanation of this methodology can be found in [33]. The ratings are based on the concept of diversity score. The actual portfolio is replaced with a (smaller) collection of assets with (an approximately) the same return distribution. Each instrument in this idealized portfolio has the same par value, rating, average coupon and maturity. The number of assets in the model portfolio is the diversity score. It reflects correlations in default rates and the distribution of asset size in the actual portfolio. When possible, assets should be grouped into industries and the within-industry diversity scores should be added together. Whenever such grouping is not possible (structured instruments), explicit assumptions have to be made about default correlations between assets. A model portfolio can then be constructed by matching the first two moments of the return distribution of the actual portfolio.
 
 Once the diversity score is calculated, the following average characteristics of the actual portfolio are computed:
 
@@ -107,21 +122,21 @@ The likelihood of a possible cash flow shortfall is estimated based on WARF and 
 
 # 4.2 The Binomial Expansion Method
 
-The Binomial Expansion Method, originally introduced by Moody's in [30], is based on the Diversity Score concept. This concept employs an orthogonal projection of the space of defaultable assets onto an  $D$ -dimensional subspace. Here  $D$  is the diversity score, the number of independent assets that are homogeneous and uncorrelated, determined by some suitable approximation. The (expected) loss is then calculated as
+The Binomial Expansion Method, originally introduced by Moody's in [30], is based on the Diversity Score concept. This concept employs an orthogonal projection of the space of defaultable assets onto an $D$-dimensional subspace. Here $D$ is the diversity score, the number of independent assets that are homogeneous and uncorrelated, determined by some suitable approximation. The (expected) loss is then calculated as
 
 $$
-E (L o s s) = \sum_ {j = 0} ^ {D} P _ {j} L _ {j}, \tag {1}
+E(Loss) = \sum_{j=0}^{D} P_{j} L_{j}, \tag{1}
 $$ where
 
 
 $$
 
-P _ {j} = C _ {D} ^ {j} p ^ {j} (1 - p) ^ {D - j} \tag {2}
+P_{j} = C_{D}^{j} p^{j} (1 - p)^{D - j} \tag{2}
 
-$$ is the probability of simultaneous  $j$  defaults among the  $D$  assets comprising the basis portfolio. The variance of loss is computed as
+$$ is the probability of simultaneous $j$ defaults among the $D$ assets comprising the basis portfolio. The variance of loss is computed as
 
 $$
-\operatorname {V a r} (\text {L o s s}) = \sum_ {j = 0} ^ {D} P _ {j} [ E (\text {L o s s}) - L _ {j} ] ^ {2}. \tag {3}
+\operatorname{Var}(Loss) = \sum_{j=0}^{D} P_{j} [E(Loss) - L_{j}]^{2}. \tag{3}
 $$
 
 An expansion of this method which incorporates a state space of (discrete) recovery rates:
@@ -139,7 +154,11 @@ $$
 
 # 4.3 Moody's LossCalc™
 
-Moody's defines recovery on a defaulted credit as its value approximately one month after default. Recovery rate is further defined as a percentage of par value of the defaulted debt. Loss given default ( LGD ) is then calculated as
+Moody's defines recovery on a defaulted credit as its value approximately one month after default. Recovery rate is further defined as a percentage of par value of the defaulted debt. Loss given default (LGD) is then calculated as
+
+$$
+
+LGD = 1 - \text{Recovery Rate} \tag{6}
 
 $$
 
@@ -203,7 +222,7 @@ Credit risk is conventionally decomposed into expected loss (EL) and unexpected 
 
 $$
 
-C r e d i t R i s k = E x p e c t e d L o s s + U n e x p e c t e d L o s s. \tag {8}
+Credit Risk = Expected Loss + Unexpected Loss. \tag{8}
 
 $$
 
@@ -220,15 +239,25 @@ Portfolio models can be used for
 
 # A.1 Calculation of firm asset value
 
-The following calculation is based on the example given by Chance [34]. Let the firm assets be currently worth  $A$ , its market debt is worth  $B$  and its equity is worth  $S$ . Then
+The following calculation is based on the example given by Chance [34]. Let the firm assets be currently worth $A$, its market debt is worth $B$ and its equity is worth $S$. Then
 
 $$
 
-A = B + S. \tag {A.1}
+A = B + S. \tag{A.1}
 
 $$
 
-Suppose the firm has total outstanding debt with face value  $F$  due at time  $T$ . Then at time  $T$  stock holdings are worth  $\max \{A(T) - F, 0\}$ , i.e., the firm stock can be viewed as a call option on the firm assets. Recall the put-call parity equation:
+Suppose the firm has total outstanding debt with face value $F$ due at time $T$. Then at time $T$ stock holdings are worth $\max \{A(T) - F, 0\}$, i.e., the firm stock can be viewed as a call option on the firm assets. Recall the put-call parity equation:
+
+$$
+
+C_{X}(t, T) = P_{X}(t, T) + S(t) - X e^{-r T}, \tag{A.2}
+
+$$ where $C_X(t,T)$ and $P_X(t,T)$ are the (per share) prices at time $t$ of a call and put on the firm stock struck at $X$, $S(t)$ is the price of a share of stock and $r$ is the risk-free interest rate. Extending our analogy, observe that
+
+$$
+
+S(t) = P(t, T) + A(t) - F e^{-r T}, \tag{A.3}
 
 $$
 
@@ -243,11 +272,11 @@ $$ where  $A(t)$  and  $F$  are expressed per share. The value of firm assets ca
 
 # A.2 An approximation for the default intensity when the recovery rate is known
 
-Consider a risky bond that is trading at par unit value at a spread  $s$  over the current risk-free rate  $r$  and matures at time  $T \gg 1$ . Under risk-neutral valuation with continuous compounding, its current value (1) can be expressed as (see [15]):
+Consider a risky bond that is trading at par unit value at a spread $s$ over the current risk-free rate $r$ and matures at time $T \gg 1$. Under risk-neutral valuation with continuous compounding, its current value (1) can be expressed as (see [15]):
 
 $$
 
-1 = e ^ {- r d t} \left[ D \lambda d t + e ^ {(r + s) d t} (1 - \lambda d t) \right], \tag {A.4}
+1 = e^{-r dt} \left[ D \lambda dt + e^{(r + s) dt} (1 - \lambda dt) \right], \tag{A.4}
 
 $$ where  $D$  is the recovery rate and  $\lambda$  is the (instantaneous) default intensity. In (A.4),  $D\lambda dt$  is the bond payoff at time  $t + dt$  in the event of default during time interval  $dt$  (assuming the bond is not currently in default),  $e^{(r + s)dt}$  is the expected value of the bond at time  $t + dt$  (assuming there is no default during  $dt$ ) and  $e^{-rdt}$  is the discount factor.
 

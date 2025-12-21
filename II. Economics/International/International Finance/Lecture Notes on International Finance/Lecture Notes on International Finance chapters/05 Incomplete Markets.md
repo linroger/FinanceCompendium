@@ -1,28 +1,26 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Incomplete Markets
-linter-yaml-title-alias: Incomplete Markets
+title: "Incomplete Markets"
+parent_directory: "International Finance"
+formatted: 2025-12-21 07:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- markets incomplete countries
-- rate dynamics general absence
-- yields enrich effects market
+- incomplete markets
+- exchange rate dynamics
+- market incompleteness wedge
 secondary_tags:
-- market incompleteness exchange rate
-- incomplete market wedge eq
-- effects market incompleteness exchange
-- market incompleteness individual level
-- sdf incomplete markets multiple
-- incomplete markets vs convenience
-tags_extracted: '2025-12-18T01:44:35.430112'
+- international risk sharing
+- stochastic discount factors
+- Pareto optimal allocation
+- market segmentation
+- hedging portfolios
+- consumption based SDFs
+cssclasses: academia
 ---
 
 # Incomplete Markets
 
-# Summary
+## Summary
 
 - Incomplete markets also lead to a wedge between the exchange rate movement and the SDF differential:
 
@@ -43,34 +41,32 @@ $$
 Backus, Foresi, and Telmer [2001] introduces a wedge  $\eta$  to describe this violation:
 
 $$
-\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}. \tag {5.1}
+\Delta e_{t + 1} = m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}. \tag{5.1}
 $$
 
-In this section, we first develop a full general equilibrium model with incomplete markets that gives rise to the above wedge  $\eta_{t+1}$ . We then take a different, no-arbitrage approach that focuses only on the Euler equations. While incomplete spanning leads to deviations from the complete-market characterization of the exchange rate dynamics (1.16), it still respects the Euler equations for the assets that are tradable by both countries' households. For example, if home and foreign
-
-risk-free bonds are tradable, the original Euler equation (1.6) holds, i.e.,
+In this section, we first develop a full general equilibrium model with incomplete markets that gives rise to the above wedge  $\eta_{t+1}$ . We then take a different, no-arbitrage approach that focuses only on the Euler equations. While incomplete spanning leads to deviations from the complete-market characterization of the exchange rate dynamics (1.16), it still respects the Euler equations for the assets that are tradable by both countries' households. For example, if home and foreign risk-free bonds are tradable, the original Euler equation (1.6) holds, i.e.,
 
 $$
-1 = \mathbb {E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
+1 = \mathbb{E}_{t} [ \exp (m_{t + 1} + r_{t}) ],
 $$
 
 which does not require us to introduce additional Euler equation wedges as we did in our discussion of convenience yields in Chapter 4, i.e.,
 
 $$
-\exp (- \lambda_{t}) = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right].
+\exp (- \lambda_{t}) = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} + r_{t}\right) \right].
 $$
 
 In this sense, the incomplete-market wedge  $\eta$  in Eq. (5.1) is conceptually distinct from the Euler equation wedge  $\lambda_{t}$ . We will further develop these model ingredients throughout this section.
 
 Conceptually, there are two types of market incompleteness, one at the individual level and one at the country level. Markets can be incomplete at the individual level, which has been studied in a large macro literature starting from Aiyagari-Bewley-Huggett. Markets can also be incomplete between countries, leading to incomplete risk-sharing at the country level. In this section, we will focus on the latter form of market incompleteness. We allow the individual-level risk to be fully shared within countries, and model the representative household in each country. At the same time, the representative households in different countries cannot trade the full set of contingent claims to share risks internationally, leading to richer exchange rate and capital flow dynamics.
 
-# 5.A An Illustrative Model
+## 5.A An Illustrative Model
 
 Again we begin with a fully specified model. This is particularly useful in the context of incomplete markets, as the incomplete-market wedge  $\eta_{t + 1}$  in Eq. (5.1) is particularly difficult to conceptualize in the absence of such a model.
 
 As the discussion of incomplete-market exchange rate dynamics is necessarily abstract, we begin by presenting a concrete general equilibrium model with incomplete markets. This model is a variant of Pavlova and Rigobon [2012], with the key difference being that Pavlova and Rigobon [2012] has one international bond whose payoff is a weighted average of home and foreign goods, whereas our model has a home bond and a foreign bond that we considered in the previous sections.
 
-# 5.A.1 The Economic Setting
+### 5.A.1 The Economic Setting
 
 For tractability, we now use some continuous-time math. There is a finite horizon  $T$ . The home and foreign endowment processes are
 
@@ -507,7 +503,7 @@ $$
 Then, we can introduce a stochastic wedge  $\eta_t$  that reconciles the log exchange rate movement with the domestic and foreign consumption-based SDFs:
 
 $$
-d e_{t} = d m_{\nu_{H}, t} - d m_{\nu_{F}^{*}, t}^{*} + d \eta_{t}, \tag {5.8}
+d e_{t} = d m_{\nu_{H}, t} - d m_{\nu_{F}^{*}, t}^{*} + d \eta_{t}, \tag{5.8}
 $$
 
 where
@@ -593,7 +589,7 @@ The proof is presented in Appendix A.18. This complete-market case restores a co
 Moreover, Eq. (5.7), reproduced below, also holds in the complete-market case:
 
 $$
-\pi = \frac{\tilde {w}_{t}^{*}}{w_{t}} \frac{\gamma_{t}}{\gamma^{*}}. \tag {5.9}
+\pi = \frac{\tilde {w}_{t}^{*}}{w_{t}} \frac{\gamma_{t}}{\gamma^{*}}. \tag{5.9}
 $$
 
 With a constant Pareto weight  $\pi$ , the equilibrium wealth distribution is equal to the ratio of the discount rates. As such, when markets are complete, the wealth distribution does not introduce additional state variables.
@@ -663,13 +659,13 @@ $$
 which imply a restriction on the joint distribution of  $m_{t + 1}^{*}$  and  $\eta_{t + 1}$ :
 
 $$
-\mathbb {E}_{t} \left[ \eta_{t + 1} \right] - \frac{1}{2} \operatorname{va r}_{t} \left(\eta_{t + 1}\right) + \operatorname{co v}_{t} \left(m_{t + 1}^{*}, \eta_{t + 1}\right) = 0. \tag {5.11}
+\mathbb {E}_{t} \left[ \eta_{t + 1} \right] - \frac{1}{2} \operatorname{var}_{t} \left(\eta_{t + 1}\right) + \operatorname{cov}_{t} \left(m_{t + 1}^{*}, \eta_{t + 1}\right) = 0. \tag{5.11}
 $$
 
 The restrictions (5.10) and (5.11) imply
 
 $$
-0 = \operatorname{co v}_{t} \left(m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}, \eta_{t + 1}\right) = \operatorname{co v}_{t} \left(\Delta e_{t + 1}, \eta_{t + 1}\right). \tag {5.12}
+0 = \operatorname{cov}_{t} \left(m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}, \eta_{t + 1}\right) = \operatorname{cov}_{t} \left(\Delta e_{t + 1}, \eta_{t + 1}\right). \tag{5.12}
 $$
 
 This is the key implication of the Euler equations. The incomplete-market wedge  $\eta_{t+1}$  has to exist in the space orthogonal to the exchange rate movement  $\Delta e_{t+1}$ . Otherwise, it will affect how the exchange rate is priced, which makes the two SDFs  $m_{t+1}$  and  $m_{t+1} + \eta_{t+1}$  disagree on the pricing of the foreign currency.
@@ -677,13 +673,13 @@ This is the key implication of the Euler equations. The incomplete-market wedge 
 Rearranging (5.12), we obtain
 
 $$
-c o v_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) = - v a r_{t} \left(\eta_{t + 1}\right);
+\operatorname{cov}_{t} \left(m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}\right) = - \operatorname{var}_{t} \left(\eta_{t + 1}\right);
 $$
 
 that is, in order for the incomplete-market wedge  $\eta_{t+1}$  to be orthogonal to the exchange rate movement  $\Delta e_{t+1}$ , it has to be negatively correlated with the SDF differential  $m_{t+1} - m_{t+1}^*$ . Then, the exchange rate variance becomes
 
 $$
-\begin{array}{l} v a r_{t} (\Delta e_{t + 1}) = v a r_{t} (m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}) = v a r_{t} (m_{t + 1} - m_{t + 1}^{*}) + v a r_{t} (\eta_{t + 1}) + 2 c o v_{t} (m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}) \\ = v a r_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - v a r_{t} \left(\eta_{t + 1}\right). \\ \end{array}
+\begin{array}{l} \operatorname{var}_{t} (\Delta e_{t + 1}) = \operatorname{var}_{t} (m_{t + 1} - m_{t + 1}^{*} + \eta_{t + 1}) = \operatorname{var}_{t} (m_{t + 1} - m_{t + 1}^{*}) + \operatorname{var}_{t} (\eta_{t + 1}) + 2 \operatorname{cov}_{t} (m_{t + 1} - m_{t + 1}^{*}, \eta_{t + 1}) \\ = \operatorname{var}_{t} \left(m_{t + 1} - m_{t + 1}^{*}\right) - \operatorname{var}_{t} \left(\eta_{t + 1}\right). \\ \end{array}
 $$
 
 In other words, since the incomplete-market wedge  $\eta_{t + 1}$  is negatively correlated with the SDF differential  $m_{t + 1} - m_{t + 1}^{*}$ , it reduces the exchange rate volatility relative to the volatility of the SDF differential.
@@ -743,7 +739,7 @@ In this subsection, we develop a different decomposition of the exchange rate mo
 Without loss of generality, we can express the exchange rate movement as
 
 $$
-\Delta e_{t + 1} = x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, \tag {5.13}
+\Delta e_{t + 1} = x_{t} + y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*} + w_{t} \varepsilon_{t + 1}, \tag{5.13}
 $$
 
 where  $\varepsilon_{t + 1}$  is a standard normal variable with a mean of 0 and a volatility of 1. This expression simply rewrites Eq. (5.1), with
@@ -755,11 +751,11 @@ $$
 We identify the coefficients  $x_{t}, y_{t}, z_{t}$ , and  $w_{t}$  by assuming that the covariance between the SDFs and the residual  $\varepsilon_{t+1}$  is zero, i.e.,  $cov_{t}(m_{t+1}, \varepsilon_{t+1}) = cov_{t}(m_{t+1}^{*}, \varepsilon_{t+1}) = 0$ , which uniquely pins down
 
 $$
-y_{t} = \frac{c o v_{t} (\Delta e_{t + 1} , m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) c o v_{t} (m_{t + 1} , m_{t + 1}^{*})}{v a r_{t} (m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
+y_{t} = \frac{\operatorname{cov}_{t} (\Delta e_{t + 1} , m_{t + 1}) \operatorname{var}_{t} (m_{t + 1}^{*}) - \operatorname{cov}_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) \operatorname{cov}_{t} (m_{t + 1} , m_{t + 1}^{*}) }{\operatorname{var}_{t} (m_{t + 1}) \operatorname{var}_{t} (m_{t + 1}^{*}) - \operatorname{cov}_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
 $$
 
 $$
-z_{t} = \frac{c o v_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) v a r_{t} (m_{t + 1}) - c o v_{t} (\Delta e_{t + 1} , m_{t + 1}) c o v_{t} (m_{t + 1} , m_{t + 1}^{*})}{v a r_{t} (m_{t + 1}) v a r_{t} (m_{t + 1}^{*}) - c o v_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
+z_{t} = \frac{\operatorname{cov}_{t} (\Delta e_{t + 1} , m_{t + 1}^{*}) \operatorname{var}_{t} (m_{t + 1}) - \operatorname{cov}_{t} (\Delta e_{t + 1} , m_{t + 1}) \operatorname{cov}_{t} (m_{t + 1} , m_{t + 1}^{*}) }{\operatorname{var}_{t} (m_{t + 1}) \operatorname{var}_{t} (m_{t + 1}^{*}) - \operatorname{cov}_{t} (m_{t + 1} , m_{t + 1}^{*})^{2}},
 $$
 
 $$
@@ -781,13 +777,13 @@ Using this exchange rate decomposition, we can provide a different characterizat
 Proposition 5.5. (a) The conditional exchange rate volatility can be expressed as
 
 $$
-\operatorname{va r}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{va r}_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}\right) + \operatorname{va r}_{t} \left(w_{t} \varepsilon_{t + 1}\right).
+\operatorname{var}_{t} \left(\Delta e_{t + 1}\right) = \operatorname{var}_{t} \left(y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}\right) + \operatorname{var}_{t} \left(w_{t} \varepsilon_{t + 1}\right).
 $$
 
 (b) The conditional exchange rate cyclicality can be expressed as
 
 $$
-c o v_{t} (m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}) = c o v_{t} (y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} - m_{t + 1}^{*}).
+\operatorname{cov}_{t} (m_{t + 1} - m_{t + 1}^{*}, \Delta e_{t + 1}) = \operatorname{cov}_{t} (y_{t} m_{t + 1} + z_{t} m_{t + 1}^{*}, m_{t + 1} - m_{t + 1}^{*}).
 $$
 
 (c) Using the Euler equations (1.6)-(1.9), the conditional currency risk premium can be expressed as

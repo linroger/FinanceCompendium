@@ -1,19 +1,18 @@
 ---
-aliases:
-- Specific Factors and Income Distribution
-tags: null
-key_concepts: null
-parent_directory: '[[Krugman International Economics]]'
-cssclasses: academia
-title: 'Chapter 04: Specific Factors and Income Distribution'
-linter-yaml-title-alias: 'Chapter 04: Specific Factors and Income Distribution'
+title: Chapter 04: Specific Factors and Income Distribution
+parent_directory: Part 1
+formatted: 2025-12-21 11:50:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
 primary_tags:
-- economy 103 summary
-- income distribution gains trade
+- specific factors model
+- income distribution trade
 secondary_tags:
-- specific factors income distribution
-- trade specific factors model
-tags_extracted: '2025-12-18T01:46:46.291061'
+- gains from trade
+- political economy trade
+- international labor mobility
+- trade protection politics
+cssclasses: academia
 ---
 
 # 4 Specific Factors and Income Distribution 77

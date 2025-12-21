@@ -1,13 +1,21 @@
 ---
-parent_directory:
 title: Credit Markets
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 06:31:33 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- credit markets
+- corporate bonds
+- credit risk
+secondary_tags:
+- bond valuation
+- credit spreads
+- treasury benchmarks
+- credit ratings
+- bond pricing
+- risk management
 cssclasses: academia
-linter-yaml-title-alias: Credit Markets
 ---
 
 # Credit Markets
@@ -97,6 +105,57 @@ Credit Default triggered by non-payment of contractual cashflows.
 In default, assets get liquidated to pay the liabilities, according to their rank in the capital structure.
 
 Equity tranches (both common and preferred) usually get wiped out.
+
+```d2
+direction: down
+
+# Capital Structure Waterfall in Default
+assets: Company Assets {
+  shape: hexagon
+  style.fill: "#4CAF50"
+  style.font-color: white
+}
+
+senior_secured: Senior Secured Debt {
+  style.fill: "#2196F3"
+  style.font-color: white
+}
+
+senior_unsecured: Senior Unsecured Debt {
+  style.fill: "#03A9F4"
+  style.font-color: white
+}
+
+subordinated: Subordinated Debt {
+  style.fill: "#00BCD4"
+  style.font-color: white
+}
+
+preferred_equity: Preferred Equity {
+  style.fill: "#009688"
+  style.font-color: white
+}
+
+common_equity: Common Equity {
+  style.fill: "#4CAF50"
+  style.font-color: white
+}
+
+assets -> senior_secured: "First claim on assets"
+senior_secured -> senior_unsecured: "Second priority"
+senior_unsecured -> subordinated: "Third priority"
+subordinated -> preferred_equity: "Fourth priority"
+preferred_equity -> common_equity: "Last claim - often wiped out"
+
+recovery_rates: Recovery Rates by Seniority {
+  style.fill: "#FFEB3B"
+  style.font-size: 12
+}
+
+recovery_rates -> assets: "Senior Secured: ~80%\nSenior Unsecured: ~40%\nSubordinated: ~20%\nEquity: ~0%" {
+  style.stroke-dash: 3
+}
+```
 
 US historical average recovery rates, by seniority:
 

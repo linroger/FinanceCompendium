@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Heath Jarrow Morton Model (HJM)
-linter-yaml-title-alias: Heath Jarrow Morton Model (HJM)
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 06:50:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
+primary_tags:
+  - heath jarrow morton model
+  - interest rate modeling
+  - term structure models
+secondary_tags:
+  - principal component analysis
+  - monte carlo simulation
+  - volatility fitting
+  - forward rates
+  - risk neutral drift
+  - stochastic calculus
+  - numerical integration
+  - yield curve dynamics
+cssclasses: academia
 ---
 
 Copyright &copy; 2015 Ondrej Martinsky, All rights reserved
@@ -32,9 +44,11 @@ numpy.random.seed(0)
 
 Loads historical short-rate curves $f(t,\tau)$ from the file.
 
-$f(t, \tau)$ represents instantenous forward rate for period $\tau \rightarrow \tau + \delta$, locked in time $t$. This rates can be obtained from prices of zero-coupons bond as:
+$f(t, \tau)$ represents instantaneous forward rate for period $\tau \rightarrow \tau + \delta$, locked in time $t$. This rates can be obtained from prices of zero-coupons bond as:
 
-$$ f(t, \tau) = \frac{\delta}{\delta \tau} log P(t, \tau)$$ 
+$$
+f(t, \tau) = \frac{\delta}{\delta \tau} \log P(t, \tau)
+$$ 
 
 ```python
 dataframe =  pd.read_csv('hjm_data.csv').set_index('time') / 100 # Convert interest rates to %
@@ -600,7 +614,9 @@ subplot(1, 3, 3), fit_volatility(2, 3, '3rd component');
 
 We will use trapezoidal rule:
 
-$$\int_0^t v(\tau)d\tau \approx \sum_{0}^{n} \frac{1}{2}(v_{i+1}-v_i)\times d\tau$$
+$$
+\int_0^t v(\tau)d\tau \approx \sum_{0}^{n} \frac{1}{2}(v_{i+1}-v_i)\times d\tau
+$$
 
 ```python
 def integrate(f, x0, x1, dx):
@@ -629,7 +645,9 @@ plot(mc_tenors, mc_vols, marker='.'), xlabel(r'Time $t$'), title('Volatilities')
 ### Drift calculation
 
 Drift $m(t,\tau)$ is calculated using numerical integration over fitted volatility functions (No Mursiela parameterisation for now)<br><br>
-$$ m(t,\tau) = \sum_{i=1}^n v_i(t,\tau) \int_0^\tau v_i(t,s)ds $$
+$$
+m(t,\tau) = \sum_{i=1}^n v_i(t,\tau) \int_0^\tau v_i(t,s)ds
+$$
 
 ```python
 def m(tau, fitted_vols):

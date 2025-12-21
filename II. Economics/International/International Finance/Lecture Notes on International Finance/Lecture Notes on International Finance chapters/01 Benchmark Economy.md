@@ -1,11 +1,9 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: A Benchmark Economy
-linter-yaml-title-alias: A Benchmark Economy
+title: "A Benchmark Economy"
+parent_directory: "Lecture Notes on International Finance chapters"
+formatted: 2025-12-21 06:30:25 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
 primary_tags:
 - joint normality foreign
 - implies consumption ratio foreign
@@ -21,12 +19,12 @@ secondary_tags:
 - empirically developed countries currencies
 - households implied exchange rate
 - euler equations households trade
-tags_extracted: '2025-12-18T01:43:52.433987'
+cssclasses: academia
 ---
 
 # A Benchmark Economy
 
-# Summary
+## Summary
 
 - We develop a benchmark two-country model of international real business cycles. Restrictions on the exchange rate  $e_t$  are imposed by both goods market conditions:
 
@@ -37,13 +35,13 @@ $$
 and asset market conditions:
 
 $$
-1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right] = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right].
+1 = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1} - \Delta e_{t + 1} + r_{t}^{*}\right) \right] = \mathbb{E}_{t} \left[ \exp \left(m_{t + 1}^{*} + \Delta e_{t + 1} + r_{t}\right) \right].
 $$
 
 - Trading in the risk-free bond market implies that the currency's expected return is determined by its risk premium:
 
 $$
-\mathbb {E}_{t} \left[ r x_{t + 1} \right] = - c o v_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} v a r_{t} \left(\Delta e_{t + 1}\right),
+\mathbb{E}_{t} \left[ r x_{t + 1} \right] = - \operatorname{cov}_{t} \left(m_{t + 1}^{*}, \Delta e_{t + 1}\right) - \frac{1}{2} \operatorname{var}_{t} \left(\Delta e_{t + 1}\right),
 $$
 
 and that the exchange rate level is determined by the expectation of future interest rates and currency risk premia:
@@ -62,13 +60,11 @@ $$
 \mathbb {E}_{t} [ r x_{t + 1} ] = \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) - \frac{1}{2} v a r_{t} (m_{t + 1}).
 $$
 
-We start with a benchmark economy with international trade in goods and bonds, which is the basis for extensions in later chapters. We characterize the dynamics of the exchange rate and the currency return in this model, and, in doing so, showcase some standard tech-
+We start with a benchmark economy with international trade in goods and bonds, which is the basis for extensions in later chapters. We characterize the dynamics of the exchange rate and the currency return in this model, and, in doing so, showcase some standard techniques.
 
-niques.
+## 1.A Model Set-up
 
-# 1.A Model Set-up
-
-# 1.A.1 Households
+### 1.A.1 Households
 
 We consider an endowment economy with two countries, home and foreign. Each country has a continuum of identical households. Equivalently, we can think of a representative household in each country. Each country has a unique type of goods, labeled as home goods and foreign goods. The home households receive an endowment of  $y_{t}$  units of the home goods, and the foreign households receive an endowment of  $y_{t}^{*}$  units of the foreign goods.
 
@@ -104,12 +100,12 @@ where  $y_{t}$  denotes the endowment of the home goods,  $p_{t}$  denotes the p
 
 We can introduce other tradable assets such as equities and long-term bonds by extending this budget constraint. A particularly useful case is when the households can trade the complete set of contingent claims. We will consider this complete-market case in Section 1.C.
 
-# 1.A.2 Intertemporal Solution
+### 1.A.2 Intertemporal Solution
 
 We write the home households' Lagrangian as
 
 $$
-\mathbb {E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u (c_{t}) + \sum_{t = 1}^{\infty} \zeta_{t} \left(p_{t} y_{t} + b_{H, t - 1} \exp \left(r_{t - 1}\right) + b_{F, t - 1} \exp \left(r_{t - 1}^{*} - e_{t}\right) - c_{t} - b_{H, t} - b_{F, t} \exp (- e_{t})\right) \right].
+\mathbb{E}_{0} \left[ \sum_{t = 1}^{\infty} \delta^{t} u (c_{t}) + \sum_{t = 1}^{\infty} \zeta_{t} \left(p_{t} y_{t} + b_{H, t - 1} \exp \left(r_{t - 1}\right) + b_{F, t - 1} \exp \left(r_{t - 1}^{*} - e_{t}\right) - c_{t} - b_{H, t} - b_{F, t} \exp (- e_{t})\right) \right].
 $$
 
 The first-order conditions w.r.t.  $c_{t},b_{H,t}$  , and  $b_{F,t}$  are
@@ -119,26 +115,26 @@ $$
 $$
 
 $$
-\mathbb {E}_{t} \left[ - \zeta_{t} + \zeta_{t + 1} \exp (r_{t}) \right] = 0,
+\mathbb{E}_{t} \left[ - \zeta_{t} + \zeta_{t + 1} \exp (r_{t}) \right] = 0,
 $$
 
 $$
-\mathbb {E}_{t} \left[ - \zeta_{t} \exp (- e_{t}) + \zeta_{t + 1} \exp \left(r_{t}^{*} - e_{t + 1}\right) \right] = 0.
+\mathbb{E}_{t} \left[ - \zeta_{t} \exp (- e_{t}) + \zeta_{t + 1} \exp \left(r_{t}^{*} - e_{t + 1}\right) \right] = 0.
 $$
 
 These equations imply the following Euler equations:
 
 $$
-\begin{array}{l} 1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1})}{u^{\prime} (c_{t})} \exp (r_{t}) \right], \\ 1 = \mathbb {E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ \end{array}
+\begin{array}{l} 1 = \mathbb{E}_{t} \left[ \delta \frac{u^{\prime} (c_{t + 1})}{u^{\prime} (c_{t})} \exp (r_{t}) \right], \\ 1 = \mathbb{E}_{t} \left[ \delta \frac{u^{\prime} \left(c_{t + 1}\right)}{u^{\prime} \left(c_{t}\right)} \exp \left(- \Delta e_{t + 1} + r_{t}^{*}\right) \right], \\ \end{array}
 $$
 
 which describe how the households trade off consumption and saving intertemporally. For example, we can express the first Euler equation as
 
 $$
-u^{\prime} \left(c_{t}\right) = \mathbb {E}_{t} \left[ \delta u^{\prime} \left(c_{t + 1}\right) \exp \left(r_{t}\right) \right].
+u^{\prime} \left(c_{t}\right) = \mathbb{E}_{t} \left[ \delta u^{\prime} \left(c_{t + 1}\right) \exp \left(r_{t}\right) \right].
 $$
 
-The left-hand side represents the increase in utility from consuming a small amount of the home consumption bundle in period  $t$ , which is  $u'(c_t)$  in the limit. The right-hand side represents the expected increase in the utility from saving this additional consumption bundle in home bonds, earning interests and receiving  $\exp(r_t)$  in period  $t + 1$ , and deriving  $u'(c_{t+1})$  utils from each additional unit of consumption in period  $t + 1$ . The households discount these future utils by the subjective discount rate  $\delta$ , and equalize the leftand right-hand sides so that they are indifferent between these two options.
+The left-hand side represents the increase in utility from consuming a small amount of the home consumption bundle in period  $t$ , which is  $u'(c_t)$  in the limit. The right-hand side represents the expected increase in the utility from saving this additional consumption bundle in home bonds, earning interests and receiving  $\exp(r_t)$  in period  $t + 1$ , and deriving  $u'(c_{t+1})$  utils from each additional unit of consumption in period  $t + 1$ . The households discount these future utils by the subjective discount rate  $\delta$ , and equalize the left-hand and right-hand sides so that they are indifferent between these two options.
 
 We denote the marginal utility growth as
 
@@ -149,20 +145,52 @@ $$
 which is commonly referred to as the stochastic discount factor (SDF) or the pricing kernel in the asset pricing literature. In this note, we will focus on the relationship between the SDF and the exchange rate. That said, if the same households can also trade the claim to the endowment, then, the same SDF also prices the endowment claim. Let  $m_{t,t+k} \stackrel{\mathrm{def}}{=} \sum_{j=1}^{k} m_{t+j}$  denote the cumulative SDF from period  $t$  to  $t + k$ . Then, the price of the home country's endowment claim is
 
 $$
-p_{t}^{m} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) p_{t + k} y_{t + k} \right].
+p_{t}^{m} = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) p_{t + k} y_{t + k} \right].
 $$
 
 Similarly, if the claim to the households' consumption stream is tradable, we can also price the households' wealth as
 
 $$
-p_{t}^{w} = \mathbb {E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) c_{t + k} \right].
+p_{t}^{w} = \mathbb{E}_{t} \left[ \sum_{k = 1}^{\infty} \exp (m_{t, t + k}) c_{t + k} \right].
 $$
 
-# 1.A.3 Within-Period Solution
+```d2
+direction: down
 
-Let  $p_t^*$  denote the price of the foreign goods in the unit of the foreign consumption bundle. Using the home consumption bundle as the
+sdf_definition: SDF Definition {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  
+  formula: |latex
+    \exp(m_{t+1}) = \delta \frac{u'(c_{t+1})}{u'(c_t)}
+  |
+}
 
-numérique, the price of the home consumption bundle is 1. Then, the law of one price implies
+euler_equations: Euler Equations {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  
+  home_euler: Home Bond Euler
+  foreign_euler: Foreign Bond Euler
+}
+
+asset_pricing: Asset Pricing Applications {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  
+  endowment_pricing: Endowment Claims
+  wealth_pricing: Consumption Stream
+}
+
+sdf_definition -> euler_equations: Drives intertemporal trade-offs
+euler_equations -> asset_pricing: Enables pricing of assets
+
+home_euler -> foreign_euler: Linked via exchange rate
+```
+
+### 1.A.3 Within-Period Solution
+
+Let  $p_t^*$  denote the price of the foreign goods in the unit of the foreign consumption bundle. Using the home consumption bundle as the numéraire, the price of the home consumption bundle is 1. Then, the law of one price implies
 
 $$
 1 \cdot \left(c_{H, t}\right)^{\alpha} \left(c_{F, t}\right)^{1 - \alpha} = 1 \cdot c_{t} = p_{t} c_{H, t} + p_{t}^{*} c_{F, t} \exp (- e_{t}). \tag {1.2}
@@ -250,7 +278,7 @@ $$
 
 That is, within a period, the households choose between consuming home and foreign goods by comparing the relative prices as captured by the real exchange rate  $e_t$  and the relative consumption weights  $\alpha$  and  $1 - \alpha$ .
 
-# 1.A.4 Foreign Country
+### 1.A.4 Foreign Country
 
 For foreign households, symmetrically, we define the foreign consumption bundle as
 
@@ -296,7 +324,7 @@ $$
 p_{t}^{*} = \alpha \left(\frac{c_{H , t}^{*}}{c_{F , t}^{*}}\right)^{1 - \alpha}.
 $$
 
-# 1.A.5 Market Clearing
+### 1.A.5 Market Clearing
 
 In the goods market, the endowment is equal to the sum of home and foreign consumption:
 
@@ -318,7 +346,7 @@ $$
 0 = b_{F, t} + b_{F, t}^{*}.
 $$
 
-# 1.A.6 Macro Synthesis
+### 1.A.6 Macro Synthesis
 
 Throughout this book, we study the competitive equilibrium defined in the usual fashion: all households maximize their utilities taking goods prices, asset prices, and exchange rates as given, and the markets for goods and assets are cleared.
 
@@ -416,7 +444,7 @@ $$
 1 = \mathbb {E}_{t} \left[ \exp \left(m_{t + 1}^{*}\right) \exp \left(\Delta e_{t + 1} + r_{t}\right) \right].
 $$
 
-# 1.B Exchange Rate Accounting
+## 1.B Exchange Rate Accounting
 
 Among the equilibrium conditions we derive in the last section, particularly relevant for asset pricing are the four Euler equations:
 
@@ -442,7 +470,7 @@ $$
 \begin{array}{l} 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + r_{t}^{*}, \\ 0 = \mathbb {E}_{t} [ m_{t + 1}^{*} ] + \frac{1}{2} v a r_{t} (m_{t + 1}^{*}) + \mathbb {E}_{t} [ \Delta e_{t + 1} ] + \frac{1}{2} v a r_{t} (\Delta e_{t + 1}) + c o v_{t} (m_{t + 1}^{*}, \Delta e_{t + 1}) + r_{t}. \\ \end{array}
 $$
 
-# 1.B.1 Accounting for the Currency Expected Return
+### 1.B.1 Accounting for the Currency Expected Return
 
 To capture the relative performance of the home and foreign currencies, we define the log excess return of the home currency against the foreign currency as
 
@@ -496,7 +524,7 @@ $$
 
 Recall that all these restrictions are derived from the Euler equations for holding the risk-free bonds. So, allowing the households to freely trade in the risk-free bond markets imposes restrictions not only between the currency expected return and the covariance between the SDF and the exchange rate movement from each country's perspective, but also between the home and the foreign perspectives. Specifically, the home and foreign investors need to agree on the equilibrium currency risk premium after the second-order adjustment by the Jensen's term.
 
-# 1.B.2 Accounting for the Exchange Rate Level
+### 1.B.2 Accounting for the Exchange Rate Level
 
 Let us denote the home currency's risk premium (including the Jensen's term) as
 

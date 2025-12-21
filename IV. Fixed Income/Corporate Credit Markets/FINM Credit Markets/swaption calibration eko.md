@@ -1,9 +1,22 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+title: "Swaption Calibration Eko"
+parent_directory: "IV. Fixed Income/Corporate Credit Markets/FINM Credit Markets"
+formatted: "2025-12-21 06:37:45 AM"
+formatter_model: "grok-code-fast-1"
+cli-tool: "opencode"
+primary_tags:
+  - swaption calibration
+  - sabr model
+  - displaced diffusion model
+  - black76 model
+secondary_tags:
+  - volatility modeling
+  - option pricing
+  - interest rate derivatives
+  - numerical calibration
+  - swap rates
+  - implied volatility
 cssclasses: academia
-title: swaption calibration eko
 ---
 
 # swaption calibration eko

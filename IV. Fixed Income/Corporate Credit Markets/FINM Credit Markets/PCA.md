@@ -1,11 +1,19 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Principal Component Analysis
+parent_directory: FINM Credit Markets
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+- principal component analysis
+- dimensionality reduction
+- eigenvector decomposition
+secondary_tags:
+- covariance matrix
+- eigenvalue analysis
+- data transformation
+- statistical analysis
 cssclasses: academia
-title: Principal Component Analysis (PCA)
-linter-yaml-title-alias: Principal Component Analysis (PCA)
 ---
 
 Copyright &copy; 2015 Ondrej Martinsky, All rights reserved
