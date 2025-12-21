@@ -1,16 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+---
+title: "Teaching Note 6: Implied Volatility"
+parent_directory: "VI. Derivatives/Reference/Lecture Notes"
+formatted: 2025-12-20 18:30:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - implied volatility
+  - black scholes model
+  - volatility smile
+  - option pricing
+secondary_tags:
+  - stochastic volatility
+  - volatility surface
+  - fat tails
+  - jump diffusion
+  - volatility smirk
+  - implied tree models
+  - option mispricing
 cssclasses: academia
-title: Teaching Note 6
-linter-yaml-title-alias: Teaching Note 6
+---
 ---
 
-# Teaching Note 6
-
-# Implied Volatility
+# Teaching Note 6: Implied Volatility
 
 John Heaton
 
@@ -18,23 +30,23 @@ The University of Chicago
 
 Booth School of Business
 
-1. Black and Scholes Option Pricing Model: Does it work?
+## Black and Scholes Option Pricing Model: Does it work?
 
-1.1 Fat Tails  
-1.2 Stochastic Volatility  
-1.3 Jumps
+### Fat Tails
+### Stochastic Volatility
+### Jumps
 
-2. Implied Volatility
+## Implied Volatility
 
-2.1 The Smirk  
-2.2 Implied Volatility and Empirical Volatility  
-2.3 Implied Volatility Surface
+### The Smirk
+### Implied Volatility and Empirical Volatility
+### Implied Volatility Surface
 
-3. Improvements on Black and Scholes Model
+## Improvements on Black and Scholes Model
 
-3.1 Deterministic and Stochastic Volatility Models  
-3.2 Jump Model  
-2.3 Implied Tree Models
+### Deterministic and Stochastic Volatility Models
+### Jump Model
+### Implied Tree Models
 
 # Black and Scholes Model: Does it Work?
 
@@ -51,7 +63,7 @@ Booth School of Business
 - Moneyness: is defined as the ratio of the strike price to the current stock price  $K / S$
 
 $$
-\begin{array}{l} \Rightarrow K / S <   1 \Rightarrow K <   S \Rightarrow \mathrm {p u t s a r e O T M}, \mathrm {c a l l s a r e I T M} \\ \Rightarrow K / S > 1 \Rightarrow K > S \Rightarrow \mathrm {p u t s a r e I T M}, \mathrm {c a l l s a r e O T M} \\ \end{array}
+\begin{array}{l} \Rightarrow K/S < 1 \Rightarrow K < S \Rightarrow \mathrm{puts\ are\ OTM,\ calls\ are\ ITM} \\ \Rightarrow K/S > 1 \Rightarrow K > S \Rightarrow \mathrm{puts\ are\ ITM,\ calls\ are\ OTM} \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/481b8b431ea0f005090d1a088b308f20e73ca2075d63b113872784151f56b825.jpg)
@@ -109,7 +121,7 @@ $\Longrightarrow$  Fat Tails: Extreme observations more likely than implied by n
 - Define:
 
 $$
-\sigma_ {I m p} \quad \mathrm {i s c h o s e n s u c h t h a t} \quad p u t ^ {m k t} (K, T) = B S P (S _ {0}, K, T, r, q, \sigma_ {I m p})
+\sigma_{\mathrm{Imp}} \quad \mathrm{is\ chosen\ such\ that} \quad \mathrm{put}^{\mathrm{mkt}}(K,T) = \mathrm{BSP}(S_{0},K,T,r,q,\sigma_{\mathrm{Imp}})
 $$
 
 - The implied volatility for this option was  $23.1\%$  
@@ -186,7 +198,7 @@ Option Prices across Strike Prices and maturitirs
 - E.g. Constant Elasticity of Variance model:  $\sigma(S) = \Sigma \times S^{\alpha}$
 
 $$
-\log \left(\frac {S _ {t , t + h}}{S _ {t}}\right) = \mu \times h + S _ {t} ^ {\alpha} \times \Sigma \times \epsilon_ {t}
+R_{t,t+h} = \mu \times h + S_{t}^{\alpha} \times \Sigma \times \epsilon_{t}
 $$
 
 - If  $\alpha < 0$ , a lower  $S_{t}$  implies a higher volatility.  
@@ -200,11 +212,11 @@ $\bullet \Longrightarrow$  implied volatility smirk
 E.g. let  $\sigma_t = \sqrt{v_t}$
 
 $$
-R _ {t, t + h} = \mu \times h + \sqrt {v _ {t}} \times \epsilon_ {1, t}
+R_{t,t+h} = \mu \times h + \sqrt{v_{t}} \times \epsilon_{1,t}
 $$
 
 $$
-\left(v _ {t + h} - v _ {t}\right) = k \times \left(\overline {{v}} - v _ {t}\right) \times h + \Sigma \times \sqrt {v _ {t}} \times \epsilon_ {2, t}
+(v_{t+h} - v_{t}) = k \times (\overline{v} - v_{t}) \times h + \Sigma \times \sqrt{v_{t}} \times \epsilon_{2,t}
 $$
 
 - (It is hard to ensure  $v_{t} > 0$  for every  $t$  unless interval size  $h$  is very small)
@@ -217,7 +229,7 @@ $$
 - Assume that sometimes big changes in stock prices occur (e.g. October 1987)
 
 $$
-R _ {t, t + h} = \mu \times h + \sigma \times \epsilon_ {t} + \omega \times Q _ {t}
+R_{t,t+h} = \mu \times h + \sigma \times \epsilon_{t} + \omega \times Q_{t}
 $$
 
 - where  $Q_{t} = 0$  most of the time, but some times  $Q_{t} = 1$  (with small probability)  
@@ -237,10 +249,10 @@ $$
 - Given  $S_{0} = 1502.39$ ,  $\sigma = 12.36\%$ ,  $r = 4.713\%$ ,  $\delta = 1.91\%$  and  $T = .12$ , we find  $u = \exp(\sigma \sqrt{T}) = 1.043746137$  and  $d = 1 / u = 0.958087378$ . Thus, the risk neutral probability
 
 $$
-q ^ {*} = \frac {e ^ {(r - \delta) T} - d}{u - d} = 0. 5 2 8 6 3 1 1 1 3
+q^{*} = \frac{e^{(r - \delta)T} - d}{u - d} = 0.528631113
 $$
 
-- The price of the \(K = 1500\) put option come out to be \(p_0 = \\)28.394\(, higher than the traded market price \(p^{mkt}(1500,.12) = \$20.35\).
+- The price of the $K = 1500$ put option comes out to be $p_0 = \$28.394$, higher than the traded market price $p^{\mathrm{mkt}}(1500,.12) = \$20.35$.
 
 # An Example of "Implied Tree"
 
@@ -253,31 +265,31 @@ i = 1
 $$
 
 $$
-S _ {1, u} = 1 5 6 8. 1 1 4
+S_{1,u} = 1568.114
 $$
 
 $$
-p _ {1, u} = 0
+p_{1,u} = 0
 $$
 
 $$
-S _ {0} = 1 5 0 2. 3 9
+S_{0} = 1502.39
 $$
 
 $$
-q _ {0} ^ {*} = 0. 5 2 8 6 3 1 1 1 3
+q_{0}^{*} = 0.528631113
 $$
 
 $$
-p _ {0} = e ^ {- r \times 0. 1 2} \times (1 - q _ {0} ^ {*}) \times p _ {1, d} = 2 8. 3 9 4
+p_{0} = e^{-r \times 0.12} \times (1 - q_{0}^{*}) \times p_{1,d} = 28.394
 $$
 
 $$
-S _ {1, d} = 1 4 3 9. 4 2 1
+S_{1,d} = 1439.421
 $$
 
 $$
-p _ {1, d} = 6 0. 5 7 9
+p_{1,d} = 60.579
 $$
 
 - An implied tree has the same logic of implied volatility: Since the model is not working using the correct inputs, we look for an alternative specification that makes it work.
@@ -296,31 +308,31 @@ i = 1
 $$
 
 $$
-S _ {1, u} = 1 5 5 1. 2 6
+S_{1,u} = 1551.26
 $$
 
 $$
-p _ {1, u} = 0
+p_{1,u} = 0
 $$
 
 $$
-S _ {0} = 1 5 0 2. 3 9
+S_{0} = 1502.39
 $$
 
 $$
-q _ {0} ^ {*} = 0. 5 4 4 6
+q_{0}^{*} = 0.5446
 $$
 
 $$
-p _ {0} = e ^ {- r \times 0. 1 2} \times (1 - q _ {0} ^ {*}) \times p _ {1, d} = 2 0. 3 5
+p_{0} = e^{-r \times 0.12} \times (1 - q_{0}^{*}) \times p_{1,d} = 20.35
 $$
 
 $$
-S _ {1, d} = 1 4 5 5. 0 5 9
+S_{1,d} = 1455.059
 $$
 
 $$
-p _ {1, d} = 4 4. 9 4 1
+p_{1,d} = 44.941
 $$
 
 - What do we use an implied tree for?
@@ -333,7 +345,7 @@ $$
 What do we choose?
 
 $$
-- S _ {2, u u}, S _ {2, u d} = S _ {2, d u} \mathrm {a n d} S _ {2, d d}.
+- S_{2,uu}, S_{2,ud} = S_{2,du} \mathrm{and\ } S_{2,dd}.
 $$
 
 - It is desirable to keep the tree somewhat balanced around the starting value  $S_0$ .  
@@ -356,87 +368,87 @@ i = 2
 $$
 
 $$
-S _ {2, u u} = 1 5 6 7. 0 7 1 3
+S_{2,uu} = 1567.0713
 $$
 
 $$
-p _ {2, u u} ^ {1} = 0
+p_{2,uu}^{1} = 0
 $$
 
 $$
-p _ {2, u u} ^ {2} = 0
+p_{2,uu}^{2} = 0
 $$
 
 $$
-S _ {0} = 1 5 0 2. 3 9
+S_{0} = 1502.39
 $$
 
 $$
-q _ {0} ^ {*} = 0. 5 4 4 6
+q_{0}^{*} = 0.5446
 $$
 
 $$
-p _ {0} ^ {1} = 5 0. 2 = p ^ {m k t} (1 5 5 0,. 2 1)
+p_{0}^{1} = 50.2 = p^{\mathrm{mkt}}(1550,.21)
 $$
 
 $$
-p _ {0} ^ {2} = 1 4. 6 5 = p ^ {m k t} (1 4 5 0,. 2 1)
+p_{0}^{2} = 14.65 = p^{\mathrm{mkt}}(1450,.21)
 $$
 
 $$
-S _ {1, u} = 1 5 5 1. 2 6
+S_{1,u} = 1551.26
 $$
 
 $$
-q _ {1, u} ^ {*} = 0. 7 1 4 4
+q_{1,u}^{*} = 0.7144
 $$
 
 $$
-p _ {1, u} ^ {1} = 1 3. 5 4 1 3
+p_{1,u}^{1} = 13.5413
 $$
 
 $$
-p _ {1, u} ^ {2} = 0
+p_{1,u}^{2} = 0
 $$
 
 $$
-S _ {2, u d} = S _ {2, d u} = 1 5 0 2. 3 9
+S_{2,ud} = S_{2,du} = 1502.39
 $$
 
 $$
-p _ {2, u d} ^ {1} = 4 7. 6 1
+p_{2,ud}^{1} = 47.61
 $$
 
 $$
-p _ {2, u d} ^ {2} = 0
+p_{2,ud}^{2} = 0
 $$
 
 $$
-S _ {1, d} = 1 4 5 5. 0 5 9
+S_{1,d} = 1455.059
 $$
 
 $$
-q _ {1, d} ^ {*} = 0. 7 3 7 3
+q_{1,d}^{*} = 0.7373
 $$
 
 $$
-p _ {1, d} ^ {1} = 9 4. 6 7
+p_{1,d}^{1} = 94.67
 $$
 
 $$
-p _ {1, d} ^ {2} = 3 2. 3 6
+p_{1,d}^{2} = 32.36
 $$
 
 $$
-S _ {2, d d} = 1 3 3 6. 2 3 1 6
+S_{2,dd} = 1336.2316
 $$
 
 $$
-p _ {2, d d} ^ {1} = 2 1 3. 7 6 8 4
+p_{2,dd}^{1} = 213.7684
 $$
 
 $$
-p _ {2, d d} ^ {2} = 1 1 3. 7 6 8 4
+p_{2,dd}^{2} = 113.7684
 $$
 
 # Conclusions

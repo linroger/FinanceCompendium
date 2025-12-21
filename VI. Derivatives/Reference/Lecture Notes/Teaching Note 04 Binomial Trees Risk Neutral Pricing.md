@@ -1,16 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Teaching Note 4 - Binomial Trees and Risk Neutral Pricing
+parent_directory: Lecture Notes
+formatted: 2025-12-20 6:35:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - binomial tree model
+  - risk neutral pricing
+  - option pricing theory
+  - replicating portfolio
+secondary_tags:
+  - delta hedging
+  - arbitrage pricing
+  - binomial option pricing
+  - risk neutral valuation
+  - derivative securities
+  - expected return volatility
 cssclasses: academia
-title: Teaching Note 4
-linter-yaml-title-alias: Teaching Note 4
 ---
 
-# Teaching Note 4
+# Teaching Note 4 - Binomial Trees and Risk Neutral Pricing
 
-# Binomial Trees and Risk Neutral Pricing
+## Binomial Trees and Risk Neutral Pricing
 
 John Heaton
 
@@ -18,31 +29,31 @@ The University of Chicago
 
 Booth School of Business
 
-1. Binomial Trees
+## 1. Binomial Trees
 
-1.1 One Step Binomial Trees  
-1.2 Replicating Portfolio
+### 1.1 One Step Binomial Trees
+### 1.2 Replicating Portfolio
 
-2 Risk Neutral Pricing  
-3 Two-Step Binomial Trees  
-4 Multi Step Trees
+## 2. Risk Neutral Pricing
+## 3. Two-Step Binomial Trees
+## 4. Multi Step Trees
 
-4.1 Binomial Trees and the Log-normal Distribution of Stock Returns
+### 4.1 Binomial Trees and the Log-normal Distribution of Stock Returns
 
-# Binomial Trees
+## Binomial Trees
 
 - Binomial trees are a convenient tool to introduce a fundamental technique to price derivative securities, called Risk Neutral Pricing  
 - In addition, besides being simple to understand, they also offer a pricing methodology for complicated problems.
 - Indeed, the use of binomial and trinomial trees is a standard numerical procedure to solve for American options, or options with time varying volatility.
 
-# One Step Binomial Trees
+## One Step Binomial Trees
 
 - Today is  $t = 0$  and you are evaluating a given stock.  
 - At  $t = 1$  analysts believe the stock can either be  $S_{1,u} = 70$  with probability  $q = 0.7$ , or  $S_{1,d} = 35$  with probability  $1 - q = .3$ .  
 - Given a (simple) expected return of  $R = 19\%$ , the market value today of the stock is
 
 $$
-S _ {0} = \frac {E [ S _ {1} ]}{1 + R} = \frac {q \times S _ {1 , u} + (1 - q) \times S _ {1 , d}}{1 + R} = \frac {. 7 \times 7 0 + . 3 \times 3 5}{1 . 1 9} = 5 0
+S_{0} = \frac{E[S_{1}]}{1 + R} = \frac{q \times S_{1,u} + (1 - q) \times S_{1,d}}{1 + R} = \frac{0.7 \times 70 + 0.3 \times 35}{1.19} = 50
 $$
 
 - The stock tree is given by:
@@ -56,36 +67,36 @@ i = 1
 $$
 
 $$
-\boxed {S _ {0} = 5 0}
+\boxed{S_{0} = 50}
 $$
 
 $$
-\boxed {S _ {1, u} = 7 0}
+\boxed{S_{1,u} = 70}
 $$
 
 $$
-\boxed {S _ {1, d} = 3 5}
+\boxed{S_{1,d} = 35}
 $$
 
 - What are the expected return and variance of the stock return?
 
-# Expected Return and Volatility on Binomial Trees
+## Expected Return and Volatility on Binomial Trees
 
 - Expected (Gross) Return:
 
 $$
-\begin{array}{l} E \left(\frac {S _ {1}}{S _ {0}}\right) = q \times \left(\frac {S _ {1 , u}}{S _ {0}}\right) + (1 - q) \times \left(\frac {S _ {1 , d}}{S _ {0}}\right) \\ = 0. 7 \times \left(\frac {7 0}{5 0}\right) + 0. 3 \times \left(\frac {3 5}{5 0}\right) \\ = 1. 1 9 \\ \end{array}
+\begin{array}{l} E\left(\frac{S_{1}}{S_{0}}\right) = q \times \left(\frac{S_{1,u}}{S_{0}}\right) + (1 - q) \times \left(\frac{S_{1,d}}{S_{0}}\right) \\ = 0.7 \times \left(\frac{70}{50}\right) + 0.3 \times \left(\frac{35}{50}\right) \\ = 1.19 \\ \end{array}
 $$
 
 - Variance. From the definition of variance:
 
 $$
-\begin{array}{l} E \left\{\left[ \frac {S _ {1}}{S _ {0}} - E \left(\frac {S _ {1}}{S _ {0}}\right) \right] ^ {2} \right\} = q \times \left(\frac {S _ {1 , u}}{S _ {0}} - 1. 1 9\right) ^ {2} + (1 - q) \times \left(\frac {S _ {1 , d}}{S _ {0}} - 1. 1 9\right) ^ {2} \\ = 0. 7 \times \left(\frac {7 0}{5 0} - 1. 1 9\right) ^ {2} + 0. 3 \times \left(\frac {3 5}{5 0} - 1. 1 9\right) ^ {2} \\ \begin{array}{r l} {{=}} & {{. 1 0 2 9}} \end{array} \\ \end{array}
+\begin{array}{l} E\left\{\left[ \frac{S_{1}}{S_{0}} - E\left(\frac{S_{1}}{S_{0}}\right) \right]^{2} \right\} = q \times \left(\frac{S_{1,u}}{S_{0}} - 1.19\right)^{2} + (1 - q) \times \left(\frac{S_{1,d}}{S_{0}} - 1.19\right)^{2} \\ = 0.7 \times \left(\frac{70}{50} - 1.19\right)^{2} + 0.3 \times \left(\frac{35}{50} - 1.19\right)^{2} \\ = 0.1029 \\ \end{array}
 $$
 
-- The standard deviation (volatility) is then  $= \sqrt{1029} = 0.3207$
+- The standard deviation (volatility) is then $\sigma = \sqrt{0.1029} = 0.3207$
 
-# Option Prices on a Binomial Tree
+## Option Prices on a Binomial Tree
 
 - We want to price a call option with maturity  $T = 1$  and strike price  $K = 50$ .
 - The idea of binomial trees is to proceed backward from the end of the tree.
@@ -93,11 +104,11 @@ $$
 * According to the tree, what is the value of a call option at  $T = 1$ ?
 
 $$
-\mathrm {I n t h e U p N o d e} = c _ {1, u} = \max  (S _ {1, u} - K, 0) = \max  (7 0 - 5 0, 0) = 2 0
+c_{1,u} = \max(S_{1,u} - K, 0) = \max(70 - 50, 0) = 20
 $$
 
 $$
-\mathrm {I n t h e D o w n N o d e} = c _ {1, d} = \max (S _ {1, d} - K, 0) = \max (3 5 - 5 0, 0) = 0
+c_{1,d} = \max(S_{1,d} - K, 0) = \max(35 - 50, 0) = 0
 $$
 
 * On the tree:
@@ -111,52 +122,52 @@ i = 1
 $$
 
 $$
-S _ {0} = 5 0
+S_{0} = 50
 $$
 
 $$
-c _ {0} = \ref {e q : 1}
+c_{0} = \text{?}
 $$
 
 $$
-S _ {1, u} = 7 0
+S_{1,u} = 70
 $$
 
 $$
-c _ {1, u} = \max (7 0 - 5 0, 0) = 2 0
+c_{1,u} = \max(70 - 50, 0) = 20
 $$
 
 $$
-S _ {1, d} = 3 5
+S_{1,d} = 35
 $$
 
 $$
-c _ {1, d} = \max (3 5 - 5 0, 0) = 0
+c_{1,d} = \max(35 - 50, 0) = 0
 $$
 
 - What is the value of the call option  $c_0$ ?
 
-# Replicating Portfolio
+## Replicating Portfolio
 
 - Let the (continuously compounded) interest rate be  $r = .11$ .  
 - Consider a portfolio of stocks and bonds, with
-- Position  $\Delta = 0.5714$  in stocks, for a dollar value  $\Delta \times S_0 = 28.5714$  
-- Position of  $B_{0} = -17.9167$  in bonds (negative = short bonds).  
-- The value of the portfolio today is  $P_{0} = 28.5714 - 17.9167 = 10.6547$
+- Position $\Delta = 0.5714$ in stocks, for a dollar value $\Delta \times S_0 = 28.5714$
+- Position of $B_{0} = -17.9167$ in bonds (negative = short bonds).
+- The value of the portfolio today is $P_{0} = 28.5714 - 17.9167 = 10.6547$
 - What is the value of the portfolio at time  $i = 1$ ?
 
 $$
-\mathrm {I n t h e U p N o d e} = P _ {1, u} = \Delta \times S _ {1, u} + B _ {0} \times e ^ {r} = 0. 5 7 1 4 \times 7 0 - 2 0 = 2 0
+P_{1,u} = \Delta \times S_{1,u} + B_{0} \times e^{r} = 0.5714 \times 70 + (-17.9167) \times e^{0.11} = 20
 $$
 
 $$
-\mathrm {I n t h e D o w n N o d e} = P _ {1, d} = \Delta \times S _ {1, d} + B _ {0} \times e ^ {r} = 0. 5 7 1 4 \times 3 5 - 2 0 = 0
+P_{1,d} = \Delta \times S_{1,d} + B_{0} \times e^{r} = 0.5714 \times 35 + (-17.9167) \times e^{0.11} = 0
 $$
 
 - But this is the payoff of the call option!
 
 $$
-\text {N o A r b i t r a g e} \Rightarrow c _ {0} = P _ {0} = \Delta \times S _ {0} + B _ {0} = 1 0. 6 5 4 7
+\text{No Arbitrage} \Rightarrow c_{0} = P_{0} = \Delta \times S_{0} + B_{0} = 10.6547
 $$
 
 - If not, "buy cheap and sell dear"
@@ -169,7 +180,7 @@ $$
 - The value portfolio of the arbitrageur is
 
 $$
-\Pi_ {0} = c _ {0} - \Delta \times S _ {0}
+\Pi_{0} = c_{0} - \Delta \times S_{0}
 $$
 
 - Delta Hedging  $\Longrightarrow$  whatever the stock does at  $i = 1$ , the portfolio value must be the same.
@@ -178,48 +189,47 @@ $$
 Value of Portfolio in Up Node = Value of Portfolio in Down Node
 
 $$
-\Pi_ {1, u} = \Pi_ {1, d}
+\Pi_{1,u} = \Pi_{1,d}
 $$
 
 $$
-c _ {1, u} - \Delta \times S _ {1, u} = c _ {1, d} - \Delta \times S _ {1, d}
+c_{1,u} - \Delta \times S_{1,u} = c_{1,d} - \Delta \times S_{1,d}
 $$
 
-- One equation in one unknown  $(\Delta)$ :
+- One equation in one unknown $(\Delta)$:
 
 $$
-\Longrightarrow \Delta = \frac {c _ {1 , u} - c _ {1 , d}}{S _ {1 , u} - S _ {1 , d}}
+\Delta = \frac{c_{1,u} - c_{1,d}}{S_{1,u} - S_{1,d}}
 $$
 
-- That is:  $\Delta =$  sensitivity of call price to changes in the stock price.
+- That is: $\Delta =$ sensitivity of call price to changes in the stock price.
 
-# Where Does the Replicating Portfolio Come From?
+## Where Does the Replicating Portfolio Come From?
 
 - With this choice of  $\Delta$ , the portfolio  $\Pi$  has equal value in both up and down node:
 
 $$
-\Pi_ {1, u} = \Pi_ {1, d}
+\Pi_{1,u} = \Pi_{1,d}
 $$
 
-- $\Longrightarrow$  its value at time  $i = 0$  must then be the simple riskless present value  $PV(\Pi_{1,u})$ , i.e.:
+- $\Longrightarrow$ its value at time $i = 0$ must then be the simple riskless present value $PV(\Pi_{1,u})$, i.e.:
 
 $$
-\Pi_ {0} = e ^ {- r \times T} \times \Pi_ {1, u}
+\Pi_{0} = e^{-r \times T} \times \Pi_{1,u}
 $$
 
-- Recall that by definition  $\Pi_0 = c_0 - \Delta S_0$ . We now know  $\Pi_0$ , therefore, we obtain
+- Recall that by definition $\Pi_0 = c_0 - \Delta S_0$. We now know $\Pi_0$, therefore, we obtain
 
 $$
-c _ {0} = \Delta S _ {0} + \Pi_ {0}
+c_{0} = \Delta S_{0} + \Pi_{0}
 $$
 
-- Compare this expression with the replicating portfolio  $P_{0} = \Delta S_{0} + B_{0}$  (which equals  $c_{0}$  by no arbitrage) we see that the position in bonds must then be
+- Compare this expression with the replicating portfolio $P_{0} = \Delta S_{0} + B_{0}$ (which equals $c_{0}$ by no arbitrage) we see that the position in bonds must then be
 
 $$
-B _ {0} = \Pi_ {0} = e ^ {- r T} \Pi_ {1, u} = e ^ {- r T} \left(c _ {1, u} - \Delta \times S _ {1, u}\right)
-$$
+B_{0} = \Pi_{0} = e^{-rT} \Pi_{1,u} = e^{-rT} (c_{1,u} - \Delta \times S_{1,u})
 
-# Example
+## Example
 
 $$
 i = 0
@@ -230,52 +240,52 @@ i = 1
 $$
 
 $$
-S _ {0} = 5 0
+S_{0} = 50
 $$
 
 $$
-c _ {0} =??
+c_{0} = ??
 $$
 
 $$
-S _ {1, u} = 7 0
+S_{1,u} = 70
 $$
 
 $$
-c _ {1, u} = \max \left(7 0 - 5 0, 0\right) = 2 0
+c_{1,u} = \max(70 - 50, 0) = 20
 $$
 
 $$
-S _ {1, d} = 3 5
+S_{1,d} = 35
 $$
 
 $$
-c _ {1, d} = \max \left(3 5 - 5 0, 0\right) = 0
+c_{1,d} = \max(35 - 50, 0) = 0
 $$
 
 $$
-\Longrightarrow \Delta = \frac {c _ {1 , u} - c _ {1 , d}}{S _ {1 , u} - S _ {1 , d}} = \frac {2 0 - 0}{7 0 - 3 5} = 0. 5 7 1 4
+\Delta = \frac{c_{1,u} - c_{1,d}}{S_{1,u} - S_{1,d}} = \frac{20 - 0}{70 - 35} = 0.5714
 $$
 
 - The portfolio long the call and short  $\Delta$  stocks is valued at time  $i = 1$
 
 $$
-\Pi_ {1, u} = c _ {1, u} - \Delta \times S _ {1, u} = 2 0 - 0. 5 7 1 4 \times 7 0 = - 2 0
+\Pi_{1,u} = c_{1,u} - \Delta \times S_{1,u} = 20 - 0.5714 \times 70 = -20
 $$
 
 $$
-\Pi_ {1, d} = c _ {1, d} - \Delta \times S _ {1, d} = 0 - 0. 5 7 1 4 \times 3 5 = - 2 0
+\Pi_{1,d} = c_{1,d} - \Delta \times S_{1,d} = 0 - 0.5714 \times 35 = -20
 $$
 
 - The bond position is then
 
 $$
-B _ {0} = e ^ {- 11 \%} \times (- 20) = - 17.9167
+B_{0} = e^{-0.11} \times (-20) = -17.9167
 $$
 
 - A negative number indicates borrowing.
 
-# Summing Up
+## Summing Up
 
 - To summarize, in order to price any derivative security with payoff  $V_{1,u}$  and  $V_{1,d}$  on the tree, we proceed as follows:
 
@@ -286,7 +296,7 @@ $$
 - Example: put option with strike price  $K = 50$ .
 
 $$
-- \Longrightarrow p _ {1, u} = 0 \mathrm {a n d} p _ {1, d} = \max (K - S _ {1, d}, 0) = 1 5
+p_{1,u} = 0 \quad \text{and} \quad p_{1,d} = \max(K - S_{1,d}, 0) = 15
 $$
 
 1. Delta:  $\Delta = \frac{p_{1,u} - p_{1,d}}{S_{1,u} - S_{1,d}} = \frac{0 - 15}{70 - 35} = -0.4285$  
@@ -296,10 +306,10 @@ $$
 - If you sold the option, the replicating portfolio is simply  $P_{0} = \Delta \times S_{0} + B_{0} = 5.4464$ . At  $t = 1$ :
 
 $$
-\begin{array}{l} - \Rightarrow P _ {1, u} = \Delta \times S _ {1, u} + e ^ {r} B _ {0} = 0, \text {o r} \\ - \Longrightarrow P _ {1, d} = \Delta \times S _ {1, d} + e ^ {r} B _ {0} = 1 5. \\ \end{array}
+\begin{array}{l} P_{1,u} = \Delta \times S_{1,u} + e^{r} B_{0} = 0 \\ P_{1,d} = \Delta \times S_{1,d} + e^{r} B_{0} = 15 \\ \end{array}
 $$
 
-# Where is the probability  $\pmb{q}$  of moving up?
+## Where is the probability $\pmb{q}$ of moving up?
 
 - The pricing formula does not include the probability of moving up  $q$ .  
 - Does this imply that the probability of moving up does not impact option prices?
@@ -315,54 +325,58 @@ $\ast \Longrightarrow$  The current value of  $S_{0}$  already depends on  $q$ .
 
 * Since option values depend on  $S_0$ , the probability  $q$  does impact the value of options.
 
-# Risk Neutral Pricing
+## Risk Neutral Pricing
 
-- The above procedure is rather cumbersome.  
-- There is an alternative procedure that is much easier to work with.  
-- Since given  $S_0, S_{1,u}$  and  $S_{1,d}$ , the probability  $q$  does not impact the price of the option, we can choose a fake  $q^*$  that allows us to make our computations easy.  
-- Risk Neutral Pricing: Choose  $q^*$  so that all risky assets yield the risk free rate. - Find  $q^*$  such that
-
-$$
-E ^ {*} \left(\frac {S _ {1}}{S _ {0}}\right) = e ^ {r \times T}
-$$
+- The above procedure is rather cumbersome.
+- There is an alternative procedure that is much easier to work with.
+- Since given $S_0, S_{1,u}$ and $S_{1,d}$, the probability $q$ does not impact the price of the option, we can choose a fake $q^*$ that allows us to make our computations easy.
+- Risk Neutral Pricing: Choose $q^*$ so that all risky assets yield the risk free rate. Find $q^*$ such that
 
 $$
-\begin{array}{l} \Longrightarrow q ^ {*} \times \left(\frac {S _ {1 , u}}{S _ {0}}\right) + (1 - q ^ {*}) \times \left(\frac {S _ {1 , d}}{S _ {0}}\right) = e ^ {r \times T} \\ \Longrightarrow \quad q ^ {*} = \frac {S _ {0} \times e ^ {r \times T} - S _ {1 , d}}{S _ {1 , u} - S _ {1 , d}} \\ \end{array}
+E^{*}\left(\frac{S_{1}}{S_{0}}\right) = e^{r \times T}
 $$
 
-# Risk Neutral Pricing
+$$
+\begin{array}{l} q^{*} \times \left(\frac{S_{1,u}}{S_{0}}\right) + (1 - q^{*}) \times \left(\frac{S_{1,d}}{S_{0}}\right) = e^{r \times T} \\ q^{*} = \frac{S_{0} \times e^{r \times T} - S_{1,d}}{S_{1,u} - S_{1,d}} \\ \end{array}
+$$
+
+$$
+\begin{array}{l} q^{*} \times \left(\frac{S_{1,u}}{S_{0}}\right) + (1 - q^{*}) \times \left(\frac{S_{1,d}}{S_{0}}\right) = e^{r \times T} \\ q^{*} = \frac{S_{0} \times e^{r \times T} - S_{1,d}}{S_{1,u} - S_{1,d}} \\ \end{array}
+$$
+
+## Risk Neutral Pricing
 
 - We can now use  $q^*$  to price any derivative assets simply as the  $PV(\text{payoff})$ :
 
 $$
-\text {P r i c e} = E ^ {*} \left[ e ^ {- r T} \text {D e r i v a t i v e P a y o f f} \right] \tag {1}
+\text{Price} = E^{*}\left[ e^{-rT} \text{Derivative Payoff} \right] \tag{1}
 $$
 
 - The star  $*$  on  $E^{*}[\cdot]$  denotes the fact that we use the fake probability  $q^{*}$  to compute it.  
 - Does it work?
 
-1. Risk Neutral Probability:  $q^{*} = \frac{50 \times e^{.11} - 35}{70 - 35} = 0.5947$  
+1. Risk Neutral Probability: $q^{*} = \frac{50 \times e^{0.11} - 35}{70 - 35} = 0.5947$
 2. Call Price:
 
 $$
-c _ {0} = e ^ {- r \times T} \times E ^ {*} [ c _ {1} ] = e ^ {-. 1 1} \times [ q ^ {*} \times 2 0 + (1 - q ^ {*}) \times 0 ] = 1 0. 6 5 4 7
+c_{0} = e^{-r \times T} \times E^{*}[c_{1}] = e^{-0.11} \times [q^{*} \times 20 + (1 - q^{*}) \times 0] = 10.6547
 $$
 
 3. Put Price:
 
 $$
-p _ {0} = e ^ {- r \times T} \times E ^ {*} [ p _ {1} ] = e ^ {-. 1 1} \times [ q ^ {*} \times 0 + (1 - q ^ {*}) \times 1 5 ] = 5. 4 4 6 4
+p_{0} = e^{-r \times T} \times E^{*}[p_{1}] = e^{-0.11} \times [q^{*} \times 0 + (1 - q^{*}) \times 15] = 5.4464
 $$
 
-4. Forward contract to deliver at  $K = 50$
+4. Forward contract to deliver at $K = 50$
 
 $$
-f _ {0} = e ^ {- r \times T} \times E ^ {*} [ K - S _ {1} ] = e ^ {-. 1 1} \times [ q ^ {*} \times (5 0 - 7 0) + (1 - q ^ {*}) \times (5 0 - 3 5) ] = - 5. 2 0 8 3
+f_{0} = e^{-r \times T} \times E^{*}[K - S_{1}] = e^{-0.11} \times [q^{*} \times (50 - 70) + (1 - q^{*}) \times (50 - 35)] = -5.2083
 $$
 
 - Any derivative security satisfies risk neutral pricing formula (1)
 
-# Risk Neutral Pricing: A Recipe
+### Risk Neutral Pricing: A Recipe
 
 - The recipe to price derivative securities is as follows:
 
@@ -375,41 +389,7 @@ Price of Derivative Security  $= E^{*}\left[e^{-r\times T}\times \left(\mathrm{P
 - This methodology works even outside of the binomial tree model.
 - It is an implication of no arbitrage.
 
-# Risk Neutral Pricing: Examples
-
-- Forward Contracts.
-- The profit at  $T$  from a forward contract is
-
-$$
-\mathrm {P r o f i t a t} T = S _ {T} - F _ {0, T}
-$$
-
-- It costs nothing to enter into a forward contract.  
-- If everybody is risk neutral, what should be the expected profit?
-
-* Zero, as risk does not matter.
-
-$$
-E ^ {*} \left[ S _ {T} - F _ {0, T} \right] = 0 \Longrightarrow F _ {0, T} = E ^ {*} \left[ S _ {T} \right]
-$$
-
-- If everybody is risk neutral, what should be the return on stocks?
-
-* The risk free rate
-
-$$
-S _ {0} = e ^ {- r \times T} E ^ {*} [ S _ {T} ]
-$$
-
-- Thus, we find
-
-$$
-F _ {0, T} = E ^ {*} \left[ S _ {T} \right] = S _ {0} \times e ^ {r \times T}
-$$
-
-- The same result as in TN2.
-
-# Risk Neutral Pricing: Examples
+## Risk Neutral Pricing: Examples
 
 - Swaps.
 - In a swap, two counterparties agree to exchange at  $T_{1}, T_{2}, \ldots, T_{n}$
@@ -433,18 +413,18 @@ $$
 - If we are looking for  $K =$  Swap Price, we need to set  $V_0^{swap} = 0\$  and solve for  $K$
 
 $$
-K = w _ {1} F _ {0, T _ {1}} + w _ {2} F _ {0, T _ {2}} + \ldots + w _ {n} F _ {0, T _ {n}} \quad \mathrm {w h e r e} \quad w _ {i} = \frac {e ^ {- r T _ {i}}}{e ^ {- r T _ {1}} + e ^ {- r T _ {2}} + \ldots + e ^ {- r T _ {n}}}
+K = w_{1} F_{0,T_{1}} + w_{2} F_{0,T_{2}} + \ldots + w_{n} F_{0,T_{n}} \quad \text{where} \quad w_{i} = \frac{e^{-r T_{i}}}{e^{-r T_{1}} + e^{-r T_{2}} + \ldots + e^{-r T_{n}}}
 $$
 
-# Risk Neutral Pricing and Discount Rates
+## Risk Neutral Pricing and Discount Rates
 
 - The previous examples show the convenience of risk neutral pricing technique.  
 - This technique can only be used to price derivative securities, and it follows by no arbitrage.  
 - It is a convenient pricing device, and it must not be confused with an assumption that market participants are risk neutral.
-- Market participants are risk averse in our setting  
+- Market participants are risk averse in our setting
 - However, the dynamic hedging strategy takes away the risk (delta hedging), and thus for the pricing of derivative securities, we can pretend market participants are risk neutral.
 
-# Risk Neutral Pricing and Discount Rates: Forward Prices
+## Risk Neutral Pricing and Discount Rates: Forward Prices
 
 - As a final comment, we found that the forward price is
 
@@ -487,7 +467,7 @@ Index</td></tr><tr><td>high</td><td>low</td><td>Rate</td><td>%PA</td><td>Rate</t
 *The closing mid-point rates for the Euro and £ are shown in brackets. The other figures in both rows are in the reciprocal form in line with market convention. † Official rate set by Malaysian government. The WM/Reuters rate for the valuation of capital assets is 3.80 MYR/USD. Bid/offer spreads in the Dollar Spot table show only the last three decimal places. J.P. Morgan nominal indices: Base average  $2000 = 100$ . Bid, offer, mid spot rates and forward rates in both this and tha pound table are derived from the WM/REUTERS 4pm (London time) CLOSING SPOT and FORWARD RATE services. Some values are rounded by the F.T.  
 source:Financial Times www.ft.com)
 
-# Risk Neutral Pricing and Discount Rates: Forward Prices
+## Risk Neutral Pricing and Discount Rates: Forward Prices
 
 - For instance, on April 7 2007,  
 - Current Exchange Rate  $M_0 = 1.3375 = \text{USD/EUR}$  
@@ -503,7 +483,7 @@ $$
 
 - This example simply illustrates that the relation between forward prices and expected forward prices is complicated by the risk
 
-# Two-Step Binomial Trees
+## Two-Step Binomial Trees
 
 - Given the above methodology, we can now see it at work in a slightly more complicated example.  
 - Consider the two step binomial tree
@@ -535,7 +515,7 @@ $$
 - We want to price an option with maturity  $T = 2$  and strike price  $K = 50$ .  
 - Consider the two methodologies.
 
-# Methodology 1: Dynamic Replication
+## Methodology 1: Dynamic Replication
 
 - Move backward on the tree.
 
@@ -615,7 +595,7 @@ $$
 c _ {2, d d} = 0
 $$
 
-# Methodology 1: Dynamic Replication (cntd.)
+## Methodology 1: Dynamic Replication (continued)
 
 - To summarize so far, the step from  $i = 2$  to  $i = 1$  determined that  $c_{1,u} = 25.2083$  and  $c_{1,d} = 0$  
 - The last step is to compute the value at time 0, using at this point the same tree as before
@@ -663,7 +643,7 @@ $$
 - Not exactly a piece of cake.  
 - Risk neutral pricing simplify things considerably.
 
-# Methodology 2: Risk Neutral Pricing
+## Methodology 2: Risk Neutral Pricing
 
 - Move backward on the tree.
 
@@ -739,14 +719,12 @@ $$
 c _ {2, d d} = 0
 $$
 
-# Risk Neutral Pricing
+## Risk Neutral Pricing
 
-- It appears that risk neutral pricing simplifies computations considerably.  
-- In particular, we can use the backward formula for all of the computations, that can be easily programmed with a computer.  
-- Denote by  $(i,j)$  node the (time, node) on the tree.
-- E.g.  $i = 0,1,2$  in previous example, and  $j = \{u\}, \{uu\}, \{ud\}$
-- We then have
+- We can now use $q^*$ to price any derivative assets simply as the $PV(\text{payoff})$:
 
+$$
+\text{Price} = E^{*}\left[ e^{-rT} \text{Derivative Payoff} \right] \tag{1}
 $$
 V _ {i, j} = e ^ {- r \times h} \times E ^ {*} [ V _ {i + 1} | (\mathrm {t i m e}, \mathrm {n o d e}) = (i, j) ]
 $$
@@ -770,19 +748,19 @@ $$
 - Thus, the price of the call option with strike  $K = 50$  is
 
 $$
-c _ {0} = e ^ {-. 1 1 \times 2} \times 0. 3 3 4 7 \times (1 0 0 - 5 0) = 1 3. 4 2 9 4
+c_{0} = e^{-0.11 \times 2} \times 0.3347 \times (100 - 50) = 13.4294
 $$
 
 - The price of a put is
 
 $$
-p _ {0} = e ^ {- 0. 1 1 \times 2} \times 0. 1 7 7 2 \times (5 0 - 2 5) = 3. 5 5 5.
+p_{0} = e^{-0.11 \times 2} \times 0.1772 \times (50 - 25) = 3.555
 $$
 
 - The price of a short forward
 
 $$
-f _ {0} = e ^ {- 0. 1 1 \times 2} \left[ 0. 3 3 4 7 \times (5 0 - 1 0 0) + 0. 4 8 8 1 \times (5 0 - 5 0) + 0. 1 7 7 2 \times (5 0 - 2 5) \right] = - 9. 8 7 4 1
+f_{0} = e^{-0.11 \times 2} [0.3347 \times (50 - 100) + 0.4881 \times (50 - 50) + 0.1772 \times (50 - 25)] = -9.8741
 $$
 
 # Multi Step Trees

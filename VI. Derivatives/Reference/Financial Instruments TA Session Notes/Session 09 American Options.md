@@ -1,18 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: American Options
-linter-yaml-title-alias: American Options
+parent_directory: Financial Instruments TA Session Notes
+formatted: 2025-12-20 6:30:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - american options pricing
+  - binomial tree model
+  - early exercise feature
+secondary_tags:
+  - risk neutral valuation
+  - dividend adjusted pricing
+  - option pricing theory
+  - binomial method
+  - american call options
+  - american put options
+cssclasses: academia
 ---
 
 # American Options
 
-# 1. Pricing American Options
+## 1. Pricing American Options
 
-# 1.1. Preamble
+### 1.1. Preamble
 
 1. Initial stock price:  $S_0$
 2. Three period binomial tree
@@ -24,7 +34,7 @@ b. Price decrease  $d$  with probability  $(1 - q)$
 3. No dividends
 4. Interest rate on risk-free asset (continuously compounded):  $r$
 
-# 1.2. Computing Price of an American Option
+### 1.2. Computing Price of an American Option
 
 1. Binomial tree for stock price evolution.
 
@@ -52,7 +62,7 @@ $t = 3$
 
 $C_{uuu} = \max \{S_{uuu} - K,0\}$
 
-$C_{uuu} = \max \{S_{uuu} - K,0\}$
+$C_{uud} = \max \{S_{uud} - K,0\}$
 
 $C_{dud} = \max \{S_{dud} - K,0\}$
 
@@ -61,7 +71,7 @@ $C_{ddd} = \max \{S_{ddd} - K,0\}$
 6. Risk neutral probability  $q^{*}$  equates gross return on stock to gross return on risk-free asset with interest rate  $r$ .
 
 $$
-q ^ {*} \cdot u + (1 - q ^ {*}) \cdot d = \exp (r)
+q^{*} \cdot u + (1 - q^{*}) \cdot d = \exp(r)
 $$
 
 7. American call option (i) value of waiting, (ii) value of exercising, and (ii) value of option at  $t = T - 1 = 2$ :
@@ -104,15 +114,15 @@ $C_0^{exercise} = \max \{S_0 - K, 0\}$
 
 $C_0 = \max \{C_0^{wait}, C_0^{exercise}\}$
 
-# 1.2.1. Exercising American Option Prior to Maturity
+#### 1.2.1. Exercising American Option Prior to Maturity
 
 1. Exercise American option early at time  $t$  and node  $j$  if and only if
 
 $$
-C _ {j} ^ {e x e r c i s e} (t) > C _ {j} ^ {w a i t} (t)
+C_{j}^{\text{exercise}}(t) > C_{j}^{\text{wait}}(t)
 $$
 
-# 1.2.2. Accounting for Dividends in Pricing American Options
+#### 1.2.2. Accounting for Dividends in Pricing American Options
 
 1. Dividends complicate matters because stock prices drop as a byproduct of dividends.
 2. Consider a dividend yield  $y$ .
@@ -120,7 +130,7 @@ $$
 4. Construct the binomial tree for the post-dividend stock price.
 
 $$
-S _ {p o s t} = S _ {p r e} \cdot (1 - y)
+S_{\text{post}} = S_{\text{pre}} \cdot (1 - y)
 $$
 
 5. Note pre-dividend price one period ahead depends on post-dividend price this period.

@@ -1,18 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+---
+title: "Teaching Note 2: Futures, Forwards and Swaps"
+parent_directory: "VI. Derivatives/Reference/Lecture Notes"
+formatted: 2025-12-20 18:30:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - forward contracts
+  - futures contracts
+  - swap contracts
+  - no arbitrage pricing
+secondary_tags:
+  - interest rate differentials
+  - hedging strategies
+  - forward pricing formulas
+  - currency forwards
+  - commodity forwards
+  - arbitrage opportunities
 cssclasses: academia
-title: Financial Instruments
-linter-yaml-title-alias: Financial Instruments
+---
 ---
 
-# Financial Instruments
-
-# Teaching Note 2
-
-# Futures, Forwards and Swaps
+# Teaching Note 2: Futures, Forwards and Swaps
 
 John Heaton
 
@@ -20,20 +29,20 @@ The University of Chicago
 
 Booth School of Business
 
-1. Forward Contracts
+## Forward Contracts
 
-1.1 The Forward Price  
-1.2 The Value of a Forward Contract
+### The Forward Price
+### The Value of a Forward Contract
 
-2. Futures Contracts
+## Futures Contracts
 
-2.1 Hedging with Futures  
-2.2 The Futures Price
+### Hedging with Futures
+### The Futures Price
 
-3. Swaps
+## Swaps
 
-3.1 Swaps versus Forwards  
-3.2 The Swap Rate
+### Swaps versus Forwards
+### The Swap Rate
 
 # No Arbitrage
 
@@ -46,7 +55,7 @@ Booth School of Business
 - If there were, arbitrageurs would take massive positions to profit from them, equilibrating the market.  
 - The value of derivative securities, including forwards, futures, swaps and options, are determined by assuming that no arbitrage opportunities exist.  
 - The Law of One Price: Securities with identical payoffs must have the same price.
-- Otherwise, an arbitrage opportunities arises
+- Otherwise, an arbitrage opportunities arises.
 
 Buy Cheap / Sell Dear
 
@@ -62,11 +71,11 @@ Buy Cheap / Sell Dear
 - The Profit/Loss at  $T$  are
 
 $$
-\mathrm {P / L c o u n t e r p a r y l o n g t h e f o r w a r d} = N \times (M _ {T} - F)
+\mathrm{P/L\ counterparty\ long\ the\ forward} = N \times (M_{T} - F)
 $$
 
 $$
-\mathrm {P / L c o u n t e r p a r y s h o r t t h e f o r w a r d} = N \times (F - M _ {T})
+\mathrm{P/L\ counterparty\ short\ the\ forward} = N \times (F - M_{T})
 $$
 
 - For instance, the party long the forward agrees to buy at  $T$  a security for  $F$  when its value is  $M_T$ .
@@ -80,14 +89,14 @@ $$
 - Let  $M_{t} = \text{USD/EUR}$  exchange rate at  $t$ . Assume the current rate  $M_{0} = 1.2673$ , the continuously compounded (c.c.) US rate is  $r_{\S} = 5\%$  and the (c.c.) Euro rate is  $r_{e} = 3\%$ .
 
 $$
-\mathrm {D o l l a r p a y o f f a t} T = 5 \mathrm {m i l} \times M _ {T}
+\mathrm{Dollar\ payoff\ at\ } T = 5 \mathrm{mil} \times M_{T}
 $$
 
 - Exchange rate risk: Euro can depreciate versus the dollar ( $M_T$  decline).
 - Hedging strategy: enter into a forward contract with a bank to exchange euros for dollars at  $T$  at an exchange rate  $F$ , say  $F = 1.28$ , decided today.
 
 $$
-\mathrm {D o l l a r P / L o f f o r w a r d c o n t r a c t a t} T = 5 \mathrm {m i l} \times (F - M _ {T})
+\mathrm{Dollar\ P/L\ of\ forward\ contract\ at\ } T = 5 \mathrm{mil} \times (F - M_{T})
 $$
 
 Total payoff at  $T =$  payoff from original position  $T +$  payoff of forward contract at  $T$
@@ -127,19 +136,19 @@ source: Financial Times www.ft.com)
 1. Borrow the Present Value of 5 mil euros at the euro rate  $r_e = 3\%$ .
 
 $$
-- \Rightarrow \text {B o r r o w} \left(e ^ {- r _ {e} \times T} \times 5 \mathrm {m i l}\right) = \text {e u r o s} 4. 9 2 5 \mathrm {m i l}
+- \Rightarrow \text{Borrow} \left(e^{-r_{e} \times T} \times 5 \mathrm{mil}\right) = \text{euros} 4.925 \mathrm{mil}
 $$
 
 2. Exchange this amount into dollars today.
 
 $$
-- \mathrm {I f} M _ {0} = 1. 2 6 7 3 \Longrightarrow \mathrm {t h e b a n k g e t s (e u r o s 4 . 9 2 5)} \times M _ {0} = \$ 6. 2 4 2 \mathrm {m i l}.
+- \mathrm{If\ } M_{0} = 1.2673 \Longrightarrow \mathrm{the\ bank\ gets\ (euros\ 4.925)} \times M_{0} = \$ 6.242 \mathrm{mil}.
 $$
 
 3. Invest this amount in dollar deposit at rate  $r_{\S} = 5\%$ .
 
 $$
-\Longrightarrow \mathrm {T o d a y t h e b a n k n e t s 0 .}
+\Longrightarrow \mathrm{Today\ the\ bank\ nets\ 0.}
 $$
 
 - At time  $T$  the bank:
@@ -149,7 +158,7 @@ $$
 - Gives this money to the client
 
 $$
-\Longrightarrow \text {E f f e c t i v e} F = \frac {\mathrm {S 6 . 4 m i l}}{\mathrm {E U R 5 m i l}} = 1. 2 8
+\Longrightarrow \text{Effective\ } F = \frac{\mathrm{\$6.4\ mil}}{\mathrm{EUR\ 5\ mil}} = 1.28
 $$
 
 # Diagram of Bank's Hedging Strategy
@@ -182,7 +191,7 @@ T = 6 month
 - Indeed, what is the payoff at time  $T$  from the dollar investment in formulas?
 
 $$
-\begin{array}{l} \mathrm {P a y o f f a t} T = \left[ \left(e ^ {- r _ {e} \times T} \times 5 \mathrm {m i l}\right) \times M _ {0} \right] \times e ^ {r _ {\S} \times T} \\ = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) \times T} \times 5 \mathrm {m i l} \\ \Longrightarrow \mathrm {E f f e c t i v e} F = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) \times T} \\ \end{array}
+\mathrm{Payoff\ at\ } T = \left[ \left(e^{-r_{e} \times T} \times 5 \mathrm{mil}\right) \times M_{0} \right] \times e^{r_{\S} \times T} \\ = M_{0} \times e^{(r_{\S} - r_{e}) \times T} \times 5 \mathrm{mil} \\ \Longrightarrow \mathrm{Effective\ } F = M_{0} \times e^{(r_{\S} - r_{e}) \times T}
 $$
 
 - $F =$  Forward rate.
@@ -196,25 +205,25 @@ $$
 A. Invest in 6-months U.S. Treasury bills at the rate  $r_{\S} = 5\%$  yielding:
 
 $$
-\mathrm {P a y o f f} \mathrm {s t r a t e g y A a t} T = \\mathbb {S} 1 0 0 \mathrm {m i l} \times e ^ {r _ {\S} T}
+\mathrm{Payoff\ of\ strategy\ A\ at\ } T = \$100 \mathrm{mil} \times e^{r_{\S} T}
 $$
 
 B. (a) Exchange the \$100 mil into euros at rate 1/M₀ = EUR/USD, (b) invest the proceeds in 6-month Euro Treasuries, and (c) enter into a forward contract to buy dollars at F₀,T.
 
 $$
-\mathrm {P a y o f f o f s t r a t e g y B a t} T = \frac {\mathbb {S} 1 0 0 \mathrm {m i l}}{M _ {0}} \times e ^ {r _ {e} T} \times F _ {0, T}
+\mathrm{Payoff\ of\ strategy\ B\ at\ } T = \frac{\$100 \mathrm{mil}}{M_{0}} \times e^{r_{e} T} \times F_{0,T}
 $$
 
 - Both strategies final payoffs are known at time 0. Thus, we must have
 
 $$
-\mathrm {P a y o f f o f s t r a t e g y A a t} T = \mathrm {P a y o f f o f s t r a t e g y B a t} T
+\mathrm{Payoff\ of\ strategy\ A\ at\ } T = \mathrm{Payoff\ of\ strategy\ B\ at\ } T
 $$
 
 or, substituting
 
 $$
-\$ 100 \mathrm {m i l} \times e ^ {r _ {\S} T} = \frac {\S 1 0 0 \mathrm {m i l}}{M _ {0}} \times e ^ {r _ {e} T} \times F _ {0, T}
+\$100 \mathrm{mil} \times e^{r_{\S} T} = \frac{\$100 \mathrm{mil}}{M_{0}} \times e^{r_{e} T} \times F_{0,T}
 $$
 
 - Solving for  $F_{0,T}$  gives
@@ -320,7 +329,7 @@ Data Source: Bloomberg
 - The US firm can enter into the reverse forward contract with the bank, with payoff Dollar payoff at  $T$  of reverse forward contract  $= 5 \mathrm{mil} \times (M_T - F_{t,T})$
 
 $$
-- \mathrm {N o w :} F _ {t, T} = M _ {t} \times e ^ {(r _ {\S} - r _ {e}) \times (T - t)} = 1. 2 9 \times e ^ {(0. 0 5 - 0. 0 3) \times 0. 2 5} = 1. 2 9 6 \mathrm {\S / E U R}
+- \mathrm{Now:\ } F_{t,T} = M_{t} \times e^{(r_{\S} - r_{e}) \times (T - t)} = 1.29 \times e^{(0.05 - 0.03) \times 0.25} = 1.296 \mathrm{\$/EUR}
 $$
 
 - The reverse contract neutralizes the former one.
@@ -330,15 +339,15 @@ $$
 Payoff at  $T$  from forward + reverse forward  $= 5\mathrm{mil}\times (F_{0,T} - M_T) + 5\mathrm{mil}\times (M_T - F_{t,T})$
 
 $$
-\begin{array}{l} = 5 \mathrm {m i l} \times (F _ {0, T} - F _ {t, T}) \\ = 5 \mathrm {m i l} \times (1. 2 8 - 1. 2 9 6) = - \$ 8 0, 0 0 0 \\ \end{array}
+\begin{array}{l} = 5 \mathrm{mil} \times (F_{0,T} - F_{t,T}) \\ = 5 \mathrm{mil} \times (1.28 - 1.296) = -\$80,000 \\ \end{array}
 $$
 
-$\bullet \Longrightarrow$  The US firm will have to pay the bank $80,000 at  $T$ .  
+- $\Longrightarrow$ The US firm will have to pay the bank $80,000 at $T$.  
 
 - The Present Value of  $-\$ 80,000$  is the value of the original forward contract to the US firm:
 
 $$
-f _ {t, T} = e ^ {- r _ {\S} \times (T - t)} \times (F _ {0, T} - F _ {t, T}) \times 5 \mathrm {m i l} = - \$ 7 9, 0 0 6. 2
+f_{t,T} = e^{-r_{\S} \times (T - t)} \times (F_{0,T} - F_{t,T}) \times 5 \mathrm{mil} = -\$79,006.2
 $$
 
 - Since it costs \$79,006.2 to close the position, the value of the forward contract to the firm must equal this amount. Viceversa, the value to the bank must be \$79,006.2  
@@ -354,7 +363,7 @@ The Value of a Forward Contract (contd.)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/828581f669cd51f46b969db2a6da63b8b58497f37ae770826b7edc1ab51dd45b.jpg)
 
 $$
-\mathrm {P / L = 5 m i l (1 . 2 8 - M _ {T})}
+\mathrm{P/L = 5\ mil\ (1.28 - M_{T})}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/8b3df1e033bafef832e1b1d46c0ab9eabe111c280267363763a135dd9d48448d.jpg)
@@ -362,7 +371,7 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/a3e9efa60aa671683f826b2b8e4a71e547712f81a14ac05782ff8005c6f18ec8.jpg)
 
 $$
-\mathrm {P / L = 5 m i l (M _ {T} - 1 . 2 9 6)}
+\mathrm{P/L = 5\ mil\ (M_{T} - 1.296)}
 $$
 
 Total  $= 5$  mil (1.28 - 1.296)
@@ -380,13 +389,13 @@ $$
 1. The Forward (Delivery) Price – the price decided at time 0 to buy / sell goods (Euros) in the future – is given by
 
 $$
-F _ {0, T} = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) T}
+F_{0,T} = M_{0} \times e^{(r_{\S} - r_{e}) T}
 $$
 
 2. The value of an existing forward contract to deliver goods (Euros) at preset price  $K$  (determined some time in the past) is equal to the cost / profit of closing the contract:
 
 $$
-f _ {t, T} = [ K - F _ {t, T} ] \times e ^ {- r _ {\S} (T - t)}
+f_{t,T} = [K - F_{t,T}] \times e^{-r_{\S} (T - t)}
 $$
 
 - This is the value of forward contract to sell. What is the value of a forward contract to buy (i.e. a long forward contract?)
@@ -399,7 +408,7 @@ $$
 - Finally, an equivalent formula is obtained by substituting  $F_{t,T}$
 
 $$
-f _ {t, T} = K e ^ {- r _ {\S} (T - t)} - M _ {t} e ^ {- r _ {e} (T - t)}
+f_{t,T} = K e^{-r_{\S} (T - t)} - M_{t} e^{-r_{e} (T - t)}
 $$
 
 # Forward Contracts for other securities
@@ -431,45 +440,45 @@ $\left\{ \begin{array}{l}\mathrm{Bond:~with~Semi - annual~Coupon~}c,\mathrm{Matu
 Forward Price
 
 $$
-\overline {{F _ {0 , T} = M _ {0} \times e ^ {(r _ {\S} - r _ {e}) T}}}
+\overline{F_{0,T} = M_{0} \times e^{(r_{\S} - r_{e}) T}}
 $$
 
 $$
-\overline {{F _ {0 , T}}} = S _ {0} \times e ^ {r T}
+\overline{F_{0,T}} = S_{0} \times e^{r T}
 $$
 
 $$
-F _ {0, T} = S _ {0} \times e ^ {(r - q) T}
+F_{0,T} = S_{0} \times e^{(r - q) T}
 $$
 
 $$
-F _ {0, T} = \left(S _ {0} - D \times e ^ {- r T _ {1}}\right) \times e ^ {r T}
+F_{0,T} = \left(S_{0} - D \times e^{-r T_{1}}\right) \times e^{r T}
 $$
 
 $$
-\overline {{F _ {0 , T} = (S _ {0} + P V (U)) \times e ^ {r T}}}
+\overline{F_{0,T} = (S_{0} + PV(U)) \times e^{r T}}
 $$
 
 $$
-F _ {0, T} = S _ {0} \times e ^ {(r + u) T}
+F_{0,T} = S_{0} \times e^{(r + u) T}
 $$
 
 $$
-F _ {0, T} = S _ {0} \times e ^ {(r + u - y) T}
+F_{0,T} = S_{0} \times e^{(r + u - y) T}
 $$
 
 $$
-\overline {{F _ {0 , T} = \frac {Z (0 , T ^ {*})}{Z (0 , T)}}}
+\overline{F_{0,T} = \frac{Z(0,T^{*})}{Z(0,T)}}
 $$
 
 $$
-F _ {0, T} = \Sigma_ {i = m + 1} ^ {n} \frac {c}{2} \times \frac {Z (0 , T _ {i})}{Z (0 , T)} + \frac {Z (0 , T _ {n})}{Z (0 , T)}
+F_{0,T} = \Sigma_{i=m+1}^{n} \frac{c}{2} \times \frac{Z(0,T_{i})}{Z(0,T)} + \frac{Z(0,T_{n})}{Z(0,T)}
 $$
 
 - In all cases, the value of a forward contract at time  $t > 0$  (after initiation) is:
 
 $$
-f _ {t, T} = e ^ {- r (T - t)} \left[ F _ {0, T} - F _ {t, T} \right]
+f_{t,T} = e^{-r (T - t)} \left[ F_{0,T} - F_{t,T} \right]
 $$
 
 # Example 1: The Forward Price of a Stock with Known Dividend Payment
@@ -499,7 +508,7 @@ $$
 (b) repay the loan  $(S_0 - PV(D))e^{rT}$
 
 $$
-\mathrm {P a y o f f a t} T = F _ {0, T} - (S _ {0} - P V (D)) e ^ {r T} > 0
+\mathrm{Payoff\ at\ } T = F_{0,T} - (S_{0} - PV(D)) e^{r T} > 0
 $$
 
 # Example 2: The Forward Price of a Stock with Constant Dividend Yield
@@ -508,7 +517,7 @@ $$
 - Continuously compounded dividend yield  $q$
 
 $$
-- \Longrightarrow \mathrm {T o t a l d i v i d e n d i n a s m a l l i n t e r v a l} [ t, t + d t ] \mathrm {i s} D _ {t} = q \times S _ {t} \times d t
+- \Longrightarrow \mathrm{Total\ dividend\ in\ a\ small\ interval\ } [t, t + dt] \mathrm{\ is\ } D_{t} = q \times S_{t} \times dt
 $$
 
 - Forward price:  $F_{0,T} = S_0 \times e^{(r - q)T}$  
@@ -523,17 +532,17 @@ $$
 3. For every  $t$  reinvest the dividends in the stock.
 
 $$
-\text {C h a n g e i n n u m b e r o f s h a r e s i n a s m a l l i n t e r v a l} d t: (N _ {t + d t} - N _ {t}) = \frac {N _ {t} \times D _ {t}}{S _ {t}} = N _ {t} \times q \times d t
+\text{Change\ in\ number\ of\ shares\ in\ a\ small\ interval\ } dt: (N_{t+dt} - N_{t}) = \frac{N_{t} \times D_{t}}{S_{t}} = N_{t} \times q \times dt
 $$
 
 $$
-\mathrm {T o t a l n u m b e r o f s h a r e s b e t w e e n 0 a n d} T: N _ {T} = N _ {0} \times e ^ {q T} = e ^ {- q T} \times e ^ {q T} = 1
+\mathrm{Total\ number\ of\ shares\ between\ 0\ and\ } T: N_{T} = N_{0} \times e^{q T} = e^{-q T} \times e^{q T} = 1
 $$
 
 - The arbitrageur has exactly the right amount of shares to cover the short forward position.
 
 $$
-\text {P a y o f f} T = F _ {0, T} - S _ {0} \times e ^ {(r - q) T} > 0 \tag {1}
+\text{Payoff\ } T = F_{0,T} - S_{0} \times e^{(r - q) T} > 0 \tag{1}
 $$
 
 # The Forward Price of Commodities
@@ -551,13 +560,13 @@ $$
 - Define the discrepancy between forward and the "theoretical" forward rate as:
 
 $$
-\begin{array}{l} B a s i s = \mathrm {T r a d e d F o r w a r d R a t e - T h e o r e t i c a l F o r w a r d R a t e} (2) \\ = F _ {t, t + m} ^ {t r a d e d} - F _ {t, t + m} (3) \\ \end{array}
+\begin{array}{l} \mathrm{Basis} = \mathrm{Traded\ Forward\ Rate - Theoretical\ Forward\ Rate} (2) \\ = F_{t,t+m}^{\mathrm{traded}} - F_{t,t+m} (3) \\ \end{array}
 $$
 
 where  $m =$  maturity (e.g. 3 month, 6 months etc.), and recall
 
 $$
-F _ {t, t + m} = M _ {t} e ^ {(r _ {\S} - r _ {e}) m}
+F_{t,t+m} = M_{t} e^{(r_{\S} - r_{e}) m}
 $$
 
 - The latter relation is also called "Covered Interest Rate Parity" (CIP)  
@@ -601,7 +610,7 @@ CIP Violation during the 2007 - 2009 Financial Crisis: UKP / Dollar
 - During the crisis, from the graph, we had the basis being positive. That is:
 
 $$
-F _ {t, t + m} ^ {d a t a} > F _ {t, t + m} = M _ {t} e ^ {(r _ {\S} - r _ {e}) m}
+F_{t,t+m}^{\mathrm{data}} > F_{t,t+m} = M_{t} e^{(r_{\S} - r_{e}) m}
 $$
 
 - Recall that in this case, an arbitrage trade requires the following:
@@ -713,7 +722,7 @@ Some History
 - The party Long the futures – who agrees to buy the good at maturity – gains when prices increase, and his/her daily P/L is given by
 
 $$
-\mathrm {D a i l y P / L = C o n t r a c t S i z e \times} \left(\widehat {F} _ {t, T} - \widehat {F} _ {t - 1, T}\right)
+\mathrm{Daily\ P/L = Contract\ Size \times} \left(\widehat{F}_{t,T} - \widehat{F}_{t-1,T}\right)
 $$
 
 - The party Short the futures – who agrees to sell the good at maturity – gains when prices decrease, and the P/L is the opposite.
@@ -760,7 +769,7 @@ Suppose that  $T = \operatorname{Mar} 2007$  and  $\widehat{F}_{0,T} = 1.28$ .
 - At maturity  $T$ :
 
 $$
-\begin{array}{l} \mathrm {P a y o f f a t} T = (P / L) _ {1} + (P / L) _ {2} + \dots + (P / L) _ {T} \\ = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - \widehat {F} _ {1, T}) + 5 \mathrm {m i l} \times (\widehat {F} _ {1, T} - \widehat {F} _ {2, T}) + \dots + 5 \mathrm {m i l} \times (\widehat {F} _ {T - 1, T} - \widehat {F} _ {T, T}) \\ = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - \widehat {F} _ {T, T}) \\ = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - M _ {T}) \\ = \mathrm {P a y o f f} \mathrm {o f F o r w a r d C o n t r a c t a t} T (\mathrm {i f} \widehat {F} _ {0, T} = F _ {0, T}) \\ \end{array}
+\begin{array}{l} \mathrm{Payoff\ at\ } T = (P/L)_{1} + (P/L)_{2} + \dots + (P/L)_{T} \\ = 5 \mathrm{mil} \times (\widehat{F}_{0,T} - \widehat{F}_{1,T}) + 5 \mathrm{mil} \times (\widehat{F}_{1,T} - \widehat{F}_{2,T}) + \dots + 5 \mathrm{mil} \times (\widehat{F}_{T-1,T} - \widehat{F}_{T,T}) \\ = 5 \mathrm{mil} \times (\widehat{F}_{0,T} - \widehat{F}_{T,T}) \\ = 5 \mathrm{mil} \times (\widehat{F}_{0,T} - M_{T}) \\ = \mathrm{Payoff\ of\ Forward\ Contract\ at\ } T (\mathrm{if\ } \widehat{F}_{0,T} = F_{0,T}) \\ \end{array}
 $$
 
 # Hedging with Futures
@@ -770,23 +779,23 @@ $$
 - The correct statement of the payoff at  $T$  is in fact:
 
 $$
-\begin{array}{l} \mathrm {P a y o f f a t} T = (P / L) _ {1} \times e ^ {r _ {\S} \times (T - d t)} + (P / L) _ {2} \times e ^ {r _ {\S} \times (T - 2 d t)} + \dots + (P / L) _ {T - 1} \times e ^ {r _ {\S} \times d t} + (P / L) _ {T} \\ - \mathrm {w h e r e} d t = 1 / 3 6 5 = 1 \mathrm {d a y (i n a n n u a l u n i t s)} \\ \end{array}
+\begin{array}{l} \mathrm{Payoff\ at\ } T = (P/L)_{1} \times e^{r_{\S} \times (T - dt)} + (P/L)_{2} \times e^{r_{\S} \times (T - 2dt)} + \dots + (P/L)_{T-1} \times e^{r_{\S} \times dt} + (P/L)_{T} \\ - \mathrm{where\ } dt = 1/365 = 1 \mathrm{day\ (in\ annual\ units)} \\ \end{array}
 $$
 
 - To obtain the forward contract's payoff, we must tail the hedge and choose the number of contracts  $k_{t}$  per period as (recall  $\frac{5\mathrm{mil}}{125,000} = 40$ ):
 
 $$
-k _ {0} = 4 0 \times e ^ {- r _ {\S} \times (T - d t)}; k _ {1} = 4 0 \times e ^ {- r _ {\S} \times (T - 2 d t)}; \ldots ; k _ {i} = 4 0 \times e ^ {- r _ {\S} \times (T - i d t)}; \ldots ; k _ {T - 1} = 4 0
+k_{0} = 40 \times e^{-r_{\S} \times (T - dt)}; k_{1} = 40 \times e^{-r_{\S} \times (T - 2dt)}; \ldots; k_{i} = 40 \times e^{-r_{\S} \times (T - idt)}; \ldots; k_{T-1} = 40
 $$
 
 - which yields the payoff sequence
 
 $$
-\begin{array}{l} \mathrm {P a y o f f a t} T = \left[ 5 \mathrm {m} \times e ^ {- r _ {\S} \times (T - d t)} \times (\widehat {F} _ {0, T} - \widehat {F} _ {1, T}) \right] \times e ^ {r _ {\S} \times (T - d t)} + \\ + \left[ 5 \mathrm {m} \times e ^ {- r _ {\S} \times (T - 2 d t)} \times (\widehat {F} _ {1, T} - \widehat {F} _ {2, T}) \right] \times e ^ {r _ {\S} \times (T - 2 d t)} + \dots . + \left[ 5 \mathrm {m} \times (\widehat {F} _ {T - 1, T} - \widehat {F} _ {T, T}) \right] \\ \end{array}
+\begin{array}{l} \mathrm{Payoff\ at\ } T = \left[ 5 \mathrm{m} \times e^{-r_{\S} \times (T - dt)} \times (\widehat{F}_{0,T} - \widehat{F}_{1,T}) \right] \times e^{r_{\S} \times (T - dt)} + \\ + \left[ 5 \mathrm{m} \times e^{-r_{\S} \times (T - 2dt)} \times (\widehat{F}_{1,T} - \widehat{F}_{2,T}) \right] \times e^{r_{\S} \times (T - 2dt)} + \dots + \left[ 5 \mathrm{m} \times (\widehat{F}_{T-1,T} - \widehat{F}_{T,T}) \right] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - \widehat {F} _ {1, T}) + 5 \mathrm {m i l} \times (\widehat {F} _ {1, T} - \widehat {F} _ {2, T}) + \dots + 5 \mathrm {m i l} \times (\widehat {F} _ {T - 1, T} - \widehat {F} _ {T, T}) \\ = 5 \mathrm {m i l} \times (\widehat {F} _ {0, T} - M _ {T}) \\ \end{array}
+\begin{array}{l} = 5 \mathrm{mil} \times (\widehat{F}_{0,T} - \widehat{F}_{1,T}) + 5 \mathrm{mil} \times (\widehat{F}_{1,T} - \widehat{F}_{2,T}) + \dots + 5 \mathrm{mil} \times (\widehat{F}_{T-1,T} - \widehat{F}_{T,T}) \\ = 5 \mathrm{mil} \times (\widehat{F}_{0,T} - M_{T}) \\ \end{array}
 $$
 
 # Speculating with Futures
@@ -812,21 +821,21 @@ $$
 1. Funded Speculative Position: The position is \( \\( {180162.5} = {125},{000} \times  {1.441} \) . Thus
 
 $$
-\mathrm {P r o f i t} = \\(1 8 0 1 6 2. 5 - \\)1 7 9, 0 7 5 = \$ 1 0 8 7. 5
+\mathrm{Profit} = \$180162.5 - \$179,075 = \$1087.5
 $$
 
 $$
-\mathrm{Return~on~Investment} = \frac{\mathbb{S}1087.5}{\mathbb{S}179,075} = 0.607\%
+\mathrm{Return\ on\ Investment} = \frac{\$1087.5}{\$179,075} = 0.607\%
 $$
 
 2. Unfunded Speculative Position through Futures:
 
 $$
-\mathrm {P r o f i t} = 1 2 5, 0 0 0 \times (1. 4 4 1 - 1. 4 3 3 4) = \$ 9 5 0
+\mathrm{Profit} = 125,000 \times (1.441 - 1.4334) = \$950
 $$
 
 $$
-\mathrm{Return~on~Investment} = \frac{\mathbb{S}950}{\mathbb{S}2,995} = 31.72\%
+\mathrm{Return\ on\ Investment} = \frac{\$950}{\$2,995} = 31.72\%
 $$
 
 - Futures provide a much higher profit (or loss) as a percentage of investment.
@@ -843,7 +852,7 @@ $$
 - Fact: If interest rates are constant, the futures price equals the forward price:
 
 $$
-\widehat {F} _ {t, T} = F _ {t, T}
+\widehat{F}_{t,T} = F_{t,T}
 $$
 
 Why?
@@ -880,7 +889,7 @@ Forward Rates
 - We need to express cash flows in the same currency.  
 - Every  $T$ , the firm receives 1 mil  $\times K$  dollars, and must pay 1 mil  $\times M_T$  dollars.
 
-Net  $\$ 6$ CF at  $T = 1 \mathrm{mil} \times (K - M_T)$
+Net \$ CF at $T = 1 \mathrm{mil} \times (K - M_T)$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/124a09ff926ae833c99630f23d8dcbd7806a2f7056fcd793383a9cf09ae5cc44.jpg)  
 Example: Hedging with Swaps
@@ -896,7 +905,7 @@ Example: Hedging with Swaps
 - The payoff for every  $T = 0.5, \ldots, 2.5$  is
 
 $$
-\begin{array}{l} \mathrm {P a y o f t} T \mathrm {o f s w a p + r e v e r s e f o r w a r d = 1 m i l \times (K - M _ {T}) + 1 m i l \times (M _ {T} - F _ {0 , T})} \\ = 1 \mathrm {m i l} \times (K - F _ {0, T}) \\ \end{array}
+\begin{array}{l} \mathrm{Payoff\ at\ } T \mathrm{\ of\ swap\ +\ reverse\ forward\ } = 1 \mathrm{mil} \times (K - M_{T}) + 1 \mathrm{mil} \times (M_{T} - F_{0,T}) \\ = 1 \mathrm{mil} \times (K - F_{0,T}) \\ \end{array}
 $$
 
 # Swap Rate
@@ -904,7 +913,7 @@ $$
 - The Present Value of these sequence of net payments is
 
 $$
-\begin{array}{l} \mathrm {P V} \mathrm {o f s w a p + r e v e r s e f o r w a r d c a s h f l o w s = e ^ {- r _ {\S} \times 0 . 5} \times 1 m i l \times (K - F _ {0 , 0 . 5}) +} \\ + e ^ {- r _ {\S} \times 1} \times 1 \mathrm {m i l} \times (K - F _ {0, 1}) + \ldots + \\ + \ldots + e ^ {- r _ {\S} \times 2. 5} \times 1 \mathrm {m i l} \times (K - F _ {0, 2. 5}) \\ \end{array}
+\begin{array}{l} \mathrm{PV\ of\ swap\ +\ reverse\ forward\ cash\ flows\ } = e^{-r_{\S} \times 0.5} \times 1 \mathrm{mil} \times (K - F_{0,0.5}) + \\ + e^{-r_{\S} \times 1} \times 1 \mathrm{mil} \times (K - F_{0,1}) + \ldots + \\ + \ldots + e^{-r_{\S} \times 2.5} \times 1 \mathrm{mil} \times (K - F_{0,2.5}) \\ \end{array}
 $$
 
 - No arbitrage  $\Longrightarrow$  At time 0, the PV of swap + reverse forwards cash flows = 0
@@ -913,7 +922,7 @@ $$
 - We obtain one equation in one unknown  $K$
 
 $$
-\begin{array}{l} 0 = e ^ {- r _ {\S} \times 0. 5} \times 1 \mathrm {m i l} \times (K - F _ {0, 0. 5}) + e ^ {- r _ {\S} \times 1} \times 1 \mathrm {m i l} \times (K - F _ {0, 1}) + \dots + \\ + \dots + e ^ {- r _ {\S} \times 2. 5} \times 1 \mathrm {m i l} \times (K - F _ {0, 2. 5}) \\ \end{array}
+\begin{array}{l} 0 = e^{-r_{\S} \times 0.5} \times 1 \mathrm{mil} \times (K - F_{0,0.5}) + e^{-r_{\S} \times 1} \times 1 \mathrm{mil} \times (K - F_{0,1}) + \dots + \\ + \dots + e^{-r_{\S} \times 2.5} \times 1 \mathrm{mil} \times (K - F_{0,2.5}) \\ \end{array}
 $$
 
 # Swap Rate
@@ -921,19 +930,19 @@ $$
 - The solution to the equation is a weighted average of forward prices:
 
 $$
-\mathrm {C u r r e n c y S w a p R a t e} = K = w _ {0. 5} F _ {0. 5} + w _ {1} F _ {0, 1} + \ldots + w _ {2. 5} F _ {0, 2. 5}
+\mathrm{Currency\ Swap\ Rate\ } = K = w_{0.5} F_{0.5} + w_{1} F_{0,1} + \ldots + w_{2.5} F_{0,2.5}
 $$
 
 - The weights  $w_{T}$  are given by the relative time value of money across maturities
 
 $$
-w _ {T} = \frac {e ^ {- r _ {\S} \times T}}{e ^ {- r _ {\S} \times 0 . 5} + e ^ {- r _ {\S} \times 1} + \ldots + e ^ {- r _ {\S} \times 2 . 5}}
+w_{T} = \frac{e^{-r_{\S} \times T}}{e^{-r_{\S} \times 0.5} + e^{-r_{\S} \times 1} + \ldots + e^{-r_{\S} \times 2.5}}
 $$
 
 - We obtain an alternative (equivalent) formulation by substituting the forward prices  $F_{0,T} = M_0 e^{(r_{\S} - r_e)T}$ :
 
 $$
-\mathrm {C u r r e n c y S w a p R a t e} = K = M _ {0} \frac {e ^ {- r _ {e} \times 0 . 5} + e ^ {- r _ {e} \times 1} + \ldots + e ^ {- r _ {e} \times 2 . 5}}{e ^ {- r _ {\S} \times 0 . 5} + e ^ {- r _ {\S} \times 1} + \ldots + e ^ {- r _ {\S} \times 2 . 5}}
+\mathrm{Currency\ Swap\ Rate\ } = K = M_{0} \frac{e^{-r_{e} \times 0.5} + e^{-r_{e} \times 1} + \ldots + e^{-r_{e} \times 2.5}}{e^{-r_{\S} \times 0.5} + e^{-r_{\S} \times 1} + \ldots + e^{-r_{\S} \times 2.5}}
 $$
 
 - The FX Swap rate equals the current exchange rate multiplied by the ratio of the relative borrowing costs in the two currencies.
@@ -957,19 +966,19 @@ $$
 - As before, using a sequence of forwards to get out of the position gives
 
 $$
-\begin{array}{l} V _ {t} ^ {s w a p} = \mathrm {P V o f s w a p + r e v e r s e f o r w a r d c a s h f l o w s} \\ = e ^ {- r _ {\S} \times (T _ {1} - t)} \times (K - F _ {t, T _ {1}}) + e ^ {- r _ {\S} \times (T _ {2} - t)} \times (K - F _ {t, T _ {2}}) + \ldots + e ^ {- r _ {\S} \times (T _ {n} - t)} \times (K - F _ {t, T _ {n}}) \\ \end{array}
+\begin{array}{l} V_{t}^{\mathrm{swap}} = \mathrm{PV\ of\ swap\ +\ reverse\ forward\ cash\ flows} \\ = e^{-r_{\S} \times (T_{1} - t)} \times (K - F_{t,T_{1}}) + e^{-r_{\S} \times (T_{2} - t)} \times (K - F_{t,T_{2}}) + \ldots + e^{-r_{\S} \times (T_{n} - t)} \times (K - F_{t,T_{n}}) \\ \end{array}
 $$
 
 Obtaining the formula
 
 $$
-V _ {t} ^ {s w a p} = \sum_ {i = 1} ^ {n} e ^ {- r _ {\S} (T _ {i} - t)} \times (K - F _ {t, T _ {i}})
+V_{t}^{\mathrm{swap}} = \sum_{i=1}^{n} e^{-r_{\S} (T_{i} - t)} \times (K - F_{t,T_{i}})
 $$
 
 - Substituting the value of  $F_{t,T_i} = M_t \times e^{(r_{\mathbb{S}} - r_e) \times (T_i - t)}$  we obtain the equivalent formula:
 
 $$
-V _ {t} ^ {s w a p} = K \times \left(\sum_ {i = 1} ^ {n} e ^ {- r _ {\S} (T _ {i} - t)}\right) - M _ {t} \times \left(\sum_ {i = 1} ^ {n} e ^ {- r _ {e} (T _ {i} - t)}\right)
+V_{t}^{\mathrm{swap}} = K \times \left(\sum_{i=1}^{n} e^{-r_{\S} (T_{i} - t)}\right) - M_{t} \times \left(\sum_{i=1}^{n} e^{-r_{e} (T_{i} - t)}\right)
 $$
 
 # Plain Vanilla FX Swaps
@@ -1003,23 +1012,23 @@ What is the value of the swap to the US firm?
 - Let  $B^{e}(t,T)$  and  $B^{\S}(t,T)$  be the value of the two bond (in their respective currencies).
 
 $$
-* \text {E.g. If the (c.c.) rates are constant across maturities at} r_{e} = 4\% \text {and} r_{\S} = 6\%, \text {then} B^{e}(0,T) = 100\mathrm{mil}2\% \left(e^{-r_{e}\times 0.5} + e^{-r_{e}\times 1} + \dots +e^{-r_{e}\times 5}\right) + 100\mathrm{mil}e^{-r_{e}\times 5} = EUR99,819,335
+* \text{E.g. If the (c.c.) rates are constant across maturities at\ } r_{e} = 4\% \text{\ and\ } r_{\S} = 6\%, \text{\ then\ } B^{e}(0,T) = 100 \mathrm{mil} \times 2\% \times \left(e^{-r_{e}\times 0.5} + e^{-r_{e}\times 1} + \dots + e^{-r_{e}\times 5}\right) + 100 \mathrm{mil} \times e^{-r_{e}\times 5} = \mathrm{EUR} 99,819,335
 $$
 
 $$
-B ^ {\S} (0, T) = 1 0 0 \mathrm {mil} 2
+B^{\S}(0,T) = 100 \mathrm{mil} \times 2\%
 $$
 
 - The value of the swap at  $t$  is then
 
 $$
-V _ {t} ^ {s w a p} = M _ {t} \times B ^ {e} (t, T) - K \times B ^ {\$} (t, T)
+V_{t}^{\mathrm{swap}} = M_{t} \times B^{e}(t,T) - K \times B^{\S}(t,T)
 $$
 
 - Therefore, at time  $t = 0$ , the value of  $K$  that makes the value of the swap equal to zero is
 
 $$
-V _ {0} ^ {\text {s w a p}} = 0 \Longrightarrow M _ {0} \times B ^ {e} (0, T) = K \times B ^ {\S} (0, T) \Longrightarrow K = M _ {0} \times \frac {B ^ {e} (0 , T)}{B ^ {\S} (0 , T)}
+V_{0}^{\mathrm{swap}} = 0 \Longrightarrow M_{0} \times B^{e}(0,T) = K \times B^{\S}(0,T) \Longrightarrow K = M_{0} \times \frac{B^{e}(0,T)}{B^{\S}(0,T)}
 $$
 
 - This is the same expression we obtained earlier when the last (notional) payment is zero.  
@@ -1060,7 +1069,7 @@ Plain Vanilla FX Swaps - 4
 - Given a notional  $N$ , the floating rate payment at time  $T_{i}$  is
 
 $$
-C F (T _ {i}) = N \left(\prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \delta\right) - 1\right) \tag {4}
+CF(T_{i}) = N \left(\prod_{j=1}^{n_{j}} (1 + r_{t_{j}} \delta) - 1\right) \tag{4}
 $$
 
 - where  $\delta$  is the daily interval,  $r_t$  is the reference (annualized) overnight rate, and  $n_j$  is the number of days between reset periods.  
@@ -1068,7 +1077,7 @@ $$
 - In the continuous time limit  $(\delta \to 0)$ , we have that
 
 $$
-C F \left(T _ {i}\right) = N \left(e ^ {\int_ {T _ {i - 1}} ^ {T _ {i}} r (u) d u} - 1\right) \tag {5}
+CF(T_{i}) = N \left(e^{\int_{T_{i-1}}^{T_{i}} r(u) du} - 1\right) \tag{5}
 $$
 
 - Is with maturity less than 1 year have only one payment at the maturity.  
@@ -1079,46 +1088,46 @@ $$
 - The value of Is is the difference between the floating leg and the fixed leg:
 
 $$
-V _ {t} ^ {O I S} = V _ {t} ^ {F l o a t i n g} - V _ {t} ^ {F i x e d} \tag {6}
+V_{t}^{\mathrm{OIS}} = V_{t}^{\mathrm{Floating}} - V_{t}^{\mathrm{Fixed}} \tag{6}
 $$
 
 - Floating Leg: At reset dates, and assuming the payment of a principal at maturity of the swap, the value of the floating leg is par.
 - Indeed, investing the notional  $N$  in the overnight index daily gives at  $T_{i}$
 
 $$
-N \prod_ {j = 1} ^ {n _ {j}} \left(1 + r _ {t _ {j}} \Delta\right) = C F \left(T _ {i}\right) + N
+N \prod_{j=1}^{n_{j}} (1 + r_{t_{j}} \Delta) = CF(T_{i}) + N
 $$
 
 - $\Longrightarrow$  we can replicate the floating payments, plus a residual of notional at maturity  $T_{i}$ , with an investment  $N$  at time 0.
 - It follows
 
 $$
-V _ {0} ^ {F l o a t i n g} = N
+V_{0}^{\mathrm{Floating}} = N
 $$
 
 - Fixed leg: Given a proper discount function  $Z^{OIS}(0,T_i)$ , we obtain
 
 $$
-V _ {0} ^ {F i x e d} = N c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + N Z ^ {O I S} (0, T _ {n}) \tag {7}
+V_{0}^{\mathrm{Fixed}} = N c \Delta \sum_{i=1}^{n} Z^{\mathrm{OIS}}(0,T_{i}) + N Z^{\mathrm{OIS}}(0,T_{n}) \tag{7}
 $$
 
 - The value of the contract at inception is zero,  $V_0^{OIS} = 0$ .  
 - It follows from (6) then that
 
 $$
-V _ {0} ^ {O I S} = V _ {0} ^ {F l o a t i n g} - V _ {0} ^ {F i x e d} = 0 \tag {8}
+V_{0}^{\mathrm{OIS}} = V_{0}^{\mathrm{Floating}} - V_{0}^{\mathrm{Fixed}} = 0 \tag{8}
 $$
 
 - This equation implies that the swap rate  $c$  can be computed from
 
 $$
-1 = c \Delta \sum_ {i = 1} ^ {n} Z ^ {O I S} (0, T _ {i}) + Z ^ {O I S} (0, T _ {n}) \tag {9}
+1 = c \Delta \sum_{i=1}^{n} Z^{\mathrm{OIS}}(0,T_{i}) + Z^{\mathrm{OIS}}(0,T_{n}) \tag{9}
 $$
 
 - which gives
 
 $$
-c (T _ {n}) = \frac {1}{\Delta} \frac {1 - Z ^ {O I S} (0 , T _ {n})}{\Sigma_ {i = 1} ^ {n} Z ^ {O I S} (0 , T _ {i})} \tag {10}
+c(T_{n}) = \frac{1}{\Delta} \frac{1 - Z^{\mathrm{OIS}}(0,T_{n})}{\sum_{i=1}^{n} Z^{\mathrm{OIS}}(0,T_{i})} \tag{10}
 $$
 
 - where we now emphasize that the coupon rate  $c$  is for a swap with maturity  $T_{n}$ , and thus write  $c(T_{n})$ .
@@ -1129,7 +1138,7 @@ $$
 - We obtain the relation:
 
 $$
-Z ^ {O I S} \left(0, T _ {i}\right) = \frac {1 - c \left(T _ {i}\right) \Delta \sum_ {j = 1} ^ {i - 1} Z ^ {O I S} \left(0 , T _ {j}\right)}{1 + c \left(T _ {i}\right) \Delta} \tag {11}
+Z^{\mathrm{OIS}}(0,T_{i}) = \frac{1 - c(T_{i}) \Delta \sum_{j=1}^{i-1} Z^{\mathrm{OIS}}(0,T_{j})}{1 + c(T_{i}) \Delta} \tag{11}
 $$
 
 - recalling, however, that Is with maturity less than or equal to 1 year generally have only one payment.  

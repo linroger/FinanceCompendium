@@ -1,18 +1,30 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Arbitrage and Hedging With Options
+parent_directory: Financial Trading and Investing
+formatted: 2025-12-20 6:40:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - arbitrage pricing
+  - option hedging
+  - binomial model
+  - black scholes greeks
+secondary_tags:
+  - put call parity
+  - delta hedging
+  - gamma hedging
+  - risk neutral valuation
+  - volatility trading
+  - option strategies
+  - market risk management
 cssclasses: academia
-title: "9"
-linter-yaml-title-alias: "9"
 ---
 
 # 9
 
 # Arbitrage and Hedging With Options
 
-# 9.1 DERIVATIVE SECURITIES MARKETS AND HEDGING
+## 9.1 Derivative Securities Markets and Hedging
 
 As discussed earlier, a derivative security is simply a financial instrument whose value is derived from that of another security, financial index, or rate. A large number of different types of derivative securities have become increasingly important for management and hedging a variety of different types of risks. There exist a huge variety of derivative securities. Some of the more frequently traded derivatives follow:
 
@@ -38,22 +50,22 @@ Many stock options in the United States and Europe are traded on exchanges. The 
 
 Options can be classified into either the European variety or the American variety. European options may be exercised only at the time of their expiration; American options may be exercised any time before and including the date of expiration. Most option contracts traded in the United States (and Europe as well) are of the American variety. American options can never be worth less than their otherwise identical European counterparts. In fact, because most call options have time value in addition to their intrinsic or exercise value (calls on stocks that go ex-dividend before the call expires can be an important exception to this), we usually do not exercise American calls before exercise. This means that we can often value American call options (on non-dividend-paying stock) as though they are European calls.
 
-# 9.2 PUT-CALL PARITY
+## 9.2 Put-Call Parity
 
 First, since the call (put) owner has the right to buy (sell) the underlying stock at a price of  $X$ , the terminal payoff functions for calls and puts are written as follows:
 
 $$
-c _ {T} = \operatorname {M A X} [ 0, S _ {T} - X ] \tag {9.1}
+c_{T} = \operatorname{MAX}[0, S_{T} - X] \tag{9.1}
 $$
 
 $$
-p _ {T} = \operatorname {M A X} [ 0, X - S _ {T} ] \tag {9.2}
+p_{T} = \operatorname{MAX}[0, X - S_{T}] \tag{9.2}
 $$
 
 If we subtract Equation (9.2) from Equation (9.1) we obtain the terminal value put-call relation:
 
 $$
-c _ {T} - p _ {T} = \operatorname {M A X} [ 0, S _ {T} - X ] - \operatorname {M A X} [ 0, X - S _ {T} ] = S _ {T} - X \tag {9.3}
+c_{T} - p_{T} = \operatorname{MAX}[0, S_{T} - X] - \operatorname{MAX}[0, X - S_{T}] = S_{T} - X \tag{9.3}
 $$
 
 A slight rewrite of this terminal put-call relation allows us to write the terminal or exercise value a put given the terminal value of a call with identical exercise terms:
@@ -65,12 +77,12 @@ $$
 Since the terminal value of a put is always given by Equation (9.4), the time-zero value of a put must be given by Equation (9.5):
 
 $$
-p _ {0} = c _ {0} + X \mathrm {e} ^ {- r _ {f} T} - S _ {0} \text {i n c o n t i n u o u s t i m e}; p _ {0} = c _ {0} + X / (1 + r _ {f}) ^ {T} - S _ {0} \text {i n d i s c r e t e t i m e} \tag {9.5}
+p_{0} = c_{0} + X e^{-r_{f} T} - S_{0} \text{in continuous time}; p_{0} = c_{0} + X / (1 + r_{f})^{T} - S_{0} \text{in discrete time} \tag{9.5}
 $$
 
 This arbitrage-free relationship allows us to value a put based on the price knowledge of a call with exactly the same exercise terms. The put–call parity function holds regardless of the stochastic process generating stock prices, but assumes that the underlying stock pays no dividends during the lives of the options.
 
-# Illustration: Hedging With a Call, a Put and a Collar
+## Illustration: Hedging With a Call, a Put and a Collar
 
 Suppose that an investor has 1000 shares of stock that are currently worth \$50 per share each. The investor wishes to lock in his gains on the stock, but does not want to sell at this time for tax reasons. The current two-year riskless return rate is 5%. The investor could write two-year calls on these shares, with an exercise price of \$50 per share, receiving \$8 for each share that he owns. That is, he could receive \$8 per share by selling covered calls. He could also purchase two-year puts on each share which would enable him to eliminate downside risk. What are the potential hedging strategies available to the investor? What are the costs and benefits of each?
 
@@ -86,7 +98,7 @@ Each put will protect the investor from downside stock price movements below \$5
 
 What if the investor objects to paying \$3.24 to eliminate downside price risk? Another possibility is to simultaneously purchase a put and write a call, in effect financing the cost of the put with proceeds from selling the call. One such strategy is to create a collar, which is a package consisting of a long position in a put and a short position in a call. Here, if the investor purchases a put for \$3.24 and sells a call for \$8, he nets \$4.76 per share. If the share price drops below \$50 in two years, he puts his shares to the put writer for \$50. If the share price rises above \$50 in two years, his shares are called away from him at \$50 per share. Thus, for a net cash flow today of \$4.76, the investor gives up all potential profits and losses on his shares, locking or "collaring" in a price of \$50 today.
 
-# 9.3 OPTIONS AND HEDGING IN A BINOMIAL ENVIRONMENT
+## 9.3 Options and Hedging in a Binomial Environment
 
 The binomial option pricing model is based on the assumption that the underlying stock follows a binomial return generating process. This means that for any period during the life of the option, the stock's value will be only one of two potential constant values. For example, the stock's value will be either  $u$  (multiplicative upward movement) times its current value or  $d$  (multiplicative downward movement) times its current value.
 
@@ -191,7 +203,7 @@ $$
 
 Equation (9.10) is quite appropriate for evaluating a European call in a one-time period binomial framework. That is, in the model presented thus far, share prices can either increase or decrease once by a prespecified amount or percentage. Thus, there are only two potential prices that the stock can assume at the expiration of the stock. This binomial option pricing model can easily be extended to cover as many potential outcomes and time periods as necessary for a particular scenario.
 
-# Arbitrage in the One-Time Period Case
+## Arbitrage in the One-Time Period Case
 
 We found the arbitrage-free value of the call in the above example to be 20.4545. What if its price in the marketplace were instead 19? In this scenario, since the call is undervalued, we will purchase it, along with taking a short position in 0.75 shares of the underlying stock at  \$100. This initial investment will be -\$ 56, which we will loan at the riskless rate of 10%. Our initial and time-one cash flows are computed as follows:
 
@@ -201,7 +213,7 @@ $$
 
 Thus, the time-zero cash flow nets to zero. If the stock price rises to 120 in time one, the call pays \$30, the short position requires \$90 to settle, and the loan repays \$61.60. If the stock price drops to 80 in time one, the call pays 0, the short position requires \$60 to settle and the loan repays \$61.60. Regardless, the time-one net cash flow is \$1.60, representing a time-one arbitrage profit equal to 1.6, resulting from a time zero investment of zero.
 
-# Extending the Binomial Model to Two Periods
+## Extending the Binomial Model to Two Periods
 
 As we stated above, Equation (9.10) is appropriate for evaluating a European call in a one-time-period framework. That is, in the model presented thus far, share prices can either increase or decrease once by a prespecified percentage. Thus, there are only two potential prices that the stock can assume at the expiration of the stock. Our next step in the development of a more realistic model is to extend the framework to two time periods. One complication is that the hedge ratio only holds for the beginning of the first time period. After this period, the hedge ratio must be updated to reflect price changes and movement through time. Thus, our first step in extending the model to two time periods is to substitute for the hedge ratio based on Equation (9.10):
 
@@ -237,7 +249,7 @@ $$
 c _ {0} = \frac {c _ {u ^ {2}} p ^ {2} + 2 p (1 - p) c _ {u d} + (1 - p) ^ {2} c _ {d ^ {2}}}{\left(1 + r _ {f}\right) ^ {2}} \tag {9.16}
 $$
 
-# Illustration: Two-Time-Period Hedges
+## Illustration: Two-Time-Period Hedges
 
 Now, we will extend our illustration above from a single period to two periods, each with a riskless return rate equal to 0.10. As before, the stock currently sells for 100 and will change to either 120 or 80 in one time period ( $u = 1.2$ ,  $d = 0.8$ ). However, in the second period, the stock will change a second time by a factor of either 1.2 or 0.8, leading to
 
@@ -270,7 +282,7 @@ $$
 
 Thus, the investor will hedge by shorting 0.75 shares for each long call in the first period, and will update his hedge ratio to either 1 or 0.1875 short shares in the second period. Also, note the change in time perspectives for  $u$  and  $d$  in the second period after one period has elapsed.
 
-# Extending the Binomial Model to  $n$  Time Periods
+## Extending the Binomial Model to $n$ Time Periods
 
 The binomial model is easily extended to  $n$  time periods (evenly split within the interval  $T$ ) by implementing the binomial theorem to obtain the following:
 
@@ -293,7 +305,7 @@ The binomial option pricing model prices calls and puts relative to the pricing 
 1. The binomial option pricing model does not apply to this market.  
 2. There is an arbitrage opportunity in this market.
 
-# Illustration: Three Time Periods
+## Illustration: Three Time Periods
 
 Now, we will extend our illustration above from two periods to three, each with a riskless return rate equal to 0.10. As we see in Figure 9.3, by the third period, potential stock values are  $1.2^3 \times 100 = 172.8$ ,  $1.2^2 \times 0.8 \times 100 = 115.2$ ,  $0.8^2 \times 1.2 \times 100 = 76.8$ , or
 
@@ -316,7 +328,7 @@ $$
 p _ {0} = 3 4. 2 3 1 7 8 + 9 0 / (1. 1) ^ {3} - 1 0 0 = 1. 8 5
 $$
 
-# Obtaining Multiplicative Upward and Downward Movement Values
+## Obtaining Multiplicative Upward and Downward Movement Values
 
 One apparent difficulty in applying the binomial model as it is presented above is in obtaining estimates for  $u$  and  $d$  that are required for  $p$ ; all other inputs are normally quite easily obtained. There are several methods that are used to obtain parameters for the
 
@@ -350,7 +362,7 @@ $$
 d = \frac {1}{u} = 0. 7 4 0 8 1 8 2
 $$
 
-# Binomial Model: An Illustration
+## Binomial Model: An Illustration
 
 Suppose that we wished to evaluate a call and a put with an exercise price equal to  \$110 on a share of stock currently selling for\$ 100. The underlying stock-return standard deviation equals 0.30 and the current riskless return rate equals 0.05. If both options are of the European variety and expire in six months, what are their values?
 
@@ -428,7 +440,7 @@ $$
 
 As the six-month period is divided into more and finer subintervals, the values of the call and put will approach their Black-Scholes values. Table 9.1 extends this example to more than two subintervals.
 
-# 9.4 THE GREEKS AND HEDGING IN A BLACK-SCHOLES ENVIRONMENT
+## 9.4 The Greeks and Hedging in a Black-Scholes Environment
 
 As the number of trials  $n$  in a binomial distribution approaches infinity, the binomial distribution approaches the normal distribution. Black and Scholes (see Appendix 9.B) provide a derivation for an option pricing model based on the assumption that the natural logs of stock price relatives will be normally distributed.<sup>7</sup> We introduced the Black-Scholes model in the appendix to Chapter 7. The assumptions on which the Black-Scholes options pricing model and its derivation are based are as follows:
 
@@ -478,7 +490,7 @@ $$
 
 where  $N(d^{*})$  is the cumulative normal distribution function for  $(d^{*})$ .<sup>9</sup>
 
-# Black-Scholes Model Sensitivities
+## Black-Scholes Model Sensitivities
 
 Options can be very volatile instruments, and hedging is crucial for traders' management of options portfolios. Sources of sensitivity, or the "Greeks," are key to this management process. The Black-Scholes model can provide much useful information concerning options and underlying shares. First, assuming that investors behave as though they are risk neutral and that other Black-Scholes assumptions hold,  $N(d_{2})$  might be interpreted as the probability that the stock price will be sufficiently high at the expiration date of the option to warrant its exercise. Thus,  $N(d_{2})$  might be regarded as the probability that investors assign to  $S_{T}$  exceeding  $X$ ; that is, the probability at exercise at time  $T$  implied by the call at its current market price  $c_{0}$  is  $N(d_{2})$ . A second particularly useful point is that  $N(d_{1})$  might be interpreted as a hedge ratio, although it must be updated at every period. This means that  $N(d_{1})$  can be interpreted as the number of shares to short for every purchased call, but, as the option's time to maturity diminishes, and as share prices change, this hedge ratio will change. In addition,  $N(d_{1})$  is the sensitivity of the option value to changes in the stock price. This sensitivity means that the option's value will change by  $N(d_{1})$  for each unit of change in the underlying stock price. In the finance industry, this value is often referred to as the call delta.
 
@@ -487,7 +499,7 @@ Option traders find it very useful to know how the values of their option positi
 For example, we mentioned above that the sensitivity of the call's value to the stock's price is Delta: $^{10}$
 
 $$
-\frac {\partial c}{\partial S} = N \left(d _ {1}\right) > 0 \quad D e l t a \quad \Delta \tag {9.26}
+\frac{\partial c}{\partial S} = N(d_{1}) > 0 \quad \text{Delta} \quad \Delta \tag{9.26}
 $$
 
 Thus, a small increase in the value of the underlying stock would lead to approximately  $N(d_{1})$  times that increase in the price of the call option. A call investor can hedge his portfolio risk associated with infinitesimal share price changes by shorting  $N(d_{1})$  shares of underlying stock for each purchased call option. Thus, the hedged portfolio would consist of an offsetting position of  $N(d_{1})$  underlying shares for each call option in the portfolio.
@@ -497,7 +509,7 @@ In addition, the trader can offset this delta risk with multiple positions in op
 There is a major caveat to the application of this hedge ratio. In addition to the Black Scholes assumptions, this sensitivity or delta measure worsens as the change in the stock price increases. Furthermore, a large change in the stock price will lead to a change in the value of the delta neutral portfolio because delta is based on a derivative or "point slope," and applies only to infinitesimal changes in the stock price. Thus, because this delta is based on a partial derivative with respect to the share price, it holds exactly only for an infinitesimal change in the share price; it holds only approximately for finite changes in the share price. This delta only approximates the change in the call value resulting from a change in the share price because any change in the price of the underlying shares would lead to a change in the delta itself:
 
 $$
-\frac {\partial^ {2} c}{\partial S ^ {2}} = \frac {\partial \Delta}{\partial S} = \frac {\partial N (d _ {1})}{\partial S} = \frac {\mathrm {e} ^ {\left(\frac {- \left(d _ {1} ^ {2}\right)}{2}\right)}}{\sqrt {2 \pi}} > 0 \quad G a m m a \quad \Gamma \tag {9.27}
+\frac{\partial^{2} c}{\partial S^{2}} = \frac{\partial \Delta}{\partial S} = \frac{\partial N(d_{1})}{\partial S} = \frac{e^{\left(\frac{-(d_{1}^{2})}{2}\right)}}{\sqrt{2\pi}} > 0 \quad \text{Gamma} \quad \Gamma \tag{9.27}
 $$
 
 This change in delta resulting from a change in the share price is known as gamma. Since gamma is positive, an increase in the share price will lead to an increase in delta. However, again, this change in delta resulting from a finite share price change is only approximate. Each time the share price changes, the investor must update his portfolio to reflect the changing delta.
@@ -509,7 +521,7 @@ delta neutrality. This delta neutrality means that fairly small changes in the u
 Since each call and put option has a date of expiration, calls and puts are said to amortize over time. As the date of expiration draws nearer ( $T$  gets smaller), the value of the European call (and put) option might be expected to decline as indicated by a positive theta:
 
 $$
-\frac {\partial c}{\partial T} = r _ {f} X \mathrm {e} ^ {- r _ {f} T} N \left(d _ {2}\right) + S \frac {\sigma}{\sqrt {T}} \frac {\mathrm {e} ^ {\left(\frac {- d _ {1} ^ {2}}{2}\right)}}{2 \sqrt {2 \pi}} > 0 \quad \text {T h e t a} \quad \theta \tag {9.28}
+\frac{\partial c}{\partial T} = r_{f} X e^{-r_{f} T} N(d_{2}) + S \frac{\sigma}{\sqrt{T}} \frac{e^{\left(\frac{-d_{1}^{2}}{2}\right)}}{2\sqrt{2\pi}} > 0 \quad \text{Theta} \quad \theta \tag{9.28}
 $$
 
 Many traders seek to maintain portfolios that are simultaneously neutral with respect to delta, gamma, and theta. Be certain that the units of time for theta are consistent with those used in the calculation of the option value. Some option traders calculate option prices based on numbers of years (fractions of years) prior to option expiry, but prefer to calculate theta in days. This is acceptable, but divide the annual theta by 365 (or the number of trading days in the year) to obtain the daily theta.
@@ -517,7 +529,7 @@ Many traders seek to maintain portfolios that are simultaneously neutral with re
 Vega, which actually is not a Greek letter, measures the sensitivity of the option price to the underlying stock's standard deviation of returns. One might expect the call option price to be directly related to the underlying stock's standard deviation:
 
 $$
-\frac {\partial c}{\partial \sigma} = S \sqrt {T} \frac {\mathrm {e} ^ {\left(\frac {- (d _ {1} ^ {2})}{2}\right)}}{\sqrt {2 \pi}} > 0 \quad V e g a \quad \nu \tag {9.29}
+\frac{\partial c}{\partial \sigma} = S \sqrt{T} \frac{e^{\left(\frac{-(d_{1}^{2})}{2}\right)}}{\sqrt{2\pi}} > 0 \quad \text{Vega} \quad \nu \tag{9.29}
 $$
 
 Although the Black-Scholes model assumes that the underlying stock volatility is constant over time, in reality, volatility can and does shift. Vega provides an estimate for the impact of a volatility shift on the option's value. Vega is also useful in calculating option implied volatilities when the iteration process is made more efficient with the use of the Newton-Raphson method.
@@ -525,16 +537,16 @@ Although the Black-Scholes model assumes that the underlying stock volatility is
 A trader should expect that the value of the call would be directly related to the riskless return rate and inversely related to the call exercise price:
 
 $$
-\frac {\partial c}{\partial \mathrm {e} ^ {r _ {f}}} = T X \mathrm {e} ^ {- r _ {f} T} N \left(d _ {2}\right) > 0 \quad R h o \quad \rho \tag {9.30}
+\frac{\partial c}{\partial e^{r_{f}}} = T X e^{-r_{f} T} N(d_{2}) > 0 \quad \text{Rho} \quad \rho \tag{9.30}
 $$
 
 $$
-\frac {\partial c}{\partial X} = - \mathrm {e} ^ {- r _ {f} T} N \left(d _ {2}\right) <   0 \tag {9.31}
+\frac{\partial c}{\partial X} = -e^{-r_{f} T} N(d_{2}) < 0 \tag{9.31}
 $$
 
 The option rho can be very useful in economies with high or volatile interest rates, though most traders of "plain vanilla options" do not concern themselves much with call value sensitivities to exercise prices.
 
-# Illustration: Greeks Calculations for Calls
+## Illustration: Greeks Calculations for Calls
 
 In the appendix to Chapter 7, we worked through the Black-Scholes model to value a call. We summarize details as follows:
 
@@ -594,7 +606,7 @@ $$
 
 Sometimes thetas are expressed in daily terms and sometimes vegas and rhos are expressed in terms based on one percentage point increases in standard deviation or interest rates.
 
-# Illustration: Hedging With Delta and Gamma Neutral Portfolios
+## Illustration: Hedging With Delta and Gamma Neutral Portfolios
 
 In our numerical example above, we can establish a delta neutral portfolio by purchasing a single call and shorting 0.536 shares of stock. The portfolio delta is the weighted average of its component security deltas, and one call has already been purchased:
 
@@ -634,7 +646,7 @@ $$
 
 Thus, for each underlying share of stock purchased, a delta-gamma neutral portfolio requires a long position in 8.42 calls with  \$80 exercise prices and a short position in 8.82 calls with\$ 75 exercise prices. The availability of additional option contracts would increase flexibility with respect to maintaining delta-gamma neutrality. On the other hand, simultaneous maintenance of theta neutrality along with delta-gamma neutrality would require at least one additional different option contract.
 
-# Put Sensitivities
+## Put Sensitivities
 
 If put-call parity holds along with Black-Scholes assumptions given above, the Black-Scholes put value is computed as follows:
 
@@ -676,7 +688,7 @@ $$
 \frac {\partial p}{\partial X} = - \mathrm {e} ^ {- r _ {f} T} (N (d _ {2}) - 1) = 0. 5 4 8
 $$
 
-# 9.5 EXCHANGE OPTIONS
+## 9.5 Exchange Options
 
 In this section, we discuss a variation of the Black-Scholes model provided by Garman and Kohlagen (1983) and Grabbe (1983) for the valuation of currency options. The stock option pricing model is based on the assumption that investors price calls as though they expect the underlying stock to earn the risk free rate of return. However, when we value currency options, we acknowledge that interest rates might differ between the foreign and domestic countries, and that money might be borrowed in one country and loaned in another. Hence, we quote two interest rates—one each for the foreign and domestic currencies. In this scenario, we value currency options as follows:
 
@@ -698,7 +710,7 @@ $$
 p _ {0} = c _ {0} + X \mathrm {e} ^ {- r (d) T} - s _ {0} \mathrm {e} ^ {- r (f) T} \tag {9.36}
 $$
 
-# Illustration: FX Option Valuation
+## Illustration: FX Option Valuation
 
 Consider, for example, a currency option series on Swiss francs (CHF) denominated in U.S. dollars. Suppose that a six-month (0.5 years) call option is available on francs with an exercise price equal  \$0.5556. The domestic and foreign riskless rates are 0.1. The current exchange rate is\$ 0.5556/CHF and the standard deviation associated with the exchange rate is 0.4. What is the value of this currency call?
 
@@ -758,7 +770,7 @@ Thus, put options with terms identical to those of the calls in Tables 9.2 and 9
 
 <table><tr><td></td><td>Option 1</td><td>Option 2</td><td>Option 3</td><td>Option 4</td></tr><tr><td>Put</td><td>0.1648</td><td>0.2707</td><td>0.3192</td><td>0.5125</td></tr></table>
 
-# 9.6 HEDGING EXCHANGE EXPOSURE WITH CURRENCY OPTIONS
+## 9.6 Hedging Exchange Exposure with Currency Options
 
 Based on the example from Chapter 8, Hedging Exchange Exposure section, suppose that the Dayton Company of America expects to receive a payoff of  $1,000,000$  in three months, and intends to convert its cash flows to dollars. Continue to assume relevant data as follows:
 
@@ -821,11 +833,11 @@ Total time one cash flows = \$1,787,352
 
 This cash flow of \(1,787,352 is assured in the absence of default risk.
 
-# Additional Reading
+## Additional Reading
 
 Elton, Gruber, Brown, and Goetzmann (2010), Chapters 21 to 24, offer good coverage of fixed income, options and futures arbitrage and hedging. Grabbe (1996) discusses currency option pricing and hedging. Jarrow and Rudd (1983), while dated, provide a very useful overview of options pricing, hedging and arbitrage. The industry standard reading for options and derivatives is Hull (2011), going far beyond the scope and level of rigor of material in this chapter. Neftci (2000) provides excellent background reading in the mathematics of financial derivatives, again, going far beyond the scope of this chapter.
 
-# References
+## References
 
 Cox, J., Ross, S., & Rubinstein, M. (1979). Option pricing: A simplified approach. Journal of Financial Economics, 7, 229-263.  
 Elton, E., Gruber, M., Brown, S., & Goetzmann, W. (2010). Modern portfolio theory and investment analysis (8th ed.). New York: Wiley.  
@@ -837,7 +849,7 @@ Jarrow, R., & Rudd, A. (1983). Option pricing. Homewood, IL: Dow Jones-Irwin.
 Jarrow, R. A., & Turnbull, S. M. (1999). Derivative securities (2nd ed.). Cincinnati: South-Western College Publishers.  
 Neftci, S. N. (2000). An introduction to the mathematics of financial derivatives (2nd ed.). San Diego: Academic Press.
 
-# 9.7 EXERCISES
+## 9.7 Exercises
 
 1. Some observers of derivatives markets agree that publicly traded corporations can use derivatives to mitigate operating risks but that shareholders would be better off if managers simply allowed shareholders to use their own portfolio management and hedging techniques to do so themselves. In fact, some critics argue that corporate managers are too concerned about mitigating risks and that they do so to protect their own jobs and preserve their own income and stock value.
 
@@ -932,13 +944,13 @@ Brokerage cost per options contract: \$50
 
 Discuss the implications associated with each of the options-based methods for managing the transactions exposure risk associated with this extension of credit.
 
-# APPENDIX
+## APPENDIX
 
-# 9.A
+## 9.A
 
-# 9.A.1 THE BINOMIAL MODEL: ADDITIONAL CONSIDERATIONS
+## 9.A.1 The Binomial Model: Additional Considerations
 
-# A Computationally More Efficient Version of the Binomial Model
+## A Computationally More Efficient Version of the Binomial Model
 
 Here, we simply discuss a computationally more efficient version of the  $n$ -time-period binomial model Equation (9.17):
 
@@ -988,7 +1000,7 @@ $$
 
 where  $p' = pu / (1 + r_f)$ . There are two more points regarding Equation (9.18b). First, assuming that investors behave as though they are risk neutral,  $B_2[a, n, p]$  can be interpreted as the probability that the stock price will be sufficiently high at the expiration date of the option to warrant its exercise. Second,  $B_1[a, n, p']$  can be interpreted as a hedge ratio, although it must be updated at every period.
 
-# Obtaining Multiplicative Upward and Downward Movement Values
+## Obtaining Multiplicative Upward and Downward Movement Values
 
 One apparent difficulty in applying the binomial model as it is presented above is in obtaining estimates for  $u$  and  $d$  that are required for  $p$ ; all other inputs are normally quite easily obtained. There are several methods that are used to obtain parameters for the binomial method from the actual security returns generating process. For example, following Cox et al. (1979), we can begin the process of estimating the mean and variance to be used in the binomial distribution by first approximating the mean and variance for the binomial process from the historical Wiener process as follows:
 
@@ -1086,7 +1098,7 @@ As discussed above, there are several procedures for getting parameters  $\sigma
 
 The primary difficulty with the one presented above is that it may result in negative probabilities. An additional methodology for estimating binomial distribution parameters is given in Jarrow and Turnbull (1999: 136-138).
 
-# 9.A.2 DERIVING THE BLACK-SCHOLES MODEL
+## 9.A.2 Deriving the Black-Scholes Model
 
 For this derivation, we shall assume that all standard Black-Scholes assumptions (see The Greeks and Hedging in a Black-Scholes Environment section) hold and that investors behave as though they are risk neutral. That is, investors price options as though they are risk neutral because they can always construct riskless hedges comprising options and their underlying securities, and that the returns of these hedged portfolios must be the riskless rate. The law of one price dictates that the current value of a call  $c$  on stock can be found from constructing a hedge portfolio:
 

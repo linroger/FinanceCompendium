@@ -1,16 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Teaching Note 5 - Black-Scholes Formula
+parent_directory: Lecture Notes
+formatted: 2025-12-20 6:40:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - black scholes formula
+  - option pricing theory
+  - dynamic replication
+secondary_tags:
+  - delta hedging
+  - greeks sensitivity
+  - risk neutral pricing
+  - binomial tree convergence
+  - volatility modeling
+  - dividend adjusted pricing
 cssclasses: academia
-title: Teaching Note 5
-linter-yaml-title-alias: Teaching Note 5
 ---
 
-# Teaching Note 5
+# Teaching Note 5 - Black-Scholes Formula
 
-# Black and Scholes Formula
+## Black and Scholes Formula
 
 John Heaton
 
@@ -18,23 +28,23 @@ The University of Chicago
 
 Booth School of Business
 
-1. Black and Scholes Formula
+## 1. Black and Scholes Formula
 
-1.1 Dynamic Replication  
-1.2 Black and Scholes and the Binomial Trees  
-1.3 Delta, Gamma, and other Greeks  
-1.4 Options' Beta and Expected Returns  
-1.5 Delta Hedging  
-1.6 Delta Gamma Hedging
+### 1.1 Dynamic Replication
+### 1.2 Black and Scholes and the Binomial Trees
+### 1.3 Delta, Gamma, and other Greeks
+### 1.4 Options' Beta and Expected Returns
+### 1.5 Delta Hedging
+### 1.6 Delta Gamma Hedging
 
-# Option Premium
+## Option Premium
 
 - Black, Scholes and Merton show that (under certain conditions) there exists a trading strategy involving only stocks and bonds that replicate the payoff at  $T$  of a call or a put option.  
 - Assume a stock  $S_{t}$  has constant expected (log) return  $\mu$  and constant volatility  $\sigma$ .  
 - That is, if the log return during a small time interval  $h$  be  $R_{t} = \log (S_{t + h} / S_{t})$ , assume
 
 $$
-E [ R _ {t} ] = \mu \times h; E [ R _ {t} ^ {2} ] = \sigma^ {2} \times h
+E[R_{t}] = \mu \times h; \quad E[R_{t}^{2}] = \sigma^{2} \times h
 $$
 
 - ( $\mu$  and  $\sigma$ , are the annualized expected log return and volatility)
@@ -50,19 +60,19 @@ $$
 - Here  $N(x)$  is the standard normal cumulative density function, and  $d_{1,t}$  is
 
 $$
-d _ {1, t} = \frac {\ln (S _ {t} / K) + (r + \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}
+d_{1,t} = \frac{\ln(S_{t}/K) + (r + \sigma^{2}/2)(T - t)}{\sigma \sqrt{T - t}}
 $$
 
 - $r$  is the continuously compounded risk free rate;  $\sigma$  is the volatility of stock returns.
 
-(b) Buy an amount  $B_{0} = K \times e^{-r \times T} \times N(-d_{2,0})$  of Treasury Zero Coupon bonds.
+(b) Buy an amount $B_{0} = K \times e^{-r \times T} \times N(-d_{2,0})$ of Treasury Zero Coupon bonds.
 
-Here  $d_{2,0} = d_{1,t} - \sigma \times \sqrt{T}$  
+Here $d_{2,0} = d_{1,t} - \sigma \times \sqrt{T}$  
 
 - The portfolio so constructed has value at time 0
 
 $$
-P _ {0} = B _ {0} + \Delta_ {0} S _ {0}
+P_{0} = B_{0} + \Delta_{0} S_{0}
 $$
 
 - (it can be shown  $P_{0} > 0$ ).

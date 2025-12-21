@@ -1,16 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+---
+title: "Teaching Note 7: Exotic Options and Derivative Pricing by Monte Carlo Simulation"
+parent_directory: "VI. Derivatives/Reference/Lecture Notes"
+formatted: 2025-12-20 18:30:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - monte carlo simulation
+  - exotic options
+  - risk neutral pricing
+  - option pricing methods
+secondary_tags:
+  - binomial trees
+  - path dependent options
+  - asian options
+  - barrier options
+  - stochastic processes
+  - delta hedging
+  - volatility modeling
 cssclasses: academia
-title: Teaching Note 7
-linter-yaml-title-alias: Teaching Note 7
+---
 ---
 
-# Teaching Note 7
-
-# Exotic Options and Derivative Pricing by Monte Carlo Simulation
+# Teaching Note 7: Exotic Options and Derivative Pricing by Monte Carlo Simulation
 
 John Heaton
 
@@ -18,17 +30,17 @@ The University of Chicago
 
 Booth School of Business
 
-1. Risk Neutral Trees and Monte Carlo Simulations
+## Risk Neutral Trees and Monte Carlo Simulations
 
-1.1 One Step tree  
-1.2 Multi-Step Tree  
-1.3 Why Monte Carlo Simulations?
+### One Step Tree
+### Multi-Step Tree
+### Why Monte Carlo Simulations?
 
-2. Monte Carlo Simulations without Trees
+## Monte Carlo Simulations without Trees
 
-2.1 Lognormal Model  
-2.2 Multi Factors  
-2.3 Delta Calculation
+### Lognormal Model
+### Multi Factors
+### Delta Calculation
 
 # Risk Neutral Trees
 
@@ -37,7 +49,7 @@ Booth School of Business
 - Given that  $u = e^{\sigma \sqrt{T}} = 1.34986$ , the price of any derivative security with payoff  $V(S_{1})$  can be computed as
 
 $$
-V _ {0} = E ^ {*} \left[ e ^ {- r T} V (S _ {1}) \right] = e ^ {- r T} \left[ q ^ {*} V (S _ {1, u}) + (1 - q ^ {*}) V (S _ {1, d}) \right]
+V_{0} = E^{*} \left[ e^{-r T} V (S_{1}) \right] = e^{-r T} \left[ q^{*} V (S_{1,u}) + (1 - q^{*}) V (S_{1,d}) \right]
 $$
 
 - For instance, a call option has price given by
@@ -51,23 +63,23 @@ i = 1
 $$
 
 $$
-S _ {0} = 1 0 0. 0 0 0
+S_{0} = 100.000
 $$
 
 $$
-q _ {0} ^ {*} = 0. 4 5 8 7
+q_{0}^{*} = 0.4587
 $$
 
 $$
-c _ {0} = e ^ {- r T} \times q _ {0} ^ {*} \times c _ {1, u} = 1 5. 7 3 1
+c_{0} = e^{-r T} \times q_{0}^{*} \times c_{1,u} = 15.731
 $$
 
 $$
-\begin{array}{l} S _ {1, u} = 1 3 4. 9 8 6 \\ c _ {1, u} = 3 4. 9 8 6 \\ \end{array}
+\begin{array}{l} S_{1,u} = 134.986 \\ c_{1,u} = 34.986 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} S _ {1, d} = 7 4. 0 8 2 \\ c _ {1, d} = 0 \\ \end{array}
+\begin{array}{l} S_{1,d} = 74.082 \\ c_{1,d} = 0 \\ \end{array}
 $$
 
 # Monte Carlo Simulations on the Risk Neutral Trees
@@ -84,7 +96,7 @@ $$
 - The value of the security is the average of the realizations
 
 $$
-\widehat {V} _ {0} = \mathrm {a v e r a g e o f} \{e ^ {- r T} V (S _ {1} ^ {1}), e ^ {- r T} V (S _ {1} ^ {2}), e ^ {- r T} V (S _ {1} ^ {3}), \ldots , e ^ {- r T} V (S _ {1} ^ {N}) \} = \frac {1}{N} \sum_ {i = 1} ^ {N} e ^ {- r T} V (S _ {1} ^ {i})
+\widehat{V}_{0} = \mathrm{average\ of\ } \{e^{-r T} V (S_{1}^{1}), e^{-r T} V (S_{1}^{2}), e^{-r T} V (S_{1}^{3}), \ldots , e^{-r T} V (S_{1}^{N}) \} = \frac{1}{N} \sum_{i=1}^{N} e^{-r T} V (S_{1}^{i})
 $$
 
 # Monte Carlo Simulations on the Risk Neutral Trees
@@ -103,14 +115,14 @@ $$
 - This is computed as the standard deviation of our discounted payoff, divided by  $\sqrt{N}$ :
 
 $$
-\mathrm {s t a n d a r d e r r o r} = \frac {\mathrm {S t a n d a r d D e v i a t i o n o f} \{e ^ {- r T} V (S _ {1} ^ {1}) , e ^ {- r T} V (S _ {1} ^ {2}) , e ^ {- r T} V (S _ {1} ^ {3}) , \ldots , e ^ {- r T} V (S _ {1} ^ {N}) \}}{\sqrt {N}}
+\mathrm{standard\ error} = \frac{\mathrm{Standard\ Deviation\ of\ } \{e^{-r T} V (S_{1}^{1}) , e^{-r T} V (S_{1}^{2}) , e^{-r T} V (S_{1}^{3}) , \ldots , e^{-r T} V (S_{1}^{N}) \}}{\sqrt{N}}
 $$
 
 - In the previous example, the standard error was  $s.e. = 5.715$
 - This implies that with  $95\%$  probability, the true value of the security is between
 
 $$
-\mathrm {C o n f i d e n c e I n t e r v a l} = [ \widehat {V _ {0}} - 2 \times s. e., \widehat {V _ {0}} + 2 \times s. e. ] = [ 5. 7 1 5, 2 8. 5 7 7 ]
+\mathrm{Confidence\ Interval} = [ \widehat{V_{0}} - 2 \times s.e., \widehat{V_{0}} + 2 \times s.e. ] = [5.715, 28.577]
 $$
 
 - Given the number of simulations, we give  $95\%$  probability that the true value is between 5.715 and 28.577, a rather large interval.
@@ -135,27 +147,27 @@ i = 2
 $$
 
 $$
-S _ {2, u u} = 1 5 2. 8 4 7
+S_{2,uu} = 152.847
 $$
 
 $$
-S _ {0} = 1 0 0
+S_{0} = 100
 $$
 
 $$
-S _ {1, u} = 1 2 3. 6 3 1
+S_{1,u} = 123.631
 $$
 
 $$
-S _ {2, u d} = S _ {2, d u} = 1 0 0
+S_{2,ud} = S_{2,du} = 100
 $$
 
 $$
-S _ {1, d} = 8 0. 8 8 6
+S_{1,d} = 80.886
 $$
 
 $$
-S _ {2, d d} = 6 5. 4 2 5
+S_{2,dd} = 65.425
 $$
 
 - Again, the value of any derivative security with payoff  $V(S_{2})$  is given by
@@ -204,11 +216,11 @@ Option Prices By Simulations (on the Tree)
 - For instance, Asian options have payoff given by
 
 $$
-\mathrm {A s i a n C a l l O p t i o n} = \max \left(\{\mathrm {A v e r a g e o f} S _ {t} \mathrm {f r o m 0 t o T} \} - K, 0\right)
+\mathrm{Asian\ Call\ Option} = \max \left(\{\mathrm{Average\ of\ } S_{t} \mathrm{\ from\ 0\ to\ T\}} - K, 0\right)
 $$
 
 $$
-\mathrm {A s i a n P u t O p t i o n} = \max (K - \{\mathrm {A v e r a g e o f} S _ {t} \mathrm {f r o m 0 t o T} \}, 0)
+\mathrm{Asian\ Put\ Option} = \max (K - \{\mathrm{Average\ of\ } S_{t} \mathrm{\ from\ 0\ to\ T}\}, 0)
 $$
 
 - These options are very hard to price on a tree without simulations.  
@@ -250,13 +262,13 @@ Asian Paths
 - Lookback Options: The final payoff depends on the maximum or minimum value achieved by the stock before maturity. For instance:
 
 $$
-g _ {T} = (\max (S _ {0}, \dots , S _ {T}) - S _ {T})
+g_{T} = (\max (S_{0}, \dots , S_{T}) - S_{T})
 $$
 
 - Asian Strike Options: The strike price is equal to the average stock price. E.g.
 
 $$
-g _ {T} = \max (S _ {T} - A v e r a g e (S _ {0}, \dots , S _ {T}), 0)
+g_{T} = \max (S_{T} - \mathrm{Average} (S_{0}, \dots , S_{T}), 0)
 $$
 
 # Monte Carlo Simulations without Trees
@@ -272,7 +284,7 @@ $$
 - Risk neutral pricing implies that over a small period
 
 $$
-E ^ {*} \left(\frac {S _ {t + h}}{S _ {t}}\right) = e ^ {r h}
+E^{*} \left(\frac{S_{t + h}}{S_{t}}\right) = e^{r h}
 $$
 
 # Monte Carlo Simulations under Log Normality
@@ -280,19 +292,19 @@ $$
 - One way to simulate is then to use the following algorithm
 
 $$
-S _ {t + h} = S _ {t} \times e ^ {(r - \frac {\sigma^ {2}}{2}) h + \sigma \sqrt {h} \epsilon_ {t}}
+S_{t + h} = S_{t} \times e^{(r - \frac{\sigma^{2}}{2}) h + \sigma \sqrt{h} \epsilon_{t}}
 $$
 
 - where
 
 $$
-\epsilon_ {t} \sim N (0, 1)
+\epsilon_{t} \sim N (0, 1)
 $$
 
 - The rules of the log-normal distribution imply
 
 $$
-E ^ {*} \left(\frac {S _ {t + h}}{S _ {t}}\right) = e ^ {(r - \frac {\sigma^ {2}}{2}) h + \left\{E ^ {*} [ \sigma \sqrt {h} \times \epsilon_ {t} ] + 1 / 2 V a r [ \sigma \sqrt {h} \times \epsilon_ {t} ] \right\}} = e ^ {r h}
+E^{*} \left(\frac{S_{t + h}}{S_{t}}\right) = e^{(r - \frac{\sigma^{2}}{2}) h + \{E^{*} [ \sigma \sqrt{h} \times \epsilon_{t} ] + 1/2 \mathrm{Var} [ \sigma \sqrt{h} \times \epsilon_{t} ] \}} = e^{r h}
 $$
 
 - Moreover,  $\sigma^2$  converges to the (annualized) variance of log returns  $Var[\log (S_{t + h} / S_t)]$
@@ -342,11 +354,11 @@ $$
 - The risk neutral processes of  $S_{t}$  and  $N_{t}$  are the same as before, so we simulate
 
 $$
-S _ {t + h} = S _ {t} \times e ^ {(r - \frac {\sigma_ {S} ^ {2}}{2}) h + \sigma_ {S} \sqrt {h} \epsilon_ {1, t}}
+S_{t + h} = S_{t} \times e^{(r - \frac{\sigma_{S}^{2}}{2}) h + \sigma_{S} \sqrt{h} \epsilon_{1,t}}
 $$
 
 $$
-N _ {t + h} = N _ {t} \times e ^ {(r - \frac {\sigma_ {N} ^ {2}}{2}) h + \sigma_ {N} \sqrt {h} \epsilon_ {2, t}}
+N_{t + h} = N_{t} \times e^{(r - \frac{\sigma_{N}^{2}}{2}) h + \sigma_{N} \sqrt{h} \epsilon_{2,t}}
 $$
 
 - If IBM and Apple are correlated stocks (as they are), we need a methodology to simulate correlated shocks  $\epsilon_{1,t},\epsilon_{2,t}$
@@ -354,7 +366,7 @@ $$
 * Let  $\hat{\epsilon}_t$  be a standard normal, uncorrelated with  $\epsilon_{1,t}$ . Then, define
 
 $$
-\epsilon_ {2, t} = \rho \epsilon_ {1, t} + \sqrt {1 - \rho^ {2}} \hat {\epsilon} _ {t}
+\epsilon_{2,t} = \rho \epsilon_{1,t} + \sqrt{1 - \rho^{2}} \hat{\epsilon}_{t}
 $$
 
 * Claim:  $\epsilon_{2,t}$  has zero mean, variance 1, and correlation  $\rho$  with  $\epsilon_{1,t}$  (check!)
@@ -364,20 +376,20 @@ $$
 - For each simulation run  $i$ , compute the discounted payoff
 
 $$
-V ^ {i} = e ^ {- r T} \max \left(\frac {S _ {T} ^ {i}}{S _ {0}}, \frac {N _ {T} ^ {i}}{N _ {0}}\right)
+V^{i} = e^{-r T} \max \left(\frac{S_{T}^{i}}{S_{0}}, \frac{N_{T}^{i}}{N_{0}}\right)
 $$
 
 - The price of the security is then
 
 $$
-\widehat {V} _ {0} = \frac {1}{n} \sum_ {i = 1} ^ {n} V ^ {i}
+\widehat{V}_{0} = \frac{1}{n} \sum_{i=1}^{n} V^{i}
 $$
 
 - Assuming  $\sigma_{S} = \sigma_{N} = .3$ ,  $r = .02$  and  $\rho = .7$ , the value of this option is  $\widehat{V}_{0} = 1.134$ .
 - As a second example, consider an option with the payoff
 
 $$
-\mathrm {P a y o f f a t} T = \max \left(\frac {S _ {T}}{S _ {0}} - \frac {N _ {T}}{N _ {0}}, 0\right)
+\mathrm{Payoff\ at\ } T = \max \left(\frac{S_{T}}{S_{0}} - \frac{N_{T}}{N_{0}}, 0\right)
 $$
 
 - That is, it pays only when the first stock (say IBM) does better than the second (say Apple).  
@@ -405,7 +417,7 @@ SIMULATION OF RISK NEUTRAL PRICE PROCESS
 - Computing the " $\Delta$ " is not hard, and we use Monte Carlo simulations again.
 
 $$
-\Delta = \frac {d V (S)}{d S} \approx \frac {V (S + h) - V (S)}{h}
+\Delta = \frac{d V (S)}{d S} \approx \frac{V (S + h) - V (S)}{h}
 $$
 
 - Thus, compute  $V(S)$  and  $V(S + h)$  using MC simulations<sup>1</sup>  
