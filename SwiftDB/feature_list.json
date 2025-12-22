@@ -1,0 +1,40 @@
+[
+  {
+    "id": "analyze-tipkit-sample",
+    "category": "analysis",
+    "description": "Study TipKit sample code for macOS app development patterns",
+    "steps": [
+      "Read README and understand sample structure",
+      "Analyze app architecture and TipKit integration",
+      "Study different tip display patterns (inline, popover, actions)",
+      "Examine state management with @Parameter and @Event",
+      "Review rule composition and event donation patterns",
+      "Document findings in LEARNINGS.md and OpenCode-SWIFTDB.md"
+    ],
+    "passes": true
+  },
+  {
+    "id": "document-insights",
+    "category": "documentation",
+    "description": "Document valuable insights from TipKit sample analysis",
+    "steps": [
+      "Add comprehensive analysis to LEARNINGS.md",
+      "Create structured OpenCode-SWIFTDB.md with examples",
+      "Include code snippets and references to sample code",
+      "Organize by topic: architecture, patterns, best practices"
+    ],
+    "passes": true
+  },
+  {
+    "id": "validate-build",
+    "category": "quality",
+    "description": "Ensure project builds and documentation is accurate",
+    "steps": [
+      "Verify JSON syntax in feature_list.json",
+      "Check markdown formatting in documentation files",
+      "Run basic syntax checks on code examples",
+      "Confirm all file references are correct"
+    ],
+    "passes": true
+  }
+]
