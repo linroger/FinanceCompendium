@@ -114,3 +114,534 @@ This document records high-value insights derived directly from analyzing Apple'
 *   **Dependency Injection**: Use `@Environment` for shared singletons (Models, Navigation).
 *   **Previews**: Always provide `#Preview(traits: .sampleData)` with an in-memory container.
 *   **OSLog**: Use `Logger` instead of `print()` for persistent, categorized diagnostics.
+
+---
+
+## 11. Liquid Glass UI (macOS 26 Tahoe)
+
+### Core Liquid Glass API
+*Derived from Apple's Landmarks (Liquid Glass edition) sample code*
+
+*   **GlassEffectContainer**: Wrap related glass elements together for optimized rendering and cohesive animations.
+    ```swift
+    GlassEffectContainer(spacing: Constants.badgeGlassSpacing) {
+        VStack(spacing: Constants.badgeSpacing) {
+            ForEach(items) { item in
+                ItemView(item: item)
+                    .glassEffect(.regular, in: .rect(cornerRadius: 12))
+                    .glassEffectID(item.id, in: namespace)
+            }
+        }
+    }
+    ```
+
+*   **Glass Effect Modifier**: Apply glass material to any view with shape clipping.
+    ```swift
+    .glassEffect(.regular, in: .rect(cornerRadius: Constants.badgeCornerRadius))
+    .glassEffect(.regular, in: Capsule())
+    ```
+
+*   **Glass Animation IDs**: Use `@Namespace` with `.glassEffectID()` for smooth hero transitions.
+    ```swift
+    @Namespace private var namespace
+
+    // In view body:
+    BadgeLabel(badge: badge)
+        .glassEffect(.regular, in: .rect(cornerRadius: 12))
+        .glassEffectID(badge.id, in: namespace)
+    ```
+
+*   **Button Styles**: Use `.buttonStyle(.glass)` or `.buttonStyle(.glassProminent)` for native glass buttons.
+    ```swift
+    Button { action() } label: { Label("Action", systemImage: "star") }
+        .buttonStyle(.glass)
+        .glassEffectID("button", in: namespace)
+    ```
+
+*   **Platform Tint Handling**: Clear tint on macOS for proper glass appearance.
+    ```swift
+    .buttonStyle(.glass)
+    #if os(macOS)
+    .tint(.clear)
+    #endif
+    ```
+
+### Material vs Glass Hierarchy
+*   **Material Layer**: Use `.background(.thinMaterial)` for content backgrounds (sidebars, cards).
+*   **Glass Layer**: Use `.glassEffect()` for interactive controls and navigation elements.
+*   **Rule**: Glass floats above material. Never mix glass into material content areas.
+
+---
+
+## 12. Advanced Navigation Architecture (Landmarks Pattern)
+
+### NavigationOptions Enum Pattern
+*   **Purpose**: Centralize navigation destinations in a type-safe enum with associated data.
+    ```swift
+    enum NavigationOptions: Equatable, Hashable, Identifiable {
+        case landmarks
+        case map
+        case collections
+
+        static let mainPages: [NavigationOptions] = [.landmarks, .map, .collections]
+
+        var id: String {
+            switch self {
+            case .landmarks: return "Landmarks"
+            case .map: return "Map"
+            case .collections: return "Collections"
+            }
+        }
+
+        var name: LocalizedStringResource {
+            switch self {
+            case .landmarks: LocalizedStringResource("Landmarks", comment: "Sidebar tab")
+            case .map: LocalizedStringResource("Map", comment: "Sidebar tab")
+            case .collections: LocalizedStringResource("Collections", comment: "Sidebar tab")
+            }
+        }
+
+        var symbolName: String {
+            switch self {
+            case .landmarks: "building.columns"
+            case .map: "map"
+            case .collections: "book.closed"
+            }
+        }
+
+        @MainActor @ViewBuilder func viewForPage() -> some View {
+            switch self {
+            case .landmarks: LandmarksView()
+            case .map: MapView()
+            case .collections: CollectionsView()
+            }
+        }
+    }
+    ```
+
+### Split View with Nested NavigationStack
+*   **Pattern**: Wrap content views in `NavigationStack` with shared path binding for deep navigation.
+    ```swift
+    NavigationSplitView(preferredCompactColumn: $preferredColumn) {
+        List {
+            Section {
+                ForEach(NavigationOptions.mainPages) { page in
+                    NavigationLink(value: page) {
+                        Label(page.name, systemImage: page.symbolName)
+                    }
+                }
+            }
+        }
+        .navigationDestination(for: NavigationOptions.self) { page in
+            NavigationStack(path: $modelData.path) {
+                page.viewForPage()
+            }
+            .navigationDestination(for: Landmark.self) { landmark in
+                LandmarkDetailView(landmark: landmark)
+            }
+            .navigationDestination(for: Collection.self) { collection in
+                CollectionDetailView(collection: collection)
+            }
+        }
+        .frame(minWidth: 150)
+    } detail: {
+        NavigationStack(path: $modelData.path) {
+            NavigationOptions.landmarks.viewForPage()
+        }
+        .navigationDestination(for: Landmark.self) { landmark in
+            LandmarkDetailView(landmark: landmark)
+        }
+    }
+    .searchable(text: $modelData.searchString, prompt: "Search")
+    .inspector(isPresented: $modelData.isInspectorPresented) {
+        // Inspector content
+    }
+    ```
+
+### Global Search Pattern
+*   **Placement**: Apply `.searchable()` at the `NavigationSplitView` level for global search.
+*   **Binding**: Bind to `@Observable` model's `searchString` property.
+*   **Detection**: Use `@Environment(\.isSearching)` in child views to detect active search state.
+
+---
+
+## 13. Flexible Header (Scroll-Based Stretching)
+
+### Implementation Pattern
+*   **Purpose**: Create iOS-style stretchy headers that expand when over-scrolling.
+*   **Components**:
+    1. `FlexibleHeaderGeometry` - Observable class tracking scroll offset
+    2. `FlexibleHeaderScrollViewModifier` - Tracks scroll position
+    3. `FlexibleHeaderContentModifier` - Applies stretch effect to content
+
+```swift
+@Observable private class FlexibleHeaderGeometry {
+    var offset: CGFloat = 0
+}
+
+private struct FlexibleHeaderContentModifier: ViewModifier {
+    @Environment(ModelData.self) private var modelData
+    @Environment(FlexibleHeaderGeometry.self) private var geometry
+
+    func body(content: Content) -> some View {
+        let height = (modelData.windowSize.height / 2) - geometry.offset
+        content
+            .frame(height: height)
+            .padding(.bottom, geometry.offset)
+            .offset(y: geometry.offset)
+    }
+}
+
+private struct FlexibleHeaderScrollViewModifier: ViewModifier {
+    @State private var geometry = FlexibleHeaderGeometry()
+
+    func body(content: Content) -> some View {
+        content
+            .onScrollGeometryChange(for: CGFloat.self) { geometry in
+                min(geometry.contentOffset.y + geometry.contentInsets.top, 0)
+            } action: { _, offset in
+                geometry.offset = offset
+            }
+            .environment(geometry)
+    }
+}
+
+// Usage extensions:
+extension ScrollView {
+    @MainActor func flexibleHeaderScrollView() -> some View {
+        modifier(FlexibleHeaderScrollViewModifier())
+    }
+}
+
+extension View {
+    func flexibleHeaderContent() -> some View {
+        modifier(FlexibleHeaderContentModifier())
+    }
+}
+```
+
+### Usage Pattern
+```swift
+ScrollView(showsIndicators: false) {
+    VStack {
+        Image(imageName)
+            .resizable()
+            .flexibleHeaderContent()  // Stretches on over-scroll
+
+        // Rest of content...
+    }
+}
+.flexibleHeaderScrollView()  // Tracks scroll geometry
+.ignoresSafeArea(edges: .top)
+```
+
+---
+
+## 14. CoreLocation Integration Pattern
+
+### Observable Location Finder
+*   **Pattern**: Wrap `CLLocationManager` in an `@Observable` class for SwiftUI integration.
+```swift
+@Observable
+class LocationFinder: NSObject, CLLocationManagerDelegate {
+    var currentLocation: CLLocation?
+    private let manager = CLLocationManager()
+
+    override init() {
+        super.init()
+        manager.desiredAccuracy = kCLLocationAccuracyKilometer
+        manager.delegate = self
+    }
+
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        switch manager.authorizationStatus {
+        case .authorizedWhenInUse, .authorizedAlways:
+            manager.requestLocation()
+        case .notDetermined:
+            manager.requestWhenInUseAuthorization()
+        default:
+            manager.stopUpdatingLocation()
+        }
+    }
+
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        currentLocation = locations.last
+    }
+
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print("Location error: \(error.localizedDescription)")
+        manager.stopUpdatingLocation()
+    }
+}
+```
+
+*   **Key Points**:
+    - Use `kCLLocationAccuracyKilometer` for low-power location (landmarks don't need GPS precision)
+    - Handle all authorization states in `locationManagerDidChangeAuthorization`
+    - Gracefully handle errors without crashing
+
+---
+
+## 15. View Composition with Custom Modifiers
+
+### Overlay View Modifier Pattern
+*   **Purpose**: Create reusable view overlays (badges, indicators) via modifiers.
+```swift
+private struct ShowsBadgesViewModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        ZStack {
+            content
+            HStack {
+                Spacer()
+                VStack {
+                    Spacer()
+                    BadgesView()
+                        .padding()
+                }
+            }
+        }
+    }
+}
+
+extension View {
+    func showsBadges() -> some View {
+        modifier(ShowsBadgesViewModifier())
+    }
+}
+
+// Usage:
+NavigationStack(path: $modelData.path) {
+    page.viewForPage()
+}
+.showsBadges()  // Adds badge overlay to bottom-trailing corner
+```
+
+### Readability Enhancement Pattern
+*   **Purpose**: Add gradient overlays to improve text legibility over images.
+```swift
+struct ReadabilityRoundedRectangle: View {
+    var body: some View {
+        RoundedRectangle(cornerRadius: Constants.cornerRadius)
+            .foregroundStyle(.clear)
+            .background(
+                LinearGradient(
+                    colors: [.black.opacity(0.8), .clear],
+                    startPoint: .bottom,
+                    endPoint: .center
+                )
+            )
+            .containerRelativeFrame(.vertical)
+            .clipped()
+    }
+}
+```
+
+---
+
+## 16. Constants & Cross-Platform Design
+
+### Centralized Constants Pattern
+*   **Purpose**: Single source of truth for layout values with platform-specific overrides.
+```swift
+struct Constants {
+    // Platform-agnostic values
+    static let standardPadding: CGFloat = 20.0
+    static let cornerRadius: CGFloat = 10.0
+
+    // Platform-specific values
+    #if os(macOS)
+    static let leadingContentInset: CGFloat = 20.0
+    static let landmarkListMinimumHeight: CGFloat = 300.0
+    #else
+    static let leadingContentInset: CGFloat = 16.0
+    static let landmarkListMinimumHeight: CGFloat = 200.0
+    #endif
+
+    // Computed layout values
+    static let landmarkListPercentOfHeight: CGFloat = 0.35
+
+    // Collection grid settings
+    static let collectionGridItemMinSize: CGFloat = 200.0
+    static let collectionGridItemMaxSize: CGFloat = 300.0
+    static let collectionGridSpacing: CGFloat = 20.0
+}
+```
+
+### Container Relative Sizing Pattern
+*   **Purpose**: Size views relative to their container with fallback minimums.
+```swift
+LandmarkHorizontalListView(landmarkList: landmarkList)
+    .containerRelativeFrame(.vertical) { height, axis in
+        let proposedHeight = height * Constants.landmarkListPercentOfHeight
+        if proposedHeight > Constants.landmarkListMinimumHeight {
+            return proposedHeight
+        }
+        return Constants.landmarkListMinimumHeight
+    }
+```
+
+---
+
+## 17. Toolbar Architecture (macOS Native)
+
+### Toolbar with Spacers Pattern
+*   **Purpose**: Create visually balanced toolbars with flexible/fixed spacing.
+```swift
+.toolbar {
+    ToolbarSpacer(.flexible)  // Push items to right
+
+    ToolbarItem {
+        ShareLink(item: item, preview: item.sharePreview)
+    }
+
+    ToolbarSpacer(.fixed)  // Small gap
+
+    ToolbarItemGroup {
+        FavoriteButton(item: item)
+        CollectionsMenu(item: item)
+    }
+
+    ToolbarSpacer(.fixed)
+
+    ToolbarItem {
+        Button("Info", systemImage: "info") {
+            modelData.selectedItem = item
+            modelData.isInspectorPresented.toggle()
+        }
+    }
+}
+.toolbar(removing: .title)  // Remove default title for custom header
+```
+
+### Inspector Toggle Pattern
+*   **Purpose**: Use toolbar buttons to toggle inspector panels.
+*   **State Flow**: Button sets `selectedItem` AND toggles `isInspectorPresented`.
+```swift
+Button("Info", systemImage: "info") {
+    modelData.selectedLandmark = landmark
+    modelData.isLandmarkInspectorPresented.toggle()
+}
+```
+
+---
+
+## 18. Data Model Patterns (Landmarks)
+
+### Observable Model with MainActor
+```swift
+@Observable
+@MainActor
+public class ModelData {
+    var landmarks: [Landmark] = []
+    var landmarksById: [Int: Landmark] = [:]
+    var landmarksByContinent: [Continent: [Landmark]] = [:]
+    var userCollections: [LandmarkCollection] = []
+
+    // Navigation state
+    var path: [AnyHashable] = []
+    var searchString: String = ""
+    var selectedLandmark: Landmark?
+    var isLandmarkInspectorPresented: Bool = false
+
+    // Window tracking for flexible header
+    var windowSize: CGSize = .zero
+
+    // Computed properties
+    var featuredLandmark: Landmark? {
+        landmarks.first { $0.isFeatured }
+    }
+
+    var earnedBadges: [Badge] {
+        Badge.allCases.filter { badgeProgress[$0]?.earned ?? false }
+    }
+}
+```
+
+### Transferable Protocol for Drag & Drop
+```swift
+struct Landmark: Codable, Identifiable, Hashable, Transferable {
+    let id: Int
+    let name: String
+    // ... other properties
+
+    static var transferRepresentation: some TransferRepresentation {
+        CodableRepresentation(for: Landmark.self, contentType: .landmark)
+    }
+
+    var sharePreview: SharePreview<String, Image> {
+        SharePreview(name, image: Image(thumbnailImageName))
+    }
+}
+```
+
+### Enum with Associated Values for Data Modeling
+*   **Purpose**: Model data with multiple valid shapes without optionals.
+```swift
+enum Elevation: Codable, Hashable {
+    case fixed(Measurement<UnitLength>)
+    case openRange(low: Measurement<UnitLength>)
+    case closedRange(low: Measurement<UnitLength>, high: Measurement<UnitLength>)
+
+    static func formatted(_ elevation: Elevation?) -> String {
+        guard let elevation else { return "" }
+        let formatter = MeasurementFormatter()
+        formatter.unitStyle = .short
+        formatter.unitOptions = .providedUnit
+
+        switch elevation {
+        case .fixed(let value):
+            return formatter.string(from: value)
+        case .openRange(let low):
+            return "≥ \(formatter.string(from: low))"
+        case .closedRange(let low, let high):
+            return "\(formatter.string(from: low)) - \(formatter.string(from: high))"
+        }
+    }
+}
+```
+
+---
+
+## 19. Preview Best Practices (Landmarks)
+
+### Full-Featured Preview Pattern
+```swift
+#Preview {
+    @Previewable @State var modelData = ModelData()
+    let previewLandmark = modelData.landmarksById[1016] ?? modelData.landmarks.first!
+
+    NavigationSplitView {
+        List {
+            Section {
+                ForEach(NavigationOptions.mainPages) { page in
+                    NavigationLink(value: page) {
+                        Label(page.name, systemImage: page.symbolName)
+                    }
+                }
+            }
+        }
+    } detail: {
+        LandmarkDetailView(landmark: previewLandmark)
+    }
+    .inspector(isPresented: $modelData.isLandmarkInspectorPresented) {
+        if let landmark = modelData.selectedLandmark {
+            LandmarkDetailInspectorView(landmark: landmark,
+                inspectorIsPresented: $modelData.isLandmarkInspectorPresented)
+        } else {
+            EmptyView()
+        }
+    }
+    .environment(modelData)
+    .onGeometryChange(for: CGSize.self) { geometry in
+        geometry.size
+    } action: {
+        modelData.windowSize = $0
+    }
+}
+```
+
+### Key Preview Patterns
+*   **@Previewable @State**: Create mutable state for previews.
+*   **Fallback Data**: Use `??` with `.first!` to handle missing preview data.
+*   **Full Environment**: Include navigation, inspector, and geometry tracking.
+*   **Window Size Tracking**: Use `.onGeometryChange` to populate `windowSize` for flexible headers.
