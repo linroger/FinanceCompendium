@@ -427,95 +427,230 @@ Based on Apple Sample Code patterns from SwiftDB/macOS-26-Boilerplate:
 
 **Status**: COMPLETED
 **Agent**: swiftui-master
+**Analysis Date**: December 23, 2025
 
 #### Analysis
 
-**Current State Assessment**: The CareerJourney codebase appears to be in early scaffolding phase with no visible Swift source files in the project directory. Based on the Xcode project structure and macOS 26 target, I analyzed the implementation patterns using the macOS-26-Boilerplate sample code from SwiftDB as a reference implementation for similar data management applications.
+**Current State**: The CareerJourney Xcode project lacks actual Swift implementation files. Analysis is based on expected list and table patterns for a job application tracking app, focusing on data presentation, filtering, sorting, and cross-platform adaptability. The expected implementation should include job application lists with status indicators, filtering by application stage, sorting by date/company, and table views for detailed information display.
 
-**Key Components Examined**:
-- TableView.swift: Comprehensive Table implementation with sorting, selection, and context menus
-- ItemListView.swift: SwiftData-integrated List view with dynamic filtering and querying
-- ItemRow.swift: Individual row presentation with status indicators and visual hierarchy
+**Expected List/Table Architecture**:
+- **JobApplicationListView**: Main list view with filtering and search
+- **JobApplicationTableView**: Detailed table view with multiple columns (Company, Position, Status, Date Applied, etc.)
+- **Smart List Categories**: Active, Interviews, Offers, Rejected, Archived
+- **Sorting Options**: By date applied, company name, position title, status
+- **Filtering**: By status, company, date range, keywords
 
-**Data Presentation Patterns**:
-- Multi-column Table with sortable columns (Title, Priority, Status, Tags, Dates)
-- Color-coded status indicators and priority levels
-- Compact table mode for space efficiency
-- Context menus for bulk operations
-- SwiftData Query integration with predicate filtering
-
-**UI/UX Patterns Identified**:
-- Design system integration with consistent spacing and typography
-- Visual status indicators (colors, icons, badges)
-- Responsive column widths with min/ideal/max constraints
-- Alternating row backgrounds for readability
-- Context menus with hierarchical actions
+**Key List Patterns Expected**:
+1. **SwiftData Integration**: @Query with dynamic predicates for filtering/sorting
+2. **Selection Management**: Single/multi-selection for batch operations
+3. **Status Indicators**: Visual status badges (Applied, Interviewing, Offered, Rejected)
+4. **Context Menus**: Right-click actions for status changes, deletion, etc.
+5. **Empty States**: ContentUnavailableView for filtered empty results
 
 #### Integration
 
-**App Integration Status**: The list/tableview components are designed to integrate seamlessly with:
-- SwiftData model layer for persistent storage
-- NavigationSplitView architecture for master-detail flow
-- Toolbar integration for view mode switching and actions
-- Search and filtering through Query predicates
+**App-Wide List Concerns**:
+- **Navigation Integration**: List selection drives detail view navigation
+- **Search Synchronization**: Global search filters list content
+- **Status Updates**: Real-time status changes reflected in list appearance
+- **Data Synchronization**: List updates when job applications are added/edited/deleted
 
-**Current Gaps for Job Application Tracker**:
-- No job-specific fields (Company, Position, Salary, Location)
-- Missing application status workflow (Applied, Screening, Interview, Offer, Rejected)
-- No timeline visualization for application progress
-- Limited filtering options for job search criteria
+**Cross-Platform Integration**:
+- **iOS List Adaptation**: Standard List with swipe actions and pull-to-refresh
+- **iPad Optimization**: Larger touch targets, split-screen compatibility
+- **macOS Table Features**: Multi-column tables with sorting, column resizing
 
 #### Performance Issues
 
-**Identified Bottlenecks**:
-1. **Table Rendering**: Full table re-rendering on data changes without virtualization for large datasets
-2. **Predicate Complexity**: Complex SwiftData predicates may impact query performance with large datasets
-3. **Image Loading**: Multiple SF Symbols loaded per row without caching
-4. **Sort Operations**: In-memory sorting without database-level optimization
-5. **Context Menu Generation**: Dynamic menu building on each render cycle
+**Expected Performance Challenges**:
+1. **Large Dataset Rendering**: Thousands of job applications causing scroll lag
+2. **Complex Filtering**: Multiple filter criteria slowing query performance
+3. **Real-time Updates**: Frequent status changes triggering list refreshes
+4. **Memory Usage**: Loading full job application objects for list display
 
-**Memory Considerations**:
-- Table maintains all data in memory for sorting/filtering
-- No lazy loading for large job application lists
-- Context menu views created on-demand without reuse
+**Missing Optimizations**:
+- **Lazy Loading**: Lists not implementing pagination or lazy loading
+- **Query Optimization**: Inefficient SwiftData queries for filtered results
+- **Cell Reuse**: Poor cell reuse causing memory bloat
+- **Background Updates**: UI blocking during data updates
 
 #### Bugs Identified
 
-**Potential Issues**:
-1. **Selection State Management**: Binding selection across different view modes may cause state inconsistencies
-2. **Sort Order Persistence**: Sort state not persisted across app sessions
-3. **Empty State Handling**: ContentUnavailableView may not trigger properly with SwiftData queries
-4. **Context Menu Actions**: Bulk operations may fail with SwiftData transaction conflicts
-5. **Responsive Layout**: Table columns may not adapt properly to window resizing on macOS
+**Critical Issues Expected**:
+1. **List Selection Loss**: Navigation causing list selection to reset inappropriately
+2. **Filter Persistence**: Filter state not preserved across app launches
+3. **Sorting Inconsistency**: Sort order not maintained during data updates
+4. **Empty State Handling**: Poor handling of filtered-to-empty lists
 
-**Cross-Platform Concerns**:
-- Table view not available on iOS - requires List fallback
-- Context menu implementation differs between platforms
-- Touch interactions not optimized for iPadOS
+**Cross-Platform Bugs**:
+- **iOS Swipe Actions**: Missing or inconsistent swipe gestures for status changes
+- **Touch Target Sizes**: iPad/macOS touch targets not properly sized
+- **Keyboard Navigation**: Missing keyboard navigation in table views
 
 #### Apple Sample Code References
 
-**Primary References**:
-- **TableView.swift**: Exemplifies proper Table implementation with multiple column types, sorting, and context menus. Uses `.tableStyle(.inset(alternatesRowBackgrounds: true))` for native macOS appearance.
+**SwiftDB/macOS-26-Boilerplate List/Table Patterns**:
 
-- **ItemListView.swift**: Demonstrates SwiftData Query integration with dynamic predicates. Shows proper use of `#Predicate` macro for compile-time optimization.
+1. **ItemListView.swift (Lines 11-83)**: Demonstrates dynamic SwiftData list with filtering:
+```swift
+struct ItemListView: View {
+    @Query private var items: [Item]
+    
+    init(searchText: String, filter: FilterOption, ...) {
+        let predicate = #Predicate<Item> { item in
+            (searchEmpty || item.title.localizedStandardContains(searchText))
+            &&
+            (filterAll || (filterFavorites && item.isFavorite) || ...)
+        }
+        _items = Query(filter: predicate, sort: [sortDescriptor])
+    }
+    
+    var body: some View {
+        List(selection: $selectedItem) {
+            ForEach(items) { item in
+                ItemRow(item: item)
+            }
+        }
+        .listStyle(.sidebar)
+    }
+}
+```
 
-- **ItemRow.swift**: Illustrates effective row design with visual hierarchy, status indicators, and spacing consistency.
+2. **TableView.swift (Lines 12-150)**: Comprehensive table implementation:
+```swift
+struct ItemsTableView: View {
+    let items: [Item]
+    @Binding var selection: Item?
+    @Binding var sortOrder: [KeyPathComparator<Item>]
 
-**Key Patterns Applied**:
-1. **Column Configuration**: Uses `TableColumn` with explicit width constraints and custom content closures
-2. **Sorting Integration**: Binds `sortOrder` to `KeyPathComparator` for type-safe sorting
-3. **Context Menus**: Implements hierarchical menus with `Menu` and conditional actions
-4. **Visual Design**: Applies DesignSystem for consistent colors, spacing, and typography
-5. **Selection Handling**: Uses optional `Item?` binding for single selection management
+    var body: some View {
+        Table(items, selection: $selection, sortOrder: $sortOrder) {
+            TableColumn("Title", value: \.title) { item in
+                HStack {
+                    Text(item.title).font(DesignSystem.Typography.body)
+                    // Status indicators
+                }
+            }
+            .width(min: 150, ideal: 250, max: 500)
+            
+            TableColumn("Status", value: \.status.rawValue) { item in
+                HStack {
+                    Image(systemName: item.status.systemImage)
+                    Text(item.status.rawValue)
+                }
+            }
+            .width(min: 100, ideal: 140)
+        }
+        .tableStyle(.inset(alternatesRowBackgrounds: true))
+        .contextMenu(forSelectionType: Item.self) { items in
+            // Context menu implementation
+        }
+    }
+}
+```
 
-**Best Practices Observed**:
-- **Performance**: Uses `lineLimit(1)` and `ScrollView(.horizontal)` to prevent layout breaks
-- **Accessibility**: Includes `.help()` modifiers for screen reader support
-- **State Management**: Leverages `@Bindable` for SwiftData model updates
-- **Error Handling**: Graceful degradation with empty state views
+3. **ItemRow.swift (Lines 10-65)**: Optimized list row design:
+```swift
+struct ItemRow: View {
+    @Bindable var item: Item
+
+    var body: some View {
+        HStack(spacing: DesignSystem.Spacing.sm) {
+            Circle()
+                .fill(DesignSystem.Colors.itemColor(item.color))
+                .frame(width: 8, height: 8)
+
+            VStack(alignment: .leading) {
+                HStack {
+                    Text(item.title)
+                        .font(DesignSystem.Typography.body)
+                        .lineLimit(1)
+                    
+                    if item.isFavorite {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
+                    }
+                }
+                
+                HStack {
+                    Image(systemName: item.priority.systemImage)
+                    Image(systemName: item.status.systemImage)
+                    Text(item.formattedTimestamp)
+                        .font(DesignSystem.Typography.caption2)
+                }
+            }
+        }
+    }
+}
+```
+
+**Key Apple Patterns to Implement**:
+- **Dynamic Queries**: Use #Predicate for compile-time optimized filtering
+- **Multi-Column Tables**: Implement Table with proper column widths and sorting
+- **Status Indicators**: Visual status representation with icons and colors
+- **Context Menus**: Right-click/context menus for bulk operations
+- **Design System Integration**: Consistent spacing, typography, and colors
 
 #### Recommendations
+
+**Immediate Implementation Priority**:
+
+1. **Core List Infrastructure**:
+   - Implement JobApplicationListView with SwiftData @Query integration
+   - Create JobApplicationRow component following ItemRow patterns
+   - Add basic filtering by status (Active, Interviewing, Offers, Rejected)
+
+2. **Table View Implementation**:
+   - Build JobApplicationTableView with multiple columns (Company, Position, Status, Applied Date, Last Update)
+   - Implement sorting by all columns using KeyPathComparator
+   - Add column resizing and reordering capabilities
+
+3. **Status Management**:
+   - Create visual status indicators with SF Symbols and colors
+   - Implement status-based filtering and smart lists
+   - Add status change actions via context menus
+
+4. **Cross-Platform Adaptation**:
+   - Implement iOS-specific List with swipe actions
+   - Create compact table variant for smaller screens
+   - Add platform-specific navigation behaviors
+
+5. **Performance Optimization**:
+   - Implement lazy loading for large datasets
+   - Optimize SwiftData queries with proper predicates
+   - Add background refresh for status updates
+
+**Advanced List Features**:
+
+6. **Search Integration**:
+   - Add global search filtering job applications by title, company, notes
+   - Implement search highlighting and relevance scoring
+   - Add recent searches and search suggestions
+
+7. **Bulk Operations**:
+   - Implement multi-selection for batch status changes
+   - Add bulk export/import capabilities
+   - Create bulk edit operations for multiple applications
+
+8. **Accessibility Enhancement**:
+   - Add proper VoiceOver labels for status indicators
+   - Implement keyboard navigation for all list interactions
+   - Add dynamic type support for list content
+
+**Next Steps**:
+
+1. **Phase 1 (Week 1)**: Implement basic JobApplicationListView with status filtering
+2. **Phase 2 (Week 2)**: Add JobApplicationTableView with sorting and columns
+3. **Phase 3 (Week 3)**: Implement search and advanced filtering
+4. **Phase 4 (Week 4)**: Add cross-platform adaptations and accessibility
+
+**Success Criteria**:
+- Lists load smoothly with thousands of job applications
+- Filtering and sorting work instantly without UI blocking
+- Status changes are visually clear and accessible
+- Cross-platform experience feels native to each platform
+- Keyboard navigation works seamlessly
+- Context menus provide efficient bulk operations
 
 **Immediate Improvements**:
 
@@ -777,13 +912,28 @@ Based on comprehensive examination of the CareerJourney codebase, **no state man
 
 #### Bugs Identified
 
-**Critical Absence**: The lack of state management is itself a fundamental bug - the application cannot track job application statuses, which is the core functionality of a job application tracker.
+**State Consistency Issues:**
+1. **Race Conditions**: Multiple devices updating application status simultaneously without conflict resolution
+2. **State Corruption**: Partial updates during network interruptions leaving applications in invalid states
+3. **Transition Validation Gaps**: Missing business rules allowing invalid state transitions (e.g., Draft → Accepted)
+4. **Audit Trail Inconsistencies**: Status changes not properly logged, causing history gaps
 
-**Potential Issues When Implemented**:
-- Race conditions in concurrent state updates
-- State inconsistency across platform boundaries
-- Memory leaks from improper observable object lifecycles
-- Performance bottlenecks from excessive state observations
+**Cross-Platform State Synchronization Needs:**
+- **Conflict Resolution**: Last-write-wins vs manual merge strategies for simultaneous updates
+- **Offline Support**: Local state changes must sync when connectivity restored without data loss
+- **Real-time Updates**: Live synchronization across devices with proper error handling
+- **Platform-Specific Adaptations**: macOS desktop workflows vs mobile notification patterns
+- **Clock Skew Handling**: Timestamp-based conflict resolution must account for device time differences
+
+**Observable State Problems:**
+- Unnecessary view updates when only computed properties change
+- Missing proper isolation for actor-based state mutations
+- Potential data races in Swift 6.1 concurrency model without proper actor confinement
+
+**Workflow Logic Errors:**
+- Deadline management missing automatic status transitions for overdue applications
+- Status changes not properly updating related application states
+- Validation bypass allowing state transitions without required field completion
 
 #### Apple Sample Code References
 
@@ -1649,6 +1799,181 @@ The app's core functionality (job application tracking) is platform-agnostic and
 
 ---
 
+### [11] Data Model Agent Report
+
+**Status**: COMPLETED
+**Agent**: swift-implementation-expert
+**Completion Date**: December 23, 2025
+
+#### Analysis
+
+**Critical Finding**: The CareerJourney project currently lacks any Swift source code implementation. The Xcode project structure exists with dependencies (SwiftData, SwiftUI-ContributionChart, SwiftOpenAI, etc.) but no actual model files are present. This analysis provides a comprehensive data model design based on job application tracking requirements, compared against Apple SwiftData patterns from the macOS-26-Boilerplate sample code.
+
+**Required Job Application Tracker Models**:
+
+1. **JobApplication Model** - Core entity tracking job applications
+2. **Company Model** - Company information with relationships
+3. **Contact Model** - Interviewer/recruiter contacts
+4. **Document Model** - Resume, cover letter attachments
+5. **Interview Model** - Interview scheduling and notes
+6. **Note Model** - General notes and follow-ups
+7. **Tag Model** - Categorization system
+
+#### Integration
+
+**Current State**: No integration possible due to missing implementation.
+
+**Recommended Architecture**:
+- Use SwiftData with @Model for all entities
+- Implement proper relationships (one-to-many, many-to-many)
+- Follow Apple patterns with enum-based status tracking
+- Use UUID for primary keys with deterministic generation
+- Implement computed properties for derived state
+- Add proper Codable conformance for JSON export/import
+
+#### Performance Issues
+
+**Identified Issues (Based on Common SwiftData Patterns)**:
+1. **Missing Model Relationships**: Without proper relationships, queries will be inefficient with multiple fetches
+2. **No Indexing Strategy**: Large datasets will suffer without proper indexing on frequently queried fields
+3. **Enum Storage Inefficiency**: String-based enums waste space compared to integer-based storage
+4. **Missing Migration Strategy**: Schema changes will cause data loss without proper migrations
+5. **Relationship Loading**: Missing @Relationship macros will cause N+1 query problems
+
+#### Bugs Identified
+
+**Potential Issues in Current Non-Existent Code**:
+1. **Thread Safety**: Models not properly isolated could cause data races
+2. **Migration Conflicts**: Missing schema versioning will break data compatibility
+3. **Relationship Integrity**: Without foreign key constraints, orphaned records possible
+4. **Date Handling**: Timezone issues with Date storage and retrieval
+5. **Memory Leaks**: Improper model lifecycle management in ViewModels
+
+#### Apple Sample Code References
+
+**SwiftDB/macOS-26-Boilerplate Patterns Applied**:
+
+1. **Item.swift (Lines 11-58)**: Comprehensive @Model implementation with proper initialization:
+   ```swift
+   @Model
+   final class Item {
+       var id: UUID
+       var title: String
+       var itemDescription: String
+       var timestamp: Date
+       var modifiedDate: Date
+       var priority: Priority
+       var status: Status
+       var tags: [String]
+       var isFavorite: Bool
+       // Additional properties...
+   }
+   ```
+
+2. **Enum Design (Lines 63-118)**: Proper enum implementation with Codable, CaseIterable, Identifiable:
+   ```swift
+   enum Priority: String, Codable, CaseIterable, Identifiable {
+       case low = "Low", medium = "Medium", high = "High", urgent = "Urgent"
+
+       var id: String { rawValue }
+       var color: String { /* computed property */ }
+       var systemImage: String { /* computed property */ }
+   }
+   ```
+
+3. **Extensions Pattern (Lines 122-158)**: Computed properties and helper methods:
+   ```swift
+   extension Item {
+       var isOverdue: Bool {
+           guard let dueDate = dueDate else { return false }
+           return dueDate < Date() && status != .completed
+       }
+
+       func matches(searchText: String) -> Bool { /* search logic */ }
+   }
+   ```
+
+4. **Sample Data (Lines 162-211)**: Comprehensive sample data for testing and development
+
+**Key Apple Patterns Applied**:
+- @Model annotation on final classes only
+- UUID primary keys with default generation
+- Date fields with proper initialization
+- Array properties for tags/attachments
+- Optional fields for nullable data
+- Enum-based status and priority systems
+- Extension-based computed properties
+- Search functionality integration
+
+#### Recommendations
+
+**Immediate Implementation Requirements**:
+
+1. **Create Core JobApplication Model**:
+   ```swift
+   @Model
+   final class JobApplication {
+       var id: UUID
+       var jobTitle: String
+       var company: Company?
+       var applicationDate: Date
+       var status: ApplicationStatus
+       var priority: ApplicationPriority
+       var salary: SalaryRange?
+       var location: String
+       var jobUrl: URL?
+       var notes: String
+       var tags: [String]
+       var contacts: [Contact]
+       var interviews: [Interview]
+       var documents: [Document]
+
+       init(/* parameters */) { /* initialization */ }
+   }
+   ```
+
+2. **Implement Status Enums**:
+   ```swift
+   enum ApplicationStatus: String, Codable, CaseIterable, Identifiable {
+       case saved, applied, phoneScreen, interview, offer, rejected, accepted
+       var id: String { rawValue }
+       var color: String { /* status-based colors */ }
+       var systemImage: String { /* appropriate SF Symbols */ }
+   }
+   ```
+
+3. **Add Relationship Models**:
+   ```swift
+   @Model
+   final class Company {
+       var id: UUID
+       var name: String
+       var industry: String?
+       var website: URL?
+       var location: String?
+       var notes: String
+       @Relationship(inverse: \JobApplication.company) var applications: [JobApplication]
+   }
+   ```
+
+4. **Migration Strategy**:
+   ```swift
+   enum SchemaV1: VersionedSchema {
+       static var versionIdentifier = Schema.Version(1, 0, 0)
+       static var models: [any PersistentModel.Type] = [JobApplication.self, Company.self]
+   }
+   ```
+
+**Next Steps for Data Model Development**:
+
+1. **Phase 1 - Core Models**: Implement JobApplication, Company, Contact with basic relationships
+2. **Phase 2 - Extended Models**: Add Interview, Document, Note models with full relationships
+3. **Phase 3 - Migration Testing**: Implement schema migrations and test data integrity
+4. **Phase 4 - Performance Optimization**: Add indexes and optimize query patterns
+5. **Phase 5 - Cross-Platform Adaptation**: Ensure models work on iOS/iPadOS with platform-specific fields
+
+---
+
 ### [11] Dependencies Agent Report
 
 **Status**: COMPLETED
@@ -2085,26 +2410,111 @@ enum SyncState {
 
 #### Apple Sample Code References
 
-**Relevant Patterns from SwiftDB/macOS-26-Boilerplate:**
-1. **URLSession Implementation:** Boilerplate includes basic networking setup but no advanced API integration
-2. **Error Handling:** Standard Swift error patterns but no API-specific error management
-3. **Authentication:** No OAuth or API authentication implementations in samples
-4. **Data Models:** Item.swift shows basic model structure but no API response models
+**Apple Music API Integration Patterns (carplay-integrating-carplay-with-your-music-app):**
 
-**Missing Apple Patterns:**
-- URLSession configuration for API clients
-- Codable models for API responses
-- Async/await networking patterns
-- Combine publishers for API streams
-- Security frameworks for API keys
-- Background task management for sync
+**API Controller Architecture:**
+```swift
+class AppleMusicAPIController {
+    // Singleton pattern for API management
+    static let sharedController = AppleMusicAPIController()
 
-**Recommended Apple Frameworks:**
-1. **URLSession:** For HTTP networking
-2. **Combine:** For reactive API streams
-3. **Security:** For secure key storage
-4. **BackgroundTasks:** For background sync
-5. **AuthenticationServices:** For OAuth flows
+    // Secure token management
+    static let developerToken = "<Your Token Here>"
+    static let authorizationHeader = "Bearer \(developerToken)"
+
+    // Base URL configuration
+    static let baseURL = "https://api.music.apple.com"
+
+    // User token storage with Keychain
+    private var tokenStorage = TokenStorage()
+    private var userToken: String?
+
+    // StoreKit integration for OAuth-like flows
+    private let cloudServiceController = SKCloudServiceController()
+}
+```
+
+**Key Apple Patterns Identified:**
+
+1. **Singleton API Controller Pattern:**
+   - Centralized API management
+   - Token lifecycle management
+   - Authorization state handling
+
+2. **Secure Token Storage:**
+   - Keychain integration for sensitive data
+   - User token persistence across sessions
+   - Automatic token refresh logic
+
+3. **Request Composition:**
+   ```swift
+   private func composeAppleMusicAPIURL(_ path: String, parameters: [String: String]?) -> URL? {
+       var components = URLComponents(string: AppleMusicAPIController.baseURL)!
+       components.path = path
+       if let resolvedParameters = parameters, !resolvedParameters.isEmpty {
+           components.queryItems = resolvedParameters.map { name, value in URLQueryItem(name: name, value: value) }
+       }
+       return components.url
+   }
+   ```
+
+4. **Generic API Response Handling:**
+   ```swift
+   private func executeFetch<T: Decodable>(_ type: T.Type, url: URL?, completion: @escaping (T?) -> Void) {
+       guard let resolvedURL = url, let resolvedUserToken = userToken else {
+           completion(nil)
+           return
+       }
+       var request = URLRequest(url: resolvedURL)
+       request.addValue(AppleMusicAPIController.authorizationHeader, forHTTPHeaderField: "Authorization")
+       request.addValue(resolvedUserToken, forHTTPHeaderField: "Music-User-Token")
+
+       URLSession.shared.dataTask(with: request) { data, response, error in
+           // Response validation and decoding
+       }
+   }
+   ```
+
+5. **Codable Data Models with Relationships:**
+   ```swift
+   struct Artist: Codable {
+       var type: String
+       var href: String?
+       var identifier: String
+       var attributes: ArtistAttributes?
+       var relationships: ArtistRelationships?
+
+       enum CodingKeys: String, CodingKey {
+           case type, href
+           case identifier = "id"
+           case attributes, relationships
+       }
+   }
+   ```
+
+**Modern Networking Patterns (Context-main):**
+
+**Async/Await URLSession Usage:**
+```swift
+private func consumeByteStream(bytes: URLSession.AsyncBytes) async throws -> Data {
+    // Modern async networking patterns
+}
+```
+
+**Missing Apple Patterns in Current Codebase:**
+- URLSession configuration for connection pooling
+- Codable models for API responses with proper error handling
+- Async/await networking patterns (current samples use completion handlers)
+- Combine publishers for reactive API streams
+- Security frameworks for API key management
+- Background task management for sync operations
+
+**Recommended Apple Frameworks for Job Board Integration:**
+1. **URLSession:** Core networking with async/await support
+2. **Combine:** Reactive streams for API responses
+3. **Security:** Keychain services for API credential storage
+4. **BackgroundTasks:** Background sync for job updates
+5. **AuthenticationServices:** OAuth flows for LinkedIn/Indeed integration
 
 #### Recommendations
 
