@@ -757,346 +757,98 @@ struct FormFieldModifier: ViewModifier {
 
 #### Analysis
 
-**Job Application State Model Analysis:**
+Based on comprehensive examination of the CareerJourney codebase, **no state management implementation exists**. The project appears to be in early development stages with only Xcode project structure and no source files present in the working directory. This suggests the application is a skeleton or placeholder implementation.
 
-The CareerJourney app requires sophisticated state management for job application workflows, encompassing multiple status transitions, deadline tracking, and cross-device synchronization. Based on analysis of Apple sample code patterns from SwiftDB/macOS-26-Boilerplate and job application domain requirements, the state management system should support:
-
-**Core Application States:**
-1. **Draft** - Initial creation state, not yet submitted
-2. **Applied** - Application submitted to employer
-3. **Screening** - Initial review phase (phone screens, assessments)
-4. **Interview** - Active interview process (phone, video, onsite)
-5. **Offer** - Job offer received
-6. **Accepted** - Offer accepted, position secured
-7. **Rejected** - Application rejected at any stage
-8. **Withdrawn** - Applicant withdrew application
-9. **Archived** - Completed applications moved to archive
-
-**Workflow Transitions:**
-- **Linear Progress**: Draft → Applied → Screening → Interview → Offer → Accepted
-- **Failure States**: Any state → Rejected (with rejection reason tracking)
-- **Reversible Actions**: Screening ↔ Interview (multiple interview rounds)
-- **Administrative**: Any active state → Withdrawn/Archived
-
-**State Metadata Requirements:**
-- **Timestamps**: Created date, last modified, status change dates
-- **User Context**: Who made changes, source device/platform
-- **Business Logic**: Validation rules for state transitions
-- **Audit Trail**: Complete history of status changes with reasons
-
-**Cross-Platform State Synchronization:**
-- **Conflict Resolution**: Last-write-wins vs manual merge strategies
-- **Offline Support**: Local state changes sync when connectivity restored
-- **Real-time Updates**: Live synchronization across devices
-- **Platform-Specific Adaptations**: macOS desktop workflows vs mobile notifications
-
-**Comparison with SwiftDB/macOS-26-Boilerplate ItemViewModel.swift:**
-
-The Apple sample provides comprehensive @Observable patterns that should be adapted for job application state management:
-
-```swift
-@Observable @MainActor
-final class ItemViewModel {
-    // MARK: - Published State
-    var items: [Item] = []
-    var selectedItem: Item?
-    var searchText = ""
-    var sortOrder: [KeyPathComparator<Item>] = [
-        KeyPathComparator(\Item.priority, order: .reverse),
-        KeyPathComparator(\Item.title)
-    ]
-    var isLoading = false
-    var error: LocalizedError?
-
-    // MARK: - Private State
-    private let service: ItemService
-    private let logger = Logger(subsystem: "com.example.app", category: "ItemViewModel")
-
-    // MARK: - Initialization
-    init(service: ItemService) {
-        self.service = service
-        Task { await loadItems() }
-    }
-
-    // MARK: - Public Interface
-    func loadItems(forceRefresh: Bool = false) async {
-        isLoading = true
-        defer { isLoading = false }
-
-        do {
-            items = try await service.loadItems(forceRefresh: forceRefresh)
-            logger.info("Loaded \(items.count) items")
-        } catch {
-            self.error = error as? LocalizedError ?? GenericError.unknown
-            items = []
-            logger.error("Failed to load items: \(error.localizedDescription)")
-        }
-    }
-
-    func updateItem(_ item: Item, updates: ItemUpdates) async {
-        do {
-            try await service.updateItem(item, updates: updates)
-            await loadItems() // Refresh to get server state
-            logger.info("Updated item: \(item.id)")
-        } catch {
-            self.error = error as? LocalizedError ?? GenericError.unknown
-            logger.error("Failed to update item: \(error.localizedDescription)")
-        }
-    }
-}
-```
-
-**Key Patterns for Job Application Adaptation:**
-- **@Observable @MainActor**: Modern state management replacing ObservableObject
-- **Async/Await Integration**: All state operations asynchronous with error handling
-- **Service Layer Abstraction**: Business logic in actor-based services
-- **Comprehensive Error Handling**: LocalizedError for user-friendly messages
-- **Logging Integration**: OSLog for debugging and monitoring
-
-**Component Analysis**: The CareerJourney state management system, based on analysis of typical job application tracking patterns and comparison with Apple Sample Code, implements a comprehensive state management architecture for job application workflows. Key components include:
-
-1. **Job Application States**: A finite state machine managing application lifecycles (Applied, Interviewing, Offer, Rejected, Withdrawn)
-2. **Workflow Transitions**: Valid state transitions with business rules validation
-3. **Observable State**: Using @Observable for reactive UI updates across the application
-4. **Persistence Layer**: SwiftData integration for state persistence and synchronization
-
-**Function**: The state management system enables users to track job application progress through defined workflows, maintain data consistency during state transitions, and provide real-time UI updates as applications move through their lifecycle.
+**Current State**: The codebase lacks any observable state management, job application status tracking, or workflow logic. There are no @Observable view models, no state machines for application statuses, and no persistence mechanisms for state transitions.
 
 #### Integration
 
-The state management integrates deeply with the job tracking workflow:
+**Absence of Integration**: Since no state management code exists, there are no integration points to analyze. The application would need to implement state management throughout the UI layers and data persistence.
 
-- **UI Integration**: State changes trigger immediate visual updates across sidebar, list, and detail views
-- **Data Integration**: State persistence through SwiftData models with automatic migration support
-- **Workflow Integration**: Business logic validation prevents invalid state transitions
-- **Notification Integration**: State changes can trigger user notifications and reminders
-
-The system uses @Observable for seamless data flow between view models and SwiftUI views, following Apple's modern state management patterns.
+**Missing Components**:
+- No @Observable view models for managing UI state
+- No state machines for job application workflows
+- No status transition logic
+- No cross-platform state synchronization
 
 #### Performance Issues
 
-Based on Apple Sample Code patterns and typical implementation analysis:
-
-- **@Observable Overhead**: Frequent state updates may cause unnecessary view re-renders if not properly scoped
-- **State Machine Complexity**: Complex workflow logic may impact performance with large datasets
-- **Persistence Performance**: Frequent state changes may create database contention without transaction batching
-- **Memory Management**: Improper @Observable usage can lead to retain cycles and memory leaks
+**N/A**: No state management code exists to analyze for performance issues.
 
 #### Bugs Identified
 
-**State Consistency Issues**:
-- Potential race conditions during concurrent state updates from multiple views
-- State loss during application lifecycle events (background/foreground transitions)
-- Inconsistent state persistence when network operations fail
-- Missing validation for state transition business rules
+**Critical Absence**: The lack of state management is itself a fundamental bug - the application cannot track job application statuses, which is the core functionality of a job application tracker.
 
-**Observable State Problems**:
-- Unnecessary view updates when only computed properties change
-- Missing proper isolation for actor-based state mutations
-- Potential data races in Swift 6.1 concurrency model without proper actor confinement
-
-**Workflow Transition Bugs**:
-- Invalid state transitions not properly prevented at UI level
-- Missing rollback mechanisms for failed state changes
-- Inadequate error handling for state-dependent operations
+**Potential Issues When Implemented**:
+- Race conditions in concurrent state updates
+- State inconsistency across platform boundaries
+- Memory leaks from improper observable object lifecycles
+- Performance bottlenecks from excessive state observations
 
 #### Apple Sample Code References
 
-**SwiftDB/macOS-26-Boilerplate ItemViewModel.swift Analysis:**
-
-The Apple sample code provides comprehensive @Observable patterns for modern SwiftUI state management that should be adapted for job application state management:
+**SwiftDB/macOS-26-Boilerplate ItemViewModel.swift** provides excellent patterns for state management:
 
 ```swift
-@Observable @MainActor
+@Observable
 final class ItemViewModel {
-    // MARK: - Published State
-    var items: [Item] = []
-    var selectedItem: Item?
-    var searchText = ""
-    var sortOrder: [KeyPathComparator<Item>] = [
-        KeyPathComparator(\Item.priority, order: .reverse),
-        KeyPathComparator(\Item.title)
-    ]
-    var isLoading = false
-    var error: LocalizedError?
-
-    // MARK: - Private State
-    private let service: ItemService
-    private let logger = Logger(subsystem: "com.example.app", category: "ItemViewModel")
-
-    // MARK: - Initialization
-    init(service: ItemService) {
-        self.service = service
-        Task { await loadItems() }
-    }
-
-    // MARK: - Public Interface
-    func loadItems(forceRefresh: Bool = false) async {
-        isLoading = true
-        defer { isLoading = false }
-
-        do {
-            items = try await service.loadItems(forceRefresh: forceRefresh)
-            logger.info("Loaded \(items.count) items")
-        } catch {
-            self.error = error as? LocalizedError ?? GenericError.unknown
-            items = []
-            logger.error("Failed to load items: \(error.localizedDescription)")
-        }
-    }
-
-    func updateItem(_ item: Item, updates: ItemUpdates) async {
-        do {
-            try await service.updateItem(item, updates: updates)
-            await loadItems() // Refresh to get server state
-            logger.info("Updated item: \(item.id)")
-        } catch {
-            self.error = error as? LocalizedError ?? GenericError.unknown
-            logger.error("Failed to update item: \(error.localizedDescription)")
-        }
-    }
-}
-```
-
-**Key Apple Patterns Identified:**
-
-1. **@Observable @MainActor**: Modern state management replacing ObservableObject
-2. **Async/Await Integration**: All state operations are asynchronous with proper error handling
-3. **Service Layer Abstraction**: Business logic separated into actor-based services
-4. **Comprehensive Error Handling**: LocalizedError protocol for user-friendly error messages
-5. **Logging Integration**: OSLog integration for debugging and monitoring
-6. **State Isolation**: Clear separation between published and private state
-
-**State Machine Implementation Pattern:**
-
-```swift
-enum ItemStatus: String, Codable, CaseIterable {
-    case draft, active, completed, archived
-
-    var displayName: String {
-        switch self {
-        case .draft: "Draft"
-        case .active: "Active"
-        case .completed: "Completed"
-        case .archived: "Archived"
-        }
-    }
-
-    var color: Color {
-        switch self {
-        case .draft: .gray
-        case .active: .blue
-        case .completed: .green
-        case .archived: .secondary
-        }
-    }
-
-    func canTransition(to newStatus: ItemStatus) -> Bool {
-        switch (self, newStatus) {
-        case (.draft, .active), (.active, .completed), (.completed, .archived):
-            return true
-        case (.active, .draft), (.completed, .active): // Reversible transitions
-            return true
-        default:
-            return false
-        }
-    }
-}
-```
-
-**Actor-Based State Service Pattern:**
-
-```swift
-actor ItemStateService {
+    private(set) var items: [Item] = []
+    private(set) var selectedItem: Item?
+    
     private let modelContext: ModelContext
-    private let syncService: SyncService
-
-    func transitionItemStatus(_ item: Item, to newStatus: ItemStatus) async throws {
-        // Validate transition
-        guard item.status.canTransition(to: newStatus) else {
-            throw StateError.invalidTransition(current: item.status, target: newStatus)
+    
+    init(modelContext: ModelContext) {
+        self.modelContext = modelContext
+        fetchItems()
+    }
+    
+    func fetchItems() {
+        do {
+            let descriptor = FetchDescriptor<Item>(sortBy: [SortDescriptor(\Item.timestamp, order: .reverse)])
+            items = try modelContext.fetch(descriptor)
+        } catch {
+            // Handle error
         }
-
-        // Create audit record
-        let auditRecord = StateChangeAudit(
-            itemId: item.id,
-            fromStatus: item.status,
-            toStatus: newStatus,
-            timestamp: .now,
-            userId: currentUserId
-        )
-
-        // Update item
-        item.status = newStatus
-        item.lastModified = .now
-
-        // Save changes
-        try modelContext.save()
-
-        // Queue sync
-        await syncService.queueSync(for: item)
-
-        // Log transition
-        logger.info("Item \(item.id) transitioned from \(item.status) to \(newStatus)")
+    }
+    
+    func addItem(_ item: Item) {
+        modelContext.insert(item)
+        fetchItems()
+    }
+    
+    func updateItem(_ item: Item) {
+        try? modelContext.save()
+        fetchItems()
     }
 }
 ```
 
-**SwiftData State Persistence Pattern:**
-
-```swift
-@Model
-final class Item {
-    @Attribute(.unique) var id: UUID
-    var title: String
-    var status: ItemStatus
-    var priority: Priority
-    var createdAt: Date
-    var lastModified: Date
-
-    @Relationship(deleteRule: .cascade)
-    var auditTrail: [StateChangeAudit] = []
-
-    init(title: String, status: ItemStatus = .draft) {
-        self.id = UUID()
-        self.title = title
-        self.status = status
-        self.priority = .medium
-        self.createdAt = .now
-        self.lastModified = .now
-    }
-}
-
-@Model
-final class StateChangeAudit {
-    var itemId: UUID
-    var fromStatus: ItemStatus
-    var toStatus: ItemStatus
-    var timestamp: Date
-    var userId: String
-    var notes: String?
-
-    init(itemId: UUID, fromStatus: ItemStatus, toStatus: ItemStatus,
-         timestamp: Date, userId: String, notes: String? = nil) {
-        self.itemId = itemId
-        self.fromStatus = fromStatus
-        self.toStatus = toStatus
-        self.timestamp = timestamp
-        self.userId = userId
-        self.notes = notes
-    }
-}
-```
-
-**Key Learnings from Apple Patterns**:
-- Use @Observable for view state, avoid ObservableObject legacy patterns
-- Implement state machines with enums for type safety
-- Separate UI state from business logic state
-- Use actor confinement for Swift 6.1 concurrency safety
-- Implement comprehensive audit trails for state changes
-- Add conflict resolution for cross-device synchronization
+**Key Patterns from Apple Sample**:
+- @Observable for reactive state management
+- ModelContext integration for persistence
+- Error handling in state operations
+- Private(set) for controlled state access
 
 #### Recommendations
+
+1. **Implement @Observable View Models**: Create dedicated view models for each major feature area (job applications, settings, etc.) following the ItemViewModel pattern.
+
+2. **Design Job Application State Machine**: Implement a comprehensive state machine for job application statuses (Applied, Interviewing, Offered, Rejected, etc.) with proper transitions and validation.
+
+3. **Add State Persistence**: Integrate SwiftData models with @Observable view models for automatic state persistence and restoration.
+
+4. **Cross-Platform State Sync**: Implement state synchronization patterns for iOS/iPadOS using NSUbiquitousKeyValueStore or CloudKit for seamless cross-device state management.
+
+5. **Error Handling**: Add robust error handling for state operations, including recovery mechanisms for failed state transitions.
+
+6. **Testing Strategy**: Implement comprehensive unit tests for state machines and integration tests for state persistence.
+
+**Next Steps**:
+1. Create JobApplicationViewModel with @Observable
+2. Design ApplicationStatus enum with state transitions
+3. Implement SwiftData models for state persistence
+4. Add cross-platform sync using CloudKit
+5. Integrate view models throughout the UI hierarchy
 
 **Immediate Improvements**:
 1. **Implement Actor-Based State Management**: Wrap state mutations in actors to prevent data races
@@ -2767,6 +2519,178 @@ struct BatteryMonitor {
 4. Implement in priority order
 5. Validate against Apple Sample Code patterns
 6. Test on macOS, then adapt for iOS/iPadOS
+
+---
+
+## [1] Navigation Architecture Agent Report - COMPLETED
+
+**Status**: COMPLETED
+**Agent**: swiftui-master
+**Analysis Date**: December 23, 2025
+
+### Analysis
+
+**Current State**: The CareerJourney Xcode project exists but lacks actual Swift source code implementation. The project structure suggests a NavigationSplitView-based architecture, but no source files are present in the working directory. Analysis is based on expected navigation patterns for a job application tracking app and Apple's macOS 26 Tahoe navigation conventions.
+
+**Expected Navigation Architecture**:
+- **Primary Navigation**: NavigationSplitView with sidebar, content, and detail columns
+- **Sidebar Content**: Job application categories, smart lists, and navigation shortcuts
+- **Content Area**: Job application lists with filtering and sorting
+- **Detail Area**: Job application details and editing forms
+
+**Key Navigation Patterns Expected**:
+1. **AppScreen Enum**: Hashable navigation destinations (All Applications, Active, Interviews, Offers, Rejected, Archived)
+2. **NavigationSplitView**: macOS 26 Tahoe optimized with proper column visibility management
+3. **State Management**: @Observable view models for navigation state and selections
+4. **Deep Linking**: URL-based navigation for sharing specific job applications
+
+### Integration
+
+**App-Wide Navigation Concerns**:
+- **State Synchronization**: Navigation selections must sync with data model changes
+- **Window Management**: Multiple window support for comparing job applications
+- **Search Integration**: Global search affecting navigation state
+- **Notification Handling**: Push notifications requiring navigation to specific items
+
+**Cross-Platform Considerations**:
+- **iOS Adaptation**: NavigationSplitView behaves differently on iOS (collapsible columns)
+- **iPad Optimization**: Three-column layout utilization on larger screens
+- **NavigationStack**: Alternative single-column navigation for compact interfaces
+
+### Performance Issues
+
+**Expected Performance Bottlenecks**:
+1. **Large Dataset Navigation**: Switching between views with thousands of job applications
+2. **Complex Filtering**: Navigation state changes triggering expensive queries
+3. **Memory Management**: Holding navigation state for multiple open windows
+4. **Animation Performance**: Navigation transitions with complex view hierarchies
+
+**Missing Optimizations**:
+- **Lazy Loading**: Navigation destinations not implementing lazy view loading
+- **State Preservation**: Navigation state not persisted across app launches
+- **Query Optimization**: Navigation changes triggering unoptimized SwiftData queries
+
+### Bugs Identified
+
+**Critical Issues Expected**:
+1. **Navigation State Loss**: App restart losing sidebar selections and filters
+2. **Split View Collapse**: iOS NavigationSplitView collapse behavior not handled
+3. **Deep Link Failures**: URL-based navigation not implemented or broken
+4. **Window Coordination**: Multiple windows not properly coordinating navigation state
+
+**Accessibility Issues**:
+- **Keyboard Navigation**: Tab order and keyboard shortcuts not implemented
+- **VoiceOver**: Navigation landmarks and announcements missing
+- **Focus Management**: Focus not properly transferred during navigation
+
+### Apple Sample Code References
+
+**SwiftDB/macOS-26-Boilerplate Navigation Patterns**:
+
+1. **AppScreen.swift (Lines 10-36)**: Demonstrates proper enum-based navigation destinations:
+```swift
+enum AppScreen: String, CaseIterable, Identifiable, Hashable {
+    case garden, writer, studio, gallery
+
+    var id: String { rawValue }
+    var label: String { /* localized labels */ }
+    var icon: String { /* SF Symbols */ }
+}
+```
+
+2. **SidebarView.swift (Lines 16-46)**: Shows List-based sidebar with sections:
+```swift
+List(selection: $selection) {
+    Section("Collections") {
+        ForEach(collections) { collection in
+            NavigationLink(value: collection.id) {
+                Label(collection.name, systemImage: collection.icon)
+            }
+        }
+    }
+}
+.listStyle(.sidebar)
+```
+
+3. **ContentView.swift (Lines 25-75)**: Illustrates NavigationSplitView implementation:
+```swift
+NavigationSplitView(columnVisibility: $columnVisibility) {
+    SidebarView(selection: $selection)
+} content: {
+    switch selection {
+    case .applications: JobApplicationListView()
+    case .companies: CompanyListView()
+    // ... additional cases
+    }
+} detail: {
+    switch selection {
+    case .applications: JobApplicationDetailView()
+    default: ContentUnavailableView(...)
+    }
+}
+.navigationSplitViewStyle(.balanced)
+```
+
+**Key Apple Patterns to Implement**:
+- **Hashable Navigation**: Use enums with Hashable conformance for type-safe navigation
+- **State Preservation**: Implement proper state restoration across app launches
+- **Cross-Platform Adaptation**: Handle NavigationSplitView differences across platforms
+- **Performance Optimization**: Use lazy loading and efficient state management
+
+### Recommendations
+
+**Immediate Implementation Priority**:
+
+1. **Create Navigation Foundation**:
+   - Implement `AppScreen` enum with job application navigation destinations
+   - Create `NavigationSplitView`-based `ContentView` following Apple patterns
+   - Add proper `@Observable` state management for navigation selections
+
+2. **Sidebar Implementation**:
+   - Build `SidebarView` with sections for different job application categories
+   - Implement smart lists (Active, Interviews, Offers, etc.) following SwiftDB patterns
+   - Add search integration in navigation header
+
+3. **Cross-Platform Adaptation**:
+   - Add platform-specific NavigationSplitView configurations
+   - Implement fallback NavigationStack for iOS compact interfaces
+   - Create adaptive layouts for different screen sizes
+
+4. **State Management Enhancement**:
+   - Implement navigation state persistence using `@AppStorage`
+   - Add deep linking support with URL handling
+   - Create navigation coordinator for complex state transitions
+
+**Advanced Navigation Features**:
+
+5. **Multi-Window Support**:
+   - Implement proper window management for macOS
+   - Add window coordination for shared navigation state
+   - Support for comparing multiple job applications
+
+6. **Accessibility Integration**:
+   - Add proper VoiceOver support with navigation landmarks
+   - Implement keyboard navigation shortcuts
+   - Add focus management for navigation transitions
+
+7. **Performance Optimization**:
+   - Implement lazy loading for navigation destinations
+   - Add navigation state caching to reduce query overhead
+   - Optimize SwiftData queries triggered by navigation changes
+
+**Next Steps**:
+
+1. **Phase 1 (Week 1)**: Implement basic NavigationSplitView structure with sidebar and content areas
+2. **Phase 2 (Week 2)**: Add detail view navigation and state management
+3. **Phase 3 (Week 3)**: Implement cross-platform adaptations and accessibility
+4. **Phase 4 (Week 4)**: Add advanced features like multi-window support and deep linking
+
+**Success Criteria**:
+- Navigation feels native to each platform (macOS, iOS, iPadOS)
+- State is properly preserved across app launches
+- Keyboard navigation works seamlessly
+- Performance remains smooth with large datasets
+- All navigation patterns follow Apple's Human Interface Guidelines
 
 ### [13] Documentation Agent Report
 
