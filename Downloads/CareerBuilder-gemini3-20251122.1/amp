@@ -1,0 +1,5 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme CareerJourney build 2
+
+2025-10-28 07:17:01.519 xcodebuild[90118:650602] Writing error result bundle to /var/folders/sh/z3hsvy7526b8xcjjphdq8hs00000gn/T/ResultBundle_2025-28-10_07-17-0001.xcresult
+xcodebuild: error: Unknown build action '2'.

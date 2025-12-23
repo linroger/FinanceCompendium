@@ -1,0 +1,15 @@
+[
+  {
+    "session_id": "4c9e3303-45a1-4637-a88d-c054c6114abf",
+    "transcript_path": "/Users/rogerlin/.claude/projects/-Users-rogerlin-Downloads-CareerBuilder-gemini3-20251122-1/4c9e3303-45a1-4637-a88d-c054c6114abf.jsonl",
+    "cwd": "/Users/rogerlin/Downloads/CareerBuilder-gemini3-20251122.1",
+    "permission_mode": "acceptEdits",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "mcp__beads__list",
+    "tool_input": {
+      "workspace_root": "/Users/rogerlin/Downloads/CareerBuilder-gemini3-20251122.1"
+    },
+    "tool_response": "{\"result\":[{\"id\":\"rogerlin-1\",\"title\":\"Analyze AI Coding Agent Repositories\",\"description\":\"Comprehensive analysis of AI coding agent repositories: claude-code, codex, gemini-cli, iflow, kimi, qwen-agent, qwen-code. Focus on architecture, harness, tools, and implementation details.\",\"design\":null,\"acceptance_criteria\":null,\"notes\":null,\"external_ref\":null,\"status\":\"closed\",\"priority\":2,\"issue_type\":\"task\",\"created_at\":\"2025-12-04T12:24:57.382033-08:00\",\"updated_at\":\"2025-12-04T12:27:18.290483-08:00\",\"closed_at\":\"2025-12-04T12:27:18.290483-08:00\",\"assignee\":null,\"labels\":[],\"dependency_count\":0,\"dependent_count\":0,\"dependencies\":[],\"dependents\":[]}]}",
+    "tool_use_id": "toolu_011nbgopXSvH55FntJ3o3giq"
+  }
+]

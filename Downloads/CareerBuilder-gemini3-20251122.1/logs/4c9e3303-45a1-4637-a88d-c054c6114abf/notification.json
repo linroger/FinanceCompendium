@@ -1,0 +1,10 @@
+[
+  {
+    "session_id": "4c9e3303-45a1-4637-a88d-c054c6114abf",
+    "transcript_path": "/Users/rogerlin/.claude/projects/-Users-rogerlin-Downloads-CareerBuilder-gemini3-20251122-1/4c9e3303-45a1-4637-a88d-c054c6114abf.jsonl",
+    "cwd": "/Users/rogerlin/Downloads/CareerBuilder-gemini3-20251122.1",
+    "hook_event_name": "Notification",
+    "message": "Claude Code needs your attention",
+    "notification_type": "permission_prompt"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "apple-docs": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kimsungwhee/apple-docs-mcp@latest"
+      ]
+    },
+    "XcodeBuildMCP": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "xcodebuildmcp@latest"
+      ]
+    }
+  }
+}

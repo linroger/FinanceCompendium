@@ -1,0 +1,38 @@
+[
+  {
+    "session_id": "4c9e3303-45a1-4637-a88d-c054c6114abf",
+    "transcript_path": "/Users/rogerlin/.claude/projects/-Users-rogerlin-Downloads-CareerBuilder-gemini3-20251122-1/4c9e3303-45a1-4637-a88d-c054c6114abf.jsonl",
+    "cwd": "/Users/rogerlin/Downloads/CareerBuilder-gemini3-20251122.1",
+    "permission_mode": "acceptEdits",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "AskUserQuestion",
+    "tool_input": {
+      "questions": [
+        {
+          "question": "What type of login functionality do you need?",
+          "header": "Login Type",
+          "options": [
+            {
+              "label": "Implement app login",
+              "description": "Add authentication to protect the CareerJourney app (Touch ID, password, etc.)"
+            },
+            {
+              "label": "LinkedIn integration",
+              "description": "Add LinkedIn OAuth login to import job applications or profile data"
+            },
+            {
+              "label": "Cloud sync login",
+              "description": "Add iCloud or other cloud service authentication for data sync"
+            },
+            {
+              "label": "API service login",
+              "description": "Integrate with a specific job board API (Indeed, Glassdoor, etc.)"
+            }
+          ],
+          "multiSelect": false
+        }
+      ]
+    },
+    "tool_use_id": "toolu_01RvjDfU8PXjh2E2D3FropAy"
+  }
+]
