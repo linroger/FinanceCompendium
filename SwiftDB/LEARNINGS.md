@@ -645,3 +645,219 @@ enum Elevation: Codable, Hashable {
 *   **Fallback Data**: Use `??` with `.first!` to handle missing preview data.
 *   **Full Environment**: Include navigation, inspector, and geometry tracking.
 *   **Window Size Tracking**: Use `.onGeometryChange` to populate `windowSize` for flexible headers.
+
+---
+
+## 20. Native Mac App Structure (GardenApp)
+
+### The Scene & Window Architecture
+*   **WindowGroup**: The root scene for document-based or main app windows.
+*   **Commands**: Essential for macOS menu bar integration using `.commands { ... }`.
+*   **Settings**: Modern `Settings` scene replacement for `NSPreferences`.
+
+```swift
+@main
+struct GardenApp: App {
+    @StateObject private var store = Store()
+
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .environmentObject(store)
+        }
+        .commands {
+            SidebarCommands() // Built-in sidebar toggling
+            ImportExportCommands(store: store) // Custom commands
+        }
+        Settings {
+            SettingsView()
+                .environmentObject(store)
+        }
+    }
+}
+```
+
+### State Persistence with SceneStorage
+*   **Problem**: Preserving selection state across app launches per-window.
+*   **Solution**: `@SceneStorage`.
+
+```swift
+struct ContentView: View {
+    @SceneStorage("selection") private var selectedGardenID: Garden.ID?
+    
+    // Computed binding handles fallback to default logic
+    private var selection: Binding<Garden.ID?> {
+        Binding(get: { selectedGardenID ?? defaultGardenID }, 
+                set: { selectedGardenID = $0 })
+    }
+}
+```
+
+### Proper Sidebar Implementation
+*   **DisclosureGroups**: Standard for hierarchical sidebars.
+*   **Badges**: Native `.badge()` modifier for counts.
+*   **Min Width**: `.frame(minWidth: 250)` is the sweet spot for macOS sidebars.
+
+```swift
+List(selection: $selection) {
+    DisclosureGroup(isExpanded: $isExpanded) {
+        ForEach(gardens) { garden in
+            SidebarLabel(garden: garden)
+                .badge(garden.plantCount)
+        }
+    } label: {
+        Label("Current", systemImage: "chart.bar")
+    }
+}
+```
+
+---
+
+## 21. Apple Intelligence Integration (Writing Tools)
+
+### The Writing Tools Coordinator
+To support system-wide Apple Intelligence features (Rewriting, Summarizing, Proofreading) in custom text views, you must implement the `NSWritingToolsCoordinator` protocol.
+
+*   **Context Scope**: The system asks for context (the text to analyze).
+*   **Replacement**: The system proposes replacements (e.g., the rewritten text).
+*   **Animation**: The system coordinates overlay animations during the "thinking" phase.
+
+```swift
+extension DocumentView: NSWritingToolsCoordinator.Delegate {
+    // 1. Provide Context
+    func writingToolsCoordinator(_ coordinator: NSWritingToolsCoordinator, 
+                               requestsContextsFor scope: ContextScope, 
+                               completion: @escaping ([Context]) -> Void) {
+        let context = Context(attributedString: viewModel.allText, range: fullRange)
+        completion([context])
+    }
+
+    // 2. Handle Replacement (The AI Result)
+    func writingToolsCoordinator(_ coordinator: NSWritingToolsCoordinator, 
+                               replace range: NSRange, 
+                               in context: Context, 
+                               proposedText replacement: NSAttributedString, 
+                               reason: TextReplacementReason, 
+                               animationParameters: AnimationParameters?, 
+                               completion: @escaping (NSAttributedString?) -> Void) {
+        
+        viewModel.replaceText(inRange: range, with: replacement)
+        completion(replacement)
+    }
+    
+    // 3. Handle Overlay Animations (Visual Feedback)
+    func writingToolsCoordinator(_ coordinator: NSWritingToolsCoordinator, 
+                               prepareFor animation: TextAnimation, 
+                               for range: NSRange, 
+                               in context: Context, 
+                               completion: @escaping () -> Void) {
+        // Add temporary overlay views to hide the text being animated by the system
+        let rects = viewModel.selectionRects(for: range)
+        addOverlayViews(rects)
+        completion()
+    }
+}
+```
+
+---
+
+## 22. High-Performance Video Processing (VideoToolbox)
+
+### The VTFrameProcessor Pattern
+Do not use raw Core Image for video effects if you can use `VideoToolbox`. Apple provides hardware-accelerated frame processors.
+
+*   **VTSuperResolutionScaler**: Built-in ML supersampling.
+*   **Async Processing**: Use Actors to process frames off the main thread.
+
+```swift
+actor SuperResolutionScaler: AsyncFrameProcessor {
+    let configuration: VTSuperResolutionScalerConfiguration
+    let frameProcessor = VTFrameProcessor()
+    
+    init(scale: Int, inputDim: CMVideoDimensions) throws {
+        // Configure hardware scaler
+        self.configuration = VTSuperResolutionScalerConfiguration(
+            frameWidth: Int(inputDim.width),
+            frameHeight: Int(inputDim.height),
+            scaleFactor: scale
+        )!
+        try frameProcessor.startSession(configuration: configuration)
+    }
+
+    func process(frame: SampleBuffer) async throws -> SampleBuffer {
+        // Convert to VTFrame
+        let currentFrame = VTFrameProcessorFrame(buffer: frame.imageBuffer!, 
+                                                 presentationTimeStamp: frame.pts)
+        
+        // Setup Parameters
+        let params = VTSuperResolutionScalerParameters(sourceFrame: currentFrame, 
+                                                       destinationFrame: destFrame)
+        
+        // Execute Hardware Process
+        try await frameProcessor.process(parameters: params)
+        return result
+    }
+}
+```
+
+### The Video Pipeline Actor Pattern
+Manage the stream of frames using Swift Concurrency streams.
+
+```swift
+nonisolated func processVideo(url: URL) async throws {
+    try await withThrowingTaskGroup(of: Void.self) { group in
+        // 1. Reader Task
+        group.addTask { try await assetReader.run() }
+        
+        // 2. Processor Task
+        group.addTask { try await frameProcessor.run() }
+        
+        // 3. Writer Task
+        group.addTask { try await assetWriter.run() }
+        
+        try await group.waitForAll()
+    }
+}
+```
+
+---
+
+## 23. Metal Architecture Pattern
+
+### The Renderer Class (Standard)
+Don't mix Metal logic with View logic. Use a dedicated `Renderer` class.
+
+*   **Init**: Setup Device, CommandQueue, Pipelines.
+*   **BeginFrame**: Wait on Semaphore (CPU-GPU sync).
+*   **EncodePasses**: Record commands.
+*   **EndFrame**: Commit buffer.
+
+```swift
+class Renderer: NSObject {
+    let inFlightSemaphore = DispatchSemaphore(value: 3) // Triple buffering
+    
+    func draw(in view: MTKView) {
+        // 1. Wait for GPU
+        inFlightSemaphore.wait()
+        
+        // 2. Create Buffer
+        let commandBuffer = commandQueue.makeCommandBuffer()
+        
+        // 3. Signal Semaphore on Completion
+        commandBuffer?.addCompletedHandler { _ in 
+            self.inFlightSemaphore.signal() 
+        }
+        
+        // 4. Encode Work
+        if let encoder = commandBuffer?.makeRenderCommandEncoder(descriptor: desc) {
+            encoder.setRenderPipelineState(pipeline)
+            encoder.drawPrimitives(...)
+            encoder.endEncoding()
+        }
+        
+        // 5. Present & Commit
+        commandBuffer?.present(view.currentDrawable!)
+        commandBuffer?.commit()
+    }
+}
+```
