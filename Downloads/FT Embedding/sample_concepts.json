@@ -1,0 +1,95 @@
+[
+  {
+    "article_id": "00002",
+    "title": "Prepare for a multipolar currency world",
+    "concepts": [
+      {
+        "name": "Multipolar Currency Regime",
+        "category": "Economic Mechanism",
+        "description": "A global financial system where multiple currencies share reserve status, replacing a single dominant hegemony.",
+        "real_world_context": "Emerges as geopolitical blocs solidify; regime-dependent on the decline of the Bretton Woods II framework."
+      },
+      {
+        "name": "Dollar Hegemony",
+        "category": "Structural Risk",
+        "description": "The dominance of the US dollar in global debt markets and trade, creating exposure to US policy for other nations.",
+        "real_world_context": "Historically stable but facing structural fragility due to weaponization of sanctions."
+      },
+      {
+        "name": "Renminbi Internationalization",
+        "category": "Policy Instrument",
+        "description": "China's strategic push to increase the use of RMB in cross-border settlements and reserves.",
+        "real_world_context": "Accelerated by Russia-China trade; limited by capital controls but expanding via 'shadow' channels."
+      },
+      {
+        "name": "Weaponized Sanctions",
+        "category": "Policy Instrument",
+        "description": "The use of financial access as a geopolitical tool (e.g., freezing reserves).",
+        "real_world_context": "Creates incentives for target nations to seek alternative payment rails."
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Weaponized Sanctions",
+        "target": "Renminbi Internationalization",
+        "type": "Reinforcing",
+        "description": "Sanctions on Russia accelerate the adoption of RMB for trade to bypass US control.",
+        "confidence": 0.9
+      },
+      {
+        "source": "Multipolar Currency Regime",
+        "target": "Dollar Hegemony",
+        "type": "Dampening",
+        "description": "The rise of alternative currency blocs structurally reduces the dominance and 'exorbitant privilege' of the dollar.",
+        "confidence": 0.85
+      },
+      {
+        "source": "Renminbi Internationalization",
+        "target": "Dollar Hegemony",
+        "type": "Tension",
+        "description": "Direct strategic conflict between the incumbent reserve currency and the challenger.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "article_id": "00003",
+    "title": "China’s tech giants take AI model training offshore to tap Nvidia chips",
+    "concepts": [
+      {
+        "name": "US Export Controls",
+        "category": "Policy Instrument",
+        "description": "Restrictions on the sale of high-performance semiconductors to China.",
+        "real_world_context": "Intended to slow China's AI progress; creates market distortions and regulatory arbitrage."
+      },
+      {
+        "name": "Offshore Data Centers",
+        "category": "Market Transmission Channel",
+        "description": "Computing facilities located in neutral jurisdictions (e.g., Singapore) used to access restricted hardware.",
+        "real_world_context": "A loophole or adaptation mechanism in response to geopolitical trade barriers."
+      },
+      {
+        "name": "Regulatory Arbitrage",
+        "category": "Economic Mechanism",
+        "description": "Exploiting jurisdictional differences to bypass regulations.",
+        "real_world_context": "Companies move physical training loads to locations where US bans are less strictly enforced or inapplicable."
+      }
+    ],
+    "relationships": [
+      {
+        "source": "US Export Controls",
+        "target": "Offshore Data Centers",
+        "type": "Causal",
+        "description": "The ban on chips within China directly causes the demand for offshore compute capacity.",
+        "confidence": 0.95
+      },
+      {
+        "source": "Offshore Data Centers",
+        "target": "US Export Controls",
+        "type": "Dampening",
+        "description": "The ability to train offshore dampens the effectiveness of the export controls.",
+        "confidence": 0.8
+      }
+    ]
+  }
+]
