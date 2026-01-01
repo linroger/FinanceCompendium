@@ -258,6 +258,7 @@ struct CareerJourneyApp: App {
                 .frame(minWidth: 720, idealWidth: 800, maxWidth: 920,
                        minHeight: 540, idealHeight: 620, maxHeight: 740)
         }
+        .modelContainer(container)
     }
 }
 

@@ -15,7 +15,34 @@ final class ImportExportHelper: ObservableObject {
     // ContentView and menu commands use this helper to open panels, then hand URLs to JobStore/NoteStore/DocumentStore.
     @Published var isExporting = false
     @Published var isImporting = false
-    
+
+    /// Returns a suitable parent window for presenting panels.
+    /// Falls back through keyWindow → mainWindow → first visible window.
+    private var parentWindow: NSWindow? {
+        if let keyWindow = NSApp.keyWindow {
+            return keyWindow
+        }
+        if let mainWindow = NSApp.mainWindow {
+            return mainWindow
+        }
+        // Fallback: find any visible window
+        return NSApp.windows.first { $0.isVisible && $0.canBecomeKey }
+    }
+
+    /// Presents a panel, preferring sheet modal if a parent window is available.
+    private func presentPanel(_ panel: NSSavePanel, completion: @escaping (NSApplication.ModalResponse) -> Void) {
+        // Ensure the app is active and frontmost
+        NSApp.activate(ignoringOtherApps: true)
+
+        if let window = parentWindow {
+            panel.beginSheetModal(for: window, completionHandler: completion)
+        } else {
+            // No parent window - run as modal window (blocking but visible)
+            let response = panel.runModal()
+            completion(response)
+        }
+    }
+
     nonisolated private static var defaultBackupTypes: [UTType] {
         var types: [UTType] = [.json, .folder, .plainText, .commaSeparatedText, .pdf, .rtf, .image]
         if let markdown = UTType(filenameExtension: "md") {
@@ -35,31 +62,18 @@ final class ImportExportHelper: ObservableObject {
                       defaultName: String,
                       completion: @escaping @Sendable (URL) -> Void) {
         isExporting = true
-        DispatchQueue.main.async {
-            let panel = NSSavePanel()
-            panel.allowedContentTypes = allowedTypes
-            panel.nameFieldStringValue = defaultName
-            panel.canCreateDirectories = true
-            panel.prompt = "Export"
+        let panel = NSSavePanel()
+        panel.allowedContentTypes = allowedTypes
+        panel.nameFieldStringValue = defaultName
+        panel.canCreateDirectories = true
+        panel.prompt = "Export"
 
-            if let window = NSApp.keyWindow {
-                panel.beginSheetModal(for: window) { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isExporting = false
-                    }
+        presentPanel(panel) { response in
+            Task { @MainActor in
+                if response == .OK, let url = panel.url {
+                    completion(url)
                 }
-            } else {
-                panel.begin { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isExporting = false
-                    }
-                }
+                self.isExporting = false
             }
         }
     }
@@ -68,32 +82,19 @@ final class ImportExportHelper: ObservableObject {
     func importBackup(allowedTypes: [UTType] = ImportExportHelper.defaultBackupTypes,
                       completion: @escaping @Sendable (URL) -> Void) {
         isImporting = true
-        DispatchQueue.main.async {
-            let panel = NSOpenPanel()
-            panel.allowedContentTypes = allowedTypes
-            panel.allowsMultipleSelection = false
-            panel.canChooseDirectories = true
-            panel.canChooseFiles = true
-            panel.prompt = "Import"
+        let panel = NSOpenPanel()
+        panel.allowedContentTypes = allowedTypes
+        panel.allowsMultipleSelection = false
+        panel.canChooseDirectories = true
+        panel.canChooseFiles = true
+        panel.prompt = "Import"
 
-            if let window = NSApp.keyWindow {
-                panel.beginSheetModal(for: window) { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isImporting = false
-                    }
+        presentPanel(panel) { response in
+            Task { @MainActor in
+                if response == .OK, let url = panel.url {
+                    completion(url)
                 }
-            } else {
-                panel.begin { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isImporting = false
-                    }
-                }
+                self.isImporting = false
             }
         }
     }
@@ -101,32 +102,19 @@ final class ImportExportHelper: ObservableObject {
     /// Show an Open panel for importing a CSV file (jobs or notes).
     func importCSV(completion: @escaping @Sendable (URL) -> Void) {
         isImporting = true
-        DispatchQueue.main.async {
-            let panel = NSOpenPanel()
-            panel.allowedContentTypes = [.commaSeparatedText]
-            panel.allowsMultipleSelection = false
-            panel.canChooseDirectories = false
-            panel.canChooseFiles = true
-            panel.prompt = "Import CSV"
+        let panel = NSOpenPanel()
+        panel.allowedContentTypes = [.commaSeparatedText]
+        panel.allowsMultipleSelection = false
+        panel.canChooseDirectories = false
+        panel.canChooseFiles = true
+        panel.prompt = "Import CSV"
 
-            if let window = NSApp.keyWindow {
-                panel.beginSheetModal(for: window) { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isImporting = false
-                    }
+        presentPanel(panel) { response in
+            Task { @MainActor in
+                if response == .OK, let url = panel.url {
+                    completion(url)
                 }
-            } else {
-                panel.begin { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isImporting = false
-                    }
-                }
+                self.isImporting = false
             }
         }
     }
@@ -134,37 +122,24 @@ final class ImportExportHelper: ObservableObject {
     /// Show an Open panel to pick one markdown file.
     func importNotes(completion: @escaping @Sendable (URL) -> Void) {
         isImporting = true
-        DispatchQueue.main.async {
-            let panel = NSOpenPanel()
-            var allowedTypes: [UTType] = []
-            if let markdown = UTType(filenameExtension: "md") {
-                allowedTypes.append(markdown)
-            }
-            allowedTypes.append(.plainText)
-            allowedTypes.append(.commaSeparatedText)
-            panel.allowedContentTypes = allowedTypes
-            panel.allowsMultipleSelection = false
-            panel.canChooseDirectories = false
-            panel.prompt = "Import"
+        let panel = NSOpenPanel()
+        var allowedTypes: [UTType] = []
+        if let markdown = UTType(filenameExtension: "md") {
+            allowedTypes.append(markdown)
+        }
+        allowedTypes.append(.plainText)
+        allowedTypes.append(.commaSeparatedText)
+        panel.allowedContentTypes = allowedTypes
+        panel.allowsMultipleSelection = false
+        panel.canChooseDirectories = false
+        panel.prompt = "Import"
 
-            if let window = NSApp.keyWindow {
-                panel.beginSheetModal(for: window) { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isImporting = false
-                    }
+        presentPanel(panel) { response in
+            Task { @MainActor in
+                if response == .OK, let url = panel.url {
+                    completion(url)
                 }
-            } else {
-                panel.begin { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isImporting = false
-                    }
-                }
+                self.isImporting = false
             }
         }
     }
@@ -172,66 +147,45 @@ final class ImportExportHelper: ObservableObject {
     /// Show an Open panel to pick multiple documents.
     func importDocuments(completion: @escaping @Sendable ([URL]) -> Void) {
         isImporting = true
-        DispatchQueue.main.async {
-            let panel = NSOpenPanel()
-            var contentTypes: [UTType] = [.pdf, .plainText, .image, .text, .rtf]
-            if let docx = UTType(filenameExtension: "docx") {
-                contentTypes.append(docx)
-            }
-            if let doc = UTType(filenameExtension: "doc") {
-                contentTypes.append(doc)
-            }
-            contentTypes.append(.folder)
-            panel.allowedContentTypes = contentTypes
-            panel.allowsMultipleSelection = true
-            panel.canChooseDirectories = true
-            panel.prompt = "Import Documents"
+        let panel = NSOpenPanel()
+        var contentTypes: [UTType] = [.pdf, .plainText, .image, .text, .rtf]
+        if let docx = UTType(filenameExtension: "docx") {
+            contentTypes.append(docx)
+        }
+        if let doc = UTType(filenameExtension: "doc") {
+            contentTypes.append(doc)
+        }
+        contentTypes.append(.folder)
+        panel.allowedContentTypes = contentTypes
+        panel.allowsMultipleSelection = true
+        panel.canChooseDirectories = true
+        panel.prompt = "Import Documents"
 
-            if let window = NSApp.keyWindow {
-                panel.beginSheetModal(for: window) { response in
-                    Task { @MainActor in
-                        if response == .OK {
-                            completion(panel.urls)
-                        }
-                        self.isImporting = false
-                    }
+        presentPanel(panel) { response in
+            Task { @MainActor in
+                if response == .OK {
+                    completion(panel.urls)
                 }
-            } else {
-                panel.begin { response in
-                    Task { @MainActor in
-                        if response == .OK {
-                            completion(panel.urls)
-                        }
-                        self.isImporting = false
-                    }
-                }
+                self.isImporting = false
             }
         }
     }
 
     func importDocumentFolder(completion: @escaping @Sendable ([URL]) -> Void) {
         isImporting = true
-        DispatchQueue.main.async {
-            let panel = NSOpenPanel()
-            panel.allowedContentTypes = [.folder]
-            panel.allowsMultipleSelection = true
-            panel.canChooseDirectories = true
-            panel.canChooseFiles = false
-            panel.prompt = "Import Folder"
+        let panel = NSOpenPanel()
+        panel.allowedContentTypes = [.folder]
+        panel.allowsMultipleSelection = true
+        panel.canChooseDirectories = true
+        panel.canChooseFiles = false
+        panel.prompt = "Import Folder"
 
-            let handler: (NSApplication.ModalResponse) -> Void = { response in
-                Task { @MainActor in
-                    if response == .OK {
-                        completion(panel.urls)
-                    }
-                    self.isImporting = false
+        presentPanel(panel) { response in
+            Task { @MainActor in
+                if response == .OK {
+                    completion(panel.urls)
                 }
-            }
-
-            if let window = NSApp.keyWindow {
-                panel.beginSheetModal(for: window, completionHandler: handler)
-            } else {
-                panel.begin(completionHandler: handler)
+                self.isImporting = false
             }
         }
     }
@@ -240,31 +194,18 @@ final class ImportExportHelper: ObservableObject {
     func exportDocuments(defaultName: String,
                          completion: @escaping @Sendable (URL) -> Void) {
         isExporting = true
-        DispatchQueue.main.async {
-            let panel = NSSavePanel()
-            panel.allowedContentTypes = [UTType(filenameExtension: "zip") ?? .zip]
-            panel.nameFieldStringValue = defaultName
-            panel.canCreateDirectories = true
-            panel.prompt = "Export"
+        let panel = NSSavePanel()
+        panel.allowedContentTypes = [UTType(filenameExtension: "zip") ?? .zip]
+        panel.nameFieldStringValue = defaultName
+        panel.canCreateDirectories = true
+        panel.prompt = "Export"
 
-            if let window = NSApp.keyWindow {
-                panel.beginSheetModal(for: window) { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isExporting = false
-                    }
+        presentPanel(panel) { response in
+            Task { @MainActor in
+                if response == .OK, let url = panel.url {
+                    completion(url)
                 }
-            } else {
-                panel.begin { response in
-                    Task { @MainActor in
-                        if response == .OK, let url = panel.url {
-                            completion(url)
-                        }
-                        self.isExporting = false
-                    }
-                }
+                self.isExporting = false
             }
         }
     }
@@ -273,28 +214,20 @@ final class ImportExportHelper: ObservableObject {
     func exportDocumentsFolder(defaultName: String,
                                completion: @escaping @Sendable (URL) -> Void) {
         isExporting = true
-        DispatchQueue.main.async {
-            let panel = NSOpenPanel()
-            panel.allowedContentTypes = [.folder]
-            panel.allowsMultipleSelection = false
-            panel.canChooseDirectories = true
-            panel.canChooseFiles = false
-            panel.prompt = "Choose Folder"
+        let panel = NSOpenPanel()
+        panel.allowedContentTypes = [.folder]
+        panel.allowsMultipleSelection = false
+        panel.canChooseDirectories = true
+        panel.canChooseFiles = false
+        panel.prompt = "Choose Folder"
 
-            let handler: (NSApplication.ModalResponse) -> Void = { response in
-                Task { @MainActor in
-                    if response == .OK, let url = panel.url {
-                        let folderURL = url.appendingPathComponent(defaultName, isDirectory: true)
-                        completion(folderURL)
-                    }
-                    self.isExporting = false
+        presentPanel(panel) { response in
+            Task { @MainActor in
+                if response == .OK, let url = panel.url {
+                    let folderURL = url.appendingPathComponent(defaultName, isDirectory: true)
+                    completion(folderURL)
                 }
-            }
-
-            if let window = NSApp.keyWindow {
-                panel.beginSheetModal(for: window, completionHandler: handler)
-            } else {
-                panel.begin(completionHandler: handler)
+                self.isExporting = false
             }
         }
     }
