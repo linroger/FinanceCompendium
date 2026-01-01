@@ -1,0 +1,122 @@
+Name,Formula,Category,Enhanced Notes
+CAPM (Capital Asset Pricing Model),R_i = R_f + β_i (R_m - R_f) + ε_i,Interest Rate Models,The Capital Asset Pricing Model (CAPM) represents a fundamental equilibrium relationship in financial economics that links expected asset returns to their systematic risk exposure. Mathematically derived from Markowitz's portfolio theory and the assumption of mean-variance utility maximization, the model posits that in a perfectly competitive market with homogeneous expectations, all investors will hold portfolios that are combinations of the risk-free asset and the market portfolio. This leads to the security market line where expected returns are linearly related to market beta.
+
+The mathematical foundation stems from the covariance between asset returns and market returns. Beta is defined as β_i = Cov(R_i, R_m)/Var(R_m), measuring the sensitivity of an asset's returns to market movements. The model's derivation assumes that investors are risk-averse mean-variance optimizers who can borrow and lend at the risk-free rate, leading to the market portfolio being the tangency portfolio where the capital allocation line is tangent to the efficient frontier.
+
+Key assumptions include: (1) investors are rational and risk-averse with quadratic utility functions, (2) perfect capital markets with no transaction costs, taxes, or restrictions on short selling, (3) homogeneous expectations about returns and variances, (4) all assets are perfectly divisible and liquid, and (5) unlimited borrowing and lending at the risk-free rate. The model breaks down when these assumptions are violated, particularly in the presence of market frictions, behavioral biases, or non-normal return distributions.
+
+In practical finance applications, CAPM is extensively used for portfolio construction, performance evaluation, and capital budgeting. Portfolio managers use it to determine required returns for asset allocation, while analysts employ it to calculate cost of equity for valuation models like DCF. Risk management applications include beta hedging strategies where investors adjust their market exposure to achieve desired risk levels. The model also forms the foundation for multi-factor models like Fama-French, which extend CAPM by incorporating additional risk factors.
+
+Related concepts include the Arbitrage Pricing Theory (APT), which generalizes CAPM to multiple factors, and the consumption CAPM (CCAPM), which links asset returns to consumption growth rather than market returns. Extensions include conditional CAPM for time-varying betas and international CAPM for global markets.
+
+Implementation considerations involve estimating beta through historical regression analysis, typically using 2-5 years of weekly or monthly data. Challenges include beta instability over time, the choice of market proxy (often S&P 500 for US markets), and the impact of thin trading in small-cap stocks. Robust estimation requires careful handling of non-synchronous trading and the use of shrinkage estimators to address beta estimation error.
+
+Caplet Pricing (Black-76),C_{caplet} = P(0 T_i) (F(0 T_{i-1} T_i) Φ(d_1) - K Φ(d_2)),Interest Rate Models,The Black-76 model for caplet pricing adapts the classic Black-Scholes option pricing framework to interest rate derivatives by treating forward rates as underlying assets. The formula C_{caplet} = P(0 T_i) (F(0 T_{i-1} T_i) Φ(d_1) - K Φ(d_2)) prices European-style options on forward LIBOR rates, where the payoff occurs at the end of the accrual period.
+
+The mathematical derivation transforms the Black-Scholes equation to handle forward rates instead of spot prices. The key insight is that the forward rate F(0, T_{i-1}, T_i) serves as the underlying asset, discounted by P(0, T_i) to account for the fact that the option payoff occurs at T_i. The standard Black-76 d1 and d2 terms are d_1 = [ln(F/K) + σ²T/2]/(σ√T) and d_2 = d_1 - σ√T, where σ is the volatility of the forward rate and T is the time to expiry.
+
+Key assumptions include: (1) lognormal distribution of forward rates, (2) constant volatility, (3) risk-neutral pricing, (4) no arbitrage opportunities, and (5) continuous trading. The model breaks down in negative interest rate environments where lognormal assumptions fail, and during periods of high volatility when the constant volatility assumption is violated.
+
+Practical applications in finance include pricing and risk management of interest rate caps, floors, and swaptions. Treasury departments use the model for hedging interest rate risk in floating rate debt portfolios. Structured finance desks employ it for pricing callable bonds and other embedded option products. Risk management applications involve calculating Greeks (delta, gamma, vega) for hedging purposes and stress testing interest rate portfolios.
+
+Related concepts include the Bachelier normal model for negative rates, SABR model for stochastic volatility, and LIBOR Market Model for multi-factor interest rate dynamics. Extensions include quanto adjustments for cross-currency products and time-dependent volatility structures.
+
+Implementation challenges involve estimating forward rate volatilities from cap/floor prices, handling the term structure of volatility, and calibrating to market prices. Numerical methods include analytical solutions for European options, Monte Carlo simulation for exotic structures, and finite difference methods for American/Bermudan features. The model requires careful treatment of day count conventions and business day adjustments.
+
+Heston Stochastic Volatility,dS_t = (r - q) S_t dt + √{v_t} S_t dW_S^{(1)},Interest Rate Models,The Heston stochastic volatility model represents a significant advancement in option pricing theory by allowing volatility to follow its own stochastic process rather than remaining constant as in the Black-Scholes framework. The model captures two key empirical observations: volatility clustering (periods of high volatility tend to persist) and the leverage effect (negative correlation between asset returns and volatility changes).
+
+Mathematically, the model consists of two coupled stochastic differential equations: the asset price dynamics dS_t = (r - q) S_t dt + √{v_t} S_t dW_S^{(1)}, and the variance process dv_t = κ(θ - v_t) dt + σ √{v_t} dW_S^{(2)}, where v_t follows a square-root process (Cox-Ingersoll-Ross type) ensuring positivity. The correlation between the two Brownian motions is ρ, typically negative to capture the leverage effect.
+
+The derivation stems from the need to match observed option price smiles and smirks, which the constant volatility Black-Scholes model cannot explain. The characteristic function for the Heston model can be solved analytically, enabling semi-closed form solutions for European options through Fourier inversion methods.
+
+Key assumptions include: (1) lognormal asset price dynamics conditional on volatility, (2) mean-reverting variance process, (3) constant correlation between price and volatility shocks, and (4) no jumps in either price or volatility. Limitations include the model's inability to capture extreme volatility spikes (jumps), negative correlations stronger than -1, and complex volatility surfaces in some markets.
+
+Practical applications abound in derivatives trading and risk management. Traders use the model for pricing exotic options, volatility products, and structured products. Risk managers employ it for calculating Value-at-Risk (VaR) and Expected Shortfall, particularly for portfolios containing options. The model's ability to capture volatility clustering makes it valuable for stress testing and scenario analysis.
+
+Related concepts include the SABR model for interest rates, GARCH processes for time-series volatility modeling, and local volatility models that imply deterministic volatility surfaces. Extensions include jump-diffusion variants and multi-factor volatility models.
+
+Implementation challenges involve calibrating the five parameters (κ, θ, σ, ρ, v_0) to market option prices, which is computationally intensive. Numerical methods include Fourier transform techniques, finite difference schemes, and Monte Carlo simulation with variance reduction. The model requires careful treatment of boundary conditions and discretization schemes to maintain numerical stability.
+
+Market Beta Decomposition,β_{iM} = ∑_{j=1}^k β_{ij} Cov(F_j R_M)/Var(R_M),Interest Rate Models,The market beta decomposition formula breaks down an asset's traditional market beta into contributions from multiple underlying factors, providing deeper insight into the sources of systematic risk. The equation β_{iM} = ∑_{j=1}^k β_{ij} Cov(F_j, R_M)/Var(R_M) shows how factor loadings β_{ij} interact with factor-market covariances to determine the overall market sensitivity.
+
+The mathematical foundation derives from the multi-factor representation of asset returns: R_i = α_i + ∑_{j=1}^k β_{ij} F_j + ε_i, where F_j are systematic factors and ε_i is idiosyncratic risk. The market return R_M can itself be expressed in terms of these factors, leading to the decomposition where each term β_{ij} × Cov(F_j, R_M)/Var(R_M) represents the contribution of factor j to the total market beta.
+
+Key assumptions include: (1) linear factor model for returns, (2) orthogonality between factors and idiosyncratic risk, (3) stable factor loadings over the estimation period, and (4) proper specification of the factor set. The decomposition becomes unreliable when factors are highly correlated or when the factor model is misspecified.
+
+In practical finance applications, portfolio managers use this decomposition for factor attribution analysis, understanding which factors drive an asset's market risk. Risk management teams employ it for hedging strategies, where they can target specific factor exposures rather than just overall market beta. Asset allocators use the insights for constructing factor-mimicking portfolios.
+
+Related concepts include the fundamental law of active management, which decomposes information ratios into breadth and depth components, and the APT framework, which generalizes the factor-based risk decomposition. Extensions include conditional beta decompositions that allow for time-varying factor exposures.
+
+Implementation considerations involve estimating the factor loadings β_{ij} through multivariate regression, typically using time-series of asset returns and factor returns. Challenges include factor selection, multicollinearity between factors, and the stability of loadings over different market regimes. Robust implementation requires regularization techniques and careful handling of estimation error.
+
+Swaption Pricing (Black-76),C_{swaption} = P(0 T_e) (S_0 Φ(d_1) - K Φ(d_2)),Interest Rate Models,The Black-76 model for swaption pricing extends the caplet pricing framework to options on swap rates, treating the forward swap rate as a lognormal underlying asset. The formula C_{swaption} = P(0, T_e) (S_0 Φ(d_1) - K Φ(d_2)) prices European payer swaptions, where the payoff is discounted by the annuity factor P(0, T_e) representing the present value of a basis point.
+
+The mathematical derivation follows from the Black-Scholes framework adapted to interest rates. The forward swap rate S_0 serves as the underlying asset, with volatility σ representing the uncertainty in swap rate movements. The standard Black-76 parameters are d_1 = [ln(S_0/K) + σ²T/2]/(σ√T) and d_2 = d_1 - σ√T, where T is the time to swaption expiry.
+
+Key assumptions include: (1) lognormal distribution of swap rates, (2) constant volatility, (3) risk-neutral pricing, and (4) no counterparty risk. The model fails in negative rate environments and when volatility surfaces exhibit significant skew or term structure.
+
+Practical applications include pricing and hedging interest rate swaptions in treasury operations, structuring callable bonds and structured notes, and managing balance sheet risk. Central banks use swaption prices to extract market expectations of future interest rates. Risk management applications involve calculating option Greeks for delta-hedging and scenario analysis.
+
+Related concepts include the SABR model for capturing volatility smiles, the LIBOR Market Model for multi-factor dynamics, and the Bachelier normal model for negative rates. Extensions include quanto swaptions and Bermudan swaptions with early exercise features.
+
+Implementation challenges involve estimating swap rate volatilities from market swaption prices, handling the correlation between swap rates of different maturities, and calibrating multi-factor models. Numerical methods include analytical pricing for European options, tree-based methods for Bermudan features, and Monte Carlo simulation for complex structures.
+
+Variance Swap Fair Strike,σ_{fair}² = (1/P(0 T)) ∫_0^T 𝔼^ℚ[σ_s²] ds,Interest Rate Models,The variance swap fair strike formula represents the fundamental pricing relationship for volatility derivatives, equating the fair strike to the time-averaged expected variance under the risk-neutral measure. The equation σ_{fair}² = (1/P(0, T)) ∫_0^T 𝔼^ℚ[σ_s²] ds shows that the fair variance strike equals the discounted integral of expected instantaneous variance.
+
+The mathematical foundation derives from the replication principle for variance swaps. A variance swap can be replicated using a portfolio of options whose payoffs depend on the realized variance. Under risk-neutral pricing, the fair strike equals the expected value of the replicating portfolio's payoff, which reduces to the integral of expected variance weighted by the discount factor.
+
+Key assumptions include: (1) continuous trading and liquidation, (2) absence of market frictions, (3) ability to delta-hedge continuously, and (4) the variance process is integrable. The formula breaks down when jumps occur in the underlying price process or when market incompleteness prevents perfect replication.
+
+Practical applications include volatility trading and risk management. Hedge funds use variance swaps to express directional views on volatility without directional exposure to the underlying asset. Risk managers employ them for portfolio hedging against volatility spikes. Structured products often embed variance swaps for volatility-linked payoffs.
+
+Related concepts include the VIX index calculation, which uses similar variance estimation techniques, and volatility swaps, which require convexity adjustments. Extensions include conditional variance swaps and corridor variance swaps with barriers.
+
+Implementation considerations involve estimating the forward variance curve from option prices, typically through model calibration or market-implied methods. Challenges include discretization error in the integral approximation, the choice of variance estimation method (realized vs. implied), and handling of market microstructure noise in high-frequency data.
+
+Volatility Swap Adjustment,K_{vol} ≈ √{K_{var}} - Var(√{Realized Variance})/(2 K_{vol}^{3/2}),Interest Rate Models,The volatility swap convexity adjustment accounts for Jensen's inequality in the relationship between variance and volatility, where the expected volatility exceeds the square root of expected variance due to convexity. The approximation K_{vol} ≈ √{K_{var}} - Var(√{Realized Variance})/(2 K_{vol}^{3/2}) provides a first-order correction to convert variance swap strikes to volatility swap strikes.
+
+The mathematical foundation stems from the concave relationship between variance and volatility. Since volatility = √{variance}, Jensen's inequality implies 𝔼[√{V}] ≤ √{𝔼[V]}, meaning the fair volatility strike is less than the square root of the variance strike. The adjustment becomes significant when variance is highly volatile.
+
+Key assumptions include: (1) lognormal distribution of the underlying asset, (2) constant volatility of variance, and (3) small adjustment approximation validity. The formula becomes less accurate during extreme volatility regimes or when the variance distribution has heavy tails.
+
+Practical applications include pricing and hedging volatility derivatives. Traders use the adjustment when converting between variance and volatility products. Risk management involves proper valuation of volatility-linked instruments in portfolios.
+
+Related concepts include the general convexity adjustment for any concave transformation and the relationship between realized variance and volatility estimation. Extensions include higher-order corrections and exact solutions for specific distribution assumptions.
+
+Implementation challenges involve estimating the variance of realized variance, which requires high-frequency data and careful treatment of microstructure effects. Numerical methods include Monte Carlo simulation for exact pricing and asymptotic expansions for analytical approximations.
+
+APT Risk Premium Decomposition,𝔼[R_i] = r_f + β_{iM}(𝔼[R_M] - r_f) + ∑_{j=2}^k β_{ij} λ_j + α_i^{APT},Interest Rate Models,The Arbitrage Pricing Theory (APT) decomposes expected returns into market and factor components, generalizing the CAPM to multiple systematic risk factors. The equation 𝔼[R_i] = r_f + β_{iM}(𝔼[R_M] - r_f) + ∑_{j=2}^k β_{ij} λ_j + α_i^{APT} shows that expected returns equal the risk-free rate plus compensations for market risk and additional factors, plus an idiosyncratic alpha.
+
+The mathematical foundation derives from the law of one price and the assumption that asset returns follow a k-factor model. If arbitrage opportunities are ruled out, expected returns must satisfy the linear relationship where λ_j represents the market price of risk for factor j.
+
+Key assumptions include: (1) linear k-factor model for returns, (2) factor orthogonality, (3) no arbitrage opportunities, and (4) well-diversified portfolios. The model breaks down when factors are correlated or when arbitrage is not instantaneously eliminated.
+
+Practical applications include multi-factor portfolio construction, risk attribution analysis, and performance evaluation. Asset managers use APT for factor investing strategies, while analysts employ it for asset pricing in markets with multiple sources of systematic risk.
+
+Related concepts include the CAPM as a special single-factor case and the Fama-French model as an empirical implementation of APT. Extensions include conditional APT with time-varying factor premiums.
+
+Implementation considerations involve estimating factor loadings through regression analysis and determining factor premiums from historical data or cross-sectional analysis. Challenges include factor selection, identification of relevant risk factors, and testing for arbitrage opportunities.
+
+Bermudan Swaption Valuation,V_n = max(g_n 𝔼[V_{n+1}|ℱ_n]),Interest Rate Models,The Bermudan swaption valuation uses backward induction to price options with multiple early exercise opportunities, maximizing the value at each exercise date between immediate exercise payoff g_n and the continuation value 𝔼[V_{n+1}|ℱ_n]. The recursive relationship V_n = max(g_n, 𝔼[V_{n+1}|ℱ_n]) determines the optimal exercise strategy.
+
+The mathematical foundation combines optimal stopping theory with risk-neutral pricing. The exercise decision at each date n compares the immediate payoff g_n against the expected value of continuing to the next exercise date, discounted appropriately.
+
+Key assumptions include: (1) Markovian interest rate dynamics, (2) risk-neutral pricing, (3) ability to exercise at specified dates, and (4) absence of transaction costs. The model becomes complex when interest rate models have multiple factors or stochastic volatility.
+
+Practical applications include pricing callable bonds, mortgage-backed securities with prepayment options, and Bermudan swaptions in treasury risk management. Structured finance desks use the methodology for valuing embedded options in complex products.
+
+Related concepts include American option pricing and the Longstaff-Schwartz least squares Monte Carlo method for approximating the continuation value. Extensions include multi-factor interest rate models and stochastic volatility frameworks.
+
+Implementation challenges involve solving the backward induction numerically, often requiring Monte Carlo simulation with regression-based continuation value estimation. Computational complexity grows with the number of exercise dates and dimensionality of the state space.
+
+Black-Litterman Expected Returns,𝔼[R] = [(τΣ)^{-1} + P^T Ω^{-1} P]^{-1} [(τΣ)^{-1} Π + P^T Ω^{-1} Q],Interest Rate Models,The Black-Litterman model provides a Bayesian framework for combining equilibrium market returns with investor views, producing more stable and intuitive expected return estimates for portfolio optimization. The formula blends the prior equilibrium returns Π (scaled by uncertainty τ) with investor views Q (weighted by confidence Ω) through the posterior mean.
+
+The mathematical foundation derives from Bayesian statistics, treating the CAPM equilibrium returns as a prior distribution and investor views as likelihood information. The posterior expected returns balance market equilibrium with investor convictions, shrinking extreme views toward the market consensus.
+
+Key assumptions include: (1) normal distribution of returns, (2) investor views expressed as expected returns with confidence levels, (3) CAPM equilibrium as the prior, and (4) independence of views. The model performs poorly when views are highly correlated or when the equilibrium prior is misspecified.
+
+Practical applications include institutional portfolio construction, asset allocation with specific market views, and overcoming estimation error in mean-variance optimization. Fund managers use it to incorporate fundamental analysis into quantitative frameworks.
+
+Related concepts include the traditional Markowitz optimization, robust portfolio optimization, and Bayesian portfolio theory. Extensions include dynamic Black-Litterman with time-varying views and multi-prior formulations.
+
+Implementation considerations involve specifying the uncertainty parameter τ, eliciting investor views and confidence levels, and choosing the equilibrium prior. Challenges include subjective view specification, confidence level calibration, and computational complexity for large portfolios.
