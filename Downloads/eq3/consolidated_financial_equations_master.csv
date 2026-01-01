@@ -1,0 +1,64 @@
+Title,Equation,Category,Notes
+Geometric Brownian Motion (GBM),dS_t = \mu S_t dt + \sigma S_t dW_t,Stochastic Calculus,Foundation for Black-Scholes asset dynamics.
+GBM Solution,S_t = S_0 \exp\left( (\mu -0.5\sigma^2)t + \sigma W_t \right),Stochastic Calculus,Explicit solution to the GBM SDE.
+Itô's Lemma (Univariate),df = (\frac{\partial f}{\partial t} + \mu \frac{\partial f}{\partial x} + 0.5 \sigma^2 \frac{\partial^2 f}{\partial x^2}) dt + \sigma \frac{\partial f}{\partial x} dW_t,Stochastic Calculus,Chain rule for stochastic processes; includes convexity correction.
+Itô's Lemma (Multivariate),df = \frac{\partial f}{\partial t} dt + \sum \frac{\partial f}{\partial x_i} dX_i + 0.5 \sum_{i,j} \frac{\partial^2 f}{\partial x_i \partial x_j} d\langle X_i, X_j \rangle,Stochastic Calculus,For multi-asset options; includes correlation terms.
+Girsanov Theorem,\frac{d\mathbb{Q}}{d\mathbb{P}} = \exp\left( -\int \lambda dW - 0.5 \int \lambda^2 dt \right),Stochastic Calculus,Defines measure change for risk-neutral pricing.
+Feynman-Kac Theorem,V(t,x) = \mathbb{E}^{\mathbb{Q}}[ e^{-\int r du} \psi(X_T) ],Stochastic Calculus,Links PDEs to Expectation of stochastic processes.
+Ornstein-Uhlenbeck Process,dx_t = \theta (\mu - x_t) dt + \sigma dW_t,Stochastic Calculus,Mean-reverting process used for rates and volatility.
+Fokker-Planck Equation,\frac{\partial p}{\partial t} = -\frac{\partial}{\partial x}[\mu p] + \frac{\partial^2}{\partial x^2}[0.5\sigma^2 p],Stochastic Calculus,evolution of PDF; used for local volatility.
+Tanaka's Formula,|W_t - a| = |W_0 - a| + \int \text{sgn}(W) dW + L_t^a,Stochastic Calculus,Decomposition for non-smooth functions; introduces Local Time.
+Bond Pricing Risk-Neutral,P(t,T) = \mathbb{E}^{\mathbb{Q}}\left[ e^{-\int_t^T r_s \, ds} \right],Fixed Income,Fundamental no-arbitrage pricing for default-free zero-coupon bonds.
+Coupon Bond Pricing,P = \sum c_i P(t,T_i) + P(t,T_n),Fixed Income,Sum of zero-coupon bonds.
+Yield to Maturity,Solve for y: P = \sum \frac{c_i}{(1+y)^{T_i-t}} + \frac{1}{(1+y)^{T_n-t}},Fixed Income,Internal rate of return for bond investment.
+Macaulay Duration,D_{Mac} = \frac{1}{P} \sum T_i PV(CF_i),Fixed Income,Weighted average time to cash flows.
+Modified Duration,D_{Mod} = D_{Mac} / (1+y),Fixed Income,Percentage price change for unit yield change.
+Convexity,C = \frac{1}{P} \frac{\partial^2 P}{\partial y^2},Fixed Income,Second derivative of price w.r.t yield.
+Nelson-Siegel Model,y(\tau) = \beta_0 + \beta_1 (\dots) + \beta_2 (\dots),Fixed Income,Parametric yield curve model (Level Slope Curvature).
+Bootstrap Method,P(T_i) = \frac{1 - \sum_{j=1}^{i-1} c_j P(T_j)}{1 + c_i},Fixed Income,Recursive extraction of zero-coupon rates from coupon bonds.
+Vasicek Model,dr_t = \kappa(\theta - r_t)dt + \sigma dW_t,Interest Rates,Mean-reverting Gaussian short rate.
+CIR Model,dr_t = \kappa(\theta - r_t)dt + \sigma \sqrt{r_t} dW_t,Interest Rates,Square-root diffusion; non-negative rates.
+Hull-White Model,dr_t = (\theta(t) - a r_t)dt + \sigma dW_t,Interest Rates,Time-varying parameter fits initial yield curve.
+HJM Drift Condition,\mu(t,T) = \sigma(t,T) \int_t^T \sigma(t,s) ds,Interest Rates,No-arbitrage condition for forward rate drift.
+SABR Model,dF = \alpha F^\beta dW; d\alpha = \nu \alpha dZ,Interest Rates,Stochastic vol model for Swaptions/Caps.
+Swap Valuation,V = \sum P(T_i) \tau (L - K),Interest Rates,PV of floating minus fixed legs.
+Swaption (Black),V = Annuity \cdot [ S_0 N(d_1) - K N(d_2) ],Interest Rates,Option on a Swap Rate.
+Merton Equity Value,E_t = V_t N(d_1) - D e^{-r\tau} N(d_2),Credit Derivatives,Structural model treating equity as call on assets.
+Default Probability (Merton),PD = N(-d_2),Credit Derivatives,Risk-neutral probability of firm value < debt.
+Survival Probability,S(t) = \exp(-\int_0^t \lambda_s ds),Credit Derivatives,Probability of no default up to time t.
+CDS Spread (Approx),S \approx \lambda(1-R),Credit Derivatives,Credit Default Swap spread approx.
+Gaussian Copula Factor,X_i = \sqrt{\rho}M + \sqrt{1-\rho}Z_i,Credit Derivatives,Core of CDO pricing (Li Model).
+Conditional Default Prob,p(M) = N( \frac{N^{-1}(PD) - \sqrt{\rho}M}{\sqrt{1-\rho}} ),Credit Derivatives,Probability of default conditional on market factor.
+Covered Interest Parity,F = S e^{(r_d - r_f)T},FX Derivatives,Forward FX pricing.
+Garman-Kohlhagen,C = S e^{-r_f \tau} N(d_1) - K e^{-r_d \tau} N(d_2),FX Derivatives,Black-Scholes extension for FX options.
+Commodity Forward,F = S e^{(r + u - y)T},Commodities,Includes storage u and convenience yield y.
+Black-Scholes PDE,\frac{\partial V}{\partial t} + 0.5\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + (r-q)S \frac{\partial V}{\partial S} - rV = 0,Equity Derivatives,Fundamental PDE for vanilla European options.
+Black-Scholes Call,C = S e^{-q\tau} N(d_1) - K e^{-r\tau} N(d_2),Equity Derivatives,Call option price.
+Black-Scholes Put,P = K e^{-r\tau} N(-d_2) - S e^{-q\tau} N(-d_1),Equity Derivatives,Put option price.
+Delta (Call),\Delta = e^{-q\tau} N(d_1),Equity Derivatives,Sensitivity to spot price.
+Gamma,\Gamma = \frac{e^{-q\tau} N'(d_1)}{S \sigma \sqrt{\tau}},Equity Derivatives,Convexity (2nd deriv to Spot).
+Vega,\mathcal{V} = S e^{-q\tau} \sqrt{\tau} N'(d_1),Equity Derivatives,Sensitivity to volatility.
+Theta (Call),\Theta = -\frac{S e^{-q\tau} \sigma N'(d_1)}{2\sqrt{\tau}} - r K e^{-r\tau} N(d_2) + q S e^{-q\tau} N(d_1),Equity Derivatives,Time decay.
+Rho (Call),\rho = K \tau e^{-r\tau} N(d_2),Equity Derivatives,Sensitivity to interest rate.
+Margrabe Exchange,V = S_1 N(d_1) - S_2 N(d_2),Equity Derivatives,Option to exchange one asset for another.
+Dupire Local Vol,\sigma_{loc}^2 = (\partial_T C + \dots) / (0.5 K^2 \partial_{KK} C),Equity Derivatives,Implies local vol structure from market prices.
+Heston Model SDEs,dS=(r-q)S dt + \sqrt{v}S dW_S; dv=\kappa(\theta-v)dt + \xi\sqrt{v}dW_v,Equity Derivatives,Stochastic volatility model with mean reversion.
+Euler-Maruyama,S_{t+1} = S_t + \mu S \Delta t + \sigma S \Delta W,Numerical Methods,Basic SDE discretization.
+Crank-Nicolson,\frac{u^{n+1}-u^n}{\Delta t} = 0.5 \mathcal{L}u^{n+1} + 0.5 \mathcal{L}u^n,Numerical Methods,Finite difference scheme for PDEs (2nd order).
+Carr-Madan FFT,C(k) = \frac{e^{-\alpha k}}{\pi} \int e^{-ivk} \psi(v) dv,Numerical Methods,Fast pricing using Characteristic Function.
+Value at Risk (Normal),VaR = \mu - z_\alpha \sigma,Risk Management, quantile of loss distribution.
+Expected Shortfall,ES = \mu + \frac{\sigma \phi(z)}{1-\alpha},Risk Management,Mean of tail losses (coherent risk measure).
+Generalized Pareto,G(x) = 1 - (1+\xi x/\beta)^{-1/\xi},Risk Management,EVT distribution for fat tails.
+Markowitz Optimization,\min w^T \Sigma w \quad \text{s.t.} \quad w^T \mu = R,Portfolio Mgmt,Mean-Variance framework.
+Black-Litterman,E[R] = [(\tau \Sigma)^{-1} + P^T \Omega^{-1} P]^{-1} [\dots],Portfolio Mgmt,Bayesian update of market equilibrium with views.
+Kelly Criterion,f^* = (\mu - r)/\sigma^2,Portfolio Mgmt,Optimal size to maximize log wealth.
+Risk Parity,w_i \text{MRC}_i = w_j \text{MRC}_j,Portfolio Mgmt,Equal risk contribution allocation.
+Rough Heston SDE,V_t = V_0 + \int K^H(t-s)\kappa(\theta - V_s)ds + \int K^H(t-s)\sigma\sqrt{V_s} dW_s,Equity Derivatives,Non-Markovian rough volatility (H ≈ 0.1).
+APT Expected Return,\mathbb{E}[R_i] = r_f + \sum_{j=1}^k \beta_{ij} \lambda_j,Asset Pricing,Arbitrage Pricing Theory.
+Zero-Beta Portfolio,\mathbf{w}_{ZB} \in \{\mathbf{w}: \mathbf{w}^\top \mathbf{B} = \mathbf{0}\},Asset Pricing,Portfolio immune to systematic factors.
+Fama-French Three-Factor,R_i - r_f = \alpha_i + \beta_M (R_M - r_f) + \beta_{SMB} SMB + \beta_{HML} HML,Asset Pricing,Empirical asset pricing model.
+Credit Value Adjustment,CVA = (1-R) \int \mathbb{E}[e^{-rt} V_t^+ 1_{\tau=t}],XVA,Cost of counterparty default risk.
+Funding Value Adjustment,FVA = \int \mathbb{E}[ (r_F - r_C) V_t^+ ] dt,XVA,Cost of uncollateralized funding.
+Neural Network Approximation,\hat{V}(S,t; \theta) = W_2 \phi(W_1 [S,t,\sigma,r,T,K] + b_1) + b_2,Machine Learning,Universal approximation for option pricing.
+Prospect Theory,v(x) = x^\alpha (x \geq 0), - \lambda (-x)^\beta (x < 0),Behavioral Finance,Value function with loss aversion.
+Market Impact,\Delta p = \frac{Q}{V} + \kappa \sqrt{|Q|},High-Frequency Trading,Price impact of large orders.
