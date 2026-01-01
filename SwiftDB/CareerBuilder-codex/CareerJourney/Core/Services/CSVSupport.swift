@@ -234,8 +234,9 @@ enum CSVParser {
         let trimmed = value.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return nil }
 
-        let isoFormatter = makeISOFormatter()
-        if let date = isoFormatter.date(from: trimmed) {
+        let formatter = ISO8601DateFormatter()
+        formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+        if let date = formatter.date(from: trimmed) {
             return date
         }
 
@@ -248,11 +249,7 @@ enum CSVParser {
         return nil
     }
 
-    private static func makeISOFormatter() -> ISO8601DateFormatter {
-        let formatter = ISO8601DateFormatter()
-        formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        return formatter
-    }
+
 
     private static func makeFallbackFormatters() -> [DateFormatter] {
         ["yyyy-MM-dd", "MM/dd/yyyy", "M/d/yyyy"].map { pattern in
@@ -283,7 +280,9 @@ enum CSVExporter {
         ].joined(separator: ","))
 
         for job in jobs {
-            let dateString = makeISOFormatter().string(from: job.dateOfApplication)
+            let formatter = ISO8601DateFormatter()
+            formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
+            let dateString = formatter.string(from: job.dateOfApplication)
             let skills = job.desiredSkillNames.joined(separator: ";")
             let row = [
                 job.id.uuidString,

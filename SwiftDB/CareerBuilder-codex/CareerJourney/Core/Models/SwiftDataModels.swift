@@ -3,7 +3,7 @@
 //  CareerKit
 //
 //  SwiftData model definitions for persistent storage
-//  Refactored following Apple Sample Code patterns from Trips sample
+//  Refactored following Apple Sample Code patterns from Landmarks sample
 //
 
 import SwiftUI
@@ -508,7 +508,9 @@ extension SwiftDataJobApplication {
             dateOfApplication: Date().addingTimeInterval(-86400 * 7), // 7 days ago
             location: "Cupertino, CA",
             jobDescription: "Join our team to build amazing products",
+            isFavorite: true,
             jobType: .fullTime,
+            desiredSkillNames: ["Swift", "SwiftUI", "Core Data", "Combine"],
             remoteWorkType: .hybrid
         )
     }
@@ -521,8 +523,10 @@ extension SwiftDataJobApplication {
                 status: .applied,
                 dateOfApplication: Date().addingTimeInterval(-86400 * 7),
                 location: "Cupertino, CA",
-                jobDescription: "Build next-generation software products",
+                jobDescription: "Build next-generation software products using Swift and SwiftUI. Work on cutting-edge iOS applications that millions of users interact with daily.",
+                isFavorite: true,
                 jobType: .fullTime,
+                desiredSkillNames: ["Swift", "SwiftUI", "Core Data", "Combine", "XCTest"],
                 remoteWorkType: .hybrid
             ),
             SwiftDataJobApplication(
@@ -531,8 +535,9 @@ extension SwiftDataJobApplication {
                 status: .interview,
                 dateOfApplication: Date().addingTimeInterval(-86400 * 14),
                 location: "Mountain View, CA",
-                jobDescription: "Develop iOS applications for Google services",
+                jobDescription: "Develop iOS applications for Google services. Collaborate with cross-functional teams to deliver high-quality mobile experiences.",
                 jobType: .fullTime,
+                desiredSkillNames: ["Swift", "Objective-C", "UIKit", "Google APIs"],
                 remoteWorkType: .remote
             ),
             SwiftDataJobApplication(
@@ -541,8 +546,31 @@ extension SwiftDataJobApplication {
                 status: .offer,
                 dateOfApplication: Date().addingTimeInterval(-86400 * 21),
                 location: "Redmond, WA",
-                jobDescription: "Work on Azure cloud services",
+                jobDescription: "Work on Azure cloud services and developer tools. Build scalable backend services and APIs that power Microsoft's cloud platform.",
                 jobType: .fullTime,
+                desiredSkillNames: ["C#", ".NET", "Azure", "Kubernetes", "Docker"],
+                remoteWorkType: .onsite
+            ),
+            SwiftDataJobApplication(
+                companyName: "Meta",
+                jobTitle: "Frontend Engineer",
+                status: .screening,
+                dateOfApplication: Date().addingTimeInterval(-86400 * 3),
+                location: "Menlo Park, CA",
+                jobDescription: "Build user interfaces for Facebook's web applications. Work with React, TypeScript, and modern web technologies.",
+                jobType: .fullTime,
+                desiredSkillNames: ["React", "TypeScript", "JavaScript", "GraphQL"],
+                remoteWorkType: .hybrid
+            ),
+            SwiftDataJobApplication(
+                companyName: "Amazon",
+                jobTitle: "Backend Engineer",
+                status: .rejected,
+                dateOfApplication: Date().addingTimeInterval(-86400 * 30),
+                location: "Seattle, WA",
+                jobDescription: "Design and implement scalable backend services for Amazon's e-commerce platform. Handle millions of transactions daily.",
+                jobType: .fullTime,
+                desiredSkillNames: ["Java", "Spring", "AWS", "Microservices"],
                 remoteWorkType: .onsite
             )
         ]
@@ -581,14 +609,6 @@ extension SwiftDataNote {
         )
     }
 }
-
-
-
-
-
-
-
-
 
 // MARK: - Extensions for Compatibility
 extension SwiftDataJobApplication {
@@ -999,25 +1019,31 @@ struct CareerDataPreviewProvider {
             configurations: config
         )
         
-        // Insert preview data
-        let applications = SwiftDataJobApplication.previewApplications
-        let documents = SwiftDataJobDocument.preview
-        let category = SwiftDataDocumentCategory.preview
-        let note = SwiftDataNote.preview
+        // Add preview data
+        let context = container.mainContext
         
-        applications.forEach { container.mainContext.insert($0) }
-        container.mainContext.insert(documents)
-        container.mainContext.insert(category)
-        container.mainContext.insert(note)
-        
-        // Set up relationships
-        if let firstApplication = applications.first {
-            documents.jobApplication = firstApplication
-            documents.category = category
-            note.associatedJobApplicationID = firstApplication.id
+        // Add job applications
+        for job in SwiftDataJobApplication.previewApplications {
+            context.insert(job)
         }
         
-        try? container.mainContext.save()
+        // Add documents
+        let previewDocument = SwiftDataJobDocument.preview
+        context.insert(previewDocument)
+        
+        // Add categories
+        let previewCategory = SwiftDataDocumentCategory.preview
+        context.insert(previewCategory)
+        
+        // Add notes
+        let previewNote = SwiftDataNote.preview
+        context.insert(previewNote)
+        
+        do {
+            try context.save()
+        } catch {
+            print("Failed to save preview data: \(error)")
+        }
         
         return container
     }

@@ -2,7 +2,7 @@
 //  CareerDataModel.swift
 //  CareerKit
 //
-//  Central data model following Apple Sample Code patterns
+//  Central data model following Apple Sample Code patterns from Landmarks
 //
 
 import SwiftUI
@@ -12,67 +12,64 @@ import OSLog
 import Combine
 import Observation
 
-/// Central data model following Apple Sample Code patterns from Landmarks and FoodTruck
+/// Central data model following Apple Sample Code patterns from Landmarks
 @Observable @MainActor
 final class CareerDataModel {
     // MARK: - Shared Instance
-
     static let shared = CareerDataModel()
-
-    // MARK: - Published Properties
     
+    // MARK: - Published Properties
     var jobApplications: [SwiftDataJobApplication] = []
     var documents: [SwiftDataJobDocument] = []
     var notes: [SwiftDataNote] = []
     
-    // Selection state
-    var selectedJobIDs: Set<UUID> = []
-    var selectedDocumentID: UUID?
-    var selectedNoteID: UUID?
+    // Selection state following Landmarks pattern
+    var selectedJob: SwiftDataJobApplication?
+    var selectedDocument: SwiftDataJobDocument?
+    var selectedNote: SwiftDataNote?
     
-    var selectedJob: SwiftDataJobApplication? {
-        guard let firstID = selectedJobIDs.first else { return nil }
-        return jobApplications.first { $0.id == firstID }
+    // Navigation state following Landmarks pattern
+    var path: NavigationPath = NavigationPath() {
+        didSet {
+            // Check if the person navigates away from a view that's showing the inspector.
+            if path.count < oldValue.count && isInspectorPresented == true {
+                // Dismiss the inspector.
+                isInspectorPresented = false
+            }
+        }
     }
-    
-    // Navigation state
-    var path: NavigationPath = NavigationPath()
     var isInspectorPresented: Bool = false
     
     // Search and filter state
     var searchText: String = "" {
         didSet {
-            if jobStore?.searchText != searchText {
-                jobStore?.searchText = searchText
+            if oldValue != searchText {
+                updateFilteredContent()
             }
-            updateFilteredContent()
         }
     }
     
     var filterStatus: JobStatus? = nil {
         didSet {
-            if jobStore?.filterStatus != filterStatus {
-                jobStore?.filterStatus = filterStatus
+            if oldValue != filterStatus {
+                updateFilteredContent()
             }
-            updateFilteredContent()
         }
     }
     
     var showFavoritesOnly: Bool = false {
         didSet {
-            if jobStore?.showFavoritesOnly != showFavoritesOnly {
-                jobStore?.showFavoritesOnly = showFavoritesOnly
+            if oldValue != showFavoritesOnly {
+                updateFilteredContent()
             }
-            updateFilteredContent()
         }
     }
     
     var sortOption: JobSortOption = .dateApplied {
         didSet {
-            if jobStore?.sortOption != sortOption {
-                jobStore?.sortOption = sortOption
+            if oldValue != sortOption {
+                updateFilteredContent()
             }
-            updateFilteredContent()
         }
     }
     
@@ -81,9 +78,21 @@ final class CareerDataModel {
     var filteredDocuments: [SwiftDataJobDocument] = []
     var filteredNotes: [SwiftDataNote] = []
     
+    // Computed properties for organization
+    var favoriteJobs: [SwiftDataJobApplication] {
+        filteredJobs.filter { $0.isFavorite }
+    }
+    
+    var jobsByStatus: [JobStatus: [SwiftDataJobApplication]] {
+        Dictionary(grouping: filteredJobs, by: { $0.status })
+    }
+    
     // UI State
     var isLoading = false
     var error: Error?
+    
+    // Window size for responsive design
+    var windowSize: CGSize = .zero
     
     // Data stores
     private var jobStore: JobStore?
@@ -103,7 +112,7 @@ final class CareerDataModel {
     // MARK: - Initialization
     
     init() {
-
+        initializeModelContainer()
     }
     
     private func initializeModelContainer() {
@@ -127,11 +136,32 @@ final class CareerDataModel {
             self.jobStore = jobStore
             documentStore.jobStore = jobStore
             noteStore.jobStore = jobStore
+            
+            // Load initial data
+            initializeDataIfNeeded()
             bindStores()
-
+            
         } catch {
             logger.error("❌ Failed to initialize model container: \(error.localizedDescription)")
         }
+    }
+
+    func configureStores(
+        jobStore: JobStore,
+        documentStore: DocumentStore,
+        noteStore: NoteStore,
+        modelContext: ModelContext
+    ) {
+        self.jobStore = jobStore
+        self.documentStore = documentStore
+        self.noteStore = noteStore
+        self.modelContext = modelContext
+
+        documentStore.jobStore = jobStore
+        noteStore.jobStore = jobStore
+
+        bindStores()
+        updateFilteredContent()
     }
     
     // MARK: - Data Management
@@ -161,9 +191,6 @@ final class CareerDataModel {
         jobApplications = jobStore.jobApplications
         documents = documentStore.documents
         notes = noteStore.notes
-        selectedJobIDs = jobStore.selectedJobIDs
-        selectedDocumentID = documentStore.selectedDocumentID
-        selectedNoteID = noteStore.selectedNoteID
 
         bindStores()
         updateFilteredContent()
@@ -184,58 +211,11 @@ final class CareerDataModel {
             }
             .store(in: &cancellables)
 
-        jobStore.$selectedJobIDs
-            .receive(on: RunLoop.main)
-            .sink { [weak self] selection in
-                self?.selectedJobIDs = selection
-                self?.updateFilteredContent()
-            }
-            .store(in: &cancellables)
-
-        jobStore.$searchText
-            .receive(on: RunLoop.main)
-            .sink { [weak self] text in
-                guard let self, self.searchText != text else { return }
-                self.searchText = text
-            }
-            .store(in: &cancellables)
-
-        jobStore.$filterStatus
-            .receive(on: RunLoop.main)
-            .sink { [weak self] status in
-                guard let self, self.filterStatus != status else { return }
-                self.filterStatus = status
-            }
-            .store(in: &cancellables)
-
-        jobStore.$showFavoritesOnly
-            .receive(on: RunLoop.main)
-            .sink { [weak self] showFavoritesOnly in
-                guard let self, self.showFavoritesOnly != showFavoritesOnly else { return }
-                self.showFavoritesOnly = showFavoritesOnly
-            }
-            .store(in: &cancellables)
-
-        jobStore.$sortOption
-            .receive(on: RunLoop.main)
-            .sink { [weak self] sortOption in
-                guard let self, self.sortOption != sortOption else { return }
-                self.sortOption = sortOption
-            }
-            .store(in: &cancellables)
-
         documentStore.$documents
             .receive(on: RunLoop.main)
             .sink { [weak self] documents in
                 self?.documents = documents
                 self?.updateFilteredContent()
-            }
-            .store(in: &cancellables)
-
-        documentStore.$selectedDocumentID
-            .receive(on: RunLoop.main)
-            .sink { [weak self] documentID in
-                self?.selectedDocumentID = documentID
             }
             .store(in: &cancellables)
 
@@ -246,16 +226,9 @@ final class CareerDataModel {
                 self?.updateFilteredContent()
             }
             .store(in: &cancellables)
-
-        noteStore.$selectedNoteID
-            .receive(on: RunLoop.main)
-            .sink { [weak self] noteID in
-                self?.selectedNoteID = noteID
-            }
-            .store(in: &cancellables)
     }
     
-    private func updateFilteredContent() {
+    func updateFilteredContent() {
         // Filter jobs
         filteredJobs = jobApplications.filter { job in
             // Search filter
@@ -313,6 +286,50 @@ final class CareerDataModel {
         }
     }
     
+    // MARK: - Favorite Management (Following Landmarks Pattern)
+    
+    func isFavorite(_ job: SwiftDataJobApplication) -> Bool {
+        return job.isFavorite
+    }
+    
+    func toggleFavorite(_ job: SwiftDataJobApplication) {
+        if isFavorite(job) {
+            removeFavorite(job)
+        } else {
+            addFavorite(job)
+        }
+    }
+    
+    func addFavorite(_ job: SwiftDataJobApplication) {
+        job.isFavorite = true
+        job.updateModifiedDate()
+        
+        // Save to SwiftData
+        if let modelContext = modelContext {
+            do {
+                try modelContext.save()
+                logger.info("✅ Added job to favorites: \(job.companyName) - \(job.jobTitle)")
+            } catch {
+                logger.error("❌ Failed to save favorite: \(error.localizedDescription)")
+            }
+        }
+    }
+    
+    func removeFavorite(_ job: SwiftDataJobApplication) {
+        job.isFavorite = false
+        job.updateModifiedDate()
+        
+        // Save to SwiftData
+        if let modelContext = modelContext {
+            do {
+                try modelContext.save()
+                logger.info("✅ Removed job from favorites: \(job.companyName) - \(job.jobTitle)")
+            } catch {
+                logger.error("❌ Failed to save favorite removal: \(error.localizedDescription)")
+            }
+        }
+    }
+    
     // MARK: - Actions
     
     func showAddJobWindow() {
@@ -336,6 +353,29 @@ final class CareerDataModel {
         jobStore?.importBackup(url: url)
     }
     
+    // MARK: - Navigation Path Extensions (Following Landmarks Pattern)
+    
+    func navigateToJob(_ job: SwiftDataJobApplication) {
+        selectedJob = job
+        path.append(job)
+    }
+    
+    func navigateToDocument(_ document: SwiftDataJobDocument) {
+        selectedDocument = document
+        path.append(document)
+    }
+    
+    func navigateToNote(_ note: SwiftDataNote) {
+        selectedNote = note
+        path.append(note)
+    }
+    
+    func popNavigation() {
+        if !path.isEmpty {
+            path.removeLast()
+        }
+    }
+    
     // MARK: - Utilities
     
     var uniqueCompanies: [String] {
@@ -352,25 +392,13 @@ final class CareerDataModel {
     }
 }
 
-// MARK: - Navigation Path Extensions
+// MARK: - Preview Data Support
 
 extension CareerDataModel {
-    func navigateToJob(_ job: SwiftDataJobApplication) {
-        selectedJobIDs = [job.id]
-        path.append(job)
-    }
-    
-    func navigateToDocument(_ document: SwiftDataJobDocument) {
-        path.append(document)
-    }
-    
-    func navigateToNote(_ note: SwiftDataNote) {
-        path.append(note)
-    }
-    
-    func popNavigation() {
-        if !path.isEmpty {
-            path.removeLast()
-        }
+    static var preview: CareerDataModel {
+        let model = CareerDataModel()
+        model.jobApplications = SwiftDataJobApplication.previewApplications
+        model.filteredJobs = SwiftDataJobApplication.previewApplications
+        return model
     }
 }

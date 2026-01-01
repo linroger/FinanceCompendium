@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  CareerKit
 //
-//  Main application content view with native macOS UI following Apple Sample Code patterns
+//  Main application content view following Apple Sample Code patterns
 //
 
 import SwiftUI
@@ -23,7 +23,6 @@ struct ContentView: View {
     @State private var selection: NavigationOption? = .jobs
     @State private var isInspectorPresented = false
     @State private var columnVisibility: NavigationSplitViewVisibility = .automatic
-    @State private var navigationPath: NavigationPath = NavigationPath()
     
     // Search state
     @State private var searchText = ""
@@ -43,15 +42,15 @@ struct ContentView: View {
     }
     
     var body: some View {
-        @Bindable var model = model
-
+        @Bindable var modelData = model
+        
         NavigationSplitView(columnVisibility: $columnVisibility) {
             sidebar
         } detail: {
             detailContent
         }
         .navigationSplitViewStyle(.prominentDetail)
-        .searchable(text: $searchText, placement: .sidebar, prompt: "Search jobs, companies, or skills")
+        .searchable(text: $modelData.searchText, placement: .sidebar, prompt: "Search jobs, companies, or skills")
         .inspector(isPresented: $isInspectorPresented) {
             inspectorContent
         }
@@ -63,7 +62,7 @@ struct ContentView: View {
             await initializeData()
         }
         .onChange(of: searchText) { _, newValue in
-            model.searchText = newValue
+            modelData.searchText = newValue
         }
         .onChange(of: responsiveConfig.shouldCollapseSidebar) { _, shouldCollapse in
             updateColumnVisibility(forShouldCollapse: shouldCollapse)
@@ -112,8 +111,7 @@ extension ContentView {
 extension ContentView {
     @ViewBuilder
     private var detailContent: some View {
-        @Bindable var model = model
-        NavigationStack(path: $model.path) {
+        NavigationStack(path: Binding(get: { model.path }, set: { model.path = $0 })) {
             if let selection {
                 selection.viewForPage()
             } else {
@@ -124,10 +122,10 @@ extension ContentView {
             ConsolidatedJobDetailView(job: job)
         }
         .navigationDestination(for: SwiftDataJobDocument.self) { document in
-            EnhancedDocumentsMainView()
+            DocumentDetailView(document: document)
         }
         .navigationDestination(for: SwiftDataNote.self) { note in
-            ConsolidatedNotesView()
+            NoteDetailView(note: note)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.ultraThinMaterial)
@@ -163,6 +161,7 @@ extension ContentView {
     private var inspectorContent: some View {
         if let selectedJob = model.selectedJob {
             ConsolidatedJobDetailView(job: selectedJob)
+                .frame(minWidth: 300, idealWidth: 350)
         } else {
             EmptyView()
         }
@@ -173,8 +172,6 @@ extension ContentView {
 extension ContentView {
     @ToolbarContentBuilder
     private var toolbarContent: some ToolbarContent {
-        @Bindable var model = model
-
         ToolbarItem(placement: .navigation) {
             Button {
                 NSApp.keyWindow?.firstResponder?.tryToPerform(#selector(NSSplitViewController.toggleSidebar(_:)), with: nil)
@@ -211,7 +208,7 @@ extension ContentView {
                 Divider()
                     .frame(height: 20)
                 
-                Toggle(isOn: $model.showFavoritesOnly) {
+                Toggle(isOn: Binding(get: { model.showFavoritesOnly }, set: { model.showFavoritesOnly = $0 })) {
                     Image(systemName: model.showFavoritesOnly ? "star.fill" : "star")
                 }
                 .toggleStyle(.button)
@@ -291,7 +288,7 @@ extension ContentView {
 extension ContentView {
     @MainActor
     private func initializeData() async {
-        
+        model.initializeDataIfNeeded()
         
         // Check if we need data migration
         if let modelContext = model.modelContext {
@@ -369,8 +366,7 @@ enum NavigationOption: String, CaseIterable, Identifiable, Hashable {
     func viewForPage() -> some View {
         switch self {
         case .jobs:
-            Text("Job List View - Use sidebar to select jobs")
-                .foregroundColor(.secondary)
+            JobApplicationsView()
         case .stats:
             EnhancedStatsView()
         case .documents:
@@ -388,49 +384,10 @@ enum FocusArea: String {
     case inspector
 }
 
-#if DEBUG
-// MARK: - Preview with Mock Data
-@MainActor
-private var previewJobStore: JobStore {
-    let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    do {
-        let container = try ModelContainer(for: SwiftDataJobApplication.self, configurations: config)
-        let docStore = DocumentStore(modelContext: container.mainContext)
-        return JobStore(documentStore: docStore, modelContext: container.mainContext)
-    } catch {
-        return JobStore()
-    }
-}
-
-@MainActor
-private var previewDocumentStore: DocumentStore {
-    let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    do {
-        let container = try ModelContainer(for: SwiftDataJobDocument.self, configurations: config)
-        return DocumentStore(modelContext: container.mainContext)
-    } catch {
-        return DocumentStore()
-    }
-}
-
-@MainActor
-private var previewNoteStore: NoteStore {
-    let config = ModelConfiguration(isStoredInMemoryOnly: true)
-    do {
-        let container = try ModelContainer(for: SwiftDataNote.self, configurations: config)
-        return NoteStore(modelContext: container.mainContext)
-    } catch {
-        return NoteStore()
-    }
-}
-#endif
-
 // MARK: - Preview
 #Preview {
     ContentView()
-        .environmentObject(previewJobStore)
-        .environmentObject(previewDocumentStore)
-        .environmentObject(previewNoteStore)
+        .environment(CareerDataModel.shared)
         .environmentObject(KeyboardShortcutManager.shared)
         .environmentObject(AccessibilityManager.shared)
 }

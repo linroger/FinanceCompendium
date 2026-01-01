@@ -264,14 +264,14 @@ struct EnhancedStatsView: View {
         let filteredJobs = filterJobsByTimeRange(jobStore.filteredJobs)
         let totalApplications = filteredJobs.count
         let offers = filteredJobs.filter { $0.status == .offer }.count
-        let interviews = filteredJobs.filter { $0.status == .interviewing || $0.status == .offer }.count
+        let interviews = filteredJobs.filter { [.screening, .interview, .offer].contains($0.status) }.count
         let rejected = filteredJobs.filter { $0.status == .rejected }.count
         let successRate = totalApplications > 0 ? Double(offers) / Double(totalApplications) * 100 : 0
 
         let statText = """
         📊 CareerKit Statistics
         ━━━━━━━━━━━━━━━━━━━━━━━
-        Period: \(selectedTimeRange.label)
+        Period: \(selectedTimeRange.title)
 
         📝 Total Applications: \(totalApplications)
         🎉 Offers: \(offers)
@@ -300,16 +300,16 @@ struct EnhancedStatsView: View {
         let filteredJobs = filterJobsByTimeRange(jobStore.filteredJobs)
         let totalApplications = filteredJobs.count
         let offers = filteredJobs.filter { $0.status == .offer }.count
-        let interviews = filteredJobs.filter { $0.status == .interviewing || $0.status == .offer }.count
+        let interviews = filteredJobs.filter { [.screening, .interview, .offer].contains($0.status) }.count
         let rejected = filteredJobs.filter { $0.status == .rejected }.count
-        let pending = filteredJobs.filter { $0.status == .applied || $0.status == .interviewing }.count
+        let pending = filteredJobs.filter { [.applied, .screening, .interview].contains($0.status) }.count
         let successRate = totalApplications > 0 ? Double(offers) / Double(totalApplications) * 100 : 0
 
         let printContent = """
         CareerKit Analytics Report
         ==========================
 
-        Period: \(selectedTimeRange.label)
+        Period: \(selectedTimeRange.title)
         Generated: \(Date().formatted(.dateTime))
 
         Summary Statistics

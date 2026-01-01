@@ -13,12 +13,12 @@ struct ConsolidatedJobSidebar: View {
     @EnvironmentObject var jobStore: JobStore
     @EnvironmentObject var documentStore: DocumentStore
     @EnvironmentObject private var keyboardManager: KeyboardShortcutManager
+    @Environment(CareerDataModel.self) private var modelData
     @Environment(\.windowSizeClass) var sizeClass
-    
+
     @State private var searchText = ""
     @State private var selectedStatus: JobStatus? = nil
     @State private var showFavoriteOnly = false
-    @Binding var sortOption: JobSortOption
     @FocusState private var isSearchFocused: Bool
     @FocusState private var isListFocused: Bool
     
@@ -64,12 +64,12 @@ struct ConsolidatedJobSidebar: View {
                 ForEach(JobSortOption.allCases, id: \.self) { option in
                     Button(action: {
                         withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
-                            sortOption = option
+                            modelData.sortOption = option
                         }
                     }) {
                         HStack {
                             Text(option.title)
-                            if sortOption == option {
+                            if modelData.sortOption == option {
                                 Image(systemName: "checkmark")
                             }
                         }
@@ -338,7 +338,7 @@ struct ConsolidatedJobSidebar: View {
             searchText: searchText,
             selectedStatus: selectedStatus,
             showFavoriteOnly: showFavoriteOnly,
-            sortOption: sortOption
+            sortOption: modelData.sortOption
         )
     }
     

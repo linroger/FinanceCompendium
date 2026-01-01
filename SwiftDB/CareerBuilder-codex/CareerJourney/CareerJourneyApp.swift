@@ -2,7 +2,7 @@
 //  CareerJourneyApp.swift
 //  CareerJourney
 //
-//  Main app entry point following Apple Sample Code patterns
+//  Main app entry point following Apple Sample Code patterns from Landmarks
 //
 
 import SwiftUI
@@ -36,17 +36,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 @main
 struct CareerJourneyApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     // Set up the model container for SwiftData
     let container: ModelContainer
     
     // Shared managers and services
     private let importExportHelper = ImportExportHelper()
     private let performanceOptimizer: PerformanceOptimizer
-    @State private var modelData = CareerDataModel()
-@State private var accessibilityManager = AccessibilityManager()
+    @State private var modelData = CareerDataModel.shared
+    @StateObject private var jobStore: JobStore
+    @StateObject private var documentStore: DocumentStore
+    @StateObject private var noteStore: NoteStore
+    @State private var accessibilityManager = AccessibilityManager()
     @State private var keyboardManager = KeyboardShortcutManager()
     private let settingsManager = SettingsManager.shared
     
+    @MainActor
     init() {
         // Initialize container using factory method
         let (containerResult, performanceOptimizerResult) = Self.createContainer()
@@ -97,6 +102,24 @@ struct CareerJourneyApp: App {
                 }
             }
         }
+
+        let context = container.mainContext
+        let documentStore = DocumentStore(modelContext: context)
+        let noteStore = NoteStore(modelContext: context)
+        let jobStore = JobStore(documentStore: documentStore, noteStore: noteStore, modelContext: context)
+        documentStore.jobStore = jobStore
+        noteStore.jobStore = jobStore
+
+        _jobStore = StateObject(wrappedValue: jobStore)
+        _documentStore = StateObject(wrappedValue: documentStore)
+        _noteStore = StateObject(wrappedValue: noteStore)
+
+        modelData.configureStores(
+            jobStore: jobStore,
+            documentStore: documentStore,
+            noteStore: noteStore,
+            modelContext: context
+        )
     }
     
     /// Factory method to create ModelContainer with proper error recovery
@@ -183,6 +206,10 @@ struct CareerJourneyApp: App {
         WindowGroup {
             ContentView()
                 .environment(modelData)
+                .environmentObject(jobStore)
+                .environmentObject(documentStore)
+                .environmentObject(noteStore)
+                .environmentObject(importExportHelper)
                 .environmentObject(keyboardManager)
                 .environmentObject(accessibilityManager)
                 .environmentObject(settingsManager)
@@ -205,8 +232,11 @@ struct CareerJourneyApp: App {
                 .withUnifiedErrorHandling()
                 .frame(minWidth: 1000, idealWidth: 1400, maxWidth: .infinity,
                        minHeight: 700, idealHeight: 900, maxHeight: .infinity)
-                // Handle import from Safari clipper
-
+                .onGeometryChange(for: CGSize.self) { geometry in
+                    geometry.size
+                } action: { size in
+                    modelData.windowSize = size
+                }
         }
         .defaultSize(width: 1400, height: 900)
         .modelContainer(container)
@@ -220,6 +250,10 @@ struct CareerJourneyApp: App {
         Settings {
             SettingsView()
                 .environmentObject(settingsManager)
+                .environmentObject(jobStore)
+                .environmentObject(documentStore)
+                .environmentObject(noteStore)
+                .environmentObject(importExportHelper)
                 .environment(modelData)
                 .frame(minWidth: 720, idealWidth: 800, maxWidth: 920,
                        minHeight: 540, idealHeight: 620, maxHeight: 740)

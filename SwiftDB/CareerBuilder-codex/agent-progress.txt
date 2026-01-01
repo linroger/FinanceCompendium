@@ -78,3 +78,10 @@ Session log:
   Tests run: xcodebuild -project CareerJourney.xcodeproj -scheme CareerJourney -configuration Debug -derivedDataPath ./DerivedData-CLI CODE_SIGNING_ALLOWED=NO build (CLI); XcodeBuildMCP build_macos timed out
   Result: Build succeeded; chart sizing/ordering adjusted; manual UI verification pending; bd DB schema mismatch (await_type) blocks DB-backed issue updates
   Remaining follow-ups/known issues: visually verify charts in Statistics; resolve bd DB migration/await_type schema error; proceed with Native Settings + Foundation Models follow-ups
+
+- 2026-01-01T08:47:44Z | branch: main
+  Feature/bug: Restore ContentView navigation wiring, inject shared stores in App, fix stats/map compile, and persist NavigationSplitView state
+  Files touched: CareerJourney/Core/Services/ChartDataCache+IntegrationGuide.swift, CareerJourney/Features/Stats/Views/EnhancedStatsView.swift, CareerJourney/Features/Stats/Views/Components/EnhancedMapClusteringView.swift, CareerJourney/Features/Main/ContentView.swift, CareerJourney/CareerJourneyApp.swift, CareerJourney/Core/Models/CareerDataModel.swift, handoff.md, agent-progress.txt
+  Tests run: XcodeBuildMCP build_macos (Debug) — succeeded
+  Result: build succeeds; ContentView uses ConsolidatedJobSidebar; stores injected; column visibility persisted; window size tracked in model
+  Remaining follow-ups/known issues: apply Native Settings UI patterns, Swift Charts styling/accessibility refinements, and Foundation Models availability/guardrail updates; run manual scenarios for feature_list.json

@@ -568,7 +568,7 @@ struct ConsolidatedJobDetailView: View {
             .keyboardShortcut("e", modifiers: .command)
             
             Button {
-                jobStore.toggleFavorite(for: job.id)
+                jobStore.toggleFavorite(job)
             } label: {
                 Label(
                     job.isFavorite ? "Remove from Favorites" : "Add to Favorites",
@@ -910,7 +910,10 @@ struct EditDescriptionView: View {
                 .keyboardShortcut(.escape)
                 
                 Button("Save") {
-                    jobStore.updateJobDescription(job, description: tempDescription)
+                    job.jobDescription = tempDescription
+                    Task {
+                        try? await jobStore.updateJob(job)
+                    }
                     isEditingDescription = false
                 }
                 .buttonStyle(.borderedProminent)

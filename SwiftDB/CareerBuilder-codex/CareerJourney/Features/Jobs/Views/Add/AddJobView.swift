@@ -2,232 +2,285 @@
 //  AddJobView.swift
 //  CareerKit
 //
-//  View for adding new job applications
+//  Add job view following Apple Sample Code patterns
 //
 
 import SwiftUI
 import SwiftData
 
 struct AddJobView: View {
+    @Environment(CareerDataModel.self) private var modelData
     @Environment(\.dismiss) private var dismiss
     @Environment(\.modelContext) private var modelContext
     
-    @EnvironmentObject var jobStore: JobStore
-    @EnvironmentObject var docStore: DocumentStore
-    
     @Binding var isPresented: Bool
     
-    @State private var viewModel = JobViewModel()
-    @State private var importedDocuments: [SwiftDataJobDocument] = []
-    @State private var isSaving = false
-    @State private var showError = false
+    // Form state
+    @State private var companyName = ""
+    @State private var jobTitle = ""
+    @State private var location = ""
+    @State private var jobDescription = ""
+    @State private var notes = ""
+    @State private var jobLink = ""
+    @State private var status: JobStatus = .applied
+    @State private var jobType: JobType = .fullTime
+    @State private var remoteWorkType: RemoteWorkType = .onsite
+    @State private var dateOfApplication = Date()
+    @State private var jobDeadline: Date?
+    @State private var salaryMin: String = ""
+    @State private var salaryMax: String = ""
+    @State private var salaryCurrency: SalaryCurrency = .usd
+    @State private var salaryPeriod: SalaryPeriod = .yearly
+    @State private var desiredSkills: [String] = []
+    @State private var newSkill = ""
+    @State private var isFavorite = false
+    @State private var coverLetter = ""
+    
+    @State private var showingError = false
     @State private var errorMessage = ""
     
     var body: some View {
         NavigationStack {
-            JobFormSection(
-                viewModel: viewModel,
-                importedDocuments: $importedDocuments,
-                onSave: saveJob,
-                onCancel: dismiss.callAsFunction,
-                saveButtonTitle: "Add Job",
-                locations: jobStore.uniqueLocations,
-                availableSkills: jobStore.uniqueSkills,
-                jobStore: jobStore
-            )
+            Form {
+                // Basic Information Section
+                Section("Basic Information") {
+                    TextField("Company Name", text: $companyName)
+                        .textFieldStyle(.roundedBorder)
+                    
+                    TextField("Job Title", text: $jobTitle)
+                        .textFieldStyle(.roundedBorder)
+                    
+                    TextField("Location", text: $location)
+                        .textFieldStyle(.roundedBorder)
+                    
+                    TextField("Job Link (Optional)", text: $jobLink)
+                        .textFieldStyle(.roundedBorder)
+                    
+                    Picker("Status", selection: $status) {
+                        ForEach(JobStatus.allCases, id: \.self) { status in
+                            Text(status.rawValue).tag(status)
+                        }
+                    }
+                    
+                    Picker("Job Type", selection: $jobType) {
+                        ForEach(JobType.allCases, id: \.self) { type in
+                            Text(type.rawValue).tag(type)
+                        }
+                    }
+                    
+                    Picker("Work Type", selection: $remoteWorkType) {
+                        ForEach(RemoteWorkType.allCases, id: \.self) { type in
+                            Text(type.rawValue).tag(type)
+                        }
+                    }
+                }
+                
+                // Dates Section
+                Section("Dates") {
+                    DatePicker("Application Date", selection: $dateOfApplication, displayedComponents: .date)
+                    
+                    DatePicker("Job Deadline", selection: Binding(
+                        get: { jobDeadline ?? Date() },
+                        set: { jobDeadline = $0 }
+                    ), displayedComponents: .date)
+                    
+                    Button("Clear Deadline") {
+                        jobDeadline = nil
+                    }
+                    .disabled(jobDeadline == nil)
+                }
+                
+                // Salary Section
+                Section("Salary") {
+                    HStack {
+                        TextField("Min", text: $salaryMin)
+                            .textFieldStyle(.roundedBorder)
+                        
+                        Text("-")
+                        
+                        TextField("Max", text: $salaryMax)
+                            .textFieldStyle(.roundedBorder)
+                    }
+                    
+                    Picker("Currency", selection: $salaryCurrency) {
+                        ForEach(SalaryCurrency.allCases, id: \.self) { currency in
+                            Text(currency.rawValue).tag(currency)
+                        }
+                    }
+                    
+                    Picker("Period", selection: $salaryPeriod) {
+                        ForEach(SalaryPeriod.allCases, id: \.self) { period in
+                            Text(period.rawValue).tag(period)
+                        }
+                    }
+                }
+                
+                // Skills Section
+                Section("Skills") {
+                    HStack {
+                        TextField("Add Skill", text: $newSkill)
+                            .textFieldStyle(.roundedBorder)
+                        
+                        Button("Add") {
+                            if !newSkill.isEmpty && !desiredSkills.contains(newSkill) {
+                                desiredSkills.append(newSkill)
+                                newSkill = ""
+                            }
+                        }
+                        .disabled(newSkill.isEmpty)
+                    }
+                    
+                    if !desiredSkills.isEmpty {
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack {
+                                ForEach(desiredSkills, id: \.self) { skill in
+                                    HStack {
+                                        Text(skill)
+                                            .font(.caption)
+                                        Button(action: {
+                                            desiredSkills.removeAll { $0 == skill }
+                                        }) {
+                                            Image(systemName: "xmark.circle.fill")
+                                                .foregroundColor(.secondary)
+                                        }
+                                        .buttonStyle(.plain)
+                                    }
+                                    .padding(.horizontal, 8)
+                                    .padding(.vertical, 4)
+                                    .background(Color.accentColor.opacity(0.1))
+                                    .cornerRadius(8)
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                // Description Section
+                Section("Description") {
+                    TextEditor(text: $jobDescription)
+                        .frame(minHeight: 100)
+                        .cornerRadius(8)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 8)
+                                .stroke(Color.secondary.opacity(0.2), lineWidth: 1)
+                        )
+                }
+                
+                // Cover Letter Section
+                Section("Cover Letter") {
+                    TextEditor(text: $coverLetter)
+                        .frame(minHeight: 100)
+                        .cornerRadius(8)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 8)
+                                .stroke(Color.secondary.opacity(0.2), lineWidth: 1)
+                        )
+                }
+                
+                // Notes Section
+                Section("Notes") {
+                    TextEditor(text: $notes)
+                        .frame(minHeight: 80)
+                        .cornerRadius(8)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 8)
+                                .stroke(Color.secondary.opacity(0.2), lineWidth: 1)
+                        )
+                }
+                
+                // Additional Options Section
+                Section("Options") {
+                    Toggle("Mark as Favorite", isOn: $isFavorite)
+                }
+            }
             .navigationTitle("Add Job Application")
-            .navigationSubtitle(subtitleText)
+            .navigationSubtitle("Create a new job application")
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Cancel") {
                         dismiss()
                     }
-                    .buttonStyle(.bordered)
-                    .keyboardShortcut(.cancelAction)
                 }
-
+                
                 ToolbarItem(placement: .confirmationAction) {
-                    HStack(spacing: 8) {
-                        if isSaving {
-                            ProgressView()
-                                .controlSize(.small)
-                                .frame(width: 16, height: 16)
-                        }
-
-                        Button(isSaving ? "Adding..." : "Add Job") {
-                            saveJob()
-                        }
-                        .buttonStyle(.borderedProminent)
-                        .disabled(!viewModel.isInputValid || isSaving)
-                        .keyboardShortcut(.defaultAction)
+                    Button("Add") {
+                        addJob()
                     }
+                    .disabled(!isValidForm)
                 }
             }
-            .alert("Unable to Save", isPresented: $showError) {
-                Button("OK", role: .cancel) { }
-            } message: {
-                Text(errorMessage)
-            }
         }
-        .frame(minWidth: 820, idealWidth: 920, minHeight: 640, idealHeight: 760)
-        .onAppear {
-            setupDefaults()
-            applyPendingClipboardIfNeeded()
-        }
-        .onChange(of: jobStore.pendingClipboardMarkdown) { _, _ in
-            applyPendingClipboardIfNeeded()
-        }
-    }
-
-    // MARK: - Computed Properties
-
-    private var subtitleText: String {
-        if isSaving {
-            return "Saving application..."
-        } else if !viewModel.companyName.isEmpty && !viewModel.jobTitle.isEmpty {
-            return "\(viewModel.jobTitle) at \(viewModel.companyName)"
-        } else {
-            return "Fill in the required fields to continue"
+        .frame(minWidth: 500, idealWidth: 600, maxWidth: 700,
+               minHeight: 600, idealHeight: 800, maxHeight: .infinity)
+        .alert("Error", isPresented: $showingError) {
+            Button("OK", role: .cancel) { }
+        } message: {
+            Text(errorMessage)
         }
     }
     
-    // MARK: - Helper Methods
-    
-    private func setupDefaults() {
-        // Set default location if available
-        if let lastUsedLocation = jobStore.lastUsedLocation,
-           !lastUsedLocation.isEmpty {
-            viewModel.location = lastUsedLocation
-        } else if !jobStore.uniqueLocations.isEmpty {
-            viewModel.location = jobStore.uniqueLocations[0]
-        }
-        
-        // Set default status
-        viewModel.status = .applied
-    }
-
-    private func applyPendingClipboardIfNeeded() {
-        guard let markdown = jobStore.pendingClipboardMarkdown,
-              !markdown.isEmpty else { return }
-
-        // JobStore stages clipboard text; AddJobView consumes it and triggers AI parsing.
-        viewModel.jobDescription = markdown
-        jobStore.pendingClipboardMarkdown = nil
-
-        Task {
-            await viewModel.processPastedJobPostingWithAI()
-        }
+    private var isValidForm: Bool {
+        !companyName.isEmpty && !jobTitle.isEmpty
     }
     
-    private func saveJob() {
-        guard viewModel.isInputValid else { return }
-        
-        isSaving = true
-        
-        // Create new job
-        let newJob = viewModel.createJob()
-        
-        // Attach documents
-        newJob.documents = importedDocuments
-        
-        // Update document metadata
-        for document in importedDocuments {
-            document.associatedCompany = newJob.companyName
-            document.associatedJobTitle = newJob.jobTitle
-            document.associatedApplicationDate = newJob.applicationDate
-        }
-        
-        // Add to model context
-        modelContext.insert(newJob)
+    private func addJob() {
+        guard isValidForm else { return }
         
         do {
+            // Parse salary values
+            let minSalary = parseSalary(salaryMin)
+            let maxSalary = parseSalary(salaryMax)
+            
+            let newJob = SwiftDataJobApplication(
+                companyName: companyName.trimmingCharacters(in: .whitespacesAndNewlines),
+                jobTitle: jobTitle.trimmingCharacters(in: .whitespacesAndNewlines),
+                status: status,
+                dateOfApplication: dateOfApplication,
+                location: location.trimmingCharacters(in: .whitespacesAndNewlines),
+                linkToJobString: jobLink.isEmpty ? nil : jobLink.trimmingCharacters(in: .whitespacesAndNewlines),
+                salaryMin: minSalary,
+                salaryMax: maxSalary,
+                salaryCurrency: salaryCurrency,
+                salaryPeriod: salaryPeriod,
+                jobDescription: jobDescription.trimmingCharacters(in: .whitespacesAndNewlines),
+                coverLetter: coverLetter.trimmingCharacters(in: .whitespacesAndNewlines),
+                notes: notes.trimmingCharacters(in: .whitespacesAndNewlines),
+                isFavorite: isFavorite,
+                jobType: jobType,
+                desiredSkillNames: desiredSkills,
+                jobDeadline: jobDeadline,
+                remoteWorkType: remoteWorkType
+            )
+            
+            modelContext.insert(newJob)
             try modelContext.save()
             
-            // Update job store asynchronously
-            Task {
-                do {
-                    try await jobStore.addJob(newJob)
-                    
-                    await MainActor.run {
-                        // Update last used location
-                        jobStore.lastUsedLocation = newJob.location
-                        
-                        // Close the sheet
-                        isPresented = false
-                        dismiss()
-                    }
-                } catch {
-                    await MainActor.run {
-                        errorMessage = "Failed to update job store: \(error.localizedDescription)"
-                        showError = true
-                        isSaving = false
-                    }
-                }
-            }
+            // Update the model data - the filtered content will be updated automatically via observation
+            
+            dismiss()
+            
         } catch {
-            errorMessage = "Failed to save job: \(error.localizedDescription)"
-            showError = true
-            isSaving = false
+            errorMessage = "Failed to save job application: \(error.localizedDescription)"
+            showingError = true
         }
     }
-}
-
-// MARK: - Window Presenter
-struct AddJobWindowPresenter: View {
-    @EnvironmentObject var jobStore: JobStore
-    @EnvironmentObject var docStore: DocumentStore
-    @State private var windowRef: NSWindow?
     
-    let onClose: (() -> Void)?
-    
-    var body: some View {
-        AddJobView(isPresented: .constant(true))
-            .environmentObject(jobStore)
-            .environmentObject(docStore)
-            .background(WindowAccessor(window: $windowRef))
-            .onAppear {
-                configureWindow()
-            }
-    }
-    
-    private func configureWindow() {
-        guard let window = windowRef else { return }
+    private func parseSalary(_ text: String) -> Double? {
+        let cleaned = text
+            .replacingOccurrences(of: "$", with: "")
+            .replacingOccurrences(of: ",", with: "")
+            .replacingOccurrences(of: "k", with: "000")
+            .replacingOccurrences(of: "K", with: "000")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
         
-        window.title = "Add Job Application"
-        window.isRestorable = true
-        window.identifier = NSUserInterfaceItemIdentifier("AddJobWindow")
-        
-        // Set window constraints
-        window.minSize = NSSize(width: 700, height: 600)
-        window.maxSize = NSSize(width: 1000, height: 800)
-        
-        // Center window
-        window.center()
-        
-        // Make key and order front
-        window.makeKeyAndOrderFront(nil)
+        return Double(cleaned)
     }
 }
 
-// MARK: - Window Accessor
-private struct WindowAccessor: NSViewRepresentable {
-    @Binding var window: NSWindow?
-    
-    func makeNSView(context: Context) -> NSView {
-        let view = NSView()
-        DispatchQueue.main.async {
-            self.window = view.window
-        }
-        return view
-    }
-    
-    func updateNSView(_ nsView: NSView, context: Context) {}
-}
-
-// MARK: - Preview
 #Preview {
-    AddJobView(isPresented: .constant(true))
-        .environmentObject(JobStore())
-        .environmentObject(DocumentStore())
-        .modelContainer(for: [SwiftDataJobApplication.self, SwiftDataJobDocument.self], inMemory: true)
+    @Previewable @State var isPresented = true
+    
+    AddJobView(isPresented: $isPresented)
+        .environment(CareerDataModel.preview)
+        .frame(width: 600, height: 800)
 }
