@@ -1,0 +1,80 @@
+Project overview:
+CareerJourney is a SwiftUI macOS app for managing job applications, documents, and notes, backed by SwiftData stores and on-device parsing services.
+
+Session log:
+- 2025-12-30T17:23:25Z | branch: main
+  Feature/bug: AI parsing prompt + backup import robustness + cross-component comments
+  Files touched: CareerJourney/CareerJourneyApp.swift, CareerJourney/Core/Models/SwiftDataModels.swift, CareerJourney/Core/Services/SystemLanguageModelService.swift, CareerJourney/Core/Services/ImportExportHelper.swift, CareerJourney/Core/Services/LegacyDataMigrationService.swift, CareerJourney/Core/Stores/JobStore.swift, CareerJourney/Core/Stores/DocumentStore.swift, CareerJourney/Core/Stores/NoteStore.swift, CareerJourney/Core/ViewModels/JobViewModel.swift, CareerJourney/Core/ViewModels/SwiftDataJobViewModel.swift, CareerJourney/Features/Main/ContentView.swift, feature_list.json, agent-progress.txt
+  Tests run: not run (pending)
+  Result: code changes staged in working tree; validation pending
+  Remaining follow-ups/known issues: run import/AI parsing scenarios and update feature_list.json passes flags once verified
+
+- 2025-12-30T17:38:04Z | branch: main
+  Feature/bug: CSV import/export for job data
+  Files touched: CareerJourney/Core/Stores/JobStore.swift, CareerJourney/Core/Services/LegacyDataMigrationService.swift, CareerJourney/Core/Services/ImportExportHelper.swift, CareerJourney/Features/Main/ContentView.swift, CareerJourney/Features/Main/MenuBarCommands.swift, CareerJourney/CareerJourneyApp.swift, CareerJourney/Core/Models/SwiftDataModels.swift, handoff.md, feature_list.json, agent-progress.txt
+  Tests run: not run (pending)
+  Result: added CSV import/export flows with menu actions and CSV parsing; manual verification pending
+  Remaining follow-ups/known issues: run CSV round-trip scenario and mark feature_job_csv_import_export as passing
+
+- 2025-12-30T19:14:42Z | branch: main
+  Feature/bug: Build and run via xcodebuild (Debug, unsigned)
+  Files touched: handoff.md, agent-progress.txt
+  Tests run: xcodebuild -project CareerJourney.xcodeproj -scheme CareerJourney -destination 'platform=macOS' -configuration Debug CODE_SIGNING_ALLOWED=NO -derivedDataPath ./DerivedData-CLI build (warnings present)
+  Result: build succeeded; app launched via open ./DerivedData-CLI/Build/Products/Debug/CareerJourney.app
+  Remaining follow-ups/known issues: warning in CareerJourney/Features/Stats/Views/EnhancedStatsView.swift about unused 'calendar'
+
+- 2025-12-30T19:18:07Z | branch: main
+  Feature/bug: Toolbar Settings button now uses SwiftUI openSettings
+  Files touched: CareerJourney/Features/Main/ContentView.swift, handoff.md, agent-progress.txt
+  Tests run: not run (pending manual click verification)
+  Result: Settings action now calls openSettings() with fallback to SettingsLauncher
+  Remaining follow-ups/known issues: verify toolbar Settings opens Settings scene; remove unused warning in EnhancedStatsView if desired
+
+- 2025-12-30T19:32:38Z | branch: main
+  Feature/bug: Skip duplicate notes/documents during import
+  Files touched: CareerJourney/Core/Stores/NoteStore.swift, CareerJourney/Core/Stores/DocumentStore.swift, handoff.md, agent-progress.txt
+  Tests run: not run (pending manual import verification)
+  Result: note/document imports now compute signatures to skip duplicates
+  Remaining follow-ups/known issues: verify duplicate-skipping behavior in Notes/Documents imports
+
+- 2025-12-30T21:35:52Z | branch: main
+  Feature/bug: Add/Edit form layout overhaul + required skills prompt limit + cross-component comments
+  Files touched: CareerJourney/UIComponents/Forms/SwiftDataJobForm.swift, CareerJourney/Features/Jobs/Views/SwiftDataJobWindows.swift, CareerJourney/Core/Services/SystemLanguageModelService.swift, CareerJourney/Core/Services/AppleFoundationModelService.swift, CareerJourney/CareerJourneyApp.swift, CareerJourney/Features/Main/ContentView.swift, CareerJourney/Core/Stores/JobStore.swift, CareerJourney/Core/Stores/DocumentStore.swift, CareerJourney/Core/Stores/NoteStore.swift, CareerJourney/Core/Services/ImportExportHelper.swift, feature_list.json, build-cli-2025-12-31.log, agent-progress.txt
+  Tests run: xcodebuild -project CareerJourney.xcodeproj -scheme CareerJourney -destination 'platform=macOS' -configuration Debug CODE_SIGNING_ALLOWED=NO -derivedDataPath ./DerivedData-CLI build (log: build-cli-2025-12-31.log); open ./DerivedData-CLI/Build/Products/Debug/CareerJourney.app
+  Result: build succeeded; app launched; UI/AI manual validation pending
+  Remaining follow-ups/known issues: manually verify Add/Edit form layout, AI required skills output, and job description preservation in the running app
+
+- 2025-12-30T23:56:15Z | branch: main
+  Feature/bug: Fix ContentView type-checker build error; rebuild and launch app
+  Files touched: CareerJourney/Features/Main/ContentView.swift, handoff.md, agent-progress.txt, build-cli-2025-12-31-4.log
+  Tests run: xcodebuild -project CareerJourney.xcodeproj -scheme CareerJourney -configuration Debug -derivedDataPath ./DerivedData-CLI build (log: build-cli-2025-12-31-4.log); open ./DerivedData-CLI/Build/Products/Debug/CareerJourney.app
+  Result: build succeeded; app launched; AppIntents metadata warning only
+  Remaining follow-ups/known issues: manual verification for salary currency/period conversion, export notes/documents, chart sizing, BACKUPS/CSV/dedupe flows, and AI parsing outputs
+
+- 2025-12-31T00:05:15Z | branch: main
+  Feature/bug: Clean build via xcodebuild
+  Files touched: handoff.md, agent-progress.txt, build-cli-2025-12-31-clean.log
+  Tests run: xcodebuild -project CareerJourney.xcodeproj -scheme CareerJourney -configuration Debug -derivedDataPath ./DerivedData-CLI clean build (log: build-cli-2025-12-31-clean.log)
+  Result: clean build succeeded; SwiftPM dependency-scan warnings for ArgumentParser/SwiftProtobuf
+  Remaining follow-ups/known issues: manual verification for salary conversion, export notes/documents, chart sizing, BACKUPS/CSV/dedupe flows, and AI parsing outputs
+
+- 2025-12-31T00:14:48Z | branch: codex-12-31-2025
+  Feature/bug: Initialize git repo and push branch to GitHub
+  Files touched: handoff.md, agent-progress.txt
+  Tests run: none
+  Result: branch codex-12-31-2025 pushed to https://github.com/linroger/CareerBuilder.git
+  Remaining follow-ups/known issues: manual verification for salary conversion, export notes/documents, chart sizing, BACKUPS/CSV/dedupe flows, and AI parsing outputs
+
+- 2025-12-31T00:17:20Z | branch: codex-12-31-2025
+  Feature/bug: Build and run latest version
+  Files touched: handoff.md, agent-progress.txt, build-cli-2025-12-31-latest.log
+  Tests run: xcodebuild -project CareerJourney.xcodeproj -scheme CareerJourney -configuration Debug -derivedDataPath ./DerivedData-CLI build (log: build-cli-2025-12-31-latest.log); open ./DerivedData-CLI/Build/Products/Debug/CareerJourney.app
+  Result: build succeeded; app launched
+  Remaining follow-ups/known issues: manual verification for salary conversion, export notes/documents, chart sizing, BACKUPS/CSV/dedupe flows, and AI parsing outputs
+
+- 2025-12-31T18:33:45Z | branch: main
+  Feature/bug: Stats chart sizing + chronological ordering updates using Swift Charts sample patterns
+  Files touched: CareerJourney/Features/Stats/Views/EnhancedStatsView.swift, handoff.md
+  Tests run: xcodebuild -project CareerJourney.xcodeproj -scheme CareerJourney -configuration Debug -derivedDataPath ./DerivedData-CLI CODE_SIGNING_ALLOWED=NO build (CLI); XcodeBuildMCP build_macos timed out
+  Result: Build succeeded; chart sizing/ordering adjusted; manual UI verification pending; bd DB schema mismatch (await_type) blocks DB-backed issue updates
+  Remaining follow-ups/known issues: visually verify charts in Statistics; resolve bd DB migration/await_type schema error; proceed with Native Settings + Foundation Models follow-ups

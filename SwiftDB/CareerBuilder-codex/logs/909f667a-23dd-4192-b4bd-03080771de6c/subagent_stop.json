@@ -1,0 +1,22 @@
+[
+  {
+    "session_id": "909f667a-23dd-4192-b4bd-03080771de6c",
+    "transcript_path": "/Users/rogerlin/.claude/projects/-Users-rogerlin-SwiftDB/909f667a-23dd-4192-b4bd-03080771de6c.jsonl",
+    "cwd": "/Users/rogerlin/SwiftDB/CareerBuilder-codex",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false,
+    "agent_id": "a1deb25",
+    "agent_transcript_path": "/Users/rogerlin/.claude/projects/-Users-rogerlin-SwiftDB/agent-a1deb25.jsonl"
+  },
+  {
+    "session_id": "909f667a-23dd-4192-b4bd-03080771de6c",
+    "transcript_path": "/Users/rogerlin/.claude/projects/-Users-rogerlin-SwiftDB/909f667a-23dd-4192-b4bd-03080771de6c.jsonl",
+    "cwd": "/Users/rogerlin/SwiftDB/CareerBuilder-codex",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "SubagentStop",
+    "stop_hook_active": false,
+    "agent_id": "a2d1940",
+    "agent_transcript_path": "/Users/rogerlin/.claude/projects/-Users-rogerlin-SwiftDB/agent-a2d1940.jsonl"
+  }
+]

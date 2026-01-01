@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+	sparseCheckout = true
+[remote "CareerBuilder"]
+	url = https://github.com/linroger/CareerBuilder.git
+	fetch = +refs/heads/*:refs/remotes/CareerBuilder/*
+[branch "codex-12-31-2025"]
+	remote = CareerBuilder
+	merge = refs/heads/codex-12-31-2025
+[merge "beads"]
+	driver = bd merge %A %O %A %B
+	name = bd JSONL merge driver

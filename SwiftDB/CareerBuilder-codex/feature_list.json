@@ -1,0 +1,136 @@
+[
+  {
+    "id": "feature_ai_parsing_preserves_job_description",
+    "category": "functional",
+    "description": "AI parsing extracts structured fields while keeping the pasted job description mostly unchanged",
+    "steps": [
+      "Paste a job description into the Add Job form",
+      "Trigger Parse with AI",
+      "Confirm company/title/location/skills populate",
+      "Verify the job description retains original wording with only light formatting"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_ai_prompt_preserves_description",
+    "category": "quality",
+    "description": "Apple Intelligence prompt explicitly requests minimal formatting without paraphrasing",
+    "steps": [
+      "Review the SystemLanguageModelService prompt",
+      "Confirm instructions forbid paraphrasing",
+      "Run a parse and inspect formattedJobDescription output"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_backup_import_json_variants",
+    "category": "functional",
+    "description": "Import parser handles legacy arrays and modern JSON backups with mixed date formats",
+    "steps": [
+      "Import CareerJourney_Backup-12-20-2025.json",
+      "Import JobsBackup.json",
+      "Verify jobs load without parse errors",
+      "Confirm duplicates are skipped"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_backup_bulk_import_folder",
+    "category": "functional",
+    "description": "Bulk import accepts the BACKUPS folder and routes jobs, notes, and documents appropriately",
+    "steps": [
+      "Choose BACKUPS as the import target",
+      "Confirm JSON backups import into Jobs",
+      "Confirm notes markdown imports into Notes",
+      "Confirm PDF/doc files import into Documents"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_cross_component_comments",
+    "category": "documentation",
+    "description": "Cross-component comments explain how views, stores, and services fit together",
+    "steps": [
+      "Review comments in CareerJourneyApp, ContentView, and stores",
+      "Confirm comments describe data flow between components"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_job_csv_import_export",
+    "category": "functional",
+    "description": "Jobs can be exported to CSV and re-imported without overwriting existing entries",
+    "steps": [
+      "Export jobs to CSV from the Data menu",
+      "Import the CSV back into the app",
+      "Verify jobs are created and duplicates are skipped"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_required_skills_prompt_limit",
+    "category": "quality",
+    "description": "Required skills AI output is concise and limited to relevant tools/domains",
+    "steps": [
+      "Paste a job description into the Add Job form",
+      "Trigger Parse with AI",
+      "Verify required skills list is limited to a small set of relevant items"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_add_edit_job_form_layout",
+    "category": "ui",
+    "description": "Add/Edit Job windows use a clean, aligned macOS-native layout with full-width editors",
+    "steps": [
+      "Open Add Job and Edit Job windows",
+      "Confirm text editors span full width and have visible borders",
+      "Confirm salary fields do not wrap and labels align cleanly"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_salary_currency_period",
+    "category": "functional",
+    "description": "Salary inputs support USD/RMB and monthly/yearly selection, storing converted USD/year values",
+    "steps": [
+      "Open Add Job or Edit Job",
+      "Select RMB and Monthly, enter min/max salaries",
+      "Save and verify salary charts use USD/year values with RMB entries differentiated"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_location_geocoding_normalization",
+    "category": "functional",
+    "description": "MapKit geocoding normalizes city names and clusters same-city jobs on maps and location charts",
+    "steps": [
+      "Add jobs with location variants in the same city",
+      "Open Stats map and location charts",
+      "Confirm entries are combined under a single normalized city"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_export_notes_documents_folder",
+    "category": "functional",
+    "description": "Notes and documents can be exported for later re-import",
+    "steps": [
+      "Use the Data menu to export notes to Markdown",
+      "Export documents to a folder",
+      "Re-import and verify no duplicates are created"
+    ],
+    "passes": false
+  },
+  {
+    "id": "feature_stats_chart_sizing",
+    "category": "ui",
+    "description": "Stats charts use readable bar sizing and horizontal scroll where needed",
+    "steps": [
+      "Open Statistics",
+      "Check company, salary, and location bar charts",
+      "Confirm bars are readable and charts scroll horizontally when dense"
+    ],
+    "passes": false
+  }
+]

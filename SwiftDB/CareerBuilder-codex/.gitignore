@@ -1,0 +1,37 @@
+# Xcode
+DerivedData/
+DerivedData-CLI/
+build/
+build-output/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# macOS
+.DS_Store
+*.swp
+*.lock
+
+# Agent tooling
+.gemini/
+.iflow/
+.qwen/
+
+# Other
+*.log
+*.tmp

@@ -1,0 +1,49 @@
+Microsoft
+Senior Software Engineer - Azure AI
+
+Location: Seattle, WA (Hybrid)
+Salary: $180,000 - $250,000 per year
+Job Type: Full Time
+Application Deadline: February 15, 2025
+
+About Microsoft
+Microsoft Corporation is a technology company developing and supporting software, services, devices, and solutions. Our mission is to empower every person and every organization on the planet to achieve more.
+
+About the Role
+We are looking for a Senior Software Engineer to join our Azure AI team. You will be working on cutting-edge AI/ML infrastructure that powers Microsoft's AI services at scale. This is an opportunity to work with world-class engineers and researchers on products that impact millions of users.
+
+Responsibilities
+- Design and implement scalable distributed systems for AI/ML workloads
+- Collaborate with researchers to productionize state-of-the-art ML models
+- Optimize system performance and resource utilization at scale
+- Lead technical design discussions and code reviews
+- Mentor junior engineers and interns
+- Contribute to open-source projects and technical publications
+
+Requirements
+- 7+ years of software engineering experience
+- Strong expertise in Python, C++, or Go
+- Experience with distributed systems and cloud infrastructure
+- Deep understanding of machine learning frameworks (TensorFlow, PyTorch)
+- Experience with Kubernetes, Docker, and containerization
+- Strong problem-solving and debugging skills
+- BS/MS in Computer Science or related field
+
+Nice to Have
+- PhD in Computer Science or Machine Learning
+- Experience with CUDA programming
+- Contributions to major ML frameworks
+- Publications in top-tier conferences
+
+Benefits & Perks
+- Competitive salary and annual bonuses
+- Stock awards and employee stock purchase plan
+- Comprehensive health, dental, and vision insurance
+- 401(k) with 50% match up to annual IRS limits
+- Generous parental leave (20 weeks)
+- Flexible work arrangements
+- Learning and development budget
+- On-campus gym and wellness centers
+- Free meals and snacks
+
+Apply at: https://careers.microsoft.com/us/en/job/1234567

@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71DFB4A2DE4837E00BF5010 /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB492DE4837E00BF5010 /* SwiftOpenAI */; };
+		A71DFB4D2DE483AF00BF5010 /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB4C2DE483AF00BF5010 /* Markdown */; };
+		A71DFB502DE4844F00BF5010 /* ContributionChart in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB4F2DE4844F00BF5010 /* ContributionChart */; };
+		A71DFB562DE4855100BF5010 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB552DE4855100BF5010 /* ArgumentParser */; };
+		A71DFB582DE4855100BF5010 /* generate-manual in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB572DE4855100BF5010 /* generate-manual */; };
+		A71DFB5B2DE4858000BF5010 /* TextTable in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB5A2DE4858000BF5010 /* TextTable */; };
+		A71DFB5E2DE4862D00BF5010 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB5D2DE4862D00BF5010 /* Algorithms */; };
+		A71DFB612DE4866100BF5010 /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB602DE4866100BF5010 /* AsyncAlgorithms */; };
+		A71DFB642DE4867500BF5010 /* SystemPackage in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB632DE4867500BF5010 /* SystemPackage */; };
+		A71DFB672DE4868700BF5010 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB662DE4868700BF5010 /* SwiftProtobuf */; };
+		A71DFB692DE4868700BF5010 /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB682DE4868700BF5010 /* SwiftProtobufPluginLibrary */; };
+		A71DFB6B2DE4868700BF5010 /* protoc-gen-swift in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB6A2DE4868700BF5010 /* protoc-gen-swift */; };
+		A71DFB732DE4899D00BF5010 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = A71DFB722DE4899D00BF5010 /* SwiftSoup */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A71DFB2C2DE482EE00BF5010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71DFB132DE482EC00BF5010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71DFB1A2DE482EC00BF5010;
+			remoteInfo = CareerJourney;
+		};
+		A71DFB362DE482EE00BF5010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71DFB132DE482EC00BF5010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71DFB1A2DE482EC00BF5010;
+			remoteInfo = CareerJourney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A71DFB1B2DE482EC00BF5010 /* CareerJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareerJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71DFB2B2DE482EE00BF5010 /* CareerJourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareerJourneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71DFB352DE482EE00BF5010 /* CareerJourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareerJourneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A71DFB1D2DE482EC00BF5010 /* CareerJourney */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CareerJourney;
+			sourceTree = "<group>";
+		};
+		A71DFB2E2DE482EE00BF5010 /* CareerJourneyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CareerJourneyTests;
+			sourceTree = "<group>";
+		};
+		A71DFB382DE482EE00BF5010 /* CareerJourneyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CareerJourneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A71DFB182DE482EC00BF5010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71DFB6B2DE4868700BF5010 /* protoc-gen-swift in Frameworks */,
+				A71DFB692DE4868700BF5010 /* SwiftProtobufPluginLibrary in Frameworks */,
+				A71DFB4A2DE4837E00BF5010 /* SwiftOpenAI in Frameworks */,
+				A71DFB4D2DE483AF00BF5010 /* Markdown in Frameworks */,
+				A71DFB612DE4866100BF5010 /* AsyncAlgorithms in Frameworks */,
+				A71DFB672DE4868700BF5010 /* SwiftProtobuf in Frameworks */,
+				A71DFB642DE4867500BF5010 /* SystemPackage in Frameworks */,
+				A71DFB562DE4855100BF5010 /* ArgumentParser in Frameworks */,
+				A71DFB5E2DE4862D00BF5010 /* Algorithms in Frameworks */,
+				A71DFB502DE4844F00BF5010 /* ContributionChart in Frameworks */,
+				A71DFB732DE4899D00BF5010 /* SwiftSoup in Frameworks */,
+				A71DFB5B2DE4858000BF5010 /* TextTable in Frameworks */,
+				A71DFB582DE4855100BF5010 /* generate-manual in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71DFB282DE482EE00BF5010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71DFB322DE482EE00BF5010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71DFB122DE482EC00BF5010 = {
+			isa = PBXGroup;
+			children = (
+				A71DFB1D2DE482EC00BF5010 /* CareerJourney */,
+				A71DFB2E2DE482EE00BF5010 /* CareerJourneyTests */,
+				A71DFB382DE482EE00BF5010 /* CareerJourneyUITests */,
+				A71DFB1C2DE482EC00BF5010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A71DFB1C2DE482EC00BF5010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71DFB1B2DE482EC00BF5010 /* CareerJourney.app */,
+				A71DFB2B2DE482EE00BF5010 /* CareerJourneyTests.xctest */,
+				A71DFB352DE482EE00BF5010 /* CareerJourneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A71DFB1A2DE482EC00BF5010 /* CareerJourney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71DFB3F2DE482EE00BF5010 /* Build configuration list for PBXNativeTarget "CareerJourney" */;
+			buildPhases = (
+				A71DFB172DE482EC00BF5010 /* Sources */,
+				A71DFB182DE482EC00BF5010 /* Frameworks */,
+				A71DFB192DE482EC00BF5010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A71DFB1D2DE482EC00BF5010 /* CareerJourney */,
+			);
+			name = CareerJourney;
+			packageProductDependencies = (
+				A71DFB492DE4837E00BF5010 /* SwiftOpenAI */,
+				A71DFB4C2DE483AF00BF5010 /* Markdown */,
+				A71DFB4F2DE4844F00BF5010 /* ContributionChart */,
+				A71DFB552DE4855100BF5010 /* ArgumentParser */,
+				A71DFB572DE4855100BF5010 /* generate-manual */,
+				A71DFB5A2DE4858000BF5010 /* TextTable */,
+				A71DFB5D2DE4862D00BF5010 /* Algorithms */,
+				A71DFB602DE4866100BF5010 /* AsyncAlgorithms */,
+				A71DFB632DE4867500BF5010 /* SystemPackage */,
+				A71DFB662DE4868700BF5010 /* SwiftProtobuf */,
+				A71DFB682DE4868700BF5010 /* SwiftProtobufPluginLibrary */,
+				A71DFB6A2DE4868700BF5010 /* protoc-gen-swift */,
+				A71DFB722DE4899D00BF5010 /* SwiftSoup */,
+			);
+			productName = CareerJourney;
+			productReference = A71DFB1B2DE482EC00BF5010 /* CareerJourney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A71DFB2A2DE482EE00BF5010 /* CareerJourneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71DFB422DE482EE00BF5010 /* Build configuration list for PBXNativeTarget "CareerJourneyTests" */;
+			buildPhases = (
+				A71DFB272DE482EE00BF5010 /* Sources */,
+				A71DFB282DE482EE00BF5010 /* Frameworks */,
+				A71DFB292DE482EE00BF5010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71DFB2D2DE482EE00BF5010 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A71DFB2E2DE482EE00BF5010 /* CareerJourneyTests */,
+			);
+			name = CareerJourneyTests;
+			packageProductDependencies = (
+			);
+			productName = CareerJourneyTests;
+			productReference = A71DFB2B2DE482EE00BF5010 /* CareerJourneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A71DFB342DE482EE00BF5010 /* CareerJourneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71DFB452DE482EE00BF5010 /* Build configuration list for PBXNativeTarget "CareerJourneyUITests" */;
+			buildPhases = (
+				A71DFB312DE482EE00BF5010 /* Sources */,
+				A71DFB322DE482EE00BF5010 /* Frameworks */,
+				A71DFB332DE482EE00BF5010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71DFB372DE482EE00BF5010 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A71DFB382DE482EE00BF5010 /* CareerJourneyUITests */,
+			);
+			name = CareerJourneyUITests;
+			packageProductDependencies = (
+			);
+			productName = CareerJourneyUITests;
+			productReference = A71DFB352DE482EE00BF5010 /* CareerJourneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71DFB132DE482EC00BF5010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A71DFB1A2DE482EC00BF5010 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					A71DFB2A2DE482EE00BF5010 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A71DFB1A2DE482EC00BF5010;
+					};
+					A71DFB342DE482EE00BF5010 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A71DFB1A2DE482EC00BF5010;
+					};
+				};
+			};
+			buildConfigurationList = A71DFB162DE482EC00BF5010 /* Build configuration list for PBXProject "CareerJourney" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A71DFB122DE482EC00BF5010;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A71DFB482DE4837E00BF5010 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */,
+				A71DFB4B2DE483AF00BF5010 /* XCRemoteSwiftPackageReference "swiftui-markdown" */,
+				A71DFB4E2DE4844F00BF5010 /* XCRemoteSwiftPackageReference "SwiftUI-ContributionChart" */,
+				A71DFB542DE4855100BF5010 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				A71DFB592DE4858000BF5010 /* XCRemoteSwiftPackageReference "TextTable" */,
+				A71DFB5C2DE4862D00BF5010 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				A71DFB5F2DE4866100BF5010 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
+				A71DFB622DE4867500BF5010 /* XCRemoteSwiftPackageReference "swift-system" */,
+				A71DFB652DE4868700BF5010 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				A71DFB712DE4899D00BF5010 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A71DFB1C2DE482EC00BF5010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A71DFB1A2DE482EC00BF5010 /* CareerJourney */,
+				A71DFB2A2DE482EE00BF5010 /* CareerJourneyTests */,
+				A71DFB342DE482EE00BF5010 /* CareerJourneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A71DFB192DE482EC00BF5010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71DFB292DE482EE00BF5010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71DFB332DE482EE00BF5010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A71DFB172DE482EC00BF5010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71DFB272DE482EE00BF5010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71DFB312DE482EE00BF5010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A71DFB2D2DE482EE00BF5010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71DFB1A2DE482EC00BF5010 /* CareerJourney */;
+			targetProxy = A71DFB2C2DE482EE00BF5010 /* PBXContainerItemProxy */;
+		};
+		A71DFB372DE482EE00BF5010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71DFB1A2DE482EC00BF5010 /* CareerJourney */;
+			targetProxy = A71DFB362DE482EE00BF5010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A71DFB3D2DE482EE00BF5010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X8AD8YC886;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A71DFB3E2DE482EE00BF5010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X8AD8YC886;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A71DFB402DE482EE00BF5010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CareerJourney;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CareerJourney/CareerJourney.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8AD8YC886;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linroger022.CareerJourney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		A71DFB412DE482EE00BF5010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CareerJourney;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CareerJourney/CareerJourney.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8AD8YC886;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linroger022.CareerJourney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		A71DFB432DE482EE00BF5010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8AD8YC886;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linroger022.CareerJourneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareerJourney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CareerJourney";
+			};
+			name = Debug;
+		};
+		A71DFB442DE482EE00BF5010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8AD8YC886;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linroger022.CareerJourneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareerJourney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CareerJourney";
+			};
+			name = Release;
+		};
+		A71DFB462DE482EE00BF5010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8AD8YC886;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linroger022.CareerJourneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.2;
+				TEST_TARGET_NAME = CareerJourney;
+			};
+			name = Debug;
+		};
+		A71DFB472DE482EE00BF5010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8AD8YC886;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linroger022.CareerJourneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.2;
+				TEST_TARGET_NAME = CareerJourney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A71DFB162DE482EC00BF5010 /* Build configuration list for PBXProject "CareerJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71DFB3D2DE482EE00BF5010 /* Debug */,
+				A71DFB3E2DE482EE00BF5010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71DFB3F2DE482EE00BF5010 /* Build configuration list for PBXNativeTarget "CareerJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71DFB402DE482EE00BF5010 /* Debug */,
+				A71DFB412DE482EE00BF5010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71DFB422DE482EE00BF5010 /* Build configuration list for PBXNativeTarget "CareerJourneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71DFB432DE482EE00BF5010 /* Debug */,
+				A71DFB442DE482EE00BF5010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71DFB452DE482EE00BF5010 /* Build configuration list for PBXNativeTarget "CareerJourneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71DFB462DE482EE00BF5010 /* Debug */,
+				A71DFB472DE482EE00BF5010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A71DFB482DE4837E00BF5010 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jamesrochabrun/SwiftOpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A71DFB4B2DE483AF00BF5010 /* XCRemoteSwiftPackageReference "swiftui-markdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jaywcjlove/swiftui-markdown.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A71DFB4E2DE4844F00BF5010 /* XCRemoteSwiftPackageReference "SwiftUI-ContributionChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VIkill33/SwiftUI-ContributionChart.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+		A71DFB542DE4855100BF5010 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		A71DFB592DE4858000BF5010 /* XCRemoteSwiftPackageReference "TextTable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cfilipov/TextTable";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A71DFB5C2DE4862D00BF5010 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		A71DFB5F2DE4866100BF5010 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-async-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+		A71DFB622DE4867500BF5010 /* XCRemoteSwiftPackageReference "swift-system" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-system.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.2;
+			};
+		};
+		A71DFB652DE4868700BF5010 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.29.0;
+			};
+		};
+		A71DFB712DE4899D00BF5010 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A71DFB492DE4837E00BF5010 /* SwiftOpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB482DE4837E00BF5010 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */;
+			productName = SwiftOpenAI;
+		};
+		A71DFB4C2DE483AF00BF5010 /* Markdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB4B2DE483AF00BF5010 /* XCRemoteSwiftPackageReference "swiftui-markdown" */;
+			productName = Markdown;
+		};
+		A71DFB4F2DE4844F00BF5010 /* ContributionChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB4E2DE4844F00BF5010 /* XCRemoteSwiftPackageReference "SwiftUI-ContributionChart" */;
+			productName = ContributionChart;
+		};
+		A71DFB552DE4855100BF5010 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB542DE4855100BF5010 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		A71DFB572DE4855100BF5010 /* generate-manual */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB542DE4855100BF5010 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = "generate-manual";
+		};
+		A71DFB5A2DE4858000BF5010 /* TextTable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB592DE4858000BF5010 /* XCRemoteSwiftPackageReference "TextTable" */;
+			productName = TextTable;
+		};
+		A71DFB5D2DE4862D00BF5010 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB5C2DE4862D00BF5010 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		A71DFB602DE4866100BF5010 /* AsyncAlgorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB5F2DE4866100BF5010 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */;
+			productName = AsyncAlgorithms;
+		};
+		A71DFB632DE4867500BF5010 /* SystemPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB622DE4867500BF5010 /* XCRemoteSwiftPackageReference "swift-system" */;
+			productName = SystemPackage;
+		};
+		A71DFB662DE4868700BF5010 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB652DE4868700BF5010 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		A71DFB682DE4868700BF5010 /* SwiftProtobufPluginLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB652DE4868700BF5010 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobufPluginLibrary;
+		};
+		A71DFB6A2DE4868700BF5010 /* protoc-gen-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB652DE4868700BF5010 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = "protoc-gen-swift";
+		};
+		A71DFB722DE4899D00BF5010 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A71DFB712DE4899D00BF5010 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A71DFB132DE482EC00BF5010 /* Project object */;
+}
