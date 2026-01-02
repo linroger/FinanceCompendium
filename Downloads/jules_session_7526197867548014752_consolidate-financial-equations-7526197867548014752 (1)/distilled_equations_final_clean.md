@@ -281,7 +281,265 @@ Forward equation for probability density under local volatility model. Describes
 
 **Kolmogorov Forward Equation**
 $$\frac{\partial p(x, t|x_0, t_0)}{\partial t} = -\frac{\partial}{\partial x}[\mu(x|t)p] + \frac{1}{2}\frac{\partial^2}{\partial x^2}[\sigma^2(x|t)p]$$
-Forward Kolmogorov equation describing evolution of transition probability density for diffusion processes.
+
+## Kolmogorov Forward Equation: Comprehensive Analysis
+
+### Mathematical Foundation and Derivation
+
+#### Connection to Stochastic Differential Equations
+
+The Kolmogorov Forward Equation, also known as the Fokker-Planck equation, provides the time evolution of the transition probability density function for diffusion processes. For a stochastic process described by the Itô stochastic differential equation:
+
+$$dX_t = \mu(X_t, t) dt + \sigma(X_t, t) dW_t$$
+
+where $X_t$ is the state variable, $\mu(x, t)$ is the drift coefficient, $\sigma(x, t)$ is the diffusion coefficient, and $W_t$ is a Wiener process, the Kolmogorov Forward Equation describes how the probability density $p(x, t|x_0, t_0)$ evolves over time.
+
+The equation expresses the rate of change of the probability density as the divergence of a probability current, combining both deterministic drift and stochastic diffusion effects.
+
+#### Derivation from Itô's Formula
+
+The derivation begins with the Chapman-Kolmogorov equation for Markov processes:
+
+$$p(x, t|x_0, t_0) = \int_{-\infty}^{\infty} p(x, t|y, s) p(y, s|x_0, t_0) dy$$
+
+Taking the time derivative and applying Itô's formula to the infinitesimal transition probability leads to the Fokker-Planck form. For a small time increment $dt$, the probability density evolves according to:
+
+$$\frac{\partial p}{\partial t} = -\frac{\partial}{\partial x}\left(\mu p - \frac{1}{2} \frac{\partial}{\partial x}(\sigma^2 p)\right)$$
+
+This can be expanded using the product rule to yield the standard form:
+
+$$\frac{\partial p}{\partial t} = -\mu \frac{\partial p}{\partial x} - p \frac{\partial \mu}{\partial x} + \frac{1}{2} \frac{\partial^2}{\partial x^2}(\sigma^2 p) + \frac{1}{2} p \frac{\partial^2 \sigma^2}{\partial x^2} + \frac{\partial p}{\partial x} \frac{\partial \sigma^2}{\partial x}$$
+
+The final simplified form assumes constant diffusion coefficients in the spatial derivatives, giving:
+
+$$\frac{\partial p}{\partial t} = -\frac{\partial}{\partial x}(\mu p) + \frac{1}{2} \frac{\partial^2}{\partial x^2}(\sigma^2 p)$$
+
+#### Relationship to Kolmogorov Backward Equation
+
+The Kolmogorov Backward Equation describes the same process from a different perspective:
+
+$$\frac{\partial p}{\partial t_0} = -\mu(x_0, t_0) \frac{\partial p}{\partial x_0} - \frac{1}{2} \sigma^2(x_0, t_0) \frac{\partial^2 p}{\partial x_0^2}$$
+
+While the Forward Equation tracks probability flow from initial to final states, the Backward Equation works backwards from final to initial conditions, making it more suitable for pricing problems where the payoff depends on the final state.
+
+#### Theoretical Basis in Functional Analysis
+
+From a functional analytic perspective, the Kolmogorov Forward Equation represents the adjoint operator of the infinitesimal generator of the diffusion process. The infinitesimal generator $\mathcal{L}$ acts on functions $f$ as:
+
+$$\mathcal{L}f = \mu \frac{\partial f}{\partial x} + \frac{1}{2} \sigma^2 \frac{\partial^2 f}{\partial x^2}$$
+
+The Forward Equation then describes the evolution of measures under this operator:
+
+$$\frac{\partial}{\partial t} \mu_t = \mu_t \mathcal{L}^*$$
+
+where $\mathcal{L}^*$ is the adjoint operator acting on probability densities.
+
+### Key Assumptions and Limitations
+
+#### Markov Property Assumption
+
+The equation assumes the underlying stochastic process is Markovian, meaning future states depend only on the current state, not on historical path information. This excludes processes with memory effects such as fractional Brownian motion or processes with long-range dependence.
+
+#### Diffusion Process Limitation
+
+The standard form assumes continuous sample paths with no jumps. Real financial assets may exhibit discontinuous price movements due to news events, earnings announcements, or market microstructure effects. Jump-diffusion extensions are needed for:
+
+- **Large Price Moves**: Corporate actions, macroeconomic announcements
+- **Liquidity Events**: Large trade impacts in illiquid markets
+- **Default Risk**: Sudden credit events in corporate bonds
+
+#### Stationary Transition Densities
+
+The equation assumes time-homogeneous coefficients (μ and σ² independent of absolute time). Non-stationary processes, common in interest rate models with time-dependent volatility, require extensions to time-inhomogeneous Fokker-Planck equations.
+
+#### Boundary Conditions Challenges
+
+The equation requires appropriate boundary conditions that may not be well-defined:
+
+- **Natural Boundaries**: For processes like geometric Brownian motion, the density must vanish at boundaries
+- **Reflecting Barriers**: For processes constrained within bounds (e.g., interest rates ≥ 0)
+- **Absorbing Barriers**: For processes that terminate at boundaries (e.g., default)
+
+#### Finite Moments Assumption
+
+The derivation assumes finite moments of the diffusion coefficients. Processes with infinite variance or discontinuous coefficients violate this assumption.
+
+#### Single-Dimensional Limitation
+
+The standard form is one-dimensional. Multi-dimensional processes require tensor product extensions, significantly increasing computational complexity.
+
+### Practical Applications in Finance
+
+#### Black-Scholes Partial Differential Equation
+
+The Kolmogorov Forward Equation forms the foundation for the Black-Scholes PDE. For a stock following geometric Brownian motion:
+
+$$dS_t = r S_t dt + \sigma S_t dW_t$$
+
+The transition density satisfies:
+
+$$\frac{\partial p}{\partial t} = -\frac{\partial}{\partial S}[r S p] + \frac{1}{2} \frac{\partial^2}{\partial S^2}[\sigma^2 S^2 p]$$
+
+For European options, this leads directly to the Black-Scholes equation for the option price V(S,t):
+
+$$\frac{\partial V}{\partial t} + r S \frac{\partial V}{\partial S} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} - r V = 0$$
+
+#### Interest Rate Models
+
+In term structure modeling, the Kolmogorov Forward Equation describes the evolution of the yield curve:
+
+**Vasicek Model (1977)**: Mean-reverting interest rates
+$$\frac{\partial p}{\partial t} = -\frac{\partial}{\partial r}[(\alpha - \beta r) p] + \frac{1}{2} \frac{\partial^2}{\partial r^2}[\sigma^2 p]$$
+
+**Cox-Ingersoll-Ross (CIR) Model**: Square-root diffusion ensuring non-negative rates
+$$\frac{\partial p}{\partial t} = -\frac{\partial}{\partial r}[(\alpha - \beta r) p] + \frac{1}{2} \frac{\partial^2}{\partial r^2}[\sigma \sqrt{r} p]$$
+
+**Heath-Jarrow-Morton Framework**: Market-consistent evolution of the entire yield curve
+
+#### Credit Risk Modeling
+
+In structural credit models, the Kolmogorov Forward Equation describes firm value dynamics and default probabilities:
+
+**Merton Model (1974)**: Firm value as geometric Brownian motion
+$$\frac{\partial p}{\partial t} = -\frac{\partial}{\partial V}[(\mu - \delta) V p] + \frac{1}{2} \frac{\partial^2}{\partial V^2}[\sigma^2 V^2 p]$$
+
+Default occurs when firm value falls below debt threshold, with the equation providing the risk-neutral default density.
+
+#### Commodity and Energy Markets
+
+Commodities often follow mean-reverting processes with seasonality:
+
+**Schwartz-Smith Model**: Two-factor model with spot price and convenience yield
+$$\begin{cases} \frac{\partial p_S}{\partial t} = -\frac{\partial}{\partial S}[\mu_S p_S] + \frac{1}{2} \frac{\partial^2}{\partial S^2}[\sigma_S^2 p_S] \\ \frac{\partial p_\delta}{\partial t} = -\frac{\partial}{\partial \delta}[(\alpha - \beta \delta) p_\delta] + \frac{1}{2} \frac{\partial^2}{\partial \delta^2}[\sigma_\delta^2 p_\delta] \end{cases}$$
+
+#### Volatility Surface Modeling
+
+The equation enables recovery of risk-neutral densities from option prices:
+
+**Breeden-Litzenberger Formula**: Risk-neutral density from European option prices
+$$q(K,T) = e^{rT} \frac{\partial^2 C}{\partial K^2}(K,T)$$
+
+This connects directly to the Kolmogorov Forward Equation, where the density evolution determines the volatility surface dynamics.
+
+#### Risk Management Applications
+
+**Value at Risk (VaR)**: The equation provides the foundation for generating loss distributions under risk-neutral dynamics for portfolio VaR calculations.
+
+**Stress Testing**: Alternative parameterizations of the drift and diffusion coefficients enable scenario analysis and stress testing frameworks.
+
+**Economic Capital**: Banks use the equation to model correlated asset movements for determining regulatory capital requirements.
+
+### Related Concepts and Extensions
+
+#### Kolmogorov Backward Equation
+
+The dual equation describing evolution backwards in time:
+
+$$\frac{\partial p}{\partial t_0} = \mu(x_0, t_0) \frac{\partial p}{\partial x_0} + \frac{1}{2} \sigma^2(x_0, t_0) \frac{\partial^2 p}{\partial x_0^2}$$
+
+While mathematically equivalent, the Backward Equation is more natural for pricing problems where boundary conditions are specified at maturity.
+
+#### Master Equation for Jump Processes
+
+For processes with discontinuous jumps, the master equation extends the Fokker-Planck form:
+
+$$\frac{\partial p}{\partial t} = -\frac{\partial}{\partial x}(\mu p) + \frac{1}{2} \frac{\partial^2}{\partial x^2}(\sigma^2 p) + \int_{-\infty}^{\infty} [p(x-y, t) w(y) - p(x, t) w(y)] dy$$
+
+where w(y) is the jump distribution. This includes Lévy processes and jump-diffusion models.
+
+#### Feynman-Kac Equation
+
+The connection between partial differential equations and stochastic processes:
+
+For the expectation $\mathbb{E}[u(X_T) | X_t = x]$, the Feynman-Kac equation is:
+
+$$\frac{\partial v}{\partial t} + \mu \frac{\partial v}{\partial x} + \frac{1}{2} \sigma^2 \frac{\partial^2 v}{\partial x^2} - r v = 0$$
+
+with terminal condition v(T) = u(x). This provides the PDE representation of stochastic expectations.
+
+#### Lévy Process Extensions
+
+Modern financial modeling extends beyond diffusion to Lévy processes:
+
+**Stable Distributions**: Infinite variance processes requiring fractional derivatives
+**Variance Gamma**: Finite variation Lévy processes with closed-form characteristic functions
+**Normal Inverse Gaussian**: Heavy-tailed distributions for asset returns
+
+#### Regime-Switching Models
+
+Time-inhomogeneous extensions with state-dependent parameters:
+
+$$\frac{\partial p_i}{\partial t} = -\frac{\partial}{\partial x}(\mu_i(x) p_i) + \frac{1}{2} \frac{\partial^2}{\partial x^2}(\sigma_i^2(x) p_i) + \sum_j \lambda_{ij} p_j$$
+
+where i,j index different market regimes with transition intensities λ_ij.
+
+#### Rough Volatility Models
+
+Recent advances incorporate rough volatility using fractional Brownian motion:
+
+$$\frac{\partial p}{\partial t} = -\frac{\partial}{\partial x}(\mu p) + \frac{1}{2} \frac{\partial^2}{\partial x^2}(v^{H}(x,t) p)$$
+
+where v^H incorporates Hurst parameter H < 1/2 for rough dynamics.
+
+### Implementation Considerations
+
+#### Finite Difference Methods
+
+The most common numerical approach for solving the Kolmogorov Forward Equation:
+
+**Explicit Schemes**: Simple forward Euler discretization
+$$\frac{p^{n+1}_i - p^n_i}{\Delta t} = -\frac{\mu_i p^n_i - \mu_{i-1} p^n_{i-1}}{\Delta x} + \frac{1}{2} \frac{\sigma^2_{i+1} p^n_{i+1} - 2\sigma^2_i p^n_i + \sigma^2_{i-1} p^n_{i-1}}{\Delta x^2}$$
+
+**Implicit Schemes**: Unconditionally stable Crank-Nicolson method
+$$\frac{p^{n+1}_i - p^n_i}{\Delta t} = \frac{1}{2} \left[ -\frac{\mu_i (p^{n+1}_i + p^n_i) - \mu_{i-1} (p^{n+1}_{i-1} + p^n_{i-1}) }{\Delta x} + \frac{1}{2} \frac{\sigma^2_{i+1} (p^{n+1}_{i+1} + p^n_{i+1}) - 2\sigma^2_i (p^{n+1}_i + p^n_i) + \sigma^2_{i-1} (p^{n+1}_{i-1} + p^n_{i-1})}{\Delta x^2} \right]$$
+
+**Stability Analysis**: Von Neumann analysis shows explicit schemes require Δt ≤ Δx²/σ² for stability.
+
+#### Monte Carlo Simulation
+
+Particle-based methods for high-dimensional problems:
+
+**Direct Simulation**: Generate sample paths and histogram densities
+**Kernel Density Estimation**: Smooth empirical distributions
+**Variance Reduction**: Control variates using known analytical solutions
+
+#### Boundary Condition Implementation
+
+Critical for accurate solutions:
+
+**Dirichlet Boundaries**: Fixed density values at boundaries (absorbing states)
+**Neumann Boundaries**: Zero flux conditions (natural boundaries)
+**Periodic Boundaries**: For processes on circles or tori
+
+#### Numerical Stability Challenges
+
+**Numerical Diffusion**: Discretization introduces spurious smoothing
+**Grid Convergence**: Adaptive mesh refinement for efficiency
+**Conservation Properties**: Ensuring probability mass conservation
+**Singularity Handling**: Treatment of boundaries and discontinuities
+
+#### High-Performance Computing
+
+Modern implementations leverage parallel computing:
+
+**GPU Acceleration**: CUDA/OpenCL for finite difference schemes
+**Distributed Computing**: Domain decomposition for large grids
+**Sparse Matrix Methods**: Efficient storage for implicit schemes
+
+#### Calibration and Parameter Estimation
+
+**Inverse Problems**: Solving for μ and σ² from observed densities
+**Regularization**: Preventing overfitting in ill-posed problems
+**Model Selection**: Information criteria for complexity assessment
+
+#### Validation and Testing
+
+**Conservation Laws**: Verify ∫p dx = 1 at all times
+**Moment Matching**: Compare computed moments with analytical results
+**Convergence Testing**: Grid refinement studies
+**Benchmarking**: Comparison against known analytical solutions
+
+The Kolmogorov Forward Equation remains the cornerstone of quantitative finance, providing the mathematical framework for understanding probability evolution in continuous-time models. Its applications span from basic option pricing to complex multi-asset portfolio management, though practical implementation requires careful consideration of numerical methods, boundary conditions, and computational efficiency.
 
 **CGMY Process Characteristic**
 $$\nu(dx) = C \frac{e^{-G|x|}}{|x|^{1+Y}} dx_{x<0} + C \frac{e^{-Mx}}{x^{1+Y}} dx_{x>0}$$
