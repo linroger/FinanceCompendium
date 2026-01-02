@@ -1,0 +1,48 @@
+title,equation_latex,main_category,notes
+Expected Return,E[R] = sum_{i=1}^n w_i * E[R_i],Portfolio Theory and Risk Management,This equation calculates the expected return of a portfolio. E[R] represents the portfolio expected return
+Portfolio Variance,sigma^2_p = sum_{i=1}^n sum_{j=1}^n w_i * w_j * sigma_i * sigma_j * rho_ij,Portfolio Theory and Risk Management,This equation calculates the variance of a portfolio. sigma^2_p represents the portfolio variance
+Portfolio Standard Deviation,sigma_p = sqrt(sigma^2_p),Portfolio Theory and Risk Management,This equation calculates the standard deviation (volatility) of a portfolio. sigma_p represents the portfolio volatility
+Covariance,Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Modern Portfolio Theory
+Correlation Coefficient,rho_ij = Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Modern Portfolio Theory
+Sharpe Ratio,Sharpe = (E[R_p] - R_f) / sigma_p,Portfolio Theory and Risk Management,This equation calculates the Sharpe ratio
+Treynor Ratio,Treynor = (E[R_p] - R_f) / beta_p,Portfolio Theory and Risk Management,This equation calculates the Treynor ratio
+Jensen's Alpha,alpha = R_p - (R_f + beta_p * (R_m - R_f)),Portfolio Theory and Risk Management,This equation calculates Jensen's alpha
+Information Ratio,IR = (R_p - R_b) / sigma_tracking,Portfolio Theory and Risk Management,This equation calculates the information ratio
+Tracking Error,sigma_tracking = sqrt(Var(R_p - R_b)),Portfolio Theory and Risk Management,This equation calculates the tracking error of a portfolio relative to a benchmark. sigma_tracking represents the standard deviation of the difference between portfolio return R_p and benchmark return R_b. Tracking error measures how closely the portfolio follows its benchmark.
+Capital Allocation Line,R_p = R_f + (E[R_m] - R_f) / sigma_m * sigma_p,Portfolio Theory and Risk Management,This equation defines the Capital Allocation Line (CAL). R_p represents the return of a portfolio on the CAL
+Capital Market Line,R_p = R_f + (E[R_m] - R_f) / sigma_m * sigma_p,Portfolio Theory and Risk Management,This equation defines the Capital Market Line (CML)
+Security Market Line,E[R_i] = R_f + beta_i * (E[R_m] - R_f),Portfolio Theory and Risk Management,This equation defines the Security Market Line (SML) from CAPM. E[R_i] represents the expected return of asset i
+Beta,beta_i = Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Modern Portfolio Theory
+Portfolio Beta,beta_p = sum_{i=1}^n w_i * beta_i,Portfolio Theory and Risk Management,This equation calculates the beta of a portfolio. beta_p represents the portfolio beta
+Efficient Frontier Optimization,min sigma^2_p subject to E[R_p] = target_return and sum w_i = 1,Portfolio Theory and Risk Management,This equation defines the mean-variance optimization problem for finding the efficient frontier. The objective is to minimize portfolio variance subject to achieving a target return and the weights summing to 1. The efficient frontier contains all optimal portfolios.
+Minimum Variance Portfolio,w_mvp = (Sigma^{-1} * 1) / (1' * Sigma^{-1} * 1),Portfolio Theory and Risk Management,This equation calculates the weights of the global minimum variance portfolio. w_mvp represents the portfolio weights
+Tangency Portfolio,w_tan = (Sigma^{-1} * (E[R] - R_f * 1)) / (1' * Sigma^{-1} * (E[R] - R_f * 1)),Portfolio Theory and Risk Management,This equation calculates the weights of the tangency portfolio (maximum Sharpe ratio portfolio). w_tan represents the portfolio weights
+Value at Risk (Parametric),VaR_alpha = mu_p - z_alpha * sigma_p,Portfolio Theory and Risk Management,This equation calculates the parametric (normal) VaR. VaR_alpha represents the maximum loss at confidence level alpha
+Value at Risk (Historical),VaR_alpha = -percentile(returns,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Metrics
+Expected Shortfall (CVaR),ES_alpha = E[Loss | Loss >= VaR_alpha],Portfolio Theory and Risk Management,This equation calculates Expected Shortfall (also called Conditional VaR or CVaR). ES_alpha represents the expected loss given that the loss exceeds VaR_alpha. ES is a coherent risk measure that considers tail risk beyond VaR.
+Expected Shortfall (Normal),ES_alpha = mu_p - (phi(z_alpha) / (1 - alpha)) * sigma_p,Portfolio Theory and Risk Management,This equation calculates ES under the normal distribution. ES_alpha represents the expected shortfall
+Incremental VaR,IVaR_i = VaR_portfolio - VaR_without_i,Portfolio Theory and Risk Management,This equation calculates the incremental VaR of an asset. IVaR_i represents the change in portfolio VaR when asset i is removed. Incremental VaR helps identify which assets contribute most to portfolio risk. Positive IVaR means the asset increases risk.
+Marginal VaR,MVaR_i = delta_VaR / delta_w_i = Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Metrics
+Component VaR,CVaR_i = w_i * MVaR_i,Portfolio Theory and Risk Management,This equation calculates the component VaR of an asset. CVaR_i represents the contribution of asset i to total portfolio VaR
+Risk Contribution,Risk_i = w_i * Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Metrics
+Maximum Drawdown,MDD = max((Peak_t - Trough_t) / Peak_t),Portfolio Theory and Risk Management,This equation calculates the maximum drawdown of a portfolio. MDD represents the largest peak-to-trough decline
+Average Drawdown,ADD = average of all drawdowns,Portfolio Theory and Risk Management,This equation calculates the average drawdown of a portfolio. ADD represents the average of all drawdowns over the period. Average drawdown complements maximum drawdown by providing information about typical loss severity.
+Sterling Ratio,Sterling = (E[R_p] - R_f) / average_drawdown,Portfolio Theory and Risk Management,This equation calculates the Sterling ratio
+Calmar Ratio,Calmar = (E[R_p] - R_f) / MDD,Portfolio Theory and Risk Management,This equation calculates the Calmar ratio
+Sortino Ratio,Sortino = (E[R_p] - R_f) / sigma_downside,Portfolio Theory and Risk Management,This equation calculates the Sortino ratio
+Downside Deviation,sigma_downside = sqrt(average of min(R_i - R_f,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Metrics
+Omega Ratio,Omega(alpha) = E[max(R_p - alpha,Portfolio Theory and Risk Management, 0)]
+Single-Factor Model,R_i = alpha_i + beta_i * R_m + epsilon_i,Portfolio Theory and Risk Management,This equation defines the single-factor (market) model. R_i represents the return of asset i
+Multi-Factor Model,R_i = alpha_i + sum_{j=1}^k beta_ij * F_j + epsilon_i,Portfolio Theory and Risk Management,This equation defines a multi-factor model. R_i represents the return of asset i
+Fama-French Three-Factor Model,R_i = alpha_i + beta_i * (R_m - R_f) + s_i * SMB + h_i * HML + epsilon_i,Portfolio Theory and Risk Management,This equation defines the Fama-French three-factor model. R_i represents the return
+Carhart Four-Factor Model,R_i = alpha_i + beta_i * (R_m - R_f) + s_i * SMB + h_i * HML + m_i * MOM + epsilon_i,Portfolio Theory and Risk Management,This equation defines the Carhart four-factor model. R_i represents the return
+Idiosyncratic Risk,sigma_epsilon_i^2 = Var(R_i) - beta_i^2 * Var(R_m),Portfolio Theory and Risk Management,This equation calculates the idiosyncratic (unsystematic) variance of an asset. sigma_epsilon_i^2 represents the variance of the asset-specific return
+Systematic Risk,sigma_systematic^2 = beta_i^2 * Var(R_m),Portfolio Theory and Risk Management,This equation calculates the systematic variance of an asset. sigma_systematic^2 represents the variance due to market movements
+R-squared,R^2 = 1 - Var(epsilon_i) / Var(R_i),Portfolio Theory and Risk Management,This equation calculates the R-squared of a factor model. R^2 represents the proportion of return variance explained by the factor model. R^2 close to 1 indicates that the factor model explains most of the return variation.
+Tracking Error Volatility,TEV = sqrt(Var(R_p - R_b)),Portfolio Theory and Risk Management,This equation calculates the tracking error volatility. TEV represents the standard deviation of the active return (difference between portfolio return R_p and benchmark return R_b). TEV measures the active risk taken by the portfolio manager.
+Active Share,Active Share = 0.5 * sum |w_p,Portfolio Theory and Risk Management,i|
+Rolling Beta,beta_rolling = Cov_rolling(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Factor Models
+Risk Parity,w_i = 1 / sigma_i / sum_{j=1}^n (1 / sigma_j),Portfolio Theory and Risk Management,This equation calculates the weights for a risk parity portfolio. w_i represents the weight of asset i
+Equal Risk Contribution,ERC_i = w_i * Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Management
+Risk Budgeting,Target Risk Contribution_i = b_i * sigma_p^2,Portfolio Theory and Risk Management,This equation defines the risk budgeting condition. Target Risk Contribution_i represents the desired risk contribution of asset i
+Kelly Criterion,f = (mu - R_f) / sigma^2,Portfolio Theory and Risk Management,This equation calculates the optimal fraction of capital to invest (Kelly criterion). f represents the optimal fraction

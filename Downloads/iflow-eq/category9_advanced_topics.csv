@@ -1,0 +1,45 @@
+title,equation_latex,main_category,notes
+Historical Volatility,sigma_hist = sqrt((1/(n-1)) * sum_{i=1}^n (ln(S_i/S_{i-1}) - mu)^2),Advanced Topics,This equation calculates historical volatility from price data. sigma_hist represents the historical volatility
+Exponentially Weighted Moving Average,sigma_EWMA^2 = lambda * sigma_{t-1}^2 + (1 - lambda) * r_t^2,Advanced Topics,This equation defines the EWMA volatility model. sigma_EWMA represents the EWMA volatility estimate
+GARCH(1,1) Model,Advanced Topics,Advanced Topics - Volatility Modeling
+GARCH(p,q) Model,Advanced Topics,Advanced Topics - Volatility Modeling
+EGARCH Model,ln(sigma_t^2) = omega + alpha * (|epsilon_{t-1}| / sigma_{t-1} - sqrt(2/pi)) + gamma * (epsilon_{t-1} / sigma_{t-1}) + beta * ln(sigma_{t-1}^2),Advanced Topics,This equation defines the EGARCH model
+GJR-GARCH Model,sigma_t^2 = omega + alpha * epsilon_{t-1}^2 + gamma * epsilon_{t-1}^2 * I(epsilon_{t-1} < 0) + beta * sigma_{t-1}^2,Advanced Topics,This equation defines the GJR-GARCH model
+Stochastic Volatility Model,dS_t = mu * S_t * dt + sqrt(v_t) * S_t * dW_t^S,Advanced Topics,Advanced Topics - Volatility Modeling
+Heston Correlation,E[dW_t^S * dW_t^v] = rho * dt,Advanced Topics,This equation defines the correlation between asset price and volatility shocks in the Heston model. rho represents the correlation coefficient
+Heston Characteristic Function,phi(u,Advanced Topics,Advanced Topics - Volatility Modeling
+SABR Model,dF_t = alpha_t * F_t^beta * dW_t^F,Advanced Topics,Advanced Topics - Volatility Modeling
+SABR Implied Volatility,sigma_BSM(K) = (alpha / (F^{1-beta})) * (z / x(z)) * (1 + ((1-beta)^2 * alpha^2 / (24 * F^{2-2beta}) + rho * beta * nu * alpha / (4 * F^{1-beta}) + (2 - 3 * rho^2) * nu^2 / 24) * T),Advanced Topics,This equation gives the implied volatility under the SABR model. sigma_BSM represents the Black-Scholes implied volatility
+Local Volatility Model,sigma_loc(K,Advanced Topics, T) * sqrt(1 + 2 * r * T / (K * sigma_BS(K
+Dupire Formula,sigma_loc(K,Advanced Topics,Advanced Topics - Volatility Modeling
+Poisson Process,N_t ~ Poisson(lambda * t),Advanced Topics,This equation defines the Poisson process for jump arrivals. N_t represents the number of jumps by time t
+Poisson Process Probability,P(N_t = n) = exp(-lambda * t) * (lambda * t)^n / n!,Advanced Topics,This equation gives the probability of n jumps occurring by time t. The Poisson distribution has mean lambda * t and variance lambda * t. The Poisson process is the standard model for discrete events like defaults or jumps in asset prices.
+Compound Poisson Process,X_t = sum_{i=1}^{N_t} Y_i,Advanced Topics,This equation defines the compound Poisson process. X_t represents the accumulated jump size
+Jump-Diffusion Model,dS_t = mu * S_t * dt + sigma * S_t * dW_t + S_t * dJ_t,Advanced Topics,This equation defines the Merton jump-diffusion model. dS_t is the asset price change
+Jump Component,dJ_t = (exp(Y) - 1) * dN_t,Advanced Topics,This equation defines the jump component in the jump-diffusion model. Y is the log jump size (typically normal)
+Merton Jump-Diffusion Solution,S_t = S_0 * exp((mu - 0.5 * sigma^2 - lambda * (exp(mu_J + 0.5 * sigma_J^2) - 1)) * t + sigma * W_t + sum_{i=1}^{N_t} Y_i),Advanced Topics,This equation gives the solution to the Merton jump-diffusion SDE. S_t represents the asset price
+Kou Double Exponential Jump Model,Y_i ~ p * exp(-eta_1) + (1 - p) * exp(-eta_2),Advanced Topics,This equation defines the Kou double exponential jump size distribution. Y_i represents the log jump size
+Variance Gamma Process,X_t = theta * G_t + sigma * W_{G_t},Advanced Topics,This equation defines the Variance Gamma (VG) process. X_t represents the log return
+CGMY Process,X_t = C * (M^{1-Y} * Gamma(-Y,Advanced Topics, G * G_t))
+Lévy Process,X_t = X_0 + mu * t + sigma * W_t + J_t,Advanced Topics,This equation defines a general Lévy process. X_t represents the process value
+Lévy Measure,nu(dx) = lambda * f_Y(x) dx,Advanced Topics,This equation defines the Lévy measure for jump processes. nu(dx) represents the intensity of jumps of size dx
+Characteristic Function of Lévy Process,phi(u) = exp(i * u * mu * t - 0.5 * sigma^2 * u^2 * t + t * integral_{R} (exp(i * u * x) - 1 - i * u * x * I(|x| < 1)) * nu(dx)),Advanced Topics,This equation defines the characteristic function of a Lévy process. phi(u) represents the characteristic function
+Fourier Transform Option Pricing,C = exp(-r * T) * (1/2pi) * integral_{i * infinity}^{-i * infinity} exp(-i * u * ln(K)) * psi(u) / (i * u) du,Advanced Topics,This equation defines option pricing using Fourier transform methods. C represents the call option price
+Super-Replication Price,V_super = inf_{hedge} E_Q[hedge payoff],Advanced Topics,This equation defines the super-replication price. V_super represents the minimum cost of a hedging strategy that dominates the payoff under all scenarios. In incomplete markets
+Sub-Replication Price,V_sub = sup_{hedge} E_Q[hedge payoff],Advanced Topics,This equation defines the sub-replication price. V_sub represents the maximum value of a hedging strategy that is dominated by the payoff under all scenarios. Sub-replication provides a lower bound on the option price.
+No-Arbitrage Price Interval,V_sub <= V_market <= V_super,Advanced Topics,This equation defines the no-arbitrage price interval in incomplete markets. The market price must lie between the sub-replication and super-replication prices. This interval can be wide in highly incomplete markets
+Utility-Based Pricing,V = sup_{consumption} E[U(consumption)],Advanced Topics,This equation defines utility-based pricing. V represents the value maximizing expected utility U of consumption
+Indifference Pricing,Indifference Price = E[U(W + payoff - price)] - E[U(W)],Advanced Topics,This equation defines the indifference price. The indifference price is the amount that makes the investor indifferent between holding the derivative and not holding it. Indifference pricing depends on the investor's utility function U and initial wealth W.
+Entropy Risk Measure,rho(X) = (1/alpha) * ln(E[exp(-alpha * X)]),Advanced Topics,This equation defines the entropic risk measure. rho(X) represents the risk-adjusted value of the random payoff X
+Convex Risk Measure,rho(X) = sup_{Q in Q} (E_Q[-X] - alpha(Q)),Advanced Topics,This equation defines a convex risk measure. rho(X) represents the risk measure
+Robust Optimization,min_{x} sup_{theta in Theta} f(x,Advanced Topics,Advanced Topics - Incomplete Markets
+Ambiguity Aversion,V = inf_{Q in Q} E_Q[payoff] + phi(Q),Advanced Topics,This equation defines pricing under model uncertainty (ambiguity aversion). V represents the value
+Good-Deal Bounds,theta_min <= theta <= theta_max,Advanced Topics,This equation defines the good-deal bounds on the market price of risk theta. The bounds restrict the set of equivalent martingale measures to those that are not too extreme. Good-deal bounds narrow the no-arbitrage price interval by excluding unrealistic pricing measures.
+Minimal Martingale Measure,dW_t^Q = dW_t^P - (sigma_t / sigma^2) * dW_t^P,Advanced Topics,This equation defines the minimal martingale measure. The minimal martingale measure is the equivalent martingale measure that is closest to the physical measure in terms of relative entropy. It is used when the market price of risk is not uniquely defined.
+Föllmer-Schweizer Decomposition,X_t = M_t + A_t,Advanced Topics,This equation defines the Föllmer-Schweizer decomposition. X_t represents the discounted payoff
+Mean-Variance Hedging,min E[(Payoff_T - Hedge_T)^2],Advanced Topics,This equation defines mean-variance hedging. The objective is to minimize the mean-squared hedging error between the payoff and the hedge portfolio. Mean-variance hedging is the optimal quadratic hedging strategy in incomplete markets.
+Quadratic Hedging,Hedge = delta_t * S_t + V_t,Advanced Topics,This equation defines quadratic hedging with a traded asset S_t and a residual value V_t. The hedge portfolio minimizes the mean-squared hedging error. Quadratic hedging is widely used when perfect hedging is impossible.
+Market Price of Model Risk,lambda_model = (V_model - V_true) / sigma_model,Advanced Topics,This equation defines the market price of model risk. lambda_model represents the Sharpe ratio of model risk
+Model Uncertainty,V = E_Q[payoff] + lambda * ModelRisk,Advanced Topics,This equation incorporates model risk into pricing. V represents the risk-adjusted value
+Deep Hedging,Hedge_theta(S_t) = NeuralNetwork_theta(S_t),Advanced Topics,This equation defines deep hedging using neural networks. Hedge_theta represents the hedging strategy parameterized by theta
+Reinforcement Learning for Option Pricing,V(S_t,Advanced Topics, E[V(S_{t+1}

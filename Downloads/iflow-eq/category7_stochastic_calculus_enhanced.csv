@@ -1,0 +1,43 @@
+title,equation_latex,main_category,notes
+Standard Brownian Motion,W_{0} = 0,Stochastic Calculus Foundations, Var(W_t) = t
+Brownian Motion Increments,W_{t+delta t} - W_{t} ~ N(0,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Quadratic Variation,[W,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Quadratic Variation Property,lim_{n->infinity} sum_{i=1}^n (W_{t_{i}} - W_{t_{i-1}})^2 = t,Stochastic Calculus Foundations,This equation shows how quadratic variation is calculated as the limit of squared increments. As the partition becomes finer
+Geometric Brownian Motion,dS_{t} = mu * S_{t} * dt + sigma * S_{t} * dW_{t},Stochastic Calculus Foundations,This is the Geometric Brownian Motion (GBM) SDE for asset prices. dS_t represents the change in asset price
+GBM Solution,S_{t} = S_{0} * exp((mu - 0.5 * sigma^{2}) * t + sigma * W_{t}),Stochastic Calculus Foundations,This equation gives the solution to the GBM SDE. S_t represents the asset price at time t
+Lognormal Distribution,ln(S_\frac{{t}}{S}_{0}) ~ N((mu - 0.5 * sigma^{2}) * t,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+General Diffusion Process,dX_{t} = mu(X_{t},Stochastic Calculus Foundations, t) * dW_t
+Ornstein-Uhlenbeck Process,dX_{t} = theta * (mu - X_{t}) * dt + sigma * dW_{t},Stochastic Calculus Foundations,This is the Ornstein-Uhlenbeck (OU) process SDE. dX_t represents the change
+Mean-Reverting Level,lim_{t->infinity} E[X_{t}] = mu,Stochastic Calculus Foundations,This equation shows that the OU process reverts to its long-term mean mu. As time goes to infinity
+Ito's Lemma,dY_{t} = (partial \frac{f}{partial} t + mu * partial \frac{f}{partial} x + 0.5 * sigma^{2} * partial^{2} \frac{f}{partial} x^{2}) * dt + sigma * partial \frac{f}{partial} x * dW_{t},Stochastic Calculus Foundations,This is Ito's Lemma for a function f(X_t
+Ito's Lemma for GBM,d ln(S_{t}) = (mu - 0.5 * sigma^{2}) * dt + sigma * dW_{t},Stochastic Calculus Foundations,This is Ito's Lemma applied to ln(S_t) for GBM. d ln(S_t) represents the change in log price
+Ito's Lemma for f(S_t) = S_t^2,d(S_{t}^2) = (2 * mu * S_{t}^2 + sigma^{2} * S_{t}^2) * dt + 2 * sigma * S_{t}^2 * dW_{t},Stochastic Calculus Foundations,This is Ito's Lemma applied to f(S_t) = S_t^2. The drift term includes both the 2*mu*S_t^2 term from ordinary calculus and the sigma^2*S_t^2 Ito correction. This example shows how Ito's Lemma differs from the ordinary chain rule.
+Stochastic Integral,I_{t} = integral_{0}^t X_{s} * dW_{s},Stochastic Calculus Foundations,This equation defines the Ito stochastic integral. I_t represents the integral of the adapted process X_s with respect to Brownian motion W_s. The stochastic integral is defined as the limit of Riemann sums
+Ito Isometry,E[(integral_{0}^t X_{s} * dW_{s})^2] = E[integral_{0}^t X_{s}^2 ds],Stochastic Calculus Foundations,This equation defines the Ito Isometry property. The expectation of the squared stochastic integral equals the expectation of the integral of the squared integrand. Ito Isometry is crucial for calculating variances of stochastic integrals.
+Martingale Property,E[integral_{t}^T X_{s} * dW_{s} | F_{t}] = 0,Stochastic Calculus Foundations,This equation shows that the stochastic integral is a martingale. The conditional expectation of the future integral given information at time t is zero. The martingale property is fundamental to risk-neutral valuation in finance.
+Ito Product Rule,d(X_{t} * Y_{t}) = X_{t} * dY_{t} + Y_{t} * dX_{t} + d[X,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Quadratic Covariation,[X,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Girsanov Theorem (Change of Measure),dW_{t}^Q = dW_{t}^P + lambda_{t} * dt,Stochastic Calculus Foundations,This equation defines the Girsanov transformation for changing probability measures. dW_t^Q represents Brownian motion under the new measure Q
+Market Price of Risk,lambda_{t} = (mu_{t} - r_{t}) / sigma_{t},Stochastic Calculus Foundations,This equation defines the market price of risk. lambda_t represents the Sharpe ratio of the asset
+Risk-Neutral Dynamics,dS_{t} = r_{t} * S_{t} * dt + sigma_{t} * S_{t} * dW_{t}^Q,Stochastic Calculus Foundations,This equation gives the risk-neutral dynamics of an asset price. Under the risk-neutral measure Q
+Radon-Nikodym Derivative,Z_{T} = exp(-integral_{0}^T lambda_{s} * dW_{s}^P - 0.5 * integral_{0}^T lambda_{s}^2 ds),Stochastic Calculus Foundations,This equation defines the Radon-Nikodym derivative for changing from measure P to Q. Z_T represents the likelihood ratio
+Novikov Condition,E[exp(0.5 * integral_{0}^T lambda_{s}^2 ds)] < infinity,Stochastic Calculus Foundations,This equation is the Novikov condition
+Feynman-Kac Formula,u(x,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Differential Equations
+Kolmogorov Forward Equation,partial \frac{p}{partial} t = -partial (mu * p) / partial x + 0.5 * partial^{2} (sigma^{2} * p) / partial x^{2},Stochastic Calculus Foundations,This equation defines the Kolmogorov forward (Fokker-Planck) equation for the transition density p(x
+Kolmogorov Backward Equation,partial \frac{p}{partial} t = mu * partial \frac{p}{partial} x + 0.5 * sigma^{2} * partial^{2} \frac{p}{partial} x^{2},Stochastic Calculus Foundations,This equation defines the Kolmogorov backward equation. Unlike the forward equation
+Strong Solution,X_{t} = X_{0} + integral_{0}^t mu(X_{s},Stochastic Calculus Foundations, s) dW_s
+Weak Solution,X_{t} = X_{0} + integral_{0}^t mu(X_{s},Stochastic Calculus Foundations, s) dW_s
+Existence and Uniqueness,|mu(x,Stochastic Calculus Foundations, t)| + |sigma(x
+Martingale Representation Theorem,M_{t} = M_{0} + integral_{0}^t phi_{s} * dW_{s},Stochastic Calculus Foundations,This theorem states that any square-integrable martingale M_t can be represented as a stochastic integral. phi_s is an adapted process
+Stochastic Exponential,E(X)_t = exp(X_{t} - 0.5 * [X,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Differential Equations
+Doléans-Dade Exponential,dZ_{t} = -lambda_{t} * Z_{t} * dW_{t},Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Differential Equations
+Martingale Representation for GBM,S_{t} = S_{0} + integral_{0}^t mu * S_{s} ds + integral_{0}^t sigma * S_{s} dW_{s},Stochastic Calculus Foundations,This equation represents GBM as an Ito integral. S_t represents the GBM price
+Multi-Dimensional Brownian Motion,dW_{t} = (dW_{1,Stochastic Calculus Foundations, dW_{2
+Correlation Structure,E[dW_{i,Stochastic Calculus Foundations,t}] = rho_{ij} * dt
+Multi-Dimensional SDE,dX_{t} = mu(X_{t},Stochastic Calculus Foundations, t) * dW_t
+Multi-Dimensional Ito's Lemma,dY_{t} = (partial \frac{f}{partial} t + nabla f * mu + 0.5 * tr(Sigma * Sigma^{T} * Hessian f)) * dt + (nabla f * Sigma) * dW_{t},Stochastic Calculus Foundations,This is Ito's Lemma for multi-dimensional processes. nabla f is the gradient
+Stopped Process,X_{t^{tau}} = X_{min(t,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Optional Stopping Theorem,E[X_{tau}] = E[X_{0}] for bounded stopping times tau,Stochastic Calculus Foundations,This theorem states that for a martingale X_t
+Local Martingale,Integral_{0}^t H_{s} * dM_{s} is a local martingale,Stochastic Calculus Foundations,This equation defines a local martingale. A local martingale is a process that becomes a martingale when stopped at an increasing sequence of stopping times. Local martingales are more general than martingales and appear in many financial models.
+Semimartingale,X_{t} = X_{0} + M_{t} + A_{t},Stochastic Calculus Foundations,This equation defines a semimartingale as the sum of a local martingale M_t and a finite variation process A_t. Semimartingales are the most general class of processes for which stochastic integration can be defined. Most financial models are semimartingales.
+Predictable Representation,Any square-integrable martingale can be represented as a stochastic integral,Stochastic Calculus Foundations,This property states that under certain conditions

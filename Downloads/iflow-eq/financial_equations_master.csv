@@ -1,0 +1,494 @@
+title,equation_latex,main_category,notes
+Simple Interest Future Value,FV = P(1 + rt),Foundations - Time Value of Money,This equation calculates the future value of a principal amount under simple interest. P represents the principal amount (initial investment)
+Simple Interest Present Value,PV = FV / (1 + rt),Foundations - Time Value of Money,This equation calculates the present value of a future amount under simple interest. PV represents the present value (the amount that needs to be invested today)
+Simple Interest Amount,I = Prt,Foundations - Time Value of Money,This equation calculates the interest earned or paid under simple interest. I represents the interest amount
+Compound Interest Future Value (Annual),FV = P(1 + r)^t,Foundations - Time Value of Money,This equation calculates the future value with annual compounding. FV represents the future value
+Compound Interest Future Value (Multiple Periods),FV = P(1 + r/m)^{mt},Foundations - Time Value of Money,This equation calculates the future value with compounding m times per year. FV represents the future value
+Effective Annual Rate,EAR = (1 + r/m)^m - 1,Foundations - Time Value of Money,This equation calculates the effective annual interest rate from a nominal rate. EAR represents the effective annual rate
+Continuous Compounding Future Value,FV = Pe^{rt},Foundations - Time Value of Money,This equation calculates the future value with continuous compounding. FV represents the future value
+Present Value with Annual Discounting,PV = FV / (1 + r)^t,Foundations - Time Value of Money,This equation calculates the present value of a future amount with annual discounting. PV represents the present value
+Present Value with Multiple Period Discounting,PV = FV / (1 + r/m)^{mt},Foundations - Time Value of Money,This equation calculates the present value with discounting m times per year. PV represents the present value
+Present Value with Continuous Discounting,PV = FV e^{-rt},Foundations - Time Value of Money,This equation calculates the present value with continuous discounting. PV represents the present value
+Discount Factor (Annual),DF = 1 / (1 + r)^t,Foundations - Time Value of Money,This equation calculates the discount factor for annual discounting. DF represents the discount factor
+Discount Factor (Continuous),DF = e^{-rt},Foundations - Time Value of Money,This equation calculates the discount factor with continuous compounding. DF represents the discount factor
+Day Count Fraction (Actual/Actual),t = Days in Period / Days in Year,Foundations - Time Value of Money,This equation calculates the time fraction using the Actual/Actual day count convention. t represents the time fraction
+Day Count Fraction (30/360),t = (360(Y2 - Y1) + 30(M2 - M1) + (D2 - D1)) / 360,Foundations - Time Value of Money,This equation calculates the time fraction using the 30/360 day count convention. t represents the time fraction
+Day Count Fraction (Actual/360),t = Days in Period / 360,Foundations - Time Value of Money,This equation calculates the time fraction using the Actual/360 day count convention. t represents the time fraction
+Day Count Fraction (Actual/365),t = Days in Period / 365,Foundations - Time Value of Money,This equation calculates the time fraction using the Actual/365 day count convention. t represents the time fraction
+Forward Rate (Discrete),F_{t,Foundations - Time Value of Money,Foundations - Interest Rate Conventions
+Forward Rate (Continuous),F_{t,Foundations - Time Value of Money,Foundations - Interest Rate Conventions
+Spot Rate from Zero-Coupon Bond,r_t = -ln(P_t) / t,Foundations - Time Value of Money,This equation calculates the continuously compounded spot rate from a zero-coupon bond price. r_t represents the spot rate for maturity t
+Zero-Coupon Bond Price,P_t = e^{-r_t t},Foundations - Time Value of Money,This equation calculates the price of a zero-coupon bond given the continuously compounded spot rate. P_t represents the bond price
+Par Yield,c = (1 - P_T) / (sum_{i=1}^T P_{t_i}),Foundations - Time Value of Money,This equation calculates the par yield (coupon rate that makes a bond price equal to par). c represents the par yield
+Annuity Present Value,PV = C * (1 - (1 + r)^{-n}) / r,Foundations - Time Value of Money,This equation calculates the present value of an ordinary annuity. PV represents the present value
+Annuity Future Value,FV = C * ((1 + r)^n - 1) / r,Foundations - Time Value of Money,This equation calculates the future value of an ordinary annuity. FV represents the future value
+Growing Annuity Present Value,PV = C * (1 - ((1 + g) / (1 + r))^n) / (r - g),Foundations - Time Value of Money,This equation calculates the present value of a growing annuity. PV represents the present value
+Perpetuity Present Value,PV = C / r,Foundations - Time Value of Money,This equation calculates the present value of a perpetuity (infinite series of equal payments). PV represents the present value
+Growing Perpetuity Present Value,PV = C / (r - g),Foundations - Time Value of Money,This equation calculates the present value of a growing perpetuity. PV represents the present value
+Nominal to Effective Rate Conversion,r_eff = (1 + r_nom / m)^m - 1,Foundations - Time Value of Money,This equation converts a nominal interest rate to an effective rate. r_eff represents the effective annual rate
+Effective to Nominal Rate Conversion,r_nom = m * ((1 + r_eff)^{1/m} - 1),Foundations - Time Value of Money,This equation converts an effective interest rate to a nominal rate. r_nom represents the nominal annual rate
+Continuous Rate from Discrete,r_cont = m * ln(1 + r_disc / m),Foundations - Time Value of Money,This equation converts a discretely compounded rate to a continuously compounded rate. r_cont represents the continuously compounded rate
+Discrete Rate from Continuous,r_disc = m * (e^{r_cont / m} - 1),Foundations - Time Value of Money,This equation converts a continuously compounded rate to a discretely compounded rate. r_disc represents the discretely compounded nominal rate
+Time Value of Money General Formula,FV = PV * (1 + r)^t,Foundations - Time Value of Money,This is the fundamental time value of money equation. FV represents the future value
+Present Value of Uneven Cash Flows,PV = sum_{t=1}^n CF_t / (1 + r)^t,Foundations - Time Value of Money,This equation calculates the present value of a series of unequal cash flows. PV represents the present value
+Future Value of Uneven Cash Flows,FV = sum_{t=1}^n CF_t * (1 + r)^{n-t},Foundations - Time Value of Money,This equation calculates the future value of a series of unequal cash flows. FV represents the future value at time n
+Interest Rate Parity,F = S * (1 + r_d) / (1 + r_f),Foundations - Time Value of Money,This equation expresses the relationship between spot and forward exchange rates. F represents the forward exchange rate
+Real Interest Rate,r_real = (1 + r_nom) / (1 + inflation) - 1,Foundations - Time Value of Money,This equation calculates the real interest rate from the nominal rate and inflation. r_real represents the real interest rate
+Fisher Equation,r_nom = r_real + inflation + r_real * inflation,Foundations - Time Value of Money,This is the exact Fisher equation relating nominal and real interest rates. r_nom represents the nominal rate
+Yield to First Call,YTC = (C + (P_call - P) / n) / ((P_call + P) / 2),Foundations - Time Value of Money,This equation calculates the yield to call for a callable bond. YTC represents the yield to call
+Current Yield,CY = C / P,Foundations - Time Value of Money,This equation calculates the current yield of a bond. CY represents the current yield
+Yield to Maturity Approximation,YTM ≈ (C + (F - P) / n) / ((F + P) / 2),Foundations - Time Value of Money,This equation provides an approximation of the yield to maturity. YTM represents the yield to maturity
+Macaulay Duration (Zero-Coupon),D_mac = t,Foundations - Time Value of Money,This equation shows that the Macaulay duration of a zero-coupon bond equals its time to maturity. D_mac represents the Macaulay duration
+Macaulay Duration (Coupon Bond),D_mac = sum_{t=1}^n (t * CF_t / (1 + y)^t) / P,Foundations - Time Value of Money,This equation calculates the Macaulay duration of a coupon bond. D_mac represents the Macaulay duration
+Modified Duration,D_mod = D_mac / (1 + y),Foundations - Time Value of Money,This equation calculates the modified duration from Macaulay duration. D_mod represents the modified duration
+Dollar Duration,DD = -D_mod * P,Foundations - Time Value of Money,This equation calculates the dollar duration (also called price value of a basis point or PV01). DD represents the dollar duration
+Convexity,Conv = sum_{t=1}^n (t(t+1) * CF_t / (1 + y)^{t+2}) / P,Foundations - Time Value of Money,This equation calculates the convexity of a bond. Conv represents convexity
+Price Change Approximation,dP/P ≈ -D_mod * dy + 0.5 * Conv * (dy)^2,Foundations - Time Value of Money,This equation approximates the percentage price change of a bond for a small change in yield. dP/P represents the percentage price change
+Forward Price of an Asset,F = S * e^{(r - q)T},Foundations - Time Value of Money,This equation calculates the forward price of an asset with continuous dividend yield. F represents the forward price
+Cost of Carry,C = r - q,Foundations - Time Value of Money,This equation calculates the cost of carry for an asset. C represents the cost of carry
+Interest Rate Forward Price,F = (1 + r_long * T_long) / (1 + r_short * T_short) - 1,Foundations - Time Value of Money,This equation calculates the forward interest rate using discrete compounding. F represents the forward rate
+Zero Rate from Forward Rates,r_0,Foundations - Time Value of Money,i}
+Bootstrap Method,P_T = 1 / (1 + c * sum_{i=1}^{T-1} P_i),Foundations - Time Value of Money,This equation is used in the bootstrap method to extract zero-coupon prices from coupon bond prices. P_T represents the zero-coupon price for maturity T
+Rolling Down the Yield Curve,Total Return = Income + Rolldown,Foundations - Time Value of Money,This equation decomposes the total return of a bond into income and rolldown components. Total Return is the total return over a period
+Zero-Coupon Bond Price,P = F / (1 + y)^T,Fixed Income Securities,This equation calculates the price of a zero-coupon bond. P represents the bond price
+Zero-Coupon Bond Price (Continuous),P = F * e^{-yT},Fixed Income Securities,This equation calculates the price of a zero-coupon bond using continuous compounding. P represents the bond price
+Coupon Bond Price,P = sum_{t=1}^n (C / (1 + y)^t) + (F / (1 + y)^n),Fixed Income Securities,This equation calculates the price of a coupon bond. P represents the bond price
+Coupon Bond Price (Annual),P = C/y * (1 - 1/(1 + y)^n) + F/(1 + y)^n,Fixed Income Securities,This equation calculates the price of an annual coupon bond using the annuity formula. P represents the bond price
+Coupon Bond Price (Semi-Annual),P = C/y/2 * (1 - 1/(1 + y/2)^{2n}) + F/(1 + y/2)^{2n},Fixed Income Securities,This equation calculates the price of a semi-annual coupon bond. P represents the bond price
+Bond Price Between Coupon Dates,P = (C/y) * (1 - 1/(1 + y)^n) + F/(1 + y)^n + C * (1 - f),Fixed Income Securities,This equation calculates the bond price between coupon dates
+Accrued Interest,AI = C * (Days since last coupon / Days in coupon period),Fixed Income Securities,This equation calculates the accrued interest on a bond between coupon dates. AI represents the accrued interest
+Dirty Price,DP = Clean Price + Accrued Interest,Fixed Income Securities,This equation expresses the relationship between dirty price and clean price. DP represents the dirty price (full price)
+Yield to Maturity (Zero-Coupon),y = (F/P)^{1/T} - 1,Fixed Income Securities,This equation calculates the yield to maturity for a zero-coupon bond. y represents the yield to maturity as a decimal
+Yield to Maturity (Coupon Bond),P = sum_{t=1}^n C/(1 + y)^t + F/(1 + y)^n,Fixed Income Securities,This equation defines the yield to maturity for a coupon bond. y represents the yield to maturity that equates the present value of all cash flows to the current price P. The YTM for coupon bonds must be solved numerically (e.g.
+Current Yield,CY = C / P,Fixed Income Securities,This equation calculates the current yield of a bond. CY represents the current yield
+Yield to Call (First Call),P = sum_{t=1}^{n_c} C/(1 + y_{tc})^t + F_c/(1 + y_{tc})^{n_c},Fixed Income Securities,This equation calculates the yield to call for a callable bond. y_{tc} represents the yield to call
+Yield to Worst,YTW = min(YTM,Fixed Income Securities, YTC_2
+Zero-Coupon Yield Curve,r_t = -ln(P_t) / t,Fixed Income Securities,This equation extracts the zero-coupon yield curve from zero-coupon bond prices. r_t represents the continuously compounded zero rate for maturity t
+Par Yield,y_par = (1 - P_T) / (sum_{t=1}^T P_t),Fixed Income Securities,This equation calculates the par yield from zero-coupon discount factors. y_par represents the par yield (coupon rate that prices the bond at par)
+Forward Rate from Spot Rates,F_{t,Fixed Income Securities,Fixed Income - Yield Curve Analysis
+Forward Rate (Continuous),F_{t,Fixed Income Securities,Fixed Income - Yield Curve Analysis
+Instantaneous Forward Rate,f(t) = r(t) + t * dr(t)/dt,Fixed Income Securities,This equation defines the instantaneous forward rate. f(t) represents the instantaneous forward rate for time t
+Spot Rate from Forward Rates,r_0,Fixed Income Securities,Fixed Income - Yield Curve Analysis
+Nelson-Siegel Yield Curve,y(t) = beta_0 + beta_1 * (1 - e^{-t/tau})/(t/tau) + beta_2 * ((1 - e^{-t/tau})/(t/tau) - e^{-t/tau}),Fixed Income Securities,This is the Nelson-Siegel parameterization of the yield curve. y(t) represents the yield at time t
+Nelson-Siegel-Svensson Extension,y(t) = beta_0 + beta_1 * (1 - e^{-t/tau_1})/(t/tau_1) + beta_2 * ((1 - e^{-t/tau_1})/(t/tau_1) - e^{-t/tau_1}) + beta_3 * ((1 - e^{-t/tau_2})/(t/tau_2) - e^{-t/tau_2}),Fixed Income Securities,This is the Nelson-Siegel-Svensson extension with an additional hump term. y(t) represents the yield at time t
+Yield Curve Steepness,Slope = y_{10y} - y_{2y},Fixed Income Securities,This equation measures the steepness of the yield curve. Slope represents the difference between the 10-year yield and the 2-year yield. A positive slope indicates an upward-sloping yield curve (normal)
+Yield Curve Curvature,Curvature = 2 * y_{10y} - y_{2y} - y_{30y},Fixed Income Securities,This equation measures the curvature (hump) of the yield curve. Curvature captures the non-linearity of the yield curve shape. A positive curvature indicates a hump-shaped yield curve
+Butterfly Spread,Butterfly = y_{10y} - (y_{2y} + y_{30y})/2,Fixed Income Securities,This equation calculates the butterfly spread of the yield curve. Butterfly measures the deviation of the intermediate yield from the average of the short and long yields. It's a key measure for yield curve strategies and relative value analysis.
+Macaulay Duration,D_mac = sum_{t=1}^n (t * CF_t / (1 + y)^t) / P,Fixed Income Securities,This equation calculates the Macaulay duration of a bond. D_mac represents the Macaulay duration
+Macaulay Duration (Zero-Coupon),D_mac = T,Fixed Income Securities,This equation shows that the Macaulay duration of a zero-coupon bond equals its time to maturity. D_mac represents the Macaulay duration
+Macaulay Duration (Perpetuity),D_mac = (1 + y) / y,Fixed Income Securities,This equation calculates the Macaulay duration of a perpetuity. D_mac represents the Macaulay duration
+Modified Duration,D_mod = D_mac / (1 + y),Fixed Income Securities,This equation calculates the modified duration from Macaulay duration. D_mod represents the modified duration
+Modified Duration (Approximation),D_mod ≈ -(P_- - P_+) / (2 * P * dy),Fixed Income Securities,This equation approximates modified duration using finite differences. D_mod represents the modified duration
+Dollar Duration,DD = -D_mod * P,Fixed Income Securities,This equation calculates the dollar duration (also called PV01 or DV01). DD represents the dollar duration
+Price Value of a Basis Point,PV01 = -(P(y + 0.0001) - P(y - 0.0001)) / 2,Fixed Income Securities,This equation calculates the price value of a basis point (PV01). PV01 represents the price change for a 1 basis point (0.01%) change in yield. PV01 is a standard risk measure used in fixed income markets and is equivalent to dollar duration scaled by 0.0001.
+Effective Duration,D_eff = -(P_- - P_+) / (2 * P * dy),Fixed Income Securities,This equation calculates the effective duration for bonds with embedded options. D_eff represents the effective duration
+Key Rate Duration,KRD_i = -(P(y + dy_i) - P(y - dy_i)) / (2 * P * dy_i),Fixed Income Securities,This equation calculates the key rate duration for a specific key rate. KRD_i represents the key rate duration for key rate i
+Convexity,Conv = sum_{t=1}^n (t(t+1) * CF_t / (1 + y)^{t+2}) / P,Fixed Income Securities,This equation calculates the convexity of a bond. Conv represents convexity
+Convexity (Zero-Coupon),Conv = T(T+1) / (1 + y)^2,Fixed Income Securities,This equation calculates the convexity of a zero-coupon bond. Conv represents the convexity
+Convexity (Perpetuity),Conv = 2(1 + y) / y^2,Fixed Income Securities,This equation calculates the convexity of a perpetuity. Conv represents the convexity
+Effective Convexity,Conv_eff = (P_+ + P_- - 2P) / (P * dy^2),Fixed Income Securities,This equation calculates the effective convexity for bonds with embedded options. Conv_eff represents the effective convexity
+Dollar Convexity,DC = Conv * P,Fixed Income Securities,This equation calculates the dollar convexity. DC represents the dollar convexity
+Price Change Approximation,dP/P ≈ -D_mod * dy + 0.5 * Conv * (dy)^2,Fixed Income Securities,This equation approximates the percentage price change of a bond for a small change in yield. dP/P represents the percentage price change
+Taylor Series Expansion,P(y + dy) ≈ P(y) + P'(y)dy + 0.5P''(y)(dy)^2,Fixed Income Securities,This is the Taylor series expansion of bond price with respect to yield. P(y + dy) is the new price
+Bond Portfolio Duration,D_port = sum_{i=1}^n w_i * D_i,Fixed Income Securities,This equation calculates the duration of a bond portfolio. D_port represents the portfolio duration
+Bond Portfolio Convexity,Conv_port = sum_{i=1}^n w_i * Conv_i,Fixed Income Securities,This equation calculates the convexity of a bond portfolio. Conv_port represents the portfolio convexity
+Immunization Condition 1,D_A = D_L,Fixed Income Securities,This is the first immunization condition for matching asset and liability durations. D_A represents the duration of assets
+Immunization Condition 2,Conv_A > Conv_L,Fixed Income Securities,This is the second immunization condition. Conv_A represents the convexity of assets
+Reinvestment Risk,R_reinv = sum_{t=1}^n CF_t * ((1 + y_r)^{n-t} - (1 + y)^{n-t}),Fixed Income Securities,This equation calculates the reinvestment risk of a bond. R_reinv represents the reinvestment risk
+Price Risk,R_price = P(y + dy) - P(y),Fixed Income Securities,This equation calculates the price risk of a bond. R_price represents the price risk
+Total Bond Risk,R_total = R_price + R_reinv,Fixed Income Securities,This equation calculates the total bond risk. R_total represents the total risk
+Spread Duration,D_spread = -(P(y + dy + ds) - P(y + dy - ds)) / (2 * P * ds),Fixed Income Securities,This equation calculates the spread duration
+Yield Beta,beta = (dP_bond / P_bond) / (dP_benchmark / P_benchmark),Fixed Income Securities,This equation calculates the yield beta of a bond relative to a benchmark. beta represents the yield beta
+Tracking Error,TE = sqrt((1/T) * sum_{t=1}^T (R_portfolio,Fixed Income Securities,t)^2)
+Information Ratio,IR = (R_portfolio - R_benchmark) / TE,Fixed Income Securities,This equation calculates the information ratio of a bond portfolio. IR represents the information ratio
+Call Option Payoff at Expiration,Payoff_C = max(S_T - K,Equity Derivatives,Equity Derivatives - Options Fundamentals
+Put Option Payoff at Expiration,Payoff_P = max(K - S_T,Equity Derivatives,Equity Derivatives - Options Fundamentals
+Call Option Profit at Expiration,Profit_C = max(S_T - K,Equity Derivatives,Equity Derivatives - Options Fundamentals
+Put Option Profit at Expiration,Profit_P = max(K - S_T,Equity Derivatives,Equity Derivatives - Options Fundamentals
+Intrinsic Value (Call),IV_C = max(S_0 - K,Equity Derivatives,Equity Derivatives - Options Fundamentals
+Intrinsic Value (Put),IV_P = max(K - S_0,Equity Derivatives,Equity Derivatives - Options Fundamentals
+Time Value,TV = Option Price - Intrinsic Value,Equity Derivatives,This equation calculates the time value of an option. TV represents the time value
+Put-Call Parity,C + K * e^{-rT} = P + S_0,Equity Derivatives,This is the fundamental put-call parity relationship for European options on non-dividend paying stocks. C represents the call price
+Put-Call Parity with Dividends,C + K * e^{-rT} = P + S_0 * e^{-qT},Equity Derivatives,This is the put-call parity for European options on dividend-paying stocks. The terms are the same as basic put-call parity
+Lower Bound for European Call,C >= max(S_0 - K * e^{-rT},Equity Derivatives,Equity Derivatives - Options Fundamentals
+Lower Bound for European Put,P >= max(K * e^{-rT} - S_0,Equity Derivatives,Equity Derivatives - Options Fundamentals
+Upper Bound for European Call,C <= S_0,Equity Derivatives,This equation gives the upper bound for a European call option price. C represents the call price
+Upper Bound for European Put,P <= K * e^{-rT},Equity Derivatives,This equation gives the upper bound for a European put option price. P represents the put price
+American Call on Non-Dividend Stock,C_American = C_European,Equity Derivatives,This equation states that for American calls on non-dividend paying stocks
+American Put on Non-Dividend Stock,P_American >= P_European,Equity Derivatives,This equation states that American puts can be worth more than European puts. P_American represents the American put price
+Black-Scholes Call Formula,C = S_0 * N(d_1) - K * e^{-rT} * N(d_2),Equity Derivatives,This is the famous Black-Scholes formula for pricing a European call option. C represents the call price
+Black-Scholes Put Formula,P = K * e^{-rT} * N(-d_2) - S_0 * N(-d_1),Equity Derivatives,This is the Black-Scholes formula for pricing a European put option. P represents the put price
+Black-Scholes d_1,d_1 = (ln(S_0/K) + (r + sigma^2/2) * T) / (sigma * sqrt(T)),Equity Derivatives,This equation defines the d_1 parameter in the Black-Scholes formula. d_1 combines the moneyness of the option (ln(S_0/K))
+Black-Scholes d_2,d_2 = d_1 - sigma * sqrt(T),Equity Derivatives,This equation defines the d_2 parameter in the Black-Scholes formula. d_2 is simply d_1 minus sigma * sqrt(T). d_2 represents the probability that the option will be in the money at expiration under the risk-neutral measure.
+Black-Scholes with Dividends,C = S_0 * e^{-qT} * N(d_1) - K * e^{-rT} * N(d_2),Equity Derivatives,This is the Black-Scholes formula for a European call on a dividend-paying stock. The stock price S_0 is discounted by the continuous dividend yield q using e^{-qT}. This adjustment accounts for the expected dividend payments during the option's life.
+Black-Scholes d_1 with Dividends,d_1 = (ln(S_0/K) + (r - q + sigma^2/2) * T) / (sigma * sqrt(T)),Equity Derivatives,This equation defines d_1 for dividend-paying stocks. The dividend yield q is subtracted from r in the numerator
+Delta (Call),Delta_C = N(d_1),Equity Derivatives,This equation calculates the delta of a European call option. Delta_C represents the call delta
+Delta (Put),Delta_P = N(d_1) - 1,Equity Derivatives,This equation calculates the delta of a European put option. Delta_P represents the put delta. For puts
+Gamma,Gamma = N'(d_1) / (S_0 * sigma * sqrt(T)),Equity Derivatives,This equation calculates the gamma of a European option (same for calls and puts). Gamma represents the second derivative of the option price with respect to the underlying price. It measures the rate of change of delta and is highest for at-the-money options near expiration.
+Normal PDF,N'(x) = (1/sqrt(2 * pi)) * e^{-x^2/2},Equity Derivatives,This is the probability density function of the standard normal distribution. N'(x) represents the PDF value at x
+Theta (Call),Theta_C = -(S_0 * N'(d_1) * sigma) / (2 * sqrt(T)) - r * K * e^{-rT} * N(d_2),Equity Derivatives,This equation calculates the theta of a European call option. Theta_C represents the call theta
+Theta (Put),Theta_P = -(S_0 * N'(d_1) * sigma) / (2 * sqrt(T)) + r * K * e^{-rT} * N(-d_2),Equity Derivatives,This equation calculates the theta of a European put option. Theta_P represents the put theta. Unlike calls
+Vega,Vega = S_0 * N'(d_1) * sqrt(T),Equity Derivatives,This equation calculates the vega of a European option (same for calls and puts). Vega represents the sensitivity of the option price to changes in volatility. Vega is always positive
+Rho (Call),Rho_C = K * T * e^{-rT} * N(d_2),Equity Derivatives,This equation calculates the rho of a European call option. Rho_C represents the call rho
+Rho (Put),Rho_P = -K * T * e^{-rT} * N(-d_2),Equity Derivatives,This equation calculates the rho of a European put option. Rho_P represents the put rho. For puts
+Vanna,Vanna = -N'(d_1) * d_2 / sigma,Equity Derivatives,This equation calculates the vanna of a European option. Vanna represents the sensitivity of delta to changes in volatility
+Charm,Charm = -N'(d_1) * (2rT - d_2 * sigma * sqrt(T)) / (2T * sigma * sqrt(T)),Equity Derivatives,This equation calculates the charm of a European option. Charm represents the sensitivity of delta to changes in time (delta decay). Charm is important for understanding how delta changes as expiration approaches.
+Vomma,Vomma = S_0 * N'(d_1) * sqrt(T) * d_1 * d_2 / sigma,Equity Derivatives,This equation calculates the vomma (also called volga) of a European option. Vomma represents the sensitivity of vega to changes in volatility. Vomma is positive for most options
+Veta,Veta = S_0 * N'(d_1) * sqrt(T) * (r * q + (d_1 * d_2 * sigma) / (2T)),Equity Derivatives,This equation calculates the veta of a European option. Veta represents the sensitivity of vega to changes in time (vega decay). Veta helps understand how volatility sensitivity changes as expiration approaches.
+Speed,Speed = -N'(d_1) / (S_0^2 * sigma * sqrt(T)) * (1 + d_1 / (sigma * sqrt(T))),Equity Derivatives,This equation calculates the speed of a European option. Speed represents the third derivative of the option price with respect to the underlying price. Speed measures the rate of change of gamma and is important for understanding convexity risk.
+Color,Color = -N'(d_1) / (2 * S_0 * T * sigma * sqrt(T)) * (1 + (2rT - d_2 * sigma * sqrt(T)) / (2T)),Equity Derivatives,This equation calculates the color of a European option. Color represents the sensitivity of gamma to changes in time (gamma decay). Color helps understand how the curvature of the option price changes as expiration approaches.
+Zomma,Zomma = N'(d_1) * (d_1 * d_2 - 1) / (S_0 * sigma^2 * sqrt(T)),Equity Derivatives,This equation calculates the zomma of a European option. Zomma represents the sensitivity of gamma to changes in volatility. Zomma is important for managing volatility risk in gamma-sensitive portfolios.
+Implied Volatility (Definition),sigma_imp: C_market = C_BSM(S_0,Equity Derivatives, T
+Newton-Raphson for Implied Volatility,sigma_{n+1} = sigma_n - (C_BSM(sigma_n) - C_market) / Vega(sigma_n),Equity Derivatives,This equation implements the Newton-Raphson method to solve for implied volatility. sigma_n is the current guess
+Volatility Smile,sigma_imp = f(K/S_0,Equity Derivatives,Equity Derivatives - Black-Scholes-Merton
+Volatility Skew,Skew = (sigma_imp(K_25) - sigma_imp(K_75)) / (K_75 - K_25),Equity Derivatives,This equation measures the volatility skew. Skew represents the slope of implied volatility across strike prices. sigma_imp(K_25) and sigma_imp(K_75) are the implied volatilities for 25-delta and 75-delta options respectively. Negative skew is common in equity markets.
+Volatility Surface,sigma_imp = f(K,Equity Derivatives,Equity Derivatives - Black-Scholes-Merton
+Asian Option (Arithmetic Average),Payoff = max((1/n) * sum_{i=1}^n S_{t_i} - K,Equity Derivatives,Equity Derivatives - Exotic Options
+Asian Option (Geometric Average),Payoff = max((prod_{i=1}^n S_{t_i})^{1/n} - K,Equity Derivatives,Equity Derivatives - Exotic Options
+Asian Option Price (Geometric),C = e^{-rT} * E_Q[max(S_G - K,Equity Derivatives,Equity Derivatives - Exotic Options
+Barrier Option (Up-and-Out Call),Payoff = (max(S_T - K,Equity Derivatives,Equity Derivatives - Exotic Options
+Barrier Option (Down-and-In Put),Payoff = (max(K - S_T,Equity Derivatives,Equity Derivatives - Exotic Options
+Lookback Option (Floating Strike Call),Payoff = max(S_T - min_{0<=t<=T} S_t,Equity Derivatives,Equity Derivatives - Exotic Options
+Lookback Option (Fixed Strike Call),Payoff = max(max_{0<=t<=T} S_t - K,Equity Derivatives,Equity Derivatives - Exotic Options
+Binary Option (Cash-or-Nothing Call),Payoff = C if S_T > K else 0,Equity Derivatives,This equation gives the payoff of a cash-or-nothing binary call option. The option pays a fixed cash amount C if the underlying price exceeds the strike at expiration
+Binary Option (Asset-or-Nothing Call),Payoff = S_T if S_T > K else 0,Equity Derivatives,This equation gives the payoff of an asset-or-nothing binary call option. The option pays the underlying asset price if it exceeds the strike at expiration
+Compound Option (Call on Call),Payoff = max(C(S_T,Equity Derivatives, T_2) - K_1
+Chooser Option,Payoff = max(C(S_T,Equity Derivatives, T_2)
+Exchange Option,Payoff = max(S_1,Equity Derivatives,T
+Basket Option,Payoff = max(sum_{i=1}^n w_i * S_{i,Equity Derivatives, 0)
+Spread Option,Payoff = max(S_1,Equity Derivatives,T - K
+Rainbow Option,Payoff = max(min(S_1,Equity Derivatives, S_2
+Forward Start Option,C = S_0 * e^{-qT_1} * (e^{(r-q)(T_2-T_1)} * N(d_1) - e^{-r(T_2-T_1)} * N(d_2)),Equity Derivatives,This equation prices a forward start option that begins at time T_1 and expires at T_2. The option starts at-the-money forward. Forward start options are used in employee stock option plans.
+Cliquet Option,Payoff = max(prod_{i=1}^n (1 + max(R_i,Equity Derivatives, 0)
+Bermudan Option,C_Bermudan >= C_European,Equity Derivatives,This equation states that Bermudan options (exercisable on specified dates) are at least as valuable as European options (exercisable only at expiration). C_Bermudan represents the Bermudan option price
+Digital Option Price,C = e^{-rT} * N(d_2),Equity Derivatives,This equation prices a cash-or-nothing digital call option. C represents the option price
+Gap Option Payoff,Payoff = S_T - K_2 if S_T > K_1 else 0,Equity Derivatives,This equation gives the payoff of a gap call option. The option has two strike prices: K_1 triggers exercise
+Power Option Payoff,Payoff = max(S_T^a - K,Equity Derivatives,Equity Derivatives - Exotic Options
+Quanto Option,C = e^{-rT} * E_Q[max(S_T^f * X_T - K,Equity Derivatives,Equity Derivatives - Exotic Options
+Asian Option Delta Approximation,Delta ≈ N(d_1) * (1/T) * sum_{i=1}^n (S_0 / S_{t_i}),Equity Derivatives,This equation approximates the delta of an arithmetic Asian option. The delta depends on the relationship between the current price and the prices at which the average is calculated. This approximation is used because there's no closed-form formula.
+Option Elasticity,Elasticity = Delta * S_0 / C,Equity Derivatives,This equation calculates the elasticity of an option. Elasticity represents the percentage change in option price for a 1% change in the underlying price. For calls
+Leverage,Leverage = 1 / Delta,Equity Derivatives,This equation calculates the leverage of an option position. Leverage represents how many shares of underlying you effectively control with one option. Deep in-the-money options have leverage close to 1
+Option Beta,Beta_option = Delta * Beta_underlying,Equity Derivatives,This equation relates option beta to underlying beta. Beta_option represents the option's beta (sensitivity to market returns)
+Probability of ITM (Call),P(S_T > K) = N(d_2),Equity Derivatives,This equation calculates the risk-neutral probability that a call option expires in the money. The probability is N(d_2)
+Probability of ITM (Put),P(S_T < K) = N(-d_2),Equity Derivatives,This equation calculates the risk-neutral probability that a put option expires in the money. The probability is N(-d_2). This probability is used in option pricing and risk management.
+Expected Terminal Stock Price,E[S_T] = S_0 * e^{rT},Equity Derivatives,This equation gives the expected terminal stock price under the risk-neutral measure. E[S_T] represents the expectation
+Option Value Decomposition,C = Intrinsic Value + Time Value,Equity Derivatives,This equation decomposes an option's value into intrinsic and time components. C represents the total option value. Intrinsic value is the immediate exercise value
+Early Exercise Premium (American Put),EEP = P_American - P_European,Equity Derivatives,This equation calculates the early exercise premium for an American put option. EEP represents the extra value from the early exercise right. This premium is positive for deep in-the-money puts on non-dividend stocks.
+Optimal Exercise Boundary (American Put),S* = f(K,Equity Derivatives, q
+Option Theta Decay,Theta ≈ -sigma * S_0 * N'(d_1) / (2 * sqrt(T)),Equity Derivatives,This equation approximates the theta decay near expiration. The dominant term is the volatility term
+Gamma Scalping Profit,Profit ≈ 0.5 * Gamma * (dS)^2 - Theta * dt,Equity Derivatives,This equation estimates the profit from gamma scalping (delta-hedging). The gamma term captures profit from convexity when the underlying moves
+Delta Hedging Error,Error ≈ 0.5 * Gamma * (dS)^2,Equity Derivatives,This equation estimates the hedging error from discrete delta hedging. The error comes from the convexity (gamma) of the option price. More frequent rebalancing reduces this error but increases transaction costs.
+Option Implied Distribution,f(S_T) = (1 / (S_T * sigma * sqrt(2 * pi * T))) * exp(-(ln(S_T/S_0) - (r - 0.5 * sigma^2) * T)^2 / (2 * sigma^2 * T)),Equity Derivatives,This equation gives the risk-neutral probability density function of the terminal stock price under Black-Scholes assumptions. f(S_T) represents the lognormal distribution
+Risk-Neutral Valuation,C = e^{-rT} * E_Q[max(S_T - K,Equity Derivatives,Equity Derivatives - Black-Scholes-Merton
+Martingale Property,S_t = E_Q[S_T | F_t] * e^{-r(T-t)},Equity Derivatives,This equation expresses the martingale property of discounted stock prices under the risk-neutral measure. S_t represents the stock price at time t
+Change of Numeraire,C = S_0 * e^{-qT} * N(d_1) - K * e^{-rT} * N(d_2),Equity Derivatives,This is the Black-Scholes formula expressed using the change of numeraire technique. The first term uses the stock as numeraire
+Option Price as Integral,C = e^{-rT} * integral_K^inf (S_T - K) * f(S_T) dS_T,Equity Derivatives,This equation expresses the option price as an integral over the terminal stock price. C represents the call price
+Interest Rate Swap Fixed Leg,PV_fixed = sum_{i=1}^n (N * R_fixed * delta_i * DF_i),Fixed Income Derivatives,This equation calculates the present value of the fixed leg of an interest rate swap. PV_fixed represents the present value
+Interest Rate Swap Floating Leg,PV_float = sum_{i=1}^n (N * R_float,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Swaps
+Swap Value at Inception,V_swap = PV_fixed - PV_float,Fixed Income Derivatives,This equation calculates the value of a swap at inception. V_swap represents the swap value
+Par Swap Rate,R_swap = (1 - DF_n) / (sum_{i=1}^n delta_i * DF_i),Fixed Income Derivatives,This equation calculates the par swap rate (the fixed rate that makes the swap value zero at inception). R_swap represents the par swap rate
+Swap Value After Inception,V_swap = PV_fixed - PV_float,Fixed Income Derivatives,This equation calculates the value of an existing swap. V_swap represents the current swap value
+Swap DV01,DV01_swap = sum_{i=1}^n (delta_i * DF_i * N) - sum_{i=1}^n (delta_i * DF_i * N),Fixed Income Derivatives,This equation calculates the DV01 (dollar value of a 01 basis point change) of a swap. DV01_swap represents the sensitivity of the swap value to a 1 bp change in rates. For a par swap
+Swap Duration,D_swap = (sum_{i=1}^n t_i * delta_i * DF_i) / (sum_{i=1}^n delta_i * DF_i),Fixed Income Derivatives,This equation calculates the duration of a swap. D_swap represents the swap duration
+Swap Convexity,Conv_swap = (sum_{i=1}^n t_i^2 * delta_i * DF_i) / (sum_{i=1}^n delta_i * DF_i),Fixed Income Derivatives,This equation calculates the convexity of a swap. Conv_swap represents the swap convexity
+Forward Rate Agreement Payoff,Payoff = N * (FRA_rate - L) * delta * DF,Fixed Income Derivatives,This equation gives the payoff of a Forward Rate Agreement (FRA). Payoff represents the FRA payoff
+Swap Spread,Spread = R_swap - R_treasury,Fixed Income Derivatives,This equation calculates the swap spread. Spread represents the difference between the swap rate and the treasury rate of the same maturity. The swap spread reflects credit risk and liquidity differences between the swap market and the treasury market.
+Cross-Currency Swap,PV_domestic = sum_{i=1}^n (N_domestic * R_domestic * delta_i * DF_domestic,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Swaps
+Cross-Currency Swap FX Leg,PV_foreign = X_0 * sum_{i=1}^n (N_foreign * R_foreign * delta_i * DF_foreign,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Swaps
+Cross-Currency Swap Value,V_ccs = PV_domestic - PV_foreign,Fixed Income Derivatives,This equation calculates the value of a cross-currency swap. V_ccs represents the swap value
+Asset Swap,Spread = (Bond Price - Par) / DV01_bond,Fixed Income Derivatives,This equation calculates the asset swap spread. Spread represents the spread that makes the bond price equal to par when combined with an interest rate swap. Asset swaps are used to convert fixed-rate bonds to floating-rate exposure.
+Total Return Swap,Payoff = (Bond Return + Coupon - LIBOR - Spread) * N,Fixed Income Derivatives,This equation gives the payoff of a total return swap. Payoff represents the periodic payment
+Inflation Swap,Payoff = N * (Inflation_index - Fixed_rate) * delta,Fixed Income Derivatives,This equation gives the payoff of an inflation swap. Payoff represents the periodic payment
+Amortizing Swap,PV = sum_{i=1}^n (N_i * R * delta_i * DF_i),Fixed Income Derivatives,This equation calculates the present value of an amortizing swap. PV represents the present value
+Accreting Swap,PV = sum_{i=1}^n (N_i * R * delta_i * DF_i),Fixed Income Derivatives,This equation calculates the present value of an accreting swap. PV represents the present value
+Forward Swap Rate,F_swap = (DF_t - DF_T) / (sum_{i=t}^T delta_i * DF_i),Fixed Income Derivatives,This equation calculates the forward swap rate for a swap starting at time t and ending at time T. F_swap represents the forward swap rate
+Caplet Payoff,Payoff = N * delta * max(L - K,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Cap Price,C = sum_{i=1}^n Caplet_i,Fixed Income Derivatives,This equation calculates the price of a cap as the sum of caplet prices. C represents the cap price
+Caplet Price (Black Model),Caplet = N * delta * DF * [F * N(d_1) - K * N(d_2)],Fixed Income Derivatives,This equation prices a caplet using the Black model. Caplet represents the caplet price
+Black Model d_1,d_1 = (ln(F/K) + 0.5 * sigma^2 * T) / (sigma * sqrt(T)),Fixed Income Derivatives,This equation defines the d_1 parameter in the Black model for interest rate options. d_1 combines the moneyness (ln(F/K))
+Black Model d_2,d_2 = d_1 - sigma * sqrt(T),Fixed Income Derivatives,This equation defines the d_2 parameter in the Black model. d_2 is simply d_1 minus sigma * sqrt(T). d_2 represents the probability that the option will be in the money under the forward measure.
+Floorlet Payoff,Payoff = N * delta * max(K - L,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Floor Price,F = sum_{i=1}^n Floorlet_i,Fixed Income Derivatives,This equation calculates the price of a floor as the sum of floorlet prices. F represents the floor price
+Collar Price,Collar = Cap - Floor,Fixed Income Derivatives,This equation calculates the price of a collar. Collar represents the collar price
+Swaption Payoff (Payer),Payoff = max(R_swap - K,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Swaption Price (Black Model),Swaption = N * (R_swap * N(d_1) - K * N(d_2)) * sum_{i=1}^n delta_i * DF_i,Fixed Income Derivatives,This equation prices a European swaption using the Black model. Swaption represents the swaption price
+Receiver Swaption Payoff,Payoff = max(K - R_swap,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Bond Option Payoff (Call),Payoff = max(B_T - K,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Bond Option Price (Black Model),C = DF * [F * N(d_1) - K * N(d_2)],Fixed Income Derivatives,This equation prices a European bond option using the Black model. C represents the call option price
+Callable Bond Pricing,B = B_noncallable - C_option,Fixed Income Derivatives,This equation prices a callable bond. B represents the callable bond price
+Puttable Bond Pricing,B = B_nonputtable + P_option,Fixed Income Derivatives,This equation prices a puttable bond. B represents the puttable bond price
+Vasicek Model,dr = a(b - r)dt + sigma * dW,Fixed Income Derivatives,This is the Vasicek one-factor short rate model. dr represents the change in the short rate
+Vasicek Zero-Coupon Bond Price,P(t,Fixed Income Derivatives,T) * exp(-B(t
+Vasicek B(t,T),Fixed Income Derivatives,T) = (1 - exp(-a(T-t))) / a
+Vasicek A(t,T),Fixed Income Derivatives,T) = exp((B(t
+Vasicek Bond Option Price,C = P(0,Fixed Income Derivatives,t) * N(h_2)
+CIR Model,dr = a(b - r)dt + sigma * sqrt(r) * dW,Fixed Income Derivatives,This is the Cox-Ingersoll-Ross (CIR) one-factor short rate model. The model is similar to Vasicek but with a square-root diffusion term that prevents negative interest rates. The CIR model is widely used for its realistic properties and analytical tractability.
+CIR Zero-Coupon Bond Price,P(t,Fixed Income Derivatives,T) * exp(-B(t
+Hull-White Model,dr = (theta(t) - a * r)dt + sigma * dW,Fixed Income Derivatives,This is the Hull-White extension of the Vasicek model with time-dependent parameters. theta(t) is a time-dependent function chosen to match the initial yield curve exactly. This flexibility makes Hull-White popular for calibration to market data.
+Hull-White Theta Function,theta(t) = f_t(0,Fixed Income Derivatives,t) + (sigma^2 / 2a) * (1 - exp(-2at))
+Hull-White Bond Price,P(t,Fixed Income Derivatives,T) * exp(-B(t
+Hull-White Bond Option Price,C = P(0,Fixed Income Derivatives,t) * N(h_2)
+HJM Framework,df(t,Fixed Income Derivatives,T)dt + sigma(t
+HJM No-Arbitrage Condition,mu(t,Fixed Income Derivatives,T) * integral_t^T sigma(t
+HJM Short Rate,r(t) = f(t,Fixed Income Derivatives,t) + integral_0^t (mu(s
+LIBOR Market Model,dL_i(t) = L_i(t) * mu_i(t)dt + L_i(t) * sigma_i(t) * dW_i(t),Fixed Income Derivatives,This is the LIBOR Market Model (LMM) for forward LIBOR rates. dL_i(t) represents the change in the i-th forward LIBOR rate
+LMM Correlation,E[dW_i(t) * dW_j(t)] = rho_{ij} dt,Fixed Income Derivatives,This equation defines the correlation structure in the LIBOR Market Model. rho_{ij} represents the correlation between the Wiener processes driving different forward rates. Correlation is crucial for pricing multi-period derivatives like swaptions.
+LMM Caplet Price,Caplet = N * delta * P(0,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Models
+LMM Swaption Pricing,S = sum_{i=1}^n w_i * Caplet_i,Fixed Income Derivatives,This equation approximates a swaption price as a weighted sum of caplets in the LIBOR Market Model. S represents the swaption price
+Gaussian HJM,df(t,Fixed Income Derivatives,T) * dW
+Gaussian HJM Bond Price,P(t,Fixed Income Derivatives,u) du - 0.5 * integral_t^T integral_t^T sigma(t
+SABR Model,dF = alpha * F^beta * dW,Fixed Income Derivatives,This is the Stochastic Alpha Beta Rho (SABR) model for forward rates. dF represents the change in the forward rate
+SABR Volatility,sigma_BSM(F,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Models
+SABR z Parameter,z = (alpha / sigma) * ln(F/K),Fixed Income Derivatives,This equation defines the z parameter in the SABR volatility formula. z combines the log-moneyness ln(F/K) with the volatility parameters alpha and sigma. The z parameter is used in the SABR volatility calculation.
+SABR x(z) Function,x(z) = ln((sqrt(1 - 2 * rho * z + z^2) + z - rho) / (1 - rho)),Fixed Income Derivatives,This equation defines the x(z) function in the SABR model. x(z) is a transformation that ensures the volatility formula is well-behaved. rho is the correlation parameter between the forward rate and volatility.
+Swap Rate Dynamics,dS = mu_S dt + sigma_S * dW,Fixed Income Derivatives,This equation models the dynamics of the swap rate. dS represents the change in the swap rate
+Cheyette Model,dr = (theta(t) - a * r)dt + sigma * dW,Fixed Income Derivatives,This is the Cheyette model
+Quadratic Gaussian Model,r(t) = x(t)^2 + y(t),Fixed Income Derivatives,This is the Quadratic Gaussian model
+Quadratic Gaussian Bond Price,P(t,Fixed Income Derivatives,T))) * exp(-0.5 * (C(t
+Flesaker-Hughston Model,P(0,Fixed Income Derivatives,u) du - 0.5 * integral_0^T integral_0^T sigma(u
+Market Model of Bond Prices,dP_i(t)/P_i(t) = r(t)dt + sigma_i(t) * dW_i(t),Fixed Income Derivatives,This equation models the dynamics of bond prices directly. dP_i(t)/P_i(t) represents the return on bond i
+Rational Lognormal Model,r(t) = (alpha(t) + beta(t) * x(t))^2,Fixed Income Derivatives,This is the Rational Lognormal model
+Forward Swap Rate,S(t,Fixed Income Derivatives,T_0) - P(t
+Swap Annuity,A(t,Fixed Income Derivatives,T_i)
+Swaption Delta,Delta_swaption = N(d_1) * A(t,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Swaption Vega,Vega_swaption = A(t,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Cap Delta,Delta_cap = sum_{i=1}^n delta_i * P(0,Fixed Income Derivatives,i})
+Cap Vega,Vega_cap = sum_{i=1}^n N * delta_i * P(0,Fixed Income Derivatives,i}) * sqrt(T_i)
+CMS Rate,CMS = E_Q[S(T,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Swaps
+Convexity Adjustment,CMS_adj = S(0,Fixed Income Derivatives,T_n)^2 * sigma_S^2 * T
+Inflation Swap Price,P = sum_{i=1}^n (N * R_fixed * delta_i * DF_i) - sum_{i=1}^n (N * I_i * delta_i * DF_i),Fixed Income Derivatives,This equation prices an inflation swap. P represents the swap price
+Yield Curve Steepener Trade,Payoff = (y_long - y_short) * Duration * DV01,Fixed Income Derivatives,This equation gives the payoff of a yield curve steepener trade. Payoff represents the trade payoff
+Yield Curve Flattener Trade,Payoff = -(y_long - y_short) * Duration * DV01,Fixed Income Derivatives,This equation gives the payoff of a yield curve flattener trade. Payoff represents the trade payoff
+Probability of Default,PD = P(default during period T),Credit Derivatives,This equation defines the probability of default. PD represents the probability that a borrower will default within a specified time period T. PD is a fundamental credit risk metric used in pricing credit derivatives and calculating credit risk capital requirements.
+Cumulative Default Probability,CDP(T) = 1 - exp(-lambda * T),Credit Derivatives,This equation calculates the cumulative probability of default assuming constant hazard rate. CDP(T) represents the cumulative default probability by time T
+Hazard Rate,lambda = -ln(1 - PD) / T,Credit Derivatives,This equation calculates the hazard rate from the probability of default. lambda represents the hazard rate
+Survival Probability,Q(T) = exp(-integral_0^T lambda(t) dt),Credit Derivatives,This equation calculates the survival probability (probability of no default). Q(T) represents the probability of surviving to time T without default
+Loss Given Default,LGD = 1 - Recovery Rate,Credit Derivatives,This equation calculates the loss given default. LGD represents the percentage loss incurred if default occurs
+Exposure at Default,EAD = Notional * Current Exposure,Credit Derivatives,This equation calculates the exposure at default. EAD represents the amount owed to the lender at the time of default
+Expected Loss,EL = PD * LGD * EAD,Credit Derivatives,This equation calculates the expected loss from credit exposure. EL represents the expected loss
+Unexpected Loss,UL = LGD * EAD * sqrt(PD * (1 - PD)),Credit Derivatives,This equation calculates the unexpected loss (standard deviation of loss). UL represents the unexpected loss
+Credit VaR,Credit VaR = EL + z_alpha * UL,Credit Derivatives,This equation calculates the credit Value at Risk. Credit VaR represents the loss at a given confidence level
+Merton Model,Equity = Call(Assets,Credit Derivatives, sigma_A
+Merton Default Probability,PD = N((-ln(V/D) - (mu - 0.5 * sigma_A^2) * T) / (sigma_A * sqrt(T))),Credit Derivatives,This equation calculates the default probability under the Merton model. PD represents the default probability
+Distance to Default,DD = (ln(V/D) + (mu - 0.5 * sigma_A^2) * T) / (sigma_A * sqrt(T)),Credit Derivatives,This equation calculates the distance to default under the Merton model. DD represents the number of standard deviations the firm value is from the default threshold. Higher DD indicates lower default probability.
+Credit Spread,s = -ln(Q(T)) / T,Credit Derivatives,This equation calculates the credit spread from survival probability. s represents the credit spread
+Intensity-Based Spread,s = lambda + LGD * lambda,Credit Derivatives,This equation approximates the credit spread using hazard rate and loss given default. s represents the credit spread
+CDS Spread,s_cds = (1 - R) * lambda,Credit Derivatives,This equation approximates the CDS spread under constant hazard rate. s_cds represents the CDS spread
+CDS Pricing (Protection Buyer),PV_premium = sum_{i=1}^n s * delta_i * Q(t_i) * DF_i,Credit Derivatives,This equation calculates the present value of premium payments for a CDS. PV_premium represents the PV of premiums
+CDS Pricing (Protection Seller),PV_default = sum_{i=1}^n (1 - R) * EAD * (Q(t_{i-1}) - Q(t_i)) * DF_i,Credit Derivatives,This equation calculates the present value of default leg payments. PV_default represents the PV of default payments
+CDS Par Spread,s_par = PV_default / PV_annuity,Credit Derivatives,This equation calculates the par CDS spread that makes the CDS value zero. s_par represents the par spread
+CDS Value,V_cds = PV_default - s * PV_annuity,Credit Derivatives,This equation calculates the value of an existing CDS. V_cds represents the CDS value
+CDS Delta,Delta_cds = (1 - R) * Q(T) / PV_annuity,Credit Derivatives,This equation calculates the delta of a CDS. Delta_cds represents the sensitivity to the survival probability
+CDS DV01,DV01_cds = Delta_cds * DV01_bond,Credit Derivatives,This equation calculates the DV01 of a CDS. DV01_cds represents the sensitivity to interest rate changes
+Upfront Payment,UP = (s_market - s_coupon) * DV01_cds,Credit Derivatives,This equation calculates the upfront payment for a CDS. UP represents the upfront payment
+CDS Index Spread,s_index = sum_{i=1}^n w_i * s_i,Credit Derivatives,This equation calculates the spread of a CDS index. s_index represents the index spread
+Tranche Attachment Point,AP = sum_{i=1}^k w_i,Credit Derivatives,This equation calculates the attachment point of a CDO tranche. AP represents the attachment point (percentage of portfolio losses that must occur before the tranche suffers losses)
+Tranche Detachment Point,DP = sum_{i=1}^k w_i + w_tranche,Credit Derivatives,This equation calculates the detachment point of a CDO tranche. DP represents the detachment point (percentage of portfolio losses that wipe out the tranche)
+Expected Tranche Loss,ETL = integral_{AP}^{DP} (x - AP) * f_L(x) dx,Credit Derivatives,This equation calculates the expected loss of a CDO tranche. ETL represents the expected tranche loss
+Tranche Spread,s_tranche = ETL / PV_annuity,Credit Derivatives,This equation calculates the spread of a CDO tranche. s_tranche represents the tranche spread
+Gaussian Copula,Corr(L_i,Credit Derivatives,Credit Derivatives - Structured Credit
+Base Correlation,rho_base = f(AP,Credit Derivatives, market_spreads)
+Compound Poisson Default Process,dN_t = lambda dt + dM_t,Credit Derivatives,This equation models defaults as a compound Poisson process. dN_t represents the change in the number of defaults
+Credit Migration Matrix,P_ij = P(transition from rating i to rating j),Credit Derivatives,This equation defines the credit migration probability. P_ij represents the probability that an obligor migrates from rating i to rating j over a given time period. Migration matrices are used in multi-period credit risk models.
+Markov Chain Credit Model,P(t) = exp(M * t),Credit Derivatives,This equation calculates the transition probability matrix for a Markov chain credit model. P(t) represents the transition matrix over time t
+Credit Rating Migration,PD_k(t) = sum_{i=1}^n P_i(0) * P_ik(t),Credit Derivatives,This equation calculates the probability of being in rating k at time t. PD_k(t) represents the probability
+Credit Portfolio Loss,L = sum_{i=1}^n LGD_i * EAD_i * L_i,Credit Derivatives,This equation calculates the total loss from a credit portfolio. L represents the portfolio loss
+Vasicek One-Factor Model,L_i = N((Y_i - sqrt(rho) * Z) / sqrt(1 - rho)),Credit Derivatives,This is the Vasicek one-factor model for portfolio credit risk. L_i represents the default indicator for obligor i
+Asymptotic Single-Risk Factor,PD_i = N((N^{-1}(PD_i) - sqrt(rho) * Z) / sqrt(1 - rho)),Credit Derivatives,This equation gives the conditional default probability under the ASRF framework. PD_i represents the conditional PD for obligor i
+Credit VaR under ASRF,Credit VaR = LGD * EAD * (N((N^{-1}(PD) + sqrt(rho) * N^{-1}(0.999)) / sqrt(1 - rho)) - PD),Credit Derivatives,This equation calculates the 99.9% credit VaR under the ASRF model. Credit VaR represents the unexpected loss at the 99.9% confidence level
+Default Correlation,rho_ij = Corr(L_i,Credit Derivatives,Credit Derivatives - Credit Risk Basics
+Asset Correlation,rho_asset = Corr(V_i,Credit Derivatives,Credit Derivatives - Credit Risk Basics
+Recovery Rate Distribution,RR = f(economic conditions,Credit Derivatives, collateral)
+Credit Spread Curve,s(t) = -ln(Q(t)) / t,Credit Derivatives,This equation defines the credit spread curve. s(t) represents the credit spread for maturity t
+Risky Bond Price,P_risky = sum_{i=1}^n C * Q(t_i) * DF_i + F * Q(T) * DF_T,Credit Derivatives,This equation prices a risky corporate bond. P_risky represents the bond price
+Credit Spread Option Payoff,Payoff = max(s_T - K,Credit Derivatives,Credit Derivatives - Credit Derivatives
+Total Return Swap Payoff,Payoff = (Bond Return + Coupon - LIBOR - Spread) * N,Credit Derivatives,This equation gives the periodic payoff of a total return swap. Payoff represents the payment
+Credit Linked Note Payoff,Payoff = F - LGD * EAD * L_default,Credit Derivatives,This equation gives the payoff of a credit linked note at maturity. Payoff represents the payment
+Synthetic CDO Construction,V_cdo = sum_{i=1}^n w_i * V_cds,Credit Derivatives,Credit Derivatives - Structured Credit
+First-to-Default Basket Payoff,Payoff = (1 - R) * EAD * L_1,Credit Derivatives,This equation gives the payoff of a first-to-default basket. Payoff represents the payment
+Nth-to-Default Basket Payoff,Payoff = (1 - R) * EAD * (sum_{i=1}^n L_i - sum_{i=1}^{n-1} L_i),Credit Derivatives,This equation gives the payoff of an Nth-to-default basket. Payoff represents the payment
+Credit Triangle,s = PD * LGD,Credit Derivatives,This equation shows the relationship between credit spread
+Hazard Rate from Spread,lambda = s / (1 - R),Credit Derivatives,This equation calculates the hazard rate from the CDS spread. lambda represents the hazard rate
+CDS Curve Bootstrap,lambda_i = (s_i * (1 - R) - sum_{j=1}^{i-1} lambda_j * delta_j * Q(t_j)) / (delta_i * Q(t_i)),Credit Derivatives,This equation bootstraps the hazard rate curve from CDS spreads. lambda_i is the hazard rate for period i
+Expected Return,E[R] = sum_{i=1}^n w_i * E[R_i],Portfolio Theory and Risk Management,This equation calculates the expected return of a portfolio. E[R] represents the portfolio expected return
+Portfolio Variance,sigma^2_p = sum_{i=1}^n sum_{j=1}^n w_i * w_j * sigma_i * sigma_j * rho_ij,Portfolio Theory and Risk Management,This equation calculates the variance of a portfolio. sigma^2_p represents the portfolio variance
+Portfolio Standard Deviation,sigma_p = sqrt(sigma^2_p),Portfolio Theory and Risk Management,This equation calculates the standard deviation (volatility) of a portfolio. sigma_p represents the portfolio volatility
+Covariance,Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Modern Portfolio Theory
+Correlation Coefficient,rho_ij = Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Modern Portfolio Theory
+Sharpe Ratio,Sharpe = (E[R_p] - R_f) / sigma_p,Portfolio Theory and Risk Management,This equation calculates the Sharpe ratio
+Treynor Ratio,Treynor = (E[R_p] - R_f) / beta_p,Portfolio Theory and Risk Management,This equation calculates the Treynor ratio
+Jensen's Alpha,alpha = R_p - (R_f + beta_p * (R_m - R_f)),Portfolio Theory and Risk Management,This equation calculates Jensen's alpha
+Information Ratio,IR = (R_p - R_b) / sigma_tracking,Portfolio Theory and Risk Management,This equation calculates the information ratio
+Tracking Error,sigma_tracking = sqrt(Var(R_p - R_b)),Portfolio Theory and Risk Management,This equation calculates the tracking error of a portfolio relative to a benchmark. sigma_tracking represents the standard deviation of the difference between portfolio return R_p and benchmark return R_b. Tracking error measures how closely the portfolio follows its benchmark.
+Capital Allocation Line,R_p = R_f + (E[R_m] - R_f) / sigma_m * sigma_p,Portfolio Theory and Risk Management,This equation defines the Capital Allocation Line (CAL). R_p represents the return of a portfolio on the CAL
+Capital Market Line,R_p = R_f + (E[R_m] - R_f) / sigma_m * sigma_p,Portfolio Theory and Risk Management,This equation defines the Capital Market Line (CML)
+Security Market Line,E[R_i] = R_f + beta_i * (E[R_m] - R_f),Portfolio Theory and Risk Management,This equation defines the Security Market Line (SML) from CAPM. E[R_i] represents the expected return of asset i
+Beta,beta_i = Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Modern Portfolio Theory
+Portfolio Beta,beta_p = sum_{i=1}^n w_i * beta_i,Portfolio Theory and Risk Management,This equation calculates the beta of a portfolio. beta_p represents the portfolio beta
+Efficient Frontier Optimization,min sigma^2_p subject to E[R_p] = target_return and sum w_i = 1,Portfolio Theory and Risk Management,This equation defines the mean-variance optimization problem for finding the efficient frontier. The objective is to minimize portfolio variance subject to achieving a target return and the weights summing to 1. The efficient frontier contains all optimal portfolios.
+Minimum Variance Portfolio,w_mvp = (Sigma^{-1} * 1) / (1' * Sigma^{-1} * 1),Portfolio Theory and Risk Management,This equation calculates the weights of the global minimum variance portfolio. w_mvp represents the portfolio weights
+Tangency Portfolio,w_tan = (Sigma^{-1} * (E[R] - R_f * 1)) / (1' * Sigma^{-1} * (E[R] - R_f * 1)),Portfolio Theory and Risk Management,This equation calculates the weights of the tangency portfolio (maximum Sharpe ratio portfolio). w_tan represents the portfolio weights
+Value at Risk (Parametric),VaR_alpha = mu_p - z_alpha * sigma_p,Portfolio Theory and Risk Management,This equation calculates the parametric (normal) VaR. VaR_alpha represents the maximum loss at confidence level alpha
+Value at Risk (Historical),VaR_alpha = -percentile(returns,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Metrics
+Expected Shortfall (CVaR),ES_alpha = E[Loss | Loss >= VaR_alpha],Portfolio Theory and Risk Management,This equation calculates Expected Shortfall (also called Conditional VaR or CVaR). ES_alpha represents the expected loss given that the loss exceeds VaR_alpha. ES is a coherent risk measure that considers tail risk beyond VaR.
+Expected Shortfall (Normal),ES_alpha = mu_p - (phi(z_alpha) / (1 - alpha)) * sigma_p,Portfolio Theory and Risk Management,This equation calculates ES under the normal distribution. ES_alpha represents the expected shortfall
+Incremental VaR,IVaR_i = VaR_portfolio - VaR_without_i,Portfolio Theory and Risk Management,This equation calculates the incremental VaR of an asset. IVaR_i represents the change in portfolio VaR when asset i is removed. Incremental VaR helps identify which assets contribute most to portfolio risk. Positive IVaR means the asset increases risk.
+Marginal VaR,MVaR_i = delta_VaR / delta_w_i = Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Metrics
+Component VaR,CVaR_i = w_i * MVaR_i,Portfolio Theory and Risk Management,This equation calculates the component VaR of an asset. CVaR_i represents the contribution of asset i to total portfolio VaR
+Risk Contribution,Risk_i = w_i * Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Metrics
+Maximum Drawdown,MDD = max((Peak_t - Trough_t) / Peak_t),Portfolio Theory and Risk Management,This equation calculates the maximum drawdown of a portfolio. MDD represents the largest peak-to-trough decline
+Average Drawdown,ADD = average of all drawdowns,Portfolio Theory and Risk Management,This equation calculates the average drawdown of a portfolio. ADD represents the average of all drawdowns over the period. Average drawdown complements maximum drawdown by providing information about typical loss severity.
+Sterling Ratio,Sterling = (E[R_p] - R_f) / average_drawdown,Portfolio Theory and Risk Management,This equation calculates the Sterling ratio
+Calmar Ratio,Calmar = (E[R_p] - R_f) / MDD,Portfolio Theory and Risk Management,This equation calculates the Calmar ratio
+Sortino Ratio,Sortino = (E[R_p] - R_f) / sigma_downside,Portfolio Theory and Risk Management,This equation calculates the Sortino ratio
+Downside Deviation,sigma_downside = sqrt(average of min(R_i - R_f,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Metrics
+Omega Ratio,Omega(alpha) = E[max(R_p - alpha,Portfolio Theory and Risk Management, 0)]
+Single-Factor Model,R_i = alpha_i + beta_i * R_m + epsilon_i,Portfolio Theory and Risk Management,This equation defines the single-factor (market) model. R_i represents the return of asset i
+Multi-Factor Model,R_i = alpha_i + sum_{j=1}^k beta_ij * F_j + epsilon_i,Portfolio Theory and Risk Management,This equation defines a multi-factor model. R_i represents the return of asset i
+Fama-French Three-Factor Model,R_i = alpha_i + beta_i * (R_m - R_f) + s_i * SMB + h_i * HML + epsilon_i,Portfolio Theory and Risk Management,This equation defines the Fama-French three-factor model. R_i represents the return
+Carhart Four-Factor Model,R_i = alpha_i + beta_i * (R_m - R_f) + s_i * SMB + h_i * HML + m_i * MOM + epsilon_i,Portfolio Theory and Risk Management,This equation defines the Carhart four-factor model. R_i represents the return
+Idiosyncratic Risk,sigma_epsilon_i^2 = Var(R_i) - beta_i^2 * Var(R_m),Portfolio Theory and Risk Management,This equation calculates the idiosyncratic (unsystematic) variance of an asset. sigma_epsilon_i^2 represents the variance of the asset-specific return
+Systematic Risk,sigma_systematic^2 = beta_i^2 * Var(R_m),Portfolio Theory and Risk Management,This equation calculates the systematic variance of an asset. sigma_systematic^2 represents the variance due to market movements
+R-squared,R^2 = 1 - Var(epsilon_i) / Var(R_i),Portfolio Theory and Risk Management,This equation calculates the R-squared of a factor model. R^2 represents the proportion of return variance explained by the factor model. R^2 close to 1 indicates that the factor model explains most of the return variation.
+Tracking Error Volatility,TEV = sqrt(Var(R_p - R_b)),Portfolio Theory and Risk Management,This equation calculates the tracking error volatility. TEV represents the standard deviation of the active return (difference between portfolio return R_p and benchmark return R_b). TEV measures the active risk taken by the portfolio manager.
+Active Share,Active Share = 0.5 * sum |w_p,Portfolio Theory and Risk Management,i|
+Rolling Beta,beta_rolling = Cov_rolling(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Factor Models
+Risk Parity,w_i = 1 / sigma_i / sum_{j=1}^n (1 / sigma_j),Portfolio Theory and Risk Management,This equation calculates the weights for a risk parity portfolio. w_i represents the weight of asset i
+Equal Risk Contribution,ERC_i = w_i * Cov(R_i,Portfolio Theory and Risk Management,Portfolio Theory and Risk Management - Risk Management
+Risk Budgeting,Target Risk Contribution_i = b_i * sigma_p^2,Portfolio Theory and Risk Management,This equation defines the risk budgeting condition. Target Risk Contribution_i represents the desired risk contribution of asset i
+Kelly Criterion,f = (mu - R_f) / sigma^2,Portfolio Theory and Risk Management,This equation calculates the optimal fraction of capital to invest (Kelly criterion). f represents the optimal fraction
+Standard Brownian Motion,W_0 = 0,Stochastic Calculus Foundations, Var(W_t) = t
+Brownian Motion Increments,W_{t+delta t} - W_t ~ N(0,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Quadratic Variation,[W,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Quadratic Variation Property,lim_{n->infinity} sum_{i=1}^n (W_{t_i} - W_{t_{i-1}})^2 = t,Stochastic Calculus Foundations,This equation shows how quadratic variation is calculated as the limit of squared increments. As the partition becomes finer
+Geometric Brownian Motion,dS_t = mu * S_t * dt + sigma * S_t * dW_t,Stochastic Calculus Foundations,This is the Geometric Brownian Motion (GBM) SDE for asset prices. dS_t represents the change in asset price
+GBM Solution,S_t = S_0 * exp((mu - 0.5 * sigma^2) * t + sigma * W_t),Stochastic Calculus Foundations,This equation gives the solution to the GBM SDE. S_t represents the asset price at time t
+Lognormal Distribution,ln(S_t/S_0) ~ N((mu - 0.5 * sigma^2) * t,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+General Diffusion Process,dX_t = mu(X_t,Stochastic Calculus Foundations, t) * dW_t
+Ornstein-Uhlenbeck Process,dX_t = theta * (mu - X_t) * dt + sigma * dW_t,Stochastic Calculus Foundations,This is the Ornstein-Uhlenbeck (OU) process SDE. dX_t represents the change
+Mean-Reverting Level,lim_{t->infinity} E[X_t] = mu,Stochastic Calculus Foundations,This equation shows that the OU process reverts to its long-term mean mu. As time goes to infinity
+Ito's Lemma,dY_t = (partial f/partial t + mu * partial f/partial x + 0.5 * sigma^2 * partial^2 f/partial x^2) * dt + sigma * partial f/partial x * dW_t,Stochastic Calculus Foundations,This is Ito's Lemma for a function f(X_t
+Ito's Lemma for GBM,d ln(S_t) = (mu - 0.5 * sigma^2) * dt + sigma * dW_t,Stochastic Calculus Foundations,This is Ito's Lemma applied to ln(S_t) for GBM. d ln(S_t) represents the change in log price
+Ito's Lemma for f(S_t) = S_t^2,d(S_t^2) = (2 * mu * S_t^2 + sigma^2 * S_t^2) * dt + 2 * sigma * S_t^2 * dW_t,Stochastic Calculus Foundations,This is Ito's Lemma applied to f(S_t) = S_t^2. The drift term includes both the 2*mu*S_t^2 term from ordinary calculus and the sigma^2*S_t^2 Ito correction. This example shows how Ito's Lemma differs from the ordinary chain rule.
+Stochastic Integral,I_t = integral_0^t X_s * dW_s,Stochastic Calculus Foundations,This equation defines the Ito stochastic integral. I_t represents the integral of the adapted process X_s with respect to Brownian motion W_s. The stochastic integral is defined as the limit of Riemann sums
+Ito Isometry,E[(integral_0^t X_s * dW_s)^2] = E[integral_0^t X_s^2 ds],Stochastic Calculus Foundations,This equation defines the Ito Isometry property. The expectation of the squared stochastic integral equals the expectation of the integral of the squared integrand. Ito Isometry is crucial for calculating variances of stochastic integrals.
+Martingale Property,E[integral_t^T X_s * dW_s | F_t] = 0,Stochastic Calculus Foundations,This equation shows that the stochastic integral is a martingale. The conditional expectation of the future integral given information at time t is zero. The martingale property is fundamental to risk-neutral valuation in finance.
+Ito Product Rule,d(X_t * Y_t) = X_t * dY_t + Y_t * dX_t + d[X,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Quadratic Covariation,[X,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Girsanov Theorem (Change of Measure),dW_t^Q = dW_t^P + lambda_t * dt,Stochastic Calculus Foundations,This equation defines the Girsanov transformation for changing probability measures. dW_t^Q represents Brownian motion under the new measure Q
+Market Price of Risk,lambda_t = (mu_t - r_t) / sigma_t,Stochastic Calculus Foundations,This equation defines the market price of risk. lambda_t represents the Sharpe ratio of the asset
+Risk-Neutral Dynamics,dS_t = r_t * S_t * dt + sigma_t * S_t * dW_t^Q,Stochastic Calculus Foundations,This equation gives the risk-neutral dynamics of an asset price. Under the risk-neutral measure Q
+Radon-Nikodym Derivative,Z_T = exp(-integral_0^T lambda_s * dW_s^P - 0.5 * integral_0^T lambda_s^2 ds),Stochastic Calculus Foundations,This equation defines the Radon-Nikodym derivative for changing from measure P to Q. Z_T represents the likelihood ratio
+Novikov Condition,E[exp(0.5 * integral_0^T lambda_s^2 ds)] < infinity,Stochastic Calculus Foundations,This equation is the Novikov condition
+Feynman-Kac Formula,u(x,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Differential Equations
+Kolmogorov Forward Equation,partial p / partial t = -partial (mu * p) / partial x + 0.5 * partial^2 (sigma^2 * p) / partial x^2,Stochastic Calculus Foundations,This equation defines the Kolmogorov forward (Fokker-Planck) equation for the transition density p(x
+Kolmogorov Backward Equation,partial p / partial t = mu * partial p / partial x + 0.5 * sigma^2 * partial^2 p / partial x^2,Stochastic Calculus Foundations,This equation defines the Kolmogorov backward equation. Unlike the forward equation
+Strong Solution,X_t = X_0 + integral_0^t mu(X_s,Stochastic Calculus Foundations, s) dW_s
+Weak Solution,X_t = X_0 + integral_0^t mu(X_s,Stochastic Calculus Foundations, s) dW_s
+Existence and Uniqueness,|mu(x,Stochastic Calculus Foundations, t)| + |sigma(x
+Martingale Representation Theorem,M_t = M_0 + integral_0^t phi_s * dW_s,Stochastic Calculus Foundations,This theorem states that any square-integrable martingale M_t can be represented as a stochastic integral. phi_s is an adapted process
+Stochastic Exponential,E(X)_t = exp(X_t - 0.5 * [X,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Differential Equations
+Doléans-Dade Exponential,dZ_t = -lambda_t * Z_t * dW_t,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Differential Equations
+Martingale Representation for GBM,S_t = S_0 + integral_0^t mu * S_s ds + integral_0^t sigma * S_s dW_s,Stochastic Calculus Foundations,This equation represents GBM as an Ito integral. S_t represents the GBM price
+Multi-Dimensional Brownian Motion,dW_t = (dW_{1,Stochastic Calculus Foundations, dW_{2
+Correlation Structure,E[dW_{i,Stochastic Calculus Foundations,t}] = rho_{ij} * dt
+Multi-Dimensional SDE,dX_t = mu(X_t,Stochastic Calculus Foundations, t) * dW_t
+Multi-Dimensional Ito's Lemma,dY_t = (partial f/partial t + nabla f * mu + 0.5 * tr(Sigma * Sigma^T * Hessian f)) * dt + (nabla f * Sigma) * dW_t,Stochastic Calculus Foundations,This is Ito's Lemma for multi-dimensional processes. nabla f is the gradient
+Stopped Process,X_{t^tau} = X_{min(t,Stochastic Calculus Foundations,Stochastic Calculus Foundations - Stochastic Processes
+Optional Stopping Theorem,E[X_tau] = E[X_0] for bounded stopping times tau,Stochastic Calculus Foundations,This theorem states that for a martingale X_t
+Local Martingale,Integral_0^t H_s * dM_s is a local martingale,Stochastic Calculus Foundations,This equation defines a local martingale. A local martingale is a process that becomes a martingale when stopped at an increasing sequence of stopping times. Local martingales are more general than martingales and appear in many financial models.
+Semimartingale,X_t = X_0 + M_t + A_t,Stochastic Calculus Foundations,This equation defines a semimartingale as the sum of a local martingale M_t and a finite variation process A_t. Semimartingales are the most general class of processes for which stochastic integration can be defined. Most financial models are semimartingales.
+Predictable Representation,Any square-integrable martingale can be represented as a stochastic integral,Stochastic Calculus Foundations,This property states that under certain conditions
+Binomial Tree Up Factor,u = exp(sigma * sqrt(delta t)),Numerical Methods,This equation calculates the up factor in a binomial tree. u represents the multiplicative factor for an up move
+Binomial Tree Down Factor,d = 1 / u = exp(-sigma * sqrt(delta t)),Numerical Methods,This equation calculates the down factor in a binomial tree. d represents the multiplicative factor for a down move
+Binomial Tree Risk-Neutral Probability,p = (exp(r * delta t) - d) / (u - d),Numerical Methods,This equation calculates the risk-neutral probability of an up move in a binomial tree. p represents the probability
+Binomial Tree Option Price,Option = exp(-r * delta t) * (p * Option_up + (1 - p) * Option_down),Numerical Methods,This equation calculates the option price at each node using backward induction. Option represents the discounted expected value under risk-neutral probabilities
+Cox-Ross-Rubinstein Parameters,u = exp(sigma * sqrt(delta t)),Numerical Methods, p = 0.5 * (exp(r * delta t) - d) / (u - d)
+Jarrow-Rudd Parameters,u = exp((r - 0.5 * sigma^2) * delta t + sigma * sqrt(delta t)),Numerical Methods, p = 0.5
+Trinomial Tree Up Factor,u = exp(lambda * sigma * sqrt(delta t)),Numerical Methods,This equation calculates the up factor in a trinomial tree. u represents the multiplicative factor for an up move
+Trinomial Tree Down Factor,d = exp(-lambda * sigma * sqrt(delta t)),Numerical Methods,This equation calculates the down factor in a trinomial tree. d represents the multiplicative factor for a down move. Trinomial trees have three branches (up
+Trinomial Tree Middle Factor,m = 1,Numerical Methods,This equation defines the middle factor in a trinomial tree. m represents the multiplicative factor for no change in the underlying price. The middle branch allows for the possibility of no movement in the underlying asset
+Trinomial Tree Probabilities,p_u = (a - (b - c)) / (a - c),Numerical Methods, p_d = 1 - p_u - p_m
+Finite Difference Explicit Scheme,V_{i,Numerical Methods,j} + b_j * V_{i
+Finite Difference Implicit Scheme,a_j * V_{i-1,Numerical Methods,j+1} + c_j * V_{i+1
+Crank-Nicolson Scheme,0.5 * (a_j * V_{i-1,Numerical Methods,j+1} + c_j * V_{i+1
+Monte Carlo Option Price,Option = exp(-r * T) * (1/N) * sum_{i=1}^N Payoff_i,Numerical Methods,This equation calculates the option price using Monte Carlo simulation. Option represents the discounted average payoff
+Monte Carlo Standard Error,SE = sigma_payoff / sqrt(N),Numerical Methods,This equation calculates the standard error of the Monte Carlo estimate. SE represents the standard error
+Variance Reduction: Antithetic Variates,Var((X + X')/2) = 0.5 * (Var(X) + Var(X') + 2 * Cov(X,Numerical Methods,Numerical Methods - Option Pricing Methods
+Variance Reduction: Control Variates,Var(X_cv) = Var(X) - 2 * Cov(X,Numerical Methods, Y)^2 / Var(Y)^2
+Quasi-Monte Carlo,Error = O((log N)^d / N),Numerical Methods,This equation gives the convergence rate of quasi-Monte Carlo methods. The error decreases as O((log N)^d / N) instead of O(1/sqrt(N)) for standard Monte Carlo
+Longstaff-Schwartz Algorithm,Continuation Value = sum_{i=1}^M w_i * L_i(S_t),Numerical Methods,This equation defines the continuation value in the Longstaff-Schwartz algorithm for American options. Continuation Value represents the expected value of continuing rather than exercising
+Least Squares Monte Carlo,LSM = argmin_b sum_{i=1}^M (Discounted Payoff_i - sum_{j=1}^K b_j * L_j(S_{t_i}))^2,Numerical Methods,This equation defines the least squares problem in LSM. LSM estimates the coefficients b_j to minimize the squared error between discounted payoffs and basis function values. LSM is the standard method for pricing American options with Monte Carlo.
+Newton-Raphson Method,x_{n+1} = x_n - f(x_n) / f'(x_n),Numerical Methods,This equation defines the Newton-Raphson method for root finding. x_{n+1} represents the next approximation
+Bisection Method,x_{n+1} = (a_n + b_n) / 2,Numerical Methods,This equation defines the bisection method for root finding. x_{n+1} is the midpoint of the interval [a_n
+Implied Volatility Newton-Raphson,sigma_{n+1} = sigma_n - (C(sigma_n) - C_market) / vega(sigma_n),Numerical Methods,This equation calculates implied volatility using Newton-Raphson. sigma_{n+1} is the updated volatility
+Brent's Method,Combines bisection,Numerical Methods, and inverse quadratic interpolation
+Gradient Descent,x_{n+1} = x_n - alpha * nabla f(x_n),Numerical Methods,This equation defines gradient descent for optimization. x_{n+1} represents the next iterate
+Stochastic Gradient Descent,x_{n+1} = x_n - alpha_n * nabla f_i(x_n),Numerical Methods,This equation defines SGD for optimization with large datasets. x_{n+1} represents the next iterate
+Levenberg-Marquardt Algorithm,(J^T * J + lambda * diag(J^T * J)) * delta = J^T * (y - f(x)),Numerical Methods,This equation defines the Levenberg-Marquardt algorithm for nonlinear least squares. J is the Jacobian
+Calibration Objective Function,min_theta sum_{i=1}^N w_i * (Model Price_i(theta) - Market Price_i)^2,Numerical Methods,This equation defines the calibration objective function. The goal is to find model parameters theta that minimize the weighted sum of squared errors between model prices and market prices. Calibration is essential for making models match market data.
+Model Risk,MR = |Model Price - Market Price| / Market Price,Numerical Methods,This equation calculates model risk as the percentage error between model and market prices. MR represents the model risk
+Backtesting,Hit Ratio = (Number of Correct Predictions) / (Total Predictions),Numerical Methods,This equation calculates the hit ratio for backtesting a model. Hit Ratio represents the proportion of correct predictions. Backtesting validates model performance on historical data and is essential for model validation.
+Kupiec Test,LR = -2 * ln((1 - alpha)^{N - x} * alpha^x / ((1 - p)^{N - x} * p^x)),Numerical Methods,This equation defines the Kupiec test for VaR model validation. LR is the likelihood ratio statistic
+Christoffersen Test,LR_cc = LR_uc + LR_ind,Numerical Methods,This equation defines the Christoffersen test for VaR model validation. LR_cc is the combined likelihood ratio
+Bootstrap Method,theta* = f(X*) where X* is a bootstrap sample,Numerical Methods,This equation defines the bootstrap method for estimating confidence intervals. theta* is the statistic calculated from the bootstrap sample X*
+Jackknife Method,theta_jackknife = (1/N) * sum_{i=1}^N theta_{(-i)},Numerical Methods,This equation defines the jackknife method for bias and variance estimation. theta_jackknife is the jackknife estimate
+Cross-Validation,CV = (1/K) * sum_{k=1}^K MSE_k,Numerical Methods,This equation defines K-fold cross-validation. CV represents the cross-validation error
+Regularization,L2 = lambda * ||theta||^2,Numerical Methods,Numerical Methods - Optimization Techniques
+Akaike Information Criterion,AIC = 2k - 2 * ln(L),Numerical Methods,This equation defines the AIC for model selection. AIC represents the Akaike Information Criterion
+Bayesian Information Criterion,BIC = k * ln(N) - 2 * ln(L),Numerical Methods,This equation defines the BIC for model selection. BIC represents the Bayesian Information Criterion
+Maximum Likelihood Estimation,theta_MLE = argmax_theta L(theta | X),Numerical Methods,This equation defines MLE. theta_MLE represents the parameter values that maximize the likelihood L(theta | X) given data X. MLE is a fundamental method for parameter estimation in statistical models.
+Method of Moments,theta_MM solves E[X | theta] = sample_mean(X),Numerical Methods,This equation defines the method of moments. theta_MM represents parameters that match theoretical moments to sample moments. Method of moments is simpler than MLE but less efficient for many models.
+Expectation-Maximization,E-step: Q(theta | theta^{(t)}) = E[log L(theta | X,Numerical Methods, theta^{(t)}]
+Kalman Filter,Predict: x_{t|t-1} = F * x_{t-1|t-1},Numerical Methods,Numerical Methods - Optimization Techniques
+Particle Filter,weights_i proportional to likelihood(y_t | x_t^{(i)}),Numerical Methods,This equation defines the particle filter (sequential Monte Carlo) for state estimation. weights_i are the importance weights for particle i
+Greeks by Finite Differences,Delta = (f(S + delta S) - f(S - delta S)) / (2 * delta S),Numerical Methods,This equation calculates Delta using central finite differences. Delta represents the sensitivity of the option price to the underlying price. Finite differences are used when analytical Greeks are not available. Central differences are more accurate than forward/backward differences.
+Gamma by Finite Differences,Gamma = (f(S + delta S) - 2 * f(S) + f(S - delta S)) / (delta S)^2,Numerical Methods,This equation calculates Gamma using finite differences. Gamma represents the second derivative of the option price with respect to the underlying price. Finite difference Gamma requires three option price evaluations.
+Vega by Finite Differences,Vega = (f(S,Numerical Methods, sigma - delta sigma)) / (2 * delta sigma)
+Adaptive Mesh Refinement,Refine grid where solution changes rapidly,Numerical Methods,This technique refines the finite difference grid in regions where the solution has high gradients (e.g.
+Operator Splitting,Split PDE into simpler sub-problems,Numerical Methods,This technique splits a complex PDE into simpler sub-problems that can be solved sequentially. Operator splitting is used for multi-dimensional PDEs and PDEs with mixed derivatives
+Spectral Methods,Expand solution in basis functions,Numerical Methods,This approach expands the solution in a basis of orthogonal functions (e.g.
+Historical Volatility,sigma_hist = sqrt((1/(n-1)) * sum_{i=1}^n (ln(S_i/S_{i-1}) - mu)^2),Advanced Topics,This equation calculates historical volatility from price data. sigma_hist represents the historical volatility
+Exponentially Weighted Moving Average,sigma_EWMA^2 = lambda * sigma_{t-1}^2 + (1 - lambda) * r_t^2,Advanced Topics,This equation defines the EWMA volatility model. sigma_EWMA represents the EWMA volatility estimate
+GARCH(1,1) Model,Advanced Topics,Advanced Topics - Volatility Modeling
+GARCH(p,q) Model,Advanced Topics,Advanced Topics - Volatility Modeling
+EGARCH Model,ln(sigma_t^2) = omega + alpha * (|epsilon_{t-1}| / sigma_{t-1} - sqrt(2/pi)) + gamma * (epsilon_{t-1} / sigma_{t-1}) + beta * ln(sigma_{t-1}^2),Advanced Topics,This equation defines the EGARCH model
+GJR-GARCH Model,sigma_t^2 = omega + alpha * epsilon_{t-1}^2 + gamma * epsilon_{t-1}^2 * I(epsilon_{t-1} < 0) + beta * sigma_{t-1}^2,Advanced Topics,This equation defines the GJR-GARCH model
+Stochastic Volatility Model,dS_t = mu * S_t * dt + sqrt(v_t) * S_t * dW_t^S,Advanced Topics,Advanced Topics - Volatility Modeling
+Heston Correlation,E[dW_t^S * dW_t^v] = rho * dt,Advanced Topics,This equation defines the correlation between asset price and volatility shocks in the Heston model. rho represents the correlation coefficient
+Heston Characteristic Function,phi(u,Advanced Topics,Advanced Topics - Volatility Modeling
+SABR Model,dF_t = alpha_t * F_t^beta * dW_t^F,Advanced Topics,Advanced Topics - Volatility Modeling
+SABR Implied Volatility,sigma_BSM(K) = (alpha / (F^{1-beta})) * (z / x(z)) * (1 + ((1-beta)^2 * alpha^2 / (24 * F^{2-2beta}) + rho * beta * nu * alpha / (4 * F^{1-beta}) + (2 - 3 * rho^2) * nu^2 / 24) * T),Advanced Topics,This equation gives the implied volatility under the SABR model. sigma_BSM represents the Black-Scholes implied volatility
+Local Volatility Model,sigma_loc(K,Advanced Topics, T) * sqrt(1 + 2 * r * T / (K * sigma_BS(K
+Dupire Formula,sigma_loc(K,Advanced Topics,Advanced Topics - Volatility Modeling
+Poisson Process,N_t ~ Poisson(lambda * t),Advanced Topics,This equation defines the Poisson process for jump arrivals. N_t represents the number of jumps by time t
+Poisson Process Probability,P(N_t = n) = exp(-lambda * t) * (lambda * t)^n / n!,Advanced Topics,This equation gives the probability of n jumps occurring by time t. The Poisson distribution has mean lambda * t and variance lambda * t. The Poisson process is the standard model for discrete events like defaults or jumps in asset prices.
+Compound Poisson Process,X_t = sum_{i=1}^{N_t} Y_i,Advanced Topics,This equation defines the compound Poisson process. X_t represents the accumulated jump size
+Jump-Diffusion Model,dS_t = mu * S_t * dt + sigma * S_t * dW_t + S_t * dJ_t,Advanced Topics,This equation defines the Merton jump-diffusion model. dS_t is the asset price change
+Jump Component,dJ_t = (exp(Y) - 1) * dN_t,Advanced Topics,This equation defines the jump component in the jump-diffusion model. Y is the log jump size (typically normal)
+Merton Jump-Diffusion Solution,S_t = S_0 * exp((mu - 0.5 * sigma^2 - lambda * (exp(mu_J + 0.5 * sigma_J^2) - 1)) * t + sigma * W_t + sum_{i=1}^{N_t} Y_i),Advanced Topics,This equation gives the solution to the Merton jump-diffusion SDE. S_t represents the asset price
+Kou Double Exponential Jump Model,Y_i ~ p * exp(-eta_1) + (1 - p) * exp(-eta_2),Advanced Topics,This equation defines the Kou double exponential jump size distribution. Y_i represents the log jump size
+Variance Gamma Process,X_t = theta * G_t + sigma * W_{G_t},Advanced Topics,This equation defines the Variance Gamma (VG) process. X_t represents the log return
+CGMY Process,X_t = C * (M^{1-Y} * Gamma(-Y,Advanced Topics, G * G_t))
+Lévy Process,X_t = X_0 + mu * t + sigma * W_t + J_t,Advanced Topics,This equation defines a general Lévy process. X_t represents the process value
+Lévy Measure,nu(dx) = lambda * f_Y(x) dx,Advanced Topics,This equation defines the Lévy measure for jump processes. nu(dx) represents the intensity of jumps of size dx
+Characteristic Function of Lévy Process,phi(u) = exp(i * u * mu * t - 0.5 * sigma^2 * u^2 * t + t * integral_{R} (exp(i * u * x) - 1 - i * u * x * I(|x| < 1)) * nu(dx)),Advanced Topics,This equation defines the characteristic function of a Lévy process. phi(u) represents the characteristic function
+Fourier Transform Option Pricing,C = exp(-r * T) * (1/2pi) * integral_{i * infinity}^{-i * infinity} exp(-i * u * ln(K)) * psi(u) / (i * u) du,Advanced Topics,This equation defines option pricing using Fourier transform methods. C represents the call option price
+Super-Replication Price,V_super = inf_{hedge} E_Q[hedge payoff],Advanced Topics,This equation defines the super-replication price. V_super represents the minimum cost of a hedging strategy that dominates the payoff under all scenarios. In incomplete markets
+Sub-Replication Price,V_sub = sup_{hedge} E_Q[hedge payoff],Advanced Topics,This equation defines the sub-replication price. V_sub represents the maximum value of a hedging strategy that is dominated by the payoff under all scenarios. Sub-replication provides a lower bound on the option price.
+No-Arbitrage Price Interval,V_sub <= V_market <= V_super,Advanced Topics,This equation defines the no-arbitrage price interval in incomplete markets. The market price must lie between the sub-replication and super-replication prices. This interval can be wide in highly incomplete markets
+Utility-Based Pricing,V = sup_{consumption} E[U(consumption)],Advanced Topics,This equation defines utility-based pricing. V represents the value maximizing expected utility U of consumption
+Indifference Pricing,Indifference Price = E[U(W + payoff - price)] - E[U(W)],Advanced Topics,This equation defines the indifference price. The indifference price is the amount that makes the investor indifferent between holding the derivative and not holding it. Indifference pricing depends on the investor's utility function U and initial wealth W.
+Entropy Risk Measure,rho(X) = (1/alpha) * ln(E[exp(-alpha * X)]),Advanced Topics,This equation defines the entropic risk measure. rho(X) represents the risk-adjusted value of the random payoff X
+Convex Risk Measure,rho(X) = sup_{Q in Q} (E_Q[-X] - alpha(Q)),Advanced Topics,This equation defines a convex risk measure. rho(X) represents the risk measure
+Robust Optimization,min_{x} sup_{theta in Theta} f(x,Advanced Topics,Advanced Topics - Incomplete Markets
+Ambiguity Aversion,V = inf_{Q in Q} E_Q[payoff] + phi(Q),Advanced Topics,This equation defines pricing under model uncertainty (ambiguity aversion). V represents the value
+Good-Deal Bounds,theta_min <= theta <= theta_max,Advanced Topics,This equation defines the good-deal bounds on the market price of risk theta. The bounds restrict the set of equivalent martingale measures to those that are not too extreme. Good-deal bounds narrow the no-arbitrage price interval by excluding unrealistic pricing measures.
+Minimal Martingale Measure,dW_t^Q = dW_t^P - (sigma_t / sigma^2) * dW_t^P,Advanced Topics,This equation defines the minimal martingale measure. The minimal martingale measure is the equivalent martingale measure that is closest to the physical measure in terms of relative entropy. It is used when the market price of risk is not uniquely defined.
+Föllmer-Schweizer Decomposition,X_t = M_t + A_t,Advanced Topics,This equation defines the Föllmer-Schweizer decomposition. X_t represents the discounted payoff
+Mean-Variance Hedging,min E[(Payoff_T - Hedge_T)^2],Advanced Topics,This equation defines mean-variance hedging. The objective is to minimize the mean-squared hedging error between the payoff and the hedge portfolio. Mean-variance hedging is the optimal quadratic hedging strategy in incomplete markets.
+Quadratic Hedging,Hedge = delta_t * S_t + V_t,Advanced Topics,This equation defines quadratic hedging with a traded asset S_t and a residual value V_t. The hedge portfolio minimizes the mean-squared hedging error. Quadratic hedging is widely used when perfect hedging is impossible.
+Market Price of Model Risk,lambda_model = (V_model - V_true) / sigma_model,Advanced Topics,This equation defines the market price of model risk. lambda_model represents the Sharpe ratio of model risk
+Model Uncertainty,V = E_Q[payoff] + lambda * ModelRisk,Advanced Topics,This equation incorporates model risk into pricing. V represents the risk-adjusted value
+Deep Hedging,Hedge_theta(S_t) = NeuralNetwork_theta(S_t),Advanced Topics,This equation defines deep hedging using neural networks. Hedge_theta represents the hedging strategy parameterized by theta
+Reinforcement Learning for Option Pricing,V(S_t,Advanced Topics, E[V(S_{t+1}

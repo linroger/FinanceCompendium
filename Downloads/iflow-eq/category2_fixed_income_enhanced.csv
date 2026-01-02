@@ -1,0 +1,52 @@
+title,equation_latex,main_category,notes
+Zero-Coupon Bond Price,P = F / (1 + y)^T,Fixed Income Securities,This equation calculates the price of a zero-coupon bond. P represents the bond price
+Zero-Coupon Bond Price (Continuous),P = F * e^{-yT},Fixed Income Securities,This equation calculates the price of a zero-coupon bond using continuous compounding. P represents the bond price
+Coupon Bond Price,P = sum_{t=1}^n (C / (1 + y)^t) + (F / (1 + y)^n),Fixed Income Securities,This equation calculates the price of a coupon bond. P represents the bond price
+Coupon Bond Price (Annual),P = \frac{C}{y} * (1 - 1/(1 + y)^n) + F/(1 + y)^n,Fixed Income Securities,This equation calculates the price of an annual coupon bond using the annuity formula. P represents the bond price
+Coupon Bond Price (Semi-Annual),P = \frac{C}{y}/2 * (1 - 1/(1 + \frac{y}{2})^{2n}) + F/(1 + \frac{y}{2})^{2n},Fixed Income Securities,This equation calculates the price of a semi-annual coupon bond. P represents the bond price
+Bond Price Between Coupon Dates,P = (\frac{C}{y}) * (1 - 1/(1 + y)^n) + F/(1 + y)^n + C * (1 - f),Fixed Income Securities,This equation calculates the bond price between coupon dates
+Accrued Interest,AI = C * (Days since last \frac{coupon}{Days} in coupon period),Fixed Income Securities,This equation calculates the accrued interest on a bond between coupon dates. AI represents the accrued interest
+Dirty Price,DP = Clean Price + Accrued Interest,Fixed Income Securities,This equation expresses the relationship between dirty price and clean price. DP represents the dirty price (full price)
+Yield to Maturity (Zero-Coupon),y = (\frac{F}{P})^\frac{{1}{T}} - 1,Fixed Income Securities,This equation calculates the yield to maturity for a zero-coupon bond. y represents the yield to maturity as a decimal
+Yield to Maturity (Coupon Bond),P = sum_{t=1}^n C/(1 + y)^t + F/(1 + y)^n,Fixed Income Securities,This equation defines the yield to maturity for a coupon bond. y represents the yield to maturity that equates the present value of all cash flows to the current price P. The YTM for coupon bonds must be solved numerically (e.g.
+Current Yield,CY = \frac{C}{P},Fixed Income Securities,This equation calculates the current yield of a bond. CY represents the current yield
+Yield to Call (First Call),P = sum_{t=1}^{n_{c}} C/(1 + y_{tc})^t + F_{c}/(1 + y_{tc})^{n_{c}},Fixed Income Securities,This equation calculates the yield to call for a callable bond. y_{tc} represents the yield to call
+Yield to Worst,YTW = min(YTM,Fixed Income Securities, YTC_2
+Zero-Coupon Yield Curve,r_{t} = -ln(P_{t}) / t,Fixed Income Securities,This equation extracts the zero-coupon yield curve from zero-coupon bond prices. r_t represents the continuously compounded zero rate for maturity t
+Par Yield,y_{par} = (1 - P_{T}) / (sum_{t=1}^T P_{t}),Fixed Income Securities,This equation calculates the par yield from zero-coupon discount factors. y_par represents the par yield (coupon rate that prices the bond at par)
+Forward Rate from Spot Rates,F_{t,Fixed Income Securities,Fixed Income - Yield Curve Analysis
+Forward Rate (Continuous),F_{t,Fixed Income Securities,Fixed Income - Yield Curve Analysis
+Instantaneous Forward Rate,f(t) = r(t) + t * dr(t)/dt,Fixed Income Securities,This equation defines the instantaneous forward rate. f(t) represents the instantaneous forward rate for time t
+Spot Rate from Forward Rates,r_{0},Fixed Income Securities,Fixed Income - Yield Curve Analysis
+Nelson-Siegel Yield Curve,y(t) = beta_{0} + beta_{1} * (1 - e^{-\frac{t}{tau}})/(\frac{t}{tau}) + beta_{2} * ((1 - e^{-\frac{t}{tau}})/(\frac{t}{tau}) - e^{-\frac{t}{tau}}),Fixed Income Securities,This is the Nelson-Siegel parameterization of the yield curve. y(t) represents the yield at time t
+Nelson-Siegel-Svensson Extension,y(t) = beta_{0} + beta_{1} * (1 - e^{-\frac{t}{tau}_{1}})/(\frac{t}{tau}_{1}) + beta_{2} * ((1 - e^{-\frac{t}{tau}_{1}})/(\frac{t}{tau}_{1}) - e^{-\frac{t}{tau}_{1}}) + beta_{3} * ((1 - e^{-\frac{t}{tau}_{2}})/(\frac{t}{tau}_{2}) - e^{-\frac{t}{tau}_{2}}),Fixed Income Securities,This is the Nelson-Siegel-Svensson extension with an additional hump term. y(t) represents the yield at time t
+Yield Curve Steepness,Slope = y_{10y} - y_{2y},Fixed Income Securities,This equation measures the steepness of the yield curve. Slope represents the difference between the 10-year yield and the 2-year yield. A positive slope indicates an upward-sloping yield curve (normal)
+Yield Curve Curvature,Curvature = 2 * y_{10y} - y_{2y} - y_{30y},Fixed Income Securities,This equation measures the curvature (hump) of the yield curve. Curvature captures the non-linearity of the yield curve shape. A positive curvature indicates a hump-shaped yield curve
+Butterfly Spread,Butterfly = y_{10y} - (y_{2y} + y_{30y})/2,Fixed Income Securities,This equation calculates the butterfly spread of the yield curve. Butterfly measures the deviation of the intermediate yield from the average of the short and long yields. It's a key measure for yield curve strategies and relative value analysis.
+Macaulay Duration,D_{mac} = sum_{t=1}^n (t * CF_{t} / (1 + y)^t) / P,Fixed Income Securities,This equation calculates the Macaulay duration of a bond. D_mac represents the Macaulay duration
+Macaulay Duration (Zero-Coupon),D_{mac} = T,Fixed Income Securities,This equation shows that the Macaulay duration of a zero-coupon bond equals its time to maturity. D_mac represents the Macaulay duration
+Macaulay Duration (Perpetuity),D_{mac} = (1 + y) / y,Fixed Income Securities,This equation calculates the Macaulay duration of a perpetuity. D_mac represents the Macaulay duration
+Modified Duration,D_{mod} = D_{mac} / (1 + y),Fixed Income Securities,This equation calculates the modified duration from Macaulay duration. D_mod represents the modified duration
+Modified Duration (Approximation),D_{mod} ≈ -(P_- - P_+) / (2 * P * dy),Fixed Income Securities,This equation approximates modified duration using finite differences. D_mod represents the modified duration
+Dollar Duration,DD = -D_{mod} * P,Fixed Income Securities,This equation calculates the dollar duration (also called PV01 or DV01). DD represents the dollar duration
+Price Value of a Basis Point,PV01 = -(P(y + 0.0001) - P(y - 0.0001)) / 2,Fixed Income Securities,This equation calculates the price value of a basis point (PV01). PV01 represents the price change for a 1 basis point (0.01%) change in yield. PV01 is a standard risk measure used in fixed income markets and is equivalent to dollar duration scaled by 0.0001.
+Effective Duration,D_{eff} = -(P_- - P_+) / (2 * P * dy),Fixed Income Securities,This equation calculates the effective duration for bonds with embedded options. D_eff represents the effective duration
+Key Rate Duration,KRD_{i} = -(P(y + dy_{i}) - P(y - dy_{i})) / (2 * P * dy_{i}),Fixed Income Securities,This equation calculates the key rate duration for a specific key rate. KRD_i represents the key rate duration for key rate i
+Convexity,Conv = sum_{t=1}^n (t(t+1) * CF_{t} / (1 + y)^{t+2}) / P,Fixed Income Securities,This equation calculates the convexity of a bond. Conv represents convexity
+Convexity (Zero-Coupon),Conv = T(T+1) / (1 + y)^2,Fixed Income Securities,This equation calculates the convexity of a zero-coupon bond. Conv represents the convexity
+Convexity (Perpetuity),Conv = 2(1 + y) / y^{2},Fixed Income Securities,This equation calculates the convexity of a perpetuity. Conv represents the convexity
+Effective Convexity,Conv_{eff} = (P_+ + P_- - 2P) / (P * dy^{2}),Fixed Income Securities,This equation calculates the effective convexity for bonds with embedded options. Conv_eff represents the effective convexity
+Dollar Convexity,DC = Conv * P,Fixed Income Securities,This equation calculates the dollar convexity. DC represents the dollar convexity
+Price Change Approximation,\frac{dP}{P} ≈ -D_{mod} * dy + 0.5 * Conv * (dy)^2,Fixed Income Securities,This equation approximates the percentage price change of a bond for a small change in yield. dP/P represents the percentage price change
+Taylor Series Expansion,P(y + dy) ≈ P(y) + P'(y)dy + 0.5P''(y)(dy)^2,Fixed Income Securities,This is the Taylor series expansion of bond price with respect to yield. P(y + dy) is the new price
+Bond Portfolio Duration,D_{port} = sum_{i=1}^n w_{i} * D_{i},Fixed Income Securities,This equation calculates the duration of a bond portfolio. D_port represents the portfolio duration
+Bond Portfolio Convexity,Conv_{port} = sum_{i=1}^n w_{i} * Conv_{i},Fixed Income Securities,This equation calculates the convexity of a bond portfolio. Conv_port represents the portfolio convexity
+Immunization Condition 1,D_{A} = D_{L},Fixed Income Securities,This is the first immunization condition for matching asset and liability durations. D_A represents the duration of assets
+Immunization Condition 2,Conv_{A} > Conv_{L},Fixed Income Securities,This is the second immunization condition. Conv_A represents the convexity of assets
+Reinvestment Risk,R_{reinv} = sum_{t=1}^n CF_{t} * ((1 + y_{r})^{n-t} - (1 + y)^{n-t}),Fixed Income Securities,This equation calculates the reinvestment risk of a bond. R_reinv represents the reinvestment risk
+Price Risk,R_{price} = P(y + dy) - P(y),Fixed Income Securities,This equation calculates the price risk of a bond. R_price represents the price risk
+Total Bond Risk,R_{total} = R_{price} + R_{reinv},Fixed Income Securities,This equation calculates the total bond risk. R_total represents the total risk
+Spread Duration,D_{spread} = -(P(y + dy + ds) - P(y + dy - ds)) / (2 * P * ds),Fixed Income Securities,This equation calculates the spread duration
+Yield Beta,beta = (dP_\frac{{bond}}{P}_{bond}) / (dP_\frac{{benchmark}}{P}_{benchmark}),Fixed Income Securities,This equation calculates the yield beta of a bond relative to a benchmark. beta represents the yield beta
+Tracking Error,TE = sqrt((\frac{1}{T}) * sum_{t=1}^T (R_{portfolio},Fixed Income Securities,t)^2)
+Information Ratio,IR = (R_{portfolio} - R_{benchmark}) / TE,Fixed Income Securities,This equation calculates the information ratio of a bond portfolio. IR represents the information ratio

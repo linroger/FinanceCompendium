@@ -1,203 +1,287 @@
-"title","equation","main_category","notes"
-"Future Value of Single Payment","FV = PV \times (1 + r)^{n} = PV \times e^{n \ln(1+r)}","Basic Finance Math","This equation calculates the future value of a single payment made today"
-"Present Value of Single Payment","PV = \frac{FV}{(1 + r)^{n}} = FV \times e^{-n \ln(1+r)}","Basic Finance Math","This equation calculates the present value of a future payment"
-"Compound Interest Formula","A = P \left(1 + \frac{r}{m}\right)^{mt} = P \exp\left(mt \ln\left(1 + \frac{r}{m}\right)\right)","Basic Finance Math","This equation reveals the power of compounding frequency in wealth accumulation"
-"Simple Interest Formula","I = P \times r \times t","Basic Finance Math","This equation calculates simple interest"
-"Effective Annual Rate","EAR = \left(1 + \frac{r}{m}\right)^{m} - 1 = \exp\left(m \ln\left(1 + \frac{r}{m}\right)\right) - 1","Basic Finance Math","This equation calculates the true annual return accounting for compounding frequency"
-"Future Value of Ordinary Annuity","FVA = PMT \times \frac{(1 + r)^{n} - 1}{r} = PMT \times \frac{1 - (1 + r)^{-n}}{r} \times (1 + r)^{n}","Basic Finance Math","This equation calculates the future value of an ordinary annuity"
-"Present Value of Ordinary Annuity","PVA = PMT \times \frac{1 - (1 + r)^{-n}}{r}","Basic Finance Math","This equation calculates the present value of an ordinary annuity"
-"Future Value of Annuity Due","FVAD = PMT \times \frac{(1 + r)^{n} - 1}{r} \times (1 + r) = FVA \times (1 + r)","Basic Finance Math","This equation calculates the future value of an annuity due"
-"Present Value of Annuity Due","PVAD = PMT \times \frac{1 - (1 + r)^{-n}}{r} \times (1 + r) = PVA \times (1 + r)","Basic Finance Math","This equation calculates the present value of an annuity due"
-"Perpetuity Present Value","PV_{\infty} = \frac{PMT}{r} = \lim_{n \to \infty} PMT \times \frac{1 - (1 + r)^{-n}}{r}","Basic Finance Math","This equation calculates the present value of a perpetuity"
-"Growing Annuity Present Value","PVGA = PMT \times \frac{1 - \left(\frac{1+g}{1+r}\right)^{n}}{r - g} = \sum_{t=1}^{n} \frac{PMT \times (1+g)^{t-1}}{(1+r)^{t}}","Basic Finance Math","This equation calculates the present value of a growing annuity"
-"Growing Perpetuity Present Value","PVG_{\infty} = \frac{PMT}{r - g} = \lim_{n \to \infty} PMT \times \frac{1 - \left(\frac{1+g}{1+r}\right)^{n}}{r - g}","Basic Finance Math","This equation calculates the present value of a growing perpetuity"
-"Loan Payment Formula","PMT = PV \times r \times \frac{(1 + r)^{n}}{(1 + r)^{n} - 1} = \frac{PV \times r}{1 - (1 + r)^{-n}}","Basic Finance Math","This equation calculates loan payments"
-"Internal Rate of Return","0 = \sum_{t=1}^{n} \frac{CF_{t}}{(1 + IRR)^{t}} - CF_{0} = NPV(IRR) = 0","Basic Finance Math","This equation defines the internal rate of return"
-"Net Present Value","NPV = \sum_{t=1}^{n} \frac{CF_{t}}{(1 + r)^{t}} - CF_{0} = \sum_{t=0}^{n} \frac{CF_{t}}{(1 + r)^{t}}","Basic Finance Math","This equation calculates net present value"
-"Modified Internal Rate of Return","MIRR = \left( \frac{\sum_{t=1}^{n} CF_{t}^{+} \times (1 + r_{r})^{n-t}}{\sum_{t=1}^{n} \frac{CF_{t}^{-}}{(1 + r_{f})^{t}}} \right)^{\frac{1}{n}} - 1","Basic Finance Math","This equation calculates the modified internal rate of return"
-"Capital Asset Pricing Model","E[R_{i}] = r_{f} + \beta_{i} \times (E[R_{m}] - r_{f})","Basic Finance Math","This equation defines the Capital Asset Pricing Model"
-"Dividend Discount Model","P_{0} = \frac{D_{1}}{r - g} = \sum_{t=1}^{\infty} \frac{D_{0} \times (1+g)^{t}}{(1+r)^{t}}","Basic Finance Math","This equation defines the Gordon Growth Model for stock valuation"
-"Zero-Coupon Bond Price","P = \frac{F}{(1 + y)^{n}} = F \times e^{-n \ln(1+y)}","Bonds and Fixed Income","This equation prices a zero-coupon bond"
-"Coupon Bond Price","P = \sum_{t=1}^{n} \frac{C}{(1 + y)^{t}} + \frac{F}{(1 + y)^{n}} = \underbrace{\frac{C}{y} \left[1 - (1 + y)^{-n}\right]}_{\text{annuity factor}} + \underbrace{\frac{F}{(1 + y)^{n}}}_{\text{principal PV}}","Bonds and Fixed Income","This equation decomposes coupon bond pricing into annuity and lump-sum components"
-"Bond Price with Semi-Annual Coupons","P = \sum_{t=1}^{2n} \frac{C/2}{(1 + y/2)^{t}} + \frac{F}{(1 + y/2)^{2n}} = \frac{C}{2y} \left[1 - \left(1 + \frac{y}{2}\right)^{-2n}\right] + \frac{F}{\left(1 + \frac{y}{2}\right)^{2n}}","Bonds and Fixed Income","This equation captures semi-annual compounding conventions in bond markets"
-"Macaulay Duration","D_{\text{mac}} = \frac{\sum_{t=1}^{n} t \times \frac{CF_{t}}{(1 + y)^{t}}}{P} = \frac{\sum_{t=1}^{n} t \times PV(CF_{t})}{P}","Bonds and Fixed Income","This equation calculates Macaulay duration"
-"Modified Duration","D_{\text{mod}} = \frac{D_{\text{mac}}}{1 + \frac{y}{m}} = -\frac{1}{P} \frac{\partial P}{\partial y}","Bonds and Fixed Income","This equation transforms Macaulay duration into price sensitivity measure"
-"Effective Duration","D_{\text{eff}} = \frac{P_{-} - P_{+}}{2P_{0} \times \Delta y} = -\frac{1}{P} \frac{\Delta P}{\Delta y}","Bonds and Fixed Income","This equation measures duration for bonds with embedded options"
-"Convexity","C = \frac{\sum_{t=1}^{n} t(t+1) \times \frac{CF_{t}}{(1 + y)^{t+2}}}{P} = \frac{1}{P(1 + y)^{2}} \frac{\partial^{2} P}{\partial y^{2}}","Bonds and Fixed Income","This equation measures the curvature of the bond price-yield relationship"
-"Price Change Approximation","\frac{\Delta P}{P} \approx -D_{\text{mod}} \times \Delta y + \frac{1}{2} C \times (\Delta y)^{2} = \frac{\partial P}{P} + \frac{1}{2} \frac{\partial^{2} P}{P} (\Delta y)","Bonds and Fixed Income","This equation provides the second-order Taylor approximation of bond price changes"
-"Spot Rate Bootstrapping","y_{t} = \left( \frac{CF_{t}}{P - \sum_{i=1}^{t-1} \frac{CF_{i}}{(1 + y_{i})^{i}}} \right)^{\frac{1}{t}} - 1 = \left( \frac{\text{remaining CF}}{P - \text{known PV}} \right)^{\frac{1}{t}} - 1","Bonds and Fixed Income","This equation extracts the term structure of spot rates from market bond prices"
-"Forward Rate","f_{t","t+1} = \left( \frac{(1 + y_{t+1})^{t+1}}{(1 + y_{t})^{t}} \right) - 1 = \frac{(1 + y_{t+1})^{t+1}}{(1 + y_{t})^{t}} - 1","Bonds and Fixed Income"
-"Z-Spread","Z = y - y_{\text{spot}} = \frac{1}{D_{\text{mac}}} \ln\left( \frac{\text{bond price}}{\text{spot PV of CFs}} \right)","Bonds and Fixed Income","This equation calculates the constant spread over the spot curve that prices a bond correctly"
-"Option-Adjusted Spread","OAS = Z - \frac{\text{OptionValue}}{D_{\text{mod}} \times P} \times 10000","Bonds and Fixed Income","This equation calculates the spread after adjusting for embedded options"
-"Effective Convexity","C_{\text{eff}} = \frac{P_{-} + P_{+} - 2P_{0}}{P_{0} \times (\Delta y)^{2}} = \frac{1}{P} \frac{\partial^{2} P}{\partial y^{2}}","Bonds and Fixed Income","This equation measures convexity for bonds with embedded options"
-"DV01","DV01 = -D_{\text{mod}} \times P \times 0.0001 = -\frac{\partial P}{\partial y} \times 0.0001","Bonds and Fixed Income","This equation quantifies interest rate risk in dollar terms"
-"Clean Price","P_{\text{clean}} = P_{\text{dirty}} - A = P_{\text{quoted}}","Bonds and Fixed Income","This equation separates quoted prices from settlement prices"
-"Accrued Interest","A = C \times \frac{d}{D} = C \times \frac{\text{days held}}{\text{days in period}}","Bonds and Fixed Income","This equation calculates interest earned but not yet paid"
-"Bond Equivalent Yield","BEY = \left( \frac{F}{P} - 1 \right) \times \frac{365}{d} = \left( \frac{F - P}{P} \right) \times \frac{365}{d}","Bonds and Fixed Income","This equation annualizes T-bill discount yields for comparison with coupon bonds"
-"Callable Bond Price","P = \min(P_{\text{straight}}"," P_{\text{call}}) = P_{\text{straight}} - \max(0"," P_{\text{straight}} - P_{\text{call}})"
-"Convertible Bond Price","P = P_{\text{straight}} + P_{\text{conversion option}} = P_{\text{straight}} + \max(0"," S \times \text{ratio} - P_{\text{strike}})","Bonds and Fixed Income"
-"Mortgage-Backed Security Price","P = \sum_{t=1}^{n} \frac{PMT_{t}}{(1 + y)^{t}} = \sum_{t=1}^{n} \frac{\text{principal}_{t} + \text{interest}_{t}}{(1 + y)^{t}}","Bonds and Fixed Income","This equation prices mortgage-backed securities with changing cash flows"
-"Average Life","AL = \frac{\sum_{t=1}^{n} t \times \frac{CF_{t}}{(1 + y)^{t}}}{\sum_{t=1}^{n} \frac{CF_{t}}{(1 + y)^{t}}} = \frac{\sum t \times PV(CF_{t})}{\sum PV(CF_{t})}","Bonds and Fixed Income","This equation calculates the expected duration of mortgage-backed securities"
-"Black-Scholes Call Option","C = S_{0} N(d_{1}) - K e^{-rT} N(d_{2})","Options","This equation prices European call options using the groundbreaking Black-Scholes model"
-"Black-Scholes Put Option","P = K e^{-rT} N(-d_{2}) - S_{0} N(-d_{1})","Options","This equation prices European put options using put-call parity"
-"Black-Scholes d1","d_{1} = \frac{\ln(S_{0}/K) + (r + \frac{1}{2} \sigma^{2}) T}{\sigma \sqrt{T}}","Options","This parameter drives the Black-Scholes model"
-"Black-Scholes d2","d_{2} = d_{1} - \sigma \sqrt{T} = \frac{\ln(S_{0}/K) + (r - \frac{1}{2} \sigma^{2}) T}{\sigma \sqrt{T}}","Options","This parameter completes the Black-Scholes framework"
-"Put-Call Parity","C - P = S_{0} - K e^{-rT}","Options","This fundamental relationship reveals the arbitrage constraints that must hold between calls and puts on the same underlying"
-"Option Delta (Call)","\Delta_{C} = N(d_{1}) = \frac{\partial C}{\partial S}","Options","This equation measures the option's sensitivity to underlying price changes"
-"Option Delta (Put)","\Delta_{P} = N(d_{1}) - 1 = \frac{\partial P}{\partial S}","Options","This equation shows put delta as negative"
-"Option Gamma","\Gamma = \frac{N'(d_{1})}{S_{0} \sigma \sqrt{T}} = \frac{\partial^{2} C}{\partial S^{2}} = \frac{\partial \Delta}{\partial S}","Options","This equation measures the rate of change of delta"
-"Option Theta (Call)","\Theta_{C} = -\frac{S_{0} N'(d_{1}) \sigma}{2 \sqrt{T}} - r K e^{-rT} N(d_{2}) = -\frac{\partial C}{\partial T}","Options","This equation measures time decay"
-"Option Vega","V = S_{0} \sqrt{T} N'(d_{1}) = \frac{\partial C}{\partial \sigma}","Options","This equation measures sensitivity to volatility changes"
-"Option Rho (Call)","\rho_{C} = K T e^{-rT} N(d_{2}) = \frac{\partial C}{\partial r}","Options","This equation measures sensitivity to interest rate changes"
-"Binomial Tree Up Factor","u = e^{\sigma \sqrt{\Delta t}}","Options","This equation defines the multiplicative upward movement in binomial option pricing"
-"Binomial Tree Down Factor","d = e^{-\sigma \sqrt{\Delta t}} = \frac{1}{u}","Options","This equation defines the downward movement factor"
-"Binomial Risk-Neutral Probability","p^{*} = \frac{e^{r \Delta t} - d}{u - d}","Options","This equation calculates the risk-neutral probability of an up move"
-"Binomial Option Price","C_{0} = e^{-r \Delta t} [p^{*} C_{u} + (1 - p^{*}) C_{d}]","Options","This equation implements backward induction in binomial trees"
-"Trinomial Tree Probabilities","p_{u} = \frac{1}{2} + \frac{1}{2} \frac{(\mu - \sigma^{2}/2) \Delta t}{\sigma \sqrt{\Delta t}}","Options","This equation calculates probabilities in trinomial trees"
-"Cox-Ross-Rubinstein Parameters","u = e^{\sigma \sqrt{\Delta t}}"," \quad d = e^{-\sigma \sqrt{\Delta t}}"," \quad p = \frac{e^{r \Delta t} - d}{u - d}"
-"Jarrow-Rudd Parameters","u = e^{(r - \frac{1}{2} \sigma^{2}) \Delta t + \sigma \sqrt{\Delta t}}"," \quad d = e^{(r - \frac{1}{2} \sigma^{2}) \Delta t - \sigma \sqrt{\Delta t}}"," \quad p = \frac{1}{2}"
-"Implied Volatility Definition","\sigma_{imp}: C_{market} = C_{BSM}(S_{0}"," K"," T"
-"Volatility Smile","\sigma_{imp} = f\left(\frac{K}{S_{0}}\right)","Options","This relationship reveals that implied volatility varies with strike price"
-"Volatility Surface","\sigma_{imp} = f(K"," T)","Options"
-"SABR Model Volatility","\sigma_{BSM}(K) = \frac{\alpha}{(F/K)^{\beta}} \left[1 + \left(\frac{(1-\beta)^{2} \alpha^{2}}{24 (F/K)^{2-2\beta}} + \frac{\rho \beta \nu \alpha}{4 (F/K)^{1-\beta}} + \frac{(2-3\rho^{2}) \nu^{2}}{24}\right) T \right]","Options","This equation provides the SABR model's implied volatility approximation"
-"Digital Option Price","C = e^{-rT} N(d_{2})","Options","This equation prices binary options that pay $1 if the condition is met"
-"Barrier Option (Up-and-Out Call)","C = S_{0} N(d_{1}) - K e^{-rT} N(d_{2}) - S_{0} \left(\frac{H}{S_{0}}\right)^{2\lambda} \left[ N(d_{1} - 2\lambda \sqrt{T}) - N(d_{2} - 2\lambda \sqrt{T}) \right]","Options","This complex equation prices barrier options that activate or deactivate based on price levels"
-"Asian Option Price","C = e^{-rT} E_{Q} [\max(A - K"," 0)]","Options"
-"Chooser Option","C = S_{0} e^{-r T_{2}} N(d_{1}) - K e^{-r T_{2}} N(d_{2}) + S_{0} e^{-r T_{2}} N(-d_{1} + \sigma \sqrt{T_{1}}) - K e^{-r T_{2}} N(-d_{2} + \sigma \sqrt{T_{1}})","Options","This equation prices options that allow the holder to choose between call and put at a future date"
-"Compound Option (Call on Call)","C = S_{0} N(d_{1}) - K_{1} e^{-r T_{1}} N(d_{2}) - K_{2} e^{-r T_{2}} N(d_{3})","Options","This equation prices options on options"
-"Futures Price","F_{0} = S_{0} e^{rT}","Futures","This equation defines futures pricing under the cost-of-carry model"
-"Forward Price","F_{0} = S_{0} + \text{carrying costs} - \text{carrying benefits}","Futures","This equation generalizes futures pricing to include all carrying costs and benefits"
-"Commodity Futures Price","F_{0} = S_{0} e^{(r - y)T}","Futures","This equation incorporates the convenience yield for commodities"
-"Currency Futures Price","F_{0} = S_{0} e^{(r_{domestic} - r_{foreign})T}","Futures","This equation prices currency futures using interest rate parity"
-"Index Futures Price","F_{0} = S_{0} e^{(r - q)T}","Futures","This equation prices index futures accounting for dividend yields"
-"Futures Margin Requirement","\text{Initial Margin} = k \times \text{Contract Value} \times \text{Volatility Factor}","Futures","This equation defines initial margin requirements"
-"Maintenance Margin","\text{Maintenance Margin} = \text{Initial Margin} \times (1 - \text{Margin Call Threshold})","Futures","This equation sets the maintenance margin level"
-"Margin Call Trigger","\text{Margin Call} = \text{Equity} < \text{Maintenance Margin}","Futures","This condition defines when margin calls occur"
-"Futures Profit/Loss","\Pi = (F_{T} - F_{0}) \times \text{Contract Size} \times \text{Position}","Futures","This equation calculates futures profits and losses"
-"Hedging Ratio (Minimum Variance)","\beta = \frac{\text{Cov}(S"," F)}{\text{Var}(F)}","Futures"
-"Cross-Hedging Ratio","\beta = \frac{\text{Cov}(S_{1}"," S_{2})}{\text{Var}(S_{2})}","Futures"
-"Tailing the Hedge","\beta_{\text{adjusted}} = \beta_{0} \times \frac{1}{1 + r_{\text{short}} \times \frac{T}{365}}","Futures","This equation adjusts hedge ratios for the time decay of futures contracts"
-"Basis","B = F - S","Futures","This equation defines the basis"
-"Basis Risk","\sigma_{\text{basis}} = \sqrt{\text{Var}(B)}","Futures","This equation measures basis risk"
-"Cash-Futures Arbitrage","\text{Arbitrage} = F - (S + \text{Carrying Costs})","Futures","This equation identifies arbitrage opportunities"
-"Calendar Spread Value","\Pi_{\text{spread}} = (F_{\text{near}} - F_{\text{far}}) \times \text{Contract Size}","Futures","This equation calculates calendar spread profits"
-"Futures Convexity Adjustment","CA = -\frac{1}{2} \sigma^{2} T^{2} + \frac{1}{2} \sigma^{2} \tau^{2}","Futures","This equation adjusts futures prices for convexity effects"
-"Futures Gamma","\Gamma = \frac{\partial^{2} F}{\partial S^{2}} = 0","Futures","This equation reveals the linear payoff structure of futures"
-"Value at Risk (Futures)","\text{VaR} = - \text{Position Size} \times \text{Contract Value} \times \text{Volatility} \times \sqrt{T} \times z_{\alpha}","Futures","This equation calculates VaR for futures positions"
-"Liquidity-Adjusted Futures Price","F_{0}^{*} = F_{0} \times (1 + \text{Liquidity Premium})","Futures","This equation incorporates liquidity effects"
-"Futures Roll Cost","\text{Roll Cost} = F_{\text{new}} - F_{\text{old}} + \text{Transaction Costs}","Futures","This equation calculates the cost of rolling futures positions"
-"Eurodollar Futures Price","F_{0} = 100 - \text{3-month LIBOR}","Futures","This equation defines Eurodollar futures pricing"
-"Federal Funds Futures Price","F_{0} = 100 - \text{Effective Federal Funds Rate}","Futures","This equation prices Federal Funds futures"
-"Treasury Futures Conversion Factor","CF = \frac{1}{1 + \frac{y}{2}} \times \left( \frac{0.6}{0.5} + \frac{0.4}{0.25} \right)","Futures","This equation calculates conversion factors for Treasury futures"
-"Cheapest-to-Deliver Bond","CTD = \arg\min_{i} \left[ P_{i} - CF_{i} \times (F \times \text{Conversion Factor}) \right]","Futures","This equation identifies the cheapest bond to deliver"
-"Futures Implied Repo Rate","R = \frac{(F \times CF) - P}{P} \times \frac{365}{T}","Futures","This equation calculates the implied repo rate"
-"Value at Risk (Parametric)","\text{VaR}_{\alpha} = -\mu \times T - z_{\alpha} \times \sigma \times \sqrt{T}","Risk Metrics and Measures","This equation calculates parametric Value at Risk using the normal distribution"
-"Value at Risk (Historical)","\text{VaR}_{\alpha} = -\text{percentile}(R"," 1-\alpha)","Risk Metrics and Measures"
-"Expected Shortfall (CVaR)","\text{ES}_{\alpha} = -\frac{1}{1-\alpha} \int_{\alpha}^{1} q_{u} \"," du = -\frac{1}{1-\alpha} \int_{-\infty}^{\text{VaR}_{\alpha}} x \"," f(x) \"
-"Conditional Value at Risk","\text{CVaR}_{\alpha} = \frac{1}{1-\alpha} \int_{\alpha}^{1} \text{VaR}_{u} \"," du","Risk Metrics and Measures"
-"Sharpe Ratio","\text{Sharpe} = \frac{E[R_{p}] - R_{f}}{\sigma_{p}}","Risk Metrics and Measures","This equation measures risk-adjusted returns"
-"Sortino Ratio","\text{Sortino} = \frac{E[R_{p}] - R_{f}}{\sigma_{\text{downside}}}","Risk Metrics and Measures","This equation measures downside risk-adjusted returns"
-"Maximum Drawdown","\text{MDD} = \max_{t \in [0","T]} \left( \frac{P_{\text{peak}} - P_{t}}{P_{\text{peak}}} \right)","Risk Metrics and Measures"
-"Calmar Ratio","\text{Calmar} = \frac{E[R_{p}] - R_{f}}{\text{MDD}}","Risk Metrics and Measures","This equation measures return per unit of maximum drawdown"
-"Omega Ratio","\Omega(\alpha) = \frac{\int_{\alpha}^{\infty} (1 - F_{R}(x)) \"," dx}{\int_{-\infty}^{\alpha} F_{R}(x) \"," dx}"
-"Downside Deviation","\sigma_{\text{downside}} = \sqrt{\frac{1}{n} \sum_{t=1}^{n} \min(R_{t} - \alpha"," 0)^{2}}","Risk Metrics and Measures"
-"Semi-Variance","\sigma_{\text{semi}}^{2} = \frac{1}{n} \sum_{t=1}^{n} \max(\alpha - R_{t}"," 0)^{2}","Risk Metrics and Measures"
-"Tracking Error","\text{TE} = \sqrt{\frac{1}{n} \sum_{t=1}^{n} (R_{p","t} - R_{b","t})^{2}}"
-"Information Ratio","\text{IR} = \frac{E[R_{p} - R_{b}]}{\text{TE}}","Risk Metrics and Measures","This equation measures active return per unit of active risk"
-"Beta","\beta = \frac{\text{Cov}(R_{p}"," R_{m})}{\text{Var}(R_{m})}","Risk Metrics and Measures"
-"Jensen's Alpha","\alpha = E[R_{p}] - [R_{f} + \beta (E[R_{m}] - R_{f})]","Risk Metrics and Measures","This equation measures abnormal returns after adjusting for systematic risk"
-"Marginal Value at Risk","\text{MVaR}_{i} = \frac{\partial \text{VaR}}{\partial w_{i}} = \frac{\text{Cov}(R_{i}"," R_{p})}{\sigma_{p}} \times \frac{\partial \text{VaR}}{\partial \sigma_{p}}","Risk Metrics and Measures"
-"Incremental Value at Risk","\text{IVaR}_{i} = \text{VaR}_{\text{portfolio}} - \text{VaR}_{\text{portfolio without } i}","Risk Metrics and Measures","This equation measures the VaR contribution of a specific asset"
-"Component Value at Risk","\text{CVaR}_{i} = w_{i} \times \text{MVaR}_{i} = w_{i} \times \frac{\partial \text{VaR}}{\partial w_{i}}","Risk Metrics and Measures","This equation calculates the VaR contribution weighted by position size"
-"Expected Tail Loss","\text{ETL}_{\alpha} = \frac{1}{\alpha} \int_{0}^{\alpha} \text{VaR}_{u} \"," du","Risk Metrics and Measures"
-"Spectral Risk Measure","\rho_{\phi}(X) = \int_{0}^{1} \text{VaR}_{u}(X) \"," \phi(u) \"," du"
-"Liquidity-Adjusted Value at Risk","\text{LVaR} = \text{VaR} \times (1 + \text{Liquidity Premium})","Risk Metrics and Measures","This equation adjusts VaR for liquidity risk"
-"Stress Testing Loss","\text{Stress Loss} = \sum_{i=1}^{n} w_{i} \times (S_{i","\text{stress}} - S_{i","\text{normal}})"
-"Tail Value at Risk","\text{TVaR}_{\alpha} = \frac{1}{1-\alpha} \int_{\alpha}^{1} \text{VaR}_{u} \"," du","Risk Metrics and Measures"
-"Ulcer Index","\text{UI} = \sqrt{\frac{1}{n} \sum_{t=1}^{n} D_{t}^{2}}","Risk Metrics and Measures","This equation measures the depth and duration of drawdowns"
-"Pain Index","\text{PI} = \frac{1}{n} \sum_{t=1}^{n} \frac{|D_{t}|}{\text{Duration of } D_{t}}","Risk Metrics and Measures","This equation measures the average pain per unit time during drawdowns"
-"Gain-to-Pain Ratio","\text{GPR} = \frac{\text{Total Return}}{\text{Pain Index}}","Risk Metrics and Measures","This equation measures return per unit of pain experienced"
-"Recovery Time","\text{RT} = \frac{\text{Drawdown Magnitude}}{\text{Expected Recovery Rate}}","Risk Metrics and Measures","This equation estimates the time needed to recover from a drawdown"
-"Portfolio Expected Return","E[R_{p}] = \sum_{i=1}^{n} w_{i} E[R_{i}]","Portfolio Theory","This equation calculates the expected return of a portfolio as the weighted average of individual asset expected returns"
-"Portfolio Variance","\sigma_{p}^{2} = \sum_{i=1}^{n} \sum_{j=1}^{n} w_{i} w_{j} \sigma_{ij}","Portfolio Theory","This equation calculates portfolio variance as the quadratic form of weights and covariance matrix"
-"Portfolio Standard Deviation","\sigma_{p} = \sqrt{\sum_{i=1}^{n} \sum_{j=1}^{n} w_{i} w_{j} \sigma_{ij}}","Portfolio Theory","This equation defines portfolio volatility as the square root of variance"
-"Markowitz Efficient Frontier","\min_{w} \sigma_{p}^{2} \quad \text{subject to} \quad E[R_{p}] = \mu_{\text{target}}","Portfolio Theory","This equation defines the efficient frontier as the set of portfolios with minimum variance for a given expected return"
-"Capital Market Line","\text{CML}: \quad E[R_{p}] = R_{f} + \frac{E[R_{m}] - R_{f}}{\sigma_{m}} \sigma_{p}","Portfolio Theory","This equation defines the Capital Market Line as the tangent from the risk-free rate to the efficient frontier"
-"Capital Asset Pricing Model","E[R_{i}] = R_{f} + \beta_{i} (E[R_{m}] - R_{f})","Portfolio Theory","This equation prices individual assets based on their systematic risk"
-"Security Market Line","\text{SML}: \quad E[R_{i}] = R_{f} + \beta_{i} (E[R_{m}] - R_{f})","Portfolio Theory","This equation plots the CAPM relationship graphically"
-"Arbitrage Pricing Theory","E[R_{i}] = R_{f} + \sum_{k=1}^{K} \beta_{i k} \lambda_{k}","Portfolio Theory","This equation extends CAPM to multiple factors"
-"Fama-French Three-Factor Model","E[R_{i}] - R_{f} = \alpha_{i} + \beta_{i} (R_{m} - R_{f}) + s_{i} \text{SMB} + h_{i} \text{HML}","Portfolio Theory","This equation decomposes returns into market"
-"Carhart Four-Factor Model","E[R_{i}] - R_{f} = \alpha_{i} + \beta_{i} (R_{m} - R_{f}) + s_{i} \text{SMB} + h_{i} \text{HML} + m_{i} \text{MOM}","Portfolio Theory","This equation adds momentum factor to the three-factor model"
-"Black-Litterman Model","\mu_{\text{BL}} = \left[ (\tau \Sigma)^{-1} + P^{T} \Omega^{-1} P \right]^{-1} \left[ (\tau \Sigma)^{-1} \mu_{\text{prior}} + P^{T} \Omega^{-1} q \right]","Portfolio Theory","This equation combines market equilibrium returns with investor views"
-"Mean-Variance Optimization","\max_{w} \frac{E[R_{p}] - R_{f}}{\sigma_{p}} \quad \text{subject to} \quad \sum w_{i} = 1","Portfolio Theory","This equation defines the Sharpe ratio maximization problem"
-"Tangency Portfolio","w_{\text{tangency}} = \frac{\Sigma^{-1} (\mu - R_{f} \mathbf{1})}{\mathbf{1}^{T} \Sigma^{-1} (\mu - R_{f} \mathbf{1})}","Portfolio Theory","This equation calculates the weights of the tangency portfolio that maximizes the Sharpe ratio"
-"Minimum Variance Portfolio","w_{\text{mvp}} = \frac{\Sigma^{-1} \mathbf{1}}{\mathbf{1}^{T} \Sigma^{-1} \mathbf{1}}","Portfolio Theory","This equation calculates the portfolio with minimum variance regardless of expected return"
-"Risk Parity Weights","w_{i} = \frac{1}{\sigma_{i}} / \sum_{j=1}^{n} \frac{1}{\sigma_{j}}","Portfolio Theory","This equation allocates portfolio weights inversely to volatility"
-"Equal Risk Contribution","w_{i} \times \text{RC}_{i} = \frac{\sigma_{p}^{2}}{n}","Portfolio Theory","This equation ensures each asset contributes equally to total portfolio risk"
-"Maximum Diversification Ratio","\text{MDR} = \frac{\sum_{i=1}^{n} w_{i} \sigma_{i}}{\sigma_{p}}","Portfolio Theory","This equation measures portfolio diversification efficiency"
-"Diversification Ratio","\text{DR} = \frac{\sqrt{\sum_{i=1}^{n} w_{i}^{2} \sigma_{i}^{2}}}{\sigma_{p}}","Portfolio Theory","This equation measures the reduction in risk achieved through diversification"
-"Kelly Criterion","f = \frac{\mu - R_{f}}{\sigma^{2}}","Portfolio Theory","This equation calculates the optimal fraction of capital to invest"
-"Portfolio Optimization with Constraints","\min_{w} w^{T} \Sigma w \quad \text{s.t.} \quad w^{T} \mu \geq \mu_{\text{target}}"," \quad w^{T} \mathbf{1} = 1"," \quad w \geq 0"
-"Roy's Safety-First Criterion","\max_{w} \frac{E[R_{p}] - R_{f}}{\sigma_{p}} \quad \text{subject to} \quad \text{Probability of loss} \leq \alpha","Portfolio Theory","This equation defines safety-first optimization"
-"Post-Modern Portfolio Theory","\max_{w} E[R_{p}] \quad \text{subject to} \quad \text{VaR}_{\alpha} \leq L_{\text{threshold}}","Portfolio Theory","This equation defines downside risk optimization"
-"Conditional Value at Risk Optimization","\min_{w} \text{CVaR}_{\alpha} \quad \text{subject to} \quad E[R_{p}] \geq \mu_{\text{target}}","Portfolio Theory","This equation optimizes portfolios using CVaR"
-"Resampled Efficiency","\text{Efficient Frontier} = \frac{1}{B} \sum_{b=1}^{B} \text{Efficient Frontier}_{b}","Portfolio Theory","This equation creates robust efficient frontiers using resampling"
-"Bayesian Portfolio Optimization","\mu_{\text{posterior}} = \frac{\tau \mu_{\text{prior}} + T \bar{r}}{\tau + T}","Portfolio Theory","This equation combines prior beliefs with sample data"
-"Robust Portfolio Optimization","\min_{w} \max_{\mu \in \mathcal{U}} w^{T} \Sigma w \quad \text{subject to} \quad w^{T} \mu \geq \mu_{\text{target}}","Portfolio Theory","This equation defines robust optimization against parameter uncertainty"
-"Factor Model Portfolio","\min_{w} w^{T} \Sigma_{residual} w \quad \text{subject to} \quad w^{T} f = f_{\text{target}}","Portfolio Theory","This equation optimizes portfolios using factor exposures"
-"Asset-Liability Management","\min_{w} \text{VaR}(\text{Surplus}) \quad \text{subject to} \quad E[\text{Surplus}] \geq 0","Portfolio Theory","This equation defines ALM optimization"
-"Liability-Driven Investment","\max_{w} \text{Funding Ratio} \quad \text{subject to} \quad \text{Probability of underfunding} \leq \alpha","Portfolio Theory","This equation optimizes funding status"
-"Forward Contract Price","F_{0} = S_{0} e^{r T}","Derivatives","This equation prices forward contracts under the cost-of-carry model"
-"Forward Rate Agreement","FRA = \frac{R_{K} - R_{\text{quoted}}}{1 + R_{\text{quoted}} \times \frac{d}{360}} \times \frac{360}{d_{K}}","Derivatives","This equation calculates FRA settlement amounts"
-"Interest Rate Swap Fixed Rate","R_{\text{fixed}} = \frac{1 - Z_{n}}{ \sum_{i=1}^{n} Z_{i} }","Derivatives","This equation calculates the fixed rate in an interest rate swap"
-"Swap Value at Reset","V_{\text{swap}} = \sum_{i=1}^{n} Z_{i} (R_{\text{fixed}} - R_{\text{forward}","i}) \times \frac{d_{i}}{360}","Derivatives"
-"Currency Swap Valuation","V_{\text{currency swap}} = \sum_{i=1}^{n} \frac{CF_{i}^{A}}{(1 + r_{A})^{i}} - \sum_{i=1}^{n} \frac{CF_{i}^{B}}{(1 + r_{B})^{i}} \times S_{0}","Derivatives","This equation values currency swaps"
-"Commodity Swap Price","R_{\text{swap}} = \frac{F_{T_{1}} - F_{T_{n}}}{ \sum_{i=1}^{n-1} F_{T_{i}} \times \frac{d_{i}}{365} }","Derivatives","This equation prices commodity swaps"
-"Credit Default Swap Spread","s_{\text{CDS}} = \frac{(1 - R) \times \lambda}{1 - e^{-\lambda T}}","Derivatives","This equation approximates CDS spreads under constant hazard rate"
-"CDS Valuation","V_{\text{CDS}} = (1 - R) \times \sum_{i=1}^{n} Q_{i-1} (1 - Q_{i}) \times Z_{i} - s \times \sum_{i=1}^{n} Q_{i} \times Z_{i} \times d_{i}","Derivatives","This equation values CDS contracts"
-"Total Return Swap Value","V_{\text{TRS}} = (R_{\text{asset}} - R_{\text{reference}}) \times N \times \frac{d}{360}","Derivatives","This equation values total return swaps"
-"Equity Swap Value","V_{\text{equity swap}} = \sum_{t=1}^{n} \frac{(R_{\text{equity}","t} - R_{\text{fixed}})}{(1 + r)^{t}} \times N","Derivatives"
-"Variance Swap Price","K_{\text{variance}} = \frac{1}{T} \int_{0}^{T} \sigma_{t}^{2} \"," dt","Derivatives"
-"Volatility Swap Price","K_{\text{volatility}} = \sqrt{ \frac{1}{T} \int_{0}^{T} \sigma_{t}^{2} \"," dt } = \sqrt{K_{\text{variance}}}","Derivatives"
-"Barrier Option Price","C_{\text{barrier}} = C_{\text{vanilla}} - \text{rebate probability} \times e^{-rT}","Derivatives","This equation prices barrier options"
-"Asian Option Price","C_{\text{Asian}} = e^{-rT} E_{Q} [\max(A - K"," 0)]","Derivatives"
-"Lookback Option Price","C_{\text{lookback}} = S_{0} N(d_{1}) - K e^{-rT} N(d_{2}) + \text{volatility adjustment}","Derivatives","This equation prices lookback options that depend on the maximum or minimum price achieved"
-"Quanto Option Price","C_{\text{quanto}} = S_{0}^{f} N(d_{1}) - K e^{-r^{d} T} N(d_{2}) \times \frac{\sigma_{f}}{\sigma_{d}}","Derivatives","This equation prices quanto options that convert currency risk"
-"Compound Option Price","C_{\text{compound}} = S_{0} N(d_{1}^{1}) e^{-r T_{1}} N(d_{2}^{1}) - K_{1} e^{-r T_{1}} N(d_{2}^{1}) + \text{inner option adjustment}","Derivatives","This equation prices options on options"
-"Chooser Option Price","C_{\text{chooser}} = S_{0} e^{-r T_{2}} N(d_{1}) - K e^{-r T_{2}} N(d_{2}) + S_{0} e^{-r T_{2}} N(-d_{1} + \sigma \sqrt{T_{1}}) - K e^{-r T_{2}} N(-d_{2} + \sigma \sqrt{T_{1}})","Derivatives","This equation prices chooser options that allow selection between call and put at a future date"
-"Basket Option Price","C_{\text{basket}} = e^{-rT} E_{Q} [\max(w_{1} S_{1} + w_{2} S_{2} + \dots + w_{n} S_{n} - K"," 0)]","Derivatives"
-"Rainbow Option Price","C_{\text{rainbow}} = e^{-rT} E_{Q} [\max(\max(S_{1}"," S_{2}"," \dots"
-"Digital Option Price","C_{\text{digital}} = e^{-rT} N(d_{2})","Derivatives","This equation prices binary options that pay a fixed amount if a condition is met"
-"Power Option Price","C_{\text{power}} = e^{-rT} E_{Q} [\max(S^{\alpha} - K"," 0)]","Derivatives"
-"Exchange Option Price","C_{\text{exchange}} = S_{1} N(d_{1}) - S_{2} N(d_{2})","Derivatives","This equation prices options to exchange one asset for another"
-"Spread Option Price","C_{\text{spread}} = S_{1} N(d_{1}) - S_{2} N(d_{2}) - K e^{-rT} (N(d_{1}) - N(d_{2}))","Derivatives","This equation prices spread options on the difference between two assets"
-"Cliquet Option Price","C_{\text{cliquet}} = \max\left( \prod_{i=1}^{n} (1 + \max(R_{i} - K"," 0)) - 1"," 0 \right)"
-"Forward Start Option Price","C_{\text{forward start}} = S_{0} e^{-q T_{1}} \left( e^{(r-q)(T_{2}-T_{1})} N(d_{1}) - e^{-r(T_{2}-T_{1})} N(d_{2}) \right)","Derivatives","This equation prices forward start options that begin at a future date"
-"Parisian Option Price","C_{\text{parisian}} = e^{-rT} E_{Q} [\max(S_{T} - K"," 0) \times I(\text{condition})]","Derivatives"
-"Step Option Price","C_{\text{step}} = e^{-rT} E_{Q} [\max(S_{T}^{\alpha(t)} - K"," 0)]","Derivatives"
-"Spot Rate from Zero Coupon Bond","r_{t} = -\frac{1}{t} \ln(P_{t})","Interest Rate Theory","This equation extracts continuously compounded spot rates from zero-coupon bond prices"
-"Forward Rate Calculation","f_{t","t+1} = \frac{(1 + r_{t+1})^{t+1}}{(1 + r_{t})^{t}} - 1","Interest Rate Theory"
-"Instantaneous Forward Rate","f(t) = r(t) + t \frac{dr(t)}{dt}","Interest Rate Theory","This equation defines the instantaneous forward rate as the derivative of the spot rate curve"
-"Discount Factor","Z(t) = e^{-r(t) t} = e^{-\int_{0}^{t} f(s) \"," ds}","Interest Rate Theory"
-"Par Yield Calculation","y_{\text{par}} = \frac{1 - Z_{n}}{\sum_{i=1}^{n} Z_{i}}","Interest Rate Theory","This equation calculates the par yield from discount factors"
-"Bootstrapping Spot Rates","r_{t} = \left( \frac{C + F}{(P - \sum_{i=1}^{t-1} \frac{C}{Z_{i}})} \right)^{\frac{1}{t}} - 1","Interest Rate Theory","This equation bootstraps spot rates from coupon bond prices"
-"Nelson-Siegel Yield Curve","y(t) = \beta_{0} + \beta_{1} \frac{1 - e^{-t/\lambda}}{t/\lambda} + \beta_{2} \left( \frac{1 - e^{-t/\lambda}}{t/\lambda} - e^{-t/\lambda} \right)","Interest Rate Theory","This parametric model fits the yield curve using three factors"
-"Svensson Extension","y(t) = \beta_{0} + \beta_{1} \frac{1 - e^{-t/\tau_{1}}}{t/\tau_{1}} + \beta_{2} \frac{1 - e^{-t/\tau_{1}}}{t/\tau_{1}}} e^{-t/\tau_{1}} + \beta_{3} \frac{1 - e^{-t/\tau_{2}}}{t/\tau_{2}}} e^{-t/\tau_{2}}","Interest Rate Theory","This extended model adds a second hump to capture more complex yield curve shapes"
-"Vasicek Model","dr = \kappa (\theta - r) dt + \sigma dW","Interest Rate Theory","This one-factor model describes the evolution of the short rate"
-"Cox-Ingersoll-Ross Model","dr = \kappa (\theta - r) dt + \sigma \sqrt{r} dW","Interest Rate Theory","This extension prevents negative interest rates"
-"Hull-White Model","dr = [\theta(t) - \kappa r] dt + \sigma dW","Interest Rate Theory","This time-dependent model fits the initial yield curve exactly"
-"Heath-Jarrow-Morton Framework","df(t) = \alpha(t","T) dt + \sigma(t","T) dW(t)"
-"LIBOR Market Model","dL_{i}(t) = L_{i}(t) \mu_{i}(t) dt + L_{i}(t) \sigma_{i}(t) dW_{i}(t)","Interest Rate Theory","This market model describes the evolution of forward LIBOR rates"
-"Ho-Lee Model","\Delta r(t) = \theta(t) dt + \sigma dW(t)","Interest Rate Theory","This simple model assumes constant volatility"
-"Black-Karasinski Model","d \ln r = [\theta(t) - \kappa \ln r] dt + \sigma dW(t)","Interest Rate Theory","This lognormal model prevents negative rates while maintaining analytical tractability"
-"Affine Term Structure Models","r(t) = a(t) + b(t) X(t)","Interest Rate Theory","This class of models expresses the short rate as an affine function of state variables"
-"Gaussian Two-Factor Model","dr_{1} = \kappa_{1} (\theta_{1} - r_{1}) dt + \sigma_{1} dW_{1}","Interest Rate Theory","This model extends single-factor models by adding a second source of uncertainty"
-"Principal Component Analysis","\lambda_{k} = \text{eigenvalue of covariance matrix}","Interest Rate Theory","This statistical approach decomposes yield curve movements into orthogonal factors"
-"Key Rate Duration","KRD_{i} = -\frac{\Delta P}{P \times \Delta y_{i}}","Interest Rate Theory","This measure decomposes duration by maturity buckets"
-"DV01 (Dollar Duration)","DV01 = -\frac{\partial P}{\partial y} \times 0.0001","Interest Rate Theory","This equation quantifies the dollar impact of a 1 basis point rate change"
-"Convexity Adjustment","CA = \frac{1}{2} \sigma^{2} T^{2} + \frac{1}{2} \sigma^{2} \tau^{2}","Interest Rate Theory","This adjustment accounts for the difference between futures and forward rates in stochastic environments"
-"Jamshidian's Trick","P(0","T) = E_{Q} \left[ \exp\left( -\int_{0}^{T} r(t) dt \right) \right] = E_{Q} \left[ \prod_{i=1}^{n} \exp\left( -r(t_{i-1}) \Delta t_{i} \right) \right]","Interest Rate Theory"
-"Black's Model for Swaptions","C = N \times [F N(d_{1}) - K N(d_{2})]","Interest Rate Theory","This equation prices swaptions using Black's formula adapted for swap rates"
-"SABR Model for Interest Rates","\frac{dF}{F^{\beta}} = \alpha dW","Interest Rate Theory","This stochastic volatility model captures the volatility smile in interest rate options"
-"Extended Vasicek Model","dr = \kappa(t) (\theta(t) - r) dt + \sigma(t) \sqrt{r} dW","Interest Rate Theory","This time-dependent extension allows better fitting of the current yield curve"
-"BGM Model (Brace-Gatarek-Musiela)","df(t","T) = \mu(t","T) dt + \sum_{k=1}^{m} \sigma_{k}(t"
+title,equation,main_category,notes
+Future Value of Single Payment,FV = PV \times (1 + r)^{n} = PV \times e^{n \ln(1+r)},Basic Finance Math,This equation calculates the future value of a single payment made today
+Present Value of Single Payment,PV = \frac{FV}{(1 + r)^{n}} = FV \times e^{-n \ln(1+r)},Basic Finance Math,This equation calculates the present value of a future payment
+Compound Interest Formula,A = P \left(1 + \frac{r}{m}\right)^{mt} = P \exp\left(mt \ln\left(1 + \frac{r}{m}\right)\right),Basic Finance Math,This equation reveals the power of compounding frequency in wealth accumulation
+Simple Interest Formula,I = P \times r \times t,Basic Finance Math,This equation calculates simple interest
+Effective Annual Rate,EAR = \left(1 + \frac{r}{m}\right)^{m} - 1 = \exp\left(m \ln\left(1 + \frac{r}{m}\right)\right) - 1,Basic Finance Math,This equation calculates the true annual return accounting for compounding frequency
+Future Value of Ordinary Annuity,FVA = PMT \times \frac{(1 + r)^{n} - 1}{r} = PMT \times \frac{1 - (1 + r)^{-n}}{r} \times (1 + r)^{n},Basic Finance Math,This equation calculates the future value of an ordinary annuity
+Present Value of Ordinary Annuity,PVA = PMT \times \frac{1 - (1 + r)^{-n}}{r},Basic Finance Math,This equation calculates the present value of an ordinary annuity
+Future Value of Annuity Due,FVAD = PMT \times \frac{(1 + r)^{n} - 1}{r} \times (1 + r) = FVA \times (1 + r),Basic Finance Math,This equation calculates the future value of an annuity due
+Present Value of Annuity Due,PVAD = PMT \times \frac{1 - (1 + r)^{-n}}{r} \times (1 + r) = PVA \times (1 + r),Basic Finance Math,This equation calculates the present value of an annuity due
+Perpetuity Present Value,PV_{\infty} = \frac{PMT}{r} = \lim_{n \to \infty} PMT \times \frac{1 - (1 + r)^{-n}}{r},Basic Finance Math,This equation calculates the present value of a perpetuity
+Growing Annuity Present Value,PVGA = PMT \times \frac{1 - \left(\frac{1+g}{1+r}\right)^{n}}{r - g} = \sum_{t=1}^{n} \frac{PMT \times (1+g)^{t-1}}{(1+r)^{t}},Basic Finance Math,This equation calculates the present value of a growing annuity
+Growing Perpetuity Present Value,PVG_{\infty} = \frac{PMT}{r - g} = \lim_{n \to \infty} PMT \times \frac{1 - \left(\frac{1+g}{1+r}\right)^{n}}{r - g},Basic Finance Math,This equation calculates the present value of a growing perpetuity
+Loan Payment Formula,PMT = PV \times r \times \frac{(1 + r)^{n}}{(1 + r)^{n} - 1} = \frac{PV \times r}{1 - (1 + r)^{-n}},Basic Finance Math,This equation calculates loan payments
+Internal Rate of Return,0 = \sum_{t=1}^{n} \frac{CF_{t}}{(1 + IRR)^{t}} - CF_{0} = NPV(IRR) = 0,Basic Finance Math,This equation defines the internal rate of return
+Net Present Value,NPV = \sum_{t=1}^{n} \frac{CF_{t}}{(1 + r)^{t}} - CF_{0} = \sum_{t=0}^{n} \frac{CF_{t}}{(1 + r)^{t}},Basic Finance Math,This equation calculates net present value
+Modified Internal Rate of Return,MIRR = \left( \frac{\sum_{t=1}^{n} CF_{t}^{+} \times (1 + r_{r})^{n-t}}{\sum_{t=1}^{n} \frac{CF_{t}^{-}}{(1 + r_{f})^{t}}} \right)^{\frac{1}{n}} - 1,Basic Finance Math,This equation calculates the modified internal rate of return
+Capital Asset Pricing Model,E[R_{i}] = r_{f} + \beta_{i} \times (E[R_{m}] - r_{f}),Basic Finance Math,This equation defines the Capital Asset Pricing Model
+Dividend Discount Model,P_{0} = \frac{D_{1}}{r - g} = \sum_{t=1}^{\infty} \frac{D_{0} \times (1+g)^{t}}{(1+r)^{t}},Basic Finance Math,This equation defines the Gordon Growth Model for stock valuation
+Zero-Coupon Bond Price,P = \frac{F}{(1 + y)^{n}} = F \times e^{-n \ln(1+y)},Bonds and Fixed Income,This equation prices a zero-coupon bond
+Coupon Bond Price,P = \sum_{t=1}^{n} \frac{C}{(1 + y)^{t}} + \frac{F}{(1 + y)^{n}} = \underbrace{\frac{C}{y} \left[1 - (1 + y)^{-n}\right]}_{\text{annuity factor}} + \underbrace{\frac{F}{(1 + y)^{n}}}_{\text{principal PV}},Bonds and Fixed Income,This equation decomposes coupon bond pricing into annuity and lump-sum components
+Bond Price with Semi-Annual Coupons,P = \sum_{t=1}^{2n} \frac{C/2}{(1 + y/2)^{t}} + \frac{F}{(1 + y/2)^{2n}} = \frac{C}{2y} \left[1 - \left(1 + \frac{y}{2}\right)^{-2n}\right] + \frac{F}{\left(1 + \frac{y}{2}\right)^{2n}},Bonds and Fixed Income,This equation captures semi-annual compounding conventions in bond markets
+Macaulay Duration,D_{\text{mac}} = \frac{\sum_{t=1}^{n} t \times \frac{CF_{t}}{(1 + y)^{t}}}{P} = \frac{\sum_{t=1}^{n} t \times PV(CF_{t})}{P},Bonds and Fixed Income,This equation calculates Macaulay duration
+Modified Duration,D_{\text{mod}} = \frac{D_{\text{mac}}}{1 + \frac{y}{m}} = -\frac{1}{P} \frac{\partial P}{\partial y},Bonds and Fixed Income,This equation transforms Macaulay duration into price sensitivity measure
+Effective Duration,D_{\text{eff}} = \frac{P_{-} - P_{+}}{2P_{0} \times \Delta y} = -\frac{1}{P} \frac{\Delta P}{\Delta y},Bonds and Fixed Income,This equation measures duration for bonds with embedded options
+Convexity,C = \frac{\sum_{t=1}^{n} t(t+1) \times \frac{CF_{t}}{(1 + y)^{t+2}}}{P} = \frac{1}{P(1 + y)^{2}} \frac{\partial^{2} P}{\partial y^{2}},Bonds and Fixed Income,This equation measures the curvature of the bond price-yield relationship
+Price Change Approximation,\frac{\Delta P}{P} \approx -D_{\text{mod}} \times \Delta y + \frac{1}{2} C \times (\Delta y)^{2} = \frac{\partial P}{P} + \frac{1}{2} \frac{\partial^{2} P}{P} (\Delta y),Bonds and Fixed Income,This equation provides the second-order Taylor approximation of bond price changes
+Spot Rate Bootstrapping,y_{t} = \left( \frac{CF_{t}}{P - \sum_{i=1}^{t-1} \frac{CF_{i}}{(1 + y_{i})^{i}}} \right)^{\frac{1}{t}} - 1 = \left( \frac{\text{remaining CF}}{P - \text{known PV}} \right)^{\frac{1}{t}} - 1,Bonds and Fixed Income,This equation extracts the term structure of spot rates from market bond prices
+Forward Rate,f_{t,t+1} = \left( \frac{(1 + y_{t+1})^{t+1}}{(1 + y_{t})^{t}} \right) - 1 = \frac{(1 + y_{t+1})^{t+1}}{(1 + y_{t})^{t}} - 1,Bonds and Fixed Income
+Z-Spread,Z = y - y_{\text{spot}} = \frac{1}{D_{\text{mac}}} \ln\left( \frac{\text{bond price}}{\text{spot PV of CFs}} \right),Bonds and Fixed Income,This equation calculates the constant spread over the spot curve that prices a bond correctly
+Option-Adjusted Spread,OAS = Z - \frac{\text{OptionValue}}{D_{\text{mod}} \times P} \times 10000,Bonds and Fixed Income,This equation calculates the spread after adjusting for embedded options
+Effective Convexity,C_{\text{eff}} = \frac{P_{-} + P_{+} - 2P_{0}}{P_{0} \times (\Delta y)^{2}} = \frac{1}{P} \frac{\partial^{2} P}{\partial y^{2}},Bonds and Fixed Income,This equation measures convexity for bonds with embedded options
+DV01,DV01 = -D_{\text{mod}} \times P \times 0.0001 = -\frac{\partial P}{\partial y} \times 0.0001,Bonds and Fixed Income,This equation quantifies interest rate risk in dollar terms
+Clean Price,P_{\text{clean}} = P_{\text{dirty}} - A = P_{\text{quoted}},Bonds and Fixed Income,This equation separates quoted prices from settlement prices
+Accrued Interest,A = C \times \frac{d}{D} = C \times \frac{\text{days held}}{\text{days in period}},Bonds and Fixed Income,This equation calculates interest earned but not yet paid
+Bond Equivalent Yield,BEY = \left( \frac{F}{P} - 1 \right) \times \frac{365}{d} = \left( \frac{F - P}{P} \right) \times \frac{365}{d},Bonds and Fixed Income,This equation annualizes T-bill discount yields for comparison with coupon bonds
+Callable Bond Price,P = \min(P_{\text{straight}}, P_{\text{call}}) = P_{\text{straight}} - \max(0, P_{\text{straight}} - P_{\text{call}})
+Convertible Bond Price,P = P_{\text{straight}} + P_{\text{conversion option}} = P_{\text{straight}} + \max(0, S \times \text{ratio} - P_{\text{strike}}),Bonds and Fixed Income
+Mortgage-Backed Security Price,P = \sum_{t=1}^{n} \frac{PMT_{t}}{(1 + y)^{t}} = \sum_{t=1}^{n} \frac{\text{principal}_{t} + \text{interest}_{t}}{(1 + y)^{t}},Bonds and Fixed Income,This equation prices mortgage-backed securities with changing cash flows
+Average Life,AL = \frac{\sum_{t=1}^{n} t \times \frac{CF_{t}}{(1 + y)^{t}}}{\sum_{t=1}^{n} \frac{CF_{t}}{(1 + y)^{t}}} = \frac{\sum t \times PV(CF_{t})}{\sum PV(CF_{t})},Bonds and Fixed Income,This equation calculates the expected duration of mortgage-backed securities
+Black-Scholes Call Option,C = S_{0} N(d_{1}) - K e^{-rT} N(d_{2}),Options,This equation prices European call options using the groundbreaking Black-Scholes model
+Black-Scholes Put Option,P = K e^{-rT} N(-d_{2}) - S_{0} N(-d_{1}),Options,This equation prices European put options using put-call parity
+Black-Scholes d1,d_{1} = \frac{\ln(S_{0}/K) + (r + \frac{1}{2} \sigma^{2}) T}{\sigma \sqrt{T}},Options,This parameter drives the Black-Scholes model
+Black-Scholes d2,d_{2} = d_{1} - \sigma \sqrt{T} = \frac{\ln(S_{0}/K) + (r - \frac{1}{2} \sigma^{2}) T}{\sigma \sqrt{T}},Options,This parameter completes the Black-Scholes framework
+Put-Call Parity,C - P = S_{0} - K e^{-rT},Options,This fundamental relationship reveals the arbitrage constraints that must hold between calls and puts on the same underlying
+Option Delta (Call),\Delta_{C} = N(d_{1}) = \frac{\partial C}{\partial S},Options,This equation measures the option's sensitivity to underlying price changes
+Option Delta (Put),\Delta_{P} = N(d_{1}) - 1 = \frac{\partial P}{\partial S},Options,This equation shows put delta as negative
+Option Gamma,\Gamma = \frac{N'(d_{1})}{S_{0} \sigma \sqrt{T}} = \frac{\partial^{2} C}{\partial S^{2}} = \frac{\partial \Delta}{\partial S},Options,This equation measures the rate of change of delta
+Option Theta (Call),\Theta_{C} = -\frac{S_{0} N'(d_{1}) \sigma}{2 \sqrt{T}} - r K e^{-rT} N(d_{2}) = -\frac{\partial C}{\partial T},Options,This equation measures time decay
+Option Vega,V = S_{0} \sqrt{T} N'(d_{1}) = \frac{\partial C}{\partial \sigma},Options,This equation measures sensitivity to volatility changes
+Option Rho (Call),\rho_{C} = K T e^{-rT} N(d_{2}) = \frac{\partial C}{\partial r},Options,This equation measures sensitivity to interest rate changes
+Binomial Tree Up Factor,u = e^{\sigma \sqrt{\Delta t}},Options,This equation defines the multiplicative upward movement in binomial option pricing
+Binomial Tree Down Factor,d = e^{-\sigma \sqrt{\Delta t}} = \frac{1}{u},Options,This equation defines the downward movement factor
+Binomial Risk-Neutral Probability,p^{*} = \frac{e^{r \Delta t} - d}{u - d},Options,This equation calculates the risk-neutral probability of an up move
+Binomial Option Price,C_{0} = e^{-r \Delta t} [p^{*} C_{u} + (1 - p^{*}) C_{d}],Options,This equation implements backward induction in binomial trees
+Trinomial Tree Probabilities,p_{u} = \frac{1}{2} + \frac{1}{2} \frac{(\mu - \sigma^{2}/2) \Delta t}{\sigma \sqrt{\Delta t}},Options,This equation calculates probabilities in trinomial trees
+Cox-Ross-Rubinstein Parameters,u = e^{\sigma \sqrt{\Delta t}}, \quad d = e^{-\sigma \sqrt{\Delta t}}, \quad p = \frac{e^{r \Delta t} - d}{u - d}
+Jarrow-Rudd Parameters,u = e^{(r - \frac{1}{2} \sigma^{2}) \Delta t + \sigma \sqrt{\Delta t}}, \quad d = e^{(r - \frac{1}{2} \sigma^{2}) \Delta t - \sigma \sqrt{\Delta t}}, \quad p = \frac{1}{2}
+Implied Volatility Definition,\sigma_{imp}: C_{market} = C_{BSM}(S_{0}, K, T
+Volatility Smile,\sigma_{imp} = f\left(\frac{K}{S_{0}}\right),Options,This relationship reveals that implied volatility varies with strike price
+Volatility Surface,\sigma_{imp} = f(K, T),Options
+SABR Model Volatility,\sigma_{BSM}(K) = \frac{\alpha}{(F/K)^{\beta}} \left[1 + \left(\frac{(1-\beta)^{2} \alpha^{2}}{24 (F/K)^{2-2\beta}} + \frac{\rho \beta \nu \alpha}{4 (F/K)^{1-\beta}} + \frac{(2-3\rho^{2}) \nu^{2}}{24}\right) T \right],Options,This equation provides the SABR model's implied volatility approximation
+Digital Option Price,C = e^{-rT} N(d_{2}),Options,This equation prices binary options that pay $1 if the condition is met
+Barrier Option (Up-and-Out Call),C = S_{0} N(d_{1}) - K e^{-rT} N(d_{2}) - S_{0} \left(\frac{H}{S_{0}}\right)^{2\lambda} \left[ N(d_{1} - 2\lambda \sqrt{T}) - N(d_{2} - 2\lambda \sqrt{T}) \right],Options,This complex equation prices barrier options that activate or deactivate based on price levels
+Asian Option Price,C = e^{-rT} E_{Q} [\max(A - K, 0)],Options
+Chooser Option,C = S_{0} e^{-r T_{2}} N(d_{1}) - K e^{-r T_{2}} N(d_{2}) + S_{0} e^{-r T_{2}} N(-d_{1} + \sigma \sqrt{T_{1}}) - K e^{-r T_{2}} N(-d_{2} + \sigma \sqrt{T_{1}}),Options,This equation prices options that allow the holder to choose between call and put at a future date
+Compound Option (Call on Call),C = S_{0} N(d_{1}) - K_{1} e^{-r T_{1}} N(d_{2}) - K_{2} e^{-r T_{2}} N(d_{3}),Options,This equation prices options on options
+Futures Price,F_{0} = S_{0} e^{rT},Futures,This equation defines futures pricing under the cost-of-carry model
+Forward Price,F_{0} = S_{0} + \text{carrying costs} - \text{carrying benefits},Futures,This equation generalizes futures pricing to include all carrying costs and benefits
+Commodity Futures Price,F_{0} = S_{0} e^{(r - y)T},Futures,This equation incorporates the convenience yield for commodities
+Currency Futures Price,F_{0} = S_{0} e^{(r_{domestic} - r_{foreign})T},Futures,This equation prices currency futures using interest rate parity
+Index Futures Price,F_{0} = S_{0} e^{(r - q)T},Futures,This equation prices index futures accounting for dividend yields
+Futures Margin Requirement,\text{Initial Margin} = k \times \text{Contract Value} \times \text{Volatility Factor},Futures,This equation defines initial margin requirements
+Maintenance Margin,\text{Maintenance Margin} = \text{Initial Margin} \times (1 - \text{Margin Call Threshold}),Futures,This equation sets the maintenance margin level
+Margin Call Trigger,\text{Margin Call} = \text{Equity} < \text{Maintenance Margin},Futures,This condition defines when margin calls occur
+Futures Profit/Loss,\Pi = (F_{T} - F_{0}) \times \text{Contract Size} \times \text{Position},Futures,This equation calculates futures profits and losses
+Hedging Ratio (Minimum Variance),\beta = \frac{\text{Cov}(S, F)}{\text{Var}(F)},Futures
+Cross-Hedging Ratio,\beta = \frac{\text{Cov}(S_{1}, S_{2})}{\text{Var}(S_{2})},Futures
+Tailing the Hedge,\beta_{\text{adjusted}} = \beta_{0} \times \frac{1}{1 + r_{\text{short}} \times \frac{T}{365}},Futures,This equation adjusts hedge ratios for the time decay of futures contracts
+Basis,B = F - S,Futures,This equation defines the basis
+Basis Risk,\sigma_{\text{basis}} = \sqrt{\text{Var}(B)},Futures,This equation measures basis risk
+Cash-Futures Arbitrage,\text{Arbitrage} = F - (S + \text{Carrying Costs}),Futures,This equation identifies arbitrage opportunities
+Calendar Spread Value,\Pi_{\text{spread}} = (F_{\text{near}} - F_{\text{far}}) \times \text{Contract Size},Futures,This equation calculates calendar spread profits
+Futures Convexity Adjustment,CA = -\frac{1}{2} \sigma^{2} T^{2} + \frac{1}{2} \sigma^{2} \tau^{2},Futures,This equation adjusts futures prices for convexity effects
+Futures Gamma,\Gamma = \frac{\partial^{2} F}{\partial S^{2}} = 0,Futures,This equation reveals the linear payoff structure of futures
+Value at Risk (Futures),\text{VaR} = - \text{Position Size} \times \text{Contract Value} \times \text{Volatility} \times \sqrt{T} \times z_{\alpha},Futures,This equation calculates VaR for futures positions
+Liquidity-Adjusted Futures Price,F_{0}^{*} = F_{0} \times (1 + \text{Liquidity Premium}),Futures,This equation incorporates liquidity effects
+Futures Roll Cost,\text{Roll Cost} = F_{\text{new}} - F_{\text{old}} + \text{Transaction Costs},Futures,This equation calculates the cost of rolling futures positions
+Eurodollar Futures Price,F_{0} = 100 - \text{3-month LIBOR},Futures,This equation defines Eurodollar futures pricing
+Federal Funds Futures Price,F_{0} = 100 - \text{Effective Federal Funds Rate},Futures,This equation prices Federal Funds futures
+Treasury Futures Conversion Factor,CF = \frac{1}{1 + \frac{y}{2}} \times \left( \frac{0.6}{0.5} + \frac{0.4}{0.25} \right),Futures,This equation calculates conversion factors for Treasury futures
+Cheapest-to-Deliver Bond,CTD = \arg\min_{i} \left[ P_{i} - CF_{i} \times (F \times \text{Conversion Factor}) \right],Futures,This equation identifies the cheapest bond to deliver
+Futures Implied Repo Rate,R = \frac{(F \times CF) - P}{P} \times \frac{365}{T},Futures,This equation calculates the implied repo rate
+Value at Risk (Parametric),\text{VaR}_{\alpha} = -\mu \times T - z_{\alpha} \times \sigma \times \sqrt{T},Risk Metrics and Measures,This equation calculates parametric Value at Risk using the normal distribution
+Value at Risk (Historical),\text{VaR}_{\alpha} = -\text{percentile}(R, 1-\alpha),Risk Metrics and Measures
+Expected Shortfall (CVaR),\text{ES}_{\alpha} = -\frac{1}{1-\alpha} \int_{\alpha}^{1} q_{u} \, du = -\frac{1}{1-\alpha} \int_{-\infty}^{\text{VaR}_{\alpha}} x \, f(x) \
+Conditional Value at Risk,\text{CVaR}_{\alpha} = \frac{1}{1-\alpha} \int_{\alpha}^{1} \text{VaR}_{u} \, du,Risk Metrics and Measures
+Sharpe Ratio,\text{Sharpe} = \frac{E[R_{p}] - R_{f}}{\sigma_{p}},Risk Metrics and Measures,This equation measures risk-adjusted returns
+Sortino Ratio,\text{Sortino} = \frac{E[R_{p}] - R_{f}}{\sigma_{\text{downside}}},Risk Metrics and Measures,This equation measures downside risk-adjusted returns
+Maximum Drawdown,\text{MDD} = \max_{t \in [0,T]} \left( \frac{P_{\text{peak}} - P_{t}}{P_{\text{peak}}} \right),Risk Metrics and Measures
+Calmar Ratio,\text{Calmar} = \frac{E[R_{p}] - R_{f}}{\text{MDD}},Risk Metrics and Measures,This equation measures return per unit of maximum drawdown
+Omega Ratio,\Omega(\alpha) = \frac{\int_{\alpha}^{\infty} (1 - F_{R}(x)) \, dx}{\int_{-\infty}^{\alpha} F_{R}(x) \, dx}
+Downside Deviation,\sigma_{\text{downside}} = \sqrt{\frac{1}{n} \sum_{t=1}^{n} \min(R_{t} - \alpha, 0)^{2}},Risk Metrics and Measures
+Semi-Variance,\sigma_{\text{semi}}^{2} = \frac{1}{n} \sum_{t=1}^{n} \max(\alpha - R_{t}, 0)^{2},Risk Metrics and Measures
+Tracking Error,\text{TE} = \sqrt{\frac{1}{n} \sum_{t=1}^{n} (R_{p,t} - R_{b,t})^{2}}
+Information Ratio,\text{IR} = \frac{E[R_{p} - R_{b}]}{\text{TE}},Risk Metrics and Measures,This equation measures active return per unit of active risk
+Beta,\beta = \frac{\text{Cov}(R_{p}, R_{m})}{\text{Var}(R_{m})},Risk Metrics and Measures
+Jensen's Alpha,\alpha = E[R_{p}] - [R_{f} + \beta (E[R_{m}] - R_{f})],Risk Metrics and Measures,This equation measures abnormal returns after adjusting for systematic risk
+Marginal Value at Risk,\text{MVaR}_{i} = \frac{\partial \text{VaR}}{\partial w_{i}} = \frac{\text{Cov}(R_{i}, R_{p})}{\sigma_{p}} \times \frac{\partial \text{VaR}}{\partial \sigma_{p}},Risk Metrics and Measures
+Incremental Value at Risk,\text{IVaR}_{i} = \text{VaR}_{\text{portfolio}} - \text{VaR}_{\text{portfolio without } i},Risk Metrics and Measures,This equation measures the VaR contribution of a specific asset
+Component Value at Risk,\text{CVaR}_{i} = w_{i} \times \text{MVaR}_{i} = w_{i} \times \frac{\partial \text{VaR}}{\partial w_{i}},Risk Metrics and Measures,This equation calculates the VaR contribution weighted by position size
+Expected Tail Loss,\text{ETL}_{\alpha} = \frac{1}{\alpha} \int_{0}^{\alpha} \text{VaR}_{u} \, du,Risk Metrics and Measures
+Spectral Risk Measure,\rho_{\phi}(X) = \int_{0}^{1} \text{VaR}_{u}(X) \, \phi(u) \, du
+Liquidity-Adjusted Value at Risk,\text{LVaR} = \text{VaR} \times (1 + \text{Liquidity Premium}),Risk Metrics and Measures,This equation adjusts VaR for liquidity risk
+Stress Testing Loss,\text{Stress Loss} = \sum_{i=1}^{n} w_{i} \times (S_{i,\text{stress}} - S_{i,\text{normal}})
+Tail Value at Risk,\text{TVaR}_{\alpha} = \frac{1}{1-\alpha} \int_{\alpha}^{1} \text{VaR}_{u} \, du,Risk Metrics and Measures
+Ulcer Index,\text{UI} = \sqrt{\frac{1}{n} \sum_{t=1}^{n} D_{t}^{2}},Risk Metrics and Measures,This equation measures the depth and duration of drawdowns
+Pain Index,\text{PI} = \frac{1}{n} \sum_{t=1}^{n} \frac{|D_{t}|}{\text{Duration of } D_{t}},Risk Metrics and Measures,This equation measures the average pain per unit time during drawdowns
+Gain-to-Pain Ratio,\text{GPR} = \frac{\text{Total Return}}{\text{Pain Index}},Risk Metrics and Measures,This equation measures return per unit of pain experienced
+Recovery Time,\text{RT} = \frac{\text{Drawdown Magnitude}}{\text{Expected Recovery Rate}},Risk Metrics and Measures,This equation estimates the time needed to recover from a drawdown
+Portfolio Expected Return,E[R_{p}] = \sum_{i=1}^{n} w_{i} E[R_{i}],Portfolio Theory,This equation calculates the expected return of a portfolio as the weighted average of individual asset expected returns
+Portfolio Variance,\sigma_{p}^{2} = \sum_{i=1}^{n} \sum_{j=1}^{n} w_{i} w_{j} \sigma_{ij},Portfolio Theory,This equation calculates portfolio variance as the quadratic form of weights and covariance matrix
+Portfolio Standard Deviation,\sigma_{p} = \sqrt{\sum_{i=1}^{n} \sum_{j=1}^{n} w_{i} w_{j} \sigma_{ij}},Portfolio Theory,This equation defines portfolio volatility as the square root of variance
+Markowitz Efficient Frontier,\min_{w} \sigma_{p}^{2} \quad \text{subject to} \quad E[R_{p}] = \mu_{\text{target}},Portfolio Theory,This equation defines the efficient frontier as the set of portfolios with minimum variance for a given expected return
+Capital Market Line,\text{CML}: \quad E[R_{p}] = R_{f} + \frac{E[R_{m}] - R_{f}}{\sigma_{m}} \sigma_{p},Portfolio Theory,This equation defines the Capital Market Line as the tangent from the risk-free rate to the efficient frontier
+Capital Asset Pricing Model,E[R_{i}] = R_{f} + \beta_{i} (E[R_{m}] - R_{f}),Portfolio Theory,This equation prices individual assets based on their systematic risk
+Security Market Line,\text{SML}: \quad E[R_{i}] = R_{f} + \beta_{i} (E[R_{m}] - R_{f}),Portfolio Theory,This equation plots the CAPM relationship graphically
+Arbitrage Pricing Theory,E[R_{i}] = R_{f} + \sum_{k=1}^{K} \beta_{i k} \lambda_{k},Portfolio Theory,This equation extends CAPM to multiple factors
+Fama-French Three-Factor Model,E[R_{i}] - R_{f} = \alpha_{i} + \beta_{i} (R_{m} - R_{f}) + s_{i} \text{SMB} + h_{i} \text{HML},Portfolio Theory,This equation decomposes returns into market
+Carhart Four-Factor Model,E[R_{i}] - R_{f} = \alpha_{i} + \beta_{i} (R_{m} - R_{f}) + s_{i} \text{SMB} + h_{i} \text{HML} + m_{i} \text{MOM},Portfolio Theory,This equation adds momentum factor to the three-factor model
+Black-Litterman Model,\mu_{\text{BL}} = \left[ (\tau \Sigma)^{-1} + P^{T} \Omega^{-1} P \right]^{-1} \left[ (\tau \Sigma)^{-1} \mu_{\text{prior}} + P^{T} \Omega^{-1} q \right],Portfolio Theory,This equation combines market equilibrium returns with investor views
+Mean-Variance Optimization,\max_{w} \frac{E[R_{p}] - R_{f}}{\sigma_{p}} \quad \text{subject to} \quad \sum w_{i} = 1,Portfolio Theory,This equation defines the Sharpe ratio maximization problem
+Tangency Portfolio,w_{\text{tangency}} = \frac{\Sigma^{-1} (\mu - R_{f} \mathbf{1})}{\mathbf{1}^{T} \Sigma^{-1} (\mu - R_{f} \mathbf{1})},Portfolio Theory,This equation calculates the weights of the tangency portfolio that maximizes the Sharpe ratio
+Minimum Variance Portfolio,w_{\text{mvp}} = \frac{\Sigma^{-1} \mathbf{1}}{\mathbf{1}^{T} \Sigma^{-1} \mathbf{1}},Portfolio Theory,This equation calculates the portfolio with minimum variance regardless of expected return
+Risk Parity Weights,w_{i} = \frac{1}{\sigma_{i}} / \sum_{j=1}^{n} \frac{1}{\sigma_{j}},Portfolio Theory,This equation allocates portfolio weights inversely to volatility
+Equal Risk Contribution,w_{i} \times \text{RC}_{i} = \frac{\sigma_{p}^{2}}{n},Portfolio Theory,This equation ensures each asset contributes equally to total portfolio risk
+Maximum Diversification Ratio,\text{MDR} = \frac{\sum_{i=1}^{n} w_{i} \sigma_{i}}{\sigma_{p}},Portfolio Theory,This equation measures portfolio diversification efficiency
+Diversification Ratio,\text{DR} = \frac{\sqrt{\sum_{i=1}^{n} w_{i}^{2} \sigma_{i}^{2}}}{\sigma_{p}},Portfolio Theory,This equation measures the reduction in risk achieved through diversification
+Kelly Criterion,f = \frac{\mu - R_{f}}{\sigma^{2}},Portfolio Theory,This equation calculates the optimal fraction of capital to invest
+Portfolio Optimization with Constraints,\min_{w} w^{T} \Sigma w \quad \text{s.t.} \quad w^{T} \mu \geq \mu_{\text{target}}, \quad w^{T} \mathbf{1} = 1, \quad w \geq 0
+Roy's Safety-First Criterion,\max_{w} \frac{E[R_{p}] - R_{f}}{\sigma_{p}} \quad \text{subject to} \quad \text{Probability of loss} \leq \alpha,Portfolio Theory,This equation defines safety-first optimization
+Post-Modern Portfolio Theory,\max_{w} E[R_{p}] \quad \text{subject to} \quad \text{VaR}_{\alpha} \leq L_{\text{threshold}},Portfolio Theory,This equation defines downside risk optimization
+Conditional Value at Risk Optimization,\min_{w} \text{CVaR}_{\alpha} \quad \text{subject to} \quad E[R_{p}] \geq \mu_{\text{target}},Portfolio Theory,This equation optimizes portfolios using CVaR
+Resampled Efficiency,\text{Efficient Frontier} = \frac{1}{B} \sum_{b=1}^{B} \text{Efficient Frontier}_{b},Portfolio Theory,This equation creates robust efficient frontiers using resampling
+Bayesian Portfolio Optimization,\mu_{\text{posterior}} = \frac{\tau \mu_{\text{prior}} + T \bar{r}}{\tau + T},Portfolio Theory,This equation combines prior beliefs with sample data
+Robust Portfolio Optimization,\min_{w} \max_{\mu \in \mathcal{U}} w^{T} \Sigma w \quad \text{subject to} \quad w^{T} \mu \geq \mu_{\text{target}},Portfolio Theory,This equation defines robust optimization against parameter uncertainty
+Factor Model Portfolio,\min_{w} w^{T} \Sigma_{residual} w \quad \text{subject to} \quad w^{T} f = f_{\text{target}},Portfolio Theory,This equation optimizes portfolios using factor exposures
+Asset-Liability Management,\min_{w} \text{VaR}(\text{Surplus}) \quad \text{subject to} \quad E[\text{Surplus}] \geq 0,Portfolio Theory,This equation defines ALM optimization
+Liability-Driven Investment,\max_{w} \text{Funding Ratio} \quad \text{subject to} \quad \text{Probability of underfunding} \leq \alpha,Portfolio Theory,This equation optimizes funding status
+Forward Contract Price,F_{0} = S_{0} e^{r T},Derivatives,This equation prices forward contracts under the cost-of-carry model
+Forward Rate Agreement,FRA = \frac{R_{K} - R_{\text{quoted}}}{1 + R_{\text{quoted}} \times \frac{d}{360}} \times \frac{360}{d_{K}},Derivatives,This equation calculates FRA settlement amounts
+Interest Rate Swap Fixed Rate,R_{\text{fixed}} = \frac{1 - Z_{n}}{ \sum_{i=1}^{n} Z_{i} },Derivatives,This equation calculates the fixed rate in an interest rate swap
+Swap Value at Reset,V_{\text{swap}} = \sum_{i=1}^{n} Z_{i} (R_{\text{fixed}} - R_{\text{forward},i}) \times \frac{d_{i}}{360},Derivatives
+Currency Swap Valuation,V_{\text{currency swap}} = \sum_{i=1}^{n} \frac{CF_{i}^{A}}{(1 + r_{A})^{i}} - \sum_{i=1}^{n} \frac{CF_{i}^{B}}{(1 + r_{B})^{i}} \times S_{0},Derivatives,This equation values currency swaps
+Commodity Swap Price,R_{\text{swap}} = \frac{F_{T_{1}} - F_{T_{n}}}{ \sum_{i=1}^{n-1} F_{T_{i}} \times \frac{d_{i}}{365} },Derivatives,This equation prices commodity swaps
+Credit Default Swap Spread,s_{\text{CDS}} = \frac{(1 - R) \times \lambda}{1 - e^{-\lambda T}},Derivatives,This equation approximates CDS spreads under constant hazard rate
+CDS Valuation,V_{\text{CDS}} = (1 - R) \times \sum_{i=1}^{n} Q_{i-1} (1 - Q_{i}) \times Z_{i} - s \times \sum_{i=1}^{n} Q_{i} \times Z_{i} \times d_{i},Derivatives,This equation values CDS contracts
+Total Return Swap Value,V_{\text{TRS}} = (R_{\text{asset}} - R_{\text{reference}}) \times N \times \frac{d}{360},Derivatives,This equation values total return swaps
+Equity Swap Value,V_{\text{equity swap}} = \sum_{t=1}^{n} \frac{(R_{\text{equity},t} - R_{\text{fixed}})}{(1 + r)^{t}} \times N,Derivatives
+Variance Swap Price,K_{\text{variance}} = \frac{1}{T} \int_{0}^{T} \sigma_{t}^{2} \, dt,Derivatives
+Volatility Swap Price,K_{\text{volatility}} = \sqrt{ \frac{1}{T} \int_{0}^{T} \sigma_{t}^{2} \, dt } = \sqrt{K_{\text{variance}}},Derivatives
+Barrier Option Price,C_{\text{barrier}} = C_{\text{vanilla}} - \text{rebate probability} \times e^{-rT},Derivatives,This equation prices barrier options
+Asian Option Price,C_{\text{Asian}} = e^{-rT} E_{Q} [\max(A - K, 0)],Derivatives
+Lookback Option Price,C_{\text{lookback}} = S_{0} N(d_{1}) - K e^{-rT} N(d_{2}) + \text{volatility adjustment},Derivatives,This equation prices lookback options that depend on the maximum or minimum price achieved
+Quanto Option Price,C_{\text{quanto}} = S_{0}^{f} N(d_{1}) - K e^{-r^{d} T} N(d_{2}) \times \frac{\sigma_{f}}{\sigma_{d}},Derivatives,This equation prices quanto options that convert currency risk
+Compound Option Price,C_{\text{compound}} = S_{0} N(d_{1}^{1}) e^{-r T_{1}} N(d_{2}^{1}) - K_{1} e^{-r T_{1}} N(d_{2}^{1}) + \text{inner option adjustment},Derivatives,This equation prices options on options
+Chooser Option Price,C_{\text{chooser}} = S_{0} e^{-r T_{2}} N(d_{1}) - K e^{-r T_{2}} N(d_{2}) + S_{0} e^{-r T_{2}} N(-d_{1} + \sigma \sqrt{T_{1}}) - K e^{-r T_{2}} N(-d_{2} + \sigma \sqrt{T_{1}}),Derivatives,This equation prices chooser options that allow selection between call and put at a future date
+Basket Option Price,C_{\text{basket}} = e^{-rT} E_{Q} [\max(w_{1} S_{1} + w_{2} S_{2} + \dots + w_{n} S_{n} - K, 0)],Derivatives
+Rainbow Option Price,C_{\text{rainbow}} = e^{-rT} E_{Q} [\max(\max(S_{1}, S_{2}, \dots
+Digital Option Price,C_{\text{digital}} = e^{-rT} N(d_{2}),Derivatives,This equation prices binary options that pay a fixed amount if a condition is met
+Power Option Price,C_{\text{power}} = e^{-rT} E_{Q} [\max(S^{\alpha} - K, 0)],Derivatives
+Exchange Option Price,C_{\text{exchange}} = S_{1} N(d_{1}) - S_{2} N(d_{2}),Derivatives,This equation prices options to exchange one asset for another
+Spread Option Price,C_{\text{spread}} = S_{1} N(d_{1}) - S_{2} N(d_{2}) - K e^{-rT} (N(d_{1}) - N(d_{2})),Derivatives,This equation prices spread options on the difference between two assets
+Cliquet Option Price,C_{\text{cliquet}} = \max\left( \prod_{i=1}^{n} (1 + \max(R_{i} - K, 0)) - 1, 0 \right)
+Forward Start Option Price,C_{\text{forward start}} = S_{0} e^{-q T_{1}} \left( e^{(r-q)(T_{2}-T_{1})} N(d_{1}) - e^{-r(T_{2}-T_{1})} N(d_{2}) \right),Derivatives,This equation prices forward start options that begin at a future date
+Parisian Option Price,C_{\text{parisian}} = e^{-rT} E_{Q} [\max(S_{T} - K, 0) \times I(\text{condition})],Derivatives
+Step Option Price,C_{\text{step}} = e^{-rT} E_{Q} [\max(S_{T}^{\alpha(t)} - K, 0)],Derivatives
+Spot Rate from Zero Coupon Bond,r_{t} = -\frac{1}{t} \ln(P_{t}),Interest Rate Theory,This equation extracts continuously compounded spot rates from zero-coupon bond prices
+Forward Rate Calculation,f_{t,t+1} = \frac{(1 + r_{t+1})^{t+1}}{(1 + r_{t})^{t}} - 1,Interest Rate Theory
+Instantaneous Forward Rate,f(t) = r(t) + t \frac{dr(t)}{dt},Interest Rate Theory,This equation defines the instantaneous forward rate as the derivative of the spot rate curve
+Discount Factor,Z(t) = e^{-r(t) t} = e^{-\int_{0}^{t} f(s) \, ds},Interest Rate Theory
+Par Yield Calculation,y_{\text{par}} = \frac{1 - Z_{n}}{\sum_{i=1}^{n} Z_{i}},Interest Rate Theory,This equation calculates the par yield from discount factors
+Bootstrapping Spot Rates,r_{t} = \left( \frac{C + F}{(P - \sum_{i=1}^{t-1} \frac{C}{Z_{i}})} \right)^{\frac{1}{t}} - 1,Interest Rate Theory,This equation bootstraps spot rates from coupon bond prices
+Nelson-Siegel Yield Curve,y(t) = \beta_{0} + \beta_{1} \frac{1 - e^{-t/\lambda}}{t/\lambda} + \beta_{2} \left( \frac{1 - e^{-t/\lambda}}{t/\lambda} - e^{-t/\lambda} \right),Interest Rate Theory,This parametric model fits the yield curve using three factors
+Svensson Extension,y(t) = \beta_{0} + \beta_{1} \frac{1 - e^{-t/\tau_{1}}}{t/\tau_{1}} + \beta_{2} \frac{1 - e^{-t/\tau_{1}}}{t/\tau_{1}}} e^{-t/\tau_{1}} + \beta_{3} \frac{1 - e^{-t/\tau_{2}}}{t/\tau_{2}}} e^{-t/\tau_{2}},Interest Rate Theory,This extended model adds a second hump to capture more complex yield curve shapes
+Vasicek Model,dr = \kappa (\theta - r) dt + \sigma dW,Interest Rate Theory,This one-factor model describes the evolution of the short rate
+Cox-Ingersoll-Ross Model,dr = \kappa (\theta - r) dt + \sigma \sqrt{r} dW,Interest Rate Theory,This extension prevents negative interest rates
+Hull-White Model,dr = [\theta(t) - \kappa r] dt + \sigma dW,Interest Rate Theory,This time-dependent model fits the initial yield curve exactly
+Heath-Jarrow-Morton Framework,df(t) = \alpha(t,T) dt + \sigma(t,T) dW(t)
+LIBOR Market Model,dL_{i}(t) = L_{i}(t) \mu_{i}(t) dt + L_{i}(t) \sigma_{i}(t) dW_{i}(t),Interest Rate Theory,This market model describes the evolution of forward LIBOR rates
+Ho-Lee Model,\Delta r(t) = \theta(t) dt + \sigma dW(t),Interest Rate Theory,This simple model assumes constant volatility
+Black-Karasinski Model,d \ln r = [\theta(t) - \kappa \ln r] dt + \sigma dW(t),Interest Rate Theory,This lognormal model prevents negative rates while maintaining analytical tractability
+Affine Term Structure Models,r(t) = a(t) + b(t) X(t),Interest Rate Theory,This class of models expresses the short rate as an affine function of state variables
+Gaussian Two-Factor Model,dr_{1} = \kappa_{1} (\theta_{1} - r_{1}) dt + \sigma_{1} dW_{1},Interest Rate Theory,This model extends single-factor models by adding a second source of uncertainty
+Principal Component Analysis,\lambda_{k} = \text{eigenvalue of covariance matrix},Interest Rate Theory,This statistical approach decomposes yield curve movements into orthogonal factors
+Key Rate Duration,KRD_{i} = -\frac{\Delta P}{P \times \Delta y_{i}},Interest Rate Theory,This measure decomposes duration by maturity buckets
+DV01 (Dollar Duration),DV01 = -\frac{\partial P}{\partial y} \times 0.0001,Interest Rate Theory,This equation quantifies the dollar impact of a 1 basis point rate change
+Convexity Adjustment,CA = \frac{1}{2} \sigma^{2} T^{2} + \frac{1}{2} \sigma^{2} \tau^{2},Interest Rate Theory,This adjustment accounts for the difference between futures and forward rates in stochastic environments
+Jamshidian's Trick,P(0,T) = E_{Q} \left[ \exp\left( -\int_{0}^{T} r(t) dt \right) \right] = E_{Q} \left[ \prod_{i=1}^{n} \exp\left( -r(t_{i-1}) \Delta t_{i} \right) \right],Interest Rate Theory
+Black's Model for Swaptions,C = N \times [F N(d_{1}) - K N(d_{2})],Interest Rate Theory,This equation prices swaptions using Black's formula adapted for swap rates
+SABR Model for Interest Rates,\frac{dF}{F^{\beta}} = \alpha dW,Interest Rate Theory,This stochastic volatility model captures the volatility smile in interest rate options
+Extended Vasicek Model,dr = \kappa(t) (\theta(t) - r) dt + \sigma(t) \sqrt{r} dW,Interest Rate Theory,This time-dependent extension allows better fitting of the current yield curve
+BGM Model (Brace-Gatarek-Musiela),df(t,T) = \mu(t,T) dt + \sum_{k=1}^{m} \sigma_{k}(t
+00203|,Stocks & Equity Analysis,This equation values a stock as the present value of all future dividends growing at a constant rate,
+00204|,Stocks & Equity Analysis,This model assumes high growth in the first stage and stable growth in the second stage,
+00205|,Stocks & Equity Analysis,"This advanced model includes three growth phases: high growth, transitional growth, and stable growth",
+00206|,Stocks & Equity Analysis,This ratio shows how much investors are willing to pay per dollar of earnings,
+00207|,Stocks & Equity Analysis,This ratio compares market value to accounting value of shareholders' equity,
+00208|,Stocks & Equity Analysis,This ratio shows how much investors pay per dollar of revenue,
+00209|,Stocks & Equity Analysis,"This ratio measures enterprise value relative to earnings before interest, taxes, depreciation, and amortization",
+00210|,Stocks & Equity Analysis,This ratio compares stock price to operating cash flow generation,
+00211|,Stocks & Equity Analysis,This ratio values the enterprise based on its ability to generate free cash flow,
+00212|,Stocks & Equity Analysis,"Beta measures systematic risk relative to the market, where β > 1 indicates higher volatility",
+00213|,Stocks & Equity Analysis,This equation calculates beta through linear regression of stock returns against market returns,
+00214|,Stocks & Equity Analysis,This formula adjusts historical beta toward 1.0 to account for mean reversion,
+00215|,Stocks & Equity Analysis,This equation shows how debt increases equity beta due to financial leverage,
+00216|,Stocks & Equity Analysis,This metric shows earnings available to common shareholders per share,
+00217|,Stocks & Equity Analysis,This represents the accounting value of equity per share,
+00218|,Stocks & Equity Analysis,ROE measures how efficiently a company generates profits from shareholders' equity,
+00219|,Stocks & Equity Analysis,"This ratio adjusts P/E for growth expectations, where PEG < 1 may indicate undervaluation",
+00220|,Stocks & Equity Analysis,This percentage shows annual dividend income relative to stock price,
+00221|,Stocks & Equity Analysis,This ratio shows what portion of earnings is returned to shareholders as dividends,
+00222|,Stocks & Equity Analysis,This ratio shows what portion of earnings is retained for growth and investment,
+00223|,Stocks & Equity Analysis,This indicator calculates the average price over the last n periods,
+00224|,Stocks & Equity Analysis,This weighted average gives more importance to recent prices,
+00225|,Stocks & Equity Analysis,"This momentum oscillator ranges from 0-100, with readings above 70 indicating overbought conditions",
+00226|,Stocks & Equity Analysis,This momentum indicator shows the difference between fast and slow exponential moving averages,
+00227|,Stocks & Equity Analysis,"This is the 9-period EMA of the MACD line, used to generate trading signals",
+00228|,Stocks & Equity Analysis,"This shows the difference between MACD and signal line, indicating momentum changes",
+00229|,Stocks & Equity Analysis,Upper Bollinger Band shows price levels 2 standard deviations above the 20-period moving average,
+00230|,Stocks & Equity Analysis,Lower Bollinger Band shows price levels 2 standard deviations below the 20-period moving average,
+00231|,Stocks & Equity Analysis,This measures volatility - wider bands indicate higher volatility,
+00232|,Stocks & Equity Analysis,This shows where the current price sits relative to Bollinger Bands (0-1 range)</content>,
+,,,
+00234|,C = S_{0} N(d_{1}) - K e^{-rT} N(d_{2}),Options,This equation prices European call options using the groundbreaking Black-Scholes model
+00235|,P = K e^{-rT} N(-d_{2}) - S_{0} N(-d_{1}),Options,This equation prices European put options using put-call parity
+00236|,d_{1} = \frac{\ln(S_{0}/K) + (r + \frac{1}{2} \sigma^{2}) T}{\sigma \sqrt{T}},Options,This parameter drives the Black-Scholes model
+00237|,d_{2} = d_{1} - \sigma \sqrt{T} = \frac{\ln(S_{0}/K) + (r - \frac{1}{2} \sigma^{2}) T}{\sigma \sqrt{T}},Options,This parameter completes the Black-Scholes framework
+00238|,C - P = S_{0} - K e^{-rT},Options,This fundamental relationship reveals the arbitrage constraints that must hold between calls and puts on the same underlying
+00239|,\Delta_{C} = N(d_{1}) = \frac{\partial C}{\partial S},Options,This equation measures the option's sensitivity to underlying price changes
+00240|,\Delta_{P} = N(d_{1}) - 1 = \frac{\partial P}{\partial S},Options,This equation shows put delta as negative
+00241|,\Gamma = \frac{N'(d_{1})}{S_{0} \sigma \sqrt{T}} = \frac{\partial^{2} C}{\partial S^{2}} = \frac{\partial \Delta}{\partial S},Options,This equation measures the rate of change of delta
+00242|,\Theta_{C} = -\frac{S_{0} N'(d_{1}) \sigma}{2 \sqrt{T}} - r K e^{-rT} N(d_{2}) = -\frac{\partial C}{\partial T},Options,This equation measures time decay
+00243|,V = S_{0} \sqrt{T} N'(d_{1}) = \frac{\partial C}{\partial \sigma},Options,This equation measures sensitivity to volatility changes
+00244|,\rho_{C} = K T e^{-rT} N(d_{2}) = \frac{\partial C}{\partial r},Options,This equation measures sensitivity to interest rate changes
+00245|,u = e^{\sigma \sqrt{\Delta t}},Options,This equation defines the multiplicative upward movement in binomial option pricing
+00246|,d = e^{-\sigma \sqrt{\Delta t}} = \frac{1}{u},Options,This equation defines the downward movement factor
+00247|,p^{*} = \frac{e^{r \Delta t} - d}{u - d},Options,This equation calculates the risk-neutral probability of an up move
+00248|,C_{0} = e^{-r \Delta t} [p^{*} C_{u} + (1 - p^{*}) C_{d}],Options,This equation implements backward induction in binomial trees
+00249|,p_{u} = \frac{1}{2} + \frac{1}{2} \frac{(\mu - \sigma^{2}/2) \Delta t}{\sigma \sqrt{\Delta t}},Options,This equation calculates probabilities in trinomial trees
+00250|,u = e^{\sigma \sqrt{\Delta t}}, \quad d = e^{-\sigma \sqrt{\Delta t}}, \quad p = \frac{e^{r \Delta t} - d}{u - d}
+00251|,u = e^{(r - \frac{1}{2} \sigma^{2}) \Delta t + \sigma \sqrt{\Delta t}}, \quad d = e^{(r - \frac{1}{2} \sigma^{2}) \Delta t - \sigma \sqrt{\Delta t}}, \quad p = \frac{1}{2}
+00252|,\sigma_{imp}: C_{market} = C_{BSM}(S_{0}, K, T
+00253|,\sigma_{imp} = f\left(\frac{K}{S_{0}}\right),Options,This relationship reveals that implied volatility varies with strike price
+00254|,\sigma_{imp} = f(K, T),Options
+00255|,\sigma_{BSM}(K) = \frac{\alpha}{(F/K)^{\beta}} \left[1 + \left(\frac{(1-\beta)^{2} \alpha^{2}}{24 (F/K)^{2-2\beta}} + \frac{\rho \beta \nu \alpha}{4 (F/K)^{1-\beta}} + \frac{(2-3\rho^{2}) \nu^{2}}{24}\right) T \right],Options,This equation provides the SABR model's implied volatility approximation
+00256|,C = e^{-rT} N(d_{2}),Options,This equation prices binary options that pay $1 if the condition is met
+00257|,C = S_{0} N(d_{1}) - K e^{-rT} N(d_{2}) - S_{0} \left(\frac{H}{S_{0}}\right)^{2\lambda} \left[ N(d_{1} - 2\lambda \sqrt{T}) - N(d_{2} - 2\lambda \sqrt{T}) \right],Options,This complex equation prices barrier options that activate or deactivate based on price levels
+00258|,C = e^{-rT} E_{Q} [\max(A - K, 0)],Options
+00259|,C = S_{0} e^{-r T_{2}} N(d_{1}) - K e^{-r T_{2}} N(d_{2}) + S_{0} e^{-r T_{2}} N(-d_{1} + \sigma \sqrt{T_{1}}) - K e^{-r T_{2}} N(-d_{2} + \sigma \sqrt{T_{1}}),Options,This equation prices options that allow the holder to choose between call and put at a future date
+00260|,C = S_{0} N(d_{1}) - K_{1} e^{-r T_{1}} N(d_{2}) - K_{2} e^{-r T_{2}} N(d_{3}),Options,This equation prices options on options
+00261|,F_{0} = S_{0} e^{rT},Futures,This equation defines futures pricing under the cost-of-carry model
+00262|,F_{0} = S_{0} + \text{carrying costs} - \text{carrying benefits},Futures,This equation generalizes futures pricing to include all carrying costs and benefits
+00263|,F_{0} = S_{0} e^{(r - y)T},Futures,This equation incorporates the convenience yield for commodities
+00264|,F_{0} = S_{0} e^{(r_{domestic} - r_{foreign})T},Futures,This equation prices currency futures using interest rate parity
+00265|,F_{0} = S_{0} e^{(r - q)T},Futures,This equation prices index futures accounting for dividend yields
+00266|,\text{Initial Margin} = k \times \text{Contract Value} \times \text{Volatility Factor},Futures,This equation defines initial margin requirements
+00267|,\text{Maintenance Margin} = \text{Initial Margin} \times (1 - \text{Margin Call Threshold}),Futures,This equation sets the maintenance margin level
+00268|,\text{Margin Call} = \text{Equity} < \text{Maintenance Margin},Futures,This condition defines when margin calls occur
+00269|,\Pi = (F_{T} - F_{0}) \times \text{Contract Size} \times \text{Position},Futures,This equation calculates futures profits and losses
+00270|,\beta = \frac{\text{Cov}(S, F)}{\text{Var}(F)},Futures
+00271|,\beta = \frac{\text{Cov}(S_{1}, S_{2})}{\text{Var}(S_{2})},Futures
+00272|,\beta_{\text{adjusted}} = \beta_{0} \times \frac{1}{1 + r_{\text{short}} \times \frac{T}{365}},Futures,This equation adjusts hedge ratios for the time decay of futures contracts
+00273|,B = F - S,Futures,This equation defines the basis
+00274|,\sigma_{\text{basis}} = \sqrt{\text{Var}(B)},Futures,This equation measures basis risk
+00275|,\text{Arbitrage} = F - (S + \text{Carrying Costs}),Futures,This equation identifies arbitrage opportunities
+00276|,\Pi_{\text{spread}} = (F_{\text{near}} - F_{\text{far}}) \times \text{Contract Size},Futures,This equation calculates calendar spread profits
+00277|,CA = -\frac{1}{2} \sigma^{2} T^{2} + \frac{1}{2} \sigma^{2} \tau^{2},Futures,This equation adjusts futures prices for convexity effects
+00278|,\Gamma = \frac{\partial^{2} F}{\partial S^{2}} = 0,Futures,This equation reveals the linear payoff structure of futures
+00279|,\text{VaR} = - \text{Position Size} \times \text{Contract Value} \times \text{Volatility} \times \sqrt{T} \times z_{\alpha},Futures,This equation calculates VaR for futures positions
+00280|,F_{0}^{*} = F_{0} \times (1 + \text{Liquidity Premium}),Futures,This equation incorporates liquidity effects
+00281|,\text{Roll Cost} = F_{\text{new}} - F_{\text{old}} + \text{Transaction Costs},Futures,This equation calculates the cost of rolling futures positions
+00282|,F_{0} = 100 - \text{3-month LIBOR},Futures,This equation defines Eurodollar futures pricing
+00283|,F_{0} = 100 - \text{Effective Federal Funds Rate},Futures,This equation prices Federal Funds futures
+00284|,CF = \frac{1}{1 + \frac{y}{2}} \times \left( \frac{0.6}{0.5} + \frac{0.4}{0.25} \right),Futures,This equation calculates conversion factors for Treasury futures
+00285|,CTD = \arg\min_{i} \left[ P_{i} - CF_{i} \times (F \times \text{Conversion Factor}) \right],Futures,This equation identifies the cheapest bond to deliver
+00286|,R = \frac{(F \times CF) - P}{P} \times \frac{365}{T},Futures,This equation calculates the implied repo rate

@@ -1,0 +1,52 @@
+title,equation_latex,main_category,notes
+Simple Interest Future Value,FV = P(1 + rt),Foundations - Time Value of Money,This equation calculates the future value of a principal amount under simple interest. P represents the principal amount (initial investment)
+Simple Interest Present Value,PV = FV / (1 + rt),Foundations - Time Value of Money,This equation calculates the present value of a future amount under simple interest. PV represents the present value (the amount that needs to be invested today)
+Simple Interest Amount,I = Prt,Foundations - Time Value of Money,This equation calculates the interest earned or paid under simple interest. I represents the interest amount
+Compound Interest Future Value (Annual),FV = P(1 + r)^t,Foundations - Time Value of Money,This equation calculates the future value with annual compounding. FV represents the future value
+Compound Interest Future Value (Multiple Periods),FV = P(1 + \frac{r}{m})^{mt},Foundations - Time Value of Money,This equation calculates the future value with compounding m times per year. FV represents the future value
+Effective Annual Rate,EAR = (1 + \frac{r}{m})^m - 1,Foundations - Time Value of Money,This equation calculates the effective annual interest rate from a nominal rate. EAR represents the effective annual rate
+Continuous Compounding Future Value,FV = Pe^{rt},Foundations - Time Value of Money,This equation calculates the future value with continuous compounding. FV represents the future value
+Present Value with Annual Discounting,PV = FV / (1 + r)^t,Foundations - Time Value of Money,This equation calculates the present value of a future amount with annual discounting. PV represents the present value
+Present Value with Multiple Period Discounting,PV = FV / (1 + \frac{r}{m})^{mt},Foundations - Time Value of Money,This equation calculates the present value with discounting m times per year. PV represents the present value
+Present Value with Continuous Discounting,PV = FV e^{-rt},Foundations - Time Value of Money,This equation calculates the present value with continuous discounting. PV represents the present value
+Discount Factor (Annual),DF = 1 / (1 + r)^t,Foundations - Time Value of Money,This equation calculates the discount factor for annual discounting. DF represents the discount factor
+Discount Factor (Continuous),DF = e^{-rt},Foundations - Time Value of Money,This equation calculates the discount factor with continuous compounding. DF represents the discount factor
+Day Count Fraction (Actual/Actual),t = Days in \frac{Period}{Days} in Year,Foundations - Time Value of Money,This equation calculates the time fraction using the Actual/Actual day count convention. t represents the time fraction
+Day Count Fraction (30/360),t = (360(Y2 - Y1) + 30(M2 - M1) + (D2 - D1)) / 360,Foundations - Time Value of Money,This equation calculates the time fraction using the 30/360 day count convention. t represents the time fraction
+Day Count Fraction (Actual/360),t = Days in \frac{Period}{360},Foundations - Time Value of Money,This equation calculates the time fraction using the Actual/360 day count convention. t represents the time fraction
+Day Count Fraction (Actual/365),t = Days in \frac{Period}{365},Foundations - Time Value of Money,This equation calculates the time fraction using the Actual/365 day count convention. t represents the time fraction
+Forward Rate (Discrete),F_{t,Foundations - Time Value of Money,Foundations - Interest Rate Conventions
+Forward Rate (Continuous),F_{t,Foundations - Time Value of Money,Foundations - Interest Rate Conventions
+Spot Rate from Zero-Coupon Bond,r_{t} = -ln(P_{t}) / t,Foundations - Time Value of Money,This equation calculates the continuously compounded spot rate from a zero-coupon bond price. r_t represents the spot rate for maturity t
+Zero-Coupon Bond Price,P_{t} = e^{-r_{t} t},Foundations - Time Value of Money,This equation calculates the price of a zero-coupon bond given the continuously compounded spot rate. P_t represents the bond price
+Par Yield,c = (1 - P_{T}) / (sum_{i=1}^T P_{t_{i}}),Foundations - Time Value of Money,This equation calculates the par yield (coupon rate that makes a bond price equal to par). c represents the par yield
+Annuity Present Value,PV = C * (1 - (1 + r)^{-n}) / r,Foundations - Time Value of Money,This equation calculates the present value of an ordinary annuity. PV represents the present value
+Annuity Future Value,FV = C * ((1 + r)^n - 1) / r,Foundations - Time Value of Money,This equation calculates the future value of an ordinary annuity. FV represents the future value
+Growing Annuity Present Value,PV = C * (1 - ((1 + g) / (1 + r))^n) / (r - g),Foundations - Time Value of Money,This equation calculates the present value of a growing annuity. PV represents the present value
+Perpetuity Present Value,PV = \frac{C}{r},Foundations - Time Value of Money,This equation calculates the present value of a perpetuity (infinite series of equal payments). PV represents the present value
+Growing Perpetuity Present Value,PV = C / (r - g),Foundations - Time Value of Money,This equation calculates the present value of a growing perpetuity. PV represents the present value
+Nominal to Effective Rate Conversion,r_{eff} = (1 + r_\frac{{nom}}{m})^m - 1,Foundations - Time Value of Money,This equation converts a nominal interest rate to an effective rate. r_eff represents the effective annual rate
+Effective to Nominal Rate Conversion,r_{nom} = m * ((1 + r_{eff})^\frac{{1}{m}} - 1),Foundations - Time Value of Money,This equation converts an effective interest rate to a nominal rate. r_nom represents the nominal annual rate
+Continuous Rate from Discrete,r_{cont} = m * ln(1 + r_\frac{{disc}}{m}),Foundations - Time Value of Money,This equation converts a discretely compounded rate to a continuously compounded rate. r_cont represents the continuously compounded rate
+Discrete Rate from Continuous,r_{disc} = m * (e^{r_\frac{{cont}}{m}} - 1),Foundations - Time Value of Money,This equation converts a continuously compounded rate to a discretely compounded rate. r_disc represents the discretely compounded nominal rate
+Time Value of Money General Formula,FV = PV * (1 + r)^t,Foundations - Time Value of Money,This is the fundamental time value of money equation. FV represents the future value
+Present Value of Uneven Cash Flows,PV = sum_{t=1}^n CF_{t} / (1 + r)^t,Foundations - Time Value of Money,This equation calculates the present value of a series of unequal cash flows. PV represents the present value
+Future Value of Uneven Cash Flows,FV = sum_{t=1}^n CF_{t} * (1 + r)^{n-t},Foundations - Time Value of Money,This equation calculates the future value of a series of unequal cash flows. FV represents the future value at time n
+Interest Rate Parity,F = S * (1 + r_{d}) / (1 + r_{f}),Foundations - Time Value of Money,This equation expresses the relationship between spot and forward exchange rates. F represents the forward exchange rate
+Real Interest Rate,r_{real} = (1 + r_{nom}) / (1 + inflation) - 1,Foundations - Time Value of Money,This equation calculates the real interest rate from the nominal rate and inflation. r_real represents the real interest rate
+Fisher Equation,r_{nom} = r_{real} + inflation + r_{real} * inflation,Foundations - Time Value of Money,This is the exact Fisher equation relating nominal and real interest rates. r_nom represents the nominal rate
+Yield to First Call,YTC = (C + (P_{call} - P) / n) / ((P_{call} + P) / 2),Foundations - Time Value of Money,This equation calculates the yield to call for a callable bond. YTC represents the yield to call
+Current Yield,CY = \frac{C}{P},Foundations - Time Value of Money,This equation calculates the current yield of a bond. CY represents the current yield
+Yield to Maturity Approximation,YTM ≈ (C + (F - P) / n) / ((F + P) / 2),Foundations - Time Value of Money,This equation provides an approximation of the yield to maturity. YTM represents the yield to maturity
+Macaulay Duration (Zero-Coupon),D_{mac} = t,Foundations - Time Value of Money,This equation shows that the Macaulay duration of a zero-coupon bond equals its time to maturity. D_mac represents the Macaulay duration
+Macaulay Duration (Coupon Bond),D_{mac} = sum_{t=1}^n (t * CF_{t} / (1 + y)^t) / P,Foundations - Time Value of Money,This equation calculates the Macaulay duration of a coupon bond. D_mac represents the Macaulay duration
+Modified Duration,D_{mod} = D_{mac} / (1 + y),Foundations - Time Value of Money,This equation calculates the modified duration from Macaulay duration. D_mod represents the modified duration
+Dollar Duration,DD = -D_{mod} * P,Foundations - Time Value of Money,This equation calculates the dollar duration (also called price value of a basis point or PV01). DD represents the dollar duration
+Convexity,Conv = sum_{t=1}^n (t(t+1) * CF_{t} / (1 + y)^{t+2}) / P,Foundations - Time Value of Money,This equation calculates the convexity of a bond. Conv represents convexity
+Price Change Approximation,\frac{dP}{P} ≈ -D_{mod} * dy + 0.5 * Conv * (dy)^2,Foundations - Time Value of Money,This equation approximates the percentage price change of a bond for a small change in yield. dP/P represents the percentage price change
+Forward Price of an Asset,F = S * e^{(r - q)T},Foundations - Time Value of Money,This equation calculates the forward price of an asset with continuous dividend yield. F represents the forward price
+Cost of Carry,C = r - q,Foundations - Time Value of Money,This equation calculates the cost of carry for an asset. C represents the cost of carry
+Interest Rate Forward Price,F = (1 + r_{long} * T_{long}) / (1 + r_{short} * T_{short}) - 1,Foundations - Time Value of Money,This equation calculates the forward interest rate using discrete compounding. F represents the forward rate
+Zero Rate from Forward Rates,r_{0},Foundations - Time Value of Money,i}
+Bootstrap Method,P_{T} = 1 / (1 + c * sum_{i=1}^{T-1} P_{i}),Foundations - Time Value of Money,This equation is used in the bootstrap method to extract zero-coupon prices from coupon bond prices. P_T represents the zero-coupon price for maturity T
+Rolling Down the Yield Curve,Total Return = Income + Rolldown,Foundations - Time Value of Money,This equation decomposes the total return of a bond into income and rolldown components. Total Return is the total return over a period

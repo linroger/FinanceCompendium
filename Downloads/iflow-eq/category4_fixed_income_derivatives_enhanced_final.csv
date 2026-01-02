@@ -1,0 +1,77 @@
+title,equation_latex,main_category,notes
+Interest Rate Swap Fixed Leg,PV_{fixed} = sum_{i=1}^{n} (N \times R_{fixed} \times delta_{i} \times DF_{i}),Fixed Income Derivatives,This equation calculates the present value of the fixed leg of an interest rate swap. PV_fixed represents the present value
+Interest Rate Swap Floating Leg,PV_{float} = sum_{i=1}^{n} (N \times R_{float},Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Swaps
+Swap Value at Inception,V_{swap} = PV_{fixed} - PV_{float},Fixed Income Derivatives,This equation calculates the value of a swap at inception. V_swap represents the swap value
+Par Swap Rate,R_{swap} = (1 - DF_{n}) / (sum_{i=1}^{n} delta_{i} \times DF_{i}),Fixed Income Derivatives,This equation calculates the par swap rate (the fixed rate that makes the swap value zero at inception). R_swap represents the par swap rate
+Swap Value After Inception,V_{swap} = PV_{fixed} - PV_{float},Fixed Income Derivatives,This equation calculates the value of an existing swap. V_swap represents the current swap value
+Swap DV01,DV01_{swap} = sum_{i=1}^{n} (delta_{i} \times DF_{i} \times N) - sum_{i=1}^{n} (delta_{i} \times DF_{i} \times N),Fixed Income Derivatives,This equation calculates the DV01 (dollar value of a 01 basis point change) of a swap. DV01_swap represents the sensitivity of the swap value to a 1 bp change in rates. For a par swap
+Swap Duration,D_{swap} = (sum_{i=1}^{n} t_{i} \times delta_{i} \times DF_{i}) / (sum_{i=1}^{n} delta_{i} \times DF_{i}),Fixed Income Derivatives,This equation calculates the duration of a swap. D_swap represents the swap duration Duration is the primary measure of interest rate sensitivity in fixed income.
+Swap Convexity,Conv_{swap} = (sum_{i=1}^{n} t_{i}^{2} \times delta_{i} \times DF_{i}) / (sum_{i=1}^{n} delta_{i} \times DF_{i}),Fixed Income Derivatives,This equation calculates the convexity of a swap. Conv_swap represents the swap convexity Convexity captures the second-order effect in price-yield relationships.
+Forward Rate Agreement Payoff,Payoff = N \times (FRA_{rate} - L) \times delta \times \text{DF},Fixed Income Derivatives,This equation gives the payoff of a Forward Rate Agreement (FRA). Payoff represents the FRA payoff
+Swap Spread,Spread = R_{swap} - R_{treasury},Fixed Income Derivatives,This equation calculates the swap spread. Spread represents the difference between the swap rate and the treasury rate of the same maturity. The swap spread reflects credit risk and liquidity differences between the swap market and the treasury market.
+Cross-Currency Swap,PV_{domestic} = sum_{i=1}^{n} (N_{domestic} \times R_{domestic} \times delta_{i} \times DF_{domestic},Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Swaps
+Cross-Currency Swap FX Leg,PV_{foreign} = X_{0} \times sum_{i=1}^{n} (N_{foreign} \times R_{foreign} \times delta_{i} \times DF_{foreign},Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Swaps
+Cross-Currency Swap Value,V_{ccs} = PV_{domestic} - PV_{foreign},Fixed Income Derivatives,This equation calculates the value of a cross-currency swap. V_ccs represents the swap value
+Asset Swap,Spread = (Bond Price - Par) / DV01_{bond},Fixed Income Derivatives,This equation calculates the asset swap spread. Spread represents the spread that makes the bond price equal to par when combined with an interest rate swap. Asset swaps are used to convert fixed-rate bonds to floating-rate exposure.
+Total Return Swap,Payoff = (Bond Return + Coupon - LIBOR - Spread) \times N,Fixed Income Derivatives,This equation gives the payoff of a total return swap. Payoff represents the periodic payment
+Inflation Swap,Payoff = N \times (Inflation_{index} - Fixed_{rate}) \times delta,Fixed Income Derivatives,This equation gives the payoff of an inflation swap. Payoff represents the periodic payment
+Amortizing Swap,\text{PV} = sum_{i=1}^{n} (N_{i} \times R \times delta_{i} \times DF_{i}),Fixed Income Derivatives,This equation calculates the present value of an amortizing swap. PV represents the present value
+Accreting Swap,\text{PV} = sum_{i=1}^{n} (N_{i} \times R \times delta_{i} \times DF_{i}),Fixed Income Derivatives,This equation calculates the present value of an accreting swap. PV represents the present value
+Forward Swap Rate,F_{swap} = (DF_{t} - DF_{T}) / (sum_{i=t}^{T} delta_{i} \times DF_{i}),Fixed Income Derivatives,This equation calculates the forward swap rate for a swap starting at time t and ending at time T. F_swap represents the forward swap rate
+Caplet Payoff,Payoff = N \times delta \times max(L - K,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Cap Price,C = sum_{i=1}^{n} Caplet_{i},Fixed Income Derivatives,This equation calculates the price of a cap as the sum of caplet prices. C represents the cap price
+Caplet Price (Black Model),Caplet = N \times delta \times \text{DF} \times [F \times N \times (d_{1}) - K \times N \times (d_{2})],Fixed Income Derivatives,This equation prices a caplet using the Black model. Caplet represents the caplet price
+Black Model d_1,d_{1} = (ln(F/K) + 0.5 \times \text{sigma}^{2} \times T) / (\text{sigma} \times sqrt(T)),Fixed Income Derivatives,This equation defines the d_1 parameter in the Black model for interest rate options. d_1 combines the moneyness (ln(F/K))
+Black Model d_2,d_{2} = d_{1} - \text{sigma} \times sqrt(T),Fixed Income Derivatives,This equation defines the d_2 parameter in the Black model. d_2 is simply d_1 minus sigma * sqrt(T). d_2 represents the probability that the option will be in the money under the forward measure.
+Floorlet Payoff,Payoff = N \times delta \times max(K - L,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Floor Price,F = sum_{i=1}^{n} Floorlet_{i},Fixed Income Derivatives,This equation calculates the price of a floor as the sum of floorlet prices. F represents the floor price
+Collar Price,Collar = \text{Cap} - Floor,Fixed Income Derivatives,This equation calculates the price of a collar. Collar represents the collar price
+Swaption Payoff (Payer),Payoff = max(R_{swap} - K,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Swaption Price (Black Model),Swaption = N \times (R_{swap} \times N \times (d_{1}) - K \times N \times (d_{2})) \times sum_{i=1}^{n} delta_{i} \times DF_{i},Fixed Income Derivatives,This equation prices a European swaption using the Black model. Swaption represents the swaption price
+Receiver Swaption Payoff,Payoff = max(K - R_{swap},Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Bond Option Payoff (Call),Payoff = max(B_{T} - K,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Bond Option Price (Black Model),C = \text{DF} \times [F \times N \times (d_{1}) - K \times N \times (d_{2})],Fixed Income Derivatives,This equation prices a European bond option using the Black model. C represents the call option price
+Callable Bond Pricing,B = B_{noncallable} - C_{option},Fixed Income Derivatives,This equation prices a callable bond. B represents the callable bond price
+Puttable Bond Pricing,B = B_{nonputtable} + P_{option},Fixed Income Derivatives,This equation prices a puttable bond. B represents the puttable bond price
+Vasicek Model,dr = a \times (b - r)dt + \text{sigma} \times dW,Fixed Income Derivatives,This is the Vasicek one-factor short rate model. dr represents the change in the short rate
+Vasicek Zero-Coupon Bond Price,P \times (t,Fixed Income Derivatives,T) * exp(-B(t
+Vasicek B(t,T),Fixed Income Derivatives,T) = (1 - exp(-a(T-t))) / a
+Vasicek A(t,T),Fixed Income Derivatives,T) = exp((B(t
+Vasicek Bond Option Price,C = P \times (0,Fixed Income Derivatives,t) * N(h_2)
+CIR Model,dr = a \times (b - r)dt + \text{sigma} \times sqrt(r) \times dW,Fixed Income Derivatives,This is the Cox-Ingersoll-Ross (CIR) one-factor short rate model. The model is similar to Vasicek but with a square-root diffusion term that prevents negative interest rates. The CIR model is widely used for its realistic properties and analytical tractability.
+CIR Zero-Coupon Bond Price,P \times (t,Fixed Income Derivatives,T) * exp(-B(t
+Hull-White Model,dr = (theta(t) - a \times r)dt + \text{sigma} \times dW,Fixed Income Derivatives,This is the Hull-White extension of the Vasicek model with time-dependent parameters. theta(t) is a time-dependent function chosen to match the initial yield curve exactly. This flexibility makes Hull-White popular for calibration to market data.
+Hull-White Theta Function,theta(t) = f_{t}(0,Fixed Income Derivatives,t) + (sigma^2 / 2a) * (1 - exp(-2at))
+Hull-White Bond Price,P \times (t,Fixed Income Derivatives,T) * exp(-B(t
+Hull-White Bond Option Price,C = P \times (0,Fixed Income Derivatives,t) * N(h_2)
+HJM Framework,df(t,Fixed Income Derivatives,T)dt + sigma(t
+HJM No-Arbitrage Condition,\text{mu}(t,Fixed Income Derivatives,T) * integral_t^T sigma(t
+HJM Short Rate,r \times (t) = f \times (t,Fixed Income Derivatives,t) + integral_0^t (mu(s
+LIBOR Market Model,dL_{i}(t) = L_{i}(t) \times mu_{i}(t)dt + L_{i}(t) \times sigma_{i}(t) \times dW_{i}(t),Fixed Income Derivatives,This is the LIBOR Market Model (LMM) for forward LIBOR rates. dL_i(t) represents the change in the i-th forward LIBOR rate
+LMM Correlation,E[dW_{i}(t) \times dW_{j}(t)] = rho_{ij} dt,Fixed Income Derivatives,This equation defines the correlation structure in the LIBOR Market Model. rho_{ij} represents the correlation between the Wiener processes driving different forward rates. Correlation is crucial for pricing multi-period derivatives like swaptions.
+LMM Caplet Price,Caplet = N \times delta \times P \times (0,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Models
+LMM Swaption Pricing,S = sum_{i=1}^{n} w_{i} \times Caplet_{i},Fixed Income Derivatives,This equation approximates a swaption price as a weighted sum of caplets in the LIBOR Market Model. S represents the swaption price
+Gaussian HJM,df(t,Fixed Income Derivatives,T) * dW
+Gaussian HJM Bond Price,P \times (t,Fixed Income Derivatives,u) du - 0.5 * integral_t^T integral_t^T sigma(t
+SABR Model,dF = alpha \times F^{b}eta \times dW,Fixed Income Derivatives,This is the Stochastic Alpha Beta Rho (SABR) model for forward rates. dF represents the change in the forward rate
+SABR Volatility,sigma_{BSM}(F,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Models
+SABR z Parameter,z = (alpha / \text{sigma}) \times ln(F/K),Fixed Income Derivatives,This equation defines the z parameter in the SABR volatility formula. z combines the log-moneyness ln(F/K) with the volatility parameters alpha and sigma. The z parameter is used in the SABR volatility calculation.
+SABR x(z) Function,x \times (z) = ln((sqrt(1 - 2 \times rho \times z + z^{2}) + z - rho) / (1 - rho)),Fixed Income Derivatives,This equation defines the x(z) function in the SABR model. x(z) is a transformation that ensures the volatility formula is well-behaved. rho is the correlation parameter between the forward rate and volatility.
+Swap Rate Dynamics,dS = mu_{S} dt + sigma_{S} \times dW,Fixed Income Derivatives,This equation models the dynamics of the swap rate. dS represents the change in the swap rate
+Cheyette Model,dr = (theta(t) - a \times r)dt + \text{sigma} \times dW,Fixed Income Derivatives,This is the Cheyette model
+Quadratic Gaussian Model,r \times (t) = x \times (t)^{2} + y \times (t),Fixed Income Derivatives,This is the Quadratic Gaussian model
+Quadratic Gaussian Bond Price,P \times (t,Fixed Income Derivatives,T))) * exp(-0.5 * (C(t
+Flesaker-Hughston Model,P \times (0,Fixed Income Derivatives,u) du - 0.5 * integral_0^T integral_0^T sigma(u
+Market Model of Bond Prices,dP_{i}(t)/P_{i}(t) = r \times (t)dt + sigma_{i}(t) \times dW_{i}(t),Fixed Income Derivatives,This equation models the dynamics of bond prices directly. dP_i(t)/P_i(t) represents the return on bond i
+Rational Lognormal Model,r \times (t) = (alpha(t) + beta(t) \times x \times (t))^{2},Fixed Income Derivatives,This is the Rational Lognormal model
+Forward Swap Rate,S \times (t,Fixed Income Derivatives,T_0) - P(t
+Swap Annuity,A \times (t,Fixed Income Derivatives,T_i)
+Swaption Delta,Delta_{swaption} = N \times (d_{1}) \times A \times (t,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Swaption Vega,Vega_{swaption} = A \times (t,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Options
+Cap Delta,Delta_{cap} = sum_{i=1}^{n} delta_{i} \times P \times (0,Fixed Income Derivatives,i})
+Cap Vega,Vega_{cap} = sum_{i=1}^{n} N \times delta_{i} \times P \times (0,Fixed Income Derivatives,i}) * sqrt(T_i)
+CMS Rate,CMS = E_{Q}[S \times (T,Fixed Income Derivatives,Fixed Income Derivatives - Interest Rate Swaps
+Convexity Adjustment,CMS_{adj} = S \times (0,Fixed Income Derivatives,T_n)^2 * sigma_S^2 * T Convexity captures the second-order effect in price-yield relationships.
+Inflation Swap Price,P = sum_{i=1}^{n} (N \times R_{fixed} \times delta_{i} \times DF_{i}) - sum_{i=1}^{n} (N \times I_{i} \times delta_{i} \times DF_{i}),Fixed Income Derivatives,This equation prices an inflation swap. P represents the swap price
+Yield Curve Steepener Trade,Payoff = (y_{long} - y_{short}) \times Duration \times DV01,Fixed Income Derivatives,This equation gives the payoff of a yield curve steepener trade. Payoff represents the trade payoff
+Yield Curve Flattener Trade,Payoff = -(y_{long} - y_{short}) \times Duration \times DV01,Fixed Income Derivatives,This equation gives the payoff of a yield curve flattener trade. Payoff represents the trade payoff

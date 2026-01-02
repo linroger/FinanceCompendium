@@ -1,0 +1,52 @@
+title,equation_latex,main_category,notes
+Probability of Default,PD = P \times (default during period T),Credit Derivatives,This equation defines the probability of default. PD represents the probability that a borrower will default within a specified time period T. PD is a fundamental credit risk metric used in pricing credit derivatives and calculating credit risk capital requirements.
+Cumulative Default Probability,CDP(T) = 1 - exp(-lambda \times T),Credit Derivatives,This equation calculates the cumulative probability of default assuming constant hazard rate. CDP(T) represents the cumulative default probability by time T
+Hazard Rate,lambda = -ln(1 - PD) / T,Credit Derivatives,This equation calculates the hazard rate from the probability of default. lambda represents the hazard rate
+Survival Probability,Q \times (T) = exp(-integral_{0}^{T} lambda(t) dt),Credit Derivatives,This equation calculates the survival probability (probability of no default). Q(T) represents the probability of surviving to time T without default
+Loss Given Default,LGD = 1 - Recovery Rate,Credit Derivatives,This equation calculates the loss given default. LGD represents the percentage loss incurred if default occurs
+Exposure at Default,EAD = Notional \times Current Exposure,Credit Derivatives,This equation calculates the exposure at default. EAD represents the amount owed to the lender at the time of default
+Expected Loss,EL = PD \times LGD \times EAD,Credit Derivatives,This equation calculates the expected loss from credit exposure. EL represents the expected loss
+Unexpected Loss,UL = LGD \times EAD \times sqrt(PD \times (1 - PD)),Credit Derivatives,This equation calculates the unexpected loss (standard deviation of loss). UL represents the unexpected loss
+Credit VaR,Credit \text{VaR} = EL + z_{alpha} \times UL,Credit Derivatives,This equation calculates the credit Value at Risk. Credit VaR represents the loss at a given confidence level
+Merton Model,Equity = Call(Assets,Credit Derivatives, sigma_A
+Merton Default Probability,PD = N \times ((-ln(V/D) - (\text{mu} - 0.5 \times sigma_{A}^{2}) \times T) / (sigma_{A} \times sqrt(T))),Credit Derivatives,This equation calculates the default probability under the Merton model. PD represents the default probability
+Distance to Default,DD = (ln(V/D) + (\text{mu} - 0.5 \times sigma_{A}^{2}) \times T) / (sigma_{A} \times sqrt(T)),Credit Derivatives,This equation calculates the distance to default under the Merton model. DD represents the number of standard deviations the firm value is from the default threshold. Higher DD indicates lower default probability.
+Credit Spread,s = -ln(Q(T)) / T,Credit Derivatives,This equation calculates the credit spread from survival probability. s represents the credit spread
+Intensity-Based Spread,s = lambda + LGD \times lambda,Credit Derivatives,This equation approximates the credit spread using hazard rate and loss given default. s represents the credit spread
+CDS Spread,s_{cds} = (1 - R) \times lambda,Credit Derivatives,This equation approximates the CDS spread under constant hazard rate. s_cds represents the CDS spread
+CDS Pricing (Protection Buyer),PV_{premium} = sum_{i=1}^{n} s \times delta_{i} \times Q \times (t_{i}) \times DF_{i},Credit Derivatives,This equation calculates the present value of premium payments for a CDS. PV_premium represents the PV of premiums
+CDS Pricing (Protection Seller),PV_{default} = sum_{i=1}^{n} (1 - R) \times EAD \times (Q \times (t_{i-1}) - Q \times (t_{i})) \times DF_{i},Credit Derivatives,This equation calculates the present value of default leg payments. PV_default represents the PV of default payments
+CDS Par Spread,s_{par} = PV_{default} / PV_{annuity},Credit Derivatives,This equation calculates the par CDS spread that makes the CDS value zero. s_par represents the par spread
+CDS Value,V_{cds} = PV_{default} - s \times PV_{annuity},Credit Derivatives,This equation calculates the value of an existing CDS. V_cds represents the CDS value
+CDS Delta,Delta_{cds} = (1 - R) \times Q \times (T) / PV_{annuity},Credit Derivatives,This equation calculates the delta of a CDS. Delta_cds represents the sensitivity to the survival probability
+CDS DV01,DV01_{cds} = Delta_{cds} \times DV01_{bond},Credit Derivatives,This equation calculates the DV01 of a CDS. DV01_cds represents the sensitivity to interest rate changes
+Upfront Payment,UP = (s_{market} - s_{coupon}) \times DV01_{cds},Credit Derivatives,This equation calculates the upfront payment for a CDS. UP represents the upfront payment
+CDS Index Spread,s_{index} = sum_{i=1}^{n} w_{i} \times s_{i},Credit Derivatives,This equation calculates the spread of a CDS index. s_index represents the index spread
+Tranche Attachment Point,AP = sum_{i=1}^{k} w_{i},Credit Derivatives,This equation calculates the attachment point of a CDO tranche. AP represents the attachment point (percentage of portfolio losses that must occur before the tranche suffers losses)
+Tranche Detachment Point,DP = sum_{i=1}^{k} w_{i} + w_{tranche},Credit Derivatives,This equation calculates the detachment point of a CDO tranche. DP represents the detachment point (percentage of portfolio losses that wipe out the tranche)
+Expected Tranche Loss,ETL = integral_{AP}^{DP} (x - AP) \times f_{L}(x) dx,Credit Derivatives,This equation calculates the expected loss of a CDO tranche. ETL represents the expected tranche loss
+Tranche Spread,s_{tranche} = ETL / PV_{annuity},Credit Derivatives,This equation calculates the spread of a CDO tranche. s_tranche represents the tranche spread
+Gaussian Copula,Corr(L_{i},Credit Derivatives,Credit Derivatives - Structured Credit
+Base Correlation,rho_{base} = f \times (AP,Credit Derivatives, market_spreads)
+Compound Poisson Default Process,dN_{t} = lambda dt + dM_{t},Credit Derivatives,This equation models defaults as a compound Poisson process. dN_t represents the change in the number of defaults
+Credit Migration Matrix,P_{ij} = P \times (transition from rating i to rating j),Credit Derivatives,This equation defines the credit migration probability. P_ij represents the probability that an obligor migrates from rating i to rating j over a given time period. Migration matrices are used in multi-period credit risk models.
+Markov Chain Credit Model,P \times (t) = exp(M \times t),Credit Derivatives,This equation calculates the transition probability matrix for a Markov chain credit model. P(t) represents the transition matrix over time t
+Credit Rating Migration,PD_{k}(t) = sum_{i=1}^{n} P_{i}(0) \times P_{ik}(t),Credit Derivatives,This equation calculates the probability of being in rating k at time t. PD_k(t) represents the probability
+Credit Portfolio Loss,L = sum_{i=1}^{n} LGD_{i} \times EAD_{i} \times L_{i},Credit Derivatives,This equation calculates the total loss from a credit portfolio. L represents the portfolio loss
+Vasicek One-Factor Model,L_{i} = N \times ((Y_{i} - sqrt(rho) \times Z) / sqrt(1 - rho)),Credit Derivatives,This is the Vasicek one-factor model for portfolio credit risk. L_i represents the default indicator for obligor i
+Asymptotic Single-Risk Factor,PD_{i} = N \times ((N^{-1}(PD_{i}) - sqrt(rho) \times Z) / sqrt(1 - rho)),Credit Derivatives,This equation gives the conditional default probability under the ASRF framework. PD_i represents the conditional PD for obligor i
+Credit VaR under ASRF,Credit \text{VaR} = LGD \times EAD \times (N \times ((N^{-1}(PD) + sqrt(rho) \times N^{-1}(0.999)) / sqrt(1 - rho)) - PD),Credit Derivatives,This equation calculates the 99.9% credit VaR under the ASRF model. Credit VaR represents the unexpected loss at the 99.9% confidence level
+Default Correlation,rho_{ij} = Corr(L_{i},Credit Derivatives,Credit Derivatives - Credit Risk Basics
+Asset Correlation,rho_{asset} = Corr(V_{i},Credit Derivatives,Credit Derivatives - Credit Risk Basics
+Recovery Rate Distribution,RR = f \times (economic conditions,Credit Derivatives, collateral)
+Credit Spread Curve,s \times (t) = -ln(Q(t)) / t,Credit Derivatives,This equation defines the credit spread curve. s(t) represents the credit spread for maturity t
+Risky Bond Price,P_{risky} = sum_{i=1}^{n} C \times Q \times (t_{i}) \times DF_{i} + F \times Q \times (T) \times DF_{T},Credit Derivatives,This equation prices a risky corporate bond. P_risky represents the bond price
+Credit Spread Option Payoff,Payoff = max(s_{T} - K,Credit Derivatives,Credit Derivatives - Credit Derivatives
+Total Return Swap Payoff,Payoff = (Bond Return + Coupon - LIBOR - Spread) \times N,Credit Derivatives,This equation gives the periodic payoff of a total return swap. Payoff represents the payment
+Credit Linked Note Payoff,Payoff = F - LGD \times EAD \times L_{default},Credit Derivatives,This equation gives the payoff of a credit linked note at maturity. Payoff represents the payment
+Synthetic CDO Construction,V_{cdo} = sum_{i=1}^{n} w_{i} \times V_{cds},Credit Derivatives,Credit Derivatives - Structured Credit
+First-to-Default Basket Payoff,Payoff = (1 - R) \times EAD \times L_{1},Credit Derivatives,This equation gives the payoff of a first-to-default basket. Payoff represents the payment
+Nth-to-Default Basket Payoff,Payoff = (1 - R) \times EAD \times (sum_{i=1}^{n} L_{i} - sum_{i=1}^{n-1} L_{i}),Credit Derivatives,This equation gives the payoff of an Nth-to-default basket. Payoff represents the payment
+Credit Triangle,s = PD \times LGD,Credit Derivatives,This equation shows the relationship between credit spread
+Hazard Rate from Spread,lambda = s / (1 - R),Credit Derivatives,This equation calculates the hazard rate from the CDS spread. lambda represents the hazard rate
+CDS Curve Bootstrap,lambda_{i} = (s_{i} \times (1 - R) - sum_{j=1}^{i-1} lambda_{j} \times delta_{j} \times Q \times (t_{j})) / (delta_{i} \times Q \times (t_{i})),Credit Derivatives,This equation bootstraps the hazard rate curve from CDS spreads. lambda_i is the hazard rate for period i

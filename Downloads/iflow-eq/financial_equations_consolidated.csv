@@ -1,0 +1,103 @@
+title,equation_latex,main_category,notes
+Duration Measures (Complete System),"D_{mac} = \frac{\sum_{t=1}^n t \cdot CF_{t} / (1 + y)^t}{P} = \frac{\sum_{t=1}^n t \cdot PV(CF_{t})}{P} \\
+D_{mod} = \frac{D_{mac}}{1 + y} = -\frac{1}{P} \frac{\partial P}{\partial y} \\
+D_{eff} = -\frac{P_{-} - P_{+}}{2 \cdot P \cdot dy} \\
+KRD_{i} = -\frac{P(y + dy_{i}) - P(y - dy_{i})}{2 \cdot P \cdot dy_{i}} \\
+D_{port} = \sum_{i=1}^n w_{i} \cdot D_{i} \\
+D_{spread} = -\frac{P(y + dy + ds) - P(y + dy - ds)}{2 \cdot P \cdot ds} \\
+Special Cases: D_{mac}^{ZC} = T, \quad D_{mac}^{perp} = \frac{1 + y}{y}",Fixed Income Securities,This comprehensive system defines all major duration measures used in fixed income analysis. Macaulay duration measures weighted average time to receive cash flows. Modified duration measures price sensitivity to yield changes. Effective duration accounts for embedded options. Key rate duration measures sensitivity to specific maturity points. Portfolio duration is the weighted average of component durations. Spread duration measures sensitivity to credit spread changes. Special cases include zero-coupon bonds (duration equals maturity) and perpetuities. Duration is the first derivative of price with respect to yield and is essential for immunization strategies.
+Convexity Measures (Complete System),"Conv = \frac{1}{P} \sum_{t=1}^n \frac{t(t+1) \cdot CF_{t}}{(1 + y)^{t+2}} = \frac{1}{P} \frac{\partial^2 P}{\partial y^2} \\
+Conv_{eff} = \frac{P_{+} + P_{-} - 2P}{P \cdot dy^{2}} \\
+DC = Conv \cdot P \\
+Conv_{port} = \sum_{i=1}^n w_{i} \cdot Conv_{i} \\
+Special Cases: Conv^{ZC} = \frac{T(T+1)}{(1 + y)^{2}}, \quad Conv^{perp} = \frac{2(1 + y)}{y^{2}}",Fixed Income Securities,"This system defines all major convexity measures. Convexity measures the curvature of the price-yield relationship and is the second derivative of price with respect to yield. Effective convexity accounts for embedded options and path dependence. Dollar convexity measures the absolute price change due to convexity. Portfolio convexity is the weighted average of component convexities. Convexity is always positive for bonds without embedded options, providing a benefit in volatile yield environments. Higher convexity provides greater protection against large yield changes. Special cases include zero-coupon bonds and perpetuities."
+Black-Scholes-Merton Complete System,"C = S_{0} \cdot N(d_{1}) - K \cdot e^{-rT} \cdot N(d_{2}) \\
+P = K \cdot e^{-rT} \cdot N(-d_{2}) - S_{0} \cdot N(-d_{1}) \\
+d_{1} = \frac{\ln(S_{0}/K) + (r + \sigma^{2}/2) \cdot T}{\sigma \sqrt{T}} \\
+d_{2} = d_{1} - \sigma \sqrt{T} \\
+With Dividends: C = S_{0} e^{-qT} N(d_{1}) - K e^{-rT} N(d_{2}) \\
+d_{1} = \frac{\ln(S_{0}/K) + (r - q + \sigma^{2}/2) \cdot T}{\sigma \sqrt{T}} \\
+Put-Call Parity: C - P = S_{0} - K e^{-rT}",Equity Derivatives,"The Black-Scholes-Merton model is the foundation of modern derivatives pricing. It provides closed-form solutions for European options on non-dividend paying stocks. The model assumes constant volatility, risk-free rate, and lognormal asset prices. The d1 and d2 terms measure the moneyness and risk-neutral probability of exercise. The dividend version adjusts for continuous dividend yield. Put-call parity ensures no arbitrage between calls and puts. The model revolutionized quantitative finance and earned the Nobel Prize. Limitations include constant volatility assumption and inability to price American options or options with path-dependent payoffs."
+Option Greeks (Complete System),"Delta: \Delta_{C} = N(d_{1}), \quad \Delta_{P} = N(d_{1}) - 1 \\
+Gamma: \Gamma = \frac{N'(d_{1})}{S_{0} \sigma \sqrt{T}} = \frac{e^{-d_{1}^{2}/2}}{S_{0} \sigma \sqrt{2\pi T}} \\
+Vega: \nu = S_{0} N'(d_{1}) \sqrt{T} \\
+Theta: \Theta_{C} = -\frac{S_{0} N'(d_{1}) \sigma}{2\sqrt{T}} - r K e^{-rT} N(d_{2}), \quad \Theta_{P} = -\frac{S_{0} N'(d_{1}) \sigma}{2\sqrt{T}} + r K e^{-rT} N(-d_{2}) \\
+Rho: \rho_{C} = K T e^{-rT} N(d_{2}), \quad \rho_{P} = -K T e^{-rT} N(-d_{2}) \\
+Gamma-Theta Relationship: \text{Profit} \approx \frac{1}{2} \Gamma (dS)^{2} - \Theta dt",Equity Derivatives,Greeks measure option sensitivity to various parameters. Delta measures price sensitivity to underlying asset changes (hedge ratio). Gamma measures delta sensitivity (convexity of option price). Vega measures sensitivity to volatility changes. Theta measures time decay (daily loss in option value). Rho measures sensitivity to interest rate changes. These sensitivities are crucial for risk management and hedging strategies. The gamma-theta trade-off shows that long gamma positions profit from volatility but suffer from time decay. Greeks are interrelated and satisfy certain relationships derived from the Black-Scholes PDE.
+Binomial Tree Pricing (Complete System),"CRR Parameters: u = e^{\sigma \sqrt{\Delta t}}, \quad d = e^{-\sigma \sqrt{\Delta t}} = \frac{1}{u} \\
+Risk-Neutral Probability: p = \frac{e^{r \Delta t} - d}{u - d} \\
+Option Pricing: V_{t} = e^{-r \Delta t} [p V_{t+1}^{up} + (1-p) V_{t+1}^{down}] \\
+Jarrow-Rudd Parameters: u = e^{(r - \sigma^{2}/2) \Delta t + \sigma \sqrt{\Delta t}}, \quad d = e^{(r - \sigma^{2}/2) \Delta t - \sigma \sqrt{\Delta t}}, \quad p = 0.5 \\
+Convergence: As \Delta t \to 0, \text{Binomial} \to \text{Black-Scholes}",Numerical Methods,Binomial trees provide a discrete-time framework for option pricing. The Cox-Ross-Rubinstein (CRR) model ensures tree recombination and matches the first two moments of the lognormal distribution. The up and down factors represent possible price movements. The risk-neutral probability ensures no arbitrage. Option prices are computed by backward induction from terminal payoffs. The Jarrow-Rudd model provides an alternative parameterization with equal probabilities. Binomial trees can price American options through early exercise checks at each node. The model converges to the Black-Scholes solution as the time step approaches zero.
+Vasicek Interest Rate Model (Complete System),"SDE: dr = a(b - r)dt + \sigma dW_{t} \\
+Bond Price: P(t, T) = A(t, T) e^{-B(t, T) r_{t}} \\
+B(t, T) = \frac{1 - e^{-a(T-t)}}{a} \\
+A(t, T) = \exp\left[\left(b - \frac{\sigma^{2}}{2a^{2}}\right)(B(t, T) - (T-t)) - \frac{\sigma^{2}}{4a} B(t, T)^{2}\right] \\
+Zero-Coupon Bond Option: C = P(0, T) [F N(d_{1}) - K N(d_{2})] \\
+Mean Reversion: \lim_{t \to \infty} E[r_{t}] = b, \quad \lim_{t \to \infty} \text{Var}[r_{t}] = \frac{\sigma^{2}}{2a}",Fixed Income Derivatives,"The Vasicek model is a one-factor mean-reverting interest rate model. The short rate follows an Ornstein-Uhlenbeck process, reverting to long-term mean b at speed a. The model has closed-form solutions for zero-coupon bond prices and bond options. The B(t,T) function captures the sensitivity of bond price to the short rate. The A(t,T) function contains the risk premium adjustment. The model allows negative interest rates, which can be a limitation. Mean reversion is a key feature of interest rate dynamics. The model is widely used in fixed income derivatives pricing and risk management."
+Cox-Ingersoll-Ross Interest Rate Model,"SDE: dr = a(b - r)dt + \sigma \sqrt{r} dW_{t} \\
+Bond Price: P(t, T) = A(t, T) e^{-B(t, T) r_{t}} \\
+B(t, T) = \frac{2(e^{\gamma (T-t)} - 1)}{(\gamma + a)(e^{\gamma (T-t)} - 1) + 2\gamma} \\
+A(t, T) = \left[\frac{2\gamma e^{(a + \gamma)(T-t) / 2}}{(\gamma + a)(e^{\gamma (T-t)} - 1) + 2\gamma}\right]^{2ab/\sigma^{2}} \\
+\gamma = \sqrt{a^{2} + 2\sigma^{2}} \\
+Feller Condition: 2ab \geq \sigma^{2} \text{ (ensures } r_{t} > 0)",Fixed Income Derivatives,The CIR model extends Vasicek by making volatility proportional to the square root of the short rate. This ensures non-negative interest rates when the Feller condition is satisfied. The model captures the empirically observed level-dependent volatility of interest rates. Bond prices have closed-form solutions involving hyperbolic functions. The model is widely used for pricing interest rate derivatives and modeling term structure dynamics. The square-root diffusion makes the model more realistic than Vasicek but less tractable for some applications.
+Hull-White Extended Vasicek Model,"SDE: dr = (\theta(t) - a r)dt + \sigma dW_{t} \\
+Theta Function: \theta(t) = \frac{\partial f(0, t)}{\partial t} + a f(0, t) + \frac{\sigma^{2}}{2a}(1 - e^{-2at}) \\
+Bond Price: P(t, T) = A(t, T) e^{-B(t, T) r_{t}} \\
+B(t, T) = \frac{1 - e^{-a(T-t)}}{a} \\
+A(t, T) = \frac{P(0, T)}{P(0, t)} \exp\left[B(t, T) f(0, t) - \frac{\sigma^{2}}{4a}(1 - e^{-2at}) B(t, T)^{2}\right] \\
+Bond Option: C = P(0, T) [F N(d_{1}) - K N(d_{2})]",Fixed Income Derivatives,The Hull-White model extends Vasicek by allowing time-dependent mean reversion level theta(t). This ensures the model fits the initial term structure exactly. The theta function is derived from the initial forward rate curve. The model maintains analytical tractability while providing flexibility to match market data. The model can calibrate to cap/floor and swaption volatilities. It is widely used in practice for pricing interest rate derivatives and managing interest rate risk. The model is a special case of the Heath-Jarrow-Morton framework.
+GARCH Volatility Models (Complete System),"GARCH(1,1): \sigma_{t}^{2} = \omega + \alpha \epsilon_{t-1}^{2} + \beta \sigma_{t-1}^{2} \\
+GARCH(p,q): \sigma_{t}^{2} = \omega + \sum_{i=1}^{q} \alpha_{i} \epsilon_{t-i}^{2} + \sum_{j=1}^{p} \beta_{j} \sigma_{t-j}^{2} \\
+EGARCH: \ln(\sigma_{t}^{2}) = \omega + \alpha \left(\frac{|\epsilon_{t-1}|}{\sigma_{t-1}} - \sqrt{\frac{2}{\pi}}\right) + \gamma \frac{\epsilon_{t-1}}{\sigma_{t-1}} + \beta \ln(\sigma_{t-1}^{2}) \\
+GJR-GARCH: \sigma_{t}^{2} = \omega + \alpha \epsilon_{t-1}^{2} + \gamma \epsilon_{t-1}^{2} I(\epsilon_{t-1} < 0) + \beta \sigma_{t-1}^{2} \\
+Stationarity: \alpha + \beta < 1 \text{ (for GARCH(1,1))}",Advanced Topics,"GARCH models capture volatility clustering and mean reversion in financial time series. The basic GARCH(1,1) model includes ARCH effects (past squared returns) and GARCH effects (past conditional variance). The model is widely used for risk management and option pricing. EGARCH models asymmetric volatility response (leverage effect) where negative shocks have larger impact. GJR-GARCH also captures asymmetry through an indicator function. The stationarity condition ensures finite variance. GARCH models are essential for Value-at-Risk calculations and volatility forecasting."
+Time Value of Money (Complete System),"Future Value: FV = PV(1 + r)^{t} = PV e^{rt} \text{ (continuous)} \\
+Present Value: PV = \frac{FV}{(1 + r)^{t}} = FV e^{-rt} \text{ (continuous)} \\
+Multiple Compounding: FV = PV \left(1 + \frac{r}{m}\right)^{mt} \\
+Annuity PV: PV = C \frac{1 - (1 + r)^{-n}}{r} \\
+Annuity FV: FV = C \frac{(1 + r)^{n} - 1}{r} \\
+Growing Annuity: PV = C \frac{1 - [(1 + g)/(1 + r)]^{n}}{r - g} \\
+Perpetuity: PV = \frac{C}{r}, \quad Growing: PV = \frac{C}{r - g} \\
+Effective Annual Rate: EAR = \left(1 + \frac{r}{m}\right)^{m} - 1",Foundations - Time Value of Money,"Time value of money is the foundation of all financial mathematics. Money today is worth more than money tomorrow due to earning potential and inflation. The basic relationship connects present value, future value, interest rate, and time. Continuous compounding arises in the limit as compounding frequency approaches infinity. Annuities model equal periodic payments. Growing annuities account for payment growth. Perpetuities model infinite payment streams. The effective annual rate reflects the true cost of borrowing or return on investment. These concepts underpin all valuation models in finance."
+Bond Pricing (Complete System),"Zero-Coupon: P = \frac{F}{(1 + y)^{T}} = F e^{-yT} \text{ (continuous)} \\
+Coupon Bond: P = \sum_{t=1}^{n} \frac{C}{(1 + y)^{t}} + \frac{F}{(1 + y)^{n}} \\
+Clean Price: P_{clean} = \frac{C}{y}\left(1 - \frac{1}{(1 + y)^{n}}\right) + \frac{F}{(1 + y)^{n}} \\
+Dirty Price: P_{dirty} = P_{clean} + AI \\
+Accrued Interest: AI = C \times \frac{\text{Days since last coupon}}{\text{Days in coupon period}} \\
+Yield to Maturity: P = \sum_{t=1}^{n} \frac{C}{(1 + y)^{t}} + \frac{F}{(1 + y)^{n}} \text{ (solve for y)} \\
+Current Yield: CY = \frac{C}{P} \\
+Yield to Call: P = \sum_{t=1}^{n_{c}} \frac{C}{(1 + y_{tc})^{t}} + \frac{F_{c}}{(1 + y_{tc})^{n_{c}}}",Fixed Income Securities,"Bond pricing is the present value of future cash flows discounted at the yield to maturity. Zero-coupon bonds have a single payment at maturity. Coupon bonds pay periodic interest and principal at maturity. Clean price excludes accrued interest, while dirty price includes it. Accrued interest compensates the seller for interest earned but not received since the last coupon. Yield to maturity is the internal rate of return on the bond. Current yield measures annual coupon income as a percentage of price. Yield to call measures return if the bond is called by the issuer. Bond prices move inversely to yields."
+Exotic Option Payoffs (Complete System),"Asian: Payoff = \max\left(\frac{1}{n}\sum_{i=1}^{n} S_{t_{i}} - K, 0\right) \text{ (Arithmetic)} \\
+Barrier: Payoff = \max(S_{T} - K, 0) \cdot I(\max_{0 \leq t \leq T} S_{t} < H) \text{ (Up-and-Out)} \\
+Lookback: Payoff = \max(S_{T} - \min_{0 \leq t \leq T} S_{t}, 0) \text{ (Floating Strike)} \\
+Binary: Payoff = C \cdot I(S_{T} > K) \text{ (Cash-or-Nothing)} \\
+Chooser: Payoff = \max(C(S_{T}), P(S_{T})) \\
+Exchange: Payoff = \max(S_{1} - S_{2}, 0) \\
+Spread: Payoff = \max(S_{1} - S_{2} - K, 0) \\
+Basket: Payoff = \max\left(\sum_{i=1}^{n} w_{i} S_{i} - K, 0\right) \\
+Cliquet: Payoff = \max\left(\prod_{i=1}^{n} (1 + \max(R_{i}, 0)) - 1, 0\right) \\
+Power: Payoff = \max(S_{T}^{a} - K, 0)",Equity Derivatives,"Exotic options have payoff structures that depend on path-dependent features or multiple underlying assets. Asian options depend on the average price over a period, reducing volatility impact. Barrier options activate or deactivate when the underlying crosses a barrier. Lookback options allow purchase at the extreme price observed during the option life. Binary options pay a fixed amount if a condition is met. Chooser options allow the holder to choose between call or put at a future date. Exchange options allow swapping one asset for another. Spread options pay based on the difference between two assets. Basket options depend on a weighted portfolio. Cliquet options capture periodic returns. Power options pay based on the asset price raised to a power."
+Credit Risk Models (Complete System),"Probability of Default: PD = 1 - e^{-\lambda T} \\
+Hazard Rate: \lambda = -\frac{\ln(1 - PD)}{T} = \frac{s}{1 - R} \\
+Credit Spread: s = -\frac{\ln(Q(T))}{T} = \lambda + LGD \cdot \lambda \\
+Merton Model: DD = \frac{\ln(V/D) + (\mu - 0.5\sigma_{A}^{2})T}{\sigma_{A} \sqrt{T}} \\
+PD_{Merton} = N\left(-\frac{\ln(V/D) + (\mu - 0.5\sigma_{A}^{2})T}{\sigma_{A} \sqrt{T}}\right) \\
+Expected Loss: EL = PD \times LGD \times EAD \\
+Risk-Neutral Spread: s = \frac{1 - R}{T} \left(\frac{1}{Q(T)} - 1\right) \\
+CDS Spread: s = \frac{1 - R}{1 + R} \frac{PD}{1 - PD}",Credit Derivatives,"Credit risk models quantify the probability and impact of borrower default. The hazard rate represents the instantaneous probability of default given survival. Credit spreads compensate investors for default risk. The Merton model treats equity as a call option on firm assets, providing structural approach to default prediction. Distance to default measures how many standard deviations the firm is from default. Expected loss combines probability of default, loss given default, and exposure at default. Risk-neutral spreads incorporate market expectations of default. CDS spreads reflect the cost of protection against default. These models are essential for credit risk management and pricing credit derivatives."
+Portfolio Theory (Complete System),"Expected Return: E[R_{p}] = \sum_{i=1}^{n} w_{i} E[R_{i}] \\
+Variance: \sigma_{p}^{2} = \sum_{i=1}^{n} \sum_{j=1}^{n} w_{i} w_{j} \sigma_{i} \sigma_{j} \rho_{ij} \\
+Sharpe Ratio: SR = \frac{E[R_{p}] - r_{f}}{\sigma_{p}} \\
+Information Ratio: IR = \frac{R_{p} - R_{b}}{\sigma_{tracking}} \\
+Treynor Ratio: TR = \frac{E[R_{p}] - r_{f}}{\beta_{p}} \\
+Jensen\'s Alpha: \alpha = R_{p} - [r_{f} + \beta_{p}(R_{m} - r_{f})] \\
+Efficient Frontier: \min \sigma_{p} \text{ subject to } E[R_{p}] = \mu \\
+CAPM: E[R_{i}] = r_{f} + \beta_{i}(E[R_{m}] - r_{f})",Portfolio Theory and Risk Management,"Portfolio theory provides the framework for constructing optimal investment portfolios. Expected return of a portfolio is the weighted average of individual returns. Portfolio variance depends on individual variances and covariances, showing the benefits of diversification. The Sharpe ratio measures risk-adjusted return. The information ratio measures active return relative to tracking error. The Treynor ratio uses systematic risk (beta) instead of total risk. Jensen's alpha measures excess return after adjusting for market risk. The efficient frontier represents all optimal portfolios. CAPM provides the equilibrium model for asset pricing, relating expected return to systematic risk. These concepts are fundamental to modern portfolio management."
+Monte Carlo Methods (Complete System),"Option Price: V = e^{-rT} \frac{1}{N} \sum_{i=1}^{N} \text{Payoff}_{i} \\
+Standard Error: SE = \frac{\sigma_{\text{payoff}}}{\sqrt{N}} \\
+Confidence Interval: V \pm z_{\alpha/2} \cdot SE \\
+Antithetic Variates: \bar{V} = \frac{1}{2} \left(\frac{1}{N}\sum_{i=1}^{N} \text{Payoff}_{i}^{+} + \frac{1}{N}\sum_{i=1}^{N} \text{Payoff}_{i}^{-}\right) \\
+Control Variates: \hat{V} = V_{MC} + \beta (E[V_{CV}] - V_{CV}^{MC}) \\
+Convergence: Error \propto \frac{1}{\sqrt{N}} \\
+Quasi-Monte Carlo: Error \propto \frac{(\log N)^{d}}{N}",Numerical Methods,"Monte Carlo methods simulate random paths to price complex derivatives. The basic approach averages discounted payoffs from simulated scenarios. Standard error measures the precision of the estimate. Confidence intervals provide bounds on the true price. Variance reduction techniques improve efficiency: antithetic variates use negatively correlated paths, control variates use related instruments with known prices. Convergence is proportional to 1/sqrt(N), requiring many simulations for high precision. Quasi-Monte Carlo uses low-discrepancy sequences for faster convergence. Monte Carlo is essential for pricing path-dependent and multi-asset derivatives where closed-form solutions do not exist."

@@ -1,0 +1,50 @@
+title,equation_latex,main_category,notes
+Binomial Tree Up Factor,u = exp(sigma * sqrt(delta t)),Numerical Methods,This equation calculates the up factor in a binomial tree. u represents the multiplicative factor for an up move
+Binomial Tree Down Factor,d = 1 / u = exp(-sigma * sqrt(delta t)),Numerical Methods,This equation calculates the down factor in a binomial tree. d represents the multiplicative factor for a down move
+Binomial Tree Risk-Neutral Probability,p = (exp(r * delta t) - d) / (u - d),Numerical Methods,This equation calculates the risk-neutral probability of an up move in a binomial tree. p represents the probability
+Binomial Tree Option Price,Option = exp(-r * delta t) * (p * Option_up + (1 - p) * Option_down),Numerical Methods,This equation calculates the option price at each node using backward induction. Option represents the discounted expected value under risk-neutral probabilities
+Cox-Ross-Rubinstein Parameters,u = exp(sigma * sqrt(delta t)),Numerical Methods, p = 0.5 * (exp(r * delta t) - d) / (u - d)
+Jarrow-Rudd Parameters,u = exp((r - 0.5 * sigma^2) * delta t + sigma * sqrt(delta t)),Numerical Methods, p = 0.5
+Trinomial Tree Up Factor,u = exp(lambda * sigma * sqrt(delta t)),Numerical Methods,This equation calculates the up factor in a trinomial tree. u represents the multiplicative factor for an up move
+Trinomial Tree Down Factor,d = exp(-lambda * sigma * sqrt(delta t)),Numerical Methods,This equation calculates the down factor in a trinomial tree. d represents the multiplicative factor for a down move. Trinomial trees have three branches (up
+Trinomial Tree Middle Factor,m = 1,Numerical Methods,This equation defines the middle factor in a trinomial tree. m represents the multiplicative factor for no change in the underlying price. The middle branch allows for the possibility of no movement in the underlying asset
+Trinomial Tree Probabilities,p_u = (a - (b - c)) / (a - c),Numerical Methods, p_d = 1 - p_u - p_m
+Finite Difference Explicit Scheme,V_{i,Numerical Methods,j} + b_j * V_{i
+Finite Difference Implicit Scheme,a_j * V_{i-1,Numerical Methods,j+1} + c_j * V_{i+1
+Crank-Nicolson Scheme,0.5 * (a_j * V_{i-1,Numerical Methods,j+1} + c_j * V_{i+1
+Monte Carlo Option Price,Option = exp(-r * T) * (1/N) * sum_{i=1}^N Payoff_i,Numerical Methods,This equation calculates the option price using Monte Carlo simulation. Option represents the discounted average payoff
+Monte Carlo Standard Error,SE = sigma_payoff / sqrt(N),Numerical Methods,This equation calculates the standard error of the Monte Carlo estimate. SE represents the standard error
+Variance Reduction: Antithetic Variates,Var((X + X')/2) = 0.5 * (Var(X) + Var(X') + 2 * Cov(X,Numerical Methods,Numerical Methods - Option Pricing Methods
+Variance Reduction: Control Variates,Var(X_cv) = Var(X) - 2 * Cov(X,Numerical Methods, Y)^2 / Var(Y)^2
+Quasi-Monte Carlo,Error = O((log N)^d / N),Numerical Methods,This equation gives the convergence rate of quasi-Monte Carlo methods. The error decreases as O((log N)^d / N) instead of O(1/sqrt(N)) for standard Monte Carlo
+Longstaff-Schwartz Algorithm,Continuation Value = sum_{i=1}^M w_i * L_i(S_t),Numerical Methods,This equation defines the continuation value in the Longstaff-Schwartz algorithm for American options. Continuation Value represents the expected value of continuing rather than exercising
+Least Squares Monte Carlo,LSM = argmin_b sum_{i=1}^M (Discounted Payoff_i - sum_{j=1}^K b_j * L_j(S_{t_i}))^2,Numerical Methods,This equation defines the least squares problem in LSM. LSM estimates the coefficients b_j to minimize the squared error between discounted payoffs and basis function values. LSM is the standard method for pricing American options with Monte Carlo.
+Newton-Raphson Method,x_{n+1} = x_n - f(x_n) / f'(x_n),Numerical Methods,This equation defines the Newton-Raphson method for root finding. x_{n+1} represents the next approximation
+Bisection Method,x_{n+1} = (a_n + b_n) / 2,Numerical Methods,This equation defines the bisection method for root finding. x_{n+1} is the midpoint of the interval [a_n
+Implied Volatility Newton-Raphson,sigma_{n+1} = sigma_n - (C(sigma_n) - C_market) / vega(sigma_n),Numerical Methods,This equation calculates implied volatility using Newton-Raphson. sigma_{n+1} is the updated volatility
+Brent's Method,Combines bisection,Numerical Methods, and inverse quadratic interpolation
+Gradient Descent,x_{n+1} = x_n - alpha * nabla f(x_n),Numerical Methods,This equation defines gradient descent for optimization. x_{n+1} represents the next iterate
+Stochastic Gradient Descent,x_{n+1} = x_n - alpha_n * nabla f_i(x_n),Numerical Methods,This equation defines SGD for optimization with large datasets. x_{n+1} represents the next iterate
+Levenberg-Marquardt Algorithm,(J^T * J + lambda * diag(J^T * J)) * delta = J^T * (y - f(x)),Numerical Methods,This equation defines the Levenberg-Marquardt algorithm for nonlinear least squares. J is the Jacobian
+Calibration Objective Function,min_theta sum_{i=1}^N w_i * (Model Price_i(theta) - Market Price_i)^2,Numerical Methods,This equation defines the calibration objective function. The goal is to find model parameters theta that minimize the weighted sum of squared errors between model prices and market prices. Calibration is essential for making models match market data.
+Model Risk,MR = |Model Price - Market Price| / Market Price,Numerical Methods,This equation calculates model risk as the percentage error between model and market prices. MR represents the model risk
+Backtesting,Hit Ratio = (Number of Correct Predictions) / (Total Predictions),Numerical Methods,This equation calculates the hit ratio for backtesting a model. Hit Ratio represents the proportion of correct predictions. Backtesting validates model performance on historical data and is essential for model validation.
+Kupiec Test,LR = -2 * ln((1 - alpha)^{N - x} * alpha^x / ((1 - p)^{N - x} * p^x)),Numerical Methods,This equation defines the Kupiec test for VaR model validation. LR is the likelihood ratio statistic
+Christoffersen Test,LR_cc = LR_uc + LR_ind,Numerical Methods,This equation defines the Christoffersen test for VaR model validation. LR_cc is the combined likelihood ratio
+Bootstrap Method,theta* = f(X*) where X* is a bootstrap sample,Numerical Methods,This equation defines the bootstrap method for estimating confidence intervals. theta* is the statistic calculated from the bootstrap sample X*
+Jackknife Method,theta_jackknife = (1/N) * sum_{i=1}^N theta_{(-i)},Numerical Methods,This equation defines the jackknife method for bias and variance estimation. theta_jackknife is the jackknife estimate
+Cross-Validation,CV = (1/K) * sum_{k=1}^K MSE_k,Numerical Methods,This equation defines K-fold cross-validation. CV represents the cross-validation error
+Regularization,L2 = lambda * ||theta||^2,Numerical Methods,Numerical Methods - Optimization Techniques
+Akaike Information Criterion,AIC = 2k - 2 * ln(L),Numerical Methods,This equation defines the AIC for model selection. AIC represents the Akaike Information Criterion
+Bayesian Information Criterion,BIC = k * ln(N) - 2 * ln(L),Numerical Methods,This equation defines the BIC for model selection. BIC represents the Bayesian Information Criterion
+Maximum Likelihood Estimation,theta_MLE = argmax_theta L(theta | X),Numerical Methods,This equation defines MLE. theta_MLE represents the parameter values that maximize the likelihood L(theta | X) given data X. MLE is a fundamental method for parameter estimation in statistical models.
+Method of Moments,theta_MM solves E[X | theta] = sample_mean(X),Numerical Methods,This equation defines the method of moments. theta_MM represents parameters that match theoretical moments to sample moments. Method of moments is simpler than MLE but less efficient for many models.
+Expectation-Maximization,E-step: Q(theta | theta^{(t)}) = E[log L(theta | X,Numerical Methods, theta^{(t)}]
+Kalman Filter,Predict: x_{t|t-1} = F * x_{t-1|t-1},Numerical Methods,Numerical Methods - Optimization Techniques
+Particle Filter,weights_i proportional to likelihood(y_t | x_t^{(i)}),Numerical Methods,This equation defines the particle filter (sequential Monte Carlo) for state estimation. weights_i are the importance weights for particle i
+Greeks by Finite Differences,Delta = (f(S + delta S) - f(S - delta S)) / (2 * delta S),Numerical Methods,This equation calculates Delta using central finite differences. Delta represents the sensitivity of the option price to the underlying price. Finite differences are used when analytical Greeks are not available. Central differences are more accurate than forward/backward differences.
+Gamma by Finite Differences,Gamma = (f(S + delta S) - 2 * f(S) + f(S - delta S)) / (delta S)^2,Numerical Methods,This equation calculates Gamma using finite differences. Gamma represents the second derivative of the option price with respect to the underlying price. Finite difference Gamma requires three option price evaluations.
+Vega by Finite Differences,Vega = (f(S,Numerical Methods, sigma - delta sigma)) / (2 * delta sigma)
+Adaptive Mesh Refinement,Refine grid where solution changes rapidly,Numerical Methods,This technique refines the finite difference grid in regions where the solution has high gradients (e.g.
+Operator Splitting,Split PDE into simpler sub-problems,Numerical Methods,This technique splits a complex PDE into simpler sub-problems that can be solved sequentially. Operator splitting is used for multi-dimensional PDEs and PDEs with mixed derivatives
+Spectral Methods,Expand solution in basis functions,Numerical Methods,This approach expands the solution in a basis of orthogonal functions (e.g.
