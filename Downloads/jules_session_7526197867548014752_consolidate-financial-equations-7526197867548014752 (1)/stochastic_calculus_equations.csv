@@ -1,0 +1,6 @@
+State Price Density Process,π_t = e^{-rt} ζ_t,Stochastic Calculus,State price density process under risk-neutral measure. ζ_t represents the pricing kernel or stochastic discount factor.
+Risk-Neutral Valuation,V(t S) = e^{-r(T-t)} 𝔼^ℚ[Φ(S_T)|S_t = S],Stochastic Calculus,Fundamental theorem of asset pricing. Any derivative price equals discounted expected payoff under risk-neutral measure.
+Lognormal Jump Size Distribution,ln J_t ~ N(μ_J σ_J²) ̄μ = e^{μ_J + σ_J²/2} - 1,Stochastic Calculus,Lognormal distribution for jump sizes in Merton jump-diffusion model. ̄μ represents the expected jump size adjustment.
+CGMY Process Characteristic,ν(dx) = C e^{-G|x|}/|x|^{1+Y} dx_{x<0} + C e^{-Mx}/x^{1+Y} dx_{x>0},Stochastic Calculus,CGMY Lévy process characteristic function component. Generalizes variance gamma model with four parameters controlling jump behavior.
+Fokker-Planck Equation,∂p/∂t = -∂/∂S[(r-q)Sp] + ½∂²/∂S²[σ_{LV}² S² p],Stochastic Calculus,Forward equation for probability density under local volatility model. Describes evolution of state price density over time.
+Kolmogorov Forward Equation,∂p(x t|x_0 t_0)/∂t = -∂/∂x[μ(x|t)p] + ½∂²/∂x²[σ²(x|t)p],Stochastic Calculus,Forward Kolmogorov equation describing evolution of transition probability density for diffusion processes.

@@ -1,0 +1,230 @@
+Title,Equation,Main_Category,Notes
+Calendar Roll Return,RY = ln F(T_2)/F(T_1),Commodities,Return from rolling futures from near to far contract. Negative in contango (must buy high) positive in backwardation. Determinant of commodity index returns.
+Natural Gas Storage (Working's Model),V = E[ max( S_T - S_0 exp((r+u)T) 0) ) ],Commodities,Commodity pricing model for storage valuation
+Risk-Neutral Default Probability,PD^{Q} = Φ(-d_2),Credit Models,Theoretical Context: Under risk-neutral measure probability of default is Φ(-d_2) which depends on asset value debt level volatility and time to maturity
+Merton Structural Model,V_T = D + E_T,Credit Models,Credit risk modeling framework where firm value equals debt plus equity
+Black-Cox First Passage Time Model,τ = inf{ t ≥ 0 : V_t ≤ K(t) },Credit Models,Default time as first hitting time of barrier K(t). Time-dependent barrier often exponential
+Duffie-Singleton Reduced-Form Model,P̃(t,T) = E^{Q}[ e^{-∫_t^T (r_s + λ_s) ds} | ℱ_t ],Credit Models,λ_t: Hazard rate (default intensity) process. r_s: Risk-free short rate. P̃(t,T): Price of defaultable bond
+Merton Jump Diffusion,dS_t/S_t = (r-q-λ μ̄) dt + σ dW_t + (J_t - 1) dN_t,Credit Models,Models sudden jumps in asset prices using Poisson process
+Bilateral CVA,CVA = (1-R_C) ∫_0^T E[(V_t)^+] dPD_C(t),Credit Models,Credit valuation adjustment for counterparty default risk
+Black-Cox Model (First Passage),τ = inf { t > 0 : V_t ≤ H(t) },Credit Models,Extension of Merton model allowing early default when asset value touches barrier
+CDO Synthetic Tranche,L_{tranche} = max(L_{port} - A 0) - max(L_{port} - D 0),Credit Models,Tranched credit exposure via CDS
+CDS Par Spread,s = (1-R) ∫_0^T P(0,t) e^{-∫_0^t λ(u)du} dt / ∫_0^T P(0,t) e^{-∫_0^t λ(u)du} dt,Credit Models,Fair CDS spread equating premium leg to protection leg
+CDS Protection Leg,PV_{protection} = (1-R) ∫_0^T P(0,t) λ(t) e^{-∫_0^t λ(u)du} dt,Credit Models,Present value of CDS protection payments
+Credit Valuation Adjustment,CVA = (1-R) ∫_0^T E^{Q}[ (V_t)^+ ] dPD(0,t),Credit Models,CVA represents present value of expected losses from counterparty default
+Distance to Default,DD = (ln(V_0/F) + (μ - σ_V^2/2)T)/(σ_V √T),Credit Models,Measures how many standard deviations firm assets are from default threshold
+Excess Spread,ES = Σ_{i=1}^n (AssetRate_i - LiabilityRate_i) * Balance_i,Credit Models,Credit enhancement from spread between assets and liabilities
+Forward CDS,V_{forward} = V_{CDS}(T_f T_e),Credit Models,Forward starting credit default swap
+G-Spread (Government Spread),G = y_{bond} - y_{govt},Credit Models,Spread to government curve at each maturity
+Jarrow-Turnbull Intensity,P(τ > t) = exp(-∫_0^t λ(s) ds),Credit Models,Reduced form model where default is Poisson arrival with intensity λ
+Mathematical Relationship,V_T < D,Credit Models,Default occurs when firm value falls below debt level
+Merton Equity Value,E_t = V_t Φ(d_1) - D exp(-r(T-t)) Φ(d_2),Credit Models,Merton model equity valuation using Black-Scholes framework
+Merton Jump-Diffusion,dS_t/S_{t-} = (μ - λk) dt + σ dW_t + (e^J - 1) dN_t,Credit Models,Models sudden jumps in asset prices using Poisson process
+Par CDS Spread,s_{par} = (1-R) ∫_0^T P(0 T_i) Q(τ > T_i) / ∫_0^T P(0 T_i) Q(τ > T_i),Credit Models,Fair par spread for CDS
+Probability of Default (Risk-Neutral),PD^{Q} = Φ(-d_2),Credit Models,Risk-neutral default probability under Merton framework
+Survival Probability,P(τ > T | ℱ_t) = exp(-∫_t^T λ(s) ds),Credit Models,Probability that no default occurs before time T given information at time t
+Kalman Filter (Linear-Gaussian),x_{t|t} = x_{t|t-1} + K_t (y_t - H x_{t|t-1}),Econometrics,Optimal recursive filter for linear state space models
+Pairs Trading,Z_t = (S_t^(1) - β S_t^(2) - μ)/σ,Econometrics,Spread of cointegrated pair. Trade when Z deviates from 0
+Average Life,AL = Σ_{t=1}^N t × CF_t^{principal} / Σ_{t=1}^N CF_t^{principal},Fixed Income,Weighted average time to receipt of principal payments for MBS
+Bond Pricing Formula,P = Σ_{t=1}^T C/(1+y)^t + F/(1+y)^T,Fixed Income,Fundamental DCF formula for coupon bond
+Bootstrap Method,P(T_i) = [1 - Σ_{j=1}^{i-1} c_j P(T_j)]/(1 + c_i),Fixed Income,Recursive extraction of zero-coupon prices from coupon bonds
+Breakeven Inflation,BEI = (P_{nominal}/P_{real})^{1/T} - 1,Fixed Income,Market expectation of inflation from TIPS spread
+Continuous Compounding,r(t,T) = -ln(P(t,T))/(T-t),Fixed Income,Continuously compounded zero rate from discount factor
+Convexity,C = (1/P) ∂^2P/∂y^2,Fixed Income,Second-order price sensitivity to yield changes
+Cost of Carry (Commodities),F_0(T) = S_0 exp((r + u - y)T),Fixed Income,Futures price equals spot times cost of carry factors
+Coupon Bond Price (Decomposition),P = Σ_{i=1}^n c_i P(t T_i),Fixed Income,Bond price as sum of discounted cash flows
+State Price Density Process,π_t = e^{-rt} ζ_t,Fixed Income,State price density under risk-neutral measure
+Put Option Price (Black-Scholes),P_t = K e^{-r(T-t)} Φ(-d_2) - S_t Φ(-d_1),Fixed Income,Black-Scholes put option pricing formula
+Risk-Neutral Density (Breeden-Litzenberger),∂^2C/∂K^2 = e^{-rT} f(K,T),Fixed Income,Extract risk-neutral density from option prices
+Put Option Price (Garman-Kohlhagen),P = K e^{-r_d T} Φ(-d_2) - S_0 e^{-r_f T} Φ(-d_1),Fixed Income,FX put option pricing with domestic and foreign rates
+Covered Interest Rate Parity,F_0 = S_0 e^{(r_d - r_f)T},Fixed Interest,No-arbitrage relationship between spot and forward FX rates
+Derivative Pricing Formula,V(t S) = e^{-r(T-t)} E^{Q}[ Φ(S_T) | S_t = S ],Fixed Income,Fundamental risk-neutral pricing formula
+CDO Tranche Pricing,Price_{market}[a d] = ∫_0^T e^{-rt} dE^Q[L_{[a d]}(t)],Fixed Income,Market price of CDO tranche with attachment/detachment points
+CDS Protection PV,PV(Protection) = N_0 ∫_0^T E[e^{-∫_0^t (r_s + λ_s) ds}] dEL_t^{(A D)},Fixed Income,Present value of CDS protection leg
+Jump-Diffusion Option Pricing,P(S_T > K | jumps) = Σ_{n=0}^∞ (λT)^n e^{-λT}/n! Φ(d_n),Fixed Income,Option pricing with jump-diffusion dynamics
+Survival Probability,Q(τ > T) = E^{Q}[ e^{-∫_0^T λ_s ds} ],Fixed Income,Survival probability under risk-neutral measure
+Jump Size Distribution,ln J_t ~ N(μ_J σ_J^2) μ̄ = e^{μ_J + σ_J^2/2} - 1,Fixed Income,Lognormal jump size distribution in Merton model
+Joint Default Probability,P(τ_i ≤ t for all i ∈ S) = Φ_S( {Φ^{-1}(1 - e^{-h_i t)}}_{i∈S} ; {√{ρ_i ρ_j}}_{i j∈S} ),Fixed Income,Joint default probability using Gaussian copula
+Fourier Transform Option Pricing,C(K) = S_0 - e^{-rT}K/π ∫_0^∞ Re[e^{-iuk} φ(u - i/2)] / (u² + 1/4) du,Fixed Income,Option pricing using characteristic function
+CDS Premium Leg,s_{A D} N_0 (D - A) ∫_0^T E[e^{-∫_0^t r_s ds}] dt = N_0 ∫_0^T E[e^{-∫_0^t r_s ds} dL_t^{(A D)}],Fixed Income,CDS premium leg equals protection leg
+Bond Pricing with OAS,P = Σ_i E^{Q} [ CF_i(path)/e^{∫_0^{t_i} (r_s + OAS) ds} ],Fixed Income,Bond pricing with option-adjusted spread
+Conditional Default Probability,p_i(z t) = Φ( (Φ^{-1}(1 - e^{-h_i t}) - √{ρ_i} z)/√{1-ρ_i} ),Fixed Income,Default probability conditional on systematic factor
+Basket Option Moment Matching,E[(S_T^Basket)^2] = Σ_{i=1}^n Σ_{j=1}^n w_i w_j S_0^i S_0^j e^{(2r + σ_i σ_j ρ_{ij})T},Fixed Income,Second moment of basket for moment matching
+CDO Tranche Spread,s_{A D} = E[∫_0^T e^{-rt} dProtection_t^{(A D)}]/∫_0^T e^{-rt} E[1_{τ_m > t}] dt N_0 (D - A),Fixed Income,Fair spread for CDO tranche
+Optimal Storage Policy,V = max_{q_i ∈ [q_{min} q_{max}]} E^{Q} [ Σ_{i=1}^N e^{-r t_i} q_i (S_{t_i} - K) ],Fixed Income,Optimal commodity storage valuation
+CGMY Model,ν(dx) = C e^{-G|x|}/|x|^{1+Y} 1_{x<0} + C e^{-Mx}/x^{1+Y} 1_{x>0},Fixed Income,CGMY jump measure for infinite activity processes
+Moment Matching Conditions,E[S_T^Basket] = e^{μ + σ^2/2} E[(S_T^Basket)^2] = e^{2μ + 2σ^2},Fixed Income,Moment matching to lognormal distribution
+Technical Condition,sup_u ‖∂^u(f/q)‖ ≤ Ce^{½‖x‖²+B‖x‖},Fixed Income,Technical condition for convergence
+Discount Factor Relationships,DF(t T) = P(t T) = 1/(1+y(T-t))^{T-t} = exp(-r(T-t)),Fixed Income,Equivalent representations of discount factors
+FX Forward Points,Points = S_0 * (r_d - r_f) * T,Fixed Income,Forward premium/discount in FX markets
+Fokker-Planck Equation,∂p/∂t = -∂/∂S[(r-q)Sp] + ½∂²/∂S²[σ_{LV}² S² p],Fixed Income,Forward PDE for probability density under local volatility
+Geometric Series,Σ_{k=0}^∞ r^k = 1/(1-r) for |r| < 1,Fixed Income,Foundation for discounting cash flows
+Gold Lease Rate,LeaseRate = r_{risk-free} - Cost of Carry,Fixed Income,Return on gold lending transactions
+I-Spread (Interpolated Spread),I = y_{bond} - y_{benchmark},Fixed Income,Spread to specific benchmark curve
+Key Rate Duration,KRD_k = -(1/P) ∂P/∂y_k,Fixed Income,Sensitivity to specific yield curve points
+Modified Duration,D_{Mod} = D_{Mac}/(1 + y/m),Fixed Income,Price sensitivity to yield changes
+Nelson-Siegel Model,y(τ) = β_0 + β_1 (1-e^{-τ/λ})/(τ/λ) + β_2 ((1-e^{-τ/λ})/(τ/λ) - e^{-τ/λ}),Fixed Income,Parametric yield curve fitting model
+PSA Prepayment Model,CPR(t) = min(t/30 1) × 6%,Fixed Income,Standard prepayment benchmark for MBS
+Rational Prepayment Model,R_t = (dV/dr)/(dV/dr_{refi}),Fixed Income,Prepayment rate as ratio of yield incentives
+Real Yield,y_{real} = (1 + y_{nom})/(1 + π) - 1,Fixed Income,Yield after inflation adjustment
+Silver Lease Rate,SilverLeaseRate = r_{risk-free} + u - y,Fixed Income,Silver forward pricing relationship
+TIPS Pricing,P^{TIPS}(t T) = P^{real}(t T) ⋅ I_t,Fixed Income,Inflation-linked bond pricing formula
+Weighted Average Coupon,WAC = Σ_{i=1}^M w_i × r_i,Fixed Income,Weighted average coupon rate of MBS pool
+Weighted Average Maturity,WAM = Σ_{i=1}^M w_i × T_i,Fixed Income,Weighted average maturity of MBS pool
+Yield to Maturity (YTM),P_{mkt} = Σ_{i=1}^n C e^{-y t_i} + F e^{-y t_n},Fixed Income,Internal rate of return for bonds
+Garman-Kohlhagen Call Option,C = S_0 e^{-r_f T} Φ(d_1) - K e^{-r_d T} Φ(d_2),Foreign Exchange,Currency option pricing model
+Jarrow-Yildirim Inflation Model,dI_t/I_t = (r_n(t) - r_r(t)) dt + σ_I dW_I,Foreign Exchange,Treats CPI index like foreign currency with nominal and real rates
+Power Reverse Dual Currency,V_{PRDC} = Notional * max( Π_{i=1}^n (S_{ti}/S_0)^{α_i} 0),Foreign Exchange,Structured FX product payoff
+Heston Characteristic Function,φ(u t v) = E^{Q}[ e^{iu ln S_T} | v_t = v ] = e^{C(t) + D(t)v + iu ln S_t},Interest Rate Models,Characteristic function for Heston stochastic volatility model
+Floating Rate Note Par Value,P(t) = 1 if t = T_{i-1}^+,Interest Rate Models,FRN trades at par immediately after coupon reset
+CAPM Single-Factor Model,R_i = E[R_i] + β_i (R_M - E[R_M]) + ε_i,Interest Rate Models,Single-factor asset pricing model
+Caplet Pricing (Black-76),C_{caplet} = P(0 T_i) ( F(0 T_{i-1} T_i) Φ(d_1) - K Φ(d_2) ),Interest Rate Models,Interest rate caplet pricing using Black model
+Heston Stochastic Volatility,dS_t = (r - q) S_t dt + √{v_t} S_t dW_S^{(1)},Interest Rate Models,Stochastic volatility model for asset prices
+Market Beta in Multi-Factor Context,β_{iM} = Σ_{j=1}^k β_{ij} Cov(F_j R_M)/Var(R_M),Interest Rate Models,Beta decomposition in multi-factor models
+Swaption Pricing (Black-76),C_{swaption} = P(0 T_e) ( S_0 Φ(d_1) - K Φ(d_2) ),Interest Rate Models,Interest rate swaption pricing using Black model
+Variance Swap Fair Strike,σ_{fair}² = (1/P(0 T)) E^{Q}[ ∫_0^T σ_s² ds ],Interest Rate Models,Fair strike for variance swap
+Volatility Swap Convexity Adjustment,K_{vol} ≈ √{K_{var}} - Var(√{Realized Variance})/(2 K_{vol}^{3/2}),Interest Rate Models,Convexity adjustment for volatility swaps
+APT Risk Premium Decomposition,E[R_i] - r_f = β_{iM} (E[R_M] - r_f) + Σ_{j=2}^k β_{ij} λ_j + α_i^{APT},Interest Rate Models,Multi-factor risk premium decomposition
+CDS Pricing Formula,s = (1-R) ∫_0^T E^{Q}[ e^{-∫_0^t r_s ds} λ_t e^{-∫_0^t λ_s ds} ] dt / ∫_0^T E^{Q}[ e^{-∫_0^t r_s ds} e^{-∫_0^t λ_s ds} ] dt,Interest Rate Models,Fair CDS spread calculation
+Basel IRB Capital Formula,K = LGD [ Φ((G(PD) + √R G(0.999))/√{1-R}) - PD ] ⋅ MA,Interest Rate Models,Internal ratings-based capital requirement
+Bermudan Swaption Valuation,V_n = max(g_n E[V_{n+1} | ℱ_n]),Interest Rate Models,Backward induction for Bermudan exercise optimization
+Black-Cox First Passage Model,τ = inf{ t ≥ 0: V_t ≤ K(t) },Interest Rate Models,Default occurs when assets hit barrier K(t)
+Black-Litterman Model,E[R] = [(τ Σ)^{-1} + P^T Ω^{-1} P]^{-1} [(τ Σ)^{-1} Π + P^T Ω^{-1} Q],Interest Rate Models,Bayesian approach combining equilibrium returns with investor views
+CAPM Equilibrium Model,E[R_i] = R_f + β_i (E[R_m] - R_f),Interest Rate Models,Capital Asset Pricing Model equilibrium relationship
+CDS Par Spread,S = (1-R) ∫ e^{-rt} Q(t) λ(t) dt / ∫ e^{-rt} Q(t) dt,Interest Rate Models,Fair CDS spread equating protection and premium legs
+CEV Model,dS_t = μ S_t dt + σ S_t^β dW_t,Interest Rate Models,Constant elasticity of variance model
+CMS Convexity Adjustment,E^T[S_T] = S_0 + ½ S_0 σ_S² T P''(S_0)/P'(S_0),Interest Rate Models,Convexity adjustment for Constant Maturity Swaps
+CSA Discounting (OIS),V(t) = E^Q [ exp(-∫_t^T c(u) du) Payoff ],Interest Rate Models,Collateralized derivative pricing using OIS discounting
+Cap Valuation,Cap(t) = Σ_{i=1}^n Caplet(t T_i),Interest Rate Models,Interest rate cap as sum of caplets
+CAPM Beta Relationship,E[R_i] - r_f = β_i (E[R_m] - r_f),Interest Rate Models,Market beta relationship in CAPM
+Caplet Price (Black Model),C = P(0 T_{i-1}) ( F(0 T_{i-1} T_i) Φ(d_1) - K Φ(d_2) ),Interest Rate Models,Single caplet pricing using Black model
+Constant Maturity Swap,V_{CMS} = E^Q[ ∫_t^T max(S_u - K 0) du ],Interest Rate Models,Swap with floating rate based on constant maturity
+Constant Product AMM,x ⋅ y = k,Interest Rate Models,Uniswap automated market maker invariant
+Convexity Adjustment,C = (1/P) d²P/dy² = (1/P) Σ_{i=1}^n T_i(T_i+1) CF_i/(1+y)^{T_i+2},Interest Rate Models,Bond convexity calculation
+Convexity Adjustment (Futures),F_{convex} = F + ½ Var( ∫_t^T f(s) ds ),Interest Rate Models,Adjustment from forward rate to futures price
+Dynamic Conditional CAPM,β_{i t} = Cov_t(R_{i t+1} R_{m t+1})/Var_t(R_{m t+1}),Interest Rate Models,Time-varying beta with GARCH conditional moments
+Covered Interest Rate Parity,F_0 = S_0 [(1 + r_d T)/(1 + r_f T)],Interest Rate Models,No-arbitrage FX forward pricing relationship
+Credit Value Adjustment,CVA = -LGD × Σ_{i=1}^{n} EE(t_i) × PD(t_{i-1} t_i) × (1 - PD_{own}(0 t_{i-1})),Interest Rate Models,Bilateral CVA incorporating own default risk
+Credit-Linked Note,CLN_0 = P(0 T) - CDS_{seller},Interest Rate Notes,Bond with embedded credit default swap
+Cross-currency Basis Swap,(1 + r_{USD}^{OIS})^T = (1 + r_{EUR}^{OIS})^T × FX_{spot}/FX_{forward} × (1 + basis_{EUR/USD})^T,Interest Rate Models,No-arbitrage condition for cross-currency basis
+Current Yield,Y_{curr} = C_{annual}/P_{mkt},Interest Rate Models,Simple income return measure for bonds
+Digital Caplet/Floorlet,V_{digital} = P(0 T_i) ( F(0 T_{i-1} T_i) Φ(d_1) - K Φ(d_2) ),Interest Rate Models,Digital interest rate option pricing
+Discount Factor Construction,P(t T) = exp(-∑_{i=1}^n f_iΔt_i),Interest Rate Models,Discount factors from piecewise constant forward rates
+Dispersion Trading,P&L ∝ σ_{idx}² - Σ w_i² σ_i²,Interest Rate Models,Index vs single-stock variance swap strategy
+LMM Drift Adjustment,μ_k(t) = σ_k(t) Σ_{j=1}^{k} [τ_j F_j(t) σ_j(t) ρ_{k j}]/[1 + τ_j F_j(t)],Interest Rate Models,Drift adjustment in LIBOR Market Model
+Eurodollar Futures Price,100 - R_{3M LIBOR},Interest Rate Models,Quarterly interest rate futures contract pricing
+Expected Shortfall,CVaR_α = E[L | L > VaR_α] = μ + σ/(1-α) φ(z_α),Interest Rate Models,Coherent risk measure averaging losses beyond VaR
+Fama-French 3-Factor Model,R_i - R_f = α + β^{MKT}(R_m - R_f) + β^{SMB} SMB + β^{HML} HML,Interest Rate Models,Empirical extension of CAPM with size and value factors
+Floating Rate Bond Value,V_{float}(t_i) = F,Interest Rate Models,Floating rate note resets to par at each coupon date
+Floorlet Price (Black),P = P(0 T_{i-1}) ( K Φ(-d_2) - F(0 T_{i-1} T_i) Φ(-d_1) ),Interest Rate Models,Single floorlet pricing using Black model
+Hull-White Model,dr(t) = [∂f(0 t)/∂t + λf(0 t) + η(t)²/λ (1-exp(-λt)) - λr(t)]dt + η(t)dW(t),Interest Rate Models,Short rate dynamics under exponential volatility
+Forward Swap Rate,S_{m n}(t) = (P(t T_m) - P(t T_n))/Σ_{i=m+1}^n τ_i P(t T_i),Interest Rate Models,Forward swap rate between times T_m and T_n
+Forward Variance Model,d(σ_t² t) = ω_t dt,Interest Rate Models,Forward variance curve dynamics for volatility derivatives
+G2++ Model Dynamics,r_t = x_t + y_t + φ(t),Interest Rate Models,Two-factor Gaussian interest rate model
+Global Floor and Cap,V_{global} = e^{-rT} max(min(Π_{i=1}^{n} R_i GlobalCap) GlobalFloor),Interest Rate Models,Path-dependent structured product with global limits
+HJM Drift Condition,μ(t T) = σ(t T) ∫_t^T σ(t u) du,Interest Rate Models,No-arbitrage drift condition in Heath-Jarrow-Morton framework
+Hawkes Process (Order Arrival),λ(t) = μ + Σ_{t_i < t} α e^{-β(t-t_i)},Interest Rate Models,Self-exciting process for clustered order arrivals
+Interest Rate Swap PV (Fixed),V_{fixed} = τ Σ_{i=1}^n R_{fixed} P(0 t_i),Interest Rate Models,Present value of fixed leg in interest rate swap
+Interest Rate Swap Valuation,V_{swap}(t) = P(t T_n) - K Σ_{i=1}^n τ_i P(t T_i),Interest Rate Models,Swap valuation as difference between floating and fixed legs
+KVA (Capital Valuation Adjustment),KVA = ∫_0^T h ⋅ RC_t ⋅ DF(t) dt,Interest Rate Models,Lifetime cost of holding regulatory capital
+LIBOR Market Model,dF_j(t) = μ_j(t) F_j(t) dt + σ_j(t F_j(t)) dW_j(t),Interest Rate Models,Forward rate dynamics in LIBOR Market Model
+LIBOR-in-Arrears Adjustment,V = N ⋅ D(0 T) ⋅ [L_0 + σ² L_0² T/(1+L_0 τ)],Interest Rate Models,Convexity adjustment for LIBOR-in-arrears swaps
+Location Basis (WTI-Brent),Basis = S_t^{WTI} - S_t^{Brent} - Transport,Interest Rate Models,Price difference between commodity locations
+MBS Hedging with Key Rate Durations,ΔV = Σ_{i=1}^K w_i × D_{i}^{MBS} × Δr_i,Interest Rate Models,MBS hedging using key rate duration decomposition
+MBS Total Return,TR = Σ_{t=1}^T CF_t / P_0 - 1,Interest Rate Models,Total return of MBS including all cash flows
+MBS Key Rate Duration,D_{key} = -(P_+ - P_-)/(2P_0 × Δr_{key}),Interest Rate Models,Sensitivity to localized yield curve shifts
+Mathematical Relationship,Payer Swaption = A(0) E^A[max(r_{T_S}(T_S T_E) - K 0)],Interest Rate Models,Payer swaption payoff under annuity measure
+Par Swap Rate,R_{swap} = (1 - P(0 T))/(Σ_{i=1}^n τ_i P(0 T_i)),Interest Rate Models,Fair swap rate equating fixed and floating legs
+Swap Spread,SS = R_{swap} - Y_{treasury},Interest Rate Models,Spread between swap rate and Treasury yield
+Swaption Pricing (Bachelier),V_{payer} = A(t) [(S(t) - K) N(d) + σ √T N'(d)],Interest Rate Models,Normal model swaption pricing for low rates
+Swap Value Post-Inception,V_t = NA × (r_{FIX 0} - r_{FIX t}) × Σ_{i=1}^{n'} τ_i P(t T_i),Interest Rate Models,Swap value based on rate difference and annuity
+HJM Exponential Volatility,σ(t T) = σ_0 exp(-λ(T-t)),Interest Rate Models,Exponential volatility structure generating Hull-White model
+Total Return Swap,TRS_{payer} = (S_T - S_0) + Dividends - (L + spread) dt,Interest Rate Models,Synthetic exposure to asset returns
+Vasicek Model,dr_t = a(b - r_t) dt + σ dW_t,Interest Rate Models,Mean-reverting Gaussian interest rate model
+HJM Forward Rate Dynamics,df(t T) = α(t T)dt + σ(t T)dW_t,Interest Rate Models,General framework for forward rate evolution
+Nelson-Siegel-Svensson Model,y(τ) = β_0 + β_1 (1-e^{-λ_1 τ})/(λ_1 τ) + β_2 ((1-e^{-λ_1 τ})/(λ_1 τ) - e^{-λ_1 τ}) + β_3 ((1-e^{-λ_2 τ})/(λ_2 τ) - e^{-λ_2 τ}),Interest Rate Models,Extended Nelson-Siegel with additional curvature factor
+Default Probability with Systematic Factor,Q(τ > T) = E^{Q}[ e^{-∫_0^T λ_s ds} ] where λ_t = λ(t X_t),Interest Rate Models,Default probability with state-dependent hazard rate
+Variance Swap Fair Strike,σ_{fair}² = (1/P(0 T)) ∫_0^T E^Q[σ_s²] ds,Interest Rate Models,Fair strike for variance swap
+Variance Swap Payoff,N_{var} ( (252/N) Σ_{i=1}^N ln²(S_i/S_{i-1}) - K_{var}² ),Interest Rate Models,Variance swap payoff based on realized variance
+Realized Variance,σ_{realized}² = (252/N) Σ_{i=1}^N [ln(S_{ti}/S_{ti-1})]²,Interest Rate Models,Annualized realized variance from daily returns
+Vasicek Model Dynamics,dr_t = κ(θ - r_t) dt + σ dW_t^{Q},Interest Rate Models,Ornstein-Uhlenbeck process for short rate
+LMM Volatility Calibration,σ_k^{market}² = (1/(T_k-t)) ∫_t^{T_k} σ_k(s)² ds,Interest Rate Models,Market-implied volatility calibration
+Year-on-Year Inflation Swap,Payoff = N ( I_T/I_{T-1} - 1 - K ),Interest Rate Models,Swap exchanging fixed for annual inflation rate
+Zero-Coupon Inflation Swap,N [ (I_T/I_0) - (1 + K)^T ],Interest Rate Models,Inflation swap payoff based on cumulative inflation
+Neural Network Approximation,V̂(S t; θ) = NN(S t; θ),Machine Learning,Neural network approximation for option pricing
+Crank-Nicolson Finite Difference,∂V/∂t + (r-q)S ∂V/∂S + ½ σ² S² ∂²V/∂S² - rV = 0,Numerical Methods,Finite difference method for option pricing PDE
+Binomial Tree Price,V_0 = exp(-r T) Σ_{j=0}^n C(n j) p^j (1-p)^{n-j} max(S_0 u^j d^{n-j} - K 0),Numerical Methods,Cox-Ross-Rubinstein binomial option pricing
+Cholesky Decomposition,Σ = L ⋅ L^T,Numerical Methods,Matrix decomposition for correlated random variables
+Crank-Nicholson Scheme,-λ/2 u_{i+1}^{n+1} + (1+λ)u_i^{n+1} - λ/2 u_{i-1}^{n+1} = λ/2 u_{i+1}^n + (1-λ)u_i^n + λ/2 u_{i-1}^n,Numerical Methods,Unconditionally stable finite difference scheme
+Fourier Density Inversion,f(x) = 1/(2π) ∫_{-∞}^∞ e^{-iux} φ(u) du,Numerical Methods,Extract probability density from characteristic function
+Explicit Euler Scheme,u_i^{n+1} = u_i^n + λ(u_{i+1}^n - 2u_i^n + u_{i-1}^n),Numerical Methods,Conditionally stable finite difference method
+Importance Sampling,V̂_{IS} = (1/N) Σ_{i=1}^N h(X_i) f(X_i)/q(X_i),Numerical Methods,Variance reduction technique for Monte Carlo
+Least-Squares Monte Carlo,V(t_i S_{t_i}) = max( exercise value E^{Q}[ e^{-r(t_{i+1}-t_i)} V(t_{i+1} S_{t_{i+1}}) | S_{t_i} ] ),Numerical Methods,American option pricing using regression
+Longstaff-Schwartz Algorithm,V_j = max( Exercise_j e^{-rΔt} E[V_{j+1} | S_j] ),Numerical Methods,Least-squares Monte Carlo for American options
+Monte Carlo Error,ε ∝ σ_{sample}/√M,Numerical Methods,Convergence rate for Monte Carlo simulation
+Multi-Level Monte Carlo,E_P[f] = Σ_{l=0}^L (1/M_l) Σ_{m=1}^{M_l} (Y_l^{(m)} - Y_{l-1}^{(m)}),Numerical Methods,Variance reduction across discretization levels
+Sobol Sequence,D_N^*(x_1 ... x_N) = O((log N)^s/N),Numerical Methods,Low-discrepancy sequence for quasi-Monte Carlo
+Asian Option (Geometric),C_{geom} = e^{-r(T-t)} ( G_t e^{μ̄(T-t)} Φ(d_1) - K Φ(d_2) ),Option Pricing,Geometric average Asian option pricing
+Barrier Option (Down-and-Out),C_{DAO} = C_{BS} - (H/S_t)^{2λ} C_{BS}(H²/S_t K T r q σ),Option Pricing,Down-and-out barrier option pricing
+Basket Option Approximation,B_t = Σ_{i=1}^n w_i S^i_t,Option Pricing,Moment matching approximation for basket options
+Binomial Tree Parameters,u = e^{σ √Δt} d = e^{-σ √Δt} p = (e^{(r-q)Δt} - d)/(u - d),Option Pricing,Cox-Ross-Rubinstein binomial tree parameters
+Black-76 Formula,C(F_t K T r σ) = e^{-r(T-t)} [F_t Φ(d_1) - K Φ(d_2)],Option Pricing,Futures option pricing formula
+Black-Scholes PDE,∂V/∂t + ½ σ² S² ∂²V/∂S² + r S ∂V/∂S - r V = 0,Option Pricing,Fundamental PDE for derivative pricing
+Black-Scholes-Merton Formula,C(S_t K T r q σ) = S_t e^{-q(T-t)} Φ(d_1) - K e^{-r(T-t)} Φ(d_2),Option Pricing,Fundamental option pricing formula
+CIR Conditional Density,r_T | r_t ~ Non-Central χ² with df = 4κθ/σ² and λ = 4κ r_t e^{-κ(T-t)}/(σ²(1-e^{-κ(T-t)})),Option Pricing,Conditional distribution in CIR model
+Charm (Delta Decay),Charm = ∂²V/∂t∂S = -∂Δ/∂t = -∂Θ/∂S,Option Pricing,Mixed partial derivative of option value
+Continuous Compounding,P(t T) = e^{-y(t T)(T-t)},Option Pricing,Continuous compounding discount factor
+Delta Sensitivity,Δ_C = ∂C/∂S = e^{-q(T-t)} Φ(d_1),Option Pricing,First-order price sensitivity to underlying
+Exchange Option (Margrabe),V(S^1_t S^2_t T) = S^1_t e^{-q_1(T-t)} Φ(d_1) - S^2_t e^{-q_2(T-t)} Φ(d_2),Option Pricing,Option to exchange one asset for another
+Explicit Finite Difference Scheme,V_i^{j+1} = α_i V_{i-1}^j + β_i V_i^j + γ_i V_{i+1}^j,Option Pricing,Explicit finite difference for option pricing
+G2++ Bond Price,P(t T) = P(0 T)/P(0 t) exp(-½(V(t T) - V(0 T) + V(0 t)) - M_x(t T) x_t - M_y(t T) y_t),Option Pricing,Bond price in G2++ two-factor model
+Gap Option Pricing,C_{gap} = S_t e^{-q(T-t)} Φ(d_1) - K_2 e^{-r(T-t)} Φ(d_2),Option Pricing,Gap option with different strike and trigger levels
+Hull-White Bond Price,P(t T) = P(0 T)/P(0 t) exp(B(t T) f(0 t) - σ²/(4κ) B(t T)² (1 - e^{-2κt}) - B(t T) r_t),Option Pricing,Bond price in Hull-White model
+Least-Squares Monte Carlo,V(t_i S_{t_i}) = max( exercise value E^{Q}[ e^{-r(t_{i+1}-t_i)} V(t_{i+1} S_{t_{i+1}}) | S_{t_i} ] ),Option Pricing,American option pricing using regression
+Lookback Option (Floating Strike),C_{floating} = S_t e^{-q(T-t)} Φ(a_1) - m_t e^{-r(T-t)} Φ(a_2) + additional terms,Option Pricing,Floating strike lookback option pricing
+Compound Option (Geske),C_{compound} = S_t e^{-qT_2} M(a_1 b_1; √{T_1/T_2}) - K_2 e^{-r T_2} M(a_2 b_2; √{T_1/T_2}) - e^{-r T_1} K_1 Φ(a_2),Option Pricing,Option on an option using bivariate normal distribution
+Parisian Option Pricing,Price via PDE with cumulative time variable A_t = ∫_0^t 1_{{S_u ≤ H}} du,Option Pricing,Parisian option with barrier duration requirement
+Black-Scholes Price under Jumps,C = S_t e^{-q(T-t)} ( e^{-qτ} Φ(d_1) - e^{-rτ} α Φ(d_2) ),Option Pricing,Option pricing with jump component
+Rainbow Option (Maximum),C_{max} = S^1_t e^{-q_1(T-t)} Φ(d_{11}) + S^2_t e^{-q_2(T-t)} Φ(d_{22}) - K e^{-r(T-t)} M(d_{11}-σ_1√{T-t} d_{22}-σ_2√{T-t}; ρ),Option Pricing,Option on maximum of two assets
+Reset Date Valuation,P(t) = Σ_{i=1}^n E^{Q}[ L(T_{i-1} T_i) δ_i e^{-∫_t^{T_i} r_s ds} | ℱ_t ] + E^{Q}[ e^{-∫_t^{T_n} r_s ds} | ℱ_t ],Option Pricing,Floating rate note valuation at reset dates
+Rho Sensitivity,ρ_C = ∂C/∂r = K (T-t) e^{-r(T-t)} Φ(d_2),Option Pricing,Price sensitivity to interest rates
+SABR Implied Volatility,σ_{BS}(K) = α/((F K)^{(1-β)/2} (...) ) × z/x(z) × (1 + adjustment terms),Option Pricing,SABR stochastic volatility model implied volatility
+Spread Option (Kirk Approximation),C ≈ e^{-r(T-t)} ( F_1 Φ(d_1) - (F_2 + K) Φ(d_2) ),Option Pricing,Approximation for spread option pricing
+Theta Time Decay,Θ_C = -∂C/∂t = -(S e^{-q(T-t)} σ φ(d_1))/(2√{T-t}) + q S e^{-q(T-t)} Φ(d_1) - r K e^{-r(T-t)} Φ(d_2),Option Pricing,Time decay of option value
+Vanna Cross Sensitivity,Vanna = ∂²V/∂S∂σ = -d_1 φ(d_1)/σ,Option Pricing,Cross sensitivity between delta and volatility
+Vasicek Bond Price,P(t T) = A(t T) e^{-B(t T) r_t},Option Pricing,Bond price formula in Vasicek model
+Vasicek Short Rate Distribution,r_T | r_t ~ 𝒩( r_t e^{-κ(T-t)} + θ(1 - e^{-κ(T-t)}) σ²/(2κ) (1 - e^{-2κ(T-t)}) ),Option Pricing,Conditional distribution of short rate in Vasicek model
+Volga Second-Order Volatility,Volga = ∂²V/∂σ² = S_t φ(d_1) d_1 d_2 √{T-t},Option Pricing,Second-order volatility sensitivity
+Binomial Tree (Cox-Ross-Rubinstein),V_0 = e^{-rΔt} Σ_{i=0}^n C(n i) p^i (1-p)^{n-i} max(S_0 u^i d^{n-i} - K 0),Option Pricing,Complete binomial tree option pricing
+Merton Equity Valuation,E_t = V_t Φ(d_1) - D e^{-r(T-t)} Φ(d_2),Option Pricing,Merton model treating equity as call option on firm value
+Delta (First-Order Sensitivity),Δ = ∂V/∂S = Φ(d_1) (call),Option Pricing,First-order price sensitivity to underlying asset
+Gaussian Copula Default Correlation,X_i = √ρ Z + √{1 - ρ} ε_i,Option Pricing,Gaussian copula for modeling default correlations
+Jarrow-Yildirim Nominal Rate,dn_t = (θ_n(t) - κ_n n_t) dt + σ_n dW_t^{n Q},Option Pricing,Jarrow-Yildirim model for nominal interest rates
+Nelson-Siegel Yield Curve,y(τ) = β_0 + β_1 (1 - e^{-λ τ})/(λ τ) + β_2 ((1 - e^{-λ τ})/(λ τ) - e^{-λ τ}),Option Pricing,Parametric yield curve fitting model
+One-Dimensional Itô's Lemma,dV = (∂V/∂t + μ ∂V/∂S + ½ σ² S² ∂²V/∂S²) dt + σ S ∂V/∂S dW,Option Pricing,Itô's lemma for functions of stochastic processes
+Vanilla Interest Rate Swap,V_{swap} = Σ_{i=1}^n δ_i ( R_{fixed} - R_{floating} ) P(0 T_i),Option Pricing,Interest rate swap valuation formula
+Variance Swap Fair Strike,K_{var} = (2/T) ( ∫_0^F P(K)/K² dK + ∫_F^∞ C(K)/K² dK ),Option Pricing,Fair strike for variance swap using option prices
+Black-76 Model (Futures Options),C = e^{-r(T-t)} ( F_t Φ(d_1) - K Φ(d_2) ),Option Pricing,Black model for futures and forward options
+Cross-Currency Basis Swap,V_{basis} = Σ_{i=1}^n δ_i ( R_{dom} - R_{for} ⋅ FX_{fwd} ) P(0 T_i),Option Pricing,Cross-currency basis swap valuation
+FX Volatility Smile,σ_{imp}(K) = σ_{ATM} + Skew ⋅ ln(K/F) + ½ Volga ⋅ ln²(K/F),Option Pricing,Parametric FX volatility smile parameterization
+Forward Rate Agreement,V_{FRA} = δ ( F_{actual} - F_{contract} ) P(0 T),Option Pricing,Forward rate agreement valuation
+Milstein Scheme,S_{t+Δt} = S_t + (r - q) S_t Δt + σ S_t √{Δt} Z + ½ σ² S_t (Z² - 1) Δt,Option Pricing,Higher-order Monte Carlo discretization scheme
+Svensson Extended Model,y(τ) = β_0 + β_1 (1-e^{-λ_1 τ})/(λ_1 τ) + β_2 ((1-e^{-λ_1 τ})/(λ_1 τ) - e^{-λ_1 τ}) + β_3 ((1-e^{-λ_2 τ})/(λ_2 τ) - e^{-λ_2 τ}),Option Pricing,Extended Nelson-Siegel with second curvature factor
+t-Copula Distribution,C(u_1 u_2; ρ ν) = t_{ν ρ}( t_ν^{-1}(u_1) t_ν^{-1}(u_2) ),Option Pricing,t-copula for modeling tail dependence
+APT with Idiosyncratic Risk,E[R_i] = r_f + Σ_{j=1}^k β_{ij} λ_j + θ_i σ_{ε i},Option Pricing,APT extension with priced idiosyncratic risk
+Bootstrap Discount Factors,P(T_i) = (1 - Σ_{j=1}^{i-1} c_j P(T_j))/(1 + c_i),Option Pricing,Bootstrap method for zero-coupon prices
+Effective Duration,D_{Eff} = -(1/P) (P(y+Δy) - P(y-Δy))/(2Δy),Option Pricing,Numerical duration calculation
+Hull-White Extended Model,dr_t = (θ(t) - κ r_t) dt + σ dW_t^{Q},Option Pricing,Hull-White model with time-dependent drift
+Overnight Index Swap,V_{OIS} = Σ_{i=1}^n ( (1/n) Σ_{j ∈ period i} r_{oj} ) P(0 T_i) - Σ_{i=1}^n R_{fixed} δ_i P(0 T_i),Option Pricing,Overnight index swap valuation
+VIX Calculation,VIX² = (2/T) Σ_i (ΔK_i/K_i²) e^{rT} Q(K_i) - (1/T)(F/K_0 - 1)²,Option Pricing,VIX volatility index calculation formula
+Forward Curve Extraction,f(t T) = -∂/∂T ln P(t T),Option Pricing,Extract forward rates from discount factors
+Key Rate Duration,∂P/∂y_{t_i} ≈ -(P(y_{t_i}+Δ) - P(y_{t_i}-Δ))/(2Δ) ⋅ (1/P),Option Pricing,Sensitivity to specific maturity points
+Monte Carlo American Options,V_j = max( Exercise_j e^{-rΔt} E[V_{j+1} | S_j] ),Option Pricing,Monte Carlo for American options using continuation values
+Theta Time Decay,Θ_{call} = -(S_t φ(d_1) σ)/(2√{T-t}) - r K e^{-r(T-t)} Φ(d_2),Option Pricing,Black-Scholes theta for call options
+Heath-Jarrow-Morton Framework,df(t T) = μ(t T) dt + σ(t T) dW_t^{Q},Option Pricing,General framework for forward rate modeling
+Rho Interest Rate Sensitivity,ρ_{call} = ∂V/∂r = K (T-t) e^{-r(T-t)} Φ(d_2),Option Pricing,Price sensitivity to interest rate changes
+ADI Finite Difference Method,(1 - Δt/2 A_x) u^* = (1 + Δt/2 A_y) u^n,Option Pricing,Alternating direction implicit method for multi-dimensional PDEs
+ARIMA Time Series Model,(1 - Σ_{i=1}^p φ_i L^i) (1 - L)^d X_t = (1 + Σ_{j=1}^q θ_j L^j) ε_t,Option Pricing,Autoregressive integrated moving average model
+LIBOR Market Model Advanced,dL_i(t) = μ_i(t) L_i(t) dt + σ_i(t) L_i(t) dW_i(t),Option Pricing,Advanced LIBOR Market Model specification
+Rough Heston Affine Structure,E[exp(uX_T + vV_T)|F_t] = exp(ϕ(T-t u v) + ψ(T-t u v)V_t + ∫_t^T χ(T-s u v)Z_s ds),Option Pricing,Affine structure in rough Heston model
+Almgren-Chriss Optimal Execution,E[C] = Σ τ |n_k| + ½ γ n_k² + λ σ²,Option Pricing,Optimal execution balancing impact and risk

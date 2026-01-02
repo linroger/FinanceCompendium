@@ -1,0 +1,15 @@
+**Mathematical Derivation or Foundation**
+Negative convexity cost estimates the expected loss from prepayment risk in MBS when interest rates decline. The formula Cost_convexity ≈ 0.5 × |C| × σ_y² × WAM combines convexity magnitude with yield volatility and security duration. Convexity C measures the curvature of the price-yield relationship, σ_y² represents yield variance, WAM (weighted average maturity) captures timing. The 0.5 factor comes from the second-order Taylor expansion of price changes. This approximation captures the expected value loss from convexity in declining rate environments.
+
+**Key Assumptions and Limitations**
+Assumes normally distributed yield changes with constant volatility. Requires convexity to be negative (typical for MBS). Ignores path-dependency of prepayment decisions. Assumes linear relationship between rates and prepayments. Breaks down in extreme rate environments. Approximation accuracy decreases with high volatility. Fails to capture behavioral aspects of prepayment.
+
+**Practical Applications in Finance**
+Critical for MBS valuation adjustments in pricing models. Used in option-adjusted spread calculations. Applied in risk management for mortgage portfolios. Essential for hedging strategies in MBS. Used in relative value analysis between MBS and other assets. Forms foundation for MBS derivative pricing.
+
+**Related Concepts and Extensions**
+Connects to option-adjusted duration and convexity measures. Extends to prepayment option valuation. Related to negative convexity in callable bonds. Generalizes to volatility-adjusted measures. Links to effective convexity calculations. Forms foundation for advanced MBS analytics.
+
+**Implementation Considerations**
+Requires accurate convexity calculation from cash flow models. Yield volatility estimation needs historical data. WAM calculation must reflect prepayment assumptions. Scenario analysis important for different rate environments. Integration with prepayment models crucial. Real-time systems need efficient approximation methods. Validation against option pricing models recommended.</content>
+<parameter name="filePath">enhanced_numerical_methods_complete.csv

@@ -1,0 +1,5 @@
+Put Option Price (Garman-Kohlhagen),P = K e^{-r_d T} Φ(-d_2) - S_0 e^{-r_f T} Φ(-d_1),Foreign Exchange,Black-Scholes extension for FX options with domestic and foreign interest rates. Used for currency options pricing.
+Covered Interest Rate Parity,F_0 = S_0 e^{(r_d - r_f)T},Foreign Exchange,No-arbitrage relationship between spot and forward exchange rates. Fundamental relationship in international finance.
+Garman-Kohlhagen Model,C = S_0 e^{-r_f T} Φ(d_1) - K e^{-r_d T} Φ(d_2),Foreign Exchange,Black-Scholes extension for currency options. Incorporates both domestic and foreign interest rates for FX option pricing.
+Jarrow-Yildirim Inflation Model,dI_t/I_t = (r_n(t) - r_r(t)) dt + σ_I dW_I,Foreign Exchange,Treats inflation index like foreign currency with nominal rate as domestic and real rate as foreign rate. Used for inflation derivatives pricing.
+Power Reverse Dual Currency,V_{PRDC} = Notional × max(∏_{i=1}^n (S_{t_i}/S_0)^{α_i} 0),Foreign Exchange,Structured FX product with power option features. Common in Japanese retail market with complex payoff structures.

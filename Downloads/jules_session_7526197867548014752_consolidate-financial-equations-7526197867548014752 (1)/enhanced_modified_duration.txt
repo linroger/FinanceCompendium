@@ -1,0 +1,15 @@
+**Mathematical Derivation or Foundation**
+Modified duration D_mod = D_mac/(1+y) converts Macaulay duration to a direct measure of percentage price sensitivity. Macaulay duration D_mac = [Σ t_i × CF_i / P] / (1+y) already adjusts for compounding, so the modification removes this adjustment to get pure percentage sensitivity. For small yield changes Δy, the price change approximates ΔP/P ≈ -D_mod × Δy. This comes from the first derivative of the bond pricing function with respect to yield. The formula provides direct risk measure for parallel yield curve shifts.
+
+**Key Assumptions and Limitations**
+Assumes small yield changes for linear approximation validity. Requires parallel yield curve shifts affecting all maturities equally. Ignores embedded options that cause effective duration to differ. Assumes annual compounding convention. Breaks down for bonds with high convexity or in volatile markets. Fails to capture term structure changes. Not applicable to floating rate securities.
+
+**Practical Applications in Finance**
+Primary risk measure for bond portfolio management and hedging. Used in immunization strategies to match asset and liability durations. Critical for value-at-risk calculations in fixed income portfolios. Applied in asset allocation decisions across yield curve. Essential for regulatory capital calculations. Forms foundation for bond index replication.
+
+**Related Concepts and Extensions**
+Connects to Macaulay duration for weighted average maturity. Extends to effective duration for bonds with embedded options. Related to key rate duration for non-parallel shifts. Generalizes to spread duration for credit risk. Links to convexity for second-order effects. Forms foundation for modern risk management frameworks.
+
+**Implementation Considerations**
+Requires accurate cash flow generation and discounting. Yield calculation must use consistent compounding convention. Small change approximation needs validation for large rate moves. Real-time systems need efficient recalculation methods. Integration with yield curve models crucial for consistency. Historical backtesting important for model validation. Cross-validation with finite difference calculations recommended.</content>
+<parameter name="filePath">enhanced_modified_duration.txt

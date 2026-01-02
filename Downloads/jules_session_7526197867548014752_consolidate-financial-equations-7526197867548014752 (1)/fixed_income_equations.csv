@@ -1,0 +1,12 @@
+Discount Factor Relationships,DF(t T) = P(t T) = 1/(1+y(T-t))^{T-t} = exp(-r(T-t)),Fixed Income,Equivalence between discount factors bond prices and different compounding conventions. Fundamental relationship in fixed income mathematics.
+Key Rate Duration,KRD_k = -(1/P) ∂P/∂y_k,Fixed Income,Sensitivity of bond price to change in specific point on yield curve. Allows for hedging non-parallel yield curve shifts.
+MBS Carry Return,Carry = (WAC - Servicing_Spread) - Cost_of_Funding,Fixed Income,Net carry return for mortgage-backed securities. Difference between weighted average coupon and funding costs.
+MBS Interest Cash Flow,CF_t^{interest} = (B_{t-1} - SP_t/2) × WAC_t/12,Fixed Income,Interest cash flow calculation for mortgage-backed securities. Based on beginning balance minus scheduled principal payments.
+MBS Scheduled Principal,SP_t = MP_t - Interest_t,Fixed Income,Scheduled principal payment for mortgage-backed securities. Total mortgage payment minus interest portion.
+Modified Duration,D_{mod} = D_{mac}/(1+y),Fixed Income,Modified duration measures price sensitivity to yield changes. Adjusts Macaulay duration for compounding frequency.
+Negative Convexity Cost,Cost_{convexity} ≈ 0.5 × |C| × σ_y² × WAM,Fixed Income,Estimated cost of negative convexity for mortgage-backed securities. Combines convexity magnitude yield volatility and weighted average maturity.
+Nelson-Siegel Yield Curve Model,y(τ) = β_0 + β_1 (1-e^{-τ/λ})/(τ/λ) + β_2 ((1-e^{-τ/λ})/(τ/λ) - e^{-τ/λ}),Fixed Income,Parametric yield curve model with level slope and curvature factors. Widely used for yield curve fitting and forecasting.
+PSA Prepayment Model,CPR(t) = min(t/30 1) × 6%,Fixed Income,Public Securities Association prepayment benchmark for mortgage-backed securities. Standard industry convention for prepayment modeling.
+Rational Prepayment Model,R_t = (dV/dr)/(dV/dr_{refi}),Fixed Income,Prepayment rate as ratio of yield incentive to refinance incentive. Captures economic rationality of mortgage prepayment decisions.
+TIPS Pricing,P^{TIPS}(t T) = P^{real}(t T) ⋅ I_t,Fixed Income,Treasury Inflation-Protected Securities pricing formula. Real bond price multiplied by inflation index ratio.
+Yield to Maturity,P_{mkt} = ∑_{i=1}^n C e^{-y t_i} + F e^{-y t_n},Fixed Income,Internal rate of return calculation for bonds. Discount rate that equates present value of cash flows to market price.

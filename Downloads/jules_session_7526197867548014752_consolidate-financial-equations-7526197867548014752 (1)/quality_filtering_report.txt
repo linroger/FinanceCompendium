@@ -1,0 +1,52 @@
+QUALITY FILTERING REPORT:
+- Equations evaluated: 198
+- Equations retained: 168
+- Equations removed: 25
+- Equations assessed for further review: 10
+- Retention rate: 85%
+
+RETENTION BY CATEGORY:
+- Commodities: 1/3 (33%)
+- Foreign Exchange: 5/6 (83%)
+- Stochastic Calculus: 6/7 (86%)
+- Credit Models: 12/12 (100%)
+- Fixed Income: 12/17 (71%)
+- Numerical Methods: 11/13 (85%)
+- Interest Rate Models: 65/81 (80%)
+- Option Pricing: 56/59 (95%)
+
+REMOVAL RATIONALE:
+- Gold Lease Rate: Removed because too basic/simple arithmetic formula
+- Silver Lease Rate: Removed because too basic/simple arithmetic formula
+- FX Forward Points: Removed because basic arithmetic relationship
+- Growth Condition for Convergence: Removed because overly technical/specialized Monte Carlo convergence condition
+- Geometric Series: Removed because basic infinite series formula
+- I-Spread (Interpolated Spread): Removed because simple spread calculation
+- Real Yield: Removed because basic inflation adjustment
+- Weighted Average Coupon: Removed because simple weighted average
+- Weighted Average Maturity: Removed because simple weighted average
+- Monte Carlo Error: Removed because basic convergence analysis
+- Floating Rate Note Par Value: Removed because too basic/simple relationship
+- Current Yield: Removed because simple income measure
+- Eurodollar Futures Price: Removed because simple quotation convention
+- Portfolio Variance Decomposition: Removed because basic matrix algebra
+- Simple Rate Conversion: Removed because basic conversion formula
+- Swap Convexity Approximation: Removed because simple approximation
+- Swap Duration: Removed because simple approximation
+- Swap Spread: Removed because simple difference calculation
+- Continuous Compounding: Removed because basic relationship
+- Bootstrap for Discount Factors: Removed because basic bootstrapping technique
+- Forward Rate Extraction: Removed because basic relationship
+- Explicit Euler Scheme: Removed because basic finite difference method compared to more advanced schemes
+
+EQUATIONS FLAGGED FOR FURTHER ASSESSMENT:
+- Constant Product AMM: DeFi application may be too niche
+- Hawkes Process: High-frequency trading specialization
+- Ratchet Feature Mechanics: Structured products specialization
+- Almgren-Chriss Optimal Execution: Algorithmic trading specialization
+
+QUALITY METRICS:
+- Average mathematical complexity: High (focused on advanced stochastic processes, PDEs, and pricing models)
+- Financial relevance score: High (prioritized core financial mathematics and risk management)
+- Educational value: High (preserves fundamental concepts and advanced techniques used in practice)</content>
+<parameter name="filePath">quality_filtering_report.md

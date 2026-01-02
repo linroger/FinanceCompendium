@@ -1,0 +1,15 @@
+**Mathematical Derivation or Foundation**
+The scheduled principal payment SP_t = MP_t - Interest_t follows directly from the fundamental mortgage payment identity where total monthly payment equals interest plus principal reduction. The interest component Interest_t = B_{t-1} × WAC/12 uses the beginning balance and annual coupon rate. The principal payment represents the portion of the payment that reduces the outstanding loan balance. This relationship holds for standard amortizing loans where MP_t is fixed, creating a declining balance over time. The formula preserves the accounting identity that all payments are either interest or principal reduction.
+
+**Key Assumptions and Limitations**
+Assumes fixed monthly payment schedule with no changes in loan terms. Requires accurate interest calculation using correct balance and rate. Ignores actual principal payments that include unscheduled prepayments. Assumes all payments are made on time. Breaks down for loans with balloon payments or irregular amortization. Fails to capture principal losses from defaults or liquidations. The scheduled nature ignores market-driven principal reductions.
+
+**Practical Applications in Finance**
+Fundamental for MBS cash flow projection and valuation models. Used in duration calculation for mortgage portfolios. Critical for prepayment analysis comparing actual vs scheduled payments. Applied in risk assessment for mortgage-backed securities. Essential for structuring MBS pass-through securities. Used in regulatory reporting for mortgage assets.
+
+**Related Concepts and Extensions**
+Connects to interest cash flow calculations in MBS structures. Extends to total payment analysis and amortization schedules. Related to principal-only (PO) strip valuation. Generalizes to commercial mortgages with different payment patterns. Links to loss severity analysis in distressed mortgages. Forms foundation for mortgage mathematics education and modeling.
+
+**Implementation Considerations**
+Requires consistent amortization schedule generation. Interest calculation must use precise beginning balance. Monthly payment calculation needs accurate loan terms. Integration with prepayment models essential for projections. Historical validation against actual payment data crucial. Real-time systems need efficient balance updates. Cross-checking with total payment identity important for data quality.</content>
+<parameter name="filePath">enhanced_mbs_principal.txt

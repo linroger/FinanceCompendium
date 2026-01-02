@@ -1,0 +1,15 @@
+**Mathematical Derivation or Foundation**
+The PSA prepayment model creates an S-shaped prepayment speed profile based on loan seasoning. The formula CPR(t) = min(t/30, 1) × 6% generates prepayment rates starting at 0.2% CPR in month 1 (t/30 × 6% = 0.2%), ramping linearly to 6% CPR by month 30, then remaining constant. This captures the "seasoning ramp" where prepayments increase as loans become eligible for refinancing. The 6% peak rate represents typical long-term prepayment experience. The model assumes rational borrower behavior with seasoning effects.
+
+**Key Assumptions and Limitations**
+Assumes linear seasoning ramp over 30 months. Requires constant 6% long-term prepayment rate. Ignores interest rate environment effects. Assumes homogeneous borrower pool. Breaks down for non-conforming loans. Fails to capture economic cycles. Simplistic model not suitable for sophisticated analysis. Industry standard but increasingly outdated.
+
+**Practical Applications in Finance**
+Industry benchmark for MBS pricing and valuation. Used in relative value analysis between MBS issues. Critical for cash flow modeling in securitization. Applied in risk management for mortgage portfolios. Essential for regulatory capital calculations. Forms foundation for MBS analytics.
+
+**Related Concepts and Extensions**
+Connects to conditional prepayment rate (CPR) framework. Extends to economic prepayment models. Related to burnout adjustments. Generalizes to vintage-specific models. Links to prepayment option valuation. Forms foundation for mortgage risk analysis.
+
+**Implementation Considerations**
+Standard 100 PSA multiplier for base case analysis. 150 PSA = 1.5 × PSA speeds for stress testing. Monthly CPR to SMM conversion needed. Integration with cash flow models essential. Historical calibration for different vintages. Real-time adjustment for market conditions. Validation against actual prepayment data crucial.</content>
+<parameter name="filePath">enhanced_psa_prepayment.txt

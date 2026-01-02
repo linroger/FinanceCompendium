@@ -1,0 +1,15 @@
+**Mathematical Derivation or Foundation**
+The rational prepayment model treats prepayment as an option exercised when beneficial to borrowers. The formula R_t = (dV/dr)/(dV/dr_refi) measures the sensitivity of borrower value V to interest rates relative to the refinancing threshold sensitivity. When market rates decline, borrowers prepay if the value increase exceeds refinancing costs. The ratio captures the option delta, measuring how prepayment probability changes with rates. This comes from option pricing theory applied to mortgage prepayment decisions.
+
+**Key Assumptions and Limitations**
+Assumes perfectly rational borrower optimization. Requires deterministic interest rates. Ignores transaction costs and behavioral factors. Assumes constant refinancing threshold. Breaks down for strategic default considerations. Fails to capture heterogeneity in borrower pools. Simplifies complex prepayment motivations. Theoretical foundation but limited empirical validation.
+
+**Practical Applications in Finance**
+Advanced MBS valuation incorporating economic rationality. Used in risk management for mortgage portfolios. Applied in derivative pricing for prepayment options. Critical for option-adjusted spread calculations. Essential for mortgage-backed security analysis. Forms foundation for sophisticated prepayment modeling.
+
+**Related Concepts and Extensions**
+Connects to option-theoretic prepayment models. Extends to rational expectations frameworks. Related to borrower value function estimation. Generalizes to multi-factor prepayment models. Links to burnout and seasoning adjustments. Forms foundation for advanced MBS analytics.
+
+**Implementation Considerations**
+Requires borrower value function estimation. Refinancing threshold modeling needed. Numerical differentiation for sensitivities. Integration with interest rate models crucial. Calibration to historical prepayment data. Real-time implementation challenging. Validation against option pricing theory important.</content>
+<parameter name="filePath">enhanced_rational_prepayment.txt

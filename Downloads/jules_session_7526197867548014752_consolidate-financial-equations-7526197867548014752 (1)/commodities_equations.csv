@@ -1,0 +1,1 @@
+Optimal Storage Valuation,V = max_{q_i ∈ [q_{min} q_{max}]} 𝔼^ℚ[∑_{i=1}^N e^{-r t_i} q_i (S_{t_i} - K)],Commodities,Optimal valuation of commodity storage facilities. Maximizes expected discounted cash flows from storage operations under constraints.
