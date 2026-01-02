@@ -1,0 +1,193 @@
+ID,Name,Equation,Category,Notes
+1,"Tranche Loss Valuation","Price_{market}[a d] = ∫(0 to T) e^{-rt} d𝔼^ℚ[L_[a d](t);ρ_a d]",Credit Models,"The market price of a CDO tranche with attachment point a and detachment point d is determined by integrating the discounted expected tranche losses over the time horizon T. This equation represents the fundamental pricing mechanism for collateralized debt obligations, where tranche losses L_[a d](t) represent the cumulative losses that have penetrated the tranche's protection layer between attachment point a and detachment point d. The correlation parameter ρ_a d captures the dependence structure of the underlying portfolio defaults.
+
+**Mathematical Derivation and Foundation:**
+This formula derives from the risk-neutral valuation principle in credit risk modeling, where the price equals the expected present value of cash flows under the risk-neutral measure ℚ. The tranche loss L_[a d](t) is defined as the minimum of the cumulative portfolio losses that exceed the attachment point a, capped at the detachment point d: L_[a d](t) = min(max(L(t) - a, 0), d - a), where L(t) represents total portfolio losses at time t. The differential d𝔼^ℚ[L_[a d](t);ρ_a d] represents the expected incremental loss to the tranche, incorporating the correlation structure ρ_a d that models dependence between obligor defaults.
+
+**Key Assumptions and Limitations:**
+The model assumes a Gaussian copula framework for default correlation, which may underestimate tail risk in stressed market conditions. The constant correlation assumption ρ_a d simplifies the complex dependence structure of real portfolios. The model assumes deterministic recovery rates and ignores counterparty risk. In practice, correlation is not constant and exhibits stochastic behavior, particularly during crises when default clustering increases.
+
+**Practical Applications in Finance:**
+CDO tranche pricing is essential for structured finance trading and risk management. Investment banks use this for pricing synthetic CDO tranches, while hedge funds employ it for relative value analysis across different tranches. Risk managers calculate tranche sensitivities to correlation changes for portfolio stress testing. Rating agencies reference these models when assigning tranche ratings, though they often apply conservative correlation assumptions.
+
+**Related Concepts and Extensions:**
+This extends to more sophisticated models like the dynamic Gaussian copula with time-varying correlation, or alternative copula families (t-copula, Clayton copula) that better capture fat tails. The concept connects to basket default swaps and portfolio credit derivatives. Extensions include stochastic recovery rates and wrong-way risk considerations in counterparty credit risk.
+
+**Implementation Considerations:**
+Numerical integration requires careful discretization of the time grid, with Monte Carlo simulation commonly used for the expectation operator under correlation assumptions. Calibration involves matching market tranche spreads, which can be computationally intensive for large portfolios. The curse of dimensionality limits direct simulation for portfolios with many obligors, necessitating variance reduction techniques like quasi-Monte Carlo or importance sampling."
+2,"CDO Protection Leg Valuation","PV(Protection) = N_0 ∫_0^T 𝔼[e^{-∫_0^t (r_s + λ_s) ds}] dEL_t^{(A D)}",Credit Models,"The present value of the protection leg for a CDO tranche represents the discounted expected value of tranche loss increments, accounting for both interest rate risk and credit spread risk through stochastic discounting. This formulation captures the funding and credit risk embedded in collateralized debt obligations.
+
+**Mathematical Derivation and Foundation:**
+The protection leg valuation stems from the risk-neutral pricing of credit derivatives, where the present value equals the expected discounted payoff under measure ℚ. The stochastic discount factor e^{-∫_0^t (r_s + λ_s) ds} incorporates both the risk-free rate r_s and the tranche-specific credit spread λ_s, reflecting the funding cost and credit risk premium. The differential dEL_t^{(A D)} represents the incremental expected loss to the tranche at time t, defined as EL_t^{(A D)} = 𝔼^ℚ[L_t^{(A D)}] where L_t^{(A D)} is the tranche loss function.
+
+**Key Assumptions and Limitations:**
+The model assumes deterministic recovery rates and ignores wrong-way risk where protection seller credit quality correlates with portfolio performance. The credit spread λ_s is assumed to be deterministic or following a simple stochastic process. In reality, spreads exhibit mean-reversion and jump risk, particularly during crises. The model assumes continuous trading and ignores liquidity risk.
+
+**Practical Applications in Finance:**
+Investment banks use this for pricing CDO tranches in structured finance desks. Hedge funds employ it for analyzing relative value between different tranches and correlation trading strategies. Risk management teams calculate exposure to tranche protection sellers. Central counterparties reference these valuations for margin requirements on credit derivatives.
+
+**Related Concepts and Extensions:**
+This connects to the broader class of credit valuation adjustments (CVA) and funding valuation adjustments (FVA) in OTC derivatives pricing. Extensions include stochastic recovery models and counterparty risk adjustments. The concept relates to the valuation of credit-linked notes and synthetic CDOs.
+
+**Implementation Considerations:**
+The stochastic integral requires numerical methods like Monte Carlo simulation or PDE solvers. Calibration involves matching market spreads while accounting for the term structure of spreads. For large portfolios, dimensionality reduction techniques like principal component analysis help manage computational complexity. The model requires careful treatment of the correlation structure between interest rates and credit spreads."
+3,"Survival Probability","ℚ(τ > T) = 𝔼^ℚ[e^{-∫_0^T λ_s ds}]",Credit Models,"The survival probability under the risk-neutral measure represents the likelihood that an obligor survives beyond time T without default, expressed as the expectation of the exponential integral of the hazard rate process. This fundamental quantity forms the basis of credit derivative pricing and risk assessment.
+
+**Mathematical Derivation and Foundation:**
+This formula derives from the definition of survival probability in intensity-based credit models, where the hazard rate λ_s represents the instantaneous default intensity conditional on survival to time s. Under the risk-neutral measure ℚ, the survival probability equals the expected value of the exponential martingale e^{-∫_0^T λ_s ds}, which represents the price of a zero-coupon bond in the intensity framework. The integral ∫_0^T λ_s ds gives the cumulative hazard, and the exponential form ensures the probability lies between 0 and 1.
+
+**Key Assumptions and Limitations:**
+The model assumes that defaults follow a Poisson process with time-varying intensity, ignoring contagion effects and default clustering. The hazard rate is assumed to be adapted to the filtration, but real-world defaults exhibit dependence on macroeconomic factors. The model assumes deterministic recovery rates and ignores counterparty risk. During financial crises, the Poisson assumption breaks down as defaults become correlated.
+
+**Practical Applications in Finance:**
+Credit rating agencies use survival probabilities for assigning credit ratings and estimating default probabilities. Investment banks employ them for pricing credit default swaps and corporate bonds. Risk managers calculate survival probabilities for credit portfolio stress testing. Insurance companies use them for pricing credit risk insurance products.
+
+**Related Concepts and Extensions:**
+This connects to the broader class of affine intensity models like the Cox-Ingersoll-Ross (CIR) process for interest rates. Extensions include stochastic volatility in hazard rates and regime-switching models that capture business cycle effects. The concept relates to reduced-form models versus structural models of credit risk.
+
+**Implementation Considerations:**
+Numerical computation requires discretization of the integral, with Monte Carlo simulation for stochastic hazard rates. Calibration involves matching market CDS spreads or bond yields. For time-inhomogeneous processes, Fourier transform methods or characteristic function approaches provide efficient pricing. The model requires careful handling of the measure change between physical and risk-neutral dynamics."
+4,"Joint Default Probability","P(τ_i ≤ t for all i ∈ S) = Φ_S({Φ^{-1}(1 - e^{-h_i t})}_{i∈S};{√{ρ_i ρ_j}}_{i j∈S})",Credit Models,"The joint default probability for a set of obligors uses the Gaussian copula to model dependence structure, transforming individual survival probabilities into a multivariate normal framework. This approach captures correlation through systematic and idiosyncratic risk factors.
+
+**Mathematical Derivation and Foundation:**
+The Gaussian copula framework transforms individual default probabilities into a multivariate normal distribution. Each obligor's default time follows an exponential distribution with hazard rate h_i, giving individual survival probability e^{-h_i t}. The inverse normal CDF Φ^{-1}(1 - e^{-h_i t}) transforms these into normal variables. The multivariate normal distribution Φ_S incorporates the correlation matrix {√{ρ_i ρ_j}}_{i j∈S}, where ρ represents the pairwise correlation between obligors.
+
+**Key Assumptions and Limitations:**
+The Gaussian copula assumes normality of the dependence structure, which underestimates tail dependence during crises. The single-factor correlation model simplifies the complex dependence patterns in real portfolios. The model assumes constant correlation and hazard rates. In practice, correlation is stochastic and exhibits leverage effects during downturns.
+
+**Practical Applications in Finance:**
+Banks use joint default probabilities for calculating credit portfolio loss distributions and regulatory capital requirements under Basel frameworks. Rating agencies employ them for assessing tranche ratings in structured finance. Hedge funds use them for correlation trading strategies and CDO arbitrage. Risk managers calculate portfolio Value-at-Risk incorporating default correlation.
+
+**Related Concepts and Extensions:**
+This extends to multi-factor Gaussian copulas and alternative copula families like the t-copula that better capture fat tails. The concept connects to bottom-up portfolio credit risk models and top-down macroeconomic stress testing. Extensions include time-varying correlation and contagion models.
+
+**Implementation Considerations:**
+The multivariate normal CDF requires numerical methods like Monte Carlo simulation or quasi-Monte Carlo for high dimensions. For large portfolios, factor models reduce dimensionality. Calibration involves matching market tranche spreads or historical default correlation. The model requires careful treatment of the correlation matrix conditioning to ensure positive definiteness."
+5,"Tranche Spread Valuation","s_{A D} N_0 (D - A) ∫_0^T 𝔼[e^{-∫_0^t r_s ds}] dt = N_0 ∫_0^T 𝔼[e^{-∫_0^t r_s ds} dL_t^{(A D)}]",Credit Models,"The equilibrium condition equates the present value of premium payments to the expected present value of protection payments for a CDO tranche. This fundamental relationship determines the fair spread for tranche protection.
+
+**Mathematical Derivation and Foundation:**
+The left side represents the premium leg: the tranche notional N_0 times tranche thickness (D - A) times spread s_{A D} times the expected discounted annuity. The right side represents the protection leg: the expected discounted tranche losses. At equilibrium, these must equal for a par tranche. The equation expresses the break-even spread that makes the tranche fairly priced.
+
+**Key Assumptions and Limitations:**
+The model assumes deterministic spreads and ignores spread volatility. The annuity calculation assumes continuous premium payments. In reality, spreads are stochastic and exhibit mean-reversion. The model assumes perfect liquidity and ignores transaction costs. During crises, the equilibrium assumption breaks down as market makers demand wider bid-ask spreads.
+
+**Practical Applications in Finance:**
+Investment banks use this for pricing synthetic CDO tranches and determining fair value spreads. Hedge funds employ it for identifying mispriced tranches in the correlation market. Rating agencies reference these calculations when assigning tranche ratings. Central banks use similar frameworks for analyzing systemic risk in structured finance markets.
+
+**Related Concepts and Extensions:**
+This connects to the broader class of credit derivative pricing and the concept of credit valuation adjustment (CVA). Extensions include stochastic spread models and funding costs. The concept relates to the pricing of basket credit derivatives and portfolio insurance products.
+
+**Implementation Considerations:**
+The equation requires numerical solution for the spread s_{A D}, often using root-finding algorithms. Monte Carlo simulation evaluates the expectations under the risk-neutral measure. For large portfolios, dimensionality reduction techniques improve computational efficiency. Calibration involves matching market-observed tranche spreads while accounting for model risk."
+6,"Second Tranche Spread","s^{(2)}_{A^{(2)} D^{(2)}} = 𝔼[∫_0^T e^{-rt} dEL_t^{(2)}]/[∫_0^T e^{-rt} dt N_0^{(2)} (D^{(2)} - A^{(2)})]",Credit Models,"The pricing formula for second-loss tranches in CDO structures expresses the fair spread as the ratio of expected discounted tranche losses to the expected discounted annuity. This extends the first-loss tranche pricing to higher loss layers.
+
+**Mathematical Derivation and Foundation:**
+The numerator represents the expected present value of protection payments for the second tranche, while the denominator represents the expected present value of premium payments. The tranche loss EL_t^{(2)} accounts for losses that penetrate both the first and second tranches. This formula maintains the same structure as first-loss pricing but with different attachment/detachment points A^{(2)} and D^{(2)}.
+
+**Key Assumptions and Limitations:**
+The model assumes independence between tranche layers after the first loss threshold, which may not hold during extreme stress scenarios. The correlation structure affects higher tranches differently than equity tranches. The model assumes deterministic recovery rates and ignores the impact of correlation skew.
+
+**Practical Applications in Finance:**
+CDO structurers use this for pricing mezzanine and senior tranches in multi-tranche deals. Investors employ it for analyzing tranche waterfalls and loss allocation. Risk managers calculate tranche-specific risk measures for portfolio diversification. Rating agencies use these models for assessing tranche credit quality.
+
+**Related Concepts and Extensions:**
+This extends to n-th loss tranche pricing in complex CDO structures. The concept connects to loss distribution analysis and tranche thickness optimization. Extensions include stochastic correlation and recovery rate uncertainty.
+
+**Implementation Considerations:**
+The model requires simulation of the entire loss distribution to capture tail events affecting higher tranches. Monte Carlo methods with variance reduction techniques improve accuracy. For high tranches, the pricing becomes sensitive to extreme tail events, requiring careful model calibration and stress testing."
+7,"CDS Par Spread","s = (1-R) ∫_0^T P(0 t) λ(t) e^{-∫_0^t λ(u)du} dt / ∫_0^T P(0 t) e^{-∫_0^t λ(u)du} dt",Credit Models,"The par spread for a credit default swap equates the present value of premium payments to the expected present value of protection payments. This fundamental relationship expresses the fair credit spread in terms of the hazard rate process and discount factors.
+
+**Mathematical Derivation and Foundation:**
+The numerator represents the expected present value of the protection leg: (1-R) times the integral of discounted expected losses. The denominator represents the present value of the premium leg annuity. At par, these must equal, giving the break-even spread s. The term P(0 t) represents the risk-free discount factor, while e^{-∫_0^t λ(u)du} gives the survival probability.
+
+**Key Assumptions and Limitations:**
+The model assumes deterministic hazard rates and ignores spread volatility. Recovery rate R is assumed constant. In reality, spreads exhibit stochastic volatility and recovery rates vary by seniority and industry. The model assumes continuous premium payments and ignores settlement delays.
+
+**Practical Applications in Finance:**
+Investment banks use this for pricing CDS contracts and credit-linked notes. Hedge funds employ it for credit spread analysis and relative value trading. Risk managers calculate CDS-implied default probabilities for portfolio risk assessment. Central banks use CDS spreads as indicators of credit market stress.
+
+**Related Concepts and Extensions:**
+This connects to the broader class of intensity-based credit models and reduced-form modeling. Extensions include stochastic hazard rates and wrong-way risk adjustments. The concept relates to asset swap spreads and credit valuation adjustments.
+
+**Implementation Considerations:**
+The integral requires numerical evaluation, often using Gauss-Lobatto quadrature. Calibration involves matching market CDS spreads across different maturities. For stochastic hazard rates, the model requires Monte Carlo simulation. The equation assumes deterministic discount factors but can be extended to stochastic rates."
+8,"Black-Cox First Passage Model","τ = inf{t ≥ 0: V_t ≤ K(t)}",Credit Models,"The first passage time model defines default as the first time the firm asset value V_t hits or falls below a time-dependent barrier K(t). This extends the Merton model by allowing for early default before debt maturity.
+
+**Mathematical Derivation and Foundation:**
+Default occurs when the asset value process V_t first reaches the barrier K(t), where K(t) can be constant or time-varying. For a geometric Brownian motion asset process dV_t = μV_t dt + σV_t dW_t, the first passage time distribution can be derived using boundary value problems. The model generalizes Merton's framework by allowing the barrier to depend on time and potentially on economic conditions.
+
+**Key Assumptions and Limitations:**
+The model assumes geometric Brownian motion for asset values, which may not capture jumps or regime switches. The barrier K(t) is typically set as a constant fraction of debt, but real-world covenants are more complex. The model ignores strategic default behavior and assumes continuous monitoring.
+
+**Practical Applications in Finance:**
+Credit rating agencies use this for modeling corporate default risk with early warning features. Investment banks employ it for pricing convertible bonds and credit derivatives. Risk managers use it for stress testing portfolios with embedded options. Academic research applies it to sovereign debt and emerging market risk.
+
+**Related Concepts and Extensions:**
+This extends Merton's structural model to allow for endogenous default timing. Extensions include stochastic barriers and regime-switching asset processes. The concept connects to barrier options in equity derivatives and threshold models in macroeconomics.
+
+**Implementation Considerations:**
+The first passage time distribution requires solving PDEs or using approximation methods. For constant barriers, closed-form solutions exist; for time-varying barriers, numerical methods like finite differences are needed. Calibration involves matching historical default rates and asset volatility."
+9,"CSA Discounting (OIS)","V(t) = 𝔼^ℚ[exp(-∫_t^T c(u) du) Payoff]",Credit Models,"Post-crisis discounting uses the collateral rate c(u) instead of LIBOR, reflecting funding costs and credit risk mitigation through collateral agreements. This represents a fundamental shift in derivatives valuation following the 2008 crisis.
+
+**Mathematical Derivation and Foundation:**
+The valuation formula replaces the traditional LIBOR discounting with collateral rate discounting. The stochastic discount factor becomes exp(-∫_t^T c(u) du), where c(u) represents the OIS rate or collateral rate. This accounts for the funding cost of maintaining collateral and reflects the risk-mitigation effect of collateral posting.
+
+**Key Assumptions and Limitations:**
+The model assumes perfect collateralization and ignores collateral haircuts or rehypothecation constraints. The collateral rate c(u) is assumed to be the risk-free rate. In practice, collateral rates include credit spreads and liquidity premiums. The model ignores wrong-way risk in collateral valuation.
+
+**Practical Applications in Finance:**
+Investment banks use this for pricing OTC derivatives under collateral agreements. Central counterparties employ it for margin calculations. Risk managers calculate funding valuation adjustments (FVA) for uncollateralized positions. Regulators require CSA discounting for capital calculations.
+
+**Related Concepts and Extensions:**
+This connects to the broader framework of valuation adjustments (CVA, DVA, FVA, ColVA). Extensions include stochastic collateral rates and asymmetric collateral agreements. The concept relates to the evolution from LIBOR to SOFR discounting.
+
+**Implementation Considerations:**
+The model requires simulation of collateral rate processes alongside underlying risk factors. For complex products, nested Monte Carlo methods may be needed. Calibration involves matching OIS rates and collateral market data. The model requires careful treatment of collateral posting frequency and thresholds."
+10,"Expected Shortfall","CVaR_α = 𝔼[L|L > VaR_α] = μ + σ/(1-α) φ(z_α)",Credit Models,"Conditional Value-at-Risk represents the expected loss given that losses exceed the Value-at-Risk threshold. This coherent risk measure provides a more conservative estimate of tail risk than VaR.
+
+**Mathematical Derivation and Foundation:**
+For losses following a normal distribution with mean μ and standard deviation σ, the expected shortfall equals μ plus a term involving the normal density φ(z_α) where z_α = Φ^{-1}(α) is the standard normal quantile. This formula assumes normality but can be generalized to other distributions. The measure is coherent, satisfying subadditivity and other desirable properties.
+
+**Key Assumptions and Limitations:**
+The normal distribution assumption may underestimate tail risk for fat-tailed return distributions. The model assumes independence and identical distribution of losses. In practice, losses exhibit dependence and non-normality. The measure is sensitive to the choice of confidence level α.
+
+**Practical Applications in Finance:**
+Banks use Expected Shortfall for regulatory capital calculations under Basel III. Risk managers employ it for portfolio stress testing and limit setting. Hedge funds use it for tail risk hedging strategies. Asset managers calculate ES for investor reporting and risk attribution.
+
+**Related Concepts and Extensions:**
+This extends Value-at-Risk by considering the entire tail distribution. Extensions include spectral risk measures and distortion risk measures. The concept connects to coherent risk measurement theory and regulatory capital frameworks.
+
+**Implementation Considerations:**
+For non-normal distributions, the formula requires numerical integration or simulation. Historical simulation methods use empirical loss distributions. The model requires careful treatment of dependence structures in portfolios. Backtesting ES involves comparing against realized losses beyond VaR thresholds."
+11,"Hazard Rate Process","λ_t = λ(t X_t) where X_t is state vector",Credit Models,"The hazard rate process allows for time-varying and state-dependent default intensity, capturing the dynamic nature of credit risk. This general specification enables modeling of business cycle effects and macroeconomic influences on default probabilities.
+
+**Mathematical Derivation and Foundation:**
+The hazard rate λ_t represents the instantaneous default intensity conditional on survival and the current state X_t. The state vector X_t can include macroeconomic variables, firm-specific factors, or market indicators. The functional form λ(t X_t) allows for both deterministic time variation and stochastic state dependence.
+
+**Key Assumptions and Limitations:**
+The model assumes Markovian state processes and ignores feedback effects where defaults influence the macroeconomic state. The functional form is typically assumed to be affine for tractability. In practice, hazard rates exhibit jumps and non-Markovian behavior.
+
+**Practical Applications in Finance:**
+Credit portfolio managers use this for dynamic risk assessment. Rating agencies employ it for time-varying credit ratings. Risk managers use it for stress testing across economic scenarios. Researchers apply it to modeling systemic risk and contagion.
+
+**Related Concepts and Extensions:**
+This connects to regime-switching models and hidden Markov models for credit risk. Extensions include stochastic volatility in hazard rates. The concept relates to intensity-based models and structural-form models.
+
+**Implementation Considerations:**
+The model requires specification of the state process dynamics and the functional form of λ. Estimation involves maximum likelihood methods or Kalman filtering. For high-dimensional state vectors, dimensionality reduction techniques are needed. Calibration requires time series of default rates and macroeconomic indicators."
+12,"Black-Scholes for Equity as Call","E_t = V_t Φ(d_1) - D e^{-r(T-t)} Φ(d_2)",Credit Models,"The Merton model treats corporate equity as a call option on the firm value, with debt representing a risk-free bond plus a put option. This structural approach links corporate finance to option pricing theory.
+
+**Mathematical Derivation and Foundation:**
+The firm value V_t follows geometric Brownian motion. Equity holders have a call option on the firm value with strike equal to debt face value D at maturity T. Debt holders receive D if V_T > D, or V_T if V_T ≤ D. The equity value equals the Black-Scholes call option formula with underlying V_t, strike D, time to maturity T-t, volatility σ_V, and risk-free rate r.
+
+**Key Assumptions and Limitations:**
+The model assumes geometric Brownian motion for firm value, which ignores jumps and regime switches. It assumes debt is zero-coupon and risk-free. In practice, firms have complex capital structures with multiple debt tranches. The model ignores taxes, transaction costs, and strategic default behavior.
+
+**Practical Applications in Finance:**
+Investment banks use this for pricing convertible bonds and credit derivatives. Corporate treasurers employ it for optimal capital structure decisions. Risk managers use it for estimating default probabilities from equity prices. Private equity firms apply it to valuation of distressed companies.
+
+**Related Concepts and Extensions:**
+This extends to multi-factor structural models and models with jumps. Extensions include endogenous default timing and complex capital structures. The concept connects to real options in corporate finance.
+
+**Implementation Considerations:**
+The model requires estimation of firm value volatility from equity prices. The formula involves the standard normal CDF, computed using numerical methods. Calibration involves matching observed equity and debt prices. For complex capital structures, the model requires decomposition into multiple options."
