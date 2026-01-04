@@ -73,6 +73,9 @@ logs/
 .osgrep/
 .autocode/progress.db-journal
 
+# Beads (task tracking)
+.beads/
+
 # Project-specific
 linking_engine/__pycache__/
 *.pyc
