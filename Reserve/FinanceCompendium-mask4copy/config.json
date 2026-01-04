@@ -1,0 +1,30 @@
+{
+  "chunking": {
+    "target_words": 3000,
+    "min_words": 1500,
+    "max_words": 4500
+  },
+  "quality": {
+    "min_concept_score": 7.0,
+    "min_specificity_score": 1.0,
+    "max_vault_frequency": 50,
+    "frequency_penalty_start": 20
+  },
+  "scoring": {
+    "depth_weight": 2.5,
+    "centrality_weight": 2.0,
+    "uniqueness_weight": 2.0,
+    "authority_weight": 2.0,
+    "context_weight": 1.5
+  },
+  "linking": {
+    "max_per_chunk": 1,
+    "density_per_words": 3000,
+    "max_mentions_per_concept": 5,
+    "max_per_document": 1
+  },
+  "aliases": {
+    "max_per_concept": 5,
+    "require_literature_evidence": true
+  }
+}
