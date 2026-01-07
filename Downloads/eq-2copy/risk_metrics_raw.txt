@@ -1,0 +1,902 @@
+================================================================================
+FINANCIAL MATHEMATICS EQUATIONS - RISK METRICS AND GREEKS
+Working Notes and Raw Equations Compilation
+================================================================================
+
+Date: January 2026
+Category: Risk Metrics and Greeks
+Status: Complete - Ready for JSONL Processing
+
+================================================================================
+SECTION 1: CORE VALUE AT RISK EQUATIONS
+================================================================================
+
+1.1 PARAMETRIC (VARIANCE-COVARIANCE) VAR
+----------------------------------------
+Formula: VaR_α = μ - z_α × σ
+
+Where:
+- VaR_α = Value at Risk at confidence level α
+- μ = Expected return (mean of portfolio value changes)
+- z_α = α-quantile of standard normal distribution
+  - 95%: z = 1.645
+  - 99%: z = 2.326
+  - 99.9%: z = 3.090
+- σ = Standard deviation (volatility) of portfolio returns
+
+Notes:
+- Assumes normally distributed returns
+- Most computationally efficient method
+- Underestimates tail risk (fat tails in real data)
+- Good for linear portfolios with normal return assumptions
+- Widely used for regulatory reporting (Basel approaches)
+
+Derivation:
+Under normal distribution: P(R ≤ -VaR_α) = 1 - α
+Standardizing: P((R - μ)/σ ≤ -(VaR_α + μ)/σ) = 1 - α
+Let z = -(VaR_α + μ)/σ = -z_α
+Therefore: VaR_α = -μ + z_α × σ (but usually expressed as μ - z_α × σ for loss)
+
+
+1.2 HISTORICAL SIMULATION VAR
+-----------------------------
+Formula: VaR_α = -Q_α(R)
+
+Where:
+- Q_α(R) = α-quantile (percentile) of historical return distribution
+- R = Vector of historical portfolio returns
+- Negative sign converts return to loss
+
+Procedure:
+1. Collect n historical returns
+2. Sort returns from worst to best
+3. Find index k = floor(α × n) or use interpolation
+4. VaR_α = -R_k (the k-th worst return)
+
+Notes:
+- Non-parametric, no distribution assumptions
+- Captures fat tails, skewness, kurtosis automatically
+- Sensitive to lookback period (typically 1-2 years for VaR)
+- May miss unprecedented events
+- Easy to explain to non-technical stakeholders
+- Can incorporate non-linear positions (full revaluation)
+
+
+1.3 MONTE CARLO VAR
+-------------------
+Formula: VaR_α = -Q_α(R_simulated)
+
+Procedure:
+1. Specify risk factor model (correlations, volatilities)
+2. Generate N random scenarios for risk factors
+3. Revalue portfolio under each scenario
+4. Calculate portfolio returns for each scenario
+5. Find α-quantile of simulated returns
+
+Notes:
+- Most flexible method (handles any portfolio complexity)
+- Can incorporate fat tails, skewness, correlations
+- Computationally expensive (requires many simulations)
+- Model risk: results depend on risk factor model
+- Variance reduction techniques (antithetic, control variates) help
+
+
+================================================================================
+SECTION 2: EXPECTED SHORTFALL (CVAR)
+================================================================================
+
+2.1 CONTINUOUS FORMULATION
+--------------------------
+Formula: ES_α = (1/α) × ∫₀^α VaR_u du
+
+Equivalently: ES_α = E[X | X ≤ VaR_α]
+
+Where:
+- ES_α = Expected Shortfall at confidence level α
+- VaR_u = VaR at confidence level u (as function)
+- X = Random variable representing portfolio loss
+- E[· | condition] = Conditional expectation
+
+Derivation:
+ES_α is the average of VaR_u from 0 to α:
+ES_α = (1/α) × ∫₀^α [-Q_u(R)] du
+     = -E[R | R ≤ VaR_α] (for continuous distributions)
+
+
+2.2 NORMAL DISTRIBUTION ES
+--------------------------
+For normally distributed losses:
+ES_α = μ - σ × [φ(z_α) / (1 - α)]
+
+Where:
+- φ(z) = Standard normal PDF = (1/√(2π)) × exp(-z²/2)
+- z_α = α-quantile of standard normal
+- For 95%: φ(1.645) / 0.05 ≈ 0.399 / 0.05 ≈ 7.99
+- So ES_95 ≈ μ - σ × 2.06 (vs VaR_95 = μ - σ × 1.645)
+
+
+2.3 PROPERTIES OF EXPECTED SHORTFALL
+------------------------------------
+✓ Coherent risk measure (satisfies all four axioms)
+✓ Subadditive: ES(X+Y) ≤ ES(X) + ES(Y)
+✓ Captures tail severity beyond VaR
+✓ More sensitive to tail thickness
+✓ Regulatory preference under Basel III
+
+Comparison with VaR:
+- VaR_95 = 1M means 5% chance of losing >1M
+- ES_95 = 1.5M means when losses exceed 1M, average is 1.5M
+- ES > VaR always (for continuous distributions)
+- Ratio ES/VaR increases with tail fatness
+
+
+================================================================================
+SECTION 3: BLACK-SCHOLES GREEKS
+================================================================================
+
+3.1 DEFINITIONS AND d1, d2
+--------------------------
+For call option pricing under Black-Scholes:
+
+C = S_0 × N(d_1) - K × e^(-rT) × N(d_2)
+
+Where:
+d_1 = [ln(S_0/K) + (r + σ²/2) × T] / (σ × √T)
+d_2 = d_1 - σ × √T = [ln(S_0/K) + (r - σ²/2) × T] / (σ × √T)
+
+Variables:
+- S_0 = Current stock price
+- K = Strike price
+- r = Risk-free interest rate (continuously compounded)
+- σ = Volatility (annualized)
+- T = Time to expiration (in years)
+- N(·) = Cumulative standard normal distribution
+- N'(·) = Standard normal probability density function
+
+
+3.2 DELTA (Δ) - First Price Derivative w.r.t. Underlying
+--------------------------------------------------------
+Call: Δ_call = ∂C/∂S = N(d_1)
+Put: Δ_put = ∂P/∂S = N(d_1) - 1 = -N(-d_1)
+
+Range:
+- Call Delta: 0 to 1
+- Put Delta: -1 to 0
+
+Interpretation:
+- Delta = 0.5 means option price changes $0.50 per $1 underlying move
+- Delta ≈ N(d_1) = Risk-neutral probability option finishes in-the-money
+- Hedge ratio: number of options needed to hedge 1 share
+
+Delta approximation:
+Δ ≈ (Call Price with S_up - Call Price with S_down) / (S_up - S_down)
+
+
+3.3 GAMMA (Γ) - Second Price Derivative w.r.t. Underlying
+---------------------------------------------------------
+Call & Put: Γ = ∂²C/∂S² = N'(d_1) / (S_0 × σ × √T)
+
+Where N'(d_1) = (1/√(2π)) × exp(-d_1²/2)
+
+Properties:
+- Always positive for long options
+- Maximum for at-the-money options
+- Increases as expiration approaches (for ATM)
+- Higher for lower volatility, shorter time
+
+Gamma interpretation:
+- Rate of change of Delta per unit change in S
+- Large Gamma = Delta changes rapidly = expensive to hedge
+- Gamma decay: Γ increases as T → 0 (for ATM options)
+
+
+3.4 VEGA (ν) - First Price Derivative w.r.t. Volatility
+--------------------------------------------------------
+Call & Put: ν = ∂V/∂σ = S_0 × N'(d_1) × √T
+
+Properties:
+- Always positive (higher vol = higher option price)
+- Maximum for at-the-money, long-dated options
+- Decreases as T → 0
+- Vega > 0 for both calls and puts (symmetric through put-call parity)
+
+Vega interpretation:
+- ν = 0.15 means option price increases $0.15 per 1% vol increase
+- Long options benefit from vol increases
+- Short options lose from vol increases
+- Volatility of volatility (Volga) measures Vega convexity
+
+
+3.5 THETA (Θ) - First Price Derivative w.r.t. Time
+--------------------------------------------------
+Call: Θ = -[S_0 × N'(d_1) × σ / (2√T)] - r × K × e^(-rT) × N(d_2)
+
+Put: Θ = -[S_0 × N'(d_1) × σ / (2√T)] + r × K × e^(-rT) × N(-d_2)
+
+Usually divided by 365 for daily theta.
+
+Theta interpretation:
+- Typically negative for long options (time decay)
+- First term: loss of time value from reduced time for favorable move
+- Second term: carry cost (calls: cost of financing strike; puts: benefit)
+- Maximum negative for at-the-money, short-dated options
+
+
+3.6 RHO (ρ) - First Price Derivative w.r.t. Interest Rate
+---------------------------------------------------------
+Call: ρ = ∂C/∂r = K × T × e^(-rT) × N(d_2)
+Put: ρ = ∂P/∂r = -K × T × e^(-rT) × N(-d_2)
+
+Rho interpretation:
+- Calls: positive (higher rates = lower present value of strike)
+- Puts: negative (higher rates = lower present value of payoff)
+- More important for long-dated options
+- Usually smallest Greek for short-term equity options
+
+
+3.7 VANNA (∂²V/∂S∂σ) - Cross Sensitivity
+----------------------------------------
+Formula: Vanna = ∂²V/∂S∂σ = ∂Δ/∂σ = N'(d_1) × (d_2 / σ)
+
+Interpretation:
+- How Delta changes with volatility
+- How Vega changes with underlying price
+- Can be positive or negative depending on moneyness
+- Important for Delta-hedged portfolios with vol exposure
+
+
+3.8 VOLGA/VOMMA (∂²V/∂σ²) - Volatility Convexity
+-------------------------------------------------
+Formula: Volga = ∂²V/∂σ² = S_0 × N'(d_1) × √T × d_1 × d_2
+
+Interpretation:
+- How Vega changes with volatility
+- Always positive (Vega increases with vol)
+- Higher for at-the-money options
+- Important for vol-of-vol trading
+
+
+3.9 CHARM (∂Δ/∂T) - Delta Decay
+-------------------------------
+Formula: Charm = ∂Δ/∂T = -N'(d_1) × [d_2 × σ / (2√T) + r × N(d_2) / N'(d_1)]
+
+Interpretation:
+- How Delta changes with time (holding underlying constant)
+- Usually negative for calls (Delta decays toward 0)
+- Important for Delta-hedged portfolio rebalancing costs
+
+
+================================================================================
+SECTION 4: PORTFOLIO RISK METRICS
+================================================================================
+
+4.1 PORTFOLIO VARIANCE (MATRIX FORM)
+------------------------------------
+σ_p² = w'Σw
+
+Where:
+- w = Vector of portfolio weights (n × 1)
+- Σ = Covariance matrix (n × n)
+  - Diagonal: σ_i² = Var(R_i)
+  - Off-diagonal: Σ_ij = Cov(R_i, R_j) = ρ_ij × σ_i × σ_j
+- w' = Transpose of weight vector (1 × n)
+
+Expanded form:
+σ_p² = Σ_i w_i² σ_i² + Σ_i Σ_{j≠i} w_i w_j ρ_ij σ_i σ_j
+
+
+4.2 DIVERSIFICATION EFFECT
+--------------------------
+Without diversification (ρ = 1):
+σ_p²_no_div = (Σ_i w_i σ_i)²
+
+With diversification (ρ < 1):
+σ_p²_div = w'Σw < σ_p²_no_div
+
+Diversification benefit = σ_p²_no_div - σ_p²_div > 0
+
+
+4.3 BETA AND SYSTEMATIC RISK
+----------------------------
+β_i = Cov(R_i, R_m) / Var(R_m) = ρ_{i,m} × σ_i / σ_m
+
+Where:
+- R_m = Market portfolio return
+- Cov(R_i, R_m) = Covariance between asset i and market
+- Var(R_m) = Market variance
+- ρ_{i,m} = Correlation between asset i and market
+
+Portfolio beta:
+β_p = Σ_i w_i β_i
+
+
+4.4 TRACKING ERROR
+------------------
+TE = Std(R_p - R_b) = Std(α)
+
+Where:
+- R_p = Portfolio return
+- R_b = Benchmark return
+- α = Active return (excess return)
+
+Annualized TE (for daily returns):
+TE_annual = TE_daily × √252
+
+
+================================================================================
+SECTION 5: PERFORMANCE RATIOS
+================================================================================
+
+5.1 SHARPE RATIO
+----------------
+Sharpe = (R_p - R_f) / σ_p
+
+Where:
+- R_p = Portfolio return (annualized)
+- R_f = Risk-free rate (annualized)
+- σ_p = Portfolio standard deviation (annualized)
+
+Interpretation:
+- Excess return per unit total risk
+- Higher is better
+- Historical equity Sharpe: ~0.3-0.5
+- Target for active managers: >0.5
+
+
+5.2 SORTINO RATIO
+-----------------
+Sortino = (R_p - R_f) / σ_down
+
+Where:
+- σ_down = Downside deviation = √[Σ min(R_t - R_f, 0)² / n]
+
+Difference from Sharpe:
+- Uses only downside volatility in denominator
+- Doesn't penalize upside volatility
+- Better for asymmetric return distributions
+
+
+5.3 TREYNOR RATIO
+-----------------
+Treynor = (R_p - R_f) / β_p
+
+Where:
+- β_p = Portfolio beta (systematic risk)
+
+Interpretation:
+- Excess return per unit systematic risk
+- Appropriate for well-diversified portfolios
+- Assumes unsystematic risk has been diversified away
+
+
+5.4 INFORMATION RATIO
+---------------------
+IR = (R_p - R_b) / TE = α / TE
+
+Where:
+- R_b = Benchmark return
+- TE = Tracking error
+- α = Active return
+
+Fundamental law of active management:
+IR = IC × √Breadth
+
+Where:
+- IC = Information coefficient (correlation of predictions with outcomes)
+- Breadth = Number of independent investment decisions
+
+
+================================================================================
+SECTION 6: DRAWDOWN METRICS
+================================================================================
+
+6.1 MAXIMUM DRAWDOWN
+--------------------
+MDD = max_t [Peak(t) - Trough(t)] / Peak(t)
+
+Where:
+- Peak(t) = max_{s≤t} V(s) = Running maximum of portfolio value
+- Trough(t) = V(t) = Current portfolio value
+
+Time to recovery:
+Recovery time = min{t : V(t) = Peak(previous peak)}
+
+
+6.2 CALMAR RATIO
+----------------
+Calmar = Annual Return / |MDD|
+
+Where:
+- Annual Return = CAGR over the measurement period
+- |MDD| = Absolute value of maximum drawdown
+
+Typical values:
+- Managed futures: 1.0-3.0
+- Equities: 0.3-0.8
+- Hedge funds: 0.5-1.5
+
+
+6.3 DRAWDOWN DISTRIBUTION
+-------------------------
+For random walk with drift:
+P(MDD > x) ≈ (T/x)^(1/2) × exp(-2μx/σ²)
+
+Where:
+- T = Investment horizon
+- μ = Drift (expected return)
+- σ = Volatility
+
+This shows MDD follows approximately log-normal distribution.
+
+
+================================================================================
+SECTION 7: COHERENT RISK MEASURES
+================================================================================
+
+7.1 AXIOMS OF COHERENCE (Artzner, Delbaen, Eber, Heath 1999)
+------------------------------------------------------------
+
+AXIOM 1: Monotonicity
+If X ≤ Y (Y is always at least as good as X)
+Then ρ(X) ≥ ρ(Y) (risk of X ≥ risk of Y)
+
+AXIOM 2: Translation Invariance
+ρ(X + a) = ρ(X) - a for any constant a
+(Adding cash reduces risk by exactly that amount)
+
+AXIOM 3: Positive Homogeneity
+ρ(λX) = λρ(X) for any λ ≥ 0
+(Scaling position scales risk proportionally)
+
+AXIOM 4: Subadditivity
+ρ(X + Y) ≤ ρ(X) + ρ(Y)
+(Diversification never increases risk)
+
+
+7.2 COHERENT RISK MEASURES
+--------------------------
+✓ Expected Shortfall (CVaR) - satisfies all axioms
+✓ Entropic risk measure - satisfies all axioms
+✓ Spectral risk measures - satisfies all axioms
+
+✗ Value at Risk (VaR) - FAILS subadditivity
+Counterexample: Two 95% VaR 0 positions can have 100% VaR when combined
+
+
+7.3 DUAL REPRESENTATION
+-----------------------
+For any coherent risk measure ρ:
+ρ(X) = sup_{Q∈ℚ} E_Q[-X]
+
+Where:
+- ℚ = Set of probability measures (risk envelope)
+- E_Q = Expectation under measure Q
+- sup = supremum (worst-case over all measures)
+
+Interpretation: Risk is the worst-case expected loss over a set of plausible probability measures.
+
+
+================================================================================
+SECTION 8: INCREMENTAL AND MARGINAL RISK MEASURES
+================================================================================
+
+8.1 INCREMENTAL VaR
+-------------------
+IVaR = VaR_with_position - VaR_without_position
+
+Interpretation:
+- How much does portfolio VaR increase by adding this position?
+- Can be negative (diversification benefit)
+- Not additive: IVaR(A+B) ≠ IVaR(A) + IVaR(B)
+
+
+8.2 MARGINAL VaR
+----------------
+MVaR = ∂VaR/∂w ≈ IVaR for small position changes
+
+Calculation approaches:
+1. Numerical: Change weight slightly, recompute VaR
+2. Analytical (normal): MVaR_i = (Cov(R_i, R_p)) / σ_p
+
+
+8.3 COMPONENT VaR
+-----------------
+CVaR_i = w_i × MVaR_i
+
+Property: Σ_i CVaR_i = VaR_portfolio
+
+Component VaR is additive, making it useful for:
+- Risk budgeting
+- Capital allocation
+- Performance attribution
+
+
+8.4 RELATIONSHIPS
+-----------------
+MVaR = CVaR_i / w_i (for w_i > 0)
+IVaR ≈ MVaR × Δw (for small changes)
+
+
+================================================================================
+SECTION 9: STRESS TESTING FRAMEWORK
+================================================================================
+
+9.1 SENSITIVITY-BASED STRESS TESTING
+------------------------------------
+ΔP ≈ Σ_i S_i × ΔF_i
+
+Where:
+- ΔP = Portfolio P&L change
+- S_i = Sensitivity to risk factor i (Delta, DV01, etc.)
+- ΔF_i = Stress change in risk factor i
+
+Example scenarios:
+- Equity: -30% S&P 500, -40% emerging markets
+- Rates: +200bps across yield curve
+- Credit: +500bps spread widening
+- FX: +20% USD, -15% EUR
+- Vol: VIX +50%, vol surface parallel shift
+
+
+9.2 HISTORICAL STRESS SCENARIOS
+-------------------------------
+Scenario: 2008 Financial Crisis (Sept-Oct 2008)
+- S&P 500: -40.7%
+- VIX: +115%
+- Investment grade spreads: +350bps
+- High yield spreads: +1200bps
+- USD Index: -6%
+- Oil: -45%
+
+Scenario: COVID-19 (Feb-Mar 2020)
+- S&P 500: -34%
+- VIX: +280% (peak)
+- Credit spreads: +400bps
+- Treasury yields: -100bps
+- Gold: +10%
+
+
+9.3 HYPOTHETICAL SCENARIOS
+--------------------------
+Examples of hypothetical stress tests:
+1. Cyber attack on major financial infrastructure
+2. Sovereign default cascade (Greece × 5)
+3. Oil price shock (+100% or -50%)
+4. Geopolitical conflict (energy supply disruption)
+5. Climate change physical risk (property values -30%)
+6. Transition risk (stranded assets in energy portfolio)
+
+
+================================================================================
+SECTION 10: RISK BUDGETING AND PARI
+================================================================================
+
+10.1 EQUAL RISK CONTRIBUTION (ERC)
+----------------------------------
+Risk contribution:
+RC_i = w_i × ∂σ_p/∂w_i = w_i × (Σw)_i / σ_p
+
+ERC condition:
+RC_i = RC_j for all i, j
+
+Algorithm to find ERC weights:
+1. Start with equal weights
+2. Compute risk contributions
+3. Adjust weights to equalize contributions
+4. Repeat until convergence
+
+
+10.2 RISK PARITY
+----------------
+Risk parity extends ERC to risk factors:
+Equal contribution from:
+- Equity beta risk
+- Duration risk
+- Credit risk
+- Commodity risk
+- Currency risk
+
+Implementation:
+1. Identify factor exposures (β_eq, duration, credit, etc.)
+2. Allocate risk budget equally to each factor
+3. Find assets/positions achieving factor exposures
+
+
+10.3 RISK BUDGETING OPTIMIZATION
+--------------------------------
+Minimize: ||RC - target_RC||²
+
+Subject to:
+- Σw_i = 1 (fully invested)
+- w_i ≥ 0 (no short selling, optional)
+
+This allows specifying unequal risk budgets (e.g., more to higher-conviction positions).
+
+
+================================================================================
+SECTION 11: WRONG-WAY RISK
+================================================================================
+
+11.1 DEFINITION
+---------------
+Wrong-Way Risk (WWR) exists when:
+- Exposure to counterparty is positively correlated with
+  counterparty's default probability
+
+Mathematically: Corr(Exposure, Default_Intensity) > 0
+
+
+11.2 WWR MEASUREMENT
+--------------------
+Simple approach:
+WWR Factor = Corr(Exposure, Default) / √[Corr(Exposure, Exposure) × Corr(Default, Default)]
+           = Corr(Exposure, Default)
+
+Since Corr(Default, Default) = 1:
+WWR Factor = Corr(Exposure, Default)
+
+
+11.3 MODELING APPROACHES
+------------------------
+
+Approach 1: Copula-based
+- Model exposure and default as correlated random variables
+- Use Gaussian copula, t-copula, or Clayton copula
+- Adjust correlation for WWR
+
+Approach 2: Factor model
+- Common factors drive both exposure and default
+- E.g., economic growth factor affects both
+
+Approach 3: Stress testing
+- Calculate CVA under extreme wrong-way scenarios
+- Add capital for WWR amplification
+
+
+11.4 REGULATORY TREATMENT
+-------------------------
+Basel CVA capital formula includes WWR adjustment:
+- Multiplier for highly correlated counterparties
+- Higher capital for positions with observed WWR
+
+
+================================================================================
+SECTION 12: GREEKS FOR PATH-DEPENDENT OPTIONS
+================================================================================
+
+12.1 ASIAN OPTIONS (Average Price)
+----------------------------------
+Arithmetic average: A = (1/n) × Σ_{i=1}^n S(t_i)
+Geometric average: G = [Π_{i=1}^n S(t_i)]^(1/n)
+
+Asian Call Payoff: max(A - K, 0)
+Asian Put Payoff: max(K - A, 0)
+
+Greeks properties:
+- Delta < European Delta (averaging reduces sensitivity)
+- Gamma < European Gamma
+- Vega < European Vega
+- Theta different pattern (earlier time decay)
+
+Approximation (Turnbull-Wakeman):
+V_asian ≈ V_geometric × adjustment_factor
+
+
+12.2 BARRIER OPTIONS
+--------------------
+Types:
+- Down-and-out: Knock out if S ≤ B
+- Down-and-in: Knocks in if S ≤ B
+- Up-and-out: Knock out if S ≥ B
+- Up-and-in: Knocks in if S ≥ B
+
+Barrier Delta behavior:
+- Spikes near barrier
+- Continuous at barrier (for standard barriers)
+- Can be computed using reflection principle
+
+Barrier Vega:
+- Concentrated near barrier
+- Higher for closer barriers
+- Sensitive to vol changes near barrier
+
+
+12.3 LOOKBACK OPTIONS
+---------------------
+Floating strike lookback call:
+Payoff = max(S_max - S_T, 0) where S_max = max_{t≤T} S(t)
+
+Floating strike lookback put:
+Payoff = max(S_T - S_min, 0) where S_min = min_{t≤T} S(t)
+
+Greeks properties:
+- Delta depends on current S vs S_max (or S_min)
+- Near S_max, Delta → 0 (strike already favorable)
+- Away from S_max, Delta → European Delta
+- Path-dependent: different paths = different Greeks
+
+
+12.4 DIGITAL/BINARY OPTIONS
+---------------------------
+Cash-or-nothing call:
+Payoff = Q × 1_{S_T > K} (Q = fixed amount)
+
+Asset-or-nothing call:
+Payoff = S_T × 1_{S_T > K}
+
+Greeks:
+- Delta = 0 almost everywhere, infinite at S = K
+- Gamma = 0 almost everywhere, infinite at S = K
+- Requires numerical smoothing for practical use
+
+
+================================================================================
+SECTION 13: LIQUIDITY-ADJUSTED RISK MEASURES
+================================================================================
+
+13.1 BID-ASK SPREAD ADJUSTMENT
+------------------------------
+LVaR = VaR + Spread × Notional × Adjustment_Factor
+
+Adjustment factors:
+- Linear: 1.0 (full spread cost)
+- Square root time: √(holding_period/days)
+- Custom: depends on market depth
+
+13.2 MARKET IMPACT MODEL
+------------------------
+Cost = Impact × √(Trade_Size / ADV)
+
+Where:
+- Impact = Market impact coefficient (empirically estimated)
+- ADV = Average daily volume
+- Trade_Size = Order size
+
+13.3 ALMGREN-CHRISS FRAMEWORK
+-----------------------------
+Optimal liquidation splits large order into small slices:
+Minimize: E[Cost] + λ × Var(Cost)
+
+Solution gives explicit formula for:
+- Trade trajectory (shares per time step)
+- Expected implementation shortfall
+- Temporary vs permanent market impact
+
+
+================================================================================
+SECTION 14: ADDITIONAL RESEARCH TOPICS
+================================================================================
+
+14.1 VOLATILITY MODELING
+------------------------
+GARCH(1,1):
+σ_t² = ω + α × ε_{t-1}² + β × σ_{t-1}²
+
+EWMA (RiskMetrics):
+σ_t² = λ × σ_{t-1}² + (1-λ) × ε_{t-1}²
+(λ typically 0.94)
+
+Realized volatility:
+σ = √(252 × Σ_{i=1}^n r_i²) (for n daily returns)
+
+
+14.2 CORRELATION MODELING
+-------------------------
+DCC (Dynamic Conditional Correlation):
+Q_t = (1 - a - b) × S + a × (ε_{t-1}ε'_{t-1}) + b × Q_{t-1}
+R_t = diag(Q_t)^{-1/2} × Q_t × diag(Q_t)^{-1/2}
+
+Where:
+- S = Unconditional correlation matrix
+- ε = Standardized residuals
+- a, b = DCC parameters (a + b < 1)
+
+
+14.3 EXTREME VALUE THEORY
+-------------------------
+Generalized Pareto Distribution (for tail modeling):
+F(x) = 1 - (1 + ξx/σ)^(-1/ξ)
+
+For VaR beyond historical observations:
+VaR_{1-α} = μ + σ/ξ × [(n/(kα))^ξ - 1]
+
+Where:
+- ξ = Tail index (shape parameter)
+- σ = Scale parameter
+- n = Total observations
+- k = Number of exceedances
+
+
+14.4 COPULA-BASED RISK MEASUREMENT
+----------------------------------
+Gaussian copula:
+C_ρ(u_1, ..., u_n) = Φ_ρ(Φ^{-1}(u_1), ..., Φ^{-1}(u_n))
+
+t-copula:
+C_ρ,ν(u_1, ..., u_n) = t_ρ,ν(t_ν^{-1}(u_1), ..., t_ν^{-1}(u_n))
+
+Tail dependence coefficient (t-copula):
+λ = 2 × t_{ν+1}(-√((ν+1)(1-ρ)/(1+ρ)))
+
+This measures extreme co-movement probability.
+
+
+14.5 MODEL VALIDATION
+---------------------
+Backtesting framework (Kupiec 1995):
+LR_uc = 2 × ln[(1-α)^(N-x) × α^x] - 2 × ln[(1-x/N)^{N-x} × (x/N)^x]
+
+Where:
+- N = Total observations
+- x = Number of exceedances
+- α = Confidence level
+
+Christoffersen test (independence):
+LR_ind = 2 × ln[L(π|π_00, π_01) / L(π|π, π)]
+
+
+================================================================================
+SECTION 15: EQUATION SUMMARY TABLE
+================================================================================
+
+| Metric          | Formula Key                                   | Category          |
+|-----------------|-----------------------------------------------|-------------------|
+| VaR (Parametric)| μ - z_α × σ                                   | Risk Measure      |
+| VaR (Historical)| -Q_α(R)                                       | Risk Measure      |
+| Expected Short  | (1/α)∫VaR_u du                                | Risk Measure      |
+| Delta           | N(d_1)                                        | Greek             |
+| Gamma           | N'(d_1)/(Sσ√T)                                | Greek             |
+| Vega            | S N'(d_1) √T                                  | Greek             |
+| Theta           | -(S N'(d₁)σ)/(2√T) - rK e^{-rT}N(d₂)          | Greek             |
+| Rho             | K T e^{-rT} N(d₂)                             | Greek             |
+| Vanna           | N'(d₁) d₂/σ                                   | Greek             |
+| Volga           | S N'(d₁) √T d₁ d₂                             | Greek             |
+| Charm           | -N'(d₁)[d₂σ/(2√T) + r N(d₂)/N'(d₁)]          | Greek             |
+| Sharpe          | (R_p - R_f)/σ_p                               | Performance       |
+| Sortino         | (R_p - R_f)/σ_down                            | Performance       |
+| Treynor         | (R_p - R_f)/β_p                               | Performance       |
+| Information     | (R_p - R_b)/TE                                | Performance       |
+| Max Drawdown    | max(Peak - Trough)/Peak                       | Drawdown          |
+| Calmar          | Annual Return/|MDD|                          | Drawdown          |
+| Portfolio Var   | w'Σw                                          | Portfolio Risk    |
+| ERC Risk Contrib| w_i × (Σw)_i / σ_p                            | Risk Budgeting    |
+
+================================================================================
+SECTION 16: NOTES ON IMPLEMENTATION
+================================================================================
+
+16.1 NUMERICAL CONSIDERATIONS
+-----------------------------
+- Covariance matrix estimation: shrinkage estimators improve stability
+- VaR backtesting: minimum 250-500 observations for statistical power
+- Greek calculation: finite differences vs analytical (analytical preferred)
+- Monte Carlo: variance reduction essential for tail estimation
+
+16.2 REGULATORY REQUIREMENTS
+----------------------------
+- Basel 2.5: Stressed VaR, Incremental Risk Charge
+- Basel III: Expected Shortfall (FRTB), CVA capital
+- BCBS 239: Risk data aggregation principles
+- CCAR: Comprehensive Capital Analysis and Review (US)
+
+16.3 COMMON PITFALLS
+--------------------
+- VaR assumes normal distribution (underestimates tail risk)
+- Ignoring correlation breakdowns during crises
+- Using in-sample data for out-of-sample predictions
+- Over-reliance on single risk measure
+- Ignoring model risk and parameter uncertainty
+- Not considering liquidity in stress scenarios
+
+16.4 BEST PRACTICES
+-------------------
+- Use multiple risk measures (VaR + ES + Stress)
+- Implement robust backtesting framework
+- Maintain documentation of models and assumptions
+- Regular model validation and peer review
+- Conservative capital buffers above minimum requirements
+- Integration of risk measures into business decisions
+
+================================================================================
+END OF WORKING NOTES
+================================================================================
