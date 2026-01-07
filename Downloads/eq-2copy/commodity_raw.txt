@@ -1,0 +1,517 @@
+================================================================================
+COMMODITY DERIVATIVES AND ENERGY - WORKING NOTES AND EQUATIONS
+================================================================================
+
+Equation 1: Futures Price (Cost of Carry)
+-----------------------------------------
+F = S_0 * e^((r + u - y) * T)
+
+Variables:
+- F = Futures price for delivery at time T
+- S_0 = Current spot price
+- r = Risk-free interest rate
+- u = Storage cost as proportion of spot price per unit time
+- y = Convenience yield (benefit from physically holding commodity)
+- T = Time to delivery in years
+
+Key concepts:
+- Generalization of covered interest parity to commodities
+- Contango: F > S_0 when r + u > y
+- Backwardation: F < S_0 when y > r + u
+- Exponential form reflects continuous compounding
+
+References:
+- Hull, J. C. (2018). Options, Futures, and Other Derivatives
+- Gorton, G. & Rouwenhorst, K. G. (2006). Liquidity, Term Structure, and Efficiency of Commodity Futures
+
+================================================================================
+
+Equation 2: Futures Price with Storage (Discrete)
+-------------------------------------------------
+F = (S_0 + U) * e^(rT) - V
+
+Variables:
+- U = Present value of total storage costs
+- V = Present value of convenience benefits
+- Other variables same as above
+
+Key concepts:
+- Explicit handling of discrete storage costs
+- Cash-and-carry arbitrage bounds
+- Physical storage economics
+
+================================================================================
+
+Equation 3: Implicit Convenience Yield
+--------------------------------------
+y = r + u - (1/T) * ln(F/S_0)
+
+Variables:
+- Derived from cost-of-carry model
+- All variables must be consistent (annualized, continuous)
+
+Key concepts:
+- Implied from market prices
+- Leading indicator of supply-demand tightness
+- High y indicates backwardation
+
+================================================================================
+
+Equation 4: Calendar Spread Value
+---------------------------------
+V_spread = F_1 - F_2 = e^(-rT_2) * (S_0 * e^(-y_1*T_1) - S_0 * e^(-y_2*T_2))
+
+Variables:
+- F_1 = Near-term futures price (delivery at T_1)
+- F_2 = Far-term futures price (delivery at T_2)
+- y_1, y_2 = Convenience yields for respective periods
+
+Key concepts:
+- Isolates time value component
+- Captures term structure dynamics
+- Lower margin requirements than outright positions
+
+================================================================================
+
+Equation 5: Futures Forward Spread
+----------------------------------
+Spread = F_1 - F_2
+
+Variables:
+- Simple price difference between two futures
+- Can be inter-commodity or intra-commodity
+
+Key concepts:
+- Foundation of spread trading
+- Filters out common price movements
+- Captures relative value opportunities
+
+================================================================================
+
+Equation 6: Spread Option (Kirk's Approximation)
+------------------------------------------------
+V ≈ C(F_1, K*, σ_spread) where K* = K * e^(-(r + u_2)*T_2)
+
+Variables:
+- C = Black's call option pricing function
+- K* = Adjusted strike
+- σ_spread = Effective spread volatility
+
+Key concepts:
+- Correlation adjustment for two-asset option
+- σ_spread = sqrt(σ_1² + σ_2² - 2ρσ_1σ_2)
+- Efficient approximation for trading applications
+
+================================================================================
+
+Equation 7: Black's Spread Option Model
+---------------------------------------
+V = e^(-rT) * [F_1 * N(d_1) - F_2 * N(d_2)]
+
+Variables:
+- N(d) = Standard normal CDF
+- d_1 = [ln(F_1/F_2) + 0.5*σ²T] / [σ√T]
+- d_2 = d_1 - σ√T
+
+Key concepts:
+- Closed-form solution for exchange options
+- Assumes bivariate log-normal distribution
+- Foundation for crack spread and spark spread options
+
+================================================================================
+
+Equation 8: Crack Spread (3:2:1)
+-------------------------------
+Crack = 3*P_gas - 2*P_oil - P_ref
+
+Variables:
+- P_gas = Gasoline price
+- P_oil = Crude oil price
+- P_ref = Refining cost/other products
+- 3:2:1 ratio = 3 gal gasoline from 1 bbl crude
+
+Key concepts:
+- Most actively traded energy spread
+- Refining margin proxy
+- Seasonal patterns in crack spread
+
+================================================================================
+
+Equation 9: Spark Spread
+-----------------------
+Spark = P_power - HHV * P_gas
+
+Variables:
+- P_power = Electricity price ($/MWh)
+- HHV = Higher heating value (~1,027 BTU/scf)
+- P_gas = Natural gas price ($/MMBtu)
+- Heat rate conversion: 10,000 BTU/kWh = 1 MMBtu/MWh
+
+Key concepts:
+- Gas-fired generation margin
+- Determines merit-order dispatch
+- Sets marginal electricity price in many markets
+
+================================================================================
+
+Equation 10: Clean Spark Spread
+-------------------------------
+CSS = P_power - HHV * P_gas - emission_costs
+
+Variables:
+- emission_costs = EmissionsRate * CarbonPrice
+- EmissionsRate ~ 0.4-0.5 tons CO2/MWh for gas
+
+Key concepts:
+- True margin in carbon-constrained markets
+- Important for EU ETS, California compliance
+- Drives fuel switching decisions
+
+================================================================================
+
+Equation 11: Mean-Reverting Spot Price (Ornstein-Uhlenbeck)
+-----------------------------------------------------------
+dS_t = a(b - S_t)dt + σdW_t
+
+Variables:
+- S_t = Spot price at time t
+- a = Mean-reversion speed
+- b = Long-run mean price
+- σ = Instantaneous volatility
+- dW_t = Wiener process
+
+Key concepts:
+- Gaussian process with analytical tractability
+- Captures reversion to equilibrium
+- Foundation for commodity price modeling
+
+================================================================================
+
+Equation 12: Schwartz One-Factor Model
+--------------------------------------
+d ln S_t = κ(θ - ln S_t)dt + σdW_t
+
+Variables:
+- ln S_t = Natural log of spot price
+- κ = Mean-reversion speed in log-space
+- θ = Long-run mean of log-price
+- σ = Volatility of log-returns
+
+Key concepts:
+- Log-normal mean-reverting dynamics
+- Proportional shocks to price level
+- Widely used for commodity derivatives pricing
+
+================================================================================
+
+Equation 13: Schwartz Two-Factor Model
+--------------------------------------
+dS_t = κ_S(θ_S - ln S_t)dt + σ_SdW_S
+dδ_t = κ_δ(θ_δ - δ_t)dt + σ_δdW_δ
+
+Variables:
+- S_t = Spot price
+- δ_t = Convenience yield or net investment return
+- Correlated Wiener processes W_S, W_δ
+
+Key concepts:
+- Stochastic convenience yield
+- Captures price-yield correlation
+- Improved forward curve dynamics
+
+================================================================================
+
+Equation 14: Electricity Spot (Langevin)
+----------------------------------------
+dS_t = -λ(S_t - μ)dt + σdW_t
+
+Variables:
+- S_t = Electricity spot price
+- λ = Mean-reversion rate (higher than storable commodities)
+- μ = Long-run mean price
+- σ = Instantaneous volatility
+
+Key concepts:
+- Rapid mean-reversion (no storage)
+- Extreme spikes followed by rapid decay
+- Requires jump-diffusion extension for spikes
+
+================================================================================
+
+Equation 15: Gas Storage Valuation (Dynamic Programming)
+--------------------------------------------------------
+V_t(S_t) = max[E_t[e^(-rΔ)V_{t+Δ}(S_{t+Δ})], S_t - C_t]
+
+Variables:
+- V_t = Value of storage at time t with inventory S_t
+- E_t = Conditional expectation
+- C_t = Cost of holding inventory
+
+Key concepts:
+- Real options approach
+- Injection/withdrawal decisions
+- Optimal trigger structure for trading
+
+================================================================================
+
+Equation 16: Stack-and-Roll Strategy
+------------------------------------
+Roll = Σ ΔF_i
+
+Variables:
+- ΔF_i = Change in futures price from roll i-1 to roll i
+- Sum over all rolls in holding period
+
+Key concepts:
+- Continuous futures exposure
+- Roll yield = difference between futures return and spot return
+- Negative in contango, positive in backwardation
+
+================================================================================
+
+Equation 17: Contango/Backwardation Measure (Basis)
+---------------------------------------------------
+Basis = F - S = (r + u - y)ST
+
+Variables:
+- Linear approximation for small T
+- Positive basis = contango
+- Negative basis = backwardation
+
+Key concepts:
+- Direct measure of market structure
+- Cash-and-carry arbitrage bounds
+- Storage arbitrage profitability
+
+================================================================================
+
+Equation 18: Calendar Option
+---------------------------
+V = e^(-rT)E[(F_2 - F_1)+]
+
+Variables:
+- Option to establish spread at expiration
+- Payoff based on spread at T
+- Compound option structure
+
+Key concepts:
+- Right to enter spread position
+- Protects against unfavorable spread widening
+- Useful for timing uncertainty hedging
+
+================================================================================
+ADDITIONAL TOPICS RESEARCH NOTES
+================================================================================
+
+WEATHER DERIVATIVES
+-------------------
+Key structures:
+- Heating Degree Days (HDD) = max(0, 65 - T_avg) [Fahrenheit]
+- Cooling Degree Days (CDD) = max(0, T_avg - 65) [Fahrenheit]
+- Cumulative over monthly/seasonal periods
+- Payout = max(0, Index - Strike) × Notional
+
+Markets:
+- CME weather futures and options (HDD, CDD, precipitation)
+- OTC customized structures for specific exposures
+- Temperature, rainfall, hurricane indices
+
+Pricing approach:
+- Historical burn analysis
+- Weather simulation models
+- Actuarial methods
+- Temperature forecasting models
+
+================================================================================
+
+EMISSIONS TRADING
+-----------------
+Key instruments:
+- EU Allowances (EUA) under EU ETS
+- California Carbon Allowances (CCA)
+- UK Emissions Trading Scheme
+- China national carbon market
+- Voluntary carbon credits (VERs, CERs)
+
+Pricing factors:
+- Policy stringency and future targets
+- Technology costs and abatement curve
+- Economic activity levels
+- Energy price relationships (coal-gas switching)
+- Market reforms and supply adjustments
+
+Derivatives:
+- Spot, forward, futures on allowances
+- Options on allowances and spreads
+- Carbon credit derivatives
+- Emission reduction credit (ERC) contracts
+
+================================================================================
+
+COAL AND LNG DERIVATIVES
+------------------------
+Coal:
+- Thermal coal indices (Argus/McCloskey, Platts)
+- Metallurgical coal (coking coal) pricing
+- Quality adjustments for CV, ash, sulfur
+- Shipping cost component (Baltic Freight Index)
+
+LNG:
+- Regional prices (JKM, TTF, Henry Hub, NBP)
+- Destination flexibility options
+- Shipping cost component (DFRA, VLGC rates)
+- Regasification capacity constraints
+- Spot vs. long-term contract pricing
+
+Key considerations:
+- Quality differentials and adjustments
+- Location basis and shipping economics
+- Contract flexibility (destination, timing)
+- Seasonal patterns in demand
+
+================================================================================
+
+COMMODITY INDEX ROLL YIELD
+--------------------------
+Components of commodity index return:
+1. Collateral return (risk-free rate on margin)
+2. Spot return (change in spot price)
+3. Roll return (cash-and-carry over time)
+
+Roll return drivers:
+- Forward curve shape (contango vs. backwardation)
+- Roll strategy (monthly, quarterly, optimized)
+- Contract liquidity and bid-ask spreads
+- Index methodology (weighting scheme)
+
+Optimization approaches:
+- Threshold rolling (roll only when contango exceeds cost)
+- Calendar rolling (spread-based roll timing)
+- Multi-contract rolling (smooth transition)
+- Dynamic weight optimization
+
+================================================================================
+
+MULTI-COMMODITY OPTIMIZATION
+----------------------------
+Mean-variance optimization framework:
+- Maximize: μ'x - (1/2)λx'Σx
+- Subject to: Ax ≤ b, Cx = d
+
+Key considerations for commodities:
+- Roll yield as return component
+- Basis risk and correlation structure
+- Storage constraints and costs
+- Liquidity and position limits
+- Sector allocation constraints
+
+Risk measures:
+- Variance and standard deviation
+- Value at Risk (VaR)
+- Conditional Value at Risk (CVaR)
+- Tracking error relative to benchmark
+- Maximum drawdown
+
+================================================================================
+ADDITIONAL EQUATIONS FOR COMPREHENSIVE DATASET
+================================================================================
+
+JUMP-DIFFUSION MODEL FOR COMMODITY PRICES
+-----------------------------------------
+dS_t/S_t = (r - y - λμ)dt + σdW_t + (Y - 1)dN_t
+
+Where:
+- N_t = Poisson jump process with intensity λ
+- Y = Jump size (log-normal distribution)
+- μ = E[Y - 1] = expected jump size adjustment
+
+Key concepts:
+- Captures price spikes in energy markets
+- Separate dynamics for continuous and jump components
+- Compound Poisson process for jump arrival
+- Relevant for electricity and natural gas
+
+================================================================================
+
+STOCHASTIC VOLATILITY MODEL
+---------------------------
+dS_t/S_t = (r - y)dt + sqrt(V_t) dW_S
+dV_t = κ(θ - V_t)dt + ξ sqrt(V_t) dW_V
+dW_S dW_V = ρ dt
+
+Variables:
+- V_t = Stochastic variance process (CIR square root process)
+- ξ = Volatility of volatility
+- ρ = Correlation between price and variance shocks
+
+Key concepts:
+- Captures volatility clustering
+- Leverages effect (negative correlation)
+- Used for commodities with changing volatility regimes
+- Forms basis for Heston model extension
+
+================================================================================
+
+FORWARD CURVE MODELING
+----------------------
+F(t, T) = S_t * exp((r + u - y)(T - t)) + ε
+
+Or multi-factor extension:
+F(t, T) = S_t * exp(Σ_i [θ_i(T) - θ_i(t)] * e^(-κ_i(T-t)))
+
+Where:
+- θ_i = Factor loadings for each mean-reverting component
+- κ_i = Decay rates for each factor
+- Multiple factors capture different curve shapes
+
+Key concepts:
+- Principal component analysis identifies curve factors
+- Level, slope, curvature components
+- Applications in curve trading and spread options
+
+================================================================================
+CROSS-COMMODITY RELATIONSHIPS
+================================================================================
+
+Crude Oil to Products Relationships:
+- Crack spread = 3*Gasoline + 2*Heating Oil - 4*Crude (simplified)
+- 3-2-1 crack spread is standard benchmark
+- Spark spread relationship to power prices
+- Residual fuel oil spread vs. gas/diesel
+
+Natural Gas to Power Relationships:
+- Spark spread = Power - Heat_Rate * Gas
+- Dark spread (coal to power) for coal-fired generation
+- Clean dark spread includes carbon costs
+- Heat rate options and gas price sensitivity
+
+Carbon to Energy Relationships:
+- Carbon cost per MWh = Emissions_rate * Carbon_price
+- Coal-to-gas switching threshold = Carbon_price / (Emissions_diff)
+- Clean spark spread vs. clean dark spread comparison
+
+================================================================================
+PRACTICAL IMPLEMENTATION NOTES
+================================================================================
+
+Calibration approaches:
+- Maximum likelihood estimation (MLE)
+- Generalized method of moments (GMM)
+- Kalman filtering for state-space models
+- Least squares fitting to market prices
+
+Risk management considerations:
+- VaR and CVaR for commodity portfolios
+- Stress testing for extreme price movements
+- Basis risk quantification
+- Liquidity risk for less liquid contracts
+
+Model validation:
+- In-sample fit statistics
+- Out-of-sample testing
+- Comparison with alternative specifications
+- Backtesting against realized prices
+
+================================================================================
+END OF WORKING NOTES
+================================================================================
