@@ -1,0 +1,875 @@
+================================================================================
+STOCHASTIC PROCESSES AND MARTINGALES - WORKING NOTES
+================================================================================
+
+This document contains detailed derivations, explanations, and context for each
+equation in the Stochastic Processes dataset.
+
+================================================================================
+1. GEOMETRIC BROWNIAN MOTION (SDE)
+================================================================================
+
+The fundamental diffusion process underlying the Black-Scholes framework.
+
+Equation: dS_t = μ S_t dt + σ S_t dW_t
+
+VARIABLES:
+- S_t: Asset price at time t
+- μ: Drift coefficient (expected return)
+- σ: Volatility coefficient (standard deviation of returns)
+- dW_t: Wiener process increment
+- t: Time
+- dt: Infinitesimal time interval
+
+INTERPRETATION:
+GBM is the canonical model for asset price dynamics. The equation states that
+the instantaneous return dS_t/S_t follows a normal distribution with mean μ dt
+and variance σ² dt. This implies log-returns are normally distributed, which
+matches empirical observations for liquid assets over short horizons.
+
+The multiplicative nature ensures prices remain positive (S_t > 0 for S_0 > 0).
+
+ASSUMPTIONS:
+- Markets are efficient (no arbitrage)
+- Returns are normally distributed
+- Volatility is constant
+- Drift is constant
+- Paths are continuous but nowhere differentiable
+
+PRACTICAL USE:
+- Stock price modeling
+- Option pricing foundation
+- Risk management frameworks
+- Monte Carlo simulation baseline
+- Interest rate modeling (with modifications)
+
+================================================================================
+2. GBM SOLUTION (LOG-NORMAL)
+================================================================================
+
+The closed-form solution to the GBM SDE, demonstrating log-normality.
+
+Equation: S_T = S_0 exp((μ - σ²/2)T + σ W_T)
+
+VARIABLES:
+- S_T: Terminal asset price at time T
+- S_0: Initial asset price
+- μ: Drift coefficient
+- σ: Volatility
+- T: Time to maturity
+- W_T: Brownian motion at time T (W_T ~ N(0, T))
+- exp: Exponential function
+
+INTERPRETATION:
+The solution reveals the log-normal distribution of asset prices. The term
+(μ - σ²/2)T represents the drift adjustment required because the expectation
+of a log-normal variable is not simply exp(mean of log). This "convexity
+adjustment" is critical for pricing and hedging.
+
+E[exp(σ W_T)] = exp(0.5 σ² T), so to have E[S_T] = S_0 exp(μ T), we must
+subtract 0.5 σ² T from the exponent.
+
+ASSUMPTIONS:
+- Same as GBM SDE
+- Brownian motion has independent increments
+- Quadratic variation [W]_T = T
+
+PRACTICAL USE:
+- Monte Carlo simulation of stock prices
+- Computing expected values under risk-neutral measure
+- Deriving Black-Scholes formula
+- Understanding the Volatility smile/skew
+- Calibrating models to market prices
+
+================================================================================
+3. ITÔ'S LEMMA
+================================================================================
+
+The chain rule of stochastic calculus, essential for derivative pricing.
+
+Equation: df = (∂f/∂t + μ ∂f/∂S + 0.5 σ² S² ∂²f/∂S²) dt + σ S ∂f/∂S dW_t
+
+VARIABLES:
+- f: Twice differentiable function f(t, S_t)
+- ∂f/∂t: Partial derivative with respect to time
+- ∂f/∂S: First partial derivative with respect to S (Delta)
+- ∂²f/∂S²: Second partial derivative with respect to S (Gamma)
+- μ: Drift of underlying
+- σ: Volatility of underlying
+- S: State variable (asset price)
+- dW_t: Brownian increment
+
+INTERPRETATION:
+Unlike deterministic calculus, stochastic differentials contain an additional
+second-order term 0.5 σ² S² f_SS. This captures the convexity adjustment from
+Brownian motion's non-differentiability. Without this term, the Itô integral
+would not be a martingale.
+
+ASSUMPTIONS:
+- f(t, x) is C¹ in t and C² in x
+- S_t is an Itô process: dS_t = μ_t dt + σ_t dW_t
+- μ_t and σ_t satisfy Lipschitz and growth conditions
+
+PRACTICAL USE:
+- Deriving the Black-Scholes PDE
+- Computing option Greeks (Delta, Gamma)
+- Pricing path-dependent options
+- Model development (Heston, SABR, local volatility)
+- Dynamic hedging strategies
+
+================================================================================
+4. ORNSTEIN-UHLENBECK PROCESS
+================================================================================
+
+Mean-reverting process for interest rates and volatility modeling.
+
+Equation: dr_t = a(b - r_t) dt + σ dW_t
+
+VARIABLES:
+- r_t: Short rate at time t
+- a: Speed of mean reversion (a > 0)
+- b: Long-term mean level
+- σ: Volatility of the short rate
+- dW_t: Brownian motion increment
+
+INTERPRETATION:
+The OU process is the continuous-time analog of an AR(1) process. The term
+a(b - r_t) pulls the process toward the long-term mean b at speed a. When
+r_t > b, the drift is negative; when r_t < b, the drift is positive.
+
+Unlike GBM, the OU process can become negative (unless reflected), making it
+suitable for modeling short rates that may be near zero.
+
+ASSUMPTIONS:
+- a > 0 for mean reversion
+- b is the long-run equilibrium
+- σ > 0 for randomness
+- Brownian motion under physical measure P
+
+PRACTICAL USE:
+- Vasicek interest rate model
+- Stochastic volatility models (Hull-White extension)
+- Mean-reverting commodity prices
+- Credit spread modeling
+- Interest rate derivative pricing
+
+================================================================================
+5. MEAN-REVERTING PROCESS (SOLUTION)
+================================================================================
+
+Closed-form solution to the OU process, showing the explicit structure.
+
+Equation: r_t = r_0 e^{-at} + b(1 - e^{-at}) + σ e^{-at} ∫₀ᵗ e^{as} dW_s
+
+VARIABLES:
+- r_t: Rate at time t
+- r_0: Initial rate
+- a: Mean reversion speed
+- b: Long-term mean
+- σ: Volatility
+- e: Exponential function
+- ∫₀ᵗ: Integral from 0 to t
+- dW_s: Brownian increment at time s
+
+INTERPRETATION:
+The solution decomposes r_t into three components:
+1. Initial value decaying exponentially: r_0 e^{-at}
+2. Long-term mean pulled in over time: b(1 - e^{-at})
+3. Stochastic integral representing random fluctuations
+
+The stochastic integral is Gaussian with mean zero and variance:
+Var(∫₀ᵗ e^{as} dW_s) = (σ²/(2a)) (e^{2at} - 1)
+
+Thus r_t is normally distributed with:
+E[r_t] = r_0 e^{-at} + b(1 - e^{-at})
+Var[r_t] = (σ²/(2a)) (1 - e^{-2at})
+
+ASSUMPTIONS:
+- Same as OU process
+- Stochastic integral is well-defined (Itô integral)
+- Parameters are constant
+
+PRACTICAL USE:
+- Simulation of interest rate paths
+- Parameter calibration to yield curve
+- Computing bond prices analytically
+- Hull-White interest rate model
+- Understanding mean-reversion dynamics
+
+================================================================================
+6. COX-INGERSOLL-ROSS (SQUARE ROOT)
+================================================================================
+
+Positive interest rate model with state-dependent volatility.
+
+Equation: dr_t = κ(θ - r_t) dt + σ √r_t dW_t
+
+VARIABLES:
+- r_t: Short rate at time t
+- κ (kappa): Speed of mean reversion (κ > 0)
+- θ (theta): Long-term mean level
+- σ: Volatility coefficient
+- √r_t: Square root of the rate (volatility proportional to √r)
+- dW_t: Brownian motion increment
+
+INTERPRETATION:
+The CIR model extends Vasicek by making volatility proportional to √r_t.
+This ensures the process stays non-negative (with probability 1) and has
+realistic volatility behavior: low rates have low volatility, high rates have
+higher volatility.
+
+The volatility term σ √r_t dW_t prevents negative rates because:
+- If r_t → 0+, the volatility shrinks
+- The drift pulls back to θ
+- Feller condition: 2κθ ≥ σ² ensures strict positivity
+
+ASSUMPTIONS:
+- κ > 0, θ > 0, σ > 0
+- Feller condition: 2κθ ≥ σ²
+- Under risk-neutral measure for pricing
+
+PRACTICAL USE:
+- CIR interest rate model
+- Stochastic intensity for credit risk
+- Affine term structure models
+- Zero-coupon bond pricing
+- Interest rate derivatives (caps, floors)
+- Hull-White with CIR (extended Vasicek)
+
+================================================================================
+7. HESTON STOCHASTIC VOLATILITY
+================================================================================
+
+Popular stochastic volatility model with leverage effect.
+
+Equations:
+dS_t = μ S_t dt + √v_t S_t dW_1
+dv_t = κ(θ - v_t) dt + ξ √v_t dW_2
+dW_1 dW_2 = ρ dt
+
+VARIABLES:
+- S_t: Asset price
+- v_t: Variance (volatility squared)
+- μ: Drift of asset price
+- κ: Mean reversion speed of variance
+- θ: Long-run mean of variance
+- ξ (xi): Volatility of variance (vol-of-vol)
+- √v_t: Standard deviation of returns
+- dW_1, dW_2: Correlated Brownian motions
+- ρ: Correlation between asset and variance shocks (-1 ≤ ρ ≤ 0)
+
+INTERPRETATION:
+Heston separates the modeling of price and volatility. Key features:
+- Variance follows a CIR process (stays positive)
+- Asset returns depend on current variance
+- Correlation ρ captures the "leverage effect" (negative ρ: when prices
+  fall, volatility tends to rise)
+- Closed-form characteristic function enables efficient option pricing
+
+The model explains volatility clustering and the volatility smile/smile
+better than constant volatility models.
+
+ASSUMPTIONS:
+- v_t > 0 by Feller condition
+- Brownian motions are correlated
+- Parameters satisfy regularity conditions
+- Risk-neutral drift for variance under pricing measure
+
+PRACTICAL USE:
+- Equity option pricing (SPX, stocks)
+- Capturing implied volatility surface
+- Hedging volatility exposure
+- Risk management with stochastic vol
+- Foreign exchange options (with adaptations)
+- Extending to joint SPX/VIX models
+
+================================================================================
+8. MARTINGALE PROPERTY
+================================================================================
+
+Fundamental pricing principle: discounted asset prices are martingales.
+
+Equation: E^Q[V_T | F_t] = V_t
+
+VARIABLES:
+- E^Q: Expectation under risk-neutral measure Q
+- V_T: Value at terminal time T
+- V_t: Value at time t
+- F_t: Information up to time t (filtration)
+- |: Conditional on
+
+INTERPRETATION:
+The martingale property is the cornerstone of modern derivatives pricing.
+It states that the conditional expectation of the future value, given all
+available information, equals the current value. This implies no arbitrage:
+you cannot expect to profit from trading based on available information.
+
+In risk-neutral pricing, the discounted stock price S_t / B_t (where B_t is
+the bank account) is a Q-martingale, as is any self-financing portfolio
+replicating a derivative.
+
+ASSUMPTIONS:
+- Q is an equivalent martingale measure
+- Filtration F_t represents available information
+- Market is arbitrage-free (FTAP)
+- Trading strategy is admissible
+
+PRACTICAL USE:
+- Fundamental theorem of asset pricing
+- Risk-neutral valuation principle
+- Verifying no arbitrage
+- Constructing replicating portfolios
+- Testing pricing model consistency
+
+================================================================================
+9. RADON-NIKODYM DERIVATIVE
+================================================================================
+
+Density process for change of measure between probability spaces.
+
+Equation: dQ/dP = exp(-∫ θ dW - 0.5 ∫ θ² dt)
+
+VARIABLES:
+- dQ/dP: Radon-Nikodym derivative (likelihood ratio)
+- θ: Market price of risk (Sharpe ratio)
+- dW: Brownian increment under P
+- ∫ θ dW: Stochastic integral (Itô integral)
+- ∫ θ² dt: Integrated variance
+- exp: Exponential (ensures positivity)
+- P: Physical (real-world) measure
+- Q: Risk-neutral measure
+
+INTERPRETATION:
+The RN derivative defines how to transform expectations from physical measure
+P to risk-neutral measure Q. The exponential form ensures the resulting
+measure is a probability measure (Novikov's condition ensures this).
+
+The process Z_t = dQ/dP|_t is a martingale under P:
+Z_t = exp(-∫₀ᵗ θ_s dW_s - 0.5 ∫₀ᵗ θ_s² ds)
+
+This allows changing from physical drift μ to risk-neutral drift r.
+
+ASSUMPTIONS:
+- θ is adapted and satisfies Novikov's condition
+- Girsanov's theorem conditions hold
+- Measures Q and P are equivalent
+
+PRACTICAL USE:
+- Risk-neutral pricing framework
+- Change of numeraire
+- Hedging with incomplete markets
+- Volatility derivatives pricing
+- Combining multiple risk factors
+
+================================================================================
+10. GIRSANOV THEOREM (DRIFT CHANGE)
+================================================================================
+
+Theorem governing how Brownian motion transforms under measure change.
+
+Equation: dW^Q = dW^P + θ dt
+
+VARIABLES:
+- dW^Q: Brownian increment under risk-neutral measure Q
+- dW^P: Brownian increment under physical measure P
+- θ: Market price of risk
+- dt: Time differential
+
+INTERPRETATION:
+Girsanov's theorem states that under a change of measure defined by the
+Radon-Nikodym derivative, a Brownian motion remains a Brownian motion, but
+its drift changes. Under the new measure Q, the Brownian increment is:
+
+dW^Q = dW^P + θ dt
+
+This means W_t^Q = W_t^P + ∫₀ᵗ θ_s ds, so the Q-Brownian motion has drift θ
+under the P-measure.
+
+The key insight: changing measure shifts the drift of all Itô processes,
+enabling risk-neutral pricing where all assets earn the risk-free rate.
+
+ASSUMPTIONS:
+- Z_t = dQ/dP is a martingale under P
+- Novikov's condition: E[exp(0.5 ∫ θ² ds)] < ∞
+- θ is adapted to the filtration
+
+PRACTICAL USE:
+- Constructing risk-neutral measure
+- Deriving risk-neutral drift for SDEs
+- Forward measure construction
+- Option pricing under stochastic rates
+- Credit risk modeling with change of measure
+
+================================================================================
+11. RISK-NEUTRAL PRICING
+================================================================================
+
+The fundamental pricing formula using risk-neutral expectation.
+
+Equation: V_t = E^Q[e^{-∫_t^T r_s ds} V_T | F_t]
+
+VARIABLES:
+- V_t: Option/value at time t
+- E^Q: Risk-neutral expectation
+- e^{-∫_t^T r_s ds}: Discount factor from t to T
+- r_s: Short rate at time s
+- V_T: Payoff at maturity T
+- F_t: Information up to time t
+- T: Maturity date
+
+INTERPRETATION:
+Risk-neutral pricing states that the value of any derivative is the
+risk-neutral expectation of its discounted payoff. The discount factor
+e^{-∫_t^T r_s ds} accounts for the time value of money.
+
+This formula is remarkable because it prices using the risk-free rate r
+instead of the asset's actual expected return μ. The market prices risk
+through the change of measure to Q, not through discounting.
+
+For European options, V_T is the payoff (e.g., max(S_T - K, 0) for calls).
+
+ASSUMPTIONS:
+- Q is an equivalent martingale measure
+- Markets are arbitrage-free (no free lunch)
+- Complete markets (unique pricing) or incomplete (range of prices)
+- Short rate r_s is adapted and integrable
+
+PRACTICAL USE:
+- Black-Scholes formula derivation
+- Interest rate derivative pricing
+- Credit derivative pricing
+- Exotic option pricing
+- Model-independent pricing bounds
+
+================================================================================
+12. FEYNMAN-KAC FORMULA
+================================================================================
+
+Connection between SDEs and PDEs through conditional expectation.
+
+Equation: f(t,x) = E[e^{-∫_t^T r_s ds} g(X_T) | X_t = x]
+
+VARIABLES:
+- f(t,x): Value function (solution to PDE)
+- E: Conditional expectation
+- e^{-∫_t^T r_s ds}: Discount factor
+- r_s: Short rate process
+- g(X_T): Terminal payoff function
+- X_t: State variable at time t
+- X_T: Terminal state variable
+- T: Terminal time
+
+INTERPRETATION:
+The Feynman-Kac formula establishes that certain parabolic PDEs have
+stochastic representation as conditional expectations. If f(t, x) satisfies:
+
+-f_t - μ(t,x) f_x - 0.5 σ²(t,x) f_xx + r(t,x) f = 0
+f(T, x) = g(x)
+
+Then f(t, x) = E[discounted payoff | X_t = x].
+
+This bridges stochastic analysis and partial differential equations,
+enabling PDE methods for pricing and numerical methods (Monte Carlo,
+PDE solvers) for each other.
+
+ASSUMPTIONS:
+- X_t follows an Itô diffusion
+- Coefficients satisfy regularity conditions
+- Growth conditions for existence/uniqueness
+- Feynman-Kac conditions for PDE well-posedness
+
+PRACTICAL USE:
+- Black-Scholes PDE derivation
+- Numerical PDE methods for pricing
+- Monte Carlo with control variates
+- American option pricing (early exercise)
+- Path-dependent option pricing
+
+================================================================================
+13. CHANGE OF NUMERAIRE
+================================================================================
+
+Technique for simplifying pricing by choosing optimal numeraire.
+
+Equation: dQ^N/dQ^M = (N_T / M_T) / E^Q[N_T / M_T]
+
+VARIABLES:
+- dQ^N/dQ^M: Radon-Nikodym derivative for numeraire change
+- N_T: Terminal value of new numeraire
+- M_T: Terminal value of old numeraire
+- E^Q: Expectation under original measure
+- Q^N: New measure with numeraire N
+- Q^M: Original measure with numeraire M
+
+INTERPRETATION:
+The change of numeraire formula allows us to price assets by choosing a
+numeraire that simplifies the expectation. Under numeraire N, asset prices
+discounted by N are martingales.
+
+The density process ξ_T = (N_T / M_T) / E^Q[N_T / M_T] transforms between
+measures. Common choices:
+- Money market account (B_t = e^{∫₀ᵗ r_s ds})
+- Zero-coupon bond (P(t, T))
+- Stock (S_t)
+- Forward measure (using bond as numeraire)
+
+ASSUMPTIONS:
+- N_T and M_T are strictly positive tradable assets
+- Radon-Nikodym derivative defines a valid probability measure
+- Novikov's condition or equivalent for martingale property
+
+PRACTICAL USE:
+- Forward measure pricing
+- Cap/floor valuation
+- Swaption pricing
+- LIBOR market model
+- Simplifying joint distributions
+- Interest rate convexity adjustments
+
+================================================================================
+14. T-FORWARD MEASURE
+================================================================================
+
+Measure that simplifies forward rate derivative pricing.
+
+Equation: P(t,T) = E^Q[e^{-∫₀ᵗ r_s ds} | F_t]
+
+VARIABLES:
+- P(t,T): Zero-coupon bond price at t maturing at T
+- E^Q: Risk-neutral expectation
+- e^{-∫₀ᵗ r_s ds}: Discount factor to time 0
+- r_s: Short rate at time s
+- F_t: Information up to time t
+- Q^T: T-forward measure
+
+INTERPRETATION:
+The T-forward measure Q^T uses the zero-coupon bond P(t,T) as numeraire.
+Under this measure:
+- The discounted asset price S_t / P(t,T) is a martingale
+- The forward Libor rate L(t, T, T+δ) is a martingale
+- Short rates have different drift than under Q
+
+The expectation on the right defines the bond price under Q. Taking
+expectation of the discounted terminal value P(T,T) = 1 gives P(t,T).
+
+This measure is essential for forward rate modeling because it makes
+forward rates martingales, simplifying their dynamics.
+
+ASSUMPTIONS:
+- P(t,T) > 0 for all 0 ≤ t ≤ T
+- Short rate model under Q exists
+- Radon-Nikodym derivative from Q to Q^T is well-defined
+
+PRACTICAL USE:
+- LIBOR market model (LMM) calibration
+- Forward rate agreement (FRA) pricing
+- Cap/floor valuation (caplets are martingales)
+- Swaption pricing
+- Forward measure dynamics
+- Convexity adjustments
+
+================================================================================
+15. STOCHASTIC INTEGRAL
+================================================================================
+
+The Itô integral: integrating adapted processes against Brownian motion.
+
+Equation: ∫₀ᵗ H_s dW_s
+
+VARIABLES:
+- ∫₀ᵗ: Stochastic integral from 0 to t
+- H_s: Adapted stochastic process (integrand)
+- dW_s: Brownian increment
+- W_s: Standard Brownian motion
+
+INTERPRETATION:
+The Itô integral extends Riemann integration to stochastic processes. It is
+defined as the L²-limit of simple processes:
+∫₀ᵗ H_s dW_s = lim ∑ H_{t_i} (W_{t_{i+1}} - W_{t_i})
+
+Key properties:
+1. Linearity: ∫(aH + bK) dW = a∫H dW + b∫K dW
+2. Isometry: E[(∫H dW)²] = E[∫H² ds]
+3. Martingale: M_t = ∫₀ᵗ H_s dW_s is a martingale
+4. Zero mean: E[∫₀ᵗ H_s dW_s] = 0
+
+The integral is adapted to the filtration and measurable with respect to
+the completed filtration generated by W.
+
+ASSUMPTIONS:
+- H_s is adapted to F_s
+- E[∫₀ᵗ H_s² ds] < ∞ (square-integrable)
+- H_s is progressively measurable
+- Paths are sufficiently regular
+
+PRACTICAL USE:
+- Defining Itô processes
+- Pricing and hedging derivatives
+- Computing variances of stochastic integrals
+- Building martingale representations
+- Malliavin calculus (Skorohod integrals)
+- Volterra processes and rough volatility
+
+================================================================================
+16. QUADRATIC VARIATION
+================================================================================
+
+Measure of cumulative stochastic variability, defining Itô calculus.
+
+Equation: [W, W]_t = t, [W, W]_s = min(s, t)
+
+VARIABLES:
+- [W, W]_t: Quadratic variation of Brownian motion up to t
+- t: Time
+- s, t: Two time points
+- min(s, t): Minimum of s and t
+
+INTERPRETATION:
+Quadratic variation [X]_t measures the accumulated variance of a process X.
+For Brownian motion, [W]_t = t: the quadratic variation equals time.
+This distinguishes stochastic processes from smooth functions:
+- Smooth functions: [f]_t = 0
+- Brownian motion: [W]_t = t
+
+For two processes X and Y, the cross variation is:
+[X, Y]_t = lim ∑ (X_{t_{i+1}} - X_{t_i})(Y_{t_{i+1}} - Y_{t_i})
+
+Key application: Itô's formula in differential form uses dX dX = d[X]_t.
+For Brownian motion: (dW_t)² = dt.
+
+ASSUMPTIONS:
+- Process has paths of finite quadratic variation
+- Partition mesh → 0 for limit
+- Processes are semimartingales
+
+PRACTICAL USE:
+- Itô's formula derivation
+- Stratonovich to Itô conversion
+- Variance of stochastic integrals
+- Realized volatility estimation
+- High-frequency finance
+- Limit theorems
+
+================================================================================
+17. AFFINE TERM STRUCTURE CONDITION
+================================================================================
+
+Characterizing models where bond prices are exponential-affine.
+
+Equation: P(t,T) = exp(A(t,T) - B(t,T) r_t)
+
+VARIABLES:
+- P(t,T): Zero-coupon bond price at t maturing at T
+- exp: Exponential function
+- A(t,T): Time-to-maturity function (scalar)
+- B(t,T): Time-to-maturity function (coefficient)
+- r_t: Short rate at time t
+- T - t: Time to maturity
+
+INTERPRETATION:
+The affine term structure (ATS) condition states that bond prices are
+exponential-affine functions of the short rate. This powerful property
+implies that the yield curve is linear in the short rate.
+
+For the Vasicek model:
+A(t,T) = (B²/2a + B)(e^{-a(T-t)} - 1) + (B - 1)(T-t)
+B(t,T) = (1 - e^{-a(T-t)})/a
+
+For CIR model, A involves logarithms and B² terms.
+
+Models with ATS:
+- Vasicek, CIR, Hull-White
+- Multi-factor extensions
+- Some quadratic models
+
+ASSUMPTIONS:
+- Short rate follows affine diffusion
+- Drift and diffusion coefficients are affine in r
+- Parameters are deterministic functions of time
+
+PRACTICAL USE:
+- Fast bond price computation
+- Yield curve fitting
+- Model tractability
+- Interest rate calibration
+- Risk management
+- Closed-form derivatives pricing
+
+================================================================================
+18. CHARACTERISTIC FUNCTION (HESTON)
+================================================================================
+
+Moment-generating function for Fourier-based option pricing.
+
+Equation: φ(u, t, v) = E[e^{iu ln S_T}]
+
+VARIABLES:
+- φ: Characteristic function
+- u: Complex integration variable (iu = -k for moment generating)
+- t: Time to maturity
+- v: Current variance (v_t)
+- E: Expectation under risk-neutral measure
+- exp: Exponential function
+- i: Imaginary unit (i² = -1)
+- ln S_T: Log of terminal stock price
+- S_T: Terminal stock price
+
+INTERPRETATION:
+The characteristic function φ(u) = E[e^{iu X}] completely characterizes the
+distribution of random variable X. For option pricing, Carr-Madan or
+Lewis-Lipton formulas use Fourier transforms of the call price:
+
+C(S_0, K) = (1/π) ∫₀^∞ Re[e^{-iuk} φ(u) D(u)] du
+
+where D(u) is the discount factor kernel.
+
+For Heston, the characteristic function has closed form:
+φ(u, t, v) = exp(C(u, t) + D(u, t) v + iu ln S_0)
+
+with C(u, t) and D(u, t) solving Riccati ODEs.
+
+ASSUMPTIONS:
+- Risk-neutral measure Q
+- Heston model parameters
+- Integration contour in complex plane
+- Characteristic function exists and is integrable
+
+PRACTICAL USE:
+- Fast Fourier Transform (FFT) pricing
+- Volatility surface construction
+- Arbitrage-free interpolation
+- Model calibration
+- Greeks computation
+- Pricing under complex payoffs
+
+================================================================================
+ADDITIONAL TOPICS
+================================================================================
+
+A. SABR MODEL
+================================================================================
+Stochastic Alpha Beta Rho model for smile-consistent interpolation.
+
+Equation: dF_t = σ_t (F_t)^{β} dW_t
+dσ_t = ν σ_t dZ_t
+dW_t dZ_t = ρ dt
+
+VARIABLES:
+- F_t: Forward rate or asset price
+- σ_t: Instantaneous volatility
+- β: CEV parameter (0 ≤ β ≤ 1)
+- ν: Vol-of-vol
+- ρ: Correlation between vol and forward
+- W, Z: Correlated Brownian motions
+
+Key formula (Hagan et al. asymptotic):
+α: Initial volatility
+σ_BS(K) ≈ (α/(F^{1-β})) * [1 + ...] * normal CDF term
+
+INTERPRETATION:
+SABR provides a closed-form approximation for implied volatility as a
+function of strike and expiry. The model captures:
+- Smile/skew through ρ
+- Curvature through ν
+- Volatility level through α
+- Power law through β (β=1 gives lognormal, β=0 gives normal)
+
+B. LOCAL VOLATILITY (DUPIRE)
+================================================================================
+Implied volatility surface converted to instantaneous volatility.
+
+Equation: σ²(K, T) = 2 ∂C/∂T / (K² ∂²C/∂K²)
+
+VARIABLES:
+- σ(K, T): Local volatility as function of strike and expiry
+- C(K, T): Call price as function of strike and expiry
+- ∂C/∂T: Time derivative of call price
+- ∂²C/∂K²: Second strike derivative (convexity)
+
+INTERPRETATION:
+Dupire's formula shows that the entire implied volatility surface can be
+converted to a local volatility surface. Under local volatility, the
+underlying price dynamics are:
+
+dS_t = S_t σ_loc(t, S_t) dW_t
+
+The local volatility surface is used for:
+- Static replication of exotic options
+- Monte Carlo simulation with smile consistency
+- Understanding implied vs realized vol
+
+C. LÉVY PROCESSES
+================================================================================
+Stochastic processes with stationary independent increments.
+
+Properties:
+1. L_0 = 0
+2. Independent increments
+3. Stationary increments (L_{t+s} - L_t ~ L_s)
+4. càdlàg paths (right-continuous with left limits)
+
+Common Lévy processes:
+- Brownian motion (diffusion)
+- Poisson process (jumps)
+- Compound Poisson (jumps with size)
+- CGMY/Generalized Hyperbolic (infinite activity)
+- Variance Gamma (subordinators)
+- Normal Inverse Gaussian (NIG)
+
+Lévy-Khintchine representation:
+φ(u) = iua + ∫(e^{iux} - 1 - ix1_{|x|<1}) ν(dx) + 0.5 σ² u²
+
+INTERPRETATION:
+Lévy processes generalize Brownian motion by allowing jumps. They provide
+more realistic models for asset returns (fat tails, skewness, jumps).
+The characteristic function determines the distribution.
+
+D. MALLIAVIN CALCULUS
+================================================================================
+Stochastic calculus of variations for computing sensitivities.
+
+Key operators:
+- D: Malliavin derivative (derivative w.r.t. Brownian path)
+- δ: Skorohod integral ( adjoint of D, extends Itô integral)
+- L: Ornstein-Uhlenbeck generator (L = -DD*)
+
+Malliavin integration by parts:
+E[δ(u) F] = E[D F · u]
+
+Use: Compute Greeks without pathwise differentiation.
+Δ = E[∂V/∂S] = E[V δ(H) where H = 1/σS]
+
+INTERPRETATION:
+Malliavin calculus provides a framework for differentiating random
+variables defined by stochastic integrals. It is essential for:
+- Monte Carlo Greeks (adjoint algorithmic differentiation)
+- Sensitivity analysis of path-dependent options
+- Understanding regularity conditions
+- Arbitrage-free volatility calibration
+
+E. BRANCHING PROCESSES
+================================================================================
+Population models with random reproduction.
+
+Galton-Watson process:
+P(X_{n+1} = k | X_n = m) = P(∑_{i=1}^m ξ_i = k)
+where ξ_i ~ offspring distribution
+
+Critical parameters:
+- Mean offspring: m = E[ξ]
+- Variance: σ² = Var(ξ)
+
+Classification:
+- Subcritical: m < 1 → extinction almost surely
+- Critical: m = 1 → extinction with probability 1
+- Supercritical: m > 1 → positive survival probability
+
+In finance:
+- Rare event modeling (credit, insurance)
+- Consumption models
+- Rare event derivatives
+- Default clustering (Copula-based)
+
+================================================================================
+END OF WORKING NOTES
+================================================================================
