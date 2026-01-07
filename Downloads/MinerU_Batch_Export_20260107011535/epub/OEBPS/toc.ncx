@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:chinese-etiquette-collection-2026"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+
+  <docTitle>
+    <text>Complete Chinese Etiquette and Business Culture Collection</text>
+  </docTitle>
+
+  <navMap>
+    <navPoint id="toc" playOrder="1">
+      <navLabel>
+        <text>Table of Contents</text>
+      </navLabel>
+      <content src="table-of-contents.md"/>
+    </navPoint>
+
+    <navPoint id="chinese-etiquette" playOrder="2">
+      <navLabel>
+        <text>Chinese Business Etiquette: The Practical Pocket Guide</text>
+      </navLabel>
+      <content src="chinese-business-etiquette-pocket-guide.md"/>
+      <navPoint id="preface" playOrder="3">
+        <navLabel>
+          <text>Preface</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#preface"/>
+      </navPoint>
+      <navPoint id="introduction" playOrder="4">
+        <navLabel>
+          <text>Introduction</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#introduction"/>
+      </navPoint>
+      <navPoint id="importance-etiquette" playOrder="5">
+        <navLabel>
+          <text>The Importance of Etiquette</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#the-importance-of-etiquette"/>
+      </navPoint>
+      <navPoint id="foundations-culture" playOrder="6">
+        <navLabel>
+          <text>Foundations of Chinese Culture</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#foundations-of-chinese-culture"/>
+      </navPoint>
+      <navPoint id="networking" playOrder="7">
+        <navLabel>
+          <text>Networking</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#networking"/>
+      </navPoint>
+      <navPoint id="guanxi" playOrder="8">
+        <navLabel>
+          <text>Guanxi</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#guanxi"/>
+      </navPoint>
+      <navPoint id="politics" playOrder="9">
+        <navLabel>
+          <text>Politics</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#politics"/>
+      </navPoint>
+      <navPoint id="introductions" playOrder="10">
+        <navLabel>
+          <text>Introductions</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#introductions"/>
+      </navPoint>
+      <navPoint id="business-cards" playOrder="11">
+        <navLabel>
+          <text>Business Cards</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#business-cards"/>
+      </navPoint>
+      <navPoint id="saving-face" playOrder="12">
+        <navLabel>
+          <text>Saving Face</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#saving-face"/>
+      </navPoint>
+      <navPoint id="meetings" playOrder="13">
+        <navLabel>
+          <text>Meetings</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#meetings"/>
+      </navPoint>
+      <navPoint id="business-entertainment" playOrder="14">
+        <navLabel>
+          <text>Business Entertainment</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#business-entertainment"/>
+      </navPoint>
+      <navPoint id="shopping" playOrder="15">
+        <navLabel>
+          <text>Shopping</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-pocket-guide.md#shopping"/>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="chinese-etiquette-culture" playOrder="16">
+      <navLabel>
+        <text>Chinese Business Etiquette and Culture</text>
+      </navLabel>
+      <content src="chinese-business-etiquette-and-culture.md"/>
+      <navPoint id="culture-preface" playOrder="17">
+        <navLabel>
+          <text>Preface</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#preface"/>
+      </navPoint>
+      <navPoint id="culture-chapter1" playOrder="18">
+        <navLabel>
+          <text>Chapter 1: Chinese Behavior Patterns</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#chapter-1-chinese-behavior-patterns"/>
+      </navPoint>
+      <navPoint id="culture-chapter2" playOrder="19">
+        <navLabel>
+          <text>Chapter 2: Your Behavior in China</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#chapter-2-your-behavior-in-china"/>
+      </navPoint>
+      <navPoint id="culture-chapter3" playOrder="20">
+        <navLabel>
+          <text>Chapter 3: Starting the Business Process</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#chapter-3-starting-the-business-process"/>
+      </navPoint>
+      <navPoint id="culture-chapter4" playOrder="21">
+        <navLabel>
+          <text>Chapter 4: Meetings</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#chapter-4-meetings"/>
+      </navPoint>
+      <navPoint id="culture-chapter5" playOrder="22">
+        <navLabel>
+          <text>Chapter 5: Negotiating Tactics</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#chapter-5-negotiating-tactics"/>
+      </navPoint>
+      <navPoint id="culture-chapter6" playOrder="23">
+        <navLabel>
+          <text>Chapter 6: Presentations</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#chapter-6-presentations"/>
+      </navPoint>
+      <navPoint id="culture-chapter7" playOrder="24">
+        <navLabel>
+          <text>Chapter 7: Socializing</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#chapter-7-socializing"/>
+      </navPoint>
+      <navPoint id="culture-chapter8" playOrder="25">
+        <navLabel>
+          <text>Chapter 8: Entertaining Chinese Visitors</text>
+        </navLabel>
+        <content src="chinese-business-etiquette-and-culture.md#chapter-8-entertaining-chinese-visitors"/>
+      </navPoint>
+    </navPoint>
+
+    <navPoint id="passport-china" playOrder="26">
+      <navLabel>
+        <text>Passport China: Your Pocket Guide to Chinese Business, Customs & Etiquette</text>
+      </navLabel>
+      <content src="passport-china-business-customs-etiquette.md"/>
+    </navPoint>
+
+    <navPoint id="modern-etiquette" playOrder="27">
+      <navLabel>
+        <text>The Modern Rules of Business Etiquette</text>
+      </navLabel>
+      <content src="modern-rules-of-business-etiquette.md"/>
+    </navPoint>
+
+    <navPoint id="etiquette-advantage" playOrder="28">
+      <navLabel>
+        <text>The Etiquette Advantage in Business</text>
+      </navLabel>
+      <content src="the-etiquette-advantage-in-business-1.md"/>
+    </navPoint>
+  </navMap>
+</ncx>

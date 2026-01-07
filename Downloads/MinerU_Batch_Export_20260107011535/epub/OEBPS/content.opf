@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xml:lang="en" xmlns="http://www.idpf.org/2007/opf" unique-identifier="book-id">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Complete Chinese Etiquette and Business Culture Collection</dc:title>
+    <dc:creator>Multiple Authors</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:identifier id="book-id">urn:uuid:chinese-etiquette-collection-2026</dc:identifier>
+    <dc:date>2026-01-07</dc:date>
+    <dc:description>A comprehensive collection of books on Chinese business etiquette, culture, and social customs.</dc:description>
+    <meta property="dcterms:modified">2026-01-07T12:00:00Z</meta>
+  </metadata>
+
+  <manifest>
+    <item id="toc" href="table-of-contents.md" media-type="text/markdown"/>
+    <item id="chinese-etiquette" href="chinese-business-etiquette-pocket-guide.md" media-type="text/markdown"/>
+    <item id="chinese-etiquette-culture" href="chinese-business-etiquette-and-culture.md" media-type="text/markdown"/>
+    <item id="passport-china" href="passport-china-business-customs-etiquette.md" media-type="text/markdown"/>
+    <item id="modern-etiquette" href="modern-rules-of-business-etiquette.md" media-type="text/markdown"/>
+    <item id="etiquette-advantage" href="the-etiquette-advantage-in-business-1.md" media-type="text/markdown"/>
+    <item id="cover" href="content.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="nav" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+
+  <spine toc="nav">
+    <itemref idref="toc"/>
+    <itemref idref="chinese-etiquette"/>
+    <itemref idref="chinese-etiquette-culture"/>
+    <itemref idref="passport-china"/>
+    <itemref idref="modern-etiquette"/>
+    <itemref idref="etiquette-advantage"/>
+  </spine>
+
+  <guide>
+    <reference type="cover" title="Cover" href="content.jpg"/>
+    <reference type="toc" title="Table of Contents" href="table-of-contents.md"/>
+  </guide>
+</package>
