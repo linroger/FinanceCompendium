@@ -14,6 +14,7 @@ enum MCPClientType: String, CaseIterable, Identifiable, Codable {
     case iflowCLI = "iflow_cli"
     case minimaxCLI = "minimax_cli"
     case openCodeCLI = "opencode_cli"
+    case kimiCLI = "kimi_cli"
 
     var id: String { rawValue }
 
@@ -30,6 +31,7 @@ enum MCPClientType: String, CaseIterable, Identifiable, Codable {
         case .iflowCLI: return "iFlow CLI"
         case .minimaxCLI: return "Minimax CLI"
         case .openCodeCLI: return "OpenCode"
+        case .kimiCLI: return "Kimi CLI"
         }
     }
 
@@ -46,6 +48,7 @@ enum MCPClientType: String, CaseIterable, Identifiable, Codable {
         case .iflowCLI: return "iflow_icon"
         case .minimaxCLI: return "minimax_icon"
         case .openCodeCLI: return "opencode_icon"
+        case .kimiCLI: return "kimi_icon"
         }
     }
 
@@ -65,6 +68,7 @@ enum MCPClientType: String, CaseIterable, Identifiable, Codable {
         case .iflowCLI: return .indigo
         case .minimaxCLI: return .red
         case .openCodeCLI: return .teal
+        case .kimiCLI: return .pink
         }
     }
 
@@ -109,6 +113,8 @@ enum MCPClientType: String, CaseIterable, Identifiable, Codable {
             return [".cc-mirror/minimax/config/.claude.json"]
         case .openCodeCLI:
             return [".config/opencode/opencode.json"]
+        case .kimiCLI:
+            return [".kimi/mcp.json"]
         }
     }
 
@@ -126,6 +132,7 @@ enum MCPClientType: String, CaseIterable, Identifiable, Codable {
         case .iflowCLI: return []  // CLI tool
         case .minimaxCLI: return []  // CLI tool
         case .openCodeCLI: return []  // CLI tool
+        case .kimiCLI: return []  // CLI tool
         }
     }
 
@@ -143,13 +150,14 @@ enum MCPClientType: String, CaseIterable, Identifiable, Codable {
         case .iflowCLI: return ["iflow"]
         case .minimaxCLI: return ["minimax"]
         case .openCodeCLI: return ["opencode"]
+        case .kimiCLI: return ["kimi"]
         }
     }
 
     /// The key used in the config file to store MCP servers
     var configKey: String {
         switch self {
-        case .claudeDesktop, .cursor, .windsurf, .claudeCode, .geminiCLI, .qwenCLI, .iflowCLI, .minimaxCLI:
+        case .claudeDesktop, .cursor, .windsurf, .claudeCode, .geminiCLI, .qwenCLI, .iflowCLI, .minimaxCLI, .kimiCLI:
             return "mcpServers"
         case .vscode:
             return "mcp.servers"
@@ -185,6 +193,7 @@ enum MCPClientType: String, CaseIterable, Identifiable, Codable {
         case .iflowCLI: return "iflow"
         case .minimaxCLI: return "minimax"
         case .openCodeCLI: return "opencode"
+        case .kimiCLI: return "kimi"
         default: return nil
         }
     }
