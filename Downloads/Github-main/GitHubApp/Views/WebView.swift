@@ -24,6 +24,18 @@ struct WebView: NSViewRepresentable {
         // Media playback settings (macOS specific)
         configuration.mediaTypesRequiringUserActionForPlayback = []
 
+        // Enable Passkey & AutoFill support
+        let preferences = WKWebpagePreferences()
+        preferences.allowsContentJavaScript = true
+        configuration.defaultWebpagePreferences = preferences
+
+        // Enable credential AutoFill (passkeys, passwords, etc.)
+        if #available(macOS 13.0, *) {
+            // AutoFill is enabled by default on macOS 13+
+            // WebKit automatically integrates with system AutoFill
+            configuration.preferences.setValue(true, forKey: "autofillEnabled")
+        }
+
         // Create webView
         let webView = WKWebView(frame: .zero, configuration: configuration)
 

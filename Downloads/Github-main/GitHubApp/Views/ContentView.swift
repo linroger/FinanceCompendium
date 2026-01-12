@@ -21,30 +21,27 @@ struct ContentView: View {
             SidebarView()
                 .navigationSplitViewColumnWidth(min: 200, ideal: 250, max: 300)
         } detail: {
-            // Main content area with WebView
-            ZStack(alignment: .top) {
-                // WebView fills the entire area
-                WebView()
-                    .ignoresSafeArea()
-
-                // Smart auto-hide toolbar
+            // Main content area with toolbar and WebView in proper layout
+            VStack(spacing: 0) {
+                // Smart auto-hide toolbar at the top
                 if isToolbarVisible || webViewState.isLoading {
                     ToolbarView()
                         .transition(.move(edge: .top).combined(with: .opacity))
                         .animation(.spring(response: 0.3, dampingFraction: 0.8), value: isToolbarVisible)
+                        .zIndex(1) // Keep toolbar above WebView
                 }
-            }
-            .onHover { hovering in
-                // Show toolbar when hovering near top of window
-                withAnimation {
-                    isToolbarVisible = hovering
-                }
+
+                // WebView fills remaining space
+                WebView()
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
             .background {
                 // Mouse tracking for auto-hide behavior
                 MouseTrackingView { position in
                     // Show toolbar if mouse is in top 100px
-                    isToolbarVisible = position.y < 100
+                    withAnimation(.spring(response: 0.3, dampingFraction: 0.8)) {
+                        isToolbarVisible = position.y < 100
+                    }
                 }
             }
         }

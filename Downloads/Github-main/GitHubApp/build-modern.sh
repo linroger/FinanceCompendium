@@ -188,11 +188,20 @@ if [ -f "../assets/icon.png" ]; then
     echo -e "${GREEN}✅ App icon created${NC}"
 fi
 
-# Code sign (ad-hoc)
-echo -e "${BLUE}✍️  Code signing...${NC}"
-codesign --force --deep --sign - "$APP_DIR" 2>/dev/null || {
-    echo -e "${YELLOW}⚠️  Code signing failed (not critical for local use)${NC}"
-}
+# Code sign with entitlements (ad-hoc)
+echo -e "${BLUE}✍️  Code signing with entitlements...${NC}"
+if [ -f "Resources/GitHubApp.entitlements" ]; then
+    codesign --force --deep --sign - --entitlements Resources/GitHubApp.entitlements "$APP_DIR" 2>/dev/null || {
+        echo -e "${YELLOW}⚠️  Code signing with entitlements failed, trying without...${NC}"
+        codesign --force --deep --sign - "$APP_DIR" 2>/dev/null || {
+            echo -e "${YELLOW}⚠️  Code signing failed (not critical for local use)${NC}"
+        }
+    }
+else
+    codesign --force --deep --sign - "$APP_DIR" 2>/dev/null || {
+        echo -e "${YELLOW}⚠️  Code signing failed (not critical for local use)${NC}"
+    }
+fi
 
 # Print binary info
 echo ""

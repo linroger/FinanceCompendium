@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Allow network access -->
+    <key>com.apple.security.network.client</key>
+    <true/>
+
+    <!-- Allow AutoFill credential provider (for passkeys and passwords) -->
+    <key>com.apple.developer.authentication-services.autofill-credential-provider</key>
+    <true/>
+
+    <!-- Allow app sandbox (required for Mac App Store) -->
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+
+    <!-- Allow temporary exception for outgoing connections (for testing) -->
+    <key>com.apple.security.network.server</key>
+    <false/>
+
+    <!-- Allow file access for downloads (optional) -->
+    <key>com.apple.security.files.downloads.read-write</key>
+    <true/>
+
+    <!-- Associated Domains for Universal Links (optional, for advanced passkey features) -->
+    <!-- Uncomment if you want to associate with specific domains -->
+    <!--
+    <key>com.apple.developer.associated-domains</key>
+    <array>
+        <string>webcredentials:github.com</string>
+    </array>
+    -->
+</dict>
+</plist>
