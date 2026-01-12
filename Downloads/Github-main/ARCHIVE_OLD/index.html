@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSP: 'unsafe-inline' is needed for inline scripts in this local Electron app.
+       Since all content is loaded from local files and not user-generated, the security risk is minimal. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://github.com https://*.github.com; style-src 'self' 'unsafe-inline' https://github.com https://*.github.com; script-src 'self' 'unsafe-inline' https://github.com https://*.github.com; img-src 'self' https: data:; frame-src https://github.com https://*.github.com; connect-src https://github.com https://*.github.com wss: https:; font-src 'self' https: data:;">
+  <title>Github</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="frame-container">
+      <webview
+        id="githubWebview"
+        src="https://github.com/"
+        allowpopups
+        partition="persist:github"
+      ></webview>
+    </div>
+  </div>
+
+  <script>
+    const webview = document.getElementById('githubWebview');
+    webview.addEventListener('dom-ready', () => {
+      console.log('Github webview loaded');
+    });
+  </script>
+</body>
+</html>
+

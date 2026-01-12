@@ -1,0 +1,61 @@
+{
+  "name": "github-mac-app",
+  "version": "1.0.0",
+  "productName": "Github",
+  "description": "Desktop wrapper app for GitHub.com (macOS Intel)",
+  "main": "main.js",
+  "scripts": {
+    "prestart": "npm run generate-icons",
+    "start": "electron .",
+    "generate-icons": "node scripts/generate-icons.mjs",
+    "prebuild": "npm run generate-icons",
+    "prebuild-dmg": "npm run generate-icons",
+    "build": "electron-builder --mac --x64",
+    "build-dmg": "electron-builder --mac --x64"
+  },
+  "keywords": [
+    "github",
+    "electron",
+    "mac"
+  ],
+  "author": "Sumit Duster",
+  "license": "MIT",
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "optionalDependencies": {
+    "dmg-license": "^1.0.11"
+  },
+  "build": {
+    "appId": "com.github.wrapper",
+    "productName": "Github",
+    "directories": {
+      "buildResources": "assets"
+    },
+    "icon": "assets/icon.png",
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": "x64"
+        }
+      ],
+      "category": "public.app-category.developer-tools",
+      "icon": "assets/icon.png",
+      "identity": null
+    },
+    "dmg": {
+      "icon": "assets/icon.png"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "styles.css",
+      "assets/**/*"
+    ]
+  }
+}
+
